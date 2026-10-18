@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChatByVoice</title>
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    .shell { grid-template-columns: 320px 1fr; }
+    .voice-stage {
+      display: grid;
+      grid-template-columns: 112px minmax(0, 1fr);
+      gap: 8px;
+      padding: 8px 10px;
+      margin: 10px max(20px, calc((100% - 840px) / 2)) 6px;
+      border-radius: 14px;
+      border: 1px solid #e1ddd3;
+      background:
+        radial-gradient(circle at top left, rgba(111, 134, 93, 0.12), transparent 34%),
+        linear-gradient(180deg, #fcfbf7, #f4f1e9 70%);
+      box-shadow: 0 8px 18px rgba(52, 61, 48, 0.05);
+      align-items: center;
+    }
+    .voice-orb {
+      display: grid;
+      place-items: center;
+      min-height: 88px;
+      border-radius: 14px;
+      background: linear-gradient(180deg, #f8f7f2, #eef1e8);
+      border: 1px solid #dde1d6;
+      position: relative;
+      overflow: hidden;
+    }
+    .voice-orb::before {
+      content: '';
+      position: absolute;
+      inset: 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(111, 134, 93, 0.18);
+      box-shadow: 0 0 0 8px rgba(111, 134, 93, 0.04);
+    }
+    .voice-orb button {
+      width: 62px;
+      height: 62px;
+      border-radius: 50%;
+      padding: 0;
+      background: radial-gradient(circle at 30% 30%, #6f865d, #32483a);
+      color: #fff;
+      font-size: 9px;
+      letter-spacing: 0.4px;
+      text-transform: uppercase;
+      box-shadow: 0 8px 16px rgba(52, 77, 57, 0.18);
+      position: relative;
+      z-index: 1;
+    }
+    .voice-orb button[disabled] { opacity: 0.7; }
+    .voice-orb .status-badge {
+      margin-top: 4px;
+      font-size: 10px;
+      color: #5b6557;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+    .voice-info {
+      display: grid;
+      gap: 6px;
+      align-self: stretch;
+    }
+    .info-card {
+      padding: 8px 10px;
+      border-radius: 12px;
+      border: 1px solid #ddd9cf;
+      background: rgba(255, 255, 255, 0.68);
+    }
+    .info-card h2,
+    .info-card h3 {
+      margin: 0 0 4px;
+      font-family: Georgia, serif;
+      font-weight: 400;
+      font-size: 18px;
+    }
+    .info-card p { margin: 0; color: #5e685c; line-height: 1.35; font-size: 13px; }
+    .meter {
+      height: 6px;
+      border-radius: 999px;
+      background: #e6e3da;
+      overflow: hidden;
+      margin-top: 6px;
+    }
+    .meter span {
+      display: block;
+      height: 100%;
+      width: 0%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, #8aa472, #42573f);
+      transition: width 80ms linear;
+    }
+    .heard-text {
+      margin-top: 6px;
+      padding: 8px 10px;
+      border-radius: 10px;
+      background: #fff;
+      border: 1px solid #d6dacd;
+      min-height: 34px;
+      font-size: 13px;
+      white-space: pre-wrap;
+    }
+    .voice-controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 6px;
+    }
+    .voice-controls button { padding: 10px 14px; }
+    .voice-playback {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 6px;
+      flex-wrap: wrap;
+    }
+    .voice-playback button { padding: 8px 12px; }
+    @media (max-width: 980px) {
+      .voice-stage {
+        grid-template-columns: 1fr;
+        margin-left: 16px;
+        margin-right: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <aside>
+      <div class="mark">K<span>✦</span></div>
+      <p class="eyebrow">VOICE TO CHAT</p>
+      <h1>Speak, pause,<br>get an answer.</h1>
+      <p class="muted">This page records your voice, sends the audio to the local ASR service, then asks the existing chat engine on your behalf.</p>
+      <label for="topic">KNOWLEDGE COLLECTION</label>
+      <div class="row">
+        <select id="topic"><option>Loading…</option></select>
+        <button id="refresh" title="Refresh topics" aria-label="Refresh topics">↻</button>
+      </div>
+      <button id="start" class="secondary" type="button">Start listening</button>
+      <button id="stop" class="secondary" type="button" disabled>Stop listening</button>
+      <button id="clear" class="secondary" type="button">New conversation</button>
+      <button id="back-chat" class="secondary" type="button">Back to chat</button>
+      <div id="health" class="health" role="status">Checking local services…</div>
+      <div class="aside-bottom">Powered by the local ASR service<br><span>Questions are transcribed before chat.</span></div>
+    </aside>
+    <main>
+      <header>
+        <div><span class="dot"></span> CHAT BY VOICE</div>
+        <button id="download" class="secondary">Export session</button>
+      </header>
+      <section class="voice-stage">
+        <div class="voice-orb">
+          <button id="start-hero" type="button">Start voice</button>
+        </div>
+        <div class="voice-info">
+          <div class="info-card">
+            <h2>Live input</h2>
+            <p id="voice-status">Idle. Choose a topic and press start.</p>
+            <div class="meter" aria-hidden="true"><span id="meter-fill"></span></div>
+            <div id="meter-label" class="muted" style="margin: 8px 0 0;">-100 dB</div>
+          </div>
+          <div class="info-card">
+            <h3>Transcript</h3>
+            <div id="heard" class="heard-text">No speech captured yet.</div>
+          </div>
+        </div>
+      </section>
+      <section id="messages" aria-live="polite" aria-label="Conversation">
+        <div id="welcome">
+          <span class="badge">VOICE FIRST, TEXT SECOND</span>
+          <h2>What do you<br>want to ask?</h2>
+          <p>When you pause speaking, the page will send the audio to ASR, then ask the chat model with the transcript.</p>
+        </div>
+      </section>
+      <footer>
+        <p class="footnote">Tips: speak in a short burst, pause, then review the transcript. You can keep talking after each response.</p>
+      </footer>
+    </main>
+  </div>
+  <script src="/chat-by-voice/app.js" defer></script>
+</body>
+</html>

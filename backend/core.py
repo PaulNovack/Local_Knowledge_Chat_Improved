@@ -23,12 +23,14 @@ CDLA_DOC_CHUNK_SIZE = int(os.getenv('CDLA_DOC_CHUNK_SIZE', '3600'))
 class Settings:
     ollama_url: str = os.getenv('OLLAMA_URL', 'http://127.0.0.1:11434')
     qdrant_url: str = os.getenv('QDRANT_URL', 'http://127.0.0.1:6333')
+    asr_url: str = os.getenv('ASR_URL', 'http://127.0.0.1:9000/transcribe')
     chat_model: str = os.getenv('CHAT_MODEL', 'qwen3.5:4b')
     embed_model: str = os.getenv('EMBED_MODEL', 'nomic-embed-text')
     top_k: int = int(os.getenv('TOP_K', '6'))
     min_score: float = float(os.getenv('MIN_SCORE', '0.35'))
     context_chars: int = int(os.getenv('CONTEXT_CHARS', '12000'))
     timeout: float = float(os.getenv('OLLAMA_TIMEOUT', '180'))
+    asr_timeout: float = float(os.getenv('ASR_TIMEOUT', '60'))
     origins: str = os.getenv('ALLOWED_ORIGINS', 'http://127.0.0.1:8000,http://localhost:8000')
 
     def __post_init__(self):
@@ -36,6 +38,8 @@ class Settings:
             raise ValueError('TOP_K must be 1..30 and MIN_SCORE -1..1')
         if self.context_chars < 2000 or self.timeout <= 0:
             raise ValueError('CONTEXT_CHARS >= 2000 and OLLAMA_TIMEOUT > 0 required')
+        if self.asr_timeout <= 0:
+            raise ValueError('ASR_TIMEOUT > 0 required')
 
 
 def topic_name(value):

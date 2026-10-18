@@ -185,7 +185,9 @@ def test_stream_sources_and_completion(settings, store):
     app=create_app(settings,store,ollama)
     with TestClient(app) as client:
         assert client.get('/').status_code==200
-        assert client.get('/api/health').json()['ok']
+        health = client.get('/api/health')
+        assert health.status_code == 200
+        assert health.json()['ok']
         with client.websocket_connect('/ws/chat', headers={'origin':'http://localhost:8000'}) as ws:
             ws.send_json({'topic':'PHP','question':'What is PHP?'})
             events=[]

@@ -5,9 +5,10 @@ import json
 import logging
 import re
 from pathlib import Path
+from functools import lru_cache
 
 import httpx
-from fastapi import FastAPI, HTTPException, Request, WebSocket, WebSocketDisconnect
+from fastapi import FastAPI, File, HTTPException, Request, UploadFile, WebSocket, WebSocketDisconnect
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, ValidationError, field_validator
@@ -123,6 +124,7 @@ def _require_local_host(request):
         raise HTTPException(status_code=403, detail='This page is only available from the local web app.')
 
 
+@lru_cache(maxsize=1)
 def _dedupe_user_additions_records(records):
     deduped = {}
     order = []
@@ -203,6 +205,10 @@ class TrainRequest(BaseModel):
         return value.strip()
 
 
+class SpeakRequest(BaseModel):
+    text: str = Field(min_length=1, max_length=6000)
+
+
 def create_app(settings=None, store=None, ollama=None):
     settings = settings or Settings()
     _configure_file_logging()
@@ -212,6 +218,7 @@ def create_app(settings=None, store=None, ollama=None):
         app.state.store = store or Store(settings)
         app.state.ollama = ollama or httpx.AsyncClient(base_url=settings.ollama_url,
                                                      timeout=settings.timeout, trust_env=False)
+        app.state.asr = httpx.AsyncClient(timeout=settings.asr_timeout, trust_env=False)
         app.state.slots = asyncio.Semaphore(2)
         app.state.chat_history_db = ensure_chat_history_db()
         try:
@@ -221,6 +228,7 @@ def create_app(settings=None, store=None, ollama=None):
         yield
         if ollama is None:
             await app.state.ollama.aclose()
+        await app.state.asr.aclose()
         if store is None:
             await asyncio.to_thread(app.state.store.close)
 
@@ -244,7 +252,7 @@ def create_app(settings=None, store=None, ollama=None):
             checks['embed_model'] = 'ok' if _canonical_model_name(settings.embed_model) in names else 'missing'
         except Exception:
             checks['ollama'] = 'unavailable'
-        ok = all(v == 'ok' for v in checks.values())
+        ok = checks.get('qdrant') == 'ok' and checks.get('ollama') == 'ok'
         return JSONResponse({'ok': ok, 'checks': checks, 'topics': topics,
             'chat_model': settings.chat_model, 'embed_model': settings.embed_model}, status_code=200 if ok else 503)
 
@@ -254,6 +262,28 @@ def create_app(settings=None, store=None, ollama=None):
             return {'topics': await asyncio.to_thread(app.state.store.topics)}
         except Exception:
             return JSONResponse({'error': 'Qdrant unavailable. Start services and import your data.'}, status_code=503)
+
+    @app.post('/api/transcribe')
+    async def transcribe(audio: UploadFile = File(...)):
+        if not audio or not audio.filename:
+            raise HTTPException(status_code=400, detail='No audio uploaded')
+        try:
+            response = await app.state.asr.post(
+                settings.asr_url,
+                files={'audio': (audio.filename, await audio.read(), audio.content_type or 'application/octet-stream')},
+            )
+            response.raise_for_status()
+            data = response.json()
+            if not isinstance(data, dict):
+                raise ValueError('Invalid ASR response')
+            return data
+        except httpx.TimeoutException as exc:
+            raise HTTPException(status_code=504, detail='ASR service timed out') from exc
+        except httpx.HTTPStatusError as exc:
+            detail = exc.response.text[:500] if exc.response is not None else str(exc)
+            raise HTTPException(status_code=502, detail=f'ASR service error: {detail}') from exc
+        except (httpx.RequestError, ValueError, json.JSONDecodeError) as exc:
+            raise HTTPException(status_code=502, detail=f'ASR service error: {exc}') from exc
 
     @app.post('/api/train')
     async def train(request: Request, payload: TrainRequest):
@@ -284,10 +314,10 @@ def create_app(settings=None, store=None, ollama=None):
                 updated = True
                 break
         docs = list(documents(record, chunk_size=chunk_size_for_topic(topic)))
-        payload = {'model': settings.embed_model,
+        embed_payload = {'model': settings.embed_model,
             'input': [embedding_input(doc['question'][:1500] + '\n' + doc['text'], settings.embed_model) for doc in docs],
             'truncate': False}
-        r = await app.state.ollama.post('/api/embed', json=payload)
+        r = await app.state.ollama.post('/api/embed', json=embed_payload)
         r.raise_for_status()
         vectors = validate_vectors(r.json(), len(docs))
         await asyncio.to_thread(app.state.store.upsert, topic, docs, vectors)

@@ -72,6 +72,11 @@ async function refresh() {
   } catch (e) { $('health').textContent = e.message; }
   setBusy(false);
 }
+function chatWsUrl() {
+  const url = new URL('/ws/chat', location.href);
+  url.protocol = url.protocol === 'https:' ? 'wss:' : 'ws:';
+  return url;
+}
 $('form').addEventListener('submit', event => {
   event.preventDefault(); const question = $('question').value.trim();
   if (!question || busy || !$('topic').value) return;
@@ -82,7 +87,7 @@ $('form').addEventListener('submit', event => {
   transcript.push(record); current = record; setBusy(true); status('Connecting…');
   trainStatus('');
   $('question').value = '';
-  const ws = new WebSocket(`${location.protocol === 'https:' ? 'wss:' : 'ws:'}//sydney-laden-das-pickup.trycloudflare.com/ws/chat`); socket = ws;
+  const ws = new WebSocket(chatWsUrl()); socket = ws;
   ws.onopen = () => ws.send(JSON.stringify({topic: record.topic, question, history: turns.slice(-6)}));
   ws.onmessage = event => {
     try {
@@ -117,6 +122,7 @@ $('stop').onclick = () => socket?.close();
 $('question').addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey && !e.isComposing) { e.preventDefault(); $('form').requestSubmit(); } });
 function clearChat() { turns = []; transcript = []; $('messages').replaceChildren(); status('New conversation. Ask a question.'); }
 $('clear').onclick = clearChat;
+$('voice-chat') && ($('voice-chat').onclick = () => { location.href = '/chat-by-voice/'; });
 $('topic').onchange = clearChat;
 $('refresh').onclick = refresh;
 $('download').onclick = () => {

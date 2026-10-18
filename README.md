@@ -21,10 +21,10 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 
-### 1. Start Qdrant
+### 1. Start Qdrant, ASR, and Piper
 
 ```bash
-docker compose up -d qdrant
+docker compose up -d qdrant asr-service piper-service
 ```
 
 It uses its own Compose project and persistent volume. It does not stop, remove,
@@ -81,8 +81,19 @@ bash startAll.sh
 
 Open **http://127.0.0.1:8000**. Select a collection and ask a question.
 `startAll.sh` creates a virtual environment if necessary, installs Python
-requirements, loads `.env` and starts only the web app. It does not start Docker,
-pull models, or reimport data on every launch.
+requirements, loads `.env`, starts the bundled ASR service on port 9000, and
+then starts the web app. It does not start Docker, pull models, or reimport
+data on every launch.
+
+If you already started the ASR service with Docker Compose, set
+`START_LOCAL_ASR=0` in `.env` before running `startAll.sh` so the local launcher
+does not try to start a second ASR process on the same port.
+
+Start `piper-service` with Docker Compose before using ChatByVoice so the app can
+fetch and play the generated Amy voice WAV files.
+
+The voice page uses the local ASR service. If `faster-whisper` reports missing
+audio decoding support, install `ffmpeg` on your system before starting the app.
 
 On startup the backend creates a local SQLite chat history database at
 `database/chat_history.sqlite3`. Each completed answer is stored with the topic,
@@ -104,16 +115,20 @@ Then recreate the environment and reload the data:
 ```bash
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
-docker compose up -d qdrant
+docker compose up -d qdrant asr-service piper-service
 docker compose --profile ollama up -d ollama
 source .env
 .venv/bin/python -m backend.ingest topic_data
-bash startAll.sh
+START_LOCAL_ASR=0 bash startAll.sh
 ```
 
 If you use a native Ollama installation instead of the Docker service, keep
 your existing Ollama process running and just pull the required models again if
 they are missing.
+
+The ChatByVoice page now speaks the answer back after transcription and chat.
+The backend returns a generated WAV file from the Piper service and the browser
+plays it automatically after each reply.
 
 To start manually after loading `.env`:
 
@@ -223,6 +238,8 @@ set +a` sequence above. Quote values containing spaces.
 | `MIN_SCORE` | `0.35` | Minimum cosine similarity; tune using representative questions |
 | `CONTEXT_CHARS` | `12000` | Character budget for retrieved excerpts |
 | `OLLAMA_TIMEOUT` | `180` | HTTP operation timeout in seconds; increase for slow CPUs |
+| `ASR_URL` | `http://127.0.0.1:9000/transcribe` | Local speech-to-text endpoint used by ChatByVoice |
+| `ASR_TIMEOUT` | `60` | HTTP timeout in seconds for the ASR service |
 | `ALLOWED_ORIGINS` | localhost/127.0.0.1 port 8000 | Comma-separated allowed browser origins |
 
 Similarity scores are not confidence probabilities. Increase `MIN_SCORE` if
