@@ -6,6 +6,7 @@ import logging
 import re
 from pathlib import Path
 from functools import lru_cache
+from urllib.parse import urlparse
 
 import httpx
 from fastapi import FastAPI, File, HTTPException, Request, UploadFile, WebSocket, WebSocketDisconnect
@@ -460,7 +461,19 @@ def create_app(settings=None, store=None, ollama=None):
     @app.websocket('/ws/chat')
     async def chat(ws: WebSocket):
         allowed = {o.strip() for o in settings.origins.split(',') if o.strip()}
-        if ws.headers.get('origin') not in allowed:
+        request_origin = ws.headers.get('origin') or ''
+        origin_host = urlparse(request_origin).hostname
+        origin_port = urlparse(request_origin).port
+        allowed_hosts = {urlparse(origin).hostname for origin in allowed}
+        allowed_ports = {urlparse(origin).port for origin in allowed}
+        request_host = ws.headers.get('host') or ''
+        request_host_name = request_host.split(':', 1)[0]
+        request_host_port = int(request_host.split(':', 1)[1]) if ':' in request_host else None
+        if request_origin not in allowed and not (
+            origin_host and origin_host == request_host_name and origin_port == request_host_port
+        ) and not (
+            origin_host and origin_host in allowed_hosts and (origin_port in allowed_ports or origin_port is None)
+        ):
             await ws.close(code=1008)
             return
         await ws.accept()
