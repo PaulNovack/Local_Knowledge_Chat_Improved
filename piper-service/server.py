@@ -2,12 +2,16 @@ import io
 import os
 import threading
 from typing import Optional
+import wave
+
+import numpy as np
 
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
 import piper  # type: ignore
+from piper.config import SynthesisConfig
 
 APP_PORT = int(os.getenv('PORT', '8001'))
 MODEL_PATH = os.getenv('PIPER_MODEL', 'models/en_US-amy-low.onnx')
@@ -56,13 +60,23 @@ def speak(payload: SpeakIn):
     try:
         with synth_lock:
             buf = io.BytesIO()
-            voice.synthesize(
-                payload.text,
-                buf,
+            syn_config = SynthesisConfig(
                 length_scale=length_scale,
                 noise_scale=noise_scale,
-                noise_w=noise_w,
+                noise_w_scale=noise_w,
             )
+            chunks = list(voice.synthesize(payload.text, syn_config=syn_config))
+            if not chunks:
+                raise RuntimeError('no audio was generated')
+            sample_rate = chunks[0].sample_rate
+            audio = np.concatenate([chunk.audio_float_array for chunk in chunks]).astype(np.float32)
+            audio = np.clip(audio, -1.0, 1.0)
+            pcm = (audio * 32767.0).astype(np.int16)
+            with wave.open(buf, 'wb') as wav_file:
+                wav_file.setnchannels(1)
+                wav_file.setsampwidth(2)
+                wav_file.setframerate(sample_rate)
+                wav_file.writeframes(pcm.tobytes())
             buf.seek(0)
     except Exception as exc:
         raise HTTPException(status_code=500, detail=f'synthesis failed: {exc}') from exc

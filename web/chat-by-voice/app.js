@@ -40,6 +40,9 @@ function setMeter(db) {
   $('meter-fill').style.width = `${percent}%`;
   $('meter-label').textContent = `${Math.round(db)} dB`;
 }
+function scrollTranscriptIntoView() {
+  $('heard')?.scrollIntoView({ behavior: 'smooth', block: 'end' });
+}
 function updateButtons(listening) {
   $('start').disabled = listening;
   $('start-hero').disabled = listening;
@@ -293,6 +296,7 @@ async function handleCapturedAudio(blob) {
     const data = await transcribeBlob(blob);
     const text = String(data.text || '').trim();
     $('heard').textContent = text || 'ASR returned no text.';
+    scrollTranscriptIntoView();
     if (!text) {
       setStatus('The transcription was empty.');
       return;

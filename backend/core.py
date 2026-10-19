@@ -24,6 +24,8 @@ class Settings:
     ollama_url: str = os.getenv('OLLAMA_URL', 'http://127.0.0.1:11434')
     qdrant_url: str = os.getenv('QDRANT_URL', 'http://127.0.0.1:6333')
     asr_url: str = os.getenv('ASR_URL', 'http://127.0.0.1:9000/transcribe')
+    piper_url: str = os.getenv('PIPER_URL', 'http://127.0.0.1:8001/speak')
+    piper_health_url: str = os.getenv('PIPER_HEALTH_URL', 'http://127.0.0.1:8001/health')
     chat_model: str = os.getenv('CHAT_MODEL', 'qwen3.5:4b')
     embed_model: str = os.getenv('EMBED_MODEL', 'nomic-embed-text')
     top_k: int = int(os.getenv('TOP_K', '6'))
@@ -31,6 +33,7 @@ class Settings:
     context_chars: int = int(os.getenv('CONTEXT_CHARS', '12000'))
     timeout: float = float(os.getenv('OLLAMA_TIMEOUT', '180'))
     asr_timeout: float = float(os.getenv('ASR_TIMEOUT', '60'))
+    piper_timeout: float = float(os.getenv('PIPER_TIMEOUT', '60'))
     origins: str = os.getenv('ALLOWED_ORIGINS', 'http://127.0.0.1:8000,http://localhost:8000')
 
     def __post_init__(self):
@@ -40,6 +43,8 @@ class Settings:
             raise ValueError('CONTEXT_CHARS >= 2000 and OLLAMA_TIMEOUT > 0 required')
         if self.asr_timeout <= 0:
             raise ValueError('ASR_TIMEOUT > 0 required')
+        if self.piper_timeout <= 0:
+            raise ValueError('PIPER_TIMEOUT > 0 required')
 
 
 def topic_name(value):
@@ -228,6 +233,40 @@ def save_chat_history(topic, question, answer, accepted=True, path=None):
             'INSERT INTO chat_history(topic, question, answer, accepted) VALUES (?, ?, ?, ?)',
             (topic_name(topic), str(question).strip(), str(answer).strip(), 1 if accepted else 0),
         )
+
+
+def read_chat_history(page=1, page_size=20, path=None):
+    page = int(page)
+    page_size = min(int(page_size), 50)
+    if page < 1:
+        raise ValueError('page must be at least 1')
+    if page_size < 1:
+        raise ValueError('page_size must be at least 1')
+
+    path = ensure_chat_history_db(path)
+    offset = (page - 1) * page_size
+    with sqlite3.connect(path) as db:
+        total = db.execute('SELECT COUNT(*) FROM chat_history').fetchone()[0]
+        rows = db.execute(
+            '''
+            SELECT ID, topic, question, answer, accepted, created_date, created_at
+            FROM chat_history
+            ORDER BY created_at DESC, ID DESC
+            LIMIT ? OFFSET ?
+            ''',
+            (page_size, offset),
+        ).fetchall()
+    items = [dict(zip(('ID', 'topic', 'question', 'answer', 'accepted', 'created_date', 'created_at'), row)) for row in rows]
+    total_pages = math.ceil(total / page_size) if total else 0
+    return {
+        'items': items,
+        'page': page,
+        'page_size': page_size,
+        'total': total,
+        'total_pages': total_pages,
+        'has_prev': page > 1 and total > 0,
+        'has_next': page < total_pages,
+    }
 
 
 class Store:

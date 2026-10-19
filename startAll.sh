@@ -20,6 +20,8 @@ if [[ "$start_local_asr" == "1" ]]; then
 else
   printf 'Skipping local ASR service because START_LOCAL_ASR=0\n'
 fi
+printf 'Starting Piper service with Docker Compose on http://127.0.0.1:8001\n'
+docker compose up -d piper-service >> logs/piper-service.log 2>&1
 cleanup() {
   kill "$backend_pid" 2>/dev/null || true
   if [[ -n "$asr_pid" ]]; then

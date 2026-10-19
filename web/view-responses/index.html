@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>View Responses</title>
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    .shell { grid-template-columns: 320px 1fr; }
+    main { min-width: 0; display: flex; flex-direction: column; height: 100dvh; }
+    .responses-header {
+      padding: 18px 36px;
+      border-bottom: 1px solid #e2e0da;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      font-size: 10px;
+      letter-spacing: 1.3px;
+    }
+    .responses-toolbar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .responses-toolbar select {
+      min-width: 120px;
+    }
+    .responses-list {
+      flex: 1;
+      overflow: auto;
+      padding: 24px max(24px, calc((100% - 900px) / 2));
+      display: grid;
+      gap: 14px;
+      align-content: start;
+      background:
+        radial-gradient(circle at top right, rgba(111, 134, 93, 0.07), transparent 26%),
+        linear-gradient(180deg, #faf9f5 0%, #f5f3ef 100%);
+    }
+    .response-card {
+      border: 1px solid #ddd8cc;
+      border-radius: 16px;
+      padding: 18px 18px 16px;
+      background: rgba(255, 255, 255, 0.8);
+      box-shadow: 0 8px 18px rgba(52, 61, 48, 0.05);
+    }
+    .response-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 10px;
+      font-size: 11px;
+      letter-spacing: 0.8px;
+      color: #62705f;
+      text-transform: uppercase;
+    }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border-radius: 999px;
+      padding: 4px 10px;
+      background: #eef2e7;
+      color: #42523d;
+    }
+    .response-card h2 {
+      margin: 0 0 10px;
+      font-family: Georgia, serif;
+      font-weight: 400;
+      font-size: clamp(20px, 2.4vw, 28px);
+      line-height: 1.2;
+    }
+    .response-card .answer {
+      margin: 0;
+      color: #2f3730;
+      line-height: 1.7;
+      white-space: pre-wrap;
+      font-size: 15px;
+    }
+    .response-footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 14px;
+      font-size: 12px;
+      color: #647064;
+      flex-wrap: wrap;
+    }
+    .empty-state {
+      border: 1px dashed #cfd4c8;
+      border-radius: 16px;
+      padding: 28px;
+      background: rgba(255, 255, 255, 0.7);
+      color: #5c685a;
+      line-height: 1.6;
+    }
+    .page-footer {
+      padding: 12px 36px 18px;
+      border-top: 1px solid #e2e0da;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .pagination {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .pagination .secondary[disabled] {
+      opacity: 0.45;
+    }
+    @media (max-width: 760px) {
+      .shell {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        min-height: 100dvh;
+      }
+      main {
+        height: auto;
+        min-height: 0;
+      }
+      aside {
+        padding: 16px 14px 18px;
+        border-right: 0;
+        border-top: 1px solid #d9ddd2;
+        order: 1;
+      }
+      .responses-header {
+        padding: 14px 16px;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+      .responses-list {
+        padding: 12px 12px 16px;
+      }
+      .response-card {
+        padding: 14px;
+      }
+      .page-footer {
+        padding: 10px 12px 14px;
+      }
+      .pagination .secondary,
+      .pagination select {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <aside>
+      <div class="mark">K<span>✦</span></div>
+      <p class="eyebrow">HISTORY</p>
+      <h1>Latest responses,<br>first.</h1>
+      <p class="muted">Browse the saved chat history from the local sqlite database. Newest entries appear first, and pagination keeps the list fast.</p>
+      <label for="page-size">RESPONSES PER PAGE</label>
+      <div class="row">
+        <select id="page-size">
+          <option value="5">5</option>
+          <option value="10" selected>10</option>
+          <option value="20">20</option>
+          <option value="50">50</option>
+        </select>
+        <button id="refresh" title="Refresh responses" aria-label="Refresh responses">↻</button>
+      </div>
+      <button id="prev" class="secondary" type="button">Previous page</button>
+      <button id="next" class="secondary" type="button">Next page</button>
+      <button id="back-home" class="secondary" type="button">Back to chat</button>
+      <div id="status" class="health" role="status">Loading responses…</div>
+      <div class="aside-bottom">Powered by sqlite chat_history<br><span>Newest rows are shown first.</span></div>
+    </aside>
+    <main>
+      <header class="responses-header">
+        <div><span class="dot"></span> VIEW RESPONSES</div>
+        <div id="page-info">Page 1</div>
+      </header>
+      <section id="responses" class="responses-list" aria-live="polite" aria-label="Saved responses"></section>
+      <footer class="page-footer">
+        <div class="pagination">
+          <button id="prev-bottom" class="secondary" type="button">Previous</button>
+          <button id="next-bottom" class="secondary" type="button">Next</button>
+        </div>
+        <div class="muted" style="margin: 0;">Open the latest response first, then page through older entries.</div>
+      </footer>
+    </main>
+  </div>
+  <script src="/view-responses/app.js" defer></script>
+</body>
+</html>

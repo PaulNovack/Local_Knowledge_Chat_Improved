@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Type and get Voice Response</title>
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    .shell { grid-template-columns: 320px 1fr; }
+    .compose-stage {
+      margin: 10px max(20px, calc((100% - 840px) / 2)) 8px;
+      padding: 16px;
+      border-radius: 18px;
+      border: 1px solid #ddd8cc;
+      background:
+        radial-gradient(circle at top left, rgba(111, 134, 93, 0.14), transparent 28%),
+        linear-gradient(180deg, #fcfbf7, #f3efe6 74%);
+      box-shadow: 0 10px 20px rgba(52, 61, 48, 0.06);
+    }
+    .compose-stage h2 {
+      margin: 0 0 8px;
+      font-family: Georgia, serif;
+      font-size: 22px;
+      font-weight: 400;
+    }
+    .compose-stage p {
+      margin: 0;
+      color: #5e685c;
+      line-height: 1.5;
+      font-size: 14px;
+    }
+    .composer {
+      display: grid;
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .composer textarea {
+      width: 100%;
+      min-height: 120px;
+      resize: vertical;
+      border-radius: 14px;
+      border: 1px solid #cfd5c7;
+      background: #fff;
+      padding: 14px 15px;
+      font: inherit;
+      font-size: 15px;
+      line-height: 1.55;
+      color: #2b312d;
+      outline: none;
+    }
+    .composer textarea:focus {
+      border-color: #8aa472;
+      box-shadow: 0 0 0 3px rgba(111, 134, 93, 0.14);
+    }
+    .compose-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+    .compose-actions button { padding: 10px 14px; }
+    .compose-status {
+      color: #5e685c;
+      font-size: 13px;
+      line-height: 1.45;
+    }
+    .voice-playback {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .voice-playback button { padding: 8px 12px; }
+    .voice-hint {
+      margin-top: 12px;
+      color: #5e685c;
+      font-size: 13px;
+      line-height: 1.45;
+    }
+    @media (max-width: 980px) {
+      .compose-stage { margin-left: 16px; margin-right: 16px; }
+    }
+    @media (max-width: 760px) {
+      .shell {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        min-height: 100dvh;
+      }
+      main { order: 0; height: auto; min-height: 0; }
+      aside {
+        order: 1;
+        padding: 16px 14px 18px;
+        border-right: 0;
+        border-top: 1px solid #d9ddd2;
+      }
+      header { padding: 14px 16px; }
+      #messages {
+        order: 1;
+        padding: 12px 12px 18px;
+      }
+      #welcome { padding-top: 14px; }
+      h2 {
+        font-size: clamp(30px, 8vw, 42px);
+        margin: 18px 0 16px;
+      }
+      #welcome p {
+        font-size: 14px;
+        line-height: 1.7;
+      }
+      .message {
+        padding: 14px 14px 16px;
+        margin-bottom: 14px;
+      }
+      .message.user { margin-left: 0; }
+      .label { margin-bottom: 8px; }
+      .body { font-size: 15px; line-height: 1.65; }
+      footer { order: 3; padding: 10px 12px 14px; }
+      .compose-stage {
+        margin: 10px 12px 8px;
+        padding: 14px;
+      }
+      .composer textarea {
+        min-height: 112px;
+        font-size: 16px;
+      }
+      .compose-actions button {
+        width: 100%;
+      }
+      .voice-playback {
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <aside>
+      <div class="mark">K<span>✦</span></div>
+      <p class="eyebrow">TEXT TO VOICE</p>
+      <h1>Type, listen,<br>and keep going.</h1>
+      <p class="muted">TypeVoice sends your prompt to the local chat engine and speaks the answer back with Amy.</p>
+      <label for="topic">KNOWLEDGE COLLECTION</label>
+      <div class="row">
+        <select id="topic"><option>Loading…</option></select>
+        <button id="refresh" title="Refresh topics" aria-label="Refresh topics">↻</button>
+      </div>
+      <button id="clear" class="secondary" type="button">New conversation</button>
+      <button id="back-chat" class="secondary" type="button">Back to chat</button>
+      <button id="voice-chat" class="secondary" type="button">Chat by Voice</button>
+      <button id="voice-answer-chat" class="secondary" type="button">Chat and Answer by Voice</button>
+      <div id="health" class="health" role="status">Checking local services…</div>
+      <div class="aside-bottom">Powered by ASR + Piper<br><span>Type a question and hear the answer.</span></div>
+    </aside>
+    <main>
+      <header>
+        <div><span class="dot"></span> TYPEVOICE</div>
+        <button id="download" class="secondary" type="button">Export session</button>
+      </header>
+      <section class="compose-stage" aria-labelledby="compose-title">
+        <h2 id="compose-title">Type your prompt</h2>
+        <p>Write a question or a short prompt, then send it to the local chat engine. The answer will appear below and play out loud automatically.</p>
+        <form id="form" class="composer">
+          <label class="sr-only" for="question">Your prompt</label>
+          <textarea id="question" rows="4" maxlength="2000" placeholder="Ask something about your collection…" required></textarea>
+          <div class="compose-actions">
+            <span id="status" class="compose-status" role="status">Enter to send · Shift + Enter for a new line</span>
+            <button id="send" type="submit">Speak response ↗</button>
+          </div>
+          <div class="voice-playback">
+            <button id="replay-answer" class="secondary" type="button" disabled>Replay answer</button>
+            <span id="speak-status" class="muted">Ready to speak replies.</span>
+          </div>
+          <div class="voice-hint">The typed prompt goes to the chat model, then the response is voiced through the local Piper service.</div>
+        </form>
+      </section>
+      <section id="messages" aria-live="polite" aria-label="Conversation">
+        <div id="welcome">
+          <span class="badge">TYPE FIRST, VOICE SECOND</span>
+          <h2>Type it once.<br>Hear the answer.</h2>
+          <p>The typed prompt goes to the chat model, and the reply is spoken aloud through the local Piper voice service.</p>
+        </div>
+      </section>
+      <footer>
+        <p class="footnote">Generated answers can be wrong. Inspect the retrieved excerpts to verify them, and use replay if you want to hear the answer again.</p>
+      </footer>
+    </main>
+  </div>
+  <audio id="reply-audio" hidden></audio>
+  <script src="/type-voice/app.js" defer></script>
+</body>
+</html>

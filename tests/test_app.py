@@ -243,6 +243,60 @@ def test_chat_history_is_created_and_saved(tmp_path, monkeypatch, settings, stor
     assert row[6]
 
 
+def test_view_responses_api_paginates_newest_first(tmp_path, monkeypatch, settings, store):
+    monkeypatch.setattr('backend.core.ROOT', tmp_path)
+    monkeypatch.setattr('backend.app.ROOT', tmp_path)
+    (tmp_path / 'web').mkdir()
+
+    def handle(request):
+        if request.url.path == '/api/tags':
+            return httpx.Response(200, json={'models': [{'name': 'test'}, {'name': 'test-embed:latest'}]})
+        return httpx.Response(200, json={'embeddings': [[1.0, 0.0, 0.0]]})
+
+    ollama = httpx.AsyncClient(base_url='http://ollama', transport=httpx.MockTransport(handle))
+    app = create_app(settings, store, ollama)
+    with TestClient(app) as client:
+        db_path = tmp_path / 'database' / 'chat_history.sqlite3'
+        with sqlite3.connect(db_path) as db:
+            db.executemany(
+                '''
+                INSERT INTO chat_history(topic, question, answer, accepted, created_date, created_at)
+                VALUES (?, ?, ?, ?, ?, ?)
+                ''',
+                [
+                    ('PHP', 'Oldest question?', 'Oldest answer.', 1, '2026-10-19', '2026-10-19 00:00:01'),
+                    ('CDLA', 'Middle question?', 'Middle answer.', 1, '2026-10-19', '2026-10-19 00:00:02'),
+                    ('Dementia', 'Newest question?', 'Newest answer.', 1, '2026-10-19', '2026-10-19 00:00:03'),
+                ],
+            )
+
+        first = client.get('/api/responses?page=1&page_size=2')
+        second = client.get('/api/responses?page=2&page_size=2')
+
+    assert first.status_code == 200
+    assert second.status_code == 200
+    first_data = first.json()
+    second_data = second.json()
+    assert first_data['total'] == 3
+    assert first_data['total_pages'] == 2
+    assert first_data['page'] == 1
+    assert [item['ID'] for item in first_data['items']] == [3, 2]
+    assert [item['ID'] for item in second_data['items']] == [1]
+
+
+def test_view_responses_page_is_served(tmp_path, monkeypatch, settings, store):
+    def handle(request):
+        return httpx.Response(200, json={'models': [{'name': 'test'}, {'name': 'test-embed:latest'}]})
+
+    ollama = httpx.AsyncClient(base_url='http://ollama', transport=httpx.MockTransport(handle))
+    app = create_app(settings, store, ollama)
+    with TestClient(app) as client:
+        response = client.get('/view-responses/')
+
+    assert response.status_code == 200
+    assert 'View Responses' in response.text
+
+
 def test_date_questions_get_strict_date_rule(settings, store):
     assert _is_date_question('When did Melanie Martinez release her first album?')
     assert _is_date_question('What date was Cry Baby released?')

@@ -113,6 +113,9 @@
       margin-top: 6px;
     }
     .voice-controls button { padding: 10px 14px; }
+    .transcript-stage {
+      margin: 8px max(20px, calc((100% - 840px) / 2)) 18px;
+    }
     .voice-playback {
       display: flex;
       align-items: center;
@@ -126,6 +129,94 @@
         grid-template-columns: 1fr;
         margin-left: 16px;
         margin-right: 16px;
+      }
+    }
+    @media (max-width: 760px) {
+      .shell {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        min-height: 100dvh;
+      }
+      main {
+        order: 0;
+        height: auto;
+        min-height: 0;
+      }
+      aside {
+        order: 1;
+        padding: 16px 14px 18px;
+        border-right: 0;
+        border-top: 1px solid #d9ddd2;
+      }
+      header {
+        padding: 14px 16px;
+      }
+      #messages {
+        order: 1;
+        padding: 12px 12px 18px;
+      }
+      #welcome {
+        padding-top: 14px;
+      }
+      h2 {
+        font-size: clamp(30px, 8vw, 42px);
+        margin: 18px 0 16px;
+      }
+      #welcome p {
+        font-size: 14px;
+        line-height: 1.7;
+      }
+      .message {
+        padding: 14px 14px 16px;
+        margin-bottom: 14px;
+      }
+      .message.user {
+        margin-left: 0;
+      }
+      .label {
+        margin-bottom: 8px;
+      }
+      .body {
+        font-size: 15px;
+        line-height: 1.65;
+      }
+      .voice-stage {
+        order: 2;
+        margin: 10px 12px 8px;
+        padding: 10px;
+      }
+      footer {
+        order: 3;
+        padding: 10px 12px 14px;
+      }
+      .voice-orb {
+        min-height: 72px;
+      }
+      .voice-orb button {
+        width: 56px;
+        height: 56px;
+      }
+      .info-card {
+        padding: 10px;
+      }
+      .info-card p {
+        font-size: 14px;
+        line-height: 1.45;
+      }
+      .heard-text {
+        min-height: 76px;
+        font-size: 15px;
+        line-height: 1.45;
+      }
+      .voice-controls {
+        gap: 6px;
+      }
+      .voice-controls button {
+        width: 100%;
+      }
+      .transcript-stage {
+        margin: 8px 12px 16px;
       }
     }
   </style>
@@ -165,10 +256,6 @@
             <div class="meter" aria-hidden="true"><span id="meter-fill"></span></div>
             <div id="meter-label" class="muted" style="margin: 8px 0 0;">-100 dB</div>
           </div>
-          <div class="info-card">
-            <h3>Transcript</h3>
-            <div id="heard" class="heard-text">No speech captured yet.</div>
-          </div>
         </div>
       </section>
       <section id="messages" aria-live="polite" aria-label="Conversation">
@@ -181,6 +268,12 @@
       <footer>
         <p class="footnote">Tips: speak in a short burst, pause, then review the transcript. You can keep talking after each response.</p>
       </footer>
+      <section class="transcript-stage">
+        <div class="info-card">
+          <h3>Transcript</h3>
+          <div id="heard" class="heard-text">No speech captured yet.</div>
+        </div>
+      </section>
     </main>
   </div>
   <script src="/chat-by-voice/app.js" defer></script>

@@ -9,13 +9,13 @@ from functools import lru_cache
 from urllib.parse import urlparse
 
 import httpx
-from fastapi import FastAPI, File, HTTPException, Request, UploadFile, WebSocket, WebSocketDisconnect
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi import FastAPI, File, HTTPException, Query, Request, UploadFile, WebSocket, WebSocketDisconnect
+from fastapi.responses import FileResponse, JSONResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, ValidationError, field_validator
 from typing import Literal
 
-from .core import ROOT, Settings, Store, chunk_size_for_topic, documents, embedding_input, ensure_chat_history_db, read_records, save_chat_history, training_records_path, validate_vectors, topic_name
+from .core import ROOT, Settings, Store, chunk_size_for_topic, documents, embedding_input, ensure_chat_history_db, read_chat_history, read_records, save_chat_history, training_records_path, validate_vectors, topic_name
 
 log = logging.getLogger(__name__)
 LOCAL_WEB_ORIGIN = 'http://127.0.0.1:8000'
@@ -125,7 +125,6 @@ def _require_local_host(request):
         raise HTTPException(status_code=403, detail='This page is only available from the local web app.')
 
 
-@lru_cache(maxsize=1)
 def _dedupe_user_additions_records(records):
     deduped = {}
     order = []
@@ -220,6 +219,7 @@ def create_app(settings=None, store=None, ollama=None):
         app.state.ollama = ollama or httpx.AsyncClient(base_url=settings.ollama_url,
                                                      timeout=settings.timeout, trust_env=False)
         app.state.asr = httpx.AsyncClient(timeout=settings.asr_timeout, trust_env=False)
+        app.state.piper = httpx.AsyncClient(timeout=settings.piper_timeout, trust_env=False)
         app.state.slots = asyncio.Semaphore(2)
         app.state.chat_history_db = ensure_chat_history_db()
         try:
@@ -230,6 +230,7 @@ def create_app(settings=None, store=None, ollama=None):
         if ollama is None:
             await app.state.ollama.aclose()
         await app.state.asr.aclose()
+        await app.state.piper.aclose()
         if store is None:
             await asyncio.to_thread(app.state.store.close)
 
@@ -253,6 +254,12 @@ def create_app(settings=None, store=None, ollama=None):
             checks['embed_model'] = 'ok' if _canonical_model_name(settings.embed_model) in names else 'missing'
         except Exception:
             checks['ollama'] = 'unavailable'
+        try:
+            r = await asyncio.wait_for(app.state.piper.get(settings.piper_health_url), timeout=2)
+            r.raise_for_status()
+            checks['piper'] = 'ok'
+        except Exception:
+            checks['piper'] = 'unavailable'
         ok = checks.get('qdrant') == 'ok' and checks.get('ollama') == 'ok'
         return JSONResponse({'ok': ok, 'checks': checks, 'topics': topics,
             'chat_model': settings.chat_model, 'embed_model': settings.embed_model}, status_code=200 if ok else 503)
@@ -285,6 +292,25 @@ def create_app(settings=None, store=None, ollama=None):
             raise HTTPException(status_code=502, detail=f'ASR service error: {detail}') from exc
         except (httpx.RequestError, ValueError, json.JSONDecodeError) as exc:
             raise HTTPException(status_code=502, detail=f'ASR service error: {exc}') from exc
+
+    @app.post('/api/speak')
+    async def speak(payload: SpeakRequest):
+        try:
+            response = await app.state.piper.post(settings.piper_url, json={'text': payload.text})
+            response.raise_for_status()
+            content_type = response.headers.get('content-type', 'audio/wav')
+            return Response(
+                content=response.content,
+                media_type=content_type,
+                headers={'content-disposition': 'inline; filename="reply.wav"'},
+            )
+        except httpx.TimeoutException as exc:
+            raise HTTPException(status_code=504, detail='Piper service timed out') from exc
+        except httpx.HTTPStatusError as exc:
+            detail = exc.response.text[:500] if exc.response is not None else str(exc)
+            raise HTTPException(status_code=502, detail=f'Piper service error: {detail}') from exc
+        except (httpx.RequestError, json.JSONDecodeError) as exc:
+            raise HTTPException(status_code=502, detail=f'Piper service error: {exc}') from exc
 
     @app.post('/api/train')
     async def train(request: Request, payload: TrainRequest):
@@ -330,6 +356,10 @@ def create_app(settings=None, store=None, ollama=None):
                 f.write(json.dumps(record, ensure_ascii=False) + '\n')
         log.info('trained topic=%s path=%s question=%r', topic, additions_path, payload.question)
         return {'ok': True, 'topic': topic, 'saved': len(docs), 'updated': updated, 'path': str(additions_path)}
+
+    @app.get('/api/responses')
+    async def responses(page: int = Query(1, ge=1), page_size: int = Query(10, ge=1, le=50)):
+        return read_chat_history(page=page, page_size=page_size, path=app.state.chat_history_db)
 
     @app.get('/ask-and-train')
     @app.get('/ask-and-train/')

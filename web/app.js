@@ -123,6 +123,9 @@ $('question').addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shi
 function clearChat() { turns = []; transcript = []; $('messages').replaceChildren(); status('New conversation. Ask a question.'); }
 $('clear').onclick = clearChat;
 $('voice-chat') && ($('voice-chat').onclick = () => { location.href = '/chat-by-voice/'; });
+$('voice-answer-chat') && ($('voice-answer-chat').onclick = () => { location.href = '/chat-and-answer-by-voice/'; });
+$('type-voice') && ($('type-voice').onclick = () => { location.href = '/type-voice/'; });
+$('view-responses') && ($('view-responses').onclick = () => { location.href = '/view-responses/'; });
 $('topic').onchange = clearChat;
 $('refresh').onclick = refresh;
 $('download').onclick = () => {
