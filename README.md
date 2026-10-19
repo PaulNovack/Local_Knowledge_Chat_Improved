@@ -4,11 +4,6 @@ Demo video:
 
 [![Watch the demo video](https://img.youtube.com/vi/_xjihvMqhKc/hqdefault.jpg)](https://youtu.be/_xjihvMqhKc)
 
-A rebuilt version of Paul Novack's Melanie-Martinez-Rag-Chat-Ollama project.
-It keeps local retrieval and local model generation, supports arbitrary topics,
-and includes the original four topic data files unchanged. No Node.js is required:
-FastAPI serves the browser UI and a structured streaming WebSocket API.
-
 ## Quick start on Ubuntu
 
 Requirements: Python 3.10+, Docker with the Compose plugin, and a current Ollama
@@ -203,29 +198,6 @@ for the new model. Changing only the chat model does not require reimporting.
 If you replace a model's weights while keeping the same embedding model name,
 use a new topic too; model names do not fingerprint the actual weights.
 
-## What improved
-
-- Non-destructive, resumable imports with deterministic IDs and batch embeddings.
-- JSON, JSONL and SQLite input, plus validation with useful JSONL line errors.
-- Current Qdrant `query_points` interface and Ollama `/api/embed` endpoint.
-- Async Ollama streaming; synchronous Qdrant work is moved off the event loop.
-- At most two active retrieval/generation tasks per backend process.
-- Bounded retrieved context, duplicate excerpt removal, configurable similarity
-  threshold, and an explicit refusal when no source meets the threshold.
-- Answers are prompted to cite numbered excerpts. Full excerpts and similarity
-  scores are available below each response; displayed sources are retrieval
-  results, not proof that every generated sentence is supported.
-- Bounded conversation history to help follow-up questions. History is per tab,
-  in memory, and cleared when switching topics or starting a new conversation.
-- Structured JSON WebSocket events instead of delimiter strings and HTML tokens.
-- Stop closes the socket and cancels the server request/stream. Ollama may take
-  a short time to finish releasing model resources after cancellation.
-- Browser text is rendered with `textContent`, never model-supplied HTML. Code
-  formatting/newlines are preserved as plain text. HTTP(S) source links only.
-- Responsive interface, topic picker, status messages and JSON chat export.
-- Same-origin connection by default; no hard-coded browser backend hostname.
-- Small Python dependency list instead of the original broad environment freeze.
-
 ## Configuration
 
 Copy `.env.example` to `.env`; values are shell environment assignments. The
@@ -246,11 +218,6 @@ set +a` sequence above. Quote values containing spaces.
 | `ASR_TIMEOUT` | `60` | HTTP timeout in seconds for the ASR service |
 | `ALLOWED_ORIGINS` | localhost/127.0.0.1 port 8000 | Comma-separated allowed browser origins |
 
-Similarity scores are not confidence probabilities. Increase `MIN_SCORE` if
-irrelevant matches appear; reduce it if relevant questions return no matches.
-The application uses approximate character budgets, not model-specific token
-counting. Default context assumes the configured 16K model context. Large
-non-English text or code may require reducing `CONTEXT_CHARS`.
 
 The app intentionally defaults to localhost. It has no user authentication or
 rate limits beyond the generation semaphore; use a proper authenticated reverse
@@ -293,18 +260,8 @@ Keep the named volumes to retain vectors and downloaded models. Do not use
 pip install pytest
 python -m pytest -q
 ```
-
 Tests use in-memory Qdrant and mocked Ollama HTTP calls. They cover repeat imports,
 collection preservation, schema/dimension checks, SQLite URLs, JSONL validation,
 streaming sources/completion, origin restrictions, invalid messages and no-match
 refusal. They do not require model downloads. See `VALIDATION.md` for what was
 verified in the build environment and the remaining local checks.
-
-## Provenance
-
-Original project: https://github.com/PaulNovack/Melanie-Martinez-Rag-Chat-Ollama
-Reviewed commit: `a47642565eb38b8cb435337c2b4516326b4293a2`.
-The four files in `topic_data/` are copied unchanged from that revision.
-The backend, browser app and startup workflow have been rewritten in this edition.
-The original repository did not include a license file at the reviewed revision;
-this package does not assign a new license to its original content.
