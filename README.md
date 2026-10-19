@@ -1,6 +1,8 @@
 # Local Knowledge Chat — improved Ollama + Qdrant edition
 
-Demo video: https://youtu.be/_xjihvMqhKc
+Demo video:
+
+[![Watch the demo video](https://img.youtube.com/vi/_xjihvMqhKc/hqdefault.jpg)](https://youtu.be/_xjihvMqhKc)
 
 A rebuilt version of Paul Novack's Melanie-Martinez-Rag-Chat-Ollama project.
 It keeps local retrieval and local model generation, supports arbitrary topics,
