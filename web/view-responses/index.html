@@ -24,6 +24,7 @@
       gap: 8px;
       flex-wrap: wrap;
     }
+    .responses-toolbar input,
     .responses-toolbar select {
       min-width: 120px;
     }
@@ -114,6 +115,23 @@
     .pagination .secondary[disabled] {
       opacity: 0.45;
     }
+    .search-box {
+      display: grid;
+      gap: 8px;
+      margin: 12px 0 0;
+    }
+    .search-box input {
+      width: 100%;
+      border: 1px solid #cfd5c7;
+      border-radius: 10px;
+      padding: 11px 12px;
+      font: inherit;
+      background: #fff;
+    }
+    .search-box input:focus {
+      outline: 2px solid #8aa472;
+      outline-offset: 2px;
+    }
     @media (max-width: 760px) {
       .shell {
         display: flex;
@@ -146,7 +164,8 @@
         padding: 10px 12px 14px;
       }
       .pagination .secondary,
-      .pagination select {
+      .pagination select,
+      .search-box input {
         width: 100%;
       }
     }
@@ -169,6 +188,14 @@
         </select>
         <button id="refresh" title="Refresh responses" aria-label="Refresh responses">↻</button>
       </div>
+      <label for="search">SEARCH BY KEYWORD</label>
+      <form class="search-box" id="search-form">
+        <input id="search" type="search" maxlength="120" placeholder="Search question, answer, or topic…">
+        <div class="row" style="margin: 0;">
+          <button id="run-search" type="submit">Search</button>
+          <button id="clear-search" class="secondary" type="button">Clear search</button>
+        </div>
+      </form>
       <button id="prev" class="secondary" type="button">Previous page</button>
       <button id="next" class="secondary" type="button">Next page</button>
       <button id="back-home" class="secondary" type="button">Back to chat</button>

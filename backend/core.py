@@ -226,6 +226,33 @@ def ensure_chat_history_db(path=None):
     return path
 
 
+def ensure_tts_cache_db(path=None):
+    path = Path(path) if path is not None else ROOT / 'database' / 'chat_history.sqlite3'
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with sqlite3.connect(path) as db:
+        db.execute('''
+            CREATE TABLE IF NOT EXISTS tts_cache (
+                hash TEXT PRIMARY KEY,
+                text TEXT NOT NULL,
+                created_at TEXT NOT NULL DEFAULT (CURRENT_TIMESTAMP)
+            )
+        ''')
+    return path
+
+
+def save_tts_cache_entry(text_hash, text, path=None):
+    path = ensure_tts_cache_db(path)
+    with sqlite3.connect(path) as db:
+        db.execute(
+            '''
+            INSERT INTO tts_cache(hash, text)
+            VALUES (?, ?)
+            ON CONFLICT(hash) DO UPDATE SET text=excluded.text
+            ''',
+            (str(text_hash), str(text).strip()),
+        )
+
+
 def save_chat_history(topic, question, answer, accepted=True, path=None):
     path = ensure_chat_history_db(path)
     with sqlite3.connect(path) as db:
@@ -235,7 +262,17 @@ def save_chat_history(topic, question, answer, accepted=True, path=None):
         )
 
 
-def read_chat_history(page=1, page_size=20, path=None):
+def _chat_history_search_clause(keyword):
+    term = str(keyword or '').strip().lower()
+    if not term:
+        return '', []
+    escaped = term.replace('\\', '\\\\').replace('%', '\\%').replace('_', '\\_')
+    pattern = f'%{escaped}%'
+    clause = "WHERE lower(topic || ' ' || question || ' ' || answer) LIKE ? ESCAPE '\\'"
+    return clause, [pattern]
+
+
+def read_chat_history(page=1, page_size=20, keyword='', path=None):
     page = int(page)
     page_size = min(int(page_size), 50)
     if page < 1:
@@ -245,16 +282,20 @@ def read_chat_history(page=1, page_size=20, path=None):
 
     path = ensure_chat_history_db(path)
     offset = (page - 1) * page_size
+    term = str(keyword or '').strip().lower()
+    clause, params = _chat_history_search_clause(keyword)
     with sqlite3.connect(path) as db:
-        total = db.execute('SELECT COUNT(*) FROM chat_history').fetchone()[0]
+        total = db.execute(f'SELECT COUNT(*) FROM chat_history {clause}', params).fetchone()[0]
         rows = db.execute(
             '''
             SELECT ID, topic, question, answer, accepted, created_date, created_at
             FROM chat_history
+            '''
+            + clause + '''
             ORDER BY created_at DESC, ID DESC
             LIMIT ? OFFSET ?
             ''',
-            (page_size, offset),
+            [*params, page_size, offset],
         ).fetchall()
     items = [dict(zip(('ID', 'topic', 'question', 'answer', 'accepted', 'created_date', 'created_at'), row)) for row in rows]
     total_pages = math.ceil(total / page_size) if total else 0
@@ -262,6 +303,7 @@ def read_chat_history(page=1, page_size=20, path=None):
         'items': items,
         'page': page,
         'page_size': page_size,
+        'keyword': term,
         'total': total,
         'total_pages': total_pages,
         'has_prev': page > 1 and total > 0,

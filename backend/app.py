@@ -358,8 +358,8 @@ def create_app(settings=None, store=None, ollama=None):
         return {'ok': True, 'topic': topic, 'saved': len(docs), 'updated': updated, 'path': str(additions_path)}
 
     @app.get('/api/responses')
-    async def responses(page: int = Query(1, ge=1), page_size: int = Query(10, ge=1, le=50)):
-        return read_chat_history(page=page, page_size=page_size, path=app.state.chat_history_db)
+    async def responses(page: int = Query(1, ge=1), page_size: int = Query(10, ge=1, le=50), q: str = Query('', max_length=120)):
+        return read_chat_history(page=page, page_size=page_size, keyword=q, path=app.state.chat_history_db)
 
     @app.get('/ask-and-train')
     @app.get('/ask-and-train/')

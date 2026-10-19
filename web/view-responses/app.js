@@ -1,8 +1,12 @@
 const $ = id => document.getElementById(id);
+const initialParams = new URLSearchParams(location.search);
+const initialPageSize = Number(initialParams.get('page_size') || $('page-size').value);
+const initialPage = Number(initialParams.get('page') || '1');
 
 const state = {
-  page: 1,
-  pageSize: Number($('page-size').value),
+  page: Number.isFinite(initialPage) && initialPage > 0 ? initialPage : 1,
+  pageSize: Number.isFinite(initialPageSize) && initialPageSize > 0 ? Math.min(initialPageSize, 50) : Number($('page-size').value),
+  keyword: initialParams.get('q') || '',
   total: 0,
   totalPages: 0,
   loading: false,
@@ -10,6 +14,22 @@ const state = {
 
 function setStatus(text) {
   $('status').textContent = text;
+}
+
+function searchLabel() {
+  return state.keyword.trim() ? ` for "${state.keyword.trim()}"` : '';
+}
+
+function syncUrl() {
+  const url = new URL(location.href);
+  url.searchParams.set('page', String(state.page));
+  url.searchParams.set('page_size', String(state.pageSize));
+  if (state.keyword.trim()) {
+    url.searchParams.set('q', state.keyword.trim());
+  } else {
+    url.searchParams.delete('q');
+  }
+  history.replaceState({}, '', url);
 }
 
 function setControls() {
@@ -20,7 +40,12 @@ function setControls() {
   $('next-bottom').disabled = disabled || (state.totalPages > 0 && state.page >= state.totalPages);
   $('refresh').disabled = disabled;
   $('page-size').disabled = disabled;
-  $('page-info').textContent = state.totalPages ? `Page ${state.page} of ${state.totalPages}` : 'No responses';
+  $('search').disabled = disabled;
+  $('run-search').disabled = disabled;
+  $('clear-search').disabled = disabled || !state.keyword;
+  $('page-info').textContent = state.totalPages
+    ? `Page ${state.page} of ${state.totalPages}${searchLabel()}`
+    : `No responses${searchLabel()}`;
 }
 
 function renderEmpty(message) {
@@ -74,7 +99,9 @@ function render(data) {
   state.totalPages = data.total_pages || 0;
   state.page = data.page || 1;
   state.pageSize = data.page_size || state.pageSize;
+  state.keyword = data.keyword || state.keyword || '';
   $('page-size').value = String(state.pageSize);
+  $('search').value = state.keyword;
 
   if (!data.items || !data.items.length) {
     renderEmpty(state.total ? 'No responses on this page yet.' : 'No chat history has been saved yet.');
@@ -85,6 +112,8 @@ function render(data) {
 }
 
 async function loadResponses(page = state.page) {
+  state.page = page;
+  syncUrl();
   state.loading = true;
   setControls();
   setStatus('Loading responses…');
@@ -92,13 +121,18 @@ async function loadResponses(page = state.page) {
     const url = new URL('/api/responses', location.href);
     url.searchParams.set('page', String(page));
     url.searchParams.set('page_size', String(state.pageSize));
+    if (state.keyword.trim()) {
+      url.searchParams.set('q', state.keyword.trim());
+    }
     const response = await fetch(url);
     const data = await response.json();
     if (!response.ok) {
       throw new Error(data.detail || data.error || 'Unable to load responses');
     }
     render(data);
-    setStatus(data.total ? `Showing ${data.items.length} of ${data.total} saved responses.` : 'No responses saved yet.');
+    setStatus(data.total
+      ? `Showing ${data.items.length} of ${data.total} saved responses${searchLabel()}.`
+      : `No responses saved yet${searchLabel()}.`);
   } catch (error) {
     renderEmpty(error.message);
     setStatus(error.message);
@@ -111,8 +145,36 @@ async function loadResponses(page = state.page) {
 $('page-size').addEventListener('change', () => {
   state.pageSize = Number($('page-size').value);
   state.page = 1;
+  syncUrl();
   loadResponses(1);
 });
+
+$('search').addEventListener('input', () => {
+  state.keyword = $('search').value;
+});
+
+$('search').addEventListener('keydown', event => {
+  if (event.key === 'Enter') {
+    event.preventDefault();
+    $('search-form').requestSubmit();
+  }
+});
+
+$('search-form').addEventListener('submit', event => {
+  event.preventDefault();
+  state.keyword = $('search').value;
+  state.page = 1;
+  syncUrl();
+  loadResponses(1);
+});
+
+$('clear-search').onclick = () => {
+  $('search').value = '';
+  state.keyword = '';
+  state.page = 1;
+  syncUrl();
+  loadResponses(1);
+};
 
 $('refresh').onclick = () => loadResponses(state.page);
 $('prev').onclick = () => { if (state.page > 1) loadResponses(state.page - 1); };

@@ -284,6 +284,42 @@ def test_view_responses_api_paginates_newest_first(tmp_path, monkeypatch, settin
     assert [item['ID'] for item in second_data['items']] == [1]
 
 
+def test_view_responses_api_filters_by_keyword(tmp_path, monkeypatch, settings, store):
+    monkeypatch.setattr('backend.core.ROOT', tmp_path)
+    monkeypatch.setattr('backend.app.ROOT', tmp_path)
+    (tmp_path / 'web').mkdir()
+
+    def handle(request):
+        if request.url.path == '/api/tags':
+            return httpx.Response(200, json={'models': [{'name': 'test'}, {'name': 'test-embed:latest'}]})
+        return httpx.Response(200, json={'embeddings': [[1.0, 0.0, 0.0]]})
+
+    ollama = httpx.AsyncClient(base_url='http://ollama', transport=httpx.MockTransport(handle))
+    app = create_app(settings, store, ollama)
+    with TestClient(app) as client:
+        db_path = tmp_path / 'database' / 'chat_history.sqlite3'
+        with sqlite3.connect(db_path) as db:
+            db.executemany(
+                '''
+                INSERT INTO chat_history(topic, question, answer, accepted, created_date, created_at)
+                VALUES (?, ?, ?, ?, ?, ?)
+                ''',
+                [
+                    ('PHP', 'How do I add context?', 'Use context from the chat history.', 1, '2026-10-19', '2026-10-19 00:00:01'),
+                    ('CDLA', 'How do corrections work?', 'Save the corrected answer.', 1, '2026-10-19', '2026-10-19 00:00:02'),
+                    ('Dementia', 'What is a dolly?', 'A dolly helps move heavy objects.', 1, '2026-10-19', '2026-10-19 00:00:03'),
+                ],
+            )
+
+        response = client.get('/api/responses?q=corrections&page=1&page_size=10')
+
+    assert response.status_code == 200
+    data = response.json()
+    assert data['total'] == 1
+    assert data['keyword'] == 'corrections'
+    assert [item['question'] for item in data['items']] == ['How do corrections work?']
+
+
 def test_view_responses_page_is_served(tmp_path, monkeypatch, settings, store):
     def handle(request):
         return httpx.Response(200, json={'models': [{'name': 'test'}, {'name': 'test-embed:latest'}]})
