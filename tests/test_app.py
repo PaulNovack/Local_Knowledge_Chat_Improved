@@ -678,3 +678,35 @@ def test_disconnect_cancels_ollama_stream(settings,store):
             ws.send_json({'topic':'PHP','question':'What is PHP?'})
             while ws.receive_json()['type'] != 'token':pass
         assert closed.wait(3), 'Disconnect should close the model HTTP stream'
+
+
+def test_speak_caches_wav_by_text_hash(tmp_path, monkeypatch, settings, store):
+    (tmp_path / 'web').mkdir()
+    monkeypatch.setattr('backend.core.ROOT', tmp_path)
+    monkeypatch.setattr('backend.app.ROOT', tmp_path)
+    piper_calls = []
+
+    def handle(request):
+        if request.url.path == '/speak':
+            piper_calls.append(request)
+            return httpx.Response(200, content=b'RIFFwav', headers={'content-type': 'audio/wav'})
+        return httpx.Response(200, json={'models': []})
+
+    ollama = httpx.AsyncClient(base_url='http://ollama', transport=httpx.MockTransport(handle))
+    app = create_app(settings, store, ollama)
+    with TestClient(app) as client:
+        app.state.piper = httpx.AsyncClient(transport=httpx.MockTransport(handle))
+        db_path = tmp_path / 'database' / 'chat_history.sqlite3'
+        with sqlite3.connect(db_path) as db:
+            assert db.execute("SELECT name FROM sqlite_master WHERE name='tts_cache'").fetchone()
+        first = client.post('/api/speak', json={'text': 'Hello there'})
+        second = client.post('/api/speak', json={'text': 'Hello there'})
+        assert first.content == second.content == b'RIFFwav'
+        assert len(piper_calls) == 1
+        client.post('/api/speak', json={'text': 'Other text'})
+        assert len(piper_calls) == 2
+
+    with sqlite3.connect(db_path) as db:
+        rows = db.execute('SELECT hash, text FROM tts_cache ORDER BY text').fetchall()
+    assert [r[1] for r in rows] == ['Hello there', 'Other text']
+    assert all((tmp_path / 'database' / 'tts_cache' / f'{r[0]}.wav').is_file() for r in rows)

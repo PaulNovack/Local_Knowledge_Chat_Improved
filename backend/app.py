@@ -1,6 +1,7 @@
 """Local-only HTTP UI and structured WebSocket streaming API."""
 import asyncio
 from contextlib import asynccontextmanager, suppress
+import hashlib
 import json
 import logging
 import re
@@ -15,7 +16,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, ValidationError, field_validator
 from typing import Literal
 
-from .core import ROOT, Settings, Store, chunk_size_for_topic, documents, embedding_input, ensure_chat_history_db, read_chat_history, read_records, save_chat_history, training_records_path, validate_vectors, topic_name
+from .core import ROOT, Settings, Store, chunk_size_for_topic, documents, embedding_input, ensure_chat_history_db, ensure_tts_cache_db, read_chat_history, read_records, save_chat_history, save_tts_cache_entry, training_records_path, validate_vectors, topic_name
 
 log = logging.getLogger(__name__)
 LOCAL_WEB_ORIGIN = 'http://127.0.0.1:8000'
@@ -222,6 +223,7 @@ def create_app(settings=None, store=None, ollama=None):
         app.state.piper = httpx.AsyncClient(timeout=settings.piper_timeout, trust_env=False)
         app.state.slots = asyncio.Semaphore(2)
         app.state.chat_history_db = ensure_chat_history_db()
+        ensure_tts_cache_db(app.state.chat_history_db)
         try:
             await _reload_saved_corrections(app.state.store, app.state.ollama, settings)
         except Exception:
@@ -295,10 +297,27 @@ def create_app(settings=None, store=None, ollama=None):
 
     @app.post('/api/speak')
     async def speak(payload: SpeakRequest):
+        text = payload.text.strip()
+        text_hash = hashlib.sha256(text.encode('utf-8')).hexdigest()
+        cache_file = ROOT / 'database' / 'tts_cache' / f'{text_hash}.wav'
+        if cache_file.is_file():
+            return Response(
+                content=await asyncio.to_thread(cache_file.read_bytes),
+                media_type='audio/wav',
+                headers={'content-disposition': 'inline; filename="reply.wav"'},
+            )
         try:
-            response = await app.state.piper.post(settings.piper_url, json={'text': payload.text})
+            response = await app.state.piper.post(settings.piper_url, json={'text': text})
             response.raise_for_status()
             content_type = response.headers.get('content-type', 'audio/wav')
+            try:
+                cache_file.parent.mkdir(parents=True, exist_ok=True)
+                tmp_file = cache_file.with_suffix('.tmp')
+                await asyncio.to_thread(tmp_file.write_bytes, response.content)
+                tmp_file.replace(cache_file)
+                await asyncio.to_thread(save_tts_cache_entry, text_hash, text, app.state.chat_history_db)
+            except Exception:
+                log.exception('Failed to cache TTS audio hash=%s', text_hash)
             return Response(
                 content=response.content,
                 media_type=content_type,
