@@ -1,0 +1,43 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]: K✦
+    - paragraph [ref=e5]: YOUR DATA. YOUR MACHINE.
+    - heading "Knowledge, in conversation." [level=1] [ref=e6]: Knowledge,in conversation.
+    - paragraph [ref=e7]: Ask your local library. Follow the sources. Keep exploring.
+    - generic [ref=e8]: KNOWLEDGE COLLECTION
+    - generic [ref=e9]:
+      - combobox "KNOWLEDGE COLLECTION" [ref=e10]:
+        - option "CDLA" [selected]
+        - option "Constipation"
+        - option "Dementia"
+        - option "Melanie Martinez"
+        - option "PHP"
+        - option "Rolling Stones"
+      - button "Refresh topics" [ref=e11] [cursor=pointer]: ↻
+    - button "New conversation" [active] [ref=e12] [cursor=pointer]
+    - button "Chat by Voice" [ref=e13] [cursor=pointer]
+    - button "Chat and Answer by Voice" [ref=e14] [cursor=pointer]
+    - button "Type and get Voice Response" [ref=e15] [cursor=pointer]
+    - button "View Responses" [ref=e16] [cursor=pointer]
+    - button "Ask & Train" [ref=e17] [cursor=pointer]
+    - status [ref=e18]: ● Services ready · Qwen:latest
+    - generic [ref=e19]: Powered by Ollama + QdrantAnswers reflect your imported data.
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]: LOCAL KNOWLEDGE CHAT
+      - button "Export chat" [ref=e24] [cursor=pointer]
+    - region "Conversation" [ref=e25]:
+      - generic [ref=e42]:
+        - text: A LITTLE CURIOSITY GOES A LONG WAY
+        - heading "What would you like to know?" [level=2] [ref=e43]: What would youlike to know?
+        - paragraph [ref=e44]: Choose a collection, then ask a specific question.Source excerpts will appear alongside each answer.
+        - button "Hear the spoken introduction to the CDLA collection" [ref=e45] [cursor=pointer]: Tell me how this works?
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - generic [ref=e32]: Your question
+        - textbox "Your question" [ref=e33]:
+          - /placeholder: Ask something about your collection…
+        - generic [ref=e34]:
+          - status [ref=e35]: New conversation. Ask a question.
+          - button "Ask question ↗" [ref=e36] [cursor=pointer]
+      - paragraph [ref=e37]: Generated answers can be wrong. Inspect the retrieved excerpts to verify them.

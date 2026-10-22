@@ -344,6 +344,49 @@ class Store:
             id=doc['id'], vector=vector, payload={**doc, 'embedding_model': self.settings.embed_model})
             for doc, vector in zip(docs, vectors)], wait=True)
 
+    def delete_user_additions_for_question(self, topic, question, keep_ids=()):
+        name = self.name(topic)
+        if not self.client.collection_exists(name):
+            return
+        target = re.sub(r'\W+', ' ', str(question)).strip().lower()
+        keep_ids = {str(point_id) for point_id in keep_ids}
+        source_filter = models.Filter(must=[models.FieldCondition(
+            key='source', match=models.MatchValue(value='user_additions'))])
+        point_ids = []
+        offset = None
+        while True:
+            points, offset = self.client.scroll(
+                name, scroll_filter=source_filter, limit=256, offset=offset,
+                with_payload=['question'], with_vectors=False)
+            point_ids.extend(
+                point.id for point in points
+                if str(point.id) not in keep_ids
+                and re.sub(r'\W+', ' ', str((point.payload or {}).get('question', ''))).strip().lower() == target
+            )
+            if offset is None:
+                break
+        if point_ids:
+            self.client.delete(name, points_selector=point_ids, wait=True)
+
+    def delete_stale_user_additions(self, topic, keep_ids):
+        name = self.name(topic)
+        if not self.client.collection_exists(name):
+            return
+        keep_ids = {str(point_id) for point_id in keep_ids}
+        source_filter = models.Filter(must=[models.FieldCondition(
+            key='source', match=models.MatchValue(value='user_additions'))])
+        stale_ids = []
+        offset = None
+        while True:
+            points, offset = self.client.scroll(
+                name, scroll_filter=source_filter, limit=256, offset=offset,
+                with_payload=False, with_vectors=False)
+            stale_ids.extend(point.id for point in points if str(point.id) not in keep_ids)
+            if offset is None:
+                break
+        if stale_ids:
+            self.client.delete(name, points_selector=stale_ids, wait=True)
+
     def search(self, topic, vector):
         name = self.name(topic)
         if hasattr(self.client, 'query_points'):

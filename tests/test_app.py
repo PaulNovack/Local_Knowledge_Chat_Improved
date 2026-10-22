@@ -205,13 +205,17 @@ def test_chat_history_is_created_and_saved(tmp_path, monkeypatch, settings, stor
     monkeypatch.setattr('backend.core.ROOT', tmp_path)
     monkeypatch.setattr('backend.app.ROOT', tmp_path)
 
+    embed_inputs = []
+
     def handle(request):
         if request.url.path == '/api/embed':
+            embed_inputs.append(json.loads(request.content)['input'])
             return httpx.Response(200, json={'embeddings': [[1.0, 0.0, 0.0]]})
         if request.url.path == '/api/tags':
             return httpx.Response(200, json={'models': [{'name': 'test'}, {'name': 'test-embed:latest'}]})
         payload = json.loads(request.content)
-        assert payload['messages'][-1]['content'].endswith('Question: What is PHP used for?')
+        assert len(payload['messages']) == 2
+        assert payload['messages'][-1]['content'].endswith('Question: What about PHP?')
         return httpx.Response(200, text='\n'.join(json.dumps(x) for x in [
             {'message': {'content': 'PHP is used for web development [1].'}}, {'done': True}]))
 
@@ -221,7 +225,11 @@ def test_chat_history_is_created_and_saved(tmp_path, monkeypatch, settings, stor
         db_path = tmp_path / 'database' / 'chat_history.sqlite3'
         assert db_path.exists()
         with client.websocket_connect('/ws/chat', headers={'origin': 'http://localhost:8000'}) as ws:
-            ws.send_json({'topic': 'PHP', 'question': 'What is PHP used for?'})
+            ws.send_json({
+                'topic': 'PHP',
+                'question': 'What about PHP?',
+                'history': [{'role': 'user', 'content': 'What was the prior question?'}],
+            })
             events = []
             while True:
                 event = ws.receive_json()
@@ -236,7 +244,8 @@ def test_chat_history_is_created_and_saved(tmp_path, monkeypatch, settings, stor
 
     assert row[0] >= 1
     assert row[1] == 'PHP'
-    assert row[2] == 'What is PHP used for?'
+    assert embed_inputs == ['What about PHP?']
+    assert row[2] == 'What about PHP?'
     assert row[3] == 'PHP is used for web development [1].'
     assert row[4] == 1
     assert row[5]
@@ -458,6 +467,9 @@ def test_train_endpoint_skips_duplicate_corrections(tmp_path, monkeypatch, setti
     saved_lines = [line for line in saved.read_text(encoding='utf-8').splitlines() if line.strip()]
     assert len(saved_lines) == 1
     assert 'PHP is a server-side scripting language for web development.' in saved_lines[0]
+    results = store.search('PHP', [1.0, 0.0, 0.0])
+    assert any(item['text'] == 'PHP is a server-side scripting language for web development.' for item in results)
+    assert not any(item['text'] == 'PHP is a general-purpose scripting language for web development.' for item in results)
 
 
 def test_train_endpoint_rejects_non_local_origin(tmp_path, monkeypatch, settings, store):
@@ -507,6 +519,13 @@ def test_ask_and_train_page_rejects_non_local_host(tmp_path, monkeypatch, settin
 
 
 def test_saved_corrections_reload_on_startup(tmp_path, monkeypatch, settings, store):
+    old_record = {
+        'question': 'What is PHP?',
+        'answer': 'Outdated answer.',
+        'url': '',
+        'source': 'user_additions',
+    }
+    store.upsert('PHP', list(documents(old_record)), [[1.0, 0.0, 0.0]])
     additions = tmp_path / 'topic_data' / 'user_additions'
     additions.mkdir(parents=True)
     (tmp_path / 'web').mkdir()
@@ -531,6 +550,7 @@ def test_saved_corrections_reload_on_startup(tmp_path, monkeypatch, settings, st
     assert 'PHP' in store.topics()
     results = store.search('PHP', [1.0, 0.0, 0.0])
     assert any(item['text'] == 'PHP is a general-purpose scripting language for web development.' for item in results)
+    assert not any(item['text'] == 'Outdated answer.' for item in results)
 
 
 def test_exact_saved_correction_short_circuits_llm(settings, store):

@@ -1,5 +1,9 @@
 const $ = id => document.getElementById(id);
-let socket = null, busy = false, turns = [], transcript = [], current = null;
+const stylesheet = document.querySelector('link[rel="stylesheet"][href="/style.css"]');
+if (stylesheet) stylesheet.href = '/style.css?v=20261022-cdla-intro-pulse';
+const welcomeTemplate = $('welcome')?.cloneNode(true);
+let socket = null, busy = false, transcript = [], current = null;
+let introAudio = null, introAudioUrl = '';
 const showAskAndTrain = location.origin === 'http://127.0.0.1:8000';
 const training = {
   form: $('train-form'),
@@ -16,6 +20,59 @@ function setBusy(value) {
 }
 function status(text) { $('status').textContent = text; }
 function trainStatus(text) { if (training.status) training.status.textContent = text; }
+function updateWelcome() {
+  const welcome = $('welcome');
+  if (!welcome) return;
+  welcome.querySelector('#cdla-intro')?.remove();
+  if ($('topic').value.toUpperCase() !== 'CDLA') return;
+  const button = document.createElement('button');
+  button.id = 'cdla-intro';
+  button.type = 'button';
+  button.className = 'secondary';
+  button.textContent = 'Tell me how this works?';
+  button.setAttribute('aria-label', 'Hear the spoken introduction to the CDLA collection');
+  button.addEventListener('click', playCdlaIntro);
+  welcome.append(button);
+}
+async function playCdlaIntro(event) {
+  const button = event.currentTarget;
+  button.disabled = true;
+  status('Preparing the spoken introduction…');
+  let audio = null;
+  let audioUrl = '';
+  const finish = () => {
+    if (introAudio === audio) introAudio = null;
+    if (introAudioUrl === audioUrl && audioUrl) {
+      URL.revokeObjectURL(audioUrl);
+      introAudioUrl = '';
+    }
+    button.disabled = false;
+  };
+  try {
+    const scriptResponse = await fetch('/cdla-intro.txt', {cache: 'no-store'});
+    if (!scriptResponse.ok) throw new Error('Unable to load the CDLA introduction.');
+    const text = (await scriptResponse.text()).trim();
+    if (!text) throw new Error('The CDLA introduction is empty.');
+    const response = await fetch('/api/speak', {
+      method: 'POST',
+      headers: {'content-type': 'application/json'},
+      body: JSON.stringify({text}),
+    });
+    if (!response.ok) throw new Error('Unable to generate the spoken introduction.');
+    audioUrl = URL.createObjectURL(await response.blob());
+    introAudioUrl = audioUrl;
+    audio = new Audio(audioUrl);
+    introAudio = audio;
+    audio.addEventListener('ended', finish, {once: true});
+    audio.addEventListener('error', finish, {once: true});
+    await audio.play();
+    status('Playing the CDLA introduction…');
+  } catch (error) {
+    if (audio) audio.pause();
+    finish();
+    status(error.message || 'Unable to play the CDLA introduction.');
+  }
+}
 function bubble(role, text) {
   $('welcome')?.remove();
   const card = document.createElement('article'); card.className = `message ${role}`;
@@ -66,6 +123,7 @@ async function refresh() {
     const prior = $('topic').value; $('topic').replaceChildren();
     for (const name of data.topics) { const o = document.createElement('option'); o.value = name; o.textContent = name.replaceAll('_', ' '); $('topic').append(o); }
     if (data.topics.includes(prior)) $('topic').value = prior;
+    updateWelcome();
     if (!data.topics.length) status('No collections yet. Import a data file, then refresh.');
     const health = await (await fetch('/api/health')).json();
     $('health').textContent = health.ok ? `● Services ready · ${health.chat_model}` : '○ Services need attention — see /api/health';
@@ -88,7 +146,7 @@ $('form').addEventListener('submit', event => {
   trainStatus('');
   $('question').value = '';
   const ws = new WebSocket(chatWsUrl()); socket = ws;
-  ws.onopen = () => ws.send(JSON.stringify({topic: record.topic, question, history: turns.slice(-6)}));
+  ws.onopen = () => ws.send(JSON.stringify({topic: record.topic, question}));
   ws.onmessage = event => {
     try {
       const data = JSON.parse(event.data);
@@ -104,8 +162,7 @@ $('form').addEventListener('submit', event => {
       if (data.type === 'done') {
         answer.body.classList.remove('thinking');
         record.complete = true;
-        turns.push({role: 'user', content: question.slice(0,4000)}, {role: 'assistant', content: record.answer.slice(0,4000)});
-        turns = turns.slice(-6); status('Ready for your next question.');
+        status('Ready for your next question.');
         if (training.form && training.question && training.answer) {
           training.question.value = question;
           training.answer.value = record.answer;
@@ -120,7 +177,17 @@ $('form').addEventListener('submit', event => {
 });
 $('stop').onclick = () => socket?.close();
 $('question').addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey && !e.isComposing) { e.preventDefault(); $('form').requestSubmit(); } });
-function clearChat() { turns = []; transcript = []; $('messages').replaceChildren(); status('New conversation. Ask a question.'); }
+function clearChat() {
+  transcript = [];
+  introAudio?.pause();
+  if (introAudioUrl) URL.revokeObjectURL(introAudioUrl);
+  introAudio = null;
+  introAudioUrl = '';
+  $('messages').replaceChildren();
+  if (welcomeTemplate) $('messages').append(welcomeTemplate.cloneNode(true));
+  updateWelcome();
+  status('New conversation. Ask a question.');
+}
 $('clear').onclick = clearChat;
 $('voice-chat') && ($('voice-chat').onclick = () => { location.href = '/chat-by-voice/'; });
 $('voice-answer-chat') && ($('voice-answer-chat').onclick = () => { location.href = '/chat-and-answer-by-voice/'; });

@@ -16,7 +16,6 @@ const speechConfig = {
 
 let socket = null;
 let busy = false;
-let turns = [];
 let transcript = [];
 let stream = null;
 let recorder = null;
@@ -144,7 +143,6 @@ async function refreshHealth() {
   }
 }
 function clearConversation() {
-  turns = [];
   transcript = [];
   $('messages').replaceChildren();
   $('heard').textContent = 'No speech captured yet.';
@@ -251,7 +249,7 @@ async function askQuestion(question) {
         reject(error);
       }
     };
-    ws.onopen = () => ws.send(JSON.stringify({ topic: record.topic, question, history: turns.slice(-6) }));
+    ws.onopen = () => ws.send(JSON.stringify({ topic: record.topic, question }));
     ws.onmessage = event => {
       try {
         const data = JSON.parse(event.data);
@@ -280,11 +278,6 @@ async function askQuestion(question) {
         if (data.type === 'done') {
           answer.body.classList.remove('thinking');
           record.complete = true;
-          turns.push(
-            { role: 'user', content: question.slice(0, 4000) },
-            { role: 'assistant', content: record.answer.slice(0, 4000) },
-          );
-          turns = turns.slice(-6);
           setStatus('Ready for the next question.');
           busy = false;
           done();
