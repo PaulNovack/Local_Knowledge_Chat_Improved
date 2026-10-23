@@ -201,9 +201,21 @@ def test_stream_sources_and_completion(settings, store):
 
 def test_following_distance_calculations_and_fallbacks():
     cases = [
+        ('How many seconds does a 40-foot truck traveling at 50 miles per hour need to stop?', 40, 50, 5),
         ('How long to stop a 70-foot rig at 60 mph?', 70, 60, 8),
+        ('How long would it take a 70-foot tractor-trailer going 60 mph to come to a complete stop?', 70, 60, 8),
+        ('If my combination vehicle is 65 feet long and I am driving 55 mph, what is my stopping time in seconds?', 65, 55, 7.5),
+        ('A 30-foot truck is traveling at 35 mph. How many seconds will it take to stop?', 30, 35, 3),
+        ('How quickly can an 80-foot combination stop from 65 miles per hour?', 80, 65, 9),
+        ('What is the total stopping time for a 50-foot truck moving at 45 mph?', 50, 45, 6),
+        ('How many seconds should a 70 foot rig follow at 40 MPH?', 70, 40, 7),
+        ('If I am driving a 40 foot righ going 70 MPH how long will it take me to stop', 40, 70, 5),
+        ('What following time for a 70-ft truck at 41 mph?', 70, 41, 8),
+        ('How long to stop a 70\u2011foot truck at 60 mph?', 70, 60, 8),
+        ('If I am going 70 MPH with a 50 foot truck what is stopping distance?', 50, 70, 6),
         ('What safe following distance for a 70 ft truck at 40 mph?', 70, 40, 7),
-        ('How many seconds should a 70-foot rig follow at 64.37376 km/h?', 70, 40, 7),
+        ('How many seconds should a 70-foot rig follow at 40 mi/h?', 70, 40, 7),
+        ('What following time does a 70-ft truck need at 41 mph? Include the formula.', 70, 41, 8),
     ]
     for question, length, speed, seconds in cases:
         result = answer_following_distance(question)
@@ -213,12 +225,25 @@ def test_following_distance_calculations_and_fallbacks():
         assert result.following_gap_seconds == seconds
         assert result.formula in result.answer
         assert 'not the physical time needed to stop' in result.answer
+        assert result.answer.endswith('by 10, then add 1 second if speed is over 40 mph.')
 
     fallbacks = [
-        'How long to stop a 70-foot truck?',
-        'How long to stop a 70-foot truck at 40 or 60 mph?',
-        'How long to stop a 70-foot truck at 60 mph and what gear should I use?',
+        'What is minimum tire tread depth?',
         'How long does a truck take to stop at 60 mph?',
+        'How long to stop a 70-foot truck?',
+        'My truck is 70 feet long and travels at 60 mph.',
+        'What gear should a 70-foot truck use at 60 mph?',
+        'Why does a 70-foot truck take time to stop at 60 mph?',
+        'How long to stop a 70-foot truck at 40 mph or 60 mph?',
+        'How long to stop a 70-foot truck at 40 or 60 mph?',
+        'How long to stop a 70-foot trailer with a 20-foot tractor at 60 mph?',
+        'How long to stop a 70-foot truck at 60 mph? What about tires?',
+        'How long to stop a 70-foot truck at 60 km/h?',
+        'How long to stop a 70-foot truck at 60 mph and what gear should I use?',
+        'How long to stop a seventy-foot truck at sixty mph?',
+        'How long to stop a -70-foot truck at 60 mph?',
+        'How long to stop a 70-foot truck at -60 mph?',
+        'How long to stop a 70-foot truck at 0 mph?',
     ]
     assert all(_parse(question) is None for question in fallbacks)
 
@@ -235,7 +260,8 @@ def test_following_distance_answer_is_saved_without_calling_llm(tmp_path, monkey
     ollama = httpx.AsyncClient(base_url='http://ollama', transport=httpx.MockTransport(unexpected_request))
     with TestClient(create_app(settings, store, ollama)) as client:
         with client.websocket_connect('/ws/chat', headers={'origin': 'http://localhost:8000'}) as ws:
-            ws.send_json({'topic': 'PHP', 'question': 'How long to stop a 70-foot rig at 60 mph?'})
+            question = 'If I am going 70 MPH with a 50 foot truck what is stopping distance?'
+            ws.send_json({'topic': 'PHP', 'question': question})
             events = []
             while True:
                 event = ws.receive_json()
@@ -244,10 +270,10 @@ def test_following_distance_answer_is_saved_without_calling_llm(tmp_path, monkey
                     break
 
     answer = next(event['text'] for event in events if event['type'] == 'token')
-    assert '70 / 10 + 1 = 8 seconds' in answer
+    assert '50 / 10 + 1 = 6 seconds' in answer
     with sqlite3.connect(tmp_path / 'database' / 'chat_history.sqlite3') as db:
         row = db.execute('SELECT question, answer FROM chat_history').fetchone()
-    assert row == ('How long to stop a 70-foot rig at 60 mph?', answer)
+    assert row == (question, answer)
 
 
 def test_chat_history_is_created_and_saved(tmp_path, monkeypatch, settings, store):

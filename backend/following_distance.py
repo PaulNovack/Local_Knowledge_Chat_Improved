@@ -7,16 +7,17 @@ NUM = r'[-+]?(?:\d+(?:\.\d+)?|\.\d+)'
 LENGTH = re.compile(rf'(?<![\w.])({NUM})\s*[- ]?\s*(?:foot|feet|ft)\b', re.I)
 SPEED = re.compile(
     rf'(?<![\w.])({NUM})\s*[- ]?\s*'
-    r'(mph|miles?\s+(?:per|an?)\s+hour|mi/h|km/h|kph|kmh)\b', re.I)
+    r'(mph|miles?\s+(?:per|an?)\s+hour|mi/h)\b', re.I)
 TIMING = re.compile(
     r'\b(?:seconds?|time|how\s+long|how\s+quickly|how\s+much\s+time|'
-    r'how\s+(?:much\s+)?(?:following\s+)?distance|(?:safe\s+)?following\s+distance)\b', re.I)
+    r'how\s+(?:much\s+)?(?:following\s+)?distance|(?:safe\s+)?following\s+distance|'
+    r'(?:stopping|braking)\s+distance)\b', re.I)
 INTENT = re.compile(r'\b(?:stop|stops|stopped|stopping|follow|following|headway)\b', re.I)
 EXCLUDE = re.compile(
-    r'\b(?:why|compare|comparison|versus|vs|formula|always|double|doubling|'
+    r'\b(?:why|compare|comparison|versus|vs|always|double|doubling|'
     r'brake\s+fade|brake\s+failure|inspect|inspection|repair|oil|pressure|'
     r'engine|hazmat|hydroplan|additional\s+information|what\s+else)\b', re.I)
-CONTEXT = re.compile(r'\b(?:truck|tractor|trailer|rig|vehicle|combination|bus|semi)\b', re.I)
+CONTEXT = re.compile(r'\b(?:truck|tractor|trailer|rig|righ|vehicle|combination|bus|semi)\b', re.I)
 RANGE = re.compile(rf'{NUM}\s*(?:or|to|through|[-–—])\s*{NUM}\s*(?:mph|kph|km/h|feet|foot|ft)\b', re.I)
 
 
@@ -47,12 +48,7 @@ def _parse(text: str) -> tuple[float, float] | None:
         return None
 
     lengths = [float(match[1]) for match in LENGTH.finditer(text)]
-    speeds = []
-    for match in SPEED.finditer(text):
-        speed = float(match[1])
-        if match[2].lower() in ('km/h', 'kph', 'kmh'):
-            speed /= 1.609344
-        speeds.append(speed)
+    speeds = [float(match[1]) for match in SPEED.finditer(text)]
     if len(lengths) != 1 or len(speeds) != 1:
         return None
     length, speed = lengths[0], speeds[0]
@@ -77,6 +73,8 @@ def answer_following_distance(text: str) -> FollowingDistanceResult:
         f'or combination length. Calculation: {formula}. Allow one second '
         'per 10 feet, plus one additional second when speed is over 40 mph. '
         'This is following time, not the physical time needed to stop. '
-        'Increase the gap when weather, traffic, or road conditions require it.'
+        'Increase the gap when weather, traffic, or road conditions require it. '
+        'To calculate it yourself, divide the total combination length in feet '
+        'by 10, then add 1 second if speed is over 40 mph.'
     )
     return FollowingDistanceResult(True, 'calculated', answer, length, speed, seconds, formula)
