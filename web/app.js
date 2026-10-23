@@ -1,6 +1,4 @@
 const $ = id => document.getElementById(id);
-const stylesheet = document.querySelector('link[rel="stylesheet"][href="/style.css"]');
-if (stylesheet) stylesheet.href = '/style.css?v=20261022-cdla-intro-pulse';
 const welcomeTemplate = $('welcome')?.cloneNode(true);
 let socket = null, busy = false, transcript = [], current = null;
 let introAudio = null, introAudioUrl = '';
@@ -137,7 +135,12 @@ function chatWsUrl() {
 }
 $('form').addEventListener('submit', event => {
   event.preventDefault(); const question = $('question').value.trim();
-  if (!question || busy || !$('topic').value) return;
+  if (!question || busy) return;
+  if (window.handleStepVideoRequest?.(question)) {
+    $('question').value = '';
+    return;
+  }
+  if (!$('topic').value) return;
   bubble('user', question); const answer = bubble('assistant', '');
   answer.body.classList.add('thinking');
   answer.body.append(thinkingIndicator());

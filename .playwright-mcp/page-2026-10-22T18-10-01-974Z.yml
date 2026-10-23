@@ -1,0 +1,46 @@
+- generic [ref=f8e2]:
+  - complementary [ref=f8e3]:
+    - generic [ref=f8e4]: K✦
+    - paragraph [ref=f8e5]: TEXT TO VOICE
+    - heading "Type, listen, and keep going." [level=1] [ref=f8e6]: Type, listen,and keep going.
+    - paragraph [ref=f8e7]: TypeVoice sends your prompt to the local chat engine and speaks the answer back with Amy.
+    - generic [ref=f8e8]: KNOWLEDGE COLLECTION
+    - generic [ref=f8e9]:
+      - combobox "KNOWLEDGE COLLECTION" [ref=f8e10]:
+        - option "CDLA" [selected]
+        - option "Constipation"
+        - option "Dementia"
+        - option "Melanie Martinez"
+        - option "PHP"
+        - option "Rolling Stones"
+      - button "Refresh topics" [ref=f8e11] [cursor=pointer]: ↻
+    - button "New conversation" [ref=f8e12] [cursor=pointer]
+    - button "Back to chat" [ref=f8e13] [cursor=pointer]
+    - button "Chat by Voice" [ref=f8e14] [cursor=pointer]
+    - button "Chat and Answer by Voice" [ref=f8e15] [cursor=pointer]
+    - status [ref=f8e16]: ● Services ready · Qwen:latest · Amy voice ready
+    - generic [ref=f8e17]: Powered by ASR + PiperType a question and hear the answer.
+  - main [ref=f8e18]:
+    - generic [ref=f8e19]:
+      - generic [ref=f8e20]: TYPEVOICE
+      - button "Export session" [ref=f8e22] [cursor=pointer]
+    - region [ref=f8e23]:
+      - heading "Type your prompt" [level=2] [ref=f8e24]
+      - paragraph [ref=f8e25]: Write a question or a short prompt, then send it to the local chat engine. The answer will appear below and play out loud automatically.
+      - generic [ref=f8e26]:
+        - generic [ref=f8e27]: Your prompt
+        - textbox "Your prompt" [ref=f8e28]:
+          - /placeholder: Ask something about your collection…
+        - generic [ref=f8e29]:
+          - status [ref=f8e30]: Ready. Type a prompt and send it.
+          - button "Speak response ↗" [ref=f8e31] [cursor=pointer]
+        - generic [ref=f8e32]:
+          - button "Replay answer" [disabled] [ref=f8e33]
+          - generic [ref=f8e34]: Ready to speak replies.
+        - generic [ref=f8e35]: The typed prompt goes to the chat model, then the response is voiced through the local Piper service.
+    - region "Conversation" [ref=f8e36]:
+      - generic [ref=f8e37]:
+        - text: TYPE FIRST, VOICE SECOND
+        - heading "Type it once. Hear the answer." [level=2] [ref=f8e38]: Type it once.Hear the answer.
+        - paragraph [ref=f8e39]: The typed prompt goes to the chat model, and the reply is spoken aloud through the local Piper voice service.
+    - paragraph [ref=f8e41]: Generated answers can be wrong. Inspect the retrieved excerpts to verify them, and use replay if you want to hear the answer again.

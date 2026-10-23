@@ -136,6 +136,7 @@ function getWsUrl() {
   return url;
 }
 async function askQuestion(question) {
+  if (window.handleStepVideoRequest?.(question)) return null;
   if (!ensureSelectedTopic()) {
     throw new Error('Select a knowledge collection first, then ask again.');
   }
@@ -253,7 +254,7 @@ async function handleSubmit(event) {
   setStatus('Sending prompt…');
   try {
     const answer = await askQuestion(question);
-    await speakAnswer(answer);
+    if (answer) await speakAnswer(answer);
     $('question').value = '';
     $('question').focus();
   } catch (error) {

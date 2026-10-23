@@ -1,0 +1,44 @@
+- generic [ref=f7e2]:
+  - complementary [ref=f7e3]:
+    - generic [ref=f7e4]: K✦
+    - paragraph [ref=f7e5]: VOICE TO CHAT
+    - heading "Speak, pause, get an answer." [level=1] [ref=f7e6]: Speak, pause,get an answer.
+    - paragraph [ref=f7e7]: This page records your voice, sends the audio to the local ASR service, asks the chat engine, then speaks the answer back with Amy.
+    - generic [ref=f7e8]: KNOWLEDGE COLLECTION
+    - generic [ref=f7e9]:
+      - combobox "KNOWLEDGE COLLECTION" [ref=f7e10]:
+        - option "CDLA" [selected]
+        - option "Constipation"
+        - option "Dementia"
+        - option "Melanie Martinez"
+        - option "PHP"
+        - option "Rolling Stones"
+      - button "Refresh topics" [ref=f7e11] [cursor=pointer]: ↻
+    - button "Start listening" [ref=f7e12] [cursor=pointer]
+    - button "Stop listening" [disabled] [ref=f7e13]
+    - button "New conversation" [ref=f7e14] [cursor=pointer]
+    - button "Back to chat" [ref=f7e15] [cursor=pointer]
+    - status [ref=f7e16]: ● Services ready · Qwen:latest · Amy voice ready
+    - generic [ref=f7e17]: Powered by ASR + PiperQuestions are transcribed, answered, and spoken back.
+  - main [ref=f7e18]:
+    - generic [ref=f7e19]:
+      - generic [ref=f7e20]: CHAT AND ANSWER BY VOICE
+      - button "Export session" [ref=f7e22] [cursor=pointer]
+    - generic [ref=f7e23]:
+      - button "Start voice" [ref=f7e25] [cursor=pointer]
+      - generic [ref=f7e27]:
+        - heading "Live input" [level=2] [ref=f7e28]
+        - paragraph [ref=f7e29]: Ready. Select a topic and press start.
+        - generic [ref=f7e31]: "-100 dB"
+    - region "Conversation" [ref=f7e32]:
+      - generic [ref=f7e33]:
+        - text: VOICE FIRST, TEXT SECOND
+        - heading "What do you want to ask?" [level=2] [ref=f7e34]: What do youwant to ask?
+        - paragraph [ref=f7e35]: When you pause speaking, the page will send the audio to ASR, ask the chat model, then play the answer in Amy’s voice.
+    - paragraph [ref=f7e37]: "Tips: speak in a short burst, pause, then review the transcript. You can keep talking after each response."
+    - generic [ref=f7e39]:
+      - heading "Transcript" [level=3] [ref=f7e40]
+      - generic [ref=f7e41]: No speech captured yet.
+      - generic [ref=f7e42]:
+        - button "Replay answer" [disabled] [ref=f7e43]
+        - generic [ref=f7e44]: Ready to speak replies.

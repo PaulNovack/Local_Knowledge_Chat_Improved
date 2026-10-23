@@ -31,6 +31,8 @@ let inSpeech = false;
 let speechCandidateSince = 0;
 let keepListening = false;
 let stopping = false;
+let microphoneAcquirePromise = null;
+let resumeListeningAfterVideo = false;
 let lastReplyAudioUrl = '';
 
 function setStatus(text) { $('voice-status').textContent = text; }
@@ -201,6 +203,7 @@ async function cleanupCapture() {
   inSpeech = false;
   speechCandidateSince = 0;
   updateButtons(false);
+  window.dispatchEvent(new Event('microphone-capture-stopped'));
 }
 async function pauseCaptureForPlayback() {
   const activeRecorder = recorder;
@@ -221,7 +224,29 @@ async function pauseCaptureForPlayback() {
     }
   });
 }
+async function pauseMicrophoneForVideo() {
+  resumeListeningAfterVideo = keepListening || Boolean(stream || recorder);
+  keepListening = false;
+  if (microphoneAcquirePromise) {
+    try { await microphoneAcquirePromise; } catch (_) {}
+  }
+  if (stopping && (stream || recorder)) {
+    await new Promise(resolve => window.addEventListener('microphone-capture-stopped', resolve, {once: true}));
+  }
+  await pauseCaptureForPlayback();
+  if (resumeListeningAfterVideo) $('stop').disabled = false;
+}
+async function resumeMicrophoneAfterVideo() {
+  if (!resumeListeningAfterVideo) return;
+  keepListening = true;
+  if (stopping) return;
+  resumeListeningAfterVideo = false;
+  if (!busy) await startListening(false);
+}
+window.pauseMicrophoneForVideo = pauseMicrophoneForVideo;
+window.resumeMicrophoneAfterVideo = resumeMicrophoneAfterVideo;
 async function askQuestion(question) {
+  if (window.handleStepVideoRequest?.(question)) return null;
   if (!ensureSelectedTopic()) {
     throw new Error('Select a knowledge collection first, then ask again.');
   }
@@ -390,10 +415,12 @@ async function handleCapturedAudio(blob) {
       return;
     }
     const answer = await askQuestion(text);
-    try {
-      await speakAnswer(answer);
-    } catch (error) {
-      setSpeakStatus(error.message);
+    if (answer) {
+      try {
+        await speakAnswer(answer);
+      } catch (error) {
+        setSpeakStatus(error.message);
+      }
     }
   } catch (error) {
     setStatus(error.message);
@@ -423,12 +450,16 @@ async function stopListening(manual = false) {
     await cleanupCapture();
   }
   stopping = false;
-  if (keepListening && !manual) {
+  if (resumeListeningAfterVideo && !document.body.classList.contains('video-overlay-open')) {
+    resumeListeningAfterVideo = false;
+    keepListening = true;
+  }
+  if (keepListening && !manual && !document.body.classList.contains('video-overlay-open')) {
     await startListening(false);
   }
 }
 async function startListening(manual = true) {
-  if (stream || recorder || busy) return;
+  if (stream || recorder || microphoneAcquirePromise || busy || document.body.classList.contains('video-overlay-open')) return;
   try {
     keepListening = manual ? true : keepListening;
     chunks = [];
@@ -439,9 +470,18 @@ async function startListening(manual = true) {
     warmupEnd = startedAt + speechConfig.vadWarmupMs;
     setStatus('Requesting microphone access…');
     updateButtons(true);
-    stream = await navigator.mediaDevices.getUserMedia({
+    microphoneAcquirePromise = navigator.mediaDevices.getUserMedia({
       audio: { channelCount: 1, noiseSuppression: true, echoCancellation: true },
     });
+    try {
+      stream = await microphoneAcquirePromise;
+    } finally {
+      microphoneAcquirePromise = null;
+    }
+    if (document.body.classList.contains('video-overlay-open')) {
+      await cleanupCapture();
+      return;
+    }
     audioCtx = new AudioContext();
     analyser = audioCtx.createAnalyser();
     analyser.fftSize = 2048;
@@ -498,7 +538,10 @@ async function startListening(manual = true) {
 
 $('start').onclick = () => startListening(true);
 $('start-hero').onclick = () => startListening(true);
-$('stop').onclick = () => stopListening(true);
+$('stop').onclick = () => {
+  resumeListeningAfterVideo = false;
+  void stopListening(true);
+};
 $('clear').onclick = clearConversation;
 $('topic').onchange = clearConversation;
 $('refresh').onclick = async () => { await loadTopics(); await refreshHealth(); };

@@ -10,6 +10,7 @@ from qdrant_client import QdrantClient
 from backend.core import Settings, Store, read_records, documents, topic_name
 from backend.ingest import import_file
 from backend.app import create_app, _is_date_question
+from backend.following_distance import answer_following_distance, _parse
 
 
 def write_simple_pdf(path: Path, text: str):
@@ -198,6 +199,57 @@ def test_stream_sources_and_completion(settings, store):
         assert any(e.get('text')=='PHP is a language [1].' for e in events)
 
 
+def test_following_distance_calculations_and_fallbacks():
+    cases = [
+        ('How long to stop a 70-foot rig at 60 mph?', 70, 60, 8),
+        ('What safe following distance for a 70 ft truck at 40 mph?', 70, 40, 7),
+        ('How many seconds should a 70-foot rig follow at 64.37376 km/h?', 70, 40, 7),
+    ]
+    for question, length, speed, seconds in cases:
+        result = answer_following_distance(question)
+        assert result.handled
+        assert result.length_feet == length
+        assert result.speed_mph == pytest.approx(speed)
+        assert result.following_gap_seconds == seconds
+        assert result.formula in result.answer
+        assert 'not the physical time needed to stop' in result.answer
+
+    fallbacks = [
+        'How long to stop a 70-foot truck?',
+        'How long to stop a 70-foot truck at 40 or 60 mph?',
+        'How long to stop a 70-foot truck at 60 mph and what gear should I use?',
+        'How long does a truck take to stop at 60 mph?',
+    ]
+    assert all(_parse(question) is None for question in fallbacks)
+
+
+def test_following_distance_answer_is_saved_without_calling_llm(tmp_path, monkeypatch, settings, store):
+    seeded_store(store)
+    (tmp_path / 'web').mkdir()
+    monkeypatch.setattr('backend.core.ROOT', tmp_path)
+    monkeypatch.setattr('backend.app.ROOT', tmp_path)
+
+    def unexpected_request(request):
+        raise AssertionError(f'following-distance route called Ollama: {request.url.path}')
+
+    ollama = httpx.AsyncClient(base_url='http://ollama', transport=httpx.MockTransport(unexpected_request))
+    with TestClient(create_app(settings, store, ollama)) as client:
+        with client.websocket_connect('/ws/chat', headers={'origin': 'http://localhost:8000'}) as ws:
+            ws.send_json({'topic': 'PHP', 'question': 'How long to stop a 70-foot rig at 60 mph?'})
+            events = []
+            while True:
+                event = ws.receive_json()
+                events.append(event)
+                if event['type'] == 'done':
+                    break
+
+    answer = next(event['text'] for event in events if event['type'] == 'token')
+    assert '70 / 10 + 1 = 8 seconds' in answer
+    with sqlite3.connect(tmp_path / 'database' / 'chat_history.sqlite3') as db:
+        row = db.execute('SELECT question, answer FROM chat_history').fetchone()
+    assert row == ('How long to stop a 70-foot rig at 60 mph?', answer)
+
+
 def test_chat_history_is_created_and_saved(tmp_path, monkeypatch, settings, store):
     seeded_store(store)
 
@@ -252,6 +304,126 @@ def test_chat_history_is_created_and_saved(tmp_path, monkeypatch, settings, stor
     assert row[6]
 
 
+def test_step_video_route_serves_numbered_mp4_and_rejects_missing_steps(tmp_path, monkeypatch, settings, store):
+    videos = tmp_path / 'Videos'
+    videos.mkdir()
+    (videos / 'Step_2_CDL_Parking_Brake_Check_Amy.mp4').write_bytes(b'test-video')
+    (videos / 'CDL_Fifth_Wheel_Coupling_Walkthrough_Amy.mp4').write_bytes(b'coupling-video')
+    (videos / 'CDL_Fifth_Wheel_Uncoupling_Walkthrough_Amy.mp4').write_bytes(b'uncoupling-video')
+    (videos / 'CDL_Lane_Change_Check_Amy.mp4').write_bytes(b'lane-change-video')
+    (videos / 'CDL_Right_Turn_Tractor_Trailer_Amy.mp4').write_bytes(b'right-turn-video')
+    (tmp_path / 'web').mkdir()
+    monkeypatch.setattr('backend.app.ROOT', tmp_path)
+    monkeypatch.setattr('backend.core.ROOT', tmp_path)
+
+    ollama = httpx.AsyncClient(base_url='http://ollama')
+    app = create_app(settings, store, ollama)
+    with TestClient(app) as client:
+        response = client.get('/api/videos/step/2')
+        named_response = client.get('/api/videos/named/fifth-wheel-coupling')
+        uncoupling_response = client.get('/api/videos/named/fifth-wheel-uncoupling')
+        lane_change_response = client.get('/api/videos/named/lane-change')
+        right_turn_response = client.get('/api/videos/named/right-turn')
+        recorded = client.post('/api/videos/step/2/view', headers={
+            'origin': 'https://chat.example.com', 'host': 'chat.example.com', 'x-forwarded-proto': 'https',
+        },
+                               json={'question': 'What is step 2 of the pre-trip inspection?'})
+        named_recorded = client.post('/api/videos/named/fifth-wheel-coupling/view', headers={
+            'origin': 'https://chat.example.com', 'host': 'chat.example.com', 'x-forwarded-proto': 'https',
+        }, json={'question': 'Show me how to hook up a trailer'})
+        uncoupling_recorded = client.post('/api/videos/named/fifth-wheel-uncoupling/view', headers={
+            'origin': 'https://chat.example.com', 'host': 'chat.example.com', 'x-forwarded-proto': 'https',
+        }, json={'question': 'Show me how to disconnect a trailer'})
+        history = client.get('/api/responses')
+        lane_change_recorded = client.post('/api/videos/named/lane-change/view', headers={
+            'origin': 'https://chat.example.com', 'host': 'chat.example.com', 'x-forwarded-proto': 'https',
+        }, json={'question': 'Show me how to change lanes'})
+        lane_change_history = client.get('/api/responses')
+        right_turn_recorded = client.post('/api/videos/named/right-turn/view', headers={
+            'origin': 'https://chat.example.com', 'host': 'chat.example.com', 'x-forwarded-proto': 'https',
+        }, json={'question': 'Show me making a right turn.'})
+        right_turn_history = client.get('/api/responses')
+        rejected = client.post('/api/videos/step/2/view', headers={'origin': 'https://untrusted.example'},
+                       json={'question': 'Untrusted video request'})
+        missing = client.get('/api/videos/step/3')
+        missing_view = client.post('/api/videos/step/3/view', headers={'origin': 'http://127.0.0.1:8000'},
+                                   json={'question': 'What is step 3 of the pre-trip inspection?'})
+
+    assert response.status_code == 200
+    assert response.headers['content-type'] == 'video/mp4'
+    assert response.headers['content-disposition'].startswith('inline;')
+    assert response.content == b'test-video'
+    assert named_response.status_code == 200
+    assert named_response.headers['content-type'] == 'video/mp4'
+    assert named_response.content == b'coupling-video'
+    assert uncoupling_response.status_code == 200
+    assert uncoupling_response.headers['content-type'] == 'video/mp4'
+    assert uncoupling_response.content == b'uncoupling-video'
+    assert lane_change_response.status_code == 200
+    assert lane_change_response.headers['content-type'] == 'video/mp4'
+    assert lane_change_response.content == b'lane-change-video'
+    assert right_turn_response.status_code == 200
+    assert right_turn_response.headers['content-type'] == 'video/mp4'
+    assert right_turn_response.content == b'right-turn-video'
+    assert missing.status_code == 404
+    assert recorded.status_code == 200
+    assert recorded.json() == {'ok': True, 'filename': 'Step_2_CDL_Parking_Brake_Check_Amy.mp4'}
+    assert history.json()['items'][0]['topic'] == 'CDLA'
+    assert named_recorded.status_code == 200
+    assert named_recorded.json() == {
+        'ok': True, 'filename': 'CDL_Fifth_Wheel_Coupling_Walkthrough_Amy.mp4',
+    }
+    assert history.json()['items'][1]['question'] == 'Show me how to hook up a trailer'
+    assert history.json()['items'][1]['answer'] == 'CDL_Fifth_Wheel_Coupling_Walkthrough_Amy.mp4'
+    assert uncoupling_recorded.status_code == 200
+    assert uncoupling_recorded.json() == {
+        'ok': True, 'filename': 'CDL_Fifth_Wheel_Uncoupling_Walkthrough_Amy.mp4',
+    }
+    assert history.json()['items'][0]['question'] == 'Show me how to disconnect a trailer'
+    assert history.json()['items'][0]['answer'] == 'CDL_Fifth_Wheel_Uncoupling_Walkthrough_Amy.mp4'
+    assert history.json()['items'][1]['question'] == 'Show me how to hook up a trailer'
+    assert history.json()['items'][1]['answer'] == 'CDL_Fifth_Wheel_Coupling_Walkthrough_Amy.mp4'
+    assert history.json()['items'][2]['question'] == 'What is step 2 of the pre-trip inspection?'
+    assert history.json()['items'][2]['answer'] == 'Step_2_CDL_Parking_Brake_Check_Amy.mp4'
+    assert lane_change_recorded.status_code == 200
+    assert lane_change_recorded.json() == {'ok': True, 'filename': 'CDL_Lane_Change_Check_Amy.mp4'}
+    assert lane_change_history.json()['items'][0]['question'] == 'Show me how to change lanes'
+    assert lane_change_history.json()['items'][0]['answer'] == 'CDL_Lane_Change_Check_Amy.mp4'
+    assert right_turn_recorded.status_code == 200
+    assert right_turn_recorded.json() == {'ok': True, 'filename': 'CDL_Right_Turn_Tractor_Trailer_Amy.mp4'}
+    assert right_turn_history.json()['items'][0]['question'] == 'Show me making a right turn.'
+    assert right_turn_history.json()['items'][0]['answer'] == 'CDL_Right_Turn_Tractor_Trailer_Amy.mp4'
+    assert rejected.status_code == 403
+    assert missing_view.status_code == 404
+
+
+def test_complete_pretrip_video_view_records_all_steps_in_order(tmp_path, monkeypatch, settings, store):
+    videos = tmp_path / 'Videos'
+    videos.mkdir()
+    filenames = []
+    for step in range(1, 40):
+        filename = f'Step_{step}_Inspection.mp4'
+        (videos / filename).write_bytes(b'test-video')
+        filenames.append(filename)
+    (tmp_path / 'web').mkdir()
+    monkeypatch.setattr('backend.app.ROOT', tmp_path)
+    monkeypatch.setattr('backend.core.ROOT', tmp_path)
+
+    ollama = httpx.AsyncClient(base_url='http://ollama')
+    app = create_app(settings, store, ollama)
+    with TestClient(app) as client:
+        response = client.post('/api/videos/pre-trip/complete/view',
+            headers={'origin': 'http://127.0.0.1:8000'},
+            json={'question': 'Show me the complete pre-trip inspection'})
+        history = client.get('/api/responses?page=1&page_size=1')
+
+    assert response.status_code == 200
+    assert response.json() == {'ok': True, 'filenames': filenames}
+    assert history.json()['items'][0]['topic'] == 'CDLA'
+    assert history.json()['items'][0]['question'] == 'Show me the complete pre-trip inspection'
+    assert history.json()['items'][0]['answer'].splitlines() == filenames
+
+
 def test_view_responses_api_paginates_newest_first(tmp_path, monkeypatch, settings, store):
     monkeypatch.setattr('backend.core.ROOT', tmp_path)
     monkeypatch.setattr('backend.app.ROOT', tmp_path)
@@ -273,9 +445,9 @@ def test_view_responses_api_paginates_newest_first(tmp_path, monkeypatch, settin
                 VALUES (?, ?, ?, ?, ?, ?)
                 ''',
                 [
-                    ('PHP', 'Oldest question?', 'Oldest answer.', 1, '2026-10-19', '2026-10-19 00:00:01'),
-                    ('CDLA', 'Middle question?', 'Middle answer.', 1, '2026-10-19', '2026-10-19 00:00:02'),
-                    ('Dementia', 'Newest question?', 'Newest answer.', 1, '2026-10-19', '2026-10-19 00:00:03'),
+                    ('PHP', 'Oldest question?', 'Oldest answer.', 1, '2026-10-19', '2099-10-19 00:00:03'),
+                    ('CDLA', 'Middle question?', 'Middle answer.', 1, '2026-10-19', '2000-10-19 00:00:01'),
+                    ('Dementia', 'Newest question?', 'Newest answer.', 1, '2026-10-19', '2026-10-19 00:00:02'),
                 ],
             )
 
@@ -289,8 +461,8 @@ def test_view_responses_api_paginates_newest_first(tmp_path, monkeypatch, settin
     assert first_data['total'] == 3
     assert first_data['total_pages'] == 2
     assert first_data['page'] == 1
-    assert [item['ID'] for item in first_data['items']] == [3, 2]
-    assert [item['ID'] for item in second_data['items']] == [1]
+    assert [item['ID'] for item in first_data['items']] == [1, 3]
+    assert [item['ID'] for item in second_data['items']] == [2]
 
 
 def test_view_responses_api_filters_by_keyword(tmp_path, monkeypatch, settings, store):
@@ -327,6 +499,62 @@ def test_view_responses_api_filters_by_keyword(tmp_path, monkeypatch, settings, 
     assert data['total'] == 1
     assert data['keyword'] == 'corrections'
     assert [item['question'] for item in data['items']] == ['How do corrections work?']
+
+
+def test_view_responses_delete_removes_only_selected_history_row(tmp_path, monkeypatch, settings, store):
+    monkeypatch.setattr('backend.core.ROOT', tmp_path)
+    monkeypatch.setattr('backend.app.ROOT', tmp_path)
+    (tmp_path / 'web').mkdir()
+    additions_dir = tmp_path / 'topic_data' / 'user_additions'
+    additions_dir.mkdir(parents=True)
+    additions = [
+        {'question': 'Wrong answer?', 'answer': 'Incorrect.', 'url': '', 'source': 'user_additions'},
+        {'question': 'Keep correction?', 'answer': 'Still correct.', 'url': '', 'source': 'user_additions'},
+        {'question': 'Different saved correction?', 'answer': 'Actual corrected answer.', 'url': '', 'source': 'user_additions'},
+    ]
+    additions_path = additions_dir / 'CDLA.jsonl'
+    additions_path.write_text(''.join(json.dumps(record) + '\n' for record in additions), encoding='utf-8')
+    docs_by_question = {
+        record['question']: list(documents(record))
+        for record in additions
+    }
+    for docs in docs_by_question.values():
+        store.upsert('CDLA', docs, [[1.0, 0.0, 0.0]] * len(docs))
+
+    ollama = httpx.AsyncClient(base_url='http://ollama')
+    app = create_app(settings, store, ollama)
+    with TestClient(app) as client:
+        db_path = tmp_path / 'database' / 'chat_history.sqlite3'
+        with sqlite3.connect(db_path) as db:
+            db.executemany(
+                'INSERT INTO chat_history(topic, question, answer) VALUES (?, ?, ?)',
+                [
+                    ('CDLA', 'Wrong answer?', 'Incorrect.'),
+                    ('CDLA', 'Keep this?', 'Correct.'),
+                    ('CDLA', 'Different saved correction?', 'Wrong generated answer.'),
+                ],
+            )
+
+        blocked = client.delete('/api/responses/1', headers={'origin': 'https://example.com'})
+        deleted = client.delete('/api/responses/1', headers={'origin': 'http://127.0.0.1:8000'})
+        missing = client.delete('/api/responses/1', headers={'origin': 'http://127.0.0.1:8000'})
+        deleted_without_matching_correction = client.delete(
+            '/api/responses/3', headers={'origin': 'http://127.0.0.1:8000'},
+        )
+        remaining = client.get('/api/responses')
+
+    assert blocked.status_code == 403
+    assert deleted.status_code == 200
+    assert deleted.json() == {'ok': True, 'id': 1, 'correction_removed': True}
+    assert missing.status_code == 404
+    assert deleted_without_matching_correction.status_code == 200
+    assert deleted_without_matching_correction.json()['correction_removed'] is False
+    assert [item['question'] for item in remaining.json()['items']] == ['Keep this?']
+    saved_records = [json.loads(line) for line in additions_path.read_text(encoding='utf-8').splitlines()]
+    assert [record['question'] for record in saved_records] == ['Keep correction?', 'Different saved correction?']
+    assert store.existing('CDLA', [doc['id'] for doc in docs_by_question['Wrong answer?']]) == set()
+    assert store.existing('CDLA', [doc['id'] for doc in docs_by_question['Keep correction?']])
+    assert store.existing('CDLA', [doc['id'] for doc in docs_by_question['Different saved correction?']])
 
 
 def test_view_responses_page_is_served(tmp_path, monkeypatch, settings, store):

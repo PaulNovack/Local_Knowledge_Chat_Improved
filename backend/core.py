@@ -262,6 +262,25 @@ def save_chat_history(topic, question, answer, accepted=True, path=None):
         )
 
 
+def delete_chat_history(response_id, path=None):
+    path = ensure_chat_history_db(path)
+    with sqlite3.connect(path) as db:
+        cursor = db.execute('DELETE FROM chat_history WHERE ID = ?', (int(response_id),))
+        return cursor.rowcount > 0
+
+
+def get_chat_history_entry(response_id, path=None):
+    path = ensure_chat_history_db(path)
+    with sqlite3.connect(path) as db:
+        row = db.execute(
+            'SELECT ID, topic, question, answer FROM chat_history WHERE ID = ?',
+            (int(response_id),),
+        ).fetchone()
+    if row is None:
+        return None
+    return dict(zip(('ID', 'topic', 'question', 'answer'), row))
+
+
 def _chat_history_search_clause(keyword):
     term = str(keyword or '').strip().lower()
     if not term:
@@ -292,7 +311,7 @@ def read_chat_history(page=1, page_size=20, keyword='', path=None):
             FROM chat_history
             '''
             + clause + '''
-            ORDER BY created_at DESC, ID DESC
+            ORDER BY datetime(created_at) DESC, ID DESC
             LIMIT ? OFFSET ?
             ''',
             [*params, page_size, offset],

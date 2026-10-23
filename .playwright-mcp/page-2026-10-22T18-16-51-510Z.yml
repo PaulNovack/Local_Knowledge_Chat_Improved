@@ -1,0 +1,41 @@
+- generic [ref=f9e2]:
+  - complementary [ref=f9e3]:
+    - generic [ref=f9e4]: K✦
+    - paragraph [ref=f9e5]: VOICE TO CHAT
+    - heading "Speak, pause, get an answer." [level=1] [ref=f9e6]: Speak, pause,get an answer.
+    - paragraph [ref=f9e7]: This page records your voice, sends the audio to the local ASR service, then asks the existing chat engine on your behalf.
+    - generic [ref=f9e8]: KNOWLEDGE COLLECTION
+    - generic [ref=f9e9]:
+      - combobox "KNOWLEDGE COLLECTION" [ref=f9e10]:
+        - option "CDLA" [selected]
+        - option "Constipation"
+        - option "Dementia"
+        - option "Melanie Martinez"
+        - option "PHP"
+        - option "Rolling Stones"
+      - button "Refresh topics" [ref=f9e11] [cursor=pointer]: ↻
+    - button "Start listening" [ref=f9e12] [cursor=pointer]
+    - button "Stop listening" [disabled] [ref=f9e13]
+    - button "New conversation" [ref=f9e14] [cursor=pointer]
+    - button "Back to chat" [ref=f9e15] [cursor=pointer]
+    - status [ref=f9e16]: Checking local services…
+    - generic [ref=f9e17]: Powered by the local ASR serviceQuestions are transcribed before chat.
+  - main [ref=f9e18]:
+    - generic [ref=f9e19]:
+      - generic [ref=f9e20]: CHAT BY VOICE
+      - button "Export session" [ref=f9e22] [cursor=pointer]
+    - generic [ref=f9e23]:
+      - button "Start voice" [ref=f9e25] [cursor=pointer]
+      - generic [ref=f9e27]:
+        - heading "Live input" [level=2] [ref=f9e28]
+        - paragraph [ref=f9e29]: Ready. Click Refresh to load topics, then press start.
+        - generic [ref=f9e31]: "-100 dB"
+    - region "Conversation" [ref=f9e32]:
+      - generic [ref=f9e33]:
+        - text: VOICE FIRST, TEXT SECOND
+        - heading "What do you want to ask?" [level=2] [ref=f9e34]: What do youwant to ask?
+        - paragraph [ref=f9e35]: When you pause speaking, the page will send the audio to ASR, then ask the chat model with the transcript.
+    - paragraph [ref=f9e37]: "Tips: speak in a short burst, pause, then review the transcript. You can keep talking after each response."
+    - generic [ref=f9e39]:
+      - heading "Transcript" [level=3] [ref=f9e40]
+      - generic [ref=f9e41]: No speech captured yet.

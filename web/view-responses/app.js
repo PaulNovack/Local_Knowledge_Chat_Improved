@@ -43,6 +43,7 @@ function setControls() {
   $('search').disabled = disabled;
   $('run-search').disabled = disabled;
   $('clear-search').disabled = disabled || !state.keyword;
+  document.querySelectorAll('.response-delete').forEach(button => { button.disabled = disabled; });
   $('page-info').textContent = state.totalPages
     ? `Page ${state.page} of ${state.totalPages}${searchLabel()}`
     : `No responses${searchLabel()}`;
@@ -70,10 +71,7 @@ function renderItem(item) {
   accepted.className = 'pill';
   accepted.textContent = item.accepted ? 'Accepted' : 'Pending';
 
-  const created = document.createElement('span');
-  created.textContent = `${item.created_at}`;
-
-  meta.append(topic, accepted, created);
+  meta.append(topic, accepted);
 
   const question = document.createElement('h2');
   question.textContent = item.question;
@@ -86,9 +84,15 @@ function renderItem(item) {
   footer.className = 'response-footer';
   const id = document.createElement('span');
   id.textContent = `Response #${item.ID}`;
-  const date = document.createElement('span');
-  date.textContent = `${item.created_date}`;
-  footer.append(id, date);
+  const timestamp = document.createElement('span');
+  timestamp.textContent = `Saved ${item.created_at}`;
+  const remove = document.createElement('button');
+  remove.className = 'response-delete secondary';
+  remove.type = 'button';
+  remove.textContent = 'Delete';
+  remove.setAttribute('aria-label', `Delete response ${item.ID}`);
+  remove.onclick = () => deleteResponse(item.ID);
+  footer.append(id, timestamp, remove);
 
   card.append(meta, question, answer, footer);
   return card;
@@ -124,7 +128,7 @@ async function loadResponses(page = state.page) {
     if (state.keyword.trim()) {
       url.searchParams.set('q', state.keyword.trim());
     }
-    const response = await fetch(url);
+    const response = await fetch(url, {cache: 'no-store'});
     const data = await response.json();
     if (!response.ok) {
       throw new Error(data.detail || data.error || 'Unable to load responses');
@@ -135,6 +139,33 @@ async function loadResponses(page = state.page) {
       : `No responses saved yet${searchLabel()}.`);
   } catch (error) {
     renderEmpty(error.message);
+    setStatus(error.message);
+  } finally {
+    state.loading = false;
+    setControls();
+  }
+}
+
+async function deleteResponse(responseId) {
+  if (!window.confirm('Delete this saved response? This cannot be undone.')) return;
+  state.loading = true;
+  setControls();
+  setStatus('Deleting response…');
+  try {
+    const response = await fetch(`/api/responses/${responseId}`, {method: 'DELETE'});
+    const data = await response.json();
+    if (!response.ok) {
+      throw new Error(data.detail || data.error || 'Unable to delete response');
+    }
+    const nextPage = state.page > 1 && state.total <= (state.page - 1) * state.pageSize + 1
+      ? state.page - 1
+      : state.page;
+    state.loading = false;
+    await loadResponses(nextPage);
+    setStatus(data.correction_removed
+      ? 'Deleted response and matching saved correction.'
+      : 'Deleted response. No matching saved correction was found.');
+  } catch (error) {
     setStatus(error.message);
   } finally {
     state.loading = false;
@@ -182,5 +213,15 @@ $('next').onclick = () => { if (!state.totalPages || state.page < state.totalPag
 $('prev-bottom').onclick = () => { if (state.page > 1) loadResponses(state.page - 1); };
 $('next-bottom').onclick = () => { if (!state.totalPages || state.page < state.totalPages) loadResponses(state.page + 1); };
 $('back-home').onclick = () => { location.href = '/'; };
+
+function refreshLatestWhenVisible() {
+  if (!document.hidden && !state.loading && state.page === 1 && !state.keyword.trim()) {
+    loadResponses(1);
+  }
+}
+
+window.addEventListener('focus', refreshLatestWhenVisible);
+document.addEventListener('visibilitychange', refreshLatestWhenVisible);
+window.setInterval(refreshLatestWhenVisible, 15000);
 
 loadResponses(1);

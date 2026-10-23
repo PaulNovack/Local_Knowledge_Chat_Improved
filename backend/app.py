@@ -15,7 +15,8 @@ from fastapi.responses import FileResponse, JSONResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, ValidationError, field_validator
 
-from .core import ROOT, Settings, Store, chunk_size_for_topic, documents, embedding_input, ensure_chat_history_db, ensure_tts_cache_db, read_chat_history, read_records, save_chat_history, save_tts_cache_entry, training_records_path, validate_vectors, topic_name
+from .core import ROOT, Settings, Store, chunk_size_for_topic, delete_chat_history, documents, embedding_input, ensure_chat_history_db, ensure_tts_cache_db, get_chat_history_entry, read_chat_history, read_records, save_chat_history, save_tts_cache_entry, training_records_path, validate_vectors, topic_name
+from .following_distance import answer_following_distance
 
 log = logging.getLogger(__name__)
 LOCAL_WEB_ORIGIN = 'http://127.0.0.1:8000'
@@ -109,6 +110,26 @@ def _require_local_origin(request):
         raise HTTPException(status_code=403, detail='This endpoint is only available from the local web app.')
 
 
+def _require_same_origin_or_configured(request, settings):
+    origin = request.headers.get('origin', '')
+    allowed_origins = {value.strip() for value in settings.origins.split(',') if value.strip()}
+    if origin in allowed_origins:
+        return
+
+    parsed_origin = urlparse(origin)
+    scheme = request.headers.get('x-forwarded-proto', request.url.scheme).split(',')[0].strip()
+    parsed_host = urlparse(f'{scheme}://{request.headers.get("host", "")}')
+
+    def effective_port(parsed):
+        return parsed.port or (443 if parsed.scheme == 'https' else 80)
+
+    if (parsed_origin.hostname and parsed_origin.hostname.lower() == (parsed_host.hostname or '').lower()
+            and parsed_origin.scheme == parsed_host.scheme
+            and effective_port(parsed_origin) == effective_port(parsed_host)):
+        return
+    raise HTTPException(status_code=403, detail='This endpoint is only available from an allowed web app origin.')
+
+
 def _require_local_host(request):
     if request.url.hostname != LOCAL_WEB_HOST:
         raise HTTPException(status_code=403, detail='This page is only available from the local web app.')
@@ -125,6 +146,44 @@ def _dedupe_user_additions_records(records):
             order.append(key)
         deduped[key] = record
     return [deduped[key] for key in order]
+
+
+def _delete_matching_user_addition(topic, question, answer, store):
+    additions_path = training_records_path(topic)
+    if not additions_path.exists():
+        return False
+
+    target_question = _normalize_question(question)
+    lines = additions_path.read_text(encoding='utf-8').splitlines(keepends=True)
+    records = []
+    for line in lines:
+        try:
+            record = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if isinstance(record, dict):
+            records.append(record)
+
+    latest = next((record for record in reversed(records)
+                   if _normalize_question(str(record.get('question', ''))) == target_question), None)
+    if latest is None or _normalize_answer(str(latest.get('answer', ''))) != _normalize_answer(answer):
+        return False
+
+    store.delete_user_additions_for_question(topic, target_question)
+    retained_lines = []
+    for line in lines:
+        try:
+            record = json.loads(line)
+        except json.JSONDecodeError:
+            retained_lines.append(line)
+            continue
+        if not isinstance(record, dict) or _normalize_question(str(record.get('question', ''))) != target_question:
+            retained_lines.append(line)
+
+    temp_path = additions_path.with_suffix(additions_path.suffix + '.tmp')
+    temp_path.write_text(''.join(retained_lines), encoding='utf-8')
+    temp_path.replace(additions_path)
+    return True
 
 
 async def _reload_saved_corrections(store, ollama, settings):
@@ -198,6 +257,17 @@ class TrainRequest(BaseModel):
 
 class SpeakRequest(BaseModel):
     text: str = Field(min_length=1, max_length=6000)
+
+
+class VideoViewRequest(BaseModel):
+    question: str = Field(min_length=1, max_length=2000)
+
+    @field_validator('question')
+    @classmethod
+    def valid_question(cls, value):
+        if not value.strip():
+            raise ValueError('Question is empty')
+        return value.strip()
 
 
 def create_app(settings=None, store=None, ollama=None):
@@ -371,6 +441,21 @@ def create_app(settings=None, store=None, ollama=None):
     async def responses(page: int = Query(1, ge=1), page_size: int = Query(10, ge=1, le=50), q: str = Query('', max_length=120)):
         return read_chat_history(page=page, page_size=page_size, keyword=q, path=app.state.chat_history_db)
 
+    @app.delete('/api/responses/{response_id}')
+    async def delete_response(request: Request, response_id: int):
+        _require_local_origin(request)
+        entry = await asyncio.to_thread(get_chat_history_entry, response_id, app.state.chat_history_db)
+        if entry is None:
+            raise HTTPException(status_code=404, detail='Response not found')
+        correction_removed = await asyncio.to_thread(
+            _delete_matching_user_addition,
+            entry['topic'], entry['question'], entry['answer'], app.state.store,
+        )
+        deleted = await asyncio.to_thread(delete_chat_history, response_id, app.state.chat_history_db)
+        if not deleted:
+            raise HTTPException(status_code=404, detail='Response not found')
+        return {'ok': True, 'id': response_id, 'correction_removed': correction_removed}
+
     @app.get('/ask-and-train')
     @app.get('/ask-and-train/')
     @app.get('/ask-and-train/index.html')
@@ -390,6 +475,13 @@ def create_app(settings=None, store=None, ollama=None):
             if request.topic not in topics:
                 raise ValueError('Unknown topic. Import data and refresh topics first.')
             log.info('chat request topic=%s question=%r', request.topic, request.question)
+            calculation = answer_following_distance(request.question)
+            if calculation.handled:
+                await ws.send_json({'type': 'status', 'message': 'Calculating CDL following distance…'})
+                await ws.send_json({'type': 'token', 'text': calculation.answer})
+                await record_answer(calculation.answer)
+                await ws.send_json({'type': 'done'})
+                return
             await ws.send_json({'type': 'status', 'message': 'Searching imported data…'})
             r = await app.state.ollama.post('/api/embed', json={'model': settings.embed_model,
                 'input': embedding_input(request.question, settings.embed_model, query=True), 'truncate': False})
@@ -542,6 +634,64 @@ def create_app(settings=None, store=None, ollama=None):
                     await task
             with suppress(Exception):
                 await ws.close()
+
+    def step_video_path(step_number):
+        if step_number < 1:
+            raise HTTPException(status_code=404, detail='Video step not found.')
+        matches = list((ROOT / 'Videos').glob(f'Step_{step_number}_*.mp4'))
+        if len(matches) != 1:
+            raise HTTPException(status_code=404, detail='Video step not found.')
+        return matches[0]
+
+    def named_video_path(video_key):
+        filenames = {
+            'fifth-wheel-coupling': 'CDL_Fifth_Wheel_Coupling_Walkthrough_Amy.mp4',
+            'fifth-wheel-uncoupling': 'CDL_Fifth_Wheel_Uncoupling_Walkthrough_Amy.mp4',
+            'lane-change': 'CDL_Lane_Change_Check_Amy.mp4',
+            'right-turn': 'CDL_Right_Turn_Tractor_Trailer_Amy.mp4',
+        }
+        filename = filenames.get(video_key)
+        video_path = ROOT / 'Videos' / filename if filename else None
+        if video_path is None or not video_path.is_file():
+            raise HTTPException(status_code=404, detail='Video not found.')
+        return video_path
+
+    async def record_video_view(request, video_path, payload):
+        _require_same_origin_or_configured(request, settings)
+        await asyncio.to_thread(save_chat_history, 'CDLA', payload.question, video_path.name,
+                                path=app.state.chat_history_db)
+        return {'ok': True, 'filename': video_path.name}
+
+    @app.post('/api/videos/pre-trip/complete/view')
+    async def record_complete_pretrip_view(request: Request, payload: VideoViewRequest):
+        _require_same_origin_or_configured(request, settings)
+        video_paths = [step_video_path(step) for step in range(1, 40)]
+        filenames = [path.name for path in video_paths]
+        answer = '\n'.join(filenames)
+        await asyncio.to_thread(save_chat_history, 'CDLA', payload.question, answer,
+                                path=app.state.chat_history_db)
+        return {'ok': True, 'filenames': filenames}
+
+    @app.post('/api/videos/step/{step_number}/view')
+    async def record_step_video_view(request: Request, step_number: int, payload: VideoViewRequest):
+        video_path = step_video_path(step_number)
+        return await record_video_view(request, video_path, payload)
+
+    @app.get('/api/videos/step/{step_number}')
+    async def step_video(step_number: int):
+        video_path = step_video_path(step_number)
+        return FileResponse(video_path, media_type='video/mp4', filename=video_path.name,
+                    content_disposition_type='inline')
+
+    @app.post('/api/videos/named/{video_key}/view')
+    async def record_named_video_view(request: Request, video_key: str, payload: VideoViewRequest):
+        return await record_video_view(request, named_video_path(video_key), payload)
+
+    @app.get('/api/videos/named/{video_key}')
+    async def named_video(video_key: str):
+        video_path = named_video_path(video_key)
+        return FileResponse(video_path, media_type='video/mp4', filename=video_path.name,
+                    content_disposition_type='inline')
 
     app.mount('/', StaticFiles(directory=ROOT / 'web', html=True), name='web')
     return app
