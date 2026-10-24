@@ -71,7 +71,15 @@ function renderItem(item) {
   accepted.className = 'pill';
   accepted.textContent = item.accepted ? 'Accepted' : 'Pending';
 
-  meta.append(topic, accepted);
+  const routerFunction = document.createElement('span');
+  routerFunction.className = 'pill';
+  routerFunction.textContent = `Route: ${item.routerFunction || 'None'}`;
+
+  const key = document.createElement('span');
+  key.className = 'pill';
+  key.textContent = `Key: ${item.key ?? '—'}`;
+
+  meta.append(topic, accepted, routerFunction, key);
 
   const question = document.createElement('h2');
   question.textContent = item.question;

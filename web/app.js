@@ -7,6 +7,8 @@ const training = {
   form: $('train-form'),
   question: $('train-question'),
   answer: $('train-answer'),
+  routerFunction: $('train-router-function'),
+  key: $('train-key'),
   status: $('train-status'),
   save: $('train-save'),
 };
@@ -121,12 +123,27 @@ async function refresh() {
     const prior = $('topic').value; $('topic').replaceChildren();
     for (const name of data.topics) { const o = document.createElement('option'); o.value = name; o.textContent = name.replaceAll('_', ' '); $('topic').append(o); }
     if (data.topics.includes(prior)) $('topic').value = prior;
+    await refreshRouterFunctions();
     updateWelcome();
     if (!data.topics.length) status('No collections yet. Import a data file, then refresh.');
     const health = await (await fetch('/api/health')).json();
     $('health').textContent = health.ok ? `● Services ready · ${health.chat_model}` : '○ Services need attention — see /api/health';
   } catch (e) { $('health').textContent = e.message; }
   setBusy(false);
+}
+async function refreshRouterFunctions() {
+  if (!training.routerFunction) return;
+  const response = await fetch('/api/router-functions');
+  const data = await response.json();
+  if (!response.ok) throw new Error(data.detail || 'Unable to load router functions');
+  training.routerFunction.replaceChildren();
+  for (const name of data.routerFunctions) {
+    const option = document.createElement('option');
+    option.value = name;
+    option.textContent = name || 'Blank';
+    training.routerFunction.append(option);
+  }
+  training.routerFunction.value = '';
 }
 function chatWsUrl() {
   const url = new URL('/ws/chat', location.href);
@@ -217,6 +234,8 @@ if (training.form) {
           topic: $('topic').value,
           question: training.question.value.trim(),
           answer: training.answer.value.trim(),
+          routerFunction: training.routerFunction.value,
+          key: training.key.value.trim() === '' ? '' : Number(training.key.value),
         }),
       });
       const data = await r.json();

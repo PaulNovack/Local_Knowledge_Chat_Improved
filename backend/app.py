@@ -15,8 +15,9 @@ from fastapi.responses import FileResponse, JSONResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, ValidationError, field_validator
 
-from .core import ROOT, Settings, Store, chunk_size_for_topic, delete_chat_history, documents, embedding_input, ensure_chat_history_db, ensure_tts_cache_db, get_chat_history_entry, read_chat_history, read_records, save_chat_history, save_tts_cache_entry, training_records_path, validate_vectors, topic_name
+from .core import ROOT, Settings, Store, chunk_size_for_topic, delete_chat_history, documents, embedding_input, ensure_chat_history_db, ensure_tts_cache_db, get_chat_history_entry, read_chat_history, read_records, read_router_function_names, save_chat_history, save_tts_cache_entry, sync_qdrant_topic_to_sqlite, sync_qdrant_topics_to_sqlite, training_records_path, validate_vectors, topic_name
 from .following_distance import answer_following_distance
+from .routing import resolve_routed_answer
 
 log = logging.getLogger(__name__)
 LOCAL_WEB_ORIGIN = 'http://127.0.0.1:8000'
@@ -192,6 +193,7 @@ async def _reload_saved_corrections(store, ollama, settings):
         return
     supported = ('.json', '.jsonl', '.pdf', '.sqlite', '.sqlite3', '.db')
     expected_ids_by_topic = {}
+    router_function_ids = {}
     for file_path in sorted(path for path in additions_dir.rglob('*') if path.is_file() and path.suffix.lower() in supported):
         topic = file_path.stem
         records = _dedupe_user_additions_records(list(read_records(file_path)))
@@ -205,6 +207,10 @@ async def _reload_saved_corrections(store, ollama, settings):
             docs = list(documents(record, chunk_size=chunk_size_for_topic(topic)))
             expected_ids.update(doc['id'] for doc in docs)
             exists = await asyncio.to_thread(store.existing, topic, [doc['id'] for doc in docs])
+            existing_docs = [doc for doc in docs if doc['id'] in exists]
+            if existing_docs:
+                key = (topic, record['routerFunction'], record['key'])
+                router_function_ids.setdefault(key, []).extend(doc['id'] for doc in existing_docs)
             new_docs = [doc for doc in docs if doc['id'] not in exists]
             if new_docs:
                 payload = {
@@ -217,6 +223,10 @@ async def _reload_saved_corrections(store, ollama, settings):
                 vectors = validate_vectors(response.json(), len(new_docs))
             if new_docs:
                 await asyncio.to_thread(store.upsert, topic, new_docs, vectors)
+    for (topic, router_function, key), point_ids in router_function_ids.items():
+        await asyncio.to_thread(
+            store.set_payload, topic, {'routerFunction': router_function, 'key': key}, point_ids,
+        )
     for topic, expected_ids in expected_ids_by_topic.items():
         await asyncio.to_thread(store.delete_stale_user_additions, topic, expected_ids)
 
@@ -241,6 +251,8 @@ class TrainRequest(BaseModel):
     topic: str
     question: str = Field(min_length=1, max_length=2000)
     answer: str = Field(min_length=1, max_length=6000)
+    routerFunction: str = ''
+    key: int | str = ''
 
     @field_validator('topic')
     @classmethod
@@ -253,6 +265,22 @@ class TrainRequest(BaseModel):
         if not value.strip():
             raise ValueError('Text is empty')
         return value.strip()
+
+    @field_validator('routerFunction')
+    @classmethod
+    def valid_router_function(cls, value):
+        return value.strip()
+
+    @field_validator('key', mode='before')
+    @classmethod
+    def valid_key(cls, value):
+        if isinstance(value, bool) or not isinstance(value, (int, str)):
+            raise ValueError('Key must be an integer or string')
+        if isinstance(value, str):
+            value = value.strip()
+            if value.lstrip('-').isdigit():
+                return int(value)
+        return value
 
 
 class SpeakRequest(BaseModel):
@@ -288,6 +316,15 @@ def create_app(settings=None, store=None, ollama=None):
             await _reload_saved_corrections(app.state.store, app.state.ollama, settings)
         except Exception:
             log.exception('Failed to reload saved user additions from %s', ROOT / 'topic_data' / 'user_additions')
+        app.state.sync_topic_data = store is None
+        if app.state.sync_topic_data:
+            try:
+                row_counts = await asyncio.to_thread(
+                    sync_qdrant_topics_to_sqlite, app.state.store, app.state.chat_history_db,
+                )
+                log.info('Synchronized Qdrant topic data to SQLite: %s', row_counts)
+            except Exception:
+                log.exception('Failed to synchronize Qdrant topics to SQLite')
         yield
         if ollama is None:
             await app.state.ollama.aclose()
@@ -332,6 +369,11 @@ def create_app(settings=None, store=None, ollama=None):
             return {'topics': await asyncio.to_thread(app.state.store.topics)}
         except Exception:
             return JSONResponse({'error': 'Qdrant unavailable. Start services and import your data.'}, status_code=503)
+
+    @app.get('/api/router-functions')
+    async def router_functions():
+        names = await asyncio.to_thread(read_router_function_names, app.state.chat_history_db)
+        return {'routerFunctions': names}
 
     @app.post('/api/transcribe')
     async def transcribe(audio: UploadFile = File(...)):
@@ -397,7 +439,14 @@ def create_app(settings=None, store=None, ollama=None):
         topic = payload.topic
         if topic not in await asyncio.to_thread(app.state.store.topics):
             raise ValueError('Unknown topic. Import data and refresh topics first.')
-        record = {'question': payload.question, 'answer': payload.answer, 'url': '', 'source': 'user_additions'}
+        router_functions = await asyncio.to_thread(read_router_function_names, app.state.chat_history_db)
+        if payload.routerFunction not in router_functions:
+            raise HTTPException(status_code=422, detail='Unknown router function.')
+        record = {
+            'question': payload.question, 'answer': payload.answer, 'url': '',
+            'source': 'user_additions', 'routerFunction': payload.routerFunction,
+            'key': payload.key,
+        }
         additions_path = training_records_path(topic)
         existing_records = []
         if additions_path.exists():
@@ -409,31 +458,83 @@ def create_app(settings=None, store=None, ollama=None):
                 except json.JSONDecodeError:
                     continue
                 existing_records.append(saved)
+        existing_records = _dedupe_user_additions_records(existing_records)
         normalized_question = _normalize_question(record['question'])
-        updated = False
-        for saved in existing_records:
-            if _normalize_question(str(saved.get('question', ''))) == normalized_question:
-                if _normalize_answer(str(saved.get('answer', ''))) == _normalize_answer(record['answer']):
-                    log.info('train skipped duplicate topic=%s question=%r', topic, payload.question)
-                    return {'ok': True, 'topic': topic, 'saved': 0, 'duplicate': True, 'path': str(additions_path)}
-                saved.update(record)
-                updated = True
-                break
-        docs = list(documents(record, chunk_size=chunk_size_for_topic(topic)))
+        existing_match = next((saved for saved in existing_records
+                               if _normalize_question(str(saved.get('question', ''))) == normalized_question), None)
+        route_function = str(record['routerFunction']).strip()
+        route_key = str(record['key']).strip()
+        has_route_key = bool(route_function and route_key)
+
+        def same_route_key(saved):
+            return (
+                str(saved.get('routerFunction', '')).strip().casefold() == route_function.casefold()
+                and str(saved.get('key', '')).strip() == route_key
+            )
+
+        route_records = [saved for saved in existing_records if has_route_key and same_route_key(saved)]
+        if existing_match is not None and not has_route_key:
+            same_record = (
+                _normalize_answer(str(existing_match.get('answer', ''))) == _normalize_answer(record['answer'])
+                and existing_match.get('routerFunction', '') == record['routerFunction']
+                and existing_match.get('key', '') == record['key']
+            )
+            if same_record:
+                additions_path.parent.mkdir(parents=True, exist_ok=True)
+                additions_path.write_text(
+                    '\n'.join(json.dumps(saved, ensure_ascii=False) for saved in existing_records) + '\n',
+                    encoding='utf-8',
+                )
+                log.info('train skipped duplicate topic=%s question=%r', topic, payload.question)
+                return {'ok': True, 'topic': topic, 'saved': 0, 'duplicate': True, 'path': str(additions_path)}
+
+        if has_route_key and existing_match is not None and route_records and all(
+                _normalize_answer(str(saved.get('answer', ''))) == _normalize_answer(record['answer'])
+                for saved in route_records):
+            log.info('train skipped duplicate route topic=%s routerFunction=%s key=%s',
+                     topic, route_function, route_key)
+            return {'ok': True, 'topic': topic, 'saved': 0, 'duplicate': True, 'path': str(additions_path)}
+
+        if existing_match is not None:
+            existing_match.update(record)
+        else:
+            existing_records.append(record)
+
+        if has_route_key:
+            route_records = [saved for saved in existing_records if same_route_key(saved)]
+            for saved in route_records:
+                saved['answer'] = record['answer']
+            records_to_upsert = route_records
+        else:
+            records_to_upsert = [record]
+
+        updated = existing_match is not None
+        docs = [
+            doc
+            for saved in records_to_upsert
+            for doc in documents(saved, chunk_size=chunk_size_for_topic(topic))
+        ]
         embed_payload = {'model': settings.embed_model,
             'input': [embedding_input(doc['question'][:1500] + '\n' + doc['text'], settings.embed_model) for doc in docs],
             'truncate': False}
         r = await app.state.ollama.post('/api/embed', json=embed_payload)
         r.raise_for_status()
         vectors = validate_vectors(r.json(), len(docs))
-        await asyncio.to_thread(app.state.store.delete_user_additions_for_question, topic, normalized_question)
+        if has_route_key:
+            await asyncio.to_thread(
+                app.state.store.delete_user_additions_for_route_key, topic, route_function, payload.key,
+            )
+        else:
+            await asyncio.to_thread(app.state.store.delete_user_additions_for_question, topic, normalized_question)
         await asyncio.to_thread(app.state.store.upsert, topic, docs, vectors)
         additions_path.parent.mkdir(parents=True, exist_ok=True)
-        if updated:
-            additions_path.write_text('\n'.join(json.dumps(saved, ensure_ascii=False) for saved in _dedupe_user_additions_records(existing_records)) + '\n', encoding='utf-8')
-        else:
-            with additions_path.open('a', encoding='utf-8') as f:
-                f.write(json.dumps(record, ensure_ascii=False) + '\n')
+        additions_path.write_text(
+            '\n'.join(json.dumps(saved, ensure_ascii=False) for saved in existing_records) + '\n',
+            encoding='utf-8',
+        )
+        await asyncio.to_thread(
+            sync_qdrant_topic_to_sqlite, app.state.store, topic, app.state.chat_history_db,
+        )
         log.info('trained topic=%s path=%s question=%r', topic, additions_path, payload.question)
         return {'ok': True, 'topic': topic, 'saved': len(docs), 'updated': updated, 'path': str(additions_path)}
 
@@ -451,6 +552,10 @@ def create_app(settings=None, store=None, ollama=None):
             _delete_matching_user_addition,
             entry['topic'], entry['question'], entry['answer'], app.state.store,
         )
+        if correction_removed and app.state.sync_topic_data:
+            await asyncio.to_thread(
+                sync_qdrant_topic_to_sqlite, app.state.store, entry['topic'], app.state.chat_history_db,
+            )
         deleted = await asyncio.to_thread(delete_chat_history, response_id, app.state.chat_history_db)
         if not deleted:
             raise HTTPException(status_code=404, detail='Response not found')
@@ -465,9 +570,12 @@ def create_app(settings=None, store=None, ollama=None):
 
     async def answer(ws, request):
         async with app.state.slots:
-            async def record_answer(answer_text):
+            async def record_answer(answer_text, router_function=None, key=None):
                 try:
-                    await asyncio.to_thread(save_chat_history, request.topic, request.question, answer_text)
+                    await asyncio.to_thread(
+                        save_chat_history, request.topic, request.question, answer_text,
+                        path=app.state.chat_history_db, router_function=router_function, key=key,
+                    )
                 except Exception:
                     log.exception('Failed to save chat history topic=%s question=%r', request.topic, request.question)
 
@@ -488,6 +596,18 @@ def create_app(settings=None, store=None, ollama=None):
             r.raise_for_status()
             vector = validate_vectors(r.json(), 1)[0]
             sources = await asyncio.to_thread(app.state.store.search, request.topic, vector)
+            routed_source = await asyncio.to_thread(
+                resolve_routed_answer, request.topic, request.question, app.state.chat_history_db,
+            )
+            if routed_source is not None:
+                sources = [routed_source]
+                await ws.send_json({'type': 'sources', 'sources': sources})
+                await ws.send_json({'type': 'status', 'message': f"Using {routed_source['routerFunction']} answer…"})
+                final_answer = routed_source['text']
+                await ws.send_json({'type': 'token', 'text': final_answer})
+                await record_answer(final_answer, routed_source['routerFunction'], routed_source['key'])
+                await ws.send_json({'type': 'done'})
+                return
             if _is_date_question(request.question):
                 candidate_terms = []
                 for source in sources[:4]:
@@ -656,10 +776,10 @@ def create_app(settings=None, store=None, ollama=None):
             raise HTTPException(status_code=404, detail='Video not found.')
         return video_path
 
-    async def record_video_view(request, video_path, payload):
+    async def record_video_view(request, video_path, payload, router_function=None, key=None):
         _require_same_origin_or_configured(request, settings)
         await asyncio.to_thread(save_chat_history, 'CDLA', payload.question, video_path.name,
-                                path=app.state.chat_history_db)
+                                path=app.state.chat_history_db, router_function=router_function, key=key)
         return {'ok': True, 'filename': video_path.name}
 
     @app.post('/api/videos/pre-trip/complete/view')
@@ -669,13 +789,14 @@ def create_app(settings=None, store=None, ollama=None):
         filenames = [path.name for path in video_paths]
         answer = '\n'.join(filenames)
         await asyncio.to_thread(save_chat_history, 'CDLA', payload.question, answer,
-                                path=app.state.chat_history_db)
+                                path=app.state.chat_history_db,
+                                router_function='Pre-trip Video')
         return {'ok': True, 'filenames': filenames}
 
     @app.post('/api/videos/step/{step_number}/view')
     async def record_step_video_view(request: Request, step_number: int, payload: VideoViewRequest):
         video_path = step_video_path(step_number)
-        return await record_video_view(request, video_path, payload)
+        return await record_video_view(request, video_path, payload, 'Pre-trip Video', step_number)
 
     @app.get('/api/videos/step/{step_number}')
     async def step_video(step_number: int):

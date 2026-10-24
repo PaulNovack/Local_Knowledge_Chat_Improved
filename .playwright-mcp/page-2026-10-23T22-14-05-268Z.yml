@@ -1,0 +1,61 @@
+- generic [ref=f14e2]:
+  - complementary [ref=f14e3]:
+    - generic [ref=f14e4]: K✦
+    - paragraph [ref=f14e5]: YOUR DATA. YOUR MACHINE.
+    - heading "Ask and train." [level=1] [ref=f14e6]: Ask andtrain.
+    - paragraph [ref=f14e7]: Ask a question, review the answer, then save the correction back into Qdrant.
+    - generic [ref=f14e8]: KNOWLEDGE COLLECTION
+    - generic [ref=f14e9]:
+      - combobox "KNOWLEDGE COLLECTION" [ref=f14e10]:
+        - option "CDLA" [selected]
+        - option "Constipation"
+        - option "Dementia"
+        - option "Melanie Martinez"
+        - option "PHP"
+        - option "Rolling Stones"
+      - button "Refresh topics" [ref=f14e11] [cursor=pointer]: ↻
+    - button "New conversation" [ref=f14e12] [cursor=pointer]
+    - button "Back to chat" [ref=f14e13] [cursor=pointer]
+    - status [ref=f14e14]: Checking local services…
+    - generic [ref=f14e15]: Powered by Ollama + QdrantCorrections are saved locally.
+  - main [ref=f14e16]:
+    - generic [ref=f14e17]:
+      - generic [ref=f14e18]: ASK AND TRAIN
+      - button "Export chat" [ref=f14e20] [cursor=pointer]
+    - region "Conversation" [ref=f14e21]:
+      - generic [ref=f14e22]:
+        - text: A LITTLE CURIOSITY GOES A LONG WAY
+        - heading "What would you like to know?" [level=2] [ref=f14e23]: What would youlike to know?
+        - paragraph [ref=f14e24]: Ask a question, then edit the answer below if it needs correction.
+        - button "Hear the spoken introduction to the CDLA collection" [ref=f14e25] [cursor=pointer]: Tell me how this works?
+    - generic [ref=f14e26]:
+      - generic [ref=f14e27]:
+        - text: CORRECT THE RECORD
+        - heading "Save a better answer" [level=2] [ref=f14e28]
+        - paragraph [ref=f14e29]: When the assistant gets something wrong, edit the correction and save it into the current collection. The new Q&A is written to the topic files and upserted into Qdrant.
+      - generic [ref=f14e30]:
+        - generic [ref=f14e31]: Question
+        - textbox "Question" [ref=f14e32]:
+          - /placeholder: Ask a question first…
+        - generic [ref=f14e33]: Router function
+        - combobox "Router function" [ref=f14e34]:
+          - option "Blank" [selected]
+          - option "Pre-trip Text"
+          - option "Pre-trip Video"
+        - generic [ref=f14e35]: Key
+        - spinbutton "Key" [ref=f14e36]
+        - generic [ref=f14e37]: Correct answer
+        - textbox "Correct answer" [ref=f14e38]:
+          - /placeholder: Enter the correct answer…
+        - generic [ref=f14e39]:
+          - status [ref=f14e40]: Ask a question, then save the correction.
+          - button "Save correction ↗" [ref=f14e41] [cursor=pointer]
+    - generic [ref=f14e42]:
+      - generic [ref=f14e43]:
+        - generic [ref=f14e44]: Your question
+        - textbox "Your question" [ref=f14e45]:
+          - /placeholder: Ask something about your collection…
+        - generic [ref=f14e46]:
+          - status [ref=f14e47]: Enter to send · Shift + Enter for a new line
+          - button "Ask question ↗" [ref=f14e48] [cursor=pointer]
+      - paragraph [ref=f14e49]: Generated answers can be wrong. Inspect the retrieved excerpts to verify them. Use the correction panel above to train the collection.

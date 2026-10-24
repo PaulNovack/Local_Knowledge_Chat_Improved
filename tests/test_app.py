@@ -1,3 +1,4 @@
+import asyncio
 import json
 import sqlite3
 from pathlib import Path
@@ -7,10 +8,11 @@ import pytest
 from fastapi.testclient import TestClient
 from qdrant_client import QdrantClient
 
-from backend.core import Settings, Store, read_records, documents, topic_name
+from backend.core import Settings, Store, ensure_chat_history_db, read_records, documents, sync_qdrant_topic_to_sqlite, sync_qdrant_topics_to_sqlite, topic_name
 from backend.ingest import import_file
-from backend.app import create_app, _is_date_question
+from backend.app import create_app, _is_date_question, _reload_saved_corrections
 from backend.following_distance import answer_following_distance, _parse
+from backend.routing import resolve_routed_answer
 
 
 def write_simple_pdf(path: Path, text: str):
@@ -78,6 +80,80 @@ def test_sqlite_php_schema(tmp_path):
                          "INSERT INTO chunks VALUES(1,'https://php.net/manual/en/'); "
                          "INSERT INTO qa_pairs VALUES('What is PHP?','A language.',1);")
     assert list(read_records(path))[0]['url'] == 'https://php.net/manual/en/'
+
+
+def test_fresh_sqlite_database_seeds_router_functions(tmp_path):
+    path = ensure_chat_history_db(tmp_path / 'chat_history.sqlite3')
+    with sqlite3.connect(path) as db:
+        rows = db.execute('SELECT id, name FROM routerFunctions ORDER BY id').fetchall()
+        topic_columns = {row[1] for row in db.execute('PRAGMA table_info(topic_data)')}
+        history_columns = {row[1] for row in db.execute('PRAGMA table_info(chat_history)')}
+
+    assert rows == [(1, ''), (2, 'Pre-trip Text'), (3, 'Pre-trip Video')]
+    assert {'topic', 'id', 'routerFunction', 'key'} <= topic_columns
+    assert {'routerFunction', 'key'} <= history_columns
+
+
+def test_chat_history_schema_adds_route_fields_without_backfilling(tmp_path):
+    path = tmp_path / 'chat_history.sqlite3'
+    with sqlite3.connect(path) as db:
+        db.execute('''
+            CREATE TABLE chat_history (
+                ID INTEGER PRIMARY KEY AUTOINCREMENT,
+                topic TEXT NOT NULL,
+                question TEXT NOT NULL,
+                answer TEXT NOT NULL,
+                accepted INTEGER NOT NULL DEFAULT 1,
+                created_date TEXT NOT NULL DEFAULT (CURRENT_DATE),
+                created_at TEXT NOT NULL DEFAULT (CURRENT_TIMESTAMP)
+            )
+        ''')
+        db.execute("INSERT INTO chat_history(topic, question, answer) VALUES ('CDLA', 'Old question?', 'Old answer.')")
+
+    ensure_chat_history_db(path)
+
+    with sqlite3.connect(path) as db:
+        row = db.execute('SELECT routerFunction, "key" FROM chat_history WHERE ID = 1').fetchone()
+    assert row == (None, None)
+
+
+def test_qdrant_topics_sync_to_sqlite_preserves_ids_and_fields(tmp_path, store):
+    source_path = tmp_path / 'PHP.jsonl'
+    source_record = {
+        'question': 'What is PHP?',
+        'answer': 'PHP is a scripting language.',
+        'url': '',
+        'source': 'user_additions',
+        'routerFunction': 'php_lookup',
+        'key': 2,
+    }
+    source_path.write_text(json.dumps(source_record) + '\n', encoding='utf-8')
+    record = list(read_records(source_path))[0]
+    assert record['routerFunction'] == 'php_lookup'
+    assert record['key'] == 2
+    doc = list(documents(record))[0]
+    store.upsert('PHP', [doc], [[1.0, 0.0, 0.0]])
+
+    db_path = tmp_path / 'chat_history.sqlite3'
+    assert sync_qdrant_topics_to_sqlite(store, db_path) == {'PHP': 1}
+    point = store.client.retrieve(store.name('PHP'), [doc['id']], with_payload=True, with_vectors=True)[0]
+    with sqlite3.connect(db_path) as db:
+        columns = {row[1] for row in db.execute('PRAGMA table_info(topic_data)')}
+        row = db.execute(
+            'SELECT topic, id, vector, question, answer, text, url, source, embedding_model, routerFunction, "key" FROM topic_data'
+        ).fetchone()
+
+    assert columns == {
+        'topic', 'id', 'vector', 'question', 'answer', 'text', 'url', 'source',
+        'embedding_model', 'routerFunction', 'key',
+    }
+    assert row[0] == 'PHP'
+    assert row[1] == str(point.id) == doc['id']
+    assert json.loads(row[2]) == point.vector
+    assert row[3:] == (
+        'What is PHP?', 'PHP is a scripting language.', 'PHP is a scripting language.',
+        '', 'PHP.jsonl', 'test-embed', 'php_lookup', 2,
+    )
 
 
 def test_pdf_import_uses_overlapping_chunks(tmp_path, settings, store):
@@ -317,7 +393,7 @@ def test_chat_history_is_created_and_saved(tmp_path, monkeypatch, settings, stor
 
     with sqlite3.connect(db_path) as db:
         row = db.execute(
-            'SELECT ID, topic, question, answer, accepted, created_date, created_at FROM chat_history ORDER BY ID DESC LIMIT 1'
+            'SELECT ID, topic, question, answer, accepted, created_date, created_at, routerFunction, "key" FROM chat_history ORDER BY ID DESC LIMIT 1'
         ).fetchone()
 
     assert row[0] >= 1
@@ -328,6 +404,7 @@ def test_chat_history_is_created_and_saved(tmp_path, monkeypatch, settings, stor
     assert row[4] == 1
     assert row[5]
     assert row[6]
+    assert row[7:] == (None, None)
 
 
 def test_step_video_route_serves_numbered_mp4_and_rejects_missing_steps(tmp_path, monkeypatch, settings, store):
@@ -488,6 +565,8 @@ def test_view_responses_api_paginates_newest_first(tmp_path, monkeypatch, settin
     assert first_data['total_pages'] == 2
     assert first_data['page'] == 1
     assert [item['ID'] for item in first_data['items']] == [1, 3]
+    assert first_data['items'][0]['routerFunction'] is None
+    assert first_data['items'][0]['key'] is None
     assert [item['ID'] for item in second_data['items']] == [2]
 
 
@@ -650,7 +729,6 @@ def test_date_questions_add_secondary_retrieval(settings):
                 events.append(event)
                 if event['type'] == 'done':
                     break
-
     assert seen['search_calls'] == 2
     assert len(seen['embed_inputs']) == 2
     assert seen['embed_inputs'][1] == 'When was Cry Baby released?'
@@ -672,10 +750,14 @@ def test_train_endpoint_persists_and_upserts(tmp_path, monkeypatch, settings, st
     ollama = httpx.AsyncClient(base_url='http://ollama', transport=httpx.MockTransport(handle))
     app = create_app(settings, store, ollama)
     with TestClient(app) as client:
+        options = client.get('/api/router-functions')
+        assert options.json()['routerFunctions'] == ['', 'Pre-trip Text', 'Pre-trip Video']
         response = client.post('/api/train', headers={'origin': 'http://127.0.0.1:8000'}, json={
             'topic': 'PHP',
             'question': 'What is PHP?',
             'answer': 'PHP is a general-purpose scripting language for web development.',
+            'routerFunction': 'Pre-trip Text',
+            'key': 2,
         })
         assert response.status_code == 200
         payload = response.json()
@@ -684,6 +766,18 @@ def test_train_endpoint_persists_and_upserts(tmp_path, monkeypatch, settings, st
     saved = tmp_path / 'topic_data' / 'user_additions' / 'PHP.jsonl'
     assert saved.exists()
     assert 'PHP is a general-purpose scripting language for web development.' in saved.read_text(encoding='utf-8')
+    saved_record = json.loads(saved.read_text(encoding='utf-8').splitlines()[0])
+    assert (saved_record['routerFunction'], saved_record['key']) == ('Pre-trip Text', 2)
+    doc = list(documents(saved_record))[0]
+    point = store.client.retrieve(store.name('PHP'), [doc['id']], with_payload=True)[0]
+    assert (point.payload['routerFunction'], point.payload['key']) == ('Pre-trip Text', 2)
+    sync_qdrant_topic_to_sqlite(store, 'PHP', tmp_path / 'database' / 'chat_history.sqlite3')
+    with sqlite3.connect(tmp_path / 'database' / 'chat_history.sqlite3') as db:
+        route, key = db.execute(
+            'SELECT routerFunction, "key" FROM topic_data WHERE topic = ? AND id = ?',
+            ('PHP', doc['id']),
+        ).fetchone()
+    assert (route, key) == ('Pre-trip Text', 2)
     results = store.search('PHP', [1.0, 0.0, 0.0])
     assert any(item['text'] == 'PHP is a general-purpose scripting language for web development.' for item in results)
 
@@ -706,6 +800,8 @@ def test_train_endpoint_skips_duplicate_corrections(tmp_path, monkeypatch, setti
         'topic': 'PHP',
         'question': 'What is PHP?',
         'answer': 'PHP is a general-purpose scripting language for web development.',
+        'routerFunction': 'Pre-trip Video',
+        'key': 2,
     }
     with TestClient(app) as client:
         first = client.post('/api/train', headers={'origin': 'http://127.0.0.1:8000'}, json=payload)
@@ -713,17 +809,85 @@ def test_train_endpoint_skips_duplicate_corrections(tmp_path, monkeypatch, setti
             'topic': 'PHP',
             'question': 'What is PHP? ',
             'answer': 'PHP is a server-side scripting language for web development.',
+            'routerFunction': 'Pre-trip Video',
+            'key': 2,
+        })
+        third = client.post('/api/train', headers={'origin': 'http://127.0.0.1:8000'}, json={
+            **payload,
+            'question': ' WHAT IS PHP? ',
+            'answer': 'PHP is a server-side scripting language for web development.',
         })
 
     assert first.json()['saved'] > 0
     assert second.json()['updated'] is True
+    assert third.json()['duplicate'] is True
     saved = tmp_path / 'topic_data' / 'user_additions' / 'PHP.jsonl'
     saved_lines = [line for line in saved.read_text(encoding='utf-8').splitlines() if line.strip()]
     assert len(saved_lines) == 1
     assert 'PHP is a server-side scripting language for web development.' in saved_lines[0]
+    saved_record = json.loads(saved_lines[0])
+    assert (saved_record['routerFunction'], saved_record['key']) == ('Pre-trip Video', 2)
     results = store.search('PHP', [1.0, 0.0, 0.0])
     assert any(item['text'] == 'PHP is a server-side scripting language for web development.' for item in results)
     assert not any(item['text'] == 'PHP is a general-purpose scripting language for web development.' for item in results)
+
+
+def test_training_updates_all_questions_with_same_router_key(tmp_path, monkeypatch, settings, store):
+    monkeypatch.setattr('backend.core.ROOT', tmp_path)
+    monkeypatch.setattr('backend.app.ROOT', tmp_path)
+    (tmp_path / 'web').mkdir()
+    records = [
+        {'question': 'How do I perform step 1 of pre-trip inspection?', 'answer': 'Old brake answer.',
+         'url': '', 'source': 'user_additions', 'routerFunction': 'Pre-trip Text', 'key': 1},
+        {'question': 'How do I do step one of the pre-trip inspection?', 'answer': 'Old brake answer.',
+         'url': '', 'source': 'user_additions', 'routerFunction': 'Pre-trip Text', 'key': 1},
+        {'question': 'How do I perform step 2 of pre-trip inspection?', 'answer': 'Keep this answer.',
+         'url': '', 'source': 'user_additions', 'routerFunction': 'Pre-trip Text', 'key': 2},
+    ]
+    additions_path = tmp_path / 'topic_data' / 'user_additions' / 'CDLA.jsonl'
+    additions_path.parent.mkdir(parents=True)
+    additions_path.write_text(''.join(json.dumps(record) + '\n' for record in records), encoding='utf-8')
+    old_docs = [doc for record in records for doc in documents(record)]
+    store.upsert('CDLA', old_docs, [[1.0, 0.0, 0.0]] * len(old_docs))
+
+    def handle(request):
+        if request.url.path == '/api/embed':
+            count = len(json.loads(request.content)['input'])
+            return httpx.Response(200, json={'embeddings': [[1.0, 0.0, 0.0]] * count})
+        if request.url.path == '/api/tags':
+            return httpx.Response(200, json={'models': [{'name': 'test'}, {'name': 'test-embed:latest'}]})
+        raise AssertionError(f'unexpected request to {request.url.path}')
+
+    ollama = httpx.AsyncClient(base_url='http://ollama', transport=httpx.MockTransport(handle))
+    new_answer = 'Inspection of: Air or Hydraulic brakes\n\nThe updated brake inspection.'
+    with TestClient(create_app(settings, store, ollama)) as client:
+        response = client.post('/api/train', headers={'origin': 'http://127.0.0.1:8000'}, json={
+            'topic': 'CDLA',
+            'question': records[0]['question'],
+            'answer': new_answer,
+            'routerFunction': 'Pre-trip Text',
+            'key': 1,
+        })
+
+    assert response.status_code == 200
+    routed_answer = resolve_routed_answer(
+        'CDLA', records[1]['question'], tmp_path / 'database' / 'chat_history.sqlite3',
+    )
+    assert routed_answer['text'] == new_answer
+    saved_records = [json.loads(line) for line in additions_path.read_text(encoding='utf-8').splitlines()]
+    assert [record['answer'] for record in saved_records] == [new_answer, new_answer, 'Keep this answer.']
+    old_ids = [doc['id'] for record in records[:2] for doc in documents(record)]
+    assert store.existing('CDLA', old_ids) == set()
+    updated_docs = [doc for record in saved_records[:2] for doc in documents(record)]
+    points = store.client.retrieve(store.name('CDLA'), [doc['id'] for doc in updated_docs], with_payload=True)
+    assert len(points) == len(updated_docs)
+    assert all(point.payload['answer'] == new_answer for point in points)
+    with sqlite3.connect(tmp_path / 'database' / 'chat_history.sqlite3') as db:
+        answers = db.execute(
+            'SELECT answer FROM topic_data WHERE routerFunction=? AND "key"=1 ORDER BY question',
+            ('Pre-trip Text',),
+        ).fetchall()
+    assert [answer[0] for answer in answers] == [new_answer, new_answer]
 
 
 def test_train_endpoint_rejects_non_local_origin(tmp_path, monkeypatch, settings, store):
@@ -807,6 +971,36 @@ def test_saved_corrections_reload_on_startup(tmp_path, monkeypatch, settings, st
     assert not any(item['text'] == 'Outdated answer.' for item in results)
 
 
+def test_saved_correction_reload_updates_router_function_payload(tmp_path, monkeypatch, settings, store):
+    record = {
+        'question': 'What is PHP?',
+        'answer': 'PHP is a general-purpose scripting language for web development.',
+        'url': '',
+        'source': 'user_additions',
+    }
+    doc = list(documents(record))[0]
+    store.upsert('PHP', [doc], [[1.0, 0.0, 0.0]])
+    additions = tmp_path / 'topic_data' / 'user_additions'
+    additions.mkdir(parents=True)
+    (additions / 'PHP.jsonl').write_text(
+        json.dumps({**record, 'routerFunction': 'php_lookup', 'key': 2}) + '\n',
+        encoding='utf-8',
+    )
+    monkeypatch.setattr('backend.app.ROOT', tmp_path)
+
+    def handle(request):
+        raise AssertionError(f'unexpected embedding request to {request.url.path}')
+
+    async def reload():
+        async with httpx.AsyncClient(base_url='http://ollama', transport=httpx.MockTransport(handle)) as ollama:
+            await _reload_saved_corrections(store, ollama, settings)
+
+    asyncio.run(reload())
+    point = store.client.retrieve(store.name('PHP'), [doc['id']], with_payload=True)[0]
+    assert point.payload['routerFunction'] == 'php_lookup'
+    assert point.payload['key'] == 2
+
+
 def test_exact_saved_correction_short_circuits_llm(settings, store):
     record = {
         'question': 'During an emergency braking situation, skidding tires means?',
@@ -837,6 +1031,103 @@ def test_exact_saved_correction_short_circuits_llm(settings, store):
 
     assert any(event.get('text') == 'you no longer have control of your vehicle' for event in events)
     assert not any(event['type'] == 'error' for event in events)
+
+
+@pytest.mark.parametrize(('spoken_step', 'step_number'), [('1', 1), ('two', 2), ('twenty-two', 22)])
+def test_pre_trip_text_route_uses_original_question_and_case_insensitive_sqlite(
+    tmp_path, monkeypatch, settings, store, spoken_step, step_number):
+    seeded_store(store)
+    store.upsert('CDLA', list(documents({'question': 'pre-trip placeholder', 'answer': 'placeholder', 'url': ''})), [[1.0, 0.0, 0.0]])
+    monkeypatch.setattr('backend.core.ROOT', tmp_path)
+    monkeypatch.setattr('backend.app.ROOT', tmp_path)
+    database_path = tmp_path / 'database' / 'chat_history.sqlite3'
+    (tmp_path / 'web').mkdir()
+    ensure_chat_history_db(database_path)
+    with sqlite3.connect(database_path) as db:
+        db.execute('''
+            INSERT INTO topic_data(topic, id, vector, question, answer, text, url, source,
+                                   embedding_model, routerFunction, "key")
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ''', (
+            'cdla', f'step-{step_number}-stale-point', '[]',
+            f'How do I do step {step_number} of the pre-trip inspection?',
+            f'Stale step {step_number} answer.', f'Stale step {step_number} answer.',
+            '', 'user_additions', 'test-embed', 'pre-trip text', step_number,
+        ))
+        question = f'How do I perform step {spoken_step} of the pre trip inspection?'
+        db.execute('''
+            INSERT INTO topic_data(topic, id, vector, question, answer, text, url, source,
+                                   embedding_model, routerFunction, "key")
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ''', (
+            'cdla', f'step-{step_number}-point', '[]', question,
+            f'Inspect the identified step {step_number} item.',
+            f'Inspect the identified step {step_number} item.',
+            '', 'user_additions', 'test-embed', 'pre-trip text', step_number,
+        ))
+
+    def handle(request):
+        if request.url.path == '/api/embed':
+            return httpx.Response(200, json={'embeddings': [[1.0, 0.0, 0.0]]})
+        if request.url.path == '/api/tags':
+            return httpx.Response(200, json={'models': [{'name': 'test'}, {'name': 'test-embed:latest'}]})
+        raise AssertionError(f'unexpected Ollama request to {request.url.path}')
+
+    ollama = httpx.AsyncClient(base_url='http://ollama', transport=httpx.MockTransport(handle))
+    with TestClient(create_app(settings, store, ollama)) as client:
+        with client.websocket_connect('/ws/chat', headers={'origin': 'http://localhost:8000'}) as ws:
+            ws.send_json({'topic': 'CDLA', 'question': question})
+            events = []
+            while True:
+                event = ws.receive_json()
+                events.append(event)
+                if event['type'] == 'done':
+                    break
+            history_item = client.get('/api/responses').json()['items'][0]
+
+    assert any(event.get('text') == f'Inspect the identified step {step_number} item.' for event in events)
+    assert any(event['type'] == 'sources' and event['sources'][0]['point_id'] == f'step-{step_number}-point' for event in events)
+    assert not any(event['type'] == 'error' for event in events)
+    with sqlite3.connect(database_path) as db:
+        history_route = db.execute('SELECT routerFunction, "key" FROM chat_history').fetchone()
+    assert history_route == ('Pre-trip Text', step_number)
+    assert history_item['routerFunction'] == 'Pre-trip Text'
+    assert history_item['key'] == step_number
+
+
+def test_pre_trip_text_out_of_range_step_does_not_use_nearest_qdrant_result(tmp_path, monkeypatch, settings, store):
+    seeded_store(store)
+    step_38 = {
+        'question': 'How do I perform Step 38 of the pre-trip inspection?',
+        'answer': 'This is the misleading Step 38 answer.',
+        'url': '',
+    }
+    store.upsert('CDLA', list(documents(step_38)), [[1.0, 0.0, 0.0]])
+    monkeypatch.setattr('backend.core.ROOT', tmp_path)
+    monkeypatch.setattr('backend.app.ROOT', tmp_path)
+    (tmp_path / 'web').mkdir()
+
+    def handle(request):
+        if request.url.path == '/api/embed':
+            return httpx.Response(200, json={'embeddings': [[1.0, 0.0, 0.0]]})
+        if request.url.path == '/api/tags':
+            return httpx.Response(200, json={'models': [{'name': 'test'}, {'name': 'test-embed:latest'}]})
+        raise AssertionError(f'unexpected Ollama request to {request.url.path}')
+
+    ollama = httpx.AsyncClient(base_url='http://ollama', transport=httpx.MockTransport(handle))
+    expected = 'There is no Step 40 in the pre-trip inspection. Valid steps are 1 through 39.'
+    with TestClient(create_app(settings, store, ollama)) as client:
+        with client.websocket_connect('/ws/chat', headers={'origin': 'http://localhost:8000'}) as ws:
+            ws.send_json({'topic': 'CDLA', 'question': 'How do I perform step 40 of the pre-trip inspection?'})
+            events = []
+            while True:
+                event = ws.receive_json()
+                events.append(event)
+                if event['type'] == 'done':
+                    break
+
+    assert any(event.get('text') == expected for event in events)
+    assert not any(event.get('text') == 'This is the misleading Step 38 answer.' for event in events)
 
 
 def test_top_saved_correction_short_circuits_llm_for_paraphrase(settings, store):

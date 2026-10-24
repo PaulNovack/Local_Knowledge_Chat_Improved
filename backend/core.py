@@ -68,7 +68,16 @@ def clean_record(row, source):
         raise ValueError('url must be a string')
     if url and not url.startswith(('https://', 'http://')):
         url = ''
-    return {'question': q.strip(), 'answer': a.strip(), 'url': url, 'source': source}
+    router_function = row.get('routerFunction', '')
+    if not isinstance(router_function, str):
+        raise ValueError('routerFunction must be a string')
+    key = row.get('key', '')
+    if not isinstance(key, str) and (not isinstance(key, int) or isinstance(key, bool)):
+        raise ValueError('key must be a string or integer')
+    return {
+        'question': q.strip(), 'answer': a.strip(), 'url': url,
+        'source': source, 'routerFunction': router_function, 'key': key,
+    }
 
 
 def read_records(path):
@@ -179,6 +188,33 @@ def validate_vectors(data, expected):
     return vectors
 
 
+def ensure_topic_data_table(path=None):
+    path = Path(path) if path is not None else ROOT / 'database' / 'chat_history.sqlite3'
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with sqlite3.connect(path) as db:
+        db.execute('''
+            CREATE TABLE IF NOT EXISTS topic_data (
+                topic TEXT NOT NULL,
+                id TEXT NOT NULL,
+                vector TEXT NOT NULL DEFAULT '',
+                question TEXT NOT NULL DEFAULT '',
+                answer TEXT NOT NULL DEFAULT '',
+                text TEXT NOT NULL DEFAULT '',
+                url TEXT NOT NULL DEFAULT '',
+                source TEXT NOT NULL DEFAULT '',
+                embedding_model TEXT NOT NULL DEFAULT '',
+                routerFunction TEXT NOT NULL DEFAULT '',
+                key INTEGER NOT NULL DEFAULT '',
+                PRIMARY KEY (topic, id)
+            )
+        ''')
+        db.execute('''
+            CREATE INDEX IF NOT EXISTS idx_topic_data_topic_key
+            ON topic_data(topic, key)
+        ''')
+    return path
+
+
 def ensure_chat_history_db(path=None):
     path = Path(path) if path is not None else ROOT / 'database' / 'chat_history.sqlite3'
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -192,6 +228,8 @@ def ensure_chat_history_db(path=None):
                     topic TEXT NOT NULL,
                     question TEXT NOT NULL,
                     answer TEXT NOT NULL,
+                    routerFunction TEXT,
+                    "key" INTEGER,
                     accepted INTEGER NOT NULL DEFAULT 1 CHECK (accepted IN (0, 1)),
                     created_date TEXT NOT NULL DEFAULT (CURRENT_DATE),
                     created_at TEXT NOT NULL DEFAULT (CURRENT_TIMESTAMP)
@@ -214,16 +252,40 @@ def ensure_chat_history_db(path=None):
                 topic TEXT NOT NULL,
                 question TEXT NOT NULL,
                 answer TEXT NOT NULL,
+                routerFunction TEXT,
+                "key" INTEGER,
                 accepted INTEGER NOT NULL DEFAULT 1 CHECK (accepted IN (0, 1)),
                 created_date TEXT NOT NULL DEFAULT (CURRENT_DATE),
                 created_at TEXT NOT NULL DEFAULT (CURRENT_TIMESTAMP)
             )
         ''')
+        chat_history_columns = {row[1] for row in db.execute('PRAGMA table_info(chat_history)')}
+        if 'routerFunction' not in chat_history_columns:
+            db.execute('ALTER TABLE chat_history ADD COLUMN routerFunction TEXT')
+        if 'key' not in chat_history_columns:
+            db.execute('ALTER TABLE chat_history ADD COLUMN "key" INTEGER')
         db.execute('''
             CREATE INDEX IF NOT EXISTS idx_chat_history_topic_created_at
             ON chat_history(topic, created_at DESC)
         ''')
+        db.execute('''
+            CREATE TABLE IF NOT EXISTS routerFunctions (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                name TEXT NOT NULL UNIQUE
+            )
+        ''')
+        db.executemany(
+            'INSERT OR IGNORE INTO routerFunctions(name) VALUES (?)',
+            [('',), ('Pre-trip Text',), ('Pre-trip Video',)],
+        )
+    ensure_topic_data_table(path)
     return path
+
+
+def read_router_function_names(path=None):
+    path = ensure_chat_history_db(path)
+    with sqlite3.connect(path) as db:
+        return [row[0] for row in db.execute('SELECT name FROM routerFunctions ORDER BY id')]
 
 
 def ensure_tts_cache_db(path=None):
@@ -240,6 +302,56 @@ def ensure_tts_cache_db(path=None):
     return path
 
 
+def sync_qdrant_topic_to_sqlite(store, topic, path=None):
+    topic = topic_name(topic)
+    path = ensure_topic_data_table(path)
+    columns = ('topic', 'id', 'vector', 'question', 'answer', 'text', 'url',
+               'source', 'embedding_model', 'routerFunction', 'key')
+    placeholders = ', '.join('?' for _ in columns)
+    column_list = ', '.join(f'"{name}"' for name in columns)
+    count = 0
+    with sqlite3.connect(path) as db:
+        db.execute('DELETE FROM topic_data WHERE topic = ?', (topic,))
+        offset = None
+        while True:
+            points, offset = store.client.scroll(
+                store.name(topic), limit=256, offset=offset,
+                with_payload=True, with_vectors=True,
+            )
+            rows = []
+            for point in points:
+                payload = point.payload or {}
+                rows.append((
+                    topic,
+                    str(point.id),
+                    json.dumps(point.vector, ensure_ascii=False, separators=(',', ':')),
+                    str(payload.get('question') or ''),
+                    str(payload.get('answer') or ''),
+                    str(payload.get('text') or ''),
+                    str(payload.get('url') or ''),
+                    str(payload.get('source') or ''),
+                    str(payload.get('embedding_model') or ''),
+                    str(payload.get('routerFunction') or ''),
+                    payload.get('key', ''),
+                ))
+            if rows:
+                db.executemany(
+                    f'INSERT INTO topic_data ({column_list}) VALUES ({placeholders})',
+                    rows,
+                )
+                count += len(rows)
+            if offset is None:
+                break
+    return count
+
+
+def sync_qdrant_topics_to_sqlite(store, path=None):
+    return {
+        topic: sync_qdrant_topic_to_sqlite(store, topic, path)
+        for topic in store.topics()
+    }
+
+
 def save_tts_cache_entry(text_hash, text, path=None):
     path = ensure_tts_cache_db(path)
     with sqlite3.connect(path) as db:
@@ -253,12 +365,13 @@ def save_tts_cache_entry(text_hash, text, path=None):
         )
 
 
-def save_chat_history(topic, question, answer, accepted=True, path=None):
+def save_chat_history(topic, question, answer, accepted=True, path=None, router_function=None, key=None):
     path = ensure_chat_history_db(path)
     with sqlite3.connect(path) as db:
         db.execute(
-            'INSERT INTO chat_history(topic, question, answer, accepted) VALUES (?, ?, ?, ?)',
-            (topic_name(topic), str(question).strip(), str(answer).strip(), 1 if accepted else 0),
+            'INSERT INTO chat_history(topic, question, answer, accepted, routerFunction, "key") VALUES (?, ?, ?, ?, ?, ?)',
+            (topic_name(topic), str(question).strip(), str(answer).strip(), 1 if accepted else 0,
+             router_function, key),
         )
 
 
@@ -307,7 +420,7 @@ def read_chat_history(page=1, page_size=20, keyword='', path=None):
         total = db.execute(f'SELECT COUNT(*) FROM chat_history {clause}', params).fetchone()[0]
         rows = db.execute(
             '''
-            SELECT ID, topic, question, answer, accepted, created_date, created_at
+            SELECT ID, topic, question, answer, accepted, created_date, created_at, routerFunction, "key"
             FROM chat_history
             '''
             + clause + '''
@@ -316,7 +429,7 @@ def read_chat_history(page=1, page_size=20, keyword='', path=None):
             ''',
             [*params, page_size, offset],
         ).fetchall()
-    items = [dict(zip(('ID', 'topic', 'question', 'answer', 'accepted', 'created_date', 'created_at'), row)) for row in rows]
+    items = [dict(zip(('ID', 'topic', 'question', 'answer', 'accepted', 'created_date', 'created_at', 'routerFunction', 'key'), row)) for row in rows]
     total_pages = math.ceil(total / page_size) if total else 0
     return {
         'items': items,
@@ -357,6 +470,13 @@ class Store:
             return set()
         return {str(p.id) for p in self.client.retrieve(self.name(topic), ids, with_payload=False)}
 
+    def set_payload(self, topic, payload, point_ids):
+        for start in range(0, len(point_ids), 256):
+            self.client.set_payload(
+                self.name(topic), payload=payload,
+                points=point_ids[start:start + 256], wait=True,
+            )
+
     def upsert(self, topic, docs, vectors):
         self.ensure(topic, len(vectors[0]))
         self.client.upsert(self.name(topic), points=[models.PointStruct(
@@ -381,6 +501,30 @@ class Store:
                 point.id for point in points
                 if str(point.id) not in keep_ids
                 and re.sub(r'\W+', ' ', str((point.payload or {}).get('question', ''))).strip().lower() == target
+            )
+            if offset is None:
+                break
+        if point_ids:
+            self.client.delete(name, points_selector=point_ids, wait=True)
+
+    def delete_user_additions_for_route_key(self, topic, router_function, key):
+        name = self.name(topic)
+        if not self.client.collection_exists(name):
+            return
+        target_route = str(router_function).strip().casefold()
+        target_key = str(key).strip()
+        source_filter = models.Filter(must=[models.FieldCondition(
+            key='source', match=models.MatchValue(value='user_additions'))])
+        point_ids = []
+        offset = None
+        while True:
+            points, offset = self.client.scroll(
+                name, scroll_filter=source_filter, limit=256, offset=offset,
+                with_payload=['routerFunction', 'key'], with_vectors=False)
+            point_ids.extend(
+                point.id for point in points
+                if str((point.payload or {}).get('routerFunction', '')).strip().casefold() == target_route
+                and str((point.payload or {}).get('key', '')).strip() == target_key
             )
             if offset is None:
                 break
