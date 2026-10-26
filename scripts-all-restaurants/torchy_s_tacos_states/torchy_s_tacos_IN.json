@@ -1,0 +1,75 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "torchy_s_tacos",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8999282714,
+      "tags": {
+        "addr:city": "Jeffersonville",
+        "addr:housenumber": "1540",
+        "addr:postcode": "47130",
+        "addr:state": "IN",
+        "addr:street": "Veterans Parkway",
+        "amenity": "fast_food",
+        "brand": "Torchy's Tacos",
+        "brand:wikidata": "Q106769573",
+        "check_date": "2026-05-14",
+        "contact:facebook": "https://www.facebook.com/TorchysJeffersonville",
+        "cuisine": "tex-mex",
+        "name": "Torchy's Tacos",
+        "takeaway": "yes",
+        "website": "https://torchystacos.com/location/jeffersonville/"
+      },
+      "lat": 38.3284821,
+      "lon": -85.7459539
+    },
+    {
+      "type": "node",
+      "id": 13131845261,
+      "tags": {
+        "addr:city": "Fishers",
+        "addr:housenumber": "11595",
+        "addr:postcode": "46037",
+        "addr:state": "IN",
+        "addr:street": "Whistle Drive",
+        "addr:unit": "Suite 101-A",
+        "amenity": "fast_food",
+        "brand": "Torchy's Tacos",
+        "brand:wikidata": "Q106769573",
+        "cuisine": "tex-mex",
+        "name": "Torchy's Tacos",
+        "takeaway": "yes"
+      },
+      "lat": 39.9566122,
+      "lon": -85.9987188
+    },
+    {
+      "type": "node",
+      "id": 13623480994,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Torchy's Tacos",
+        "brand:wikidata": "Q106769573",
+        "cuisine": "tex-mex",
+        "name": "Torchy's Tacos",
+        "takeaway": "yes"
+      },
+      "lat": 39.9548136,
+      "lon": -86.2441755
+    }
+  ]
+}

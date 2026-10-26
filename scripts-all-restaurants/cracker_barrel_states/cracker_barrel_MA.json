@@ -1,0 +1,100 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "cracker_barrel",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12105297307,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Cracker Barrel"
+      },
+      "lat": 42.0369949,
+      "lon": -71.3483306
+    },
+    {
+      "type": "way",
+      "id": 110400172,
+      "tags": {
+        "addr:city": "Tewksbury",
+        "addr:housenumber": "1795",
+        "addr:postcode": "01876",
+        "addr:state": "MA",
+        "addr:street": "Andover Street",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "retail",
+        "check_date": "2025-09-04",
+        "contact:yelp": "https://www.yelp.com/biz/cracker-barrel-old-country-store-tewksbury",
+        "cuisine": "american",
+        "delivery": "yes",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Mo-Th,Su 07:00-21:00; Fr-Sa 07:00-22:00",
+        "phone": "+1-978-858-3717",
+        "roof:shape": "flat",
+        "takeaway": "yes",
+        "website": "https://www.crackerbarrel.com/Locations/States/ma/tewksbury/373"
+      },
+      "center": {
+        "lat": 42.64224045,
+        "lon": -71.23544419999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 213627108,
+      "tags": {
+        "addr:housenumber": "227",
+        "addr:street": "Whiting Farms Road",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 42.1770889,
+        "lon": -72.64216069999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 216279494,
+      "tags": {
+        "addr:housenumber": "215",
+        "addr:street": "Charlton Road",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "06:00-22:00; Fr, Sa 06:00-23:00",
+        "roof:levels": "1"
+      },
+      "center": {
+        "lat": 42.116182699999996,
+        "lon": -72.06663135000002
+      }
+    }
+  ]
+}

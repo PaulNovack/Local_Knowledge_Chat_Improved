@@ -1,0 +1,59 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TX",
+    "brand": "caribou_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/texas-latest.osm.pbf",
+    "source_md5": "eb8f4603e9b48bd481c192fe621ae18b",
+    "processed_utc": "2026-10-24T07:17:23.814833+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9844659945,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "cuisine": "coffee_shop",
+        "name": "Caribou Coffee",
+        "takeaway": "yes"
+      },
+      "lat": 30.2021187,
+      "lon": -97.6688216
+    },
+    {
+      "type": "node",
+      "id": 10969613743,
+      "tags": {
+        "addr:city": "Dallas",
+        "addr:housenumber": "2141",
+        "addr:postcode": "75261",
+        "addr:state": "TX",
+        "addr:street": "South International Parkway",
+        "addr:unit": "B29",
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "level": "1",
+        "name": "Caribou Coffee",
+        "opening_hours": "Mo-Su 06:30-15:30",
+        "outdoor_seating": "no",
+        "phone": "+1-678-818-8608",
+        "takeaway": "yes",
+        "website": "https://locations.cariboucoffee.com/us/tx/dallas/2141-s-international-parkway"
+      },
+      "lat": 32.9066005,
+      "lon": -97.0444417
+    }
+  ]
+}

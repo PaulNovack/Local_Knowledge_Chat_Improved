@@ -1,0 +1,124 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/3.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VT",
+    "brand": "wendys",
+    "source": "https://download.geofabrik.de/north-america/us/vermont-latest.osm.pbf",
+    "source_md5": "20a19d56b1e59d82493b3194b9e30440",
+    "processed_utc": "2026-10-24T06:37:35.668760+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1601249726,
+      "tags": {
+        "addr:city": "Essex Junction",
+        "addr:country": "US",
+        "addr:housenumber": "110",
+        "addr:postcode": "05452",
+        "addr:state": "VT",
+        "addr:street": "Pearl Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Su 10:00-00:00",
+        "outdoor_seating": "no",
+        "phone": "+1-802-872-9099",
+        "ref:vcgi:esiteid": "97602",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/vt/essex-junction/110-pearl-street"
+      },
+      "lat": 44.4952133,
+      "lon": -73.1226596
+    },
+    {
+      "type": "node",
+      "id": 4975151899,
+      "tags": {
+        "addr:city": "Newport",
+        "addr:housenumber": "187",
+        "addr:postcode": "05855",
+        "addr:state": "VT",
+        "addr:street": "Waterfront Plaza",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-22:00",
+        "phone": "+1 802-334-5717",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/vt/newport/187-waterfront-plaza"
+      },
+      "lat": 44.9416643,
+      "lon": -72.205086
+    },
+    {
+      "type": "way",
+      "id": 106468457,
+      "tags": {
+        "addr:city": "West Lebanon",
+        "addr:housenumber": "258",
+        "addr:postcode": "03784",
+        "addr:state": "NH",
+        "addr:street": "Plainfield Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-20:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-20:00",
+        "phone": "+1 603-298-7814",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/west-lebanon/258-plainfield-rd"
+      },
+      "center": {
+        "lat": 43.62757315,
+        "lon": -72.32390980000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 360040232,
+      "tags": {
+        "addr:city": "Brattleboro",
+        "addr:housenumber": "1059",
+        "addr:postcode": "05301",
+        "addr:state": "VT",
+        "addr:street": "Putney Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "commercial",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-23:00; Fr-Sa 06:30-00:00; Su 06:30-23:00",
+        "phone": "+1 802-258-9841",
+        "ref:vcgi:esiteid": "29727",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/vt/brattleboro/1059-putney-road"
+      },
+      "center": {
+        "lat": 42.88297385,
+        "lon": -72.55740734999995
+      }
+    }
+  ]
+}

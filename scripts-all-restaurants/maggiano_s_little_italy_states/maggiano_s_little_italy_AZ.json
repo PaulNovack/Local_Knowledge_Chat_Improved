@@ -1,0 +1,42 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "maggiano_s_little_italy",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 79734181,
+      "tags": {
+        "addr:city": "Scottsdale",
+        "addr:country": "US",
+        "addr:housenumber": "16405",
+        "addr:postcode": "85254",
+        "addr:state": "AZ",
+        "addr:street": "North Scottsdale Road",
+        "amenity": "restaurant",
+        "brand": "Maggiano's Little Italy",
+        "brand:wikidata": "Q6730149",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Maggiano's Little Italy",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 33.63721275,
+        "lon": -111.92482889999997
+      }
+    }
+  ]
+}

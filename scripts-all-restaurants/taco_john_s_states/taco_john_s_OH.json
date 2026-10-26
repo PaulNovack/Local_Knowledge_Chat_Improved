@@ -1,0 +1,63 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "taco_john_s",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8282425774,
+      "tags": {
+        "addr:city": "Bellville",
+        "addr:housenumber": "972",
+        "addr:postcode": "44813",
+        "addr:state": "OH",
+        "addr:street": "State Route 97",
+        "amenity": "fast_food",
+        "brand": "Taco John's",
+        "brand:wikidata": "Q7673962",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Taco John's",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "phone": "+1-419-886-0209",
+        "takeaway": "yes",
+        "website": "https://www.tacojohns.com/"
+      },
+      "lat": 40.6527003,
+      "lon": -82.5456198
+    },
+    {
+      "type": "way",
+      "id": 274846072,
+      "tags": {
+        "addr:city": "Athens",
+        "addr:postcode": "45701",
+        "addr:state": "OH",
+        "addr:street": "Richland Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco John's",
+        "brand:wikidata": "Q7673962",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Taco John's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.3144009,
+        "lon": -82.10412839999998
+      }
+    }
+  ]
+}

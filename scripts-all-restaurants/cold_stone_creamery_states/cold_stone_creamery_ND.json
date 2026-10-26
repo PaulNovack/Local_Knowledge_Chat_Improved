@@ -1,0 +1,92 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ND",
+    "brand": "cold_stone_creamery",
+    "source": "https://download.geofabrik.de/north-america/us/north-dakota-latest.osm.pbf",
+    "source_md5": "9eff3bc6ca09aea0f8e064cee3b44c15",
+    "processed_utc": "2026-10-24T07:12:54.105950+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 977201452,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "indoor_seating": "yes",
+        "name": "Cold Stone Creamery",
+        "outdoor_seating": "no",
+        "smoking": "no"
+      },
+      "lat": 47.8886929,
+      "lon": -97.079393
+    },
+    {
+      "type": "node",
+      "id": 7179291930,
+      "tags": {
+        "addr:city": "Minot",
+        "addr:country": "US",
+        "addr:county": "Ward, ND",
+        "addr:housenumber": "1420",
+        "addr:postcode": "58701",
+        "addr:state": "ND",
+        "addr:street": "24th Avenue Southwest",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery",
+        "opening_hours": "Mo-Sa 11:00-22:00; Su 12:00-22:00",
+        "phone": "+1 701 839 1810",
+        "shop": "dairy",
+        "website": "https://www.coldstonecreamery.com/stores/23585"
+      },
+      "lat": 48.2081538,
+      "lon": -101.3146584
+    },
+    {
+      "type": "node",
+      "id": 8138791507,
+      "tags": {
+        "addr:city": "Williston",
+        "addr:housenumber": "3210",
+        "addr:postcode": "58801",
+        "addr:state": "ND",
+        "addr:street": "27th Street West",
+        "addr:unit": "106",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "outdoor_seating": "no"
+      },
+      "lat": 48.1703749,
+      "lon": -103.6704557
+    },
+    {
+      "type": "node",
+      "id": 12982152446,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "name": "Cold Stone Creamery"
+      },
+      "lat": 46.8589017,
+      "lon": -96.863059
+    }
+  ]
+}

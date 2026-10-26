@@ -1,0 +1,40 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ID",
+    "brand": "taco_del_mar",
+    "source": "https://download.geofabrik.de/north-america/us/idaho-latest.osm.pbf",
+    "source_md5": "1a1a06364d5343af00d67fef4750905f",
+    "processed_utc": "2026-10-24T07:02:45.671077+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6680772977,
+      "tags": {
+        "addr:city": "Eagle",
+        "addr:housenumber": "2976",
+        "addr:postcode": "83616",
+        "addr:state": "ID",
+        "addr:street": "East State Street",
+        "addr:unit": "100",
+        "amenity": "fast_food",
+        "brand": "Taco Del Mar",
+        "brand:wikidata": "Q7673972",
+        "cuisine": "mexican",
+        "name": "Taco Del Mar",
+        "opening_hours": "Mo-Fr 09:00-22:00; Sa-Su 10:00-21:30",
+        "takeaway": "yes"
+      },
+      "lat": 43.6841461,
+      "lon": -116.317786
+    }
+  ]
+}

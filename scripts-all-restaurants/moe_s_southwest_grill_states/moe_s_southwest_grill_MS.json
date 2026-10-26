@@ -1,0 +1,112 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "moe_s_southwest_grill",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2179178129,
+      "tags": {
+        "addr:city": "Perry Mini Mall",
+        "addr:housenumber": "85",
+        "addr:state": "MS",
+        "addr:street": "Old Main Street",
+        "amenity": "fast_food",
+        "branch": "MSU Perry Mini-Mall",
+        "brand": "Moe's Southwest Grill",
+        "brand:wikidata": "Q6889938",
+        "cuisine": "mexican",
+        "indoor_seating": "yes",
+        "name": "Moe's Southwest Grill",
+        "opening_hours": "Mo-Th 10:30-21:00; Sa off; Fr 10:30-20:00; Su 12:00-21:00",
+        "outdoor_seating": "no",
+        "phone": "+1 662-325-7120",
+        "short_name": "Moe's",
+        "takeaway": "yes",
+        "website": "https://locations.moes.com/ms/mississippi-state/85-old-main-street"
+      },
+      "lat": 33.4549815,
+      "lon": -88.7909273
+    },
+    {
+      "type": "node",
+      "id": 5104264388,
+      "tags": {
+        "addr:city": "Moss Point",
+        "addr:housenumber": "6705",
+        "addr:postcode": "39563",
+        "addr:state": "MS",
+        "addr:street": "MS 63",
+        "amenity": "fast_food",
+        "branch": "Moss Point",
+        "brand": "Moe's Southwest Grill",
+        "brand:wikidata": "Q6889938",
+        "cuisine": "mexican",
+        "name": "Moe's Southwest Grill",
+        "opening_hours": "08:00-23:00",
+        "phone": "+1 228-474-6544",
+        "short_name": "Moe's",
+        "takeaway": "yes",
+        "website": "https://locations.moes.com/ms/moss-point/6705-hwy-63"
+      },
+      "lat": 30.4382686,
+      "lon": -88.528735
+    },
+    {
+      "type": "node",
+      "id": 13372731809,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Moe's Southwest Grill",
+        "brand:wikidata": "Q6889938",
+        "cuisine": "mexican",
+        "name": "Moe's Southwest Grill",
+        "short_name": "Moe's",
+        "takeaway": "yes"
+      },
+      "lat": 32.3564332,
+      "lon": -90.1489343
+    },
+    {
+      "type": "way",
+      "id": 660698518,
+      "tags": {
+        "addr:city": "D'Iberville",
+        "addr:housenumber": "3920",
+        "addr:postcode": "39532",
+        "addr:state": "MS",
+        "addr:street": "Promenade Parkway",
+        "addr:unit": "E",
+        "amenity": "fast_food",
+        "branch": "Promenade Parkway",
+        "brand": "Moe's Southwest Grill",
+        "brand:wikidata": "Q6889938",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Moe's Southwest Grill",
+        "opening_hours": "Mo-Sa 10:30-21:00; Su 10:30-20:00",
+        "phone": "+1 228-392-4483",
+        "short_name": "Moe's",
+        "source": "bing",
+        "takeaway": "yes",
+        "website": "https://locations.moes.com/ms/diberville/3920-promenade-parkway"
+      },
+      "center": {
+        "lat": 30.457408450000003,
+        "lon": -88.9027802
+      }
+    }
+  ]
+}

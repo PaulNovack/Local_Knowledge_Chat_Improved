@@ -1,0 +1,74 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "ben_jerry_s",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 631845194,
+      "tags": {
+        "addr:city": "Denver",
+        "addr:housenumber": "2339",
+        "addr:postcode": "80210",
+        "addr:state": "CO",
+        "addr:street": "East Evans Avenue",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "check_date": "2026-06-06",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's",
+        "opening_hours": "Mo-Th,Su 12:00-23:00; Fr-Sa 12:00-24:00",
+        "outdoor_seating": "sidewalk",
+        "outdoor_seating:comfort": "stool",
+        "phone": "+1-303-733-8878",
+        "weather_protection": "no",
+        "website": "https://www.benjerry.com/uofdenver"
+      },
+      "lat": 39.6786182,
+      "lon": -104.9597571
+    },
+    {
+      "type": "node",
+      "id": 1087811696,
+      "tags": {
+        "addr:housenumber": "1203",
+        "addr:street": "Pearl Street Mall",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "check_date": "2026-09-06",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's",
+        "opening_hours": "Su-Th 11:00-20:30;Fr-Sa 11:00-21:00"
+      },
+      "lat": 40.018059,
+      "lon": -105.2798578
+    },
+    {
+      "type": "node",
+      "id": 4286358193,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's"
+      },
+      "lat": 39.8540725,
+      "lon": -104.67348
+    }
+  ]
+}

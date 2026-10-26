@@ -1,0 +1,58 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "tgi_fridays",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 208768481,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "TGI Fridays",
+        "website": "https://locations.tgifridays.com/ct/hamden/2335-dixwell-ave.html"
+      },
+      "center": {
+        "lat": 41.37292675,
+        "lon": -72.91633939999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 851942153,
+      "tags": {
+        "addr:city": "Manchester",
+        "addr:housenumber": "209",
+        "addr:postcode": "06042",
+        "addr:state": "CT",
+        "addr:street": "Hale Road",
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "TGI Fridays",
+        "website": "https://locations.tgifridays.com/ct/manchester/209-hale-rd.html"
+      },
+      "center": {
+        "lat": 41.8103215,
+        "lon": -72.53386024999998
+      }
+    }
+  ]
+}

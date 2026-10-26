@@ -1,0 +1,82 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "godfather_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5733375347,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "changing_table": "no",
+        "cuisine": "pizza",
+        "indoor_seating": "yes",
+        "name": "Godfather's Pizza",
+        "opening_hours": "Su-Th 11:00-21:00; Fr,Sa 11:00-22:00",
+        "outdoor_seating": "no",
+        "wheelchair": "yes"
+      },
+      "lat": 47.1145033,
+      "lon": -122.4341834
+    },
+    {
+      "type": "way",
+      "id": 56959412,
+      "tags": {
+        "addr:city": "Wenatchee",
+        "addr:housename": "Godfather's Pizza",
+        "addr:housenumber": "1014",
+        "addr:postcode": "98801",
+        "addr:state": "WA",
+        "addr:street": "North Wenatchee Avenue",
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "building": "commercial",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza",
+        "source": "esri_USDOT_RiverCom911_WA;knowledge;yahoo_wms"
+      },
+      "center": {
+        "lat": 47.43675345,
+        "lon": -120.32176425
+      }
+    },
+    {
+      "type": "way",
+      "id": 58057059,
+      "tags": {
+        "addr:city": "Federal Way",
+        "addr:housenumber": "2301",
+        "addr:postcode": "98023",
+        "addr:state": "WA",
+        "addr:street": "Southwest 336th Street",
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza"
+      },
+      "center": {
+        "lat": 47.30044605,
+        "lon": -122.36323345
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "pizza_factory",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 870064564,
+      "tags": {
+        "addr:housenumber": "2",
+        "addr:postcode": "84770",
+        "addr:street": "West Saint George Boulevard",
+        "amenity": "restaurant",
+        "brand": "Pizza Factory",
+        "brand:wikidata": "Q39054369",
+        "cuisine": "pizza",
+        "name": "Pizza Factory",
+        "website": "https://stgeorgepizzafactory.com/pasta-factory-st-george/"
+      },
+      "lat": 37.1104981,
+      "lon": -113.5837422
+    },
+    {
+      "type": "node",
+      "id": 1074112643,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Factory",
+        "brand:wikidata": "Q39054369",
+        "cuisine": "pizza",
+        "name": "Pizza Factory",
+        "source": "Local Knowledge"
+      },
+      "lat": 37.1234835,
+      "lon": -113.5324705
+    },
+    {
+      "type": "way",
+      "id": 507630271,
+      "tags": {
+        "addr:city": "Cedar City",
+        "addr:housenumber": "131 S",
+        "addr:postcode": "84720",
+        "addr:state": "UT",
+        "addr:street": "Main Street",
+        "amenity": "restaurant",
+        "brand": "Pizza Factory",
+        "brand:wikidata": "Q39054369",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Factory",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 37.6752997,
+        "lon": -113.06140385000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1006433868,
+      "tags": {
+        "addr:city": "Lindon",
+        "addr:housenumber": "291",
+        "addr:postcode": "84042",
+        "addr:state": "UT",
+        "addr:street": "West 400 North",
+        "amenity": "restaurant",
+        "brand": "Pizza Factory",
+        "brand:wikidata": "Q39054369",
+        "cuisine": "pizza",
+        "name": "Pizza Factory",
+        "source": "local_knowledge"
+      },
+      "center": {
+        "lat": 40.3445572,
+        "lon": -111.72225135000002
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "the_original_pancake_house",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 474123663,
+      "tags": {
+        "addr:city": "Bethesda",
+        "addr:housenumber": "7700",
+        "addr:postcode": "20814",
+        "addr:state": "MD",
+        "addr:street": "Wisconsin Avenue",
+        "addr:unit": "D",
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "cuisine": "breakfast;pancake",
+        "layer": "1",
+        "name": "The Original Pancake House",
+        "note": "Entrance is in \"Bethesda Place\" plaza"
+      },
+      "lat": 38.9866468,
+      "lon": -77.0955539
+    },
+    {
+      "type": "node",
+      "id": 5246112122,
+      "tags": {
+        "addr:city": "Rockville",
+        "addr:housenumber": "12224",
+        "addr:postcode": "20852",
+        "addr:street": "Rockville Pike",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "check_date": "2024-06-19",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House",
+        "opening_hours": "Mo-Su 07:00-15:00",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 301 468 0886",
+        "website": "https://www.ophrestaurants.com/"
+      },
+      "lat": 39.0556891,
+      "lon": -77.1192985
+    },
+    {
+      "type": "node",
+      "id": 6396073706,
+      "tags": {
+        "addr:city": "Baltimore",
+        "addr:housenumber": "2400",
+        "addr:postcode": "21224",
+        "addr:state": "MD",
+        "addr:street": "Boston Street",
+        "addr:unit": "102A16",
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House",
+        "phone": "+1-443-869-2488",
+        "website": "http://www.loveoph.com/"
+      },
+      "lat": 39.281784,
+      "lon": -76.581488
+    },
+    {
+      "type": "node",
+      "id": 7243076700,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House",
+        "wheelchair": "yes"
+      },
+      "lat": 39.3748458,
+      "lon": -76.4682419
+    }
+  ]
+}

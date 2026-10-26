@@ -1,0 +1,68 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MT",
+    "brand": "famous_dave_s",
+    "source": "https://download.geofabrik.de/north-america/us/montana-latest.osm.pbf",
+    "source_md5": "abfa2e1bfc18f6c00a77776eb9185b11",
+    "processed_utc": "2026-10-24T07:09:10.271084+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11013178339,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "cuisine": "barbecue",
+        "delivery": "no",
+        "name": "Famous Dave's",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "lat": 48.2354931,
+      "lon": -114.3312943
+    },
+    {
+      "type": "way",
+      "id": 559949773,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's"
+      },
+      "center": {
+        "lat": 46.8916017,
+        "lon": -114.03991359999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 844094356,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 45.755838,
+        "lon": -108.58933150000001
+      }
+    }
+  ]
+}

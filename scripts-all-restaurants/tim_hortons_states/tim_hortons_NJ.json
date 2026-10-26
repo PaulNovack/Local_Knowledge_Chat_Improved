@@ -1,0 +1,147 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "tim_hortons",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12322519937,
+      "tags": {
+        "addr:housenumber": "57",
+        "addr:street": "White Horse Pike",
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "check_date": "2026-04-17",
+        "cuisine": "coffee_shop",
+        "name": "Tim Hortons",
+        "opening_hours": "04:00-24:00",
+        "opening_hours:drive_through": "04:00-24:00",
+        "takeaway": "yes",
+        "website": "https://locations.timhortons.com/en/nj/stratford/57-white-horse-pike/"
+      },
+      "lat": 39.8311973,
+      "lon": -75.0018593
+    },
+    {
+      "type": "node",
+      "id": 13081827808,
+      "tags": {
+        "addr:city": "Cinnaminson",
+        "addr:housenumber": "2701",
+        "addr:postcode": "08077",
+        "addr:state": "NJ",
+        "addr:unit": "B",
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "check_date": "2026-05-01",
+        "cuisine": "coffee_shop",
+        "name": "Tim Hortons",
+        "opening_hours": "05:00-24:00",
+        "opening_hours:drive_through": "05:00-24:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 856-829-1700",
+        "takeaway": "yes",
+        "website": "https://locations.timhortons.com/en/nj/cinnaminson/2701-us-130/"
+      },
+      "lat": 40.0086656,
+      "lon": -74.9717822
+    },
+    {
+      "type": "node",
+      "id": 13481090470,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Lanes Mill Road",
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "cuisine": "coffee_shop",
+        "name": "Tim Hortons",
+        "start_date": "2026-01-24",
+        "takeaway": "yes"
+      },
+      "lat": 40.0971162,
+      "lon": -74.1436931
+    },
+    {
+      "type": "node",
+      "id": 13726499659,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "cuisine": "coffee_shop",
+        "name": "Tim Hortons",
+        "takeaway": "yes"
+      },
+      "lat": 40.5913796,
+      "lon": -74.322904
+    },
+    {
+      "type": "way",
+      "id": 587689546,
+      "tags": {
+        "addr:city": "Raritan",
+        "addr:housenumber": "223",
+        "addr:postcode": "08869",
+        "addr:state": "NJ",
+        "addr:street": "West End Avenue",
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Tim Hortons",
+        "opening_hours": "Mo-We 06:00-22:00; Fr-Su 06:00-22:00",
+        "phone": "+1-908-231-8000",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.5749117,
+        "lon": -74.62786259999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 951857984,
+      "tags": {
+        "addr:city": "Lacey Township",
+        "addr:housenumber": "245",
+        "addr:postcode": "08731",
+        "addr:state": "NJ",
+        "addr:street": "North Main Street",
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "Tim Hortons",
+        "source": "esri_USDOT_NewJersey",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.8469177,
+        "lon": -74.18531925000002
+      }
+    }
+  ]
+}

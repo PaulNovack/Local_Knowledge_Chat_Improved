@@ -1,0 +1,133 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "LA",
+    "brand": "denny_s",
+    "source": "https://download.geofabrik.de/north-america/us/louisiana-latest.osm.pbf",
+    "source_md5": "2e108953505ee82f68e2a6e7a3e4f783",
+    "processed_utc": "2026-10-24T07:05:17.318731+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2170264967,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "lat": 32.4446833,
+      "lon": -93.9798268
+    },
+    {
+      "type": "node",
+      "id": 11630690382,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "lat": 30.1976554,
+      "lon": -93.2296751
+    },
+    {
+      "type": "way",
+      "id": 712572972,
+      "tags": {
+        "addr:city": "Metairie",
+        "addr:housenumber": "5910",
+        "addr:postcode": "70003",
+        "addr:street": "Veterans Memorial Boulevard",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "center": {
+        "lat": 30.0051304,
+        "lon": -90.20614850000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 977686675,
+      "tags": {
+        "addr:city": "Bossier City",
+        "addr:housenumber": "1832",
+        "addr:postcode": "71111",
+        "addr:state": "LA",
+        "addr:street": "Old Minden Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "center": {
+        "lat": 32.51598104999999,
+        "lon": -93.71431684999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 977727053,
+      "tags": {
+        "addr:city": "Shreveport",
+        "addr:housenumber": "9080",
+        "addr:postcode": "71118",
+        "addr:state": "LA",
+        "addr:street": "Mansfield Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "center": {
+        "lat": 32.40880935,
+        "lon": -93.79887444999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1565289044,
+      "tags": {
+        "addr:city": "West Monroe",
+        "addr:housenumber": "151",
+        "addr:postcode": "71291",
+        "addr:state": "LA",
+        "addr:street": "Well Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "diet:breakfast": "yes",
+        "diet:burger": "yes",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "phone": "+13184601030",
+        "website": "https://locations.dennys.com/LA/WEST-MONROE/249516"
+      },
+      "center": {
+        "lat": 32.51416725,
+        "lon": -92.1914309
+      }
+    }
+  ]
+}

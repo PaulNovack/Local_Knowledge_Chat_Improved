@@ -1,0 +1,86 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "chuck_e_cheese",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 883241786,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/ok/oklahomacity/6817-nw-expressway"
+      },
+      "lat": 35.5573152,
+      "lon": -97.6347256
+    },
+    {
+      "type": "node",
+      "id": 11965426737,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "check_date": "2022-09-10",
+        "cuisine": "pizza",
+        "entrance": "shop",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese"
+      },
+      "lat": 36.0599723,
+      "lon": -95.8868802
+    },
+    {
+      "type": "node",
+      "id": 12454427017,
+      "tags": {
+        "addr:city": "Lawton",
+        "addr:housenumber": "1726",
+        "addr:postcode": "73505",
+        "addr:street": "Northwest 82nd Street",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese"
+      },
+      "lat": 34.626367,
+      "lon": -98.4951526
+    },
+    {
+      "type": "way",
+      "id": 852553400,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "yes",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/ok/norman/2201-interstate-dr."
+      },
+      "center": {
+        "lat": 35.2455714,
+        "lon": -97.48427534999996
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SD",
+    "brand": "ihop",
+    "source": "https://download.geofabrik.de/north-america/us/south-dakota-latest.osm.pbf",
+    "source_md5": "4d012b130d8682e6f0e1bc093c255981",
+    "processed_utc": "2026-10-24T07:16:00.169778+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 254754203,
+      "tags": {
+        "addr:city": "Rapid City",
+        "addr:housenumber": "550",
+        "addr:postcode": "57701",
+        "addr:street": "Disk Drive",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 44.108182400000004,
+        "lon": -103.22284230000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 305036507,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 43.51531025,
+        "lon": -96.78241494999997
+      }
+    }
+  ]
+}

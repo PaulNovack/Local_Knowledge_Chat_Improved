@@ -1,0 +1,55 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "blaze_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5898048511,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza"
+      },
+      "lat": 34.7934582,
+      "lon": -92.4015316
+    },
+    {
+      "type": "node",
+      "id": 6298854988,
+      "tags": {
+        "addr:city": "Conway",
+        "addr:housenumber": "455",
+        "addr:postcode": "72032",
+        "addr:state": "AR",
+        "addr:street": "Elsinger Boulevard",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "check_date": "2026-05-08",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza",
+        "opening_hours": "Mo-Th 10:30-21:00; Fr-Su 10:30-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 501-764-9051",
+        "website": "https://blazepizza.com"
+      },
+      "lat": 35.0853843,
+      "lon": -92.4142215
+    }
+  ]
+}

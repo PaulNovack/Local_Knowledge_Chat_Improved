@@ -1,0 +1,66 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AK",
+    "brand": "wingstop",
+    "source": "https://download.geofabrik.de/north-america/us/alaska-latest.osm.pbf",
+    "source_md5": "55281fca0391ab2c26b0d99fd6a6f5f8",
+    "processed_utc": "2026-10-24T06:56:26.590469+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9704301635,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wingstop",
+        "brand:wikidata": "Q8025339",
+        "cuisine": "wings",
+        "name": "Wingstop",
+        "takeaway": "yes"
+      },
+      "lat": 61.5780426,
+      "lon": -149.4099026
+    },
+    {
+      "type": "node",
+      "id": 10802089187,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wing Stop",
+        "cuisine": "chicken"
+      },
+      "lat": 61.1950487,
+      "lon": -149.9181414
+    },
+    {
+      "type": "way",
+      "id": 554605834,
+      "tags": {
+        "addr:city": "Anchorage",
+        "addr:housenumber": "1254",
+        "addr:postcode": "99504",
+        "addr:state": "AK",
+        "addr:street": "Muldoon Road",
+        "amenity": "fast_food",
+        "brand": "Wingstop",
+        "brand:wikidata": "Q8025339",
+        "building": "yes",
+        "cuisine": "wings",
+        "name": "Wingstop",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 61.2099883,
+        "lon": -149.73436500000003
+      }
+    }
+  ]
+}

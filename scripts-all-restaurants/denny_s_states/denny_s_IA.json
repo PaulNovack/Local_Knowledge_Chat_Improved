@@ -1,0 +1,86 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IA",
+    "brand": "denny_s",
+    "source": "https://download.geofabrik.de/north-america/us/iowa-latest.osm.pbf",
+    "source_md5": "67edcd557c575ead09c9f80bc8694526",
+    "processed_utc": "2026-10-24T07:04:05.270534+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1219348099,
+      "tags": {
+        "addr:city": "Clive",
+        "addr:housenumber": "11820",
+        "addr:postcode": "50325",
+        "addr:state": "IA",
+        "addr:street": "Hickman Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "Mo,Sa,Su 08:00-20:00; Tu,We 09:00-20:00; Th,Fr 07:00-22:00",
+        "phone": "+1 515-331-0249",
+        "website": "https://locations.dennys.com/IA/CLIVE/248669"
+      },
+      "lat": 41.6135494,
+      "lon": -93.7809703
+    },
+    {
+      "type": "node",
+      "id": 6582656807,
+      "tags": {
+        "addr:city": "Davenport",
+        "addr:housenumber": "8200",
+        "addr:postcode": "52806",
+        "addr:state": "IA",
+        "addr:street": "Northwest Boulevard",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "check_date": "2024-08-20",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "phone": "+1 563-388-6411",
+        "takeaway": "yes",
+        "website": "https://locations.dennys.com/IA/DAVENPORT/248691"
+      },
+      "lat": 41.6029636,
+      "lon": -90.6247604
+    },
+    {
+      "type": "node",
+      "id": 9949964793,
+      "tags": {
+        "addr:city": "Brooklyn",
+        "addr:housenumber": "4175",
+        "addr:postcode": "52211",
+        "addr:state": "IA",
+        "addr:street": "Highway 21",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "check_date": "2024-08-22",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "phone": "+1 319-685-6270",
+        "takeaway": "yes",
+        "website": "https://locations.dennys.com/IA/BROOKLYN/209340"
+      },
+      "lat": 41.6920506,
+      "lon": -92.357029
+    }
+  ]
+}

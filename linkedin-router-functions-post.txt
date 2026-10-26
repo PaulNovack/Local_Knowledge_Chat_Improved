@@ -1,0 +1,26 @@
+A useful AI system does not have to send every question through vector search only for the answer.
+
+I have been building a local knowledge assistant for commercial driver training, and recently added a restaurant location finder. Two examples show why deterministic routing is useful alongside vector search.
+
+CDL-A pre-trip inspection
+
+A driver can ask, “How do I perform step nine of the pre-trip inspection?” The router extracts the step number and looks up the record by its route name and stable numeric key. It does not have to find the exact wording of the question in a vector search first. The same process can return a clear response when the requested step is outside the supported range.
+
+Restaurant location finder
+
+A user can ask, “Where is the nearest Starbucks?” even if the saved example question uses different wording, such as “What is the nearest Starbucks restaurant in my direction of travel?” The route recognizes the closest-or-nearest intent and identifies the restaurant from its imported names. It then uses the user’s recent location and, when available, direction of travel to select a location.
+
+Here is a simplified view of the JSONL records. Each line is its own JSON object:
+
+```jsonl
+{"question":"How do I perform step 9 of the pre-trip inspection?","answer":"Inspection of: Horn or.....","url":"","source":"user_additions","routerFunction":"Pre-trip Text","key":9}
+{"question":"What is the nearest Starbucks restaurant in my direction of travel?","answer":"Find the nearest Starbucks location using the user's current location. Prefer a location in the user's recent direction of travel. If direction is unavailable or no location is ahead, return the nearest overall.","url":"","source":"user_additions","routerFunction":"Closest Restaurant","key":"starbucks"}
+```
+
+`routerFunction` selects the deterministic process. `key` identifies what it should operate on: a step number for `Pre-trip Text`, or a restaurant chain for `Closest Restaurant`.
+
+The important distinction is that semantic vector search is excellent for finding relevant knowledge across varied questions, but it is not always the right mechanism for an exact operation and numbers can be ommited in finding correct answer. When the intent and lookup key are clear, deterministic routing can avoid relying on a vector similarity threshold or an exact match to the saved question. The restaurant matcher tolerates punctuation and spacing variations in imported restaurant names; it is not an unrestricted fuzzy search for arbitrary misspellings.
+
+Combining retrieval with deterministic routes makes the assistant more predictable for tasks that have a specific target, while keeping vector search answers available for broader questions.
+
+#AI #RAG #VectorSearch #CDL #VoiceAI #LocalAI #SoftwareEngineering

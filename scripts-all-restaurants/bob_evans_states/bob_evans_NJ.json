@@ -1,0 +1,40 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "bob_evans",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 30287344,
+      "tags": {
+        "addr:city": "Mount Laurel",
+        "addr:housenumber": "601",
+        "addr:postcode": "08054",
+        "addr:state": "NJ",
+        "addr:street": "Fellowship Road",
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Bob Evans"
+      },
+      "center": {
+        "lat": 39.9311127,
+        "lon": -74.96167600000001
+      }
+    }
+  ]
+}

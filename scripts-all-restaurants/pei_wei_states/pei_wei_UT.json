@@ -1,0 +1,53 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "pei_wei",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2332676896,
+      "tags": {
+        "addr:city": "Sandy",
+        "addr:country": "US",
+        "addr:housenumber": "10373",
+        "addr:postcode": "84070",
+        "addr:state": "UT",
+        "addr:street": "South State Street",
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "check_date": "2024-06-01",
+        "cuisine": "asian",
+        "name": "Pei Wei",
+        "opening_hours": "Mo-Su 11:00-20:30"
+      },
+      "lat": 40.5630649,
+      "lon": -111.890269
+    },
+    {
+      "type": "node",
+      "id": 4839208882,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "cuisine": "asian",
+        "name": "Pei Wei"
+      },
+      "lat": 40.8903002,
+      "lon": -111.8925918
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "LA",
+    "brand": "shoney_s",
+    "source": "https://download.geofabrik.de/north-america/us/louisiana-latest.osm.pbf",
+    "source_md5": "2e108953505ee82f68e2a6e7a3e4f783",
+    "processed_utc": "2026-10-24T07:05:17.318731+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 520151841,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Shoney's",
+        "brand:wikidata": "Q7500392",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Shoney's"
+      },
+      "center": {
+        "lat": 29.9088172,
+        "lon": -90.0554649
+      }
+    },
+    {
+      "type": "way",
+      "id": 520151845,
+      "tags": {
+        "addr:city": "Gretna",
+        "addr:housenumber": "420",
+        "addr:postcode": "70053",
+        "addr:state": "LA",
+        "addr:street": "Westbank Expressway",
+        "amenity": "restaurant",
+        "brand": "Shoney's",
+        "brand:wikidata": "Q7500392",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Shoney's"
+      },
+      "center": {
+        "lat": 29.90936995,
+        "lon": -90.05514205000003
+      }
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "panda_express",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4864859897,
+      "tags": {
+        "addr:city": "Medford",
+        "addr:housenumber": "491",
+        "addr:postcode": "02155",
+        "addr:state": "MA",
+        "addr:street": "Riverside Avenue",
+        "amenity": "fast_food",
+        "branch": "Riverside Avenue & Fellsway",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "level": "0",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Su 10:30-21:30",
+        "phone": "+1 781-321-8012",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/ma/medford/3001"
+      },
+      "lat": 42.4100014,
+      "lon": -71.0865215
+    },
+    {
+      "type": "node",
+      "id": 6005377120,
+      "tags": {
+        "addr:city": "Walpole",
+        "addr:housenumber": "106",
+        "addr:postcode": "02032",
+        "addr:state": "MA",
+        "addr:street": "Boston Providence Highway",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 42.1563371,
+      "lon": -71.2019278
+    },
+    {
+      "type": "node",
+      "id": 12176937757,
+      "tags": {
+        "addr:city": "Boston",
+        "addr:housenumber": "775",
+        "addr:postcode": "02215",
+        "addr:state": "MA",
+        "addr:street": "Commonwealth Avenue",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "BU Guest (unencrypted)",
+        "name": "Panda Express",
+        "note": "Credit or Debit card only if ordering at kiosk; No Panda Rewards; No online ordering.",
+        "opening_hours": "Mo-Th 11:00-20:00; Fr 11:00-19:00; Sa-Su 11:30-19:00",
+        "payment:cash": "yes",
+        "source": "survey",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/ma/boston/1398"
+      },
+      "lat": 42.3507499,
+      "lon": -71.1092657
+    },
+    {
+      "type": "node",
+      "id": 12591608252,
+      "tags": {
+        "addr:city": "Dedham",
+        "addr:housenumber": "166",
+        "addr:postcode": "02026",
+        "addr:state": "MA",
+        "addr:street": "Providence Hwy",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 42.2581071,
+      "lon": -71.1678656
+    },
+    {
+      "type": "way",
+      "id": 651640792,
+      "tags": {
+        "addr:city": "Westwood",
+        "addr:housenumber": "125",
+        "addr:postcode": "02090",
+        "addr:state": "MA",
+        "addr:street": "University Avenue",
+        "amenity": "fast_food",
+        "branch": "University Avenue & Yankee Division Highway",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:30-21:30; Fr 10:00-21:30; Sa-Su 10:30-21:30",
+        "phone": "+1 781-329-0809",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/ma/westwood/2997"
+      },
+      "center": {
+        "lat": 42.20743160000001,
+        "lon": -71.15215039999998
+      }
+    }
+  ]
+}

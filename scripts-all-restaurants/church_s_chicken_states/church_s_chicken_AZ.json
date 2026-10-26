@@ -1,0 +1,906 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "church_s_chicken",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10817022099,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "check_date": "2023-04-16",
+        "cuisine": "chicken",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Church's Chicken",
+        "takeaway": "yes"
+      },
+      "lat": 33.5247474,
+      "lon": -112.1114156
+    },
+    {
+      "type": "node",
+      "id": 11332315380,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "9024",
+        "addr:postcode": "85037",
+        "addr:state": "AZ",
+        "addr:street": "West Thomas Road",
+        "addr:unit": "101",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "cuisine": "chicken",
+        "name": "Church's Chicken",
+        "phone": "+1 623-872-1005",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/phoenix/9024-w-thomas-road"
+      },
+      "lat": 33.481436,
+      "lon": -112.2542531
+    },
+    {
+      "type": "node",
+      "id": 11512574818,
+      "tags": {
+        "addr:city": "Nogales",
+        "addr:housenumber": "546",
+        "addr:postcode": "85621",
+        "addr:state": "AZ",
+        "addr:street": "North Grand Avenue",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "check_date": "2025-08-12",
+        "cuisine": "chicken",
+        "name": "Church's Chicken",
+        "opening_hours": "10:00-22:00",
+        "phone": "+1 520-287-3151",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/nogales/546-n.-grand-avenue"
+      },
+      "lat": 31.341146,
+      "lon": -110.9347101
+    },
+    {
+      "type": "node",
+      "id": 11832092032,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Church's Chicken",
+        "takeaway": "yes"
+      },
+      "lat": 33.3893304,
+      "lon": -112.1344416
+    },
+    {
+      "type": "relation",
+      "id": 21742813,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes;roof",
+        "cuisine": "chicken",
+        "layer": "1",
+        "name": "Church's Chicken",
+        "takeaway": "yes",
+        "type": "multipolygon"
+      },
+      "center": {
+        "lat": 34.58669745,
+        "lon": -112.32286165
+      }
+    },
+    {
+      "type": "way",
+      "id": 62262646,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "12045",
+        "addr:postcode": "85028",
+        "addr:state": "AZ",
+        "addr:street": "North 32nd Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "retail",
+        "cuisine": "chicken",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Church's Chicken",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.5966742,
+        "lon": -112.01271535000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 129289655,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "5901",
+        "addr:postcode": "85033",
+        "addr:state": "AZ",
+        "addr:street": "West Camelback Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Church's Chicken",
+        "phone": "+1 623-846-6001",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/phoenix/5901-w-camelback-road"
+      },
+      "center": {
+        "lat": 33.509209150000004,
+        "lon": -112.18672879999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 129675911,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "3350",
+        "addr:postcode": "85009",
+        "addr:state": "AZ",
+        "addr:street": "West Van Buren Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Church's Chicken",
+        "phone": "+1 602-278-8929",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/phoenix/3350-w-van-buren-street"
+      },
+      "center": {
+        "lat": 33.45183875,
+        "lon": -112.13186089999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 129723429,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "4296",
+        "addr:postcode": "85019",
+        "addr:state": "AZ",
+        "addr:street": "West Thomas Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "chicken",
+        "name": "Church's Chicken",
+        "phone": "+1 602-272-9127",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/phoenix/4296-w-thomas-road"
+      },
+      "center": {
+        "lat": 33.48086955,
+        "lon": -112.15121875
+      }
+    },
+    {
+      "type": "way",
+      "id": 151887263,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "1906",
+        "addr:postcode": "85015",
+        "addr:state": "AZ",
+        "addr:street": "West Camelback Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "check_date": "2022-12-20",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "drive_through": "yes",
+        "internet_access": "no",
+        "name": "Church's Chicken",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr-Sa 10:00-23:00; Su 10:00-22:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 602-242-4386",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/phoenix/1906-w-camelback-road",
+        "wheelchair": "limited"
+      },
+      "center": {
+        "lat": 33.509918850000005,
+        "lon": -112.10050309999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 152922537,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "7451",
+        "addr:postcode": "85033",
+        "addr:state": "AZ",
+        "addr:street": "West Indian School Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Church's Chicken",
+        "phone": "+1 623-846-2069",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/phoenix/7451-w-indian-school-road"
+      },
+      "center": {
+        "lat": 33.494271600000005,
+        "lon": -112.22027789999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 156343277,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "3150",
+        "addr:postcode": "85016",
+        "addr:state": "AZ",
+        "addr:street": "East Thomas Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Church's Chicken",
+        "phone": "+1 602-955-4402",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/phoenix/3150-e-thomas-road"
+      },
+      "center": {
+        "lat": 33.4807456,
+        "lon": -112.01335484999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 156724892,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "6730",
+        "addr:postcode": "85035",
+        "addr:state": "AZ",
+        "addr:street": "West McDowell Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Church's Chicken",
+        "phone": "+1 623-845-0121",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/phoenix/6730-w-mcdowell-road"
+      },
+      "center": {
+        "lat": 33.466233200000005,
+        "lon": -112.20478349999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 160148392,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Church's Chicken",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 31.33953705,
+        "lon": -109.56134559999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 206790888,
+      "tags": {
+        "addr:city": "Winslow",
+        "addr:housenumber": "300",
+        "addr:postcode": "86047",
+        "addr:state": "AZ",
+        "addr:street": "East Second Street",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Church's Chicken",
+        "phone": "+1 928-289-2515",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/winslow/300-e-second-street"
+      },
+      "center": {
+        "lat": 35.0226966,
+        "lon": -110.69563905000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 208618151,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Church's Chicken",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.66228165,
+        "lon": -109.06081660000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 221944263,
+      "tags": {
+        "addr:city": "Glendale",
+        "addr:country": "US",
+        "addr:housenumber": "5505",
+        "addr:postcode": "85301",
+        "addr:state": "AZ",
+        "addr:street": "West Glendale Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "retail",
+        "check_date": "2022-12-20",
+        "cuisine": "chicken",
+        "drive_through": "no",
+        "internet_access": "no",
+        "name": "Church's Chicken",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 623-939-7117",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/glendale/5505-w-glendale-avenue",
+        "wheelchair": "limited"
+      },
+      "center": {
+        "lat": 33.538287600000004,
+        "lon": -112.17764514999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 222962984,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "12040",
+        "addr:postcode": "85029",
+        "addr:state": "AZ",
+        "addr:street": "North 35th Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "retail",
+        "contact:phone": "+1-602-938-8070",
+        "contact:website": "https://www.churchs.com",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Church's Chicken",
+        "opening_hours": "Su-Th 10:00-21:00; Fr-Sa 10:00-22:00 open \"Dining room\"||Su-Th 10:00-22:00; Fr-Sa 10:00-23:00 open \"Drive-thru\"",
+        "ref": "679",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.5960681,
+        "lon": -112.13448925
+      }
+    },
+    {
+      "type": "way",
+      "id": 259183262,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "7444",
+        "addr:postcode": "85041",
+        "addr:state": "AZ",
+        "addr:street": "South Central Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Church's Chicken",
+        "phone": "+1 602-276-3365",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/phoenix/7444-s-central-avenue"
+      },
+      "center": {
+        "lat": 33.37800515000001,
+        "lon": -112.07370805
+      }
+    },
+    {
+      "type": "way",
+      "id": 435602914,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Church's Chicken",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.15688835,
+        "lon": -109.56738989999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 452111723,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "7410",
+        "addr:postcode": "85381",
+        "addr:state": "AZ",
+        "addr:street": "West Cactus Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Church's Chicken",
+        "phone": "+1 623-486-6652",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/peoria/7410-w-cactus-road"
+      },
+      "center": {
+        "lat": 33.596296249999995,
+        "lon": -112.21834335
+      }
+    },
+    {
+      "type": "way",
+      "id": 464642233,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "1840",
+        "addr:postcode": "85029",
+        "addr:state": "AZ",
+        "addr:street": "West Peoria Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "commercial",
+        "contact:website": "https://www.churchs.com",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Church's Chicken",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "opening_hours:url": "https://locations.churchs.com/az/phoenix/1840-w-peoria-ave",
+        "phone": "+1-602-944-1568",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/phoenix/1840-w-peoria-avenue"
+      },
+      "center": {
+        "lat": 33.5824886,
+        "lon": -112.09929925
+      }
+    },
+    {
+      "type": "way",
+      "id": 490549609,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "7090",
+        "addr:postcode": "85730",
+        "addr:state": "AZ",
+        "addr:street": "East Golf Links Road",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Church's Chicken",
+        "phone": "+1 520-790-4801",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/tucson/7090-e-golf-links-road"
+      },
+      "center": {
+        "lat": 32.191401150000004,
+        "lon": -110.84152890000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 561160620,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "1546",
+        "addr:postcode": "85006",
+        "addr:state": "AZ",
+        "addr:street": "East Roosevelt Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "retail",
+        "cuisine": "chicken",
+        "name": "Church's Chicken",
+        "phone": "+1 602-258-0874",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/phoenix/1546-e-roosevelt-street"
+      },
+      "center": {
+        "lat": 33.45898965,
+        "lon": -112.04798010000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 640138647,
+      "tags": {
+        "addr:city": "Casa Grande",
+        "addr:housenumber": "1233",
+        "addr:postcode": "85122",
+        "addr:state": "AZ",
+        "addr:street": "East Florence Boulevard",
+        "alt_name": "Church's Chicken",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Church's Chicken",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+1 520-836-7292",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/casa-grande/1233-e-florence-boulevard"
+      },
+      "center": {
+        "lat": 32.879148650000005,
+        "lon": -111.7343553
+      }
+    },
+    {
+      "type": "way",
+      "id": 662853051,
+      "tags": {
+        "addr:city": "Surprise",
+        "addr:housenumber": "15697",
+        "addr:postcode": "85374",
+        "addr:state": "AZ",
+        "addr:street": "North Reems Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Church's Chicken",
+        "phone": "+1 623-584-1447",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/surprise/15697-n-reems-road"
+      },
+      "center": {
+        "lat": 33.626878149999996,
+        "lon": -112.3934989
+      }
+    },
+    {
+      "type": "way",
+      "id": 717396786,
+      "tags": {
+        "addr:city": "Goodyear",
+        "addr:housenumber": "13554",
+        "addr:postcode": "85338",
+        "addr:state": "AZ",
+        "addr:street": "West Van Buren Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Church's Chicken",
+        "phone": "+1 623-594-9600",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/goodyear/13554-w-van-buren-street"
+      },
+      "center": {
+        "lat": 33.45024065,
+        "lon": -112.35141605000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 827517160,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1151",
+        "addr:postcode": "85210",
+        "addr:state": "AZ",
+        "addr:street": "South Country Club Drive",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Church's Chicken",
+        "phone": "+1 480-833-6069",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/mesa/1151-s-country-club-drive"
+      },
+      "center": {
+        "lat": 33.39385945,
+        "lon": -111.83962674999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 828557716,
+      "tags": {
+        "addr:city": "Chandler",
+        "addr:housenumber": "817",
+        "addr:postcode": "85225",
+        "addr:state": "AZ",
+        "addr:street": "North Arizona Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Church's Chicken",
+        "phone": "+1 480-786-9554",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/chandler/817-n-arizona-avenue"
+      },
+      "center": {
+        "lat": 33.3178493,
+        "lon": -111.8411175
+      }
+    },
+    {
+      "type": "way",
+      "id": 828939128,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "3970",
+        "addr:postcode": "85711",
+        "addr:state": "AZ",
+        "addr:street": "East 22nd Street",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "building:facade:colour": "beige",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Church's Chicken",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+1 520-745-1460",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/tucson/3970-e.-22nd-street",
+        "website:menu": "https://www.churchs.com/location/tucson-east-22nd-street/menu"
+      },
+      "center": {
+        "lat": 32.206660049999996,
+        "lon": -110.90754340000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 883950761,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "3602",
+        "addr:postcode": "85713",
+        "addr:state": "AZ",
+        "addr:street": "South 6th Avenue",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "check_date": "2025-08-24",
+        "cuisine": "chicken",
+        "name": "Church's Chicken",
+        "opening_hours": "10:00-22:00",
+        "phone": "+1 520-628-9001",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/tucson/3602-s.-6th-avenue"
+      },
+      "center": {
+        "lat": 32.1812995,
+        "lon": -110.96866295000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 894031876,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "1704",
+        "addr:postcode": "85713",
+        "addr:state": "AZ",
+        "addr:street": "West Ajo Way",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Church's Chicken",
+        "phone": "+1 520-434-9659",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/tucson/1704-w-ajo-way"
+      },
+      "center": {
+        "lat": 32.1783241,
+        "lon": -111.0016991
+      }
+    },
+    {
+      "type": "way",
+      "id": 926763615,
+      "tags": {
+        "addr:city": "Scottsdale",
+        "addr:housenumber": "7538",
+        "addr:postcode": "85257",
+        "addr:state": "AZ",
+        "addr:street": "East McDowell Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "retail",
+        "cuisine": "chicken",
+        "drive_through": "no",
+        "name": "Church's Chicken",
+        "phone": "+1 480-946-5663",
+        "source": "microsoft/BuildingFootprints;esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/az/scottsdale/7538-e-mcdowell-road"
+      },
+      "center": {
+        "lat": 33.46603,
+        "lon": -111.91783750000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 983069121,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "2242",
+        "addr:postcode": "85040",
+        "addr:state": "AZ",
+        "addr:street": "East Broadway Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Church's Chicken",
+        "source": "microsoft/BuildingFootprints;esri/USA_NAD_Addresses",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.407162,
+        "lon": -112.03247149999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1388424519,
+      "tags": {
+        "addr:city": "Yuma",
+        "addr:housenumber": "2420",
+        "addr:postcode": "85364",
+        "addr:state": "AZ",
+        "addr:street": "South 4th Avenue",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Church's Chicken",
+        "source": "Bing",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.6833551,
+        "lon": -114.62505499999997
+      }
+    }
+  ]
+}

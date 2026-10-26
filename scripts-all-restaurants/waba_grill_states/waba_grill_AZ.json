@@ -1,0 +1,57 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "waba_grill",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9642056803,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "WaBa Grill",
+        "brand:wikidata": "Q113163467",
+        "cuisine": "asian",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "WaBa Grill",
+        "takeaway": "yes"
+      },
+      "lat": 33.434378,
+      "lon": -111.925308
+    },
+    {
+      "type": "node",
+      "id": 11372141796,
+      "tags": {
+        "addr:city": "Avondale",
+        "addr:housenumber": "9915",
+        "addr:postcode": "85392",
+        "addr:state": "AZ",
+        "addr:street": "West Mcdowell Road",
+        "addr:unit": "103",
+        "amenity": "fast_food",
+        "brand": "WaBa Grill",
+        "brand:wikidata": "Q113163467",
+        "cuisine": "asian",
+        "drive_through": "no",
+        "name": "WaBa Grill",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes"
+      },
+      "lat": 33.463962,
+      "lon": -112.2730535
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "cava",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T07:20:37.151586+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 737460217,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "4237",
+        "addr:postcode": "20016",
+        "addr:state": "DC",
+        "addr:street": "Wisconsin Avenue Northwest",
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "cuisine": "mediterranean",
+        "dataset": "ABRA locations",
+        "name": "CAVA",
+        "phone": "+1 202-695-8115",
+        "source": "dcgis",
+        "website": "https://cava.com/locations/tenleytown-dc"
+      },
+      "lat": 38.9443155,
+      "lon": -77.0773611
+    },
+    {
+      "type": "node",
+      "id": 2299978589,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "3105",
+        "addr:postcode": "20010",
+        "addr:state": "DC",
+        "addr:street": "14th Street Northwest",
+        "amenity": "restaurant",
+        "branch": "Columbia Heights",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "check_date": "2025-01-25",
+        "cuisine": "mediterranean",
+        "delivery": "yes",
+        "level": "0",
+        "name": "CAVA",
+        "opening_hours": "10:45-22:00",
+        "outdoor_seating": "no",
+        "phone": "+1-202-695-8100",
+        "smoking": "no",
+        "source": "Survey",
+        "takeaway": "yes",
+        "website": "https://cava.com/locations/columbia-heights-washington-dc",
+        "wheelchair": "yes"
+      },
+      "lat": 38.929388,
+      "lon": -77.032487
+    },
+    {
+      "type": "node",
+      "id": 4579629186,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "1921",
+        "addr:postcode": "20001",
+        "addr:state": "DC",
+        "addr:street": "8th Street Northwest",
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "cuisine": "mediterranean",
+        "delivery": "no",
+        "name": "CAVA",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "lat": 38.9164074,
+      "lon": -77.0225843
+    },
+    {
+      "type": "node",
+      "id": 4835242623,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "1222",
+        "addr:postcode": "20036",
+        "addr:state": "DC",
+        "addr:street": "Connecticut Avenue Northwest",
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "cuisine": "mediterranean",
+        "name": "CAVA",
+        "name:en": "Cava",
+        "phone": "+1 202-370-6636",
+        "website": "https://cava.com/locations/dupont-dc"
+      },
+      "lat": 38.906673,
+      "lon": -77.0420094
+    },
+    {
+      "type": "node",
+      "id": 5241981902,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "50",
+        "addr:postcode": "20002",
+        "addr:state": "DC",
+        "addr:street": "Massachusetts Avenue Northeast",
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "cuisine": "mediterranean",
+        "name": "CAVA",
+        "opening_hours": "Mo-Su 10:45-21:00",
+        "website": "https://cava.com/"
+      },
+      "lat": 38.8974553,
+      "lon": -77.0069852
+    },
+    {
+      "type": "node",
+      "id": 9421357601,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "52",
+        "addr:postcode": "20003",
+        "addr:state": "DC",
+        "addr:street": "M Street Southeast",
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "cuisine": "mediterranean",
+        "name": "CAVA",
+        "phone": "+1 202-536-2522",
+        "website": "https://cava.com/locations/navy-yard-dc"
+      },
+      "lat": 38.8766724,
+      "lon": -77.0072159
+    },
+    {
+      "type": "way",
+      "id": 55324010,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "523",
+        "addr:postcode": "20002",
+        "addr:state": "DC",
+        "addr:street": "H Street Northeast",
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "building": "yes",
+        "check_date": "2025-09-16",
+        "cuisine": "mediterranean",
+        "dcgis:captureyear": "19990331",
+        "dcgis:dataset": "buildings",
+        "dcgis:featurecode": "2000",
+        "drive_through": "no",
+        "name": "CAVA",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+1 202-459-4677",
+        "source": "dcgis",
+        "website": "https://cava.com/locations/h-st-ne-dc"
+      },
+      "center": {
+        "lat": 38.8999752,
+        "lon": -76.99861870000001
+      }
+    }
+  ]
+}

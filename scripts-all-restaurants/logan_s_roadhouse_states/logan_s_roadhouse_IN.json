@@ -1,0 +1,191 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "logan_s_roadhouse",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 462043815,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse"
+      },
+      "lat": 41.628923,
+      "lon": -86.2295919
+    },
+    {
+      "type": "node",
+      "id": 7198200603,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse"
+      },
+      "lat": 41.6990239,
+      "lon": -86.1833333
+    },
+    {
+      "type": "node",
+      "id": 9029841775,
+      "tags": {
+        "addr:city": "Noblesville",
+        "addr:housenumber": "17065",
+        "addr:postcode": "46060",
+        "addr:state": "IN",
+        "addr:street": "Mercantile Boulevard",
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse"
+      },
+      "lat": 40.0367705,
+      "lon": -85.9943551
+    },
+    {
+      "type": "relation",
+      "id": 13532709,
+      "tags": {
+        "addr:city": "Fort Wayne",
+        "addr:housenumber": "1210",
+        "addr:postcode": "46804",
+        "addr:street": "South Illinois Road",
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "building": "yes",
+        "cuisine": "american",
+        "diet:vegetarian": "yes",
+        "name": "Logan's Roadhouse",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "toilets": "yes",
+        "toilets:access": "yes",
+        "type": "multipolygon"
+      },
+      "center": {
+        "lat": 41.073878949999994,
+        "lon": -85.19733815000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 244979536,
+      "tags": {
+        "addr:city": "Plainfield",
+        "addr:housenumber": "351",
+        "addr:postcode": "46168",
+        "addr:state": "IN",
+        "addr:street": "Perry Road",
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse"
+      },
+      "center": {
+        "lat": 39.7144736,
+        "lon": -86.35450115000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 314568143,
+      "tags": {
+        "addr:city": "Fort Wayne",
+        "addr:state": "IN",
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "building": "yes",
+        "cuisine": "american",
+        "diet:vegetarian": "yes",
+        "name": "Logan's Roadhouse",
+        "opening_hours": "Su-Th 11:00-22:00; Fr,Sa 11:00-23:00"
+      },
+      "center": {
+        "lat": 41.140124549999996,
+        "lon": -85.16350684999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 350933337,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "building": "yes",
+        "cuisine": "american",
+        "delivery": "no",
+        "name": "Logan's Roadhouse",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 37.9773684,
+        "lon": -87.47327355000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 350935743,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "building": "retail",
+        "cuisine": "american",
+        "delivery": "no",
+        "name": "Logan's Roadhouse",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 37.974231,
+        "lon": -87.6447296
+      }
+    },
+    {
+      "type": "way",
+      "id": 724476113,
+      "tags": {
+        "addr:city": "Terre Haute",
+        "addr:housenumber": "100",
+        "addr:postcode": "47803",
+        "addr:state": "IN",
+        "addr:street": "South Fruitridge Avenue",
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse",
+        "opening_hours": "Mo-Th 11:00-20:30, Fr 11:00-21:00, Sa 11:30-21:00, Su 11:30-20:00",
+        "phone": "+1-812-235-9197",
+        "website": "https://www.logansribeye.net/"
+      },
+      "center": {
+        "lat": 39.47316305,
+        "lon": -87.35961924999998
+      }
+    }
+  ]
+}

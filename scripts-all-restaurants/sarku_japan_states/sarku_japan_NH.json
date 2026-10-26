@@ -1,0 +1,65 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NH",
+    "brand": "sarku_japan",
+    "source": "https://download.geofabrik.de/north-america/us/new-hampshire-latest.osm.pbf",
+    "source_md5": "603b90470df09c1b933955cbfe841c6d",
+    "processed_utc": "2026-10-24T07:09:51.168561+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4305086559,
+      "tags": {
+        "addr:city": "Nashua",
+        "addr:housenumber": "310",
+        "addr:postcode": "03060",
+        "addr:state": "NH",
+        "addr:street": "Daniel Webster Highway",
+        "addr:unit": "155",
+        "amenity": "fast_food",
+        "brand": "Sarku Japan",
+        "brand:wikidata": "Q7424243",
+        "cuisine": "japanese",
+        "level": "0",
+        "name": "Sarku Japan",
+        "opening_hours": "Mo-Th 10:00-20:00; Fr-Sa 10:00-21:00; Su 11:00-18:00",
+        "phone": "+1-603-897-0888",
+        "takeaway": "yes",
+        "website": "https://www.sarkujapan.com/"
+      },
+      "lat": 42.7009211,
+      "lon": -71.4364439
+    },
+    {
+      "type": "way",
+      "id": 230522203,
+      "tags": {
+        "addr:city": "Manchester",
+        "addr:housenumber": "1500",
+        "addr:postcode": "03103",
+        "addr:street": "South Willow Street",
+        "amenity": "fast_food",
+        "brand": "Sarku Japan",
+        "brand:wikidata": "Q7424243",
+        "cuisine": "japanese",
+        "indoor": "room",
+        "name": "Sarku Japan",
+        "takeaway": "yes",
+        "website": "https://www.sarkujapan.com/"
+      },
+      "center": {
+        "lat": 42.956848050000005,
+        "lon": -71.4316943
+      }
+    }
+  ]
+}

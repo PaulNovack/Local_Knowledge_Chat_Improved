@@ -1,0 +1,83 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NM",
+    "brand": "red_robin",
+    "source": "https://download.geofabrik.de/north-america/us/new-mexico-latest.osm.pbf",
+    "source_md5": "5e236c0e9dd59b2df560a9316c86a745",
+    "processed_utc": "2026-10-24T07:10:42.593170+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 173540179,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews"
+      },
+      "center": {
+        "lat": 35.141905449999996,
+        "lon": -106.5997011
+      }
+    },
+    {
+      "type": "way",
+      "id": 516284970,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "2100",
+        "addr:postcode": "87110",
+        "addr:state": "NM",
+        "addr:street": "Louisiana Boulevard Northeast",
+        "addr:unit": "217",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews",
+        "opening_hours": "Su-Th 11:00-22:00, Fr-Sa 11:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-505-225-8597",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 35.098983649999994,
+        "lon": -106.56734095000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1123053846,
+      "tags": {
+        "addr:housenumber": "10009",
+        "addr:street": "Coors Boulevard Northwest",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 35.1945038,
+        "lon": -106.65484530000003
+      }
+    }
+  ]
+}

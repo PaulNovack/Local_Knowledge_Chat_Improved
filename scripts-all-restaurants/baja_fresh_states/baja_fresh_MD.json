@@ -1,0 +1,91 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "baja_fresh",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1740246540,
+      "tags": {
+        "addr:city": "Lutherville",
+        "addr:country": "US",
+        "addr:housenumber": "2080",
+        "addr:postcode": "21093",
+        "addr:state": "MD",
+        "addr:street": "York Road",
+        "addr:unit": "150",
+        "amenity": "fast_food",
+        "brand": "Baja Fresh",
+        "brand:wikidata": "Q2880019",
+        "check_date": "2023-08-09",
+        "cuisine": "mexican",
+        "level": "0",
+        "name": "Baja Fresh",
+        "official_name": "Baja Fresh Mexican Grill",
+        "phone": "+1-410-561-1050",
+        "takeaway": "yes",
+        "website": "https://www.bajafresh.com/stores/mexican-food-timonium/30401"
+      },
+      "lat": 39.4399,
+      "lon": -76.627182
+    },
+    {
+      "type": "node",
+      "id": 2725911033,
+      "tags": {
+        "addr:city": "Hanover",
+        "addr:country": "US",
+        "addr:housenumber": "7645",
+        "addr:postcode": "21076",
+        "addr:state": "MD",
+        "addr:street": "Arundel Mills Boulevard",
+        "addr:unit": "140",
+        "amenity": "fast_food",
+        "brand": "Baja Fresh",
+        "brand:wikidata": "Q2880019",
+        "cuisine": "mexican",
+        "entrance": "yes",
+        "name": "Baja Fresh",
+        "official_name": "Baja Fresh Mexican Grill",
+        "phone": "+1-443-755-0485",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 39.1520199,
+      "lon": -76.7240784
+    },
+    {
+      "type": "node",
+      "id": 12705870501,
+      "tags": {
+        "addr:city": "Rockville",
+        "addr:housenumber": "302",
+        "addr:postcode": "20850",
+        "addr:state": "MD",
+        "addr:street": "King Farm Boulevard",
+        "addr:unit": "150",
+        "amenity": "fast_food",
+        "brand": "Baja Fresh",
+        "brand:wikidata": "Q2880019",
+        "cuisine": "mexican",
+        "name": "Baja Fresh",
+        "official_name": "Baja Fresh Mexican Grill",
+        "takeaway": "yes"
+      },
+      "lat": 39.1146518,
+      "lon": -77.1707867
+    }
+  ]
+}

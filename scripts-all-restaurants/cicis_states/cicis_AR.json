@@ -1,0 +1,108 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "cicis",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1127493067,
+      "tags": {
+        "addr:city": "Rogers",
+        "addr:country": "US",
+        "addr:full": "3604 West Walnut Street",
+        "addr:housenumber": "3604",
+        "addr:postcode": "72756",
+        "addr:state": "AR",
+        "addr:street": "West Walnut Street",
+        "amenity": "restaurant",
+        "brand": "Cicis",
+        "brand:wikidata": "Q2972189",
+        "cuisine": "pizza;buffet",
+        "name": "Cicis",
+        "phone": "+1-479-636-7437",
+        "source": "http://www.damgoodepies.com/"
+      },
+      "lat": 36.3341589,
+      "lon": -94.1689597
+    },
+    {
+      "type": "node",
+      "id": 13120165727,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cicis",
+        "brand:wikidata": "Q2972189",
+        "cuisine": "pizza;buffet",
+        "name": "Cicis"
+      },
+      "lat": 36.1227799,
+      "lon": -94.1486556
+    },
+    {
+      "type": "way",
+      "id": 592504503,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cicis",
+        "brand:wikidata": "Q2972189",
+        "building": "yes",
+        "cuisine": "pizza;buffet",
+        "name": "Cicis"
+      },
+      "center": {
+        "lat": 35.34973585,
+        "lon": -94.33725005000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 807650768,
+      "tags": {
+        "addr:city": "Russellville",
+        "addr:housenumber": "2507",
+        "addr:postcode": "72802",
+        "addr:state": "AR",
+        "addr:street": "East Parkway Drive",
+        "amenity": "restaurant",
+        "brand": "Cicis",
+        "brand:wikidata": "Q2972189",
+        "building": "yes",
+        "check_date": "2026-07-20",
+        "cuisine": "pizza;buffet",
+        "name": "Cicis"
+      },
+      "center": {
+        "lat": 35.28298355,
+        "lon": -93.10396064999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 918407973,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cicis",
+        "brand:wikidata": "Q2972189",
+        "building": "yes",
+        "cuisine": "pizza;buffet",
+        "name": "Cicis"
+      },
+      "center": {
+        "lat": 34.796575399999995,
+        "lon": -92.23055714999998
+      }
+    }
+  ]
+}

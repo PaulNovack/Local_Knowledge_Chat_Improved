@@ -1,0 +1,76 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "bonefish_grill",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1732554208,
+      "tags": {
+        "addr:city": "Fayetteville",
+        "addr:country": "US",
+        "addr:housenumber": "600",
+        "addr:postcode": "13066",
+        "addr:state": "NY",
+        "addr:street": "Towne Drive",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill",
+        "opening_hours": "Mo-Th 11:00-22:30; Fr-Sa 11:00-23:30; Su 10:00-22:00",
+        "phone": "+1-315-637-0491",
+        "website": "https://www.bonefishgrill.com/locations/ny/fayetteville"
+      },
+      "lat": 43.0340074,
+      "lon": -76.019067
+    },
+    {
+      "type": "node",
+      "id": 3725120432,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "lat": 40.864349,
+      "lon": -73.1315004
+    },
+    {
+      "type": "way",
+      "id": 551371169,
+      "tags": {
+        "addr:city": "Rockville Centre",
+        "addr:housenumber": "340",
+        "addr:postcode": "11570",
+        "addr:state": "NY",
+        "addr:street": "Sunrise Highway",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill",
+        "nysgissam:nysaddresspointid": "NASS217231"
+      },
+      "center": {
+        "lat": 40.6568406,
+        "lon": -73.64166890000001
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CA",
+    "brand": "tropical_smoothie_cafe",
+    "source": "https://download.geofabrik.de/north-america/us/california-latest.osm.pbf",
+    "source_md5": "26040c163edb7a5f630164ee55d5afda",
+    "processed_utc": "2026-10-24T06:59:04.829226+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6224450080,
+      "tags": {
+        "addr:city": "Pinole",
+        "addr:housenumber": "1424",
+        "addr:postcode": "94564",
+        "addr:state": "CA",
+        "addr:street": "Pinole Valley Rd",
+        "amenity": "fast_food",
+        "brand": "Tropical Smoothie Cafe",
+        "brand:wikidata": "Q7845817",
+        "cuisine": "juice",
+        "name": "Tropical Smoothie Cafe",
+        "phone": "+1-510-417-2245",
+        "takeaway": "yes",
+        "website": "https://www.tropicalsmoothiecafe.com/"
+      },
+      "lat": 37.9982966,
+      "lon": -122.287373
+    },
+    {
+      "type": "node",
+      "id": 8989613037,
+      "tags": {
+        "addr:city": "Rancho Cucamonga",
+        "addr:housenumber": "12799",
+        "addr:postcode": "91739",
+        "addr:state": "CA",
+        "addr:street": "Foothill Boulevard",
+        "amenity": "fast_food",
+        "brand": "Tropical Smoothie Cafe",
+        "brand:wikidata": "Q7845817",
+        "cuisine": "juice",
+        "name": "Tropical Smoothie Cafe",
+        "takeaway": "yes",
+        "website": "https://locations.tropicalsmoothiecafe.com/ca/rancho-cucamonga/12799-e-foothill-blvd"
+      },
+      "lat": 34.1049516,
+      "lon": -117.5260111
+    },
+    {
+      "type": "way",
+      "id": 1064429779,
+      "tags": {
+        "addr:city": "Fountain Valley",
+        "addr:housenumber": "9480",
+        "addr:postcode": "92708",
+        "addr:state": "CA",
+        "addr:street": "Talbert Avenue",
+        "amenity": "cafe",
+        "building": "yes",
+        "height": "4.27",
+        "name": "Tropical Smoothie Cafe",
+        "source": "esri/Orange_County_CA_Buildings_v2"
+      },
+      "center": {
+        "lat": 33.70139725,
+        "lon": -117.96333190000001
+      }
+    }
+  ]
+}

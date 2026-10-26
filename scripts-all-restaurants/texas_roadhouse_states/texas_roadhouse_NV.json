@@ -1,0 +1,63 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "texas_roadhouse",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1155116901,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "1421",
+        "addr:postcode": "89014",
+        "addr:state": "NV",
+        "addr:street": "West Sunset Road",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "commercial",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "phone": "+1 702-846-5970"
+      },
+      "center": {
+        "lat": 36.06325645,
+        "lon": -115.04759969999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1344408125,
+      "tags": {
+        "addr:city": "North Las Vegas",
+        "addr:housenumber": "1380",
+        "addr:postcode": "89030",
+        "addr:state": "NV",
+        "addr:street": "East Craig Road",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 36.2403449,
+        "lon": -115.12483420000001
+      }
+    }
+  ]
+}

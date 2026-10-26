@@ -1,0 +1,71 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "the_old_spaghetti_factory",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2328430855,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:country": "US",
+        "addr:housenumber": "602",
+        "addr:postcode": "84102",
+        "addr:state": "UT",
+        "addr:street": "East 500 South",
+        "addr:unit": "D245",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "The Old Spaghetti Factory",
+        "brand:wikidata": "Q7754912",
+        "contact:phone": "+1 801-521-0424",
+        "contact:website": "https://www.osf.com/location/salt-lake-city-ut/",
+        "cuisine": "italian",
+        "level": "1",
+        "name": "The Old Spaghetti Factory",
+        "opening_hours": "Mo-Th 11:30-20:30; Fr 11:30-21:00; Sa 12:00-21:00; Su 13:00-20:30",
+        "wheelchair": "yes"
+      },
+      "lat": 40.756853,
+      "lon": -111.8728854
+    },
+    {
+      "type": "way",
+      "id": 1047680011,
+      "tags": {
+        "addr:city": "Taylorsville",
+        "addr:housenumber": "5718",
+        "addr:postcode": "84123",
+        "addr:state": "UT",
+        "addr:street": "South 1900 West",
+        "amenity": "restaurant",
+        "brand": "The Old Spaghetti Factory",
+        "brand:wikidata": "Q7754912",
+        "building": "retail",
+        "check_date": "2026-08-13",
+        "cuisine": "italian",
+        "name": "The Old Spaghetti Factory",
+        "opening_hours": "Mo-Th 16:30-21:00; Fr-Sa 12:00-21:30; Su 15:00-21:00",
+        "phone": "+1-801-966-2765",
+        "source": "esri/USA_NAD_Addresses",
+        "website": "https://www.osf.com/location/taylorsville-ut/"
+      },
+      "center": {
+        "lat": 40.64676455,
+        "lon": -111.94344790000002
+      }
+    }
+  ]
+}

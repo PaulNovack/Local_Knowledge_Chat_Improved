@@ -1,0 +1,889 @@
+{
+  "version": 0.6,
+  "generator": "TruckStopExtractDownloader/1.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "5503cdceda06e4da7bcc2c190c5c9cf1",
+    "processed_utc": "2026-10-24T19:41:42.694952+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1478046611,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Center Drive",
+        "amenity": "fuel",
+        "check_date": "2023-04-01",
+        "contact:phone": "+1 410-287-7110",
+        "hgv": "yes",
+        "name": "Flying J",
+        "opening_hours": "24/7"
+      },
+      "lat": 39.6253339,
+      "lon": -75.949343
+    },
+    {
+      "type": "node",
+      "id": 2086293852,
+      "tags": {
+        "addr:housenumber": "5501",
+        "addr:street": "O'Donnell Street",
+        "amenity": "fuel",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "name": "TA",
+        "official_name": "TravelCenters of America"
+      },
+      "lat": 39.2786796,
+      "lon": -76.5488547
+    },
+    {
+      "type": "node",
+      "id": 2356268732,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes",
+        "name": "Flying J"
+      },
+      "lat": 39.6383201,
+      "lon": -75.8075228
+    },
+    {
+      "type": "node",
+      "id": 6824287131,
+      "tags": {
+        "highway": "services",
+        "name": "George's Custom Towing",
+        "phone": "+1-410-452-8970",
+        "website": "http://www.georgescustomtowing.com/"
+      },
+      "lat": 39.7081719,
+      "lon": -76.3435249
+    },
+    {
+      "type": "node",
+      "id": 12513854271,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 39.6314094,
+      "lon": -77.7846649
+    },
+    {
+      "type": "node",
+      "id": 12680820599,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 39.1025031,
+      "lon": -76.6277424
+    },
+    {
+      "type": "way",
+      "id": 114006529,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "fuel:HGV_diesel": "yes",
+        "layer": "1"
+      },
+      "center": {
+        "lat": 39.61044645,
+        "lon": -76.01046365000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 131944810,
+      "tags": {
+        "alt_name": "Maryland House Service Plaza",
+        "area": "yes",
+        "highway": "services",
+        "landuse": "retail",
+        "name": "Maryland House Service Area"
+      },
+      "center": {
+        "lat": 39.49736435,
+        "lon": -76.23178560000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 154050159,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Royal Farms",
+        "brand:wikidata": "Q7374169",
+        "building": "roof",
+        "fuel:HGV_diesel": "yes",
+        "name": "Royal Farms"
+      },
+      "center": {
+        "lat": 38.4097206,
+        "lon": -75.64173614999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 217811570,
+      "tags": {
+        "area": "yes",
+        "branch": "Baltimore",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 410-633-4611",
+        "ref": "0216",
+        "website": "https://www.ta-petro.com/location/md/ta-baltimore/"
+      },
+      "center": {
+        "lat": 39.2778969,
+        "lon": -76.54882814999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 217812359,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "hgv": "yes"
+      },
+      "center": {
+        "lat": 39.167181400000004,
+        "lon": -76.78309865
+      }
+    },
+    {
+      "type": "way",
+      "id": 217812360,
+      "tags": {
+        "area": "yes",
+        "branch": "Baltimore South",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 410-799-3835",
+        "ref": "0151",
+        "website": "https://www.ta-petro.com/location/md/ta-baltimore-south/"
+      },
+      "center": {
+        "lat": 39.16467965,
+        "lon": -76.78217059999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 217813138,
+      "tags": {
+        "addr:city": "Elkton",
+        "addr:housenumber": "1400",
+        "addr:postcode": "21921",
+        "addr:state": "MD",
+        "addr:street": "Elkton Road",
+        "amenity": "fuel",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "building": "roof",
+        "hgv": "yes",
+        "name": "TA",
+        "official_name": "TravelCenters of America"
+      },
+      "center": {
+        "lat": 39.6441765,
+        "lon": -75.79704270000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 217813140,
+      "tags": {
+        "addr:city": "Elkton",
+        "addr:country": "US",
+        "addr:housenumber": "1400",
+        "addr:postcode": "21921",
+        "addr:state": "MD",
+        "addr:street": "Elkton Road",
+        "area": "yes",
+        "branch": "Elkton",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 410 398 7000",
+        "ref": "0019",
+        "short_name": "TA",
+        "website": "https://www.ta-petro.com/location/md/ta-elkton"
+      },
+      "center": {
+        "lat": 39.643964249999996,
+        "lon": -75.79750615
+      }
+    },
+    {
+      "type": "way",
+      "id": 217813301,
+      "tags": {
+        "branch": "Elkton",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.875@pilottravelcenters.com",
+        "fax": "+1 410-398-0547",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 410-398-0287",
+        "ref": "875",
+        "website": "https://locations.pilotflyingj.com/us/md/elkton/221-belle-hill-rd"
+      },
+      "center": {
+        "lat": 39.63871035,
+        "lon": -75.80718760000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 217813576,
+      "tags": {
+        "addr:city": "Northeast",
+        "addr:housenumber": "1",
+        "addr:postcode": "21901",
+        "addr:state": "MD",
+        "addr:street": "Center Drive",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-03",
+        "contact:phone": "+1 410-287-7110",
+        "email": "TravelCenter.784@pilottravelcenters.com",
+        "fax": "+1 410-287-7116",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "opening_hours": "24/7",
+        "ref": "784",
+        "toilets": "yes",
+        "website": "https://locations.pilotflyingj.com/us/md/north-east/1-center-dr",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 39.625914300000005,
+        "lon": -75.94965720000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 220630029,
+      "tags": {
+        "area": "yes",
+        "branch": "Perryville",
+        "brand": "ONE9",
+        "check_date": "2024-08-02",
+        "fax": "+1 410-378-4941",
+        "hgv": "yes",
+        "highway": "services",
+        "internet_access": "wlan",
+        "name": "ONE9 Travel Center",
+        "phone": "+1 410-642-2883",
+        "website": "https://locations.pilotflyingj.com/us/md/perryville/31-heather-lane",
+        "wheelchair": "limited"
+      },
+      "center": {
+        "lat": 39.5894191,
+        "lon": -76.06547254999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 220735020,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "capacity": "8",
+        "height": "17'",
+        "hgv": "no",
+        "name": "Pilot"
+      },
+      "center": {
+        "lat": 39.69260295,
+        "lon": -79.10046405000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 220735021,
+      "tags": {
+        "branch": "Grantsville",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.408@pilottravelcenters.com",
+        "fax": "+1 301-895-4548",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 301-895-4536",
+        "ref": "408",
+        "website": "https://locations.pilotflyingj.com/us/md/grantsville/3000-chestnut-ridge-rd"
+      },
+      "center": {
+        "lat": 39.6919369,
+        "lon": -79.1008759
+      }
+    },
+    {
+      "type": "way",
+      "id": 220735023,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "height": "20'",
+        "hgv": "yes",
+        "layer": "1",
+        "name": "Pilot"
+      },
+      "center": {
+        "lat": 39.69195915,
+        "lon": -79.10064814999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 220739416,
+      "tags": {
+        "area": "yes",
+        "branch": "Hagerstown",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.179@pilottravelcenters.com",
+        "fax": "+1 301-582-5004",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 301-582-6111",
+        "ref": "179",
+        "website": "https://locations.pilotflyingj.com/us/md/hagerstown/16921-halfway-blvd"
+      },
+      "center": {
+        "lat": 39.62905645,
+        "lon": -77.78267540000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 220739417,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "hgv": "no",
+        "layer": "1",
+        "name": "Pilot"
+      },
+      "center": {
+        "lat": 39.6299703,
+        "lon": -77.78276590000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 220739418,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "layer": "1",
+        "name": "pilot"
+      },
+      "center": {
+        "lat": 39.6290921,
+        "lon": -77.78388005
+      }
+    },
+    {
+      "type": "way",
+      "id": 225803787,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "hgv": "yes",
+        "name": "Pilot",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 39.634059,
+        "lon": -77.80682724999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 225803788,
+      "tags": {
+        "area": "yes",
+        "branch": "Hagerstown",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.150@pilottravelcenters.com",
+        "fax": "+1 301-582-9008",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 301-582-9004",
+        "ref": "150",
+        "website": "https://locations.pilotflyingj.com/us/md/hagerstown/11633-greencastle-pike"
+      },
+      "center": {
+        "lat": 39.63390625,
+        "lon": -77.80692049999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 225803789,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "hgv": "no",
+        "name": "Pilot",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 39.6336546,
+        "lon": -77.80754715
+      }
+    },
+    {
+      "type": "way",
+      "id": 257649225,
+      "tags": {
+        "alt_name": "Chesapeake House Service Plaza",
+        "area": "yes",
+        "highway": "services",
+        "name": "Chesapeake House",
+        "toilets": "yes"
+      },
+      "center": {
+        "lat": 39.61176345,
+        "lon": -76.00851999999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 310502000,
+      "tags": {
+        "area": "yes",
+        "highway": "services",
+        "name": "Mountain View Plaza"
+      },
+      "center": {
+        "lat": 39.61524695,
+        "lon": -77.41724854999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 316739263,
+      "tags": {
+        "area": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 38.99786195,
+        "lon": -77.10031345000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 397896738,
+      "tags": {
+        "addr:housenumber": "115",
+        "addr:street": "Grande View Avenue",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 38.87678725000001,
+        "lon": -76.50608879999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 402055576,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 39.10226265,
+        "lon": -76.62795790000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 480025131,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "fuel:HGV_diesel": "yes",
+        "fuel:diesel": "no"
+      },
+      "center": {
+        "lat": 39.0264073,
+        "lon": -76.02401874999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 525486792,
+      "tags": {
+        "area": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 39.026324900000006,
+        "lon": -76.02447870000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 531987727,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "fuel:HGV_diesel": "yes",
+        "layer": "1"
+      },
+      "center": {
+        "lat": 38.865664100000004,
+        "lon": -76.62094665000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 599092273,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "fuel:HGV_diesel": "yes",
+        "layer": "1"
+      },
+      "center": {
+        "lat": 39.6113646,
+        "lon": -76.01101495
+      }
+    },
+    {
+      "type": "way",
+      "id": 659634610,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "hgv": "no",
+        "name": "Love's"
+      },
+      "center": {
+        "lat": 39.7011483,
+        "lon": -77.73370664999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 659634611,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "layer": "1",
+        "name": "Love's"
+      },
+      "center": {
+        "lat": 39.699874699999995,
+        "lon": -77.73324205
+      }
+    },
+    {
+      "type": "way",
+      "id": 659637039,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "diesel": "yes",
+        "hgv": "yes",
+        "layer": "1",
+        "name": "Love's"
+      },
+      "center": {
+        "lat": 39.671904999999995,
+        "lon": -78.71694065000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 659637042,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "hgv": "no",
+        "layer": "1",
+        "name": "Love's"
+      },
+      "center": {
+        "lat": 39.67266035,
+        "lon": -78.71666785000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 694196651,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Shell",
+        "brand:wikidata": "Q110716465",
+        "building": "roof",
+        "check_date": "2024-06-16",
+        "fuel:HGV_diesel": "yes",
+        "fuel:diesel": "yes",
+        "name": "Shell",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 38.54674885,
+        "lon": -76.59051475000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 764529125,
+      "tags": {
+        "area": "yes",
+        "highway": "services",
+        "landuse": "commercial"
+      },
+      "center": {
+        "lat": 38.89597165,
+        "lon": -75.81763209999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 796587794,
+      "tags": {
+        "addr:city": "Highlandtown",
+        "addr:housenumber": "7300",
+        "addr:postcode": "21224",
+        "addr:state": "MD",
+        "addr:street": "Rolling Mill Road",
+        "amenity": "fuel",
+        "brand": "Quarles",
+        "fuel:HGV_diesel": "yes",
+        "fuel:adblue": "yes",
+        "fuel:octane_87": "yes",
+        "fuel:taxfree_diesel": "yes",
+        "name": "Quarles"
+      },
+      "center": {
+        "lat": 39.300375450000004,
+        "lon": -76.52015690000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1108847052,
+      "tags": {
+        "addr:city": "Newburg",
+        "addr:housenumber": "12615",
+        "addr:postcode": "20664",
+        "addr:state": "MD",
+        "addr:street": "Crain Highway",
+        "alt_name": "One Stop Travel Plaza",
+        "amenity": "fuel",
+        "building": "yes",
+        "fuel:HGV_diesel": "yes",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "name": "301 Truckstop & Plaza",
+        "opening_hours": "24/7"
+      },
+      "center": {
+        "lat": 38.3664225,
+        "lon": -76.96841795
+      }
+    },
+    {
+      "type": "way",
+      "id": 1120241304,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "building": "roof",
+        "hgv": "no",
+        "layer": "1",
+        "name": "Flying J",
+        "source": "survey"
+      },
+      "center": {
+        "lat": 39.63834025,
+        "lon": -75.80596394999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1158035330,
+      "tags": {
+        "highway": "services",
+        "name": "Flower Valley Loading Dock area"
+      },
+      "center": {
+        "lat": 39.1053314,
+        "lon": -77.09364949999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1210184016,
+      "tags": {
+        "area": "yes",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 301-393-3740",
+        "ref": "682",
+        "website": "https://www.loves.com/locations/md/hagerstown/loves-travel-stop-hagerstown-682"
+      },
+      "center": {
+        "lat": 39.70025615,
+        "lon": -77.73314049999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1266546118,
+      "tags": {
+        "access": "no",
+        "area": "yes",
+        "highway": "services",
+        "name": "Inspection Station"
+      },
+      "center": {
+        "lat": 39.2300568,
+        "lon": -76.51054595
+      }
+    },
+    {
+      "type": "way",
+      "id": 1266546119,
+      "tags": {
+        "access": "no",
+        "area": "yes",
+        "highway": "services",
+        "name": "Inspection Station"
+      },
+      "center": {
+        "lat": 39.229700050000005,
+        "lon": -76.51044260000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1324385594,
+      "tags": {
+        "area": "yes",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 301-759-0170",
+        "ref": "537",
+        "website": "https://www.loves.com/locations/md/cumberland/loves-travel-stop-cumberland-537"
+      },
+      "center": {
+        "lat": 39.671897349999995,
+        "lon": -78.71638385
+      }
+    },
+    {
+      "type": "way",
+      "id": 1352489129,
+      "tags": {
+        "area": "yes",
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 39.631475449999996,
+        "lon": -77.78587464999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1558603394,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 39.08161525,
+        "lon": -76.69046985
+      }
+    },
+    {
+      "type": "way",
+      "id": 1558606048,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 39.081832950000006,
+        "lon": -76.68875649999995
+      }
+    }
+  ]
+}

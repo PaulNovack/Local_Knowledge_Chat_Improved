@@ -1,0 +1,77 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "yard_house",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4975009541,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "5870",
+        "addr:postcode": "85711",
+        "addr:state": "AZ",
+        "addr:street": "East Broadway Boulevard",
+        "alcohol": "yes",
+        "amenity": "restaurant",
+        "brand": "Yard House",
+        "brand:wikidata": "Q21189156",
+        "cuisine": "american",
+        "name": "Yard House",
+        "opening_hours": "Su-Th 11:00-00:00, Fr-Sa 11:00-01:00"
+      },
+      "lat": 32.2204567,
+      "lon": -110.8653395
+    },
+    {
+      "type": "node",
+      "id": 11048915056,
+      "tags": {
+        "alcohol": "yes",
+        "amenity": "restaurant",
+        "brand": "Yard House",
+        "brand:wikidata": "Q21189156",
+        "cuisine": "american",
+        "name": "Yard House"
+      },
+      "lat": 33.676202,
+      "lon": -111.9711133
+    },
+    {
+      "type": "way",
+      "id": 156280457,
+      "tags": {
+        "addr:city": "Glendale",
+        "addr:housenumber": "9401",
+        "addr:postcode": "85305",
+        "addr:state": "AZ",
+        "addr:street": "West Westgate Boulevard",
+        "alcohol": "yes",
+        "amenity": "restaurant",
+        "brand": "Yard House",
+        "brand:wikidata": "Q21189156",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "american",
+        "name": "Yard House",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 33.53408095,
+        "lon": -112.26128304999997
+      }
+    }
+  ]
+}

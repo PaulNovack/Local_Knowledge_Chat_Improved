@@ -1,0 +1,758 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "mcdonalds",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1183476392,
+      "tags": {
+        "addr:city": "Rock Springs",
+        "addr:housenumber": "1607",
+        "addr:postcode": "82901",
+        "addr:state": "WY",
+        "addr:street": "Elk Street",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "ele": "1914",
+        "internet_access": "wlan",
+        "name": "McDonald's",
+        "opening_hours": "05:00-22:00",
+        "phone": "+1 307-362-8883",
+        "source": "collected by Volker Bartheld, converted and imported by malenki",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/23556.html"
+      },
+      "lat": 41.6100401,
+      "lon": -109.2309403
+    },
+    {
+      "type": "node",
+      "id": 3786956521,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:housenumber": "2535",
+        "addr:postcode": "82001-5449",
+        "addr:state": "WY",
+        "addr:street": "East Lincolnway",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "McDonald's",
+        "opening_hours": "05:00-01:00",
+        "phone": "+1 307-632-1222",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/226.html"
+      },
+      "lat": 41.1381444,
+      "lon": -104.7860905
+    },
+    {
+      "type": "node",
+      "id": 4052142238,
+      "tags": {
+        "addr:city": "Laramie",
+        "addr:country": "US",
+        "addr:housenumber": "3000",
+        "addr:postcode": "82070-5105",
+        "addr:state": "WY",
+        "addr:street": "Grand Avenue",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "check_date": "2023-11-12",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "McDonald's",
+        "opening_hours": "Mo-Fr 05:00-24:00; Sa 05:00-01:00; Su 05:00-24:00",
+        "phone": "+1 307-745-3600",
+        "source": "Mapbox",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/4163.html"
+      },
+      "lat": 41.3086178,
+      "lon": -105.5569332
+    },
+    {
+      "type": "node",
+      "id": 4360303793,
+      "tags": {
+        "addr:city": "Jackson",
+        "addr:housenumber": "1110",
+        "addr:postcode": "83001",
+        "addr:state": "WY",
+        "addr:street": "West Broadway Avenue",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "cuisine": "burger",
+        "internet_access": "wlan",
+        "name": "McDonald's",
+        "name:en": "McDonalds",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/wy/jackson/1110-w-broadway/6435.html"
+      },
+      "lat": 43.4732604,
+      "lon": -110.7868208
+    },
+    {
+      "type": "node",
+      "id": 4852015823,
+      "tags": {
+        "addr:housenumber": "800",
+        "addr:street": "East Valley Road",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "cuisine": "burger",
+        "name": "McDonald's",
+        "opening_hours": "24/7",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/wy/torrington/800-east-valley-highway/33658.html"
+      },
+      "lat": 42.0588681,
+      "lon": -104.174614
+    },
+    {
+      "type": "node",
+      "id": 5964805780,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "McDonald's",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/wy/douglas/1090-w-yellowstone-hwy/7608.html"
+      },
+      "lat": 42.7633999,
+      "lon": -105.4010725
+    },
+    {
+      "type": "node",
+      "id": 11911077026,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:country": "US",
+        "addr:housenumber": "410",
+        "addr:postcode": "82007",
+        "addr:state": "WY",
+        "addr:street": "South Greeley Highway",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "McDonald's",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no",
+        "phone": "+1 307-369-2622",
+        "ref": "39929",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/39929.html"
+      },
+      "lat": 41.1136468,
+      "lon": -104.8024075
+    },
+    {
+      "type": "node",
+      "id": 11911077037,
+      "tags": {
+        "addr:city": "Casper",
+        "addr:country": "US",
+        "addr:housenumber": "600",
+        "addr:postcode": "82601-1300",
+        "addr:state": "WY",
+        "addr:street": "West F Street",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "McDonald's",
+        "opening_hours": "05:00-23:00",
+        "phone": "+1 307-265-2363",
+        "ref": "35665",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/35665.html"
+      },
+      "lat": 42.858238,
+      "lon": -106.33168
+    },
+    {
+      "type": "node",
+      "id": 12271195057,
+      "tags": {
+        "addr:country": "US",
+        "addr:housenumber": "111",
+        "addr:postcode": "82435",
+        "addr:state": "WY",
+        "addr:street": "North Evarts Street",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "check_date": "2024-02-01",
+        "check_date:opening_hours": "2024-02-01",
+        "check_date:opening_hours:drive_through": "2024-02-01",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "McDonald's",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-22:00",
+        "phone": "+1 307-754-7918",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/wy/powell/111-n-evarts-st/12530.html"
+      },
+      "lat": 44.753349,
+      "lon": -108.75276
+    },
+    {
+      "type": "way",
+      "id": 43101719,
+      "tags": {
+        "addr:city": "Riverton",
+        "addr:housenumber": "1050",
+        "addr:postcode": "82501",
+        "addr:state": "WY",
+        "addr:street": "West Main Street",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "yes",
+        "cuisine": "burger",
+        "fixme:atp": "Check if still exists. No corresponding ATP object.",
+        "name": "McDonald's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 43.024977699999994,
+        "lon": -108.40696509999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 156806080,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "yes",
+        "cuisine": "burger",
+        "ele": "1852",
+        "name": "McDonald's",
+        "source": "Bing;collected by Volker Bartheld, converted and imported by malenki",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/wy/green-river/599-e-4th-s/7107.html"
+      },
+      "center": {
+        "lat": 41.5212206,
+        "lon": -109.46457149999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 157938661,
+      "tags": {
+        "addr:postcode": "82801",
+        "addr:street": "2146 Coffeen Ave, Sheridan, WY 82801, United States",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "retail",
+        "cuisine": "friture;burger;diner;american;breakfast",
+        "internet_access": "wlan",
+        "name": "McDonald's",
+        "opening_hours": "Mo-Su 05:00-01:00",
+        "phone": "+1 307-673-1100",
+        "source": "local_knowledge",
+        "website": "https://www.mcdonalds.com/us/en-us/location/wy/sheridan/2146-coffeen-avenue/32975.html"
+      },
+      "center": {
+        "lat": 44.7740163,
+        "lon": -106.94313254999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 232502704,
+      "tags": {
+        "addr:city": "Sheridan",
+        "addr:country": "US",
+        "addr:housenumber": "2590",
+        "addr:postcode": "82801",
+        "addr:state": "WY",
+        "addr:street": "North Main Street",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "McDonald's",
+        "source": "Bing 2011",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/wy/sheridan/2590-n-main/4206.html"
+      },
+      "center": {
+        "lat": 44.82692705,
+        "lon": -106.9593754
+      }
+    },
+    {
+      "type": "way",
+      "id": 233290588,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:country": "US",
+        "addr:housenumber": "4000",
+        "addr:postcode": "82007",
+        "addr:state": "WY",
+        "addr:street": "West College Drive",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "McDonald's",
+        "opening_hours": "Mo-Th 05:00-23:00; Fr-Sa 05:00-24:00; Su 05:00-23:00",
+        "phone": "+1 307-637-8009",
+        "source": "local visit, company website",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/12500.html"
+      },
+      "center": {
+        "lat": 41.100141550000004,
+        "lon": -104.85370775000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 237810583,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:housenumber": "2032",
+        "addr:postcode": "82009",
+        "addr:state": "WY",
+        "addr:street": "Dell Range Boulevard",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "McDonald's",
+        "opening_hours": "Mo-Th 05:00-24:00; Fr-Sa 05:00-01:00; Su 05:00-24:00",
+        "phone": "+1 307-778-8232",
+        "source": "local visit, company website",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/24984.html"
+      },
+      "center": {
+        "lat": 41.160593399999996,
+        "lon": -104.7677701
+      }
+    },
+    {
+      "type": "way",
+      "id": 305654138,
+      "tags": {
+        "addr:housenumber": "611",
+        "addr:postcode": "82443",
+        "addr:state": "WY",
+        "addr:street": "Shoshoni Street",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "yes",
+        "cuisine": "burger",
+        "internet_access": "wlan",
+        "name": "McDonald's",
+        "name:en": "McDonald's",
+        "name:ru": "Макдоналдс",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/wy/thermopolis/611-shoshoni-st/14293.html"
+      },
+      "center": {
+        "lat": 43.63805825,
+        "lon": -108.21284250000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 331772024,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "McDonald's",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/wy/cody/2005-17th-st/6770.html"
+      },
+      "center": {
+        "lat": 44.516156699999996,
+        "lon": -109.0540795
+      }
+    },
+    {
+      "type": "way",
+      "id": 335639679,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "commercial",
+        "cuisine": "burger",
+        "name": "McDonald's",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/wy/lander/235-mcfarlane-dr/7611.html"
+      },
+      "center": {
+        "lat": 42.8319305,
+        "lon": -108.72390965
+      }
+    },
+    {
+      "type": "way",
+      "id": 400851621,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:housenumber": "480",
+        "addr:postcode": "82834",
+        "addr:state": "WY",
+        "addr:street": "East Hart Street",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "restaurant",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "McDonald's",
+        "opening_hours": "Mo-Su 06:00-23:00",
+        "phone": "+1-307-684-7036",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/wy/buffalo/480-e-hart-st/17332.html"
+      },
+      "center": {
+        "lat": 44.35455215,
+        "lon": -106.69197135000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 427247572,
+      "tags": {
+        "addr:city": "Rock Springs",
+        "addr:housenumber": "1687",
+        "addr:postcode": "82901-7061",
+        "addr:state": "WY",
+        "addr:street": "Sunset Drive",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:website": "https://www.mcdonalds.com/",
+        "brand:wikidata": "Q38076",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "McDonald's",
+        "opening_hours": "05:00-22:00",
+        "phone": "+1 307-382-3080",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/3631.html"
+      },
+      "center": {
+        "lat": 41.57699485,
+        "lon": -109.25595475
+      }
+    },
+    {
+      "type": "way",
+      "id": 530156054,
+      "tags": {
+        "addr:city": "Gillette",
+        "addr:housenumber": "2112",
+        "addr:postcode": "82718",
+        "addr:state": "WY",
+        "addr:street": "Westover Road",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2026-04-29",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "McDonald's",
+        "opening_hours": "05:00-23:00",
+        "phone": "+1 307 682 1134",
+        "roof:shape": "flat",
+        "source": "survey",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/33714.html"
+      },
+      "center": {
+        "lat": 44.2914424,
+        "lon": -105.53094729999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 643206871,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "McDonald's",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/wy/riverton/813-n-federal-blvd/35345.html"
+      },
+      "center": {
+        "lat": 43.03198555,
+        "lon": -108.38002165
+      }
+    },
+    {
+      "type": "way",
+      "id": 684820147,
+      "tags": {
+        "addr:city": "Casper",
+        "addr:housenumber": "4010",
+        "addr:postcode": "82604",
+        "addr:state": "WY",
+        "addr:street": "Plaza Drive",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "McDonald's",
+        "opening_hours": "05:00-22:00",
+        "phone": "+1 307-265-5121",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/32780.html"
+      },
+      "center": {
+        "lat": 42.81842905,
+        "lon": -106.36870564999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 702603372,
+      "tags": {
+        "addr:city": "Gillette",
+        "addr:housenumber": "806",
+        "addr:postcode": "82716",
+        "addr:state": "WY",
+        "addr:street": "Camel Drive",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2026-07-15",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "McDonald's",
+        "opening_hours": "24/7",
+        "phone": "+1 307 686 0606",
+        "roof:shape": "flat",
+        "source": "survey",
+        "start_date": "2020",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/4703.html"
+      },
+      "center": {
+        "lat": 44.2814591,
+        "lon": -105.49338139999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 780386426,
+      "tags": {
+        "addr:city": "Rawlins",
+        "addr:country": "US",
+        "addr:housenumber": "2225",
+        "addr:postcode": "82301",
+        "addr:state": "WY",
+        "addr:street": "East Cedar Street",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "McDonald's",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/wy/rawlins/2225-plaza-street/6139.html"
+      },
+      "center": {
+        "lat": 41.793455800000004,
+        "lon": -107.2115379
+      }
+    },
+    {
+      "type": "way",
+      "id": 878463704,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:housenumber": "5700",
+        "addr:postcode": "82009-4132",
+        "addr:state": "WY",
+        "addr:street": "North Yellowstone Road",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "McDonald's",
+        "opening_hours": "05:00-23:00",
+        "phone": "+1 307-634-2757",
+        "source": "microsoft/BuildingFootprints;Bing",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/5701.html"
+      },
+      "center": {
+        "lat": 41.171684400000004,
+        "lon": -104.82925054999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1014893430,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "McDonald's",
+        "source": "esri/Evanston_WY_Buildings",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/wy/evanston/212-front-st/6814.html"
+      },
+      "center": {
+        "lat": 41.26341425,
+        "lon": -110.95730709999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1075463762,
+      "tags": {
+        "addr:city": "Casper",
+        "addr:housenumber": "40",
+        "addr:postcode": "82609",
+        "addr:state": "WY",
+        "addr:street": "Southeast Wyoming Boulevard",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "McDonald's",
+        "opening_hours": "05:00-23:00",
+        "phone": "+1 307-237-8320",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/8067.html"
+      },
+      "center": {
+        "lat": 42.852306799999994,
+        "lon": -106.27167409999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1094330769,
+      "tags": {
+        "addr:city": "Worland",
+        "addr:housenumber": "1700",
+        "addr:postcode": "82401",
+        "addr:state": "WY",
+        "addr:street": "Big Horn Avenue",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "McDonald's",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/wy/worland/1700-big-horn-ave/17071.html"
+      },
+      "center": {
+        "lat": 44.016494,
+        "lon": -107.94531999999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1107193603,
+      "tags": {
+        "addr:city": "Laramie",
+        "addr:country": "US",
+        "addr:housenumber": "1666",
+        "addr:postcode": "82070",
+        "addr:state": "WY",
+        "addr:street": "Snowy Range Road",
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "McDonald's",
+        "opening_hours": "05:00-24:00",
+        "phone": "+1 307-745-0006",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://www.mcdonalds.com/us/en-us/location/13848.html"
+      },
+      "center": {
+        "lat": 41.30865045,
+        "lon": -105.61801635
+      }
+    }
+  ]
+}

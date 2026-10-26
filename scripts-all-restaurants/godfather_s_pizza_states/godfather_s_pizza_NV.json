@@ -1,0 +1,51 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "godfather_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 575116643,
+      "tags": {
+        "addr:housenumber": "645",
+        "addr:street": "California Ave",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza"
+      },
+      "lat": 39.5156218,
+      "lon": -119.8275147
+    },
+    {
+      "type": "node",
+      "id": 11028551953,
+      "tags": {
+        "addr:city": "Tonopah",
+        "addr:country": "US",
+        "addr:housenumber": "1170",
+        "addr:postcode": "89049",
+        "addr:state": "NV",
+        "addr:street": "Grand Army of the Republic Highway;Veterans Memorial Highway",
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza Express"
+      },
+      "lat": 38.079311,
+      "lon": -117.2532629
+    }
+  ]
+}

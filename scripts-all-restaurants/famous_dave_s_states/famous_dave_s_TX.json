@@ -1,0 +1,48 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TX",
+    "brand": "famous_dave_s",
+    "source": "https://download.geofabrik.de/north-america/us/texas-latest.osm.pbf",
+    "source_md5": "eb8f4603e9b48bd481c192fe621ae18b",
+    "processed_utc": "2026-10-24T07:17:23.814833+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11990626692,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's"
+      },
+      "lat": 31.8089827,
+      "lon": -106.2452269
+    },
+    {
+      "type": "way",
+      "id": 307769111,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's"
+      },
+      "center": {
+        "lat": 31.78090315,
+        "lon": -106.39267999999998
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "jamba",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4732463734,
+      "tags": {
+        "addr:city": "Creve Coeur",
+        "addr:housenumber": "11477",
+        "addr:postcode": "63141",
+        "addr:state": "MO",
+        "addr:street": "Olive Boulevard",
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "cuisine": "juice",
+        "fixme:atp": "no ATP match, check if still exists",
+        "level": "0",
+        "name": "Jamba",
+        "takeaway": "yes"
+      },
+      "lat": 38.6730968,
+      "lon": -90.4348484
+    },
+    {
+      "type": "node",
+      "id": 11077723029,
+      "tags": {
+        "addr:city": "Des Peres",
+        "addr:housenumber": "80",
+        "addr:postcode": "63131",
+        "addr:state": "MO",
+        "addr:street": "West County Center Drive",
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "branch": "West County Center",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "cuisine": "juice",
+        "name": "Jamba",
+        "opening_hours": "Mo-Sa 11:00-19:00; Su 12:00-16:00",
+        "phone": "+1 866-473-7848",
+        "takeaway": "yes",
+        "website": "https://locations.jamba.com/mo/des-peres/80-w-county-center-drive"
+      },
+      "lat": 38.5998467,
+      "lon": -90.447459
+    }
+  ]
+}

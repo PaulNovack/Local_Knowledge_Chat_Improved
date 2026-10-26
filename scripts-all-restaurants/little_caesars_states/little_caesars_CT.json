@@ -1,0 +1,104 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "little_caesars",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3740758115,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "takeaway": "yes"
+      },
+      "lat": 41.1968953,
+      "lon": -73.1368527
+    },
+    {
+      "type": "node",
+      "id": 8600410746,
+      "tags": {
+        "addr:city": "Norwich",
+        "addr:housenumber": "609",
+        "addr:postcode": "06360",
+        "addr:state": "CT",
+        "addr:street": "West Main Street",
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "cuisine": "pizza",
+        "indoor_seating": "yes",
+        "name": "Little Caesars",
+        "operator": "Little Caesar Enterprises Inc.",
+        "outdoor_seating": "no",
+        "phone": "+1 860 383 4525",
+        "ref": "10123",
+        "takeaway": "yes",
+        "website": "https://littlecaesars.com/en-us/store/10123"
+      },
+      "lat": 41.5161412,
+      "lon": -72.1011247
+    },
+    {
+      "type": "node",
+      "id": 13082871001,
+      "tags": {
+        "addr:housenumber": "72",
+        "addr:postcode": "06810",
+        "addr:street": "Newtown Road",
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "opening_hours": "Mo-Fr 10:30-22:00; Sa-Su 10:30-23:00",
+        "phone": "+12036165779",
+        "self_service": "only",
+        "takeaway": "yes",
+        "website": "https://littlecaesars.com/en-us/store/10077/",
+        "website:menu": "https://littlecaesars.com/en-us/order/pickup/stores/10077/menu/"
+      },
+      "lat": 41.4071299,
+      "lon": -73.418757
+    },
+    {
+      "type": "way",
+      "id": 207518433,
+      "tags": {
+        "addr:city": "Bridgeport",
+        "addr:housenumber": "186",
+        "addr:postcode": "06606",
+        "addr:state": "CT",
+        "addr:street": "North Avenue",
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "phone": "+1 203 6901483",
+        "takeaway": "yes",
+        "website": "https://littlecaesars.com/en-us/store/10611/"
+      },
+      "center": {
+        "lat": 41.201297,
+        "lon": -73.19192475
+      }
+    }
+  ]
+}

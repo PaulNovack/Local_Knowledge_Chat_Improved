@@ -1,0 +1,63 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "bj_s",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8530362478,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "internet_access:ssid": "BJ’s Guest WiFi",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 551-313-7450",
+        "website": "https://www.bjsrestaurants.com/locations/nj/teterboro"
+      },
+      "lat": 40.8607237,
+      "lon": -74.060869
+    },
+    {
+      "type": "way",
+      "id": 781627674,
+      "tags": {
+        "addr:city": "Toms River",
+        "addr:housenumber": "1275",
+        "addr:postcode": "08753",
+        "addr:state": "NJ",
+        "addr:street": "Hooper Avenue",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "retail",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 732-506-2780",
+        "website": "https://www.bjsrestaurants.com/locations/nj/toms-river"
+      },
+      "center": {
+        "lat": 39.983891400000005,
+        "lon": -74.17928889999996
+      }
+    }
+  ]
+}

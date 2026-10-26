@@ -1,0 +1,100 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "yogurtland",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1543821535,
+      "tags": {
+        "addr:city": "Lakewood",
+        "addr:housenumber": "9910",
+        "addr:postcode": "80123",
+        "addr:state": "CO",
+        "addr:street": "West Belleview Avenue",
+        "amenity": "ice_cream",
+        "brand": "Yogurtland",
+        "brand:wikidata": "Q8054428",
+        "cuisine": "frozen_yogurt",
+        "designation": "frozen yogurt",
+        "name": "Yogurtland",
+        "outdoor_seating": "yes",
+        "phone": "+1-303-932-0909",
+        "source": "ground_survey",
+        "takeaway": "yes",
+        "website": "https://www.yogurt-land.com/"
+      },
+      "lat": 39.623401,
+      "lon": -105.1092751
+    },
+    {
+      "type": "node",
+      "id": 12245203057,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Yogurtland",
+        "brand:wikidata": "Q8054428",
+        "cuisine": "frozen_yogurt",
+        "name": "Yogurtland",
+        "takeaway": "yes"
+      },
+      "lat": 39.8405702,
+      "lon": -105.0833552
+    },
+    {
+      "type": "node",
+      "id": 13653013204,
+      "tags": {
+        "addr:city": "Centennial",
+        "addr:housenumber": "7535",
+        "addr:postcode": "80122",
+        "addr:state": "CO",
+        "addr:street": "South University Boulevard",
+        "amenity": "restaurant",
+        "check_date": "2026-07-14",
+        "cuisine": "ice_cream",
+        "internet_access": "wlan",
+        "name": "Yogurtland",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "outdoor_seating": "no",
+        "phone": "+1-303-798-5644",
+        "self_service": "yes",
+        "website": "https://www.yogurtland.com/locations/view/1209"
+      },
+      "lat": 39.5799784,
+      "lon": -104.96188
+    },
+    {
+      "type": "node",
+      "id": 14282709719,
+      "tags": {
+        "addr:city": "Denver",
+        "addr:housenumber": "550",
+        "addr:postcode": "80203",
+        "addr:state": "CO",
+        "addr:street": "Grant Street",
+        "amenity": "ice_cream",
+        "brand": "Yogurtland",
+        "brand:wikidata": "Q8054428",
+        "cuisine": "frozen_yogurt",
+        "name": "Yogurtland",
+        "takeaway": "yes",
+        "website": "https://www.yogurtland.com/locations/view/1150"
+      },
+      "lat": 39.725002,
+      "lon": -104.9831819
+    }
+  ]
+}

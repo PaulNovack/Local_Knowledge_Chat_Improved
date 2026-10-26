@@ -1,0 +1,85 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "red_lobster",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 32908633,
+      "tags": {
+        "addr:city": "Reno",
+        "addr:county": "Washoe",
+        "addr:housenumber": "5015",
+        "addr:postcode": "89511",
+        "addr:state": "NV",
+        "addr:street": "Kietzke Lane",
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "building": "commercial",
+        "cuisine": "seafood",
+        "name": "Red Lobster",
+        "source": "WC GIS"
+      },
+      "center": {
+        "lat": 39.4762241,
+        "lon": -119.79557994999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1017968789,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "200",
+        "addr:state": "NV",
+        "addr:street": "South Decatur Boulevard",
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "building": "retail",
+        "cuisine": "seafood",
+        "name": "Red Lobster",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 36.171672,
+        "lon": -115.20666
+      }
+    },
+    {
+      "type": "way",
+      "id": 1154869045,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "570",
+        "addr:postcode": "89014",
+        "addr:state": "NV",
+        "addr:street": "Marks Street",
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Red Lobster",
+        "phone": "+1 702-933-5307"
+      },
+      "center": {
+        "lat": 36.0623489,
+        "lon": -115.03600589999996
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "mod_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9315958265,
+      "tags": {
+        "addr:city": "Highland",
+        "addr:housenumber": "10441",
+        "addr:postcode": "46322",
+        "addr:state": "IN",
+        "addr:street": "Indianapolis Boulevard",
+        "addr:unit": "B",
+        "amenity": "fast_food",
+        "branch": "Highland Grove Shopping Center",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "MOD Pizza",
+        "opening_hours": "Mo-Th 10:30-22:00; Fr-Sa 10:30-23:00; Su 10:30-22:00",
+        "phone": "+1 219-301-7915",
+        "takeaway": "yes",
+        "website": "https://locations.modpizza.com/usa/in/highland/10441b-indianapolis-blvd"
+      },
+      "lat": 41.5243461,
+      "lon": -87.470502
+    },
+    {
+      "type": "node",
+      "id": 13709079602,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "check_date": "2026-04-05",
+        "cuisine": "pizza",
+        "name": "MOD Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 37.975729,
+      "lon": -87.4734893
+    },
+    {
+      "type": "relation",
+      "id": 12031153,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "cuisine": "pizza",
+        "name": "MOD Pizza",
+        "takeaway": "yes",
+        "type": "label"
+      },
+      "center": {
+        "lat": 41.723815450000004,
+        "lon": -85.97551290000001
+      }
+    }
+  ]
+}

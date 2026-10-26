@@ -1,0 +1,86 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ME",
+    "brand": "texas_roadhouse",
+    "source": "https://download.geofabrik.de/north-america/us/maine-latest.osm.pbf",
+    "source_md5": "561ab4eba7b10f360a72f8484b6f08c3",
+    "processed_utc": "2026-10-24T07:05:33.375896+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 89533345,
+      "tags": {
+        "addr:city": "Bangor",
+        "addr:housenumber": "504",
+        "addr:postcode": "04401",
+        "addr:state": "ME",
+        "addr:street": "Stillwater Avenue",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "phone": "+12072626122",
+        "website": "https://www.texasroadhouse.com/locations/220-bangorme"
+      },
+      "center": {
+        "lat": 44.8282277,
+        "lon": -68.75607390000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 220228570,
+      "tags": {
+        "addr:city": "Augusta",
+        "addr:housenumber": "26",
+        "addr:postcode": "04330",
+        "addr:state": "ME",
+        "addr:street": "Whitten Road",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse"
+      },
+      "center": {
+        "lat": 44.314282199999994,
+        "lon": -69.81323795000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 697157958,
+      "tags": {
+        "addr:city": "Scarborough",
+        "addr:housenumber": "600",
+        "addr:postcode": "04074",
+        "addr:state": "ME",
+        "addr:street": "Gallery Boulevard",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "retail",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "opening_hours": "Mo-Th 15:00-22:00; Fr 15:00-23:00; Sa 11:00-23:00; Su 11:00-21:00",
+        "operator": "Heath Arbour"
+      },
+      "center": {
+        "lat": 43.6249342,
+        "lon": -70.34298104999999
+      }
+    }
+  ]
+}

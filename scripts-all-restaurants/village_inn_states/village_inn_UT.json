@@ -1,0 +1,119 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "village_inn",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4320463208,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn"
+      },
+      "lat": 41.1512946,
+      "lon": -111.9360868
+    },
+    {
+      "type": "way",
+      "id": 108232752,
+      "tags": {
+        "addr:city": "South Jordan",
+        "addr:housenumber": "11454",
+        "addr:postcode": "84095",
+        "addr:state": "UT",
+        "addr:street": "South District Drive",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Village Inn"
+      },
+      "center": {
+        "lat": 40.5429505,
+        "lon": -111.9836095
+      }
+    },
+    {
+      "type": "way",
+      "id": 148059465,
+      "tags": {
+        "addr:city": "Murray",
+        "addr:housenumber": "5941",
+        "addr:postcode": "84107",
+        "addr:state": "UT",
+        "addr:street": "South State Street",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "check_date": "2024-06-18",
+        "cuisine": "american",
+        "name": "Village Inn"
+      },
+      "center": {
+        "lat": 40.6419394,
+        "lon": -111.88860675000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 347408078,
+      "tags": {
+        "addr:city": "Provo",
+        "addr:housenumber": "933",
+        "addr:postcode": "84601",
+        "addr:state": "UT",
+        "addr:street": "South University Avenue",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "website": "https://www.villageinn.com/"
+      },
+      "center": {
+        "lat": 40.221489,
+        "lon": -111.6584057
+      }
+    },
+    {
+      "type": "way",
+      "id": 1065542970,
+      "tags": {
+        "addr:city": "West Valley City",
+        "addr:housenumber": "4824",
+        "addr:postcode": "84120",
+        "addr:state": "UT",
+        "addr:street": "West 3500 South",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 40.697015199999996,
+        "lon": -112.00633705000001
+      }
+    }
+  ]
+}

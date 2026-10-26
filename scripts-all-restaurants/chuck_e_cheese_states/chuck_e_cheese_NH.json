@@ -1,0 +1,42 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NH",
+    "brand": "chuck_e_cheese",
+    "source": "https://download.geofabrik.de/north-america/us/new-hampshire-latest.osm.pbf",
+    "source_md5": "603b90470df09c1b933955cbfe841c6d",
+    "processed_utc": "2026-10-24T07:09:51.168561+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 220175063,
+      "tags": {
+        "addr:city": "Manchester",
+        "addr:housenumber": "1525",
+        "addr:postcode": "03103",
+        "addr:street": "South Willow Street",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "yes",
+        "check_date": "2025-09-27",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/nh/manchester/1525-s.-willow-st"
+      },
+      "center": {
+        "lat": 42.95353059999999,
+        "lon": -71.43949184999997
+      }
+    }
+  ]
+}

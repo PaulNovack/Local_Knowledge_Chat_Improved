@@ -1,0 +1,94 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "LA",
+    "brand": "bojangles",
+    "source": "https://download.geofabrik.de/north-america/us/louisiana-latest.osm.pbf",
+    "source_md5": "2e108953505ee82f68e2a6e7a3e4f783",
+    "processed_utc": "2026-10-24T07:05:17.318731+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 14262111336,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "check_date": "2026-10-07",
+        "cuisine": "chicken",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "takeaway": "yes"
+      },
+      "lat": 30.4821183,
+      "lon": -90.5797727
+    },
+    {
+      "type": "node",
+      "id": 14284470965,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "check_date": "2026-10-14",
+        "cuisine": "chicken",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "takeaway": "yes"
+      },
+      "lat": 32.5020879,
+      "lon": -92.1578099
+    },
+    {
+      "type": "way",
+      "id": 1510952013,
+      "tags": {
+        "addr:city": "Ruston",
+        "addr:housenumber": "2202",
+        "addr:postcode": "71270",
+        "addr:state": "LA",
+        "addr:street": "Farmerville Highway",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2026-08-24",
+        "check_date:opening_hours": "2026-04-11",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "highchair": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "internet_access:ssid": "Bojangles Guest",
+        "level": "0",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-23:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-318-202-5100",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://locations.bojangles.com/la/ruston/2202-farmerville-hwy.html",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 32.5516708,
+        "lon": -92.60895170000003
+      }
+    }
+  ]
+}

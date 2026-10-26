@@ -1,0 +1,86 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "perkins",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13550942702,
+      "tags": {
+        "addr:housenumber": "3295",
+        "addr:postcode": "80909",
+        "addr:street": "East Platte Avenue",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "name": "Perkins",
+        "opening_hours": "Su-Th 06:00-00:00",
+        "website": "https://www.perkinsrestaurants.com/locations/us/co/colorado-springs/3295-e-platte-ave/"
+      },
+      "lat": 38.839236,
+      "lon": -104.7675463
+    },
+    {
+      "type": "way",
+      "id": 221556098,
+      "tags": {
+        "addr:city": "Loveland",
+        "addr:housenumber": "2222",
+        "addr:postcode": "80537",
+        "addr:state": "CO",
+        "addr:street": "West Eisenhower Boulevard",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "restaurant",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins American Food Co.",
+        "opening_hours": "Mo-Su 05:30-22:00",
+        "phone": "+1-970-663-1944",
+        "website": "https://www.perkinsrestaurants.com/locations/us/co/loveland/2222-w-eisenhower-blvd/"
+      },
+      "center": {
+        "lat": 40.406931650000004,
+        "lon": -105.10840789999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 514863946,
+      "tags": {
+        "addr:city": "Longmont",
+        "addr:housenumber": "2051",
+        "addr:postcode": "80501",
+        "addr:state": "CO",
+        "addr:street": "Main Street",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "restaurant",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 06:00-24:00",
+        "phone": "+1-303-772-1410",
+        "website": "https://www.perkinsrestaurants.com/locations/us/co/longmont/2051-n--main/"
+      },
+      "center": {
+        "lat": 40.195009049999996,
+        "lon": -105.10296800000003
+      }
+    }
+  ]
+}

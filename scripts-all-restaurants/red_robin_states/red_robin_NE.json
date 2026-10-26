@@ -1,0 +1,98 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "red_robin",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 180645026,
+      "tags": {
+        "addr:housenumber": "2627",
+        "addr:postcode": "68130",
+        "addr:street": "South 180th Street",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews",
+        "source": "bing"
+      },
+      "center": {
+        "lat": 41.23468855,
+        "lon": -96.19538739999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 184723392,
+      "tags": {
+        "addr:city": "Papillon",
+        "addr:housenumber": "11675",
+        "addr:postcode": "68046",
+        "addr:state": "NE",
+        "addr:street": "South 73rd Street",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews",
+        "source": "bing"
+      },
+      "center": {
+        "lat": 41.135245999999995,
+        "lon": -96.02440539999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 404200008,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews",
+        "source": "Mapbox"
+      },
+      "center": {
+        "lat": 41.2915444,
+        "lon": -96.13984985000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1013986982,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews"
+      },
+      "center": {
+        "lat": 40.7387815,
+        "lon": -96.68176225000002
+      }
+    }
+  ]
+}

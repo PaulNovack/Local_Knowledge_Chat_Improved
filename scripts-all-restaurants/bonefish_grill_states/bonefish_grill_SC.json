@@ -1,0 +1,88 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SC",
+    "brand": "bonefish_grill",
+    "source": "https://download.geofabrik.de/north-america/us/south-carolina-latest.osm.pbf",
+    "source_md5": "488018afb1e1040732b7a791d4ebffae",
+    "processed_utc": "2026-10-24T07:15:46.592450+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5133290824,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "lat": 34.0191769,
+      "lon": -80.9696992
+    },
+    {
+      "type": "way",
+      "id": 301399183,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "building": "retail",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "center": {
+        "lat": 32.8663985,
+        "lon": -80.01615025000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 305096544,
+      "tags": {
+        "addr:city": "Greenville",
+        "addr:housenumber": "1515",
+        "addr:postcode": "29607",
+        "addr:street": "Woodruff Road",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "building": "yes",
+        "cuisine": "seafood",
+        "diet:gluten_free": "yes",
+        "height": "16.4",
+        "name": "Bonefish Grill",
+        "phone": "+1-864-297-5142",
+        "website": "https://www.bonefishgrill.com/"
+      },
+      "center": {
+        "lat": 34.82074325,
+        "lon": -82.27780355000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 685072661,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "center": {
+        "lat": 33.64084765,
+        "lon": -78.98735835000002
+      }
+    }
+  ]
+}

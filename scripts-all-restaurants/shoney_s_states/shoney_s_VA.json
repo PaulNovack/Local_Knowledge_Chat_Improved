@@ -1,0 +1,78 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "shoney_s",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2363519355,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Shoney's",
+        "brand:wikidata": "Q7500392",
+        "cuisine": "american",
+        "name": "Shoney's",
+        "source": "survey"
+      },
+      "lat": 37.289085,
+      "lon": -80.096048
+    },
+    {
+      "type": "way",
+      "id": 235967944,
+      "tags": {
+        "addr:housenumber": "9963",
+        "addr:postcode": "23236",
+        "addr:street": "Hull Street Road",
+        "amenity": "restaurant",
+        "brand": "Shoney's",
+        "brand:wikidata": "Q7500392",
+        "building": "yes",
+        "contact:facebook": "https://www.facebook.com/ShoneysRVAHenrico/",
+        "cuisine": "american",
+        "name": "Shoney's",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "phone": "+1 804-745-4950",
+        "website": "https://www.shoneys.com/locations/va/richmond"
+      },
+      "center": {
+        "lat": 37.44347,
+        "lon": -77.58005285000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 796311218,
+      "tags": {
+        "addr:city": "Wytheville",
+        "addr:housenumber": "120",
+        "addr:postcode": "24382",
+        "addr:state": "VA",
+        "addr:street": "Malin Drive",
+        "amenity": "restaurant",
+        "brand": "Shoney's",
+        "brand:wikidata": "Q7500392",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Shoney's",
+        "opening_hours": "Mo-Su 11:00-19:00"
+      },
+      "center": {
+        "lat": 36.947308,
+        "lon": -81.05515309999998
+      }
+    }
+  ]
+}

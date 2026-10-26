@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "huddle_house",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5441765516,
+      "tags": {
+        "addr:city": "Myerstown",
+        "addr:housenumber": "2210",
+        "addr:postcode": "17067",
+        "addr:state": "PA",
+        "addr:street": "Camp Swatara Road",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Huddle House",
+        "opening_hours": "24/7",
+        "phone": "+1 717 933 4171",
+        "website": "https://locations.huddlehouse.com/pa/myerstown/2210-camp-swatara-rd.html"
+      },
+      "lat": 40.4633827,
+      "lon": -76.3397241
+    },
+    {
+      "type": "node",
+      "id": 5605789175,
+      "tags": {
+        "addr:city": "Mt Morris",
+        "addr:housenumber": "106",
+        "addr:state": "PA",
+        "addr:street": "Gas Company Road",
+        "amenity": "restaurant",
+        "brand": "Huddle House",
+        "brand:wikidata": "Q5928324",
+        "cuisine": "american",
+        "name": "Huddle House",
+        "opening_hours": "24/7"
+      },
+      "lat": 39.7338884,
+      "lon": -80.0566147
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ID",
+    "brand": "sbarro",
+    "source": "https://download.geofabrik.de/north-america/us/idaho-latest.osm.pbf",
+    "source_md5": "1a1a06364d5343af00d67fef4750905f",
+    "processed_utc": "2026-10-24T07:02:45.671077+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1225144935,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "indoor": "room",
+        "level": "1",
+        "name": "Sbarro",
+        "room": "restaurant",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 43.607692,
+        "lon": -116.2791641
+      }
+    }
+  ]
+}

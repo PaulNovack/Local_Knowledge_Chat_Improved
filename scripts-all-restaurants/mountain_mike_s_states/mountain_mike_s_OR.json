@@ -1,0 +1,47 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OR",
+    "brand": "mountain_mike_s",
+    "source": "https://download.geofabrik.de/north-america/us/oregon-latest.osm.pbf",
+    "source_md5": "bc93fd72fe4589fdc6c9b2b497cb7ef1",
+    "processed_utc": "2026-10-24T07:14:41.004303+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8521114445,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mountain Mike's"
+      },
+      "lat": 42.3150433,
+      "lon": -122.8337709
+    },
+    {
+      "type": "node",
+      "id": 12695185601,
+      "tags": {
+        "addr:housenumber": "722",
+        "addr:street": "West Harvard Avenue",
+        "addr:unit": "108",
+        "amenity": "restaurant",
+        "check_date": "2025-11-13",
+        "cuisine": "pizza",
+        "name": "Mountain Mike's Pizza",
+        "opening_hours": "Mo-Th,Su 11:00-21:00; Fr-Sa 11:00-21:30",
+        "phone": "+1-541-900-1590",
+        "website": "https://www.mountainmikespizza.com/locations/roseburg-w-harvard/"
+      },
+      "lat": 43.2143388,
+      "lon": -123.3567572
+    }
+  ]
+}

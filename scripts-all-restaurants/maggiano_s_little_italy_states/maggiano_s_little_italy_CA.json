@@ -1,0 +1,69 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CA",
+    "brand": "maggiano_s_little_italy",
+    "source": "https://download.geofabrik.de/north-america/us/california-latest.osm.pbf",
+    "source_md5": "26040c163edb7a5f630164ee55d5afda",
+    "processed_utc": "2026-10-24T06:59:04.829226+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 200860384,
+      "tags": {
+        "addr:city": "San Jose",
+        "addr:housenumber": "3055",
+        "addr:postcode": "95128-2068",
+        "addr:state": "CA",
+        "addr:street": "Olin Avenue",
+        "addr:unit": "1000",
+        "amenity": "restaurant",
+        "branch": "Santana Row",
+        "brand": "Maggiano's Little Italy",
+        "brand:wikidata": "Q6730149",
+        "cuisine": "italian",
+        "image": "http://www.santanarow.com/images/vendor/Maggianos_Cover.jpg",
+        "level": "0",
+        "name": "Maggiano's Little Italy",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-21:00",
+        "phone": "+1 408-423-8973",
+        "ref": "001.025.0183",
+        "website": "https://maggianos.com/locations/California/San%20Jose/3055-olin-ave.",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 37.32081435,
+        "lon": -121.94969450000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 423517419,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Maggiano's Little Italy",
+        "brand:wikidata": "Q6730149",
+        "building": "retail",
+        "cuisine": "italian",
+        "ele": "75.8",
+        "height": "18.1",
+        "lacounty:ain": "5512003040;5512003039",
+        "lacounty:bld_id": "452758849326;452771849266",
+        "name": "Maggiano's Little Italy",
+        "start_date": "2001"
+      },
+      "center": {
+        "lat": 34.073527999999996,
+        "lon": -118.35947870000001
+      }
+    }
+  ]
+}

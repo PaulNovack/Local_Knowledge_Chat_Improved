@@ -1,0 +1,45 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DE",
+    "brand": "chili_s",
+    "source": "https://download.geofabrik.de/north-america/us/delaware-latest.osm.pbf",
+    "source_md5": "5f714be897be010ea09e4134c39a0638",
+    "processed_utc": "2026-10-24T07:00:37.202137+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 912220688,
+      "tags": {
+        "addr:city": "Newark",
+        "addr:housenumber": "3220",
+        "addr:postcode": "19702",
+        "addr:state": "DE",
+        "addr:street": "Fashion Center Boulevard",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "check_date": "2024-11-05",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "opening_hours": "Su-Th 11:00-22:00; Fr,Sa 11:00-23:00",
+        "phone": "+1 302-292-6999",
+        "website": "https://www.chilis.com/locations/us/delaware/newark/christiana"
+      },
+      "center": {
+        "lat": 39.6716406,
+        "lon": -75.64974634999999
+      }
+    }
+  ]
+}

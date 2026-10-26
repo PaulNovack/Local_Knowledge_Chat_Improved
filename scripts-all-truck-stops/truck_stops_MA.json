@@ -1,0 +1,670 @@
+{
+  "version": 0.6,
+  "generator": "TruckStopExtractDownloader/1.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "80e676ffd8f3bcfc41a7a7ea78d8a8b1",
+    "processed_utc": "2026-10-24T19:48:42.990022+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3572445311,
+      "tags": {
+        "highway": "services",
+        "name": "Kon Auto Repair"
+      },
+      "lat": 41.6499686,
+      "lon": -70.4224177
+    },
+    {
+      "type": "node",
+      "id": 4388632442,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Petro Mart"
+      },
+      "lat": 41.6562974,
+      "lon": -70.9223707
+    },
+    {
+      "type": "node",
+      "id": 7935348432,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Global",
+        "brand:wikidata": "Q121160135",
+        "compressed_air": "no",
+        "fuel:HGV_diesel": "yes",
+        "name": "Global"
+      },
+      "lat": 42.5583635,
+      "lon": -71.2986638
+    },
+    {
+      "type": "node",
+      "id": 9273047751,
+      "tags": {
+        "highway": "services"
+      },
+      "lat": 42.1935358,
+      "lon": -72.5333203
+    },
+    {
+      "type": "node",
+      "id": 11483305644,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Roady's Truck Stops",
+        "compressed_air": "yes",
+        "name": "Roady's Truck Stops"
+      },
+      "lat": 42.0910882,
+      "lon": -72.5829564
+    },
+    {
+      "type": "node",
+      "id": 11483373245,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Mobil",
+        "brand:wikidata": "Q109676002",
+        "fuel:HGV_diesel": "yes",
+        "name": "Mobil"
+      },
+      "lat": 42.579285,
+      "lon": -72.1800971
+    },
+    {
+      "type": "node",
+      "id": 11492004151,
+      "tags": {
+        "addr:housenumber": "28",
+        "addr:street": "Harvard Road",
+        "amenity": "fuel",
+        "brand": "Alltown Fresh",
+        "brand:wikidata": "Q119591365",
+        "check_date": "2026-02-24",
+        "check_date:opening_hours": "2026-02-24",
+        "fuel:HGV_diesel": "yes",
+        "name": "Alltown Fresh",
+        "opening_hours": "24/7",
+        "self_service": "yes",
+        "website": "https://alltownfresh.com/locations/alltown-fresh-ayer/"
+      },
+      "lat": 42.5494782,
+      "lon": -71.5706942
+    },
+    {
+      "type": "node",
+      "id": 12247219305,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 42.0658278,
+      "lon": -72.1082577
+    },
+    {
+      "type": "relation",
+      "id": 5290322,
+      "tags": {
+        "highway": "services",
+        "name": "Blandford Service Plaza Eastbound",
+        "operator": "Massachusetts Turnpike Authority",
+        "toilets": "yes",
+        "type": "multipolygon"
+      },
+      "center": {
+        "lat": 42.1946815,
+        "lon": -72.93385
+      }
+    },
+    {
+      "type": "relation",
+      "id": 5290323,
+      "tags": {
+        "highway": "services",
+        "name": "Blandford Service Plaza Westbound",
+        "operator": "Massachusetts Turnpike Authority",
+        "toilets": "yes",
+        "type": "multipolygon"
+      },
+      "center": {
+        "lat": 42.194995500000005,
+        "lon": -72.93297900000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 138875615,
+      "tags": {
+        "addr:city": "Natick",
+        "addr:country": "US",
+        "addr:housenumber": "300",
+        "addr:postcode": "01760",
+        "addr:state": "MA",
+        "addr:street": "North Main Street",
+        "area": "yes",
+        "highway": "services",
+        "name": "Natick Service Plaza",
+        "operator": "Massachusetts Turnpike Authority",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 42.3116651,
+        "lon": -71.36434169999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 212117133,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Gulf",
+        "brand:wikidata": "Q5617505",
+        "building": "yes",
+        "hgv": "yes",
+        "name": "Gulf"
+      },
+      "center": {
+        "lat": 42.193978099999995,
+        "lon": -72.93407869999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 212117282,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Gulf",
+        "brand:wikidata": "Q5617505",
+        "building": "yes",
+        "hgv": "yes",
+        "name": "Gulf"
+      },
+      "center": {
+        "lat": 42.1958614,
+        "lon": -72.93283544999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 212335619,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Gulf",
+        "brand:wikidata": "Q5617505",
+        "building": "roof",
+        "fuel:HGV_diesel": "yes",
+        "full_service": "no",
+        "name": "Gulf",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 42.1560247,
+        "lon": -71.96484265000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 212340501,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Gulf",
+        "brand:wikidata": "Q5617505",
+        "building": "roof",
+        "fuel:HGV_diesel": "yes",
+        "full_service": "no",
+        "layer": "1",
+        "name": "Gulf",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 42.1401384,
+        "lon": -72.0241259
+      }
+    },
+    {
+      "type": "way",
+      "id": 212483824,
+      "tags": {
+        "addr:housenumber": "1992",
+        "addr:street": "Main Street",
+        "amenity": "fuel",
+        "building": "yes",
+        "name": "Petroil"
+      },
+      "center": {
+        "lat": 42.58935955,
+        "lon": -71.20184304999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 212520791,
+      "tags": {
+        "amenity": "fuel",
+        "building": "yes",
+        "hgv": "designated"
+      },
+      "center": {
+        "lat": 42.166357399999995,
+        "lon": -72.54463699999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 213263509,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Gulf",
+        "brand:wikidata": "Q5617505",
+        "building": "roof",
+        "fuel:HGV_diesel": "yes",
+        "full_service": "no",
+        "name": "Gulf",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 42.311932299999995,
+        "lon": -71.42974119999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 214962137,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Global",
+        "brand:wikidata": "Q121160135",
+        "building": "roof",
+        "hgv": "designated",
+        "name": "Global"
+      },
+      "center": {
+        "lat": 42.162301,
+        "lon": -71.89998394999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 215770137,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "name": "Petrol"
+      },
+      "center": {
+        "lat": 42.178088349999996,
+        "lon": -71.05014310000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 215918353,
+      "tags": {
+        "amenity": "fuel",
+        "building": "yes",
+        "fuel:HGV_diesel": "yes",
+        "hgv": "yes"
+      },
+      "center": {
+        "lat": 42.86938575,
+        "lon": -70.88465599999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 217074742,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Gulf",
+        "brand:wikidata": "Q5617505",
+        "building": "roof",
+        "fuel:HGV_diesel": "yes",
+        "full_service": "no",
+        "name": "Gulf",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 42.2449393,
+        "lon": -71.59253675000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 220522190,
+      "tags": {
+        "addr:city": "Sturbridge",
+        "addr:housenumber": "400",
+        "addr:state": "MA",
+        "addr:street": "Haynes St",
+        "branch": "Sturbridge",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.222@pilottravelcenters.com",
+        "fax": "+1 508-347-9165",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 508-347-9104",
+        "ref": "222",
+        "website": "https://locations.pilotflyingj.com/us/ma/sturbridge/400-haynes-st"
+      },
+      "center": {
+        "lat": 42.06529615,
+        "lon": -72.10841374999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 313010110,
+      "tags": {
+        "area": "yes",
+        "highway": "services",
+        "name": "Newton Service Plaza"
+      },
+      "center": {
+        "lat": 42.3303416,
+        "lon": -71.25471389999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 316162657,
+      "tags": {
+        "amenity": "fuel;food_court",
+        "area": "yes",
+        "highway": "services",
+        "name": "Charlton Service Plaza Westbound",
+        "opening_hours": "24/7",
+        "operator": "Massachusetts Turnpike Authority",
+        "toilets": "yes"
+      },
+      "center": {
+        "lat": 42.156417700000006,
+        "lon": -71.96375675000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 316162901,
+      "tags": {
+        "amenity": "fuel;food_court",
+        "area": "yes",
+        "highway": "services",
+        "name": "Framingham Service Plaza Westbound",
+        "operator": "Massachusetts Turnpike Authority",
+        "toilets": "yes"
+      },
+      "center": {
+        "lat": 42.3121659,
+        "lon": -71.42837205000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 316163462,
+      "tags": {
+        "amenity": "fuel;food_court",
+        "area": "yes",
+        "highway": "services",
+        "name": "Ludlow Service Plaza Eastbound",
+        "operator": "Massachusetts Turnpike Authority",
+        "toilets": "yes"
+      },
+      "center": {
+        "lat": 42.169232,
+        "lon": -72.45426450000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 316163463,
+      "tags": {
+        "amenity": "fuel;food_court",
+        "area": "yes",
+        "highway": "services",
+        "name": "Ludlow Service Plaza Westbound",
+        "operator": "Massachusetts Turnpike Authority",
+        "toilets": "yes"
+      },
+      "center": {
+        "lat": 42.170874,
+        "lon": -72.45542999999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 316163622,
+      "tags": {
+        "area": "yes",
+        "highway": "services",
+        "internet_access": "wlan",
+        "name": "Lee Service Plaza Eastbound",
+        "operator": "Massachusetts Turnpike Authority",
+        "toilets": "yes"
+      },
+      "center": {
+        "lat": 42.2969494,
+        "lon": -73.27476379999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 316163623,
+      "tags": {
+        "area": "yes",
+        "highway": "services",
+        "internet_access": "wlan",
+        "name": "Lee Service Plaza Westbound",
+        "operator": "Massachusetts Turnpike Authority"
+      },
+      "center": {
+        "lat": 42.298322,
+        "lon": -73.27428250000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 321537898,
+      "tags": {
+        "amenity": "fuel;food_court",
+        "area": "yes",
+        "highway": "services",
+        "name": "Lexington Service Plaza Northbound",
+        "opening_hours": "24/7"
+      },
+      "center": {
+        "lat": 42.4399696,
+        "lon": -71.25733279999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 321571689,
+      "tags": {
+        "amenity": "fuel;food_court",
+        "area": "yes",
+        "highway": "services",
+        "website": "https://www.mass.gov/info-details/service-plaza-locations"
+      },
+      "center": {
+        "lat": 41.68824895,
+        "lon": -70.33766230000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 321572444,
+      "tags": {
+        "amenity": "fuel;food_court",
+        "area": "yes",
+        "highway": "services",
+        "name": "Bridgewater Service Plaza Northbound",
+        "operator": "Massachusetts Department of Transportation",
+        "source": "Yahoo"
+      },
+      "center": {
+        "lat": 41.95674125,
+        "lon": -71.02532889999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 434301292,
+      "tags": {
+        "amenity": "fuel;food_court",
+        "area": "yes",
+        "highway": "services",
+        "name": "Bridgewater Service Plaza Southbound",
+        "operator": "Massachusetts Department of Transportation",
+        "source": "Yahoo"
+      },
+      "center": {
+        "lat": 41.95605835,
+        "lon": -71.02736635000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 434308103,
+      "tags": {
+        "amenity": "fuel;food_court",
+        "area": "yes",
+        "highway": "services",
+        "name": "Westborough Service Plaza",
+        "operator": "Massachusetts Turnpike Authority"
+      },
+      "center": {
+        "lat": 42.245368049999996,
+        "lon": -71.59159309999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 435144408,
+      "tags": {
+        "amenity": "fuel;food_court",
+        "area": "yes",
+        "highway": "services",
+        "name": "Charlton Service Plaza Eastbound",
+        "operator": "Massachusetts Turnpike Authority",
+        "toilets": "yes"
+      },
+      "center": {
+        "lat": 42.139975750000005,
+        "lon": -72.02518269999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 435150735,
+      "tags": {
+        "amenity": "fuel;food_court",
+        "area": "yes",
+        "highway": "services",
+        "name": "Beverly Service Plaza"
+      },
+      "center": {
+        "lat": 42.574377600000005,
+        "lon": -70.87456959999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 441356229,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Global",
+        "brand:wikidata": "Q121160135",
+        "hgv": "yes",
+        "name": "Global Diesel"
+      },
+      "center": {
+        "lat": 42.4936637,
+        "lon": -71.7255179
+      }
+    },
+    {
+      "type": "way",
+      "id": 1039346655,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "check_date": "2026-06-27",
+        "fuel:HGV_diesel": "yes",
+        "fuel:diesel": "yes",
+        "fuel:octane_87": "yes",
+        "fuel:octane_89": "yes",
+        "fuel:octane_91": "yes",
+        "hgv": "no",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Pilot",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "self_service": "yes",
+        "toilets": "yes",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 42.06679065,
+        "lon": -72.10755365
+      }
+    },
+    {
+      "type": "way",
+      "id": 1347465586,
+      "tags": {
+        "area": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 42.55618295,
+        "lon": -72.02517565
+      }
+    },
+    {
+      "type": "way",
+      "id": 1415226671,
+      "tags": {
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "website": "https://locations.pilotflyingj.com/us/ma/chicopee/357-burnett-rd"
+      },
+      "center": {
+        "lat": 42.165533499999995,
+        "lon": -72.54413469999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1473790040,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 42.4937698,
+        "lon": -71.72571715000004
+      }
+    }
+  ]
+}

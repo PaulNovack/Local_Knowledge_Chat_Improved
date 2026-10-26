@@ -1,0 +1,114 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CA",
+    "brand": "bubba_gump_shrimp_company",
+    "source": "https://download.geofabrik.de/north-america/us/california-latest.osm.pbf",
+    "source_md5": "26040c163edb7a5f630164ee55d5afda",
+    "processed_utc": "2026-10-24T06:59:04.829226+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 378743791,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bubba Gump Shrimp Company",
+        "brand:wikidata": "Q50024",
+        "check_date": "2023-12-16",
+        "cuisine": "seafood",
+        "level": "1",
+        "name": "Bubba Gump Shrimp Company"
+      },
+      "lat": 37.8110757,
+      "lon": -122.4102453
+    },
+    {
+      "type": "node",
+      "id": 2512444418,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bubba Gump Shrimp Company",
+        "brand:wikidata": "Q50024",
+        "cuisine": "seafood",
+        "name": "Bubba Gump Shrimp Company"
+      },
+      "lat": 33.8036833,
+      "lon": -117.911895
+    },
+    {
+      "type": "node",
+      "id": 3019431039,
+      "tags": {
+        "addr:city": "Universal City",
+        "addr:housenumber": "100",
+        "addr:postcode": "91608",
+        "addr:state": "CA",
+        "addr:street": "Universal City Plaza",
+        "amenity": "restaurant",
+        "brand": "Bubba Gump Shrimp Company",
+        "brand:wikidata": "Q50024",
+        "cuisine": "seafood",
+        "name": "Bubba Gump Shrimp Company",
+        "phone": "+1 818-753-4867",
+        "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/dining/citywalk/bubba-gump"
+      },
+      "lat": 34.1360503,
+      "lon": -118.3533755
+    },
+    {
+      "type": "relation",
+      "id": 7037899,
+      "tags": {
+        "addr:housenumber": "720",
+        "addr:postcode": "93940",
+        "addr:street": "Cannery Row",
+        "amenity": "restaurant",
+        "brand": "Bubba Gump Shrimp Company",
+        "brand:wikidata": "Q50024",
+        "building": "yes",
+        "building:levels": "1",
+        "contact:instagram": "officialbubbagump",
+        "contact:phone": "+1 831 373 1884",
+        "cuisine": "seafood",
+        "height": "3",
+        "name": "Bubba Gump Shrimp Company",
+        "opening_hours": "Su-Th 10:30-22:00; Fr-Sa 10:30-23:00",
+        "type": "multipolygon",
+        "website": "https://bubbagump.com/",
+        "website:menu": "https://www.bubbagump.com/location/bubba-gump-monterey-ca/#menus"
+      },
+      "center": {
+        "lat": 36.6167302,
+        "lon": -121.90020864999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 336889638,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bubba Gump Shrimp Company",
+        "brand:wikidata": "Q50024",
+        "building": "yes",
+        "cuisine": "seafood",
+        "ele": "15.5",
+        "height": "10.1",
+        "lacounty:ain": "4291030904",
+        "lacounty:bld_id": "410998826289",
+        "name": "Bubba Gump Shrimp Company"
+      },
+      "center": {
+        "lat": 34.0097294,
+        "lon": -118.49717874999999
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "twin_peaks",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11660036262,
+      "tags": {
+        "addr:city": "Poland",
+        "addr:housenumber": "7165",
+        "addr:postcode": "44514",
+        "addr:state": "OH",
+        "addr:street": "Tiffany Boulevard",
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "cuisine": "american",
+        "name": "Twin Peaks"
+      },
+      "lat": 41.0252311,
+      "lon": -80.6280572
+    },
+    {
+      "type": "node",
+      "id": 13096944274,
+      "tags": {
+        "addr:city": "Columbus",
+        "addr:housenumber": "1611",
+        "addr:postcode": "43240",
+        "addr:state": "OH",
+        "addr:street": "Polaris Parkway",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "check_date": "2026-04-19",
+        "cuisine": "american",
+        "name": "Twin Peaks",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      },
+      "lat": 40.1411779,
+      "lon": -82.9746032
+    },
+    {
+      "type": "way",
+      "id": 141910928,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Twin Peaks"
+      },
+      "center": {
+        "lat": 39.32059165,
+        "lon": -84.42233345
+      }
+    },
+    {
+      "type": "way",
+      "id": 724643473,
+      "tags": {
+        "addr:city": "Beavercreek",
+        "addr:housenumber": "2661",
+        "addr:postcode": "45431",
+        "addr:state": "OH",
+        "addr:street": "Fairfield Commons",
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "building": "yes",
+        "check_date": "2025-05-28",
+        "cuisine": "american",
+        "name": "Twin Peaks",
+        "opening_hours": "Su-Th 11:00-24:00; Fr-Sa 11:00-01:30",
+        "phone": "+1-937-705-6250",
+        "source": "Mapbox",
+        "website": "https://twinpeaksrestaurant.com/locations/beavercreek"
+      },
+      "center": {
+        "lat": 39.763832699999995,
+        "lon": -84.05682060000004
+      }
+    }
+  ]
+}

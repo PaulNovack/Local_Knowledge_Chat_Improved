@@ -1,0 +1,1777 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "dominos",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1717251410,
+      "tags": {
+        "addr:city": "Greensburg",
+        "addr:housenumber": "2020",
+        "addr:postcode": "47240",
+        "addr:state": "IN",
+        "addr:street": "North Lincoln Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "check_date": "2024-12-04",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 812-651-4001",
+        "ref": "2519",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/greensburg/2020-n-lincoln-street"
+      },
+      "lat": 39.3563919,
+      "lon": -85.4793718
+    },
+    {
+      "type": "node",
+      "id": 2734828017,
+      "tags": {
+        "addr:city": "Fishers",
+        "addr:housenumber": "11805",
+        "addr:postcode": "46038",
+        "addr:state": "IN",
+        "addr:street": "Allisonville Road",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 11:00-24:00; Fr 10:30-01:00; Sa 11:00-01:00; Su 11:00-24:00",
+        "phone": "+1 317-842-3131",
+        "ref": "2529",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/fishers/46038/11805-allisonville-rd/"
+      },
+      "lat": 39.9595342,
+      "lon": -86.0385738
+    },
+    {
+      "type": "node",
+      "id": 2983846655,
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "401",
+        "addr:postcode": "47374",
+        "addr:state": "IN",
+        "addr:street": "National Road West",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "10:30-02:00",
+        "phone": "+1 765-966-8351",
+        "ref": "2550",
+        "short_name": "Domino's",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/richmond/401-national-road-w"
+      },
+      "lat": 39.8265938,
+      "lon": -84.9075977
+    },
+    {
+      "type": "node",
+      "id": 4632494689,
+      "tags": {
+        "addr:city": "Evansville",
+        "addr:housenumber": "2101",
+        "addr:postcode": "47714",
+        "addr:state": "IN",
+        "addr:street": "South Weinbach",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-02:00; Su 10:30-24:00",
+        "phone": "+1 812-473-3383",
+        "ref": "2578",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/evansville/2101-s-weinbach"
+      },
+      "lat": 37.9479734,
+      "lon": -87.530625
+    },
+    {
+      "type": "node",
+      "id": 4643055323,
+      "tags": {
+        "addr:city": "Mount Vernon",
+        "addr:housenumber": "1004",
+        "addr:postcode": "47620",
+        "addr:state": "IN",
+        "addr:street": "East 4th Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-23:00; Fr-Sa 10:00-24:00; Su 10:00-23:00",
+        "outdoor_seating": "no",
+        "phone": "+1 812-838-3003",
+        "ref": "2589",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/mount-vernon/1004-east-4th-street"
+      },
+      "lat": 37.9346117,
+      "lon": -87.884711
+    },
+    {
+      "type": "node",
+      "id": 4969015580,
+      "tags": {
+        "addr:city": "Carmel",
+        "addr:housenumber": "1441",
+        "addr:postcode": "46032",
+        "addr:state": "IN",
+        "addr:street": "South Guilford Road",
+        "addr:unit": "110",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 317-846-6100",
+        "ref": "2532",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/carmel/1441-s-guilford-rd-suite-110",
+        "wheelchair": "limited"
+      },
+      "lat": 39.9572052,
+      "lon": -86.1403384
+    },
+    {
+      "type": "node",
+      "id": 4978358164,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "9935",
+        "addr:postcode": "46229",
+        "addr:state": "IN",
+        "addr:street": "East 21st Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Domino's",
+        "opening_hours": "Mo-Su 10:00-24:00",
+        "phone": "+1 317-899-3030",
+        "ref": "2560",
+        "takeaway": "only",
+        "website": "https://pizza.dominos.com/indiana/indianapolis/9935-e-21st-street"
+      },
+      "lat": 39.7965959,
+      "lon": -85.991164
+    },
+    {
+      "type": "node",
+      "id": 5587236517,
+      "tags": {
+        "addr:city": "Fort Wayne",
+        "addr:housenumber": "2910",
+        "addr:postcode": "46825",
+        "addr:state": "IN",
+        "addr:street": "East Dupont Road",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 260-999-4186",
+        "ref": "2658",
+        "short_name": "Domino's",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/fort-wayne/2910-east-dupont-road"
+      },
+      "lat": 41.1783943,
+      "lon": -85.1054271
+    },
+    {
+      "type": "node",
+      "id": 5652953929,
+      "tags": {
+        "addr:city": "Fort Wayne",
+        "addr:housenumber": "4818",
+        "addr:postcode": "46804",
+        "addr:state": "IN",
+        "addr:street": "Illinois Road",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "diet:vegetarian": "yes",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 260-203-3016",
+        "ref": "2674",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/fort-wayne/4818-illinois-road"
+      },
+      "lat": 41.075006,
+      "lon": -85.2045385
+    },
+    {
+      "type": "node",
+      "id": 5763591432,
+      "tags": {
+        "addr:city": "South Bend",
+        "addr:housenumber": "1627",
+        "addr:postcode": "46637",
+        "addr:state": "IN",
+        "addr:street": "Edison Road",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-02:00; Su 10:00-24:00",
+        "phone": "+1 574-271-0300",
+        "ref": "2654",
+        "short_name": "Domino's",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/south-bend/1627-s-edison-road"
+      },
+      "lat": 41.6946305,
+      "lon": -86.2242563
+    },
+    {
+      "type": "node",
+      "id": 6146664249,
+      "tags": {
+        "addr:city": "Michigan City",
+        "addr:housenumber": "5780",
+        "addr:postcode": "46360",
+        "addr:state": "IN",
+        "addr:street": "Franklin Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "check_date": "2026-10-18",
+        "check_date:opening_hours": "2026-10-18",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Domino's",
+        "opening_hours": "Mo-Su 10:00-23:00",
+        "phone": "+1-219-809-2300",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/michigan-city/5780-franklin-st"
+      },
+      "lat": 41.6667007,
+      "lon": -86.8885034
+    },
+    {
+      "type": "node",
+      "id": 7030723102,
+      "tags": {
+        "addr:city": "Granger",
+        "addr:housenumber": "51160",
+        "addr:postcode": "46530",
+        "addr:state": "IN",
+        "addr:street": "Bittersweet",
+        "addr:unit": "1A",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 574-271-8885",
+        "ref": "2584",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/granger/51160-bittersweet-1a"
+      },
+      "lat": 41.7511435,
+      "lon": -86.1106154
+    },
+    {
+      "type": "node",
+      "id": 7692716810,
+      "tags": {
+        "addr:city": "Scottsburg",
+        "addr:housenumber": "1220",
+        "addr:postcode": "47170",
+        "addr:state": "IN",
+        "addr:street": "West McClain Avenue",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 812-722-4001",
+        "ref": "2605",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/scottsburg/1220-w-mcclain-ave"
+      },
+      "lat": 38.6859774,
+      "lon": -85.7854577
+    },
+    {
+      "type": "node",
+      "id": 8110268144,
+      "tags": {
+        "addr:city": "Portage",
+        "addr:housenumber": "1895",
+        "addr:postcode": "46368",
+        "addr:state": "IN",
+        "addr:street": "Crisman Road",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "drive_through": "yes",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 219-706-7010",
+        "ref": "2603",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/portage/1895-crisman-rd"
+      },
+      "lat": 41.5973014,
+      "lon": -87.1730826
+    },
+    {
+      "type": "node",
+      "id": 8870245877,
+      "tags": {
+        "addr:city": "Fishers",
+        "addr:housenumber": "11640",
+        "addr:postcode": "46037",
+        "addr:state": "IN",
+        "addr:street": "Brooks School Road",
+        "addr:unit": "300",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-02:00; Su 10:00-24:00",
+        "phone": "+1 317-284-7006",
+        "ref": "2504",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/fishers/11640-brooks-school-road-ste-300"
+      },
+      "lat": 39.95816,
+      "lon": -85.9428228
+    },
+    {
+      "type": "node",
+      "id": 9029489098,
+      "tags": {
+        "addr:city": "Noblesville",
+        "addr:housenumber": "770",
+        "addr:postcode": "46062",
+        "addr:state": "IN",
+        "addr:street": "Westfield Road",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 317-773-7373",
+        "ref": "2514",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/noblesville/770-westfield-rd"
+      },
+      "lat": 40.0474931,
+      "lon": -86.0298655
+    },
+    {
+      "type": "node",
+      "id": 9099337154,
+      "tags": {
+        "addr:city": "Bloomington",
+        "addr:housenumber": "2504",
+        "addr:postcode": "47401",
+        "addr:state": "IN",
+        "addr:street": "East 3rd Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-We 10:00-02:00; Th-Sa 10:00-03:00; Su 10:00-02:00",
+        "phone": "+1 812-650-7033",
+        "ref": "2501",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/bloomington/2504-east-3rd-street"
+      },
+      "lat": 39.1628939,
+      "lon": -86.5021462
+    },
+    {
+      "type": "node",
+      "id": 9512257756,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "985",
+        "addr:postcode": "46219",
+        "addr:state": "IN",
+        "addr:street": "North Shadeland Avenue",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-02:00; Su 10:00-24:00",
+        "phone": "+1 317-357-3030",
+        "ref": "2565",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/indianapolis/985-n-shadeland-ave"
+      },
+      "lat": 39.7814729,
+      "lon": -86.0448673
+    },
+    {
+      "type": "node",
+      "id": 9525991455,
+      "tags": {
+        "addr:city": "West Lafayette",
+        "addr:housenumber": "616",
+        "addr:postcode": "47906",
+        "addr:state": "IN",
+        "addr:street": "West Stadium",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 765-497-7890",
+        "ref": "9674",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/west-lafayette/616-w-stadium"
+      },
+      "lat": 40.4314975,
+      "lon": -86.913287
+    },
+    {
+      "type": "node",
+      "id": 9760669612,
+      "tags": {
+        "addr:city": "Goshen",
+        "addr:housenumber": "905 1/2",
+        "addr:state": "IN",
+        "addr:street": "West Pike Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "fixme:atp": "Check if still exists. No corresponding ATP object.",
+        "name": "Domino's",
+        "opening_hours": "Su-Th 10:30-24:00; Fr-Sa 10:30-01:00",
+        "phone": "+1-574-349-9340",
+        "takeaway": "yes"
+      },
+      "lat": 41.5891987,
+      "lon": -85.8469545
+    },
+    {
+      "type": "node",
+      "id": 10707534335,
+      "tags": {
+        "addr:city": "Laporte",
+        "addr:housenumber": "325",
+        "addr:postcode": "46350",
+        "addr:state": "IN",
+        "addr:street": "J st",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "check_date": "2023-03-23",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 219-380-0760",
+        "ref": "9672",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/laporte/325-j-st"
+      },
+      "lat": 41.6040561,
+      "lon": -86.7298432
+    },
+    {
+      "type": "node",
+      "id": 10882591391,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "7002",
+        "addr:postcode": "46220",
+        "addr:state": "IN",
+        "addr:street": "Lake Plaza Drive",
+        "addr:unit": "D",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "indoor_seating": "no",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "outdoor_seating": "no",
+        "phone": "+1 463-237-2080",
+        "ref": "2191",
+        "takeaway": "only",
+        "website": "https://pizza.dominos.com/indiana/indianapolis/7002-lake-plaza-drive-ste-d"
+      },
+      "lat": 39.8823596,
+      "lon": -86.0673398
+    },
+    {
+      "type": "node",
+      "id": 10891999077,
+      "tags": {
+        "addr:city": "Valparaiso",
+        "addr:housenumber": "1707 Suite D",
+        "addr:postcode": "46383",
+        "addr:state": "IN",
+        "addr:street": "Laporte Avenue",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th, Su 10:30-00:00; Fr, Sa 10:30-01:00",
+        "phone": "+1 219-465-5500",
+        "ref": "2625",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/valparaiso/1707-laporte-ave"
+      },
+      "lat": 41.4665891,
+      "lon": -87.0396464
+    },
+    {
+      "type": "node",
+      "id": 11074247895,
+      "tags": {
+        "addr:city": "Columbus",
+        "addr:housenumber": "1770",
+        "addr:postcode": "47201",
+        "addr:state": "IN",
+        "addr:street": "25th Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 812-348-6300",
+        "ref": "2540",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/columbus/1770-25th-street"
+      },
+      "lat": 39.2234981,
+      "lon": -85.9055922
+    },
+    {
+      "type": "node",
+      "id": 11104852429,
+      "tags": {
+        "addr:city": "Chesterton",
+        "addr:housenumber": "560",
+        "addr:postcode": "46304",
+        "addr:state": "IN",
+        "addr:street": "Indian Boundary",
+        "addr:unit": "1",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "check_date": "2023-08-10",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 219-250-3068",
+        "ref": "2619",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/chesterton/560-indian-boundary"
+      },
+      "lat": 41.6161296,
+      "lon": -87.0427965
+    },
+    {
+      "type": "node",
+      "id": 11203771009,
+      "tags": {
+        "addr:housenumber": "1532",
+        "addr:street": "W Cook Road",
+        "amenity": "restaurant",
+        "description": "Small Domino's pizza restaurant featuring curbside pickup, delivery, and drive-thru. No dine-in.",
+        "name": "Domino's Pizza",
+        "opening_hours": "Mo-Th, Su 10:00-00:00; Fr, Sa 10:00-01:00",
+        "phone": "+1-260-702-9600",
+        "website": "https://dominos.com"
+      },
+      "lat": 41.1471787,
+      "lon": -85.1634888
+    },
+    {
+      "type": "node",
+      "id": 11244809159,
+      "tags": {
+        "addr:city": "Franklin",
+        "addr:housenumber": "1713",
+        "addr:postcode": "46131",
+        "addr:state": "IN",
+        "addr:street": "North Morton Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 317-738-4455",
+        "ref": "2541",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/franklin/1713-n-morton-street"
+      },
+      "lat": 39.4951516,
+      "lon": -86.0646854
+    },
+    {
+      "type": "node",
+      "id": 11963011697,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "check_date": "2024-12-03",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "lat": 39.9255685,
+      "lon": -85.3825014
+    },
+    {
+      "type": "node",
+      "id": 11975073647,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "4015",
+        "addr:postcode": "46237",
+        "addr:state": "IN",
+        "addr:street": "East Southport Road",
+        "addr:unit": "C",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 463-237-2170",
+        "ref": "2663",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/indianapolis/4015-east-southport-road-ste-c"
+      },
+      "lat": 39.66497,
+      "lon": -86.09782
+    },
+    {
+      "type": "node",
+      "id": 11975073653,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "4430",
+        "addr:postcode": "46221",
+        "addr:state": "IN",
+        "addr:street": "South Mann Road",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 317-856-3331",
+        "ref": "2665",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/indianapolis/4430-south-mann-road"
+      },
+      "lat": 39.6999263,
+      "lon": -86.241608
+    },
+    {
+      "type": "node",
+      "id": 11975073660,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "845",
+        "addr:postcode": "46204",
+        "addr:state": "IN",
+        "addr:street": "North Capitol Avenue",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 317-635-3030",
+        "ref": "2555",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/indianapolis/845-north-capitol-avenue"
+      },
+      "lat": 39.7792654,
+      "lon": -86.1609784
+    },
+    {
+      "type": "node",
+      "id": 11975073667,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "3220",
+        "addr:postcode": "46227",
+        "addr:state": "IN",
+        "addr:street": "South East Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-01:00; Fr-Sa 10:00-02:00; Su 10:00-01:00",
+        "phone": "+1 317-784-7755",
+        "ref": "2568",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/indianapolis/3220-s-east-street"
+      },
+      "lat": 39.7183005,
+      "lon": -86.1494593
+    },
+    {
+      "type": "node",
+      "id": 11975131086,
+      "tags": {
+        "addr:city": "Greenwood",
+        "addr:housenumber": "1211",
+        "addr:postcode": "46142",
+        "addr:state": "IN",
+        "addr:street": "North Madison Avenue",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-01:00; Fr-Sa 10:00-02:00; Su 10:00-01:00",
+        "phone": "+1 317-859-3030",
+        "ref": "2544",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/greenwood/1211-n-madison-ave"
+      },
+      "lat": 39.6313023,
+      "lon": -86.1147819
+    },
+    {
+      "type": "node",
+      "id": 11975131097,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "4030",
+        "addr:postcode": "46203",
+        "addr:state": "IN",
+        "addr:street": "South Emerson Avenue",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-01:00; Fr-Sa 10:00-02:00; Su 10:00-01:00",
+        "phone": "+1 317-783-3030",
+        "ref": "2566",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/indianapolis/4030-s-emerson-ave"
+      },
+      "lat": 39.7081282,
+      "lon": -86.083266
+    },
+    {
+      "type": "node",
+      "id": 11976655164,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "check_date": "2024-06-12",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "lat": 38.4527079,
+      "lon": -85.669738
+    },
+    {
+      "type": "node",
+      "id": 11976781576,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "check_date": "2024-06-12",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "lat": 39.6260067,
+      "lon": -85.445257
+    },
+    {
+      "type": "node",
+      "id": 11980061480,
+      "tags": {
+        "addr:city": "Jeffersonville",
+        "addr:housenumber": "2784",
+        "addr:postcode": "47130",
+        "addr:state": "IN",
+        "addr:street": "Meijer Road",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 812-913-0031",
+        "ref": "2586",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/jeffersonville/2784-meijer-rd"
+      },
+      "lat": 38.3259399,
+      "lon": -85.7113446
+    },
+    {
+      "type": "node",
+      "id": 11980061486,
+      "tags": {
+        "addr:city": "Clarksville",
+        "addr:housenumber": "914",
+        "addr:postcode": "47129",
+        "addr:state": "IN",
+        "addr:street": "Eastern Boulevard",
+        "addr:unit": "500",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 812-288-4444",
+        "ref": "2520",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/clarksville/914-eastern-blvd-suite-500"
+      },
+      "lat": 38.3034726,
+      "lon": -85.7644271
+    },
+    {
+      "type": "node",
+      "id": 12015416408,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "lat": 39.9046582,
+      "lon": -86.0663883
+    },
+    {
+      "type": "node",
+      "id": 12379116928,
+      "tags": {
+        "addr:housenumber": "748",
+        "addr:street": "Highlander Point Drive",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "check_date": "2024-11-27",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/floyds-knobs/748-highlander-point-dr"
+      },
+      "lat": 38.3166974,
+      "lon": -85.9007096
+    },
+    {
+      "type": "node",
+      "id": 12539194674,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "lat": 39.950778,
+      "lon": -86.2809703
+    },
+    {
+      "type": "node",
+      "id": 13335230896,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "8144",
+        "addr:postcode": "46259",
+        "addr:state": "IN",
+        "addr:street": "East Southport Road",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Su-Th 10:30-24:00; Fr-Sa 10:30-25:00",
+        "phone": "+1-317-562-0262",
+        "takeaway": "yes"
+      },
+      "lat": 39.6673828,
+      "lon": -86.0202669
+    },
+    {
+      "type": "node",
+      "id": 13704986901,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "lat": 41.5511254,
+      "lon": -87.1815032
+    },
+    {
+      "type": "node",
+      "id": 13705932001,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Domino's Pizza"
+      },
+      "lat": 41.5392361,
+      "lon": -87.2690306
+    },
+    {
+      "type": "node",
+      "id": 13838107000,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Domino's",
+        "phone": "+1-260-230-1825",
+        "takeaway": "yes"
+      },
+      "lat": 41.1642821,
+      "lon": -85.4919709
+    },
+    {
+      "type": "node",
+      "id": 13892361423,
+      "tags": {
+        "addr:city": "Merrillville",
+        "addr:housenumber": "5374",
+        "addr:postcode": "46410",
+        "addr:state": "IN",
+        "addr:street": "Broadway",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "lat": 41.5212984,
+      "lon": -87.3373523
+    },
+    {
+      "type": "node",
+      "id": 14155456636,
+      "tags": {
+        "addr:housenumber": "2620",
+        "addr:street": "South Walnut Street",
+        "amenity": "restaurant",
+        "description": "Domino's southside",
+        "name": "Domino's Pizza",
+        "opening_hours": "Mo-Th, Su 10:00-00:00; Fr, Sa 10:00-01:00",
+        "phone": "+1-812-335-7777",
+        "website": "dominos.com"
+      },
+      "lat": 39.1350702,
+      "lon": -86.5327265
+    },
+    {
+      "type": "node",
+      "id": 14175333002,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Domino's"
+      },
+      "lat": 40.0245988,
+      "lon": -86.9017308
+    },
+    {
+      "type": "node",
+      "id": 14182815501,
+      "tags": {
+        "addr:housenumber": "600",
+        "addr:postcode": "47711",
+        "addr:street": "North Weinbach Avenue",
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Domino’s",
+        "opening_hours": "Mo-Su 10:30-00:00",
+        "outdoor_seating": "no",
+        "phone": "+1-812-473-1011",
+        "website": "https://dominos.com/"
+      },
+      "lat": 37.9829782,
+      "lon": -87.5295871
+    },
+    {
+      "type": "node",
+      "id": 14228449244,
+      "tags": {
+        "addr:city": "Highland",
+        "addr:housenumber": "8905",
+        "addr:postcode": "46322",
+        "addr:state": "IN",
+        "addr:street": "Indianapolis Boulevard",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Su-Th 10:30-24:00; Fr-Sa 10:30-01:00",
+        "phone": "+1-219-595-8100",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/highland/8905-indianapolis-blvd"
+      },
+      "lat": 41.5518854,
+      "lon": -87.4709382
+    },
+    {
+      "type": "way",
+      "id": 170659568,
+      "tags": {
+        "addr:city": "Wabash",
+        "addr:housenumber": "1307",
+        "addr:postcode": "46992",
+        "addr:state": "IN",
+        "addr:street": "North Cass Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Su-Th 10:30-00:00; Fr-Sa 10:30-01:00",
+        "phone": "+1-260-377-4500",
+        "takeaway": "yes",
+        "website": "https://dominos.com"
+      },
+      "center": {
+        "lat": 40.81433035,
+        "lon": -85.83666504999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 242958890,
+      "tags": {
+        "addr:city": "Connersville",
+        "addr:housenumber": "2050",
+        "addr:postcode": "47331",
+        "addr:state": "IN",
+        "addr:street": "North Park Road",
+        "amenity": "fast_food",
+        "branch": "Connersville",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "retail",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Su-Th 10:30-24:00; Fr-Sa 10:30-25:00",
+        "phone": "+1-765-222-3015",
+        "takeaway": "yes",
+        "website": "https://www.dominos.com/"
+      },
+      "center": {
+        "lat": 39.658384850000004,
+        "lon": -85.12873549999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 353012979,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "fixme:atp": "Check if still exists. No corresponding ATP object.",
+        "name": "Domino's",
+        "short_name": "Domino's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 37.985299850000004,
+        "lon": -87.49218159999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 397343459,
+      "tags": {
+        "addr:city": "Merrillville",
+        "addr:housenumber": "7758",
+        "addr:postcode": "46410",
+        "addr:state": "IN",
+        "addr:street": "Broadway",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "retail",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.477382750000004,
+        "lon": -87.33652515
+      }
+    },
+    {
+      "type": "way",
+      "id": 426719880,
+      "tags": {
+        "addr:city": "Ellettsville",
+        "addr:housenumber": "5560",
+        "addr:postcode": "47404",
+        "addr:state": "IN",
+        "addr:street": "State Road 46",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "commercial",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 812-650-5099",
+        "ref": "2545",
+        "short_name": "Domino's",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/ellettsville/5560-state-road-46"
+      },
+      "center": {
+        "lat": 39.2218525,
+        "lon": -86.60595750000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 473598639,
+      "tags": {
+        "addr:city": "Fort Wayne",
+        "addr:housenumber": "1920;1940",
+        "addr:postcode": "46805",
+        "addr:state": "IN",
+        "addr:street": "North Coliseum Boulevard",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 260-267-9617",
+        "ref": "2672",
+        "short_name": "Domino's",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/fort-wayne/1940-north-coliseum-blvd"
+      },
+      "center": {
+        "lat": 41.095056650000004,
+        "lon": -85.08755514999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 585483452,
+      "tags": {
+        "addr:city": "Logansport",
+        "addr:housenumber": "3423",
+        "addr:postcode": "46947",
+        "addr:state": "IN",
+        "addr:street": "East Market Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "drive_through": "yes",
+        "name": "Domino's",
+        "phone": "+1-574-753-6305",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.75686805,
+        "lon": -86.32042430000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 644919407,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "fixme:atp": "Check if still exists. No corresponding ATP object.",
+        "name": "Domino's",
+        "short_name": "Domino's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.17110995,
+        "lon": -86.53393234999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 683263931,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "501",
+        "addr:postcode": "46205",
+        "addr:state": "IN",
+        "addr:street": "East 38th Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 317-924-3030",
+        "ref": "2661",
+        "source": "esri_USDOT_Indiana",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/indianapolis/501-e-38th-street"
+      },
+      "center": {
+        "lat": 39.824698299999994,
+        "lon": -86.14928829999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 746287038,
+      "tags": {
+        "addr:city": "Peru",
+        "addr:housenumber": "950",
+        "addr:postcode": "46970",
+        "addr:state": "IN",
+        "addr:street": "West Main Street",
+        "amenity": "fast_food",
+        "branch": "#2516",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th,Su 10:30-24:00; Fr-Sa 10:30-01:00",
+        "phone": "+1 765-473-6603",
+        "ref": "2516",
+        "roof:shape": "flat",
+        "short_name": "Domino's",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "no",
+        "website": "https://www.dominos.com/en/pages/order/?locations=1#!/locations/search/?type=Locations&c=46970",
+        "wheelchair": "limited"
+      },
+      "center": {
+        "lat": 40.7450649,
+        "lon": -86.09670215
+      }
+    },
+    {
+      "type": "way",
+      "id": 762578348,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "fixme:atp": "Check if still exists. No corresponding ATP object.",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.4666388,
+        "lon": -87.40218334999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 786222316,
+      "tags": {
+        "addr:city": "Fort Wayne",
+        "addr:housenumber": "1020",
+        "addr:postcode": "46816",
+        "addr:state": "IN",
+        "addr:street": "East Tillman Road",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 260-247-6560",
+        "ref": "2639",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/ft-wayne/1020-east-tillman-road"
+      },
+      "center": {
+        "lat": 41.01675215,
+        "lon": -85.12153539999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 816596352,
+      "tags": {
+        "addr:city": "Warsaw",
+        "addr:housenumber": "202",
+        "addr:postcode": "46580",
+        "addr:state": "IN",
+        "addr:street": "North Detroit Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 574-269-5757",
+        "ref": "2535",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/warsaw/202-n-detroit-street"
+      },
+      "center": {
+        "lat": 41.23939705,
+        "lon": -85.85241825000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 855953222,
+      "tags": {
+        "addr:city": "Lafayette",
+        "addr:housenumber": "3606",
+        "addr:postcode": "47909",
+        "addr:state": "IN",
+        "addr:street": "Cheryl Lane",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 765-767-7900",
+        "ref": "2510",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/lafayette/3606-cheryl-lane"
+      },
+      "center": {
+        "lat": 40.3675987,
+        "lon": -86.866352
+      }
+    },
+    {
+      "type": "way",
+      "id": 894437996,
+      "tags": {
+        "addr:city": "Lafayette",
+        "addr:housenumber": "2504",
+        "addr:postcode": "47904",
+        "addr:state": "IN",
+        "addr:street": "Greenbush Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 765-743-3000",
+        "ref": "2512",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/lafayette/2504-greenbush-st"
+      },
+      "center": {
+        "lat": 40.4323855,
+        "lon": -86.86927435000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 907933827,
+      "tags": {
+        "addr:city": "Bedford",
+        "addr:housenumber": "1605",
+        "addr:postcode": "47421",
+        "addr:state": "IN",
+        "addr:street": "M Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "retail",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 812-508-8484",
+        "ref": "2549",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/bedford/1605-m-street"
+      },
+      "center": {
+        "lat": 38.86070445,
+        "lon": -86.48912710000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 911646338,
+      "tags": {
+        "addr:city": "Bloomington",
+        "addr:housenumber": "908",
+        "addr:postcode": "47404",
+        "addr:state": "IN",
+        "addr:street": "North Walnut Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "retail",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-We 10:00-02:00; Th-Sa 10:00-03:00; Su 10:00-02:00",
+        "phone": "+1 812-334-3030",
+        "ref": "2557",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/bloomington/908-n-walnut-street"
+      },
+      "center": {
+        "lat": 39.1748445,
+        "lon": -86.53323120000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 947765585,
+      "tags": {
+        "addr:city": "West Lafayette",
+        "addr:housenumber": "3504",
+        "addr:postcode": "47906",
+        "addr:state": "IN",
+        "addr:street": "Paramount Drive",
+        "addr:unit": "A",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "retail",
+        "cuisine": "pizza",
+        "indoor_seating": "yes",
+        "name": "Domino's",
+        "opening_hours": "Su-Th 10:30-23:59, Fr-Sa 10:30-01:00",
+        "outdoor_seating": "no",
+        "phone": "+1 765-497-4992",
+        "ref": "2608",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/west-lafayette/3504-a-paramount-dr/"
+      },
+      "center": {
+        "lat": 40.4681202,
+        "lon": -86.94768654999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 949178841,
+      "tags": {
+        "addr:city": "Fort Wayne",
+        "addr:housenumber": "301",
+        "addr:postcode": "46802",
+        "addr:state": "IN",
+        "addr:street": "West Jefferson Boulevard",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building:levels": "1",
+        "building:part": "commercial",
+        "cuisine": "pizza",
+        "diet:vegetarian": "yes",
+        "name": "Domino's",
+        "opening_hours": "Mo-Fr 10:00-24:00; Sa,Su 00:00-01:00,10:00-24:00",
+        "phone": "+1 260-444-4560",
+        "ref": "2673",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/fort-wayne/301-w-jefferson-blvd"
+      },
+      "center": {
+        "lat": 41.07533785,
+        "lon": -85.14309785
+      }
+    },
+    {
+      "type": "way",
+      "id": 954698735,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "2522",
+        "addr:postcode": "46201",
+        "addr:state": "IN",
+        "addr:street": "East Washington Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 317-636-0900",
+        "ref": "2569",
+        "source": "esri_USDOT_Indiana;microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/indianapolis/2522-east-washington-st"
+      },
+      "center": {
+        "lat": 39.7685455,
+        "lon": -86.11897199999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 979923670,
+      "tags": {
+        "addr:city": "Jasper",
+        "addr:housenumber": "410",
+        "addr:postcode": "47546",
+        "addr:state": "IN",
+        "addr:street": "US-231",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Su-Th 10:00-00:00; Fr-Sa 10:00-01:00",
+        "phone": "+1 812-634-9897",
+        "ref": "2590",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/jasper/410-us-231-south"
+      },
+      "center": {
+        "lat": 38.38969405,
+        "lon": -86.94089250000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1019933125,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "4545",
+        "addr:postcode": "46222",
+        "addr:state": "IN",
+        "addr:street": "Rockville Road",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 317-240-3030",
+        "ref": "2567",
+        "source": "esri/Indianapolis_IN_Buildings",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/indianapolis/4545-rockville-road"
+      },
+      "center": {
+        "lat": 39.76427495,
+        "lon": -86.23865409999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1079319075,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "7875",
+        "addr:postcode": "46214",
+        "addr:state": "IN",
+        "addr:street": "West 10th Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 317-271-0413",
+        "ref": "2664",
+        "source": "esri/Indianapolis_IN_Buildings",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/indianapolis/7875-w-10th-street"
+      },
+      "center": {
+        "lat": 39.778693849999996,
+        "lon": -86.30009795000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1118814348,
+      "tags": {
+        "addr:city": "New Albany",
+        "addr:housenumber": "2613",
+        "addr:postcode": "47150",
+        "addr:state": "IN",
+        "addr:street": "Charlestown Road",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 812-944-0030",
+        "ref": "2581",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/new-albany/2613-charlestown-road"
+      },
+      "center": {
+        "lat": 38.31532235,
+        "lon": -85.80522555000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 1201759910,
+      "tags": {
+        "addr:city": "Lafayette",
+        "addr:housenumber": "3961",
+        "addr:postcode": "47905",
+        "addr:state": "IN",
+        "addr:street": "State Road 38",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 765-447-9111",
+        "ref": "2511",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/indiana/lafayette/3961-sr-38-e"
+      },
+      "center": {
+        "lat": 40.38727315,
+        "lon": -86.8362573
+      }
+    },
+    {
+      "type": "way",
+      "id": 1364875036,
+      "tags": {
+        "addr:city": "Greencastle",
+        "addr:housenumber": "424",
+        "addr:postcode": "46135",
+        "addr:state": "IN",
+        "addr:street": "South Bloomington Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "drive_through": "yes",
+        "name": "Domino's",
+        "phone": "+1-765-630-4500",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.63744655,
+        "lon": -86.85447135000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1524708066,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "retail",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.6000547,
+        "lon": -86.10013905
+      }
+    }
+  ]
+}

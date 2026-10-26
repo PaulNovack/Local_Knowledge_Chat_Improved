@@ -1,0 +1,55 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WI",
+    "brand": "carrabba_s_italian_grill",
+    "source": "https://download.geofabrik.de/north-america/us/wisconsin-latest.osm.pbf",
+    "source_md5": "1718ff98080ec3edeb95ab8fb47b0ce7",
+    "processed_utc": "2026-10-24T07:19:59.510074+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6815511044,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Carrabba's Italian Grill",
+        "brand:wikidata": "Q5045999",
+        "craft": "caterer",
+        "cuisine": "italian",
+        "name": "Carrabba's Italian Grill"
+      },
+      "lat": 43.0358005,
+      "lon": -88.1415001
+    },
+    {
+      "type": "way",
+      "id": 369323770,
+      "tags": {
+        "addr:city": "Greenfield",
+        "addr:housenumber": "4765",
+        "addr:postcode": "53220",
+        "addr:state": "WI",
+        "addr:street": "South 76th Street",
+        "amenity": "restaurant",
+        "brand": "Carrabba's Italian Grill",
+        "brand:wikidata": "Q5045999",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "italian",
+        "name": "Carrabba's Italian Grill"
+      },
+      "center": {
+        "lat": 42.95780135,
+        "lon": -88.00886170000001
+      }
+    }
+  ]
+}

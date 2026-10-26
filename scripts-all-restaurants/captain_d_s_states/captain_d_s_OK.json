@@ -1,0 +1,45 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "captain_d_s",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 332920688,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "7481",
+        "addr:postcode": "74115",
+        "addr:state": "OK",
+        "addr:street": "East Admiral Place North",
+        "amenity": "fast_food",
+        "branch": "Seafood",
+        "brand": "Captain D's",
+        "brand:wikidata": "Q5036616",
+        "building": "yes",
+        "check_date": "2023-08-05",
+        "cuisine": "seafood",
+        "name": "Captain D's",
+        "official_name": "Captain D's Seafood Kitchen",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.1611412,
+        "lon": -95.89104959999997
+      }
+    }
+  ]
+}

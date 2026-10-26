@@ -1,0 +1,49 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "del_taco",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1537318559,
+      "tags": {
+        "addr:city": "Bedford",
+        "addr:housenumber": "3060",
+        "addr:postcode": "47421",
+        "addr:state": "IN",
+        "addr:street": "John A Williams Boulevard",
+        "amenity": "fast_food",
+        "branch": "Bedford, IN",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "retail",
+        "check_date": "2026-09-16",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "opening_hours": "10:00-22:00",
+        "opening_hours:drive_through": "Su-We 10:00-25:00; Th-Sa 10:00-27:00",
+        "phone": "+1-812-329-6147",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/in/bedford/3060-john-williams-blvd",
+        "website:menu": "https://order.deltaco.com/menu/del-taco-1642"
+      },
+      "center": {
+        "lat": 38.8678293,
+        "lon": -86.51077989999999
+      }
+    }
+  ]
+}

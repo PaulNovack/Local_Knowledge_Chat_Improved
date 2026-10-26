@@ -1,0 +1,106 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/3.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VT",
+    "brand": "pizza_hut",
+    "source": "https://download.geofabrik.de/north-america/us/vermont-latest.osm.pbf",
+    "source_md5": "20a19d56b1e59d82493b3194b9e30440",
+    "processed_utc": "2026-10-24T06:37:35.668760+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1601848043,
+      "tags": {
+        "addr:city": "Bennington",
+        "addr:housenumber": "207",
+        "addr:postcode": "05201",
+        "addr:state": "VT",
+        "addr:street": "Northside Drive",
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "phone": "+1 802-447-7980",
+        "website": "https://locations.pizzahut.com/vt/bennington/207-northside-drive"
+      },
+      "lat": 42.8995494,
+      "lon": -73.2091679
+    },
+    {
+      "type": "node",
+      "id": 12207233501,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      },
+      "lat": 43.6166354,
+      "lon": -72.9600943
+    },
+    {
+      "type": "way",
+      "id": 727820764,
+      "tags": {
+        "addr:city": "Saint Johnsbury",
+        "addr:housenumber": "1009",
+        "addr:postcode": "05819",
+        "addr:state": "VT",
+        "addr:street": "Memorial Drive",
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "building": "yes",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Pizza Hut",
+        "opening_hours": "Th-Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1 802-748-5322",
+        "ref:vcgi:esiteid": "244844",
+        "takeaway": "yes",
+        "website": "https://locations.pizzahut.com/vt/saint-johnsbury/1009-memorial-dr"
+      },
+      "center": {
+        "lat": 44.44700085,
+        "lon": -72.01615765000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1273849668,
+      "tags": {
+        "addr:city": "Barre",
+        "addr:housenumber": "1490",
+        "addr:postcode": "05641",
+        "addr:state": "VT",
+        "addr:street": "U.S. Route 302",
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "building": "commercial",
+        "check_date:opening_hours": "2020-07-24",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "opening_hours": "Su-Th 12:00-20:00; Fr,Sa 12:00-21:00",
+        "phone": "+18024791031",
+        "ref:vcgi:esiteid": "23090",
+        "source": "esri/Vermont_US_Buildings",
+        "website": "https://locations.pizzahut.com/vt/berlin/1490-us-rt-302"
+      },
+      "center": {
+        "lat": 44.22962565,
+        "lon": -72.55260214999998
+      }
+    }
+  ]
+}

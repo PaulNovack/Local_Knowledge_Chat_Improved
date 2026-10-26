@@ -1,0 +1,76 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "scooter_s_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11483632556,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "cuisine": "coffee_shop",
+        "name": "Scooter's Coffee",
+        "takeaway": "yes"
+      },
+      "lat": 35.7372409,
+      "lon": -77.9516827
+    },
+    {
+      "type": "node",
+      "id": 13191432475,
+      "tags": {
+        "addr:city": "Lillington",
+        "addr:housenumber": "1268",
+        "addr:postcode": "27546",
+        "addr:state": "NC",
+        "addr:street": "North Main Street",
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "Scooter's Coffee",
+        "opening_hours": "Mo-Su 05:30-20:00",
+        "phone": "+1-877-719-1288",
+        "takeaway": "yes"
+      },
+      "lat": 35.4150756,
+      "lon": -78.8055918
+    },
+    {
+      "type": "node",
+      "id": 14136551001,
+      "tags": {
+        "addr:street": "Martin Luther King Jr Parkway",
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "check_date": "2026-08-31",
+        "check_date:opening_hours": "2026-08-31",
+        "cuisine": "coffee_shop",
+        "name": "Scooter's Coffee",
+        "opening_hours": "Tu-Fr 05:00-20:00; Sa-Mo 06:00-20:00",
+        "phone": "+1-919-237-2056",
+        "takeaway": "yes",
+        "website": "http://scooterscoffee.com",
+        "website:menu": "https://www.scooterscoffee.com/menu"
+      },
+      "lat": 35.9500761,
+      "lon": -78.9266548
+    }
+  ]
+}

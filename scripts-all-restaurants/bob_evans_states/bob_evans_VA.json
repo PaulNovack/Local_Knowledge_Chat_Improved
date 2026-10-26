@@ -1,0 +1,178 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "bob_evans",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4588416500,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "cuisine": "american",
+        "delivery": "no",
+        "name": "Bob Evans"
+      },
+      "lat": 38.2969846,
+      "lon": -77.4996865
+    },
+    {
+      "type": "node",
+      "id": 4729952545,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "cuisine": "american",
+        "name": "Bob Evans"
+      },
+      "lat": 37.2389654,
+      "lon": -81.2496981
+    },
+    {
+      "type": "way",
+      "id": 37735556,
+      "tags": {
+        "addr:city": "Fredericksburg",
+        "addr:housenumber": "10111",
+        "addr:postcode": "22407",
+        "addr:state": "VA",
+        "addr:street": "Southpoint Parkway",
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "building": "commercial",
+        "cuisine": "american",
+        "delivery": "no",
+        "name": "Bob Evans",
+        "outdoor_seating": "no",
+        "smoking": "outside",
+        "takeaway": "no"
+      },
+      "center": {
+        "lat": 38.23784985,
+        "lon": -77.50718734999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 45776449,
+      "tags": {
+        "addr:housenumber": "10830",
+        "addr:street": "Promenade Lane",
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "building": "retail",
+        "check_date": "2024-09-29",
+        "cuisine": "american",
+        "name": "Bob Evans",
+        "opening_hours": "07:00-21:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 703-361-2022",
+        "website": "https://www.bobevans.com/locations/manassas",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 38.79727975,
+        "lon": -77.51871904999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 94027341,
+      "tags": {
+        "addr:city": "Woodbridge",
+        "addr:housenumber": "14490",
+        "addr:postcode": "22192",
+        "addr:state": "VA",
+        "addr:street": "Smoketown Road",
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Bob Evans",
+        "source": "survey 12/2015"
+      },
+      "center": {
+        "lat": 38.638127850000004,
+        "lon": -77.29884470000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 173050665,
+      "tags": {
+        "addr:county": "Stafford County",
+        "addr:housenumber": "1020",
+        "addr:postcode": "22556",
+        "addr:state": "VA",
+        "addr:street": "Stafford Market Place",
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Bob Evans",
+        "source": "esri/Virginia_address"
+      },
+      "center": {
+        "lat": 38.46807575,
+        "lon": -77.41041180000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 234279342,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Bob Evans"
+      },
+      "center": {
+        "lat": 38.8961538,
+        "lon": -77.4342064
+      }
+    },
+    {
+      "type": "way",
+      "id": 796311222,
+      "tags": {
+        "addr:city": "Wytheville",
+        "addr:housenumber": "190",
+        "addr:postcode": "24382",
+        "addr:state": "VA",
+        "addr:street": "Lithia Road",
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Bob Evans"
+      },
+      "center": {
+        "lat": 36.94885605,
+        "lon": -81.05606939999996
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "marco_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7706245923,
+      "tags": {
+        "addr:city": "Arcade",
+        "addr:housenumber": "293",
+        "addr:postcode": "14009",
+        "addr:state": "NY",
+        "addr:street": "Main Street",
+        "amenity": "restaurant",
+        "name": "Marco's Pizza and Subs",
+        "not:brand:wikidata": "Q6757382",
+        "nysgissam:nysaddresspointid": "WYOM000462"
+      },
+      "lat": 42.5342028,
+      "lon": -78.4243973
+    },
+    {
+      "type": "way",
+      "id": 470237209,
+      "tags": {
+        "addr:city": "Huntington Station",
+        "addr:housenumber": "76",
+        "addr:postcode": "11746",
+        "addr:state": "NY",
+        "addr:street": "Pulaski Road",
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "building": "retail",
+        "cuisine": "pizza",
+        "indoor_seating": "yes",
+        "name": "Marco's Pizza",
+        "nysgissam:nysaddresspointid": "SUFF002611",
+        "outdoor_seating": "yes",
+        "phone": "+16316294935",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.84895365,
+        "lon": -73.40746379999996
+      }
+    }
+  ]
+}

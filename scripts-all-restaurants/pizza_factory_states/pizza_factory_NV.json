@@ -1,0 +1,124 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "pizza_factory",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 653834449,
+      "tags": {
+        "addr:city": "Lovelock",
+        "addr:state": "NV",
+        "amenity": "restaurant",
+        "brand": "Pizza Factory",
+        "brand:wikidata": "Q39054369",
+        "cuisine": "pizza",
+        "is_in:city": "Lovelock",
+        "is_in:state": "Nevada",
+        "is_in:state_code": "NV",
+        "name": "Pizza Factory"
+      },
+      "lat": 40.1800719,
+      "lon": -118.4740967
+    },
+    {
+      "type": "node",
+      "id": 2631551748,
+      "tags": {
+        "addr:city": "Reno",
+        "addr:housename": "PizzaFactory",
+        "addr:housenumber": "8790-100",
+        "addr:postcode": "89508",
+        "addr:street": "Red Rock Road",
+        "amenity": "restaurant",
+        "brand": "Pizza Factory",
+        "brand:wikidata": "Q39054369",
+        "capacity": "80",
+        "cuisine": "pizza",
+        "name": "Pizza Factory",
+        "opening_hours": "11:00-21:00",
+        "phone": "+1 775-677-2877",
+        "website": "https://reno.pizzafactory.com/",
+        "wheelchair": "yes"
+      },
+      "lat": 39.6311567,
+      "lon": -119.9161858
+    },
+    {
+      "type": "node",
+      "id": 2827877601,
+      "tags": {
+        "addr:city": "Dayton",
+        "addr:housenumber": "185",
+        "addr:postcode": "89403-6604",
+        "addr:state": "NV",
+        "addr:street": "US Highway 50 E",
+        "amenity": "restaurant",
+        "brand": "Pizza Factory",
+        "brand:wikidata": "Q39054369",
+        "cuisine": "pizza",
+        "name": "Pizza Factory",
+        "phone": "+1-775-246-3300"
+      },
+      "lat": 39.2382905,
+      "lon": -119.5896025
+    },
+    {
+      "type": "node",
+      "id": 9453513637,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Factory",
+        "brand:wikidata": "Q39054369",
+        "cuisine": "pizza",
+        "name": "Pizza Factory"
+      },
+      "lat": 38.9623258,
+      "lon": -119.7811781
+    },
+    {
+      "type": "node",
+      "id": 12071021497,
+      "tags": {
+        "addr:city": "Reno",
+        "addr:housenumber": "3480",
+        "addr:state": "NV",
+        "addr:street": "Lakeside Drive",
+        "amenity": "restaurant",
+        "brand": "Pizza Factory",
+        "brand:wikidata": "Q39054369",
+        "cuisine": "pizza",
+        "indoor_seating": "yes",
+        "name": "Pizza Factory",
+        "outdoor_seating": "no"
+      },
+      "lat": 39.4915169,
+      "lon": -119.8073209
+    },
+    {
+      "type": "way",
+      "id": 546253681,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Pizza Factory"
+      },
+      "center": {
+        "lat": 39.60813640000001,
+        "lon": -119.22371750000002
+      }
+    }
+  ]
+}

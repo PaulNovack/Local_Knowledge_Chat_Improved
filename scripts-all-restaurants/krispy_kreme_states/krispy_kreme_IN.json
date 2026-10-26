@@ -1,0 +1,98 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "krispy_kreme",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4022427287,
+      "tags": {
+        "addr:city": "Jeffersonville",
+        "addr:postcode": "47130",
+        "addr:state": "IN",
+        "addr:street": "Veterans Parkway",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "check_date": "2026-05-14",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "lat": 38.3294266,
+      "lon": -85.7446641
+    },
+    {
+      "type": "way",
+      "id": 199424860,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "check_date": "2026-05-01",
+        "check_date:opening_hours": "2026-05-01",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.71168425,
+        "lon": -86.18000849999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 472921482,
+      "tags": {
+        "addr:city": "Evansville",
+        "addr:housenumber": "727",
+        "addr:postcode": "47715",
+        "addr:state": "IN",
+        "addr:street": "North Burkhardt Road",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 37.9836959,
+        "lon": -87.47328694999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1157819178,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "retail",
+        "cuisine": "donut",
+        "drive_through": "yes",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.90583185,
+        "lon": -86.06544005
+      }
+    }
+  ]
+}

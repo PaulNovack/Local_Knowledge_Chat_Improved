@@ -1,0 +1,41 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VT",
+    "brand": "denny_s",
+    "source": "https://download.geofabrik.de/north-america/us/vermont-latest.osm.pbf",
+    "source_md5": "20a19d56b1e59d82493b3194b9e30440",
+    "processed_utc": "2026-10-24T07:18:02.754583+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 759691594,
+      "tags": {
+        "addr:city": "Rutland",
+        "addr:housenumber": "361",
+        "addr:postcode": "05701",
+        "addr:state": "VT",
+        "addr:street": "U.S. Route 7 South",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's",
+        "ref:vcgi:esiteid": "215236"
+      },
+      "center": {
+        "lat": 43.5851056,
+        "lon": -72.96741455
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "bojangles",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2390754977,
+      "tags": {
+        "addr:city": "Hillcrest Heights",
+        "addr:housenumber": "3727",
+        "addr:postcode": "20748",
+        "addr:state": "MD",
+        "addr:street": "Branch Avenue",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "takeaway": "yes"
+      },
+      "lat": 38.8396513,
+      "lon": -76.9476115
+    },
+    {
+      "type": "node",
+      "id": 12915047222,
+      "tags": {
+        "addr:floor": "G",
+        "addr:housenumber": "1312",
+        "addr:street": "West Patrick Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "check_date": "2025-06-14",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "highchair": "yes",
+        "level": "0",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Mo-Th,Su 06:00-22:00; Fr-Sa 06:00-23:00",
+        "opening_hours:drive_through": "Mo-Th,Su 05:30-23:00; Fr-Sa 05:30-24:00",
+        "outdoor_seating": "yes",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "smoking": "no",
+        "source": "survey",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 39.4181498,
+      "lon": -77.4556231
+    },
+    {
+      "type": "way",
+      "id": 128006137,
+      "tags": {
+        "addr:city": "New Carrollton",
+        "addr:housenumber": "8320",
+        "addr:postcode": "20784",
+        "addr:state": "MD",
+        "addr:street": "Annapolis Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "commercial",
+        "building:levels": "1",
+        "building:material": "brick",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "06:00-22:00",
+        "outdoor_seating": "no",
+        "roof:levels": "1",
+        "roof:shape": "flat",
+        "smoking": "outside",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.95728535,
+        "lon": -76.87119634999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 218896600,
+      "tags": {
+        "addr:city": "Oxon Hill",
+        "addr:housenumber": "6135",
+        "addr:postcode": "20745",
+        "addr:state": "MD",
+        "addr:street": "Oxon Hill Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "check_date": "2025-05-19",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.80476145,
+        "lon": -76.98175730000003
+      }
+    }
+  ]
+}

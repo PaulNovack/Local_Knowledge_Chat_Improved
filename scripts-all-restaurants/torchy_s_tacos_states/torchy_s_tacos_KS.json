@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "torchy_s_tacos",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5309749369,
+      "tags": {
+        "addr:city": "Overland Park",
+        "addr:housenumber": "6815",
+        "addr:postcode": "66223",
+        "addr:state": "KS",
+        "addr:street": "West 135th Street",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Torchy's Tacos"
+      },
+      "lat": 38.883267,
+      "lon": -94.6645923
+    },
+    {
+      "type": "node",
+      "id": 13459429901,
+      "tags": {
+        "addr:housenumber": "11919",
+        "addr:postcode": "66062",
+        "addr:street": "South Strang Line Road",
+        "amenity": "restaurant",
+        "contact:facebook": "TorchysTacos",
+        "contact:instagram": "torchystacos",
+        "contact:twitter": "torchystacos",
+        "cuisine": "mexican",
+        "name": "Torchy's Tacos",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr 11:00-22:00; Sa 10:00-22:00; Su 10:00-21:00",
+        "phone": "+1-913-361-0131",
+        "website": "https://torchystacos.com/",
+        "website:menu": "https://torchystacos.com/our-menu"
+      },
+      "lat": 38.9109582,
+      "lon": -94.7660796
+    }
+  ]
+}

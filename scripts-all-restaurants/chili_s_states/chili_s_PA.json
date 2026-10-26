@@ -1,0 +1,702 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "chili_s",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 532136017,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar"
+      },
+      "lat": 40.4869927,
+      "lon": -79.8911291
+    },
+    {
+      "type": "node",
+      "id": 2226025522,
+      "tags": {
+        "addr:city": "Philadelphia",
+        "addr:housenumber": "1239",
+        "addr:postcode": "19107",
+        "addr:street": "Filbert Street",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "check_date": "2026-08-30",
+        "check_date:opening_hours": "2026-08-30",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1 215-569-0850",
+        "website": "https://www.chilis.com/locations/us/pennsylvania/philadelphia/center-city"
+      },
+      "lat": 39.9532308,
+      "lon": -75.1610942
+    },
+    {
+      "type": "node",
+      "id": 12706120026,
+      "tags": {
+        "addr:city": "Dickson City",
+        "addr:housenumber": "3905",
+        "addr:postcode": "18519",
+        "addr:state": "PA",
+        "addr:street": "Commerce Boulevard",
+        "alt_name": "Chili's Scranton Branch",
+        "amenity": "restaurant",
+        "branch": "Dickson City",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "website": "https://www.chilis.com/locations/us/pennsylvania/dickson-city/dickson-city/"
+      },
+      "lat": 41.4677349,
+      "lon": -75.6350978
+    },
+    {
+      "type": "way",
+      "id": 47094439,
+      "tags": {
+        "addr:city": "King of Prussia",
+        "addr:housenumber": "739",
+        "addr:postcode": "19406",
+        "addr:state": "PA",
+        "addr:street": "West Dekalb Pike",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "check_date": "2023-10-26",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1 610-992-0899",
+        "website": "https://www.chilis.com/locations/us/pennsylvania/king-of-prussia/king-of-prussia"
+      },
+      "center": {
+        "lat": 40.08502135,
+        "lon": -75.38776260000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 55634739,
+      "tags": {
+        "addr:city": "Fairless Hills",
+        "addr:housenumber": "610",
+        "addr:postcode": "19030",
+        "addr:state": "PA",
+        "addr:street": "Commerce Boulevard",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "check_date": "2026-04-07",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1 215-943-5555",
+        "website": "https://www.chilis.com/locations/us/pennsylvania/fairless-hills/oxford-valley"
+      },
+      "center": {
+        "lat": 40.1858117,
+        "lon": -74.8679952
+      }
+    },
+    {
+      "type": "way",
+      "id": 60921547,
+      "tags": {
+        "addr:city": "Wyomissing",
+        "addr:housenumber": "2703",
+        "addr:postcode": "19610",
+        "addr:state": "PA",
+        "addr:street": "North Meridian Boulevard",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "check_date": "2025-09-14",
+        "cuisine": "tex-mex",
+        "delivery": "yes",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1 610-374-9328",
+        "website": "https://www.chilis.com/locations/us/pennsylvania/wyomissing/wyomissing"
+      },
+      "center": {
+        "lat": 40.354192,
+        "lon": -75.98093515
+      }
+    },
+    {
+      "type": "way",
+      "id": 64537367,
+      "tags": {
+        "addr:city": "Harrisburg",
+        "addr:housenumber": "4611",
+        "addr:postcode": "17111",
+        "addr:state": "PA",
+        "addr:street": "High Pointe Boulevard",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "check_date": "2026-02-26",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1 717-558-8781",
+        "website": "https://www.chilis.com/locations/us/pennsylvania/harrisburg/harrisburg"
+      },
+      "center": {
+        "lat": 40.2448467,
+        "lon": -76.80549639999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 80511915,
+      "tags": {
+        "addr:city": "Lancaster",
+        "addr:housenumber": "1525",
+        "addr:postcode": "17601",
+        "addr:state": "PA",
+        "addr:street": "Manheim Pike",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "check_date": "2026-01-29",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1 717-560-2142",
+        "website": "https://www.chilis.com/locations/us/pennsylvania/lancaster/manheim-pike"
+      },
+      "center": {
+        "lat": 40.079249,
+        "lon": -76.33818714999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 94395428,
+      "tags": {
+        "addr:city": "Whitehall",
+        "addr:housenumber": "815",
+        "addr:postcode": "18052",
+        "addr:state": "PA",
+        "addr:street": "Grape Street",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "phone": "+16102644400",
+        "website": "https://www.chilis.com/locations/us/pennsylvania/whitehall/allentown"
+      },
+      "center": {
+        "lat": 40.63520855,
+        "lon": -75.47693509999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 164479748,
+      "tags": {
+        "addr:city": "Butler",
+        "addr:housenumber": "115",
+        "addr:postcode": "16001",
+        "addr:state": "PA",
+        "addr:street": "Butler Commons",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "commercial",
+        "check_date": "2026-02-02",
+        "cuisine": "tex-mex",
+        "happy_hours": "Mo-Th 15:00-18:00; Fr 16:00-18:00",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr,Sa 11:00-23:00",
+        "phone": "+1 724-282-4070",
+        "website": "https://blue.chilis.com/locations/us/pennsylvania/butler/butler"
+      },
+      "center": {
+        "lat": 40.875148550000006,
+        "lon": -79.94344194999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 227502458,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar"
+      },
+      "center": {
+        "lat": 40.57141435,
+        "lon": -79.8025384
+      }
+    },
+    {
+      "type": "way",
+      "id": 230217278,
+      "tags": {
+        "addr:city": "Carlisle",
+        "addr:housenumber": "2",
+        "addr:postcode": "17013",
+        "addr:state": "PA",
+        "addr:street": "Houser Lane",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "check_date": "2026-02-20",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1 717-243-8003",
+        "website": "https://www.chilis.com/locations/us/pennsylvania/carlisle/carlisle"
+      },
+      "center": {
+        "lat": 40.183802150000005,
+        "lon": -77.19098414999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 251220611,
+      "tags": {
+        "addr:city": "Mechanicsburg",
+        "addr:housenumber": "6416",
+        "addr:postcode": "17050",
+        "addr:street": "Carlisle Pike",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "is_in": "Mechanicsburg, PA",
+        "name": "Chili's",
+        "name:ko": "칠리즈 그릴 앤 바",
+        "official_name": "Chili's Grill & Bar"
+      },
+      "center": {
+        "lat": 40.2472428,
+        "lon": -77.00887984999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 252807217,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar"
+      },
+      "center": {
+        "lat": 40.3464543,
+        "lon": -79.94414040000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 255316730,
+      "tags": {
+        "addr:city": "York",
+        "addr:housenumber": "3001",
+        "addr:postcode": "17402",
+        "addr:street": "Concord Road",
+        "amenity": "restaurant",
+        "branch": "York Town Center, PA",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "check_date": "2025-07-16",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "opening_hours": "Mo-Su 11:00-22:00; Fr,Sa 11:00-23:00",
+        "phone": "+1 717-840-3845",
+        "website": "https://www.chilis.com/locations/us/pennsylvania/york/york-town-center"
+      },
+      "center": {
+        "lat": 39.983646449999995,
+        "lon": -76.66664474999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 297374898,
+      "tags": {
+        "addr:housename": "Chili's",
+        "addr:housenumber": "1576",
+        "addr:postcode": "16602",
+        "addr:street": "Osgood Drive",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-814-943-5782",
+        "website": "https://www.chilis.com/locations/us/pennsylvania/altoona/altoona/"
+      },
+      "center": {
+        "lat": 40.4878224,
+        "lon": -78.38731559999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 324283510,
+      "tags": {
+        "addr:city": "Stowe",
+        "addr:housenumber": "220",
+        "addr:postcode": "19464",
+        "addr:state": "PA",
+        "addr:street": "Upland Square Drive",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "check_date": "2023-07-16",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1 610-326-1737",
+        "website": "https://www.chilis.com/locations/us/pennsylvania/stowe/stowe"
+      },
+      "center": {
+        "lat": 40.265166,
+        "lon": -75.65077514999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 343922583,
+      "tags": {
+        "addr:city": "Pittsburgh",
+        "addr:housenumber": "7404",
+        "addr:postcode": "1537",
+        "addr:state": "PA",
+        "addr:street": "McKnight Road",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "check_date": "2025-07-24",
+        "cuisine": "tex-mex",
+        "happy_hours": "Mo-Th 15:00-18:00; Fr 16:00-18:00",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr,Sa 11:00-23:00",
+        "phone": "+1 412-364-5678",
+        "website": "https://www.chilis.com/locations/us/pennsylvania/pittsburgh/mcknight-rd"
+      },
+      "center": {
+        "lat": 40.541202150000004,
+        "lon": -80.01186310000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 376479757,
+      "tags": {
+        "addr:city": "Wyncote",
+        "addr:housenumber": "2451",
+        "addr:postcode": "19095",
+        "addr:state": "PA",
+        "addr:street": "Cheltenham Avenue",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "check_date": "2025-12-19",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1 215-881-6790",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://green.chilis.com/locations/us/pennsylvania/wyncote/cheltenham"
+      },
+      "center": {
+        "lat": 40.07475325,
+        "lon": -75.15791805000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 414308836,
+      "tags": {
+        "addr:city": "Stroudsburg",
+        "addr:housenumber": "1772",
+        "addr:postcode": "18360",
+        "addr:state": "PA",
+        "addr:street": "North 9th Street",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "phone": "+1-570-421-8303",
+        "survey:date": "2021-11-05"
+      },
+      "center": {
+        "lat": 40.9996505,
+        "lon": -75.2664112
+      }
+    },
+    {
+      "type": "way",
+      "id": 420914511,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar"
+      },
+      "center": {
+        "lat": 39.825597650000006,
+        "lon": -76.98212624999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 441422766,
+      "tags": {
+        "addr:city": "Philadelphia",
+        "addr:housenumber": "2320",
+        "addr:postcode": "19145",
+        "addr:state": "PA",
+        "addr:street": "Oregon Avenue",
+        "amenity": "restaurant",
+        "branch": "South Philly, PA",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "check_date": "2026-01-25",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1 215-468-3757",
+        "website": "https://www.chilis.com/locations/us/pennsylvania/philadelphia/south-philly"
+      },
+      "center": {
+        "lat": 39.91848245,
+        "lon": -75.18748325000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 624604955,
+      "tags": {
+        "addr:city": "Johnstown",
+        "addr:housenumber": "105",
+        "addr:postcode": "15904",
+        "addr:state": "PA",
+        "addr:street": "Town Centre Drive",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "check_date": "2024-11-12",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr,Sa 11:00-23:00",
+        "phone": "+1 814-266-3884",
+        "website": "https://www.chilis.com/locations/us/pennsylvania/johnstown/johnstown/"
+      },
+      "center": {
+        "lat": 40.278468700000005,
+        "lon": -78.84656005
+      }
+    },
+    {
+      "type": "way",
+      "id": 640420492,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar"
+      },
+      "center": {
+        "lat": 40.30551225,
+        "lon": -79.58177750000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 715834709,
+      "tags": {
+        "addr:city": "York",
+        "addr:housenumber": "1295",
+        "addr:postcode": "17404",
+        "addr:street": "Carlisle Road",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar"
+      },
+      "center": {
+        "lat": 39.96562855,
+        "lon": -76.76956315000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 745462537,
+      "tags": {
+        "addr:city": "Parkesburg",
+        "addr:housenumber": "770",
+        "addr:postcode": "19365",
+        "addr:state": "PA",
+        "addr:street": "Commons Drive",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "check_date": "2024-09-09",
+        "contact:phone": "+1 610-857-9443",
+        "cuisine": "tex-mex",
+        "happy_hours": "Mo-Th 15:00-18:00; Fr 16:00-18:00",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "opening_hours": "11:00-22:00",
+        "website": "https://chilis.com/locations/us/pennsylvania/parkesburg/west-sadsbury"
+      },
+      "center": {
+        "lat": 39.983289600000006,
+        "lon": -75.9356598
+      }
+    },
+    {
+      "type": "way",
+      "id": 912614427,
+      "tags": {
+        "addr:city": "Bensalem",
+        "addr:housenumber": "2601",
+        "addr:postcode": "19020",
+        "addr:state": "PA",
+        "addr:street": "East Street Road",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "check_date": "2024-02-28",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1 215-638-2216",
+        "website": "https://www.chilis.com/locations/us/pennsylvania/bensalem/bensalem"
+      },
+      "center": {
+        "lat": 40.1088596,
+        "lon": -74.95171414999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1149700045,
+      "tags": {
+        "addr:city": "Brookhaven",
+        "addr:housenumber": "4750",
+        "addr:postcode": "19015",
+        "addr:state": "PA",
+        "addr:street": "Edgmont Avenue",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "commercial",
+        "check_date": "2023-11-24",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1 484-480-3442",
+        "website": "https://www.chilis.com/locations/us/pennsylvania/brookhaven/brookhaven"
+      },
+      "center": {
+        "lat": 39.8756057,
+        "lon": -75.39447959999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 1160751969,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar"
+      },
+      "center": {
+        "lat": 39.91178845,
+        "lon": -79.74774504999999
+      }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "jason_s_deli",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1105787580,
+      "tags": {
+        "addr:housenumber": "8321",
+        "addr:postcode": "74133",
+        "addr:street": "East 61st Street South",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli",
+        "opening_hours": "10:00-21:00",
+        "phone": "+1 918 252 9999"
+      },
+      "lat": 36.0761332,
+      "lon": -95.8834528
+    },
+    {
+      "type": "node",
+      "id": 4827808716,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli"
+      },
+      "lat": 35.6219752,
+      "lon": -97.4815227
+    },
+    {
+      "type": "node",
+      "id": 11380365493,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli"
+      },
+      "lat": 35.5390346,
+      "lon": -97.596447
+    },
+    {
+      "type": "way",
+      "id": 323929166,
+      "tags": {
+        "addr:city": "Norman",
+        "addr:housenumber": "950",
+        "addr:postcode": "73072",
+        "addr:state": "OK",
+        "addr:street": "Ed Noble Parkway",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli"
+      },
+      "center": {
+        "lat": 35.2066473,
+        "lon": -97.48278859999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 496130522,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "1330",
+        "addr:postcode": "74120",
+        "addr:state": "OK",
+        "addr:street": "East 15th Street South",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli",
+        "opening_hours": "Mo-Su 10:00-21:00"
+      },
+      "center": {
+        "lat": 36.139996249999996,
+        "lon": -95.97474739999996
+      }
+    }
+  ]
+}

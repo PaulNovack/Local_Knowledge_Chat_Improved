@@ -1,0 +1,92 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NM",
+    "brand": "cracker_barrel",
+    "source": "https://download.geofabrik.de/north-america/us/new-mexico-latest.osm.pbf",
+    "source_md5": "5e236c0e9dd59b2df560a9316c86a745",
+    "processed_utc": "2026-10-24T07:10:42.593170+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 801568295,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "check_date": "2026-05-13",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "lat": 35.5284882,
+      "lon": -108.7639671
+    },
+    {
+      "type": "way",
+      "id": 222585362,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 35.15916695,
+        "lon": -106.58585319999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 737762400,
+      "tags": {
+        "addr:housenumber": "5700",
+        "addr:street": "Redlands Road Northwest",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 35.11788335,
+        "lon": -106.70232375
+      }
+    },
+    {
+      "type": "way",
+      "id": 929107628,
+      "tags": {
+        "addr:city": "Las Cruces",
+        "addr:housenumber": "1490",
+        "addr:postcode": "88005",
+        "addr:state": "NM",
+        "addr:street": "Hickory Drive",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 32.28982285,
+        "lon": -106.788162
+      }
+    }
+  ]
+}

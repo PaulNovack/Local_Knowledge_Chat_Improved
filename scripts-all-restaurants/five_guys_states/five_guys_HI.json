@@ -1,0 +1,78 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "HI",
+    "brand": "five_guys",
+    "source": "https://download.geofabrik.de/north-america/us/hawaii-latest.osm.pbf",
+    "source_md5": "72d4122e050f63452c0aa341f9272254",
+    "processed_utc": "2026-10-24T07:02:30.197996+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4166383590,
+      "tags": {
+        "addr:housenumber": "95-1249",
+        "addr:street": "Meheula Parkway",
+        "amenity": "fast_food",
+        "brand": "Five Guys",
+        "brand:wikidata": "Q1131810",
+        "cuisine": "burger",
+        "name": "Five Guys",
+        "official_name": "Five Guys Burgers and Fries",
+        "takeaway": "yes",
+        "website": "https://order.fiveguys.com/menu/five-guys-mililani-hawaii"
+      },
+      "lat": 21.4526607,
+      "lon": -158.006402
+    },
+    {
+      "type": "node",
+      "id": 5886489135,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Five Guys",
+        "brand:wikidata": "Q1131810",
+        "cuisine": "burger",
+        "name": "Five Guys",
+        "safety:mask:covid19": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 21.3336618,
+      "lon": -158.0519348
+    },
+    {
+      "type": "node",
+      "id": 9671367502,
+      "tags": {
+        "addr:city": "Aiea",
+        "addr:country": "US",
+        "addr:housenumber": "98-1005",
+        "addr:postcode": "96701",
+        "addr:state": "HI",
+        "addr:street": "Moanalua Road",
+        "amenity": "fast_food",
+        "brand": "Five Guys",
+        "brand:wikidata": "Q1131810",
+        "cuisine": "burger",
+        "level": "0",
+        "name": "Five Guys",
+        "official_name": "Five Guys Burgers and Fries",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 808-488-4442",
+        "takeaway": "yes",
+        "website": "https://restaurants.fiveguys.com/98-1005-moanalua-road"
+      },
+      "lat": 21.3850237,
+      "lon": -157.9420062
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WV",
+    "brand": "cook_out",
+    "source": "https://download.geofabrik.de/north-america/us/west-virginia-latest.osm.pbf",
+    "source_md5": "4f8c380a535ff9841f95eae4e1a7f84f",
+    "processed_utc": "2026-10-24T07:19:30.158292+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6499090449,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cook Out",
+        "brand:wikidata": "Q5166992",
+        "cuisine": "american",
+        "name": "Cook Out",
+        "takeaway": "yes"
+      },
+      "lat": 37.8033533,
+      "lon": -81.1810898
+    },
+    {
+      "type": "node",
+      "id": 9406206228,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cook Out",
+        "brand:wikidata": "Q5166992",
+        "cuisine": "american",
+        "name": "Cook Out",
+        "takeaway": "yes"
+      },
+      "lat": 38.4174759,
+      "lon": -81.7931635
+    },
+    {
+      "type": "way",
+      "id": 343974644,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cook Out",
+        "brand:wikidata": "Q5166992",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cook Out",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 37.8035536,
+        "lon": -81.18135904999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 790175381,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cook Out",
+        "brand:wikidata": "Q5166992",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cook Out",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.4252433,
+        "lon": -82.41192219999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1020408781,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cook Out",
+        "brand:wikidata": "Q5166992",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cook Out",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.314818149999994,
+        "lon": -81.57087480000001
+      }
+    }
+  ]
+}

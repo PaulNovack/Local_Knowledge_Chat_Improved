@@ -1,0 +1,61 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "bruegger_s_bagels",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2698612445,
+      "tags": {
+        "addr:city": "Denver",
+        "addr:housenumber": "2000",
+        "addr:postcode": "80210",
+        "addr:state": "CO",
+        "addr:street": "South University Boulevard",
+        "amenity": "fast_food",
+        "brand": "Einstein Bros Bagels",
+        "brand:wikidata": "Q4978656",
+        "check_date": "2026-06-27",
+        "cuisine": "bagel",
+        "drive_through": "no",
+        "name": "Einstein Bros Bagels",
+        "opening_hours": "06:00-14:00",
+        "phone": "+1 720-439-4010",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/co/denver/2000-south-university-boulevard"
+      },
+      "lat": 39.6800436,
+      "lon": -104.9588778
+    },
+    {
+      "type": "node",
+      "id": 4777714822,
+      "tags": {
+        "amenity": "fast_food",
+        "branch": "Bagels",
+        "brand": "Bruegger's Bagels",
+        "brand:wikidata": "Q4978656",
+        "cuisine": "bagel",
+        "name": "Bruegger's Bagels",
+        "outdoor_seating": "yes",
+        "short_name": "Bruegger's",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 39.6195288,
+      "lon": -105.016689
+    }
+  ]
+}

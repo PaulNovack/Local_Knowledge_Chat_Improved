@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "robeks",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6718395547,
+      "tags": {
+        "addr:city": "Annapolis",
+        "addr:housenumber": "2466",
+        "addr:postcode": "21401",
+        "addr:state": "MD",
+        "addr:street": "Solomons Island Road",
+        "alt_name": "Robeks Juice",
+        "amenity": "fast_food",
+        "brand": "Robeks",
+        "brand:wikidata": "Q17029777",
+        "cuisine": "juice",
+        "description": "Smoothies",
+        "name": "Robeks",
+        "opening_hours": "Mo-Th 07:00-21:00; Fr 07:00-21:30; Sa 08:00-21:30; Su 10:00-20:00",
+        "takeaway": "yes"
+      },
+      "lat": 38.9746913,
+      "lon": -76.5423448
+    },
+    {
+      "type": "node",
+      "id": 12663327601,
+      "tags": {
+        "alt_name": "Robeks Juice",
+        "amenity": "fast_food",
+        "brand": "Robeks",
+        "brand:wikidata": "Q17029777",
+        "cuisine": "juice",
+        "name": "Robeks",
+        "takeaway": "yes"
+      },
+      "lat": 39.0905289,
+      "lon": -77.1769063
+    }
+  ]
+}

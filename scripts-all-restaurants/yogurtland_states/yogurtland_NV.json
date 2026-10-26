@@ -1,0 +1,210 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "yogurtland",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9208895059,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "2272",
+        "addr:postcode": "89104",
+        "addr:state": "NV",
+        "addr:street": "South Nellis Boulevard",
+        "addr:unit": "4",
+        "amenity": "ice_cream",
+        "brand": "Yogurtland",
+        "brand:wikidata": "Q8054428",
+        "cuisine": "frozen_yogurt",
+        "name": "Yogurtland",
+        "opening_hours": "Mo-Su 11:30-23:00",
+        "phone": "+1 702-431-2314",
+        "ref": "1432",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 36.1452007,
+      "lon": -115.063027
+    },
+    {
+      "type": "node",
+      "id": 10739772158,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "509",
+        "addr:postcode": "89014",
+        "addr:state": "NV",
+        "addr:street": "North Stephanie Street",
+        "addr:unit": "D",
+        "amenity": "ice_cream",
+        "brand": "Yogurtland",
+        "brand:wikidata": "Q8054428",
+        "cuisine": "frozen_yogurt",
+        "name": "Yogurtland",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "lat": 36.0570515,
+      "lon": -115.0469038
+    },
+    {
+      "type": "node",
+      "id": 12591949260,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "7060",
+        "addr:postcode": "89118",
+        "addr:state": "NV",
+        "addr:street": "South Rainbow Boulevard",
+        "addr:unit": "110",
+        "amenity": "ice_cream",
+        "brand": "Yogurtland",
+        "brand:wikidata": "Q8054428",
+        "cuisine": "frozen_yogurt",
+        "name": "Yogurtland",
+        "opening_hours": "Mo-Su 11:30-22:00",
+        "phone": "+1-702-906-2888",
+        "takeaway": "yes"
+      },
+      "lat": 36.0602247,
+      "lon": -115.2417951
+    },
+    {
+      "type": "node",
+      "id": 12779853706,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "8090",
+        "addr:postcode": "89113",
+        "addr:state": "NV",
+        "addr:street": "Blue Diamond Road",
+        "addr:unit": "200",
+        "amenity": "ice_cream",
+        "branch": "Blue Diamond",
+        "brand": "Yogurtland",
+        "brand:wikidata": "Q8054428",
+        "cuisine": "frozen_yogurt",
+        "name": "Yogurtland",
+        "opening_hours": "Mo-Th 12:00-21:30; Fr 12:00-22:00; Sa 11:00-22:00; Su 11:00-21:30",
+        "outdoor_seating": "yes",
+        "phone": "+1-702-333-0293",
+        "takeaway": "yes",
+        "website": "https://www.yogurtland.com/locations/view/1562"
+      },
+      "lat": 36.0209148,
+      "lon": -115.2669488
+    },
+    {
+      "type": "node",
+      "id": 14079514001,
+      "tags": {
+        "amenity": "ice_cream",
+        "check_date": "2026-08-07",
+        "check_date:opening_hours": "2026-08-07",
+        "name": "Yogurtland",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "website": "https://www.yogurtland.com/"
+      },
+      "lat": 36.0675362,
+      "lon": -115.1782177
+    },
+    {
+      "type": "way",
+      "id": 1418845768,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:country": "US",
+        "addr:housenumber": "5635",
+        "addr:postcode": "89149",
+        "addr:state": "NV",
+        "addr:street": "Centennial Center Boulevard",
+        "addr:unit": "120",
+        "amenity": "ice_cream",
+        "brand": "Yogurtland",
+        "brand:wikidata": "Q8054428",
+        "building": "yes",
+        "cuisine": "frozen_yogurt",
+        "name": "Yogurtland",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.26359745,
+        "lon": -115.25717435000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1419070965,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Yogurtland",
+        "brand:wikidata": "Q8054428",
+        "building": "retail",
+        "cuisine": "frozen_yogurt",
+        "name": "Yogurtland",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.270447649999994,
+        "lon": -115.20556414999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1421449924,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Yogurtland",
+        "brand:wikidata": "Q8054428",
+        "cuisine": "frozen_yogurt",
+        "indoor": "room",
+        "layer": "3",
+        "level": "2",
+        "name": "Yogurtland",
+        "proposed:amenity": "restaurant",
+        "room": "shop",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.1274985,
+        "lon": -115.16904234999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1569912056,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "8780",
+        "addr:postcode": "89117",
+        "addr:state": "NV",
+        "addr:street": "West Charleston Boulevard",
+        "addr:unit": "104",
+        "amenity": "ice_cream",
+        "brand": "Yogurtland",
+        "brand:wikidata": "Q8054428",
+        "building:part": "retail",
+        "cuisine": "frozen_yogurt",
+        "name": "Yogurtland",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.15949985,
+        "lon": -115.28759600000001
+      }
+    }
+  ]
+}

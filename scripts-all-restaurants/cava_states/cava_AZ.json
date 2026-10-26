@@ -1,0 +1,111 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "cava",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12183112558,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "check_date": "2024-09-17",
+        "cuisine": "mediterranean",
+        "name": "CAVA"
+      },
+      "lat": 33.4223457,
+      "lon": -111.9257739
+    },
+    {
+      "type": "node",
+      "id": 13832489301,
+      "tags": {
+        "addr:housenumber": "4355",
+        "addr:street": "East Indian School Road",
+        "amenity": "restaurant",
+        "cuisine": "mediterranean",
+        "name": "CAVA",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "website": "https://cava.com/"
+      },
+      "lat": 33.494615,
+      "lon": -111.9880806
+    },
+    {
+      "type": "node",
+      "id": 13926025201,
+      "tags": {
+        "addr:housenumber": "4010",
+        "addr:street": "South Arizona Avenue",
+        "amenity": "restaurant",
+        "name": "CAVA",
+        "phone": "+1-623-278-3125"
+      },
+      "lat": 33.2471903,
+      "lon": -111.8418941
+    },
+    {
+      "type": "node",
+      "id": 13930641902,
+      "tags": {
+        "addr:housenumber": "4010",
+        "addr:street": "South Arizona Avenue",
+        "amenity": "restaurant",
+        "name": "CAVA"
+      },
+      "lat": 33.2471724,
+      "lon": -111.8418952
+    },
+    {
+      "type": "node",
+      "id": 13994007446,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:postcode": "85037",
+        "addr:state": "AZ",
+        "addr:street": "North 99th Avenue",
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "cuisine": "mediterranean",
+        "name": "CAVA"
+      },
+      "lat": 33.466303,
+      "lon": -112.2711325
+    },
+    {
+      "type": "way",
+      "id": 1396707018,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1130",
+        "addr:postcode": "85210",
+        "addr:state": "AZ",
+        "addr:street": "South Alma School Road",
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "building": "yes",
+        "cuisine": "mediterranean",
+        "name": "CAVA"
+      },
+      "center": {
+        "lat": 33.39414525,
+        "lon": -111.85765789999999
+      }
+    }
+  ]
+}

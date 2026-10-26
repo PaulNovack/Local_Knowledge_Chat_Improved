@@ -1,0 +1,144 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/3.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WV",
+    "brand": "popeyes",
+    "source": "https://download.geofabrik.de/north-america/us/west-virginia-latest.osm.pbf",
+    "source_md5": "4f8c380a535ff9841f95eae4e1a7f84f",
+    "processed_utc": "2026-10-24T06:39:02.358879+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10244919054,
+      "tags": {
+        "addr:city": "Charles Town",
+        "addr:housenumber": "805",
+        "addr:postcode": "25414",
+        "addr:state": "WV",
+        "addr:street": "East Washington Street",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "opening_hours": "Mo-Th 10:30-22:00; Fr-Sa 10:30-23:00; Su 10:30-22:00",
+        "phone": "+1 304-930-1518",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.popeyes.com/store-locator/store/restaurant_86438"
+      },
+      "lat": 39.293067,
+      "lon": -77.8494713
+    },
+    {
+      "type": "node",
+      "id": 13353599801,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "cuisine": "chicken",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "takeaway": "yes",
+        "website": "https://www.popeyes.com"
+      },
+      "lat": 37.8023776,
+      "lon": -81.2129751
+    },
+    {
+      "type": "way",
+      "id": 620995111,
+      "tags": {
+        "addr:city": "Morgantown",
+        "addr:housenumber": "1589",
+        "addr:postcode": "26505",
+        "addr:state": "WV",
+        "addr:street": "Earl Core Road",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "opening_hours": "Mo-Sa 10:00-22:00; Su 10:30-22:00",
+        "phone": "+1 304-381-2286",
+        "takeaway": "yes",
+        "website": "https://www.popeyes.com/store-locator/store/restaurant_85318"
+      },
+      "center": {
+        "lat": 39.62634475,
+        "lon": -79.92779389999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1167801235,
+      "tags": {
+        "addr:city": "Martinsburg",
+        "addr:housenumber": "5608",
+        "addr:postcode": "25404",
+        "addr:state": "WV",
+        "addr:street": "Hammonds Mill Road",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "opening_hours": "10:00-22:00",
+        "phone": "+1 304-274-1015",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://www.popeyes.com/store-locator/store/restaurant_85129"
+      },
+      "center": {
+        "lat": 39.54486985,
+        "lon": -77.9099951
+      }
+    },
+    {
+      "type": "way",
+      "id": 1412637652,
+      "tags": {
+        "addr:housenumber": "23",
+        "addr:postcode": "25404",
+        "addr:street": "Elwood Street",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "phone": "+1-304-820-0084",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://www.popeyes.com"
+      },
+      "center": {
+        "lat": 39.47236915,
+        "lon": -77.95369025000002
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "ruby_tuesday",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6481869579,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "cuisine": "american",
+        "level": "1",
+        "name": "Ruby Tuesday"
+      },
+      "lat": 41.5505192,
+      "lon": -72.8063095
+    },
+    {
+      "type": "way",
+      "id": 1023088640,
+      "tags": {
+        "addr:city": "Windsor Locks",
+        "addr:housenumber": "101",
+        "addr:postcode": "06096",
+        "addr:state": "CT",
+        "addr:street": "Ella Grasso Turnpike",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "center": {
+        "lat": 41.9208589,
+        "lon": -72.66998509999996
+      }
+    }
+  ]
+}

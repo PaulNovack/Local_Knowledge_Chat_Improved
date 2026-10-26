@@ -1,0 +1,464 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "white_castle",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3473317754,
+      "tags": {
+        "addr:city": "Phillipsburg",
+        "addr:housenumber": "1306",
+        "addr:postcode": "08865",
+        "addr:state": "NJ",
+        "addr:street": "Route 22",
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "check_date": "2025-03-23",
+        "cuisine": "burger",
+        "name": "White Castle",
+        "opening_hours": "24/7",
+        "takeaway": "yes"
+      },
+      "lat": 40.6765344,
+      "lon": -75.1426655
+    },
+    {
+      "type": "node",
+      "id": 9252653765,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "cuisine": "burger",
+        "indoor_seating": "yes",
+        "name": "White Castle",
+        "outdoor_seating": "no",
+        "takeaway": "yes"
+      },
+      "lat": 40.05669,
+      "lon": -74.1364962
+    },
+    {
+      "type": "node",
+      "id": 12903209487,
+      "tags": {
+        "addr:city": "Linden",
+        "addr:housenumber": "2001",
+        "addr:postcode": "07036",
+        "addr:state": "NJ",
+        "addr:street": "East Edgar Road",
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "cuisine": "burger",
+        "name": "White Castle",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "lat": 40.6458852,
+      "lon": -74.2266808
+    },
+    {
+      "type": "way",
+      "id": 264851700,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "White Castle",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.54679405,
+        "lon": -74.32866580000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 293255259,
+      "tags": {
+        "addr:housenumber": "1113",
+        "addr:street": "Route 46",
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "White Castle",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.87943585,
+        "lon": -74.6465915
+      }
+    },
+    {
+      "type": "way",
+      "id": 347767441,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "White Castle",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.68925305,
+        "lon": -74.29802204999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 365778442,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "White Castle",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.5480254,
+        "lon": -74.42793719999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 409910649,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "building": "yes",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "White Castle",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.73581825,
+        "lon": -74.06344795000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 429485187,
+      "tags": {
+        "addr:city": "Newark",
+        "addr:housenumber": "307",
+        "addr:postcode": "07112",
+        "addr:state": "NJ",
+        "addr:street": "Elizabeth Avenue",
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "White Castle",
+        "takeaway": "yes",
+        "website": "https://www.whitecastle.com/"
+      },
+      "center": {
+        "lat": 40.71297155,
+        "lon": -74.19459760000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 444612076,
+      "tags": {
+        "addr:housenumber": "642",
+        "addr:street": "Broadway",
+        "air_conditioning": "no",
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "building": "commercial",
+        "check_date": "2024-01-02",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "highchair": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "White Castle",
+        "opening_hours": "24/7",
+        "operator": "White Castle",
+        "outdoor_seating": "no",
+        "payment:app": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "payment:mastercard": "yes",
+        "payment:notes": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-973-485-3250",
+        "smoking": "outside",
+        "source": "local knowledge;aerial imagery",
+        "takeaway": "yes",
+        "website": "https://www.whitecastle.com/locations/314",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 40.772607449999995,
+        "lon": -74.16186909999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 465645403,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "height": "6",
+        "name": "White Castle",
+        "opening_hours": "24/7",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.809995900000004,
+        "lon": -74.00130939999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 472462338,
+      "tags": {
+        "addr:city": "Paterson",
+        "addr:housenumber": "220",
+        "addr:postcode": "07501",
+        "addr:state": "NJ",
+        "addr:street": "Broadway",
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "White Castle",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.91855515,
+        "lon": -74.1659419
+      }
+    },
+    {
+      "type": "way",
+      "id": 587875035,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "building": "yes",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "White Castle",
+        "opening_hours": "24/7",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.77669995,
+        "lon": -74.02872145000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 591306457,
+      "tags": {
+        "addr:city": "Toms River",
+        "addr:housenumber": "132",
+        "addr:postcode": "08753",
+        "addr:state": "NJ",
+        "addr:street": "NJ Route 37 East",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2026-07-12",
+        "cuisine": "burger",
+        "indoor_seating": "yes",
+        "name": "White Castle",
+        "opening_hours": "09:00-17:00",
+        "outdoor_seating": "no",
+        "phone": "+1 732-505-9463",
+        "roof:levels": "0",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.whitecastle.com/locations/312",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 39.96390675,
+        "lon": -74.18959444999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 608156374,
+      "tags": {
+        "addr:city": "Green Brook Township",
+        "addr:housenumber": "366",
+        "addr:postcode": "08812",
+        "addr:state": "NJ",
+        "addr:street": "US 22",
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "White Castle",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.5871676,
+        "lon": -74.50753795000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 720391188,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "White Castle",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.66526485,
+        "lon": -74.23480999999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 779315588,
+      "tags": {
+        "addr:city": "South Brunswick",
+        "addr:housenumber": "4053",
+        "addr:postcode": "08852",
+        "addr:state": "NJ",
+        "addr:street": "Route 1",
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "building": "yes",
+        "check_date": "2026-05-19",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "White Castle",
+        "opening_hours": "09:00-02:00",
+        "operator": "White Castle",
+        "phone": "+1 732-274-0010",
+        "takeaway": "yes",
+        "website": "https://www.whitecastle.com/locations/1003728"
+      },
+      "center": {
+        "lat": 40.39655205,
+        "lon": -74.55977510000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 892869457,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "White Castle",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.28590905,
+        "lon": -74.05027569999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1230966808,
+      "tags": {
+        "addr:housenumber": "480",
+        "addr:street": "Lyons Avenue",
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "building": "yes",
+        "check_date": "2024-12-17",
+        "cuisine": "burger",
+        "name": "White Castle",
+        "opening_hours": "24/7",
+        "phone": "+1 973-282-0913",
+        "takeaway": "yes",
+        "website": "https://www.whitecastle.com/locations/315"
+      },
+      "center": {
+        "lat": 40.7150992,
+        "lon": -74.22451645000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1443974080,
+      "tags": {
+        "addr:city": "East Orange",
+        "addr:housenumber": "951",
+        "addr:postcode": "07018-2373",
+        "addr:state": "NJ",
+        "addr:street": "South Orange Avenue",
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "White Castle",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.74667705,
+        "lon": -74.22730939999997
+      }
+    }
+  ]
+}

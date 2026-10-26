@@ -1,0 +1,119 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "LA",
+    "brand": "7_brew",
+    "source": "https://download.geofabrik.de/north-america/us/louisiana-latest.osm.pbf",
+    "source_md5": "2e108953505ee82f68e2a6e7a3e4f783",
+    "processed_utc": "2026-10-24T07:05:17.318731+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12292582205,
+      "tags": {
+        "addr:city": "Ruston",
+        "addr:housenumber": "1110",
+        "addr:postcode": "71270",
+        "addr:state": "LA",
+        "addr:street": "Cooktown Road",
+        "amenity": "cafe",
+        "check_date": "2026-04-11",
+        "check_date:opening_hours": "2026-04-11",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "level": "0",
+        "name": "7 Brew",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00",
+        "phone": "+1-479-358-9274",
+        "website": "https://locations.7brew.com/la/ruston/1110-cooktown-rd"
+      },
+      "lat": 32.5381434,
+      "lon": -92.6525916
+    },
+    {
+      "type": "node",
+      "id": 13028360524,
+      "tags": {
+        "addr:city": "Monroe",
+        "addr:housenumber": "2401",
+        "addr:postcode": "71201",
+        "addr:state": "LA",
+        "addr:street": "Louisville Avenue",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew Coffee",
+        "takeaway": "yes"
+      },
+      "lat": 32.5233764,
+      "lon": -92.0983941
+    },
+    {
+      "type": "node",
+      "id": 13334894413,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew",
+        "takeaway": "yes"
+      },
+      "lat": 30.0047211,
+      "lon": -90.2191281
+    },
+    {
+      "type": "way",
+      "id": 1205098712,
+      "tags": {
+        "addr:city": "Baton Rouge",
+        "addr:housenumber": "5117",
+        "addr:postcode": "70809",
+        "addr:state": "LA",
+        "addr:street": "Essen Lane",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "internet_access": "no",
+        "layer": "1",
+        "name": "7 Brew Coffee",
+        "opening_hours": "Su-Th 05:30-22:00, Fr-Sa 05:30-23:00",
+        "outdoor_seating": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "payment:mastercard": "yes",
+        "payment:mastercard_contactless": "yes",
+        "payment:visa": "yes",
+        "phone": "+12258009095",
+        "takeaway": "yes",
+        "website": "https://7brew.com"
+      },
+      "center": {
+        "lat": 30.4011651,
+        "lon": -91.10538585
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DE",
+    "brand": "checkers",
+    "source": "https://download.geofabrik.de/north-america/us/delaware-latest.osm.pbf",
+    "source_md5": "5f714be897be010ea09e4134c39a0638",
+    "processed_utc": "2026-10-24T07:00:37.202137+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 721713219,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Checkers",
+        "brand:wikidata": "Q63919315",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Checkers",
+        "takeaway": "yes",
+        "website": "https://checkersandrallys.com/location/checkers-3404-n-dupont-hwy-414925"
+      },
+      "center": {
+        "lat": 39.6910212,
+        "lon": -75.58154995000001
+      }
+    }
+  ]
+}

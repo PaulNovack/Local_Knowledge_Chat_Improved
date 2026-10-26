@@ -1,0 +1,69 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "schlotzsky_s",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13752916074,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "2050",
+        "addr:postcode": "60612",
+        "addr:state": "IL",
+        "addr:street": "West Ogden Avenue",
+        "addr:unit": "A",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "cuisine": "sandwich",
+        "drive_through": "no",
+        "name": "Schlotzsky's",
+        "takeaway": "yes",
+        "website": "https://locations.schlotzskys.com/il/chicago/2050-west-ogden-avenue"
+      },
+      "lat": 41.8721704,
+      "lon": -87.6775755
+    },
+    {
+      "type": "way",
+      "id": 1284553037,
+      "tags": {
+        "addr:city": "Naperville",
+        "addr:country": "US",
+        "addr:county": "Will, IL",
+        "addr:housenumber": "3056",
+        "addr:postcode": "60564",
+        "addr:state": "IL",
+        "addr:street": "Anna Marie Lane",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "building": "retail",
+        "check_date": "2023-04-06",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's",
+        "napervillegis:loc_id": "151878",
+        "napervillegis:prop_id": "62639",
+        "phone": "+1-630-536-8189",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.710160900000005,
+        "lon": -88.20813550000003
+      }
+    }
+  ]
+}

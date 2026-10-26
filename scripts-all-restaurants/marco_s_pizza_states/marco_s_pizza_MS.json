@@ -1,0 +1,88 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "marco_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6299349211,
+      "tags": {
+        "addr:city": "Oxford",
+        "addr:housenumber": "100",
+        "addr:postcode": "38655",
+        "addr:state": "MS",
+        "addr:street": "South Lamar Court",
+        "amenity": "restaurant",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "phone": "+1-662-267-5545",
+        "website": "https://www.marcos.com/"
+      },
+      "lat": 34.3484377,
+      "lon": -89.5212187
+    },
+    {
+      "type": "node",
+      "id": 7196452593,
+      "tags": {
+        "addr:city": "Southaven",
+        "addr:housenumber": "3075",
+        "addr:postcode": "38672",
+        "addr:state": "MS",
+        "addr:street": "Goodman Road East",
+        "addr:unit": "20",
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 34.9606079,
+      "lon": -89.9361518
+    },
+    {
+      "type": "node",
+      "id": 8978529190,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "takeaway": "yes",
+        "website": "https://www.marcos.com/"
+      },
+      "lat": 30.4422887,
+      "lon": -88.9393218
+    },
+    {
+      "type": "node",
+      "id": 10873989922,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 34.9703542,
+      "lon": -89.8136529
+    }
+  ]
+}

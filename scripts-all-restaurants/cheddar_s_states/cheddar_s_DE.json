@@ -1,0 +1,70 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DE",
+    "brand": "cheddar_s",
+    "source": "https://download.geofabrik.de/north-america/us/delaware-latest.osm.pbf",
+    "source_md5": "5f714be897be010ea09e4134c39a0638",
+    "processed_utc": "2026-10-24T07:00:37.202137+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5652467718,
+      "tags": {
+        "addr:city": "Dover",
+        "addr:housenumber": "4590",
+        "addr:postcode": "19901",
+        "addr:state": "DE",
+        "addr:street": "South Dupont Highway",
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "cuisine": "american",
+        "delivery": "no",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen",
+        "opening_hours": "Mo-Sa 11:00-23:00; Su 10:30-22:30",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "lat": 39.096038,
+      "lon": -75.5462026
+    },
+    {
+      "type": "way",
+      "id": 164257259,
+      "tags": {
+        "addr:city": "Newark",
+        "addr:housenumber": "1325",
+        "addr:postcode": "19713",
+        "addr:state": "DE",
+        "addr:street": "Churchmans Road",
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "yes",
+        "check_date": "2026-01-30",
+        "cuisine": "american",
+        "disused:amenity": "restaurant",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr,Sa 11:00-23:00",
+        "phone": "+1 302-861-4300",
+        "website": "https://www.cheddars.com/locations/de/newark/christiana-center-pointe-plaza/2217"
+      },
+      "center": {
+        "lat": 39.69185785,
+        "lon": -75.66543784999999
+      }
+    }
+  ]
+}

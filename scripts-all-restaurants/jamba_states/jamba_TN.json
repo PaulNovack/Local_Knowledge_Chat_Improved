@@ -1,0 +1,159 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TN",
+    "brand": "jamba",
+    "source": "https://download.geofabrik.de/north-america/us/tennessee-latest.osm.pbf",
+    "source_md5": "a047c5da6c897a8a98b1fc4a282b8d3f",
+    "processed_utc": "2026-10-24T07:16:20.210730+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7816626837,
+      "tags": {
+        "addr:city": "Nashville",
+        "addr:housenumber": "2314",
+        "addr:postcode": "37203",
+        "addr:state": "TN",
+        "addr:street": "Elliston Place",
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "cuisine": "juice",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Jamba",
+        "takeaway": "yes"
+      },
+      "lat": 36.1495617,
+      "lon": -86.8062912
+    },
+    {
+      "type": "node",
+      "id": 8547208207,
+      "tags": {
+        "addr:city": "Murfreesboro",
+        "addr:housenumber": "3053",
+        "addr:postcode": "37129",
+        "addr:state": "TN",
+        "addr:street": "Medical Center Parkway",
+        "addr:unit": "A",
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "branch": "Medical Center Parkway",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "cuisine": "juice",
+        "name": "Jamba",
+        "opening_hours": "Mo-Th 06:00-21:00; Fr 06:00-21:30; Sa 08:00-21:30; Su 08:00-21:00",
+        "phone": "+1 615-396-8702",
+        "takeaway": "yes",
+        "website": "https://locations.jamba.com/tn/murfreesboro/3053-medical-center-pkwy"
+      },
+      "lat": 35.8661471,
+      "lon": -86.4509175
+    },
+    {
+      "type": "node",
+      "id": 12363047637,
+      "tags": {
+        "addr:city": "Nashville",
+        "addr:housenumber": "2126",
+        "addr:postcode": "37215",
+        "addr:state": "TN",
+        "addr:street": "Abbott Martin Road",
+        "addr:unit": "E203",
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "branch": "Mall at Green Hills",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "cuisine": "juice",
+        "level": "1",
+        "name": "Jamba",
+        "opening_hours": "Mo-Sa 11:00-20:00; Su 12:00-18:00",
+        "phone": "+1 615-878-1126",
+        "takeaway": "yes",
+        "website": "https://locations.jamba.com/tn/nashville/2126-abbott-martin-rd"
+      },
+      "lat": 36.1071623,
+      "lon": -86.8178179
+    },
+    {
+      "type": "node",
+      "id": 13322287493,
+      "tags": {
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "cuisine": "juice",
+        "name": "Jamba",
+        "takeaway": "yes"
+      },
+      "lat": 35.9345325,
+      "lon": -86.8221542
+    },
+    {
+      "type": "way",
+      "id": 915308562,
+      "tags": {
+        "addr:city": "Smyrna",
+        "addr:housenumber": "434",
+        "addr:postcode": "37167",
+        "addr:state": "TN",
+        "addr:street": "Sam Ridley Parkway West",
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "branch": "Ross Creek Center",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "building": "yes",
+        "cuisine": "juice",
+        "name": "Jamba",
+        "opening_hours": "07:00-20:45",
+        "phone": "+1 615-462-5697",
+        "takeaway": "yes",
+        "website": "https://locations.jamba.com/tn/smyrna/434-sam-ridley-pkwy-w"
+      },
+      "center": {
+        "lat": 35.98607975,
+        "lon": -86.55158804999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1051392673,
+      "tags": {
+        "addr:city": "Nashville",
+        "addr:housenumber": "433",
+        "addr:postcode": "37214",
+        "addr:state": "TN",
+        "addr:street": "Opry Mills Road",
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "branch": "Opry Mills Mall",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "cuisine": "juice",
+        "name": "Jamba",
+        "opening_hours": "Mo-Th 11:00-20:00; Fr-Sa 10:00-20:00; Su 12:00-18:00",
+        "phone": "+1 629-333-1584",
+        "takeaway": "yes",
+        "website": "https://locations.jamba.com/tn/nashville/433-opry-mills-road"
+      },
+      "center": {
+        "lat": 36.202864149999996,
+        "lon": -86.6927172
+      }
+    }
+  ]
+}

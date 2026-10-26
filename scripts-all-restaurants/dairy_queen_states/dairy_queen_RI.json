@@ -1,0 +1,62 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "RI",
+    "brand": "dairy_queen",
+    "source": "https://download.geofabrik.de/north-america/us/rhode-island-latest.osm.pbf",
+    "source_md5": "089bd14c5348318ad280c1c9ab732067",
+    "processed_utc": "2026-10-24T07:15:29.409283+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10145237532,
+      "tags": {
+        "addr:city": "Providence",
+        "addr:postcode": "02903-1739",
+        "addr:state": "RI",
+        "amenity": "fast_food",
+        "brand": "Dairy Queen",
+        "brand:wikidata": "Q1141226",
+        "cuisine": "ice_cream;burger;chicken",
+        "level": "3",
+        "name": "Dairy Queen",
+        "phone": "+1 401-654-6084",
+        "takeaway": "yes",
+        "website": "https://www.dairyqueen.com/locations/ri/providence/providence-place-mall/13571"
+      },
+      "lat": 41.8283738,
+      "lon": -71.4163338
+    },
+    {
+      "type": "node",
+      "id": 10888622665,
+      "tags": {
+        "addr:city": "Cranston",
+        "addr:housenumber": "275",
+        "addr:postcode": "02920",
+        "addr:state": "RI",
+        "addr:street": "Atwood Avenue",
+        "alt_name": "Dairy Queen",
+        "amenity": "fast_food",
+        "brand": "DQ Grill & Chill",
+        "brand:wikidata": "Q1141226",
+        "cuisine": "ice_cream;burger;chicken",
+        "drive_through": "yes",
+        "name": "DQ Grill & Chill",
+        "phone": "+1 401-275-5055",
+        "takeaway": "yes",
+        "website": "https://www.dairyqueen.com/locations/ri/cranston/275-atwood-ave/14464"
+      },
+      "lat": 41.7832034,
+      "lon": -71.4721599
+    }
+  ]
+}

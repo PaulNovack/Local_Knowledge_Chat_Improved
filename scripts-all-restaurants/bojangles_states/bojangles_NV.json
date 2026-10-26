@@ -1,0 +1,59 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "bojangles",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12843269701,
+      "tags": {
+        "addr:housenumber": "9250",
+        "addr:postcode": "89139",
+        "addr:street": "South Rainbow Boulevard",
+        "amenity": "fast_food",
+        "drive_through": "yes",
+        "name": "Bojangles",
+        "opening_hours": "Su-Th 05:00-22:00; Fr-Sa 05:00-23:00",
+        "outdoor_seating": "no",
+        "phone": "+1-725-204-9259",
+        "self_service": "no",
+        "website": "https://locations.bojangles.com/nv/las-vegas/9250-rainbow-blvd-las-vegas.html",
+        "website:menu": "https://www.bojangles.com/menu/"
+      },
+      "lat": 36.0222059,
+      "lon": -115.243079
+    },
+    {
+      "type": "node",
+      "id": 13542134634,
+      "tags": {
+        "addr:city": "West Wendover",
+        "addr:housenumber": "800",
+        "addr:postcode": "89883",
+        "addr:state": "NV",
+        "addr:street": "Leppy Hills Boulevard",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "takeaway": "yes"
+      },
+      "lat": 40.7418551,
+      "lon": -114.0577057
+    }
+  ]
+}

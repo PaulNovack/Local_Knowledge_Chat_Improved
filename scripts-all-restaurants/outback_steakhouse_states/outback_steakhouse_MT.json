@@ -1,0 +1,80 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MT",
+    "brand": "outback_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/montana-latest.osm.pbf",
+    "source_md5": "abfa2e1bfc18f6c00a77776eb9185b11",
+    "processed_utc": "2026-10-24T07:09:10.271084+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 308441721,
+      "tags": {
+        "addr:city": "Bozeman",
+        "addr:housenumber": "6059",
+        "addr:postcode": "59718-2440",
+        "addr:state": "MT",
+        "addr:street": "East Valley Center Road",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse",
+        "phone": "+1-406-587-5200",
+        "website": "https://locations.outback.com/montana/bozeman/6059-e-valley-center-rd"
+      },
+      "center": {
+        "lat": 45.7154532,
+        "lon": -111.06766985000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 653295193,
+      "tags": {
+        "addr:city": "Missoula",
+        "addr:housenumber": "2415",
+        "addr:postcode": "59808",
+        "addr:state": "MT",
+        "addr:street": "North Reserve Street",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse"
+      },
+      "center": {
+        "lat": 46.88766135,
+        "lon": -114.04037764999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 844092577,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 45.7544265,
+        "lon": -108.56733750000001
+      }
+    }
+  ]
+}

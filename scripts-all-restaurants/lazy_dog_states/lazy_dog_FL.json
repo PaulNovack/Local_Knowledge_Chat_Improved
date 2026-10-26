@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "lazy_dog",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10065657206,
+      "tags": {
+        "addr:city": "Boca Raton",
+        "addr:housenumber": "9636",
+        "addr:postcode": "33434",
+        "addr:state": "FL",
+        "addr:street": "Glades Road",
+        "amenity": "restaurant",
+        "branch": "restaraunt and bar",
+        "brand": "Lazy Dog",
+        "brand:wikidata": "Q111304278",
+        "check_date": "2025-02-16",
+        "cuisine": "american",
+        "name": "Lazy Dog",
+        "opening_hours": "Mo-Fr 11:00-24:00; Sa-Su 10:00-24:00",
+        "phone": "+1 561-489-5607",
+        "website": "https://www.lazydogrestaurants.com/locations/boca-raton-fl",
+        "website:menu": "https://orders.lazydogrestaurants.com/order/boca-raton"
+      },
+      "lat": 26.3674285,
+      "lon": -80.1971741
+    },
+    {
+      "type": "node",
+      "id": 12463632877,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Lazy Dog",
+        "brand:wikidata": "Q111304278",
+        "cuisine": "american",
+        "name": "Lazy Dog"
+      },
+      "lat": 28.3476051,
+      "lon": -81.6090399
+    }
+  ]
+}

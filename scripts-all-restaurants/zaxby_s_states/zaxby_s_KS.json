@@ -1,0 +1,117 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "zaxby_s",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13043874402,
+      "tags": {
+        "addr:city": "Leavenworth",
+        "addr:housenumber": "4925",
+        "addr:postcode": "66048",
+        "addr:state": "KS",
+        "addr:street": "South 4th Street",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Th 10:30-23:00; Fr-Sa 10:30-11:59; Su 11:00-23:00",
+        "phone": "+1-913-250-5225",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/ks/leavenworth/4925-s-4th-st?storeId=261923"
+      },
+      "lat": 39.2702329,
+      "lon": -94.8994195
+    },
+    {
+      "type": "way",
+      "id": 551745236,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "check_date": "2018-01-09",
+        "cuisine": "chicken",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.884224149999994,
+        "lon": -94.69630454999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 570783923,
+      "tags": {
+        "addr:city": "Olathe",
+        "addr:housenumber": "12195",
+        "addr:state": "KS",
+        "addr:street": "South Strang Line Road",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "10:30-23:00",
+        "phone": "+1 913-747-4277",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/ks/olathe/12195-s-strang-line-rd"
+      },
+      "center": {
+        "lat": 38.9086008,
+        "lon": -94.77456319999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 678991005,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "2035",
+        "addr:state": "KS",
+        "addr:street": "North 109 Street",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "check_date": "2024-07-10",
+        "check_date:opening_hours": "2024-07-10",
+        "check_date:opening_hours:drive_through": "2024-07-10",
+        "cuisine": "chicken",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "opening_hours:drive_through": "Mo-Su 11:00-21:00",
+        "phone": "+1-913-299-8803",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/ks/kansas-city/2035-n-109-st"
+      },
+      "center": {
+        "lat": 39.1296477,
+        "lon": -94.83093730000002
+      }
+    }
+  ]
+}

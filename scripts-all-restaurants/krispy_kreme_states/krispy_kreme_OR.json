@@ -1,0 +1,66 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OR",
+    "brand": "krispy_kreme",
+    "source": "https://download.geofabrik.de/north-america/us/oregon-latest.osm.pbf",
+    "source_md5": "bc93fd72fe4589fdc6c9b2b497cb7ef1",
+    "processed_utc": "2026-10-24T07:14:41.004303+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 116428440,
+      "tags": {
+        "addr:city": "Happy Valley",
+        "addr:housenumber": "9950",
+        "addr:postcode": "97086",
+        "addr:street": "Southeast 82nd Avenue",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 45.451247800000004,
+        "lon": -122.57857324999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 284176428,
+      "tags": {
+        "addr:city": "Beaverton",
+        "addr:housenumber": "16415",
+        "addr:postcode": "97006",
+        "addr:state": "OR",
+        "addr:street": "Northwest Cornell Road",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "cuisine": "donut",
+        "drive_through": "yes",
+        "name": "Krispy Kreme",
+        "opening_hours": "05:00-23:00; Fr,Sa 05:00-24:00",
+        "phone": "+1-503-645-2228",
+        "takeaway": "yes",
+        "website": "https://site.krispykreme.com/or/beaverton/16415-nw-cornell-rd"
+      },
+      "center": {
+        "lat": 45.5332526,
+        "lon": -122.84695260000001
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "outback_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 90283288,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:housenumber": "1626",
+        "addr:postcode": "82001",
+        "addr:state": "WY",
+        "addr:street": "Fleischili Parkway",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "retail",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse",
+        "phone": "+1-307-638-8171",
+        "website": "https://locations.outback.com/wyoming/cheyenne/1626-fleischli-business-parkway"
+      },
+      "center": {
+        "lat": 41.122232350000004,
+        "lon": -104.84597589999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 627288266,
+      "tags": {
+        "addr:city": "Evansville",
+        "addr:housenumber": "229",
+        "addr:postcode": "82636",
+        "addr:state": "WY",
+        "addr:street": "Miracle Street",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "cuisine": "american;steak",
+        "internet_access": "no",
+        "name": "Outback Steakhouse",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-22:30; Su 11:00-21:00; PH closed",
+        "operator": "Derrick Brock",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 42.8543266,
+        "lon": -106.26626075000001
+      }
+    }
+  ]
+}

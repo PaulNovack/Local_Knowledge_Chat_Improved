@@ -1,0 +1,74 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "romano_s_macaroni_grill",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1850041888,
+      "tags": {
+        "addr:city": "Marietta",
+        "addr:housenumber": "3625",
+        "addr:postcode": "30064",
+        "addr:state": "GA",
+        "addr:street": "Dallas Highway Southwest",
+        "alt_name": "Macaroni Grill",
+        "amenity": "restaurant",
+        "brand": "Romano's Macaroni Grill",
+        "brand:wikidata": "Q7362714",
+        "cuisine": "italian",
+        "name": "Romano's Macaroni Grill",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-678-581-5624",
+        "website": "http://www.macaronigrill.com/"
+      },
+      "lat": 33.9526663,
+      "lon": -84.6569057
+    },
+    {
+      "type": "node",
+      "id": 6329204665,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Romano's Macaroni Grill",
+        "brand:wikidata": "Q7362714",
+        "cuisine": "italian",
+        "name": "Romano's Macaroni Grill"
+      },
+      "lat": 32.0040674,
+      "lon": -81.117024
+    },
+    {
+      "type": "way",
+      "id": 387580880,
+      "tags": {
+        "addr:city": "Buford",
+        "addr:housenumber": "3207",
+        "addr:postcode": "30519",
+        "addr:street": "Buford Drive",
+        "amenity": "restaurant",
+        "brand": "Romano's Macaroni Grill",
+        "brand:wikidata": "Q7362714",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Romano's Macaroni Grill"
+      },
+      "center": {
+        "lat": 34.06253815,
+        "lon": -83.99002430000002
+      }
+    }
+  ]
+}

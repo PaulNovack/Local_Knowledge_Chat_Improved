@@ -1,0 +1,102 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ID",
+    "brand": "cracker_barrel",
+    "source": "https://download.geofabrik.de/north-america/us/idaho-latest.osm.pbf",
+    "source_md5": "1a1a06364d5343af00d67fef4750905f",
+    "processed_utc": "2026-10-24T07:02:45.671077+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4340113950,
+      "tags": {
+        "addr:city": "Nampa",
+        "addr:housenumber": "16853",
+        "addr:postcode": "83687",
+        "addr:state": "ID",
+        "addr:street": "North Marketplace Boulevard",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-23:00",
+        "phone": "+1-208-442-1100",
+        "ref": "683",
+        "website": "https://www.crackerbarrel.com/Locations/States/id/nampa/683"
+      },
+      "lat": 43.6148468,
+      "lon": -116.5950488
+    },
+    {
+      "type": "way",
+      "id": 436131096,
+      "tags": {
+        "addr:city": "Boise",
+        "addr:housenumber": "1733",
+        "addr:postcode": "83709",
+        "addr:state": "ID",
+        "addr:street": "South Cole Road",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-23:00",
+        "phone": "+1 208 321 8280",
+        "ref": "359",
+        "website": "https://locations.crackerbarrel.com/id/boise/359/"
+      },
+      "center": {
+        "lat": 43.5885107,
+        "lon": -116.27494515000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 683464149,
+      "tags": {
+        "addr:city": "Coeur d'Alene",
+        "addr:housenumber": "1675",
+        "addr:postcode": "83814",
+        "addr:state": "ID",
+        "addr:street": "West Lee Court",
+        "alcohol": "yes",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "retail",
+        "coffee": "yes",
+        "cuisine": "american",
+        "delivery": "yes",
+        "highchair": "yes",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-23:00",
+        "phone": "+1 208-664-0656",
+        "ref": "729",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://locations.crackerbarrel.com/id/coeur-d-alene/729/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 47.7013009,
+        "lon": -116.80665420000003
+      }
+    }
+  ]
+}

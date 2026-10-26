@@ -1,0 +1,147 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "krispy_kreme",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2061739599,
+      "tags": {
+        "addr:city": "Erie",
+        "addr:housename": "Krispy Kreme",
+        "addr:housenumber": "7501",
+        "addr:postcode": "16509",
+        "addr:state": "PA",
+        "addr:street": "Peach Street",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes",
+        "website": "https://www.krispykreme.com/"
+      },
+      "lat": 42.0525432,
+      "lon": -80.0840009
+    },
+    {
+      "type": "node",
+      "id": 2503424725,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "lat": 40.1834413,
+      "lon": -80.224161
+    },
+    {
+      "type": "node",
+      "id": 5526610398,
+      "tags": {
+        "addr:city": "Havertown",
+        "addr:housenumber": "1305",
+        "addr:postcode": "19083",
+        "addr:state": "PA",
+        "addr:street": "West Chester Pike",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "check_date": "2026-02-01",
+        "cuisine": "donut",
+        "drive_through": "no",
+        "name": "Krispy Kreme",
+        "opening_hours": "Mo-Th,Su 06:00-21:00; Fr,Sa 06:00-22:00",
+        "phone": "+1 484-453-8075",
+        "takeaway": "yes",
+        "website": "https://site.krispykreme.com/pa/havertown/1305-w-chester-pike"
+      },
+      "lat": 39.9739469,
+      "lon": -75.3208314
+    },
+    {
+      "type": "way",
+      "id": 420699285,
+      "tags": {
+        "addr:street": "Moosic Street",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "commercial",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.4028445,
+        "lon": -75.65890695000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 521426119,
+      "tags": {
+        "addr:city": "North Wales",
+        "addr:housenumber": "1281",
+        "addr:postcode": "19454",
+        "addr:state": "PA",
+        "addr:street": "Knapp Road",
+        "amenity": "fast_food",
+        "branch": "North Wales",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "commercial",
+        "check_date": "2026-02-08",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "opening_hours": "Mo-Th,Su 06:00-22:00; Fr-Sa 06:00-23:00",
+        "phone": "+1 215-253-6065",
+        "takeaway": "yes",
+        "website": "https://site.krispykreme.com/pa/north-wales/1281-knapp-rd"
+      },
+      "center": {
+        "lat": 40.2291683,
+        "lon": -75.23760440000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 839126196,
+      "tags": {
+        "addr:city": "Clarks Summit",
+        "addr:housenumber": "831",
+        "addr:postcode": "18411",
+        "addr:state": "PA",
+        "addr:street": "Northern Boulevard",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "cuisine": "donut",
+        "drive_through": "yes",
+        "name": "Krispy Kreme",
+        "opening_hours": "24/7",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.481281300000006,
+        "lon": -75.68934735000005
+      }
+    }
+  ]
+}

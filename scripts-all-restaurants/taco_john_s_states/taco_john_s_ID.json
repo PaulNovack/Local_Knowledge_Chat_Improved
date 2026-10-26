@@ -1,0 +1,52 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ID",
+    "brand": "taco_john_s",
+    "source": "https://download.geofabrik.de/north-america/us/idaho-latest.osm.pbf",
+    "source_md5": "1a1a06364d5343af00d67fef4750905f",
+    "processed_utc": "2026-10-24T07:02:45.671077+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5014812310,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Taco John's",
+        "brand:wikidata": "Q7673962",
+        "cuisine": "mexican",
+        "name": "Taco John's",
+        "takeaway": "yes"
+      },
+      "lat": 45.927157,
+      "lon": -116.1317731
+    },
+    {
+      "type": "way",
+      "id": 1312959463,
+      "tags": {
+        "addr:housenumber": "1643",
+        "amenity": "fast_food",
+        "brand": "Taco John's",
+        "brand:wikidata": "Q7673962",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Taco John's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.59063035,
+        "lon": -114.48016040000005
+      }
+    }
+  ]
+}

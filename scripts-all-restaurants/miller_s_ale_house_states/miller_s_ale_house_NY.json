@@ -1,0 +1,67 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "miller_s_ale_house",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8253381588,
+      "tags": {
+        "addr:city": "Staten Island",
+        "addr:housenumber": "2883",
+        "addr:postcode": "10314",
+        "addr:state": "NY",
+        "addr:street": "Richmond Avenue",
+        "amenity": "restaurant",
+        "brand": "Miller's Ale House",
+        "brand:wikidata": "Q6858987",
+        "check_date": "2024-12-17",
+        "cuisine": "american",
+        "name": "Miller's Ale House",
+        "opening_hours": "Mo-We,Su 11:30-24:00, Th 11:30-01:00, Fr-Sa 11:30-02:00",
+        "phone": "+1 718-477-0112",
+        "website": "https://millersalehouse.com/locations/staten-island/"
+      },
+      "lat": 40.5750924,
+      "lon": -74.169331
+    },
+    {
+      "type": "way",
+      "id": 563121218,
+      "tags": {
+        "addr:city": "Deer Park",
+        "addr:housenumber": "1800",
+        "addr:postcode": "11729",
+        "addr:state": "NY",
+        "addr:street": "The Arches Circle",
+        "amenity": "restaurant",
+        "brand": "Miller's Ale House",
+        "brand:wikidata": "Q6858987",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Miller's Ale House",
+        "nysgissam:nysaddresspointid": "SUFF382689",
+        "nysgissam:review": "no matching street nearby",
+        "opening_hours": "Mo-Th 10:00-20:00, Fr-Sa 10:00-21:00, Su 11:00-19:00",
+        "phone": "+1 631 667 0228",
+        "website": "https://www.tangeroutlet.com/deerpark/maps#/location/4915/profile"
+      },
+      "center": {
+        "lat": 40.7624381,
+        "lon": -73.30692269999997
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TX",
+    "brand": "hungry_howie_s",
+    "source": "https://download.geofabrik.de/north-america/us/texas-latest.osm.pbf",
+    "source_md5": "eb8f4603e9b48bd481c192fe621ae18b",
+    "processed_utc": "2026-10-24T07:17:23.814833+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2624158243,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Hungry Howie's"
+      },
+      "lat": 30.591945,
+      "lon": -96.3300773
+    },
+    {
+      "type": "node",
+      "id": 8567567141,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Hungry Howie's",
+        "brand:wikidata": "Q16985303",
+        "cuisine": "pizza",
+        "name": "Hungry Howie's",
+        "takeaway": "yes"
+      },
+      "lat": 27.5750644,
+      "lon": -99.472495
+    },
+    {
+      "type": "node",
+      "id": 10815263048,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Hungry Howies"
+      },
+      "lat": 29.5632083,
+      "lon": -98.4809595
+    },
+    {
+      "type": "node",
+      "id": 11675220840,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2024-02-28",
+        "cuisine": "pizza",
+        "name": "Hungry Howie's"
+      },
+      "lat": 29.9016294,
+      "lon": -95.5533094
+    }
+  ]
+}

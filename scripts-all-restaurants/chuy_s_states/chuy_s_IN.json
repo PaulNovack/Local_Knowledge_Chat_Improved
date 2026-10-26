@@ -1,0 +1,109 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "chuy_s",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3829329431,
+      "tags": {
+        "addr:city": "Clarksville",
+        "addr:state": "IN",
+        "amenity": "restaurant",
+        "brand": "Chuy's",
+        "brand:wikidata": "Q5118415",
+        "check_date": "2024-06-11",
+        "cuisine": "tex-mex",
+        "name": "Chuy's",
+        "smoking": "no",
+        "website": "https://www.chuys.com/locations/clarksville"
+      },
+      "lat": 38.3304237,
+      "lon": -85.7551864
+    },
+    {
+      "type": "node",
+      "id": 9045617057,
+      "tags": {
+        "addr:city": "Noblesville",
+        "addr:housenumber": "14150",
+        "addr:postcode": "46060",
+        "addr:state": "IN",
+        "addr:street": "Town Center Boulevard",
+        "amenity": "restaurant",
+        "brand": "Chuy's",
+        "brand:wikidata": "Q5118415",
+        "cuisine": "tex-mex",
+        "name": "Chuy's"
+      },
+      "lat": 39.9944005,
+      "lon": -85.9308647
+    },
+    {
+      "type": "way",
+      "id": 503595282,
+      "tags": {
+        "addr:city": "Zionsville",
+        "addr:housenumber": "10325",
+        "addr:postcode": "46077",
+        "addr:state": "IN",
+        "addr:street": "North Michigan Road",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Chuy's",
+        "brand:wikidata": "Q5118415",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "name": "Chuy's",
+        "official_name": "Chuy's",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-463-333-8338",
+        "smoking": "no"
+      },
+      "center": {
+        "lat": 39.9360093,
+        "lon": -86.23398209999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 802538588,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "4670",
+        "addr:postcode": "46237",
+        "addr:state": "IN",
+        "addr:street": "Southport Crossings Drive",
+        "amenity": "restaurant",
+        "brand": "Chuy's",
+        "brand:wikidata": "Q5118415",
+        "building": "retail",
+        "check_date": "2026-03-14",
+        "cuisine": "tex-mex",
+        "name": "Chuy's",
+        "source": "esri/Indianapolis_IN_Buildings",
+        "website": "https://www.chuys.com/locations/in/indianapolis/indianapolis-in-southport/6091",
+        "website:menu": "https://www.chuys.com/menu/family-bundles"
+      },
+      "center": {
+        "lat": 39.664211449999996,
+        "lon": -86.08929065000001
+      }
+    }
+  ]
+}

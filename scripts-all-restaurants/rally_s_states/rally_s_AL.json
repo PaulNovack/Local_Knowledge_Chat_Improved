@@ -1,0 +1,110 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AL",
+    "brand": "rally_s",
+    "source": "https://download.geofabrik.de/north-america/us/alabama-latest.osm.pbf",
+    "source_md5": "3ee9c8ab6ddb6921e2aa2562af6c9bce",
+    "processed_utc": "2026-10-24T06:56:09.586986+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1252155625,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Rally's",
+        "brand:wikidata": "Q63919323",
+        "cuisine": "burger",
+        "name": "Rally's",
+        "takeaway": "yes"
+      },
+      "lat": 33.6419477,
+      "lon": -85.8262077
+    },
+    {
+      "type": "node",
+      "id": 6361203297,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Rally's",
+        "brand:wikidata": "Q63919323",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Rally's",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "lat": 33.5310844,
+      "lon": -86.806484
+    },
+    {
+      "type": "node",
+      "id": 7236068355,
+      "tags": {
+        "addr:city": "Midfield",
+        "addr:housenumber": "86",
+        "addr:postcode": "35228",
+        "addr:state": "AL",
+        "addr:street": "Weibel Drive",
+        "amenity": "fast_food",
+        "brand": "Rally's",
+        "brand:wikidata": "Q63919323",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Rally's",
+        "opening_hours": "Su-Th 10:00-01:00; Fr,Sa 10:00-02:00",
+        "outdoor_seating": "yes",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:cheque": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-205-490-6966",
+        "takeaway": "yes",
+        "website": "https://checkersandrallys.com/location/rally-s-4188-weibel-dr-791901"
+      },
+      "lat": 33.4643623,
+      "lon": -86.9134222
+    },
+    {
+      "type": "node",
+      "id": 7795552378,
+      "tags": {
+        "addr:city": "Birmingham",
+        "addr:housenumber": "636",
+        "addr:postcode": "35211",
+        "addr:state": "AL",
+        "addr:street": "Lomb Avenue Southwest",
+        "amenity": "fast_food",
+        "brand": "Rally's",
+        "brand:wikidata": "Q63919323",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Rally's",
+        "opening_hours": "Su-Th 10:00-24:00; Fr,Sa 10:00-01:00",
+        "opening_hours:covid19": "closed \"temporarily closed\"",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:cheque": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-205-202-4888",
+        "takeaway": "yes",
+        "website": "https://locations.rallys.com/al/birmingham/636-lomb-avenue-southwest"
+      },
+      "lat": 33.4997499,
+      "lon": -86.8426925
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "waffle_house",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 569738103,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Waffle House",
+        "brand:wikidata": "Q1701206",
+        "building": "yes",
+        "check_date": "2024-09-24",
+        "check_date:opening_hours": "2024-09-24",
+        "cuisine": "american",
+        "name": "Waffle House",
+        "opening_hours": "24/7",
+        "phone": "+1 618-931-6273",
+        "website": "https://locations.wafflehouse.com/granitecity-il-384/"
+      },
+      "center": {
+        "lat": 38.7625479,
+        "lon": -90.12289605000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 934881462,
+      "tags": {
+        "addr:city": "Collinsville",
+        "addr:housenumber": "505",
+        "addr:postcode": "62234",
+        "addr:state": "IL",
+        "addr:street": "North Bluff Road",
+        "amenity": "restaurant",
+        "brand": "Waffle House",
+        "brand:wikidata": "Q1701206",
+        "building": "yes",
+        "check_date": "2024-09-24",
+        "check_date:opening_hours": "2024-09-24",
+        "cuisine": "american",
+        "name": "Waffle House",
+        "opening_hours": "24/7",
+        "phone": "+1 618-344-6343;+1 618-344-9658",
+        "website": "https://locations.wafflehouse.com/collinsville-il-259/"
+      },
+      "center": {
+        "lat": 38.677537349999994,
+        "lon": -90.01291915000002
+      }
+    }
+  ]
+}

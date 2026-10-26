@@ -1,0 +1,111 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WI",
+    "brand": "biggby_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/wisconsin-latest.osm.pbf",
+    "source_md5": "1718ff98080ec3edeb95ab8fb47b0ce7",
+    "processed_utc": "2026-10-24T07:19:59.510074+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5648575421,
+      "tags": {
+        "addr:city": "Wausau",
+        "addr:housenumber": "320",
+        "addr:postcode": "54403",
+        "addr:state": "WI",
+        "addr:street": "East Bridge Street",
+        "amenity": "cafe",
+        "brand": "Biggby Coffee",
+        "brand:wikidata": "Q4906876",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "Biggby Coffee",
+        "opening_hours": "Mo-Su 06:00-20:00",
+        "phone": "+1-715-848-2442",
+        "takeaway": "yes",
+        "website": "https://biggby.com/",
+        "wheelchair": "yes"
+      },
+      "lat": 44.9697661,
+      "lon": -89.6265097
+    },
+    {
+      "type": "node",
+      "id": 13394028442,
+      "tags": {
+        "addr:city": "Milwaukee",
+        "addr:housenumber": "920",
+        "addr:postcode": "53202",
+        "addr:street": "North Water Street",
+        "amenity": "cafe",
+        "branch": "920 North Water St",
+        "brand": "Biggby Coffee",
+        "brand:wikidata": "Q4906876",
+        "contact:phone": "+1 414 226 6537",
+        "contact:website": "https://www.biggby.com/",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Biggby Coffee",
+        "opening_hours": "Mo-Sa 06:00-20:00; Su 07:00-20:00",
+        "outdoor_seating": "yes",
+        "source": "http://assessments.milwaukee.gov/remast.asp?taxkey=3921262120;http://city.milwaukee.gov/ImageLibrary/Groups/ccClerk/HPC/PDFs/Memorial-Inventory-Sheets/Ald.04-09-RedArrowParkmemorial.pdf",
+        "start_date": "2024-11-22",
+        "takeaway": "yes",
+        "wheelchair": "limited"
+      },
+      "lat": 43.0430065,
+      "lon": -87.9098128
+    },
+    {
+      "type": "way",
+      "id": 1176000073,
+      "tags": {
+        "addr:city": "Franklin",
+        "addr:housenumber": "7700",
+        "addr:postcode": "53132",
+        "addr:state": "WI",
+        "addr:street": "South Lovers Lane Road",
+        "addr:unit": "100",
+        "amenity": "cafe",
+        "brand": "Biggby Coffee",
+        "brand:wikidata": "Q4906876",
+        "building:part": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Biggby Coffee",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.9048708,
+        "lon": -88.03843440000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1566299766,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Biggby Coffee",
+        "brand:wikidata": "Q4906876",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Biggby Coffee",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 43.75248665,
+        "lon": -87.94269985
+      }
+    }
+  ]
+}

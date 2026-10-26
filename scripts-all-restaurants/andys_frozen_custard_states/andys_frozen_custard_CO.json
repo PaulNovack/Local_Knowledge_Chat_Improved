@@ -1,0 +1,118 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "andys_frozen_custard",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9310012982,
+      "tags": {
+        "addr:city": "Littleton",
+        "addr:housenumber": "6985",
+        "addr:postcode": "80122",
+        "addr:state": "CO",
+        "addr:street": "South Broadway",
+        "amenity": "ice_cream",
+        "brand": "Andy's Frozen Custard",
+        "brand:wikidata": "Q4760327",
+        "name": "Andy's Frozen Custard",
+        "short_name": "Andy's"
+      },
+      "lat": 39.5909628,
+      "lon": -104.9887152
+    },
+    {
+      "type": "node",
+      "id": 13646615107,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Andy's Frozen Custard",
+        "brand:wikidata": "Q4760327",
+        "name": "Andy's Frozen Custard",
+        "outdoor_seating": "yes",
+        "short_name": "Andy's"
+      },
+      "lat": 39.7795579,
+      "lon": -104.7725845
+    },
+    {
+      "type": "way",
+      "id": 690103520,
+      "tags": {
+        "addr:city": "Sheridan",
+        "addr:housenumber": "3505",
+        "addr:postcode": "80110",
+        "addr:state": "CO",
+        "addr:street": "River Point Parkway",
+        "amenity": "ice_cream",
+        "brand": "Andy's Frozen Custard",
+        "brand:wikidata": "Q4760327",
+        "building": "yes",
+        "drive_through": "yes",
+        "name": "Andy's Frozen Custard",
+        "outdoor_seating": "yes",
+        "short_name": "Andy's",
+        "website": "https://www.eatandys.com/sheridan-co"
+      },
+      "center": {
+        "lat": 39.65190685,
+        "lon": -105.01353245000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1473878988,
+      "tags": {
+        "addr:city": "Parker",
+        "addr:housenumber": "18900",
+        "addr:postcode": "80134",
+        "addr:state": "CO",
+        "addr:street": "East Lincoln Avenue",
+        "amenity": "ice_cream",
+        "brand": "Andy's Frozen Custard",
+        "brand:wikidata": "Q4760327",
+        "building": "yes",
+        "layer": "1",
+        "name": "Andy's Frozen Custard",
+        "short_name": "Andy's"
+      },
+      "center": {
+        "lat": 39.53619885,
+        "lon": -104.76933640000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1504499364,
+      "tags": {
+        "addr:city": "Aurora",
+        "addr:housenumber": "21450",
+        "addr:postcode": "80013",
+        "addr:state": "CO",
+        "addr:street": "East Quincy Avenue",
+        "amenity": "ice_cream",
+        "brand": "Andy's Frozen Custard",
+        "brand:wikidata": "Q4760327",
+        "building": "yes",
+        "name": "Andy's Frozen Custard",
+        "short_name": "Andy's"
+      },
+      "center": {
+        "lat": 39.6380432,
+        "lon": -104.73790125
+      }
+    }
+  ]
+}

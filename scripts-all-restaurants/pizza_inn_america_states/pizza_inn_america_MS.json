@@ -1,0 +1,122 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "pizza_inn_america",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3692358970,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Pizza Inn",
+        "brand:wikidata": "Q4118850",
+        "cuisine": "pizza",
+        "name": "Pizza Inn",
+        "takeaway": "yes"
+      },
+      "lat": 33.4820096,
+      "lon": -89.73335
+    },
+    {
+      "type": "node",
+      "id": 9856538797,
+      "tags": {
+        "addr:city": "Wiggins",
+        "addr:housenumber": "530",
+        "addr:postcode": "39577",
+        "addr:state": "MS",
+        "addr:street": "West Central Avenue",
+        "amenity": "fast_food",
+        "brand": "Pizza Inn",
+        "brand:wikidata": "Q4118850",
+        "cuisine": "pizza",
+        "name": "Pizza Inn",
+        "phone": "+1 601 928 9000",
+        "takeaway": "yes",
+        "website": "https://www.pizzainn.com/locations/wiggins-ms/"
+      },
+      "lat": 30.8506948,
+      "lon": -89.1426971
+    },
+    {
+      "type": "node",
+      "id": 11001012099,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Pizza Inn",
+        "brand:wikidata": "Q4118850",
+        "cuisine": "pizza",
+        "name": "Pizza Inn",
+        "takeaway": "yes"
+      },
+      "lat": 32.343391,
+      "lon": -90.8364166
+    },
+    {
+      "type": "way",
+      "id": 235884762,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Pizza Inn",
+        "brand:wikidata": "Q4118850",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Inn",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.52416225,
+        "lon": -90.20374200000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 283684746,
+      "tags": {
+        "addr:housenumber": "429",
+        "addr:street": "West Broad Street",
+        "amenity": "fast_food",
+        "brand": "Pizza Inn",
+        "brand:wikidata": "Q4118850",
+        "building": "yes",
+        "cuisine": "pizza",
+        "drive_through": "yes",
+        "name": "Pizza Inn",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 31.5550557,
+        "lon": -90.11177075
+      }
+    },
+    {
+      "type": "way",
+      "id": 674073516,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Pizza Inn",
+        "brand:wikidata": "Q4118850",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Inn",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.78167325,
+        "lon": -89.83060105000004
+      }
+    }
+  ]
+}

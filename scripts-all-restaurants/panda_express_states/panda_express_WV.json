@@ -1,0 +1,104 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WV",
+    "brand": "panda_express",
+    "source": "https://download.geofabrik.de/north-america/us/west-virginia-latest.osm.pbf",
+    "source_md5": "4f8c380a535ff9841f95eae4e1a7f84f",
+    "processed_utc": "2026-10-24T07:19:30.158292+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5264107433,
+      "tags": {
+        "addr:city": "Martinsburg",
+        "addr:housenumber": "927",
+        "addr:postcode": "25403",
+        "addr:state": "WV",
+        "addr:street": "Foxcroft Avenue",
+        "amenity": "fast_food",
+        "branch": "Foxcroft & Route 45",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr-Sa 10:00-22:30; Su 10:00-22:00",
+        "phone": "+1 304-260-8960",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/wv/martinsburg/2582"
+      },
+      "lat": 39.4464139,
+      "lon": -77.9877008
+    },
+    {
+      "type": "node",
+      "id": 13583554352,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 39.6344517,
+      "lon": -79.9537886
+    },
+    {
+      "type": "way",
+      "id": 829800534,
+      "tags": {
+        "amenity": "fast_food",
+        "branch": "Garden",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "fixme:atp": "no ATP match, check if still exists",
+        "indoor_seating": "yes",
+        "name": "Panda Express",
+        "outdoor_seating": "no",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.27717455,
+        "lon": -77.85093235
+      }
+    },
+    {
+      "type": "way",
+      "id": 1077548996,
+      "tags": {
+        "addr:city": "Morgantown",
+        "addr:housenumber": "100",
+        "addr:postcode": "26501",
+        "addr:state": "WV",
+        "addr:street": "Sesame Drive",
+        "amenity": "fast_food",
+        "branch": "I-79 & Chaplin Road",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "check_date": "2025-05-23",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "10:00-21:30",
+        "phone": "+1 304-599-6939",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/wv/morgantown/2842"
+      },
+      "center": {
+        "lat": 39.640942800000005,
+        "lon": -79.99824235
+      }
+    }
+  ]
+}

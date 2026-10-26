@@ -1,0 +1,61 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "huddle_house",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4593620429,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Huddle House",
+        "brand:wikidata": "Q5928324",
+        "cuisine": "american",
+        "name": "Huddle House"
+      },
+      "lat": 41.0594091,
+      "lon": -84.979957
+    },
+    {
+      "type": "node",
+      "id": 11182190952,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Huddle House",
+        "brand:wikidata": "Q5928324",
+        "cuisine": "american",
+        "name": "Huddle House"
+      },
+      "lat": 40.0322273,
+      "lon": -86.4726698
+    },
+    {
+      "type": "way",
+      "id": 538626698,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Huddle House",
+        "brand:wikidata": "Q5928324",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Huddle House"
+      },
+      "center": {
+        "lat": 38.739890599999995,
+        "lon": -85.82160975
+      }
+    }
+  ]
+}

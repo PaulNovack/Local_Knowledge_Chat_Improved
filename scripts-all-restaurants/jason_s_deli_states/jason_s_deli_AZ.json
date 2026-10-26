@@ -1,0 +1,54 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "jason_s_deli",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6292724346,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli",
+        "opening_hours": "Mo-Su 10:00-21:00"
+      },
+      "lat": 33.5788607,
+      "lon": -112.1237076
+    },
+    {
+      "type": "way",
+      "id": 1132361049,
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:housenumber": "1065",
+        "addr:postcode": "85233",
+        "addr:state": "AZ",
+        "addr:street": "East Baseline Road",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli"
+      },
+      "center": {
+        "lat": 33.378519600000004,
+        "lon": -111.8102055
+      }
+    }
+  ]
+}

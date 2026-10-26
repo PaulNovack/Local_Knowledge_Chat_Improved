@@ -1,0 +1,102 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SD",
+    "brand": "tropical_smoothie_cafe",
+    "source": "https://download.geofabrik.de/north-america/us/south-dakota-latest.osm.pbf",
+    "source_md5": "4d012b130d8682e6f0e1bc093c255981",
+    "processed_utc": "2026-10-24T07:16:00.169778+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2501356857,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Tropical Smoothie Cafe",
+        "brand:wikidata": "Q7845817",
+        "contact:phone": "+1 605-692-1880",
+        "contact:website": "https://locations.tropicalsmoothiecafe.com/sd/brookings/1461-6th-street",
+        "cuisine": "juice",
+        "name": "Tropical Smoothie Cafe",
+        "opening_hours": "Mo-Fr 07:00-21:00; Sa,Su 08:00-21:00",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "lat": 44.3116823,
+      "lon": -96.7787221
+    },
+    {
+      "type": "node",
+      "id": 9339443744,
+      "tags": {
+        "addr:unit": "900",
+        "amenity": "fast_food",
+        "brand": "Tropical Smoothie Cafe",
+        "brand:wikidata": "Q7845817",
+        "cuisine": "juice",
+        "name": "Tropical Smoothie Cafe",
+        "takeaway": "yes"
+      },
+      "lat": 44.0989656,
+      "lon": -103.184261
+    },
+    {
+      "type": "way",
+      "id": 759364279,
+      "tags": {
+        "addr:city": "Brookings",
+        "addr:housenumber": "1461",
+        "addr:postcode": "57006",
+        "addr:state": "SD",
+        "addr:street": "6th Street",
+        "amenity": "fast_food",
+        "brand": "Tropical Smoothie Cafe",
+        "brand:wikidata": "Q7845817",
+        "building": "yes",
+        "cuisine": "juice",
+        "drive_through": "yes",
+        "name": "Tropical Smoothie Cafe",
+        "opening_hours": "Mo-Fr 07:00-21:00; Sa,Su 08:00-21:00",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 44.31168985,
+        "lon": -96.77872135000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1119509566,
+      "tags": {
+        "addr:city": "Spearfish",
+        "addr:housenumber": "2403",
+        "addr:postcode": "57783",
+        "addr:state": "SD",
+        "addr:street": "Platinum Drive",
+        "addr:unit": "1",
+        "amenity": "fast_food",
+        "brand": "Tropical Smoothie Cafe",
+        "brand:wikidata": "Q7845817",
+        "building": "yes",
+        "check_date": "2026-07-11",
+        "cuisine": "juice",
+        "drive_through": "yes",
+        "name": "Tropical Smoothie Cafe",
+        "phone": "+1 605-717-1006",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 44.479493500000004,
+        "lon": -103.81628805000003
+      }
+    }
+  ]
+}

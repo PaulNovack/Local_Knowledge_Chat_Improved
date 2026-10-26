@@ -1,0 +1,591 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/3.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DE",
+    "brand": "burger_king",
+    "source": "https://download.geofabrik.de/north-america/us/delaware-latest.osm.pbf",
+    "source_md5": "5f714be897be010ea09e4134c39a0638",
+    "processed_utc": "2026-10-24T06:18:11.889302+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8272661790,
+      "tags": {
+        "addr:city": "Newark",
+        "addr:housenumber": "530",
+        "addr:postcode": "19702-5427",
+        "addr:state": "DE",
+        "addr:street": "JFK Memorial Highway",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "check_date": "2024-07-15",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "no",
+        "indoor_seating": "yes",
+        "name": "Burger King",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no",
+        "phone": "+1 302-391-7586",
+        "ref": "17582",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_11236"
+      },
+      "lat": 39.6616343,
+      "lon": -75.6915723
+    },
+    {
+      "type": "node",
+      "id": 11939389107,
+      "tags": {
+        "addr:city": "Wilmington",
+        "addr:housenumber": "300",
+        "addr:postcode": "19804-1345",
+        "addr:state": "DE",
+        "addr:street": "South Maryland Avenue",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Burger King",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su 07:00-22:00",
+        "phone": "+1 302-995-1070",
+        "ref": "5190",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_2904"
+      },
+      "lat": 39.7258279,
+      "lon": -75.5890034
+    },
+    {
+      "type": "way",
+      "id": 83914094,
+      "tags": {
+        "addr:city": "Wilmington",
+        "addr:housenumber": "2802",
+        "addr:postcode": "19803",
+        "addr:state": "DE",
+        "addr:street": "Concord Pike",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "yes",
+        "check_date": "2023-08-25",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Burger King",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su 07:00-22:00",
+        "opening_hours:drive_through": "Mo-Sa 06:00-24:00; Su 07:00-24:00",
+        "phone": "+1 302-416-6843",
+        "ref": "101",
+        "source": "Yahoo",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_75"
+      },
+      "center": {
+        "lat": 39.7983057,
+        "lon": -75.54810250000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 86215967,
+      "tags": {
+        "addr:city": "Bear",
+        "addr:housenumber": "1170",
+        "addr:postcode": "19701",
+        "addr:state": "DE",
+        "addr:street": "Pulaski Highway",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "yes",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Burger King",
+        "opening_hours": "Mo-Sa 06:00-20:00; Su 07:00-20:00",
+        "phone": "+1 302-595-3342",
+        "ref": "12163",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_7019"
+      },
+      "center": {
+        "lat": 39.6305988,
+        "lon": -75.66302315000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 128829663,
+      "tags": {
+        "addr:city": "New Castle",
+        "addr:housenumber": "101",
+        "addr:postcode": "19720-3101",
+        "addr:state": "DE",
+        "addr:street": "North Dupont Parkway",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "yes",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "layer": "1",
+        "name": "Burger King",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su 07:00-22:00",
+        "phone": "+1 302-613-2572",
+        "ref": "2106",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_1109"
+      },
+      "center": {
+        "lat": 39.665840349999996,
+        "lon": -75.6047661
+      }
+    },
+    {
+      "type": "way",
+      "id": 231393276,
+      "tags": {
+        "addr:city": "Seaford",
+        "addr:housenumber": "24456",
+        "addr:postcode": "19973-8469",
+        "addr:state": "DE",
+        "addr:street": "Sussex Highway",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "yes",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Burger King",
+        "opening_hours": "Mo-Sa 06:00-20:00; Su 07:00-20:00",
+        "phone": "+1 302-649-2649",
+        "ref": "2841",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_1554"
+      },
+      "center": {
+        "lat": 38.646728949999996,
+        "lon": -75.5945767
+      }
+    },
+    {
+      "type": "way",
+      "id": 238910719,
+      "tags": {
+        "addr:city": "Newark",
+        "addr:housenumber": "1300",
+        "addr:postcode": "19702",
+        "addr:state": "DE",
+        "addr:street": "Peoples Plaza",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "yes",
+        "check_date": "2025-07-11",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Burger King",
+        "opening_hours": "06:00-22:00",
+        "opening_hours:drive_through": "06:00-01:00",
+        "phone": "+1 302-838-9380",
+        "ref": "12351",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_7147"
+      },
+      "center": {
+        "lat": 39.6037351,
+        "lon": -75.7513285
+      }
+    },
+    {
+      "type": "way",
+      "id": 507059797,
+      "tags": {
+        "addr:city": "Millsboro",
+        "addr:housenumber": "30123",
+        "addr:postcode": "19966",
+        "addr:state": "DE",
+        "addr:street": "Commerce Drive",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Burger King",
+        "opening_hours": "05:30-23:00",
+        "phone": "+1 302-663-0571",
+        "ref": "19987",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_13577"
+      },
+      "center": {
+        "lat": 38.57417925,
+        "lon": -75.28644695000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 520743827,
+      "tags": {
+        "addr:city": "Georgetown",
+        "addr:housenumber": "20633",
+        "addr:postcode": "19947",
+        "addr:state": "DE",
+        "addr:street": "Dupont Boulevard",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "yes",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Burger King",
+        "opening_hours": "Mo-Th 06:00-24:00; Fr-Sa 05:30-01:00; Su 06:00-24:00",
+        "phone": "+1 302-515-1125",
+        "ref": "6089",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_3448"
+      },
+      "center": {
+        "lat": 38.6976479,
+        "lon": -75.39978959999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 552516362,
+      "tags": {
+        "addr:city": "Wilmington",
+        "addr:housenumber": "3607",
+        "addr:postcode": "19808-5103",
+        "addr:state": "DE",
+        "addr:street": "Kirkwood Highway",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "yes",
+        "check_date": "2023-04-05",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Burger King",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su 07:00-22:00",
+        "phone": "+1 302-994-2124",
+        "ref": "466",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_238"
+      },
+      "center": {
+        "lat": 39.73500135,
+        "lon": -75.6365783
+      }
+    },
+    {
+      "type": "way",
+      "id": 558415186,
+      "tags": {
+        "addr:city": "Newark",
+        "addr:housenumber": "2690",
+        "addr:postcode": "19711",
+        "addr:state": "DE",
+        "addr:street": "Kirkwood Highway",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "yes",
+        "check_date": "2026-01-27",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Burger King",
+        "opening_hours": "06:00-22:00",
+        "opening_hours:drive_through": "06:00-03:00",
+        "phone": "+1 302-266-8154",
+        "ref": "2663",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_1451"
+      },
+      "center": {
+        "lat": 39.7078063,
+        "lon": -75.68264820000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 665354331,
+      "tags": {
+        "addr:city": "Dover",
+        "addr:housenumber": "1600",
+        "addr:postcode": "19901",
+        "addr:state": "DE",
+        "addr:street": "South Dupont Highway",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Burger King",
+        "opening_hours": "Mo-Sa 06:00-20:00; Su 07:00-20:00",
+        "outdoor_seating": "no",
+        "phone": "+1 302-747-7428",
+        "ref": "3213",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_1776"
+      },
+      "center": {
+        "lat": 39.16157355,
+        "lon": -75.5129791
+      }
+    },
+    {
+      "type": "way",
+      "id": 681236861,
+      "tags": {
+        "addr:city": "Milford",
+        "addr:housenumber": "943",
+        "addr:postcode": "19963",
+        "addr:state": "DE",
+        "addr:street": "North Dupont Boulevard",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "yes",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Burger King",
+        "phone": "+1 302-424-2272",
+        "ref": "14460",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_8591"
+      },
+      "center": {
+        "lat": 38.93029095,
+        "lon": -75.43219160000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 729914092,
+      "tags": {
+        "addr:city": "Dover",
+        "addr:housenumber": "1600",
+        "addr:postcode": "19901",
+        "addr:state": "DE",
+        "addr:street": "South Dupont Highway",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Burger King",
+        "opening_hours": "Mo-Th 06:00-00:00; Fr-Sa 06:00-01:00; Su 07:00-00:00",
+        "phone": "+1 302-734-7042",
+        "ref": "13866",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_8166"
+      },
+      "center": {
+        "lat": 39.1321169,
+        "lon": -75.52948585000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 802100892,
+      "tags": {
+        "addr:city": "Dover Air Force Base",
+        "addr:postcode": "19902",
+        "addr:state": "DE",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Burger King",
+        "phone": "+1 302-734-7464",
+        "ref": "7030",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_4017"
+      },
+      "center": {
+        "lat": 39.119982050000004,
+        "lon": -75.47243779999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 891794738,
+      "tags": {
+        "addr:city": "Laurel",
+        "addr:housenumber": "10930",
+        "addr:postcode": "19956",
+        "addr:state": "DE",
+        "addr:street": "County Seat Highway",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Burger King",
+        "opening_hours": "06:00-24:00",
+        "phone": "+1 302-877-8112",
+        "ref": "26312",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_76591"
+      },
+      "center": {
+        "lat": 38.570838050000006,
+        "lon": -75.56138699999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 912469961,
+      "tags": {
+        "addr:city": "New Castle",
+        "addr:housenumber": "1530",
+        "addr:postcode": "19720-1902",
+        "addr:state": "DE",
+        "addr:street": "North Du Pont Highway",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "yes",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Burger King",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su 07:00-22:00",
+        "phone": "+1 302-368-5074",
+        "ref": "3801",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_2115"
+      },
+      "center": {
+        "lat": 39.69089075,
+        "lon": -75.58003629999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1135261402,
+      "tags": {
+        "addr:city": "Middletown",
+        "addr:housenumber": "600",
+        "addr:postcode": "19709",
+        "addr:state": "DE",
+        "addr:street": "Ash Boulevard",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "yes",
+        "check_date": "2025-07-11",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Burger King",
+        "opening_hours": "07:00-20:00",
+        "opening_hours:drive_through": "Mo-We,Su 07:00-22:00; Th-Sa 07:00-23:00",
+        "phone": "+1 302-376-1979",
+        "ref": "11636",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_6675"
+      },
+      "center": {
+        "lat": 39.4588064,
+        "lon": -75.72304765000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1385659588,
+      "tags": {
+        "addr:city": "Claymont",
+        "addr:housenumber": "2911",
+        "addr:postcode": "19703",
+        "addr:state": "DE",
+        "addr:street": "Philadelphia Pike",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Burger King",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su 07:00-22:00",
+        "opening_hours:drive_through": "Mo-Sa 06:00-25:00, Su 07:00-25:00",
+        "phone": "+1 302-246-5667",
+        "ref": "684",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_352"
+      },
+      "center": {
+        "lat": 39.79654705,
+        "lon": -75.46570605
+      }
+    },
+    {
+      "type": "way",
+      "id": 1444080521,
+      "tags": {
+        "addr:city": "Smyrna",
+        "addr:housenumber": "1290",
+        "addr:postcode": "19977",
+        "addr:state": "DE",
+        "addr:street": "South Dupont Boulevard",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "yes",
+        "check_date": "2025-12-16",
+        "cuisine": "burger",
+        "name": "Burger King",
+        "opening_hours": "07:00-20:00",
+        "opening_hours:drive_through": "Mo-Th,Su 07:00-22:00; Fr-Sa 07:00-23:00",
+        "phone": "+1 302-471-3163",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_76979"
+      },
+      "center": {
+        "lat": 39.2857434,
+        "lon": -75.59511475
+      }
+    }
+  ]
+}

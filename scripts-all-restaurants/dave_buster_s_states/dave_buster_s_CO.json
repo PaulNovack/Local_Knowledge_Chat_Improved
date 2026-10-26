@@ -1,0 +1,98 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "dave_buster_s",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2426580267,
+      "tags": {
+        "addr:city": "Denver",
+        "addr:housename": "Colorado Center",
+        "addr:housenumber": "2000",
+        "addr:postcode": "80222",
+        "addr:state": "CO",
+        "addr:street": "South Colorado Boulevard",
+        "addr:unit": "1",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "check_date": "2025-04-11",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "phone": "+1-303-759-1515",
+        "source": "knowledge",
+        "website": "https://www.daveandbusters.com/"
+      },
+      "lat": 39.6813799,
+      "lon": -104.938977
+    },
+    {
+      "type": "way",
+      "id": 49474764,
+      "tags": {
+        "addr:city": "Westminster",
+        "addr:housenumber": "10677",
+        "addr:postcode": "80020",
+        "addr:state": "CO",
+        "addr:street": "Westminster Boulevard",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "yes",
+        "building:levels": "2",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "source": "esri_USDOT_ColoradoOITGIS"
+      },
+      "center": {
+        "lat": 39.8900807,
+        "lon": -105.07034484999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1374174009,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:country": "US",
+        "addr:housenumber": "9279",
+        "addr:postcode": "80920",
+        "addr:state": "CO",
+        "addr:street": "Highland Ridge Heights",
+        "amenity": "restaurant",
+        "branch": "Colorado Springs, CO",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "yes",
+        "check_date": "2026-07-21",
+        "contact:facebook": "https://www.facebook.com/daveandbusters",
+        "contact:instagram": "https://www.instagram.com/daveandbusters/",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "opening_hours": "Su-Th 10:00-24:00; Fr-Sa 10:00-25:00",
+        "phone": "+1-719-418-8911",
+        "website": "https://www.daveandbusters.com/us/en/about/locations/colorado-springs"
+      },
+      "center": {
+        "lat": 38.9651863,
+        "lon": -104.7854663
+      }
+    }
+  ]
+}

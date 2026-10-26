@@ -1,0 +1,109 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "jimmy_john_s",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5005273963,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "cuisine": "sandwich",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "takeaway": "yes"
+      },
+      "lat": 40.7391949,
+      "lon": -74.1721235
+    },
+    {
+      "type": "node",
+      "id": 10560835532,
+      "tags": {
+        "addr:city": "Jersey City",
+        "addr:housenumber": "110",
+        "addr:postcode": "07302",
+        "addr:state": "NJ",
+        "addr:street": "First Street",
+        "addr:unit": "C1",
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "cuisine": "sandwich",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "phone": "+1 201-217-1880",
+        "takeaway": "yes",
+        "website": "https://locations.jimmyjohns.com/nj/jerseycity/sandwiches-3537.html"
+      },
+      "lat": 40.7218667,
+      "lon": -74.0378986
+    },
+    {
+      "type": "way",
+      "id": 255319927,
+      "tags": {
+        "addr:city": "Glassboro",
+        "addr:housenumber": "55",
+        "addr:postcode": "08028",
+        "addr:state": "NJ",
+        "addr:street": "Delsea Drive",
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "building": "commercial",
+        "cuisine": "sandwich",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "phone": "+1 856-307-0000",
+        "takeaway": "yes",
+        "website": "https://locations.jimmyjohns.com/nj/glassboro/sandwiches-2515.html"
+      },
+      "center": {
+        "lat": 39.7046658,
+        "lon": -75.10803905
+      }
+    },
+    {
+      "type": "way",
+      "id": 535115467,
+      "tags": {
+        "addr:city": "Mount Laurel",
+        "addr:country": "US",
+        "addr:housenumber": "7000",
+        "addr:postcode": "08054",
+        "addr:state": "NJ",
+        "addr:street": "Midatlantic Drive",
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "building": "retail",
+        "cuisine": "sandwich",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.9653191,
+        "lon": -74.91986374999999
+      }
+    }
+  ]
+}

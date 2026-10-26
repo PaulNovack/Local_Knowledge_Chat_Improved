@@ -1,0 +1,93 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "papa_johns",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1914546295,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Papa John's",
+        "brand:wikidata": "Q2759586",
+        "cuisine": "pizza",
+        "name": "Papa John's",
+        "takeaway": "yes"
+      },
+      "lat": 42.337504,
+      "lon": -71.0840056
+    },
+    {
+      "type": "node",
+      "id": 4123660090,
+      "tags": {
+        "addr:city": "Brighton",
+        "addr:housenumber": "533",
+        "addr:postcode": "02135",
+        "addr:state": "MA",
+        "addr:street": "Washington Street",
+        "amenity": "fast_food",
+        "branch": "Washington St",
+        "brand": "Papa John's",
+        "brand:wikidata": "Q2759586",
+        "cuisine": "pizza",
+        "name": "Papa John's",
+        "opening_hours": "Su-Th 11:00-01:00; Fr-Sa 11:00-03:00",
+        "phone": "+1 617-254-0111",
+        "takeaway": "yes",
+        "website": "https://locations.papajohns.com/united-states/ma/02135/brighton/533-washington-street"
+      },
+      "lat": 42.3491997,
+      "lon": -71.1629707
+    },
+    {
+      "type": "node",
+      "id": 6117072054,
+      "tags": {
+        "addr:city": "Somerville",
+        "addr:housenumber": "622",
+        "addr:postcode": "02143",
+        "addr:state": "MA",
+        "addr:street": "Somerville Avenue",
+        "amenity": "fast_food",
+        "brand": "Papa John's",
+        "brand:wikidata": "Q2759586",
+        "cuisine": "pizza",
+        "name": "Papa John's",
+        "opening_hours": "Mo-Su 10:00-15:00",
+        "operator": "Papa John's",
+        "phone": "+1 617-627-9100",
+        "takeaway": "yes",
+        "website": "https://locations.papajohns.com/united-states/ma/02143/somerville/622-somerville-ave"
+      },
+      "lat": 42.3837425,
+      "lon": -71.1101036
+    },
+    {
+      "type": "node",
+      "id": 12115328633,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Papa John's",
+        "brand:wikidata": "Q2759586",
+        "cuisine": "pizza",
+        "name": "Papa John's",
+        "takeaway": "yes"
+      },
+      "lat": 42.3676219,
+      "lon": -72.5349579
+    }
+  ]
+}

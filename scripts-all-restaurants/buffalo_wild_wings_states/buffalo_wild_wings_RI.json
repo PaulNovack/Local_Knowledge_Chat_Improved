@@ -1,0 +1,50 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "RI",
+    "brand": "buffalo_wild_wings",
+    "source": "https://download.geofabrik.de/north-america/us/rhode-island-latest.osm.pbf",
+    "source_md5": "089bd14c5348318ad280c1c9ab732067",
+    "processed_utc": "2026-10-24T07:15:29.409283+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12633693288,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3"
+      },
+      "lat": 41.7233185,
+      "lon": -71.4759454
+    },
+    {
+      "type": "way",
+      "id": 954666231,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building": "yes",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3"
+      },
+      "center": {
+        "lat": 41.9818818,
+        "lon": -71.51071465000001
+      }
+    }
+  ]
+}

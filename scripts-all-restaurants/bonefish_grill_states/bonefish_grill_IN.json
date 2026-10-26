@@ -1,0 +1,66 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "bonefish_grill",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5216696265,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "lat": 39.6301789,
+      "lon": -86.1577596
+    },
+    {
+      "type": "node",
+      "id": 5764557977,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "lat": 41.695548,
+      "lon": -86.1918835
+    },
+    {
+      "type": "way",
+      "id": 191726324,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "4501",
+        "addr:postcode": "46250",
+        "addr:street": "East 82nd Street",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "building": "retail",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill",
+        "phone": "+1-317-863-3474"
+      },
+      "center": {
+        "lat": 39.90608315,
+        "lon": -86.09294150000005
+      }
+    }
+  ]
+}

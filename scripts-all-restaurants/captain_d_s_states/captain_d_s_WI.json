@@ -1,0 +1,43 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WI",
+    "brand": "captain_d_s",
+    "source": "https://download.geofabrik.de/north-america/us/wisconsin-latest.osm.pbf",
+    "source_md5": "1718ff98080ec3edeb95ab8fb47b0ce7",
+    "processed_utc": "2026-10-24T07:19:59.510074+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 659380330,
+      "tags": {
+        "addr:city": "Milwaukee",
+        "addr:housenumber": "7320",
+        "addr:postcode": "53223",
+        "addr:state": "WI",
+        "addr:street": "West Good Hope Road",
+        "amenity": "fast_food",
+        "brand": "Captain D's",
+        "brand:wikidata": "Q5036616",
+        "building": "yes",
+        "cuisine": "seafood",
+        "drive_through": "yes",
+        "name": "Captain D's",
+        "official_name": "Captain D's Seafood Kitchen",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 43.14905845,
+        "lon": -88.00194744999999
+      }
+    }
+  ]
+}

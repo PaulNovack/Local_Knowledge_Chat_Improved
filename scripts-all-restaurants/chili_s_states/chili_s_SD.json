@@ -1,0 +1,59 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SD",
+    "brand": "chili_s",
+    "source": "https://download.geofabrik.de/north-america/us/south-dakota-latest.osm.pbf",
+    "source_md5": "4d012b130d8682e6f0e1bc093c255981",
+    "processed_utc": "2026-10-24T07:16:00.169778+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 120479022,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar"
+      },
+      "center": {
+        "lat": 43.515494000000004,
+        "lon": -96.77275944999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 254754208,
+      "tags": {
+        "addr:city": "Rapid City",
+        "addr:housenumber": "2125",
+        "addr:postcode": "57701",
+        "addr:state": "SD",
+        "addr:street": "Haines Avenue",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 44.10582825,
+        "lon": -103.22276739999995
+      }
+    }
+  ]
+}

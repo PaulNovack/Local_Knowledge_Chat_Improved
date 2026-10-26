@@ -1,0 +1,1337 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TX",
+    "brand": "cracker_barrel",
+    "source": "https://download.geofabrik.de/north-america/us/texas-latest.osm.pbf",
+    "source_md5": "eb8f4603e9b48bd481c192fe621ae18b",
+    "processed_utc": "2026-10-24T07:17:23.814833+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3719473463,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Cracker Barrel"
+      },
+      "lat": 29.5834607,
+      "lon": -95.3875349
+    },
+    {
+      "type": "node",
+      "id": 8373438104,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 07:00-21:00; Fr,Sa 07:00-22:00",
+        "wheelchair": "yes"
+      },
+      "lat": 33.0362344,
+      "lon": -97.0013482
+    },
+    {
+      "type": "node",
+      "id": 9215186695,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "check_date": "2025-03-19",
+        "cuisine": "american",
+        "name": "Cracker Barrel Country Store",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Mo-Th 07:00-21:00; Fr-Su 07:00-22:00",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 29.9805189,
+      "lon": -95.4236466
+    },
+    {
+      "type": "way",
+      "id": 30800558,
+      "tags": {
+        "addr:city": "San Marcos",
+        "addr:full": "4321 IH 35 S",
+        "addr:housenumber": "4321",
+        "addr:postcode": "78666",
+        "addr:state": "TX",
+        "addr:street": "South Interstate 35",
+        "addr:unit": "5500",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "restaurant",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Mo-Sa 10:00-19:00, Su 11:00-19:00",
+        "phone": "+1 512-353-4122",
+        "ref": "228",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 29.822881250000002,
+        "lon": -97.9897133
+      }
+    },
+    {
+      "type": "way",
+      "id": 50535531,
+      "tags": {
+        "addr:city": "Amarillo",
+        "addr:housenumber": "2323",
+        "addr:postcode": "79104",
+        "addr:state": "TX",
+        "addr:street": "East Interstate Drive",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "changing_table": "yes",
+        "check_date": "2026-05-21",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 07:00-22:00; Fr-Sa 07:00-23:00",
+        "outdoor_seating": "no",
+        "phone": "+1-806-372-2034",
+        "source": "Yahoo",
+        "website": "https://www.crackerbarrel.com/Locations/States/tx/amarillo/210"
+      },
+      "center": {
+        "lat": 35.1940675,
+        "lon": -101.81116665000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 51781236,
+      "tags": {
+        "addr:city": "Beaumont",
+        "addr:housenumber": "5390",
+        "addr:state": "TX",
+        "addr:street": "Walden Road",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "check_date": "2026-02-22",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:captive_portal": "yes",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "CB_Guest",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 07:00-21:00; Fr-Sa 07:00-22:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "source": "local_knowledge",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 30.0377935,
+        "lon": -94.15452900000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 140365636,
+      "tags": {
+        "addr:city": "San Antonio",
+        "addr:country": "US",
+        "addr:housenumber": "123",
+        "addr:postcode": "78245",
+        "addr:state": "TX",
+        "addr:street": "Southwest Loop 410",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "check_date": "2023-08-21",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-23:00",
+        "phone": "+1-210-521-8940",
+        "ref": "576"
+      },
+      "center": {
+        "lat": 29.43675265,
+        "lon": -98.64521049999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 147399715,
+      "tags": {
+        "addr:city": "Weatherford",
+        "addr:housenumber": "132",
+        "addr:postcode": "76087",
+        "addr:state": "TX",
+        "addr:street": "East Interstate 20",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 32.729769149999996,
+        "lon": -97.78471430000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 147841772,
+      "tags": {
+        "addr:city": "Gainesville",
+        "addr:full": "4327 N I-35",
+        "addr:housenumber": "4327",
+        "addr:postcode": "76240",
+        "addr:state": "TX",
+        "addr:street": "North Interstate 35",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-23:00",
+        "phone": "+1-940-612-1827",
+        "ref": "600"
+      },
+      "center": {
+        "lat": 33.680505249999996,
+        "lon": -97.1571523
+      }
+    },
+    {
+      "type": "way",
+      "id": 161021402,
+      "tags": {
+        "addr:city": "El Paso",
+        "addr:housenumber": "7540",
+        "addr:postcode": "79912",
+        "addr:state": "TX",
+        "addr:street": "Remcon Circle",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 31.83693195,
+        "lon": -106.56812685
+      }
+    },
+    {
+      "type": "way",
+      "id": 196532059,
+      "tags": {
+        "addr:city": "Denton",
+        "addr:full": "4008 N I-35",
+        "addr:housenumber": "4008",
+        "addr:postcode": "76207",
+        "addr:state": "TX",
+        "addr:street": "North Interstate 35",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-23:00",
+        "phone": "+1-940-382-5277",
+        "ref": "149"
+      },
+      "center": {
+        "lat": 33.2311699,
+        "lon": -97.1730938
+      }
+    },
+    {
+      "type": "way",
+      "id": 199450139,
+      "tags": {
+        "addr:city": "Sherman",
+        "addr:full": "3501 N US Hwy 75",
+        "addr:housenumber": "3501",
+        "addr:postcode": "75090",
+        "addr:state": "TX",
+        "addr:street": "North Sam Rayburn Freeway",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-23:00",
+        "phone": "+1-903-868-9437",
+        "ref": "623"
+      },
+      "center": {
+        "lat": 33.675069050000005,
+        "lon": -96.60805655000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 220973231,
+      "tags": {
+        "addr:city": "Lubbock",
+        "addr:housenumber": "5018",
+        "addr:postcode": "79407",
+        "addr:state": "TX",
+        "addr:street": "Milwaukee Avenue",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 33.5452269,
+        "lon": -101.95763599999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 237105644,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 30.0672394,
+        "lon": -95.24651545
+      }
+    },
+    {
+      "type": "way",
+      "id": 271674300,
+      "tags": {
+        "addr:city": "Burleson",
+        "addr:housenumber": "13301",
+        "addr:postcode": "76028",
+        "addr:state": "TX",
+        "addr:street": "South Freeway",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 32.565476950000004,
+        "lon": -97.31767585
+      }
+    },
+    {
+      "type": "way",
+      "id": 277117298,
+      "tags": {
+        "addr:city": "San Antonio",
+        "addr:housenumber": "11030",
+        "addr:postcode": "78230",
+        "addr:state": "TX",
+        "addr:street": "Interstate 10 West",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "check_date": "2026-08-17",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-23:00",
+        "phone": "+1-210-690-3808",
+        "ref": "154"
+      },
+      "center": {
+        "lat": 29.545084799999998,
+        "lon": -98.58141884999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 278460243,
+      "tags": {
+        "addr:city": "Rosenberg",
+        "addr:housenumber": "23801",
+        "addr:state": "TX",
+        "addr:street": "Southwest Freeway",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 29.5450398,
+        "lon": -95.74785280000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 289436297,
+      "tags": {
+        "addr:city": "Buda",
+        "addr:full": "550 COUNTY ROAD 117",
+        "addr:housenumber": "550",
+        "addr:postcode": "78610",
+        "addr:state": "TX",
+        "addr:street": "Old San Antonio Road",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-23:00",
+        "phone": "+1 512-295-2765",
+        "ref": "595"
+      },
+      "center": {
+        "lat": 30.08494425,
+        "lon": -97.82255269999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 334216867,
+      "tags": {
+        "addr:city": "Midland",
+        "addr:housenumber": "3108",
+        "addr:state": "TX",
+        "addr:street": "Preston Drive",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 32.0096566,
+        "lon": -102.15666399999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 340540522,
+      "tags": {
+        "addr:city": "San Antonio",
+        "addr:country": "US",
+        "addr:housenumber": "98",
+        "addr:postcode": "78216",
+        "addr:state": "TX",
+        "addr:street": "Northeast Loop 410",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-23:00",
+        "phone": "+1-210-525-8110",
+        "ref": "684"
+      },
+      "center": {
+        "lat": 29.519327349999998,
+        "lon": -98.48441595000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 357834656,
+      "tags": {
+        "addr:city": "San Antonio",
+        "addr:full": "3327 SE Military Dr.",
+        "addr:housenumber": "3327",
+        "addr:street": "Southeast Military Drive",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "restaurant",
+        "check_date": "2023-09-23",
+        "contact:website": "https://www.crackerbarrel.com/",
+        "cuisine": "american",
+        "delivery": "yes",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Mo-Th,Su 07:00-22:00; Fr-Sa 07:00-23:00",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-210-333-0167",
+        "ref": "690",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 29.3522243,
+        "lon": -98.4345045
+      }
+    },
+    {
+      "type": "way",
+      "id": 368086445,
+      "tags": {
+        "addr:city": "League City",
+        "addr:housenumber": "231",
+        "addr:postcode": "77573",
+        "addr:state": "TX",
+        "addr:street": "South Gulf Freeway",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 29.5008785,
+        "lon": -95.1140153
+      }
+    },
+    {
+      "type": "way",
+      "id": 377297192,
+      "tags": {
+        "addr:city": "Conroe",
+        "addr:housenumber": "1301",
+        "addr:postcode": "77304",
+        "addr:state": "TX",
+        "addr:street": "League Line Road",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 30.36633905,
+        "lon": -95.48652034999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 382112718,
+      "tags": {
+        "addr:city": "Round Rock",
+        "addr:full": "2350 IH 35 N",
+        "addr:housenumber": "2350",
+        "addr:postcode": "78681",
+        "addr:state": "TX",
+        "addr:street": "North Interstate 35",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "height": "7.3",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-23:00",
+        "phone": "+1-512-218-0822",
+        "ref": "173",
+        "wheelchair": "limited"
+      },
+      "center": {
+        "lat": 30.53516365,
+        "lon": -97.69421015
+      }
+    },
+    {
+      "type": "way",
+      "id": 408487716,
+      "tags": {
+        "addr:city": "Bryan",
+        "addr:housenumber": "3110",
+        "addr:postcode": "77802",
+        "addr:state": "TX",
+        "addr:street": "Briarcrest Drive",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Mo-Th 09:00-21:00; Fr-Su 09:00-22:00"
+      },
+      "center": {
+        "lat": 30.66496885,
+        "lon": -96.32472404999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 426624963,
+      "tags": {
+        "addr:city": "Allen",
+        "addr:full": "1323 N. Central Expressway",
+        "addr:housenumber": "1323",
+        "addr:postcode": "75013",
+        "addr:state": "TX",
+        "addr:street": "North Central Expressway",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "american",
+        "height": "4.6",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-23:00",
+        "phone": "+1-469-854-6681",
+        "ref": "714",
+        "roof:levels": "0",
+        "roof:shape": "flat"
+      },
+      "center": {
+        "lat": 33.11861965,
+        "lon": -96.67039535000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 436972765,
+      "tags": {
+        "addr:city": "Harlingen",
+        "addr:full": "110 Bass Pro Drive",
+        "addr:housenumber": "110",
+        "addr:postcode": "78552",
+        "addr:state": "TX",
+        "addr:street": "Bass Pro Drive",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-23:00",
+        "phone": "+1 956 364 3059",
+        "ref": "670"
+      },
+      "center": {
+        "lat": 26.190197849999997,
+        "lon": -97.7203925
+      }
+    },
+    {
+      "type": "way",
+      "id": 436972782,
+      "tags": {
+        "addr:city": "McAllen",
+        "addr:full": "3817 W Expressway 83",
+        "addr:housenumber": "3817",
+        "addr:street": "West Expressway 83",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-23:00",
+        "phone": "+1 956-683-1874",
+        "ref": "645"
+      },
+      "center": {
+        "lat": 26.194044400000003,
+        "lon": -98.26504160000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 436972874,
+      "tags": {
+        "addr:city": "Corpus Christi",
+        "addr:full": "4229 South Padre Island Drive",
+        "addr:housenumber": "4229",
+        "addr:street": "South Padre Island Drive",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-23:00",
+        "phone": "+1 361-855-1778",
+        "ref": "321"
+      },
+      "center": {
+        "lat": 27.7185324,
+        "lon": -97.39432049999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 436972878,
+      "tags": {
+        "addr:city": "San Antonio",
+        "addr:full": "6330 N Interstate 35",
+        "addr:housenumber": "6330",
+        "addr:postcode": "78218",
+        "addr:state": "TX",
+        "addr:street": "North Pan Am Expressway",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-23:00",
+        "phone": "+1-210-599-8080",
+        "ref": "211"
+      },
+      "center": {
+        "lat": 29.4863108,
+        "lon": -98.40126090000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 436973195,
+      "tags": {
+        "addr:city": "Kerrville",
+        "addr:full": "2110 Sidney Baker",
+        "addr:housenumber": "2110",
+        "addr:postcode": "78028",
+        "addr:state": "TX",
+        "addr:street": "Sidney Baker",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-23:00",
+        "phone": "+1-830-896-7808",
+        "ref": "421"
+      },
+      "center": {
+        "lat": 30.06814505,
+        "lon": -99.11530540000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 436979010,
+      "tags": {
+        "addr:city": "Wichita Falls",
+        "addr:full": "2400 Sierra Dr",
+        "addr:housenumber": "2400",
+        "addr:postcode": "76306",
+        "addr:state": "TX",
+        "addr:street": "Sierra Drive",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-23:00",
+        "phone": "+1-940-851-0664",
+        "ref": "631"
+      },
+      "center": {
+        "lat": 33.94853865,
+        "lon": -98.52563435000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 436979040,
+      "tags": {
+        "addr:city": "Greenville",
+        "addr:full": "3401 West I-30",
+        "addr:housenumber": "3401",
+        "addr:postcode": "75402",
+        "addr:state": "TX",
+        "addr:street": "I-30 Frontage Road",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-23:00",
+        "phone": "+1-903-455-7176",
+        "ref": "381",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 33.0936088,
+        "lon": -96.11346809999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 436979513,
+      "tags": {
+        "addr:city": "Abilene",
+        "addr:full": "1602 Hwy 351",
+        "addr:housenumber": "1602",
+        "addr:postcode": "79601",
+        "addr:state": "TX",
+        "addr:street": "Highway 351",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-23:00",
+        "phone": "+1-325-672-0280",
+        "ref": "594"
+      },
+      "center": {
+        "lat": 32.4784493,
+        "lon": -99.69908320000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 497725063,
+      "tags": {
+        "addr:housenumber": "4691",
+        "addr:postcode": "76106",
+        "addr:street": "Gemini Place",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "phone": "+1-817-624-8050",
+        "website": "https://www.crackerbarrel.com/Locations/States/tx/fort-worth/205/"
+      },
+      "center": {
+        "lat": 32.82718905,
+        "lon": -97.31435935000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 503894217,
+      "tags": {
+        "addr:city": "Tyler",
+        "addr:housenumber": "13821",
+        "addr:postcode": "75706",
+        "addr:state": "TX",
+        "addr:street": "US Highway 69 North",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 32.46658925,
+        "lon": -95.38749625000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 506546651,
+      "tags": {
+        "addr:city": "Lufkin",
+        "addr:housenumber": "2302",
+        "addr:postcode": "75901",
+        "addr:state": "TX",
+        "addr:street": "South First Street",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 31.297217449999998,
+        "lon": -94.72912685
+      }
+    },
+    {
+      "type": "way",
+      "id": 543090286,
+      "tags": {
+        "addr:city": "DeSoto",
+        "addr:housenumber": "1421",
+        "addr:postcode": "75115",
+        "addr:state": "TX",
+        "addr:street": "North Beckley Avenue",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 32.61790535,
+        "lon": -96.82438819999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 585847210,
+      "tags": {
+        "addr:city": "Longview",
+        "addr:housenumber": "822",
+        "addr:postcode": "75602",
+        "addr:state": "TX",
+        "addr:street": "South Access Road",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 32.44965965,
+        "lon": -94.70723974999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 608535779,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "check_date": "2023-08-24",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 29.783609650000002,
+        "lon": -95.69206424999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 640608837,
+      "tags": {
+        "addr:city": "Mesquite",
+        "addr:housenumber": "5304",
+        "addr:postcode": "75150",
+        "addr:state": "TX",
+        "addr:street": "North Galloway Avenue",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 32.8352905,
+        "lon": -96.63381649999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 640671350,
+      "tags": {
+        "addr:city": "Arlington",
+        "addr:housenumber": "1251",
+        "addr:postcode": "76006",
+        "addr:state": "TX",
+        "addr:street": "North Watson Road",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 32.77018415,
+        "lon": -97.06394525000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 669491396,
+      "tags": {
+        "addr:city": "Baytown",
+        "addr:housenumber": "5173",
+        "addr:state": "TX",
+        "addr:street": "East Freeway",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "check_date": "2023-08-19",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 29.8059331,
+        "lon": -94.9802158
+      }
+    },
+    {
+      "type": "way",
+      "id": 672388359,
+      "tags": {
+        "addr:city": "Benbrook",
+        "addr:housenumber": "8010",
+        "addr:postcode": "76126",
+        "addr:state": "TX",
+        "addr:street": "Southwest Loop 820",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 32.68568595,
+        "lon": -97.45414855000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 677358750,
+      "tags": {
+        "addr:city": "Texarkana",
+        "addr:housenumber": "3302",
+        "addr:postcode": "75503",
+        "addr:state": "TX",
+        "addr:street": "Saint Michael Drive",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 33.46045,
+        "lon": -94.08117349999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 684974237,
+      "tags": {
+        "addr:city": "Grapevine",
+        "addr:housenumber": "2700",
+        "addr:postcode": "76051",
+        "addr:state": "TX",
+        "addr:street": "Grapevine Mills Parkway",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 32.9671118,
+        "lon": -97.03593669999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 713703656,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 32.675998,
+        "lon": -97.15034749999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 750499497,
+      "tags": {
+        "addr:city": "Harker Heights",
+        "addr:housenumber": "201",
+        "addr:postcode": "76548",
+        "addr:state": "TX",
+        "addr:street": "East Central Texas Expressway",
+        "addr:unit": "900",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 31.072311999999997,
+        "lon": -97.66385049999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 760877871,
+      "tags": {
+        "addr:city": "Lacy-Lakeview",
+        "addr:housenumber": "4275",
+        "addr:postcode": "76705",
+        "addr:state": "TX",
+        "addr:street": "North Interstate 35",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "outdoor_seating": "no"
+      },
+      "center": {
+        "lat": 31.60331665,
+        "lon": -97.10845434999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 760887421,
+      "tags": {
+        "addr:city": "Temple",
+        "addr:housenumber": "3687",
+        "addr:postcode": "76504",
+        "addr:state": "TX",
+        "addr:street": "South General Bruce Drive",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "check_date": "2025-03-20",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "07:00-21:00",
+        "phone": "+1 254-774-7457",
+        "website": "https://www.crackerbarrel.com/Locations/States/tx/temple/692/"
+      },
+      "center": {
+        "lat": 31.08978465,
+        "lon": -97.38552549999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1004043446,
+      "tags": {
+        "addr:city": "Cypress",
+        "addr:housenumber": "27040",
+        "addr:postcode": "77429",
+        "addr:state": "TX",
+        "addr:street": "Northwest Freeway",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "check_date": "2023-09-09",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 29.979563849999998,
+        "lon": -95.71553589999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1202843737,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "outdoor_seating": "no"
+      },
+      "center": {
+        "lat": 31.46048105,
+        "lon": -97.17225140000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 1237457612,
+      "tags": {
+        "addr:housenumber": "13381",
+        "addr:street": "Gateway Boulevard West",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 31.6882606,
+        "lon": -106.26726480000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1266598367,
+      "tags": {
+        "addr:city": "Rockwall",
+        "addr:housenumber": "844",
+        "addr:state": "TX",
+        "addr:street": "East Interstate 30",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 07:00-21:00; Fr-Sa 07:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 972 722 2027",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://www.crackerbarrel.com"
+      },
+      "center": {
+        "lat": 32.899868850000004,
+        "lon": -96.45833805000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1344868594,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 33.0196219,
+        "lon": -97.28078074999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1517282015,
+      "tags": {
+        "addr:city": "Prosper",
+        "addr:housenumber": "3830",
+        "addr:postcode": "75078",
+        "addr:state": "TX",
+        "addr:street": "West University Drive",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Mo-Th 07:00-22:00; Fr-Sa 07:00-23:00; Su 07:00-22:00",
+        "phone": "+1-469-715-1980",
+        "start_date": "2026-05-11",
+        "website": "https://www.crackerbarrel.com/Locations/States/tx/prosper/783"
+      },
+      "center": {
+        "lat": 33.21982775,
+        "lon": -96.86327715000004
+      }
+    }
+  ]
+}

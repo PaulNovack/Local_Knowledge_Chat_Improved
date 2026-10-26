@@ -1,0 +1,178 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "HI",
+    "brand": "california_pizza_kitchen",
+    "source": "https://download.geofabrik.de/north-america/us/hawaii-latest.osm.pbf",
+    "source_md5": "72d4122e050f63452c0aa341f9272254",
+    "processed_utc": "2026-10-24T07:02:30.197996+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2684033682,
+      "tags": {
+        "addr:city": "Kailua",
+        "addr:housenumber": "609",
+        "addr:postcode": "96734",
+        "addr:state": "HI",
+        "addr:street": "Kailua Road",
+        "addr:unit": "110;111",
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "cuisine": "pizza",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "California Pizza Kitchen",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "phone": "+1 808 263 2480",
+        "reservation": "yes",
+        "safety:mask:covid19": "yes",
+        "short_name": "CPK",
+        "takeaway": "yes",
+        "website": "https://www.cpk.com/Location/Details/Kailua-Town-Center"
+      },
+      "lat": 21.3937403,
+      "lon": -157.741726
+    },
+    {
+      "type": "node",
+      "id": 4419738778,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "cuisine": "pizza",
+        "name": "California Pizza Kitchen",
+        "takeaway": "only"
+      },
+      "lat": 20.8930523,
+      "lon": -156.437274
+    },
+    {
+      "type": "node",
+      "id": 4715904375,
+      "tags": {
+        "addr:city": "Kapolei",
+        "addr:housenumber": "91",
+        "addr:postcode": "96707",
+        "addr:state": "HI",
+        "addr:street": "Kapolei Parkway",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "California Pizza Kitchen",
+        "safety:mask:covid19": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 21.3336303,
+      "lon": -158.0516985
+    },
+    {
+      "type": "node",
+      "id": 5552937726,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "cuisine": "pizza",
+        "name": "California Pizza Kitchen",
+        "name:en": "California Pizza Kitchen",
+        "short_name": "CPK"
+      },
+      "lat": 21.4536703,
+      "lon": -158.0066131
+    },
+    {
+      "type": "node",
+      "id": 7495503383,
+      "tags": {
+        "access": "permit",
+        "addr:city": "Honolulu",
+        "addr:housenumber": "300",
+        "addr:postcode": "96819",
+        "addr:state": "HI",
+        "addr:street": "Rodgers Boulevard",
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "cuisine": "pizza",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "1",
+        "name": "California Pizza Kitchen",
+        "short_name": "CPK",
+        "wheelchair": "yes"
+      },
+      "lat": 21.3312894,
+      "lon": -157.91979
+    },
+    {
+      "type": "node",
+      "id": 7697736722,
+      "tags": {
+        "addr:city": "Honolulu",
+        "addr:floor": "1",
+        "addr:housenumber": "4211",
+        "addr:postcode": "96816",
+        "addr:state": "HI",
+        "addr:street": "Waialae Avenue",
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "cuisine": "pizza",
+        "level": "0",
+        "name": "California Pizza Kitchen",
+        "safety:mask:covid19": "yes",
+        "short_name": "CPK"
+      },
+      "lat": 21.2775328,
+      "lon": -157.785844
+    },
+    {
+      "type": "node",
+      "id": 9284303458,
+      "tags": {
+        "addr:floor": "4",
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "check_date": "2022-06-27",
+        "cuisine": "pizza",
+        "level": "3",
+        "name": "California Pizza Kitchen",
+        "short_name": "CPK"
+      },
+      "lat": 21.2905035,
+      "lon": -157.8428223
+    },
+    {
+      "type": "way",
+      "id": 1241495555,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "pizza",
+        "name": "California Pizza Kitchen",
+        "opening_hours": "Mo-Su 10:30-22:00; Fr,Sa 10:30-23:00",
+        "phone": "+1 808-487-7741",
+        "short_name": "CPK",
+        "website": "https://www.cpk.com/locations/california-pizza-kitchen-pearlridge"
+      },
+      "center": {
+        "lat": 21.383599750000002,
+        "lon": -157.93994250000003
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "mission_bbq",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11263421331,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ"
+      },
+      "lat": 41.7073284,
+      "lon": -86.1807984
+    },
+    {
+      "type": "way",
+      "id": 821965924,
+      "tags": {
+        "addr:city": "Merrillville",
+        "addr:housenumber": "2217",
+        "addr:postcode": "46410",
+        "addr:state": "IN",
+        "addr:street": "East 80th Avenue",
+        "amenity": "restaurant",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "building": "retail",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ",
+        "website": "https://mission-bbq.com/"
+      },
+      "center": {
+        "lat": 41.471761,
+        "lon": -87.31029204999999
+      }
+    }
+  ]
+}

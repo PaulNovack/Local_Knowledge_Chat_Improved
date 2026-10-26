@@ -1,0 +1,401 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "longhorn_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6374772980,
+      "tags": {
+        "addr:city": "Falls Church",
+        "addr:housenumber": "3562",
+        "addr:postcode": "22041",
+        "addr:state": "VA",
+        "addr:street": "South Jefferson Street",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "opening_hours": "Su-Th 11:00-22:00, Fr-Sa 11:00-23:00",
+        "phone": "+1-703-682-5481",
+        "website": "https://www.longhornsteakhouse.com/locations/va/falls%20church/falls-church/5507"
+      },
+      "lat": 38.8476992,
+      "lon": -77.1191011
+    },
+    {
+      "type": "node",
+      "id": 9849151528,
+      "tags": {
+        "addr:city": "Harrisonburg",
+        "addr:housenumber": "51",
+        "addr:postcode": "22801",
+        "addr:street": "Burgess Road",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "lat": 38.435335,
+      "lon": -78.8491338
+    },
+    {
+      "type": "node",
+      "id": 12230801493,
+      "tags": {
+        "addr:city": "Hampton",
+        "addr:housenumber": "108",
+        "addr:postcode": "23666",
+        "addr:state": "VA",
+        "addr:street": "Marketplace Drive",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "source": "esri/USA_NAD_Addresses",
+        "website": "https://www.longhornsteakhouse.com/locations/va/hampton/hampton/5473"
+      },
+      "lat": 37.0381021,
+      "lon": -76.4022971
+    },
+    {
+      "type": "way",
+      "id": 38584413,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "detached",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 38.2356133,
+        "lon": -77.50541229999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 48234644,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "retail",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 39.028579,
+        "lon": -77.42317945000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 213049282,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "retail",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 39.161663149999995,
+        "lon": -78.16953809999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 225443328,
+      "tags": {
+        "addr:city": "Manassas",
+        "addr:country": "US",
+        "addr:housenumber": "9695",
+        "addr:postcode": "20111",
+        "addr:state": "VA",
+        "addr:street": "Liberia Avenue",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "source": "survey 10/2016",
+        "website": "https://www.longhornsteakhouse.com/"
+      },
+      "center": {
+        "lat": 38.7466392,
+        "lon": -77.44953029999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 228874678,
+      "tags": {
+        "addr:city": "Glen Allen",
+        "addr:housenumber": "11311",
+        "addr:postcode": "23060",
+        "addr:state": "VA",
+        "addr:street": "West Broad Street",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "check_date": "2026-04-09",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-804-364-3800",
+        "website": "https://www.longhornsteakhouse.com/locations/va/glen-allen/glen-allen-short-pump/5309"
+      },
+      "center": {
+        "lat": 37.649626,
+        "lon": -77.60564
+      }
+    },
+    {
+      "type": "way",
+      "id": 234279346,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 38.895912800000005,
+        "lon": -77.43358415
+      }
+    },
+    {
+      "type": "way",
+      "id": 253555350,
+      "tags": {
+        "addr:housenumber": "4409",
+        "addr:postcode": "23231",
+        "addr:street": "South Laburnum Avenue",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:website": "https://www.longhornsteakhouse.com/",
+        "brand:wikidata": "Q3259007",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2024-11-29",
+        "contact:phone": "+1 804-222-0084",
+        "contact:website": "https://www.longhornsteakhouse.com/locations/va/richmond/richmond-laburnum-avenue/5350",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "opening_hours:signed": "yes",
+        "source:opening_hours": "entrance;website"
+      },
+      "center": {
+        "lat": 37.53022155,
+        "lon": -77.35836919999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 311054328,
+      "tags": {
+        "addr:housenumber": "505",
+        "addr:postcode": "20186",
+        "addr:state": "VA",
+        "addr:street": "Fletcher Drive",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "source": "Fauquier County GIS data"
+      },
+      "center": {
+        "lat": 38.727565,
+        "lon": -77.79334455000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 360956956,
+      "tags": {
+        "addr:city": "Colonial Heights",
+        "addr:housenumber": "2001",
+        "addr:postcode": "23834",
+        "addr:state": "VA",
+        "addr:street": "Southpark Boulevard",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-804-524-0326",
+        "source": "esri_USDOT_Virgina",
+        "takeaway": "yes",
+        "website": "https://www.longhornsteakhouse.com/locations/va/colonial-heights/colonial-heights/5575"
+      },
+      "center": {
+        "lat": 37.2550141,
+        "lon": -77.38998244999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 370492888,
+      "tags": {
+        "addr:city": "Williamsburg",
+        "addr:housenumber": "4970",
+        "addr:postcode": "23188",
+        "addr:state": "VA",
+        "addr:street": "Monticello Avenue",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "commercial",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-757-229-7700",
+        "website": "https://www.longhornsteakhouse.com/locations/va/williamsburg/williamsburg/5280"
+      },
+      "center": {
+        "lat": 37.2730959,
+        "lon": -76.75400590000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 402499503,
+      "tags": {
+        "addr:city": "Virginia Beach",
+        "addr:housenumber": "3400",
+        "addr:postcode": "23456",
+        "addr:street": "Princess Anne Road",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "start_date": "2007"
+      },
+      "center": {
+        "lat": 36.775434950000005,
+        "lon": -76.0895916
+      }
+    },
+    {
+      "type": "way",
+      "id": 720936375,
+      "tags": {
+        "addr:housenumber": "14500",
+        "addr:postcode": "23832",
+        "addr:street": "Hancock Village Street",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "opening_hours": "Su-Th 11:00-22:00, Sa,Su 11:00-23:00"
+      },
+      "center": {
+        "lat": 37.40330045,
+        "lon": -77.6713868
+      }
+    },
+    {
+      "type": "way",
+      "id": 809654374,
+      "tags": {
+        "addr:city": "Newport News",
+        "addr:housenumber": "12581",
+        "addr:postcode": "23602",
+        "addr:state": "VA",
+        "addr:street": "Jefferson Avenue",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-757-890-4503",
+        "website": "https://www.longhornsteakhouse.com/locations/va/newport-news/newport-news/5480"
+      },
+      "center": {
+        "lat": 37.131951799999996,
+        "lon": -76.51571710000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1091038057,
+      "tags": {
+        "addr:city": "Lynchburg",
+        "addr:housenumber": "4042",
+        "addr:postcode": "24502",
+        "addr:state": "VA",
+        "addr:street": "Wards Road",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "check_date": "2026-06-06",
+        "contact:phone": "+1 434-439-3108",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "website": "https://www.longhornsteakhouse.com/locations/va/lynchburg/lynchburg/5712"
+      },
+      "center": {
+        "lat": 37.3442255,
+        "lon": -79.18984280000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1248997276,
+      "tags": {
+        "addr:city": "Roanoke",
+        "addr:housenumber": "4845",
+        "addr:postcode": "24012",
+        "addr:state": "VA",
+        "addr:street": "Valley View Blvd Northwest",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 37.30613219999999,
+        "lon": -79.9656766
+      }
+    }
+  ]
+}

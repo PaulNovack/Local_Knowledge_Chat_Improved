@@ -1,0 +1,138 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "black_bear_diner",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6682049122,
+      "tags": {
+        "addr:city": "Reno",
+        "addr:housenumber": "2323",
+        "addr:state": "NV",
+        "addr:street": "South Virginia Street",
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "cuisine": "american",
+        "name": "Black Bear Diner",
+        "phone": "+1-775-827-5570"
+      },
+      "lat": 39.5021887,
+      "lon": -119.8018629
+    },
+    {
+      "type": "node",
+      "id": 6848931285,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "7680",
+        "addr:postcode": "89123",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "no",
+        "branch": "Las Vegas Blvd South",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "cuisine": "american",
+        "delivery": "yes",
+        "level": "1",
+        "name": "Black Bear Diner",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 702-243-3575",
+        "toilets": "yes",
+        "website": "https://blackbeardiner.com/location/s-las-vegas-blvd/",
+        "website:menu": "https://blackbeardiner.com/menus/?store=208"
+      },
+      "lat": 36.050459,
+      "lon": -115.1715973
+    },
+    {
+      "type": "way",
+      "id": 715546418,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "2751",
+        "addr:postcode": "89014",
+        "addr:state": "NV",
+        "addr:street": "North Green Valley Parkway",
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Black Bear Diner",
+        "phone": "+1-725-333-6805",
+        "website": "https://blackbeardiner.com/location/henderson/"
+      },
+      "center": {
+        "lat": 36.06988715,
+        "lon": -115.08281729999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080095822,
+      "tags": {
+        "addr:city": "Sparks",
+        "addr:county": "Washoe",
+        "addr:housenumber": "235",
+        "addr:postcode": "89431",
+        "addr:state": "NV",
+        "addr:street": "North Mccarran Boulevard",
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Black Bear Diner",
+        "source": "WC GIS"
+      },
+      "center": {
+        "lat": 39.5355773,
+        "lon": -119.73768465
+      }
+    },
+    {
+      "type": "way",
+      "id": 1476331422,
+      "tags": {
+        "addr:city": "West Wendover",
+        "addr:housenumber": "1144",
+        "addr:postcode": "89883",
+        "addr:state": "NV",
+        "addr:street": "Florence Way",
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Black Bear Diner"
+      },
+      "center": {
+        "lat": 40.743074449999995,
+        "lon": -114.05648410000003
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KY",
+    "brand": "noodles_company",
+    "source": "https://download.geofabrik.de/north-america/us/kentucky-latest.osm.pbf",
+    "source_md5": "beee275db6b863afe4847059e1397537",
+    "processed_utc": "2026-10-24T07:04:39.223265+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6069846444,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 38.2274345,
+      "lon": -85.5768726
+    },
+    {
+      "type": "node",
+      "id": 6960265818,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 39.0866416,
+      "lon": -84.4765823
+    },
+    {
+      "type": "way",
+      "id": 401984886,
+      "tags": {
+        "addr:city": "Lexington",
+        "addr:housenumber": "2468",
+        "addr:state": "KY",
+        "addr:street": "Nicholasville Road",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "building": "yes",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "center": {
+        "lat": 38.00165385,
+        "lon": -84.5196464
+      }
+    }
+  ]
+}

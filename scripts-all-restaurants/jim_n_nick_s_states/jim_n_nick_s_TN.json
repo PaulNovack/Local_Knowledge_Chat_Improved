@@ -1,0 +1,129 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TN",
+    "brand": "jim_n_nick_s",
+    "source": "https://download.geofabrik.de/north-america/us/tennessee-latest.osm.pbf",
+    "source_md5": "a047c5da6c897a8a98b1fc4a282b8d3f",
+    "processed_utc": "2026-10-24T07:16:20.210730+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12207024901,
+      "tags": {
+        "addr:housenumber": "2359",
+        "addr:postcode": "38016",
+        "addr:street": "North Germantown Parkway",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "Jim 'N Nick's Bar-B-Q",
+        "opening_hours": "Su-Th 11:00-21:00; Fr-Sa 11:00-21:30",
+        "website": "https://www.jimnnicks.com/locations/tn/cordova/2359-n-germantown-pkwy"
+      },
+      "lat": 35.1900635,
+      "lon": -89.793461
+    },
+    {
+      "type": "way",
+      "id": 294883256,
+      "tags": {
+        "amenity": "restaurant",
+        "branch": "Bar B Q",
+        "brand": "Jim 'N Nick's",
+        "brand:wikidata": "Q122955601",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Jim 'N Nick's"
+      },
+      "center": {
+        "lat": 35.8544123,
+        "lon": -86.42982165000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 828615264,
+      "tags": {
+        "addr:city": "Chattanooga",
+        "addr:housenumber": "2040",
+        "addr:postcode": "37421",
+        "addr:street": "Hamilton Place Boulevard",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Jim 'N Nick's Bar-B-Q",
+        "website": "https://www.jimnnicks.com/locations/tn/chattanooga/2040-hamilton-place-blvd"
+      },
+      "center": {
+        "lat": 35.03108725,
+        "lon": -85.15822594999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 915308627,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Jim 'N Nick's Bar-B-Q"
+      },
+      "center": {
+        "lat": 35.9812218,
+        "lon": -86.55630025000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 917985837,
+      "tags": {
+        "addr:city": "Franklin",
+        "addr:housenumber": "3068",
+        "addr:postcode": "37067",
+        "addr:state": "TN",
+        "addr:street": "Mallory Lane",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Jim 'N Nick's Bar-B-Q",
+        "phone": "+1-615-771-3939"
+      },
+      "center": {
+        "lat": 35.94309105,
+        "lon": -86.81960000000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1491018920,
+      "tags": {
+        "addr:city": "Knoxville",
+        "addr:housenumber": "7727",
+        "addr:postcode": "37919",
+        "addr:state": "TN",
+        "addr:street": "Kingston Pike",
+        "amenity": "restaurant",
+        "brand": "Jim 'N Nick's",
+        "brand:wikidata": "Q122955601",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Jim 'N Nick's",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr-Su 11:00-21:30",
+        "phone": "+1-865-224-3760",
+        "website": "https://www.jimnnicks.com/locations/tn/knoxville/7727-kingston-pike"
+      },
+      "center": {
+        "lat": 35.927918649999995,
+        "lon": -84.04075575000002
+      }
+    }
+  ]
+}

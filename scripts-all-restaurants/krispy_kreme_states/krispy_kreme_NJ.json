@@ -1,0 +1,114 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "krispy_kreme",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5195826568,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "drive_through": "no",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "lat": 40.7188206,
+      "lon": -74.0417979
+    },
+    {
+      "type": "node",
+      "id": 11530039998,
+      "tags": {
+        "addr:city": "East Rutherford",
+        "addr:housenumber": "51",
+        "addr:postcode": "07073",
+        "addr:state": "NJ",
+        "addr:street": "NJ-17",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "lat": 40.8297337,
+      "lon": -74.0924375
+    },
+    {
+      "type": "way",
+      "id": 308076038,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.91540765,
+        "lon": -74.050748
+      }
+    },
+    {
+      "type": "way",
+      "id": 484064307,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "cuisine": "donut",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Krispy Kreme",
+        "opening_hours": "Su-Th 06:00-22:00; Fr,Sa 06:00-23:00",
+        "outdoor_seating": "no",
+        "smoking": "outside",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.91273605,
+        "lon": -75.05754045000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 614129694,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2026-10-02",
+        "cuisine": "donut",
+        "drive_through": "yes",
+        "name": "Krispy Kreme",
+        "start_date": "2024-11-12",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 40.0546774,
+        "lon": -74.16371264999998
+      }
+    }
+  ]
+}

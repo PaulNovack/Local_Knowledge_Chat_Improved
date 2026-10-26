@@ -1,0 +1,61 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "teriyaki_madness",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12691825335,
+      "tags": {
+        "addr:city": "Whitehall",
+        "addr:housenumber": "2659",
+        "addr:postcode": "18052",
+        "addr:state": "PA",
+        "addr:street": "MacArthur Road",
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "takeaway": "yes"
+      },
+      "lat": 40.6482011,
+      "lon": -75.4924406
+    },
+    {
+      "type": "node",
+      "id": 13816740142,
+      "tags": {
+        "addr:city": "Harrisburg",
+        "addr:housenumber": "4635",
+        "addr:postcode": "17111",
+        "addr:state": "PA",
+        "addr:street": "High Pointe Boulevard",
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "cuisine": "japanese",
+        "drive_through": "no",
+        "name": "Teriyaki Madness",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "phone": "+17175590692",
+        "takeaway": "yes",
+        "website": "https://teriyakimadness.com/locations/pa-harrisburg/"
+      },
+      "lat": 40.2451472,
+      "lon": -76.8030959
+    }
+  ]
+}

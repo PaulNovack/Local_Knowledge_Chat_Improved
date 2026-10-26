@@ -1,0 +1,53 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MT",
+    "brand": "denny_s",
+    "source": "https://download.geofabrik.de/north-america/us/montana-latest.osm.pbf",
+    "source_md5": "abfa2e1bfc18f6c00a77776eb9185b11",
+    "processed_utc": "2026-10-24T07:09:10.271084+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4070024463,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "lat": 45.753993,
+      "lon": -108.5646585
+    },
+    {
+      "type": "node",
+      "id": 11209004740,
+      "tags": {
+        "addr:city": "Great Falls",
+        "addr:housenumber": "3715",
+        "addr:postcode": "59404",
+        "addr:state": "MT",
+        "addr:street": "31st Street Southwest",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "phone": "+1-406-727-1558",
+        "website": "https://locations.dennys.com/MT/GREAT-FALLS/248604"
+      },
+      "lat": 47.4703165,
+      "lon": -111.358699
+    }
+  ]
+}

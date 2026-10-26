@@ -1,0 +1,97 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "cinnabon",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9298363156,
+      "tags": {
+        "addr:city": "Aurora",
+        "addr:housenumber": "13480",
+        "addr:postcode": "80012",
+        "addr:state": "CO",
+        "addr:street": "East Mississippi Avenue",
+        "amenity": "fast_food",
+        "brand": "Cinnabon",
+        "brand:wikidata": "Q1092539",
+        "cuisine": "dessert",
+        "name": "Cinnabon",
+        "note": "located inside Maverik store",
+        "phone": "+1-303-369-7635",
+        "shop": "bakery",
+        "takeaway": "yes",
+        "website": "https://locations.cinnabon.com/co/aurora/13480-e-mississippi-avenue"
+      },
+      "lat": 39.6963166,
+      "lon": -104.8338682
+    },
+    {
+      "type": "node",
+      "id": 11961491136,
+      "tags": {
+        "addr:city": "Grand Junction",
+        "addr:housenumber": "2424",
+        "addr:postcode": "81505",
+        "addr:state": "CO",
+        "addr:street": "US Highway 6 and 50",
+        "addr:unit": "106",
+        "amenity": "fast_food",
+        "branch": "Mesa Mall",
+        "brand": "Cinnabon",
+        "brand:wikidata": "Q1092539",
+        "check_date": "2025-06-10",
+        "cuisine": "dessert",
+        "drive_through": "no",
+        "name": "Cinnabon",
+        "opening_hours": "Mo-Sa 10:00-20:00; Su 12:00-18:00",
+        "opening_hours:signed": "no",
+        "phone": "+1-970-609-1919",
+        "takeaway": "yes",
+        "website": "https://locations.cinnabon.com/co/grand-junction/2424-us-6-suite-106"
+      },
+      "lat": 39.0921099,
+      "lon": -108.6020582
+    },
+    {
+      "type": "way",
+      "id": 1331302713,
+      "tags": {
+        "access": "permissive",
+        "addr:city": "Castle Rock",
+        "addr:housenumber": "5050",
+        "addr:postcode": "80108",
+        "addr:state": "CO",
+        "addr:street": "Factory Shops Boulevard",
+        "amenity": "fast_food",
+        "brand": "Cinnabon",
+        "brand:wikidata": "Q1092539",
+        "cuisine": "dessert",
+        "indoor": "room",
+        "level": "0",
+        "name": "Cinnabon",
+        "opening_hours": "Mo-Sa 10:00-20:00; Su 11:00-18:00",
+        "phone": "+1-720-328-8422",
+        "room": "shop",
+        "takeaway": "yes",
+        "website": "https://locations.cinnabon.com/co/castle-rock/5050-factory-shops-blvd"
+      },
+      "center": {
+        "lat": 39.415545699999996,
+        "lon": -104.8738535
+      }
+    }
+  ]
+}

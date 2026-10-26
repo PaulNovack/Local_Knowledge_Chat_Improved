@@ -1,0 +1,70 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NM",
+    "brand": "mcalister_s_deli",
+    "source": "https://download.geofabrik.de/north-america/us/new-mexico-latest.osm.pbf",
+    "source_md5": "5e236c0e9dd59b2df560a9316c86a745",
+    "processed_utc": "2026-10-24T07:10:42.593170+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2124159794,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "2200",
+        "addr:postcode": "87110",
+        "addr:state": "NM",
+        "addr:street": "Louisiana Boulevard Northeast",
+        "addr:unit": "A",
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli",
+        "opening_hours": "Mo-Su 10:30-21:00",
+        "phone": "+1-505-884-5007"
+      },
+      "lat": 35.102558,
+      "lon": -106.5683926
+    },
+    {
+      "type": "node",
+      "id": 6154222394,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli"
+      },
+      "lat": 32.7395548,
+      "lon": -103.1620467
+    },
+    {
+      "type": "way",
+      "id": 284566096,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "building": "yes",
+        "capacity": "100",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli"
+      },
+      "center": {
+        "lat": 32.4395117,
+        "lon": -104.25408775
+      }
+    }
+  ]
+}

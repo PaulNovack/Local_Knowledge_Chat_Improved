@@ -1,0 +1,40 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "tgi_fridays",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 228011486,
+      "tags": {
+        "addr:city": "Oklahoma City",
+        "addr:state": "OK",
+        "addr:street": "Northwest Expressway",
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "building": "roof",
+        "cuisine": "american",
+        "name": "TGI Fridays",
+        "source": "Bing",
+        "website": "https://locations.tgifridays.com/ok/oklahoma-city/4239-nw-expy.html"
+      },
+      "center": {
+        "lat": 35.53993765,
+        "lon": -97.59533750000003
+      }
+    }
+  ]
+}

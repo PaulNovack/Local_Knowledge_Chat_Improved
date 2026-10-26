@@ -1,0 +1,105 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "cheddar_s",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 431189986,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen"
+      },
+      "center": {
+        "lat": 35.07030355,
+        "lon": -78.95200614999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 604525189,
+      "tags": {
+        "addr:city": "Asheville",
+        "addr:housenumber": "106",
+        "addr:postcode": "28805",
+        "addr:state": "NC",
+        "addr:street": "Bleachery Boulevard",
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "yes",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen",
+        "outdoor_seating": "yes",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 35.5762862,
+        "lon": -82.51249254999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 847803980,
+      "tags": {
+        "addr:city": "Charlotte",
+        "addr:housenumber": "620",
+        "addr:postcode": "28262",
+        "addr:state": "NC",
+        "addr:street": "University Center Boulevard",
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 35.309612099999995,
+        "lon": -80.75672635000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 964439185,
+      "tags": {
+        "addr:housenumber": "901",
+        "addr:postcode": "27834",
+        "addr:street": "Criswell Drive",
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen",
+        "phone": "+1-252-321-1002"
+      },
+      "center": {
+        "lat": 35.56562475,
+        "lon": -77.40500180000004
+      }
+    }
+  ]
+}

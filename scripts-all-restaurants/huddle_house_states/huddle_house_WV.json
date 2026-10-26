@@ -1,0 +1,76 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WV",
+    "brand": "huddle_house",
+    "source": "https://download.geofabrik.de/north-america/us/west-virginia-latest.osm.pbf",
+    "source_md5": "4f8c380a535ff9841f95eae4e1a7f84f",
+    "processed_utc": "2026-10-24T07:19:30.158292+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 517798620,
+      "tags": {
+        "addr:city": "Buckhannon",
+        "addr:housenumber": "1",
+        "addr:postcode": "26201",
+        "addr:state": "WV",
+        "addr:street": "West Buc Road",
+        "amenity": "restaurant",
+        "brand": "Huddle House",
+        "brand:wikidata": "Q5928324",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Huddle House",
+        "phone": "+1-304-473-1100",
+        "website": "https://locations.huddlehouse.com/wv/buckhannon/1-wbuc-rd.html"
+      },
+      "center": {
+        "lat": 39.00266725,
+        "lon": -80.2638546
+      }
+    },
+    {
+      "type": "way",
+      "id": 838000586,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Huddle House",
+        "building:levels": "1",
+        "cuisine": "american",
+        "level": "1",
+        "name": "Huddle House",
+        "opening_hours": "Mo-Th,Su 06:00-22:00; Fr-Sa 06:00-24:00; PH closed",
+        "roof:shape": "flat"
+      },
+      "center": {
+        "lat": 39.92343085,
+        "lon": -80.75030040000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1442028519,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Huddle House",
+        "brand:wikidata": "Q5928324",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Huddle House"
+      },
+      "center": {
+        "lat": 40.390743,
+        "lon": -80.59572374999999
+      }
+    }
+  ]
+}

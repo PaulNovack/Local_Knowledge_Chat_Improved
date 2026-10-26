@@ -1,0 +1,53 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "the_flame_broiler",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6069912758,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Flame Broiler"
+      },
+      "lat": 30.2429542,
+      "lon": -81.59817
+    },
+    {
+      "type": "node",
+      "id": 9136300082,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Flame Broiler"
+      },
+      "lat": 30.197093,
+      "lon": -81.8315069
+    },
+    {
+      "type": "node",
+      "id": 12344664821,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "The Flame Broiler",
+        "brand:wikidata": "Q30593122",
+        "cuisine": "asian",
+        "name": "The Flame Broiler",
+        "takeaway": "yes"
+      },
+      "lat": 30.257884,
+      "lon": -81.5527807
+    }
+  ]
+}

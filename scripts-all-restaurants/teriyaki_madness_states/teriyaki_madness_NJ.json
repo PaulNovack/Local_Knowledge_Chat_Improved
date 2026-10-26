@@ -1,0 +1,72 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "teriyaki_madness",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9237010609,
+      "tags": {
+        "addr:city": "Old Bridge",
+        "addr:housenumber": "1050",
+        "addr:postcode": "08857",
+        "addr:state": "NJ",
+        "addr:street": "US 9 South",
+        "addr:unit": "A",
+        "amenity": "fast_food",
+        "branch": "Old Bridge",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "check_date": "2025-11-27",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "phone": "+1-732-313-6043",
+        "takeaway": "yes",
+        "website": "https://teriyakimadness.com/locations/nj-old-bridge/"
+      },
+      "lat": 40.4529597,
+      "lon": -74.2998915
+    },
+    {
+      "type": "node",
+      "id": 13743561602,
+      "tags": {
+        "addr:housenumber": "505",
+        "addr:postcode": "07208",
+        "addr:street": "North Broad Street",
+        "amenity": "restaurant",
+        "check_date": "2026-04-19",
+        "name": "Teriyaki Madness"
+      },
+      "lat": 40.6738528,
+      "lon": -74.2124065
+    },
+    {
+      "type": "node",
+      "id": 14175562484,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "takeaway": "yes"
+      },
+      "lat": 40.9070324,
+      "lon": -74.5593254
+    }
+  ]
+}

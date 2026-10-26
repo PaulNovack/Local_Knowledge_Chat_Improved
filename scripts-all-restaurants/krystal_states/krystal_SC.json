@@ -1,0 +1,69 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SC",
+    "brand": "krystal",
+    "source": "https://download.geofabrik.de/north-america/us/south-carolina-latest.osm.pbf",
+    "source_md5": "488018afb1e1040732b7a791d4ebffae",
+    "processed_utc": "2026-10-24T07:15:46.592450+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10957081842,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krystal",
+        "brand:wikidata": "Q472195",
+        "cuisine": "burger",
+        "name": "Krystal",
+        "takeaway": "yes",
+        "website": "https://www.krystal.com/locations/sc/north-augusta/607-e-martintown-rd/"
+      },
+      "lat": 33.4910748,
+      "lon": -81.9524429
+    },
+    {
+      "type": "way",
+      "id": 739481528,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krystal",
+        "brand:wikidata": "Q472195",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Krystal",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.1083675,
+        "lon": -81.60580504999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1082220496,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krystal",
+        "brand:wikidata": "Q472195",
+        "building": "commercial",
+        "cuisine": "burger",
+        "name": "Krystal",
+        "takeaway": "yes",
+        "website": "https://www.krystal.com/locations/sc/aiken/1980-whiskey-road/"
+      },
+      "center": {
+        "lat": 33.5200131,
+        "lon": -81.71817605000001
+      }
+    }
+  ]
+}

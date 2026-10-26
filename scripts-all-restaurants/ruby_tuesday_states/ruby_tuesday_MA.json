@@ -1,0 +1,48 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "ruby_tuesday",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 876264844,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "lat": 42.2944809,
+      "lon": -71.7738601
+    },
+    {
+      "type": "way",
+      "id": 217076112,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "center": {
+        "lat": 42.283801749999995,
+        "lon": -71.60925595000003
+      }
+    }
+  ]
+}

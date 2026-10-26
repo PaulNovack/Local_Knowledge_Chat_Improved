@@ -1,0 +1,55 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "sweetgreen",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5887067561,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sweetgreen",
+        "brand:wikidata": "Q18636413",
+        "cuisine": "salad",
+        "name": "Sweetgreen",
+        "takeaway": "yes"
+      },
+      "lat": 33.6251714,
+      "lon": -111.9235376
+    },
+    {
+      "type": "node",
+      "id": 13764514451,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sweetgreen",
+        "brand:wikidata": "Q18636413",
+        "changing_table": "yes",
+        "check_date": "2026-05-03",
+        "cuisine": "salad",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Sweetgreen",
+        "opening_hours:drive_through": "10:00-22:00",
+        "phone": "+1 480-573-6779",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://sweetgreen.com"
+      },
+      "lat": 33.5096734,
+      "lon": -112.0120094
+    }
+  ]
+}

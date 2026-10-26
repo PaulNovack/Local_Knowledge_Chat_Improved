@@ -1,0 +1,94 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "black_bear_diner",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3859051757,
+      "tags": {
+        "addr:city": "Midwest City",
+        "addr:housenumber": "5661",
+        "addr:postcode": "73110",
+        "addr:state": "OK",
+        "addr:street": "Tinker Diagonal",
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "cuisine": "american",
+        "name": "Black Bear Diner",
+        "website": "https://blackbeardiner.com/location/midwest-city/"
+      },
+      "lat": 35.4453162,
+      "lon": -97.4219731
+    },
+    {
+      "type": "way",
+      "id": 625694178,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "9026",
+        "addr:postcode": "74133",
+        "addr:state": "OK",
+        "addr:street": "East 71st Street South",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "brewery": "Budweiser;Molson Coors;Corona",
+        "building": "yes",
+        "building:colour": "#eecfaf",
+        "check_date:opening_hours": "2024-11-28",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "Black Bear Diner",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 36.06038165,
+        "lon": -95.87652785
+      }
+    },
+    {
+      "type": "way",
+      "id": 946204547,
+      "tags": {
+        "addr:city": "Moore",
+        "addr:housenumber": "920",
+        "addr:postcode": "73160",
+        "addr:state": "OK",
+        "addr:street": "Southwest 25th Street",
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Black Bear Diner",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "phone": "+1 405 793 1711",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://blackbeardiner.com/location/moore/"
+      },
+      "center": {
+        "lat": 35.315216,
+        "lon": -97.491622
+      }
+    }
+  ]
+}

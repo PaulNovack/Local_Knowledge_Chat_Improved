@@ -1,0 +1,179 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "shake_shack",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1271663198,
+      "tags": {
+        "addr:city": "Bellevue",
+        "addr:housenumber": "503",
+        "addr:postcode": "98004",
+        "addr:state": "WA",
+        "addr:street": "Bellevue Way Northeast",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "changing_table": "yes",
+        "check_date": "2024-06-22",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "highchair": "yes",
+        "indoor_seating": "yes",
+        "level": "0",
+        "name": "Shake Shack",
+        "opening_hours": "Su-Th 10:30-23:00; Fr-Sa 10:30-24:00",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "toilets": "yes"
+      },
+      "lat": 47.6163433,
+      "lon": -122.2019456
+    },
+    {
+      "type": "node",
+      "id": 2327723251,
+      "tags": {
+        "addr:city": "Seattle",
+        "addr:housenumber": "2115",
+        "addr:postcode": "98121",
+        "addr:state": "WA",
+        "addr:street": "Westlake Avenue",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "check_date": "2024-07-08",
+        "cuisine": "burger",
+        "description": "Washington's first Shake Shack location",
+        "menu:url": "https://shakeshack.com/home#/store/721?&utm_source=G&utm_medium=localmenu&utm_campaign=menuURL",
+        "name": "Shake Shack",
+        "opening_hours": "Mo-Th,Su 10:00-24:00; Fr-Sa 10:00-01:00",
+        "phone": "+1-206-279-2313",
+        "source": "King County GIS;data.seattle.gov",
+        "takeaway": "yes",
+        "website": "https://www.shakeshack.com/location/south-lake-union-wa",
+        "wheelchair": "yes"
+      },
+      "lat": 47.6170156,
+      "lon": -122.338426
+    },
+    {
+      "type": "node",
+      "id": 12776924897,
+      "tags": {
+        "amenity": "fast_food",
+        "check_date": "2025-04-22",
+        "drive_through": "yes",
+        "name": "Shake Shack"
+      },
+      "lat": 45.6046678,
+      "lon": -122.5045786
+    },
+    {
+      "type": "node",
+      "id": 13355499588,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "cuisine": "burger",
+        "name": "Shake Shack",
+        "takeaway": "yes"
+      },
+      "lat": 47.2171558,
+      "lon": -122.4671769
+    },
+    {
+      "type": "way",
+      "id": 712534101,
+      "tags": {
+        "addr:city": "Kirkland",
+        "addr:housenumber": "300",
+        "addr:postcode": "98033",
+        "addr:state": "WA",
+        "addr:street": "Peter Kirk Lane",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "building": "yes",
+        "check_date": "2024-11-13",
+        "contact:tripadvisor": "https://tripadvisor.com/Restaurant_Review-g58541-d19929005-Reviews-Shake_Shack_Kirkland-Kirkland_Washington.html",
+        "contact:website": "https://shakeshack.com/location/kirkland-wa",
+        "contact:yelp": "https://yelp.com/biz/shake-shack-kirkland-kirkland",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "layer": "1",
+        "name": "Shake Shack",
+        "opening_hours": "Mo-Th 10:00-23:00; Fr-Su 10:00-00:00",
+        "phone": "+1-425-250-8318",
+        "takeaway": "yes",
+        "website": "https://shakeshack.com/location/kirkland-wa",
+        "website:menu": "https://shakeshack.com/#/location/1230"
+      },
+      "center": {
+        "lat": 47.6776568,
+        "lon": -122.20016169999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 861227965,
+      "tags": {
+        "addr:housenumber": "2580",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2023-11-12",
+        "cuisine": "burger",
+        "name": "Shake Shack",
+        "opening_hours": "Mo-Th,Su 10:00-24:00; Fr-Sa 10:00-01:00",
+        "roof:shape": "flat",
+        "takeaway": "yes",
+        "website": "https://shakeshack.com/location/university-village-wa"
+      },
+      "center": {
+        "lat": 47.66352855,
+        "lon": -122.29979405
+      }
+    },
+    {
+      "type": "way",
+      "id": 1283099015,
+      "tags": {
+        "addr:city": "Lynnwood",
+        "addr:housenumber": "18800",
+        "addr:postcode": "98037",
+        "addr:state": "WA",
+        "addr:street": "Alderwood Mall Parkway",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "building": "yes",
+        "check_date": "2024-12-21",
+        "cuisine": "burger",
+        "name": "Shake Shack",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 47.82862085,
+        "lon": -122.2691408
+      }
+    }
+  ]
+}

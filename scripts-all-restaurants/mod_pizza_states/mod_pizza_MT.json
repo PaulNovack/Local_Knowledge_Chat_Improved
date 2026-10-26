@@ -1,0 +1,64 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MT",
+    "brand": "mod_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/montana-latest.osm.pbf",
+    "source_md5": "abfa2e1bfc18f6c00a77776eb9185b11",
+    "processed_utc": "2026-10-24T07:09:10.271084+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8180717423,
+      "tags": {
+        "addr:city": "Kalispell",
+        "addr:housenumber": "2244",
+        "addr:postcode": "59901",
+        "addr:street": "Highway 93 North",
+        "amenity": "fast_food",
+        "branch": "Spring Prairie",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "cuisine": "pizza",
+        "name": "MOD Pizza",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "phone": "+1 406-300-5737",
+        "takeaway": "yes",
+        "website": "https://locations.modpizza.com/usa/mt/kalispell/2244-hwy-93-n"
+      },
+      "lat": 48.2305464,
+      "lon": -114.331227
+    },
+    {
+      "type": "node",
+      "id": 8912920963,
+      "tags": {
+        "addr:city": "Great Falls",
+        "addr:housenumber": "1125",
+        "addr:postcode": "59405",
+        "addr:state": "MT",
+        "addr:street": "10th Avenue South",
+        "amenity": "fast_food",
+        "branch": "10th Avenue",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "cuisine": "pizza",
+        "name": "MOD Pizza",
+        "opening_hours": "Mo-Th 10:30-22:00; Fr-Sa 10:30-23:00; Su 10:30-22:00",
+        "phone": "+1 406-540-7251",
+        "takeaway": "yes",
+        "website": "https://locations.modpizza.com/usa/mt/great-falls/1125-10th-ave-s"
+      },
+      "lat": 47.4945347,
+      "lon": -111.2874739
+    }
+  ]
+}

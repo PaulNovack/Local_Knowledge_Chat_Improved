@@ -1,0 +1,117 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "outback_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 682784497,
+      "tags": {
+        "addr:unit": "40",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr-Sa 11:00-20:00; Su 11:00-20:00"
+      },
+      "lat": 37.1137436,
+      "lon": -113.553588
+    },
+    {
+      "type": "node",
+      "id": 14300057346,
+      "tags": {
+        "addr:housenumber": "5177",
+        "addr:street": "South State Street",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse",
+        "outdoor_seating": "yes"
+      },
+      "lat": 40.658259,
+      "lon": -111.8875955
+    },
+    {
+      "type": "way",
+      "id": 224792686,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse"
+      },
+      "center": {
+        "lat": 40.60992015,
+        "lon": -111.8541262
+      }
+    },
+    {
+      "type": "way",
+      "id": 483514676,
+      "tags": {
+        "addr:city": "Layton",
+        "addr:housenumber": "1664",
+        "addr:postcode": "84041",
+        "addr:state": "UT",
+        "addr:street": "North Heritage Park Boulevard",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "check_date": "2025-04-10",
+        "cuisine": "american;steak",
+        "height": "4",
+        "name": "Outback Steakhouse",
+        "opening_hours": "Mo-Th 11:30-21:00; Fr-Sa 11:30-22:00; Su 11:30-20:00",
+        "phone": "+1 801-779-9394",
+        "website": "https://locations.outback.com/utah/layton/1664-n.-heritage-park-blvd"
+      },
+      "center": {
+        "lat": 41.084912599999996,
+        "lon": -111.9855417
+      }
+    },
+    {
+      "type": "way",
+      "id": 564134788,
+      "tags": {
+        "addr:city": "Orem",
+        "addr:housenumber": "372",
+        "addr:postcode": "84058",
+        "addr:state": "UT",
+        "addr:street": "East University Parkway",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse",
+        "opening_hours": "Mo-Fr 11:30-22:00; Sa 12:00-22:00; Su 12:00-21:00",
+        "phone": "+1-801-764-0552",
+        "source": "esri/USA_NAD_Addresses",
+        "website": "https://locations.outback.com/utah/orem/372-east-university-parkway"
+      },
+      "center": {
+        "lat": 40.27289965,
+        "lon": -111.68556060000003
+      }
+    }
+  ]
+}

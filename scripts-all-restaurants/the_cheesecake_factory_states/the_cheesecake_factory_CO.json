@@ -1,0 +1,71 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "the_cheesecake_factory",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3084966081,
+      "tags": {
+        "addr:city": "Denver",
+        "addr:housenumber": "1201",
+        "addr:postcode": "80202",
+        "addr:state": "CO",
+        "addr:street": "16th Street",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 39.7492201,
+      "lon": -104.9971339
+    },
+    {
+      "type": "node",
+      "id": 4751826823,
+      "tags": {
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "check_date": "2025-04-05",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 39.5631187,
+      "lon": -104.8779977
+    },
+    {
+      "type": "node",
+      "id": 9150633441,
+      "tags": {
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory"
+      },
+      "lat": 39.6126865,
+      "lon": -105.0948036
+    }
+  ]
+}

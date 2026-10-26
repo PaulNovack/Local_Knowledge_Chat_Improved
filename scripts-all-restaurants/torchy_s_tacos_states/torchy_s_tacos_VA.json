@@ -1,0 +1,84 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "torchy_s_tacos",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9895127387,
+      "tags": {
+        "addr:city": "Charlottesville",
+        "addr:housenumber": "1951",
+        "addr:postcode": "22901",
+        "addr:state": "VA",
+        "addr:street": "Swanson Drive",
+        "addr:unit": "110",
+        "amenity": "fast_food",
+        "brand": "Torchy's Tacos",
+        "brand:wikidata": "Q106769573",
+        "cuisine": "tex-mex",
+        "name": "Torchy's Tacos",
+        "takeaway": "yes",
+        "website": "https://torchystacos.com/location/charlottesville/"
+      },
+      "lat": 38.063861,
+      "lon": -78.4922929
+    },
+    {
+      "type": "node",
+      "id": 10540686093,
+      "tags": {
+        "addr:city": "Glen Allen",
+        "addr:housenumber": "11120",
+        "addr:postcode": "23060",
+        "addr:state": "VA",
+        "addr:street": "West Broad Street",
+        "addr:unit": "A",
+        "amenity": "fast_food",
+        "brand": "Torchy's Tacos",
+        "brand:wikidata": "Q106769573",
+        "cuisine": "tex-mex",
+        "drive_through": "no",
+        "name": "Torchy's Tacos",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr 11:00-22:00; Sa 10:00-22:00; Su 10:00-21:00",
+        "phone": "+1-804-554-5554",
+        "takeaway": "yes",
+        "website": "https://torchystacos.com/"
+      },
+      "lat": 37.6498668,
+      "lon": -77.5994327
+    },
+    {
+      "type": "node",
+      "id": 10699957319,
+      "tags": {
+        "addr:housenumber": "3510",
+        "addr:street": "West Cary Street",
+        "amenity": "restaurant",
+        "branch": "Carytown",
+        "brand": "Torchy's Tacos",
+        "check_date": "2024-05-22",
+        "contact:phone": "+1 804-554-3335",
+        "contact:website": "https://torchystacos.com/location/carytown/",
+        "cuisine": "mexican",
+        "name": "Torchy's Tacos",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr-Sa 10:00-23:00; Su 10:00-21:00",
+        "outdoor_seating": "yes"
+      },
+      "lat": 37.555532,
+      "lon": -77.4870218
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "teriyaki_madness",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2158750183,
+      "tags": {
+        "addr:city": "Seattle",
+        "addr:housenumber": "111",
+        "addr:postcode": "98112",
+        "addr:street": "15th Avenue East",
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "check_date": "2025-12-15",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "opening_hours": "Mo-Fr 11:00-20:00; Sa-Su 11:00-19:30",
+        "phone": "+1-206-328-0144",
+        "takeaway": "yes"
+      },
+      "lat": 47.6189001,
+      "lon": -122.312906
+    },
+    {
+      "type": "node",
+      "id": 3327679632,
+      "tags": {
+        "addr:city": "Kirkland",
+        "addr:housenumber": "10600",
+        "addr:postcode": "98033",
+        "addr:street": "Northeast 68th Street",
+        "addr:unit": "B",
+        "amenity": "fast_food",
+        "cuisine": "teriyaki",
+        "name": "Teriyaki Madness",
+        "not:brand:wikidata": "Q107692862",
+        "takeaway": "yes"
+      },
+      "lat": 47.6669399,
+      "lon": -122.1983562
+    },
+    {
+      "type": "node",
+      "id": 3345259371,
+      "tags": {
+        "addr:city": "Seattle",
+        "addr:country": "US",
+        "addr:housenumber": "2320",
+        "addr:postcode": "98103",
+        "addr:state": "WA",
+        "addr:street": "North 45th Street",
+        "addr:unit": "A",
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "check_date": "2026-08-26",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "takeaway": "yes",
+        "website": "http://www.teriyaki-madness-seattle.com/"
+      },
+      "lat": 47.6616052,
+      "lon": -122.330649
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WI",
+    "brand": "sarku_japan",
+    "source": "https://download.geofabrik.de/north-america/us/wisconsin-latest.osm.pbf",
+    "source_md5": "1718ff98080ec3edeb95ab8fb47b0ce7",
+    "processed_utc": "2026-10-24T07:19:59.510074+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 567594256,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sarku Japan",
+        "brand:wikidata": "Q7424243",
+        "cuisine": "japanese",
+        "name": "Sarku Japan",
+        "takeaway": "yes"
+      },
+      "lat": 43.05826,
+      "lon": -89.5049127
+    },
+    {
+      "type": "way",
+      "id": 1135060559,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sarku Japan",
+        "brand:wikidata": "Q7424243",
+        "building:part": "restaurant",
+        "cuisine": "japanese",
+        "indoor": "room",
+        "level": "0",
+        "name": "Sarku Japan",
+        "ref": "FC12",
+        "room": "restaurant",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 43.125602549999996,
+        "lon": -89.30618275
+      }
+    }
+  ]
+}

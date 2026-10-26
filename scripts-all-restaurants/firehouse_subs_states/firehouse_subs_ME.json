@@ -1,0 +1,105 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ME",
+    "brand": "firehouse_subs",
+    "source": "https://download.geofabrik.de/north-america/us/maine-latest.osm.pbf",
+    "source_md5": "561ab4eba7b10f360a72f8484b6f08c3",
+    "processed_utc": "2026-10-24T07:05:33.375896+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7201673541,
+      "tags": {
+        "addr:city": "Waterville",
+        "addr:housenumber": "8",
+        "addr:postcode": "04901",
+        "addr:state": "ME",
+        "addr:street": "Waterville Commons Drive",
+        "amenity": "fast_food",
+        "brand": "Firehouse Subs",
+        "brand:wikidata": "Q5451873",
+        "cuisine": "sandwich",
+        "delivery": "yes",
+        "name": "Firehouse Subs",
+        "opening_hours": "Mo-Su 10:30-21:00",
+        "phone": "+1-207-616-3074",
+        "takeaway": "yes",
+        "website": "https://www.firehousesubs.com/locations/me/waterville-commons/"
+      },
+      "lat": 44.570658,
+      "lon": -69.6425493
+    },
+    {
+      "type": "node",
+      "id": 11382477172,
+      "tags": {
+        "addr:city": "Auburn",
+        "addr:housenumber": "410",
+        "addr:postcode": "04210",
+        "addr:state": "ME",
+        "addr:street": "Center Street",
+        "amenity": "fast_food",
+        "brand": "Firehouse Subs",
+        "brand:wikidata": "Q5451873",
+        "cuisine": "sandwich",
+        "name": "Firehouse Subs",
+        "opening_hours": "Mo-Su 10:30-21:00",
+        "phone": "+1-207-241-8270",
+        "takeaway": "yes",
+        "website": "https://www.firehousesubs.com/"
+      },
+      "lat": 44.1171812,
+      "lon": -70.2252375
+    },
+    {
+      "type": "node",
+      "id": 11850966061,
+      "tags": {
+        "addr:city": "Westbrook",
+        "addr:housenumber": "58",
+        "addr:state": "ME",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Firehouse Subs",
+        "brand:wikidata": "Q5451873",
+        "cuisine": "sandwich",
+        "facebook": "https://www.facebook.com/FirehouseSubsWestbrook/",
+        "name": "Firehouse Subs",
+        "takeaway": "yes",
+        "website": "https://www.firehousesubs.com/store-locator/store/1uCUf2HiTc3ATTcfR6R9uJ"
+      },
+      "lat": 43.6768573,
+      "lon": -70.3305289
+    },
+    {
+      "type": "way",
+      "id": 1338021215,
+      "tags": {
+        "addr:city": "Topsham",
+        "addr:housenumber": "56",
+        "addr:postcode": "04086",
+        "addr:state": "ME",
+        "addr:street": "Topsham Fair Mall Road",
+        "amenity": "fast_food",
+        "brand": "Firehouse Subs",
+        "brand:wikidata": "Q5451873",
+        "cuisine": "sandwich",
+        "name": "Firehouse Subs",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 43.9369429,
+        "lon": -69.97945385000003
+      }
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "bonefish_grill",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 762939100,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Bonefish Grill",
+        "pricerange": "$$$"
+      },
+      "lat": 34.0655939,
+      "lon": -84.2102316
+    },
+    {
+      "type": "node",
+      "id": 3954029996,
+      "tags": {
+        "addr:city": "Buford",
+        "addr:housenumber": "3420",
+        "addr:postcode": "30519",
+        "addr:state": "GA",
+        "addr:street": "Buford Drive",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "lat": 34.0767969,
+      "lon": -83.9848959
+    },
+    {
+      "type": "node",
+      "id": 6198477610,
+      "tags": {
+        "addr:city": "Saint Simons Island",
+        "addr:housenumber": "202",
+        "addr:postcode": "31522",
+        "addr:state": "GA",
+        "addr:street": "Retreat Village",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "lat": 31.1575375,
+      "lon": -81.3910053
+    },
+    {
+      "type": "node",
+      "id": 8810395878,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "lat": 33.5133154,
+      "lon": -82.0392356
+    },
+    {
+      "type": "node",
+      "id": 10971410928,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "lat": 33.8964737,
+      "lon": -84.0042067
+    },
+    {
+      "type": "way",
+      "id": 565899115,
+      "tags": {
+        "addr:housenumber": "2997",
+        "addr:street": "Cobb Parkway South",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2026-01-18",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-21:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 678 202 3394",
+        "website": "https://locations.bonefishgrill.com/georgia/atlanta/2997-cobb-parkway",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 33.8801374,
+        "lon": -84.45894535000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 852561534,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "center": {
+        "lat": 32.0229274,
+        "lon": -81.1094238
+      }
+    },
+    {
+      "type": "way",
+      "id": 958084577,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill",
+        "source": "microsoft/BuildingFootprints;knowledge"
+      },
+      "center": {
+        "lat": 32.5455109,
+        "lon": -84.95324310000001
+      }
+    }
+  ]
+}

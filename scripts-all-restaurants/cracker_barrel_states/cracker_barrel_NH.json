@@ -1,0 +1,42 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NH",
+    "brand": "cracker_barrel",
+    "source": "https://download.geofabrik.de/north-america/us/new-hampshire-latest.osm.pbf",
+    "source_md5": "603b90470df09c1b933955cbfe841c6d",
+    "processed_utc": "2026-10-24T07:09:51.168561+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 28721516,
+      "tags": {
+        "addr:city": "Londonderry",
+        "addr:housenumber": "16",
+        "addr:postcode": "03053",
+        "addr:street": "Nashua Road",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 07:00-21:00; Fr-Sa 07:00-22:00",
+        "website": "https://www.crackerbarrel.com/"
+      },
+      "center": {
+        "lat": 42.87373305,
+        "lon": -71.33931514999995
+      }
+    }
+  ]
+}

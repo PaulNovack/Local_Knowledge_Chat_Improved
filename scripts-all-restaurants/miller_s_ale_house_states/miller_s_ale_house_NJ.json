@@ -1,0 +1,110 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "miller_s_ale_house",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12596033393,
+      "tags": {
+        "addr:city": "Oakhurst",
+        "addr:housenumber": "1603",
+        "addr:state": "NJ",
+        "addr:street": "Route 35",
+        "amenity": "restaurant",
+        "name": "Miller's Ale House"
+      },
+      "lat": 40.2523164,
+      "lon": -74.038793
+    },
+    {
+      "type": "way",
+      "id": 446786094,
+      "tags": {
+        "addr:city": "Mount Laurel",
+        "addr:country": "US",
+        "addr:housenumber": "554",
+        "addr:postcode": "08054",
+        "addr:state": "NJ",
+        "addr:street": "Fellowship Road",
+        "amenity": "restaurant",
+        "brand": "Miller's Ale House",
+        "brand:wikidata": "Q6858987",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Miller's Ale House"
+      },
+      "center": {
+        "lat": 39.9316412,
+        "lon": -74.95924005
+      }
+    },
+    {
+      "type": "way",
+      "id": 534375927,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Miller's Ale House",
+        "brand:wikidata": "Q6858987",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Miller's Ale House"
+      },
+      "center": {
+        "lat": 40.91384045,
+        "lon": -74.05011585
+      }
+    },
+    {
+      "type": "way",
+      "id": 1267533723,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Miller's Ale House",
+        "brand:wikidata": "Q6858987",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Miller's Ale House"
+      },
+      "center": {
+        "lat": 40.9045194,
+        "lon": -74.55161090000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1287444429,
+      "tags": {
+        "addr:city": "Watchung",
+        "addr:housenumber": "1664",
+        "addr:postcode": "07069",
+        "addr:state": "NJ",
+        "addr:street": "US-22",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brand": "Miller's Ale House",
+        "brand:wikidata": "Q6858987",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Miller's Ale House",
+        "website": "https://millersalehouse.com/"
+      },
+      "center": {
+        "lat": 40.644605049999996,
+        "lon": -74.41051225000001
+      }
+    }
+  ]
+}

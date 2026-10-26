@@ -1,0 +1,66 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "ruby_tuesday",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 233298176,
+      "tags": {
+        "addr:city": "North Platte",
+        "addr:housenumber": "2320",
+        "addr:postcode": "69101",
+        "addr:street": "South Jeffers Street",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday",
+        "opening_hours": "Mo-Sa 11:00-23:00; Su 11:00-22:00"
+      },
+      "center": {
+        "lat": 41.1135472,
+        "lon": -100.76578634999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 534692902,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "2700",
+        "addr:postcode": "68504",
+        "addr:state": "NE",
+        "addr:street": "North Hill Road",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "retail",
+        "check_date": "2024-06-18",
+        "cuisine": "american",
+        "name": "Ruby Tuesday",
+        "opening_hours": "Mo-Th, Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-402-477-7829",
+        "source": "Bing",
+        "website": "https://www.rubytuesday.com/locations/north-27th-street/"
+      },
+      "center": {
+        "lat": 40.864836,
+        "lon": -96.68143135000003
+      }
+    }
+  ]
+}

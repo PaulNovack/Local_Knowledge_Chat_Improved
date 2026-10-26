@@ -1,0 +1,47 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KY",
+    "brand": "ponderosa_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/kentucky-latest.osm.pbf",
+    "source_md5": "beee275db6b863afe4847059e1397537",
+    "processed_utc": "2026-10-24T07:04:39.223265+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2439687692,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "steak_house",
+        "name": "Ponderosa"
+      },
+      "lat": 36.924599,
+      "lon": -88.3413763
+    },
+    {
+      "type": "node",
+      "id": 6066545286,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ponderosa Steakhouse",
+        "brand:en": "Ponderosa Steakhouse",
+        "brand:wikidata": "Q64038204",
+        "brand:zh": "龐德羅莎",
+        "cuisine": "american;steak;buffet",
+        "name": "Ponderosa Steakhouse",
+        "name:en": "Ponderosa Steakhouse",
+        "name:zh": "龐德羅莎"
+      },
+      "lat": 38.0852633,
+      "lon": -85.6683672
+    }
+  ]
+}

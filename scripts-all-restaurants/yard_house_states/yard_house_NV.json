@@ -1,0 +1,73 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "yard_house",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2720411755,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "6593",
+        "addr:postcode": "89119",
+        "addr:street": "South Las Vegas Boulevard",
+        "alcohol": "yes",
+        "amenity": "restaurant",
+        "brand": "Yard House",
+        "cuisine": "american",
+        "name": "Yard House",
+        "website": "https://www.yardhouse.com/home"
+      },
+      "lat": 36.0683381,
+      "lon": -115.178035
+    },
+    {
+      "type": "node",
+      "id": 4015588731,
+      "tags": {
+        "addr:housenumber": "3545",
+        "addr:street": "Las Vegas Boulevard South",
+        "alcohol": "yes",
+        "amenity": "restaurant",
+        "brand": "Yard House",
+        "brand:wikidata": "Q21189156",
+        "cuisine": "american",
+        "name": "Yard House",
+        "opening_hours": "Su-Th 09:00-01:00, Fr,Sa 09:00-01:30",
+        "phone": "+1-702-597-0434"
+      },
+      "lat": 36.1177147,
+      "lon": -115.1691992
+    },
+    {
+      "type": "node",
+      "id": 5421566484,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:postcode": "89135",
+        "addr:state": "NV",
+        "addr:street": "Red Rock Resort",
+        "alcohol": "yes",
+        "amenity": "restaurant",
+        "brand": "Yard House",
+        "brand:wikidata": "Q21189156",
+        "cuisine": "american",
+        "name": "Yard House"
+      },
+      "lat": 36.1569949,
+      "lon": -115.3343923
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "HI",
+    "brand": "dairy_queen",
+    "source": "https://download.geofabrik.de/north-america/us/hawaii-latest.osm.pbf",
+    "source_md5": "72d4122e050f63452c0aa341f9272254",
+    "processed_utc": "2026-10-24T07:02:30.197996+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2084148715,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Dairy Queen",
+        "brand:wikidata": "Q1141226",
+        "check_date": "2023-05-01",
+        "cuisine": "ice_cream;burger",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Dairy Queen",
+        "safety:mask:covid19": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 19.6497024,
+      "lon": -156.0048122
+    },
+    {
+      "type": "node",
+      "id": 7732303706,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Dairy Queen",
+        "brand:wikidata": "Q1141226",
+        "cuisine": "ice_cream;burger",
+        "name": "Dairy Queen",
+        "takeaway": "yes"
+      },
+      "lat": 20.0201857,
+      "lon": -155.6670459
+    },
+    {
+      "type": "node",
+      "id": 10174735277,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Dairy Queen",
+        "brand:wikidata": "Q1141226",
+        "cuisine": "ice_cream;burger;chicken",
+        "name": "Dairy Queen",
+        "opening_hours": "Sa-Th 10:00-20:00; Fr 10:00-20:45",
+        "takeaway": "yes"
+      },
+      "lat": 21.2819757,
+      "lon": -157.8386385
+    }
+  ]
+}

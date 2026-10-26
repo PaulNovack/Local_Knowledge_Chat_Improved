@@ -1,0 +1,88 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "shake_shack",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6887320762,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "check_date": "2025-12-27",
+        "cuisine": "burger",
+        "name": "Shake Shack",
+        "takeaway": "yes"
+      },
+      "lat": 39.7176261,
+      "lon": -86.2969113
+    },
+    {
+      "type": "node",
+      "id": 12372276438,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "check_date": "2024-11-22",
+        "cuisine": "burger",
+        "name": "Shake Shack",
+        "takeaway": "yes",
+        "website": "https://shakeshack.com/location/downtown-indianapolis-in"
+      },
+      "lat": 39.7710472,
+      "lon": -86.1545962
+    },
+    {
+      "type": "node",
+      "id": 13623480995,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "cuisine": "burger",
+        "name": "Shake Shack",
+        "takeaway": "yes"
+      },
+      "lat": 39.9545443,
+      "lon": -86.2437276
+    },
+    {
+      "type": "way",
+      "id": 939079517,
+      "tags": {
+        "addr:city": "Fishers",
+        "addr:housenumber": "9701",
+        "addr:postcode": "46037",
+        "addr:state": "IN",
+        "addr:street": "East 116th Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Shake Shack",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.95642695,
+        "lon": -86.00188589999999
+      }
+    }
+  ]
+}

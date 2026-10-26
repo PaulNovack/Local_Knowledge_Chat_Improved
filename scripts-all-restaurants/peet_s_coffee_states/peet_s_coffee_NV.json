@@ -1,0 +1,97 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "peet_s_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5089492521,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Peet's Coffee",
+        "brand:wikidata": "Q1094101",
+        "cuisine": "coffee_shop",
+        "name": "Peet's Coffee",
+        "name:en": "Peet's Coffee & Tea",
+        "takeaway": "yes"
+      },
+      "lat": 39.5055948,
+      "lon": -119.7745538
+    },
+    {
+      "type": "node",
+      "id": 11941183058,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Peet's Coffee",
+        "brand:wikidata": "Q1094101",
+        "cuisine": "coffee_shop",
+        "name": "Peet's Coffee",
+        "takeaway": "yes"
+      },
+      "lat": 39.5276661,
+      "lon": -119.8800952
+    },
+    {
+      "type": "way",
+      "id": 1264392082,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "7120",
+        "addr:postcode": "89118",
+        "addr:state": "NV",
+        "addr:street": "South Rainbow Boulevard",
+        "amenity": "cafe",
+        "brand": "Peet's Coffee",
+        "brand:wikidata": "Q1094101",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Peet's Coffee",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.05886085,
+        "lon": -115.24230094999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1380971314,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "10020",
+        "addr:postcode": "89117",
+        "addr:state": "NV",
+        "addr:street": "West Sahara Avenue",
+        "amenity": "cafe",
+        "branch": "Sahara",
+        "brand": "Peet's Coffee",
+        "brand:wikidata": "Q1094101",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Peet's Coffee",
+        "opening_hours": "Mo-Su 06:00-19:00",
+        "phone": "+1 725-214-7102",
+        "takeaway": "yes",
+        "website": "https://www.peetslv.com/"
+      },
+      "center": {
+        "lat": 36.144844250000006,
+        "lon": -115.3119529
+      }
+    }
+  ]
+}

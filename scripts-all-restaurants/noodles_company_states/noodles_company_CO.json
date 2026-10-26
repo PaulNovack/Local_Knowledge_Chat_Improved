@@ -1,0 +1,975 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "noodles_company",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 535451257,
+      "tags": {
+        "addr:city": "Fort Collins",
+        "addr:housenumber": "650",
+        "addr:postcode": "80524-3004",
+        "addr:state": "CO",
+        "addr:street": "South College Avenue",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "contact:email": "collegeave@noodles.com",
+        "contact:fax": "+1-970-472-0725",
+        "contact:phone": "+1-970-472-2023",
+        "contact:website": "http://www.noodles.com",
+        "cuisine": "pasta",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Noodles & Company",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "ref:store_number": "131"
+      },
+      "lat": 40.5782603,
+      "lon": -105.0767881
+    },
+    {
+      "type": "node",
+      "id": 535562011,
+      "tags": {
+        "addr:housenumber": "4733",
+        "addr:street": "South Timberline Road",
+        "addr:unit": "104",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "check_date": "2026-06-14",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "opening_hours": "10:30-22:00",
+        "website": "https://noodles.com"
+      },
+      "lat": 40.5203861,
+      "lon": -105.040144
+    },
+    {
+      "type": "node",
+      "id": 573024622,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 39.5642211,
+      "lon": -105.1083489
+    },
+    {
+      "type": "node",
+      "id": 664997548,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "opening_hours": "We-Mo 10:30-22:00"
+      },
+      "lat": 39.7105373,
+      "lon": -105.0825112
+    },
+    {
+      "type": "node",
+      "id": 920425679,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 39.7582028,
+      "lon": -104.9015069
+    },
+    {
+      "type": "node",
+      "id": 1030207045,
+      "tags": {
+        "addr:city": "Denver",
+        "addr:housenumber": "550",
+        "addr:postcode": "80203",
+        "addr:state": "CO",
+        "addr:street": "Broadway",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 39.725351,
+      "lon": -104.9870113
+    },
+    {
+      "type": "node",
+      "id": 1185574421,
+      "tags": {
+        "addr:housenumber": "2602",
+        "addr:street": "Baseline Road",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "level": "0",
+        "name": "Noodles & Company",
+        "opening_hours": "Mo-Su 10:30-21:00",
+        "phone": "+1-720-304-2044",
+        "website": "https://locations.noodles.com/co/boulder/2602-baseline-road.html"
+      },
+      "lat": 39.99952,
+      "lon": -105.2611613
+    },
+    {
+      "type": "node",
+      "id": 1431147673,
+      "tags": {
+        "addr:city": "Denver",
+        "addr:housenumber": "303",
+        "addr:postcode": "80202",
+        "addr:state": "CO",
+        "addr:street": "16th Street",
+        "addr:unit": "150",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "internet_access": "wlan",
+        "name": "Noodles & Company",
+        "opening_hours": "Mo-Su 10:30-21:00",
+        "phone": "+1-303-623-1700",
+        "website": "https://locations.noodles.com/co/denver/303-16th-street.html",
+        "wheelchair": "yes"
+      },
+      "lat": 39.7427384,
+      "lon": -104.9887055
+    },
+    {
+      "type": "node",
+      "id": 1433028845,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "opening_hours": "Su-Th 11:00-21:00; Fr,Sa 11:00-22:00"
+      },
+      "lat": 39.6296695,
+      "lon": -106.0599727
+    },
+    {
+      "type": "node",
+      "id": 1627276660,
+      "tags": {
+        "addr:city": "Greenwood Village",
+        "addr:housenumber": "8000",
+        "addr:postcode": "80111",
+        "addr:state": "CO",
+        "addr:street": "East Belleview Avenue",
+        "alt_name": "Noodles & Company World Kitchen",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "internet_access": "wlan",
+        "name": "Noodles & Company",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "phone": "+1-303-741-4469",
+        "website": "https://locations.noodles.com/co/greenwood-village/8000-east-belleview-avenue.html"
+      },
+      "lat": 39.6236192,
+      "lon": -104.89702
+    },
+    {
+      "type": "node",
+      "id": 1758057898,
+      "tags": {
+        "addr:housenumber": "1601",
+        "addr:street": "Mayberry Drive",
+        "amenity": "restaurant",
+        "brand:wikidata": "Q7049673",
+        "check_date": "2025-07-16",
+        "cuisine": "chicken",
+        "name": "Dave’s Hot Chicken",
+        "opening_hours": "Mo-We,Su 10:30-23:00; Th-Sa 10:30-24:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "website": "https://daveshotchicken.com/"
+      },
+      "lat": 39.5461862,
+      "lon": -105.004076
+    },
+    {
+      "type": "node",
+      "id": 2026110865,
+      "tags": {
+        "addr:city": "Aurora",
+        "addr:housenumber": "10550",
+        "addr:postcode": "80012",
+        "addr:state": "CO",
+        "addr:street": "East Garden Drive",
+        "addr:unit": "106",
+        "amenity": "fast_food",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 39.6933703,
+      "lon": -104.8646684
+    },
+    {
+      "type": "node",
+      "id": 2310488637,
+      "tags": {
+        "addr:city": "Boulder",
+        "addr:housenumber": "1600",
+        "addr:postcode": "80301-1008",
+        "addr:state": "CO",
+        "addr:street": "28th Street",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "0",
+        "name": "Noodles & Company",
+        "opening_hours": "Mo-Su 10:30-21:00",
+        "phone": "+1-303-546-9000",
+        "website": "https://locations.noodles.com/co/boulder/1600-28th-st.html"
+      },
+      "lat": 40.015701,
+      "lon": -105.257759
+    },
+    {
+      "type": "node",
+      "id": 2784760098,
+      "tags": {
+        "addr:city": "Denver",
+        "addr:housenumber": "6300",
+        "addr:postcode": "80222",
+        "addr:state": "CO",
+        "addr:street": "East Hampden Avenue",
+        "amenity": "fast_food",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "fixme": "No unit visible anywhere on the outside or on their website.",
+        "name": "Noodles & Company",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "outdoor_seating": "yes",
+        "outdoor_seating:comfort": "chair",
+        "phone": "+1-303-759-3817",
+        "website": "https://locations.noodles.com/co/denver/6300-east-hampden"
+      },
+      "lat": 39.6526902,
+      "lon": -104.915569
+    },
+    {
+      "type": "node",
+      "id": 2889421341,
+      "tags": {
+        "addr:city": "Centennial",
+        "addr:housenumber": "12023",
+        "addr:postcode": "80112",
+        "addr:state": "CO",
+        "addr:street": "East Arapahoe Road",
+        "addr:unit": "100",
+        "amenity": "fast_food",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 39.5954893,
+      "lon": -104.8497116
+    },
+    {
+      "type": "node",
+      "id": 2988989428,
+      "tags": {
+        "addr:housenumber": "13700",
+        "addr:postcode": "80011",
+        "addr:street": "East Colfax Avenue",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "fax": "+1-303-367-1141",
+        "name": "Noodles & Company",
+        "opening_hours": "Mo-Su 10:30-21:00",
+        "phone": "+1-720-262-4451",
+        "source": "knowledge",
+        "website": "https://www.noodles.com/"
+      },
+      "lat": 39.7397775,
+      "lon": -104.828014
+    },
+    {
+      "type": "node",
+      "id": 3014824858,
+      "tags": {
+        "addr:city": "Broomfield",
+        "addr:housenumber": "4530",
+        "addr:postcode": "80020",
+        "addr:state": "CO",
+        "addr:street": "West 121st Avenue",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "smoking": "no"
+      },
+      "lat": 39.9146622,
+      "lon": -105.0449535
+    },
+    {
+      "type": "node",
+      "id": 4191790067,
+      "tags": {
+        "addr:city": "Parker",
+        "addr:housenumber": "17051",
+        "addr:postcode": "80134",
+        "addr:state": "CO",
+        "addr:street": "East Lincoln Avenue",
+        "amenity": "fast_food",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "opening_hours": "Mo-Su 10:30-21:00",
+        "phone": "+1 720-842-5117",
+        "website": "https://locations.noodles.com/co/parker/17051-lincoln-avenue"
+      },
+      "lat": 39.5345745,
+      "lon": -104.7904241
+    },
+    {
+      "type": "node",
+      "id": 4211447259,
+      "tags": {
+        "addr:city": "Grand Junction",
+        "addr:housenumber": "2454",
+        "addr:postcode": "81505",
+        "addr:state": "CO",
+        "addr:street": "Highway 6 & 50",
+        "addr:unit": "A",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "check_date": "2026-06-24",
+        "cuisine": "pasta",
+        "delivery": "yes",
+        "internet_access": "wlan",
+        "name": "Noodles & Company",
+        "opening_hours": "Su-We 10:30-22:00; Th-Sa 10:00-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-970-245-7652",
+        "website": "https://locations.noodles.com/co/grand-junction/2474-highway-6-50"
+      },
+      "lat": 39.0856678,
+      "lon": -108.594042
+    },
+    {
+      "type": "node",
+      "id": 4231215533,
+      "tags": {
+        "addr:city": "Fountain",
+        "addr:state": "CO",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "check_date": "2025-02-07",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 38.7184303,
+      "lon": -104.7000214
+    },
+    {
+      "type": "node",
+      "id": 4509615190,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "name:en": "Noodles & Company",
+        "opening_hours": "Mo-Su 11:00-21:00"
+      },
+      "lat": 39.9865949,
+      "lon": -105.0975861
+    },
+    {
+      "type": "node",
+      "id": 4675691587,
+      "tags": {
+        "addr:city": "Boulder",
+        "addr:housenumber": "1245",
+        "addr:postcode": "80304",
+        "addr:state": "CO",
+        "addr:street": "Alpine Avenue",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "opening_hours": "11:00-21:00",
+        "phone": "+1-303-440-4340",
+        "source": "Bing",
+        "website": "https://locations.noodles.com/co/boulder/1245-alpine.html"
+      },
+      "lat": 40.0259296,
+      "lon": -105.281367
+    },
+    {
+      "type": "node",
+      "id": 6058353159,
+      "tags": {
+        "addr:city": "Highlands Ranch",
+        "addr:housenumber": "9563",
+        "addr:postcode": "80126",
+        "addr:state": "CO",
+        "addr:street": "South University Boulevard",
+        "amenity": "fast_food",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "drive_through": "no",
+        "name": "Noodles & Company",
+        "opening_hours": "Su-Tu 10:30-21:00; We-Sa 10:30-22:00",
+        "phone": "+1-720-348-1522",
+        "smoking": "no",
+        "website": "https://locations.noodles.com/co/highlands-ranch/9563-south-university-blvd"
+      },
+      "lat": 39.5430376,
+      "lon": -104.942351
+    },
+    {
+      "type": "node",
+      "id": 6258302981,
+      "tags": {
+        "addr:city": "Aurora",
+        "addr:housenumber": "6200",
+        "addr:postcode": "80016",
+        "addr:state": "CO",
+        "addr:street": "South Main Street",
+        "addr:unit": "101",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 39.6037988,
+      "lon": -104.7082773
+    },
+    {
+      "type": "node",
+      "id": 6328228862,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 39.9570183,
+      "lon": -104.995032
+    },
+    {
+      "type": "node",
+      "id": 6431109348,
+      "tags": {
+        "addr:city": "Thornton",
+        "addr:housenumber": "3824",
+        "addr:postcode": "80233",
+        "addr:state": "CO",
+        "addr:street": "East 120th Avenue",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "opening_hours": "Mo-Su 10:30-21:00",
+        "outdoor_seating": "yes"
+      },
+      "lat": 39.913445,
+      "lon": -104.9424079
+    },
+    {
+      "type": "node",
+      "id": 6453196969,
+      "tags": {
+        "addr:city": "Loveland",
+        "addr:housenumber": "1550",
+        "addr:postcode": "80538-8715",
+        "addr:state": "CO",
+        "addr:street": "Fall River Drive",
+        "addr:unit": "190",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "outdoor_seating": "yes",
+        "phone": "+1-970-612-0982"
+      },
+      "lat": 40.4087948,
+      "lon": -105.006938
+    },
+    {
+      "type": "node",
+      "id": 6606679847,
+      "tags": {
+        "addr:city": "Lakewood",
+        "addr:housenumber": "375",
+        "addr:postcode": "80228",
+        "addr:state": "CO",
+        "addr:street": "Union Boulevard",
+        "addr:unit": "110",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 39.721523,
+      "lon": -105.1327741
+    },
+    {
+      "type": "node",
+      "id": 6672877192,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 40.3930493,
+      "lon": -104.7537717
+    },
+    {
+      "type": "node",
+      "id": 7055590280,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 40.4227956,
+      "lon": -105.0765915
+    },
+    {
+      "type": "node",
+      "id": 7761681431,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 38.8947255,
+      "lon": -104.7188497
+    },
+    {
+      "type": "node",
+      "id": 8195312287,
+      "tags": {
+        "addr:housenumber": "400",
+        "addr:street": "East Allen Street",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "check_date": "2026-10-15",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 39.4128812,
+      "lon": -104.8635295
+    },
+    {
+      "type": "node",
+      "id": 8220059641,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:state": "CO",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "check_date": "2025-11-08",
+        "check_date:opening_hours": "2025-11-08",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "payment:american_express": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 38.9038293,
+      "lon": -104.8186004
+    },
+    {
+      "type": "node",
+      "id": 8397841863,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "1812",
+        "addr:state": "CO",
+        "addr:street": "Southgate Road",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "check_date": "2025-07-01",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "opening_hours": "Mo-Su 10:30-23:00",
+        "phone": "+1-719-385-0800",
+        "website": "https://locations.noodles.com/co/colorado-springs/1812-southgate-rd"
+      },
+      "lat": 38.8056082,
+      "lon": -104.8216063
+    },
+    {
+      "type": "node",
+      "id": 9041940246,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 39.7636438,
+      "lon": -104.7716873
+    },
+    {
+      "type": "node",
+      "id": 9310897051,
+      "tags": {
+        "addr:city": "Centennial",
+        "addr:housenumber": "2370",
+        "addr:postcode": "80122",
+        "addr:state": "CO",
+        "addr:street": "East Arapahoe Road",
+        "amenity": "fast_food",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "check_date": "2026-07-13",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "opening_hours": "Su-Sa 10:30-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-303-730-2707",
+        "website": "https://locations.noodles.com/co/centennial/2370-east-arapahoe"
+      },
+      "lat": 39.5947889,
+      "lon": -104.9608929
+    },
+    {
+      "type": "node",
+      "id": 9313024182,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 39.6256044,
+      "lon": -105.0916994
+    },
+    {
+      "type": "node",
+      "id": 9438455098,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 39.8131879,
+      "lon": -105.1418321
+    },
+    {
+      "type": "node",
+      "id": 9634459347,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "1358",
+        "addr:postcode": "80921",
+        "addr:state": "CO",
+        "addr:street": "Interquest Parkway",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "check_date": "2026-05-24",
+        "cuisine": "pasta",
+        "delivery": "yes",
+        "internet_access": "wlan",
+        "name": "Noodles & Company",
+        "opening_hours": "Su-We 10:30-21:00; Th-Sa 10:30-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-719-208-4550",
+        "website": "https://locations.noodles.com/co/colorado-springs/1358-interquest-parkway",
+        "website:menu": "https://www.noodles.com/menu"
+      },
+      "lat": 38.9917283,
+      "lon": -104.8005921
+    },
+    {
+      "type": "node",
+      "id": 9736390153,
+      "tags": {
+        "addr:city": "Greeley",
+        "addr:housenumber": "4318",
+        "addr:postcode": "80634",
+        "addr:state": "CO",
+        "addr:street": "9th Street Road",
+        "addr:unit": "#6",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "opening_hours": "Mo-Su 10:30-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-970-336-0303",
+        "website": "https://locations.noodles.com"
+      },
+      "lat": 40.4222086,
+      "lon": -104.749512
+    },
+    {
+      "type": "node",
+      "id": 11078870759,
+      "tags": {
+        "addr:city": "Aurora",
+        "addr:housenumber": "4261",
+        "addr:postcode": "80013",
+        "addr:state": "CO",
+        "addr:street": "South Buckley Road",
+        "addr:unit": "A",
+        "amenity": "fast_food",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 39.6395806,
+      "lon": -104.7919781
+    },
+    {
+      "type": "node",
+      "id": 13673320315,
+      "tags": {
+        "addr:city": "Denver",
+        "addr:housenumber": "1502",
+        "addr:postcode": "80222",
+        "addr:state": "CO",
+        "addr:street": "South Colorado Boulevard",
+        "addr:unit": "Unit 100",
+        "amenity": "fast_food",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "source": "DRCOG PLANIMETRICS DATA;Bing"
+      },
+      "lat": 39.6891026,
+      "lon": -104.9401377
+    },
+    {
+      "type": "node",
+      "id": 13715239502,
+      "tags": {
+        "addr:housenumber": "10355",
+        "addr:street": "Federal Boulevard",
+        "amenity": "restaurant",
+        "name": "Noodles & Company"
+      },
+      "lat": 39.8840936,
+      "lon": -105.0273138
+    },
+    {
+      "type": "way",
+      "id": 209816300,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "building": "yes",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "center": {
+        "lat": 39.84424315,
+        "lon": -105.08242050000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 219359887,
+      "tags": {
+        "addr:city": "Fort Collins",
+        "addr:housenumber": "3519",
+        "addr:postcode": "80525",
+        "addr:state": "CO",
+        "addr:street": "South College Avenue",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "building": "yes",
+        "contact:phone": "+1-970-282-9357",
+        "contact:website": "http://www.noodles.com/",
+        "cuisine": "pasta",
+        "internet_access": "wlan",
+        "name": "Noodles & Company",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "source": "http://www.noodles.com/locations/horsetooth/"
+      },
+      "center": {
+        "lat": 40.53904865,
+        "lon": -105.07771785
+      }
+    },
+    {
+      "type": "way",
+      "id": 396730257,
+      "tags": {
+        "addr:city": "Parker",
+        "addr:housenumber": "11153",
+        "addr:postcode": "80134",
+        "addr:state": "CO",
+        "addr:street": "South Parker Road",
+        "addr:unit": "A",
+        "amenity": "fast_food",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "building": "yes",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "center": {
+        "lat": 39.51199655,
+        "lon": -104.76615464999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 535379545,
+      "tags": {
+        "addr:city": "Pueblo",
+        "addr:housenumber": "825",
+        "addr:postcode": "81008",
+        "addr:state": "CO",
+        "addr:street": "West US Highway 50",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "building": "yes",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "center": {
+        "lat": 38.3085436,
+        "lon": -104.61941645000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 574870337,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "building": "yes",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "center": {
+        "lat": 40.147082499999996,
+        "lon": -105.1314668
+      }
+    },
+    {
+      "type": "way",
+      "id": 853983798,
+      "tags": {
+        "addr:city": "Longmont",
+        "addr:housenumber": "2255",
+        "addr:postcode": "80501",
+        "addr:state": "CO",
+        "addr:street": "Main Street",
+        "addr:unit": "701",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "building": "yes",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "source": "esri_USDOT_ColoradoOITGIS"
+      },
+      "center": {
+        "lat": 40.1977067,
+        "lon": -105.10304740000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1381573906,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "center": {
+        "lat": 39.9301016,
+        "lon": -105.1267967
+      }
+    }
+  ]
+}

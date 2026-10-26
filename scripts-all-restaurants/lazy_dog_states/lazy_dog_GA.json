@@ -1,0 +1,78 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "lazy_dog",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13092955605,
+      "tags": {
+        "addr:floor": "G",
+        "amenity": "restaurant",
+        "brand": "Lazy Dog",
+        "brand:wikidata": "Q111304278",
+        "check_date": "2025-08-23",
+        "cuisine": "american",
+        "level": "0",
+        "name": "Lazy Dog",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 34.0489773,
+      "lon": -84.2869827
+    },
+    {
+      "type": "way",
+      "id": 958709508,
+      "tags": {
+        "addr:city": "Peachtree Corners",
+        "addr:housenumber": "5224",
+        "addr:postcode": "30092",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Parkway",
+        "amenity": "restaurant",
+        "brand": "Lazy Dog",
+        "brand:wikidata": "Q111304278",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Lazy Dog",
+        "phone": "+1-470-735-4501",
+        "website": "https://www.lazydogrestaurants.com/locations/peachtree-corners-ga"
+      },
+      "center": {
+        "lat": 33.97956775,
+        "lon": -84.21573539999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1182105434,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Lazy Dog",
+        "brand:wikidata": "Q111304278",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Lazy Dog"
+      },
+      "center": {
+        "lat": 33.92599405,
+        "lon": -84.33761734999996
+      }
+    }
+  ]
+}

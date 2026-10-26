@@ -1,0 +1,68 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DE",
+    "brand": "jimmy_john_s",
+    "source": "https://download.geofabrik.de/north-america/us/delaware-latest.osm.pbf",
+    "source_md5": "5f714be897be010ea09e4134c39a0638",
+    "processed_utc": "2026-10-24T07:00:37.202137+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6366134050,
+      "tags": {
+        "addr:city": "Wilmington",
+        "addr:housenumber": "824",
+        "addr:postcode": "19801",
+        "addr:state": "DE",
+        "addr:street": "North Market Street",
+        "addr:unit": "105",
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "check_date": "2023-03-31",
+        "cuisine": "sandwich",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "opening_hours": "Mo-Fr 10:30-17:00; Sa-Su off",
+        "phone": "+1 302-777-1300",
+        "takeaway": "yes",
+        "website": "https://locations.jimmyjohns.com/de/wilmington/sandwiches-2005.html"
+      },
+      "lat": 39.7440832,
+      "lon": -75.5486274
+    },
+    {
+      "type": "node",
+      "id": 11939389081,
+      "tags": {
+        "addr:city": "Newark",
+        "addr:housenumber": "1111",
+        "addr:postcode": "19713",
+        "addr:state": "DE",
+        "addr:street": "Churchmans Road",
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "check_date": "2026-01-30",
+        "cuisine": "sandwich",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "opening_hours": "10:30-21:00",
+        "phone": "+1 302-454-1115",
+        "takeaway": "yes",
+        "website": "https://locations.jimmyjohns.com/de/newark/sandwiches-2790.html"
+      },
+      "lat": 39.6898242,
+      "lon": -75.659031
+    }
+  ]
+}

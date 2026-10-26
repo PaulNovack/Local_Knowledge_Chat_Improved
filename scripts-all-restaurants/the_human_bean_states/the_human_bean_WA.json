@@ -1,0 +1,103 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "the_human_bean",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13288337535,
+      "tags": {
+        "addr:city": "Wenatchee",
+        "addr:housenumber": "35",
+        "addr:postcode": "98801",
+        "addr:state": "WA",
+        "addr:street": "South Mission Street",
+        "amenity": "cafe",
+        "brand": "The Human Bean",
+        "brand:wikidata": "Q7740821",
+        "cuisine": "coffee_shop",
+        "name": "The Human Bean",
+        "takeaway": "yes"
+      },
+      "lat": 47.4233805,
+      "lon": -120.3116993
+    },
+    {
+      "type": "way",
+      "id": 397666170,
+      "tags": {
+        "addr:city": "Vancouver",
+        "addr:housenumber": "15640",
+        "addr:postcode": "98682",
+        "addr:state": "WA",
+        "addr:street": "Northeast Fourth Plain Boulevard",
+        "amenity": "cafe",
+        "brand": "The Human Bean",
+        "brand:wikidata": "Q7740821",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "fax": "+1-360-828-5123",
+        "name": "The Human Bean",
+        "phone": "+1-360-828-1769",
+        "takeaway": "yes",
+        "website": "https://thehumanbean.com/"
+      },
+      "center": {
+        "lat": 45.672581699999995,
+        "lon": -122.51234054999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 890333560,
+      "tags": {
+        "addr:city": "Kennewick",
+        "addr:housenumber": "4305",
+        "addr:state": "WA",
+        "addr:street": "West Clearwater Avenue",
+        "amenity": "cafe",
+        "brand": "The Human Bean",
+        "brand:wikidata": "Q7740821",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "The Human Bean",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 46.211996799999994,
+        "lon": -119.1787218
+      }
+    },
+    {
+      "type": "way",
+      "id": 1231711433,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "The Human Bean",
+        "brand:wikidata": "Q7740821",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "The Human Bean",
+        "outdoor_seating": "no",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 45.7174583,
+        "lon": -122.64569010000002
+      }
+    }
+  ]
+}

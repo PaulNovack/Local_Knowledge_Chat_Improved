@@ -1,0 +1,41 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WV",
+    "brand": "perkins",
+    "source": "https://download.geofabrik.de/north-america/us/west-virginia-latest.osm.pbf",
+    "source_md5": "4f8c380a535ff9841f95eae4e1a7f84f",
+    "processed_utc": "2026-10-24T07:19:30.158292+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 963299328,
+      "tags": {
+        "addr:city": "Wheeling",
+        "addr:housenumber": "680",
+        "addr:postcode": "26003",
+        "addr:state": "WV",
+        "addr:street": "National Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "center": {
+        "lat": 40.074502800000005,
+        "lon": -80.70212264999998
+      }
+    }
+  ]
+}

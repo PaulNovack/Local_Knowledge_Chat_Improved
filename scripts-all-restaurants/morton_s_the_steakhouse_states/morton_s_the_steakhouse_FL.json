@@ -1,0 +1,62 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "morton_s_the_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13461561701,
+      "tags": {
+        "addr:city": "Coral Gables",
+        "addr:housenumber": "2333",
+        "addr:postcode": "33134",
+        "addr:state": "FL",
+        "addr:street": "Ponce de Leon Boulevard",
+        "amenity": "restaurant",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "cuisine": "steak_house",
+        "name": "Morton's The Steakhouse",
+        "opening_hours": "Mo-Su 14:00-22:00",
+        "phone": "+1-305-442-1662",
+        "website": "https://mortons.com/"
+      },
+      "lat": 25.7498738,
+      "lon": -80.2584434
+    },
+    {
+      "type": "way",
+      "id": 142926784,
+      "tags": {
+        "addr:city": "North Miami Beach",
+        "addr:housenumber": "17399",
+        "addr:postcode": "33160",
+        "addr:state": "FL",
+        "addr:street": "Biscayne Boulevard",
+        "amenity": "restaurant",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Morton's The Steakhouse",
+        "source": "bing"
+      },
+      "center": {
+        "lat": 25.936899949999997,
+        "lon": -80.1490465
+      }
+    }
+  ]
+}

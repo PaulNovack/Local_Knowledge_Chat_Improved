@@ -1,0 +1,59 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "dave_buster_s",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 223587373,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "yes",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's"
+      },
+      "center": {
+        "lat": 36.305356450000005,
+        "lon": -94.17371605
+      }
+    },
+    {
+      "type": "way",
+      "id": 530311908,
+      "tags": {
+        "addr:city": "Little Rock",
+        "addr:housenumber": "10900",
+        "addr:postcode": "72210",
+        "addr:state": "AR",
+        "addr:street": "Bass Pro Parkway",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "yes",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "level": "0",
+        "name": "Dave & Buster's"
+      },
+      "center": {
+        "lat": 34.66371675,
+        "lon": -92.40660675000004
+      }
+    }
+  ]
+}

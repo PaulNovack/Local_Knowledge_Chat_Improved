@@ -1,0 +1,78 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "blaze_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5564736675,
+      "tags": {
+        "addr:city": "Canton",
+        "addr:housenumber": "5125",
+        "addr:state": "OH",
+        "addr:street": "Dressler Road Northwest",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza"
+      },
+      "lat": 40.855561,
+      "lon": -81.4331644
+    },
+    {
+      "type": "node",
+      "id": 12015534399,
+      "tags": {
+        "addr:city": "Columbus",
+        "addr:housenumber": "1708",
+        "addr:state": "OH",
+        "addr:street": "North High Street",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza",
+        "opening_hours": "Mo-We,Su 10:45-24:00; Th 10:45-02:00; Fr-Sa 10:45-04:00",
+        "phone": "+1 614-382-8160",
+        "website": "https://locations.blazepizza.com/oh/columbus/1708-n.-high-st."
+      },
+      "lat": 39.9971266,
+      "lon": -83.0073322
+    },
+    {
+      "type": "way",
+      "id": 303508669,
+      "tags": {
+        "addr:city": "Mason",
+        "addr:housenumber": "9341",
+        "addr:postcode": "45040",
+        "addr:state": "OH",
+        "addr:street": "Mason Montgomery Road",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza"
+      },
+      "center": {
+        "lat": 39.30374065,
+        "lon": -84.31590994999999
+      }
+    }
+  ]
+}

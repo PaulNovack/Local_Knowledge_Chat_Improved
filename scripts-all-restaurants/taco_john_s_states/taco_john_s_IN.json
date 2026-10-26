@@ -1,0 +1,72 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "taco_john_s",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 14185263312,
+      "tags": {
+        "addr:city": "La Porte",
+        "addr:housenumber": "416",
+        "addr:postcode": "46350",
+        "addr:state": "IN",
+        "addr:street": "J Street",
+        "amenity": "fast_food",
+        "brand": "Taco John's",
+        "brand:wikidata": "Q7673962",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Taco John's",
+        "opening_hours": "Mo-We 07:00-22:00; Th-Sa 07:00-23:00; Su 08:00-22:00",
+        "phone": "+1-219-202-5903",
+        "takeaway": "yes",
+        "website": "https://locations.tacojohns.com/in/la-porte/e494478/"
+      },
+      "lat": 41.6031929,
+      "lon": -86.7306159
+    },
+    {
+      "type": "way",
+      "id": 866153517,
+      "tags": {
+        "addr:housenumber": "850",
+        "addr:street": "North Broadway",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Taco John's",
+        "brand:wikidata": "Q7673962",
+        "building": "yes",
+        "cuisine": "mexican",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Taco John's",
+        "note": "Breakfast until 11 a.m.",
+        "opening_hours": "Mo-Th 06:00-21:00; Fr 06:00-22:00; Sa 07:00-22:00; Su 07:00-21:00",
+        "opening_hours:drive_through": "Mo-Th 06:00-22:00; Fr 06:00-23:00; Sa 07:00-23:00; Su 07:00-22:00",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://locations.tacojohns.com/in/peru/850-n-broadway.html",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 40.7695459,
+        "lon": -86.07980099999997
+      }
+    }
+  ]
+}

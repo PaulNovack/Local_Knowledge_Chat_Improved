@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "first_watch",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12192785606,
+      "tags": {
+        "addr:housenumber": "10111",
+        "addr:postcode": "74133",
+        "addr:street": "East 81st Street",
+        "addr:unit": "D",
+        "amenity": "restaurant",
+        "cuisine": "breakfast",
+        "name": "First Watch"
+      },
+      "lat": 36.047029,
+      "lon": -95.8635972
+    },
+    {
+      "type": "way",
+      "id": 870856107,
+      "tags": {
+        "addr:city": "Broken Arrow",
+        "addr:housenumber": "600",
+        "addr:postcode": "74012",
+        "addr:street": "East Kenosha Street North",
+        "amenity": "restaurant",
+        "brand": "First Watch",
+        "brand:wikidata": "Q5454064",
+        "building": "yes",
+        "check_date": "2024-10-20",
+        "cuisine": "american;breakfast",
+        "name": "First Watch",
+        "official_name": "First Watch The Daytime Cafe"
+      },
+      "center": {
+        "lat": 36.0614852,
+        "lon": -95.78330640000001
+      }
+    }
+  ]
+}

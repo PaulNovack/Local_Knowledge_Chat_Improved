@@ -1,0 +1,98 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "chuy_s",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11322981403,
+      "tags": {
+        "addr:city": "Greenwood Village",
+        "addr:postcode": "80112",
+        "addr:state": "CO",
+        "addr:street": "East Arapahoe Road",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "check_date": "2025-06-12",
+        "cuisine": "mexican",
+        "internet_access": "wlan",
+        "internet_access:ssid": "@chuysrestaurant",
+        "name": "Chuy’s Tex-Mex",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "toilets": "yes"
+      },
+      "lat": 39.5955707,
+      "lon": -104.895021
+    },
+    {
+      "type": "way",
+      "id": 502178028,
+      "tags": {
+        "addr:city": "Westminster",
+        "addr:housenumber": "6595",
+        "addr:postcode": "80020",
+        "addr:state": "CO",
+        "addr:street": "West 104th Avenue",
+        "amenity": "restaurant",
+        "branch": "TexMex",
+        "brand": "Chuy's",
+        "brand:wikidata": "Q5118415",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Chuy's",
+        "opening_hours": "Su-Th 11:00-22:00; Fr,Sa 11:00-23:00",
+        "source": "esri_USDOT_ColoradoOITGIS"
+      },
+      "center": {
+        "lat": 39.88803105,
+        "lon": -105.07065224999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 689209671,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "9297",
+        "addr:postcode": "80920",
+        "addr:state": "CO",
+        "addr:street": "Forest Bluffs View",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "branch": "Colorado Springs CO",
+        "brand": "Chuy's",
+        "brand:wikidata": "Q5118415",
+        "building": "restaurant",
+        "check_date": "2026-01-05",
+        "contact:facebook": "https://www.facebook.com/Chuys.Restaurants",
+        "contact:instagram": "https://www.instagram.com/chuysrestaurant/",
+        "contact:tiktok": "https://www.tiktok.com/@chuysrestaurant",
+        "cuisine": "tex-mex",
+        "delivery": "yes",
+        "name": "Chuy's",
+        "opening_hours": "Mo-Th,Su 11:00-22:00, Fr-Sa 11:00-23:00",
+        "phone": "+1-719-430-4025",
+        "takeaway": "yes",
+        "website": "https://www.chuys.com/locations/co/colorado-springs/colorado-springs-co/6082"
+      },
+      "center": {
+        "lat": 38.966280350000005,
+        "lon": -104.78540665000003
+      }
+    }
+  ]
+}

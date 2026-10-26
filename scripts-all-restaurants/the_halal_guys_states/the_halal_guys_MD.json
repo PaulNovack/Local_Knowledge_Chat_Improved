@@ -1,0 +1,108 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "the_halal_guys",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1323149421,
+      "tags": {
+        "addr:city": "Bethesda",
+        "addr:housenumber": "4917",
+        "addr:street": "Elm Street",
+        "amenity": "fast_food",
+        "brand": "The Halal Guys",
+        "brand:wikidata": "Q10846129",
+        "cuisine": "chicken;falafel;gyros",
+        "diet:halal": "yes",
+        "drive_through": "no",
+        "name": "The Halal Guys",
+        "takeaway": "yes"
+      },
+      "lat": 38.982231,
+      "lon": -77.0968771
+    },
+    {
+      "type": "node",
+      "id": 5897682947,
+      "tags": {
+        "addr:city": "Baltimore",
+        "addr:housenumber": "400",
+        "addr:postcode": "21202-3102",
+        "addr:state": "MD",
+        "addr:street": "East Pratt Street",
+        "addr:unit": "103",
+        "amenity": "fast_food",
+        "brand": "The Halal Guys",
+        "brand:wikidata": "Q10846129",
+        "cuisine": "chicken;falafel;gyros",
+        "diet:halal": "yes",
+        "name": "The Halal Guys",
+        "phone": "+1 410-624-5177",
+        "takeaway": "yes",
+        "website": "https://thehalalguys.com/locations/400-e-pratt-st-baltimore/"
+      },
+      "lat": 39.2869089,
+      "lon": -76.6094493
+    },
+    {
+      "type": "node",
+      "id": 9845643029,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:housenumber": "10100",
+        "addr:postcode": "21044",
+        "addr:state": "MD",
+        "addr:street": "Twin Rivers Road",
+        "addr:unit": "C1-111",
+        "amenity": "fast_food",
+        "brand": "The Halal Guys",
+        "brand:wikidata": "Q10846129",
+        "check_date:opening_hours": "2024-06-15",
+        "cuisine": "chicken;falafel;gyros",
+        "diet:halal": "yes",
+        "drive_through": "no",
+        "name": "The Halal Guys",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+1-667-200-5188",
+        "takeaway": "yes",
+        "website": "https://thehalalguys.com/locations/10100-twins-river-rd-columbia/"
+      },
+      "lat": 39.2159767,
+      "lon": -76.8650947
+    },
+    {
+      "type": "node",
+      "id": 13089824600,
+      "tags": {
+        "addr:city": "Rockville",
+        "addr:housenumber": "891",
+        "addr:postcode": "20852",
+        "addr:state": "MD",
+        "addr:street": "Rockville Pike",
+        "addr:unit": "A",
+        "amenity": "fast_food",
+        "brand": "The Halal Guys",
+        "brand:wikidata": "Q10846129",
+        "cuisine": "chicken;falafel;gyros",
+        "diet:halal": "yes",
+        "name": "The Halal Guys",
+        "takeaway": "yes"
+      },
+      "lat": 39.0741194,
+      "lon": -77.1372914
+    }
+  ]
+}

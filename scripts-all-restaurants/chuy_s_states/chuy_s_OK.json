@@ -1,0 +1,80 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "chuy_s",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13077378770,
+      "tags": {
+        "addr:city": "Oklahoma City",
+        "addr:housenumber": "13621",
+        "addr:postcode": "73120",
+        "addr:state": "OK",
+        "addr:street": "North Blackwelder Avenue",
+        "amenity": "restaurant",
+        "brand": "Chuy's",
+        "brand:wikidata": "Q5118415",
+        "cuisine": "tex-mex",
+        "name": "Chuy's",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+14058053008",
+        "website": "https://www.chuys.com/locations/ok/oklahoma-city/oklahoma-city-ok/6099",
+        "wheelchair": "yes"
+      },
+      "lat": 35.6079578,
+      "lon": -97.5423964
+    },
+    {
+      "type": "way",
+      "id": 485899757,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "8120",
+        "addr:postcode": "74132",
+        "addr:state": "OK",
+        "addr:street": "South Olympia Avenue West",
+        "amenity": "restaurant",
+        "brand": "Chuy's",
+        "brand:wikidata": "Q5118415",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "Chuy's"
+      },
+      "center": {
+        "lat": 36.045818249999996,
+        "lon": -96.00547104999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 947034946,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuy's",
+        "brand:wikidata": "Q5118415",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Chuy's",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 35.2279985,
+        "lon": -97.486492
+      }
+    }
+  ]
+}

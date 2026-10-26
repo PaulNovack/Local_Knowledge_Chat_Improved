@@ -1,0 +1,59 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WV",
+    "brand": "tgi_fridays",
+    "source": "https://download.geofabrik.de/north-america/us/west-virginia-latest.osm.pbf",
+    "source_md5": "4f8c380a535ff9841f95eae4e1a7f84f",
+    "processed_utc": "2026-10-24T07:19:30.158292+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 528925378,
+      "tags": {
+        "addr:city": "Bridgeport",
+        "addr:country": "US",
+        "addr:housenumber": "160",
+        "addr:postcode": "26330",
+        "addr:state": "WV",
+        "addr:street": "Southview Drive",
+        "amenity": "restaurant",
+        "brand": "TGI Friday's",
+        "brand:wikidata": "Q1524184",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "TGI Friday's",
+        "website": "https://locations.tgifridays.com/wv/bridgeport/160-south-view-dr.html"
+      },
+      "center": {
+        "lat": 39.330687049999995,
+        "lon": -80.23495135000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 546246908,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "TGI Friday's",
+        "brand:wikidata": "Q1524184",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "TGI Friday's",
+        "website": "https://locations.tgifridays.com/wv/cross-lanes/4-goff-crossing.html"
+      },
+      "center": {
+        "lat": 38.410583,
+        "lon": -81.7972691
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "teriyaki_madness",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 14205240438,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "takeaway": "yes"
+      },
+      "lat": 38.9130714,
+      "lon": -92.3229405
+    },
+    {
+      "type": "way",
+      "id": 1338421181,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "10408",
+        "addr:postcode": "64157",
+        "addr:state": "MO",
+        "addr:street": "Northeast Cookingham Drive",
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "building": "yes",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.267197249999995,
+        "lon": -94.4490826
+      }
+    }
+  ]
+}

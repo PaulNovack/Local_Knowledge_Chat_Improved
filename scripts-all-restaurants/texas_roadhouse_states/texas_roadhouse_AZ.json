@@ -1,0 +1,463 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "texas_roadhouse",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1805664527,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "source": "Bing"
+      },
+      "lat": 31.5305109,
+      "lon": -110.2579235
+    },
+    {
+      "type": "node",
+      "id": 2464506620,
+      "tags": {
+        "addr:city": "Yuma",
+        "addr:country": "US",
+        "addr:housenumber": "594",
+        "addr:postcode": "85365",
+        "addr:state": "AZ",
+        "addr:street": "East 16th Street",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse"
+      },
+      "lat": 32.6999051,
+      "lon": -114.6130229
+    },
+    {
+      "type": "node",
+      "id": 10236295319,
+      "tags": {
+        "addr:city": "Casa Grande",
+        "addr:housenumber": "1910 E",
+        "addr:state": "AZ",
+        "addr:street": "Florence Boulevard",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse"
+      },
+      "lat": 32.8802515,
+      "lon": -111.704748
+    },
+    {
+      "type": "node",
+      "id": 13673047341,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "cuisine": "steak_house",
+        "fixme": "missing address",
+        "name": "Texas Roadhouse"
+      },
+      "lat": 33.5322416,
+      "lon": -112.2682724
+    },
+    {
+      "type": "way",
+      "id": 68295661,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "10051",
+        "addr:postcode": "85051",
+        "addr:state": "AZ",
+        "addr:street": "North Metro Parkway East",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "contact:fax": "+16029442124",
+        "contact:phone": "+16029442118",
+        "contact:website": "https://www.texasroadhouse.com",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "opening_hours": "Mo-Th 16:00-22:00; Fr,Sa 11:00-23:00; Su 11:00-22:00"
+      },
+      "center": {
+        "lat": 33.57868995,
+        "lon": -112.11826630000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 155465114,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "1616",
+        "addr:postcode": "85035",
+        "addr:state": "AZ",
+        "addr:street": "North 75th Avenue",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "source": "esri/USA_NAD_Addresses",
+        "source:name": "local_knowledge"
+      },
+      "center": {
+        "lat": 33.467316800000006,
+        "lon": -112.22108005000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 187135474,
+      "tags": {
+        "addr:city": "Prescott",
+        "addr:housenumber": "3310",
+        "addr:postcode": "86303",
+        "addr:state": "AZ",
+        "addr:street": "Gateway Boulevard",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "check_date": "2025-02-22",
+        "cuisine": "steak_house",
+        "microbrewery": "no",
+        "name": "Texas Roadhouse",
+        "opening_hours": "Mo-Fr 15:00-22:00; Sa 12:00-22:00; Su 12:00-22:00",
+        "phone": "+1 928-778-7427",
+        "website": "https://www.texasroadhouse.com/locations/331-prescottaz"
+      },
+      "center": {
+        "lat": 34.5481961,
+        "lon": -112.40621064999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 196248081,
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:housenumber": "3961",
+        "addr:postcode": "85297",
+        "addr:state": "AZ",
+        "addr:street": "South Gilbert Road",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "retail",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 33.27805095,
+        "lon": -111.78912975000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 297773364,
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:housenumber": "5086",
+        "addr:postcode": "85296",
+        "addr:state": "AZ",
+        "addr:street": "South Power Road",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 33.3237639,
+        "lon": -111.68755314999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 311348933,
+      "tags": {
+        "addr:city": "Marana",
+        "addr:housenumber": "8450",
+        "addr:postcode": "85743",
+        "addr:state": "AZ",
+        "addr:street": "North Cracker Barrel Road",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "check_date": "2025-02-22",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "opening_hours": "Mo-Th 15:00-22:00; Fr-Su 11:00-22:00",
+        "phone": "+1 520-579-3855",
+        "website": "https://www.texasroadhouse.com/locations/204-maranaaz"
+      },
+      "center": {
+        "lat": 32.36061665,
+        "lon": -111.09323265
+      }
+    },
+    {
+      "type": "way",
+      "id": 347597080,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "16079",
+        "addr:postcode": "85382",
+        "addr:state": "AZ",
+        "addr:street": "North Arrowhead Fountains Center Drive",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 33.6317699,
+        "lon": -112.23717049999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 506645464,
+      "tags": {
+        "addr:city": "Goodyear",
+        "addr:country": "US",
+        "addr:housenumber": "15255",
+        "addr:postcode": "85395",
+        "addr:state": "AZ",
+        "addr:street": "West McDowell Road",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "retail",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "source": "esri_USDOT_Arizona"
+      },
+      "center": {
+        "lat": 33.4640944,
+        "lon": -112.38718879999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 561330838,
+      "tags": {
+        "addr:city": "Flagstaff",
+        "addr:housenumber": "2201",
+        "addr:postcode": "86004",
+        "addr:state": "AZ",
+        "addr:street": "East Route 66",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse"
+      },
+      "center": {
+        "lat": 35.2031116,
+        "lon": -111.61538989999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 591280300,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "968",
+        "addr:postcode": "85714-2437",
+        "addr:state": "AZ",
+        "addr:street": "West Irvington Road",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "opening_hours": "Mo-Th 15:30-21:30; Fr-Sa 11:00-22:30; Su 11:00-21:00",
+        "phone": "+1-520-889-3864",
+        "website": "https://www.texasroadhouse.com/locations/arizona/tucson-w-irvington-rd"
+      },
+      "center": {
+        "lat": 32.1641445,
+        "lon": -110.98329385
+      }
+    },
+    {
+      "type": "way",
+      "id": 729195280,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "170",
+        "addr:postcode": "85711",
+        "addr:state": "AZ",
+        "addr:street": "South Wilmot Road",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "opening_hours": "Mo-Th 15:30-22:30; Fr-Sa 11:00-22:30; Su 11:00-21:00; PH off",
+        "phone": "+1-520-514-7427"
+      },
+      "center": {
+        "lat": 32.219467699999996,
+        "lon": -110.85841770000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 729201557,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse"
+      },
+      "center": {
+        "lat": 32.69990915,
+        "lon": -114.61305675
+      }
+    },
+    {
+      "type": "way",
+      "id": 915364753,
+      "tags": {
+        "addr:city": "Tempe",
+        "addr:state": "AZ",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse"
+      },
+      "center": {
+        "lat": 33.33837095,
+        "lon": -111.97046245000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 921867401,
+      "tags": {
+        "addr:city": "Surprise",
+        "addr:housenumber": "14175",
+        "addr:postcode": "85374",
+        "addr:state": "AZ",
+        "addr:street": "West Grand Avenue",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "source": "esri_USDOT_Arizona"
+      },
+      "center": {
+        "lat": 33.65199065,
+        "lon": -112.36853780000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 935028382,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "2600",
+        "addr:postcode": "85085",
+        "addr:state": "AZ",
+        "addr:street": "West Happy Valley Road",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "opening_hours": "Mo-Th 15:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-22:00",
+        "phone": "+1-623-434-4640",
+        "website": "https://www.texasroadhouse.com/restaurant-locations/arizona/happy-valley"
+      },
+      "center": {
+        "lat": 33.71488505,
+        "lon": -112.11581765
+      }
+    },
+    {
+      "type": "way",
+      "id": 983415049,
+      "tags": {
+        "addr:city": "Scottsdale",
+        "addr:housenumber": "9320",
+        "addr:postcode": "85258",
+        "addr:state": "AZ",
+        "addr:street": "East Via De Ventura",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 33.555552000000006,
+        "lon": -111.880424
+      }
+    },
+    {
+      "type": "way",
+      "id": 1132371488,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1605",
+        "addr:postcode": "85204",
+        "addr:state": "AZ",
+        "addr:street": "South Stapley Drive",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse"
+      },
+      "center": {
+        "lat": 33.385186149999996,
+        "lon": -111.80491340000003
+      }
+    }
+  ]
+}

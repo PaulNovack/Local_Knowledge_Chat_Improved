@@ -1,0 +1,55 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NH",
+    "brand": "cava",
+    "source": "https://download.geofabrik.de/north-america/us/new-hampshire-latest.osm.pbf",
+    "source_md5": "603b90470df09c1b933955cbfe841c6d",
+    "processed_utc": "2026-10-24T07:09:51.168561+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4418911394,
+      "tags": {
+        "addr:city": "Portsmouth",
+        "addr:country": "US",
+        "addr:housenumber": "10",
+        "addr:postcode": "03801",
+        "addr:state": "NH",
+        "addr:street": "Commercial Alley",
+        "amenity": "restaurant",
+        "cuisine": "tapas",
+        "name": "Cava Tapas & Wine Bar",
+        "not:brand": "CAVA",
+        "not:brand:wikidata": "Q85751038",
+        "outdoor_seating": "yes",
+        "phone": "+1-603-319-1575",
+        "reservation": "required",
+        "short_name": "Cava",
+        "website": "https://www.cavatapasandwinebar.com/"
+      },
+      "lat": 43.07761,
+      "lon": -70.757039
+    },
+    {
+      "type": "node",
+      "id": 14088684680,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "cuisine": "mediterranean",
+        "name": "CAVA"
+      },
+      "lat": 42.9524693,
+      "lon": -71.4761773
+    }
+  ]
+}

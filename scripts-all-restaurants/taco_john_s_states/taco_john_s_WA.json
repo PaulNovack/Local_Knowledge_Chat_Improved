@@ -1,0 +1,51 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "taco_john_s",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12223012606,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Taco John's",
+        "brand:wikidata": "Q7673962",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Taco John's",
+        "takeaway": "yes"
+      },
+      "lat": 47.1027827,
+      "lon": -119.3408371
+    },
+    {
+      "type": "way",
+      "id": 403227654,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Taco John's",
+        "brand:wikidata": "Q7673962",
+        "building": "retail",
+        "cuisine": "mexican",
+        "name": "Taco John's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 47.7004496,
+        "lon": -117.39458164999996
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "bonefish_grill",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 566510039,
+      "tags": {
+        "addr:city": "Greenwood Village",
+        "addr:housenumber": "4948",
+        "addr:postcode": "80111",
+        "addr:state": "CO",
+        "addr:street": "South Yosemite Street",
+        "addr:unit": "H1",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill",
+        "opening_hours": "Mo-Th 11:00-22:00, Fr-Sa 11:00-23:00, Su 10:00-21:00",
+        "phone": "+1-303-741-3474",
+        "source": "knowledge",
+        "website": "https://www.bonefishgrill.com/locations/co/greenwood-village"
+      },
+      "lat": 39.6250757,
+      "lon": -104.884771
+    },
+    {
+      "type": "node",
+      "id": 5180926161,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "5102",
+        "addr:postcode": "80918",
+        "addr:state": "CO",
+        "addr:street": "North Nevada Avenue",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "check_date:opening_hours": "2025-11-08",
+        "cuisine": "seafood",
+        "internet_access": "wlan",
+        "name": "Bonefish Grill",
+        "opening_hours": "Mo-Sa 11:00-22:00; Su 11:00-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-719-598-0826",
+        "reservation": "yes",
+        "takeaway": "yes",
+        "website": "https://locations.bonefishgrill.com/colorado/colorado-springs/5102-north-nevada-avenue"
+      },
+      "lat": 38.9022595,
+      "lon": -104.8182875
+    },
+    {
+      "type": "node",
+      "id": 13673320310,
+      "tags": {
+        "addr:city": "Littleton",
+        "addr:housenumber": "8100",
+        "addr:postcode": "80123",
+        "addr:state": "CO",
+        "addr:street": "West Crestline Avenue",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill",
+        "opening_hours": "Mo-Sa 11:00-22:00; Su 11:00-21:00",
+        "phone": "+1-303-948-3474",
+        "website": "https://locations.bonefishgrill.com/colorado/denver/8100-w.-crestline-avenue"
+      },
+      "lat": 39.6179248,
+      "lon": -105.0891995
+    },
+    {
+      "type": "way",
+      "id": 235574098,
+      "tags": {
+        "addr:city": "Johnstown",
+        "addr:housenumber": "4920",
+        "addr:postcode": "80534-6425",
+        "addr:state": "CO",
+        "addr:street": "Thompson Parkway",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "building": "yes",
+        "contact:phone": "+1-970-663-3474",
+        "contact:website": "http://www.bonefishgrill.com/",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill",
+        "opening_hours": "Mo-Th 16:00-22:00; Fr 16:00-23:00; Sa 15:00-21:00; Su 11:00-21:30",
+        "ref:store_number": "6604"
+      },
+      "center": {
+        "lat": 40.40665815,
+        "lon": -104.98191630000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 292962596,
+      "tags": {
+        "addr:city": "Westminster",
+        "addr:state": "CO",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "center": {
+        "lat": 39.88794915,
+        "lon": -105.07395205
+      }
+    },
+    {
+      "type": "way",
+      "id": 334803737,
+      "tags": {
+        "addr:city": "Lakewood",
+        "addr:housenumber": "14770",
+        "addr:postcode": "80401",
+        "addr:state": "CO",
+        "addr:street": "West Colfax Avenue",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill",
+        "source": "Bing",
+        "website": "https://www.bonefishgrill.com/"
+      },
+      "center": {
+        "lat": 39.731846950000005,
+        "lon": -105.1647757
+      }
+    }
+  ]
+}

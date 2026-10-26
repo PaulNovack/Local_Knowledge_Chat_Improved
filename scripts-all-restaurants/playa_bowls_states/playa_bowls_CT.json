@@ -1,0 +1,67 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "playa_bowls",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13009136842,
+      "tags": {
+        "addr:city": "Newington",
+        "addr:housenumber": "3313",
+        "addr:postcode": "06111",
+        "addr:state": "CT",
+        "addr:street": "Berlin Turnpike",
+        "addr:unit": "8",
+        "amenity": "fast_food",
+        "brand": "Playa Bowls",
+        "brand:wikidata": "Q114618507",
+        "cuisine": "açaí",
+        "drive_through": "no",
+        "name": "Playa Bowls",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "phone": "+1-860-940-0952",
+        "takeaway": "yes",
+        "website": "https://playabowls.com/location/newington"
+      },
+      "lat": 41.6578902,
+      "lon": -72.7275491
+    },
+    {
+      "type": "node",
+      "id": 13326562568,
+      "tags": {
+        "addr:city": "Guilford",
+        "addr:housenumber": "1919",
+        "addr:postcode": "06437",
+        "addr:state": "CT",
+        "addr:street": "Boston Post Road",
+        "addr:unit": "202",
+        "amenity": "fast_food",
+        "brand": "Playa Bowls",
+        "brand:wikidata": "Q114618507",
+        "check_date": "2025-11-23",
+        "cuisine": "açaí",
+        "name": "Playa Bowls",
+        "opening_hours": "08:00-21:00",
+        "phone": "+1 203-533-7017",
+        "takeaway": "yes",
+        "website": "https://playabowls.com/location/guilford"
+      },
+      "lat": 41.3011889,
+      "lon": -72.7077621
+    }
+  ]
+}

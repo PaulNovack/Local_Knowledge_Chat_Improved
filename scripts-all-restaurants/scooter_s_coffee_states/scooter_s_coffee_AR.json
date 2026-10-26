@@ -1,0 +1,64 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "scooter_s_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13377157001,
+      "tags": {
+        "addr:city": "Maumelle",
+        "addr:housenumber": "20715",
+        "addr:postcode": "72113",
+        "addr:state": "AR",
+        "addr:street": "State Highway 365",
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "check_date": "2026-02-28",
+        "cuisine": "coffee_shop",
+        "name": "Scooter's Coffee",
+        "phone": "+1-501-734-8080",
+        "shop": "coffee",
+        "takeaway": "yes",
+        "website:menu": "https://www.scooterscoffee.com/menu"
+      },
+      "lat": 34.8834702,
+      "lon": -92.3848918
+    },
+    {
+      "type": "way",
+      "id": 1526554497,
+      "tags": {
+        "addr:housenumber": "423",
+        "addr:street": "West 15th Street",
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Scooter's Coffee",
+        "opening_hours": "Mo-Su 05:00-21:00",
+        "phone": "+1-479-332-0329",
+        "takeaway": "yes",
+        "website": "https://scooterscoffee.com/"
+      },
+      "center": {
+        "lat": 36.04809285,
+        "lon": -94.16484179999998
+      }
+    }
+  ]
+}

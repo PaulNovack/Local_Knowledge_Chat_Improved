@@ -1,0 +1,106 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "captain_d_s",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1216897902,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Captain D's",
+        "brand:wikidata": "Q5036616",
+        "cuisine": "seafood",
+        "name": "Captain D's",
+        "official_name": "Captain D's Seafood Kitchen",
+        "takeaway": "yes"
+      },
+      "lat": 38.8741594,
+      "lon": -104.804264
+    },
+    {
+      "type": "way",
+      "id": 199769320,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "2495",
+        "addr:postcode": "80916",
+        "addr:state": "CO",
+        "addr:street": "South Academy Boulevard",
+        "amenity": "fast_food",
+        "brand": "Captain D's",
+        "brand:wikidata": "Q5036616",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Captain D's",
+        "official_name": "Captain D's Seafood Kitchen",
+        "roof:colour": "grey",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.7966651,
+        "lon": -104.75691375000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 202771621,
+      "tags": {
+        "addr:housenumber": "1101",
+        "addr:postcode": "80909",
+        "addr:state": "CO",
+        "addr:street": "North Academy Boulevard",
+        "amenity": "fast_food",
+        "brand": "Captain D's",
+        "brand:wikidata": "Q5036616",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Captain D's",
+        "official_name": "Captain D's Seafood Kitchen",
+        "phone": "+1-719-591-6320",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://www.captainds.com/"
+      },
+      "center": {
+        "lat": 38.84830875,
+        "lon": -104.75698315
+      }
+    },
+    {
+      "type": "way",
+      "id": 439892324,
+      "tags": {
+        "addr:city": "Pueblo",
+        "addr:housenumber": "3630",
+        "addr:postcode": "81008",
+        "addr:state": "CO",
+        "addr:street": "North Freeway",
+        "amenity": "fast_food",
+        "brand": "Captain D's",
+        "brand:wikidata": "Q5036616",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Captain D's",
+        "official_name": "Captain D's Seafood Kitchen",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.306862100000004,
+        "lon": -104.61171394999997
+      }
+    }
+  ]
+}

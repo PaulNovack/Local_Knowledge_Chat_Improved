@@ -1,0 +1,75 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "the_original_pancake_house",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2801366314,
+      "tags": {
+        "addr:city": "Alpharetta",
+        "addr:housenumber": "5530",
+        "addr:postcode": "30004",
+        "addr:state": "GA",
+        "addr:street": "Windward Parkway",
+        "addr:unit": "Suite 120A",
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House"
+      },
+      "lat": 34.0882129,
+      "lon": -84.2662203
+    },
+    {
+      "type": "node",
+      "id": 12830370201,
+      "tags": {
+        "addr:housenumber": "7201",
+        "addr:postcode": "31406",
+        "addr:street": "Hodgson Memorial Drive",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "name": "The Original Pancake House"
+      },
+      "lat": 32.0048557,
+      "lon": -81.1112558
+    },
+    {
+      "type": "way",
+      "id": 220385039,
+      "tags": {
+        "addr:city": "Atlanta",
+        "addr:housenumber": "2321",
+        "addr:postcode": "30324",
+        "addr:state": "GA",
+        "addr:street": "Cheshire Bridge Road",
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House",
+        "phone": "+1-404-633-5677",
+        "website": "https://www.originalpancakehouse.com/phloc_ga.html"
+      },
+      "center": {
+        "lat": 33.81827705,
+        "lon": -84.35019419999998
+      }
+    }
+  ]
+}

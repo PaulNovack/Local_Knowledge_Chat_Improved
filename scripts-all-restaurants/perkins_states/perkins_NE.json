@@ -1,0 +1,169 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "perkins",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2938342924,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "lat": 41.880664,
+      "lon": -103.666406
+    },
+    {
+      "type": "node",
+      "id": 11133906319,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "lat": 40.6225026,
+      "lon": -98.3838131
+    },
+    {
+      "type": "way",
+      "id": 134872273,
+      "tags": {
+        "addr:city": "Kearney",
+        "addr:housenumber": "609",
+        "addr:postcode": "68847",
+        "addr:street": "South 2nd Avenue",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "phone": "+1-308-234-7375",
+        "ref": "3823"
+      },
+      "center": {
+        "lat": 40.6801562,
+        "lon": -99.08388315000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 233298175,
+      "tags": {
+        "addr:city": "North Platte",
+        "addr:housenumber": "2302",
+        "addr:postcode": "69101",
+        "addr:state": "NE",
+        "addr:street": "South Jeffers Street",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "capacity": "200",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "24/7",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-308-534-7375",
+        "smoking": "outside",
+        "source": "local knowledge;employee",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 41.11395755,
+        "lon": -100.76587484999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 886015459,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "7301",
+        "addr:postcode": "68504",
+        "addr:state": "NE",
+        "addr:street": "Husker Circle",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 05:30-23:00",
+        "phone": "+1-402-937-7042",
+        "website": "https://www.perkinsrestaurants.com/locations/us/ne/lincoln/7301-husker-circle"
+      },
+      "center": {
+        "lat": 40.8858503,
+        "lon": -96.67964359999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1068577011,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "center": {
+        "lat": 40.9174467,
+        "lon": -98.38239435000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1110562593,
+      "tags": {
+        "addr:housenumber": "2545",
+        "addr:street": "Abbott Plaza",
+        "amenity": "restaurant",
+        "branch": "Omaha",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "center": {
+        "lat": 41.28227355,
+        "lon": -95.91098420000003
+      }
+    }
+  ]
+}

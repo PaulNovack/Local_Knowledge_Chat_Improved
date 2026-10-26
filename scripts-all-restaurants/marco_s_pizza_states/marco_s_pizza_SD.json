@@ -1,0 +1,77 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SD",
+    "brand": "marco_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/south-dakota-latest.osm.pbf",
+    "source_md5": "4d012b130d8682e6f0e1bc093c255981",
+    "processed_utc": "2026-10-24T07:16:00.169778+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3045955795,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "phone": "+1 605 7914949",
+        "takeaway": "yes",
+        "website": "https://www.marcos.com/stores/south-dakota/632"
+      },
+      "lat": 44.0632249,
+      "lon": -103.2788
+    },
+    {
+      "type": "node",
+      "id": 9354494914,
+      "tags": {
+        "addr:city": "Sioux Falls",
+        "addr:housenumber": "5007",
+        "addr:postcode": "57108",
+        "addr:state": "SD",
+        "addr:street": "South Louise Avenue",
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Marco's Pizza",
+        "opening_hours": "Su-Th 10:30-23:00; Fr 10:30-20:00",
+        "takeaway": "yes"
+      },
+      "lat": 43.4998965,
+      "lon": -96.7728614
+    },
+    {
+      "type": "way",
+      "id": 246750331,
+      "tags": {
+        "addr:housenumber": "601",
+        "addr:postcode": "57301",
+        "addr:street": "South Sanborn Boulevard",
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "source": "Bing",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 43.7043524,
+        "lon": -98.03008215
+      }
+    }
+  ]
+}

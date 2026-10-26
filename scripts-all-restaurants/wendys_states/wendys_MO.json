@@ -1,0 +1,2352 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "wendys",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 820072940,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "lat": 37.2041944,
+      "lon": -93.2766564
+    },
+    {
+      "type": "node",
+      "id": 1823301133,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "3803",
+        "addr:postcode": "64127",
+        "addr:state": "MO",
+        "addr:street": "East Truman Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-20:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 816-231-7153",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/kansas-city/3803-east-truman-road"
+      },
+      "lat": 39.0936569,
+      "lon": -94.5372384
+    },
+    {
+      "type": "node",
+      "id": 2703674884,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "2125",
+        "addr:postcode": "65804",
+        "addr:state": "MO",
+        "addr:street": "East Independence Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-00:00",
+        "phone": "+1 417-881-2550",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/springfield/2125-e-independence"
+      },
+      "lat": 37.1430599,
+      "lon": -93.2558345
+    },
+    {
+      "type": "node",
+      "id": 2706812806,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "3334",
+        "addr:postcode": "65804",
+        "addr:state": "MO",
+        "addr:street": "East Sunshine Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Th 07:00-22:00; Fr 10:30-22:00; Sa-Su 07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-01:00",
+        "phone": "+1 417-889-9946",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/springfield/3334-e-sunshine-st"
+      },
+      "lat": 37.180033,
+      "lon": -93.2272555
+    },
+    {
+      "type": "node",
+      "id": 2711741450,
+      "tags": {
+        "addr:city": "Republic",
+        "addr:housenumber": "1329",
+        "addr:postcode": "65738",
+        "addr:state": "MO",
+        "addr:street": "US Highway 60 East",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:00-00:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-00:00",
+        "phone": "+1 417-732-2369",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/republic/1329-us-60-east"
+      },
+      "lat": 37.1313806,
+      "lon": -93.4591158
+    },
+    {
+      "type": "node",
+      "id": 2728018834,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "3339",
+        "addr:postcode": "65803",
+        "addr:state": "MO",
+        "addr:street": "West Kearney Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-00:00",
+        "phone": "+1 417-863-2155",
+        "source": "Bing",
+        "takeaway": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/springfield/3339-wkearney",
+        "wheelchair": "yes"
+      },
+      "lat": 37.2419793,
+      "lon": -93.3444091
+    },
+    {
+      "type": "node",
+      "id": 2728286804,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "1723",
+        "addr:postcode": "65807",
+        "addr:state": "MO",
+        "addr:street": "West Republic Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:00-10:30",
+        "phone": "+1 417-877-1507",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/springfield/1723-w-republic-road",
+        "wheelchair": "yes"
+      },
+      "lat": 37.1388009,
+      "lon": -93.3172331
+    },
+    {
+      "type": "node",
+      "id": 2787110663,
+      "tags": {
+        "addr:city": "Warrensburg",
+        "addr:housenumber": "410",
+        "addr:postcode": "64093",
+        "addr:state": "MO",
+        "addr:street": "North Maguire Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-01:00",
+        "phone": "+1 660-429-1500",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/warrensburg/410-n-maguire-st"
+      },
+      "lat": 38.7663455,
+      "lon": -93.7359954
+    },
+    {
+      "type": "node",
+      "id": 2884342206,
+      "tags": {
+        "addr:city": "Poplar Bluff",
+        "addr:housenumber": "1200",
+        "addr:postcode": "63901",
+        "addr:state": "MO",
+        "addr:street": "North Westwood",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 573-778-0028",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/poplar-bluff/1200-n-westwood"
+      },
+      "lat": 36.7683088,
+      "lon": -90.4149559
+    },
+    {
+      "type": "node",
+      "id": 2972356063,
+      "tags": {
+        "addr:city": "Sikeston",
+        "addr:housenumber": "1701",
+        "addr:postcode": "63801",
+        "addr:state": "MO",
+        "addr:street": "East Malone",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-10:30",
+        "phone": "+1 573-472-3341",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/sikeston/1701-e-malone"
+      },
+      "lat": 36.8846563,
+      "lon": -89.5584849
+    },
+    {
+      "type": "node",
+      "id": 3009561475,
+      "tags": {
+        "addr:city": "Joplin",
+        "addr:housenumber": "1625",
+        "addr:postcode": "64804",
+        "addr:state": "MO",
+        "addr:street": "South Range Line Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 417-625-1440",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/joplin/1625-s-range-line-rd"
+      },
+      "lat": 37.0722127,
+      "lon": -94.4773393
+    },
+    {
+      "type": "node",
+      "id": 4476042139,
+      "tags": {
+        "addr:city": "Joplin",
+        "addr:housenumber": "4500",
+        "addr:postcode": "64804",
+        "addr:state": "MO",
+        "addr:street": "Highway 43",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "24/7",
+        "opening_hours:drive_through": "24/7",
+        "phone": "+1 417-781-0164",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/joplin/4500-highway-43"
+      },
+      "lat": 37.0046272,
+      "lon": -94.5525047
+    },
+    {
+      "type": "node",
+      "id": 4914989561,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "4939",
+        "addr:postcode": "65802",
+        "addr:state": "MO",
+        "addr:street": "West Chestnut Expressway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-00:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 417-864-4149",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/springfield/4939-west-chestnut-expressway"
+      },
+      "lat": 37.2135876,
+      "lon": -93.3817187
+    },
+    {
+      "type": "node",
+      "id": 5106520153,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:housenumber": "308",
+        "addr:postcode": "65201",
+        "addr:state": "MO",
+        "addr:street": "South 9th Street",
+        "addr:unit": "101",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "Mo-We 10:30-01:00; Th-Sa 10:30-04:00; Su 10:30-23:00",
+        "phone": "+1 573-507-9995",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/columbia/308-s-9th-st,-suite-101"
+      },
+      "lat": 38.9478131,
+      "lon": -92.3274525
+    },
+    {
+      "type": "node",
+      "id": 5628790791,
+      "tags": {
+        "addr:city": "O'Fallon",
+        "addr:housenumber": "9701",
+        "addr:postcode": "63366",
+        "addr:state": "MO",
+        "addr:street": "Veterans Memorial Parkway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 636-272-5230",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/o'fallon/9701-veterans-memorial-parkway"
+      },
+      "lat": 38.8008199,
+      "lon": -90.7345958
+    },
+    {
+      "type": "node",
+      "id": 5633604741,
+      "tags": {
+        "addr:city": "Saint Peters",
+        "addr:housenumber": "1676",
+        "addr:postcode": "63304",
+        "addr:state": "MO",
+        "addr:street": "Jungermann Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 636-447-2078",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/saint-peters/1676-jungermann-rd"
+      },
+      "lat": 38.74444,
+      "lon": -90.5924743
+    },
+    {
+      "type": "node",
+      "id": 5693731242,
+      "tags": {
+        "addr:city": "Bridgeton",
+        "addr:housenumber": "13945",
+        "addr:postcode": "63044",
+        "addr:state": "MO",
+        "addr:street": "Missouri Bottom Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Th 06:30-23:00; Fr-Sa 06:30-00:00; Su 06:30-23:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 314-252-0730",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/bridgeton/13945-missouri-bottom-road"
+      },
+      "lat": 38.793968,
+      "lon": -90.4486263
+    },
+    {
+      "type": "node",
+      "id": 7237643185,
+      "tags": {
+        "addr:city": "Chesterfield",
+        "addr:housenumber": "17451",
+        "addr:postcode": "63005",
+        "addr:state": "MO",
+        "addr:street": "Chesterfield Airport Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa-Su 08:30-20:00",
+        "opening_hours:drive_through": "Mo-Fr 06:30-22:00; Sa-Su 08:30-20:00",
+        "phone": "+1 636-536-9952",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/chesterfield/17451-chesterfield-airport-road"
+      },
+      "lat": 38.6688789,
+      "lon": -90.6101624
+    },
+    {
+      "type": "node",
+      "id": 8710861261,
+      "tags": {
+        "addr:city": "Ozark",
+        "addr:housenumber": "1931",
+        "addr:postcode": "65721",
+        "addr:state": "MO",
+        "addr:street": "West Marler Lane",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-00:00",
+        "phone": "+1 417-581-6824",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/ozark/1931-w-marler-lane"
+      },
+      "lat": 37.0038986,
+      "lon": -93.2264816
+    },
+    {
+      "type": "node",
+      "id": 9948617482,
+      "tags": {
+        "addr:city": "Oak Grove",
+        "addr:housenumber": "301",
+        "addr:postcode": "64075",
+        "addr:state": "MO",
+        "addr:street": "Southwest First Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:00-00:00",
+        "opening_hours:drive_through": "Mo-Su 07:00-00:00",
+        "phone": "+1 816-690-4455",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/oak-grove/301-sw-first-street"
+      },
+      "lat": 39.0149693,
+      "lon": -94.1312686
+    },
+    {
+      "type": "node",
+      "id": 10135930820,
+      "tags": {
+        "addr:city": "Independence",
+        "addr:housenumber": "9022",
+        "addr:postcode": "64055",
+        "addr:state": "MO",
+        "addr:street": "East 40 Highway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 816-923-1966",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/independence/9022-east-40-highway"
+      },
+      "lat": 39.0609893,
+      "lon": -94.4732012
+    },
+    {
+      "type": "node",
+      "id": 10660440249,
+      "tags": {
+        "addr:city": "Independence",
+        "addr:housenumber": "2528",
+        "addr:postcode": "64057",
+        "addr:state": "MO",
+        "addr:street": "South 291 Highway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-00:00; Fr-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 816-252-9923",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/independence/2528-s-291-hwy"
+      },
+      "lat": 39.0739819,
+      "lon": -94.3798009
+    },
+    {
+      "type": "node",
+      "id": 11043108118,
+      "tags": {
+        "addr:city": "Jefferson City",
+        "addr:housenumber": "2108",
+        "addr:postcode": "65109",
+        "addr:state": "MO",
+        "addr:street": "Missouri Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-00:00",
+        "phone": "+1 573-636-7273",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/jefferson-city/2108-missouri-blvd"
+      },
+      "lat": 38.5816247,
+      "lon": -92.2061799
+    },
+    {
+      "type": "node",
+      "id": 11043108139,
+      "tags": {
+        "addr:city": "Jefferson City",
+        "addr:housenumber": "3536",
+        "addr:postcode": "65109",
+        "addr:state": "MO",
+        "addr:street": "Country Club Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:00-23:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-23:00",
+        "phone": "+1 573-893-7033",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/jefferson-city/3536-country-club-dr"
+      },
+      "lat": 38.5840727,
+      "lon": -92.2533847
+    },
+    {
+      "type": "node",
+      "id": 11762123595,
+      "tags": {
+        "addr:city": "Kirksville",
+        "addr:housenumber": "2221",
+        "addr:postcode": "63501",
+        "addr:state": "MO",
+        "addr:street": "North Baltimore Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Th 06:00-22:00; Fr-Sa 06:00-23:00; Su 06:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-00:00",
+        "phone": "+1 660-956-4023",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/kirksville/2221-n-baltimore-street"
+      },
+      "lat": 40.2180029,
+      "lon": -92.5834229
+    },
+    {
+      "type": "node",
+      "id": 12044143485,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "american",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "lat": 37.060589,
+      "lon": -93.3017939
+    },
+    {
+      "type": "node",
+      "id": 13030936011,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:housenumber": "519",
+        "addr:postcode": "65203",
+        "addr:street": "Scott Boulevard",
+        "addr:unit": "United States",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-24:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mobile_pay": "yes",
+        "phone": "+1-573-415-9290",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/columbia/519-s-scott-blvd"
+      },
+      "lat": 38.9503642,
+      "lon": -92.3998271
+    },
+    {
+      "type": "node",
+      "id": 13863498493,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "lat": 37.1821723,
+      "lon": -93.3456675
+    },
+    {
+      "type": "way",
+      "id": 119098634,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "6420",
+        "addr:postcode": "64154",
+        "addr:state": "MO",
+        "addr:street": "Northwest Barry Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "commercial",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-00:00; Fr-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 816-746-1677",
+        "source": "bing",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/kansas-city/6420-nw-barry-road"
+      },
+      "center": {
+        "lat": 39.24757745,
+        "lon": -94.65448130000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 139761158,
+      "tags": {
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "3801",
+        "addr:postcode": "63116",
+        "addr:state": "MO",
+        "addr:street": "Gravois Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-00:00; Fr-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 314-772-6923",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/saint-louis/3801-gravois-rd"
+      },
+      "center": {
+        "lat": 38.59196095,
+        "lon": -90.24970150000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 160365911,
+      "tags": {
+        "addr:city": "Saint Peters",
+        "addr:country": "US",
+        "addr:housenumber": "275",
+        "addr:postcode": "63376",
+        "addr:state": "MO",
+        "addr:street": "Mid Rivers Mall Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 636-279-3071",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/saint-peters/275-mid-rivers-mall-dr"
+      },
+      "center": {
+        "lat": 38.79507675,
+        "lon": -90.62268500000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 170671558,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "1204",
+        "addr:postcode": "64131",
+        "addr:state": "MO",
+        "addr:street": "Meyer Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-20:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-23:00; Fr-Sa 06:30-00:00; Su 06:30-22:00",
+        "phone": "+1 816-361-0377",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/kansas-city/1204-meyer-blvd"
+      },
+      "center": {
+        "lat": 39.01187865,
+        "lon": -94.57396204999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 176585176,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "3118",
+        "addr:postcode": "64111",
+        "addr:state": "MO",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-20:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-00:00; Fr-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 816-931-0186",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/kansas-city/3118-main-st"
+      },
+      "center": {
+        "lat": 39.07027805,
+        "lon": -94.58571789999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 177237117,
+      "tags": {
+        "addr:city": "Independence",
+        "addr:housenumber": "4301",
+        "addr:postcode": "64055",
+        "addr:state": "MO",
+        "addr:street": "South Noland Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-00:00; Fr-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 816-373-5785",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/independence/4301-s-noland-rd"
+      },
+      "center": {
+        "lat": 39.04262945,
+        "lon": -94.41487455000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 182387013,
+      "tags": {
+        "addr:city": "Grandview",
+        "addr:housenumber": "11910",
+        "addr:postcode": "64030",
+        "addr:state": "MO",
+        "addr:street": "Blue Ridge",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 816-761-4248",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/grandview/11910-blue-ridge"
+      },
+      "center": {
+        "lat": 38.9073019,
+        "lon": -94.52575745000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 189577701,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "4931",
+        "addr:postcode": "64118",
+        "addr:state": "MO",
+        "addr:street": "North Oak Trafficway",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 816-413-0766",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/kansas-city/4931-north-oak-trafficway",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 39.1858141,
+        "lon": -94.57607770000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 195048912,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "9301",
+        "addr:postcode": "64155",
+        "addr:state": "MO",
+        "addr:street": "North Oak Trafficway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.2627653,
+        "lon": -94.57501244999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 195134996,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "9800",
+        "addr:postcode": "64153",
+        "addr:state": "MO",
+        "addr:street": "Northwest Prarie View Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-00:00",
+        "phone": "+1 816-880-9480",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/kansas-city/9800-northwest-prarie-view-road"
+      },
+      "center": {
+        "lat": 39.274162849999996,
+        "lon": -94.67206825
+      }
+    },
+    {
+      "type": "way",
+      "id": 195211925,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.2440716,
+        "lon": -94.44681924999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 238017630,
+      "tags": {
+        "addr:city": "Clinton",
+        "addr:housenumber": "1701",
+        "addr:postcode": "64735",
+        "addr:state": "MO",
+        "addr:street": "East Ohio Street",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's #21",
+        "opening_hours": "06:00-10:30",
+        "operator": "Wendy's",
+        "phone": "+1 660-885-2100",
+        "website": "https://locations.wendys.com/united-states/mo/clinton/1701-e-ohio-ave"
+      },
+      "center": {
+        "lat": 38.366559949999996,
+        "lon": -93.74925174999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 264237332,
+      "tags": {
+        "addr:city": "Branson",
+        "addr:housenumber": "1124",
+        "addr:postcode": "65616",
+        "addr:state": "MO",
+        "addr:street": "Branson Hills Parkway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:30-00:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 417-239-0835",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/branson/1124-branson-hills-parkway"
+      },
+      "center": {
+        "lat": 36.67212915,
+        "lon": -93.22545409999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 278040490,
+      "tags": {
+        "addr:city": "Branson",
+        "addr:housenumber": "510",
+        "addr:postcode": "65616",
+        "addr:state": "MO",
+        "addr:street": "West Main Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Th 06:00-23:00; Fr-Sa 06:00-00:00; Su 06:00-23:00",
+        "opening_hours:drive_through": "Mo-Th 06:00-23:00; Fr-Sa 06:00-00:00; Su 06:00-23:00",
+        "phone": "+1 417-334-1414",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/branson/510-w-main-st"
+      },
+      "center": {
+        "lat": 36.64393054999999,
+        "lon": -93.22276635000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 298497421,
+      "tags": {
+        "addr:city": "Jennings",
+        "addr:housenumber": "8009",
+        "addr:postcode": "63136",
+        "addr:state": "MO",
+        "addr:street": "West Florissant Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 314-383-0574",
+        "source:addr": "St. Louis County GIS Service Center (https://data.stlouisco.com/pages/open-data 2019-08)",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/saint-louis/8009-west-florissant-ave"
+      },
+      "center": {
+        "lat": 38.727483050000004,
+        "lon": -90.27614080000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 319012267,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "13601",
+        "addr:postcode": "64145",
+        "addr:state": "MO",
+        "addr:street": "Madison Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 816-943-1634",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/kansas-city/13601-madison-ave"
+      },
+      "center": {
+        "lat": 38.8814266,
+        "lon": -94.60445779999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 331134082,
+      "tags": {
+        "addr:city": "Rolla",
+        "addr:housenumber": "1007",
+        "addr:postcode": "65401",
+        "addr:state": "MO",
+        "addr:street": "Kings Highway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-01:00",
+        "phone": "+1 573-364-5500",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/rolla/1007-kings-highway"
+      },
+      "center": {
+        "lat": 37.946145,
+        "lon": -91.778794
+      }
+    },
+    {
+      "type": "way",
+      "id": 363401342,
+      "tags": {
+        "addr:city": "Florissant",
+        "addr:housenumber": "8250",
+        "addr:postcode": "63031",
+        "addr:state": "MO",
+        "addr:street": "North Lindbergh Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 314-838-9225",
+        "source:addr": "St. Louis County GIS Service Center (https://data.stlouisco.com/pages/open-data 2019-08)",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/florissant/8250-n-lindbergh"
+      },
+      "center": {
+        "lat": 38.79110715,
+        "lon": -90.34457885
+      }
+    },
+    {
+      "type": "way",
+      "id": 383386031,
+      "tags": {
+        "addr:city": "Blue Springs",
+        "addr:housenumber": "310",
+        "addr:postcode": "64014",
+        "addr:state": "MO",
+        "addr:street": "Northwest State Route 7",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 816-229-7962",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/blue-springs/310-nw-state-route-7"
+      },
+      "center": {
+        "lat": 39.02109395,
+        "lon": -94.27180520000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 412173096,
+      "tags": {
+        "addr:city": "Cameron",
+        "addr:housenumber": "1522",
+        "addr:postcode": "64429",
+        "addr:state": "MO",
+        "addr:street": "Bob Griffin Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "check_date": "2026-09-27",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "24/7",
+        "opening_hours:drive_through": "24/7",
+        "phone": "+1 816-632-6199",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/cameron/1522-bob-griffin-road"
+      },
+      "center": {
+        "lat": 39.7527393,
+        "lon": -94.21462644999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 437135804,
+      "tags": {
+        "addr:city": "Carthage",
+        "addr:housenumber": "2342",
+        "addr:postcode": "64836",
+        "addr:state": "MO",
+        "addr:street": "Grand Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-22:00; Fr-Su 06:30-23:00",
+        "phone": "+1 417-358-1414",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/carthage/2342-grand-avenue"
+      },
+      "center": {
+        "lat": 37.14779255,
+        "lon": -94.30971944999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 451737866,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "7933",
+        "addr:postcode": "64114",
+        "addr:state": "MO",
+        "addr:street": "State Line Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "note": "This building was completed after Summer 2013, and most imagery is out of date.",
+        "opening_hours": "Su-We 08:00-24:00, Th-Sa 08:00-01:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 816-444-0025",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/kansas-city/7933-state-line-road"
+      },
+      "center": {
+        "lat": 38.984185,
+        "lon": -94.60784684999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 461193196,
+      "tags": {
+        "addr:city": "Ballwin",
+        "addr:housenumber": "14799",
+        "addr:postcode": "63011",
+        "addr:state": "MO",
+        "addr:street": "Manchester Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 636-686-7341",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/ballwin/14799-manchester-rd"
+      },
+      "center": {
+        "lat": 38.593435850000006,
+        "lon": -90.5363494
+      }
+    },
+    {
+      "type": "way",
+      "id": 468892291,
+      "tags": {
+        "addr:city": "West Plains",
+        "addr:housenumber": "1467",
+        "addr:postcode": "65775",
+        "addr:state": "MO",
+        "addr:street": "Gibson Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "09:00-21:00",
+        "opening_hours:drive_through": "Mo-Sa 06:30-22:00; Su 08:00-22:00",
+        "phone": "+1 417-256-0613",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/west-plains/1467-gibson-street"
+      },
+      "center": {
+        "lat": 36.7429824,
+        "lon": -91.87363634999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 494374674,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "4201",
+        "addr:postcode": "64117",
+        "addr:state": "MO",
+        "addr:street": "North Corrington Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Su 06:30-24:00",
+        "opening_hours:drive_through": "Mo-Fr 06:00-00:00; Sa-Su 07:00-00:00",
+        "phone": "+1 816-455-2849",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/kansas-city/4201-north-corrington-avenue"
+      },
+      "center": {
+        "lat": 39.1695089,
+        "lon": -94.495341
+      }
+    },
+    {
+      "type": "way",
+      "id": 510027914,
+      "tags": {
+        "addr:city": "Lebanon",
+        "addr:housenumber": "860",
+        "addr:postcode": "65536",
+        "addr:state": "MO",
+        "addr:street": "South Jefferson Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-01:00",
+        "phone": "+1 417-588-2992",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/lebanon-mo-3422"
+      },
+      "center": {
+        "lat": 37.6739711,
+        "lon": -92.65461095
+      }
+    },
+    {
+      "type": "way",
+      "id": 543809896,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:housenumber": "403",
+        "addr:postcode": "65201",
+        "addr:state": "MO",
+        "addr:street": "East Nifong Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:00-01:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-01:00",
+        "phone": "+1 573-442-9404",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/columbia/403-east-nifong-boulevard"
+      },
+      "center": {
+        "lat": 38.910577399999994,
+        "lon": -92.3338053
+      }
+    },
+    {
+      "type": "way",
+      "id": 543906887,
+      "tags": {
+        "addr:city": "Warrenton",
+        "addr:housenumber": "902",
+        "addr:postcode": "63383",
+        "addr:state": "MO",
+        "addr:street": "Highway 47 North",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 636-456-0476",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/warrenton/902-highway-47-north"
+      },
+      "center": {
+        "lat": 38.82210685,
+        "lon": -91.1380967
+      }
+    },
+    {
+      "type": "way",
+      "id": 545594069,
+      "tags": {
+        "addr:city": "Raytown",
+        "addr:housenumber": "9708",
+        "addr:postcode": "64133",
+        "addr:state": "MO",
+        "addr:street": "East 63rd Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 816-353-4112",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/raytown/9708-e-63rd-st"
+      },
+      "center": {
+        "lat": 39.00887485,
+        "lon": -94.46664514999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 548040523,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:housenumber": "3110",
+        "addr:postcode": "65202",
+        "addr:state": "MO",
+        "addr:street": "Clark Lane",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:00-01:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-01:00",
+        "phone": "+1 573-474-2080",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/columbia/3110-clark-lane"
+      },
+      "center": {
+        "lat": 38.963292499999994,
+        "lon": -92.29081184999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 554602287,
+      "tags": {
+        "addr:city": "Boonville",
+        "addr:housenumber": "1701",
+        "addr:postcode": "65233",
+        "addr:state": "MO",
+        "addr:street": "West Ashley Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "check_date": "2026-05-21",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:00-24:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-24:00",
+        "phone": "+1 660-882-8675",
+        "takeaway": "yes",
+        "website": "https://pilotflyingj.com/stores/44"
+      },
+      "center": {
+        "lat": 38.93931105,
+        "lon": -92.77401380000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 562115955,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "6301",
+        "addr:postcode": "64151",
+        "addr:state": "MO",
+        "addr:street": "North Chatham Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-00:00; Fr-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 816-897-4799",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/kansas-city/6301-n-chatham-ave",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 39.209426449999995,
+        "lon": -94.642541
+      }
+    },
+    {
+      "type": "way",
+      "id": 565573220,
+      "tags": {
+        "addr:city": "Raymore",
+        "addr:housenumber": "2011",
+        "addr:postcode": "64083",
+        "addr:state": "MO",
+        "addr:street": "West Foxwood Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 816-322-6103",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/raymore/2011-w-foxwood-drive"
+      },
+      "center": {
+        "lat": 38.8124465,
+        "lon": -94.49541879999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 574278197,
+      "tags": {
+        "addr:city": "Sedalia",
+        "addr:housenumber": "1301",
+        "addr:postcode": "65301",
+        "addr:state": "MO",
+        "addr:street": "South Limit Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Th 06:00-00:00; Fr-Sa 06:00-01:00; Su 06:00-00:00",
+        "opening_hours:drive_through": "Mo-Th 06:00-00:00; Fr-Sa 06:00-01:00; Su 06:00-00:00",
+        "phone": "+1 660-827-2220",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/sedalia/1301-s-limit-ave"
+      },
+      "center": {
+        "lat": 38.7014016,
+        "lon": -93.25009969999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 604906072,
+      "tags": {
+        "addr:city": "Saint Joseph",
+        "addr:housenumber": "1411",
+        "addr:postcode": "64507",
+        "addr:state": "MO",
+        "addr:street": "South Belt Highway",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "diet:halal": "yes",
+        "diet:kosher": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-23:00; Fr-Sa 06:30-00:00; Su 07:30-23:00",
+        "outdoor_seating": "no",
+        "phone": "+1 816-232-6534",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/saint-joseph/1411-s-belt-highway",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 39.753650500000006,
+        "lon": -94.80311790000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 609427997,
+      "tags": {
+        "addr:city": "Saint Joseph",
+        "addr:housenumber": "1601",
+        "addr:postcode": "64506",
+        "addr:state": "MO",
+        "addr:street": "North Belt Highway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Sa 06:30-10:30; Su 07:30-10:30",
+        "phone": "+1 816-232-9555",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/saint-joseph/1601-n-belt"
+      },
+      "center": {
+        "lat": 39.78121075,
+        "lon": -94.8025781
+      }
+    },
+    {
+      "type": "way",
+      "id": 619917131,
+      "tags": {
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "3465",
+        "addr:postcode": "63115",
+        "addr:state": "MO",
+        "addr:street": "Union Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-17:30",
+        "opening_hours:drive_through": "Mo-Th 06:30-00:00; Fr-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 314-382-2759",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/saint-louis/3465-union-blvd"
+      },
+      "center": {
+        "lat": 38.67912615,
+        "lon": -90.25898304999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 644516755,
+      "tags": {
+        "addr:city": "Macon",
+        "addr:housenumber": "1202",
+        "addr:postcode": "63552",
+        "addr:state": "MO",
+        "addr:street": "North Missouri Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/macon/1202-n-missouri-st"
+      },
+      "center": {
+        "lat": 39.74781255,
+        "lon": -92.46761355000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 660061019,
+      "tags": {
+        "addr:city": "Webb City",
+        "addr:housenumber": "1229",
+        "addr:postcode": "64870",
+        "addr:state": "MO",
+        "addr:street": "Madison Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 417-673-1100",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/webb-city/1229-madison-avenue"
+      },
+      "center": {
+        "lat": 37.133006699999996,
+        "lon": -94.4745107
+      }
+    },
+    {
+      "type": "way",
+      "id": 660872602,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 37.08425235,
+        "lon": -94.5307401
+      }
+    },
+    {
+      "type": "way",
+      "id": 666005099,
+      "tags": {
+        "addr:city": "O'Fallon",
+        "addr:housenumber": "1420",
+        "addr:postcode": "63366",
+        "addr:state": "MO",
+        "addr:street": "Mexico Loop Road East",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "commercial",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 636-281-0423",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/o'fallon/1390-mexico-loop-rd-e"
+      },
+      "center": {
+        "lat": 38.79189265,
+        "lon": -90.69674595000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 674860028,
+      "tags": {
+        "addr:city": "Wentzville",
+        "addr:housenumber": "1233",
+        "addr:postcode": "63385",
+        "addr:state": "MO",
+        "addr:street": "West Pearce Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 636-327-7041",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/wentzville/1233-west-pearce-blvd"
+      },
+      "center": {
+        "lat": 38.811497700000004,
+        "lon": -90.87919234999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 696569454,
+      "tags": {
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "2130",
+        "addr:postcode": "63139",
+        "addr:state": "MO",
+        "addr:street": "Hampton Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 314-781-4569",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/saint-louis/2130-hampton-avenue"
+      },
+      "center": {
+        "lat": 38.616720099999995,
+        "lon": -90.28649865
+      }
+    },
+    {
+      "type": "way",
+      "id": 699133512,
+      "tags": {
+        "addr:city": "Bolivar",
+        "addr:housenumber": "2480",
+        "addr:postcode": "65613",
+        "addr:state": "MO",
+        "addr:street": "Springfield Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-00:00",
+        "phone": "+1 417-777-5541",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/bolivar/2480-springfield-avenue"
+      },
+      "center": {
+        "lat": 37.59121065,
+        "lon": -93.40114985000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 763931515,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.9526265,
+        "lon": -94.52770600000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 777209204,
+      "tags": {
+        "addr:city": "Branson",
+        "addr:housenumber": "3504",
+        "addr:postcode": "65616",
+        "addr:state": "MO",
+        "addr:street": "West 76 Country Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:00-23:00",
+        "opening_hours:drive_through": "Mo-We 06:00-23:00; Th-Sa 06:00-00:00; Su 06:00-23:00",
+        "phone": "+1 417-334-1941",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/branson/3504-w-highway-76"
+      },
+      "center": {
+        "lat": 36.64410495,
+        "lon": -93.28592905
+      }
+    },
+    {
+      "type": "way",
+      "id": 780920357,
+      "tags": {
+        "addr:city": "Cape Girardeau",
+        "addr:housenumber": "35",
+        "addr:postcode": "63703",
+        "addr:state": "MO",
+        "addr:street": "South Kings Highway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 573-334-0191",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/cape-girardeau/35-s-kings-hgwy"
+      },
+      "center": {
+        "lat": 37.30425339999999,
+        "lon": -89.55281135000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 792384658,
+      "tags": {
+        "addr:city": "Independence",
+        "addr:housenumber": "4105",
+        "addr:postcode": "64057",
+        "addr:state": "MO",
+        "addr:street": "South Little Blue Parkway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 816-877-9940",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/independence/4105-s-little-blue-pkwy"
+      },
+      "center": {
+        "lat": 39.041254699999996,
+        "lon": -94.33971150000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 842883017,
+      "tags": {
+        "addr:city": "North Kansas City",
+        "addr:housenumber": "1208",
+        "addr:postcode": "64116",
+        "addr:state": "MO",
+        "addr:street": "Armour Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-00:00",
+        "phone": "+1 816-221-4670",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/north-kansas-city/1208-armour-rd"
+      },
+      "center": {
+        "lat": 39.1443704,
+        "lon": -94.56532500000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 913527959,
+      "tags": {
+        "addr:city": "Osage Beach",
+        "addr:country": "US",
+        "addr:housenumber": "3562",
+        "addr:postcode": "65065",
+        "addr:state": "MO",
+        "addr:street": "Osage Beach Parkway",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-01:00",
+        "phone": "+1 573-365-4318",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/osage-beach/3562-highway-54"
+      },
+      "center": {
+        "lat": 38.169167200000004,
+        "lon": -92.61088025000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 914868297,
+      "tags": {
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "6925",
+        "addr:postcode": "63125",
+        "addr:state": "MO",
+        "addr:street": "South Lindbergh Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 314-892-1239",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/saint-louis/6925-s-lindbergh-blvd"
+      },
+      "center": {
+        "lat": 38.51078325,
+        "lon": -90.33374979999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 999930026,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.9253985,
+        "lon": -94.400083
+      }
+    },
+    {
+      "type": "way",
+      "id": 1001176348,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "3558",
+        "addr:postcode": "65807",
+        "addr:state": "MO",
+        "addr:street": "South Campbell Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-We 06:30-23:00; Th-Su 06:30-00:00",
+        "opening_hours:drive_through": "Mo-We 06:30-23:00; Th-Su 06:30-00:00",
+        "phone": "+1 417-882-0701",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/springfield/3558-s-campbell"
+      },
+      "center": {
+        "lat": 37.14896105,
+        "lon": -93.29538159999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1008783197,
+      "tags": {
+        "addr:city": "Saint Robert",
+        "addr:housenumber": "209",
+        "addr:postcode": "65584",
+        "addr:state": "MO",
+        "addr:street": "Saint Robert Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:00-00:00; Fr-Sa 06:00-01:00; Su 06:00-00:00",
+        "phone": "+1 573-336-3233",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/saint-robert/209-st-robert-blvd"
+      },
+      "center": {
+        "lat": 37.8251656,
+        "lon": -92.15563650000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1180908056,
+      "tags": {
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "8905",
+        "addr:postcode": "63114",
+        "addr:state": "MO",
+        "addr:street": "Page Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 314-423-2685",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/saint-louis/8905-page-ave"
+      },
+      "center": {
+        "lat": 38.6870656,
+        "lon": -90.35639079999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1188766296,
+      "tags": {
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "10710",
+        "addr:postcode": "63132",
+        "addr:state": "MO",
+        "addr:street": "Page Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 314-423-9605",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/saint-louis/10710-page-ave"
+      },
+      "center": {
+        "lat": 38.69189435,
+        "lon": -90.39752514999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1199665240,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.44489045,
+        "lon": -90.37399909999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1225100339,
+      "tags": {
+        "addr:city": "High Ridge",
+        "addr:housenumber": "2709",
+        "addr:postcode": "63049",
+        "addr:state": "MO",
+        "addr:street": "Ridge Point Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 636-376-0029",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/high-ridge/2709-ridge-point-dr"
+      },
+      "center": {
+        "lat": 38.4628311,
+        "lon": -90.52447849999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1280942970,
+      "tags": {
+        "addr:housenumber": "9604",
+        "addr:postcode": "63119",
+        "addr:street": "Manchester Road",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "donut",
+        "fixme:atp": "Check if still exists. No corresponding ATP object.",
+        "name": "Wendy's",
+        "website": "https://locations.wendys.com/united-states/mo/rock-hill/9604-manchester-road"
+      },
+      "center": {
+        "lat": 38.608554600000005,
+        "lon": -90.36665364999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1315643829,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "225",
+        "addr:postcode": "65807",
+        "addr:state": "MO",
+        "addr:street": "West Sunshine",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:00-01:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-01:00",
+        "phone": "+1 417-866-4000",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/springfield/225-w-sunshine"
+      },
+      "center": {
+        "lat": 37.1825556,
+        "lon": -93.2935334
+      }
+    },
+    {
+      "type": "way",
+      "id": 1366676349,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "1312",
+        "addr:postcode": "65803",
+        "addr:state": "MO",
+        "addr:street": "West Kearney Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:00-00:00",
+        "opening_hours:drive_through": "Mo-Th 06:00-00:00; Fr-Sa 06:00-01:00; Su 06:00-00:00",
+        "phone": "+1 417-866-2000",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/springfield/1312-w-kearney-st"
+      },
+      "center": {
+        "lat": 37.24056,
+        "lon": -93.30693105
+      }
+    },
+    {
+      "type": "way",
+      "id": 1370086813,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.80870175,
+        "lon": -94.8158737
+      }
+    },
+    {
+      "type": "way",
+      "id": 1411964999,
+      "tags": {
+        "addr:city": "Harrisonville",
+        "addr:housenumber": "1800",
+        "addr:postcode": "64701",
+        "addr:state": "MO",
+        "addr:street": "North State Route 291",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:00-23:00; Fr-Sa 06:00-00:00; Su 06:00-23:00",
+        "phone": "+1 816-884-3700",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/harrisonville/1800-n-state-route-291"
+      },
+      "center": {
+        "lat": 38.668074149999995,
+        "lon": -94.36714469999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1467359283,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.20696445,
+        "lon": -94.54803779999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1477027389,
+      "tags": {
+        "addr:city": "Moberly",
+        "addr:housenumber": "535",
+        "addr:postcode": "65270",
+        "addr:state": "MO",
+        "addr:street": "US 24",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.4435364,
+        "lon": -92.42830749999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1508373823,
+      "tags": {
+        "addr:city": "Bridgeton",
+        "addr:housenumber": "11961",
+        "addr:postcode": "63044",
+        "addr:state": "MO",
+        "addr:street": "Paul Mayer Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-00:00; Fr-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 314-739-4134",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/mo/bridgeton/11961-paul-mayer"
+      },
+      "center": {
+        "lat": 38.7470126,
+        "lon": -90.42212144999996
+      }
+    }
+  ]
+}

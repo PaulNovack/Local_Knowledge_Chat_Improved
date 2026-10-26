@@ -1,0 +1,48 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AK",
+    "brand": "texas_roadhouse",
+    "source": "https://download.geofabrik.de/north-america/us/alaska-latest.osm.pbf",
+    "source_md5": "55281fca0391ab2c26b0d99fd6a6f5f8",
+    "processed_utc": "2026-10-24T06:56:26.590469+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5783073353,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse"
+      },
+      "lat": 61.1391009,
+      "lon": -149.8594988
+    },
+    {
+      "type": "way",
+      "id": 703284980,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse"
+      },
+      "center": {
+        "lat": 61.2294491,
+        "lon": -149.74113525
+      }
+    }
+  ]
+}

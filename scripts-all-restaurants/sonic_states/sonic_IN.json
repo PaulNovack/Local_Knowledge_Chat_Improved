@@ -1,0 +1,571 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "sonic",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 968657904,
+      "tags": {
+        "addr:city": "Avon",
+        "addr:housenumber": "66",
+        "addr:postcode": "46231",
+        "addr:state": "IN",
+        "addr:street": "South Raceway",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "Mo-Th 07:00-24:00; Fr-Sa 07:00-01:00; Su 07:00-24:00",
+        "phone": "+1 317-272-4379",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/in/avon/66-south-raceway.html"
+      },
+      "lat": 39.7622,
+      "lon": -86.3273244
+    },
+    {
+      "type": "node",
+      "id": 1837053012,
+      "tags": {
+        "addr:city": "Camby",
+        "addr:housenumber": "8060",
+        "addr:postcode": "46113",
+        "addr:state": "IN",
+        "addr:street": "Upland Bend",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "Mo-Th 07:00-23:00; Fr-Sa 07:00-24:00; Su 07:00-23:00",
+        "phone": "+1 317-856-5777",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/in/camby/8060-upland-bend.html"
+      },
+      "lat": 39.646319,
+      "lon": -86.3285561
+    },
+    {
+      "type": "node",
+      "id": 2805236595,
+      "tags": {
+        "addr:city": "Evansville",
+        "addr:housenumber": "3433",
+        "addr:postcode": "47715",
+        "addr:state": "IN",
+        "addr:street": "North Green River Road",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "Mo-Th 06:00-23:00; Fr-Sa 06:00-24:00; Su 08:00-23:00",
+        "phone": "+1 812-476-7730",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/in/evansville/3433-north-green-river-road.html"
+      },
+      "lat": 38.0094156,
+      "lon": -87.4916001
+    },
+    {
+      "type": "node",
+      "id": 13648426801,
+      "tags": {
+        "addr:housenumber": "1520",
+        "addr:postcode": "46709",
+        "addr:street": "Shook Drive",
+        "amenity": "fast_food",
+        "name": "Sonic Drive-In",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "phone": "+1-260-333-5732",
+        "website": "https://sonicdrivein.com/",
+        "website:menu": "http://sonicdrivein.com/menu"
+      },
+      "lat": 41.3660625,
+      "lon": -85.0871875
+    },
+    {
+      "type": "node",
+      "id": 14086512833,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "3611",
+        "addr:postcode": "46268",
+        "addr:state": "IN",
+        "addr:street": "Bethany Road",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "drive_through": "yes",
+        "name": "Sonic",
+        "phone": "+1 317-735-8238",
+        "takeaway": "yes",
+        "website": "https://www.sonicdrivein.com/locations/us/in/indianapolis/3611-bethany-road/store-7006/"
+      },
+      "lat": 39.9134008,
+      "lon": -86.2227457
+    },
+    {
+      "type": "node",
+      "id": 14211899001,
+      "tags": {
+        "addr:city": "Fort Wayne",
+        "addr:housenumber": "4615",
+        "addr:postcode": "46808",
+        "addr:state": "IN",
+        "addr:street": "Bass Road",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "drive_through": "yes",
+        "name": "Sonic",
+        "opening_hours": "Mo-Su 10:00-20:00",
+        "takeaway": "yes"
+      },
+      "lat": 41.0875625,
+      "lon": -85.2026875
+    },
+    {
+      "type": "relation",
+      "id": 10117658,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "drive_through": "yes",
+        "name": "Sonic",
+        "takeaway": "yes",
+        "type": "multipolygon"
+      },
+      "center": {
+        "lat": 39.44015455,
+        "lon": -87.33353315
+      }
+    },
+    {
+      "type": "relation",
+      "id": 10533596,
+      "tags": {
+        "addr:city": "Lafayette",
+        "addr:country": "US",
+        "addr:housenumber": "150",
+        "addr:postcode": "47905",
+        "addr:state": "IN",
+        "addr:street": "South Creasy Lane",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "roof;yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "takeaway": "yes",
+        "type": "multipolygon"
+      },
+      "center": {
+        "lat": 40.415311900000006,
+        "lon": -86.83955094999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 350936331,
+      "tags": {
+        "addr:city": "Evansville",
+        "addr:housenumber": "4920",
+        "addr:postcode": "47712",
+        "addr:state": "IN",
+        "addr:street": "West Lloyd Expressway",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "retail",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_in": "yes",
+        "drive_through": "yes",
+        "name": "Sonic",
+        "opening_hours": "Mo-Th 07:00-22:00; Fr-Sa 07:00-23:00; Su 08:00-22:00",
+        "phone": "+1 812-421-1700",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/in/evansville/4920-west-lloyd-expressway.html"
+      },
+      "center": {
+        "lat": 37.976177449999994,
+        "lon": -87.63526009999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 421352610,
+      "tags": {
+        "addr:city": "South Bend",
+        "addr:housenumber": "3906",
+        "addr:postcode": "46628",
+        "addr:state": "IN",
+        "addr:street": "Portage Road",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "drive_through": "yes",
+        "name": "Sonic",
+        "opening_hours": "08:00-24:00",
+        "phone": "+1 574-273-9340",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/in/southbend/3906-portage-road.html"
+      },
+      "center": {
+        "lat": 41.729517,
+        "lon": -86.28976245000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 468781270,
+      "tags": {
+        "addr:city": "Evansville",
+        "addr:housenumber": "2200",
+        "addr:postcode": "47714",
+        "addr:state": "IN",
+        "addr:street": "Covert Avenue",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "Mo-Th 07:00-23:00; Fr-Sa 07:00-24:00; Su 09:00-23:00",
+        "phone": "+1 812-475-1099",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/in/evansville/2200-covert-avenue.html"
+      },
+      "center": {
+        "lat": 37.955550099999996,
+        "lon": -87.5241666
+      }
+    },
+    {
+      "type": "way",
+      "id": 538625662,
+      "tags": {
+        "addr:city": "Scottsburg",
+        "addr:housenumber": "1089",
+        "addr:postcode": "47170",
+        "addr:state": "IN",
+        "addr:street": "West McClain Street",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "Mo-Th 07:00-22:00; Fr 07:00-23:00; Sa 09:00-23:00; Su 09:00-22:00",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/in/scottsburg/1089-w-mcclain-ave.html"
+      },
+      "center": {
+        "lat": 38.685141650000006,
+        "lon": -85.78270275
+      }
+    },
+    {
+      "type": "way",
+      "id": 608755567,
+      "tags": {
+        "addr:city": "Mishawaka",
+        "addr:housenumber": "221",
+        "addr:postcode": "46545",
+        "addr:state": "IN",
+        "addr:street": "West Douglas Road",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "drive_through": "yes",
+        "name": "Sonic",
+        "opening_hours": "08:00-24:00",
+        "phone": "+1 574-247-0987",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/in/mishawaka/221-west-douglas-road.html"
+      },
+      "center": {
+        "lat": 41.70918495,
+        "lon": -86.18227854999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 616904178,
+      "tags": {
+        "addr:city": "Evansville",
+        "addr:housenumber": "881",
+        "addr:postcode": "47715",
+        "addr:state": "IN",
+        "addr:street": "South Greenriver Road",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "Mo-Th 06:00-23:00; Fr-Sa 06:00-24:00; Su 07:00-23:00",
+        "phone": "+1 812-471-0800",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/in/evansville/881-s-greenriver-road.html"
+      },
+      "center": {
+        "lat": 37.9642473,
+        "lon": -87.49355209999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 733929334,
+      "tags": {
+        "addr:city": "Newburgh",
+        "addr:housenumber": "7966",
+        "addr:postcode": "47630",
+        "addr:state": "IN",
+        "addr:street": "Maken Drive",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "Mo-Th 06:00-23:00; Fr-Sa 06:00-24:00; Su 07:00-23:00",
+        "phone": "+1 812-858-0047",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/in/newburgh/7966-maken-drive.html"
+      },
+      "center": {
+        "lat": 37.976155899999995,
+        "lon": -87.39501114999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 762926125,
+      "tags": {
+        "addr:city": "Kokomo",
+        "addr:housenumber": "2321",
+        "addr:postcode": "46902",
+        "addr:state": "IN",
+        "addr:street": "East Markland Avenue",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "09:00-21:00",
+        "phone": "+1 765-450-5288",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/in/kokomo/2321-east-markland-avenue.html"
+      },
+      "center": {
+        "lat": 40.47633885,
+        "lon": -86.10064890000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 803737936,
+      "tags": {
+        "addr:city": "Greenwood",
+        "addr:housenumber": "1262",
+        "addr:postcode": "46143",
+        "addr:state": "IN",
+        "addr:street": "North Emerson Avenue",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "drive_through": "yes",
+        "name": "Sonic",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.63476715,
+        "lon": -86.08338205000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 924967626,
+      "tags": {
+        "addr:city": "Evansville",
+        "addr:housenumber": "830",
+        "addr:postcode": "47715",
+        "addr:state": "IN",
+        "addr:street": "North Burkhardt Road",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "Mo-Sa 07:00-23:00; Su 08:00-23:00",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/in/evansville/830-n-burkhardt.html"
+      },
+      "center": {
+        "lat": 37.98420835,
+        "lon": -87.47457414999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1212879727,
+      "tags": {
+        "addr:housenumber": "188",
+        "addr:street": "West Spring Mill Pointe Drive",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.041925750000004,
+        "lon": -86.15656405000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1230921012,
+      "tags": {
+        "addr:city": "Plainfield",
+        "addr:housenumber": "418",
+        "addr:postcode": "46168",
+        "addr:state": "IN",
+        "addr:street": "South Dan Jones Road",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "Mo-Th 07:00-23:00; Fr-Sa 07:00-24:00; Su 07:00-23:00",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/in/plainfield/418-dan-jones-rd.html"
+      },
+      "center": {
+        "lat": 39.71306705,
+        "lon": -86.38135569999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1232283444,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.21916885,
+        "lon": -85.88708489999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1384832420,
+      "tags": {
+        "addr:city": "Jasper",
+        "addr:housenumber": "719",
+        "addr:postcode": "47546",
+        "addr:state": "IN",
+        "addr:street": "West 6th Street",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/in/jasper/719-w.-6th-street.html"
+      },
+      "center": {
+        "lat": 38.39173675,
+        "lon": -86.940834
+      }
+    },
+    {
+      "type": "way",
+      "id": 1569898563,
+      "tags": {
+        "addr:city": "Michigan City",
+        "addr:housenumber": "110",
+        "addr:postcode": "46360",
+        "addr:state": "IN",
+        "addr:street": "Dunes Plaza",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "retail",
+        "cuisine": "burger",
+        "diet:vegetarian": "no",
+        "drive_in": "yes",
+        "drive_through": "yes",
+        "name": "Sonic",
+        "opening_hours": "Mo-Th 08:00-23:00; Fr-Sa 08:00-24:00; Su 08:00-23:00",
+        "phone": "+1 219-878-1950",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/in/michigancity/110-dunes-plaza.html"
+      },
+      "center": {
+        "lat": 41.6799983,
+        "lon": -86.89714845000003
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IA",
+    "brand": "potbelly",
+    "source": "https://download.geofabrik.de/north-america/us/iowa-latest.osm.pbf",
+    "source_md5": "67edcd557c575ead09c9f80bc8694526",
+    "processed_utc": "2026-10-24T07:04:05.270534+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4629857757,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Potbelly",
+        "brand:wikidata": "Q7234777",
+        "cuisine": "sandwich",
+        "name": "Potbelly",
+        "official_name": "Potbelly Sandwich Works",
+        "takeaway": "yes"
+      },
+      "lat": 42.0225923,
+      "lon": -93.6470317
+    },
+    {
+      "type": "node",
+      "id": 5413344544,
+      "tags": {
+        "addr:city": "West Des Moines",
+        "addr:housename": "Building 4000",
+        "addr:housenumber": "6305",
+        "addr:postcode": "50266",
+        "addr:state": "IA",
+        "addr:street": "Mills Civic Parkway",
+        "addr:unit": "4200",
+        "amenity": "fast_food",
+        "brand": "Potbelly",
+        "brand:wikidata": "Q7234777",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Potbelly",
+        "official_name": "Potbelly Sandwich Works",
+        "opening_hours": "Mo-Su 10:00-20:00",
+        "phone": "+1-515-380-9562",
+        "takeaway": "yes",
+        "website": "https://www.potbelly.com/locations/iowa/des-moines-jordan-creek-drive-thru"
+      },
+      "lat": 41.5614058,
+      "lon": -93.7948487
+    },
+    {
+      "type": "node",
+      "id": 8931874890,
+      "tags": {
+        "addr:city": "Des Moines",
+        "addr:housenumber": "604",
+        "addr:postcode": "50309",
+        "addr:state": "IA",
+        "addr:street": "Locust Street",
+        "amenity": "fast_food",
+        "brand": "Potbelly",
+        "brand:wikidata": "Q7234777",
+        "cuisine": "sandwich",
+        "name": "Potbelly",
+        "official_name": "Potbelly Sandwich Works",
+        "takeaway": "yes"
+      },
+      "lat": 41.5866674,
+      "lon": -93.6251065
+    }
+  ]
+}

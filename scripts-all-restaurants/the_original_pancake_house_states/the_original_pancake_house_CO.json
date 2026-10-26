@@ -1,0 +1,89 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "the_original_pancake_house",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1351965455,
+      "tags": {
+        "addr:city": "Greenwood Village",
+        "addr:housenumber": "8000",
+        "addr:postcode": "80111",
+        "addr:state": "CO",
+        "addr:street": "East Belleview Avenue",
+        "addr:unit": "F10",
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "check_date:opening_hours": "2023-08-05",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House",
+        "opening_hours": "Mo-Su 06:00-14:00"
+      },
+      "lat": 39.6235758,
+      "lon": -104.896071
+    },
+    {
+      "type": "node",
+      "id": 3495812548,
+      "tags": {
+        "addr:city": "Fort Collins",
+        "addr:housenumber": "1402",
+        "addr:postcode": "80525",
+        "addr:state": "CO",
+        "addr:street": "East Harmony Road",
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "check_date": "2025-11-16",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House",
+        "opening_hours": "Mo off; Tu-Su 06:30-14:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "website": "https://www.ophfortcollins.com/",
+        "wheelchair": "limited"
+      },
+      "lat": 40.5241732,
+      "lon": -105.0530342
+    },
+    {
+      "type": "node",
+      "id": 5394943311,
+      "tags": {
+        "addr:city": "Greenwood Village",
+        "addr:housename": "Cherry Hills Marketplace",
+        "addr:housenumber": "5900",
+        "addr:postcode": "80121",
+        "addr:state": "CO",
+        "addr:street": "South University Boulevard",
+        "addr:unit": "D",
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "check_date": "2023-10-18",
+        "check_date:opening_hours": "2023-10-18",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House",
+        "opening_hours": "Mo-Su 06:00-14:00",
+        "website": "https://originalpancakehouse.com"
+      },
+      "lat": 39.6093543,
+      "lon": -104.958849
+    }
+  ]
+}

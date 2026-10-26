@@ -1,0 +1,48 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "torchy_s_tacos",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12871854330,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Torchy's Tacos",
+        "brand:wikidata": "Q106769573",
+        "cuisine": "tex-mex",
+        "name": "Torchy's Tacos",
+        "opening_hours": "Mo-Fr 10:00-22:00; Sa 09:00-22:00; Su 09:00-21:00",
+        "takeaway": "yes"
+      },
+      "lat": 27.7928625,
+      "lon": -82.7297842
+    },
+    {
+      "type": "node",
+      "id": 14290929007,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Torchy's Tacos",
+        "brand:wikidata": "Q106769573",
+        "cuisine": "tex-mex",
+        "name": "Torchy's Tacos",
+        "takeaway": "yes"
+      },
+      "lat": 28.3946407,
+      "lon": -81.4838269
+    }
+  ]
+}

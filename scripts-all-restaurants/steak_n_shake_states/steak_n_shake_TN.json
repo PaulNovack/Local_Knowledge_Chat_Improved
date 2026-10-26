@@ -1,0 +1,324 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TN",
+    "brand": "steak_n_shake",
+    "source": "https://download.geofabrik.de/north-america/us/tennessee-latest.osm.pbf",
+    "source_md5": "a047c5da6c897a8a98b1fc4a282b8d3f",
+    "processed_utc": "2026-10-24T07:16:20.210730+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8534608190,
+      "tags": {
+        "addr:city": "Murfreesboro",
+        "addr:housenumber": "2091",
+        "addr:postcode": "37129",
+        "addr:state": "TN",
+        "addr:street": "Old Fort Parkway",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "check_date": "2025-05-17",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1 615-907-3445",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/tn-murfreesboro-old-fort-parkway/"
+      },
+      "lat": 35.8460991,
+      "lon": -86.4291978
+    },
+    {
+      "type": "node",
+      "id": 13295765380,
+      "tags": {
+        "addr:city": "Madison",
+        "addr:housenumber": "719",
+        "addr:postcode": "37115",
+        "addr:state": "TN",
+        "addr:street": "Myatt Drive",
+        "amenity": "restaurant",
+        "cuisine": "burger;american",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Mo-Su 10:00-24:00",
+        "phone": "+1-615-860-8158",
+        "website": "steaknshake.com"
+      },
+      "lat": 36.2959404,
+      "lon": -86.6978353
+    },
+    {
+      "type": "way",
+      "id": 385198166,
+      "tags": {
+        "addr:city": "Franklin",
+        "addr:country": "US",
+        "addr:housenumber": "4040",
+        "addr:postcode": "37067",
+        "addr:state": "TN",
+        "addr:street": "Carothers Parkway",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "retail",
+        "check_date": "2026-06-29",
+        "check_date:currency:XBT": "2026-06-29",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1 615 595 7955",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/tn-franklin-carothers-parkway/"
+      },
+      "center": {
+        "lat": 35.91288445,
+        "lon": -86.81848790000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 518705143,
+      "tags": {
+        "addr:city": "Cookeville",
+        "addr:country": "US",
+        "addr:housenumber": "1125",
+        "addr:postcode": "38501",
+        "addr:state": "TN",
+        "addr:street": "Interstate Drive",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date": "2026-06-29",
+        "check_date:currency:XBT": "2026-06-29",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Mo-Su 10:00-00:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1 931 525 6742",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/tn-cookeville-interstate-drive/"
+      },
+      "center": {
+        "lat": 36.138733450000004,
+        "lon": -85.50675795000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 593061036,
+      "tags": {
+        "addr:city": "Cleveland",
+        "addr:housenumber": "220",
+        "addr:postcode": "37312",
+        "addr:state": "TN",
+        "addr:street": "Paul Huff Parkway",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date": "2026-06-29",
+        "check_date:currency:XBT": "2026-06-29",
+        "check_date:opening_hours": "2026-06-29",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "drive_through": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Mo-Su 10:30-00:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1 423 614 7300",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/tn-cleveland-paul-huff-parkway/"
+      },
+      "center": {
+        "lat": 35.2050656,
+        "lon": -84.84946775000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 702198168,
+      "tags": {
+        "addr:city": "Clarksville",
+        "addr:country": "US",
+        "addr:housenumber": "2819C",
+        "addr:postcode": "37040",
+        "addr:state": "TN",
+        "addr:street": "Wilma Rudolph Boulevard",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date": "2026-06-29",
+        "check_date:currency:XBT": "2026-06-29",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "delivery": "no",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "operator": "Biglari Holings Company",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1 931 906 7450",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/tn-clarksville-2819c-wilma-rudolph/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 36.5895228,
+        "lon": -87.29107955
+      }
+    },
+    {
+      "type": "way",
+      "id": 796668926,
+      "tags": {
+        "addr:city": "Paris",
+        "addr:country": "US",
+        "addr:housenumber": "1036",
+        "addr:postcode": "38242",
+        "addr:state": "TN",
+        "addr:street": "Mineral Wells Avenue",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date": "2026-06-30",
+        "check_date:currency:XBT": "2026-06-30",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1 731 407 7360",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/tn-paris-mineral-wells-avenue/"
+      },
+      "center": {
+        "lat": 36.28719195,
+        "lon": -88.31209454999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 832445141,
+      "tags": {
+        "addr:city": "Chattanooga",
+        "addr:country": "US",
+        "addr:housenumber": "2296",
+        "addr:postcode": "37421",
+        "addr:state": "TN",
+        "addr:street": "Gunbarrel Road",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date": "2026-06-28",
+        "check_date:currency:XBT": "2026-06-28",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Mo-Su 10:30-00:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1 423 892 2993",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/tn-chattanooga-gunbarrel-road/"
+      },
+      "center": {
+        "lat": 35.039816450000004,
+        "lon": -85.14972030000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 987026803,
+      "tags": {
+        "addr:city": "Smyrna",
+        "addr:housenumber": "951",
+        "addr:street": "Sgt Asbury Hawn Way",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date": "2026-06-30",
+        "check_date:currency:XBT": "2026-06-30",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1 615 625 3934",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/tn-smyrna-sgt-asbury-hawn-way/"
+      },
+      "center": {
+        "lat": 35.9669148,
+        "lon": -86.49557800000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1229445561,
+      "tags": {
+        "addr:city": "Hendersonville",
+        "addr:country": "US",
+        "addr:housenumber": "207",
+        "addr:postcode": "37075",
+        "addr:state": "TN",
+        "addr:street": "Anderson Lane North",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date": "2026-06-29",
+        "check_date:currency:XBT": "2026-06-29",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1 615 203 0298",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/tn-hendersonville-n-anderson-lane/"
+      },
+      "center": {
+        "lat": 36.3200884,
+        "lon": -86.59862824999999
+      }
+    }
+  ]
+}

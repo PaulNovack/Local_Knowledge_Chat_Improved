@@ -1,0 +1,44 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SD",
+    "brand": "longhorn_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/south-dakota-latest.osm.pbf",
+    "source_md5": "4d012b130d8682e6f0e1bc093c255981",
+    "processed_utc": "2026-10-24T07:16:00.169778+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1011511306,
+      "tags": {
+        "addr:city": "Rapid City",
+        "addr:housenumber": "1510",
+        "addr:postcode": "57701",
+        "addr:state": "SD",
+        "addr:street": "Eglin Street",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "note": "Opening hours on the website are more detailed than I put in here, should the extra details be included?",
+        "opening_hours": "Su-Sa 11:00-22:00",
+        "phone": "+1 605-342-2321",
+        "website": "https://www.longhornsteakhouse.com/locations/sd/rapid-city/rapid-city/5406"
+      },
+      "center": {
+        "lat": 44.09966695,
+        "lon": -103.18648795000001
+      }
+    }
+  ]
+}

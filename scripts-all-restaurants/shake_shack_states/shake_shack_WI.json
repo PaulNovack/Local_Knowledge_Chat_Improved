@@ -1,0 +1,88 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WI",
+    "brand": "shake_shack",
+    "source": "https://download.geofabrik.de/north-america/us/wisconsin-latest.osm.pbf",
+    "source_md5": "1718ff98080ec3edeb95ab8fb47b0ce7",
+    "processed_utc": "2026-10-24T07:19:59.510074+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3001545952,
+      "tags": {
+        "access": "customers",
+        "addr:city": "Milwaukee",
+        "addr:housenumber": "220",
+        "addr:postcode": "53202",
+        "addr:street": "East Buffalo Street",
+        "addr:suite": "110",
+        "amenity": "fast_food",
+        "branch": "Third Ward Wisconsin",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "contact:phone": "+1 414 509 1080",
+        "contact:website": "https://www.shakeshack.com/location/third-ward-wi/",
+        "cuisine": "burger",
+        "delivery": "no",
+        "entrance": "yes",
+        "name": "Shake Shack",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "outdoor_seating": "no",
+        "source": "http://urbanmilwaukee.com/2017/11/22/now-serving-a-big-week-for-new-restaurants/",
+        "start_date": "2017-12-06",
+        "takeaway": "yes"
+      },
+      "lat": 43.0339142,
+      "lon": -87.9088115
+    },
+    {
+      "type": "way",
+      "id": 1134399602,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "building:part": "restaurant",
+        "cuisine": "burger",
+        "level": "0",
+        "name": "Shake Shack",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 43.07209505,
+        "lon": -89.45224009999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1291053619,
+      "tags": {
+        "addr:city": "Brookfield",
+        "addr:housenumber": "585",
+        "addr:state": "WI",
+        "addr:street": "North Barker Road",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Shake Shack",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 43.03696720000001,
+        "lon": -88.16726979999999
+      }
+    }
+  ]
+}

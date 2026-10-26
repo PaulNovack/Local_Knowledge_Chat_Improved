@@ -1,0 +1,96 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "sarku_japan",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5195012373,
+      "tags": {
+        "addr:floor": "G",
+        "amenity": "fast_food",
+        "brand": "Sarku Japan",
+        "brand:wikidata": "Q7424243",
+        "check_date": "2026-05-16",
+        "cuisine": "japanese",
+        "level": "0",
+        "name": "Sarku Japan",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 33.9238396,
+      "lon": -84.3412665
+    },
+    {
+      "type": "node",
+      "id": 8902471951,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sarku Japan",
+        "brand:wikidata": "Q7424243",
+        "cuisine": "japanese",
+        "level": "2",
+        "name": "Sarku Japan",
+        "takeaway": "yes"
+      },
+      "lat": 33.7282985,
+      "lon": -84.7447798
+    },
+    {
+      "type": "node",
+      "id": 13376633933,
+      "tags": {
+        "addr:floor": "1",
+        "amenity": "fast_food",
+        "brand": "Sarku Japan",
+        "brand:wikidata": "Q7424243",
+        "check_date": "2025-12-14",
+        "cuisine": "japanese",
+        "level": "1",
+        "name": "Sarku Japan",
+        "takeaway": "yes"
+      },
+      "lat": 34.0490464,
+      "lon": -84.2938469
+    },
+    {
+      "type": "way",
+      "id": 388109757,
+      "tags": {
+        "addr:city": "Gainesville",
+        "addr:housenumber": "1235",
+        "addr:postcode": "30501",
+        "addr:state": "GA",
+        "addr:street": "Jesse Jewll Parkway",
+        "amenity": "fast_food",
+        "brand": "Sarku Japan",
+        "brand:wikidata": "Q7424243",
+        "building": "yes",
+        "cuisine": "japanese",
+        "name": "Sarku Japan",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 34.2872732,
+        "lon": -83.8373451
+      }
+    }
+  ]
+}

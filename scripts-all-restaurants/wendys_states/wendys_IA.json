@@ -1,0 +1,925 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IA",
+    "brand": "wendys",
+    "source": "https://download.geofabrik.de/north-america/us/iowa-latest.osm.pbf",
+    "source_md5": "67edcd557c575ead09c9f80bc8694526",
+    "processed_utc": "2026-10-24T07:04:05.270534+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 690847751,
+      "tags": {
+        "addr:city": "Sioux City",
+        "addr:housenumber": "2600",
+        "addr:postcode": "51111",
+        "addr:state": "IA",
+        "addr:street": "Industrial Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 712-252-4816",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/sioux-city/2600-industrial-blvd"
+      },
+      "lat": 42.4335283,
+      "lon": -96.3776824
+    },
+    {
+      "type": "node",
+      "id": 1978961363,
+      "tags": {
+        "addr:city": "Marshalltown",
+        "addr:housenumber": "3010",
+        "addr:postcode": "50158",
+        "addr:state": "IA",
+        "addr:street": "South Center Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Tu 06:30-23:00; We 06:30-21:00; Th-Sa 06:30-23:00; Su 06:30-22:30",
+        "opening_hours:drive_through": "Mo-Tu 06:30-23:00; We 06:30-21:00; Th-Sa 06:30-23:00; Su 06:30-22:30",
+        "phone": "+1 641-758-7801",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/marshalltown/3010-south-center-street"
+      },
+      "lat": 42.0088908,
+      "lon": -92.9118047
+    },
+    {
+      "type": "node",
+      "id": 4170883606,
+      "tags": {
+        "addr:city": "Burlington",
+        "addr:housenumber": "115",
+        "addr:postcode": "52601",
+        "addr:state": "IA",
+        "addr:street": "South Roosevelt Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Sa 06:30-01:00; Su 06:30-23:00",
+        "phone": "+1 319-753-2283",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/burlington/115-south-roosevelt"
+      },
+      "lat": 40.8102828,
+      "lon": -91.1421116
+    },
+    {
+      "type": "node",
+      "id": 4201327303,
+      "tags": {
+        "addr:city": "Oskaloosa",
+        "addr:housenumber": "604",
+        "addr:postcode": "52577",
+        "addr:state": "IA",
+        "addr:street": "A Avenue West",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-24:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 641-673-3973",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/oskaloosa/604-a-ave-west"
+      },
+      "lat": 41.2959335,
+      "lon": -92.6513982
+    },
+    {
+      "type": "node",
+      "id": 5152918616,
+      "tags": {
+        "addr:city": "Muscatine",
+        "addr:housenumber": "2519",
+        "addr:postcode": "52761",
+        "addr:state": "IA",
+        "addr:street": "Park Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 563-264-2933",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/muscatine/2519-park-avenue"
+      },
+      "lat": 41.4518135,
+      "lon": -91.029226
+    },
+    {
+      "type": "node",
+      "id": 9080662286,
+      "tags": {
+        "addr:city": "Fort Dodge",
+        "addr:housenumber": "2313",
+        "addr:postcode": "50501",
+        "addr:state": "IA",
+        "addr:street": "5th Avenue South",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 515-576-8274",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/fort-dodge/2313-5th-aves"
+      },
+      "lat": 42.5007714,
+      "lon": -94.1656986
+    },
+    {
+      "type": "node",
+      "id": 11060745485,
+      "tags": {
+        "addr:city": "Walcott",
+        "addr:floor": "G",
+        "addr:housenumber": "755",
+        "addr:postcode": "52773",
+        "addr:state": "IA",
+        "addr:street": "West Iowa 80 Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "check_date": "2026-07-06",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "level": "0",
+        "name": "Wendy's",
+        "opening_hours": "24/7",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 563-468-5365",
+        "ref": "5404",
+        "takeaway": "only",
+        "website": "https://locations.wendys.com/united-states/ia/walcott/755-w-iowa-80-rd",
+        "wheelchair": "yes"
+      },
+      "lat": 41.6182455,
+      "lon": -90.781572
+    },
+    {
+      "type": "node",
+      "id": 11982188372,
+      "tags": {
+        "addr:city": "Waterloo",
+        "addr:housenumber": "1815",
+        "addr:postcode": "50702",
+        "addr:state": "IA",
+        "addr:street": "La Porte",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Sa 06:30-01:00; Su 06:30-23:00",
+        "phone": "+1 319-236-2290",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/waterloo/1815-la-porte"
+      },
+      "lat": 42.4686445,
+      "lon": -92.3213446
+    },
+    {
+      "type": "node",
+      "id": 11982188401,
+      "tags": {
+        "addr:city": "Des Moines",
+        "addr:housenumber": "4901",
+        "addr:postcode": "50320",
+        "addr:state": "IA",
+        "addr:street": "South East 14th Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo 06:30-23:00; Tu-We 06:30-22:00; Th-Su 06:30-00:00",
+        "phone": "+1 515-285-8823",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/des-moines/4901-s-e-14th-street"
+      },
+      "lat": 41.5380093,
+      "lon": -93.5962857
+    },
+    {
+      "type": "node",
+      "id": 11982188411,
+      "tags": {
+        "addr:city": "Des Moines",
+        "addr:housenumber": "850",
+        "addr:postcode": "50316",
+        "addr:state": "IA",
+        "addr:street": "East Euclid",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-22:00; Fr-Sa 06:30-23:00; Su 06:30-22:00",
+        "phone": "+1 515-262-8063",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/des-moines/850-east-euclid"
+      },
+      "lat": 41.6280009,
+      "lon": -93.6061348
+    },
+    {
+      "type": "node",
+      "id": 11982188439,
+      "tags": {
+        "addr:city": "Mason City",
+        "addr:housenumber": "1017",
+        "addr:postcode": "50401",
+        "addr:state": "IA",
+        "addr:street": "South Federal",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "09:00-19:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-21:00",
+        "phone": "+1 641-423-8037",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/mason-city/1017-s-federal"
+      },
+      "lat": 43.1413355,
+      "lon": -93.2007205
+    },
+    {
+      "type": "node",
+      "id": 12243878869,
+      "tags": {
+        "addr:city": "Avoca",
+        "addr:housenumber": "7005",
+        "addr:postcode": "51521",
+        "addr:state": "IA",
+        "addr:street": "North Chestnut Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-22:00",
+        "phone": "+1 712-307-6161",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/avoca/7005-n-chestnut-st"
+      },
+      "lat": 41.4994794,
+      "lon": -95.3345201
+    },
+    {
+      "type": "way",
+      "id": 34072926,
+      "tags": {
+        "addr:city": "Ankeny",
+        "addr:country": "US",
+        "addr:housenumber": "2421",
+        "addr:postcode": "50021",
+        "addr:state": "IA",
+        "addr:street": "Southeast Delaware Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-24:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 515-964-2002",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/ankeny/2421-se-delaware-avenue"
+      },
+      "center": {
+        "lat": 41.70523245,
+        "lon": -93.58063049999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 98206863,
+      "tags": {
+        "addr:city": "Clive",
+        "addr:housenumber": "1251",
+        "addr:postcode": "50325",
+        "addr:state": "IA",
+        "addr:street": "Northwest 118th Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "09:00-19:00",
+        "opening_hours:drive_through": "Mo-Su 08:00-21:00",
+        "phone": "+1 515-224-2099",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/clive/1251-nw-118th-street"
+      },
+      "center": {
+        "lat": 41.6008983,
+        "lon": -93.78106824999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 103023450,
+      "tags": {
+        "addr:city": "Coralville",
+        "addr:housenumber": "2804",
+        "addr:postcode": "52241",
+        "addr:state": "IA",
+        "addr:street": "Commerce Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Sa 06:30-00:00; Su 06:30-23:00",
+        "phone": "+1 319-545-3095",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/coralville/2804-commerce-drive"
+      },
+      "center": {
+        "lat": 41.695286749999994,
+        "lon": -91.61193589999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 108059052,
+      "tags": {
+        "addr:city": "Des Moines",
+        "addr:housenumber": "4935",
+        "addr:postcode": "50310",
+        "addr:state": "IA",
+        "addr:street": "Merle Hay Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-22:00",
+        "phone": "+1 515-270-0771",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/des-moines/4935-merle-hay-road"
+      },
+      "center": {
+        "lat": 41.6500544,
+        "lon": -93.69697015000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 116193658,
+      "tags": {
+        "addr:city": "Clive",
+        "addr:housenumber": "15900",
+        "addr:postcode": "50325",
+        "addr:state": "IA",
+        "addr:street": "Hickman Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "09:00-21:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-22:00",
+        "phone": "+1 515-987-2055",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/clive/15900-hickman-road"
+      },
+      "center": {
+        "lat": 41.614448499999995,
+        "lon": -93.83662690000006
+      }
+    },
+    {
+      "type": "way",
+      "id": 184094686,
+      "tags": {
+        "addr:city": "Urbandale",
+        "addr:housenumber": "3815",
+        "addr:postcode": "50322",
+        "addr:state": "IA",
+        "addr:street": "100th Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-24:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 515-252-7057",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/urbandale/3815-100th-street"
+      },
+      "center": {
+        "lat": 41.630671750000005,
+        "lon": -93.75533140000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 192391062,
+      "tags": {
+        "addr:city": "Council Bluffs",
+        "addr:housenumber": "3524",
+        "addr:postcode": "51501",
+        "addr:state": "IA",
+        "addr:street": "West Broadway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 712-328-3392",
+        "source": "bing",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/council-bluffs/3524-west-broadway"
+      },
+      "center": {
+        "lat": 41.262213200000005,
+        "lon": -95.90319440000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 196544321,
+      "tags": {
+        "addr:city": "Ames",
+        "addr:housenumber": "528",
+        "addr:postcode": "50010",
+        "addr:state": "IA",
+        "addr:street": "South Duff Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Th 06:30-21:00; Fr-Sa 06:30-22:00; Su 06:30-21:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 515-232-9369",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/ames/528-s.-duff-avenue"
+      },
+      "center": {
+        "lat": 42.0164054,
+        "lon": -93.60968534999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 227730269,
+      "tags": {
+        "addr:city": "Sioux City",
+        "addr:housenumber": "301",
+        "addr:postcode": "51103",
+        "addr:state": "IA",
+        "addr:street": "West 15th Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 712-252-2476",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/sioux-city/301-w-15th-st"
+      },
+      "center": {
+        "lat": 42.50682315,
+        "lon": -96.41712360000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 321534573,
+      "tags": {
+        "addr:city": "West Des Moines",
+        "addr:housenumber": "225",
+        "addr:postcode": "50265",
+        "addr:state": "IA",
+        "addr:street": "Grand Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Wendy's",
+        "phone": "+1 515-277-7472",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/west-des-moines/225-grand-avenue"
+      },
+      "center": {
+        "lat": 41.58313485,
+        "lon": -93.70600735
+      }
+    },
+    {
+      "type": "way",
+      "id": 342839919,
+      "tags": {
+        "addr:city": "Sioux City",
+        "addr:housenumber": "3805",
+        "addr:postcode": "51106",
+        "addr:state": "IA",
+        "addr:street": "East Gordon Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 712-255-5445",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/sioux-city/3805-e-gordon-dr"
+      },
+      "center": {
+        "lat": 42.48534105,
+        "lon": -96.35792434999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 368805949,
+      "tags": {
+        "addr:city": "Cedar Rapids",
+        "addr:housenumber": "190",
+        "addr:postcode": "52402",
+        "addr:state": "IA",
+        "addr:street": "Collins Road Northeast",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Sa 06:30-00:00; Su 06:30-23:00",
+        "phone": "+1 319-373-4188",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/cedar-rapids/190-collins-road"
+      },
+      "center": {
+        "lat": 42.02837555,
+        "lon": -91.62879214999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 461952075,
+      "tags": {
+        "addr:city": "Dubuque",
+        "addr:housenumber": "1255",
+        "addr:postcode": "52001",
+        "addr:state": "IA",
+        "addr:street": "East 16th Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Sa 06:30-01:00; Su 06:30-23:00",
+        "phone": "+1 563-584-0288",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/dubuque/1255-east-16th-street"
+      },
+      "center": {
+        "lat": 42.51226385,
+        "lon": -90.65518129999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 557823250,
+      "tags": {
+        "addr:city": "Altoona",
+        "addr:housenumber": "3530",
+        "addr:postcode": "50009",
+        "addr:state": "IA",
+        "addr:street": "8th Street Southwest",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-24:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 515-957-0373",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/altoona/3530-8th-st-sw"
+      },
+      "center": {
+        "lat": 41.64359575,
+        "lon": -93.50522039999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 655228452,
+      "tags": {
+        "addr:city": "Keokuk",
+        "addr:housenumber": "1623",
+        "addr:postcode": "52632",
+        "addr:state": "IA",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 319-524-7525",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/keokuk/1623-main-street"
+      },
+      "center": {
+        "lat": 40.4051638,
+        "lon": -91.39253709999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 696298201,
+      "tags": {
+        "addr:city": "Cedar Rapids",
+        "addr:housenumber": "1852",
+        "addr:postcode": "52402",
+        "addr:state": "IA",
+        "addr:street": "42nd Street Northeast",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-00:00; Fr-Sa 06:30-01:00; Su 06:30-23:00",
+        "phone": "+1 319-393-1619",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/cedar-rapids/1852-42nd-st-ne"
+      },
+      "center": {
+        "lat": 42.02190415,
+        "lon": -91.66509644999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 696811978,
+      "tags": {
+        "addr:city": "Cedar Rapids",
+        "addr:housenumber": "1316",
+        "addr:postcode": "52402",
+        "addr:state": "IA",
+        "addr:street": "1st Avenue Northeast",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "linncounty:objectid": "6638",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Sa 06:30-00:00; Su 06:30-23:00",
+        "phone": "+1 319-366-6020",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/cedar-rapids/1316-1st-ave-ne"
+      },
+      "center": {
+        "lat": 41.9869962,
+        "lon": -91.65498439999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 701978071,
+      "tags": {
+        "addr:city": "Cedar Rapids",
+        "addr:housenumber": "2735",
+        "addr:postcode": "52404",
+        "addr:state": "IA",
+        "addr:street": "Edgewood Road Southwest",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "fixme": "there are additional opening hours for the drive through (see their website for details)",
+        "linncounty:objectid": "6635",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Sa 06:30-00:00; Su 06:30-23:00",
+        "phone": "+1 319-654-0375",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/cedar-rapids/2735-edgewood"
+      },
+      "center": {
+        "lat": 41.9509592,
+        "lon": -91.71534059999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 706719631,
+      "tags": {
+        "addr:city": "Dubuque",
+        "addr:housenumber": "810",
+        "addr:postcode": "52002",
+        "addr:state": "IA",
+        "addr:street": "Wacker Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-23:00; Fr-Sa 06:30-00:00; Su 06:30-23:00",
+        "phone": "+1 563-556-6477",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/dubuque/810-wacker-drive"
+      },
+      "center": {
+        "lat": 42.49427635,
+        "lon": -90.71999015
+      }
+    },
+    {
+      "type": "way",
+      "id": 755319470,
+      "tags": {
+        "addr:city": "Bettendorf",
+        "addr:housenumber": "2435",
+        "addr:postcode": "52722",
+        "addr:state": "IA",
+        "addr:street": "Spruce Hills",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-23:00; Fr-Sa 06:30-00:00; Su 06:30-23:00",
+        "phone": "+1 563-355-1002",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/bettendorf/2435-spruce-hills"
+      },
+      "center": {
+        "lat": 41.5479751,
+        "lon": -90.49921790000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 837200244,
+      "tags": {
+        "addr:city": "Iowa City",
+        "addr:housenumber": "1480",
+        "addr:postcode": "52240",
+        "addr:state": "IA",
+        "addr:street": "First Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Sa 06:30-01:00; Su 06:30-23:00",
+        "phone": "+1 319-337-7911",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/iowa-city/1480-first-ave"
+      },
+      "center": {
+        "lat": 41.6429506,
+        "lon": -91.50268410000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1122445903,
+      "tags": {
+        "addr:city": "Cedar Rapids",
+        "addr:housenumber": "362",
+        "addr:postcode": "52404",
+        "addr:state": "IA",
+        "addr:street": "33rd Avenue Southwest",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-00:00; Fr-Sa 06:30-01:00; Su 06:30-23:00",
+        "phone": "+1 319-362-3966",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/cedar-rapids/362-33rd-ave-sw"
+      },
+      "center": {
+        "lat": 41.945425900000004,
+        "lon": -91.6719091
+      }
+    },
+    {
+      "type": "way",
+      "id": 1190739710,
+      "tags": {
+        "addr:city": "Percival",
+        "addr:housenumber": "2111",
+        "addr:postcode": "51648",
+        "addr:state": "IA",
+        "addr:street": "Sapp Bros Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-21:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-22:00",
+        "phone": "+1 712-382-1585",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ia/percival/2111-sapp-bros-drive"
+      },
+      "center": {
+        "lat": 40.68998835,
+        "lon": -95.78881290000004
+      }
+    }
+  ]
+}

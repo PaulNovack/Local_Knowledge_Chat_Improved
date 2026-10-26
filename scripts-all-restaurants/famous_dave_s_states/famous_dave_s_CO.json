@@ -1,0 +1,104 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "famous_dave_s",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6150664643,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "cuisine": "barbecue",
+        "level": "20",
+        "name": "Famous Dave's",
+        "ref": "149"
+      },
+      "lat": 39.7563762,
+      "lon": -104.9952389
+    },
+    {
+      "type": "way",
+      "id": 163761949,
+      "tags": {
+        "addr:city": "Aurora",
+        "addr:housenumber": "15725",
+        "addr:postcode": "80016",
+        "addr:state": "CO",
+        "addr:street": "East Briarwood Circle",
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "retail",
+        "cuisine": "barbecue",
+        "layer": "1",
+        "name": "Famous Dave's",
+        "source": "MOA"
+      },
+      "center": {
+        "lat": 39.59448365,
+        "lon": -104.80525840000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 168942876,
+      "tags": {
+        "addr:city": "Thornton",
+        "addr:housenumber": "16539",
+        "addr:postcode": "80023",
+        "addr:state": "CO",
+        "addr:street": "Washington Street",
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's",
+        "phone": "+1-303-280-6227"
+      },
+      "center": {
+        "lat": 39.997080600000004,
+        "lon": -104.97763815000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 292437042,
+      "tags": {
+        "addr:city": "Grand Junction",
+        "addr:housenumber": "2440",
+        "addr:postcode": "81505",
+        "addr:state": "CO",
+        "addr:street": "US 6 and 50",
+        "amenity": "restaurant",
+        "branch": "Bar B Que",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's",
+        "opening_hours": "Su-Fr 11:00-22:00; Sa 11:00-23:00",
+        "phone": "+1 970 245 8227",
+        "website": "https://www.famousdaves.com/"
+      },
+      "center": {
+        "lat": 39.0886018,
+        "lon": -108.60034300000001
+      }
+    }
+  ]
+}

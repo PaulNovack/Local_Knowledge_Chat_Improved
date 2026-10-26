@@ -1,0 +1,91 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "red_lobster",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 192836733,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "building": "retail",
+        "cuisine": "seafood",
+        "ele": "138.49",
+        "height": "7.88",
+        "name": "Red Lobster"
+      },
+      "center": {
+        "lat": 41.374888,
+        "lon": -73.48605040000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 231521928,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Red Lobster",
+        "opening_hours": "Mo-Su 11:00-22:00; Fr,Sa 11:00-23:00"
+      },
+      "center": {
+        "lat": 41.220582300000004,
+        "lon": -73.21750850000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 278021624,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Red Lobster"
+      },
+      "center": {
+        "lat": 41.3538466,
+        "lon": -72.87269515000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1017946666,
+      "tags": {
+        "addr:city": "Wethersfield",
+        "addr:housenumber": "1324",
+        "addr:postcode": "06109",
+        "addr:state": "CT",
+        "addr:street": "Silas Deane Highway",
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Red Lobster"
+      },
+      "center": {
+        "lat": 41.68456455,
+        "lon": -72.6540731
+      }
+    }
+  ]
+}

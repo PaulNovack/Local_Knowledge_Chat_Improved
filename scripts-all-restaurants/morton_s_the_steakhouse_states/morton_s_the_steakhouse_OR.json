@@ -1,0 +1,65 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OR",
+    "brand": "morton_s_the_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/oregon-latest.osm.pbf",
+    "source_md5": "bc93fd72fe4589fdc6c9b2b497cb7ef1",
+    "processed_utc": "2026-10-24T07:14:41.004303+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 865275934,
+      "tags": {
+        "addr:city": "Portland",
+        "addr:housenumber": "213",
+        "addr:postcode": "97201",
+        "addr:state": "OR",
+        "addr:street": "Southwest Clay Street",
+        "amenity": "restaurant",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "contact:phone": "+1-503-248-2100",
+        "contact:website": "https://www.mortons.com/location/mortons-the-steakhouse-portland-or/",
+        "cuisine": "steak_house",
+        "name": "Morton's The Steakhouse",
+        "opening_hours": "Mo-Th 16:00-22:00; Fr 16:00-23:00; Sa 17:00-23:00; Su 17:00-22:00"
+      },
+      "lat": 45.5129137,
+      "lon": -122.6778378
+    },
+    {
+      "type": "way",
+      "id": 953572714,
+      "tags": {
+        "addr:city": "Medford",
+        "addr:housenumber": "980",
+        "addr:postcode": "97504",
+        "addr:state": "OR",
+        "addr:street": "North Phoenix Road",
+        "addr:unit": "105",
+        "amenity": "restaurant",
+        "building": "commercial",
+        "cuisine": "pizza",
+        "description": "Our family dining area has three big screens with full bar service, a separate sports bar with five big screens,\nand Morrtons has All Sports Packages including both PAC 12 and the NFL Network -  Never miss a game!",
+        "name": "Mortons",
+        "not:brand:wikidata": "Q110265756;Q17022759",
+        "opening_hours": "Su-Th 11:00-23:00; Fr-Sa 11:00-24:00",
+        "phone": "+1-541-772-3154",
+        "website": "https://morrtons.com/"
+      },
+      "center": {
+        "lat": 42.314432249999996,
+        "lon": -122.81599940000001
+      }
+    }
+  ]
+}

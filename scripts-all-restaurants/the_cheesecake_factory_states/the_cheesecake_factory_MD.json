@@ -1,0 +1,106 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "the_cheesecake_factory",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1626004405,
+      "tags": {
+        "addr:city": "Towson",
+        "addr:housenumber": "825",
+        "addr:postcode": "21204-1002",
+        "addr:state": "MD",
+        "addr:street": "Dulaney Valley Road",
+        "air_conditioning": "yes",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "check_date": "2024-09-19",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "The Cheesecake Factory",
+        "outdoor_seating": "no",
+        "phone": "+1 410-337-7411",
+        "website": "https://locations.thecheesecakefactory.com/md/towson-145.html"
+      },
+      "lat": 39.4053282,
+      "lon": -76.6011641
+    },
+    {
+      "type": "node",
+      "id": 1783417103,
+      "tags": {
+        "addr:city": "Hanover",
+        "addr:housenumber": "7002",
+        "addr:postcode": "21076",
+        "addr:state": "MD",
+        "addr:street": "Arundel Mills Circle",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory"
+      },
+      "lat": 39.1575316,
+      "lon": -76.7265027
+    },
+    {
+      "type": "node",
+      "id": 10186060972,
+      "tags": {
+        "addr:city": "Annapolis",
+        "addr:housenumber": "1872",
+        "addr:postcode": "21401",
+        "addr:state": "MD",
+        "addr:street": "Annapolis Mall Road",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory"
+      },
+      "lat": 38.9900959,
+      "lon": -76.5430854
+    },
+    {
+      "type": "way",
+      "id": 108139021,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:housenumber": "10300",
+        "addr:postcode": "21044",
+        "addr:state": "MD",
+        "addr:street": "Little Patuxent Parkway",
+        "addr:unit": "Space 3070",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 39.21694305,
+        "lon": -76.86413019999998
+      }
+    }
+  ]
+}

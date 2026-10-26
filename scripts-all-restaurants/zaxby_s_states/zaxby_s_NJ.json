@@ -1,0 +1,44 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "zaxby_s",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 703183237,
+      "tags": {
+        "addr:city": "Magnolia",
+        "addr:housenumber": "804",
+        "addr:postcode": "08049",
+        "addr:state": "NJ",
+        "addr:street": "White Horse Pike",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "check_date": "2025-12-24",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.86258845,
+        "lon": -75.03535805000001
+      }
+    }
+  ]
+}

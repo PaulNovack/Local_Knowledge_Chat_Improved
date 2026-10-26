@@ -1,0 +1,74 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CA",
+    "brand": "saladworks",
+    "source": "https://download.geofabrik.de/north-america/us/california-latest.osm.pbf",
+    "source_md5": "26040c163edb7a5f630164ee55d5afda",
+    "processed_utc": "2026-10-24T06:59:04.829226+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11862977237,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "820",
+        "addr:postcode": "95648",
+        "addr:state": "CA",
+        "addr:street": "Sterling Parkway",
+        "addr:unit": "70",
+        "amenity": "fast_food",
+        "brand": "Saladworks",
+        "brand:wikidata": "Q7403411",
+        "cuisine": "salad",
+        "delivery": "yes",
+        "diet:healthy": "yes",
+        "diet:meat": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "email": "Lincoln@Saladworks.com",
+        "internet_access": "wlan",
+        "name": "Saladworks",
+        "opening_hours": "Mo-Fr 11:00-20:00; Sa 11:00-19:00; Su 11:00-18:00",
+        "phone": "+1-916-209-3839",
+        "source": "local knowledge",
+        "takeaway": "yes",
+        "website": "https://restaurants.saladworks.com/ca/lincoln/820-sterling-parkway/",
+        "website:menu": "https://saladworks.com/menu"
+      },
+      "lat": 38.8711736,
+      "lon": -121.2967122
+    },
+    {
+      "type": "node",
+      "id": 12143845060,
+      "tags": {
+        "addr:city": "Hollister",
+        "addr:housenumber": "1210",
+        "addr:postcode": "95023",
+        "addr:state": "CA",
+        "addr:street": "East Park Street",
+        "addr:unit": "103",
+        "amenity": "fast_food",
+        "brand": "Saladworks",
+        "brand:wikidata": "Q7403411",
+        "check_date:opening_hours": "2024-08-27",
+        "cuisine": "salad",
+        "name": "Saladworks",
+        "opening_hours": "Mo-Sa 10:30-20:00; Su 10:30-18:00",
+        "payment:cash": "no",
+        "takeaway": "yes"
+      },
+      "lat": 36.8428436,
+      "lon": -121.3910487
+    }
+  ]
+}

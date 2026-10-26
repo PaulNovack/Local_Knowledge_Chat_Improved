@@ -1,0 +1,887 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MN",
+    "brand": "dunkin",
+    "source": "https://download.geofabrik.de/north-america/us/minnesota-latest.osm.pbf",
+    "source_md5": "4cabd6519cf6e8b1f74c96f59629df95",
+    "processed_utc": "2026-10-24T07:08:10.045763+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1344114581,
+      "tags": {
+        "addr:city": "Owatonna",
+        "addr:housenumber": "670",
+        "addr:postcode": "55060",
+        "addr:state": "MN",
+        "addr:street": "West Bridge Street",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mn/owatonna/670-west-bridge-street/365644"
+      },
+      "lat": 44.0849062,
+      "lon": -93.2421574
+    },
+    {
+      "type": "node",
+      "id": 6387487897,
+      "tags": {
+        "addr:postcode": "55111",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "check_date": "2026-09-03",
+        "cuisine": "coffee_shop;donut",
+        "drive_through": "no",
+        "fixme:atp": "Check if still exists. No corresponding ATP object.",
+        "level": "1",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Su 04:30-21:00",
+        "phone": "+1 612-727-1667",
+        "takeaway": "yes",
+        "website": "https://www.mspairport.com/airport/eat-shop-relax/dunkin-donuts"
+      },
+      "lat": 44.8836291,
+      "lon": -93.211199
+    },
+    {
+      "type": "node",
+      "id": 7154400481,
+      "tags": {
+        "addr:city": "Rogers",
+        "addr:housenumber": "13135",
+        "addr:postcode": "55374",
+        "addr:state": "MN",
+        "addr:street": "Main Street",
+        "addr:unit": "100",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Fr 05:00-18:00; Sa-Su 06:00-17:00",
+        "phone": "+1 612-255-0701",
+        "ref": "358658",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mn/rogers/13135-main-st/358658"
+      },
+      "lat": 45.1929972,
+      "lon": -93.5534368
+    },
+    {
+      "type": "node",
+      "id": 7688578430,
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "143",
+        "addr:postcode": "55104",
+        "addr:state": "MN",
+        "addr:street": "Snelling Avenue",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "no",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Fr 05:30-18:00; Sa-Su 06:00-18:00",
+        "phone": "+1 651-207-8595",
+        "ref": "358403",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mn/saint-paul/143-snelling-ave-n/358403"
+      },
+      "lat": 44.94564,
+      "lon": -93.167289
+    },
+    {
+      "type": "node",
+      "id": 7911270480,
+      "tags": {
+        "addr:city": "Lino Lakes",
+        "addr:housenumber": "7114",
+        "addr:postcode": "55038",
+        "addr:state": "MN",
+        "addr:street": "Otter Lake Road",
+        "addr:unit": "100",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Fr 05:00-18:00; Sa-Su 06:00-18:00",
+        "phone": "+1 651-348-7675",
+        "ref": "358827",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mn/lino-lakes/7114-otter-lake-rd/358827"
+      },
+      "lat": 45.1646073,
+      "lon": -93.0238924
+    },
+    {
+      "type": "node",
+      "id": 9913033988,
+      "tags": {
+        "addr:city": "Maple Grove",
+        "addr:housenumber": "9595",
+        "addr:postcode": "55369",
+        "addr:state": "MN",
+        "addr:street": "Zachary Lane North",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Fr 05:00-18:00; Sa-Su 06:00-18:00",
+        "phone": "+1 763-273-8679",
+        "ref": "356656",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mn/maple-grove/9595-zachary-lane-n/356656"
+      },
+      "lat": 45.1287777,
+      "lon": -93.4230766
+    },
+    {
+      "type": "node",
+      "id": 11447507669,
+      "tags": {
+        "addr:city": "Roseville",
+        "addr:housenumber": "2425",
+        "addr:postcode": "55113",
+        "addr:state": "MN",
+        "addr:street": "Rice Street",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin’ Donuts",
+        "opening_hours": "Mo-Fr 05:00-19:00; Sa 06:00-19:00; Su 06:00-18:00",
+        "phone": "+1 651-340-1084",
+        "ref": "355733",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mn/roseville/2425-rice-st/355733"
+      },
+      "lat": 45.0139669,
+      "lon": -93.106558
+    },
+    {
+      "type": "node",
+      "id": 11447719469,
+      "tags": {
+        "addr:city": "Maplewood",
+        "addr:housenumber": "1275",
+        "addr:postcode": "55109",
+        "addr:state": "MN",
+        "addr:street": "County Road D East",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin’ Donuts",
+        "opening_hours": "Mo-Fr 05:00-18:00; Sa-Su 06:00-18:00",
+        "phone": "+1 651-348-8361",
+        "ref": "358007",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mn/maplewood/1275-county-road-d-e/358007"
+      },
+      "lat": 45.0323059,
+      "lon": -93.0460462
+    },
+    {
+      "type": "node",
+      "id": 11582992898,
+      "tags": {
+        "addr:city": "Roseville",
+        "addr:housenumber": "2465",
+        "addr:postcode": "55113",
+        "addr:state": "MN",
+        "addr:street": "Fairview Avenue North",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "check_date": "2025-07-20",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Fr 05:00-19:00; Sa-Su 06:00-19:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 651-788-9289",
+        "ref": "362874",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mn/roseville/2465-fairview-ave-n/362874"
+      },
+      "lat": 45.0151563,
+      "lon": -93.1776758
+    },
+    {
+      "type": "node",
+      "id": 11884843510,
+      "tags": {
+        "addr:city": "Andover",
+        "addr:housenumber": "13650",
+        "addr:postcode": "55304",
+        "addr:state": "MN",
+        "addr:street": "Hanson Boulevard",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Fr 05:00-19:00; Sa 06:00-19:00; Su 06:00-16:00",
+        "phone": "+1 763-308-3387",
+        "ref": "355734",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mn/andover/13650-hanson-blvd/355734"
+      },
+      "lat": 45.2184664,
+      "lon": -93.306989
+    },
+    {
+      "type": "node",
+      "id": 11989005194,
+      "tags": {
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Su 06:00-20:00",
+        "takeaway": "yes"
+      },
+      "lat": 44.925874,
+      "lon": -92.971693
+    },
+    {
+      "type": "node",
+      "id": 12029268596,
+      "tags": {
+        "addr:city": "Cottage Grove",
+        "addr:housenumber": "7584",
+        "addr:postcode": "55016",
+        "addr:state": "MN",
+        "addr:street": "80th Street South",
+        "addr:unit": "101",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Su 06:00-20:00",
+        "phone": "+1-651-478-4381",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mn/cottage-grove/7584-80th-street-south/363364"
+      },
+      "lat": 44.8340988,
+      "lon": -92.9521091
+    },
+    {
+      "type": "node",
+      "id": 12184340178,
+      "tags": {
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "name": "Dunkin'",
+        "takeaway": "yes"
+      },
+      "lat": 44.8838693,
+      "lon": -93.3082195
+    },
+    {
+      "type": "node",
+      "id": 12194314078,
+      "tags": {
+        "addr:city": "Eagan",
+        "addr:housenumber": "1420",
+        "addr:postcode": "55121",
+        "addr:state": "MN",
+        "addr:street": "Yankee Doodle Road",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "check_date": "2024-09-23",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "06:00-20:00",
+        "phone": "+1 651-478-4795",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mn/eagan/1420-yankee-doodle-rd/356642"
+      },
+      "lat": 44.8332267,
+      "lon": -93.1686847
+    },
+    {
+      "type": "node",
+      "id": 13802302301,
+      "tags": {
+        "addr:housenumber": "2105",
+        "addr:street": "Cliff Road",
+        "amenity": "cafe",
+        "check_date": "2026-05-06",
+        "cuisine": "donut;coffee_shop",
+        "name": "Dunkin' Donuts / Baskin Robbins",
+        "opening_hours": "06:00-19:00",
+        "phone": "+1 651-493-8049",
+        "website": "https://locations.dunkindonuts.com/en/mn/eagan/2105-cliff-rd/359700"
+      },
+      "lat": 44.7908262,
+      "lon": -93.214988
+    },
+    {
+      "type": "node",
+      "id": 13885184840,
+      "tags": {
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "name": "Dunkin' (in Walmart)",
+        "takeaway": "yes"
+      },
+      "lat": 44.0774027,
+      "lon": -92.511811
+    },
+    {
+      "type": "node",
+      "id": 13969475878,
+      "tags": {
+        "addr:housenumber": "620",
+        "addr:street": "Southeast Washington Avenue",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "branch": "University of Minnesota",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "check_date": "2026-10-19",
+        "cuisine": "donut;coffee_shop",
+        "name": "Dunkin'",
+        "takeaway": "yes",
+        "website": "https://www.dunkindonuts.com/locations/us/mn/minneapolis/620-washington-ave-se/store-365066/"
+      },
+      "lat": 44.9734937,
+      "lon": -93.2293712
+    },
+    {
+      "type": "node",
+      "id": 13997893390,
+      "tags": {
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "name": "Dunkin'",
+        "takeaway": "yes"
+      },
+      "lat": 45.198037,
+      "lon": -93.3779005
+    },
+    {
+      "type": "way",
+      "id": 132572340,
+      "tags": {
+        "addr:city": "Grand Rapids",
+        "addr:housenumber": "1250",
+        "addr:postcode": "55744",
+        "addr:state": "MN",
+        "addr:street": "South Pokegama Avenue",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "retail",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "05:00-21:45",
+        "opening_hours:drive_through": "05:00-22:00",
+        "phone": "+1-218-793-3425",
+        "ref": "365341",
+        "takeaway": "yes",
+        "website": "https://www.dunkindonuts.com/locations/us/mn/grand-rapids/1250-south-pokegama-avenue/store-365341/"
+      },
+      "center": {
+        "lat": 47.2182736,
+        "lon": -93.52800145000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 480275099,
+      "tags": {
+        "addr:city": "Inver Grove Heights",
+        "addr:country": "US",
+        "addr:housenumber": "6800",
+        "addr:postcode": "55076",
+        "addr:state": "MN",
+        "addr:street": "Cahill Avenue",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "commercial",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 44.85138815,
+        "lon": -93.04416215000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 506236043,
+      "tags": {
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "check_date": "2025-07-22",
+        "cuisine": "donut;coffee_shop",
+        "name": "Dunkin'",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 44.717702200000005,
+        "lon": -93.41871259999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 527077457,
+      "tags": {
+        "addr:city": "West St Paul",
+        "addr:country": "US",
+        "addr:housenumber": "1224",
+        "addr:postcode": "55118",
+        "addr:state": "MN",
+        "addr:street": "Robert Street South",
+        "amenity": "restaurant",
+        "building": "commercial",
+        "cuisine": "coffee;donut;ice_cream",
+        "name": "Dunkin' Baskin-Robbins"
+      },
+      "center": {
+        "lat": 44.90936825,
+        "lon": -93.08003055
+      }
+    },
+    {
+      "type": "way",
+      "id": 583278781,
+      "tags": {
+        "addr:city": "New Hope",
+        "addr:housenumber": "7820",
+        "addr:postcode": "55427",
+        "addr:state": "MN",
+        "addr:street": "42nd Avenue North",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin' Donuts",
+        "opening_hours": "Mo-Fr 05:00-19:00; Sa 06:00-19:00; Su 06:00-16:00",
+        "outdoor_seating": "no",
+        "phone": "+1 612-354-4500",
+        "ref": "355415",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mn/new-hope/7820-42nd-ave-n/355415"
+      },
+      "center": {
+        "lat": 45.03317525,
+        "lon": -93.37888550000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 610036229,
+      "tags": {
+        "addr:city": "Maple Grove",
+        "addr:country": "US",
+        "addr:housenumber": "13530",
+        "addr:postcode": "55311",
+        "addr:state": "MN",
+        "addr:street": "Grove Drive North",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "building:part": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "layer": "1",
+        "name": "Dunkin'",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 45.1046812,
+        "lon": -93.45220360000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 611318326,
+      "tags": {
+        "addr:city": "Bemidji",
+        "addr:housenumber": "100",
+        "addr:postcode": "56601",
+        "addr:state": "MN",
+        "addr:street": "Paul Bunyan Drive Southeast",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Tu 06:00-22:00; We-Sa 06:00-21:00; Su 06:00-22:00",
+        "phone": "+1 218-398-2282",
+        "ref": "359498",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mn/bemidji/100-paul-bunyan-dr-s/359498"
+      },
+      "center": {
+        "lat": 47.46913845,
+        "lon": -94.87948204999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 756058658,
+      "tags": {
+        "addr:city": "Crystal",
+        "addr:housenumber": "6827",
+        "addr:postcode": "55428",
+        "addr:state": "MN",
+        "addr:street": "Bass Lake Road",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Fr 05:00-08:00; Sa-Su 06:00-19:00",
+        "phone": "+1-763-210-5638",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mn/crystal/6827-bass-lake-road/365070"
+      },
+      "center": {
+        "lat": 45.0543966,
+        "lon": -93.3679386
+      }
+    },
+    {
+      "type": "way",
+      "id": 798034146,
+      "tags": {
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 48.58852365,
+        "lon": -93.40318020000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 911675207,
+      "tags": {
+        "addr:city": "Duluth",
+        "addr:housenumber": "104",
+        "addr:postcode": "55811",
+        "addr:state": "MN",
+        "addr:street": "West Central Entrance",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "phone": "+1-218-606-2911",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mn/duluth/104-west-central-entrance/353944",
+        "website:menu": "https://www.dunkindonuts.com/en/menu?utm_source=google&utm_medium=local&utm_campaign=localmapsmenu&content=353944&y_source=1_MTIxMDkyNzgtNzE1LWxvY2F0aW9uLm1lbnVfdXJs"
+      },
+      "center": {
+        "lat": 46.80019995000001,
+        "lon": -92.13578480000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1084007676,
+      "tags": {
+        "addr:city": "Otsego",
+        "addr:housenumber": "8891",
+        "addr:postcode": "55330",
+        "addr:state": "MN",
+        "addr:street": "Parrish Avenue Northeast",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Fr 05:00-19:00; Sa-Su 06:00-19:00",
+        "phone": "+1-763-284-1888",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mn/otsego/8891-parrish-ave-ne/363314"
+      },
+      "center": {
+        "lat": 45.27900045,
+        "lon": -93.5663581
+      }
+    },
+    {
+      "type": "way",
+      "id": 1116177532,
+      "tags": {
+        "addr:city": "Mankato",
+        "addr:housenumber": "1701",
+        "addr:postcode": "56001",
+        "addr:state": "MN",
+        "addr:street": "Madison Avenue",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "05:00-19:00",
+        "phone": "+1 507-720-6197",
+        "ref": "356438",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mn/mankato/1701-madison-ave/356438"
+      },
+      "center": {
+        "lat": 44.1666185,
+        "lon": -93.96020525
+      }
+    },
+    {
+      "type": "way",
+      "id": 1180103391,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:housenumber": "620",
+        "addr:postcode": "55313",
+        "addr:state": "MN",
+        "addr:street": "5th Street Northeast",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "name": "Dunkin'",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 45.17608955,
+        "lon": -93.86772344999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1230636799,
+      "tags": {
+        "addr:city": "Fridley",
+        "addr:housenumber": "8300",
+        "addr:postcode": "55432",
+        "addr:state": "MN",
+        "addr:street": "University Avenue Northeast",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Fr 05:00-19:00; Sa 06:00-19:00; Su 06:00-16:00",
+        "phone": "+1 763-284-1900",
+        "ref": "357473",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mn/fridley/8300-university-ave-ne/357473"
+      },
+      "center": {
+        "lat": 45.119177449999995,
+        "lon": -93.26451509999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1237337084,
+      "tags": {
+        "addr:city": "Saint Peter",
+        "addr:housenumber": "1123",
+        "addr:postcode": "56082",
+        "addr:state": "MN",
+        "addr:street": "South Minnesota Avenue",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Sa 05:00-19:00; Su 06:00-13:00",
+        "phone": "+1 507-519-1127",
+        "ref": "356897",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mn/saint-peter/1123-s-minnesota-ave/356897"
+      },
+      "center": {
+        "lat": 44.316610749999995,
+        "lon": -93.96294495000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1304159146,
+      "tags": {
+        "addr:city": "Richfield",
+        "addr:housenumber": "6529",
+        "addr:postcode": "55423",
+        "addr:state": "MN",
+        "addr:street": "Penn Avenue South",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Fr 05:00-20:00; Sa,Su 06:00-19:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-612-254-8420",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mn/richfield/6529-penn-ave-s/356550"
+      },
+      "center": {
+        "lat": 44.88422725,
+        "lon": -93.30838325000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1377220945,
+      "tags": {
+        "addr:city": "Chaska",
+        "addr:housenumber": "710",
+        "addr:postcode": "55318",
+        "addr:state": "MN",
+        "addr:street": "North Chestnut Street",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 44.79039755,
+        "lon": -93.60153650000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1379217044,
+      "tags": {
+        "addr:city": "Minnetonka",
+        "addr:housenumber": "14611",
+        "addr:postcode": "55345",
+        "addr:state": "MN",
+        "addr:street": "Highway 7",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Fr 05:00-21:00; Sa 06:00-19:00; Su 06:00-17:00",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mn/minnetonka/14611-state-highway-7/365771"
+      },
+      "center": {
+        "lat": 44.92139425,
+        "lon": -93.46735030000002
+      }
+    }
+  ]
+}

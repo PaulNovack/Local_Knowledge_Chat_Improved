@@ -1,0 +1,90 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "teriyaki_madness",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10681507151,
+      "tags": {
+        "addr:city": "Oviedo",
+        "addr:housenumber": "441",
+        "addr:postcode": "32765",
+        "addr:state": "FL",
+        "addr:street": "E Mitchell Hammock Road",
+        "addr:unit": "1101",
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "cuisine": "japanese",
+        "drive_through": "no",
+        "name": "Teriyaki Madness",
+        "takeaway": "yes"
+      },
+      "lat": 28.6562713,
+      "lon": -81.201574
+    },
+    {
+      "type": "node",
+      "id": 12103289188,
+      "tags": {
+        "addr:city": "Boca Raton",
+        "addr:housenumber": "20437",
+        "addr:postcode": "33498",
+        "addr:state": "FL",
+        "addr:street": "State Road 7",
+        "addr:unit": "B6",
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "check_date": "2025-08-16",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-21:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-561-409-2977",
+        "takeaway": "yes",
+        "website": "https://teriyakimadness.com/locations/mission-bay-plaza/",
+        "website:menu": "https://order.teriyakimadness.com/menu/boca-raton/"
+      },
+      "lat": 26.3700096,
+      "lon": -80.206244
+    },
+    {
+      "type": "node",
+      "id": 13391197606,
+      "tags": {
+        "addr:city": "Melbourne",
+        "addr:postcode": "32940",
+        "addr:state": "FL",
+        "addr:street": "Citadel Way",
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "opening_hours": "Mo-Su 11:00-21:30",
+        "phone": "+1 321-305-4116",
+        "ref": "5094368",
+        "ref:doordash": "24955295",
+        "takeaway": "yes"
+      },
+      "lat": 28.2451933,
+      "lon": -80.7292976
+    }
+  ]
+}

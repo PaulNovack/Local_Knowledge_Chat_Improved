@@ -1,0 +1,41 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "fleming_s",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13310029889,
+      "tags": {
+        "addr:city": "Radnor",
+        "addr:housenumber": "555",
+        "addr:postcode": "19087",
+        "addr:state": "PA",
+        "addr:street": "East Lancaster Avenue",
+        "addr:unit": "10",
+        "amenity": "restaurant",
+        "check_date": "2025-11-16",
+        "cuisine": "steak_house",
+        "name": "Fleming's",
+        "opening_hours": "Mo 16:00-22:00; Tu-Sa 11:00-22:00; Su 16:00-21:00; Nov Th[4] 11:00-20:00",
+        "phone": "+1 610-688-9463",
+        "reservation": "yes",
+        "website": "https://www.flemingssteakhouse.com/locations/pa/radnor"
+      },
+      "lat": 40.0415795,
+      "lon": -75.3678444
+    }
+  ]
+}

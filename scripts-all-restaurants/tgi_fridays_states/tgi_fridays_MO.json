@@ -1,0 +1,114 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "tgi_fridays",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2674521232,
+      "tags": {
+        "addr:city": "Bridgeton",
+        "addr:housenumber": "11228",
+        "addr:postcode": "63044",
+        "addr:street": "Lone Eagle Drive",
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "cuisine": "american",
+        "name": "TGI Fridays"
+      },
+      "lat": 38.741354,
+      "lon": -90.3971443
+    },
+    {
+      "type": "node",
+      "id": 2703705040,
+      "tags": {
+        "addr:housenumber": "3242",
+        "addr:postcode": "65804",
+        "addr:street": "South Stewart Avenue",
+        "amenity": "restaurant",
+        "brand": "TGI Friday's",
+        "brand:wikidata": "Q1524184",
+        "cuisine": "asian;diner;grill;korean;seafood",
+        "internet_access": "wlan",
+        "name": "Kpot Korean BBQ and Hotpot",
+        "opening_hours": "Su-Th 12:00-21:30; Fr-Sa 12:00-22:30",
+        "phone": "+1-417-360-1111",
+        "source": "Bing",
+        "website": "https://thekpot.com/location/springfield-mo/",
+        "website:menu": "https://thekpot.com/menu/"
+      },
+      "lat": 37.1543348,
+      "lon": -93.2617103
+    },
+    {
+      "type": "node",
+      "id": 6396968670,
+      "tags": {
+        "addr:city": "Saint Charles",
+        "addr:housenumber": "2000",
+        "addr:postcode": "63303",
+        "addr:street": "South First Capitol Drive",
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "cuisine": "american",
+        "name": "TGI Fridays",
+        "source:addr": "https://gis.sccmo.opendata.arcgis.com/ (2018)",
+        "website": "https://locations.tgifridays.com/mo/saint-charles/2000-s-1st-capitol-dr.html"
+      },
+      "lat": 38.7601863,
+      "lon": -90.5301754
+    },
+    {
+      "type": "way",
+      "id": 550986440,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "TGI Fridays",
+        "website": "https://locations.tgifridays.com/mo/columbia/3030-i-70-dr-se.html"
+      },
+      "center": {
+        "lat": 38.96015395,
+        "lon": -92.29065104999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 935832109,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "building": "yes",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "TGI Fridays Guest Wifi",
+        "name": "TGI Fridays",
+        "website": "https://locations.tgifridays.com/mo/saint-louis/5262-s-lindbergh-blvd.html"
+      },
+      "center": {
+        "lat": 38.526359549999995,
+        "lon": -90.36421925000002
+      }
+    }
+  ]
+}

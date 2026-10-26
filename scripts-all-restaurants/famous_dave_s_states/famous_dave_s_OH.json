@@ -1,0 +1,77 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "famous_dave_s",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1224082387,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "cuisine": "barbecue",
+        "mobile_ordering": "yes",
+        "mobile_ordering:app": "Cedar Point",
+        "name": "Famous Dave's",
+        "website": "https://www.cedarpoint.com/play/drinks-dining/famous-daves"
+      },
+      "lat": 41.4797567,
+      "lon": -82.685324
+    },
+    {
+      "type": "node",
+      "id": 8942566501,
+      "tags": {
+        "addr:city": "North Olmsted",
+        "addr:housenumber": "26410",
+        "addr:postcode": "44070",
+        "addr:state": "OH",
+        "addr:street": "Great Northern Plaza",
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's"
+      },
+      "lat": 41.4183659,
+      "lon": -81.9153243
+    },
+    {
+      "type": "way",
+      "id": 488217213,
+      "tags": {
+        "addr:city": "Sandusky",
+        "addr:housenumber": "2003",
+        "addr:postcode": "44870",
+        "addr:state": "OH",
+        "addr:street": "Cleveland Road West",
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's",
+        "phone": "+1-419-609-5606",
+        "source": "mapillary",
+        "website": "https://www.famousdaves.com/Cedar-Point"
+      },
+      "center": {
+        "lat": 41.4416495,
+        "lon": -82.67860199999996
+      }
+    }
+  ]
+}

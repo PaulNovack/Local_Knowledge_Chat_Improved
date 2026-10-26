@@ -1,0 +1,42 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MN",
+    "brand": "blaze_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/minnesota-latest.osm.pbf",
+    "source_md5": "4cabd6519cf6e8b1f74c96f59629df95",
+    "processed_utc": "2026-10-24T07:08:10.045763+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2249045435,
+      "tags": {
+        "addr:city": "Saint Louis Park",
+        "addr:housenumber": "8126",
+        "addr:postcode": "55426",
+        "addr:state": "MN",
+        "addr:street": "Minnesota State Highway 7",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "indoor_seating": "yes",
+        "name": "Blaze Pizza",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "outdoor_seating": "no",
+        "phone": "+19529554101",
+        "website": "https://www.blazepizza.com/locations/st-louis-park-knollwood/"
+      },
+      "lat": 44.9367685,
+      "lon": -93.3830512
+    }
+  ]
+}

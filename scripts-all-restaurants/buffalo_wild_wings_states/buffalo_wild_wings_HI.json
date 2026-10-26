@@ -1,0 +1,66 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "HI",
+    "brand": "buffalo_wild_wings",
+    "source": "https://download.geofabrik.de/north-america/us/hawaii-latest.osm.pbf",
+    "source_md5": "72d4122e050f63452c0aa341f9272254",
+    "processed_utc": "2026-10-24T07:02:30.197996+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4715904602,
+      "tags": {
+        "addr:state": "HI",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "safety:mask:covid19": "yes",
+        "website": "https://buffalowildwings.com",
+        "wheelchair": "yes"
+      },
+      "lat": 21.3281216,
+      "lon": -158.020533
+    },
+    {
+      "type": "way",
+      "id": 1355842844,
+      "tags": {
+        "addr:city": "Pearl City",
+        "addr:housenumber": "1000",
+        "addr:postcode": "96782",
+        "addr:state": "HI",
+        "addr:street": "Kamehameha Highway",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building:levels": "3",
+        "building:part": "retail",
+        "cuisine": "wings",
+        "delivery": "yes",
+        "level": "2",
+        "name": "Buffalo Wild Wings",
+        "opening_hours": "Su-We 11:00-24:00; Th-Sa 11:00-02:00",
+        "opening_hours:covid19": "Mo-Th 11:00-24:00; Fr-Sa 11:00-02:00; Su 11:00-24:00",
+        "phone": "+1 808 260 9464",
+        "short_name": "BW3",
+        "takeaway": "yes",
+        "website": "https://www.buffalowildwings.com/en/food/"
+      },
+      "center": {
+        "lat": 21.3961939,
+        "lon": -157.97599805
+      }
+    }
+  ]
+}

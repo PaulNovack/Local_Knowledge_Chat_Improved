@@ -1,0 +1,91 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MI",
+    "brand": "freddy_s",
+    "source": "https://download.geofabrik.de/north-america/us/michigan-latest.osm.pbf",
+    "source_md5": "1c9e00f502a3ea973e97c7d6f989094d",
+    "processed_utc": "2026-10-24T07:07:39.587953+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6379812635,
+      "tags": {
+        "addr:housenumber": "6006",
+        "addr:street": "28th Street Southeast",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "opening_hours": "Mo-Th,Su 10:30-22:00; Fr-Sa 10:30-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-616-591-3354",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "https://freddysusa.com/"
+      },
+      "lat": 42.9123401,
+      "lon": -85.5195092
+    },
+    {
+      "type": "node",
+      "id": 6906989976,
+      "tags": {
+        "addr:housenumber": "25",
+        "addr:street": "Lake Michigan Drive",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "check_date": "2024-06-09",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 616-288-6388",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 42.972812,
+      "lon": -85.785465
+    },
+    {
+      "type": "way",
+      "id": 776286838,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Freddy's",
+        "official_name": "Freddys Frozen Custard & Steakburgers",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 43.03197805,
+        "lon": -85.62748800000003
+      }
+    }
+  ]
+}

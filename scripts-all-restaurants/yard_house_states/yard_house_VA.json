@@ -1,0 +1,91 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "yard_house",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5935353968,
+      "tags": {
+        "addr:city": "Virginia Beach",
+        "addr:housenumber": "4549",
+        "addr:postcode": "23462",
+        "addr:state": "VA",
+        "addr:street": "Commerce Street",
+        "alcohol": "yes",
+        "amenity": "restaurant",
+        "brand": "Yard House",
+        "brand:wikidata": "Q21189156",
+        "cuisine": "american",
+        "delivery": "no",
+        "name": "Yard House",
+        "opening_hours": "Su-Th 11:00-23:30; Fr-Sa 11:00-00:30",
+        "outdoor_seating": "no",
+        "phone": "+1-757-490-9273",
+        "takeaway": "yes",
+        "website": "https://www.yardhouse.com/locations/va/virginia-beach/virginia-beach-town-center/8334"
+      },
+      "lat": 36.8417241,
+      "lon": -76.1364843
+    },
+    {
+      "type": "node",
+      "id": 12606919404,
+      "tags": {
+        "addr:housenumber": "1660M",
+        "addr:postcode": "22102",
+        "addr:street": "Galleria at Tysons II",
+        "alcohol": "yes",
+        "amenity": "restaurant",
+        "brand": "Yard House",
+        "brand:wikidata": "Q21189156",
+        "cuisine": "american",
+        "name": "Yard House",
+        "opening_hours": "Fr-Sa 11:00-01:30; Su-Th 11:00-23:30",
+        "website": "https://www.yardhouse.com/locations/va/mclean/mclean-tysons-galleria/8393",
+        "website:menu": "https://www.yardhouse.com/menu"
+      },
+      "lat": 38.9249319,
+      "lon": -77.2255847
+    },
+    {
+      "type": "way",
+      "id": 350698276,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "6791",
+        "addr:place": "Yard House",
+        "addr:postcode": "22150",
+        "addr:state": "VA",
+        "addr:street": "Springfield Mall",
+        "alcohol": "yes",
+        "amenity": "restaurant",
+        "brand": "Yard House",
+        "brand:wikidata": "Q21189156",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Yard House",
+        "opening_hours": "Sa-We 11:00-23:30, Fr,Sa 11:00-01:30",
+        "phone": "+1 703-924-7345",
+        "website": "https://www.yardhouse.com/locations/va/springfield/springfield-town-center/8358",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 38.774854649999995,
+        "lon": -77.17512965000003
+      }
+    }
+  ]
+}

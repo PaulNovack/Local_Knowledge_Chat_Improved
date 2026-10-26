@@ -1,0 +1,945 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "dunkin",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2623074951,
+      "tags": {
+        "addr:city": "Branson",
+        "addr:housenumber": "1305",
+        "addr:postcode": "65616",
+        "addr:state": "MO",
+        "addr:street": "W 76 Country Blvd",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mo/branson/1305-w-highway-76/355752"
+      },
+      "lat": 36.6405989,
+      "lon": -93.2420779
+    },
+    {
+      "type": "node",
+      "id": 4240097551,
+      "tags": {
+        "addr:city": "Liberty",
+        "addr:housenumber": "953",
+        "addr:postcode": "64068",
+        "addr:state": "MO",
+        "addr:street": "West Liberty Drive",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "04:30-19:00",
+        "phone": "+1 816-415-3770",
+        "ref": "354276",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mo/liberty/953-w-liberty-dr/354276"
+      },
+      "lat": 39.2385469,
+      "lon": -94.4357868
+    },
+    {
+      "type": "node",
+      "id": 4898169962,
+      "tags": {
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "check_date": "2024-12-14",
+        "cuisine": "donut;coffee_shop",
+        "fixme:atp": "Check if still exists. No corresponding ATP object.",
+        "indoor_seating": "yes",
+        "level": "1",
+        "name": "Dunkin'",
+        "outdoor_seating": "no",
+        "takeaway": "yes"
+      },
+      "lat": 38.7373049,
+      "lon": -90.3554682
+    },
+    {
+      "type": "node",
+      "id": 5628754926,
+      "tags": {
+        "addr:city": "O'Fallon",
+        "addr:housenumber": "1220",
+        "addr:postcode": "63366",
+        "addr:state": "MO",
+        "addr:street": "Highway K",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "mobile_ordering": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "05:00-20:00",
+        "phone": "+1 636-385-6688",
+        "ref": "351820",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mo/o-fallon/1220-highway-k/351820"
+      },
+      "lat": 38.7951088,
+      "lon": -90.6983864
+    },
+    {
+      "type": "node",
+      "id": 5628755633,
+      "tags": {
+        "addr:city": "O'Fallon",
+        "addr:housenumber": "4009",
+        "addr:postcode": "63368",
+        "addr:street": "Highway K",
+        "amenity": "fast_food",
+        "description": "Coffee fast food",
+        "name": "Dunkin' Donuts",
+        "opening_hours": "Mo-Su 05:00-22:00",
+        "phone": "+1-636-244-0825",
+        "website": "https://locations.dunkindonuts.com/"
+      },
+      "lat": 38.726367,
+      "lon": -90.6971216
+    },
+    {
+      "type": "node",
+      "id": 8152210865,
+      "tags": {
+        "addr:city": "Richmond Heights",
+        "addr:housenumber": "1754",
+        "addr:postcode": "63117",
+        "addr:state": "MO",
+        "addr:street": "South Hanley Road",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "contact:website": "https://locations.dunkindonuts.com/en/mo/richmond-heights/1754-s-hanley-rd/353975",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "fixme:atp": "Check if still exists. No corresponding ATP object.",
+        "name": "Dunkin'",
+        "opening_hours": "Su-Sa 04:30-20:00",
+        "phone": "+1 314-341-1359",
+        "takeaway": "yes"
+      },
+      "lat": 38.6234998,
+      "lon": -90.3337778
+    },
+    {
+      "type": "node",
+      "id": 9828591100,
+      "tags": {
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "4220",
+        "addr:postcode": "63129",
+        "addr:state": "MO",
+        "addr:street": "Telegraph Road",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Sa 05:00-19:00; Su 06:00-19:00",
+        "phone": "+1 314-416-1923",
+        "ref": "349731",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mo/saint-louis/4220-telegraph-rd/349731"
+      },
+      "lat": 38.4876229,
+      "lon": -90.3036262
+    },
+    {
+      "type": "node",
+      "id": 10686656021,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "1",
+        "addr:postcode": "64153",
+        "addr:state": "MO",
+        "addr:street": "International Square",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "no",
+        "name": "Dunkin'",
+        "opening_hours": "04:00-18:00;04:00-20:00",
+        "phone": "+1 913-318-4097;+1 913-318-4071",
+        "ref": "363990;363991",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mo/kansas-city/1-international-square/363990;https://locations.dunkindonuts.com/en/mo/kansas-city/1-international-square/363991"
+      },
+      "lat": 39.2973358,
+      "lon": -94.7199049
+    },
+    {
+      "type": "node",
+      "id": 12091051831,
+      "tags": {
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "7728",
+        "addr:postcode": "63119",
+        "addr:state": "MO",
+        "addr:street": "Big Bend Boulevard",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Sa 05:00-20:00; Su 06:00-20:00",
+        "phone": "+1 314-677-1188",
+        "ref": "362974",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mo/saint-louis/7728-big-bend-boulevard/362974"
+      },
+      "lat": 38.59694,
+      "lon": -90.331321
+    },
+    {
+      "type": "node",
+      "id": 12662242458,
+      "tags": {
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "takeaway": "yes"
+      },
+      "lat": 38.6166546,
+      "lon": -94.3512431
+    },
+    {
+      "type": "node",
+      "id": 12688585403,
+      "tags": {
+        "addr:housenumber": "14924",
+        "addr:postcode": "63011",
+        "addr:street": "Manchester Road",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "name": "Dunkin'",
+        "takeaway": "yes"
+      },
+      "lat": 38.5925437,
+      "lon": -90.5441953
+    },
+    {
+      "type": "node",
+      "id": 13858289349,
+      "tags": {
+        "addr:floor": "G",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "check_date": "2026-05-21",
+        "cuisine": "donut;coffee_shop",
+        "level": "0",
+        "name": "Dunkin' Express",
+        "takeaway": "yes"
+      },
+      "lat": 38.9393633,
+      "lon": -92.7738701
+    },
+    {
+      "type": "node",
+      "id": 13970882542,
+      "tags": {
+        "addr:city": "Bridgeton",
+        "addr:housenumber": "12123",
+        "addr:postcode": "63044",
+        "addr:street": "Saint Charles Rock Road",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "contact:facebook": "https://www.facebook.com/215075386065466",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Su 05:00-22:00",
+        "phone": "+1 314-455-4400",
+        "ref": "355426",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mo/bridgeton/12121-saint-charles-rock-rd/355426"
+      },
+      "lat": 38.7503349,
+      "lon": -90.4248029
+    },
+    {
+      "type": "node",
+      "id": 14107540602,
+      "tags": {
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "4487",
+        "addr:postcode": "63108",
+        "addr:state": "MO",
+        "addr:street": "Forest Park Avenue",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "no",
+        "name": "Dunkin'",
+        "phone": "+13142027014",
+        "takeaway": "yes",
+        "website": "https://www.dunkindonuts.com/locations/us/mo/saint-louis/4487-forest-park-avenue/store-366845/"
+      },
+      "lat": 38.6386834,
+      "lon": -90.25869
+    },
+    {
+      "type": "way",
+      "id": 181344264,
+      "tags": {
+        "addr:city": "Independence",
+        "addr:housenumber": "2400",
+        "addr:postcode": "64057",
+        "addr:state": "MO",
+        "addr:street": "South Highway 291",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Sa 05:00-19:00; Su 06:00-19:00",
+        "phone": "+1 816-944-3544",
+        "ref": "350289",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mo/independence/2400-south-hwy-291/350289"
+      },
+      "center": {
+        "lat": 39.075017450000004,
+        "lon": -94.37968420000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 195149895,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "9561",
+        "addr:postcode": "64155",
+        "addr:state": "MO",
+        "addr:street": "North McGee Street",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "04:30-19:00",
+        "phone": "+1 816-436-2244",
+        "ref": "350463",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mo/kansas-city/9561-n-mcgee-st/350463"
+      },
+      "center": {
+        "lat": 39.2658092,
+        "lon": -94.57626685000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 365721762,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "10143",
+        "addr:postcode": "64114",
+        "addr:state": "MO",
+        "addr:street": "Wornall Road",
+        "air_conditioning": "yes",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "diet:vegetarian": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "05:00-20:00",
+        "outdoor_seating": "no",
+        "phone": "+1 913-354-2635",
+        "ref": "349991",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mo/kansas-city/10143-wornall-rd/349991"
+      },
+      "center": {
+        "lat": 38.94369195,
+        "lon": -94.59595834999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 388119044,
+      "tags": {
+        "addr:city": "Kirkwood",
+        "addr:housenumber": "1208",
+        "addr:postcode": "63122",
+        "addr:state": "MO",
+        "addr:street": "South Kirkwood Road",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Dunkin'",
+        "opening_hours": "24/7",
+        "phone": "+1 314-984-0220",
+        "ref": "347647",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mo/kirkwood/1208-s-kirkwood-rd/347647"
+      },
+      "center": {
+        "lat": 38.56238635,
+        "lon": -90.40641525000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 437224710,
+      "tags": {
+        "addr:city": "Carthage",
+        "addr:housenumber": "2424",
+        "addr:postcode": "64836",
+        "addr:state": "MO",
+        "addr:street": "Fairlawn Drive",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "amenity:disused": "bank",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "name": "Dunkin'",
+        "old_name": "Bank of America",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 37.1483892,
+        "lon": -94.31080275
+      }
+    },
+    {
+      "type": "way",
+      "id": 500845065,
+      "tags": {
+        "addr:city": "Blue Springs",
+        "addr:housenumber": "1225",
+        "addr:postcode": "64014",
+        "addr:state": "MO",
+        "addr:street": "Northwest State Route 7",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Sa 05:00-19:00; Su 06:00-19:00",
+        "phone": "+1 816-699-5957",
+        "ref": "350721",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mo/blue-springs/1225-nw-state-route-7/350721"
+      },
+      "center": {
+        "lat": 39.033265,
+        "lon": -94.27225254999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 546407219,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:housenumber": "3100",
+        "addr:postcode": "65201",
+        "addr:state": "MO",
+        "addr:street": "South Providence Road",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "05:30-19:00",
+        "phone": "+1 573-514-7020",
+        "ref": "353804",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mo/columbia/3100-s-providence-rd/353804"
+      },
+      "center": {
+        "lat": 38.9159888,
+        "lon": -92.33362499999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 571834686,
+      "tags": {
+        "addr:city": "Gladstone",
+        "addr:housenumber": "6050",
+        "addr:postcode": "64118",
+        "addr:state": "MO",
+        "addr:street": "North Antioch Road",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Dunkin'",
+        "opening_hours": "04:30-19:00",
+        "phone": "+1 816-216-7884",
+        "ref": "354093",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mo/gladstone/6050-ne-antioch-rd/354093"
+      },
+      "center": {
+        "lat": 39.20329235,
+        "lon": -94.54887835
+      }
+    },
+    {
+      "type": "way",
+      "id": 620854871,
+      "tags": {
+        "addr:city": "Saint Peters",
+        "addr:country": "US",
+        "addr:housenumber": "7343",
+        "addr:postcode": "63376",
+        "addr:state": "MO",
+        "addr:street": "Mexico Road",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin' Donuts",
+        "opening_hours": "Su 06:00-21:00; Mo-Sa 05:00-21:00",
+        "phone": "+1 636-387-6111",
+        "ref": "353064",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mo/saint-peters/7343-mexico-rd/353064"
+      },
+      "center": {
+        "lat": 38.788982,
+        "lon": -90.63281330000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 657866256,
+      "tags": {
+        "addr:city": "Ballwin",
+        "addr:housenumber": "13721",
+        "addr:postcode": "63011",
+        "addr:state": "MO",
+        "addr:street": "Manchester Road",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "note:post_town": "Ballwin",
+        "opening_hours": "Mo-Sa 05:00-20:00; Su 06:00-20:00",
+        "phone": "+1 314-822-6206",
+        "ref": "351198",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mo/ballwin/13721-manchester-rd/351198"
+      },
+      "center": {
+        "lat": 38.59654365,
+        "lon": -90.48019684999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 659880371,
+      "tags": {
+        "addr:city": "Ellisville",
+        "addr:housenumber": "15881",
+        "addr:postcode": "63017",
+        "addr:state": "MO",
+        "addr:street": "Fountain Plaza Drive",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin' Donuts",
+        "opening_hours": "Mo-Sa 05:00-20:00; Su 06:00-20:00",
+        "phone": "+1 636-686-7215",
+        "ref": "350563",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mo/ellisville/15881-fountain-plaza-dr/350563"
+      },
+      "center": {
+        "lat": 38.60640515,
+        "lon": -90.58504755000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1001176343,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "4020",
+        "addr:postcode": "65807",
+        "addr:state": "MO",
+        "addr:street": "South Campbell Avenue",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "05:00-19:00",
+        "phone": "+1 417-881-8286",
+        "ref": "355079",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mo/springfield/4020-s-campbell-ave/355079"
+      },
+      "center": {
+        "lat": 37.1408426,
+        "lon": -93.29576014999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1069792643,
+      "tags": {
+        "addr:city": "Festus",
+        "addr:housenumber": "1304",
+        "addr:postcode": "63028",
+        "addr:state": "MO",
+        "addr:street": "Veterans Boulevard",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Sa 05:00-20:00; Su 06:00-20:00",
+        "phone": "+1 636-725-0019",
+        "ref": "362834",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mo/festus/1304-veterans-boulevard/362834"
+      },
+      "center": {
+        "lat": 38.21289025,
+        "lon": -90.40680505
+      }
+    },
+    {
+      "type": "way",
+      "id": 1160908386,
+      "tags": {
+        "addr:city": "Arnold",
+        "addr:country": "US",
+        "addr:housenumber": "900",
+        "addr:postcode": "63010",
+        "addr:state": "MO",
+        "addr:street": "Jeffco Boulevard",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "retail",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mo/arnold/900-jeffco-blvd/351388"
+      },
+      "center": {
+        "lat": 38.4467375,
+        "lon": -90.37151255000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1169730775,
+      "tags": {
+        "addr:city": "Overland",
+        "addr:housenumber": "10250",
+        "addr:postcode": "63114",
+        "addr:state": "MO",
+        "addr:street": "Page Avenue",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "05:00-22:00",
+        "phone": "+1 314-731-6071",
+        "ref": "357164",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mo/overland/10250-page-ave/357164"
+      },
+      "center": {
+        "lat": 38.6908707,
+        "lon": -90.38697805000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1257302506,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:housenumber": "3075",
+        "addr:postcode": "65202",
+        "addr:state": "MO",
+        "addr:street": "Rangeline Street",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo 05:00-19:00; Tu-Su 05:30-19:00",
+        "phone": "+1 573-607-3865",
+        "ref": "357163",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/mo/columbia/3075-range-line-st/357163"
+      },
+      "center": {
+        "lat": 38.981771800000004,
+        "lon": -92.32680849999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1366522649,
+      "tags": {
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 37.1848574,
+        "lon": -93.26184699999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1391299517,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "3310",
+        "addr:postcode": "65802",
+        "addr:state": "MO",
+        "addr:street": "West Chestnut Expressway",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "phone": "+14179423757",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 37.2118436,
+        "lon": -93.34500434999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 1428443706,
+      "tags": {
+        "addr:housenumber": "1410 Suite A",
+        "addr:street": "Big Bend Road",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Sa 05:00-20:00; Su 06:00-20:00",
+        "phone": "+13149343414",
+        "shop": "coffee",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.5673281,
+        "lon": -90.49697805
+      }
+    },
+    {
+      "type": "way",
+      "id": 1462693680,
+      "tags": {
+        "addr:city": "Saint Joseph",
+        "addr:housenumber": "1106",
+        "addr:postcode": "64507",
+        "addr:state": "MO",
+        "addr:street": "South Belt Highway",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "name": "Dunkin'",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.7567503,
+        "lon": -94.80401255000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1525607823,
+      "tags": {
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.77801289999999,
+        "lon": -94.80369710000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1552408020,
+      "tags": {
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "4400",
+        "addr:postcode": "63109",
+        "addr:state": "MO",
+        "addr:street": "South Kingshighway Boulevard",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "phone": "+13142025575",
+        "takeaway": "yes",
+        "website": "https://www.dunkindonuts.com/en"
+      },
+      "center": {
+        "lat": 38.5883878,
+        "lon": -90.27503380000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1553989142,
+      "tags": {
+        "addr:city": "Fort Leonard Wood",
+        "addr:housenumber": "2624",
+        "addr:postcode": "65473",
+        "addr:state": "MO",
+        "addr:street": "Missouri Avenue",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Sa 05:00-15:00; Su 07:00-15:00",
+        "phone": "+1-573-329-0698",
+        "takeaway": "yes",
+        "website": "https://www.dunkindonuts.com/locations/us/mo/fort-leonard-wood/2624-missouri-ave/store-354257/"
+      },
+      "center": {
+        "lat": 37.7801085,
+        "lon": -92.12001040000001
+      }
+    }
+  ]
+}

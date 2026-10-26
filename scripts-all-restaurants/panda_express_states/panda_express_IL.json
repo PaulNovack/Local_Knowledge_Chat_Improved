@@ -1,0 +1,2550 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "panda_express",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 527480553,
+      "tags": {
+        "addr:city": "Rosemont",
+        "addr:housenumber": "7028",
+        "addr:postcode": "60018",
+        "addr:state": "IL",
+        "addr:street": "Mannheim Road",
+        "amenity": "fast_food",
+        "branch": "Manneheim & Lunt",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 09:00-22:30; Fr-Sa 09:00-23:00; Su 09:30-22:00",
+        "phone": "+1 847-824-9544",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/rosemont/697"
+      },
+      "lat": 42.0075502,
+      "lon": -87.8857213
+    },
+    {
+      "type": "node",
+      "id": 1529108232,
+      "tags": {
+        "addr:city": "Champaign",
+        "addr:housenumber": "2521",
+        "addr:postcode": "61822",
+        "addr:state": "IL",
+        "addr:street": "North Prospect Avenue",
+        "amenity": "fast_food",
+        "branch": "Prospect & Town",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "check_date": "2026-06-08",
+        "cuisine": "chinese",
+        "delivery": "yes",
+        "diet:pescetarian": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "no",
+        "fax": "+1-217-355-0889",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:30; Fr,Sa 10:00-22:00; Su 10:30-21:00",
+        "phone": "+1-217-355-0774",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/champaign/1618",
+        "website:menu": "https://www.pandaexpress.com/?showMenu=true"
+      },
+      "lat": 40.1459675,
+      "lon": -88.2585736
+    },
+    {
+      "type": "node",
+      "id": 2670170001,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:floor": "1",
+        "addr:housenumber": "500",
+        "addr:postcode": "60661",
+        "addr:state": "IL",
+        "addr:street": "West Madison Street",
+        "amenity": "fast_food",
+        "branch": "Madison & Clinton",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "check_date": "2024-11-09",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "level": "0",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 09:30-22:00; Su 09:30-20:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 312-876-9667",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/chicago/1370",
+        "wheelchair": "yes"
+      },
+      "lat": 41.8825612,
+      "lon": -87.6399905
+    },
+    {
+      "type": "node",
+      "id": 2679304660,
+      "tags": {
+        "addr:city": "Rockford",
+        "addr:housenumber": "7046",
+        "addr:postcode": "61108",
+        "addr:state": "IL",
+        "addr:street": "Walton Street",
+        "amenity": "fast_food",
+        "branch": "State & Perryville",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "10:00-21:30",
+        "phone": "+1-815-227-9606",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/rockford/1236"
+      },
+      "lat": 42.2681437,
+      "lon": -88.9793199
+    },
+    {
+      "type": "node",
+      "id": 2715471950,
+      "tags": {
+        "addr:city": "Hillside",
+        "addr:housenumber": "100",
+        "addr:postcode": "60162",
+        "addr:state": "IL",
+        "addr:street": "Mannheim Road",
+        "amenity": "fast_food",
+        "branch": "Mannheim & Harrison",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 09:30-22:00; Su 10:00-21:00",
+        "phone": "+1 708-547-7696",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/hillside/1722"
+      },
+      "lat": 41.8670251,
+      "lon": -87.8831581
+    },
+    {
+      "type": "node",
+      "id": 2802490612,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 41.6084694,
+      "lon": -88.123902
+    },
+    {
+      "type": "node",
+      "id": 2819285777,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "29",
+        "addr:postcode": "60602",
+        "addr:state": "IL",
+        "addr:street": "East Madison Street",
+        "addr:unit": "191",
+        "amenity": "fast_food",
+        "branch": "Madison & Wabash",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 09:30-21:00; Fr 09:30-21:30; Sa 10:00-21:30; Su 10:30-21:00",
+        "phone": "+1 312-201-9866",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/chicago/1102"
+      },
+      "lat": 41.881937,
+      "lon": -87.6269897
+    },
+    {
+      "type": "node",
+      "id": 3299674068,
+      "tags": {
+        "addr:city": "Addison",
+        "addr:housenumber": "1070",
+        "addr:postcode": "60101",
+        "addr:state": "IL",
+        "addr:street": "North Rohlwing Road",
+        "amenity": "fast_food",
+        "branch": "Rohlwing & Lake",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "check_date:opening_hours": "2025-07-30",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:30; Fr-Sa 10:00-22:00; Su 10:00-21:30",
+        "phone": "+1 630-932-8245",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/addison/1984"
+      },
+      "lat": 41.9494276,
+      "lon": -88.0323805
+    },
+    {
+      "type": "node",
+      "id": 3753845088,
+      "tags": {
+        "addr:city": "Hoffman Estates",
+        "addr:housenumber": "4585",
+        "addr:postcode": "60192",
+        "addr:state": "IL",
+        "addr:street": "West Higgins Road",
+        "amenity": "fast_food",
+        "branch": "Higgins & Highway 59",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Fr 10:00-21:30; Sa-Su 10:30-21:30",
+        "phone": "+1 847-645-9886",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/hoffman-estates/1401"
+      },
+      "lat": 42.0741618,
+      "lon": -88.1902852
+    },
+    {
+      "type": "node",
+      "id": 4049260600,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "2585",
+        "addr:postcode": "62704",
+        "addr:state": "IL",
+        "addr:street": "Wabash Avenue",
+        "amenity": "fast_food",
+        "branch": "Wabash & Route 4",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "delivery": "yes",
+        "delivery:partner": "DoorDash",
+        "delivery:partner:wikidata": "Q20714323",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-We 10:00-21:00; Th-Sa 10:00-21:30; Su 10:30-20:30",
+        "phone": "+1 217-726-9880",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/springfield/2585-wabash-avenue"
+      },
+      "lat": 39.7645041,
+      "lon": -89.7048596
+    },
+    {
+      "type": "node",
+      "id": 4450340395,
+      "tags": {
+        "addr:city": "Lake Zurich",
+        "addr:housenumber": "997",
+        "addr:postcode": "60047",
+        "addr:state": "IL",
+        "addr:street": "South Rand Road",
+        "amenity": "fast_food",
+        "branch": "Rand & Old Rand",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:00-22:00; Su 10:00-21:00",
+        "phone": "+1 847-550-8669",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/lake-zurich/1411"
+      },
+      "lat": 42.1806506,
+      "lon": -88.0811493
+    },
+    {
+      "type": "node",
+      "id": 4833586757,
+      "tags": {
+        "addr:city": "Wheaton",
+        "addr:housenumber": "264",
+        "addr:postcode": "60187",
+        "addr:state": "IL",
+        "addr:street": "Danada Square West",
+        "amenity": "fast_food",
+        "branch": "Naperville & Butterfie",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:30; Fr 09:30-21:30; Sa 09:30-21:00; Su 10:00-21:30",
+        "phone": "+1 630-665-3345",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/wheaton/990"
+      },
+      "lat": 41.8299116,
+      "lon": -88.1054857
+    },
+    {
+      "type": "node",
+      "id": 5194635919,
+      "tags": {
+        "addr:city": "Schaumburg",
+        "addr:housenumber": "100B",
+        "addr:postcode": "60173",
+        "addr:state": "IL",
+        "addr:street": "East Golf Road",
+        "addr:unit": "B",
+        "amenity": "fast_food",
+        "branch": "Golf & Roselle",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 09:30-22:00; Fr 09:30-22:30; Sa 10:00-22:30; Su 10:00-22:00",
+        "phone": "+1 847-519-0880",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/schaumburg/1450"
+      },
+      "lat": 42.0500812,
+      "lon": -88.0770712
+    },
+    {
+      "type": "node",
+      "id": 5479059252,
+      "tags": {
+        "addr:city": "Wheeling",
+        "addr:housenumber": "300",
+        "addr:postcode": "60090",
+        "addr:state": "IL",
+        "addr:street": "East Dundee Road",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 42.1401584,
+      "lon": -87.910149
+    },
+    {
+      "type": "node",
+      "id": 6215732492,
+      "tags": {
+        "addr:city": "Mount Prospect",
+        "addr:housenumber": "1200",
+        "addr:postcode": "60056",
+        "addr:state": "IL",
+        "addr:street": "East Central Road",
+        "amenity": "fast_food",
+        "branch": "Rand & Central",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:30; Fr 09:30-22:00; Sa 10:00-22:00; Su 10:00-21:30",
+        "phone": "+1 847-222-9713",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/mt-prospect/1529"
+      },
+      "lat": 42.0665768,
+      "lon": -87.920281
+    },
+    {
+      "type": "node",
+      "id": 6328215083,
+      "tags": {
+        "addr:city": "St. Charles",
+        "addr:housenumber": "110",
+        "addr:postcode": "60175",
+        "addr:state": "IL",
+        "addr:street": "South Kirk Road",
+        "amenity": "fast_food",
+        "branch": "Main & Kirk",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 09:30-21:30; Su 09:30-21:00",
+        "phone": "+1 630-587-1633",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/saint-charles/583"
+      },
+      "lat": 41.9204793,
+      "lon": -88.2751098
+    },
+    {
+      "type": "node",
+      "id": 6491931989,
+      "tags": {
+        "addr:city": "Vernon Hills",
+        "addr:housenumber": "1640",
+        "addr:postcode": "60061",
+        "addr:state": "IL",
+        "addr:street": "Milwaukee Avenue",
+        "amenity": "fast_food",
+        "branch": "Milwaukee & South Artaius",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:30-21:00; Su 11:00-20:00",
+        "phone": "+1 847-573-8128",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/vernon-hills/1579"
+      },
+      "lat": 42.2559371,
+      "lon": -87.9482729
+    },
+    {
+      "type": "node",
+      "id": 6493220447,
+      "tags": {
+        "addr:city": "Glenview",
+        "addr:housenumber": "2145",
+        "addr:postcode": "60025",
+        "addr:state": "IL",
+        "addr:street": "Willow Road",
+        "amenity": "fast_food",
+        "branch": "Willow & Old Willow",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "10:00-21:30",
+        "phone": "+1 847-486-0762",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/glenview/1915"
+      },
+      "lat": 42.1044954,
+      "lon": -87.8128912
+    },
+    {
+      "type": "node",
+      "id": 6744538494,
+      "tags": {
+        "addr:city": "Batavia",
+        "addr:housenumber": "125",
+        "addr:postcode": "60510",
+        "addr:state": "IL",
+        "addr:street": "North Randall Road",
+        "amenity": "fast_food",
+        "branch": "Randall & McKee",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:30; Fr-Sa 10:00-22:00; Su 10:00-21:00",
+        "phone": "+1 630-482-9867",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/batavia/1284"
+      },
+      "lat": 41.8530841,
+      "lon": -88.3412666
+    },
+    {
+      "type": "node",
+      "id": 7140241077,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "2730",
+        "addr:postcode": "62702",
+        "addr:state": "IL",
+        "addr:street": "North Dirksen Parkway",
+        "amenity": "fast_food",
+        "branch": "Dirksen & Sangamon",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "delivery": "yes",
+        "delivery:partner": "DoorDash",
+        "delivery:partner:wikidata": "Q207143",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:30-20:30; Fr-Sa 10:30-21:00; Su 10:30-20:00",
+        "phone": "+1 217-528-9790",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/springfield/2730-n-dirksen-pkwy"
+      },
+      "lat": 39.8396593,
+      "lon": -89.6039211
+    },
+    {
+      "type": "node",
+      "id": 7246594804,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "1654",
+        "addr:postcode": "60643",
+        "addr:state": "IL",
+        "addr:street": "West 119th Street",
+        "amenity": "fast_food",
+        "branch": "119th & Marshfield",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:00-21:30; Su 10:30-21:00",
+        "phone": "+1 773-821-0265",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/chicago/1422"
+      },
+      "lat": 41.6777211,
+      "lon": -87.6640852
+    },
+    {
+      "type": "node",
+      "id": 7262581440,
+      "tags": {
+        "addr:city": "North Riverside",
+        "addr:housenumber": "2300",
+        "addr:postcode": "60546",
+        "addr:state": "IL",
+        "addr:street": "South Harlem Avenue",
+        "amenity": "fast_food",
+        "branch": "Harlem & Cermak",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr-Sa 10:00-22:30; Su 10:30-22:00",
+        "phone": "+1 708-447-8972",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/north-riverside/1600"
+      },
+      "lat": 41.8487432,
+      "lon": -87.8041039
+    },
+    {
+      "type": "node",
+      "id": 7340623054,
+      "tags": {
+        "addr:city": "Skokie",
+        "addr:housenumber": "5220",
+        "addr:postcode": "60077",
+        "addr:state": "IL",
+        "addr:street": "West Dempster Street",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/userlocation/1681/il/skokie/5220-west-dempster"
+      },
+      "lat": 42.0411727,
+      "lon": -87.7577159
+    },
+    {
+      "type": "node",
+      "id": 7456841280,
+      "tags": {
+        "addr:city": "Norridge",
+        "addr:housenumber": "4140",
+        "addr:postcode": "60706",
+        "addr:state": "IL",
+        "addr:street": "North Harlem Avenue",
+        "amenity": "fast_food",
+        "branch": "Irving Plaza Mall",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 11:00-20:00; Su 11:00-18:00",
+        "phone": "+1 708-452-0746",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/norridge/1574"
+      },
+      "lat": 41.9544747,
+      "lon": -87.809415
+    },
+    {
+      "type": "node",
+      "id": 7520901307,
+      "tags": {
+        "addr:city": "Cicero",
+        "addr:housenumber": "3076",
+        "addr:postcode": "60804",
+        "addr:state": "IL",
+        "addr:street": "South Cicero Avenue",
+        "amenity": "fast_food",
+        "branch": "31st & Cicero",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 09:00-22:00; Fr-Sa 09:00-22:30; Su 09:30-22:00",
+        "phone": "+1 708-222-3355",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/cicero/1617"
+      },
+      "lat": 41.8369992,
+      "lon": -87.7443705
+    },
+    {
+      "type": "node",
+      "id": 7845233860,
+      "tags": {
+        "addr:city": "Matteson",
+        "addr:housenumber": "4700",
+        "addr:postcode": "60443",
+        "addr:state": "IL",
+        "addr:street": "Lincoln Highway",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/matteson/757"
+      },
+      "lat": 41.5067291,
+      "lon": -87.7304276
+    },
+    {
+      "type": "node",
+      "id": 7874458848,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "515",
+        "addr:postcode": "60605",
+        "addr:state": "IL",
+        "addr:street": "South State Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "State & Congress",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:00-21:00; Su 09:30-21:00",
+        "phone": "+1 312-663-6617",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/chicago/2012"
+      },
+      "lat": 41.8752521,
+      "lon": -87.6273835
+    },
+    {
+      "type": "node",
+      "id": 7942880090,
+      "tags": {
+        "addr:city": "Mount Vernon",
+        "addr:housenumber": "4201",
+        "addr:postcode": "62864",
+        "addr:state": "IL",
+        "addr:street": "Broadway Street",
+        "amenity": "fast_food",
+        "branch": "Broadway & 42nd",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:00; Fr-Sa 10:00-21:30; Su 10:00-21:00",
+        "phone": "+1 618-242-2579",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/mount-vernon/2079"
+      },
+      "lat": 38.3136326,
+      "lon": -88.9424596
+    },
+    {
+      "type": "node",
+      "id": 8117903917,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "1250",
+        "addr:postcode": "60607",
+        "addr:state": "IL",
+        "addr:street": "South Canal Street",
+        "amenity": "fast_food",
+        "branch": "Roosevelt & Canal",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 09:00-22:00; Fr-Sa 09:00-22:30; Su 10:00-21:30",
+        "phone": "+1 312-733-8710",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/chicago/2840"
+      },
+      "lat": 41.8658585,
+      "lon": -87.64019
+    },
+    {
+      "type": "node",
+      "id": 8192408060,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "723",
+        "addr:postcode": "60612",
+        "addr:state": "IL",
+        "addr:street": "South Seeley Avenue",
+        "addr:unit": "B",
+        "amenity": "fast_food",
+        "branch": "Ogden Avenue & South Damen Avenue",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "10:00-22:30",
+        "phone": "+1 312-549-9989",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/chicago/3372"
+      },
+      "lat": 41.8724721,
+      "lon": -87.6771843
+    },
+    {
+      "type": "node",
+      "id": 8562831097,
+      "tags": {
+        "access": "private",
+        "addr:city": "Great Lakes",
+        "addr:housenumber": "540",
+        "addr:postcode": "60088",
+        "addr:state": "IL",
+        "addr:street": "Cluverius Avenue",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/userlocation/2508/il/great-lakes/2601-e-paul-jones-st-building-400"
+      },
+      "lat": 42.3203332,
+      "lon": -87.8401947
+    },
+    {
+      "type": "node",
+      "id": 8891710541,
+      "tags": {
+        "addr:city": "Aurora",
+        "addr:country": "US",
+        "addr:county": "DuPage, IL",
+        "addr:housenumber": "848",
+        "addr:postcode": "60504",
+        "addr:state": "IL",
+        "addr:street": "North Illinois Route 59",
+        "addr:unit": "100",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "check_date": "2022-02-21",
+        "cuisine": "chinese",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "opening_hours": "Mo-We, Su 10:00-21:00; Th-Sa 10:00-22:00",
+        "phone": "+1 630 862 2810",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/userlocation/1015/il/aurora/848-north-route-59"
+      },
+      "lat": 41.7687591,
+      "lon": -88.2063465
+    },
+    {
+      "type": "node",
+      "id": 9217234408,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "302",
+        "addr:postcode": "60606",
+        "addr:state": "IL",
+        "addr:street": "South Wells Street",
+        "amenity": "fast_food",
+        "branch": "Wells & Jackson",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "check_date": "2025-04-04",
+        "check_date:smoking": "2025-04-04",
+        "cuisine": "chinese",
+        "indoor_seating": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Fr 09:30-17:00",
+        "outdoor_seating": "no",
+        "phone": "+1 312-588-1572",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/chicago/591"
+      },
+      "lat": 41.8778131,
+      "lon": -87.6339159
+    },
+    {
+      "type": "node",
+      "id": 9367871397,
+      "tags": {
+        "addr:city": "Northlake",
+        "addr:housenumber": "128",
+        "addr:postcode": "60164",
+        "addr:state": "IL",
+        "addr:street": "West North Avenue",
+        "amenity": "fast_food",
+        "branch": "North & Hillside",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:00; Fr 09:30-21:30; Sa 10:00-21:30; Su 10:00-21:00",
+        "phone": "+1 708-409-1219",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/northlake/1365"
+      },
+      "lat": 41.9073412,
+      "lon": -87.9097954
+    },
+    {
+      "type": "node",
+      "id": 9396231926,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "180",
+        "addr:postcode": "60601",
+        "addr:state": "IL",
+        "addr:street": "North Wabash Avenue",
+        "amenity": "fast_food",
+        "branch": "Lake & Wabash",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "indoor_seating": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 09:30-22:00; Su 09:00-22:00",
+        "outdoor_seating": "no",
+        "phone": "+1 312-419-1543",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/chicago/2522"
+      },
+      "lat": 41.8856145,
+      "lon": -87.6265173
+    },
+    {
+      "type": "node",
+      "id": 9455440621,
+      "tags": {
+        "addr:city": "Darien",
+        "addr:housenumber": "2423",
+        "addr:postcode": "60561",
+        "addr:state": "IL",
+        "addr:street": "75th Street",
+        "amenity": "fast_food",
+        "branch": "75th & Lyman",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 09:30-21:30; Fr-Sa 09:30-22:00; Su 09:30-21:30",
+        "phone": "+1 630-910-6086",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/darien/1187"
+      },
+      "lat": 41.750659,
+      "lon": -88.0042387
+    },
+    {
+      "type": "node",
+      "id": 10020369356,
+      "tags": {
+        "addr:city": "Orland Park",
+        "addr:housenumber": "340",
+        "addr:postcode": "60462",
+        "addr:state": "IL",
+        "addr:street": "Orland Square",
+        "amenity": "fast_food",
+        "branch": "Orland Square Mall",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 11:00-19:00; Fr 11:00-20:00; Sa 10:30-20:00; Su 11:00-18:00",
+        "phone": "+1 708-349-2437",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/orland-park/1066"
+      },
+      "lat": 41.6198637,
+      "lon": -87.8485598
+    },
+    {
+      "type": "node",
+      "id": 10110142360,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "750",
+        "addr:postcode": "60607",
+        "addr:state": "IL",
+        "addr:street": "South Halsted Street",
+        "amenity": "fast_food",
+        "branch": "University of Illinois at Chicago",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "check_date": "2026-10-08",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "level": "0",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Fr 11:00-18:00",
+        "phone": "+1 312-413-5615",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/chicago/2753"
+      },
+      "lat": 41.8721112,
+      "lon": -87.648112
+    },
+    {
+      "type": "node",
+      "id": 10279152303,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "22",
+        "addr:postcode": "60611",
+        "addr:state": "IL",
+        "addr:street": "East Chicago Avenue",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 41.8968848,
+      "lon": -87.6273245
+    },
+    {
+      "type": "node",
+      "id": 10628320129,
+      "tags": {
+        "addr:city": "Normal",
+        "addr:housenumber": "312-1",
+        "addr:postcode": "61761",
+        "addr:state": "IL",
+        "addr:street": "South Veterans Parkway",
+        "amenity": "fast_food",
+        "branch": "Veterans Parkway & College",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-We 10:00-22:00; Th-Sa 10:00-22:30; Su 10:30-22:00",
+        "phone": "+1 309-451-1269",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/normal/1885"
+      },
+      "lat": 40.5054669,
+      "lon": -88.9538286
+    },
+    {
+      "type": "node",
+      "id": 10755305404,
+      "tags": {
+        "addr:city": "Elk Grove Village",
+        "addr:housenumber": "930",
+        "addr:postcode": "60007",
+        "addr:state": "IL",
+        "addr:street": "Busse Road",
+        "amenity": "fast_food",
+        "branch": "Busse & Landmeier",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Fr 09:30-21:00; Sa 10:00-16:00",
+        "phone": "+1 847-593-5781",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/elk-grove-village/669"
+      },
+      "lat": 42.0125078,
+      "lon": -87.9602056
+    },
+    {
+      "type": "node",
+      "id": 10921211160,
+      "tags": {
+        "addr:city": "Bradley",
+        "addr:housenumber": "850",
+        "addr:postcode": "60915",
+        "addr:state": "IL",
+        "addr:street": "North Kinzie Avenue",
+        "amenity": "fast_food",
+        "branch": "Kinzie & Armour",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-20:30; Fr-Sa 10:00-21:00; Su 10:00-20:00",
+        "phone": "+1 815-929-9880",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/bradley/1558"
+      },
+      "lat": 41.1563543,
+      "lon": -87.8505192
+    },
+    {
+      "type": "node",
+      "id": 11404303296,
+      "tags": {
+        "addr:city": "Champaign",
+        "addr:housenumber": "627",
+        "addr:postcode": "61820",
+        "addr:state": "IL",
+        "addr:street": "South Wright Street",
+        "amenity": "fast_food",
+        "branch": "Green & Wright",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "delivery": "yes",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Su 10:00-21:30",
+        "phone": "+1-217-344-3629",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/champaign/2341",
+        "wheelchair": "yes"
+      },
+      "lat": 40.1104344,
+      "lon": -88.2290979
+    },
+    {
+      "type": "node",
+      "id": 11990759014,
+      "tags": {
+        "addr:city": "Pekin",
+        "addr:housenumber": "2015",
+        "addr:postcode": "61554",
+        "addr:state": "IL",
+        "addr:street": "Court Street",
+        "amenity": "fast_food",
+        "branch": "Court St & South Parkway Drive",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:00; Fr-Sa 10:00-22:00; Su 10:30-21:00",
+        "phone": "+1 309-423-3288",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/pekin/3620"
+      },
+      "lat": 40.5592826,
+      "lon": -89.6174212
+    },
+    {
+      "type": "node",
+      "id": 11991121597,
+      "tags": {
+        "addr:city": "Joliet",
+        "addr:housenumber": "2410",
+        "addr:postcode": "60436",
+        "addr:state": "IL",
+        "addr:street": "West Jefferson Street",
+        "amenity": "fast_food",
+        "branch": "Jefferson & Barney",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "09:30-21:30",
+        "phone": "+1 815-744-9397",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/joliet/1718"
+      },
+      "lat": 41.5216665,
+      "lon": -88.1422916
+    },
+    {
+      "type": "node",
+      "id": 12053047279,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 38.5965463,
+      "lon": -89.979404
+    },
+    {
+      "type": "node",
+      "id": 12084292710,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "3000",
+        "addr:postcode": "60623",
+        "addr:state": "IL",
+        "addr:street": "West 26th Street",
+        "addr:street:name": "26th",
+        "addr:street:prefix": "West",
+        "addr:street:type": "Street",
+        "amenity": "fast_food",
+        "branch": "26th & Sacrament",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "chicago:building_id": "396761",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:00-21:00; Su 10:30-20:30",
+        "phone": "+1 773-376-8088",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/chicago/2693"
+      },
+      "lat": 41.8449664,
+      "lon": -87.7003484
+    },
+    {
+      "type": "node",
+      "id": 12235707309,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 40.4844576,
+      "lon": -89.0223213
+    },
+    {
+      "type": "node",
+      "id": 12363383080,
+      "tags": {
+        "addr:city": "Rolling Meadows",
+        "addr:housenumber": "1454",
+        "addr:postcode": "60008",
+        "addr:state": "IL",
+        "addr:street": "Golf Road",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/rolling-meadows/515"
+      },
+      "lat": 42.0517066,
+      "lon": -87.9989386
+    },
+    {
+      "type": "node",
+      "id": 12563653538,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "520",
+        "addr:postcode": "60611",
+        "addr:state": "IL",
+        "addr:street": "North Michigan Avenue",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/chicago/1878"
+      },
+      "lat": 41.8914554,
+      "lon": -87.624907
+    },
+    {
+      "type": "node",
+      "id": 12661275183,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 42.1576151,
+      "lon": -87.9604782
+    },
+    {
+      "type": "node",
+      "id": 12898334753,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 38.5346475,
+      "lon": -89.868236
+    },
+    {
+      "type": "node",
+      "id": 13373092200,
+      "tags": {
+        "addr:city": "Champaign",
+        "addr:housenumber": "2000",
+        "addr:postcode": "61820",
+        "addr:state": "IL",
+        "addr:street": "North Neil Street",
+        "addr:unit": "712",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "check_date": "2025-12-17",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-19:00",
+        "phone": "+1-217-356-7700",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/champaign/491",
+        "wheelchair": "yes"
+      },
+      "lat": 40.1420528,
+      "lon": -88.2441858
+    },
+    {
+      "type": "node",
+      "id": 13650843259,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "3380",
+        "addr:postcode": "60625",
+        "addr:state": "IL",
+        "addr:street": "West Lawrence Avenue",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:30-21:30, Fr-Sa 10:30-22:00, Su 11:00-21:00",
+        "phone": "+1-872-710-0977",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/chicago/3878"
+      },
+      "lat": 41.9687372,
+      "lon": -87.7131683
+    },
+    {
+      "type": "node",
+      "id": 14026986237,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 41.9470973,
+      "lon": -87.6547499
+    },
+    {
+      "type": "node",
+      "id": 14068885419,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "4425",
+        "addr:postcode": "60639",
+        "addr:state": "IL",
+        "addr:street": "West North Avenue",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "description": "Location number 5005",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 41.9093428,
+      "lon": -87.7379416
+    },
+    {
+      "type": "node",
+      "id": 14170938823,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 42.1711858,
+      "lon": -88.3359947
+    },
+    {
+      "type": "node",
+      "id": 14181268673,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 42.2340191,
+      "lon": -88.8347757
+    },
+    {
+      "type": "way",
+      "id": 165036558,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "6201",
+        "addr:postcode": "60659",
+        "addr:state": "IL",
+        "addr:street": "North Lincoln Avenue",
+        "addr:street:name": "Lincoln",
+        "addr:street:prefix": "North",
+        "addr:street:type": "Avenue",
+        "amenity": "fast_food",
+        "branch": "Lincoln & McCormick",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Su-Th 10:00-21:00; Fr,Sa 10:00-21:30",
+        "phone": "+1 773-478-6870",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/chicago/1345"
+      },
+      "center": {
+        "lat": 41.994919949999996,
+        "lon": -87.71427484999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 192761192,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.379421949999994,
+        "lon": -88.07323539999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 209467309,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "2949",
+        "addr:postcode": "60618",
+        "addr:state": "IL",
+        "addr:street": "West Addison Street",
+        "addr:street:name": "Addison",
+        "addr:street:prefix": "West",
+        "addr:street:type": "Street",
+        "amenity": "fast_food",
+        "branch": "Addison & Sacramento",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "building:levels": "1",
+        "chicago:building_id": "181692",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:00-22:30; Su 10:30-22:00",
+        "phone": "+1 773-267-1839",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/chicago/2456"
+      },
+      "center": {
+        "lat": 41.94645845,
+        "lon": -87.70194344999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 224607546,
+      "tags": {
+        "addr:city": "Bolingbrook",
+        "addr:housenumber": "207",
+        "addr:postcode": "60440",
+        "addr:state": "IL",
+        "addr:street": "North Weber Road",
+        "amenity": "fast_food",
+        "branch": "Weber & Boughton",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 09:30-22:00; Fr-Sa 09:30-22:30; Su 09:30-21:00",
+        "phone": "+1 630-378-2076",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/bolingbrook/1624"
+      },
+      "center": {
+        "lat": 41.7004417,
+        "lon": -88.12498140000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 237067392,
+      "tags": {
+        "addr:city": "Calumet City",
+        "addr:housenumber": "1300",
+        "addr:postcode": "60409",
+        "addr:state": "IL",
+        "addr:street": "Torrence Avenue",
+        "amenity": "fast_food",
+        "branch": "Torrence & River Oak",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:00-21:00; Su 10:30-21:00",
+        "phone": "+1 708-862-1609",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/calumet-city/1091"
+      },
+      "center": {
+        "lat": 41.59894575,
+        "lon": -87.55946519999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 249488956,
+      "tags": {
+        "addr:city": "Oswego",
+        "addr:housenumber": "2630",
+        "addr:postcode": "60543",
+        "addr:state": "IL",
+        "addr:street": "Route 34",
+        "addr:unit": "5",
+        "amenity": "fast_food",
+        "branch": "Route 34 & Douglas",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Su-Sa 10:00-21:00",
+        "phone": "+1 630-554-3638",
+        "ref": "1591",
+        "source:addr": "Kendall County",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/oswego/1591"
+      },
+      "center": {
+        "lat": 41.70234405,
+        "lon": -88.31011295000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 253651303,
+      "tags": {
+        "addr:city": "Carbondale",
+        "addr:housenumber": "1039",
+        "addr:postcode": "62901",
+        "addr:street": "East Main Street",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "phone": "+1 618 457 6729",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 37.7281738,
+        "lon": -89.19968349999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 266710686,
+      "tags": {
+        "addr:city": "Palatine",
+        "addr:housenumber": "1165",
+        "addr:postcode": "60074",
+        "addr:state": "IL",
+        "addr:street": "East Dundee Road",
+        "amenity": "fast_food",
+        "branch": "Rand & Dundee",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Fr 09:30-21:00; Sa 10:00-21:30; Su 09:30-21:00",
+        "phone": "+1 847-776-7190",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/palatine/1315"
+      },
+      "center": {
+        "lat": 42.13878985,
+        "lon": -88.01561290000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 291941757,
+      "tags": {
+        "addr:city": "McHenry",
+        "addr:housenumber": "2476",
+        "addr:postcode": "60050",
+        "addr:state": "IL",
+        "addr:street": "North Richmond Road",
+        "amenity": "fast_food",
+        "branch": "Richmond & Route 53",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:00; Fr 10:00-22:00; Sa-Su 10:00-21:30",
+        "phone": "+1 815-344-8028",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/mchenry/2048"
+      },
+      "center": {
+        "lat": 42.361416500000004,
+        "lon": -88.26648560000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 352332513,
+      "tags": {
+        "addr:city": "Bolingbrook",
+        "addr:country": "US",
+        "addr:housenumber": "781",
+        "addr:postcode": "60440",
+        "addr:state": "IL",
+        "addr:street": "Boughton Road",
+        "amenity": "fast_food",
+        "branch": "Boughton & I-355",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "fax": "+1 630-783-1871",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:00-22:00; Su 10:00-21:30",
+        "phone": "+1 630-783-1845",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/bolingbrook/1216"
+      },
+      "center": {
+        "lat": 41.7238926,
+        "lon": -88.03616780000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 529533641,
+      "tags": {
+        "addr:city": "Naperville",
+        "addr:country": "US",
+        "addr:county": "DuPage, IL",
+        "addr:housenumber": "1123",
+        "addr:postcode": "60563",
+        "addr:state": "IL",
+        "addr:street": "East Ogden Avenue",
+        "amenity": "fast_food",
+        "branch": "Ogden & East Avenue",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "check_date": "2025-09-26",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "napervillegis:loc_id": "142430",
+        "napervillegis:prop_id": "63849",
+        "opening_hours": "Mo-Sa 10:30-21:00; Su 10:30-20:00",
+        "phone": "+1 630-548-8106",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/userlocation/2058/il/naperville/1123-e-ogden-ave"
+      },
+      "center": {
+        "lat": 41.79314495,
+        "lon": -88.12782945000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 547964653,
+      "tags": {
+        "addr:city": "East Peoria",
+        "addr:housenumber": "111",
+        "addr:postcode": "61611",
+        "addr:state": "IL",
+        "addr:street": "Spinder Drive",
+        "amenity": "fast_food",
+        "branch": "Washington & Altorfer",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-We 10:00-21:30; Th-Sa 10:00-22:00; Su 10:30-21:00",
+        "phone": "+1 309-699-0698",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/east-peoria/2251"
+      },
+      "center": {
+        "lat": 40.66946835,
+        "lon": -89.58286080000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 568354779,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.3661972,
+        "lon": -89.01606955
+      }
+    },
+    {
+      "type": "way",
+      "id": 627658969,
+      "tags": {
+        "addr:city": "Marion",
+        "addr:housenumber": "2708",
+        "addr:postcode": "62959",
+        "addr:state": "IL",
+        "addr:street": "Walton Way",
+        "amenity": "fast_food",
+        "branch": "2708 Walton Way",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:00; Fr-Sa 10:00-21:30; Su 10:00-21:00",
+        "phone": "+1 618-998-8670",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/marion/2940"
+      },
+      "center": {
+        "lat": 37.74196765,
+        "lon": -88.9684838
+      }
+    },
+    {
+      "type": "way",
+      "id": 643895563,
+      "tags": {
+        "addr:city": "Quincy",
+        "addr:housenumber": "3136",
+        "addr:postcode": "62301",
+        "addr:state": "IL",
+        "addr:street": "Broadway Street",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.934873100000004,
+        "lon": -91.36471540000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 683025216,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "6501",
+        "addr:postcode": "60638",
+        "addr:state": "IL",
+        "addr:street": "South Cicero Avenue",
+        "amenity": "fast_food",
+        "branch": "65th & Cicero",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 09:00-21:30; Fr 09:00-22:00; Sa 09:00-22:30; Su 09:30-22:00",
+        "phone": "+1 773-581-6987",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/chicago/2685"
+      },
+      "center": {
+        "lat": 41.7745994,
+        "lon": -87.74184935000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 687859840,
+      "tags": {
+        "addr:city": "Skokie",
+        "addr:housenumber": "7160",
+        "addr:postcode": "60077",
+        "addr:state": "IL",
+        "addr:street": "Carpenter Road",
+        "addr:unit": "32",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "phone": "+18476757708",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/skokie/1983"
+      },
+      "center": {
+        "lat": 42.01115015,
+        "lon": -87.76229999999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 702569234,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.5857132,
+        "lon": -87.72076394999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 708351142,
+      "tags": {
+        "addr:city": "Mokena",
+        "addr:housenumber": "11255",
+        "addr:postcode": "60448",
+        "addr:state": "IL",
+        "addr:street": "Lincoln Highway",
+        "amenity": "fast_food",
+        "branch": "Lincoln Highway & Wolf",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:00; Fr-Sa 10:00-21:30; Su 10:30-20:30",
+        "phone": "+1 815-469-6881",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/mokena/2483"
+      },
+      "center": {
+        "lat": 41.50325055,
+        "lon": -87.89073489999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 718631013,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.984656099999995,
+        "lon": -88.34167604999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 762340011,
+      "tags": {
+        "addr:city": "Vernon Hills",
+        "addr:housenumber": "252",
+        "addr:postcode": "60061",
+        "addr:state": "IL",
+        "addr:street": "East Townline Road",
+        "amenity": "fast_food",
+        "branch": "East Townline Road & Ring Drive",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:00-22:00; Su 10:00-21:30",
+        "phone": "+1 708-852-3232",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/vernon-hills/3111"
+      },
+      "center": {
+        "lat": 42.240849,
+        "lon": -87.95733050000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 894011850,
+      "tags": {
+        "addr:city": "Waukegan",
+        "addr:housenumber": "960",
+        "addr:postcode": "60085",
+        "addr:state": "IL",
+        "addr:street": "Waukegan Road",
+        "amenity": "fast_food",
+        "branch": "Fountain Square & Route 43",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo 10:30-21:30; Tu-Th 10:30-22:00; Fr-Sa 10:30-22:30; Su 10:30-21:00",
+        "phone": "+1 847-473-9077",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/waukegan/2531"
+      },
+      "center": {
+        "lat": 42.34200525,
+        "lon": -87.89583564999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 930852000,
+      "tags": {
+        "addr:city": "Homewood",
+        "addr:housenumber": "17932",
+        "addr:postcode": "60430",
+        "addr:state": "IL",
+        "addr:street": "Halsted Street",
+        "amenity": "fast_food",
+        "branch": "175th & Halsted",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:00; Fr-Sa 10:00-21:30; Su 10:30-20:30",
+        "phone": "+1 708-206-9926",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/homewood/17932-halsted-street"
+      },
+      "center": {
+        "lat": 41.56358925,
+        "lon": -87.63678144999994
+      }
+    },
+    {
+      "type": "way",
+      "id": 984135012,
+      "tags": {
+        "addr:city": "DeKalb",
+        "addr:country": "US",
+        "addr:housenumber": "2434",
+        "addr:postcode": "60115",
+        "addr:state": "IL",
+        "addr:street": "Sycamore Road",
+        "amenity": "fast_food",
+        "branch": "Sycamore & Greenwood",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "delivery": "yes",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 09:30-21:30; Fr 09:30-22:00; Sa 10:00-21:30; Su 10:00-21:00",
+        "phone": "+1 815-748-3333",
+        "reservation": "no",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/dekalb/1441",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 41.954247949999996,
+        "lon": -88.72266459999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 984907467,
+      "tags": {
+        "addr:city": "Downers Grove",
+        "addr:housenumber": "1010",
+        "addr:postcode": "60515",
+        "addr:state": "IL",
+        "addr:street": "Ogden Avenue",
+        "amenity": "fast_food",
+        "branch": "Main & Ogden",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Fr 09:30-21:30; Sa-Su 10:00-21:30",
+        "phone": "+1 630-963-8686",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/downers-grove/2969"
+      },
+      "center": {
+        "lat": 41.8091544,
+        "lon": -88.01170624999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021358410,
+      "tags": {
+        "addr:city": "Niles",
+        "addr:housenumber": "9347",
+        "addr:postcode": "60714",
+        "addr:state": "IL",
+        "addr:street": "North Milwaukee Avenue",
+        "amenity": "fast_food",
+        "branch": "Milwaukee & Maryland",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:30; Fr-Su 10:00-22:00",
+        "phone": "+1 847-696-6320",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/niles/2927"
+      },
+      "center": {
+        "lat": 42.0505318,
+        "lon": -87.83396590000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1032978940,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "6420",
+        "addr:postcode": "60707",
+        "addr:state": "IL",
+        "addr:street": "West Fullerton Avenue",
+        "amenity": "fast_food",
+        "branch": "Fullerton Avenue & Narragansett Avenue",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Fr 09:30-22:00; Sa 10:00-22:00; Su 09:30-22:00",
+        "phone": "+1 773-435-9818",
+        "takeaway": "yes",
+        "website": "https://order.pandaexpress.com/order/action/carryout/slug/fullerton-ave-narragansett-ave-panda-express"
+      },
+      "center": {
+        "lat": 41.92398075,
+        "lon": -87.78697754999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1055483206,
+      "tags": {
+        "addr:city": "Countryside",
+        "addr:housenumber": "185",
+        "addr:postcode": "60525",
+        "addr:state": "IL",
+        "addr:street": "Countryside Plaza",
+        "amenity": "fast_food",
+        "branch": "La Grange & 60th",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 09:30-22:00; Fr-Sa 09:30-22:30; Su 10:00-21:30",
+        "phone": "+1 708-352-2060",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/countryside/1054",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 41.78237285,
+        "lon": -87.86878845000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1091995065,
+      "tags": {
+        "addr:city": "Plainfield",
+        "addr:country": "US",
+        "addr:county": "Will, IL",
+        "addr:housenumber": "12632",
+        "addr:postcode": "60585",
+        "addr:state": "IL",
+        "addr:street": "South Illinois Route 59",
+        "addr:unit": "108",
+        "amenity": "fast_food",
+        "branch": "127th & Route 59",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "check_date": "2022-09-04",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th, Su 10:30-20:30; Fr, Sa 10:30-21:00",
+        "phone": "+1 815-439-8153",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/plainfield/12632-s-route-59"
+      },
+      "center": {
+        "lat": 41.65327495,
+        "lon": -88.20455894999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1134314849,
+      "tags": {
+        "addr:city": "Gurnee",
+        "addr:postcode": "60031",
+        "addr:state": "IL",
+        "amenity": "fast_food",
+        "branch": "Grand & Brookside",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building:part": "retail",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:00-21:30; Su 10:30-20:30",
+        "operator": "chinese",
+        "phone": "+1 847-856-3971",
+        "ref": "23",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/gurnee/516"
+      },
+      "center": {
+        "lat": 42.38511215,
+        "lon": -87.97817380000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1272219522,
+      "tags": {
+        "addr:city": "Urbana",
+        "addr:housenumber": "106",
+        "addr:postcode": "61801",
+        "addr:state": "IL",
+        "addr:street": "East University Avenue",
+        "amenity": "fast_food",
+        "branch": "University & Vine",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2026-08-20",
+        "cuisine": "chinese",
+        "delivery": "yes",
+        "diet:pescetarian": "yes",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Su-Th 10:00-21:30; Fr,Sa 10:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-217-367-1371",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/urbana/2836",
+        "website:menu": "https://www.pandaexpress.com/locations/il/urbana/2836#block-menublock"
+      },
+      "center": {
+        "lat": 40.1168069,
+        "lon": -88.20669935000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1288807774,
+      "tags": {
+        "addr:city": "Effingham",
+        "addr:housenumber": "1203",
+        "addr:postcode": "62401",
+        "addr:state": "IL",
+        "addr:street": "North Keller Drive",
+        "amenity": "fast_food",
+        "branch": "Keller & Evergreen",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "check_date": "2025-04-02",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 09:30-22:00; Su 10:30-21:30",
+        "phone": "+1-217-342-6699",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/effingham/2023"
+      },
+      "center": {
+        "lat": 39.1372521,
+        "lon": -88.56521595000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1319737955,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "1730",
+        "addr:postcode": "60614",
+        "addr:state": "IL",
+        "addr:street": "West Fullerton Avenue",
+        "addr:unit": "25",
+        "amenity": "fast_food",
+        "branch": "Clybourn & Fullerton",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr-Sa 10:00-22:30; Su 10:30-21:00",
+        "phone": "+1 773-935-6128",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/chicago/1975"
+      },
+      "center": {
+        "lat": 41.92701285,
+        "lon": -87.67333274999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1327946670,
+      "tags": {
+        "addr:city": "Oak Lawn",
+        "addr:housenumber": "6152",
+        "addr:postcode": "60453",
+        "addr:state": "IL",
+        "addr:street": "West 95th Street",
+        "amenity": "fast_food",
+        "branch": "95th & Melvina",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:00-21:30; Su 10:30-21:30",
+        "phone": "+1 708-598-9056",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/oak-lawn/1368"
+      },
+      "center": {
+        "lat": 41.71986435,
+        "lon": -87.77474665
+      }
+    },
+    {
+      "type": "way",
+      "id": 1328067649,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.8598703,
+        "lon": -88.00760034999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1331761682,
+      "tags": {
+        "addr:city": "Melrose Park",
+        "addr:housenumber": "8600",
+        "addr:postcode": "60160",
+        "addr:state": "IL",
+        "addr:street": "North Avenue",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/melrose-park/3276"
+      },
+      "center": {
+        "lat": 41.90778965,
+        "lon": -87.83935685
+      }
+    },
+    {
+      "type": "way",
+      "id": 1334375523,
+      "tags": {
+        "addr:city": "Orland Park",
+        "addr:housenumber": "7140",
+        "addr:postcode": "60462",
+        "addr:state": "IL",
+        "addr:street": "West 159th Street",
+        "amenity": "fast_food",
+        "branch": "159th & Harlem",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:30; Fr-Sa 10:00-22:00; Su 10:30-20:30",
+        "phone": "+1 708-444-8297",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/orland-park/1418"
+      },
+      "center": {
+        "lat": 41.6026021,
+        "lon": -87.79273705000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1336317645,
+      "tags": {
+        "addr:city": "Orland Park",
+        "addr:housenumber": "33",
+        "addr:postcode": "60462",
+        "addr:state": "IL",
+        "addr:street": "Orland Square Drive",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/orland-park/1058"
+      },
+      "center": {
+        "lat": 41.6180079,
+        "lon": -87.85272655
+      }
+    },
+    {
+      "type": "way",
+      "id": 1339650471,
+      "tags": {
+        "addr:city": "Crestwood",
+        "addr:housenumber": "13581",
+        "addr:postcode": "60445",
+        "addr:state": "IL",
+        "addr:street": "Cicero Avenue",
+        "amenity": "fast_food",
+        "branch": "135th & Cicero",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:00; Fr-Sa 10:00-21:30; Su 10:30-20:30",
+        "phone": "+1 708-389-7869",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/crestwood/1524"
+      },
+      "center": {
+        "lat": 41.64589665,
+        "lon": -87.73728204999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1359648126,
+      "tags": {
+        "addr:city": "Oak Lawn",
+        "addr:housenumber": "4801",
+        "addr:postcode": "60453",
+        "addr:state": "IL",
+        "addr:street": "West 87th Street",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/oak-lawn/3621"
+      },
+      "center": {
+        "lat": 41.73388035,
+        "lon": -87.7416255
+      }
+    },
+    {
+      "type": "way",
+      "id": 1415514581,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.592942199999996,
+        "lon": -89.95320659999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1431253634,
+      "tags": {
+        "addr:city": "Edwardsville",
+        "addr:housenumber": "2337",
+        "addr:postcode": "62025",
+        "addr:state": "IL",
+        "addr:street": "Troy Road",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.78428445,
+        "lon": -89.95189245
+      }
+    },
+    {
+      "type": "way",
+      "id": 1457891689,
+      "tags": {
+        "addr:city": "Mattoon",
+        "addr:housenumber": "1412",
+        "addr:postcode": "61938",
+        "addr:state": "IL",
+        "addr:street": "Fort Worth Way",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "check_date": "2026-07-08",
+        "cuisine": "chinese",
+        "delivery": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Su 10:30-21:30",
+        "phone": "+1-217-606-7798",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/mattoon/3893"
+      },
+      "center": {
+        "lat": 39.483308,
+        "lon": -88.32555115000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1463956122,
+      "tags": {
+        "addr:city": "Willowbrook",
+        "addr:housenumber": "7505",
+        "addr:postcode": "60527",
+        "addr:state": "IL",
+        "addr:street": "Kingery Highway",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "takeaway": "yes",
+        "toilets": "yes"
+      },
+      "center": {
+        "lat": 41.7521956,
+        "lon": -87.9439663
+      }
+    },
+    {
+      "type": "way",
+      "id": 1488466913,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.9172837,
+        "lon": -88.9562254
+      }
+    },
+    {
+      "type": "way",
+      "id": 1508696442,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "2316",
+        "addr:postcode": "61614",
+        "addr:state": "IL",
+        "addr:street": "West War Memorial Drive",
+        "amenity": "fast_food",
+        "branch": "Northwoods Mall",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:00-21:30; Su 10:30-21:00",
+        "phone": "+1 309-681-9702",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/il/peoria/1795"
+      },
+      "center": {
+        "lat": 40.74358495,
+        "lon": -89.62973720000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1551853710,
+      "tags": {
+        "addr:city": "Moline",
+        "addr:housenumber": "3714",
+        "addr:postcode": "61265",
+        "addr:state": "IL",
+        "addr:street": "39th Avenue Drive",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.471190199999995,
+        "lon": -90.48637910000002
+      }
+    }
+  ]
+}

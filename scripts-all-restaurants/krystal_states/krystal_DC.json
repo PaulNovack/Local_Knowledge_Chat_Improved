@@ -1,0 +1,41 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "krystal",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T07:20:37.151586+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9473039129,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "3629",
+        "addr:postcode": "20017",
+        "addr:state": "DC",
+        "addr:street": "12th Street Northeast",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "cuisine": "mexican;tex-mex",
+        "happy_hours": "Mo-Su 15:30-19:00",
+        "name": "Krystal Tex-Mex",
+        "not:brand:wikidata": "Q472195",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "phone": "+1 202-888-9125",
+        "website": "https://www.krystaltexmex.com/"
+      },
+      "lat": 38.9343602,
+      "lon": -76.9910039
+    }
+  ]
+}

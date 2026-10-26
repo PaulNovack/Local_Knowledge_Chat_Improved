@@ -1,0 +1,66 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ME",
+    "brand": "chili_s",
+    "source": "https://download.geofabrik.de/north-america/us/maine-latest.osm.pbf",
+    "source_md5": "561ab4eba7b10f360a72f8484b6f08c3",
+    "processed_utc": "2026-10-24T07:05:33.375896+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 375846883,
+      "tags": {
+        "addr:city": "Bangor",
+        "addr:housenumber": "628",
+        "addr:postcode": "04401",
+        "addr:state": "ME",
+        "addr:street": "Stillwater Avenue",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar"
+      },
+      "center": {
+        "lat": 44.83149349999999,
+        "lon": -68.75354064999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 377080755,
+      "tags": {
+        "addr:city": "South Portland",
+        "addr:housenumber": "465",
+        "addr:postcode": "04106",
+        "addr:state": "ME",
+        "addr:street": "Maine Mall Road",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "phone": "+1-207-773-1595",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 43.6318117,
+        "lon": -70.34074694999998
+      }
+    }
+  ]
+}

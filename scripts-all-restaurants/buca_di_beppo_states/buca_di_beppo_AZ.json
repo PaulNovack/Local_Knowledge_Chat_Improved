@@ -1,0 +1,64 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "buca_di_beppo",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 663990971,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "16091",
+        "addr:postcode": "85382",
+        "addr:state": "AZ",
+        "addr:street": "North Arrowhead Fountains Center Drive",
+        "amenity": "restaurant",
+        "brand": "Buca di Beppo",
+        "brand:wikidata": "Q4982340",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Buca di Beppo",
+        "phone": "+1-623-412-9463",
+        "website": "https://www.bucadibeppo.com/"
+      },
+      "center": {
+        "lat": 33.632437100000004,
+        "lon": -112.23678035
+      }
+    },
+    {
+      "type": "way",
+      "id": 808253291,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1730",
+        "addr:postcode": "85204",
+        "addr:state": "AZ",
+        "addr:street": "South Val Vista Drive",
+        "amenity": "restaurant",
+        "brand": "Buca di Beppo",
+        "brand:wikidata": "Q4982340",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Buca di Beppo",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 33.383702549999995,
+        "lon": -111.75439069999999
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MT",
+    "brand": "ihop",
+    "source": "https://download.geofabrik.de/north-america/us/montana-latest.osm.pbf",
+    "source_md5": "abfa2e1bfc18f6c00a77776eb9185b11",
+    "processed_utc": "2026-10-24T07:09:10.271084+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 308452046,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 45.6963377,
+        "lon": -111.06314474999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 449499117,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 46.903722450000004,
+        "lon": -114.03840435000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 505486457,
+      "tags": {
+        "addr:city": "Kalispell",
+        "addr:housenumber": "2425",
+        "addr:postcode": "59901",
+        "addr:state": "MT",
+        "addr:street": "Highway 93 North",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "check_date": "2024-09-01",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Th,Su 06:00-22:00; Fr,Sa 06:00-24:00",
+        "phone": "+1 406-752-5504",
+        "source": "official website",
+        "website": "https://restaurants.ihop.com/en-us/mt/kalispell/breakfast-2425-us-hwy-93-north-3075"
+      },
+      "center": {
+        "lat": 48.23856,
+        "lon": -114.3293021
+      }
+    },
+    {
+      "type": "way",
+      "id": 1361883079,
+      "tags": {
+        "addr:city": "Billings",
+        "addr:housenumber": "2833",
+        "addr:postcode": "59102",
+        "addr:state": "MT",
+        "addr:street": "King Avenue West",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "check_date": "2024-09-01",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "06:30-24:00",
+        "phone": "+1 406-651-8778",
+        "source": "official website",
+        "website": "https://restaurants.ihop.com/en-us/mt/billings/breakfast-2833-king-ave-w-1773"
+      },
+      "center": {
+        "lat": 45.755785,
+        "lon": -108.58528480000001
+      }
+    }
+  ]
+}

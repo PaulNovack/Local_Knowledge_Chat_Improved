@@ -1,0 +1,112 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KY",
+    "brand": "blaze_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/kentucky-latest.osm.pbf",
+    "source_md5": "beee275db6b863afe4847059e1397537",
+    "processed_utc": "2026-10-24T07:04:39.223265+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3364361418,
+      "tags": {
+        "addr:city": "Middletown",
+        "addr:housenumber": "13317",
+        "addr:postcode": "40223",
+        "addr:state": "KY",
+        "addr:street": "Shelbyville Road",
+        "addr:unit": "101",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza"
+      },
+      "lat": 38.2436299,
+      "lon": -85.506207
+    },
+    {
+      "type": "node",
+      "id": 3433086549,
+      "tags": {
+        "addr:city": "Louisville",
+        "addr:housenumber": "4118",
+        "addr:postcode": "40241",
+        "addr:state": "KY",
+        "addr:street": "Summit Plaza Drive",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "check_date": "2026-07-19",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 38.306301,
+      "lon": -85.5777896
+    },
+    {
+      "type": "node",
+      "id": 6781610622,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza"
+      },
+      "lat": 39.0532742,
+      "lon": -84.6559889
+    },
+    {
+      "type": "node",
+      "id": 10746986462,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "check_date": "2023-03-19",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza"
+      },
+      "lat": 36.9461115,
+      "lon": -86.424066
+    },
+    {
+      "type": "way",
+      "id": 300587524,
+      "tags": {
+        "addr:city": "St Matthews",
+        "addr:housenumber": "4848",
+        "addr:postcode": "40207",
+        "addr:state": "KY",
+        "addr:street": "Shelbyville Road",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "building": "yes",
+        "check_date": "2026-01-03",
+        "cuisine": "pizza",
+        "lojic:bgnum": "158010",
+        "name": "Blaze Pizza",
+        "website": "https://locations.blazepizza.com/ky/louisville/4848-shelbyville-road"
+      },
+      "center": {
+        "lat": 38.25023905,
+        "lon": -85.62742645000003
+      }
+    }
+  ]
+}

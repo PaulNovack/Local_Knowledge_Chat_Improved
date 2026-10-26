@@ -1,0 +1,47 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "HI",
+    "brand": "morton_s_the_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/hawaii-latest.osm.pbf",
+    "source_md5": "72d4122e050f63452c0aa341f9272254",
+    "processed_utc": "2026-10-24T07:02:30.197996+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1739899082,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "cuisine": "steak_house",
+        "name": "Morton's The Steakhouse"
+      },
+      "lat": 21.2903803,
+      "lon": -157.8440016
+    },
+    {
+      "type": "node",
+      "id": 8026519657,
+      "tags": {
+        "addr:floor": "1",
+        "amenity": "restaurant",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "cuisine": "steak_house",
+        "level": "0",
+        "name": "Morton's The Steakhouse"
+      },
+      "lat": 21.2911421,
+      "lon": -157.8449213
+    }
+  ]
+}

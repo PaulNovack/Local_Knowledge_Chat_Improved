@@ -1,0 +1,80 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MN",
+    "brand": "village_inn",
+    "source": "https://download.geofabrik.de/north-america/us/minnesota-latest.osm.pbf",
+    "source_md5": "4cabd6519cf6e8b1f74c96f59629df95",
+    "processed_utc": "2026-10-24T07:08:10.045763+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 886487845,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn"
+      },
+      "lat": 45.3370343,
+      "lon": -93.0077044
+    },
+    {
+      "type": "node",
+      "id": 1595734928,
+      "tags": {
+        "addr:city": "Virginia",
+        "addr:housename": "Village Inn",
+        "addr:housenumber": "1500",
+        "addr:postcode": "55792",
+        "addr:state": "MN",
+        "addr:street": "13th Street South",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "drive_in": "no",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "microbrewery": "no",
+        "name": "Village Inn",
+        "opening_hours": "Su-Sa 05:30-23:00",
+        "outdoor_seating": "no",
+        "phone": "+1-218-749-8289",
+        "smoking": "no",
+        "source": "local_knowledge",
+        "takeaway": "yes",
+        "website": "https://www.villageinn.com/locations/700102",
+        "wheelchair": "yes"
+      },
+      "lat": 47.5120161,
+      "lon": -92.5584387
+    },
+    {
+      "type": "way",
+      "id": 194297877,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 46.8494551,
+        "lon": -96.76553394999996
+      }
+    }
+  ]
+}

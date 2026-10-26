@@ -1,0 +1,52 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MN",
+    "brand": "long_john_silver_s",
+    "source": "https://download.geofabrik.de/north-america/us/minnesota-latest.osm.pbf",
+    "source_md5": "4cabd6519cf6e8b1f74c96f59629df95",
+    "processed_utc": "2026-10-24T07:08:10.045763+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5739829573,
+      "tags": {
+        "addr:housenumber": "378",
+        "addr:street": "South Avenue",
+        "amenity": "fast_food",
+        "brand": "Long John Silver's",
+        "brand:wikidata": "Q1535221",
+        "cuisine": "seafood",
+        "level": "2",
+        "name": "Long John Silver's",
+        "opening_hours": "Mo-Fr 10:00-21:30; Sa 09:30-21:30; Su 11:00-19:00",
+        "phone": "+1-952-858-9436",
+        "takeaway": "yes"
+      },
+      "lat": 44.8538234,
+      "lon": -93.242216
+    },
+    {
+      "type": "node",
+      "id": 6397737989,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Long John Silver's",
+        "brand:wikidata": "Q1535221",
+        "cuisine": "seafood",
+        "name": "Long John Silver's",
+        "takeaway": "yes"
+      },
+      "lat": 44.6918457,
+      "lon": -93.2825561
+    }
+  ]
+}

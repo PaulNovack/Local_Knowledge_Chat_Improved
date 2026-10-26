@@ -1,0 +1,63 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KY",
+    "brand": "the_cheesecake_factory",
+    "source": "https://download.geofabrik.de/north-america/us/kentucky-latest.osm.pbf",
+    "source_md5": "beee275db6b863afe4847059e1397537",
+    "processed_utc": "2026-10-24T07:04:39.223265+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3236719694,
+      "tags": {
+        "addr:city": "Lexington",
+        "addr:postcode": "40503",
+        "addr:state": "KY",
+        "addr:street": "Nicholasville Road",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr 11:00-24:00; Sa 00:00-00:30,11:00-24:00; Su 00:00-00:30,10:00-22:00",
+        "smoking": "no"
+      },
+      "lat": 37.9882416,
+      "lon": -84.5272778
+    },
+    {
+      "type": "node",
+      "id": 12452779030,
+      "tags": {
+        "addr:city": "Louisville",
+        "addr:housenumber": "5000",
+        "addr:postcode": "40207",
+        "addr:state": "KY",
+        "addr:street": "Shelbyville Road",
+        "addr:unit": "Suite 1585",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "check_date": "2026-01-03",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 10:00-22:00",
+        "phone": "+1-502-897-3933",
+        "website": "https://locations.thecheesecakefactory.com/ky/louisville-97.html"
+      },
+      "lat": 38.2488457,
+      "lon": -85.6222698
+    }
+  ]
+}

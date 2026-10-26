@@ -1,0 +1,151 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SD",
+    "brand": "buffalo_wild_wings",
+    "source": "https://download.geofabrik.de/north-america/us/south-dakota-latest.osm.pbf",
+    "source_md5": "4d012b130d8682e6f0e1bc093c255981",
+    "processed_utc": "2026-10-24T07:16:00.169778+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2447874020,
+      "tags": {
+        "addr:state": "SD",
+        "amenity": "restaurant",
+        "branch": "Grill & Bar",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building": "commercial",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3",
+        "source": "Bing"
+      },
+      "lat": 43.5581937,
+      "lon": -96.7482984
+    },
+    {
+      "type": "node",
+      "id": 3047845437,
+      "tags": {
+        "addr:state": "SD",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings"
+      },
+      "lat": 44.079579,
+      "lon": -103.2536343
+    },
+    {
+      "type": "node",
+      "id": 5599602064,
+      "tags": {
+        "addr:city": "Sioux Falls",
+        "addr:housenumber": "2601",
+        "addr:postcode": "57106",
+        "addr:state": "SD",
+        "addr:street": "South Louise Avenue",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "cuisine": "wings",
+        "delivery": "no",
+        "name": "Buffalo Wild Wings",
+        "opening_hours": "Mo-Su 11:00-01:00",
+        "outdoor_seating": "no",
+        "phone": "+1-605-274-2382",
+        "short_name": "BW3",
+        "website": "https://www.buffalowildwings.com/en/locations/Detail/3550"
+      },
+      "lat": 43.5219524,
+      "lon": -96.7743145
+    },
+    {
+      "type": "node",
+      "id": 7539066031,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3"
+      },
+      "lat": 43.5432592,
+      "lon": -96.6534139
+    },
+    {
+      "type": "node",
+      "id": 13568750813,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3"
+      },
+      "lat": 44.8893623,
+      "lon": -97.0710368
+    },
+    {
+      "type": "way",
+      "id": 621601113,
+      "tags": {
+        "addr:city": "Brookings",
+        "addr:postcode": "57006",
+        "addr:state": "SD",
+        "addr:street": "8th Street",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building": "yes",
+        "capacity": "200",
+        "cuisine": "wings",
+        "delivery": "no",
+        "name": "Buffalo Wild Wings",
+        "opening_hours": "Su-Th 11:00-23:00, Fr,Sa 11:00-24:00",
+        "outdoor_seating": "yes",
+        "smoking": "isolated",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 44.31291555,
+        "lon": -96.77478035000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1007685322,
+      "tags": {
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "3401",
+        "addr:postcode": "57401",
+        "addr:state": "SD",
+        "addr:street": "6th Avenue Southeast",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building": "yes",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3"
+      },
+      "center": {
+        "lat": 45.4596297,
+        "lon": -98.4402316
+      }
+    }
+  ]
+}

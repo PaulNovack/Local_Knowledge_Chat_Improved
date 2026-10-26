@@ -1,0 +1,896 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "ihop",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1733419951,
+      "tags": {
+        "addr:city": "Seattle",
+        "addr:housenumber": "10002",
+        "addr:postcode": "98133",
+        "addr:state": "WA",
+        "addr:street": "Aurora Avenue North",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-05-11",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-24:00",
+        "phone": "+1-206-517-4467",
+        "website": "https://restaurants.ihop.com/en-us/wa/seattle/breakfast-10002-aurora-ave-n-1755"
+      },
+      "lat": 47.7023384,
+      "lon": -122.344387
+    },
+    {
+      "type": "node",
+      "id": 2387018035,
+      "tags": {
+        "addr:city": "Olympia",
+        "addr:housenumber": "1520",
+        "addr:postcode": "98502",
+        "addr:state": "WA",
+        "addr:street": "Cooper Point Rd SW",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "phone": "+1-360-570-9962",
+        "website": "https://restaurants.ihop.com/en-us/wa/olympia/breakfast-1520-cooper-point-rd-sw-1732"
+      },
+      "lat": 47.0352294,
+      "lon": -122.936947
+    },
+    {
+      "type": "node",
+      "id": 2821729201,
+      "tags": {
+        "addr:city": "Bellingham",
+        "addr:housenumber": "420",
+        "addr:postcode": "98226",
+        "addr:street": "West Bakerview Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2023-12-28",
+        "cuisine": "breakfast;pancake",
+        "delivery": "no",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "IHOP",
+        "opening_hours": "Mo-Th,Su 06:00-22:00; Fr-Sa 06:00-00:00",
+        "outdoor_seating": "no",
+        "phone": "+1-360-255-2048",
+        "ref": "3169",
+        "smoking": "no",
+        "website": "https://www.ihop.com/",
+        "wheelchair": "yes"
+      },
+      "lat": 48.789986,
+      "lon": -122.496134
+    },
+    {
+      "type": "node",
+      "id": 3605902833,
+      "tags": {
+        "addr:city": "Tukwila",
+        "addr:country": "US",
+        "addr:housenumber": "17250",
+        "addr:postcode": "98188",
+        "addr:state": "WA",
+        "addr:street": "Southcenter Parkway",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-09-22",
+        "cuisine": "breakfast;pancake",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "name": "IHOP",
+        "opening_hours": "Mo-Th,Su 06:00-22:00; Fr,Sa 06:00-24:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-866-888-3501",
+        "website": "https://restaurants.ihop.com/en-us/wa/tukwila/breakfast-17250-southcenter-pkwy-3234",
+        "wheelchair": "yes"
+      },
+      "lat": 47.4490009,
+      "lon": -122.26219
+    },
+    {
+      "type": "node",
+      "id": 4161717989,
+      "tags": {
+        "addr:city": "Covington",
+        "addr:country": "US",
+        "addr:door": "117",
+        "addr:housenumber": "27149",
+        "addr:postcode": "98042",
+        "addr:state": "WA",
+        "addr:street": "185th Avenue Southeast",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-09-24",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "07:00-22:00",
+        "phone": "+1-866-884-3470",
+        "website": "https://restaurants.ihop.com/en-us/wa/covington/breakfast-27149-185th-ave-se-3276",
+        "wheelchair": "yes"
+      },
+      "lat": 47.3583416,
+      "lon": -122.0980046
+    },
+    {
+      "type": "node",
+      "id": 4163428992,
+      "tags": {
+        "addr:city": "Puyallup",
+        "addr:housenumber": "13333",
+        "addr:postcode": "98373",
+        "addr:state": "WA",
+        "addr:street": "Meridian East",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2025-05-11",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Th,Su 06:00-22:00; Fr,Sa 06:00-24:00",
+        "phone": "+1-844-428-8807",
+        "website": "https://restaurants.ihop.com/en-us/wa/puyallup/breakfast-13333-meridian-e-3440"
+      },
+      "lat": 47.1349692,
+      "lon": -122.2923516
+    },
+    {
+      "type": "node",
+      "id": 5367333138,
+      "tags": {
+        "addr:city": "Tacoma",
+        "addr:country": "US",
+        "addr:housenumber": "1802",
+        "addr:postcode": "98465",
+        "addr:state": "WA",
+        "addr:street": "South Mildred Street",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-09-22",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "07:00-22:00",
+        "phone": "+1-844-428-8397",
+        "website": "https://restaurants.ihop.com/en-us/wa/tacoma/breakfast-1802-s-mildred-st-1759"
+      },
+      "lat": 47.2448782,
+      "lon": -122.5268345
+    },
+    {
+      "type": "node",
+      "id": 5416950521,
+      "tags": {
+        "addr:city": "Silverdale",
+        "addr:country": "US",
+        "addr:housenumber": "3150",
+        "addr:postcode": "98383",
+        "addr:state": "WA",
+        "addr:street": "Northwest Bucklin Hill Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-09-24",
+        "cuisine": "breakfast;pancake",
+        "indoor_seating": "yes",
+        "name": "IHOP",
+        "opening_hours": "Mo-Th,Su 06:00-22:00; Fr,Sa 06:00-24:00",
+        "outdoor_seating": "no",
+        "phone": "+1-844-428-8764",
+        "website": "https://restaurants.ihop.com/en-us/wa/silverdale/breakfast-3150-nw-bucklin-hill-rd-2129"
+      },
+      "lat": 47.6508614,
+      "lon": -122.6920464
+    },
+    {
+      "type": "node",
+      "id": 12825855985,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2026-09-12",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "lat": 47.9682549,
+      "lon": -122.2016159
+    },
+    {
+      "type": "node",
+      "id": 13043093024,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "lat": 45.7235139,
+      "lon": -122.6599851
+    },
+    {
+      "type": "node",
+      "id": 13191936318,
+      "tags": {
+        "addr:city": "Lacey",
+        "addr:housenumber": "2390",
+        "addr:postcode": "98516",
+        "addr:state": "WA",
+        "addr:street": "Marvin Road Northeast",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Su 06:00-00:00",
+        "phone": "+1-360-995-5204",
+        "website": "https://restaurants.ihop.com/en-us/wa/lacey/breakfast-2555-hogum-bay-road-ne-3853"
+      },
+      "lat": 47.0682775,
+      "lon": -122.7694505
+    },
+    {
+      "type": "way",
+      "id": 29362154,
+      "tags": {
+        "addr:city": "Bellevue",
+        "addr:housenumber": "14747",
+        "addr:postcode": "98007",
+        "addr:state": "WA",
+        "addr:street": "Northeast 20th Street",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "check_date": "2025-07-27",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1-425-747-5975",
+        "ref": "0638"
+      },
+      "center": {
+        "lat": 47.6271182,
+        "lon": -122.14368189999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 40723014,
+      "tags": {
+        "addr:city": "Tacoma",
+        "addr:country": "US",
+        "addr:housenumber": "2323",
+        "addr:postcode": "98405-1326",
+        "addr:state": "WA",
+        "addr:street": "Union Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "commercial",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "source": "esri/Tacoma_WA_Buildings"
+      },
+      "center": {
+        "lat": 47.23835285,
+        "lon": -122.48132625
+      }
+    },
+    {
+      "type": "way",
+      "id": 41265854,
+      "tags": {
+        "addr:city": "Tacoma",
+        "addr:country": "US",
+        "addr:housenumber": "7445",
+        "addr:postcode": "98408",
+        "addr:state": "WA",
+        "addr:street": "South Hosmer Street",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 47.1886967,
+        "lon": -122.46131489999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 48669163,
+      "tags": {
+        "addr:city": "Port Orchard",
+        "addr:housenumber": "221",
+        "addr:postcode": "98367-9375",
+        "addr:state": "WA",
+        "addr:street": "Bravo Terrace",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "check_date": "2026-09-20",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 47.50145985,
+        "lon": -122.64388150000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 86018698,
+      "tags": {
+        "addr:city": "Auburn",
+        "addr:country": "US",
+        "addr:housenumber": "1044",
+        "addr:postcode": "98001-6537",
+        "addr:state": "WA",
+        "addr:street": "Supermall Way",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "phone": "+1-253-833-7559"
+      },
+      "center": {
+        "lat": 47.296228400000004,
+        "lon": -122.24476279999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 138203425,
+      "tags": {
+        "addr:housenumber": "18824",
+        "addr:street": "Highway 2",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "check_date": "2025-09-27",
+        "check_date:opening_hours": "2025-09-27",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7"
+      },
+      "center": {
+        "lat": 47.8605303,
+        "lon": -121.977846
+      }
+    },
+    {
+      "type": "way",
+      "id": 164652964,
+      "tags": {
+        "addr:city": "Issaquah",
+        "addr:housenumber": "1433",
+        "addr:postcode": "98027",
+        "addr:street": "Northwest Sammamish Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "check_date": "2026-04-25",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 47.5512414,
+        "lon": -122.06016620000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 203300151,
+      "tags": {
+        "addr:city": "Renton",
+        "addr:housenumber": "610",
+        "addr:postcode": "98057",
+        "addr:state": "WA",
+        "addr:street": "Rainier Avenue South",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "diet:vegetarian": "yes",
+        "name": "IHOP",
+        "opening_hours": "Mo-Su 07:00-17:00",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 47.474731950000006,
+        "lon": -122.21419745000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 224300920,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 46.27268465,
+        "lon": -119.1840775
+      }
+    },
+    {
+      "type": "way",
+      "id": 230394867,
+      "tags": {
+        "addr:city": "Olympia",
+        "addr:housenumber": "3519",
+        "addr:postcode": "98506",
+        "addr:state": "WA",
+        "addr:street": "Martin Way East",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "source": "esri_USDOT_ThurstonWA"
+      },
+      "center": {
+        "lat": 47.04673325,
+        "lon": -122.84568460000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 236777601,
+      "tags": {
+        "addr:city": "Seattle",
+        "addr:housenumber": "950",
+        "addr:postcode": "98122",
+        "addr:state": "WA",
+        "addr:street": "East Madison Street",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "check_date": "2025-12-24",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7"
+      },
+      "center": {
+        "lat": 47.61187165,
+        "lon": -122.31972229999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 255491618,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Su-Th 06:00-21:00; Fr,Sa 06:00-22:00",
+        "takeaway:covid19": "yes"
+      },
+      "center": {
+        "lat": 47.6757815,
+        "lon": -117.21035775000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 369447146,
+      "tags": {
+        "addr:city": "Mount Vernon",
+        "addr:housenumber": "2001",
+        "addr:postcode": "98273",
+        "addr:street": "Freeway Drive",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "internet_access": "wlan",
+        "name": "IHOP",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "operator": "IHOP",
+        "outdoor_seating": "no",
+        "panoramax": "b87be745-8df7-464b-80c4-6dbe496dfd8a",
+        "phone": "+1-360-336-0808",
+        "website": "https://restaurants.ihop.com/wa/mount-vernon/3430/"
+      },
+      "center": {
+        "lat": 48.4386716,
+        "lon": -122.34357769999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 389328732,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 45.651837150000006,
+        "lon": -122.5904281
+      }
+    },
+    {
+      "type": "way",
+      "id": 408756204,
+      "tags": {
+        "addr:city": "Spokane Valley",
+        "addr:housenumber": "5403",
+        "addr:state": "WA",
+        "addr:street": "East Sprague Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "phone": "+1-509-568-1111",
+        "takeaway:covid19": "yes"
+      },
+      "center": {
+        "lat": 47.6574827,
+        "lon": -117.33169855
+      }
+    },
+    {
+      "type": "way",
+      "id": 410978238,
+      "tags": {
+        "addr:city": "Kent",
+        "addr:housenumber": "24060",
+        "addr:postcode": "98030",
+        "addr:state": "WA",
+        "addr:street": "104th Avenue Southeast",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "check_date": "2025-08-08",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "07:00-22:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-844-428-8830"
+      },
+      "center": {
+        "lat": 47.385334900000004,
+        "lon": -122.2018281
+      }
+    },
+    {
+      "type": "way",
+      "id": 411247906,
+      "tags": {
+        "addr:city": "Spokane",
+        "addr:housenumber": "4209",
+        "addr:state": "WA",
+        "addr:street": "North Division Street",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "phone": "+1-509-483-8188",
+        "takeaway:covid19": "yes"
+      },
+      "center": {
+        "lat": 47.696741700000004,
+        "lon": -117.41159670000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 436819538,
+      "tags": {
+        "addr:city": "Seatac",
+        "addr:housenumber": "20402",
+        "addr:postcode": "98198",
+        "addr:state": "WA",
+        "addr:street": "International Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "check_date:opening_hours": "2026-06-13",
+        "cuisine": "breakfast;pancake",
+        "indoor_seating": "yes",
+        "name": "IHOP",
+        "opening_hours": "Mo-Su 06:00-24:00",
+        "outdoor_seating": "no",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 47.4188678,
+        "lon": -122.29648889999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 466959009,
+      "tags": {
+        "addr:city": "Federal Way",
+        "addr:housenumber": "178",
+        "addr:postcode": "98023",
+        "addr:state": "WA",
+        "addr:street": "Southwest Campus Drive",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 47.29025785,
+        "lon": -122.335688
+      }
+    },
+    {
+      "type": "way",
+      "id": 476758709,
+      "tags": {
+        "addr:city": "Everett",
+        "addr:housenumber": "10301",
+        "addr:postcode": "98204",
+        "addr:state": "WA",
+        "addr:street": "Evergreen Way",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "check_date": "2024-09-01",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "07:00-22:00",
+        "phone": "+1-425-355-3122",
+        "website": "https://restaurants.ihop.com/en-us/wa/everett/breakfast-10301-evergreen-way-700"
+      },
+      "center": {
+        "lat": 47.904424750000004,
+        "lon": -122.2438191
+      }
+    },
+    {
+      "type": "way",
+      "id": 569464974,
+      "tags": {
+        "addr:city": "Lynnwood",
+        "addr:country": "US",
+        "addr:housenumber": "4300",
+        "addr:postcode": "98036",
+        "addr:state": "WA",
+        "addr:street": "196th Street Southwest",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "check_date": "2025-12-15",
+        "contact:phone": "+1-425-776-2838",
+        "contact:website": "https://restaurants.ihop.com/wa/lynnwood/628/",
+        "cuisine": "breakfast;pancake",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:captive_portal": "yes",
+        "internet_access:ssid": "IHOP Guest",
+        "name": "IHOP",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-24:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers"
+      },
+      "center": {
+        "lat": 47.820562800000005,
+        "lon": -122.29094889999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 595688483,
+      "tags": {
+        "addr:city": "Lakewood",
+        "addr:housenumber": "10005",
+        "addr:postcode": "98499",
+        "addr:state": "WA",
+        "addr:street": "Lakewood Drive Southwest",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 47.16638225,
+        "lon": -122.50721395
+      }
+    },
+    {
+      "type": "way",
+      "id": 676187346,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 46.22626125,
+        "lon": -119.20937939999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 689534743,
+      "tags": {
+        "addr:city": "Marysville",
+        "addr:housenumber": "16518",
+        "addr:postcode": "98271",
+        "addr:street": "Twin Lakes Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "check_date": "2026-09-12",
+        "cuisine": "breakfast;pancake",
+        "height": "7.6",
+        "name": "IHOP",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "roof:shape": "flat",
+        "website": "https://www.ihop.com/"
+      },
+      "center": {
+        "lat": 48.14653405,
+        "lon": -122.18893149999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 721535685,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 48.0054843,
+        "lon": -122.10770624999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1086317269,
+      "tags": {
+        "addr:city": "Parkland",
+        "addr:housenumber": "17507",
+        "addr:postcode": "98446",
+        "addr:state": "WA",
+        "addr:street": "Canyon Parkway East",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 47.097559649999994,
+        "lon": -122.35734385
+      }
+    },
+    {
+      "type": "way",
+      "id": 1137532885,
+      "tags": {
+        "addr:housenumber": "2704",
+        "addr:postcode": "98926",
+        "addr:street": "Triple L Loop",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "check_date": "2026-09-23",
+        "check_date:opening_hours": "2026-09-23",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1-509-925-2444",
+        "website": "https://restaurants.ihop.com/en-us/wa/ellensburg/breakfast-2704-triple-l-loop-2068"
+      },
+      "center": {
+        "lat": 47.008282449999996,
+        "lon": -120.58877489999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1229833067,
+      "tags": {
+        "addr:housenumber": "31270",
+        "addr:postcode": "98277",
+        "addr:street": "State Route 20",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "contact:instagram": "ihop",
+        "contact:twitter": "IHOP",
+        "cuisine": "breakfast;pancake",
+        "internet_access": "wlan",
+        "name": "IHOP",
+        "opening_hours": "Mo-Su 06:00-22:00, Fr-Sa 06:00-24:00",
+        "phone": "+1-360-544-3258",
+        "self_service": "no",
+        "website": "https://restaurants.ihop.com/en-us/wa/oak-harbor/breakfast-31270-state-route-20-3851",
+        "website:menu": "https://www.ihop.com/en/menu"
+      },
+      "center": {
+        "lat": 48.2857615,
+        "lon": -122.6603518
+      }
+    }
+  ]
+}

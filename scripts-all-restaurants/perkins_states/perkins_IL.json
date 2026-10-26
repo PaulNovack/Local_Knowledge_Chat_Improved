@@ -1,0 +1,65 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "perkins",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 182478555,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "center": {
+        "lat": 40.9703732,
+        "lon": -90.38353859999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 238267977,
+      "tags": {
+        "addr:city": "Urbana",
+        "addr:housenumber": "1214",
+        "addr:postcode": "61801",
+        "addr:state": "IL",
+        "addr:street": "West University Avenue",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "check_date": "2025-03-29",
+        "cuisine": "american",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 06:00-00:00",
+        "phone": "+1-217-560-7347",
+        "website": "https://www.perkinsrestaurants.com/locations/us/il/urbana/1214-west-university-ave/"
+      },
+      "center": {
+        "lat": 40.116646349999996,
+        "lon": -88.22544955000001
+      }
+    }
+  ]
+}

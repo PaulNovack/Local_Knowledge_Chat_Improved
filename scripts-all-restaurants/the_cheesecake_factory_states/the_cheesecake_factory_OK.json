@@ -1,0 +1,61 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "the_cheesecake_factory",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 98084441,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:housenumber": "8111",
+        "addr:postcode": "74133",
+        "addr:street": "East 71st Street South",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory",
+        "phone": "+1 918 249 2300",
+        "website": "https://locations.thecheesecakefactory.com/ok/tulsa-130.html"
+      },
+      "center": {
+        "lat": 36.06139495,
+        "lon": -95.87956895000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 181492797,
+      "tags": {
+        "addr:city": "Oklahoma City",
+        "addr:state": "OK",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory"
+      },
+      "center": {
+        "lat": 35.52601535,
+        "lon": -97.54718085000002
+      }
+    }
+  ]
+}

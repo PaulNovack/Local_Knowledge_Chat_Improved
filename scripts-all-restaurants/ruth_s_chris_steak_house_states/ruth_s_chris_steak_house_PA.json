@@ -1,0 +1,95 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "ruth_s_chris_steak_house",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2795639833,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "cuisine": "american;steak_house",
+        "name": "Ruth's Chris Steak House",
+        "website": "https://www.ruthschris.com/restaurant-locations/pittsburgh/"
+      },
+      "lat": 40.439474,
+      "lon": -80.0035742
+    },
+    {
+      "type": "node",
+      "id": 5172104653,
+      "tags": {
+        "addr:city": "Philadelphia",
+        "addr:housenumber": "1800",
+        "addr:postcode": "19103",
+        "addr:state": "PA",
+        "addr:street": "Market Street",
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "check_date": "2023-10-09",
+        "cuisine": "american;steak_house",
+        "name": "Ruth's Chris Steak House",
+        "opening_hours": "Mo-Th 11:30-15:00,16:00-21:00; Fr 11:30-15:00,16:00-22:00; Sa 16:00-22:00; Su 16:00-21:00",
+        "phone": "+1 215-790-1515",
+        "website": "https://ruthschris.com/philadelphia"
+      },
+      "lat": 39.9530129,
+      "lon": -75.1701856
+    },
+    {
+      "type": "node",
+      "id": 9707425685,
+      "tags": {
+        "addr:city": "Wilkes-Barre",
+        "addr:housenumber": "1280",
+        "addr:postcode": "18702",
+        "addr:state": "PA",
+        "addr:street": "PA 315",
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "cuisine": "american",
+        "name": "Ruth's Chris Steak House"
+      },
+      "lat": 41.2696643,
+      "lon": -75.8213633
+    },
+    {
+      "type": "node",
+      "id": 12990262764,
+      "tags": {
+        "addr:city": "Newtown Square",
+        "addr:housenumber": "3745",
+        "addr:state": "PA",
+        "addr:street": "Equus Boulevard",
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "check_date": "2026-01-09",
+        "cuisine": "american;steak_house",
+        "happy_hours": "Mo-Fr,Su 16:00-18:00",
+        "name": "Ruth's Chris Steak House",
+        "opening_hours": "Mo-Th 16:00-21:30; Fr-Sa 16:00-22:00; Su 16:00-21:00",
+        "phone": "+1 610-839-8800",
+        "website": "https://ruthschris.com/locations/pa/newtown-square/7381"
+      },
+      "lat": 39.9879341,
+      "lon": -75.4074854
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VT",
+    "brand": "kfc",
+    "source": "https://download.geofabrik.de/north-america/us/vermont-latest.osm.pbf",
+    "source_md5": "20a19d56b1e59d82493b3194b9e30440",
+    "processed_utc": "2026-10-24T07:18:02.754583+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1607875749,
+      "tags": {
+        "addr:city": "Essex Junction",
+        "addr:country": "US",
+        "addr:housenumber": "126",
+        "addr:postcode": "05452",
+        "addr:state": "VT",
+        "addr:street": "Pearl Street",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "ref:vcgi:esiteid": "97467",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/vt/essex-junction/126-pearl-street"
+      },
+      "lat": 44.49611,
+      "lon": -73.1244745
+    },
+    {
+      "type": "node",
+      "id": 1771553255,
+      "tags": {
+        "addr:city": "Brattleboro",
+        "addr:housenumber": "1007",
+        "addr:postcode": "05301",
+        "addr:state": "VT",
+        "addr:street": "Putney Road",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/vt/brattleboro/1007-putney-road"
+      },
+      "lat": 42.8817654,
+      "lon": -72.5579516
+    },
+    {
+      "type": "node",
+      "id": 10693964828,
+      "tags": {
+        "addr:city": "Rutland",
+        "addr:housenumber": "153",
+        "addr:postcode": "05701",
+        "addr:state": "VT",
+        "addr:street": "South Main Street",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/vt/rutland/153-s-main-st"
+      },
+      "lat": 43.598462,
+      "lon": -72.9707669
+    },
+    {
+      "type": "node",
+      "id": 14136100801,
+      "tags": {
+        "addr:city": "Saint Johnsbury",
+        "addr:housenumber": "985",
+        "addr:postcode": "05819",
+        "addr:state": "VT",
+        "addr:street": "Memorial Drive",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "check_date": "2026-08-30",
+        "check_date:opening_hours": "2026-08-30",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "opening_hours": "Mo-Su 11:30-20:00",
+        "phone": "+1-802-748-1900",
+        "self_service": "no",
+        "takeaway": "yes",
+        "website": "https://www.kfc.com/restaurant/C029044",
+        "website:menu": "https://www.kfc.com/restaurant/C029044"
+      },
+      "lat": 44.4463279,
+      "lon": -72.0161581
+    },
+    {
+      "type": "way",
+      "id": 830370790,
+      "tags": {
+        "addr:city": "Barre",
+        "addr:housenumber": "1129",
+        "addr:postcode": "05641",
+        "addr:state": "VT",
+        "addr:street": "U.S. Route 302",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "commercial",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "phone": "+1 802-505-4031",
+        "ref:vcgi:esiteid": "23172",
+        "source": "esri/Vermont_US_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/vt/berlin/1129-us-route-302"
+      },
+      "center": {
+        "lat": 44.224389099999996,
+        "lon": -72.55142424999997
+      }
+    }
+  ]
+}

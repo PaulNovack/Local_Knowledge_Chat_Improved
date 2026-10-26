@@ -1,0 +1,90 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "just_salad",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6789145050,
+      "tags": {
+        "addr:city": "Hoboken",
+        "addr:housenumber": "114",
+        "addr:postcode": "07030",
+        "addr:state": "NJ",
+        "addr:street": "Washington Street",
+        "amenity": "fast_food",
+        "brand": "Just Salad",
+        "brand:wikidata": "Q23091823",
+        "cuisine": "salad",
+        "name": "Just Salad",
+        "takeaway": "yes",
+        "website": "https://www.justsalad.com/"
+      },
+      "lat": 40.7380583,
+      "lon": -74.0309053
+    },
+    {
+      "type": "node",
+      "id": 7351135352,
+      "tags": {
+        "addr:city": "Jersey City",
+        "addr:housenumber": "525",
+        "addr:postcode": "07310",
+        "addr:state": "NJ",
+        "addr:street": "Washington Boulevard",
+        "amenity": "fast_food",
+        "brand": "Just Salad",
+        "brand:wikidata": "Q23091823",
+        "cuisine": "salad",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Just Salad",
+        "opening_hours": "Mo-Fr 10:30-20:30; Sa,Su 11:00-18:00",
+        "takeaway": "yes"
+      },
+      "lat": 40.7265177,
+      "lon": -74.035335
+    },
+    {
+      "type": "node",
+      "id": 13659920301,
+      "tags": {
+        "addr:housenumber": "370",
+        "addr:street": "NJ-17",
+        "amenity": "cafe",
+        "name": "Just Salad"
+      },
+      "lat": 40.9460632,
+      "lon": -74.0710184
+    },
+    {
+      "type": "way",
+      "id": 1211598885,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Just Salad",
+        "brand:wikidata": "Q23091823",
+        "building": "yes",
+        "cuisine": "salad",
+        "name": "Just Salad",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.9675043,
+        "lon": -74.28473279999997
+      }
+    }
+  ]
+}

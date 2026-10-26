@@ -1,0 +1,81 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ME",
+    "brand": "jersey_mike_s_subs",
+    "source": "https://download.geofabrik.de/north-america/us/maine-latest.osm.pbf",
+    "source_md5": "561ab4eba7b10f360a72f8484b6f08c3",
+    "processed_utc": "2026-10-24T07:05:33.375896+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11218067244,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Jersey Mike's Subs",
+        "brand:wikidata": "Q6184897",
+        "cuisine": "sandwich",
+        "name": "Jersey Mike's Subs",
+        "short_name": "Jersey Mike's",
+        "takeaway": "yes",
+        "website": "https://www.jerseymikes.com/49004/saco-me"
+      },
+      "lat": 43.5083037,
+      "lon": -70.4351453
+    },
+    {
+      "type": "way",
+      "id": 370229838,
+      "tags": {
+        "addr:city": "Brunswick",
+        "addr:housenumber": "172",
+        "addr:postcode": "04011",
+        "addr:state": "ME",
+        "addr:street": "Bath Road",
+        "amenity": "fast_food",
+        "brand": "Jersey Mike's Subs",
+        "brand:wikidata": "Q6184897",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Jersey Mike's Subs",
+        "opening_hours": "Mo-Fr 04:30-20:00; Sa 05:00-20:00; Su 07:00-20:00",
+        "phone": "+1 207-729-1770",
+        "ref": "359568",
+        "short_name": "Jersey Mike's",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/me/brunswick/150-bath-rd/359568"
+      },
+      "center": {
+        "lat": 43.90689355,
+        "lon": -69.9184555
+      }
+    },
+    {
+      "type": "way",
+      "id": 1374299136,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Jersey Mike's Subs",
+        "brand:wikidata": "Q6184897",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Jersey Mike's Subs",
+        "short_name": "Jersey Mike's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 43.9378957,
+        "lon": -69.97973635
+      }
+    }
+  ]
+}

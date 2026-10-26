@@ -1,0 +1,52 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "baskin_robbins",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9331395843,
+      "tags": {
+        "addr:city": "York",
+        "addr:housenumber": "4700",
+        "addr:postcode": "68467",
+        "addr:state": "NE",
+        "addr:street": "South Lincoln Avenue",
+        "amenity": "ice_cream",
+        "brand": "Baskin-Robbins",
+        "brand:wikidata": "Q584601",
+        "cuisine": "ice_cream",
+        "name": "Baskin-Robbins",
+        "opening_hours": "06:00-22:00",
+        "phone": "+1 402-362-2902",
+        "website": "https://locations.baskinrobbins.com/ne/york/4700-s.-lincoln-ave-332208-br"
+      },
+      "lat": 40.8183674,
+      "lon": -97.5988618
+    },
+    {
+      "type": "node",
+      "id": 13004584120,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Baskin-Robbins",
+        "brand:wikidata": "Q584601",
+        "name": "Baskin-Robbins"
+      },
+      "lat": 41.1175788,
+      "lon": -102.9579377
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "firehouse_subs",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3889294182,
+      "tags": {
+        "addr:city": "Woburn",
+        "addr:housenumber": "103",
+        "addr:postcode": "01801",
+        "addr:state": "MA",
+        "addr:street": "Commerce Way",
+        "addr:unit": "C1",
+        "amenity": "fast_food",
+        "brand": "Firehouse Subs",
+        "brand:wikidata": "Q5451873",
+        "cuisine": "sandwich",
+        "name": "Firehouse Subs",
+        "opening_hours": "Mo-We 11:00-15:00; Th-Fr 11:00-18:00",
+        "phone": "+1-781-938-7827",
+        "takeaway": "yes",
+        "website": "https://www.firehousesubs.com/locations/ma/metro-north/"
+      },
+      "lat": 42.5173844,
+      "lon": -71.1373282
+    }
+  ]
+}

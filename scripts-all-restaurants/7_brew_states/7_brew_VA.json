@@ -1,0 +1,132 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "7_brew",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9448377549,
+      "tags": {
+        "addr:city": "Newport News",
+        "addr:housenumber": "5018",
+        "addr:postcode": "23605",
+        "addr:state": "VA",
+        "addr:street": "Mercury Boulevard",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "7 Brew Coffee",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00"
+      },
+      "lat": 37.0209127,
+      "lon": -76.4425834
+    },
+    {
+      "type": "node",
+      "id": 12545119321,
+      "tags": {
+        "addr:city": "Lynchburg",
+        "addr:housenumber": "7719",
+        "addr:state": "VA",
+        "addr:street": "Timberlake Road",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew",
+        "takeaway": "yes"
+      },
+      "lat": 37.3536498,
+      "lon": -79.2252333
+    },
+    {
+      "type": "node",
+      "id": 13191557719,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "7Brew",
+        "drive_through": "yes",
+        "name": "7Brew"
+      },
+      "lat": 37.4428367,
+      "lon": -77.5850421
+    },
+    {
+      "type": "node",
+      "id": 13535448052,
+      "tags": {
+        "addr:city": "Lynchburg",
+        "addr:housenumber": "3403",
+        "addr:postcode": "24502",
+        "addr:state": "VA",
+        "addr:street": "Candlers Mountain Road",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "7 Brew",
+        "website": "https://locations.7brew.com/va/lynchburg/3403-candlers-mountain-road"
+      },
+      "lat": 37.36673,
+      "lon": -79.1749848
+    },
+    {
+      "type": "node",
+      "id": 13741690632,
+      "tags": {
+        "addr:city": "Colonial Heights",
+        "addr:housenumber": "660",
+        "addr:postcode": "23834",
+        "addr:state": "VA",
+        "addr:street": "Southpark Boulevard",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00",
+        "phone": "+1-479-358-9274",
+        "takeaway": "yes",
+        "website": "https://7brew.com/"
+      },
+      "lat": 37.2468123,
+      "lon": -77.3899467
+    },
+    {
+      "type": "way",
+      "id": 1473378811,
+      "tags": {
+        "addr:housenumber": "11601",
+        "addr:postcode": "23113",
+        "addr:street": "Midlothian Turnpike",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "coffee_shop;tea",
+        "email": "info@7brew.com",
+        "name": "7 Brew",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00",
+        "phone": "+1-479-358-9274",
+        "website": "https://locations.7brew.com/va/midlothian/11601-midlothian-turnpike",
+        "website:menu": "https://7brew.com/menu"
+      },
+      "center": {
+        "lat": 37.50471125,
+        "lon": -77.61191229999997
+      }
+    }
+  ]
+}

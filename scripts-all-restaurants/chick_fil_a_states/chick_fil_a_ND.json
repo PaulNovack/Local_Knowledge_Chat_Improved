@@ -1,0 +1,50 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ND",
+    "brand": "chick_fil_a",
+    "source": "https://download.geofabrik.de/north-america/us/north-dakota-latest.osm.pbf",
+    "source_md5": "9eff3bc6ca09aea0f8e064cee3b44c15",
+    "processed_utc": "2026-10-24T07:12:54.105950+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 556820023,
+      "tags": {
+        "addr:city": "Fargo",
+        "addr:housenumber": "4100",
+        "addr:postcode": "58103",
+        "addr:state": "ND",
+        "addr:street": "13th Avenue South",
+        "amenity": "fast_food",
+        "branch": "West Acres",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-21:00; Su off",
+        "phone": "+1 701-281-5976",
+        "ref": "03856",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/nd/west-acres"
+      },
+      "center": {
+        "lat": 46.861241750000005,
+        "lon": -96.85037315
+      }
+    }
+  ]
+}

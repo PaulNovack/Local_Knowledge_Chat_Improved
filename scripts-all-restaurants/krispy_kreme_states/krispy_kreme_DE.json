@@ -1,0 +1,42 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DE",
+    "brand": "krispy_kreme",
+    "source": "https://download.geofabrik.de/north-america/us/delaware-latest.osm.pbf",
+    "source_md5": "5f714be897be010ea09e4134c39a0638",
+    "processed_utc": "2026-10-24T07:00:37.202137+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8973164947,
+      "tags": {
+        "addr:city": "New Castle",
+        "addr:housenumber": "114",
+        "addr:postcode": "19720",
+        "addr:state": "DE",
+        "addr:street": "North Dupont Highway",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "drive_through": "yes",
+        "name": "Krispy Kreme",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-23:00",
+        "phone": "+1 302-327-0596",
+        "takeaway": "yes",
+        "website": "https://site.krispykreme.com/de/new-castle/114-n-dupont-hwy"
+      },
+      "lat": 39.6678836,
+      "lon": -75.6010284
+    }
+  ]
+}

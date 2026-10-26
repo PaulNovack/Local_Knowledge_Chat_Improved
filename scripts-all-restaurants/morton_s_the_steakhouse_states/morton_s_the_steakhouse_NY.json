@@ -1,0 +1,117 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "morton_s_the_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2706005871,
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "136",
+        "addr:postcode": "10006",
+        "addr:state": "NY",
+        "addr:street": "Washington Street",
+        "amenity": "restaurant",
+        "branch": "Steakhouse",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "check_date": "2026-06-06",
+        "cuisine": "steak_house",
+        "indoor_seating": "yes",
+        "name": "Morton's The Steakhouse",
+        "opening_hours": "Mo-Th 11:30-21:00; Fr 16:00-22:00; Sa 17:00-22:00; Su 16:00-21:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-212-608-0171",
+        "website": "https://www.mortons.com/location/mortons-the-steakhouse-new-york-ny-world-trade-center/",
+        "wheelchair": "yes"
+      },
+      "lat": 40.7096869,
+      "lon": -74.0139312
+    },
+    {
+      "type": "node",
+      "id": 3310063580,
+      "tags": {
+        "addr:city": "White Plains",
+        "addr:housenumber": "5",
+        "addr:postcode": "10601",
+        "addr:street": "Mamaroneck Avenue",
+        "amenity": "restaurant",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "cuisine": "steak_house",
+        "name": "Morton's The Steakhouse",
+        "phone": "+1 914 683 6101",
+        "website": "https://www.mortons.com/"
+      },
+      "lat": 41.0322825,
+      "lon": -73.766341
+    },
+    {
+      "type": "node",
+      "id": 5801975953,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "check_date": "2025-06-15",
+        "cuisine": "steak_house",
+        "name": "Morton's The Steakhouse",
+        "website": "https://www.mortons.com/"
+      },
+      "lat": 40.7552012,
+      "lon": -73.9786908
+    },
+    {
+      "type": "node",
+      "id": 5840194405,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "cuisine": "steak_house",
+        "name": "Morton's The Steakhouse"
+      },
+      "lat": 43.1564576,
+      "lon": -77.6085174
+    },
+    {
+      "type": "way",
+      "id": 563706964,
+      "tags": {
+        "addr:city": "Great Neck",
+        "addr:housenumber": "777",
+        "addr:postcode": "11021",
+        "addr:state": "NY",
+        "addr:street": "Northern Boulevard",
+        "amenity": "restaurant",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "building": "commercial",
+        "cuisine": "steak_house",
+        "name": "Morton's The Steakhouse",
+        "nysgissam:nysaddresspointid": "NASS266744"
+      },
+      "center": {
+        "lat": 40.78409935,
+        "lon": -73.71312054999999
+      }
+    }
+  ]
+}

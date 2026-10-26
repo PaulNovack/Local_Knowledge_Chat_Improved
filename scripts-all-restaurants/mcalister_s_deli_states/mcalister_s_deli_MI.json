@@ -1,0 +1,133 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MI",
+    "brand": "mcalister_s_deli",
+    "source": "https://download.geofabrik.de/north-america/us/michigan-latest.osm.pbf",
+    "source_md5": "1c9e00f502a3ea973e97c7d6f989094d",
+    "processed_utc": "2026-10-24T07:07:39.587953+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8570294187,
+      "tags": {
+        "addr:city": "Wyoming",
+        "addr:housenumber": "2380",
+        "addr:postcode": "49519",
+        "addr:state": "MI",
+        "addr:street": "Health Drive Southwest",
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli"
+      },
+      "lat": 42.8594021,
+      "lon": -85.7225771
+    },
+    {
+      "type": "way",
+      "id": 441542861,
+      "tags": {
+        "addr:housenumber": "2288",
+        "addr:street": "North Park Drive",
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli"
+      },
+      "center": {
+        "lat": 42.809895850000004,
+        "lon": -86.08845174999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 620071441,
+      "tags": {
+        "addr:housenumber": "2129",
+        "addr:state": "MI",
+        "addr:street": "Lake Lansing Road",
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "sandwich",
+        "indoor_seating": "yes",
+        "name": "McAlister's Deli",
+        "opening_hours": "10:30-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 517-482-3354",
+        "roof:levels": "0",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "https://locations.mcalistersdeli.com/mi/lansing/2129-lake-lansing-road"
+      },
+      "center": {
+        "lat": 42.76123545,
+        "lon": -84.52021150000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1350940697,
+      "tags": {
+        "addr:city": "Sterling Heights",
+        "addr:housenumber": "36543",
+        "addr:postcode": "48312",
+        "addr:state": "MI",
+        "addr:street": "Van Dyke Avenue",
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "McAlister's Deli",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "phone": "+1-586-480-1950",
+        "website": "https://locations.mcalistersdeli.com/mi/sterling-heights/36543-van-dyke-ave."
+      },
+      "center": {
+        "lat": 42.5624727,
+        "lon": -83.03031275000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1501529371,
+      "tags": {
+        "addr:city": "Owosso",
+        "addr:housenumber": "1441",
+        "addr:postcode": "48867",
+        "addr:state": "MI",
+        "addr:street": "East Main Street",
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli",
+        "phone": "+1-989-494-5356",
+        "website": "https://locations.mcalistersdeli.com/mi/owosso/1441-east-main-street"
+      },
+      "center": {
+        "lat": 42.99825155,
+        "lon": -84.1443357
+      }
+    }
+  ]
+}

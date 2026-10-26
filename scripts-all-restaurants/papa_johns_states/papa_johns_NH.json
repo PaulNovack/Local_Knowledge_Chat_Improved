@@ -1,0 +1,93 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NH",
+    "brand": "papa_johns",
+    "source": "https://download.geofabrik.de/north-america/us/new-hampshire-latest.osm.pbf",
+    "source_md5": "603b90470df09c1b933955cbfe841c6d",
+    "processed_utc": "2026-10-24T07:09:51.168561+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9056995029,
+      "tags": {
+        "addr:city": "Concord",
+        "addr:housenumber": "234",
+        "addr:postcode": "03301",
+        "addr:state": "NH",
+        "addr:street": "North Main Street",
+        "amenity": "fast_food",
+        "branch": "North Main St",
+        "brand": "Papa John's",
+        "brand:wikidata": "Q2759586",
+        "cuisine": "pizza",
+        "name": "Papa John's",
+        "opening_hours": "Mo-Th 10:00-23:00; Fr-Sa 10:00-24:00; Su 10:00-23:00",
+        "phone": "+1 603-369-4005",
+        "takeaway": "yes",
+        "website": "https://locations.papajohns.com/united-states/nh/03301/concord/234-north-main-street"
+      },
+      "lat": 43.2130905,
+      "lon": -71.5393196
+    },
+    {
+      "type": "way",
+      "id": 55552643,
+      "tags": {
+        "addr:city": "Nashua",
+        "addr:housenumber": "110",
+        "addr:postcode": "03060",
+        "addr:state": "NH",
+        "addr:street": "Daniel Webster Highway",
+        "amenity": "fast_food",
+        "brand": "Papa John's",
+        "brand:wikidata": "Q2759586",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Papa John's",
+        "opening_hours": "Mo-Th 10:00-01:00; Fr-Sa 10:00-02:00; Su 10:00-01:00",
+        "phone": "+1 603-888-5005",
+        "takeaway": "yes",
+        "website": "https://locations.papajohns.com/united-states/nh/03060/nashua/110-daniel-webster-hwy"
+      },
+      "center": {
+        "lat": 42.72934695,
+        "lon": -71.44792975000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 225643009,
+      "tags": {
+        "addr:city": "Manchester",
+        "addr:housenumber": "223",
+        "addr:postcode": "03103",
+        "addr:state": "NH",
+        "addr:street": "South Willow Street",
+        "amenity": "fast_food",
+        "branch": "South Willow St",
+        "brand": "Papa John's",
+        "brand:wikidata": "Q2759586",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Papa John's",
+        "opening_hours": "Mo-Th 10:00-01:00; Fr-Sa 10:00-02:00; Su 10:00-01:00",
+        "phone": "+1 603-629-0060",
+        "takeaway": "yes",
+        "website": "https://locations.papajohns.com/united-states/nh/03103/manchester/223-south-willow-street"
+      },
+      "center": {
+        "lat": 42.970562349999994,
+        "lon": -71.45507839999999
+      }
+    }
+  ]
+}

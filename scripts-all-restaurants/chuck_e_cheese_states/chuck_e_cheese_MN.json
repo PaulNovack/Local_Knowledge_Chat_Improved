@@ -1,0 +1,113 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MN",
+    "brand": "chuck_e_cheese",
+    "source": "https://download.geofabrik.de/north-america/us/minnesota-latest.osm.pbf",
+    "source_md5": "4cabd6519cf6e8b1f74c96f59629df95",
+    "processed_utc": "2026-10-24T07:08:10.045763+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1993136933,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "drive_in": "no",
+        "leisure": "amusement_arcade",
+        "microbrewery": "no",
+        "name": "Chuck E. Cheese",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "no",
+        "website": "https://locations.chuckecheese.com/us/mn/burnsville/1025-burnsville-center",
+        "wheelchair": "yes"
+      },
+      "lat": 44.744536,
+      "lon": -93.290017
+    },
+    {
+      "type": "node",
+      "id": 6453431038,
+      "tags": {
+        "addr:city": "Blaine",
+        "addr:housenumber": "8943",
+        "addr:postcode": "55434",
+        "addr:state": "MN",
+        "addr:street": "University Avenue Northeast",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/mn/blaine/8943-university-ave.-ne"
+      },
+      "lat": 45.1332087,
+      "lon": -93.2628794
+    },
+    {
+      "type": "node",
+      "id": 8902410090,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/mn/maplegrove/12945-elm-creek-blvd."
+      },
+      "lat": 45.0945065,
+      "lon": -93.444939
+    },
+    {
+      "type": "node",
+      "id": 11988962355,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese"
+      },
+      "lat": 44.9407387,
+      "lon": -92.9093299
+    },
+    {
+      "type": "way",
+      "id": 119871070,
+      "tags": {
+        "addr:city": "West St Paul",
+        "addr:country": "US",
+        "addr:housenumber": "1422",
+        "addr:postcode": "55118",
+        "addr:state": "MN",
+        "addr:street": "Robert Street South",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese's",
+        "brand:wikidata": "Q2438391",
+        "building": "commercial",
+        "check_date": "2019-09-23",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese's"
+      },
+      "center": {
+        "lat": 44.9033208,
+        "lon": -93.07989079999999
+      }
+    }
+  ]
+}

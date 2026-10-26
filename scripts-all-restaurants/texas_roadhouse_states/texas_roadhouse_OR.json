@@ -1,0 +1,65 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OR",
+    "brand": "texas_roadhouse",
+    "source": "https://download.geofabrik.de/north-america/us/oregon-latest.osm.pbf",
+    "source_md5": "bc93fd72fe4589fdc6c9b2b497cb7ef1",
+    "processed_utc": "2026-10-24T07:14:41.004303+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 846616157,
+      "tags": {
+        "addr:city": "Eugene",
+        "addr:housenumber": "1060",
+        "addr:postcode": "97401",
+        "addr:state": "OR",
+        "addr:street": "Valley River Way",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse"
+      },
+      "center": {
+        "lat": 44.068564550000005,
+        "lon": -123.1036565
+      }
+    },
+    {
+      "type": "way",
+      "id": 1381553693,
+      "tags": {
+        "addr:city": "Medford",
+        "addr:housenumber": "1720",
+        "addr:postcode": "97504",
+        "addr:state": "OR",
+        "addr:street": "Delta Waters Road",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "contact:facebook": "https://www.facebook.com/txrhMedfordOR1720DeltaWatersRoad",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "opening_hours": "Mo-Fr 15:00-22:00; Sa-Su 12:00-22:00",
+        "phone": "+1-541-772-2052",
+        "website": "https://www.texasroadhouse.com/locations/431-medford"
+      },
+      "center": {
+        "lat": 42.36064725,
+        "lon": -122.86219170000004
+      }
+    }
+  ]
+}

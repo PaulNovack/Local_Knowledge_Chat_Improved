@@ -1,0 +1,58 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "peet_s_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4992878055,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Peet's Coffee",
+        "brand:wikidata": "Q1094101",
+        "cuisine": "coffee_shop",
+        "description": "Types of payment accepted: • Dining Dollars • Wolfie Wallet • Cash • Credit/Debit",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Peet's Coffee",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.stonybrook.edu/commcms/dining/locations/index.php"
+      },
+      "lat": 40.912173,
+      "lon": -73.1299869
+    },
+    {
+      "type": "node",
+      "id": 6201867798,
+      "tags": {
+        "airside": "yes",
+        "amenity": "cafe",
+        "brand": "Peet's Coffee",
+        "brand:wikidata": "Q1094101",
+        "check_date": "2024-06-01",
+        "cuisine": "coffee_shop",
+        "level": "2",
+        "name": "Peet's Coffee",
+        "opening_hours": "Mo-Su 05:00-22:00",
+        "outdoor_seating": "no",
+        "takeaway": "yes"
+      },
+      "lat": 40.6410569,
+      "lon": -73.7825643
+    }
+  ]
+}

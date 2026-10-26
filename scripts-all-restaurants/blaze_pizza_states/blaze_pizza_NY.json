@@ -1,0 +1,144 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "blaze_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2552912656,
+      "tags": {
+        "addr:city": "Fresh Meadows",
+        "addr:housenumber": "187-12",
+        "addr:postcode": "11365",
+        "addr:state": "NY",
+        "addr:street": "Horace Harding Expressway",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Blaze Pizza",
+        "opening_hours": "Su-Th 10:30-22:00; Fr,Sa 10:30-23:00",
+        "outdoor_seating": "yes",
+        "website": "https://locations.blazepizza.com/new-york/fresh-meadows"
+      },
+      "lat": 40.7403821,
+      "lon": -73.7869742
+    },
+    {
+      "type": "node",
+      "id": 5764259528,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "wheelchair": "yes"
+      },
+      "lat": 43.0888646,
+      "lon": -77.6092743
+    },
+    {
+      "type": "node",
+      "id": 6238015013,
+      "tags": {
+        "addr:city": "Syracuse",
+        "addr:housenumber": "5743",
+        "addr:postcode": "13214",
+        "addr:state": "NY",
+        "addr:street": "Widewaters Parkway",
+        "addr:unit": "400",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza",
+        "nysgissam:nysaddresspointid": "ONON248157",
+        "nysgissam:review": "existing element's addr:unit has different addr:unit"
+      },
+      "lat": 43.0448484,
+      "lon": -76.0651496
+    },
+    {
+      "type": "node",
+      "id": 7519523362,
+      "tags": {
+        "addr:city": "Amherst",
+        "addr:housenumber": "1595",
+        "addr:postcode": "14228",
+        "addr:state": "NY",
+        "addr:street": "Niagara Falls Boulevard",
+        "addr:unit": "900",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+1-716-442-2366",
+        "website": "https://www.blazepizza.com"
+      },
+      "lat": 42.9991631,
+      "lon": -78.8198613
+    },
+    {
+      "type": "node",
+      "id": 9901699317,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza"
+      },
+      "lat": 40.7375426,
+      "lon": -73.2456541
+    },
+    {
+      "type": "node",
+      "id": 11366634052,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza"
+      },
+      "lat": 40.5680445,
+      "lon": -74.110597
+    },
+    {
+      "type": "node",
+      "id": 11874909426,
+      "tags": {
+        "addr:unit": "416",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      },
+      "lat": 42.6834662,
+      "lon": -73.8402772
+    }
+  ]
+}

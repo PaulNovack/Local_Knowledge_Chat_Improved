@@ -1,0 +1,87 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AK",
+    "brand": "qdoba",
+    "source": "https://download.geofabrik.de/north-america/us/alaska-latest.osm.pbf",
+    "source_md5": "55281fca0391ab2c26b0d99fd6a6f5f8",
+    "processed_utc": "2026-10-24T06:56:26.590469+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7724779766,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "cuisine": "mexican",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Grill",
+        "takeaway": "yes",
+        "website": "https://locations.qdoba.com/us/ak/anchorage/702-e-benson-blvd.html"
+      },
+      "lat": 61.1931805,
+      "lon": -149.8699369
+    },
+    {
+      "type": "node",
+      "id": 9610111053,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "cuisine": "mexican",
+        "drive_through": "no",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Grill",
+        "takeaway": "yes",
+        "website": "https://locations.qdoba.com/us/ak/wasilla/1515-e-parks-hwy.html"
+      },
+      "lat": 61.5780976,
+      "lon": -149.4116796
+    },
+    {
+      "type": "node",
+      "id": 9760955701,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "cuisine": "mexican",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Grill",
+        "takeaway": "yes",
+        "website": "https://locations.qdoba.com/us/ak/anchorage/1102-n-muldoon-rd.html"
+      },
+      "lat": 61.2270656,
+      "lon": -149.739755
+    },
+    {
+      "type": "way",
+      "id": 496055311,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Grill",
+        "takeaway": "yes",
+        "website": "https://locations.qdoba.com/us/ak/anchorage/1900-e-85th-ct.html"
+      },
+      "center": {
+        "lat": 61.14307185,
+        "lon": -149.8474695
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "bj_s",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5973459855,
+      "tags": {
+        "addr:housenumber": "39",
+        "addr:street": "Green Acres Road",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 516-256-8800",
+        "website": "https://www.bjsrestaurants.com/locations/ny/valley-stream"
+      },
+      "lat": 40.6635063,
+      "lon": -73.7255887
+    },
+    {
+      "type": "node",
+      "id": 6196947019,
+      "tags": {
+        "addr:city": "Colonie",
+        "addr:housenumber": "131",
+        "addr:postcode": "12205",
+        "addr:state": "NY",
+        "addr:street": "Colonie Center",
+        "addr:unit": "101",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 518-375-3570",
+        "website": "https://www.bjsrestaurants.com/locations/ny/albany"
+      },
+      "lat": 42.708498,
+      "lon": -73.8213536
+    },
+    {
+      "type": "way",
+      "id": 1244209193,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:housenumber": "760",
+        "addr:postcode": "14623",
+        "addr:state": "NY",
+        "addr:street": "Jefferson Road",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "yes",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "delivery": "yes",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 585-537-1444",
+        "reservation": "yes",
+        "takeaway": "yes",
+        "website": "https://www.bjsrestaurants.com/locations/ny/rochester"
+      },
+      "center": {
+        "lat": 43.08771165,
+        "lon": -77.62113314999999
+      }
+    }
+  ]
+}

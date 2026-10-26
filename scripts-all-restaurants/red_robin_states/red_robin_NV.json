@@ -1,0 +1,144 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "red_robin",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5486896686,
+      "tags": {
+        "addr:city": "Sparks",
+        "addr:housenumber": "4712",
+        "addr:postcode": "89436",
+        "addr:state": "NV",
+        "addr:street": "Galleria Parkway",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews",
+        "opening_hours": "Su-Th 11:00-21:00, Fr-Sa 11:00-22:00",
+        "phone": "+1-775-626-9700",
+        "takeaway": "yes",
+        "website": "https://www.redrobin.com"
+      },
+      "lat": 39.5771406,
+      "lon": -119.739876
+    },
+    {
+      "type": "node",
+      "id": 10742403725,
+      "tags": {
+        "amenity": "restaurant",
+        "branch": "Galleria at Sunset",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "contact:phone": "+1 702-547-1777",
+        "cuisine": "burger",
+        "indoor": "yes",
+        "level": "1",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews"
+      },
+      "lat": 36.0668182,
+      "lon": -115.041589
+    },
+    {
+      "type": "way",
+      "id": 32811286,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews"
+      },
+      "center": {
+        "lat": 39.4772454,
+        "lon": -119.7943464
+      }
+    },
+    {
+      "type": "way",
+      "id": 226496971,
+      "tags": {
+        "addr:housenumber": "9600",
+        "addr:postcode": "89052",
+        "addr:state": "NV",
+        "addr:street": "South Eastern Avenue",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+17026177827",
+        "website": "https://www.redrobin.com/"
+      },
+      "center": {
+        "lat": 36.01400745,
+        "lon": -115.11827010000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 558879881,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "11010",
+        "addr:postcode": "89135",
+        "addr:state": "NV",
+        "addr:street": "Lavender Hill Drive",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews"
+      },
+      "center": {
+        "lat": 36.14572955,
+        "lon": -115.33334260000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 973292464,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews",
+        "source": "microsoft/BuildingFootprints",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 36.2714315,
+        "lon": -115.26653399999998
+      }
+    }
+  ]
+}

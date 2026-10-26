@@ -1,0 +1,41 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "chuy_s",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1387016838,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:housenumber": "1754",
+        "addr:postcode": "14620",
+        "addr:state": "NY",
+        "addr:street": "Mount Hope Avenue",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Chuy's Taqueria",
+        "not:brand:wikidata": "Q5118415",
+        "nysgissam:nysaddresspointid": "MONR053400",
+        "outdoor_seating": "yes"
+      },
+      "center": {
+        "lat": 43.115705000000005,
+        "lon": -77.62164454999998
+      }
+    }
+  ]
+}

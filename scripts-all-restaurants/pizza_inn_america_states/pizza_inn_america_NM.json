@@ -1,0 +1,61 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NM",
+    "brand": "pizza_inn_america",
+    "source": "https://download.geofabrik.de/north-america/us/new-mexico-latest.osm.pbf",
+    "source_md5": "5e236c0e9dd59b2df560a9316c86a745",
+    "processed_utc": "2026-10-24T07:10:42.593170+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 318466350,
+      "tags": {
+        "addr:city": "Carlsbad",
+        "addr:country": "US",
+        "addr:postcode": "88220",
+        "addr:state": "NM",
+        "amenity": "fast_food",
+        "brand": "Pizza Inn",
+        "brand:wikidata": "Q4118850",
+        "building": "commercial",
+        "cuisine": "pizza",
+        "name": "Pizza Inn",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.436292800000004,
+        "lon": -104.24216030000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 328303921,
+      "tags": {
+        "addr:city": "Carlsbad",
+        "addr:country": "US",
+        "addr:postcode": "88220",
+        "addr:state": "NM",
+        "amenity": "fast_food",
+        "brand": "Pizza Inn",
+        "brand:wikidata": "Q4118850",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Inn",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.388968649999995,
+        "lon": -104.22072739999999
+      }
+    }
+  ]
+}

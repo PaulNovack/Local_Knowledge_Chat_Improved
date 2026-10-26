@@ -1,0 +1,82 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IA",
+    "brand": "outback_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/iowa-latest.osm.pbf",
+    "source_md5": "67edcd557c575ead09c9f80bc8694526",
+    "processed_utc": "2026-10-24T07:04:05.270534+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 834320636,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse"
+      },
+      "lat": 42.4399669,
+      "lon": -96.3501918
+    },
+    {
+      "type": "way",
+      "id": 37968903,
+      "tags": {
+        "addr:city": "Ankeny",
+        "addr:country": "US",
+        "addr:housenumber": "2410",
+        "addr:postcode": "50021",
+        "addr:state": "IA",
+        "addr:street": "Southeast Tone's Drive",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "check_date": "2022-10-07",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+15159631243",
+        "website": "https://locations.outback.com/iowa/ankeny/2410-southeast-tones-drive"
+      },
+      "center": {
+        "lat": 41.70530935,
+        "lon": -93.57495389999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 110353924,
+      "tags": {
+        "addr:city": "Clive",
+        "addr:housenumber": "10901",
+        "addr:postcode": "50325",
+        "addr:state": "IA",
+        "addr:street": "University Avenue",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse",
+        "phone": "+1 515-221-3309",
+        "website": "https://locations.outback.com/iowa/clive/10901-university-avenue"
+      },
+      "center": {
+        "lat": 41.600875349999995,
+        "lon": -93.7683922
+      }
+    }
+  ]
+}

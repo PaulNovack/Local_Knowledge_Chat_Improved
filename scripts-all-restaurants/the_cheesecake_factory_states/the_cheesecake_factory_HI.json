@@ -1,0 +1,74 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "HI",
+    "brand": "the_cheesecake_factory",
+    "source": "https://download.geofabrik.de/north-america/us/hawaii-latest.osm.pbf",
+    "source_md5": "72d4122e050f63452c0aa341f9272254",
+    "processed_utc": "2026-10-24T07:02:30.197996+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4212295415,
+      "tags": {
+        "addr:city": "Honolulu",
+        "addr:housenumber": "2301",
+        "addr:postcode": "96815",
+        "addr:state": "HI",
+        "addr:street": "Kalākaua Avenue",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "check_date": "2026-09-15",
+        "check_date:opening_hours": "2026-05-29",
+        "cuisine": "american",
+        "level": "0",
+        "name": "The Cheesecake Factory",
+        "name:ko": "치츠케익 팩토리",
+        "opening_hours": "Sa-Su 10:00-23:00; Mo-Fr 11:00-23:00",
+        "outdoor_seating": "no",
+        "phone": "+1 808 924 5001",
+        "website": "https://locations.thecheesecakefactory.com/hi/honolulu-68.html",
+        "website:menu": "https://www.thecheesecakefactory.com/menu"
+      },
+      "lat": 21.2776805,
+      "lon": -157.8275662
+    },
+    {
+      "type": "way",
+      "id": 1191702213,
+      "tags": {
+        "addr:city": "Kapolei",
+        "addr:housenumber": "91",
+        "addr:postcode": "96707",
+        "addr:state": "HI",
+        "addr:street": "Ka Makana Alii Main Driveway",
+        "addr:unit": "1300",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory",
+        "opening_hours": "Mo-Fr 11:30-23:00; Sa-Su 10:00-23:00",
+        "phone": "+1-808-670-2666",
+        "website": "https://locations.thecheesecakefactory.com/hi/kapolei-202.html",
+        "website:menu": "https://www.thecheesecakefactory.com/locations/kapolei-hi/menu/?utm_source=SEARCH&utm_medium=GOOGLE&utm_content=MENU&utm_campaign=GOOGLE_SEARCH_MENU"
+      },
+      "center": {
+        "lat": 21.33386615,
+        "lon": -158.05037525
+      }
+    }
+  ]
+}

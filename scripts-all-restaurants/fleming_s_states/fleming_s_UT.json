@@ -1,0 +1,44 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "fleming_s",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2327662158,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "20",
+        "addr:state": "UT",
+        "addr:street": "South 400 West",
+        "addr:unit": "Suite 2020",
+        "amenity": "restaurant",
+        "branch": "Prime Steakhouse",
+        "brand": "Fleming's",
+        "brand:wikidata": "Q5458552",
+        "cuisine": "steak_house",
+        "description": "Note: Hours for pickup and delivery are different than the hours here, which are the hours for in-person dining. See website for details.",
+        "name": "Fleming's",
+        "official_name": "Fleming's Prime Steakhouse & Wine Bar",
+        "opening_hours": "Mo-Sa 16:00-22:00; Su 16:00-21:00",
+        "phone": "+1 801-355-3704",
+        "website": "https://www.flemingssteakhouse.com/locations/ut/salt-lake-city",
+        "wheelchair": "yes"
+      },
+      "lat": 40.7688377,
+      "lon": -111.903454
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "andys_frozen_custard",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10224486650,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "12925",
+        "addr:postcode": "85044",
+        "addr:state": "AZ",
+        "addr:street": "South 48th Street",
+        "amenity": "ice_cream",
+        "brand": "Andy's Frozen Custard",
+        "brand:wikidata": "Q4760327",
+        "indoor_seating": "no",
+        "name": "Andy's Frozen Custard",
+        "opening_hours": "May-Aug: Su-Th 11:00-23:30, May-Aug: Fr,Sa 11:00-24:00, May-Aug: Su-Th 11:00-23:00, May-Aug: Fr,Sa 11:00-11:30, Sep-Apr: Su-Th 11:00-23:00, Sep-Apr: Fr,Sa 11:00-24:00",
+        "outdoor_seating": "veranda",
+        "short_name": "Andy's"
+      },
+      "lat": 33.3299326,
+      "lon": -111.980256
+    },
+    {
+      "type": "way",
+      "id": 809385827,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1353",
+        "addr:postcode": "85203",
+        "addr:state": "AZ",
+        "addr:street": "East McKellips Road",
+        "amenity": "ice_cream",
+        "brand": "Andy's Frozen Custard",
+        "brand:wikidata": "Q4760327",
+        "building": "retail",
+        "name": "Andy's Frozen Custard",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-480-699-7455",
+        "short_name": "Andy's",
+        "website": "https://www.eatandys.com/"
+      },
+      "center": {
+        "lat": 33.451119,
+        "lon": -111.80135105
+      }
+    },
+    {
+      "type": "way",
+      "id": 847842986,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "4324",
+        "addr:postcode": "85206",
+        "addr:state": "AZ",
+        "addr:street": "East Southern Avenue",
+        "amenity": "ice_cream",
+        "brand": "Andy's Frozen Custard",
+        "brand:wikidata": "Q4760327",
+        "building": "yes",
+        "name": "Andy's Frozen Custard",
+        "short_name": "Andy's"
+      },
+      "center": {
+        "lat": 33.394266099999996,
+        "lon": -111.73804035
+      }
+    },
+    {
+      "type": "way",
+      "id": 1239761776,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "10655",
+        "addr:postcode": "85209",
+        "addr:state": "AZ",
+        "addr:street": "East Southern Avenue",
+        "amenity": "ice_cream",
+        "brand": "Andy's Frozen Custard",
+        "brand:wikidata": "Q4760327",
+        "building": "yes",
+        "name": "Andy's Frozen Custard",
+        "short_name": "Andy's"
+      },
+      "center": {
+        "lat": 33.3928147,
+        "lon": -111.60068995
+      }
+    }
+  ]
+}

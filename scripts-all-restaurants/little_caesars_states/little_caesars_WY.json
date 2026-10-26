@@ -1,0 +1,101 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "little_caesars",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5631301397,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:housenumber": "4516",
+        "addr:postcode": "82009",
+        "addr:state": "WY",
+        "addr:street": "Stillwater Avenue",
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "opening_hours": "Mo-Th 11:00-20:00; Fr-Sa 11:00-21:00; Su 11:00-20:00",
+        "phone": "+1-307-638-3000",
+        "takeaway": "yes",
+        "website": "https://littlecaesars.com/en-us/store/10867"
+      },
+      "lat": 41.1598558,
+      "lon": -104.799924
+    },
+    {
+      "type": "node",
+      "id": 11395312968,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "takeaway": "yes",
+        "website": "https://littlecaesars.com/en-us/store/11695/"
+      },
+      "lat": 44.5168704,
+      "lon": -109.0927035
+    },
+    {
+      "type": "node",
+      "id": 12656780200,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "takeaway": "yes"
+      },
+      "lat": 41.3173905,
+      "lon": -105.5945166
+    },
+    {
+      "type": "way",
+      "id": 261052998,
+      "tags": {
+        "addr:city": "Gillette",
+        "addr:housenumber": "811",
+        "addr:postcode": "82716",
+        "addr:state": "WY",
+        "addr:street": "Camel Drive",
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2026-07-15",
+        "cuisine": "pizza",
+        "drive_through": "yes",
+        "layer": "1",
+        "name": "Little Caesars",
+        "outdoor_seating": "yes",
+        "phone": "+1-307-682-8888",
+        "roof:shape": "flat",
+        "takeaway": "yes",
+        "website": "https://littlecaesars.com/en-us/store/10431/",
+        "wikimedia_commons": "File:Little Caesars in Gillette, Wyoming.jpg"
+      },
+      "center": {
+        "lat": 44.282089150000004,
+        "lon": -105.49255165
+      }
+    }
+  ]
+}

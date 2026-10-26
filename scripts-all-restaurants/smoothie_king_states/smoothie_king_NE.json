@@ -1,0 +1,61 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "smoothie_king",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7253908276,
+      "tags": {
+        "addr:city": "Papillion",
+        "addr:housenumber": "9820",
+        "addr:postcode": "68133",
+        "addr:state": "NE",
+        "addr:street": "South 71st Plaza",
+        "addr:unit": "107",
+        "amenity": "fast_food",
+        "brand": "Smoothie King",
+        "brand:wikidata": "Q5491421",
+        "cuisine": "juice",
+        "name": "Smoothie King",
+        "takeaway": "yes"
+      },
+      "lat": 41.1623257,
+      "lon": -96.0230124
+    },
+    {
+      "type": "node",
+      "id": 13623665743,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "5141",
+        "addr:postcode": "68510",
+        "addr:state": "NE",
+        "addr:street": "O Street",
+        "amenity": "fast_food",
+        "brand": "Smoothie King",
+        "brand:wikidata": "Q5491421",
+        "cuisine": "juice",
+        "name": "Smoothie King",
+        "opening_hours": "Mo-Fr 07:00-21:00; Sa 08:00-21:00; Su 10:00-20:00",
+        "phone": "+1-402-464-5464",
+        "takeaway": "yes",
+        "website": "https://locations.smoothieking.com/ll/us/ne/lincoln/5141-o-street-suite-f/"
+      },
+      "lat": 40.8130835,
+      "lon": -96.6496934
+    }
+  ]
+}

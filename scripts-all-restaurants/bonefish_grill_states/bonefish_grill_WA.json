@@ -1,0 +1,77 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "bonefish_grill",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4650766259,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "check_date": "2026-05-18",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "lat": 48.1524859,
+      "lon": -122.1961064
+    },
+    {
+      "type": "node",
+      "id": 6126077869,
+      "tags": {
+        "addr:city": "Bothell",
+        "addr:housenumber": "22616",
+        "addr:postcode": "98021",
+        "addr:state": "WA",
+        "addr:street": "Bothell-Everett Highway",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand:wikidata": "Q4941599",
+        "check_date": "2025-11-09",
+        "cuisine": "korean;barbecue",
+        "indoor_seating": "yes",
+        "name": "Namdo Korean BBQ",
+        "opening_hours": "11:30-22:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 425-908-7475",
+        "website": "https://namdokoreanbbq.com/",
+        "wheelchair": "yes"
+      },
+      "lat": 47.7933323,
+      "lon": -122.2160104
+    },
+    {
+      "type": "way",
+      "id": 1242386171,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "cuisine": "seafood",
+        "indoor": "room",
+        "level": "0",
+        "name": "Bonefish Grill"
+      },
+      "center": {
+        "lat": 47.70368315,
+        "lon": -117.40830675000001
+      }
+    }
+  ]
+}

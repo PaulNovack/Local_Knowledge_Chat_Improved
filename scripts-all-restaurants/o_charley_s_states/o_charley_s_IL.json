@@ -1,0 +1,35 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "o_charley_s",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 978329217,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "O'Charley's",
+        "brand:wikidata": "Q7071703",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "O'Charley's"
+      },
+      "center": {
+        "lat": 37.745259149999995,
+        "lon": -88.97398769999995
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "denny_s",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7221529017,
+      "tags": {
+        "addr:city": "Attleboro",
+        "addr:housenumber": "252",
+        "addr:postcode": "02703",
+        "addr:state": "MA",
+        "addr:street": "Washington Street",
+        "addr:unit": "200",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "check_date": "2024-08-18",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "phone": "+1 508-639-2967",
+        "source": "official website",
+        "website": "https://locations.dennys.com/MA/ATTLEBORO/249347"
+      },
+      "lat": 41.9212447,
+      "lon": -71.3567768
+    },
+    {
+      "type": "node",
+      "id": 8933444688,
+      "tags": {
+        "addr:city": "Fall River",
+        "addr:housenumber": "243",
+        "addr:postcode": "02721",
+        "addr:state": "MA",
+        "addr:street": "William S Canning Boulevard",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "check_date": "2024-08-18",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "phone": "+1 508-617-4543",
+        "source": "official website",
+        "website": "https://locations.dennys.com/MA/FALL-RIVER/249262"
+      },
+      "lat": 41.6737707,
+      "lon": -71.1619948
+    },
+    {
+      "type": "way",
+      "id": 213368137,
+      "tags": {
+        "addr:housenumber": "469",
+        "addr:street": "Bernardston Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's Pantry",
+        "not:brand:wikidata": "Q1189695",
+        "phone": "+1-413-773-3345",
+        "website": "https://www.dennyspantry.com/"
+      },
+      "center": {
+        "lat": 42.6082611,
+        "lon": -72.58719774999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 213623468,
+      "tags": {
+        "addr:housenumber": "2173",
+        "addr:street": "Northampton Street",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "center": {
+        "lat": 42.18784805,
+        "lon": -72.63055279999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 213740017,
+      "tags": {
+        "addr:city": "Leominster",
+        "addr:housenumber": "38",
+        "addr:postcode": "01453",
+        "addr:state": "MA",
+        "addr:street": "Commercial Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "center": {
+        "lat": 42.53406975,
+        "lon": -71.7417254
+      }
+    },
+    {
+      "type": "way",
+      "id": 690971917,
+      "tags": {
+        "addr:housenumber": "1284",
+        "addr:street": "Boston Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's",
+        "source": "mapillary"
+      },
+      "center": {
+        "lat": 42.1408878,
+        "lon": -72.50119570000004
+      }
+    }
+  ]
+}

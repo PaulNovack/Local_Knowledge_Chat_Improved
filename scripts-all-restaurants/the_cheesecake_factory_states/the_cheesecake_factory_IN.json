@@ -1,0 +1,71 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "the_cheesecake_factory",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1184338014,
+      "tags": {
+        "addr:city": "Greenwood",
+        "addr:housenumber": "1251",
+        "addr:postcode": "46142",
+        "addr:state": "IN",
+        "addr:street": "US Highway 31 N",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory",
+        "phone": "+1-317-887-8440",
+        "website": "https://www.thecheesecakefactory.com/"
+      },
+      "lat": 39.6332364,
+      "lon": -86.1231993
+    },
+    {
+      "type": "node",
+      "id": 1184360817,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "8701",
+        "addr:postcode": "46240",
+        "addr:state": "IN",
+        "addr:street": "Keystone Crossing",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "cuisine": "american",
+        "delivery": "yes",
+        "diet:vegetarian": "yes",
+        "name": "The Cheesecake Factory",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 10:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-317-566-0100",
+        "website": "https://www.thecheesecakefactory.com/",
+        "wheelchair": "yes",
+        "wikidata": "Q110639432"
+      },
+      "lat": 39.9135836,
+      "lon": -86.1083883
+    }
+  ]
+}

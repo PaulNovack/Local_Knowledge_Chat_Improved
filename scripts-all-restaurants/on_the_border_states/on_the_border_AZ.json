@@ -1,0 +1,115 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "on_the_border",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 155728125,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "5005",
+        "addr:postcode": "85044-6407",
+        "addr:state": "AZ",
+        "addr:street": "East Ray Road",
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "opening_hours": "PH,Mo-Su 10:30-23:00",
+        "phone": "+1 602 247 7550",
+        "website": "https://www.ontheborder.com"
+      },
+      "center": {
+        "lat": 33.319321900000006,
+        "lon": -111.97580195
+      }
+    },
+    {
+      "type": "way",
+      "id": 232222454,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "yes",
+        "check_date": "2026-10-01",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina"
+      },
+      "center": {
+        "lat": 32.2220404,
+        "lon": -110.88131255000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 342398595,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1710",
+        "addr:postcode": "85206",
+        "addr:state": "AZ",
+        "addr:street": "South Power Road",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "retail",
+        "capacity": "274",
+        "cuisine": "tex-mex",
+        "internet_access": "wlan",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 33.3849954,
+        "lon": -111.68561145000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 963244960,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "7873",
+        "addr:postcode": "85382",
+        "addr:state": "AZ",
+        "addr:street": "West Bell Road",
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 33.6375751,
+        "lon": -112.22684844999998
+      }
+    }
+  ]
+}

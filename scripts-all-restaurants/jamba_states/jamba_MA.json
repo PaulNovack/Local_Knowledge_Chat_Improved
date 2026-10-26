@@ -1,0 +1,84 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "jamba",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4130816197,
+      "tags": {
+        "addr:city": "Bedford",
+        "addr:housenumber": "158",
+        "addr:postcode": "01730",
+        "addr:state": "MA",
+        "addr:street": "Great Road",
+        "addr:unit": "K",
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "branch": "& Bruegger's Bagels-Bedford",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "cuisine": "juice",
+        "name": "Jamba",
+        "opening_hours": "Mo-Su 06:00-14:00",
+        "phone": "+1 781-778-2927",
+        "takeaway": "yes",
+        "website": "https://locations.jamba.com/ma/bedford/158-k-great-rd"
+      },
+      "lat": 42.4908754,
+      "lon": -71.2746833
+    },
+    {
+      "type": "node",
+      "id": 9472279718,
+      "tags": {
+        "addr:city": "Melrose",
+        "addr:housenumber": "496",
+        "addr:postcode": "02176",
+        "addr:state": "MA",
+        "addr:street": "Main Street",
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "branch": "& Bruegger's Bagels-Melrose",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "cuisine": "juice",
+        "name": "Jamba",
+        "opening_hours": "Mo-Fr 05:30-21:00; Sa-Su 06:00-19:00",
+        "phone": "+1 781-665-1913",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.jamba.com/ma/melrose/496-498-main-street"
+      },
+      "lat": 42.4552129,
+      "lon": -71.0654124
+    },
+    {
+      "type": "node",
+      "id": 13125393868,
+      "tags": {
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "cuisine": "juice",
+        "name": "Jamba",
+        "takeaway": "yes"
+      },
+      "lat": 42.4839133,
+      "lon": -71.2141047
+    }
+  ]
+}

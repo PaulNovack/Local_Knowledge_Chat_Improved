@@ -1,0 +1,117 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NH",
+    "brand": "buffalo_wild_wings",
+    "source": "https://download.geofabrik.de/north-america/us/new-hampshire-latest.osm.pbf",
+    "source_md5": "603b90470df09c1b933955cbfe841c6d",
+    "processed_utc": "2026-10-24T07:09:51.168561+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10650726692,
+      "tags": {
+        "addr:city": "Portsmouth",
+        "addr:country": "US",
+        "addr:housenumber": "360",
+        "addr:state": "NH",
+        "addr:street": "US 1 Bypass",
+        "addr:unit": "1",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "cuisine": "wings",
+        "mapillary": "1251868449093509",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3"
+      },
+      "lat": 43.0682219,
+      "lon": -70.7771577
+    },
+    {
+      "type": "node",
+      "id": 11280484770,
+      "tags": {
+        "addr:housenumber": "310",
+        "addr:street": "Daniel Webster Highway",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "cuisine": "wings",
+        "level": "1",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3"
+      },
+      "lat": 42.7000691,
+      "lon": -71.4364419
+    },
+    {
+      "type": "node",
+      "id": 12980256260,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:housenumber": "160",
+        "addr:postcode": "03839",
+        "addr:state": "NH",
+        "addr:street": "Washington Street",
+        "addr:unit": "103",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "check_date": "2024-12-17",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "opening_hours": "Mo-Su 11:00-24:00",
+        "phone": "+1-603-335-3455",
+        "ref": "1317",
+        "short_name": "BW3",
+        "website": "https://www.buffalowildwings.com/locations/us/nh/rochester/160-washington-street,-suite-103/sports-bar-1317/"
+      },
+      "lat": 43.2913261,
+      "lon": -70.9962903
+    },
+    {
+      "type": "way",
+      "id": 261331084,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building": "yes",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3"
+      },
+      "center": {
+        "lat": 43.2080625,
+        "lon": -71.52848499999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 835398769,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "cuisine": "wings",
+        "indoor": "room",
+        "name": "Buffalo Wild Wings",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "short_name": "BW3"
+      },
+      "center": {
+        "lat": 42.9568746,
+        "lon": -71.43160154999998
+      }
+    }
+  ]
+}

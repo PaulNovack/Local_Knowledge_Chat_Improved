@@ -1,0 +1,112 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MT",
+    "brand": "jersey_mike_s_subs",
+    "source": "https://download.geofabrik.de/north-america/us/montana-latest.osm.pbf",
+    "source_md5": "abfa2e1bfc18f6c00a77776eb9185b11",
+    "processed_utc": "2026-10-24T07:09:10.271084+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10068161033,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Jersey Mike's Subs",
+        "brand:wikidata": "Q6184897",
+        "cuisine": "sandwich",
+        "name": "Jersey Mike's Subs",
+        "short_name": "Jersey Mike's",
+        "takeaway": "yes",
+        "website": "https://www.jerseymikes.com/41002/billings-mt"
+      },
+      "lat": 45.7504561,
+      "lon": -108.6165486
+    },
+    {
+      "type": "node",
+      "id": 10155880545,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Jersey Mike's Subs",
+        "brand:wikidata": "Q6184897",
+        "cuisine": "sandwich",
+        "name": "Jersey Mike's Subs",
+        "short_name": "Jersey Mike's",
+        "takeaway": "yes",
+        "website": "https://www.jerseymikes.com/41006/great-falls-mt"
+      },
+      "lat": 47.5122695,
+      "lon": -111.3156305
+    },
+    {
+      "type": "node",
+      "id": 14025061757,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Jersey Mike's Subs",
+        "brand:wikidata": "Q6184897",
+        "cuisine": "sandwich",
+        "name": "Jersey Mike's Subs",
+        "short_name": "Jersey Mike's",
+        "takeaway": "yes"
+      },
+      "lat": 45.8041997,
+      "lon": -108.4763269
+    },
+    {
+      "type": "node",
+      "id": 14165147901,
+      "tags": {
+        "addr:housenumber": "2024 Suite A",
+        "addr:postcode": "59602",
+        "addr:street": "Cromwell Dixon Lane",
+        "amenity": "restaurant",
+        "check_date": "2026-09-08",
+        "check_date:opening_hours": "2026-09-08",
+        "cuisine": "sandwich",
+        "level": "0",
+        "name": "Jersey Mike's Subs",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "phone": "+1-406-417-3177",
+        "self_service": "partially",
+        "website": "https://www.jerseymikes.com/41013/helena-mt",
+        "website:menu": "https://www.jerseymikes.com/menu"
+      },
+      "lat": 46.6154098,
+      "lon": -112.0066574
+    },
+    {
+      "type": "way",
+      "id": 308987352,
+      "tags": {
+        "addr:city": "Bozeman",
+        "addr:housenumber": "1531",
+        "addr:state": "MT",
+        "addr:street": "West Main Street",
+        "addr:unit": "105",
+        "amenity": "fast_food",
+        "brand": "Jersey Mike's Subs",
+        "brand:wikidata": "Q6184897",
+        "building": "retail",
+        "cuisine": "sandwich",
+        "name": "Jersey Mike's Subs",
+        "short_name": "Jersey Mike's",
+        "takeaway": "yes",
+        "website": "https://www.jerseymikes.com/41001/bozeman-mt"
+      },
+      "center": {
+        "lat": 45.67969875,
+        "lon": -111.0584093
+      }
+    }
+  ]
+}

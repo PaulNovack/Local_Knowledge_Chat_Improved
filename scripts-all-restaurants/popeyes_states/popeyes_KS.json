@@ -1,0 +1,552 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "popeyes",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10724697469,
+      "tags": {
+        "addr:city": "Topeka",
+        "addr:housenumber": "2905",
+        "addr:postcode": "66611",
+        "addr:state": "KS",
+        "addr:street": "Southwest Topeka Boulevard",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "source": "esri_USDOT_Kansas;local knowledge",
+        "takeaway": "yes",
+        "website": "https://popeyes.com"
+      },
+      "lat": 39.0143083,
+      "lon": -95.6883159
+    },
+    {
+      "type": "node",
+      "id": 11070300518,
+      "tags": {
+        "addr:city": "Hays",
+        "addr:housenumber": "213",
+        "addr:postcode": "67601",
+        "addr:state": "KS",
+        "addr:street": "West 43rd Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "check_date:opening_hours": "2025-12-19",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "opening_hours": "Mo-Su 10:30-21:00",
+        "phone": "+1 785-261-9024",
+        "start_date": "2023-04",
+        "takeaway": "yes",
+        "website": "https://www.popeyes.com/store-locator/store/restaurant_879448"
+      },
+      "lat": 38.902459,
+      "lon": -99.3228022
+    },
+    {
+      "type": "node",
+      "id": 11165629013,
+      "tags": {
+        "addr:housenumber": "1350",
+        "addr:street": "North Hillside Street",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "cuisine": "chicken",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "phone": "+1 316-682-6567",
+        "takeaway": "yes",
+        "website": "https://www.popeyes.com/store-locator/store/restaurant_81760"
+      },
+      "lat": 37.7074944,
+      "lon": -97.2987038
+    },
+    {
+      "type": "node",
+      "id": 13343775982,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "cuisine": "chicken",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "takeaway": "yes"
+      },
+      "lat": 38.8787581,
+      "lon": -97.6130407
+    },
+    {
+      "type": "way",
+      "id": 184799786,
+      "tags": {
+        "addr:city": "Mission",
+        "addr:state": "KS",
+        "addr:street": "Johnson Drive",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Popeyes",
+        "note": "Closed",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "operational_status": "closed",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.0219625,
+        "lon": -94.66521075000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 197031949,
+      "tags": {
+        "addr:city": "Topeka",
+        "addr:housenumber": "2909",
+        "addr:postcode": "66611",
+        "addr:state": "KS",
+        "addr:street": "Southwest Topeka Boulevard",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "building": "commercial",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "opening_hours": "Mo-Su 09:00-18:00",
+        "phone": "+1 785-246-6802",
+        "source": "esri_USDOT_Kansas",
+        "takeaway": "yes",
+        "website": "https://www.popeyes.com/store-locator/store/restaurant_85394"
+      },
+      "center": {
+        "lat": 39.01427285,
+        "lon": -95.68833204999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 207925877,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "building": "yes",
+        "cuisine": "chicken",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.91344805,
+        "lon": -94.762449
+      }
+    },
+    {
+      "type": "way",
+      "id": 319348294,
+      "tags": {
+        "addr:city": "Olathe",
+        "addr:housenumber": "13546",
+        "addr:postcode": "66062",
+        "addr:state": "KS",
+        "addr:street": "South Blackbob Road",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "opening_hours": "10:00-22:00",
+        "phone": "+1 913-829-1115",
+        "takeaway": "yes",
+        "website": "https://www.popeyes.com/store-locator/store/restaurant_85496"
+      },
+      "center": {
+        "lat": 38.882528199999996,
+        "lon": -94.76216464999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 336753868,
+      "tags": {
+        "addr:city": "Lenexa",
+        "addr:housenumber": "9460",
+        "addr:postcode": "66215",
+        "addr:state": "KS",
+        "addr:street": "Quivira Road",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "disused:shop": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "layer": "1",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "opening_hours": "10:00-22:00",
+        "phone": "+1 913-428-0191",
+        "takeaway": "yes",
+        "website": "https://www.popeyes.com/store-locator/store/restaurant_241576"
+      },
+      "center": {
+        "lat": 38.957613499999994,
+        "lon": -94.72438169999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 504406473,
+      "tags": {
+        "addr:city": "Lansing",
+        "addr:housenumber": "329",
+        "addr:postcode": "66043",
+        "addr:state": "KS",
+        "addr:street": "North Main Street",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "opening_hours": "10:00-22:00",
+        "phone": "+1 913-351-3333",
+        "takeaway": "yes",
+        "website": "https://www.popeyes.com/store-locator/store/restaurant_83908"
+      },
+      "center": {
+        "lat": 39.255371350000004,
+        "lon": -94.90049955
+      }
+    },
+    {
+      "type": "way",
+      "id": 556923790,
+      "tags": {
+        "addr:city": "Manhattan",
+        "addr:housenumber": "1115",
+        "addr:postcode": "66502",
+        "addr:state": "KS",
+        "addr:street": "Bluemont Avenue",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "opening_hours": "Su-We 10:30-22:00; Th-Sa 10:30-24:00",
+        "operator": "SmitCo Eateries",
+        "phone": "+1 785-320-5030",
+        "ref": "12235",
+        "takeaway": "yes",
+        "website": "https://www.popeyes.com/store-locator/store/restaurant_85393"
+      },
+      "center": {
+        "lat": 39.18646785,
+        "lon": -96.57378010000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 577354818,
+      "tags": {
+        "addr:city": "Wichita",
+        "addr:housenumber": "3131",
+        "addr:postcode": "67226",
+        "addr:state": "KS",
+        "addr:street": "North Rock Road",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "opening_hours": "10:30-21:00",
+        "phone": "+1 316-425-2394",
+        "source": "bing",
+        "takeaway": "yes",
+        "website": "https://www.popeyes.com/store-locator/store/restaurant_84549"
+      },
+      "center": {
+        "lat": 37.740449,
+        "lon": -97.24516944999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 669368338,
+      "tags": {
+        "addr:city": "Wichita",
+        "addr:housenumber": "1623",
+        "addr:postcode": "67213",
+        "addr:state": "KS",
+        "addr:street": "South Seneca Street",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "building": "retail",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "opening_hours": "10:30-21:00",
+        "phone": "+1 316-260-9555",
+        "takeaway": "yes",
+        "website": "https://www.popeyes.com/store-locator/store/restaurant_83726"
+      },
+      "center": {
+        "lat": 37.66508155,
+        "lon": -97.35317055000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 676441980,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "building": "yes",
+        "cuisine": "chicken",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 37.704669249999995,
+        "lon": -97.33593529999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 881184793,
+      "tags": {
+        "addr:city": "Overland Park",
+        "addr:housenumber": "10313",
+        "addr:postcode": "66212",
+        "addr:state": "KS",
+        "addr:street": "Metcalf Avenue",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "opening_hours": "Mo-Su 10:00-23:00",
+        "phone": "+1-913-730-2714",
+        "takeaway": "yes",
+        "website": "https://www.popeyes.com/restaurants/restaurant_887021"
+      },
+      "center": {
+        "lat": 38.9406024,
+        "lon": -94.66695974999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 881787580,
+      "tags": {
+        "addr:city": "Lawrence",
+        "addr:housenumber": "2560",
+        "addr:postcode": "66046",
+        "addr:state": "KS",
+        "addr:street": "Iowa Street",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "opening_hours": "10:30-22:00",
+        "phone": "+1 785-330-9797",
+        "takeaway": "yes",
+        "website": "https://locations.popeyes.com/ks/lawrence/2560-iowa-street"
+      },
+      "center": {
+        "lat": 38.9362534,
+        "lon": -95.25999055
+      }
+    },
+    {
+      "type": "way",
+      "id": 1209572862,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "10125",
+        "addr:postcode": "64114",
+        "addr:state": "MO",
+        "addr:street": "State Line Road",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "no",
+        "indoor_seating": "yes",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "opening_hours": "10:00-22:00",
+        "phone": "+1 816-942-5757",
+        "takeaway": "yes",
+        "website": "https://www.popeyes.com/store-locator/store/restaurant_82412"
+      },
+      "center": {
+        "lat": 38.943934600000006,
+        "lon": -94.60735720000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1245849181,
+      "tags": {
+        "addr:city": "Garden City",
+        "addr:housenumber": "3108",
+        "addr:postcode": "67846",
+        "addr:state": "KS",
+        "addr:street": "East Kansas Avenue",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "opening_hours": "Mo-Th 09:30-21:00; Fr-Sa 09:30-22:00; Su 09:30-21:00",
+        "phone": "+1 620-805-6900",
+        "takeaway": "yes",
+        "website": "https://www.popeyes.com/store-locator/store/restaurant_85330"
+      },
+      "center": {
+        "lat": 37.9851835,
+        "lon": -100.83407679999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1413612718,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "10930",
+        "addr:postcode": "66109",
+        "addr:state": "KS",
+        "addr:street": "Parallel Parkway",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "building": "retail",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "opening_hours": "Mo-Su 10:00-23:00",
+        "phone": "+1 913 800 2169",
+        "takeaway": "yes",
+        "website": "https://www.popeyes.com/store-locator/store/restaurant_885957"
+      },
+      "center": {
+        "lat": 39.129101899999995,
+        "lon": -94.83307430000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1564840990,
+      "tags": {
+        "addr:city": "Shawnee",
+        "addr:housenumber": "6235",
+        "addr:postcode": "66203",
+        "addr:state": "KS",
+        "addr:street": "Nieman Road",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "opening_hours:drive_through": "Su-Th 10:00-25:00; Fr-Sa 10:00-26:00",
+        "phone": "+1-913-717-9215",
+        "takeaway": "yes",
+        "website": "https://www.popeyes.com/restaurants/restaurant_878883"
+      },
+      "center": {
+        "lat": 39.01593895,
+        "lon": -94.71416255000003
+      }
+    }
+  ]
+}

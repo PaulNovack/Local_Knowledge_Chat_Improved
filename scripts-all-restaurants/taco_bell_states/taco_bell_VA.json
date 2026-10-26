@@ -1,0 +1,5507 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "taco_bell",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 499717731,
+      "tags": {
+        "addr:city": "Lynchburg",
+        "addr:housenumber": "8131",
+        "addr:postcode": "24502",
+        "addr:state": "VA",
+        "addr:street": "Timberlake Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-01:00; Fr-Sa 07:00-03:00; Su 07:00-01:00",
+        "phone": "+1 434-239-0566",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/lynchburg/8131-timberlake-road.html"
+      },
+      "lat": 37.3480397,
+      "lon": -79.2327536
+    },
+    {
+      "type": "node",
+      "id": 1825830182,
+      "tags": {
+        "addr:city": "Annandale",
+        "addr:housenumber": "7450",
+        "addr:postcode": "22003",
+        "addr:state": "VA",
+        "addr:street": "Little River Turnpike",
+        "amenity": "fast_food",
+        "cuisine": "mexican",
+        "name": "Taco Bell / KFC",
+        "phone": "+1 703-256-2086",
+        "source": "local_knowledge",
+        "website": "https://locations.tacobell.com/va/annandale/7450-little-river-turnpike.html"
+      },
+      "lat": 38.8320072,
+      "lon": -77.2030952
+    },
+    {
+      "type": "node",
+      "id": 2369152305,
+      "tags": {
+        "addr:city": "Salem",
+        "addr:housenumber": "1732",
+        "addr:postcode": "24153",
+        "addr:state": "VA",
+        "addr:street": "West Main Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-02:00",
+        "phone": "+1 540-389-7515",
+        "source": "GPS",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/salem/1732-w--main-st-.html"
+      },
+      "lat": 37.288425,
+      "lon": -80.086607
+    },
+    {
+      "type": "node",
+      "id": 2692149338,
+      "tags": {
+        "addr:city": "Charlottesville",
+        "addr:housenumber": "801",
+        "addr:postcode": "22903",
+        "addr:state": "VA",
+        "addr:street": "Emmet Street North",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "check_date": "2023-04-27",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Sa 09:00-21:00; Su 09:00-15:00",
+        "opening_hours:drive_through": "Mo- Sa 08:00-25:00; Su 08:00-15:00",
+        "phone": "+1 434-979-9074",
+        "source": "esri_Virginia",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/charlottesville/801-emmet-st--n-.html"
+      },
+      "lat": 38.0473784,
+      "lon": -78.504574
+    },
+    {
+      "type": "node",
+      "id": 2868835431,
+      "tags": {
+        "addr:city": "Roanoke",
+        "addr:housenumber": "4220",
+        "addr:postcode": "24014",
+        "addr:state": "VA",
+        "addr:street": "Franklin Road Southwest",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-01:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "phone": "+1 540-989-9523",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/roanoke/4220-franklin-rd-sw.html"
+      },
+      "lat": 37.222784,
+      "lon": -79.9676506
+    },
+    {
+      "type": "node",
+      "id": 2945979248,
+      "tags": {
+        "addr:city": "Vinton",
+        "addr:housenumber": "1918",
+        "addr:postcode": "24179",
+        "addr:state": "VA",
+        "addr:street": "Washington Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "09:00-23:00",
+        "opening_hours:drive_through": "Mo-Th,Su 09:00-01:00, Fr,Sa 09:00-02:00",
+        "phone": "+1 540-566-3111",
+        "source": "GPS",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/vinton/1918-washington-avenue.html"
+      },
+      "lat": 37.2778169,
+      "lon": -79.8705372
+    },
+    {
+      "type": "node",
+      "id": 2969891988,
+      "tags": {
+        "addr:city": "Norfolk",
+        "addr:housenumber": "649",
+        "addr:postcode": "23502",
+        "addr:state": "VA",
+        "addr:street": "Newtown Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Su-Th 07:00-24:00, Fr,Sa 06:00-24:00",
+        "phone": "+1 757-461-3289",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/norfolk/649-newtown-rd.html"
+      },
+      "lat": 36.8483666,
+      "lon": -76.1813962
+    },
+    {
+      "type": "node",
+      "id": 3066140958,
+      "tags": {
+        "addr:city": "Emporia",
+        "addr:housenumber": "107",
+        "addr:postcode": "23847",
+        "addr:state": "VA",
+        "addr:street": "East Cloverleaf Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "check_date": "2024-12-24",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+1 434-634-3122",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/emporia/107-cloverleaf-drive.html"
+      },
+      "lat": 36.7037474,
+      "lon": -77.5421175
+    },
+    {
+      "type": "node",
+      "id": 3134166977,
+      "tags": {
+        "addr:city": "Hampton",
+        "addr:housenumber": "1118",
+        "addr:postcode": "23666",
+        "addr:state": "VA",
+        "addr:street": "Big Bethel Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 08:00-03:00; Fr-Sa 08:00-04:00; Su 08:00-03:00",
+        "phone": "+1 757-838-0920",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/hampton/1118-big-bethel-road.html"
+      },
+      "lat": 37.0583604,
+      "lon": -76.4270491
+    },
+    {
+      "type": "node",
+      "id": 3140909672,
+      "tags": {
+        "addr:city": "South Hill",
+        "addr:housenumber": "703",
+        "addr:postcode": "23970",
+        "addr:state": "VA",
+        "addr:street": "East Atlantic Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "opening_hours:drive_through": "Mo-Sa 10:00-22:00",
+        "phone": "+1-434-447-2611",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/south-hill/703-e--atlantic.html"
+      },
+      "lat": 36.7209778,
+      "lon": -78.1182189
+    },
+    {
+      "type": "node",
+      "id": 3196445443,
+      "tags": {
+        "addr:city": "Luray",
+        "addr:housenumber": "1350",
+        "addr:postcode": "22835",
+        "addr:state": "VA",
+        "addr:street": "Highway 211 West",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 09:00-24:00; Fr-Sa 09:00-01:00; Su 09:00-24:00",
+        "phone": "+1 540-743-2123",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/luray/1350-us-highway-211-w.html"
+      },
+      "lat": 38.6607083,
+      "lon": -78.4958724
+    },
+    {
+      "type": "node",
+      "id": 4540580173,
+      "tags": {
+        "addr:city": "Harrisonburg",
+        "addr:housenumber": "1680",
+        "addr:postcode": "22801",
+        "addr:state": "VA",
+        "addr:street": "East Market Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-We 09:00-01:45; Th 14:00-01:45; Fr-Su 09:00-01:45",
+        "phone": "+1 540-433-7877",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/harrisonburg/1680-e-market-st.html"
+      },
+      "lat": 38.4342131,
+      "lon": -78.8453085
+    },
+    {
+      "type": "node",
+      "id": 5339411725,
+      "tags": {
+        "addr:city": "Woodford",
+        "addr:housenumber": "5217",
+        "addr:postcode": "22580",
+        "addr:state": "VA",
+        "addr:street": "Mudd Tavern Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 09:00-01:00; Fr-Sa 09:00-02:00; Su 09:00-01:00",
+        "phone": "+1 540-805-5913",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/woodford/5217-mudd-tavern-road.html"
+      },
+      "lat": 38.1327265,
+      "lon": -77.5153731
+    },
+    {
+      "type": "node",
+      "id": 5509695379,
+      "tags": {
+        "addr:city": "Danville",
+        "addr:housenumber": "3035",
+        "addr:postcode": "24541",
+        "addr:state": "VA",
+        "addr:street": "Riverside Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-23:00",
+        "opening_hours:drive_through": "Mo-Su 09:00-03:00",
+        "phone": "+1 434-793-8275",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/danville/3035-riverside-dr.html"
+      },
+      "lat": 36.5875037,
+      "lon": -79.4211879
+    },
+    {
+      "type": "node",
+      "id": 5519785198,
+      "tags": {
+        "addr:city": "Zion Crossroads",
+        "addr:housenumber": "485",
+        "addr:postcode": "22942",
+        "addr:state": "VA",
+        "addr:street": "Market Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "check_date": "2024-01-04",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-24:00; Fr-Sa 07:00-01:00; Su 07:00-24:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 540-406-5908",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/zion-crossroads/485-market-street.html"
+      },
+      "lat": 37.9811367,
+      "lon": -78.2092016
+    },
+    {
+      "type": "node",
+      "id": 6212684416,
+      "tags": {
+        "addr:city": "Galax",
+        "addr:housenumber": "1079",
+        "addr:postcode": "24333",
+        "addr:state": "VA",
+        "addr:street": "East Stuart Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 07:00-01:00",
+        "phone": "+1 276-238-1533",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/galax/1079-e-stuart-dr-.html"
+      },
+      "lat": 36.6860649,
+      "lon": -80.8866651
+    },
+    {
+      "type": "node",
+      "id": 6257414251,
+      "tags": {
+        "addr:city": "Danville",
+        "addr:housenumber": "1208",
+        "addr:postcode": "24540",
+        "addr:state": "VA",
+        "addr:street": "Piney Forest Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo 12:00-01:00; Tu-We 07:00-01:00; Th 07:00-23:00; Fr-Su 07:00-01:00",
+        "phone": "+1 434-836-8345",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/danville/1208-piney-forest-road.html"
+      },
+      "lat": 36.6268359,
+      "lon": -79.4008273
+    },
+    {
+      "type": "node",
+      "id": 6292445899,
+      "tags": {
+        "addr:city": "Bedford",
+        "addr:housenumber": "1001",
+        "addr:postcode": "24523",
+        "addr:state": "VA",
+        "addr:street": "Independence Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Sa 07:00-24:00; Su 07:00-22:30",
+        "phone": "+1 540-586-1199",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/bedford/1001-independence-blvd.html"
+      },
+      "lat": 37.3280093,
+      "lon": -79.502601
+    },
+    {
+      "type": "node",
+      "id": 6431613780,
+      "tags": {
+        "addr:city": "Christiansburg",
+        "addr:housenumber": "2500",
+        "addr:postcode": "24073",
+        "addr:state": "VA",
+        "addr:street": "Market Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "capacity": "60",
+        "check_date": "2025-07-31",
+        "cuisine": "tex-mex",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo 07:00-22:00; Tu 11:00-01:00; We 07:00-01:00; Th 07:00-23:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "operator": "Charter Foods",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 540-381-0641",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/christiansburg/2500-market-st.html",
+        "wheelchair": "limited"
+      },
+      "lat": 37.1643223,
+      "lon": -80.4228434
+    },
+    {
+      "type": "node",
+      "id": 6582587504,
+      "tags": {
+        "addr:city": "Williamsburg",
+        "addr:housenumber": "1905",
+        "addr:postcode": "23185",
+        "addr:state": "VA",
+        "addr:street": "Pocahontas Trail",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "phone": "+1 757-220-8176",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/williamsburg/1905-pocahontas-trail.html"
+      },
+      "lat": 37.2468734,
+      "lon": -76.6577758
+    },
+    {
+      "type": "node",
+      "id": 6863295891,
+      "tags": {
+        "addr:city": "King George",
+        "addr:housenumber": "5400",
+        "addr:postcode": "22485",
+        "addr:state": "VA",
+        "addr:street": "James Madison Parkway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "check_date": "2023-04-20",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "10:00-22:00",
+        "opening_hours:drive_through": "10:00-23:00",
+        "phone": "+1 540-644-8400",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/king-george/5400-james-madison-parkway.html"
+      },
+      "lat": 38.3389931,
+      "lon": -77.0780402
+    },
+    {
+      "type": "node",
+      "id": 7473934389,
+      "tags": {
+        "addr:city": "Gate City",
+        "addr:housenumber": "247",
+        "addr:postcode": "24251",
+        "addr:state": "VA",
+        "addr:street": "Kane Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Fr 07:00-23:45; Sa-Su 08:00-23:45",
+        "opening_hours:drive_through": "Mo-Th 07:00-01:00; Fr 07:00-02:00; Sa 08:00-02:00; Su 08:00-01:00",
+        "phone": "+1-276-594-3182",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/gate-city/247-kane-street.html"
+      },
+      "lat": 36.6382319,
+      "lon": -82.5692403
+    },
+    {
+      "type": "node",
+      "id": 7509238004,
+      "tags": {
+        "addr:city": "Clintwood",
+        "addr:housenumber": "5204",
+        "addr:postcode": "24228",
+        "addr:state": "VA",
+        "addr:street": "Dickenson Highway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/clintwood/5204-dickenson-highway.html"
+      },
+      "lat": 37.149157,
+      "lon": -82.4667427
+    },
+    {
+      "type": "node",
+      "id": 7734402010,
+      "tags": {
+        "addr:city": "Alexandria",
+        "addr:housenumber": "5890",
+        "addr:postcode": "22315",
+        "addr:state": "VA",
+        "addr:street": "Kingstowne Center",
+        "addr:unit": "160",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "check_date": "2025-12-24",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 703-921-9301",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/alexandria/5890-kingstowne-center.html"
+      },
+      "lat": 38.7719102,
+      "lon": -77.1364225
+    },
+    {
+      "type": "node",
+      "id": 7840065921,
+      "tags": {
+        "addr:city": "Rocky Mount",
+        "addr:housenumber": "68",
+        "addr:postcode": "24151",
+        "addr:state": "VA",
+        "addr:street": "Market Place Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-24:00",
+        "phone": "+1 540-484-0266",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/rocky-mount/68-market-place-drive.html"
+      },
+      "lat": 37.0112325,
+      "lon": -79.8684197
+    },
+    {
+      "type": "node",
+      "id": 8583860613,
+      "tags": {
+        "addr:city": "Alexandria",
+        "addr:housenumber": "7230",
+        "addr:postcode": "22306",
+        "addr:state": "VA",
+        "addr:street": "Richmond Highway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-02:00; Fr-Sa 07:00-04:00; Su 07:00-02:00",
+        "phone": "+1 703-765-1249",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/alexandria/7230-richmond-hwy.html"
+      },
+      "lat": 38.7597605,
+      "lon": -77.0844708
+    },
+    {
+      "type": "node",
+      "id": 8605424345,
+      "tags": {
+        "addr:city": "Hampton",
+        "addr:housenumber": "1603",
+        "addr:postcode": "23663",
+        "addr:state": "VA",
+        "addr:street": "East Pembroke Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 757-723-3756",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/hampton/1603-e--pembroke-ave-.html"
+      },
+      "lat": 37.0381895,
+      "lon": -76.3138815
+    },
+    {
+      "type": "node",
+      "id": 9341259639,
+      "tags": {
+        "addr:city": "Staunton",
+        "addr:housenumber": "854",
+        "addr:postcode": "24401",
+        "addr:state": "VA",
+        "addr:street": "Statler Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "check_date": "2021-12-15",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "09:00-00:45",
+        "operator": "Burgerbusters",
+        "phone": "+1 540-886-5496",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/staunton/854-statler-blvd.html"
+      },
+      "lat": 38.1384746,
+      "lon": -79.0668479
+    },
+    {
+      "type": "node",
+      "id": 9414021547,
+      "tags": {
+        "addr:city": "Richlands",
+        "addr:housenumber": "3121",
+        "addr:postcode": "24641",
+        "addr:state": "VA",
+        "addr:street": "Cedar Valley Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Su-Th 07:00-22:00, Fr-Sa 07:00-23:00",
+        "phone": "+1-276-963-0654",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/richlands/3121-cedar-valley-dr.html"
+      },
+      "lat": 37.0922277,
+      "lon": -81.7798868
+    },
+    {
+      "type": "node",
+      "id": 9432056375,
+      "tags": {
+        "addr:city": "Suffolk",
+        "addr:housenumber": "6200",
+        "addr:postcode": "23435",
+        "addr:state": "VA",
+        "addr:street": "College Drive",
+        "addr:unit": "C",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 08:00-24:00; Fr-Sa 08:00-01:00; Su 08:00-24:00",
+        "phone": "+1 757-483-0800",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/suffolk/6200-college-drive.html"
+      },
+      "lat": 36.8790803,
+      "lon": -76.4229481
+    },
+    {
+      "type": "node",
+      "id": 9900811599,
+      "tags": {
+        "addr:city": "Bristol",
+        "addr:housenumber": "2582",
+        "addr:postcode": "37620",
+        "addr:state": "TN",
+        "addr:street": "West State Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-03:00",
+        "phone": "+1 423-968-2018",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/tn/bristol/2582-w-state-st.html"
+      },
+      "lat": 36.5948564,
+      "lon": -82.2116557
+    },
+    {
+      "type": "node",
+      "id": 11394142329,
+      "tags": {
+        "addr:city": "Vinton",
+        "addr:housenumber": "1918",
+        "addr:postcode": "24179",
+        "addr:state": "VA",
+        "addr:street": "Washington Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Sa 07:00-01:00; Su 07:00-23:00",
+        "phone": "+1 540-566-3111",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/vinton/1918-washington-avenue.html"
+      },
+      "lat": 37.2796728,
+      "lon": -79.8669958
+    },
+    {
+      "type": "node",
+      "id": 11403825519,
+      "tags": {
+        "addr:city": "Toms Brook",
+        "addr:housenumber": "1014",
+        "addr:postcode": "22660",
+        "addr:state": "VA",
+        "addr:street": "Mount Olive Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "phone": "+1 540-436-3121",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/toms-brook/1014-mt--olive-road.html"
+      },
+      "lat": 38.966578,
+      "lon": -78.4381669
+    },
+    {
+      "type": "node",
+      "id": 11469865051,
+      "tags": {
+        "addr:city": "Stephens City",
+        "addr:housenumber": "113",
+        "addr:postcode": "22655",
+        "addr:state": "VA",
+        "addr:street": "Town Run Lane",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "check_date": "2023-12-30",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "09:00-24:00",
+        "phone": "+1 540-869-4110",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/stephens-city/113-town-run-lane.html"
+      },
+      "lat": 39.0805256,
+      "lon": -78.2141103
+    },
+    {
+      "type": "node",
+      "id": 11909614158,
+      "tags": {
+        "addr:city": "Fairfax",
+        "addr:housenumber": "11750",
+        "addr:postcode": "22033",
+        "addr:state": "VA",
+        "addr:street": "Lee Jackson Memorial Highway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "phone": "+1 703-691-3220",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/fairfax/11750-lee-jackson-memorial-highway.html"
+      },
+      "lat": 38.8624663,
+      "lon": -77.3577301
+    },
+    {
+      "type": "node",
+      "id": 11909614167,
+      "tags": {
+        "addr:city": "Dulles",
+        "addr:housenumber": "21100",
+        "addr:postcode": "20166",
+        "addr:state": "VA",
+        "addr:street": "Dulles Town Circle",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "phone": "+1 703-969-3980",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/dulles/21100-dulles-town-circle.html"
+      },
+      "lat": 39.0321784,
+      "lon": -77.4236548
+    },
+    {
+      "type": "node",
+      "id": 11909616074,
+      "tags": {
+        "addr:city": "Manassas",
+        "addr:housenumber": "10036",
+        "addr:postcode": "20110",
+        "addr:state": "VA",
+        "addr:street": "Dumfries Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "10:00-01:00",
+        "phone": "+1 703-392-1266",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/manassas/10036-dumfries-rd.html"
+      },
+      "lat": 38.7393374,
+      "lon": -77.4724799
+    },
+    {
+      "type": "node",
+      "id": 11909616085,
+      "tags": {
+        "addr:city": "Arlington",
+        "addr:housenumber": "1100",
+        "addr:postcode": "22202",
+        "addr:state": "VA",
+        "addr:street": "South Hayes Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "phone": "+1 703-412-9388",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/arlington/1100-s-hayes-street.html"
+      },
+      "lat": 38.8631775,
+      "lon": -77.0602938
+    },
+    {
+      "type": "node",
+      "id": 11938510412,
+      "tags": {
+        "addr:city": "Ruckersville",
+        "addr:housenumber": "8726",
+        "addr:postcode": "22968",
+        "addr:state": "VA",
+        "addr:street": "Seminole Trail",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "10:00-24:00",
+        "phone": "+1 434-985-2232",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/ruckersville/8726-seminole-trail.html"
+      },
+      "lat": 38.2299508,
+      "lon": -78.3707142
+    },
+    {
+      "type": "node",
+      "id": 11943282778,
+      "tags": {
+        "addr:city": "Newport News",
+        "addr:housenumber": "12630",
+        "addr:postcode": "23606",
+        "addr:state": "VA",
+        "addr:street": "Warwick Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 757-930-4432",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/newport-news/12630-warwick-blvd-.html"
+      },
+      "lat": 37.085294,
+      "lon": -76.4983184
+    },
+    {
+      "type": "node",
+      "id": 11944729391,
+      "tags": {
+        "addr:city": "Pulaski",
+        "addr:housenumber": "1991",
+        "addr:postcode": "24301",
+        "addr:state": "VA",
+        "addr:street": "Memorial Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "11:00-22:00",
+        "phone": "+1 540-994-0275",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/pulaski/1991-memorial-drive.html"
+      },
+      "lat": 37.0530921,
+      "lon": -80.7509953
+    },
+    {
+      "type": "node",
+      "id": 11944729393,
+      "tags": {
+        "addr:city": "Wytheville",
+        "addr:housenumber": "150",
+        "addr:postcode": "24382",
+        "addr:state": "VA",
+        "addr:street": "Commonwealth Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-22:00",
+        "phone": "+1 276-228-7321",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/wytheville/150-commonwealth-drive.html"
+      },
+      "lat": 36.958579,
+      "lon": -81.0967183
+    },
+    {
+      "type": "node",
+      "id": 11944729396,
+      "tags": {
+        "addr:city": "Wytheville",
+        "addr:housenumber": "1025",
+        "addr:postcode": "24382",
+        "addr:state": "VA",
+        "addr:street": "Peppers Ferry Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/wytheville/1025-peppers-ferry-rd.html"
+      },
+      "lat": 36.9651413,
+      "lon": -81.0675909
+    },
+    {
+      "type": "node",
+      "id": 11954795968,
+      "tags": {
+        "addr:city": "Chesapeake",
+        "addr:housenumber": "2212",
+        "addr:postcode": "23320",
+        "addr:state": "VA",
+        "addr:street": "South Military Highway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 757-543-1939",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/chesapeake/2212-s--military-hwy-.html"
+      },
+      "lat": 36.7773013,
+      "lon": -76.2680711
+    },
+    {
+      "type": "node",
+      "id": 12045060809,
+      "tags": {
+        "addr:city": "Lebanon",
+        "addr:housenumber": "1337",
+        "addr:postcode": "24266",
+        "addr:state": "VA",
+        "addr:street": "East Main Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "check_date": "2025-07-12",
+        "cuisine": "tex-mex",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "09:00-23:00",
+        "opening_hours:drive_through": "09:00-02:00",
+        "phone": "+1 276-889-2011",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/lebanon/1337-east-main-street.html"
+      },
+      "lat": 36.9047488,
+      "lon": -82.0569352
+    },
+    {
+      "type": "node",
+      "id": 12117283578,
+      "tags": {
+        "addr:city": "Charlottesville",
+        "addr:county": "Albemarle County",
+        "addr:housenumber": "820",
+        "addr:postcode": "22901",
+        "addr:state": "VA",
+        "addr:street": "Gardens Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "check_date": "2023-04-27",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "09:00-21:00",
+        "opening_hours:drive_through": "09:00-24:00",
+        "phone": "+1 434-974-1344",
+        "source": "esri_Virginia",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/charlottesville/820-gardens-blvd.html"
+      },
+      "lat": 38.0845478,
+      "lon": -78.471592
+    },
+    {
+      "type": "node",
+      "id": 12386786538,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Taco Bell",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "lat": 36.8628409,
+      "lon": -82.7587137
+    },
+    {
+      "type": "node",
+      "id": 12462006788,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "takeaway": "yes"
+      },
+      "lat": 38.413642,
+      "lon": -77.4118339
+    },
+    {
+      "type": "node",
+      "id": 12471997935,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "drive_through": "no",
+        "level": "1",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Fr 07:00-14:00",
+        "takeaway": "yes"
+      },
+      "lat": 38.8720516,
+      "lon": -77.0556221
+    },
+    {
+      "type": "node",
+      "id": 12498089461,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 10:30-24:00",
+        "opening_hours:drive_through": "Mo-Su 10:30-24:00",
+        "phone": "+1 757-588-8604",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/norfolk/199-w--ocean-view-ave-.html"
+      },
+      "lat": 36.9556244,
+      "lon": -76.2535098
+    },
+    {
+      "type": "node",
+      "id": 13710014748,
+      "tags": {
+        "addr:city": "Burke",
+        "addr:housenumber": "9402",
+        "addr:postcode": "22015",
+        "addr:state": "VA",
+        "addr:street": "Old Burke Lake Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "mapillary": "1605366441171356",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+1 703-764-8882",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/burke/9402-old-burke-lake-rd-.html"
+      },
+      "lat": 38.7946429,
+      "lon": -77.270853
+    },
+    {
+      "type": "relation",
+      "id": 15282753,
+      "tags": {
+        "addr:city": "Midlothian",
+        "addr:housenumber": "12751",
+        "addr:postcode": "23236",
+        "addr:state": "VA",
+        "addr:street": "Stone Village Way",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-24:00",
+        "phone": "+1 804-594-5346",
+        "takeaway": "yes",
+        "type": "multipolygon",
+        "website": "https://locations.tacobell.com/va/midlothian/12751-stone-village-way.html",
+        "website:menu": "https://www.tacobell.com/food?store=034782"
+      },
+      "center": {
+        "lat": 37.5026003,
+        "lon": -77.62832330000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 39256808,
+      "tags": {
+        "addr:city": "Fredericksburg",
+        "addr:housenumber": "4720",
+        "addr:postcode": "22408",
+        "addr:state": "VA",
+        "addr:street": "Mine Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-We 08:00-02:00; Th 08:00-24:00; Fr-Sa 08:00-03:00; Su 08:00-02:00",
+        "outdoor_seating": "no",
+        "phone": "+1 540-710-2214",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/fredericksburg/4720-mine-road.html"
+      },
+      "center": {
+        "lat": 38.2493326,
+        "lon": -77.49833360000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 43250369,
+      "tags": {
+        "addr:city": "Falmouth",
+        "addr:country": "US",
+        "addr:county": "Stafford County",
+        "addr:housenumber": "730",
+        "addr:postcode": "22406",
+        "addr:state": "VA",
+        "addr:street": "Warrenton Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-01:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "phone": "+1 540-371-0121",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/falmouth/730-warrenton-rd.html"
+      },
+      "center": {
+        "lat": 38.35167495,
+        "lon": -77.5054652
+      }
+    },
+    {
+      "type": "way",
+      "id": 45001176,
+      "tags": {
+        "addr:city": "Sterling",
+        "addr:housenumber": "45960",
+        "addr:postcode": "20165",
+        "addr:state": "VA",
+        "addr:street": "Denizen Plaza",
+        "amenity": "fast_food",
+        "building": "yes",
+        "name": "Taco Bell / KFC",
+        "phone": "+1 703-450-7808",
+        "website": "https://locations.tacobell.com/va/sterling/45960-denizen-plaza-road.html"
+      },
+      "center": {
+        "lat": 39.03618045,
+        "lon": -77.40950470000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 45145103,
+      "tags": {
+        "addr:city": "Herndon",
+        "addr:housenumber": "2170",
+        "addr:postcode": "20170",
+        "addr:state": "VA",
+        "addr:street": "Centreville Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2026-08-10",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "height": "4",
+        "name": "Taco Bell",
+        "opening_hours": "Su-Th 07:00-01:30, Fr-Sa 07:00-03:30",
+        "phone": "+1 703-437-7932",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/herndon/2170-centreville-rd.html"
+      },
+      "center": {
+        "lat": 38.958960450000006,
+        "lon": -77.40297699999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 45574341,
+      "tags": {
+        "addr:city": "Manassas",
+        "addr:housenumber": "7791",
+        "addr:postcode": "20109",
+        "addr:state": "VA",
+        "addr:street": "Sudley Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "06:30-04:00",
+        "phone": "+1 703-368-0749",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/manassas/7791-sudley-rd.html"
+      },
+      "center": {
+        "lat": 38.7881855,
+        "lon": -77.51347525
+      }
+    },
+    {
+      "type": "way",
+      "id": 50252798,
+      "tags": {
+        "addr:city": "Fredericksburg",
+        "addr:housenumber": "3551",
+        "addr:postcode": "22407",
+        "addr:state": "VA",
+        "addr:street": "Plank Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-01:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "outdoor_seating": "no",
+        "phone": "+1 540-786-4075",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/fredericksburg/3551-plank-road.html"
+      },
+      "center": {
+        "lat": 38.2936196,
+        "lon": -77.52147315000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 50980848,
+      "tags": {
+        "addr:city": "Roanoke",
+        "addr:housenumber": "3306",
+        "addr:postcode": "24018",
+        "addr:state": "VA",
+        "addr:street": "Westmoreland Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-01:00",
+        "phone": "+1 540-776-9563",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/roanoke/3306-westmoreland-drive.html"
+      },
+      "center": {
+        "lat": 37.2330305,
+        "lon": -80.00727749999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 54790007,
+      "tags": {
+        "addr:city": "Blacksburg",
+        "addr:country": "US",
+        "addr:housenumber": "608",
+        "addr:postcode": "24060",
+        "addr:state": "VA",
+        "addr:street": "North Main Street",
+        "amenity": "fast_food",
+        "branch": "Blacksburg",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "building:levels": "1",
+        "building:material": "concrete",
+        "cuisine": "tex-mex",
+        "delivery": "yes",
+        "diet:meat": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "internet_access:ssid": "Taco Bell WiFi",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 07:00-24:00",
+        "phone": "+1-540-552-6169",
+        "roof:levels": "0",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/blacksburg/608-n-main-st.html",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 37.23378045,
+        "lon": -80.41842859999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 79158354,
+      "tags": {
+        "addr:city": "Reston",
+        "addr:housenumber": "11257",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Roger Bacon Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-01:00; Fr 07:00-24:00; Sa 07:00-01:30; Su 07:00-01:00",
+        "phone": "+1 703-437-5622",
+        "source": "bing",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/reston/11257-roger-bacon-dr.html"
+      },
+      "center": {
+        "lat": 38.951038,
+        "lon": -77.33439164999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 93849453,
+      "tags": {
+        "addr:city": "Woodbridge",
+        "addr:country": "US",
+        "addr:housenumber": "1921",
+        "addr:postcode": "22191",
+        "addr:state": "VA",
+        "addr:street": "Daniel Stuart Square",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 08:00-02:00; Fr-Sa 08:00-03:00; Su 08:00-02:00",
+        "phone": "+1 703-491-9900",
+        "source": "survey 1/2017",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/woodbridge/1921-daniel-stuart-sq.html"
+      },
+      "center": {
+        "lat": 38.63078935,
+        "lon": -77.2744576
+      }
+    },
+    {
+      "type": "way",
+      "id": 94046140,
+      "tags": {
+        "addr:city": "Woodbridge",
+        "addr:housenumber": "13880",
+        "addr:postcode": "22192",
+        "addr:state": "VA",
+        "addr:street": "Shoppers Best Way",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "08:00-02:00",
+        "phone": "+1 703-583-0447",
+        "source": "survey",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/woodbridge/13880-shoppers-best-way.html"
+      },
+      "center": {
+        "lat": 38.6512163,
+        "lon": -77.29950250000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 94497767,
+      "tags": {
+        "addr:city": "Lake Ridge",
+        "addr:housenumber": "12721",
+        "addr:postcode": "22192",
+        "addr:state": "VA",
+        "addr:street": "Harbor Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "06:30-03:30",
+        "phone": "+1 703-494-2435",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/lake-ridge/12721-harbor-drive.html"
+      },
+      "center": {
+        "lat": 38.67714145,
+        "lon": -77.27850115000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 95048275,
+      "tags": {
+        "addr:city": "Woodbridge",
+        "addr:country": "US",
+        "addr:housenumber": "4248",
+        "addr:postcode": "22193",
+        "addr:state": "VA",
+        "addr:street": "Dale Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "phone": "+1 703-680-9411",
+        "source": "survey 12/2015",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/dale-city/4248-dale-blvd.html"
+      },
+      "center": {
+        "lat": 38.646522899999994,
+        "lon": -77.3371247
+      }
+    },
+    {
+      "type": "way",
+      "id": 95530752,
+      "tags": {
+        "addr:city": "Dumfries",
+        "addr:country": "US",
+        "addr:housenumber": "17360",
+        "addr:postcode": "22026",
+        "addr:state": "VA",
+        "addr:street": "Dumfries Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "phone": "+1 703-441-1784",
+        "source": "survey 10/2016",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/dumfries/172-dumfries-ave.html"
+      },
+      "center": {
+        "lat": 38.575279699999996,
+        "lon": -77.31566659999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 100055533,
+      "tags": {
+        "addr:city": "Pennington Gap",
+        "addr:housenumber": "42487",
+        "addr:postcode": "24277",
+        "addr:state": "VA",
+        "addr:street": "East Morgan Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 09:00-02:00",
+        "phone": "+1-276-546-1249",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/pennington-gap/42487-e--morgan-ave.html"
+      },
+      "center": {
+        "lat": 36.7619948,
+        "lon": -83.01494835
+      }
+    },
+    {
+      "type": "way",
+      "id": 116785992,
+      "tags": {
+        "addr:city": "Leesburg",
+        "addr:housenumber": "982",
+        "addr:postcode": "20176",
+        "addr:state": "VA",
+        "addr:street": "Edwards Ferry Road Northeast",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-02:00; Fr-Sa 07:00-03:00; Su 07:00-02:00",
+        "phone": "+1 703-777-2624",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/leesburg/982-edwards-ferry-rd-ne.html"
+      },
+      "center": {
+        "lat": 39.11442285,
+        "lon": -77.53884615000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 145420947,
+      "tags": {
+        "addr:city": "Burke",
+        "addr:housenumber": "5661",
+        "addr:postcode": "22015",
+        "addr:state": "VA",
+        "addr:street": "Burke Centre Parkway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "phone": "+1-703-239-0047",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/burke/5661-burke-centre-parkway.html"
+      },
+      "center": {
+        "lat": 38.800227250000006,
+        "lon": -77.32320374999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 158309575,
+      "tags": {
+        "addr:city": "Chantilly",
+        "addr:housenumber": "4418",
+        "addr:postcode": "20151",
+        "addr:state": "VA",
+        "addr:street": "Chantilly Place",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-02:00",
+        "operator": "Yum! Brands",
+        "phone": "+1 703-263-2034",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/chantilly/4418-chantilly-place.html"
+      },
+      "center": {
+        "lat": 38.886637,
+        "lon": -77.44446794999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 192464065,
+      "tags": {
+        "addr:city": "Fredericksburg",
+        "addr:housenumber": "543",
+        "addr:postcode": "22401",
+        "addr:state": "VA",
+        "addr:street": "Jefferson Davis Highway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "phone": "+1 540-371-2577",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/fredericksburg/543-emancipation-hwy.html"
+      },
+      "center": {
+        "lat": 38.31227,
+        "lon": -77.47669965
+      }
+    },
+    {
+      "type": "way",
+      "id": 207782616,
+      "tags": {
+        "addr:city": "Falls Church",
+        "addr:housenumber": "935",
+        "addr:postcode": "22046",
+        "addr:state": "VA",
+        "addr:street": "West Broad Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "mapillary": "1553157086062432",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 07:00-24:00 open \"Dine-in\", Mo-Th,Su 07:00-02:30 open \"Drive-through\"; Fr-Sa 07:00-03:30 open \"Drive-through\"",
+        "phone": "+1 703-241-9608",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/falls-church/935-west-broad-street.html"
+      },
+      "center": {
+        "lat": 38.8904104,
+        "lon": -77.18449140000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 212507308,
+      "tags": {
+        "addr:city": "Winchester",
+        "addr:country": "US",
+        "addr:housenumber": "1665",
+        "addr:postcode": "22601",
+        "addr:state": "VA",
+        "addr:street": "South Pleasant Valley Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-02:00; Fr-Sa 07:00-03:00; Su 07:00-02:00",
+        "phone": "+1 540-722-6506",
+        "source": "bing",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/winchester/1665-s-pleasant-valley-rd.html"
+      },
+      "center": {
+        "lat": 39.16670525,
+        "lon": -78.16483945000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 213588197,
+      "tags": {
+        "addr:city": "Winchester",
+        "addr:housenumber": "125",
+        "addr:postcode": "22603",
+        "addr:state": "VA",
+        "addr:street": "Welltown Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell & Pizza Hut Express",
+        "phone": "+1 540-722-4356",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/winchester/125-welltown-road.html",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 39.21644575,
+        "lon": -78.14213800000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 222212849,
+      "tags": {
+        "addr:city": "Gainesville",
+        "addr:housenumber": "7620",
+        "addr:postcode": "20155",
+        "addr:state": "VA",
+        "addr:street": "Linton Hall Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-02:00",
+        "phone": "+1 703-753-6951",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/gainesville/7620-linton-hall-rd.html"
+      },
+      "center": {
+        "lat": 38.7924631,
+        "lon": -77.61042105000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 224678716,
+      "tags": {
+        "addr:city": "Powhatan",
+        "addr:housenumber": "1793",
+        "addr:postcode": "23139",
+        "addr:state": "VA",
+        "addr:street": "South Creek One",
+        "addr:unit": "A",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "operator": "Yum! Brands",
+        "phone": "+1 804-794-8226",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/powhatan/1793a-southcreek-one.html"
+      },
+      "center": {
+        "lat": 37.515548,
+        "lon": -77.79222945000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 225757947,
+      "tags": {
+        "addr:city": "Glen Allen",
+        "addr:housenumber": "11450",
+        "addr:postcode": "23060",
+        "addr:state": "VA",
+        "addr:street": "West Broad Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "opening_hours:drive_through": "Su-Th 07:00-01:00; Fr-Sa 07:00-02:00",
+        "phone": "+1 804-360-8149",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/glen-allen/11450-west-broad-street.html"
+      },
+      "center": {
+        "lat": 37.6514915,
+        "lon": -77.61033850000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 235692665,
+      "tags": {
+        "addr:city": "Midlothian",
+        "addr:housenumber": "13640",
+        "addr:postcode": "23112",
+        "addr:state": "VA",
+        "addr:street": "Hull Street Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 09:00-24:00; Fr-Sa 09:00-01:00; Su 09:00-24:00",
+        "phone": "+1 804-739-9237",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/midlothian/13640-hull-street-road.html"
+      },
+      "center": {
+        "lat": 37.409729049999996,
+        "lon": -77.65383099999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 235965799,
+      "tags": {
+        "addr:city": "Midlothian",
+        "addr:housenumber": "10221",
+        "addr:postcode": "23112",
+        "addr:state": "VA",
+        "addr:street": "Hull Street Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 09:00-24:00; Fr-Sa 09:00-01:00; Su 09:00-24:00",
+        "phone": "+1 804-674-5831",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/midlothian/10221-hull-street-rd.html"
+      },
+      "center": {
+        "lat": 37.44168525,
+        "lon": -77.58547280000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 241743890,
+      "tags": {
+        "addr:city": "Arlington",
+        "addr:housenumber": "4681",
+        "addr:postcode": "22206",
+        "addr:state": "VA",
+        "addr:street": "King Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Su-We 07:00-27:00; Th-Sa 07:00-27:30",
+        "phone": "+1-703-820-2056",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/arlington/4681-king-st-.html"
+      },
+      "center": {
+        "lat": 38.84279665,
+        "lon": -77.10816564999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 248943304,
+      "tags": {
+        "addr:city": "Newport News",
+        "addr:housenumber": "12126",
+        "addr:postcode": "23602",
+        "addr:state": "VA",
+        "addr:street": "Jefferson Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Su-Th 07:00-02:00; Fr-Sa 07:00-03:00",
+        "phone": "+1-757-930-0058",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/newport-news/12126-jefferson-ave.html"
+      },
+      "center": {
+        "lat": 37.107485800000006,
+        "lon": -76.49496160000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 251039459,
+      "tags": {
+        "addr:city": "Sterling Park",
+        "addr:housename": "Taco Bell Fast Food Restaurant and Mexican Restaurant",
+        "addr:housenumber": "22288",
+        "addr:postcode": "20164",
+        "addr:state": "VA",
+        "addr:street": "South Sterling Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "phone": "+1 703-450-8393",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/sterling/22288-s-sterling-blvd.html"
+      },
+      "center": {
+        "lat": 38.999363900000006,
+        "lon": -77.40588754999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 253555505,
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "4388",
+        "addr:postcode": "23231",
+        "addr:state": "VA",
+        "addr:street": "South Laburnum Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "check_date": "2025-04-02",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "note:opening_hours": "Closing time on website (1:45 AM) is different from sticker at entrance (2 AM). Going w/ on-the-ground truth (entrance).",
+        "opening_hours": "09:00-26:00",
+        "opening_hours:signed": "yes",
+        "phone": "+1 804-222-7776",
+        "source:opening_hours": "entrance",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/richmond/4388-south-laburnum-avenue.html"
+      },
+      "center": {
+        "lat": 37.52921875,
+        "lon": -77.35898474999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 255435945,
+      "tags": {
+        "addr:city": "Chantilly",
+        "addr:housenumber": "13800",
+        "addr:postcode": "20151",
+        "addr:state": "VA",
+        "addr:street": "Metrotech Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-02:00",
+        "phone": "+1 703-817-9720",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/chantilly/13800-metrotech-drive.html"
+      },
+      "center": {
+        "lat": 38.892743949999996,
+        "lon": -77.42630059999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 263149949,
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "9420",
+        "addr:postcode": "23294",
+        "addr:state": "VA",
+        "addr:street": "West Broad Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "opening_hours:drive_through": "Su-Th 09:00-00:00; Fr-Sa 09:00-01:00",
+        "phone": "+1 804-273-1301",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/richmond/9420-w-broad-st.html"
+      },
+      "center": {
+        "lat": 37.6389778,
+        "lon": -77.55477414999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 263455330,
+      "tags": {
+        "addr:city": "Hanover County",
+        "addr:housenumber": "804",
+        "addr:postcode": "23005",
+        "addr:state": "VA",
+        "addr:street": "England Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "phone": "+1 804-798-0635",
+        "source": "esri_USDOT_Virgina",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/ashland/804-england-street.html"
+      },
+      "center": {
+        "lat": 37.758767899999995,
+        "lon": -77.46694005
+      }
+    },
+    {
+      "type": "way",
+      "id": 287981687,
+      "tags": {
+        "addr:city": "Farmville",
+        "addr:housenumber": "1708",
+        "addr:postcode": "23901",
+        "addr:state": "VA",
+        "addr:street": "South Main Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Fr 07:00-24:00; Sa 09:00-24:00; Su 14:00-24:00",
+        "phone": "+1 434-392-4066",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/farmville/1708-s--main-street.html"
+      },
+      "center": {
+        "lat": 37.2786098,
+        "lon": -78.39714574999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 296935659,
+      "tags": {
+        "addr:city": "Williamsburg",
+        "addr:housenumber": "1812",
+        "addr:postcode": "23185",
+        "addr:state": "VA",
+        "addr:street": "Richmond Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "note": "680.0",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 09:00-01:00",
+        "phone": "+1 757-253-1092",
+        "start_date": "2002",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/williamsburg/1812-richmond-rd.html"
+      },
+      "center": {
+        "lat": 37.29652265,
+        "lon": -76.72662209999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 300963204,
+      "tags": {
+        "addr:city": "Ashburn",
+        "addr:housenumber": "43230",
+        "addr:postcode": "20148",
+        "addr:state": "VA",
+        "addr:street": "Southern Walk Plaza",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "08:00-01:00",
+        "phone": "+1 703-729-1263",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/ashburn/43230-southern-walk-plaza.html",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 39.0085206,
+        "lon": -77.50633949999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 302350328,
+      "tags": {
+        "addr:city": "Mechanicsville",
+        "addr:housenumber": "7415",
+        "addr:postcode": "23111",
+        "addr:state": "VA",
+        "addr:street": "Bell Creek Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "09:00-02:00",
+        "phone": "+1 804-730-5921",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/mechanicsville/7415-bell-creek-road.html"
+      },
+      "center": {
+        "lat": 37.609077549999995,
+        "lon": -77.35533129999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 303377097,
+      "tags": {
+        "addr:city": "Norton",
+        "addr:housenumber": "604",
+        "addr:postcode": "24273",
+        "addr:state": "VA",
+        "addr:street": "Trent Street SE",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 08:00-00:00",
+        "opening_hours:drive_through": "Mo-Su 08:00-02:00",
+        "phone": "+1-276-679-3226",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/norton/604-trent-st.html"
+      },
+      "center": {
+        "lat": 36.9397229,
+        "lon": -82.60685984999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 304024589,
+      "tags": {
+        "addr:city": "Chester",
+        "addr:housenumber": "12820",
+        "addr:postcode": "23831",
+        "addr:state": "VA",
+        "addr:street": "Route 1",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "09:00-01:00",
+        "phone": "+1 804-768-6106",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/chester/12820-jefferson-davis-hwy.html"
+      },
+      "center": {
+        "lat": 37.35195625,
+        "lon": -77.41272620000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 304294635,
+      "tags": {
+        "addr:city": "Arlington",
+        "addr:housenumber": "4923",
+        "addr:postcode": "22207",
+        "addr:state": "VA",
+        "addr:street": "Langston Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 07:00-01:00",
+        "outdoor_seating": "no",
+        "phone": "+1 703-525-2015",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/arlington/4923-lee-hwy.html"
+      },
+      "center": {
+        "lat": 38.896725200000006,
+        "lon": -77.12869015000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 312165420,
+      "tags": {
+        "addr:city": "Chesapeake",
+        "addr:housenumber": "3236",
+        "addr:postcode": "23321",
+        "addr:state": "VA",
+        "addr:street": "Western Branch Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "comment": "0050000000974",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-03:30; Fr-Sa 07:00-04:00; Su 07:00-03:30",
+        "phone": "+1 757-483-0589",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/chesapeake/3236-western-branch-blvd.html"
+      },
+      "center": {
+        "lat": 36.864906500000004,
+        "lon": -76.40725065000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 312355436,
+      "tags": {
+        "addr:city": "Chesapeake",
+        "addr:housenumber": "628",
+        "addr:postcode": "23322",
+        "addr:state": "VA",
+        "addr:street": "Grassfield Parkway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "comment": "0460000001640",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "08:00-01:00",
+        "phone": "+1 757-312-9786",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/chesapeake/628-grassfield-pkwy.html"
+      },
+      "center": {
+        "lat": 36.721370199999996,
+        "lon": -76.30587794999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 312598148,
+      "tags": {
+        "addr:city": "Chesapeake",
+        "addr:housenumber": "1720",
+        "addr:postcode": "23320",
+        "addr:state": "VA",
+        "addr:street": "Parkview Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "comment": "0280000000392",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-03:30",
+        "phone": "+1 757-424-0901",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/chesapeake/1720-parkview-drive.html"
+      },
+      "center": {
+        "lat": 36.79164305,
+        "lon": -76.2393624
+      }
+    },
+    {
+      "type": "way",
+      "id": 312648904,
+      "tags": {
+        "addr:city": "Chesapeake",
+        "addr:housenumber": "929",
+        "addr:postcode": "23320",
+        "addr:state": "VA",
+        "addr:street": "Battlefield Boulevard North",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "comment": "0370000001052",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 07:00-24:00",
+        "phone": "+1 757-436-0414",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/chesapeake/929-battlefield-blvd--n.html"
+      },
+      "center": {
+        "lat": 36.753419449999996,
+        "lon": -76.24677650000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 332980427,
+      "tags": {
+        "addr:city": "Newport News",
+        "addr:housenumber": "746",
+        "addr:postcode": "23601",
+        "addr:state": "VA",
+        "addr:street": "J. Clyde Morris Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "check_date": "2023-08-06",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "phone": "+1 757-599-9685",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/newport-news/746-j-clyde-morris-blvd-.html"
+      },
+      "center": {
+        "lat": 37.07823315,
+        "lon": -76.46310365
+      }
+    },
+    {
+      "type": "way",
+      "id": 332985309,
+      "tags": {
+        "addr:city": "Newport News",
+        "addr:housenumber": "10736",
+        "addr:postcode": "23601",
+        "addr:state": "VA",
+        "addr:street": "Jefferson Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 09:00-01:00; Fr-Sa 09:00-02:00; Su 09:00-01:00",
+        "phone": "+1 757-597-7015",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/newport-news/10736-jefferson-ave.html"
+      },
+      "center": {
+        "lat": 37.052022699999995,
+        "lon": -76.46092150000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 333061792,
+      "tags": {
+        "addr:city": "Newport News",
+        "addr:housenumber": "15531",
+        "addr:postcode": "23608",
+        "addr:state": "VA",
+        "addr:street": "Warwick Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 09:00-01:00; Fr-Sa 09:00-02:00; Su 09:00-01:00",
+        "phone": "+1 757-887-2880",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/newport-news/15531-warwick-blvd.html"
+      },
+      "center": {
+        "lat": 37.1585306,
+        "lon": -76.55749505
+      }
+    },
+    {
+      "type": "way",
+      "id": 333244509,
+      "tags": {
+        "addr:city": "Newport News",
+        "addr:housenumber": "14409",
+        "addr:postcode": "23608",
+        "addr:state": "VA",
+        "addr:street": "Warwick Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "opening_hours:drive_through": "Su-We 09:00-02:00; Th-Sa 09:00-03:00",
+        "phone": "+1 757-877-9087",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/newport-news/14409-warwick-blvd.html"
+      },
+      "center": {
+        "lat": 37.12961185,
+        "lon": -76.53859115
+      }
+    },
+    {
+      "type": "way",
+      "id": 333274103,
+      "tags": {
+        "addr:city": "Newport News",
+        "addr:housenumber": "5020",
+        "addr:postcode": "23605",
+        "addr:state": "VA",
+        "addr:street": "Mercury Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "phone": "+1 757-825-9452",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/newport-news/5020-w-mercury-blvd.html"
+      },
+      "center": {
+        "lat": 37.02075415,
+        "lon": -76.44312594999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 370180112,
+      "tags": {
+        "addr:city": "Yorktown",
+        "addr:housenumber": "5230",
+        "addr:postcode": "23692",
+        "addr:state": "VA",
+        "addr:street": "George Washington Memorial Highway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "opening_hours:drive_through": "Su-Th 08:00-00:00; Fr-Sa 08:00-01:00",
+        "phone": "+1-757-890-0872",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/grafton/5230-george-washington-mem-hwy.html"
+      },
+      "center": {
+        "lat": 37.157637949999994,
+        "lon": -76.46204090000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 370420605,
+      "tags": {
+        "addr:city": "Williamsburg",
+        "addr:housenumber": "5239",
+        "addr:postcode": "23185",
+        "addr:state": "VA",
+        "addr:street": "John Tyler Highway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "09:00-01:00",
+        "phone": "+1 757-220-8624",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/williamsburg/5239-john-tyler-hwy.html"
+      },
+      "center": {
+        "lat": 37.25889625000001,
+        "lon": -76.74008785000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 377345418,
+      "tags": {
+        "addr:city": "Manassas",
+        "addr:housenumber": "8891",
+        "addr:postcode": "20110",
+        "addr:state": "VA",
+        "addr:street": "Centreville Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 06:30-03:30; Fr-Sa 06:30-04:00; Su 06:30-03:30",
+        "phone": "+1 703-369-7518",
+        "source": "survey",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/manassas/8891-centreville-road.html"
+      },
+      "center": {
+        "lat": 38.762442899999996,
+        "lon": -77.45909015000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 378868505,
+      "tags": {
+        "addr:city": "Charlottesville",
+        "addr:housenumber": "1158",
+        "addr:postcode": "22903",
+        "addr:state": "VA",
+        "addr:street": "5th Street Southwest",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-01:00",
+        "phone": "+1 434-295-9185",
+        "source": "esri_Virginia",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/charlottesville/1158-5th-street-s-w-.html"
+      },
+      "center": {
+        "lat": 38.01150175,
+        "lon": -78.5026775
+      }
+    },
+    {
+      "type": "way",
+      "id": 384007767,
+      "tags": {
+        "addr:city": "Suffolk",
+        "addr:housenumber": "1465",
+        "addr:postcode": "23434",
+        "addr:state": "VA",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "phone": "+1 757-925-4975",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/suffolk/1465-n-main-st.html"
+      },
+      "center": {
+        "lat": 36.7492533,
+        "lon": -76.5837272
+      }
+    },
+    {
+      "type": "way",
+      "id": 384092489,
+      "tags": {
+        "addr:city": "Suffolk",
+        "addr:housenumber": "1523",
+        "addr:postcode": "23434",
+        "addr:state": "VA",
+        "addr:street": "Holland Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Su-Th 07:00-23:00; Fr-Sa 07:00-00:00",
+        "opening_hours:drive_through": "Mo-Su 07:00-02:00",
+        "phone": "+1-757-774-5673",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/suffolk/1523-holland-rd.html"
+      },
+      "center": {
+        "lat": 36.72403745,
+        "lon": -76.63569634999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 384265214,
+      "tags": {
+        "addr:city": "Chesapeake",
+        "addr:housenumber": "4103",
+        "addr:postcode": "23321",
+        "addr:state": "VA",
+        "addr:street": "Portsmouth Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "comment": "0151010000110",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-02:30",
+        "phone": "+1 757-488-1955",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/chesapeake/4103-portsmouth-blvd.html"
+      },
+      "center": {
+        "lat": 36.82376255,
+        "lon": -76.40972135000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 388515884,
+      "tags": {
+        "addr:city": "Hampton",
+        "addr:housenumber": "1101",
+        "addr:postcode": "23669",
+        "addr:state": "VA",
+        "addr:street": "West Pembroke Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 757-722-0182",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/hampton/1101-w--pembroke-ave-.html"
+      },
+      "center": {
+        "lat": 37.02575505,
+        "lon": -76.36462425000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 388580509,
+      "tags": {
+        "addr:city": "Hampton",
+        "addr:housenumber": "2136",
+        "addr:postcode": "23666",
+        "addr:state": "VA",
+        "addr:street": "West Mercury Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-We 09:00-01:00; Th 10:00-01:00; Fr-Sa 09:00-02:00; Su 09:00-01:00",
+        "phone": "+1 757-778-9635",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/hampton/2136-w-mercury-blvd.html"
+      },
+      "center": {
+        "lat": 37.0398128,
+        "lon": -76.40003495000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 388598121,
+      "tags": {
+        "addr:city": "Hampton",
+        "addr:housenumber": "1039",
+        "addr:postcode": "23666",
+        "addr:state": "VA",
+        "addr:street": "West Mercury Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-03:00; Fr-Sa 07:00-04:00; Su 07:00-03:00",
+        "phone": "+1 757-838-3105",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/hampton/1039-w-mercury-blvd.html"
+      },
+      "center": {
+        "lat": 37.0426881,
+        "lon": -76.38127055000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 390531582,
+      "tags": {
+        "addr:city": "Lexington",
+        "addr:housenumber": "49",
+        "addr:postcode": "24450",
+        "addr:state": "VA",
+        "addr:street": "East Midland Trail",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 09:00-00:00",
+        "phone": "+1 540-463-1667",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/lexington/49-e--midland-trail.html"
+      },
+      "center": {
+        "lat": 37.77660585,
+        "lon": -79.43274725000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 392122574,
+      "tags": {
+        "addr:city": "Waynesboro",
+        "addr:housenumber": "2901",
+        "addr:postcode": "22980",
+        "addr:state": "VA",
+        "addr:street": "West Main Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 08:00-01:00; Fr-Sa 08:00-02:00; Su 08:00-01:00",
+        "phone": "+1 540-401-6945",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/waynesboro/2901-west-main-street.html"
+      },
+      "center": {
+        "lat": 38.08229465,
+        "lon": -78.93044105000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 396485931,
+      "tags": {
+        "addr:city": "Portsmouth",
+        "addr:housenumber": "2007",
+        "addr:postcode": "23702",
+        "addr:state": "VA",
+        "addr:street": "Victory Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "office",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "phone": "+1 757-487-0742",
+        "source": "Virginia Geographic Information Network Open Data",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/portsmouth/5004-george-washington-hwy-.html"
+      },
+      "center": {
+        "lat": 36.794392599999995,
+        "lon": -76.32826124999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 402209862,
+      "tags": {
+        "addr:city": "Virginia Beach",
+        "addr:housenumber": "5195",
+        "addr:postcode": "23455",
+        "addr:state": "VA",
+        "addr:street": "Shore Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "height": "21'",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 08:00-01:00; Fr-Sa 08:00-03:00; Su 08:00-01:00",
+        "phone": "+1 757-363-0420",
+        "start_date": "1988",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/virginia-beach/5195-shore-dr.html"
+      },
+      "center": {
+        "lat": 36.905960750000006,
+        "lon": -76.1508574
+      }
+    },
+    {
+      "type": "way",
+      "id": 402285509,
+      "tags": {
+        "addr:city": "Virginia Beach",
+        "addr:housenumber": "3708",
+        "addr:postcode": "23452",
+        "addr:state": "VA",
+        "addr:street": "Virginia Beach Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "height": "26'",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-02:30; Fr-Sa 07:00-03:00; Su 07:00-02:30",
+        "phone": "+1 757-463-3543",
+        "start_date": "1991",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/virginia-beach/3708-virginia-beach-blvd.html"
+      },
+      "center": {
+        "lat": 36.84053915,
+        "lon": -76.10028725000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 402385684,
+      "tags": {
+        "addr:city": "Virginia Beach",
+        "addr:housenumber": "540",
+        "addr:postcode": "23451",
+        "addr:state": "VA",
+        "addr:street": "First Colonial Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "height": "36'",
+        "name": "Taco Bell",
+        "phone": "+1 757-422-0881",
+        "start_date": "1993",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/virginia-beach/540-1st-colonial-rd.html"
+      },
+      "center": {
+        "lat": 36.8473895,
+        "lon": -76.02068919999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 402415139,
+      "tags": {
+        "addr:city": "Virginia Beach",
+        "addr:housenumber": "1360",
+        "addr:postcode": "23454",
+        "addr:state": "VA",
+        "addr:street": "Great Neck Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "height": "29'",
+        "name": "Taco Bell",
+        "opening_hours": "09:00-01:00",
+        "phone": "+1 757-496-8742",
+        "start_date": "1994",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/virginia-beach/1360-great-neck-road.html"
+      },
+      "center": {
+        "lat": 36.87755525,
+        "lon": -76.04051014999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 402431959,
+      "tags": {
+        "addr:city": "Virginia Beach",
+        "addr:housenumber": "4597",
+        "addr:postcode": "23462",
+        "addr:state": "VA",
+        "addr:street": "Virginia Beach Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 07:00-00:00",
+        "opening_hours:drive_through": "Mo-Su 07:00-04:30",
+        "phone": "+1 757-499-2287",
+        "start_date": "1990",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/virginia-beach/4597-virginia-beach-blvd.html"
+      },
+      "center": {
+        "lat": 36.84315735,
+        "lon": -76.13621984999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 402468840,
+      "tags": {
+        "addr:city": "Virginia Beach",
+        "addr:housenumber": "4236",
+        "addr:postcode": "23452",
+        "addr:state": "VA",
+        "addr:street": "Holland Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-04:00; Fr 07:00-05:30; Su 05:30-04:00",
+        "phone": "+1 757-463-0136",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/virginia-beach/4236-holland-rd.html"
+      },
+      "center": {
+        "lat": 36.81941355,
+        "lon": -76.11935154999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 402508361,
+      "tags": {
+        "addr:city": "Virginia Beach",
+        "addr:housenumber": "2800",
+        "addr:postcode": "23452",
+        "addr:state": "VA",
+        "addr:street": "Sabre Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "height": "25'",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-02:30; Fr-Sa 07:00-03:00; Su 07:00-02:30",
+        "phone": "+1 757-486-6160",
+        "start_date": "1994",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/virginia-beach/2800-sabre-st-.html"
+      },
+      "center": {
+        "lat": 36.823546199999996,
+        "lon": -76.06760840000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 402563552,
+      "tags": {
+        "addr:city": "Virginia Beach",
+        "addr:housenumber": "1670",
+        "addr:postcode": "23454",
+        "addr:state": "VA",
+        "addr:street": "General Booth Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "height": "24'",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-03:00; Fr-Sa 07:00-03:30; Su 07:00-03:00",
+        "phone": "+1 757-721-2517",
+        "start_date": "1987",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/virginia-beach/1670-general-booth-blvd.html"
+      },
+      "center": {
+        "lat": 36.78260965,
+        "lon": -76.00079879999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 402661336,
+      "tags": {
+        "addr:city": "Virginia Beach",
+        "addr:housenumber": "6544",
+        "addr:postcode": "23464",
+        "addr:state": "VA",
+        "addr:street": "Indian River Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "height": "36'",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 10:30-01:00; Fr-Sa 10:30-02:00; Su 10:30-01:00",
+        "phone": "+1 757-420-9516",
+        "start_date": "1984",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/virginia-beach/6544-indian-river-rd-.html"
+      },
+      "center": {
+        "lat": 36.81860225,
+        "lon": -76.21700905
+      }
+    },
+    {
+      "type": "way",
+      "id": 402678190,
+      "tags": {
+        "addr:city": "Virginia Beach",
+        "addr:housenumber": "1360",
+        "addr:postcode": "23464",
+        "addr:state": "VA",
+        "addr:street": "Fordham Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "height": "31'",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-03:00; Fr-Sa 07:00-03:30; Su 07:00-03:00",
+        "phone": "+1 757-734-1835",
+        "start_date": "1986",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/virginia-beach/1360-fordham-dr.html"
+      },
+      "center": {
+        "lat": 36.7986405,
+        "lon": -76.17613039999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 402720773,
+      "tags": {
+        "addr:city": "Virginia Beach",
+        "addr:housenumber": "2009",
+        "addr:postcode": "23456",
+        "addr:state": "VA",
+        "addr:street": "Lynnhaven Parkway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "height": "31'",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-04:00; Fr-Sa 07:00-04:30; Su 07:00-04:00",
+        "phone": "+1 757-471-2123",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/virginia-beach/2009-lynnhaven-pkwy.html"
+      },
+      "center": {
+        "lat": 36.7926037,
+        "lon": -76.12013979999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 406988650,
+      "tags": {
+        "addr:city": "Norfolk",
+        "addr:housenumber": "1113",
+        "addr:postcode": "23502",
+        "addr:state": "VA",
+        "addr:street": "North Military Highway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-04:00",
+        "phone": "+1 757-461-3148",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/norfolk/1113-military-highway.html"
+      },
+      "center": {
+        "lat": 36.86049075,
+        "lon": -76.21045459999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 407069538,
+      "tags": {
+        "addr:city": "Norfolk",
+        "addr:housenumber": "2469",
+        "addr:postcode": "23518",
+        "addr:state": "VA",
+        "addr:street": "East Little Creek Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 08:00-01:00; Fr-Sa 08:00-02:00; Su 08:00-01:00",
+        "phone": "+1 757-583-4210",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/norfolk/2469-e--little-creek-rd-.html"
+      },
+      "center": {
+        "lat": 36.9149044,
+        "lon": -76.21282209999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 407101184,
+      "tags": {
+        "addr:city": "Norfolk",
+        "addr:housenumber": "227",
+        "addr:postcode": "23505",
+        "addr:state": "VA",
+        "addr:street": "East Little Creek Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-04:00",
+        "phone": "+1 757-583-8077",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/norfolk/227-e--little-creek-rd-.html"
+      },
+      "center": {
+        "lat": 36.915767200000005,
+        "lon": -76.26837269999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 407117958,
+      "tags": {
+        "addr:city": "Norfolk",
+        "addr:housenumber": "3690",
+        "addr:postcode": "23513",
+        "addr:state": "VA",
+        "addr:street": "Sewells Point Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "10:30-01:00",
+        "phone": "+1 757-853-3221",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/norfolk/3690-sewells-point-road.html"
+      },
+      "center": {
+        "lat": 36.88963725,
+        "lon": -76.23806390000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 407315814,
+      "tags": {
+        "addr:city": "Norfolk",
+        "addr:housenumber": "2011",
+        "addr:postcode": "23517",
+        "addr:state": "VA",
+        "addr:street": "Monticello Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "delivery": "no",
+        "name": "Taco Bell",
+        "opening_hours": "10:00-03:00",
+        "phone": "+1 757-622-5565",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/norfolk/2011-monticello-ave.html"
+      },
+      "center": {
+        "lat": 36.86688465,
+        "lon": -76.28449534999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 407394842,
+      "tags": {
+        "addr:city": "Norfolk",
+        "addr:housenumber": "4009",
+        "addr:postcode": "23508",
+        "addr:state": "VA",
+        "addr:street": "Hampton Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 08:00-24:00; Fr-Sa 08:00-01:00; Su 08:00-24:00",
+        "phone": "+1 757-423-0825",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/norfolk/4009-hampton-blvd-.html"
+      },
+      "center": {
+        "lat": 36.8814349,
+        "lon": -76.30272115000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 407411668,
+      "tags": {
+        "addr:city": "Virginia Beach",
+        "addr:housenumber": "5845",
+        "addr:postcode": "23455",
+        "addr:state": "VA",
+        "addr:street": "Northampton Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "opening_hours:drive_through": "Su-Th 09:00-01:00; Fr-Sa 09:00-03:00",
+        "phone": "+1 757-689-1099",
+        "start_date": "1979",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/virginia-beach/5845-northampton-blvd.html"
+      },
+      "center": {
+        "lat": 36.88029785,
+        "lon": -76.18729250000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 420571854,
+      "tags": {
+        "addr:city": "Petersburg",
+        "addr:housenumber": "3294",
+        "addr:postcode": "23805",
+        "addr:state": "VA",
+        "addr:street": "South Crater Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "diet:vegetarian": "yes",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 09:00-24:00; Fr-Sa 09:00-01:00; Su 09:00-24:00",
+        "phone": "+1 804-732-0146",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/petersburg/3294-s--crater-road.html"
+      },
+      "center": {
+        "lat": 37.18522175,
+        "lon": -77.36873075
+      }
+    },
+    {
+      "type": "way",
+      "id": 430077855,
+      "tags": {
+        "addr:city": "Fredericksburg",
+        "addr:housenumber": "9625",
+        "addr:postcode": "22407",
+        "addr:state": "VA",
+        "addr:street": "Patriot Highway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "outdoor_seating": "no",
+        "phone": "+1 540-898-9029",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/fredericksburg/9625-jefferson-davis-hwy.html"
+      },
+      "center": {
+        "lat": 38.22010135,
+        "lon": -77.50678065
+      }
+    },
+    {
+      "type": "way",
+      "id": 438353089,
+      "tags": {
+        "addr:city": "Chesapeake",
+        "addr:housenumber": "1353",
+        "addr:postcode": "23320",
+        "addr:state": "VA",
+        "addr:street": "Kempsville Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-03:00",
+        "phone": "+1 757-547-4714",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/chesapeake/1353-kempsville-rd.html"
+      },
+      "center": {
+        "lat": 36.7636962,
+        "lon": -76.20446944999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 457502946,
+      "tags": {
+        "addr:city": "Fredericksburg",
+        "addr:housenumber": "5511",
+        "addr:postcode": "22407",
+        "addr:state": "VA",
+        "addr:street": "Plank Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-01:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "outdoor_seating": "no",
+        "phone": "+1 540-785-3213",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/fredericksburg/5511-plank-road.html"
+      },
+      "center": {
+        "lat": 38.291487950000004,
+        "lon": -77.56310084999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 469425861,
+      "tags": {
+        "addr:city": "Lynchburg",
+        "addr:housenumber": "3351",
+        "addr:postcode": "24502",
+        "addr:state": "VA",
+        "addr:street": "Candlers Mountain Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "building:levels": "1",
+        "building:use": "commercial",
+        "cuisine": "tex-mex",
+        "delivery": "yes",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "max_level": "1",
+        "min_level": "1",
+        "name": "Taco Bell",
+        "opening_hours": "Su-Th 09:00-03:00; Fr-Sa 09:00-04:00",
+        "opening_hours:drive_through": "Mo-Th,Su 07:00-02:00; Fr-Sa 07:00-03:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 434-333-6140",
+        "ref": "0358885",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets:access": "permissive",
+        "website": "https://locations.tacobell.com/va/lynchburg/3351-candlers-mntn-rd.html",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 37.36757445,
+        "lon": -79.17642159999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 470662428,
+      "tags": {
+        "addr:city": "Madison Heights",
+        "addr:housenumber": "5014",
+        "addr:postcode": "24572",
+        "addr:state": "VA",
+        "addr:street": "South Amherst Highway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "changing_table": "no",
+        "cuisine": "tex-mex",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-23:00",
+        "opening_hours:drive_through": "Mo-Th,Su 07:00-25:00, Fr-Sa 07:00-26:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 434-847-4940",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:wheelchair": "yes",
+        "website": "https://locations.tacobell.com/va/madison-heights/5014-s--amherst-hwy.html"
+      },
+      "center": {
+        "lat": 37.433972,
+        "lon": -79.12293454999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 544615038,
+      "tags": {
+        "addr:city": "Forest",
+        "addr:housenumber": "14867",
+        "addr:postcode": "24551",
+        "addr:state": "VA",
+        "addr:street": "Forest Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 09:00-24:00",
+        "phone": "+1 434-525-9685",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/forest/14867-forest-road.html"
+      },
+      "center": {
+        "lat": 37.366065750000004,
+        "lon": -79.29595695
+      }
+    },
+    {
+      "type": "way",
+      "id": 544781866,
+      "tags": {
+        "addr:city": "Abingdon",
+        "addr:housenumber": "495",
+        "addr:postcode": "24210",
+        "addr:state": "VA",
+        "addr:street": "Cummings Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-00:00",
+        "opening_hours:drive_through": "Mo-Su 09:00-02:00",
+        "phone": "+1 276-676-3113",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/abingdon/495-cummings-st.html"
+      },
+      "center": {
+        "lat": 36.7025765,
+        "lon": -81.97496465
+      }
+    },
+    {
+      "type": "way",
+      "id": 547829717,
+      "tags": {
+        "addr:city": "Manakin Sabot",
+        "addr:housenumber": "26",
+        "addr:postcode": "23103",
+        "addr:state": "VA",
+        "addr:street": "Broad Street Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-24:00",
+        "phone": "+1 804-708-0718",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/manakin-sabot/26-broad-street-rd.html"
+      },
+      "center": {
+        "lat": 37.669943599999996,
+        "lon": -77.6802515
+      }
+    },
+    {
+      "type": "way",
+      "id": 552178562,
+      "tags": {
+        "addr:city": "Chester",
+        "addr:housenumber": "630",
+        "addr:postcode": "23836",
+        "addr:state": "VA",
+        "addr:street": "East Hundred Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-We,Fr-Sa 09:00-10:00; Th 09:00-21:30",
+        "opening_hours:drive_through": "Su-We 09:00-01:00; Th 09:00-21:30; Fr-Sa 09:00-02:00",
+        "phone": "+1-804-571-6017",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/chester/630-e--hundred-rd.html"
+      },
+      "center": {
+        "lat": 37.34693505,
+        "lon": -77.34397245000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 553333908,
+      "tags": {
+        "addr:city": "Ashburn",
+        "addr:housenumber": "44855",
+        "addr:postcode": "20147",
+        "addr:state": "VA",
+        "addr:street": "Lakeview Overlook Plaza",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Su-Th 07:00-02:00; Fr-Sa 07:00-04:00",
+        "phone": "+1 703-729-7197",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/ashburn/44855-lakeview-overlook-plaza.html"
+      },
+      "center": {
+        "lat": 39.0591851,
+        "lon": -77.44963159999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 562924625,
+      "tags": {
+        "addr:city": "Roanoke",
+        "addr:housenumber": "1406",
+        "addr:postcode": "24012",
+        "addr:state": "VA",
+        "addr:street": "Hershberger Road Northwest",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-03:00",
+        "phone": "+1 540-366-3549",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/roanoke/1406-hershberger-road-nw.html"
+      },
+      "center": {
+        "lat": 37.314779,
+        "lon": -79.95799384999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 571741294,
+      "tags": {
+        "addr:city": "Alexandria",
+        "addr:country": "US",
+        "addr:housenumber": "231",
+        "addr:postcode": "22304",
+        "addr:state": "VA",
+        "addr:street": "South Van Dorn Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 07:00-02:00",
+        "opening_hours:kitchen": "Su-Fr 09:00-23:00; Sa 09:00-22:00",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 703-370-1478",
+        "source": "walking survey 3/2018",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/alexandria/231-s-van-dorn-st.html",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 38.8111356,
+        "lon": -77.1323294
+      }
+    },
+    {
+      "type": "way",
+      "id": 601188571,
+      "tags": {
+        "addr:city": "South Boston",
+        "addr:country": "US",
+        "addr:housenumber": "1016",
+        "addr:postcode": "24592",
+        "addr:state": "VA",
+        "addr:street": "Bill Tuck Hwy",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-23:00",
+        "opening_hours:drive_through": "Mo-Su 09:00-02:00",
+        "operator": "Taco Bell",
+        "phone": "+1 434-404-3146",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/south-boston/1016-bill-tuck-hwy.html"
+      },
+      "center": {
+        "lat": 36.687022,
+        "lon": -78.89855075000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 604325128,
+      "tags": {
+        "addr:city": "Bristol",
+        "addr:housenumber": "3130",
+        "addr:postcode": "24201",
+        "addr:state": "VA",
+        "addr:street": "Lee Highway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "phone": "+1 276-466-2270",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/bristol/3130-lee-hwy.html"
+      },
+      "center": {
+        "lat": 36.6335349,
+        "lon": -82.12640195
+      }
+    },
+    {
+      "type": "way",
+      "id": 604741361,
+      "tags": {
+        "addr:city": "Portsmouth",
+        "addr:housenumber": "1501",
+        "addr:postcode": "23707",
+        "addr:state": "VA",
+        "addr:street": "Frederick Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "tex-mex",
+        "delivery": "no",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-01:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "phone": "+1 757-673-6852",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/portsmouth/1501-frederick-boulevard.html"
+      },
+      "center": {
+        "lat": 36.8269117,
+        "lon": -76.33846334999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 639856770,
+      "tags": {
+        "addr:city": "Prince George",
+        "addr:housenumber": "5322",
+        "addr:postcode": "23875",
+        "addr:state": "VA",
+        "addr:street": "Oaklawn Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "opening_hours:drive_through": "Su-Th 07:00-02:00; Fr-Sa 07:00-03:00",
+        "phone": "+1 804-452-0796",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/prince-george/5322-oaklawn-blvd.html"
+      },
+      "center": {
+        "lat": 37.2590843,
+        "lon": -77.32709015
+      }
+    },
+    {
+      "type": "way",
+      "id": 649297818,
+      "tags": {
+        "addr:city": "Woodstock",
+        "addr:housenumber": "330",
+        "addr:postcode": "22664",
+        "addr:state": "VA",
+        "addr:street": "West Reservoir Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 08:00-24:00; Fr-Sa 08:00-01:00; Su 08:00-24:00",
+        "phone": "+1 540-692-6952",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/woodstock/330-west-reservoir-road.html"
+      },
+      "center": {
+        "lat": 38.87091,
+        "lon": -78.52435760000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 656859886,
+      "tags": {
+        "addr:city": "York County",
+        "addr:housenumber": "823",
+        "addr:postcode": "23188",
+        "addr:state": "VA",
+        "addr:street": "East Rochambeau Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "phone": "+1 757-741-2441",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/williamsburg/823-east-rochambeau-drive.html"
+      },
+      "center": {
+        "lat": 37.34235615,
+        "lon": -76.73903005
+      }
+    },
+    {
+      "type": "way",
+      "id": 663330938,
+      "tags": {
+        "addr:city": "Hayes",
+        "addr:housenumber": "2391",
+        "addr:postcode": "23072",
+        "addr:state": "VA",
+        "addr:street": "George Washington Memorial Highway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Su-Th 09:00-00:00; Fr-Sa 09:00-01:00",
+        "phone": "+1-804-642-6622",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/hayes/2391-george-washington.html"
+      },
+      "center": {
+        "lat": 37.2758476,
+        "lon": -76.49910575000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 664534596,
+      "tags": {
+        "addr:city": "Gloucester",
+        "addr:housenumber": "6973",
+        "addr:postcode": "23061",
+        "addr:state": "VA",
+        "addr:street": "George Washington Memorial Highway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 08:00-24:00; Fr-Sa 08:00-01:00; Su 08:00-24:00",
+        "phone": "+1 804-824-9073",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/gloucester/6973-george-washington-memorial-hwy.html"
+      },
+      "center": {
+        "lat": 37.39062155,
+        "lon": -76.52965710000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 667324335,
+      "tags": {
+        "addr:city": "Woodbridge",
+        "addr:housenumber": "12400",
+        "addr:postcode": "22192",
+        "addr:state": "VA",
+        "addr:street": "Cape Cod Court",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "phone": "+1 571-659-4445",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/woodbridge/12400-cap-cod-ct.html"
+      },
+      "center": {
+        "lat": 38.68445965,
+        "lon": -77.31611815000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 667516401,
+      "tags": {
+        "addr:city": "Smithfield",
+        "addr:housenumber": "1294",
+        "addr:postcode": "23430",
+        "addr:state": "VA",
+        "addr:street": "Benns Church Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "08:00-24:00",
+        "phone": "+1 757-356-0400",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/smithfield/1294-benns-church-blvd.html"
+      },
+      "center": {
+        "lat": 36.95477485,
+        "lon": -76.60194375000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 696742542,
+      "tags": {
+        "addr:city": "Quinton",
+        "addr:housenumber": "7330",
+        "addr:postcode": "23141",
+        "addr:state": "VA",
+        "addr:street": "Cumberland Station Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 09:00-24:00; Fr-Sa 09:00-01:00; Su 09:00-24:00",
+        "phone": "+1 804-557-2368",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/quinton/7330-cumberland-station-road.html"
+      },
+      "center": {
+        "lat": 37.5083182,
+        "lon": -77.18792359999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 701438706,
+      "tags": {
+        "addr:city": "Portsmouth",
+        "addr:housenumber": "2804",
+        "addr:postcode": "23701",
+        "addr:state": "VA",
+        "addr:street": "Airline Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "opening_hours:drive_through": "Su-Th 09:00-00:00; Fr-Sa 09:00-02:00",
+        "phone": "+1 757-465-0069",
+        "source": "Virginia Geographic Information Network Open Data",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/portsmouth/2804-airline-blvd.html"
+      },
+      "center": {
+        "lat": 36.810556000000005,
+        "lon": -76.36589570000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 708033798,
+      "tags": {
+        "addr:city": "Alexandria",
+        "addr:housenumber": "8652",
+        "addr:postcode": "22309",
+        "addr:state": "VA",
+        "addr:street": "Richmond Highway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Fr 00:00-01:30, 07:00-23:59; Sa-Su 00:00-02:00, 07:00-23:59",
+        "phone": "+1 703-360-3663",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/alexandria/8652-richmond-hwy.html"
+      },
+      "center": {
+        "lat": 38.72302555,
+        "lon": -77.12136580000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 710390138,
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "5811",
+        "addr:postcode": "23226",
+        "addr:state": "VA",
+        "addr:street": "West Broad Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "phone": "+1 804-285-4656",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/richmond/5811-w-broad-st.html"
+      },
+      "center": {
+        "lat": 37.5909161,
+        "lon": -77.50531895
+      }
+    },
+    {
+      "type": "way",
+      "id": 720504078,
+      "tags": {
+        "addr:city": "Chesterfield",
+        "addr:housenumber": "6541",
+        "addr:postcode": "23832",
+        "addr:state": "VA",
+        "addr:street": "Centralia Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-We 09:00-01:00; Th 09:00-24:00; Fr-Sa 09:00-02:00; Su 09:00-01:00",
+        "phone": "+1 804-748-0712",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/chesterfield/6541-centralia-road.html"
+      },
+      "center": {
+        "lat": 37.3725877,
+        "lon": -77.50086299999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 720927968,
+      "tags": {
+        "addr:city": "Midlothian",
+        "addr:housenumber": "110",
+        "addr:postcode": "23113",
+        "addr:state": "VA",
+        "addr:street": "Schofield Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Tu 09:00-24:00; We 09:00-22:00; Th 09:00-21:00; Fr-Su 09:00-24:00",
+        "phone": "+1 804-893-3618",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/midlothian/110-schofield-drive.html"
+      },
+      "center": {
+        "lat": 37.5125228,
+        "lon": -77.69578254999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 721825978,
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "10230",
+        "addr:postcode": "23235",
+        "addr:state": "VA",
+        "addr:street": "Midlothian Turnpike",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Su-Th 09:00-01:00; Fr-Sa 09:00-02:00",
+        "phone": "+1 804-330-2407",
+        "source": "www.midlothiandelivered.com",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/richmond/10230-midlothian-turnpike.html",
+        "website:menu": "https://www.tacobell.com/food?store=003720"
+      },
+      "center": {
+        "lat": 37.507164450000005,
+        "lon": -77.58602995000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 722749689,
+      "tags": {
+        "addr:city": "Ashland",
+        "addr:housenumber": "10255",
+        "addr:postcode": "23059",
+        "addr:state": "VA",
+        "addr:street": "Washington Highway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "check_date": "2026-08-09",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "name:en": "Taco Bell",
+        "phone": "+1 804-299-3614",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/ashland/10255-washington-highway.html"
+      },
+      "center": {
+        "lat": 37.686405300000004,
+        "lon": -77.46286959999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 728261257,
+      "tags": {
+        "addr:city": "Bluefield",
+        "addr:housenumber": "3951",
+        "addr:postcode": "24605",
+        "addr:state": "VA",
+        "addr:street": "College Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-04:00",
+        "phone": "+1 276-322-1303",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/bluefield/3951-college-ave.html"
+      },
+      "center": {
+        "lat": 37.239901700000004,
+        "lon": -81.25420154999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 728815393,
+      "tags": {
+        "addr:city": "Appomattox",
+        "addr:housenumber": "7730",
+        "addr:postcode": "24522",
+        "addr:state": "VA",
+        "addr:street": "Richmond Highway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Fr,Su 09:00-23:00; Sa 11:00-23:00",
+        "opening_hours:drive_through": "07:00-24:00",
+        "phone": "+1 434-352-7492",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/appomattox/7730-richmond-highway.html"
+      },
+      "center": {
+        "lat": 37.363389850000004,
+        "lon": -78.84578970000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 728915597,
+      "tags": {
+        "addr:city": "Radford",
+        "addr:housenumber": "7369",
+        "addr:postcode": "24141",
+        "addr:state": "VA",
+        "addr:street": "Peppers Ferry Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-01:00",
+        "phone": "+1 540-633-1154",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/radford/7369-peppers-ferry-road.html"
+      },
+      "center": {
+        "lat": 37.15065285,
+        "lon": -80.58245675
+      }
+    },
+    {
+      "type": "way",
+      "id": 728916108,
+      "tags": {
+        "addr:city": "Harrisonburg",
+        "addr:housenumber": "2281",
+        "addr:postcode": "22801",
+        "addr:state": "VA",
+        "addr:street": "South Main Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "09:00-01:00",
+        "phone": "+1 540-432-6583",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/harrisonburg/2281-s-main-st.html"
+      },
+      "center": {
+        "lat": 38.42078075,
+        "lon": -78.89383664999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 729964475,
+      "tags": {
+        "addr:city": "Altavista",
+        "addr:housenumber": "165",
+        "addr:postcode": "24517",
+        "addr:state": "VA",
+        "addr:street": "Clarion Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-01:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "phone": "+1 434-309-1723",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/altavista/165-clarion-road.html"
+      },
+      "center": {
+        "lat": 37.1428148,
+        "lon": -79.26648054999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 732670373,
+      "tags": {
+        "addr:city": "Lynchburg",
+        "addr:housenumber": "3270",
+        "addr:postcode": "24501",
+        "addr:state": "VA",
+        "addr:street": "Old Forest Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 07:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 07:30-01:00",
+        "phone": "+1 434-941-1453",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/lynchburg/3270-old-forest-rd.html"
+      },
+      "center": {
+        "lat": 37.4122979,
+        "lon": -79.21294275000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 732996897,
+      "tags": {
+        "addr:city": "Front Royal",
+        "addr:housenumber": "620",
+        "addr:postcode": "22630",
+        "addr:state": "VA",
+        "addr:street": "North Royal Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo 10:00-01:00; Tu-Th 08:00-01:00; Fr-Sa 08:00-02:00; Su 08:00-01:00",
+        "phone": "+1 540-635-1958",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/front-royal/620-north-royal-avenue.html"
+      },
+      "center": {
+        "lat": 38.927105499999996,
+        "lon": -78.19439084999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 745141718,
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "8991",
+        "addr:postcode": "23228",
+        "addr:state": "VA",
+        "addr:street": "Staples Mill Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo 09:00-22:00; Tu-Su 09:00-01:00",
+        "phone": "+1 804-562-7055",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/richmond/8991-staples-mill-rd.html"
+      },
+      "center": {
+        "lat": 37.64006775,
+        "lon": -77.51405084999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 760813681,
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "4504",
+        "addr:postcode": "23234",
+        "addr:state": "VA",
+        "addr:street": "Richmond Highway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr-Sa 10:00-23:00; Su 10:00-22:00",
+        "phone": "+1 804-275-8354",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/richmond/4504-jefferson-davis-hwy-.html"
+      },
+      "center": {
+        "lat": 37.4650277,
+        "lon": -77.44336639999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 762180159,
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "6720",
+        "addr:postcode": "23225",
+        "addr:state": "VA",
+        "addr:street": "Midlothian Turnpike",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo 07:00-01:00; Tu 07:00-21:00; We-Th 07:00-01:00; Fr-Sa 07:00-03:00; Su 07:00-01:00",
+        "phone": "+1 804-745-3301",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/richmond/6720-midlothian-turnpike.html"
+      },
+      "center": {
+        "lat": 37.5028874,
+        "lon": -77.51993379999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 800336023,
+      "tags": {
+        "addr:city": "Yorktown",
+        "addr:housenumber": "5003",
+        "addr:postcode": "23693",
+        "addr:state": "VA",
+        "addr:street": "Victory Boulevard",
+        "addr:unit": "C",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "08:00-01:00",
+        "phone": "+1 757-234-6166",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/yorktown/5003-victory-blvd-.html"
+      },
+      "center": {
+        "lat": 37.11504505,
+        "lon": -76.46826585000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 814665465,
+      "tags": {
+        "addr:city": "Covington",
+        "addr:housenumber": "812",
+        "addr:postcode": "24426",
+        "addr:state": "VA",
+        "addr:street": "East Madison Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Su-Th 09:00-22:00; Fr-Sa 09:00-12:00",
+        "opening_hours:drive_through": "Su-Th 09:00-01:00; Fr-Sa 09:00-03:00",
+        "phone": "+1 540-965-6519",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/covington/812-e--madison-street.html"
+      },
+      "center": {
+        "lat": 37.77654,
+        "lon": -79.96758510000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 825147881,
+      "tags": {
+        "addr:city": "Norfolk",
+        "addr:housenumber": "8411",
+        "addr:postcode": "23505",
+        "addr:state": "VA",
+        "addr:street": "Hampton Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-03:00; Fr-Sa 07:00-03:30; Su 07:00-03:00",
+        "operator": "Glenwood Square Shopping Center Associates",
+        "phone": "+1 757-489-8770",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/norfolk/8411-hampton-blvd.html"
+      },
+      "center": {
+        "lat": 36.9300013,
+        "lon": -76.31838915000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 836955620,
+      "tags": {
+        "addr:city": "Fredericksburg",
+        "addr:housenumber": "10491",
+        "addr:postcode": "22407",
+        "addr:state": "VA",
+        "addr:street": "Hilltop Plaza Way",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "detached",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "phone": "+1 540-642-4926",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/spotsylvania/10491-hilltop-plaza-way.html"
+      },
+      "center": {
+        "lat": 38.244984349999996,
+        "lon": -77.52761485000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 837281644,
+      "tags": {
+        "addr:city": "Virginia Beach",
+        "addr:housenumber": "3209",
+        "addr:postcode": "23453",
+        "addr:state": "VA",
+        "addr:street": "Holland Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-03:30; Fr-Sa 07:00-04:00; Su 07:00-03:30",
+        "phone": "+1 757-368-0740",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/virginia-beach/3209-holland-rd.html"
+      },
+      "center": {
+        "lat": 36.7932591,
+        "lon": -76.08182599999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 846573314,
+      "tags": {
+        "addr:city": "Ruther Glen",
+        "addr:housenumber": "23629",
+        "addr:postcode": "22546",
+        "addr:state": "VA",
+        "addr:street": "Rogers Clark Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "check_date": "2026-04-05",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "09:00-01:00",
+        "phone": "+1 804-589-1435",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/ruther-glen/23629-rogers-clark-boulevard.html"
+      },
+      "center": {
+        "lat": 37.9407399,
+        "lon": -77.46088510000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 856911993,
+      "tags": {
+        "addr:city": "North Dinwiddie",
+        "addr:county": "Dinwiddie County",
+        "addr:housenumber": "25318",
+        "addr:postcode": "23803",
+        "addr:state": "VA",
+        "addr:street": "Ritchie Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 09:00-24:00; Fr-Sa 09:00-01:00; Su 09:00-24:00",
+        "phone": "+1 804-805-8932",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/north-dinwiddie/25318-ritchie-ave.html"
+      },
+      "center": {
+        "lat": 37.1965733,
+        "lon": -77.46756644999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 882072360,
+      "tags": {
+        "addr:city": "Virginia Beach",
+        "addr:housenumber": "2400",
+        "addr:postcode": "23456",
+        "addr:state": "VA",
+        "addr:street": "Elson Green Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-03:00",
+        "phone": "+1 757-430-6846",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/virginia-beach/2400-elson-green-avenue.html"
+      },
+      "center": {
+        "lat": 36.756489849999994,
+        "lon": -76.00733070000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 905528814,
+      "tags": {
+        "addr:city": "Colonial Heights",
+        "addr:housenumber": "425",
+        "addr:postcode": "23834",
+        "addr:state": "VA",
+        "addr:street": "Charles H Dimmock Parkway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "phone": "+1-804-805-9010",
+        "source": "esri_USDOT_Virgina",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/colonial-heights/425-charles-h-dimmock-pwky.html"
+      },
+      "center": {
+        "lat": 37.251643099999995,
+        "lon": -77.38339725000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 905634255,
+      "tags": {
+        "addr:city": "Colonial Heights",
+        "addr:housenumber": "628",
+        "addr:postcode": "23834",
+        "addr:state": "VA",
+        "addr:street": "Southpark Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 09:00-01:00",
+        "outdoor_seating": "no",
+        "phone": "+1 804-526-1604",
+        "smoking": "no",
+        "source": "esri_USDOT_Virgina",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/colonial-heights/628-southpark-blvd.html",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 37.2450857,
+        "lon": -77.39070294999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 911633990,
+      "tags": {
+        "addr:city": "Herndon",
+        "addr:housenumber": "3019",
+        "addr:postcode": "20171",
+        "addr:state": "VA",
+        "addr:street": "Centreville Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "operator": "Taco Bell",
+        "phone": "+1 571-401-1018",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/herndon/3019-centerville-rd-.html"
+      },
+      "center": {
+        "lat": 38.92286365,
+        "lon": -77.41649584999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1091592717,
+      "tags": {
+        "addr:city": "Warrenton",
+        "addr:country": "US",
+        "addr:housenumber": "238",
+        "addr:postcode": "20186",
+        "addr:state": "VA",
+        "addr:street": "Broadview Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "mapillary": "28305080382455368",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 08:00-01:00; Fr-Sa 08:00-02:00; Su 08:00-01:00",
+        "phone": "+1 540-341-4206",
+        "source": "Fauquier County GIS data",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/warrenton/238-broadview-ave.html"
+      },
+      "center": {
+        "lat": 38.72349665,
+        "lon": -77.80567244999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1098933778,
+      "tags": {
+        "addr:city": "Suffolk",
+        "addr:housenumber": "2910",
+        "addr:postcode": "23434",
+        "addr:state": "VA",
+        "addr:street": "Godwin Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-02:00; Fr-Sa 07:00-03:00; Su 07:00-02:00",
+        "phone": "+1 757-538-7190",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/suffolk/2910-godwin-boulevard.html"
+      },
+      "center": {
+        "lat": 36.77679825,
+        "lon": -76.58207915000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1112908427,
+      "tags": {
+        "addr:city": "Chesapeake",
+        "addr:housenumber": "1440",
+        "addr:postcode": "23322",
+        "addr:state": "VA",
+        "addr:street": "Mount Pleasant Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "09:00-24:00",
+        "phone": "+1 757-819-6855",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/chesapeake/1440-mt--pleasant-rd.html"
+      },
+      "center": {
+        "lat": 36.71481845,
+        "lon": -76.18872779999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1119739584,
+      "tags": {
+        "addr:city": "Stafford",
+        "addr:housenumber": "255",
+        "addr:postcode": "22554",
+        "addr:state": "VA",
+        "addr:street": "Garrisonville Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-02:00",
+        "phone": "+1 540-720-0764",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/stafford/255-garrisonville-rd.html"
+      },
+      "center": {
+        "lat": 38.4739125,
+        "lon": -77.41741730000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1181508363,
+      "tags": {
+        "addr:city": "Charlottesville",
+        "addr:housenumber": "140",
+        "addr:postcode": "22901",
+        "addr:state": "VA",
+        "addr:street": "River Bend Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-00:00",
+        "phone": "+1 434-296-7647",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/charlottesville/140-river-bend-dr.html"
+      },
+      "center": {
+        "lat": 38.03266315,
+        "lon": -78.4556475
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192775187,
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "11240",
+        "addr:postcode": "11250",
+        "addr:state": "VA",
+        "addr:street": "Patterson Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "09:00-24:00",
+        "phone": "+1 804-655-2846",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/richmond/11240-patterson-ave.html"
+      },
+      "center": {
+        "lat": 37.5979696,
+        "lon": -77.61988955000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1197527876,
+      "tags": {
+        "addr:city": "Manassas",
+        "addr:housenumber": "11017",
+        "addr:postcode": "20110",
+        "addr:state": "VA",
+        "addr:street": "Nokesville Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 06:00-02:00; Fr-Sa 06:00-02:30; Su 06:00-02:00",
+        "phone": "+1 571-719-7610",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/manassas/11017-nokesville-road.html"
+      },
+      "center": {
+        "lat": 38.7378423,
+        "lon": -77.52968040000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1198096539,
+      "tags": {
+        "addr:city": "Chantilly",
+        "addr:housenumber": "43311",
+        "addr:postcode": "20152",
+        "addr:state": "VA",
+        "addr:street": "Defender Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-02:00",
+        "phone": "+1 703-745-5337",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/chantilly/43311-defender-drive.html"
+      },
+      "center": {
+        "lat": 38.9212911,
+        "lon": -77.50524970000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1204704615,
+      "tags": {
+        "addr:city": "Orange",
+        "addr:county": "Orange County",
+        "addr:housenumber": "500",
+        "addr:postcode": "22960",
+        "addr:state": "VA",
+        "addr:street": "North Madison Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "09:00-24:00",
+        "phone": "+1 540-308-7639",
+        "source": "esri/Virginia_address",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/orange/500-n-madison-rd.html"
+      },
+      "center": {
+        "lat": 38.25552275,
+        "lon": -78.11488659999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1205457836,
+      "tags": {
+        "addr:city": "Front Royal",
+        "addr:country": "US",
+        "addr:housenumber": "35",
+        "addr:postcode": "22630",
+        "addr:state": "VA",
+        "addr:street": "Riverton Commons Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "check_date": "2023-11-25",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo 09:00-24:00; Tu 09:00-23:30; We-Su 09:00-24:00",
+        "phone": "+1 540-692-9912",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/front-royal/35-riverton-commons-dr.html"
+      },
+      "center": {
+        "lat": 38.96267805,
+        "lon": -78.19010645000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1207418750,
+      "tags": {
+        "addr:city": "Culpeper",
+        "addr:housenumber": "559",
+        "addr:postcode": "22701",
+        "addr:state": "VA",
+        "addr:street": "James Madison Highway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 08:00-01:00; Fr-Sa 08:00-02:00; Su 08:00-01:00",
+        "phone": "+1 540-825-4035",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/culpeper/559-james-madison-hwy.html"
+      },
+      "center": {
+        "lat": 38.480522949999994,
+        "lon": -77.98212815
+      }
+    },
+    {
+      "type": "way",
+      "id": 1207999903,
+      "tags": {
+        "addr:city": "Martinsville",
+        "addr:country": "US",
+        "addr:housenumber": "500",
+        "addr:postcode": "24112",
+        "addr:state": "VA",
+        "addr:street": "Liberty Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 07:00-02:00",
+        "phone": "+1 276-666-2679",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/martinsville/500-liberty-st.html"
+      },
+      "center": {
+        "lat": 36.696912499999996,
+        "lon": -79.8742355
+      }
+    },
+    {
+      "type": "way",
+      "id": 1207999917,
+      "tags": {
+        "addr:city": "Collinsville",
+        "addr:country": "US",
+        "addr:housenumber": "3544",
+        "addr:postcode": "24078",
+        "addr:state": "VA",
+        "addr:street": "Virginia Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-24:00; Fr-Sa 07:00-01:00; Su 07:00-24:00",
+        "phone": "+1 276-647-1136",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/collinsville/3544-virginia-ave.html"
+      },
+      "center": {
+        "lat": 36.7279545,
+        "lon": -79.91764649999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1211370124,
+      "tags": {
+        "addr:city": "Grundy",
+        "addr:housenumber": "1346",
+        "addr:postcode": "24614",
+        "addr:state": "VA",
+        "addr:street": "Riverview Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-01:00",
+        "phone": "+1 276-935-5348",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/grundy/1346-riverview-street.html"
+      },
+      "center": {
+        "lat": 37.2797061,
+        "lon": -82.10284424999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1211602515,
+      "tags": {
+        "addr:city": "Chilhowie",
+        "addr:county": "Smyth County",
+        "addr:housenumber": "153",
+        "addr:postcode": "24319",
+        "addr:state": "VA",
+        "addr:street": "Highway 107",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-02:00",
+        "phone": "+1 276-521-0299",
+        "source": "esri_Virginia",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/chilhowie/153-highway-107.html"
+      },
+      "center": {
+        "lat": 36.79995815,
+        "lon": -81.683852
+      }
+    },
+    {
+      "type": "way",
+      "id": 1217182092,
+      "tags": {
+        "addr:city": "Haymarket",
+        "addr:housenumber": "6635",
+        "addr:postcode": "20169",
+        "addr:state": "VA",
+        "addr:street": "Watts Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "fixme": "new construction, not on current imagery, location/footprint approximate, need to fix when new imagery is available",
+        "name": "Taco Bell",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.81366695,
+        "lon": -77.6384094
+      }
+    },
+    {
+      "type": "way",
+      "id": 1227436587,
+      "tags": {
+        "addr:city": "Hillsville",
+        "addr:housenumber": "145",
+        "addr:postcode": "24343",
+        "addr:state": "VA",
+        "addr:street": "South Main Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 09:00-01:00",
+        "phone": "+1 276-266-3022",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/hillsville/145-south-main-street.html"
+      },
+      "center": {
+        "lat": 36.76207925,
+        "lon": -80.73388880000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 1227732566,
+      "tags": {
+        "addr:city": "Dublin",
+        "addr:housenumber": "4692",
+        "addr:postcode": "24084",
+        "addr:state": "VA",
+        "addr:street": "Cleburne Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "check_date": "2025-12-31",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-24:00",
+        "phone": "+1 540-307-5769",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/dublin/4692-cleburne-blvd.html"
+      },
+      "center": {
+        "lat": 37.085834500000004,
+        "lon": -80.68889495000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1229472182,
+      "tags": {
+        "addr:city": "Waynesboro",
+        "addr:housenumber": "840",
+        "addr:postcode": "22980",
+        "addr:state": "VA",
+        "addr:street": "Shenandoah Village Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "08:00-23:45",
+        "phone": "+1 540-324-3551",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/waynesboro/840-shenandoah-village-dr-.html"
+      },
+      "center": {
+        "lat": 38.058734,
+        "lon": -78.94361464999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1232012229,
+      "tags": {
+        "addr:city": "Hampton",
+        "addr:housenumber": "3375",
+        "addr:postcode": "23666",
+        "addr:state": "VA",
+        "addr:street": "Commander Shepard Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-01:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "phone": "+1 757-865-2000",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/hampton/3375-commander-shepard-boulevard.html"
+      },
+      "center": {
+        "lat": 37.092979299999996,
+        "lon": -76.39509625
+      }
+    },
+    {
+      "type": "way",
+      "id": 1234006671,
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "1330",
+        "addr:postcode": "23223",
+        "addr:state": "VA",
+        "addr:street": "North Laburnum Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "09:00-24:00",
+        "phone": "+1 804-525-4628",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/richmond/1330-n-laburnum-ave.html"
+      },
+      "center": {
+        "lat": 37.5630931,
+        "lon": -77.37714065
+      }
+    },
+    {
+      "type": "way",
+      "id": 1234139337,
+      "tags": {
+        "addr:city": "Locust Grove",
+        "addr:housenumber": "4332",
+        "addr:postcode": "22508",
+        "addr:state": "VA",
+        "addr:street": "Germanna Highway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "09:00-24:00",
+        "phone": "+1 540-412-2468",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/locust-grove/4332-germanna-highway.html"
+      },
+      "center": {
+        "lat": 38.3438645,
+        "lon": -77.7441935
+      }
+    },
+    {
+      "type": "way",
+      "id": 1262806174,
+      "tags": {
+        "addr:city": "Chesapeake",
+        "addr:housenumber": "115",
+        "addr:postcode": "23322",
+        "addr:state": "VA",
+        "addr:street": "Hillcrest Parkway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 09:00-24:00; Fr-Sa 09:00-01:00; Su 09:00-24:00",
+        "phone": "+1 757-204-7944",
+        "source": "esri_USDOT_Virginia;microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/chesapeake/115-hillcrest-parkway.html"
+      },
+      "center": {
+        "lat": 36.6577465,
+        "lon": -76.22597180000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1289232498,
+      "tags": {
+        "addr:city": "Virginia Beach",
+        "addr:housenumber": "2902",
+        "addr:postcode": "23451",
+        "addr:state": "VA",
+        "addr:street": "Pacific Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "09:00-01:00",
+        "phone": "+1 757-578-5017",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/virginia-beach/2902-pacific-ave.html"
+      },
+      "center": {
+        "lat": 36.85742825,
+        "lon": -75.97901805000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1302768889,
+      "tags": {
+        "addr:city": "Troutville",
+        "addr:housenumber": "2700",
+        "addr:postcode": "24175",
+        "addr:state": "VA",
+        "addr:street": "Lee Highway South",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "phone": "+1 540-491-4433",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/troutville/2700-lee-highway-south.html"
+      },
+      "center": {
+        "lat": 37.385200100000006,
+        "lon": -79.90254500000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1412255770,
+      "tags": {
+        "addr:city": "Harrisonburg",
+        "addr:housenumber": "2168",
+        "addr:postcode": "22801",
+        "addr:state": "VA",
+        "addr:street": "Rock Port Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Fr 09:00-00:45; Sa 10:00-00:45; Su 09:00-00:45",
+        "phone": "+1 540-208-1573",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/harrisonburg/2168-rock-port-rd-.html"
+      },
+      "center": {
+        "lat": 38.4050367,
+        "lon": -78.86815200000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1435770430,
+      "tags": {
+        "addr:city": "St. Paul",
+        "addr:housenumber": "16417",
+        "addr:postcode": "24283",
+        "addr:state": "VA",
+        "addr:street": "Wise Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "opening_hours:drive_through": "Su-Th 09:00-01:00; Fr-Sa 09:00-02:00",
+        "phone": "+1-276-738-4125",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/saint-paul/16417-wise-street.html"
+      },
+      "center": {
+        "lat": 36.906477949999996,
+        "lon": -82.31701759999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1457035856,
+      "tags": {
+        "addr:city": "Pounding Mill",
+        "addr:housenumber": "12822",
+        "addr:postcode": "24637",
+        "addr:state": "VA",
+        "addr:street": "Governor G C Peery Highway",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Su-Fr 07:00-01:00, Sa 11:00-01:00",
+        "phone": "+1-276-963-0245",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/pounding-mill/12822-governor-g-c-peery-hwy.html"
+      },
+      "center": {
+        "lat": 37.06519975,
+        "lon": -81.73773495
+      }
+    },
+    {
+      "type": "way",
+      "id": 1554920472,
+      "tags": {
+        "addr:city": "Strasburg",
+        "addr:housenumber": "33586",
+        "addr:postcode": "22657",
+        "addr:state": "VA",
+        "addr:street": "Old Valley Pike",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "mapillary": "2281372465967878",
+        "name": "Taco Bell",
+        "opening_hours": "08:00-24:00",
+        "phone": "+1 826-201-7010",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/va/strasburg/33586-old-valley-pike.html"
+      },
+      "center": {
+        "lat": 39.00230705,
+        "lon": -78.34250635000001
+      }
+    }
+  ]
+}

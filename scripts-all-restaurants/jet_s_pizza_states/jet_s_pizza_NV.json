@@ -1,0 +1,42 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "jet_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10985367352,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "1321",
+        "addr:postcode": "89014",
+        "addr:state": "NV",
+        "addr:street": "West Sunset Road",
+        "addr:unit": "120",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Jet's Pizza",
+        "phone": "+1 725-258-4440",
+        "takeaway": "yes"
+      },
+      "lat": 36.0632072,
+      "lon": -115.0442161
+    }
+  ]
+}

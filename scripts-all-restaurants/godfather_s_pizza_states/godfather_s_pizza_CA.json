@@ -1,0 +1,54 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CA",
+    "brand": "godfather_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/california-latest.osm.pbf",
+    "source_md5": "26040c163edb7a5f630164ee55d5afda",
+    "processed_utc": "2026-10-24T06:59:04.829226+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9206559778,
+      "tags": {
+        "addr:city": "Spring Valley",
+        "addr:housenumber": "685",
+        "addr:postcode": "91977",
+        "addr:state": "CA",
+        "addr:street": "Sweetwater Road",
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "check_date": "2025-07-18",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza",
+        "opening_hours": "Mo-Su 11:00-20:30",
+        "phone": "+1-619-462-6580",
+        "website": "https://www.godfathers.com/"
+      },
+      "lat": 32.7086481,
+      "lon": -117.0110685
+    },
+    {
+      "type": "node",
+      "id": 12898340553,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza"
+      },
+      "lat": 39.1677891,
+      "lon": -122.1438111
+    }
+  ]
+}

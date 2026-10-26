@@ -1,0 +1,64 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DE",
+    "brand": "sbarro",
+    "source": "https://download.geofabrik.de/north-america/us/delaware-latest.osm.pbf",
+    "source_md5": "5f714be897be010ea09e4134c39a0638",
+    "processed_utc": "2026-10-24T07:00:37.202137+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8188956200,
+      "tags": {
+        "addr:city": "Wilmington",
+        "addr:housenumber": "4737",
+        "addr:postcode": "19803",
+        "addr:street": "Concord Pike",
+        "addr:unit": "840",
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "check_date": "2023-12-19",
+        "cuisine": "pizza",
+        "name": "Piazza",
+        "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-18:00",
+        "phone": "+1 302-477-9850",
+        "takeaway": "yes"
+      },
+      "lat": 39.8241903,
+      "lon": -75.5437048
+    },
+    {
+      "type": "node",
+      "id": 13025739347,
+      "tags": {
+        "addr:city": "Newark",
+        "addr:housenumber": "132",
+        "addr:postcode": "19702",
+        "addr:state": "DE",
+        "addr:street": "Christiana Mall",
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "check_date": "2025-09-15",
+        "cuisine": "pizza",
+        "name": "Sbarro",
+        "opening_hours": "Mo-Sa 10:00-20:00; Su 11:00-18:00",
+        "phone": "+1 302-738-3110",
+        "takeaway": "yes",
+        "website": "https://sbarro.com/locations/DE/NEWARK/Christiana-Mall/"
+      },
+      "lat": 39.6785735,
+      "lon": -75.6517618
+    }
+  ]
+}

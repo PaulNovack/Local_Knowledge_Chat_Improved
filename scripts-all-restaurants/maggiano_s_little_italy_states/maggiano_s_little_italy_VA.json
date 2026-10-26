@@ -1,0 +1,57 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "maggiano_s_little_italy",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6525080935,
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "11800",
+        "addr:postcode": "23233",
+        "addr:state": "VA",
+        "addr:street": "West Broad Street",
+        "addr:unit": "2204",
+        "amenity": "restaurant",
+        "brand": "Maggiano's Little Italy",
+        "brand:wikidata": "Q6730149",
+        "cuisine": "italian",
+        "level": "1",
+        "name": "Maggiano's Little Italy",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-21:00",
+        "phone": "+1-804-253-0900"
+      },
+      "lat": 37.655456,
+      "lon": -77.6178309
+    },
+    {
+      "type": "node",
+      "id": 14157682275,
+      "tags": {
+        "addr:floor": "1",
+        "amenity": "restaurant",
+        "brand": "Maggiano's Little Italy",
+        "brand:wikidata": "Q6730149",
+        "check_date": "2026-09-06",
+        "cuisine": "italian",
+        "level": "0",
+        "name": "Maggiano's Little Italy"
+      },
+      "lat": 38.9176131,
+      "lon": -77.2183981
+    }
+  ]
+}

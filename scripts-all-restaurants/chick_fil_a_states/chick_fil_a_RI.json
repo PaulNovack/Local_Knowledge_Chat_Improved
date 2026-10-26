@@ -1,0 +1,50 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "RI",
+    "brand": "chick_fil_a",
+    "source": "https://download.geofabrik.de/north-america/us/rhode-island-latest.osm.pbf",
+    "source_md5": "089bd14c5348318ad280c1c9ab732067",
+    "processed_utc": "2026-10-24T07:15:29.409283+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 147059312,
+      "tags": {
+        "addr:city": "Warwick",
+        "addr:housenumber": "1500",
+        "addr:postcode": "02886",
+        "addr:state": "RI",
+        "addr:street": "Bald Hill Road",
+        "amenity": "fast_food",
+        "branch": "Bald Hill Road",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "retail",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "no",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00",
+        "phone": "+1-401-615-3423",
+        "ref": "03220",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/ri/bald-hill-road"
+      },
+      "center": {
+        "lat": 41.69851265,
+        "lon": -71.49609644999998
+      }
+    }
+  ]
+}

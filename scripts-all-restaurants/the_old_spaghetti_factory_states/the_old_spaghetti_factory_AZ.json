@@ -1,0 +1,42 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "the_old_spaghetti_factory",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 95060751,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "1418",
+        "addr:postcode": "85004",
+        "addr:state": "AZ",
+        "addr:street": "North Central Avenue",
+        "amenity": "restaurant",
+        "brand": "The Old Spaghetti Factory",
+        "brand:wikidata": "Q7754912",
+        "building": "retail",
+        "cuisine": "italian",
+        "name": "The Old Spaghetti Factory",
+        "source": "esri_USDOT_Arizona",
+        "source:name": "local_knowledge"
+      },
+      "center": {
+        "lat": 33.464343,
+        "lon": -112.0743837
+      }
+    }
+  ]
+}

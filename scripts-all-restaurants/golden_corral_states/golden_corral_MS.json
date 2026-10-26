@@ -1,0 +1,89 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "golden_corral",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10872810125,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral"
+      },
+      "lat": 34.9630993,
+      "lon": -90.0083648
+    },
+    {
+      "type": "way",
+      "id": 193114795,
+      "tags": {
+        "addr:city": "Hattiesburg",
+        "addr:housenumber": "6082",
+        "addr:postcode": "39402",
+        "addr:state": "MS",
+        "addr:street": "US 98",
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "retail",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral"
+      },
+      "center": {
+        "lat": 31.32122025,
+        "lon": -89.37969720000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1201690672,
+      "tags": {
+        "addr:city": "McComb",
+        "addr:housenumber": "200",
+        "addr:postcode": "39660",
+        "addr:state": "MS",
+        "addr:street": "Anna Drive",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Golden Corral Buffet & Grill"
+      },
+      "center": {
+        "lat": 31.2452926,
+        "lon": -90.47924054999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1551339031,
+      "tags": {
+        "addr:housenumber": "988",
+        "addr:street": "Top Street",
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral",
+        "phone": "+1-601-420-9990"
+      },
+      "center": {
+        "lat": 32.327974600000005,
+        "lon": -90.12170330000004
+      }
+    }
+  ]
+}

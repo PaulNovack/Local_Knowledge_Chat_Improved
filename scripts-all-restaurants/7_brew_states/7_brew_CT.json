@@ -1,0 +1,106 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "7_brew",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13002184601,
+      "tags": {
+        "addr:housenumber": "905",
+        "addr:postcode": "06492",
+        "addr:street": "North Colony Road",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew",
+        "shop": "coffee",
+        "takeaway": "yes"
+      },
+      "lat": 41.4829764,
+      "lon": -72.8105615
+    },
+    {
+      "type": "way",
+      "id": 204056677,
+      "tags": {
+        "addr:city": "Bridgeport",
+        "addr:housenumber": "4707",
+        "addr:postcode": "06606",
+        "addr:state": "CT",
+        "addr:street": "Main Street",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00",
+        "phone": "+1-479-358-9274",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.22379995,
+        "lon": -73.21856415000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 207411811,
+      "tags": {
+        "addr:city": "Orange",
+        "addr:street": "Boston Post Road",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "7 Brew Coffee",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.27572825,
+        "lon": -72.99007410000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 445938345,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew Coffee",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.826261450000004,
+        "lon": -72.49770560000002
+      }
+    }
+  ]
+}

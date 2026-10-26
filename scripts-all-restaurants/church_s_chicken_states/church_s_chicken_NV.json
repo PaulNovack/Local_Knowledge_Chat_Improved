@@ -1,0 +1,117 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "church_s_chicken",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3834980732,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "868",
+        "addr:postcode": "89110",
+        "addr:state": "NV",
+        "addr:street": "North Nellis Boulevard",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "cuisine": "chicken",
+        "name": "Church's Chicken",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "phone": "+1 702-453-6903",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/nv/las-vegas/868-n-nellis-boulevard"
+      },
+      "lat": 36.1754203,
+      "lon": -115.0618096
+    },
+    {
+      "type": "way",
+      "id": 409408266,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "4800",
+        "addr:postcode": "89121",
+        "addr:state": "NV",
+        "addr:street": "East Flamingo Road",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Church's Chicken",
+        "phone": "+1 702-642-6900",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/nv/las-vegas/4800-e-flamingo-road"
+      },
+      "center": {
+        "lat": 36.1151995,
+        "lon": -115.06919785000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1234780543,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "4880",
+        "addr:postcode": "89102",
+        "addr:state": "NV",
+        "addr:street": "Spring Mountain Road",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Church's Chicken",
+        "phone": "+1 702-365-5055",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/nv/las-vegas/4880-spring-mountain-road"
+      },
+      "center": {
+        "lat": 36.126540000000006,
+        "lon": -115.20769389999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1236679367,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "4851",
+        "addr:postcode": "89146-1410",
+        "addr:state": "NV",
+        "addr:street": "West Charleston Boulevard",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "retail",
+        "cuisine": "chicken",
+        "name": "Church's Chicken",
+        "opening_hours": "Mo-Su 10:00-21:30",
+        "phone": "+1 702-822-6259",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/nv/las-vegas/4851-w-charleston-boulevard"
+      },
+      "center": {
+        "lat": 36.158882500000004,
+        "lon": -115.20751859999996
+      }
+    }
+  ]
+}

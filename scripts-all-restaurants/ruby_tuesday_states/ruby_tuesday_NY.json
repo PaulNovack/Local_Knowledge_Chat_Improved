@@ -1,0 +1,190 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "ruby_tuesday",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 721467281,
+      "tags": {
+        "addr:city": "Albany",
+        "addr:country": "US",
+        "addr:housenumber": "1 Suite K-101",
+        "addr:postcode": "12203",
+        "addr:street": "Crossgates Mall Road",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "lat": 42.6890931,
+      "lon": -73.850425
+    },
+    {
+      "type": "node",
+      "id": 6532311665,
+      "tags": {
+        "addr:city": "Horseheads",
+        "addr:floor": "G",
+        "addr:housenumber": "3300",
+        "addr:postcode": "14845",
+        "addr:state": "NY",
+        "addr:street": "Chambers Road",
+        "addr:unit": "5055",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "check_date": "2026-09-01",
+        "cuisine": "american",
+        "internet_access": "no",
+        "level": "0",
+        "name": "Ruby Tuesday",
+        "opening_hours": "Mo-Sa 11:00-22:00; Su 11:00-21:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "phone": "+1-607-796-5269",
+        "source": "esri/USA_NAD_Addresses",
+        "website": "https://www.rubytuesday.com/locations/horseheads/"
+      },
+      "lat": 42.1594784,
+      "lon": -76.8759692
+    },
+    {
+      "type": "node",
+      "id": 8399549802,
+      "tags": {
+        "addr:city": "Latham",
+        "addr:country": "US",
+        "addr:housenumber": "675",
+        "addr:postcode": "12110",
+        "addr:state": "NY",
+        "addr:street": "Troy Schenectady Road",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "cuisine": "american",
+        "name": "Ruby Tuesday",
+        "nysgissam:nysaddresspointid": "ALBA194568",
+        "nysgissam:review": "found > 1 existing matching address",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr-Sa 11:00-24:00; Su 10:00-22:00",
+        "phone": "+1-518-785-1037"
+      },
+      "lat": 42.7555344,
+      "lon": -73.7725877
+    },
+    {
+      "type": "way",
+      "id": 103912855,
+      "tags": {
+        "addr:city": "East Syracuse",
+        "addr:housenumber": "6405",
+        "addr:postcode": "13057",
+        "addr:state": "NY",
+        "addr:street": "Yorktown Circle",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday",
+        "nysgissam:nysaddresspointid": "ONON138332"
+      },
+      "center": {
+        "lat": 43.09226905,
+        "lon": -76.08656874999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 124815893,
+      "tags": {
+        "addr:city": "Amsterdam",
+        "addr:housenumber": "4917",
+        "addr:postcode": "12010",
+        "addr:state": "NY",
+        "addr:street": "State Highway 30",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "retail",
+        "cuisine": "american",
+        "delivery": "yes",
+        "kids_area": "no",
+        "name": "Ruby Tuesday",
+        "nysgissam:nysaddresspointid": "MONT024588",
+        "phone": "+1 518-843-5064",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 42.96624455,
+        "lon": -74.18612955000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 230397213,
+      "tags": {
+        "addr:city": "Oswego",
+        "addr:housenumber": "146",
+        "addr:postcode": "13126",
+        "addr:state": "NY",
+        "addr:street": "East 13th Street",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday",
+        "opening_hours": "Mo-Fr 11:00-23:00; Fr-Sa 11:00-24:00; Su 11:00-22:00",
+        "phone": "+1 315 343 1234",
+        "source:data": "https://gis.ny.gov/gisdata",
+        "source:imagery": "ESRI Sat & NYS Sat Imagery",
+        "source:shape": "Modified MS Footprints https://cugir.library.cornell.edu",
+        "website": "https://www.rubytuesday.com/"
+      },
+      "center": {
+        "lat": 43.46098135,
+        "lon": -76.48975165000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 234104801,
+      "tags": {
+        "addr:city": "Middletown",
+        "addr:housenumber": "41",
+        "addr:postcode": "10940",
+        "addr:state": "NY",
+        "addr:street": "Orange Plaza Lane",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday",
+        "nysgissam:nysaddresspointid": "ORAN103884"
+      },
+      "center": {
+        "lat": 41.4523999,
+        "lon": -74.38162899999998
+      }
+    }
+  ]
+}

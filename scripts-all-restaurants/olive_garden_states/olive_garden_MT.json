@@ -1,0 +1,58 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MT",
+    "brand": "olive_garden",
+    "source": "https://download.geofabrik.de/north-america/us/montana-latest.osm.pbf",
+    "source_md5": "abfa2e1bfc18f6c00a77776eb9185b11",
+    "processed_utc": "2026-10-24T07:09:10.271084+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 762533354,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "center": {
+        "lat": 45.754491,
+        "lon": -108.5706705
+      }
+    },
+    {
+      "type": "way",
+      "id": 968605182,
+      "tags": {
+        "addr:city": "Bozeman",
+        "addr:housenumber": "1553",
+        "addr:postcode": "59718-3648",
+        "addr:state": "MT",
+        "addr:street": "North 19th Avenue",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "phone": "+1-406-522-9962",
+        "website": "https://www.olivegarden.com/locations/mt/bozeman/bozeman/4451"
+      },
+      "center": {
+        "lat": 45.69524235,
+        "lon": -111.06305429999998
+      }
+    }
+  ]
+}

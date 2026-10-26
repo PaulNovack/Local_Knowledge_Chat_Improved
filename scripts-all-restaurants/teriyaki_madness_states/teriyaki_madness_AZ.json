@@ -1,0 +1,93 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "teriyaki_madness",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8551467568,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1229",
+        "addr:postcode": "85206",
+        "addr:state": "AZ",
+        "addr:street": "South Power Road",
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "cuisine": "japanese",
+        "drive_through": "no",
+        "name": "Teriyaki Madness",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes"
+      },
+      "lat": 33.3926179,
+      "lon": -111.6839641
+    },
+    {
+      "type": "node",
+      "id": 10767521810,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "takeaway": "yes"
+      },
+      "lat": 33.6200252,
+      "lon": -111.8921904
+    },
+    {
+      "type": "node",
+      "id": 11182404998,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "7473",
+        "addr:postcode": "85382",
+        "addr:state": "AZ",
+        "addr:street": "West Bell Road",
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes"
+      },
+      "lat": 33.6376153,
+      "lon": -112.2197097
+    },
+    {
+      "type": "node",
+      "id": 13979247075,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "3010",
+        "addr:postcode": "85353",
+        "addr:state": "AZ",
+        "addr:street": "South 99th Avenue",
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "takeaway": "yes"
+      },
+      "lat": 33.418964,
+      "lon": -112.2731887
+    }
+  ]
+}

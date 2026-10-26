@@ -1,0 +1,68 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "godfather_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11403359686,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza"
+      },
+      "lat": 38.6382421,
+      "lon": -78.7733875
+    },
+    {
+      "type": "node",
+      "id": 12100967272,
+      "tags": {
+        "addr:city": "Cross Junction",
+        "addr:housenumber": "9181",
+        "addr:postcode": "22625",
+        "addr:state": "VA",
+        "addr:street": "North Frederick Pike",
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "phone": "+1-540-888-4247"
+      },
+      "lat": 39.3822774,
+      "lon": -78.2990234
+    },
+    {
+      "type": "way",
+      "id": 1068068379,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza"
+      },
+      "center": {
+        "lat": 38.6513561,
+        "lon": -78.66905014999998
+      }
+    }
+  ]
+}

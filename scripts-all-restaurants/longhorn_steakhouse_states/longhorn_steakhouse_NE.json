@@ -1,0 +1,52 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "longhorn_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12077557787,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "lat": 41.259208,
+      "lon": -96.0282478
+    },
+    {
+      "type": "way",
+      "id": 170817642,
+      "tags": {
+        "addr:housenumber": "3040",
+        "addr:postcode": "68144",
+        "addr:street": "South 143rd Plaza",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "retail",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "source": "bing"
+      },
+      "center": {
+        "lat": 41.2308366,
+        "lon": -96.13761729999999
+      }
+    }
+  ]
+}

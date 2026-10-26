@@ -1,0 +1,63 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TX",
+    "brand": "salad_and_go",
+    "source": "https://download.geofabrik.de/north-america/us/texas-latest.osm.pbf",
+    "source_md5": "eb8f4603e9b48bd481c192fe621ae18b",
+    "processed_utc": "2026-10-24T07:17:23.814833+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1465409168,
+      "tags": {
+        "addr:city": "Fate",
+        "addr:housenumber": "4950",
+        "addr:postcode": "75189",
+        "addr:state": "TX",
+        "addr:street": "East Interstate 30",
+        "amenity": "fast_food",
+        "brand": "Salad and Go",
+        "brand:wikidata": "Q110127908",
+        "building": "retail",
+        "cuisine": "salad",
+        "name": "Salad and Go",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.931309850000005,
+        "lon": -96.38237305000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1504736529,
+      "tags": {
+        "addr:city": "Euless",
+        "addr:housenumber": "2120",
+        "addr:postcode": "76039",
+        "addr:state": "TX",
+        "addr:street": "Rio Grande Boulevard",
+        "amenity": "fast_food",
+        "brand": "Salad and Go",
+        "brand:wikidata": "Q110127908",
+        "building": "commercial",
+        "cuisine": "salad",
+        "name": "Salad and Go",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.8680419,
+        "lon": -97.10301019999997
+      }
+    }
+  ]
+}

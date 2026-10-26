@@ -1,0 +1,106 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CA",
+    "brand": "cracker_barrel",
+    "source": "https://download.geofabrik.de/north-america/us/california-latest.osm.pbf",
+    "source_md5": "26040c163edb7a5f630164ee55d5afda",
+    "processed_utc": "2026-10-24T06:59:04.829226+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9351959385,
+      "tags": {
+        "addr:city": "Camarillo",
+        "addr:housenumber": "560",
+        "addr:postcode": "93010",
+        "addr:state": "CA",
+        "addr:street": "Ventura Boulevard",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Mo-Th,Su 07:00-21:00; Fr,Sa 07:00-22:00",
+        "phone": "+1-805-384-1424",
+        "source": "https://www.premiumoutlets.com/outlet/camarillo/map/#/location/cracker-barrel",
+        "website": "https://www.crackerbarrel.com/Locations/States/ca/camarillo/764"
+      },
+      "lat": 34.2157158,
+      "lon": -119.068041
+    },
+    {
+      "type": "way",
+      "id": 770068398,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 38.79943095,
+        "lon": -121.20803324999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 972379800,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 34.13443075,
+        "lon": -117.39163395000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1009396229,
+      "tags": {
+        "addr:city": "Victorville",
+        "addr:country": "US",
+        "addr:housenumber": "11612",
+        "addr:postcode": "92392",
+        "addr:state": "CA",
+        "addr:street": "Amargosa Road",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "retail",
+        "building:levels": "1",
+        "contact:phone": "+1 760-244-0010",
+        "contact:website": "https://www.crackerbarrel.com/Locations/States/ca/victorville/755",
+        "cuisine": "american",
+        "delivery": "yes",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 07:00-21:00; Fr-Sa 07:00-22:00",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 34.461929549999994,
+        "lon": -117.35391664999997
+      }
+    }
+  ]
+}

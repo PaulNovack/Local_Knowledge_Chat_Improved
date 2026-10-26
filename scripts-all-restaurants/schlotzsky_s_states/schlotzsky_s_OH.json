@@ -1,0 +1,62 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "schlotzsky_s",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4360892679,
+      "tags": {
+        "addr:city": "Van Wert",
+        "addr:housenumber": "1042",
+        "addr:postcode": "45891",
+        "addr:state": "OH",
+        "addr:street": "South Washington Street",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's",
+        "phone": "+1-419-238-3354",
+        "takeaway": "yes"
+      },
+      "lat": 40.855927,
+      "lon": -84.5846294
+    },
+    {
+      "type": "way",
+      "id": 636140492,
+      "tags": {
+        "addr:city": "Maumee",
+        "addr:housenumber": "1419",
+        "addr:postcode": "43537",
+        "addr:state": "OH",
+        "addr:street": "Reynolds Road",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's",
+        "phone": "+1-419-893-9266",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.5828851,
+        "lon": -83.66557979999999
+      }
+    }
+  ]
+}

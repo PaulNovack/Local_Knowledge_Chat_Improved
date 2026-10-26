@@ -1,0 +1,111 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TN",
+    "brand": "the_cheesecake_factory",
+    "source": "https://download.geofabrik.de/north-america/us/tennessee-latest.osm.pbf",
+    "source_md5": "a047c5da6c897a8a98b1fc4a282b8d3f",
+    "processed_utc": "2026-10-24T07:16:20.210730+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12363047697,
+      "tags": {
+        "addr:city": "Nashville",
+        "addr:housenumber": "2133",
+        "addr:postcode": "37215",
+        "addr:state": "TN",
+        "addr:street": "Green Hills Village Drive",
+        "addr:unit": "289",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "branch": "The Mall at Green Hills",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "level": "1",
+        "name": "The Cheesecake Factory",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr 11:00-23:00; Su 10:00-22:00",
+        "phone": "+1 615-463-2400",
+        "ref": "98",
+        "takeaway": "yes",
+        "website": "https://locations.thecheesecakefactory.com/tn/nashville-98/"
+      },
+      "lat": 36.1077814,
+      "lon": -86.8149863
+    },
+    {
+      "type": "way",
+      "id": 767726852,
+      "tags": {
+        "addr:city": "Chattanooga",
+        "addr:housenumber": "2084",
+        "addr:postcode": "37421",
+        "addr:street": "Hamilton Place Boulevard",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "building": "yes",
+        "check_date": "2026-05-19",
+        "check_date:opening_hours": "2026-05-19",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "The Cheesecake Factory",
+        "opening_hours": "Mo-Th 11:30-22:00; Fr 11:30-23:00; Sa 11:00-23:00; Su 10:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-423-499-4447",
+        "website": "https://locations.thecheesecakefactory.com/tn/chattanooga-208.html"
+      },
+      "center": {
+        "lat": 35.0328028,
+        "lon": -85.16108480000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 832053063,
+      "tags": {
+        "addr:housenumber": "7600",
+        "addr:street": "Kingston Pike",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr,Sa 11:00-23:00; Su 10:00-22:00"
+      },
+      "center": {
+        "lat": 35.9255864,
+        "lon": -84.03655800000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1051316949,
+      "tags": {
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory"
+      },
+      "center": {
+        "lat": 36.20258905,
+        "lon": -86.69121419999999
+      }
+    }
+  ]
+}

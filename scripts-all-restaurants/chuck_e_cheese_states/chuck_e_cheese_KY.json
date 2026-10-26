@@ -1,0 +1,107 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KY",
+    "brand": "chuck_e_cheese",
+    "source": "https://download.geofabrik.de/north-america/us/kentucky-latest.osm.pbf",
+    "source_md5": "beee275db6b863afe4847059e1397537",
+    "processed_utc": "2026-10-24T07:04:39.223265+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2767106209,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "phone": "+1-859-268-1800",
+        "toilets:wheelchair": "yes",
+        "website": "https://locations.chuckecheese.com/us/ky/lexington/1555-new-circle-rd.",
+        "wheelchair": "yes"
+      },
+      "lat": 38.0202806,
+      "lon": -84.454066
+    },
+    {
+      "type": "node",
+      "id": 6069801089,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "check_date": "2024-11-27",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/ky/louisville/2030-s.-hurstbourne-pkwy."
+      },
+      "lat": 38.217811,
+      "lon": -85.5887736
+    },
+    {
+      "type": "node",
+      "id": 12750423684,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese"
+      },
+      "lat": 38.1898763,
+      "lon": -85.5655097
+    },
+    {
+      "type": "way",
+      "id": 42266497,
+      "tags": {
+        "addr:city": "Florence",
+        "addr:housenumber": "7635",
+        "addr:postcode": "41042",
+        "addr:state": "KY",
+        "addr:street": "Mall Road",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "retail",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/ky/florence/7635-mall-rd."
+      },
+      "center": {
+        "lat": 38.999627849999996,
+        "lon": -84.65431530000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 741765269,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "yes",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/ky/paducah/5141-hinkleville-rd."
+      },
+      "center": {
+        "lat": 37.07643845,
+        "lon": -88.69012580000003
+      }
+    }
+  ]
+}

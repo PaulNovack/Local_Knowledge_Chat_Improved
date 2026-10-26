@@ -1,0 +1,49 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "huddle_house",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2903009001,
+      "tags": {
+        "addr:city": "Salina",
+        "addr:housenumber": "2250",
+        "addr:postcode": "67401",
+        "addr:street": "North Ohio Street",
+        "amenity": "restaurant",
+        "brand": "Huddle House",
+        "brand:wikidata": "Q5928324",
+        "cuisine": "american",
+        "name": "Huddle House"
+      },
+      "lat": 38.8791766,
+      "lon": -97.5924634
+    },
+    {
+      "type": "node",
+      "id": 11261332608,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Huddle House",
+        "brand:wikidata": "Q5928324",
+        "cuisine": "american",
+        "name": "Huddle House"
+      },
+      "lat": 37.7223508,
+      "lon": -97.3605009
+    }
+  ]
+}

@@ -33,7 +33,7 @@ let keepListening = false;
 let stopping = false;
 let microphoneAcquirePromise = null;
 let resumeListeningAfterVideo = false;
-let lastReplyAudioUrl = '';
+let lastReplyAudioUrls = [];
 
 function setStatus(text) { $('voice-status').textContent = text; }
 function setSpeakStatus(text) { $('speak-status').textContent = text; }
@@ -136,7 +136,8 @@ async function refreshHealth() {
   try {
     const response = await fetch('/api/health');
     const data = await response.json();
-    const voiceState = data.checks?.piper === 'ok' ? 'Amy voice ready' : 'Amy voice unavailable';
+    const voiceName = String(data.piper_voice || 'Piper').replace(/\.onnx$/, '');
+    const voiceState = data.checks?.piper === 'ok' ? `${voiceName} voice ready` : `${voiceName} voice unavailable`;
     $('health').textContent = data.ok
       ? `● Services ready · ${data.chat_model} · ${voiceState}`
       : '○ Services need attention — see /api/health';
@@ -151,10 +152,8 @@ function clearConversation() {
   setStatus('Ready. Press start and ask a question.');
   setSpeakStatus('Ready to speak replies.');
   $('replay-answer').disabled = true;
-  if (lastReplyAudioUrl) {
-    URL.revokeObjectURL(lastReplyAudioUrl);
-    lastReplyAudioUrl = '';
-  }
+  lastReplyAudioUrls.forEach(url => URL.revokeObjectURL(url));
+  lastReplyAudioUrls = [];
   $('reply-audio').removeAttribute('src');
 }
 function ensureSelectedTopic() {
@@ -250,11 +249,12 @@ async function askQuestion(question) {
   if (!ensureSelectedTopic()) {
     throw new Error('Select a knowledge collection first, then ask again.');
   }
+  const directionsWindow = window.prepareLocatorDirections?.(question, $('show-map')?.checked);
   bubble('user', question);
   const answer = bubble('assistant', '');
   answer.body.classList.add('thinking');
   answer.body.append(thinkingIndicator());
-  const record = { question, answer: '', sources: [], topic: $('topic').value, complete: false, error: '' };
+  const record = { question, answer: '', sources: [], topic: $('topic').value, complete: false, error: '', directionsWindow };
   transcript.push(record);
   busy = true;
   setStatus('Connecting to chat…');
@@ -265,7 +265,7 @@ async function askQuestion(question) {
     const done = () => {
       if (!settled) {
         settled = true;
-        resolve(record.answer);
+        resolve(record);
       }
     };
     const fail = error => {
@@ -290,6 +290,7 @@ async function askQuestion(question) {
         if (data.type === 'sources') {
           record.sources = data.sources;
           addSources(answer.card, data.sources);
+          window.resolveLocatorDirections?.(record.directionsWindow, data.sources, answer.card);
         }
         if (data.type === 'status') setStatus(data.message);
         if (data.type === 'error') {
@@ -303,6 +304,7 @@ async function askQuestion(question) {
         if (data.type === 'done') {
           answer.body.classList.remove('thinking');
           record.complete = true;
+          window.finishLocatorDirections?.(record.directionsWindow);
           setStatus('Ready for the next question.');
           busy = false;
           done();
@@ -320,6 +322,7 @@ async function askQuestion(question) {
     };
     ws.onclose = () => {
       if (socket === ws) socket = null;
+      window.finishLocatorDirections?.(record.directionsWindow);
       if (!settled) {
         busy = false;
         fail(new Error(record.error || 'Response interrupted.'));
@@ -327,31 +330,40 @@ async function askQuestion(question) {
     };
   });
 }
-async function speakAnswer(text) {
-  const cleaned = text.trim();
-  if (!cleaned) return;
-  setSpeakStatus('Preparing spoken reply…');
-  const response = await fetch('/api/speak', {
-    method: 'POST',
-    headers: {'content-type': 'application/json'},
-    body: JSON.stringify({text: cleaned}),
-  });
-  const audio = await response.blob();
-  if (!response.ok) {
-    const detail = await audio.text().catch(() => 'Unable to synthesize speech');
-    throw new Error(detail || 'Unable to synthesize speech');
+function splitSpeechText(text) {
+  const maxLength = 5500;
+  const chunks = [];
+  let chunk = '';
+  for (const line of text.split('\n')) {
+    const candidate = chunk ? `${chunk}\n${line}` : line;
+    if (candidate.length <= maxLength) {
+      chunk = candidate;
+      continue;
+    }
+    if (chunk) chunks.push(chunk);
+    let remainder = line;
+    while (remainder.length > maxLength) {
+      let splitAt = remainder.lastIndexOf(' ', maxLength);
+      if (splitAt < maxLength / 2) splitAt = maxLength;
+      chunks.push(remainder.slice(0, splitAt));
+      remainder = remainder.slice(splitAt).trimStart();
+    }
+    chunk = remainder;
   }
-  if (lastReplyAudioUrl) URL.revokeObjectURL(lastReplyAudioUrl);
-  lastReplyAudioUrl = URL.createObjectURL(audio);
-  const player = $('reply-audio');
-  player.src = lastReplyAudioUrl;
-  $('replay-answer').disabled = false;
-  setSpeakStatus('Mic paused during playback.');
-  await pauseCaptureForPlayback();
-  await new Promise((resolve, reject) => {
+  if (chunk) chunks.push(chunk);
+  return chunks;
+}
+function playAudioUrl(player, url, onPlaying) {
+  player.src = url;
+  return new Promise((resolve, reject) => {
     const finish = () => {
+      player.onplaying = null;
       player.onended = null;
       player.onerror = null;
+    };
+    player.onplaying = () => {
+      player.onplaying = null;
+      onPlaying?.();
     };
     player.onended = () => {
       finish();
@@ -366,28 +378,60 @@ async function speakAnswer(text) {
       reject(error);
     });
   });
+}
+async function speakAnswer(text, directionsWindow) {
+  const cleaned = text.trim();
+  if (!cleaned) return;
+  const chunks = splitSpeechText(cleaned);
+  setSpeakStatus(chunks.length > 1
+    ? `Preparing spoken reply in ${chunks.length} parts…`
+    : 'Preparing spoken reply…');
+  const audioUrls = [];
+  try {
+    for (const chunk of chunks) {
+      const response = await fetch('/api/speak', {
+        method: 'POST',
+        headers: {'content-type': 'application/json'},
+        body: JSON.stringify({text: chunk}),
+      });
+      const audio = await response.blob();
+      if (!response.ok) {
+        const detail = await audio.text().catch(() => 'Unable to synthesize speech');
+        throw new Error(detail || 'Unable to synthesize speech');
+      }
+      audioUrls.push(URL.createObjectURL(audio));
+    }
+  } catch (error) {
+    audioUrls.forEach(url => URL.revokeObjectURL(url));
+    throw error;
+  }
+  lastReplyAudioUrls.forEach(url => URL.revokeObjectURL(url));
+  lastReplyAudioUrls = audioUrls;
+  const player = $('reply-audio');
+  player.src = audioUrls[0];
+  $('replay-answer').disabled = false;
+  setSpeakStatus('Mic paused during playback.');
+  await pauseCaptureForPlayback();
+  for (const [index, url] of audioUrls.entries()) {
+    await playAudioUrl(player, url, index === 0
+      ? () => window.locatorDirectionsAudioStarted?.(directionsWindow)
+      : undefined);
+  }
   setSpeakStatus('Reply played.');
 }
 async function playReplyAudio({ resumeListening = false } = {}) {
   const player = $('reply-audio');
-  if (!player.src) return;
+  if (!lastReplyAudioUrls.length) return;
   const previousSpeakStatus = $('speak-status').textContent;
   if (resumeListening) {
     setSpeakStatus('Mic paused during playback.');
     await pauseCaptureForPlayback();
   }
-  player.onended = async () => {
-    player.onended = null;
-    if (resumeListening) {
-      await startListening(false);
-    }
-    setSpeakStatus(previousSpeakStatus || 'Reply played.');
-  };
   try {
-    await player.play();
+    for (const url of lastReplyAudioUrls) await playAudioUrl(player, url);
+    if (resumeListening) await startListening(false);
     setSpeakStatus('Reply played.');
   } catch (error) {
-    player.onended = null;
     throw error;
   }
 }
@@ -398,6 +442,10 @@ async function transcribeBlob(blob) {
   const data = await response.json().catch(() => ({}));
   if (!response.ok) throw new Error(data.detail || data.error || 'Unable to transcribe audio');
   return data;
+}
+function isRepeatRequest(text) {
+  const normalized = text.toLowerCase().replace(/[.!?,]/g, '').replace(/\s+/g, ' ').trim();
+  return normalized === 'please repeat' || normalized === 'say again' || normalized === 'replay answer' || normalized === 'i missed that can you say it again';
 }
 async function handleCapturedAudio(blob) {
   if (!blob || blob.size === 0) {
@@ -414,10 +462,29 @@ async function handleCapturedAudio(blob) {
       setStatus('The transcription was empty.');
       return;
     }
-    const answer = await askQuestion(text);
-    if (answer) {
+    if (isRepeatRequest(text)) {
+      if (!lastReplyAudioUrls.length) {
+        setStatus('There is no spoken reply to repeat yet.');
+        return;
+      }
+      setStatus('Repeating the last spoken reply…');
+      await playReplyAudio();
+      return;
+    }
+    if (window.isLocatorDirectionsRequest?.(text)) {
+      const lastDirections = [...transcript].reverse()
+        .find(record => record.directionsWindow?.url)?.directionsWindow;
+      if (lastDirections && window.openLocatorDirections?.(lastDirections)) {
+        setStatus('Opening directions for the displayed location.');
+      } else {
+        setStatus('There is no displayed location with directions to open.');
+      }
+      return;
+    }
+    const record = await askQuestion(text);
+    if (record?.answer) {
       try {
-        await speakAnswer(answer);
+        await speakAnswer(record.answer, record.directionsWindow);
       } catch (error) {
         setSpeakStatus(error.message);
       }

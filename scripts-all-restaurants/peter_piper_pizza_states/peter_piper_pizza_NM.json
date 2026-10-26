@@ -1,0 +1,107 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NM",
+    "brand": "peter_piper_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/new-mexico-latest.osm.pbf",
+    "source_md5": "5e236c0e9dd59b2df560a9316c86a745",
+    "processed_utc": "2026-10-24T07:10:42.593170+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1903432899,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Peter Piper Pizza",
+        "brand:wikidata": "Q7176401",
+        "cuisine": "pizza",
+        "name": "Peter Piper Pizza",
+        "opening_hours": "Su-Th 11:00-20:00; Fr 11:00-21:00; Sa 10:00-21:00"
+      },
+      "lat": 35.1175032,
+      "lon": -106.586994
+    },
+    {
+      "type": "node",
+      "id": 3716347903,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Peter Piper Pizza",
+        "brand:wikidata": "Q7176401",
+        "cuisine": "pizza",
+        "name": "Peter Piper Pizza"
+      },
+      "lat": 33.4255127,
+      "lon": -104.5226747
+    },
+    {
+      "type": "node",
+      "id": 10945066149,
+      "tags": {
+        "addr:housenumber": "4101",
+        "addr:street": "Central Avenue Northwest",
+        "addr:unit": "M2",
+        "amenity": "restaurant",
+        "brand": "Peter Piper Pizza",
+        "brand:wikidata": "Q7176401",
+        "cuisine": "pizza",
+        "name": "Peter Piper Pizza"
+      },
+      "lat": 35.0861173,
+      "lon": -106.6855511
+    },
+    {
+      "type": "way",
+      "id": 51475272,
+      "tags": {
+        "addr:city": "Las Cruces",
+        "addr:housenumber": "2290",
+        "addr:postcode": "88011",
+        "addr:state": "NM",
+        "addr:street": "Bataan Memorial East",
+        "amenity": "restaurant",
+        "brand": "Peter Piper Pizza",
+        "brand:wikidata": "Q7176401",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Peter Piper Pizza",
+        "phone": "+1-505-532-1101",
+        "website": "https://www.peterpiperpizza.com/"
+      },
+      "center": {
+        "lat": 32.3527208,
+        "lon": -106.76280824999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 126582818,
+      "tags": {
+        "addr:housenumber": "507",
+        "addr:state": "NM",
+        "addr:street": "South Main Street",
+        "amenity": "restaurant",
+        "brand": "Peter Piper Pizza",
+        "brand:wikidata": "Q7176401",
+        "building": "commercial",
+        "cuisine": "pizza",
+        "name": "Peter Piper Pizza",
+        "phone": "+1-575-523-2418",
+        "source": "Bing",
+        "website": "https://www.peterpiperpizza.com/"
+      },
+      "center": {
+        "lat": 32.30508395,
+        "lon": -106.77688525000002
+      }
+    }
+  ]
+}

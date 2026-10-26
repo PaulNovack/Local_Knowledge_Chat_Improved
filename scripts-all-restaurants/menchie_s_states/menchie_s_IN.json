@@ -1,0 +1,52 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "menchie_s",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7041281751,
+      "tags": {
+        "addr:city": "Terre Haute",
+        "addr:housenumber": "3530",
+        "addr:postcode": "47802",
+        "addr:state": "IN",
+        "addr:street": "US 41",
+        "amenity": "ice_cream",
+        "brand": "Menchie's",
+        "brand:wikidata": "Q6816528",
+        "cuisine": "frozen_yogurt",
+        "name": "Menchie's",
+        "opening_hours": "Su-Th 12:00-22:00; Fr-Sa 12:00-23:00",
+        "website": "https://www.menchies.com/locations/frozen-yogurt-riverside-plaza-in/"
+      },
+      "lat": 39.4241842,
+      "lon": -87.4149702
+    },
+    {
+      "type": "node",
+      "id": 11963843788,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Menchie's",
+        "brand:wikidata": "Q6816528",
+        "cuisine": "frozen_yogurt",
+        "name": "Menchie's"
+      },
+      "lat": 40.0359316,
+      "lon": -85.994403
+    }
+  ]
+}

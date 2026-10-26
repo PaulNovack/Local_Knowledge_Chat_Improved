@@ -1,0 +1,703 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "ihop",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6201737382,
+      "tags": {
+        "addr:city": "Athens",
+        "addr:housenumber": "1006",
+        "addr:postcode": "45701",
+        "addr:state": "OH",
+        "addr:street": "East State Street",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Th,Su 07:00-22:00; Fr,Sa 07:00-24:00",
+        "phone": "+1 740-447-9020",
+        "website": "https://restaurants.ihop.com/en-us/oh/athens/breakfast-1006-e.-east-state-street-3663"
+      },
+      "lat": 39.3366127,
+      "lon": -82.0558745
+    },
+    {
+      "type": "node",
+      "id": 7006775919,
+      "tags": {
+        "addr:city": "Heath",
+        "addr:housenumber": "651",
+        "addr:postcode": "43056",
+        "addr:state": "OH",
+        "addr:street": "Hebron Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-08-27",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1 740-522-6192",
+        "source": "official website",
+        "website": "https://restaurants.ihop.com/en-us/oh/heath/breakfast-651-hebron-rd-3464"
+      },
+      "lat": 40.0347837,
+      "lon": -82.4339449
+    },
+    {
+      "type": "node",
+      "id": 7640625854,
+      "tags": {
+        "addr:city": "Columbus",
+        "addr:housenumber": "2040",
+        "addr:state": "OH",
+        "addr:street": "North High Street",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "cuisine": "breakfast;pancake",
+        "diet:vegetarian": "yes",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 40.0038885,
+      "lon": -83.0086495
+    },
+    {
+      "type": "node",
+      "id": 8888048144,
+      "tags": {
+        "addr:city": "Cleveland",
+        "addr:housenumber": "10810",
+        "addr:postcode": "44130",
+        "addr:state": "OH",
+        "addr:street": "Brookpark Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Th,Su 06:00-22:00; Fr,Sa 00:00-24:00",
+        "phone": "+1 216-898-0298",
+        "website": "https://restaurants.ihop.com/en-us/oh/cleveland/breakfast-10810-brookpark-rd-5510"
+      },
+      "lat": 41.4189471,
+      "lon": -81.7607458
+    },
+    {
+      "type": "node",
+      "id": 9198338327,
+      "tags": {
+        "addr:city": "North Baltimore",
+        "addr:housenumber": "12906",
+        "addr:postcode": "45872",
+        "addr:state": "OH",
+        "addr:street": "Deshler Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-08-29",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "07:00-22:00",
+        "phone": "+1 419-257-3744",
+        "source": "official website",
+        "website": "https://restaurants.ihop.com/en-us/oh/north-baltimore/breakfast-12906-deshler-rd.-5657"
+      },
+      "lat": 41.1737319,
+      "lon": -83.6474023
+    },
+    {
+      "type": "node",
+      "id": 12312139602,
+      "tags": {
+        "addr:city": "Lima",
+        "addr:housenumber": "3289",
+        "addr:postcode": "45805",
+        "addr:state": "OH",
+        "addr:street": "Elida Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Th 06:00-22:00; Fr 06:00-24:00; Sa 00:00-24:00; Su 00:00-22:00",
+        "website": "https://restaurants.ihop.com/en-us/oh/lima/breakfast-3289-elida-rd-5430"
+      },
+      "lat": 40.7693412,
+      "lon": -84.1643654
+    },
+    {
+      "type": "node",
+      "id": 13143460901,
+      "tags": {
+        "addr:housenumber": "8834",
+        "addr:postcode": "44273",
+        "addr:street": "Lake Road",
+        "amenity": "restaurant",
+        "cuisine": "breakfast",
+        "name": "IHOP",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-24:00",
+        "outdoor_seating": "no",
+        "phone": "+1-330-769-2053",
+        "self_service": "no",
+        "website": "http://restaurants.ihop.com"
+      },
+      "lat": 41.0323048,
+      "lon": -81.9084446
+    },
+    {
+      "type": "way",
+      "id": 102238929,
+      "tags": {
+        "addr:housenumber": "613",
+        "addr:street": "East Aurora Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "website": "https://restaurants.ihop.com/en-us/oh/macedonia/"
+      },
+      "center": {
+        "lat": 41.31426235,
+        "lon": -81.51680650000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 102962847,
+      "tags": {
+        "addr:city": "Cincinnati",
+        "addr:housenumber": "7400",
+        "addr:postcode": "45255",
+        "addr:state": "OH",
+        "addr:street": "Beechmont Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "microbrewery": "no",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1-513-233-2505",
+        "website": "https://restaurants.ihop.com/en-us/oh/cincinnati/breakfast-7400-beechmont-ave-5513"
+      },
+      "center": {
+        "lat": 39.07318255,
+        "lon": -84.35155780000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 111472938,
+      "tags": {
+        "addr:city": "Cincinnati",
+        "addr:country": "US",
+        "addr:housenumber": "3222",
+        "addr:postcode": "45209",
+        "addr:state": "OH",
+        "addr:street": "Geier Drive",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 39.164018299999995,
+        "lon": -84.42517250000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 111473593,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "short_name": "IHOP"
+      },
+      "center": {
+        "lat": 39.199474699999996,
+        "lon": -84.37624705000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 112411219,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 39.3541589,
+        "lon": -84.36529139999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 148029990,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 39.84756105,
+        "lon": -84.19061275000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 169670505,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 39.30193615,
+        "lon": -84.52504250000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 169677697,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 39.245222549999994,
+        "lon": -84.59469050000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 201383206,
+      "tags": {
+        "addr:city": "Cincinnati",
+        "addr:housenumber": "6475",
+        "addr:postcode": "45211",
+        "addr:state": "OH",
+        "addr:street": "Glenway Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 39.1520212,
+        "lon": -84.62836140000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 232606043,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 40.8794513,
+        "lon": -81.43628884999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 234455558,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 40.1476412,
+        "lon": -82.92497505
+      }
+    },
+    {
+      "type": "way",
+      "id": 256931101,
+      "tags": {
+        "addr:city": "Chillicothe",
+        "addr:housenumber": "10",
+        "addr:postcode": "45601-2667",
+        "addr:street": "Consumer Center Drive",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1 740 7734467"
+      },
+      "center": {
+        "lat": 39.34532685,
+        "lon": -82.97789799999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 291272288,
+      "tags": {
+        "addr:city": "Boardman",
+        "addr:housenumber": "833",
+        "addr:postcode": "44512",
+        "addr:state": "OH",
+        "addr:street": "Boardman Poland Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 41.02374195,
+        "lon": -80.63820455000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 362166622,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 40.767443799999995,
+        "lon": -81.52124815000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 428720039,
+      "tags": {
+        "addr:city": "Holland",
+        "addr:housenumber": "6535",
+        "addr:postcode": "43528",
+        "addr:state": "OH",
+        "addr:street": "Airport Highway",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "building:colour": "grey",
+        "building:levels": "1",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1-419-868-9831",
+        "ref": "5461",
+        "roof:colour": "grey",
+        "roof:shape": "flat"
+      },
+      "center": {
+        "lat": 41.611886299999995,
+        "lon": -83.6978072
+      }
+    },
+    {
+      "type": "way",
+      "id": 544790560,
+      "tags": {
+        "addr:city": "Cleveland",
+        "addr:housenumber": "10810",
+        "addr:postcode": "44130",
+        "addr:state": "OH",
+        "addr:street": "Brookpark Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "check_date": "2024-09-22",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Th,Su 06:00-22:00; Fr,Sa 00:00-24:00",
+        "phone": "+1 216-898-0298",
+        "source": "official website",
+        "website": "https://restaurants.ihop.com/en-us/oh/cleveland/breakfast-10810-brookpark-rd-5510"
+      },
+      "center": {
+        "lat": 41.41895425,
+        "lon": -81.76073870000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 548694700,
+      "tags": {
+        "addr:city": "Ontario",
+        "addr:housenumber": "2190",
+        "addr:postcode": "44903",
+        "addr:state": "OH",
+        "addr:street": "Walker Lake Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1-419-747-1126",
+        "ref": "3572",
+        "source": "mapillary",
+        "website": "https://restaurants.ihop.com/oh/ontario/3572/"
+      },
+      "center": {
+        "lat": 40.7879018,
+        "lon": -82.59303729999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 583262724,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 39.87896235,
+        "lon": -83.05751889999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 635375459,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 41.69252855,
+        "lon": -83.64524240000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 699147479,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 39.981749750000006,
+        "lon": -83.15265454999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 766074081,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 40.11012385,
+        "lon": -83.08802460000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 919036025,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 41.544296,
+        "lon": -83.59085159999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 965332396,
+      "tags": {
+        "addr:city": "Lancaster",
+        "addr:country": "US",
+        "addr:postcode": "43130",
+        "addr:state": "OH",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 39.7339657,
+        "lon": -82.62693560000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 981880683,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 39.935684550000005,
+        "lon": -82.78864184999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1069367889,
+      "tags": {
+        "addr:city": "Marietta",
+        "addr:housenumber": "103",
+        "addr:postcode": "45750",
+        "addr:state": "OH",
+        "addr:street": "Crooked Run Lane",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Th 07:00-23:00; Fr-Sa 07:00-24:00; Su 07:00-23:00",
+        "phone": "+1740-374-4314",
+        "website": "https://restaurants.ihop.com/en-us/oh/marietta/breakfast-103-crooked-run-lane-3061"
+      },
+      "center": {
+        "lat": 39.405032250000005,
+        "lon": -81.41224514999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1091679909,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 39.8643787,
+        "lon": -84.13871270000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1159642075,
+      "tags": {
+        "addr:housenumber": "2877",
+        "addr:postcode": "44312",
+        "addr:street": "South Arlington Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "building:levels": "1",
+        "contact:facebook": "IHOP",
+        "contact:instagram": "ihop",
+        "contact:twitter": "IHOP",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Su 06:00-24:00",
+        "phone": "+1-330-644-4467",
+        "website": "https://restaurants.ihop.com/en-us/oh/akron/breakfast-2877-s-arlington-rd-5508"
+      },
+      "center": {
+        "lat": 40.99308045,
+        "lon": -81.49169195000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1373174722,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "pancake",
+        "name": "ihop",
+        "website": "https//ihop.com"
+      },
+      "center": {
+        "lat": 40.0347591,
+        "lon": -82.43394669999998
+      }
+    }
+  ]
+}

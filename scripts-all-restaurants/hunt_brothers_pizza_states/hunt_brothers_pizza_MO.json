@@ -1,0 +1,89 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "hunt_brothers_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13607949272,
+      "tags": {
+        "addr:city": "Bonne Terre",
+        "addr:housenumber": "416",
+        "addr:postcode": "63628-1208",
+        "addr:state": "MO",
+        "addr:street": "Benham Street",
+        "amenity": "fast_food",
+        "brand": "Hunt Brothers Pizza",
+        "brand:wikidata": "Q5943909",
+        "contact:facebook": "https://www.facebook.com/111888925334590",
+        "cuisine": "pizza",
+        "name": "Hunt Brothers Pizza",
+        "phone": "+15733589450",
+        "takeaway": "only",
+        "website": "https://www.restaurantlogin.com/ordering/restaurant/menu?company_uid=8886ab00-fa32-4847-8252-d22f7e67c53d&restaurant_uid=c783372a-5816-4911-bfcc-358a40205d4c"
+      },
+      "lat": 37.9240528,
+      "lon": -90.5467842
+    },
+    {
+      "type": "node",
+      "id": 14086724465,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Hunt Brothers Pizza",
+        "brand:wikidata": "Q5943909",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Hunt Brothers Pizza",
+        "takeaway": "only"
+      },
+      "lat": 37.4927622,
+      "lon": -91.8568761
+    },
+    {
+      "type": "node",
+      "id": 14285389940,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Hunt Brothers Pizza",
+        "brand:wikidata": "Q5943909",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Hunt Brothers Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 38.9027683,
+      "lon": -92.1277711
+    },
+    {
+      "type": "way",
+      "id": 1564119505,
+      "tags": {
+        "addr:city": "Wentzville",
+        "amenity": "fast_food",
+        "brand": "Hunt Brothers Pizza",
+        "brand:wikidata": "Q5943909",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Hunt Brothers Pizza",
+        "takeaway": "only"
+      },
+      "center": {
+        "lat": 38.77414985,
+        "lon": -90.86048934999997
+      }
+    }
+  ]
+}

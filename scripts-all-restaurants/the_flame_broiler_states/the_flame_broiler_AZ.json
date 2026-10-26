@@ -1,0 +1,60 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "the_flame_broiler",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2146091802,
+      "tags": {
+        "addr:city": "Flagstaff",
+        "addr:country": "US",
+        "addr:housenumber": "1800",
+        "addr:postcode": "86001",
+        "addr:state": "AZ",
+        "addr:street": "South Milton Road",
+        "amenity": "fast_food",
+        "brand": "The Flame Broiler",
+        "brand:wikidata": "Q30593122",
+        "cuisine": "asian",
+        "name": "The Flame Broiler",
+        "takeaway": "yes",
+        "website": "https://flamebroilerusa.com/"
+      },
+      "lat": 35.1821856,
+      "lon": -111.6602886
+    },
+    {
+      "type": "node",
+      "id": 6780182033,
+      "tags": {
+        "addr:city": "Tempe",
+        "addr:housenumber": "1342",
+        "addr:postcode": "85284",
+        "addr:state": "AZ",
+        "addr:street": "West Warner Road",
+        "amenity": "fast_food",
+        "brand": "The Flame Broiler",
+        "brand:wikidata": "Q30593122",
+        "cuisine": "asian",
+        "name": "The Flame Broiler",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes"
+      },
+      "lat": 33.3350029,
+      "lon": -111.9619697
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "rubio_s",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5421566434,
+      "tags": {
+        "addr:street": "Red Rock Resort",
+        "amenity": "fast_food",
+        "brand": "Rubio's",
+        "brand:wikidata": "Q7376154",
+        "cuisine": "mexican",
+        "name": "Rubio's",
+        "official_name": "Rubio's Coastal Grill",
+        "takeaway": "yes"
+      },
+      "lat": 36.1557484,
+      "lon": -115.3341432
+    },
+    {
+      "type": "node",
+      "id": 8219767719,
+      "tags": {
+        "addr:housenumber": "9310",
+        "addr:postcode": "89117",
+        "addr:street": "West Sahara Avenue",
+        "amenity": "fast_food",
+        "brand": "Rubio's",
+        "brand:wikidata": "Q7376154",
+        "cuisine": "mexican",
+        "name": "Rubio's",
+        "official_name": "Rubio's Coastal Grill",
+        "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-20:00",
+        "phone": "+1 702-804-5860",
+        "takeaway": "yes",
+        "website": "https://www.rubios.com/"
+      },
+      "lat": 36.1448712,
+      "lon": -115.299169
+    },
+    {
+      "type": "node",
+      "id": 11626047352,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "1205",
+        "addr:postcode": "89014",
+        "addr:state": "NV",
+        "addr:street": "West Sunset Road",
+        "addr:unit": "130",
+        "amenity": "fast_food",
+        "brand": "Rubio's",
+        "brand:wikidata": "Q7376154",
+        "cuisine": "mexican",
+        "name": "Rubio's",
+        "official_name": "Rubio's Coastal Grill",
+        "opening_hours": "Mo-Sa 10:30-21:00; Su 11:00-20:00",
+        "phone": "+1-702-433-4824",
+        "takeaway": "yes",
+        "website": "https://rubios.com/restaurant-locations/nevada/henderson-sunset-rd/"
+      },
+      "lat": 36.0632973,
+      "lon": -115.0384705
+    },
+    {
+      "type": "way",
+      "id": 929090446,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "7385",
+        "addr:postcode": "89118",
+        "addr:street": "South Rainbow Boulevard",
+        "amenity": "fast_food",
+        "brand": "Rubio's",
+        "brand:wikidata": "Q7376154",
+        "building": "commercial",
+        "cuisine": "mexican",
+        "name": "Rubio's",
+        "official_name": "Rubio's Coastal Grill",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.05475835,
+        "lon": -115.24369239999999
+      }
+    }
+  ]
+}

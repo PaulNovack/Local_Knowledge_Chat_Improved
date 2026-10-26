@@ -1,0 +1,126 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "bob_evans",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 47838036,
+      "tags": {
+        "addr:city": "Raleigh",
+        "addr:housename": "Bob Evans",
+        "addr:housenumber": "8001",
+        "addr:postcode": "27617",
+        "addr:street": "Brier Creek Pky",
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Bob Evans",
+        "source": "WakeGIS"
+      },
+      "center": {
+        "lat": 35.91093765,
+        "lon": -78.78161454999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 219408073,
+      "tags": {
+        "addr:city": "Durham",
+        "addr:housenumber": "5419",
+        "addr:postcode": "27707",
+        "addr:state": "NC",
+        "addr:street": "Durham Chapel Hill Boulevard",
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "building": "commercial",
+        "contact:phone": "+1 919 403 6766",
+        "contact:website": "http://www.snapfinger.com/menus/bobevans/default.aspx?Store=321",
+        "cuisine": "american",
+        "name": "Bob Evans",
+        "opening_hours": "06:00-22:00",
+        "source:addr": "Durham Open Data"
+      },
+      "center": {
+        "lat": 35.95167615,
+        "lon": -78.99555525
+      }
+    },
+    {
+      "type": "way",
+      "id": 549234894,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Bob Evans"
+      },
+      "center": {
+        "lat": 35.7050921,
+        "lon": -81.29305949999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 705094024,
+      "tags": {
+        "addr:city": "Smithfield",
+        "addr:housenumber": "907",
+        "addr:postcode": "27577",
+        "addr:state": "NC",
+        "addr:street": "Venture Drive",
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "cuisine": "american",
+        "name": "Bob Evans",
+        "phone": "+1-919-938-1267"
+      },
+      "center": {
+        "lat": 35.506714349999996,
+        "lon": -78.31808385
+      }
+    },
+    {
+      "type": "way",
+      "id": 857899352,
+      "tags": {
+        "addr:city": "Charlotte",
+        "addr:housenumber": "9253",
+        "addr:postcode": "28269",
+        "addr:state": "NC",
+        "addr:street": "Statesville Road",
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Bob Evans",
+        "phone": "+1-704-599-5414",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 35.347646499999996,
+        "lon": -80.84222050000005
+      }
+    }
+  ]
+}

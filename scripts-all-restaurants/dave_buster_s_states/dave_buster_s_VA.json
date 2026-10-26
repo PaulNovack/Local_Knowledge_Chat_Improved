@@ -1,0 +1,114 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "dave_buster_s",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2697257731,
+      "tags": {
+        "addr:city": "Glen Allen",
+        "addr:housenumber": "4001",
+        "addr:postcode": "23060",
+        "addr:state": "VA",
+        "addr:street": "Brownstone Boulevard",
+        "addr:unit": "101",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "opening_hours": "Mo-Th 11:00-00:00; Fr 11:00-01:00; Sa 10:00-01:00; Su 10:00-00:00",
+        "phone": "+1-804-967-7399",
+        "website": "https://www.daveandbusters.com/us/en/about/locations/glen-allen"
+      },
+      "lat": 37.6487761,
+      "lon": -77.6043862
+    },
+    {
+      "type": "node",
+      "id": 3474497140,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "cuisine": "american",
+        "delivery": "no",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "opening_hours": "Su-Th 11:00-00:00; Fr-Sa 11:00-02:00",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.daveandbusters.com/us/en/about/locations/virginia-beach"
+      },
+      "lat": 36.8183114,
+      "lon": -76.0708919
+    },
+    {
+      "type": "node",
+      "id": 9118222720,
+      "tags": {
+        "addr:city": "Fairfax",
+        "addr:housenumber": "12000",
+        "addr:postcode": "22033",
+        "addr:state": "VA",
+        "addr:street": "Fair Oaks Mall",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "phone": "+1-703-385-2299",
+        "ref": "1814"
+      },
+      "lat": 38.8635192,
+      "lon": -77.3615207
+    },
+    {
+      "type": "way",
+      "id": 350698287,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:place": "Springfield Mall",
+        "addr:postcode": "22150",
+        "addr:state": "VA",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2023-04-12",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "D&B_Guest",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "opening_hours": "Mo-Th,Su 11:00-24:00; Fr-Sa 11:00-01:00",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.daveandbusters.com/us/en/about/locations/springfield",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 38.7741653,
+        "lon": -77.17546240000001
+      }
+    }
+  ]
+}

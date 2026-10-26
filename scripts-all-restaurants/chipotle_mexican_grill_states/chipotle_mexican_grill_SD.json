@@ -1,0 +1,42 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SD",
+    "brand": "chipotle_mexican_grill",
+    "source": "https://download.geofabrik.de/north-america/us/south-dakota-latest.osm.pbf",
+    "source_md5": "4d012b130d8682e6f0e1bc093c255981",
+    "processed_utc": "2026-10-24T07:16:00.169778+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1243945546,
+      "tags": {
+        "addr:city": "Sioux Falls",
+        "addr:housenumber": "4035",
+        "addr:postcode": "57106",
+        "addr:state": "SD",
+        "addr:street": "West 41st Street",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 43.51438365,
+        "lon": -96.77550165000002
+      }
+    }
+  ]
+}

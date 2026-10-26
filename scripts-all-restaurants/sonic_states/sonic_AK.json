@@ -1,0 +1,92 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AK",
+    "brand": "sonic",
+    "source": "https://download.geofabrik.de/north-america/us/alaska-latest.osm.pbf",
+    "source_md5": "55281fca0391ab2c26b0d99fd6a6f5f8",
+    "processed_utc": "2026-10-24T06:56:26.590469+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 44945490,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "check_date": "2009-11-24",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 61.10905765,
+        "lon": -149.86090495000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 392023888,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Sonic"
+      },
+      "center": {
+        "lat": 64.85829265,
+        "lon": -147.69947745000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 932955048,
+      "tags": {
+        "addr:city": "Wasilla",
+        "addr:housenumber": "2051",
+        "addr:postcode": "99654",
+        "addr:state": "AK",
+        "addr:street": "East Sun Mountain Avenue",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 61.5749024,
+        "lon": -149.3984952
+      }
+    },
+    {
+      "type": "way",
+      "id": 1002139583,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "roof",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 61.5750239,
+        "lon": -149.3987287
+      }
+    }
+  ]
+}

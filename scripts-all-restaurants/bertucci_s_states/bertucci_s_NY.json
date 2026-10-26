@@ -1,0 +1,38 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "bertucci_s",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 470066307,
+      "tags": {
+        "addr:city": "West Hills",
+        "addr:housenumber": "881",
+        "addr:postcode": "11747",
+        "addr:state": "NY",
+        "addr:street": "Walt Whitman Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Bertucci's",
+        "nysgissam:nysaddresspointid": "SUFF428932"
+      },
+      "center": {
+        "lat": 40.79951315,
+        "lon": -73.4131913
+      }
+    }
+  ]
+}

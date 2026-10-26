@@ -1,0 +1,764 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "kfc",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4291426891,
+      "tags": {
+        "addr:city": "Gardnerville",
+        "addr:housenumber": "1338",
+        "addr:postcode": "89410",
+        "addr:state": "NV",
+        "addr:street": "Highway 395 North",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/gardnerville/1338-highway-395-n"
+      },
+      "lat": 38.9352686,
+      "lon": -119.7390455
+    },
+    {
+      "type": "node",
+      "id": 4416178441,
+      "tags": {
+        "addr:city": "Reno",
+        "addr:housenumber": "5175",
+        "addr:postcode": "89523",
+        "addr:state": "NV",
+        "addr:street": "Mae Anne Avenue",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/reno/5175-mae-anne-ave"
+      },
+      "lat": 39.5340238,
+      "lon": -119.8675247
+    },
+    {
+      "type": "node",
+      "id": 5093765571,
+      "tags": {
+        "addr:city": "Fallon",
+        "addr:housenumber": "1515",
+        "addr:postcode": "89406",
+        "addr:state": "NV",
+        "addr:street": "West Williams",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/fallon/1515-west-williams"
+      },
+      "lat": 39.4746216,
+      "lon": -118.793784
+    },
+    {
+      "type": "node",
+      "id": 10005126809,
+      "tags": {
+        "addr:city": "Winnemucca",
+        "addr:housenumber": "1734",
+        "addr:postcode": "89445",
+        "addr:state": "NV",
+        "addr:street": "West Winnemucca Boulevard",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/winnemucca/1734-w-winnemucca-boulevard"
+      },
+      "lat": 40.9621116,
+      "lon": -117.7458834
+    },
+    {
+      "type": "way",
+      "id": 226516649,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "680",
+        "addr:postcode": "89015",
+        "addr:state": "NV",
+        "addr:street": "East Horizon Drive",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+1-702-293-1982",
+        "review": "no",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/henderson/680-east-horizon-drive"
+      },
+      "center": {
+        "lat": 36.01181485,
+        "lon": -114.96388189999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 258742821,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "4420",
+        "addr:postcode": "89102",
+        "addr:state": "NV",
+        "addr:street": "West Sahara Avenue",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+1 702-362-0058",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/las-vegas/4420-w-sahara-ave"
+      },
+      "center": {
+        "lat": 36.14487935,
+        "lon": -115.20100289999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 297274103,
+      "tags": {
+        "addr:city": "Elko",
+        "addr:housenumber": "1760",
+        "addr:postcode": "89801",
+        "addr:state": "NV",
+        "addr:street": "Mountain City Highway",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/elko/1760-mountain-city-highway"
+      },
+      "center": {
+        "lat": 40.83523695,
+        "lon": -115.78646125
+      }
+    },
+    {
+      "type": "way",
+      "id": 372000672,
+      "tags": {
+        "addr:city": "Reno",
+        "addr:county": "Washoe",
+        "addr:housenumber": "65",
+        "addr:postcode": "89521",
+        "addr:state": "NV",
+        "addr:street": "Damonte Ranch Parkway",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "source": "WC GIS",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/reno/65-damonte-ranch-parkway"
+      },
+      "center": {
+        "lat": 39.4206523,
+        "lon": -119.75705455000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 376910009,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3245",
+        "addr:postcode": "89121",
+        "addr:state": "NV",
+        "addr:street": "East Tropicana Avenue",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/las-vegas/3245-e-tropicana-avenue"
+      },
+      "center": {
+        "lat": 36.09961105,
+        "lon": -115.10441364999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 385795196,
+      "tags": {
+        "addr:city": "Reno",
+        "addr:county": "Washoe",
+        "addr:housenumber": "5890",
+        "addr:postcode": "89502",
+        "addr:state": "NV",
+        "addr:street": "South Virginia Street",
+        "addr:unit": "5",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "check_date": "2023-07-31",
+        "cuisine": "chicken",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "KFC",
+        "opening_hours": "10:30-22:00",
+        "source": "WC GIS",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://locations.kfc.com/nv/reno/5890-s-virginia-st"
+      },
+      "center": {
+        "lat": 39.47159905,
+        "lon": -119.78621190000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 546256999,
+      "tags": {
+        "addr:city": "Fernley",
+        "addr:housenumber": "1455",
+        "addr:postcode": "89408",
+        "addr:state": "NV",
+        "addr:street": "East Newlands Drive",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/fernley/1455-e-newlands-drive"
+      },
+      "center": {
+        "lat": 39.608062849999996,
+        "lon": -119.2177805
+      }
+    },
+    {
+      "type": "way",
+      "id": 547670120,
+      "tags": {
+        "addr:city": "North Las Vegas",
+        "addr:housenumber": "6965",
+        "addr:postcode": "89084",
+        "addr:state": "NV",
+        "addr:street": "Aliante Parkway",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/north-las-vegas/6965-aliante-parkway"
+      },
+      "center": {
+        "lat": 36.2869396,
+        "lon": -115.17806530000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 560865179,
+      "tags": {
+        "addr:city": "Reno",
+        "addr:county": "Washoe",
+        "addr:housenumber": "1805",
+        "addr:postcode": "89512",
+        "addr:state": "NV",
+        "addr:street": "Silverada Boulevard",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "source": "WC GIS",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/reno/1805-silverada-boulevard"
+      },
+      "center": {
+        "lat": 39.54586075,
+        "lon": -119.78360850000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 616347934,
+      "tags": {
+        "addr:city": "Sparks",
+        "addr:country": "US",
+        "addr:county": "Washoe",
+        "addr:housenumber": "162",
+        "addr:postcode": "89436",
+        "addr:state": "NV",
+        "addr:street": "Los Altos Parkway",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/sparks/162-los-altos-parkway"
+      },
+      "center": {
+        "lat": 39.5844956,
+        "lon": -119.74208335000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 679334707,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "1990",
+        "addr:postcode": "89115",
+        "addr:state": "NV",
+        "addr:street": "North Nellis Boulevard",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/las-vegas/1990-n-nellis-blvd"
+      },
+      "center": {
+        "lat": 36.19595985,
+        "lon": -115.06172979999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 771225676,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "7545",
+        "addr:postcode": "89139",
+        "addr:state": "NV",
+        "addr:street": "South Rainbow Boulevard",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/las-vegas/7545-s-rainbow-boulevard"
+      },
+      "center": {
+        "lat": 36.05131805,
+        "lon": -115.24365054999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 773646568,
+      "tags": {
+        "addr:city": "Carson City",
+        "addr:county": "Carson City",
+        "addr:housenumber": "2523",
+        "addr:postcode": "89706",
+        "addr:state": "NV",
+        "addr:street": "North Carson Street",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "commercial",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "KFC-FREE-WIFI",
+        "name": "KFC",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "phone": "+17758834092",
+        "source": "CCCM GIS",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/carson-city/2523-north-carson-street"
+      },
+      "center": {
+        "lat": 39.18291275,
+        "lon": -119.76790670000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 972179891,
+      "tags": {
+        "addr:city": "Mesquite",
+        "addr:housenumber": "253",
+        "addr:postcode": "89027",
+        "addr:state": "NV",
+        "addr:street": "North Sandhill Boulevard",
+        "air_conditioning": "yes",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "branch": "Mesquite",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date:opening_hours": "2023-02-21",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "KFC",
+        "opening_hours": "Mo-Su 10:30-21:00",
+        "phone": "+1-702-346-1745",
+        "roof:colour": "white",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/mesquite/253-sandhill-road"
+      },
+      "center": {
+        "lat": 36.80742825,
+        "lon": -114.06505900000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1017037801,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "4924",
+        "addr:postcode": "89121",
+        "addr:state": "NV",
+        "addr:street": "Boulder Highway",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/las-vegas/4924-boulder-hwy"
+      },
+      "center": {
+        "lat": 36.114239,
+        "lon": -115.06689399999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1017049617,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "7017",
+        "addr:postcode": "89148",
+        "addr:state": "NV",
+        "addr:street": "South Durango Drive",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/las-vegas/7017-s-durango-dr"
+      },
+      "center": {
+        "lat": 36.060303000000005,
+        "lon": -115.27981799999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080095821,
+      "tags": {
+        "addr:city": "Sparks",
+        "addr:county": "Washoe",
+        "addr:housenumber": "275",
+        "addr:postcode": "89431",
+        "addr:state": "NV",
+        "addr:street": "North Mccarran Boulevard",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "source": "WC GIS",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/sparks/275-n-mccarran-st"
+      },
+      "center": {
+        "lat": 39.5357962,
+        "lon": -119.73741889999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1154862760,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "1282",
+        "addr:postcode": "89014",
+        "addr:state": "NV",
+        "addr:street": "West Warm Springs Road",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "phone": "+1 702-435-1284",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/henderson/1282-w-warm-springs-road"
+      },
+      "center": {
+        "lat": 36.0567384,
+        "lon": -115.04077224999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1220087920,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "10267",
+        "addr:postcode": "89135-1019",
+        "addr:state": "NV",
+        "addr:street": "West Charleston Boulevard",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "check_date": "2025-06-09",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.1584606,
+        "lon": -115.31776719999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1226810225,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "5940",
+        "addr:postcode": "89146",
+        "addr:state": "NV",
+        "addr:street": "West Spring Mountain Road",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/las-vegas/5940-spring-mountain-rd"
+      },
+      "center": {
+        "lat": 36.125870500000005,
+        "lon": -115.22258414999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1236491289,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "4855",
+        "addr:postcode": "89147",
+        "addr:state": "NV",
+        "addr:street": "South Fort Apache Road",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "retail",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "opening_hours": "10:00-22:00",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/las-vegas/4855-south-fort-apache-road/"
+      },
+      "center": {
+        "lat": 36.1010212,
+        "lon": -115.29787339999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1236784487,
+      "tags": {
+        "addr:city": "North Las Vegas",
+        "addr:housenumber": "1318",
+        "addr:postcode": "89032",
+        "addr:state": "NV",
+        "addr:street": "West Craig Road",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.2398265,
+        "lon": -115.15999054999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1265036438,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "2750",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "South Maryland Parkway",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "KFC",
+        "opening_hours": "Su-Th 10:00-22:30; Fr,Sa 10:00-23:00",
+        "phone": "+1 725-210-7264",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/las-vegas/2750-s-maryland-parkway"
+      },
+      "center": {
+        "lat": 36.1398313,
+        "lon": -115.13631120000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1266702696,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:country": "US",
+        "addr:housenumber": "3380",
+        "addr:postcode": "89141",
+        "addr:state": "NV",
+        "addr:street": "West Cactus Avenue",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/las-vegas/3380-west-cactus-avenue"
+      },
+      "center": {
+        "lat": 35.99928615,
+        "lon": -115.18543769999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1344448019,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "8590",
+        "addr:postcode": "89129-7262",
+        "addr:state": "NV",
+        "addr:street": "West Cheyenne Avenue",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "opening_hours": "Su-Th 10:00-22:30; Fr-Sa 10:00-23:00",
+        "phone": "+1-702-451-0041",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nv/las-vegas/8590-w-cheyenne-ave"
+      },
+      "center": {
+        "lat": 36.2191011,
+        "lon": -115.28046895
+      }
+    }
+  ]
+}

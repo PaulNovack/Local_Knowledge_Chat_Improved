@@ -1,0 +1,85 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "mission_bbq",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13676771609,
+      "tags": {
+        "addr:city": "Surprise",
+        "addr:housenumber": "14487",
+        "addr:postcode": "85374",
+        "addr:state": "AZ",
+        "addr:street": "West Bell Road",
+        "amenity": "restaurant",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ",
+        "website": "https://mission-bbq.com/"
+      },
+      "lat": 33.6382345,
+      "lon": -112.3722153
+    },
+    {
+      "type": "way",
+      "id": 760799686,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "4518",
+        "addr:postcode": "85032",
+        "addr:state": "AZ",
+        "addr:street": "East Cactus Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "building": "retail",
+        "building:levels": "1",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Mission BBQ",
+        "outdoor_seating": "yes",
+        "website": "https://www.eatpdq.com/"
+      },
+      "center": {
+        "lat": 33.6002295,
+        "lon": -111.98480169999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1569008820,
+      "tags": {
+        "addr:city": "Goodyear",
+        "addr:housenumber": "15333",
+        "addr:postcode": "85395",
+        "addr:state": "AZ",
+        "addr:street": "West McDowell Road",
+        "amenity": "restaurant",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ",
+        "source": "esri_USDOT_Arizona"
+      },
+      "center": {
+        "lat": 33.4640644,
+        "lon": -112.38930165
+      }
+    }
+  ]
+}

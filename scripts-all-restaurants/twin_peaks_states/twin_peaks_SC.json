@@ -1,0 +1,85 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SC",
+    "brand": "twin_peaks",
+    "source": "https://download.geofabrik.de/north-america/us/south-carolina-latest.osm.pbf",
+    "source_md5": "488018afb1e1040732b7a791d4ebffae",
+    "processed_utc": "2026-10-24T07:15:46.592450+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 606295212,
+      "tags": {
+        "addr:city": "Greenville",
+        "addr:country": "US",
+        "addr:housenumber": "1034",
+        "addr:postcode": "29607",
+        "addr:state": "SC",
+        "addr:street": "Woodruff",
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "cuisine": "american",
+        "name": "Twin Peaks",
+        "phone": "+1 864 326 4080",
+        "website": "http://www.twinpeaksrestaurant.com/"
+      },
+      "lat": 34.8343774,
+      "lon": -82.3114492
+    },
+    {
+      "type": "node",
+      "id": 3137646019,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "cuisine": "american",
+        "name": "Twin Peaks"
+      },
+      "lat": 33.7916738,
+      "lon": -78.7676436
+    },
+    {
+      "type": "node",
+      "id": 14265153873,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "changing_table": "yes",
+        "check_date": "2026-09-22",
+        "cuisine": "american",
+        "name": "Twin Peaks"
+      },
+      "lat": 33.9981383,
+      "lon": -81.0428747
+    },
+    {
+      "type": "way",
+      "id": 1536800201,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Twin Peaks"
+      },
+      "center": {
+        "lat": 35.0976665,
+        "lon": -80.93332029999999
+      }
+    }
+  ]
+}

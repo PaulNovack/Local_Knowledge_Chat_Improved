@@ -1,0 +1,61 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "white_castle",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13672737875,
+      "tags": {
+        "addr:city": "Clermont",
+        "addr:housenumber": "4552",
+        "addr:postcode": "34711",
+        "addr:state": "FL",
+        "addr:street": "Collina Terrace",
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "cuisine": "burger",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "White Castle",
+        "name": "White Castle",
+        "takeaway": "yes"
+      },
+      "lat": 28.546883,
+      "lon": -81.6673327
+    },
+    {
+      "type": "way",
+      "id": 962735016,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "White Castle",
+        "opening_hours": "24/7",
+        "opening_hours:drive_through": "24/7",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 28.3993488,
+        "lon": -81.49022565000001
+      }
+    }
+  ]
+}

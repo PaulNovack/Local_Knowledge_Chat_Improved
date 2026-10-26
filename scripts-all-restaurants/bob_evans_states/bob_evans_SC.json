@@ -1,0 +1,68 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SC",
+    "brand": "bob_evans",
+    "source": "https://download.geofabrik.de/north-america/us/south-carolina-latest.osm.pbf",
+    "source_md5": "488018afb1e1040732b7a791d4ebffae",
+    "processed_utc": "2026-10-24T07:15:46.592450+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 48927930,
+      "tags": {
+        "addr:city": "Myrtle Beach",
+        "addr:country": "US",
+        "addr:housenumber": "3384",
+        "addr:postcode": "29579",
+        "addr:state": "SC",
+        "addr:street": "Waccamaw Boulevard",
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Bob Evans",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "phone": "+1-843-585-3010",
+        "website": "https://www.bobevans.com/locations/myrtle-beach"
+      },
+      "center": {
+        "lat": 33.72045385,
+        "lon": -78.92878589999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 685074887,
+      "tags": {
+        "addr:city": "Myrtle Beach",
+        "addr:housenumber": "175",
+        "addr:postcode": "29588",
+        "addr:state": "SC",
+        "addr:street": "Brookton Circle",
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Bob Evans",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "phone": "+1-843-293-0945",
+        "website": "https://www.bobevans.com/locations/myrtle-beach-2"
+      },
+      "center": {
+        "lat": 33.6515242,
+        "lon": -78.98244584999998
+      }
+    }
+  ]
+}

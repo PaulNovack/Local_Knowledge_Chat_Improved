@@ -1,0 +1,111 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MT",
+    "brand": "pizza_ranch",
+    "source": "https://download.geofabrik.de/north-america/us/montana-latest.osm.pbf",
+    "source_md5": "abfa2e1bfc18f6c00a77776eb9185b11",
+    "processed_utc": "2026-10-24T07:09:10.271084+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10093608764,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "cuisine": "pizza",
+        "name": "Pizza Ranch"
+      },
+      "lat": 45.8226641,
+      "lon": -108.4697891
+    },
+    {
+      "type": "node",
+      "id": 13358301222,
+      "tags": {
+        "addr:city": "Great Falls",
+        "addr:housenumber": "2515",
+        "addr:postcode": "59405",
+        "addr:state": "MT",
+        "addr:street": "10th Avenue South",
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "cuisine": "pizza",
+        "name": "Pizza Ranch",
+        "phone": "+1-406-401-8787",
+        "website": "https://pizzaranch.com/locations/mt/great-falls/2515-10th-ave-south"
+      },
+      "lat": 47.4944334,
+      "lon": -111.2637827
+    },
+    {
+      "type": "way",
+      "id": 451824923,
+      "tags": {
+        "addr:city": "Butte",
+        "addr:country": "US",
+        "addr:housenumber": "3541",
+        "addr:postcode": "59701",
+        "addr:state": "MT",
+        "addr:street": "Harrison Avenue",
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Ranch"
+      },
+      "center": {
+        "lat": 45.973734750000006,
+        "lon": -112.50879064999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 686310635,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Ranch"
+      },
+      "center": {
+        "lat": 46.618937700000004,
+        "lon": -112.01636535
+      }
+    },
+    {
+      "type": "way",
+      "id": 844162532,
+      "tags": {
+        "addr:city": "Billings",
+        "addr:housenumber": "2505",
+        "addr:state": "MT",
+        "addr:street": "King Avenue West",
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "building": "yes",
+        "cuisine": "pizza",
+        "diet:vegetarian": "yes",
+        "name": "Pizza Ranch"
+      },
+      "center": {
+        "lat": 45.755813,
+        "lon": -108.57922889999998
+      }
+    }
+  ]
+}

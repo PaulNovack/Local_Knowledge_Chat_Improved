@@ -1,0 +1,82 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KY",
+    "brand": "mod_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/kentucky-latest.osm.pbf",
+    "source_md5": "beee275db6b863afe4847059e1397537",
+    "processed_utc": "2026-10-24T07:04:39.223265+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6069763987,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "cuisine": "pizza",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "MOD Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 38.2157506,
+      "lon": -85.626692
+    },
+    {
+      "type": "node",
+      "id": 6787018485,
+      "tags": {
+        "addr:city": "Lexington",
+        "addr:housenumber": "2217",
+        "addr:postcode": "40509",
+        "addr:street": "Winchester Road",
+        "amenity": "fast_food",
+        "branch": "Hamburg",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "cuisine": "pizza",
+        "name": "MOD Pizza",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr-Sa 11:00-22:00; Su 11:00-21:00",
+        "phone": "+1 859-263-0110",
+        "takeaway": "yes",
+        "website": "https://locations.modpizza.com/usa/ky/lexington/2217-war-admiral-way"
+      },
+      "lat": 38.0408146,
+      "lon": -84.4281383
+    },
+    {
+      "type": "way",
+      "id": 625755132,
+      "tags": {
+        "addr:city": "Georgetown",
+        "addr:housenumber": "107",
+        "addr:postcode": "40324",
+        "addr:state": "KY",
+        "addr:street": "Marketplace Circle",
+        "amenity": "fast_food",
+        "branch": "Marketplace Circle",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "MOD Pizza",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr-Sa 11:00-22:00; Su 11:00-21:00",
+        "phone": "+1 502-603-8092",
+        "takeaway": "yes",
+        "website": "https://locations.modpizza.com/usa/ky/georgetown/107-marketplace-circle"
+      },
+      "center": {
+        "lat": 38.1838499,
+        "lon": -84.56688659999998
+      }
+    }
+  ]
+}

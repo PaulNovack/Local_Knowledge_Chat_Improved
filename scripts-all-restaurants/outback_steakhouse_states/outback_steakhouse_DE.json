@@ -1,0 +1,91 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DE",
+    "brand": "outback_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/delaware-latest.osm.pbf",
+    "source_md5": "5f714be897be010ea09e4134c39a0638",
+    "processed_utc": "2026-10-24T07:00:37.202137+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6515676514,
+      "tags": {
+        "addr:city": "Newark",
+        "addr:housenumber": "27",
+        "addr:postcode": "19711",
+        "addr:state": "DE",
+        "addr:street": "Possum Park",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "check_date": "2025-07-12",
+        "contact:phone": "+1 302-366-8012",
+        "contact:website": "https://locations.outback.com/delaware/newark/27-possum-park",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse",
+        "opening_hours": "Mo-Th 11:00-21:30; Fr,Sa 11:00-22:30; Su 11:00-21:30"
+      },
+      "lat": 39.6941103,
+      "lon": -75.7182658
+    },
+    {
+      "type": "way",
+      "id": 361942367,
+      "tags": {
+        "addr:city": "Rehoboth Beach",
+        "addr:housenumber": "19917",
+        "addr:postcode": "19971",
+        "addr:state": "DE",
+        "addr:street": "Sea Blossom Boulevard",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse",
+        "opening_hours": "Mo-Th 14:00-21:30; Fr 14:00-22:00; Sa 11:00-22:00; Su 11:00-21:00",
+        "phone": "+1 302-227-4858",
+        "website": "https://locations.outback.com/delaware/rehoboth-beach/19917-sea-blossom-boulevard",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 38.71603065,
+        "lon": -75.10795989999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 801834709,
+      "tags": {
+        "addr:city": "Dover",
+        "addr:housenumber": "1574",
+        "addr:postcode": "19901",
+        "addr:state": "DE",
+        "addr:street": "North Dupont Highway",
+        "addr:unit": "800",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse",
+        "opening_hours": "Mo-Th 11:00-21:30; Fr,Sa 11:00-22:00; Su 11:00-21:00",
+        "phone": "+1 302-244-3425",
+        "website": "https://locations.outback.com/delaware/dover/1574-n.-dupont-hwy"
+      },
+      "center": {
+        "lat": 39.19586495,
+        "lon": -75.55102825
+      }
+    }
+  ]
+}

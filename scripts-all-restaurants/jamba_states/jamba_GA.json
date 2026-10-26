@@ -1,0 +1,128 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "jamba",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9550712642,
+      "tags": {
+        "addr:city": "Marietta",
+        "addr:housenumber": "4101",
+        "addr:postcode": "30062",
+        "addr:state": "GA",
+        "addr:street": "Roswell Road",
+        "addr:suite": "304",
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "cuisine": "juice",
+        "drive_through": "no",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Jamba",
+        "opening_hours": "Mo-Sa 07:00-21:00; Su 09:00-20:00",
+        "phone": "+1-678-504-5544",
+        "takeaway": "yes"
+      },
+      "lat": 33.9816147,
+      "lon": -84.4341347
+    },
+    {
+      "type": "node",
+      "id": 11957147829,
+      "tags": {
+        "addr:city": "College Park",
+        "addr:housenumber": "7700",
+        "addr:postcode": "30321",
+        "addr:state": "GA",
+        "addr:street": "Spine Road",
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "branch": "ATL- Hartsfield-Jackson Atlanta International Airport",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "cuisine": "juice",
+        "indoor_seating": "no",
+        "name": "Jamba",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "outdoor_seating": "no",
+        "phone": "+1 404-762-1577",
+        "takeaway": "yes",
+        "website": "https://locations.jamba.com/ga/college-park/7700-spine-road"
+      },
+      "lat": 33.6385855,
+      "lon": -84.4425004
+    },
+    {
+      "type": "node",
+      "id": 12223548915,
+      "tags": {
+        "addr:city": "Kennesaw",
+        "addr:floor": "G;1",
+        "addr:housenumber": "395",
+        "addr:postcode": "30144",
+        "addr:state": "GA",
+        "addr:street": "Cobb Avenue",
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "branch": "KSU - Carmichael Student Center",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "check_date": "2025-07-25",
+        "cuisine": "juice",
+        "level": "0;1",
+        "name": "Jamba",
+        "opening_hours": "Mo-Th 08:30-21:00; Fr 08:30-14:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 470-578-2109",
+        "takeaway": "yes",
+        "website": "https://locations.jamba.com/ga/kennesaw/395-cobb-ave",
+        "wheelchair": "yes"
+      },
+      "lat": 34.0388114,
+      "lon": -84.5830826
+    },
+    {
+      "type": "way",
+      "id": 1154309411,
+      "tags": {
+        "addr:city": "Hampton",
+        "addr:housenumber": "2334",
+        "addr:postcode": "30228",
+        "addr:state": "GA",
+        "addr:street": "Jonesboro Road",
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "branch": "Hampton",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "building": "yes",
+        "cuisine": "juice",
+        "name": "Jamba",
+        "opening_hours": "Mo-Fr 07:00-20:00; Sa-Su 08:00-20:00",
+        "phone": "+1 470-781-1142",
+        "takeaway": "yes",
+        "website": "https://locations.jamba.com/ga/hampton/2334-jonesboro-rd"
+      },
+      "center": {
+        "lat": 33.46500345,
+        "lon": -84.23320269999999
+      }
+    }
+  ]
+}

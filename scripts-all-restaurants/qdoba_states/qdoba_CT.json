@@ -1,0 +1,47 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "qdoba",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1178765521,
+      "tags": {
+        "addr:city": "Norwalk",
+        "addr:housenumber": "652",
+        "addr:postcode": "06851",
+        "addr:state": "CT",
+        "addr:street": "Main Avenue",
+        "amenity": "fast_food",
+        "branch": "Norwalk",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "building": "yes",
+        "cuisine": "mexican",
+        "layer": "1",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Eats",
+        "opening_hours": "Mo-Sa 10:30-22:00; Su 10:30-21:00",
+        "phone": "+1 203-663-5127",
+        "takeaway": "yes",
+        "website": "https://locations.qdoba.com/us/ct/norwalk/652-main-ave.html"
+      },
+      "center": {
+        "lat": 41.1583248,
+        "lon": -73.41794994999998
+      }
+    }
+  ]
+}

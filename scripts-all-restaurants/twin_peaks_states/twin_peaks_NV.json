@@ -1,0 +1,50 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "twin_peaks",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13203797277,
+      "tags": {
+        "addr:city": "Reno",
+        "addr:state": "NV",
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "cuisine": "american",
+        "name": "Twin Peaks"
+      },
+      "lat": 39.4815992,
+      "lon": -119.7919602
+    },
+    {
+      "type": "way",
+      "id": 226496953,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Twin Peaks"
+      },
+      "center": {
+        "lat": 36.0161799,
+        "lon": -115.11807225000001
+      }
+    }
+  ]
+}

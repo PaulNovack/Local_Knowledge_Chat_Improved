@@ -1,0 +1,78 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NH",
+    "brand": "auntie_anne_s",
+    "source": "https://download.geofabrik.de/north-america/us/new-hampshire-latest.osm.pbf",
+    "source_md5": "603b90470df09c1b933955cbfe841c6d",
+    "processed_utc": "2026-10-24T07:09:51.168561+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4305086961,
+      "tags": {
+        "addr:city": "Nashua",
+        "addr:housenumber": "310",
+        "addr:postcode": "03060",
+        "addr:state": "NH",
+        "addr:street": "Daniel Webster Highway",
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "level": "0",
+        "name": "Auntie Anne's",
+        "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-18:00",
+        "phone": "+1-603-888-0407",
+        "takeaway": "yes",
+        "website": "https://www.auntieannes.com/"
+      },
+      "lat": 42.7019206,
+      "lon": -71.4375399
+    },
+    {
+      "type": "node",
+      "id": 6955946311,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "name": "Auntie Anne's",
+        "takeaway": "yes"
+      },
+      "lat": 42.8266068,
+      "lon": -71.5005568
+    },
+    {
+      "type": "way",
+      "id": 230522123,
+      "tags": {
+        "addr:city": "Manchester",
+        "addr:housenumber": "1500",
+        "addr:postcode": "03103",
+        "addr:street": "South Willow Street",
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "indoor": "room",
+        "name": "Auntie Anne's",
+        "takeaway": "yes",
+        "website": "https://www.auntieannes.com/"
+      },
+      "center": {
+        "lat": 42.9566308,
+        "lon": -71.43164065000002
+      }
+    }
+  ]
+}

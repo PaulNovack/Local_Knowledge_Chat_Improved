@@ -1,0 +1,96 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ND",
+    "brand": "chipotle_mexican_grill",
+    "source": "https://download.geofabrik.de/north-america/us/north-dakota-latest.osm.pbf",
+    "source_md5": "9eff3bc6ca09aea0f8e064cee3b44c15",
+    "processed_utc": "2026-10-24T07:12:54.105950+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9368728511,
+      "tags": {
+        "addr:city": "Fargo",
+        "addr:housenumber": "3061",
+        "addr:postcode": "58103",
+        "addr:state": "ND",
+        "addr:street": "25th Street South",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "cuisine": "mexican",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "opening_hours": "Mo-Su 10:45-22:00",
+        "phone": "+1 701-540-6672",
+        "takeaway": "yes",
+        "website": "https://locations.chipotle.com/nd/fargo/3061-25th-st-s"
+      },
+      "lat": 46.8343673,
+      "lon": -96.8205562
+    },
+    {
+      "type": "way",
+      "id": 85033392,
+      "tags": {
+        "addr:city": "Fargo",
+        "addr:housenumber": "1204",
+        "addr:postcode": "58102",
+        "addr:state": "ND",
+        "addr:street": "19th Avenue North",
+        "amenity": "fast_food",
+        "atm": "yes",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "mexican",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "phone": "+1 701-566-7467",
+        "takeaway": "yes",
+        "website": "https://locations.chipotle.com/nd/fargo/1204-19th-ave-n"
+      },
+      "center": {
+        "lat": 46.90432225,
+        "lon": -96.79665175000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 599918986,
+      "tags": {
+        "addr:city": "Fargo",
+        "addr:housenumber": "1680",
+        "addr:postcode": "58103",
+        "addr:state": "ND",
+        "addr:street": "45th Street South",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "building": "yes",
+        "cuisine": "mexican",
+        "indoor_seating": "yes",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "outdoor_seating": "yes",
+        "phone": "+1-701-566-5299",
+        "takeaway": "yes",
+        "website": "https://locations.chipotle.com/nd/fargo/1680-45th-st-s"
+      },
+      "center": {
+        "lat": 46.85533035,
+        "lon": -96.86144999999999
+      }
+    }
+  ]
+}

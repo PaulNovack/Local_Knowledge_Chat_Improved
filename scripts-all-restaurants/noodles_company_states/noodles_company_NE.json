@@ -1,0 +1,85 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "noodles_company",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1967920284,
+      "tags": {
+        "addr:housenumber": "203",
+        "addr:postcode": "68114",
+        "addr:street": "South 72nd Street",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "description": "Restrooms work.",
+        "name": "Noodles & Company"
+      },
+      "lat": 41.2586826,
+      "lon": -96.0231997
+    },
+    {
+      "type": "node",
+      "id": 2193373872,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "source": "bing"
+      },
+      "lat": 40.7394175,
+      "lon": -96.6794433
+    },
+    {
+      "type": "node",
+      "id": 2274546613,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "5001",
+        "addr:postcode": "68510",
+        "addr:state": "NE",
+        "addr:street": "O Street",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "phone": "+1-402-261-0034",
+        "source": "survey",
+        "website": "https://www.noodles.com/"
+      },
+      "lat": 40.8131163,
+      "lon": -96.6511274
+    },
+    {
+      "type": "node",
+      "id": 5813772704,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 41.2130462,
+      "lon": -96.1065735
+    }
+  ]
+}

@@ -1,0 +1,1539 @@
+{
+  "version": 0.6,
+  "generator": "TruckStopExtractDownloader/1.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "285c94dafe8c64e5a1eeb10a822e4a9a",
+    "processed_utc": "2026-10-24T20:36:03.480998+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 914015313,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 39.5346556,
+      "lon": -119.736349
+    },
+    {
+      "type": "node",
+      "id": 4354708558,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "hgv": "no",
+        "name": "Love's"
+      },
+      "lat": 39.6180558,
+      "lon": -119.2660759
+    },
+    {
+      "type": "node",
+      "id": 9276472675,
+      "tags": {
+        "highway": "services",
+        "name": "Hungry Valley Work Yard",
+        "operator": "Reno-Sparks Indian Colony",
+        "website": "https://www.rsic.org/rsic-services/public-works/"
+      },
+      "lat": 39.7084303,
+      "lon": -119.7479613
+    },
+    {
+      "type": "node",
+      "id": 11987257934,
+      "tags": {
+        "access": "private",
+        "addr:city": "Burning Man",
+        "addr:street": "9:30 & Past-Kelter",
+        "amenity": "fuel",
+        "check_date": "2026-07-13",
+        "description": "Mutant Vehicle fuel",
+        "email": "petrol@burningman.org",
+        "fuel:Gasoline": "yes",
+        "fuel:clear_diesel": "yes",
+        "fuel:diesel": "yes",
+        "fuel:dyed_diesel": "yes",
+        "fuel:propane": "yes",
+        "hgv": "yes",
+        "name": "Hell Station",
+        "official_name": "Hell Station",
+        "website": "https://burningman.org/event/preparation/black-rock-city-guide/infrastructure/brc-fuel-program"
+      },
+      "lat": 40.7981064,
+      "lon": -119.2192173
+    },
+    {
+      "type": "node",
+      "id": 12094860354,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "ONE9",
+        "check_date": "2024-08-02",
+        "hgv": "yes",
+        "name": "ONE9"
+      },
+      "lat": 39.5589652,
+      "lon": -119.4902873
+    },
+    {
+      "type": "node",
+      "id": 12197860374,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 41.0982052,
+      "lon": -114.9575737
+    },
+    {
+      "type": "node",
+      "id": 12256359707,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 41.9823434,
+      "lon": -114.6713126
+    },
+    {
+      "type": "node",
+      "id": 12302422590,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes",
+        "name": "Sinclair"
+      },
+      "lat": 41.1007267,
+      "lon": -114.956198
+    },
+    {
+      "type": "node",
+      "id": 12302426587,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 36.7829007,
+      "lon": -114.1409232
+    },
+    {
+      "type": "node",
+      "id": 12302429173,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 40.6937788,
+      "lon": -118.0563194
+    },
+    {
+      "type": "node",
+      "id": 12302490013,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 36.0427046,
+      "lon": -115.1872127
+    },
+    {
+      "type": "node",
+      "id": 12675992210,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 39.5568539,
+      "lon": -119.4917035
+    },
+    {
+      "type": "node",
+      "id": 13323550066,
+      "tags": {
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America"
+      },
+      "lat": 40.7196087,
+      "lon": -116.1075302
+    },
+    {
+      "type": "way",
+      "id": 27726749,
+      "tags": {
+        "branch": "Las Vegas",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "contact:phone": "+1 702-361-1176",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "ref": "0108",
+        "website": "https://www.ta-petro.com/location/nv/ta-las-vegas/"
+      },
+      "center": {
+        "lat": 36.04326775,
+        "lon": -115.18629835000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 220068652,
+      "tags": {
+        "branch": "North Las Vegas",
+        "brand": "Petro",
+        "brand:wikidata": "Q64051305",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Petro Stopping Centers",
+        "phone": "+1 702-632-2640",
+        "ref": "0331",
+        "website": "https://www.ta-petro.com/location/nv/petro-north-las-vegas/"
+      },
+      "center": {
+        "lat": 36.2786014,
+        "lon": -115.02615029999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 220069720,
+      "tags": {
+        "branch": "Wells",
+        "brand": "Petro",
+        "brand:wikidata": "Q64051305",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Petro Stopping Centers",
+        "phone": "+1 775-455-4305",
+        "ref": "0392",
+        "website": "https://www.ta-petro.com/location/nv/petro-wells/"
+      },
+      "center": {
+        "lat": 41.100210950000005,
+        "lon": -114.95444930000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 220070307,
+      "tags": {
+        "branch": "Wells",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 775-752-9915",
+        "ref": "365",
+        "website": "https://www.loves.com/locations/nv/wells/loves-travel-stop-wells-365"
+      },
+      "center": {
+        "lat": 41.0989703,
+        "lon": -114.96053115000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 220070308,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "hgv": "no",
+        "name": "Love's",
+        "website": "https://www.loves.com/locations/365"
+      },
+      "center": {
+        "lat": 41.0988663,
+        "lon": -114.95973635000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 220070309,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "hgv": "only",
+        "name": "Love's",
+        "website": "https://www.loves.com/locations/365"
+      },
+      "center": {
+        "lat": 41.099072449999994,
+        "lon": -114.96073545000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 220070594,
+      "tags": {
+        "alt_name": "Flying J - Wells",
+        "branch": "Wells",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.692@pilottravelcenters.com",
+        "fax": "+1 775-553-8949",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 775-241-3962",
+        "ref": "692",
+        "website": "https://locations.pilotflyingj.com/us/nv/wells/156-us-93"
+      },
+      "center": {
+        "lat": 41.09802445,
+        "lon": -114.95661795000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 220070971,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "hgv": "yes",
+        "name": "Alamo Truck Stop",
+        "source": "WC GIS",
+        "website": "https://www.thealamo.com/alamo-casino-sparks-petro/"
+      },
+      "center": {
+        "lat": 39.523477150000005,
+        "lon": -119.70795655
+      }
+    },
+    {
+      "type": "way",
+      "id": 225364452,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "check_date": "2019-11-15",
+        "hgv": "yes",
+        "name": "Pilot"
+      },
+      "center": {
+        "lat": 39.61808,
+        "lon": -119.26706995
+      }
+    },
+    {
+      "type": "way",
+      "id": 225364454,
+      "tags": {
+        "branch": "Fernley",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 775-575-2200",
+        "ref": "246",
+        "website": "https://www.loves.com/locations/nv/fernley/loves-travel-stop-fernley-246"
+      },
+      "center": {
+        "lat": 39.6179068,
+        "lon": -119.26718699999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 225364561,
+      "tags": {
+        "branch": "Fernley",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.340@pilottravelcenters.com",
+        "fax": "+1 775-575-4619",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 775-575-5115",
+        "ref": "340",
+        "website": "https://locations.pilotflyingj.com/us/nv/fernley/465-pilot-rd"
+      },
+      "center": {
+        "lat": 39.6144649,
+        "lon": -119.26637675
+      }
+    },
+    {
+      "type": "way",
+      "id": 225364564,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "hgv": "yes"
+      },
+      "center": {
+        "lat": 39.6142864,
+        "lon": -119.266253
+      }
+    },
+    {
+      "type": "way",
+      "id": 225364818,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "12501",
+        "addr:postcode": "89165",
+        "addr:state": "NV",
+        "addr:street": "Apex Great Basin Way",
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "fuel:gasoline": "yes",
+        "fuel:octane_85": "no",
+        "fuel:octane_86": "no",
+        "fuel:octane_87": "yes",
+        "fuel:octane_88": "no",
+        "fuel:octane_89": "yes",
+        "fuel:octane_90": "no",
+        "fuel:octane_91": "yes",
+        "fuel:octane_92": "no",
+        "fuel:octane_93": "no",
+        "large_vehicles": "yes",
+        "name": "Love's",
+        "opening_hours": "24/7",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+1-702-643-7398",
+        "website": "https://www.loves.com/locations/340"
+      },
+      "center": {
+        "lat": 36.38184485,
+        "lon": -114.8962095
+      }
+    },
+    {
+      "type": "way",
+      "id": 225364820,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "12501",
+        "addr:postcode": "89165",
+        "addr:state": "NV",
+        "addr:street": "Apex Great Basin Way",
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "fuel:gasoline": "no",
+        "large_vehicles": "yes",
+        "layer": "1",
+        "name": "Love's Truck Lanes"
+      },
+      "center": {
+        "lat": 36.3811064,
+        "lon": -114.89647609999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 229588524,
+      "tags": {
+        "branch": "Mill City",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 775-538-7311",
+        "ref": "0181",
+        "website": "https://www.ta-petro.com/location/nv/ta-mill-city/"
+      },
+      "center": {
+        "lat": 40.69279975,
+        "lon": -118.05660189999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 230880672,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "fuel:octane_87": "yes",
+        "fuel:octane_89": "yes",
+        "fuel:octane_91": "yes",
+        "hgv": "no",
+        "layer": "1",
+        "name": "Flying J"
+      },
+      "center": {
+        "lat": 40.960025400000006,
+        "lon": -117.74772065000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 235552556,
+      "tags": {
+        "addr:city": "Battle Mountain",
+        "addr:housenumber": "650",
+        "addr:postcode": "89820",
+        "addr:state": "NV",
+        "addr:street": "West Front Street",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 775 635 5424",
+        "ref": "966",
+        "website": "https://www.pilotflyingj.com/stores/966"
+      },
+      "center": {
+        "lat": 40.649789,
+        "lon": -116.94529875
+      }
+    },
+    {
+      "type": "way",
+      "id": 264209939,
+      "tags": {
+        "alt_name": "Pilot - West Wendover",
+        "branch": "West Wendover",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2025-04-03",
+        "email": "TravelCenter.147@pilottravelcenters.com",
+        "fax": "+1 775-296-5113",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "opening_hours": "24/7",
+        "phone": "+1 775-296-5047",
+        "ref": "147",
+        "website": "https://locations.pilotflyingj.com/us/nv/west-wendover/1200-wendover-blvd"
+      },
+      "center": {
+        "lat": 40.7399516,
+        "lon": -114.06568064999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 264209941,
+      "tags": {
+        "addr:city": "West Wendover",
+        "addr:country": "US",
+        "addr:housenumber": "1200",
+        "addr:postcode": "89883",
+        "addr:state": "NV",
+        "addr:street": "Wendover Boulevard",
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "fuel:octane_95": "yes",
+        "hgv": "no",
+        "layer": "1",
+        "name": "Pilot Travel Center",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 40.73945155,
+        "lon": -114.06646204999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 264209943,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "hgv": "yes",
+        "layer": "1",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 40.740113050000005,
+        "lon": -114.066622
+      }
+    },
+    {
+      "type": "way",
+      "id": 264215609,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "building": "yes",
+        "hgv": "yes",
+        "name": "Flying J",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 35.60971705,
+        "lon": -115.3917088
+      }
+    },
+    {
+      "type": "way",
+      "id": 264216828,
+      "tags": {
+        "branch": "Las Vegas",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "contact:phone": "+1 702-644-1600",
+        "email": "TravelCenter.341@pilottravelcenters.com",
+        "fax": "+1 702-644-8432",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "ref": "341",
+        "website": "https://locations.pilotflyingj.com/us/nv/north-las-vegas/3812-e-craig-rd"
+      },
+      "center": {
+        "lat": 36.2414424,
+        "lon": -115.09788939999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 264216829,
+      "tags": {
+        "addr:city": "North Las Vegas",
+        "addr:housenumber": "3812",
+        "addr:postcode": "89031",
+        "addr:state": "NV",
+        "addr:street": "East Craig Road",
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "fuel:gasoline": "yes",
+        "hgv": "no",
+        "large_vehicles": "discouraged",
+        "name": "Pilot",
+        "phone": "+1-702-644-1600",
+        "website": "https://locations.pilotflyingj.com/us/nv/north-las-vegas/3812-east-craig-road"
+      },
+      "center": {
+        "lat": 36.240684,
+        "lon": -115.09781525
+      }
+    },
+    {
+      "type": "way",
+      "id": 264216830,
+      "tags": {
+        "addr:city": "North Las Vegas",
+        "addr:housenumber": "3812",
+        "addr:postcode": "89031",
+        "addr:state": "NV",
+        "addr:street": "East Craig Road",
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "fuel:gasoline": "no",
+        "hgv": "yes",
+        "large_vehicles": "yes",
+        "layer": "1",
+        "name": "Pilot gas",
+        "phone": "+1-702-644-1600",
+        "website": "https://locations.pilotflyingj.com/us/nv/north-las-vegas/3812-east-craig-road"
+      },
+      "center": {
+        "lat": 36.241322,
+        "lon": -115.09779044999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 326057207,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 35.460377199999996,
+        "lon": -114.91778505000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 326057224,
+      "tags": {
+        "amenity": "fuel",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "name": "One9",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 35.78001315,
+        "lon": -115.32492890000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 357248038,
+      "tags": {
+        "branch": "Sparks",
+        "brand": "Petro",
+        "brand:wikidata": "Q64051305",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Petro Stopping Centers",
+        "phone": "+1 775-355-8888",
+        "ref": "0338",
+        "website": "https://www.ta-petro.com/location/nv/petro-sparks/"
+      },
+      "center": {
+        "lat": 39.5239604,
+        "lon": -119.70863650000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 485562217,
+      "tags": {
+        "amenity": "fuel",
+        "building:part": "roof",
+        "hgv": "yes",
+        "roof:shape": "flat",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 36.2770995,
+        "lon": -115.02613339999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 520499023,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "hgv": "yes",
+        "operator": "Flying J"
+      },
+      "center": {
+        "lat": 39.6150834,
+        "lon": -119.21592820000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 692913760,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Maverik",
+        "brand:wikidata": "Q64149010",
+        "building": "yes",
+        "fuel:diesel": "yes",
+        "fuel:octane_91": "yes",
+        "hgv": "yes",
+        "layer": "1",
+        "name": "Maverik",
+        "operator": "FJ Management"
+      },
+      "center": {
+        "lat": 39.1889535,
+        "lon": -119.75131725
+      }
+    },
+    {
+      "type": "way",
+      "id": 817915716,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "1550",
+        "addr:postcode": "89002",
+        "addr:state": "NV",
+        "addr:street": "Railroad Pass Casino Road",
+        "bin": "yes",
+        "building": "yes",
+        "caravans": "yes",
+        "email": "info@railroadpass.com",
+        "highway": "services",
+        "name": "Railroad Pass Travel Center",
+        "opening_hours": "24/7",
+        "phone": "+1 702-909-4611",
+        "shower": "yes",
+        "toilets": "yes",
+        "website": "https://railroadpasstravelcenter.com"
+      },
+      "center": {
+        "lat": 35.9714304,
+        "lon": -114.91045600000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 818872556,
+      "tags": {
+        "addr:city": "Mesquite",
+        "addr:housenumber": "1057",
+        "addr:postcode": "89027",
+        "addr:state": "NV",
+        "addr:street": "South Lower Flat Top Drive",
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "building": "roof",
+        "hgv": "no",
+        "name": "Flying J",
+        "phone": "+1-702-849-0400",
+        "website": "https://locations.pilotflyingj.com/us/nv/mesquite/1057-s.-lower-flat-top-drive"
+      },
+      "center": {
+        "lat": 36.783082300000004,
+        "lon": -114.13993549999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 818872560,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Eagles Landing Plaza"
+      },
+      "center": {
+        "lat": 36.78306105,
+        "lon": -114.1408209
+      }
+    },
+    {
+      "type": "way",
+      "id": 818873126,
+      "tags": {
+        "addr:city": "Mesquite",
+        "addr:housenumber": "1057",
+        "addr:postcode": "89027",
+        "addr:state": "NV",
+        "addr:street": "South Lower Flat Top Drive",
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "building": "roof",
+        "fixme": "Please add and verify tags:\n fuel:octane_XX; hours",
+        "fuel:diesel": "unknown",
+        "fuel:octane_85": "unknown",
+        "fuel:octane_86": "unknown",
+        "fuel:octane_87": "unknown",
+        "fuel:octane_88": "unknown",
+        "fuel:octane_89": "unknown",
+        "fuel:octane_90": "unknown",
+        "fuel:octane_91": "unknown",
+        "fuel:octane_92": "unknown",
+        "fuel:octane_93": "unknown",
+        "large_vehicles": "yes",
+        "name": "Flying J RV Lanes",
+        "opening_hours": "unknown",
+        "phone": "+1-702-849-0400",
+        "website": "https://locations.pilotflyingj.com/us/nv/mesquite/1057-s.-lower-flat-top-drive"
+      },
+      "center": {
+        "lat": 36.783534,
+        "lon": -114.14070419999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 894694500,
+      "tags": {
+        "addr:city": "Ely",
+        "addr:country": "US",
+        "addr:housenumber": "1701",
+        "addr:postcode": "89301",
+        "addr:state": "NV",
+        "addr:street": "Great Basin Boulevard",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 775-289-3520",
+        "ref": "691",
+        "website": "https://www.loves.com/locations/nv/ely/loves-travel-stop-ely-691"
+      },
+      "center": {
+        "lat": 39.24175645,
+        "lon": -114.86925209999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 894694544,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "name": "Love's"
+      },
+      "center": {
+        "lat": 39.24158345,
+        "lon": -114.86920500000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 894694545,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "fuel:midgrade": "yes",
+        "fuel:premium": "yes",
+        "fuel:regular": "yes",
+        "hgv": "no",
+        "name": "Love's"
+      },
+      "center": {
+        "lat": 39.2420808,
+        "lon": -114.86901525000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 961407744,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "12501",
+        "addr:postcode": "89165",
+        "addr:state": "NV",
+        "addr:street": "Apex Great Basin Way",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1-702-643-7398",
+        "ref": "340",
+        "website": "https://www.loves.com/locations/nv/las-vegas/loves-travel-stop-las-vegas-340"
+      },
+      "center": {
+        "lat": 36.3802971,
+        "lon": -114.89699424999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 972635196,
+      "tags": {
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "contact:phone": "+1 725-277-0932",
+        "highway": "services",
+        "name": "TA Express",
+        "official_name": "TravelCenters of America",
+        "ref": "0969",
+        "website": "https://www.ta-petro.com/location/nv/ta-express-henderson/"
+      },
+      "center": {
+        "lat": 35.9715346,
+        "lon": -114.91142390000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 1019258336,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "hgv": "yes",
+        "layer": "1",
+        "name": "Love's"
+      },
+      "center": {
+        "lat": 40.950393500000004,
+        "lon": -117.75796315000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1019258337,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "hgv": "no",
+        "layer": "1",
+        "name": "Love's"
+      },
+      "center": {
+        "lat": 40.950985,
+        "lon": -117.75765290000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1019262154,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 36.2702103,
+        "lon": -115.05369274999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1042438870,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "12501",
+        "addr:postcode": "89165",
+        "addr:state": "NV",
+        "addr:street": "Apex Great Basin Way",
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "fuel:gasoline": "yes",
+        "fuel:octane_85": "no",
+        "fuel:octane_86": "no",
+        "fuel:octane_87": "yes",
+        "fuel:octane_88": "no",
+        "fuel:octane_89": "yes",
+        "fuel:octane_90": "no",
+        "fuel:octane_91": "yes",
+        "fuel:octane_92": "no",
+        "fuel:octane_93": "no",
+        "large_vehicles": "preferred",
+        "name": "Love's RV Lanes",
+        "opening_hours": "24/7",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+1-702-643-7398",
+        "website": "https://www.loves.com/locations/340"
+      },
+      "center": {
+        "lat": 36.38174655,
+        "lon": -114.89592779999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1097824625,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 775-375-3070",
+        "ref": "797",
+        "website": "https://www.loves.com/locations/nv/winnemucca/loves-travel-stop-winnemucca-797"
+      },
+      "center": {
+        "lat": 40.95041755,
+        "lon": -117.75691174999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1098781677,
+      "tags": {
+        "addr:city": "North Las Vegas",
+        "addr:housenumber": "5450",
+        "addr:state": "NV",
+        "addr:street": "East Tropical Parkway",
+        "amenity": "fuel",
+        "brand": "Maverik",
+        "brand:wikidata": "Q64149010",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "large_vehicles": "yes",
+        "layer": "1",
+        "name": "Maverik Truck and RV"
+      },
+      "center": {
+        "lat": 36.2701753,
+        "lon": -115.05400099999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1099977426,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "building": "roof",
+        "fuel:HGV_diesel": "yes",
+        "hgv": "yes",
+        "layer": "1",
+        "name": "Flying J"
+      },
+      "center": {
+        "lat": 40.9606263,
+        "lon": -117.74769650000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1101863365,
+      "tags": {
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.770@pilottravelcenters.com",
+        "fax": "+1 775-623-0120",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 775-623-0111",
+        "ref": "770",
+        "website": "https://locations.pilotflyingj.com/us/nv/winnemucca/1880-w-winnemucca-blvd"
+      },
+      "center": {
+        "lat": 40.96039465,
+        "lon": -117.74757090000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1151336666,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 775-477-6002",
+        "ref": "857",
+        "website": "https://www.loves.com/locations/nv/tonopah/loves-travel-stop-tonopah-857"
+      },
+      "center": {
+        "lat": 38.079495550000004,
+        "lon": -117.2529295
+      }
+    },
+    {
+      "type": "way",
+      "id": 1153975087,
+      "tags": {
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.1005@pilottravelcenters.com",
+        "fax": "+1 775-835-6281",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 775-575-5919",
+        "ref": "1005",
+        "website": "https://locations.pilotflyingj.com/us/nv/fernley/480-truck-inn-way"
+      },
+      "center": {
+        "lat": 39.61508405,
+        "lon": -119.21615839999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1161850959,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Pilot Flying J",
+        "building": "roof",
+        "hgv": "no",
+        "layer": "1"
+      },
+      "center": {
+        "lat": 40.93129855,
+        "lon": -117.80392384999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1161850961,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Pilot Flying J",
+        "building": "roof",
+        "hgv": "yes",
+        "layer": "1"
+      },
+      "center": {
+        "lat": 40.9313198,
+        "lon": -117.80482925000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1172769701,
+      "tags": {
+        "brand": "ONE9",
+        "check_date": "2024-08-02",
+        "fax": "+1 775-754-6025",
+        "fuel:HGV_diesel": "yes",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "ONE9 Travel Center",
+        "phone": "+1 775-754-6384",
+        "website": "https://locations.pilotflyingj.com/us/nv/carlin/791-tenth-street"
+      },
+      "center": {
+        "lat": 40.7191396,
+        "lon": -116.10615845000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1172769715,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "ONE9",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "layer": "1",
+        "name": "ONE9",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 40.7197126,
+        "lon": -116.10579389999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1184310536,
+      "tags": {
+        "brand": "Petro",
+        "brand:wikidata": "Q64051305",
+        "contact:phone": "+1 725-305-0745",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Petro Stopping Centers",
+        "ref": "0968",
+        "website": "https://www.ta-petro.com/location/nv/petro-henderson/"
+      },
+      "center": {
+        "lat": 35.96650835,
+        "lon": -114.91616349999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1186051615,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "fuel:gasoline": "no",
+        "hgv": "yes",
+        "large_vehicles": "yes",
+        "layer": "1"
+      },
+      "center": {
+        "lat": 35.96664605,
+        "lon": -114.91583424999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1187700572,
+      "tags": {
+        "addr:city": "Tonopah",
+        "addr:country": "US",
+        "addr:housenumber": "1170",
+        "addr:postcode": "89049",
+        "addr:state": "NV",
+        "addr:street": "Grand Army of the Republic Highway;Veterans Memorial Highway",
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "fuel:octane_87": "yes",
+        "fuel:octane_89": "yes",
+        "fuel:octane_91": "yes",
+        "hgv": "no",
+        "layer": "1",
+        "name": "Love's Travel Stop",
+        "payment:cards": "yes",
+        "payment:credit_cards": "yes",
+        "payment:visa": "yes",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 38.0793712,
+        "lon": -117.25365794999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1187700573,
+      "tags": {
+        "addr:city": "Tonopah",
+        "addr:country": "US",
+        "addr:housenumber": "1170",
+        "addr:postcode": "89049",
+        "addr:state": "NV",
+        "addr:street": "Grand Army of the Republic Highway;Veterans Memorial Highway",
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "layer": "1",
+        "name": "Love's"
+      },
+      "center": {
+        "lat": 38.07972305,
+        "lon": -117.2530774
+      }
+    },
+    {
+      "type": "way",
+      "id": 1200921533,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 40.74077825,
+        "lon": -114.05631775
+      }
+    },
+    {
+      "type": "way",
+      "id": 1238500718,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 35.7801439,
+        "lon": -115.32461305000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1305899590,
+      "tags": {
+        "brand": "ONE9",
+        "check_date": "2024-08-02",
+        "fax": "+1 775-316-7005",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "ONE9 Travel Center",
+        "phone": "+1 775-316-7002",
+        "website": "https://locations.pilotflyingj.com/us/nv/mccarran/400-usa-parkway-(hwy-439)"
+      },
+      "center": {
+        "lat": 39.5590413,
+        "lon": -119.4899896
+      }
+    },
+    {
+      "type": "way",
+      "id": 1306230470,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "check_date:opening_hours": "2025-09-28",
+        "compressed_air": "yes",
+        "hgv": "no",
+        "name": "Love's",
+        "opening_hours:signed": "no"
+      },
+      "center": {
+        "lat": 41.98201,
+        "lon": -114.6724582
+      }
+    },
+    {
+      "type": "way",
+      "id": 1317987325,
+      "tags": {
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.485@pilottravelcenters.com",
+        "fax": "+1 775-625-2814",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 775-625-2800",
+        "ref": "485",
+        "website": "https://locations.pilotflyingj.com/us/nv/winnemucca/5625-w-winnemucca-blvd"
+      },
+      "center": {
+        "lat": 40.9314321,
+        "lon": -117.80525509999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 1324232254,
+      "tags": {
+        "branch": "Sparks",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 775-359-0550",
+        "ref": "0172",
+        "website": "https://www.ta-petro.com/location/nv/ta-sparks/"
+      },
+      "center": {
+        "lat": 39.534154900000004,
+        "lon": -119.73579139999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1324491649,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 775-755-2819",
+        "ref": "891",
+        "website": "https://www.loves.com/locations/nv/jackpot/loves-travel-stop-jackpot-891"
+      },
+      "center": {
+        "lat": 41.9821707,
+        "lon": -114.67132400000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1414728354,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 775-754-2020",
+        "ref": "978",
+        "website": "https://www.loves.com/locations/nv/carlin/loves-travel-stop-carlin-978"
+      },
+      "center": {
+        "lat": 40.7237256,
+        "lon": -116.10669784999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1423706389,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 36.123036049999996,
+        "lon": -115.14499005000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 1476331425,
+      "tags": {
+        "addr:city": "West Wendover",
+        "addr:housenumber": "800",
+        "addr:postcode": "89883",
+        "addr:state": "NV",
+        "addr:street": "Leppy Hills Boulevard",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America"
+      },
+      "center": {
+        "lat": 40.74250605,
+        "lon": -114.0590075
+      }
+    },
+    {
+      "type": "way",
+      "id": 1488468576,
+      "tags": {
+        "amenity": "vehicle_inspection",
+        "highway": "services",
+        "note": "Check Station"
+      },
+      "center": {
+        "lat": 35.92707,
+        "lon": -115.19482140000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1527086714,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 40.9509523,
+        "lon": -117.75959054999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1527086724,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Chevron",
+        "brand:wikidata": "Q319642",
+        "building": "roof",
+        "hgv": "yes",
+        "layer": "1",
+        "name": "Chevron"
+      },
+      "center": {
+        "lat": 40.951478699999996,
+        "lon": -117.76026000000002
+      }
+    }
+  ]
+}

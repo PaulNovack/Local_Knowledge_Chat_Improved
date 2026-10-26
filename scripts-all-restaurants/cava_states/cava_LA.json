@@ -1,0 +1,69 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "LA",
+    "brand": "cava",
+    "source": "https://download.geofabrik.de/north-america/us/louisiana-latest.osm.pbf",
+    "source_md5": "2e108953505ee82f68e2a6e7a3e4f783",
+    "processed_utc": "2026-10-24T07:05:17.318731+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5883165295,
+      "tags": {
+        "addr:city": "New Orleans",
+        "addr:housenumber": "5001",
+        "addr:postcode": "70115",
+        "addr:state": "LA",
+        "addr:street": "Freret Street",
+        "addr:unit": "Unit B",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "cuisine": "mediterranean",
+        "drive_through": "no",
+        "name": "CAVA",
+        "opening_hours": "Mo-Su 10:30-22:30",
+        "operator": "CAVA",
+        "outdoor_seating": "yes",
+        "phone": "+1 504-513-4146",
+        "takeaway": "yes",
+        "website": "https://cava.com/locations/Freret-LA"
+      },
+      "lat": 29.9350775,
+      "lon": -90.1086374
+    },
+    {
+      "type": "node",
+      "id": 12986196714,
+      "tags": {
+        "addr:city": "Baton Rouge",
+        "addr:housenumber": "18107",
+        "addr:postcode": "70810",
+        "addr:state": "LA",
+        "addr:street": "Highland Market Drive",
+        "addr:unit": "104",
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "cuisine": "mediterranean",
+        "delivery": "yes",
+        "name": "CAVA",
+        "opening_hours": "Su-Sa 10:30-22:30",
+        "phone": "+1-225-338-4462",
+        "website": "https://cava.com/locations/highland-marketplace-la"
+      },
+      "lat": 30.3491053,
+      "lon": -91.0254893
+    }
+  ]
+}

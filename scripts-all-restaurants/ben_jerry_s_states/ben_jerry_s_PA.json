@@ -1,0 +1,41 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "ben_jerry_s",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2100740222,
+      "tags": {
+        "addr:city": "Philadelphia",
+        "addr:housenumber": "218",
+        "addr:postcode": "19104",
+        "addr:state": "PA",
+        "addr:street": "South 40th Street",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's",
+        "opening_hours": "11:00-22:00",
+        "outdoor_seating": "no",
+        "phone": "+1 215-382-5092",
+        "website": "https://www.benjerry.com/upenn"
+      },
+      "lat": 39.9534919,
+      "lon": -75.2028854
+    }
+  ]
+}

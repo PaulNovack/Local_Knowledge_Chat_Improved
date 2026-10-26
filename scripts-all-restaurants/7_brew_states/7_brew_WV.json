@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WV",
+    "brand": "7_brew",
+    "source": "https://download.geofabrik.de/north-america/us/west-virginia-latest.osm.pbf",
+    "source_md5": "4f8c380a535ff9841f95eae4e1a7f84f",
+    "processed_utc": "2026-10-24T07:19:30.158292+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 343974642,
+      "tags": {
+        "addr:city": "Beckley",
+        "addr:housenumber": "4050",
+        "addr:postcode": "25801",
+        "addr:street": "Robert C. Byrd Drive",
+        "amenity": "fast_food",
+        "building": "yes",
+        "name": "7 Brew"
+      },
+      "center": {
+        "lat": 37.80750904999999,
+        "lon": -81.18465505
+      }
+    },
+    {
+      "type": "way",
+      "id": 1536275027,
+      "tags": {
+        "addr:city": "South Charleston",
+        "addr:full": "70 Maccorkle Avenue Southwest",
+        "addr:housenumber": "70",
+        "addr:postcode": "25303",
+        "addr:state": "WV",
+        "addr:street": "Maccorkle Avenue Southwest",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "7 Brew"
+      },
+      "center": {
+        "lat": 38.36334995,
+        "lon": -81.70962440000005
+      }
+    }
+  ]
+}

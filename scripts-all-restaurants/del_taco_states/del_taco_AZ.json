@@ -1,0 +1,875 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "del_taco",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3466886617,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "4760",
+        "addr:postcode": "85040",
+        "addr:state": "AZ",
+        "addr:street": "East Broadway Road",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/phoenix/4252-s-48th-st"
+      },
+      "lat": 33.4079007,
+      "lon": -111.9788064
+    },
+    {
+      "type": "node",
+      "id": 4700531718,
+      "tags": {
+        "addr:city": "Yuma",
+        "addr:postcode": "85365",
+        "addr:state": "AZ",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/yuma/8069-e-32nd-street"
+      },
+      "lat": 32.6698614,
+      "lon": -114.4947293
+    },
+    {
+      "type": "node",
+      "id": 5775840951,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "cuisine": "mexican",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/lake-havasu/81-london-bridge-rd",
+        "wheelchair": "yes"
+      },
+      "lat": 34.4747894,
+      "lon": -114.34783
+    },
+    {
+      "type": "node",
+      "id": 8551471544,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/mesa/1313-so-power-rd"
+      },
+      "lat": 33.3919605,
+      "lon": -111.684202
+    },
+    {
+      "type": "node",
+      "id": 10949139766,
+      "tags": {
+        "addr:city": "Chandler",
+        "addr:housenumber": "1900",
+        "addr:postcode": "85224",
+        "addr:state": "AZ",
+        "addr:street": "West Ray Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "capacity": "70",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "opening_hours": "Mo-Th 07:00-02:00; Fr 07:00-03:00; Sa 08:00-03:00; Su 08:00-02:00",
+        "outdoor_seating": "yes",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+1-480-917-4821",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/chandler/1900-west-ray-rd"
+      },
+      "lat": 33.3210995,
+      "lon": -111.8741001
+    },
+    {
+      "type": "node",
+      "id": 13686557704,
+      "tags": {
+        "addr:city": "Chandler",
+        "addr:housenumber": "1035",
+        "addr:postcode": "85286",
+        "addr:state": "AZ",
+        "addr:street": "South Arizona Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "check_date": "2026-08-21",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "outdoor_seating": "yes",
+        "panoramax": "8d50b09b-926d-4225-baa3-e25892302c02",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cards": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:discover_card": "yes",
+        "phone": "+1 480 855-7141",
+        "ref": "1128",
+        "smoking": "no",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://locations.deltaco.com/us/az/chandler/1035-s-arizona-avenue"
+      },
+      "lat": 33.2909682,
+      "lon": -111.8397225
+    },
+    {
+      "type": "way",
+      "id": 32023046,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "840",
+        "addr:state": "AZ",
+        "addr:street": "East Broadway Boulevard",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "name:ar": "دل تاكو",
+        "name:he": "דל טאקו",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/tucson/840-e-broadway-blvd"
+      },
+      "center": {
+        "lat": 32.2209272,
+        "lon": -110.95875375000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 113472252,
+      "tags": {
+        "addr:city": "Flagstaff",
+        "addr:housenumber": "2201",
+        "addr:postcode": "86001",
+        "addr:state": "AZ",
+        "addr:street": "South Milton Road",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "restaurant",
+        "contact:phone": "+1-928-226-9186",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "layer": "2",
+        "name": "Del Taco",
+        "opening_hours": "24/7",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/flagstaff/2201-s-milton-rd",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 35.178079,
+        "lon": -111.661786
+      }
+    },
+    {
+      "type": "way",
+      "id": 136807599,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "1628",
+        "addr:postcode": "85008",
+        "addr:state": "AZ",
+        "addr:street": "North 44th Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/phoenix/1628-n-44th-st"
+      },
+      "center": {
+        "lat": 33.466669499999995,
+        "lon": -111.98775384999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 152725697,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "7665",
+        "addr:postcode": "85043",
+        "addr:state": "AZ",
+        "addr:street": "West Lower Buckeye Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/phoenix/7665-w-lower-buckeye-rd"
+      },
+      "center": {
+        "lat": 33.4225084,
+        "lon": -112.22504249999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 152873289,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "4101",
+        "addr:postcode": "85033",
+        "addr:state": "AZ",
+        "addr:street": "North 67th Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.495143049999996,
+        "lon": -112.20280539999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 168946964,
+      "tags": {
+        "addr:city": "Kingman",
+        "addr:housenumber": "3390",
+        "addr:postcode": "86409",
+        "addr:state": "AZ",
+        "addr:street": "Stockton Hill Road",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "retail",
+        "cuisine": "mexican",
+        "diet:meat": "yes",
+        "diet:vegan": "yes",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "opening_hours": "Mo-Su 06:00-02:00",
+        "phone": "+1-928-681-3412",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/kingman/3390-n-stockton-hill-rd"
+      },
+      "center": {
+        "lat": 35.222032,
+        "lon": -114.03555334999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 183803063,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/yuma/1830-e-16th-str"
+      },
+      "center": {
+        "lat": 32.699039150000004,
+        "lon": -114.60163439999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 203922289,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "4926",
+        "addr:postcode": "85048",
+        "addr:state": "AZ",
+        "addr:street": "East Chandler Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/phoenix/4926-e-chandler-blvd"
+      },
+      "center": {
+        "lat": 33.30580205,
+        "lon": -111.97721424999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 211707770,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1842",
+        "addr:postcode": "85209",
+        "addr:state": "AZ",
+        "addr:street": "South Signal Butte Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "phone": "+1 480 986 1766",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/mesa/1842-south-signal-butte-road"
+      },
+      "center": {
+        "lat": 33.3814615,
+        "lon": -111.601385
+      }
+    },
+    {
+      "type": "way",
+      "id": 230614644,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "9171",
+        "addr:postcode": "85345",
+        "addr:state": "AZ",
+        "addr:street": "West Peoria Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/peoria/9171-w-peoria-ave"
+      },
+      "center": {
+        "lat": 33.580406800000006,
+        "lon": -112.2566094
+      }
+    },
+    {
+      "type": "way",
+      "id": 256801114,
+      "tags": {
+        "addr:city": "Chandler",
+        "addr:housenumber": "2510",
+        "addr:postcode": "85286",
+        "addr:state": "AZ",
+        "addr:street": "East Germann Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/chandler/2510-e-germann-road"
+      },
+      "center": {
+        "lat": 33.28026635,
+        "lon": -111.79799155
+      }
+    },
+    {
+      "type": "way",
+      "id": 323594086,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/flagstaff/4705-n-us-highway-89"
+      },
+      "center": {
+        "lat": 35.2249025,
+        "lon": -111.58312690000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 342264956,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "3449",
+        "addr:postcode": "85053",
+        "addr:state": "AZ",
+        "addr:street": "West Greenway Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/phoenix/15229-n-35th-ave"
+      },
+      "center": {
+        "lat": 33.62463445,
+        "lon": -112.13294840000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 356882133,
+      "tags": {
+        "addr:city": "Surprise",
+        "addr:housenumber": "13367",
+        "addr:postcode": "85374",
+        "addr:state": "AZ",
+        "addr:street": "West Grand Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "opening_hours": "Su-Th 07:00-01:00; Fr-Sa 07:00-02:00",
+        "phone": "+1-623-556-2096",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/surprise/13367-w-grand-ave"
+      },
+      "center": {
+        "lat": 33.6371527,
+        "lon": -112.34920634999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 437309160,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "1901",
+        "addr:postcode": "85021",
+        "addr:state": "AZ",
+        "addr:street": "West Northern Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/phoenix/1901-w-northern-ave"
+      },
+      "center": {
+        "lat": 33.5528615,
+        "lon": -112.10009079999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 448707660,
+      "tags": {
+        "addr:city": "Glendale",
+        "addr:housenumber": "9672",
+        "addr:postcode": "85305",
+        "addr:state": "AZ",
+        "addr:street": "West Camelback Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "check_date": "2022-12-19",
+        "cuisine": "mexican",
+        "delivery": "no",
+        "drive_through": "yes",
+        "internet_access": "no",
+        "name": "Del Taco",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "smoking": "no",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/glendale/9672-west-camelback-rd",
+        "wheelchair": "limited"
+      },
+      "center": {
+        "lat": 33.5089543,
+        "lon": -112.26539880000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 506417834,
+      "tags": {
+        "addr:city": "Avondale",
+        "addr:housenumber": "1483",
+        "addr:postcode": "85323",
+        "addr:state": "AZ",
+        "addr:street": "North Dysart Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/avondale/1483-n-dysart-rd"
+      },
+      "center": {
+        "lat": 33.45439435,
+        "lon": -112.34042010000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 511632245,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1864",
+        "addr:postcode": "85210",
+        "addr:state": "AZ",
+        "addr:street": "South Country Club Drive",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/mesa/1864-s-country-club-dr"
+      },
+      "center": {
+        "lat": 33.380812750000004,
+        "lon": -111.84068105
+      }
+    },
+    {
+      "type": "way",
+      "id": 544429921,
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:housenumber": "900",
+        "addr:postcode": "85296",
+        "addr:state": "AZ",
+        "addr:street": "South Val Vista Drive",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/gilbert/900-s-val-vista-dr"
+      },
+      "center": {
+        "lat": 33.333816549999995,
+        "lon": -111.75621050000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 558677409,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "2645",
+        "addr:postcode": "85215",
+        "addr:state": "AZ",
+        "addr:street": "North Power Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/mesa/2645-north-power-road"
+      },
+      "center": {
+        "lat": 33.4638467,
+        "lon": -111.68339445000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 562081253,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "3648",
+        "addr:postcode": "85206",
+        "addr:state": "AZ",
+        "addr:street": "East Southern Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/mesa/3648-e-southern-ave"
+      },
+      "center": {
+        "lat": 33.39415275,
+        "lon": -111.75150300000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 563495947,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "1530",
+        "addr:postcode": "85745",
+        "addr:state": "AZ",
+        "addr:street": "West Grant Road",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.25103115,
+        "lon": -110.9994891
+      }
+    },
+    {
+      "type": "way",
+      "id": 838018545,
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:housenumber": "5216",
+        "addr:postcode": "85234",
+        "addr:state": "AZ",
+        "addr:street": "East Baseline Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/gilbert/5216-east-baseline-road"
+      },
+      "center": {
+        "lat": 33.37974415,
+        "lon": -111.72050645000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 853016850,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/queen-creek/20485-e-rittenhouse-road"
+      },
+      "center": {
+        "lat": 33.259769250000005,
+        "lon": -111.64172065000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 879993878,
+      "tags": {
+        "addr:city": "Glendale",
+        "addr:country": "US",
+        "addr:housenumber": "19880",
+        "addr:postcode": "85308",
+        "addr:state": "AZ",
+        "addr:street": "North 59th Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/glendale/19880-n-59th-ave"
+      },
+      "center": {
+        "lat": 33.666374649999995,
+        "lon": -112.1871587
+      }
+    },
+    {
+      "type": "way",
+      "id": 990985961,
+      "tags": {
+        "addr:city": "Goodyear",
+        "addr:housenumber": "1901",
+        "addr:postcode": "85395",
+        "addr:state": "AZ",
+        "addr:street": "North Pebble Creek Parkway",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/goodyear/1901-north-pebble-creek-parkway"
+      },
+      "center": {
+        "lat": 33.467652,
+        "lon": -112.39182549999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1119119379,
+      "tags": {
+        "addr:city": "Yuma",
+        "addr:housenumber": "2451",
+        "addr:postcode": "85364",
+        "addr:state": "AZ",
+        "addr:street": "South Avenue B",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "source": "microsoft/BuildingFootprints;Bing;esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/yuma/2451-south-avenue-b"
+      },
+      "center": {
+        "lat": 32.6825389,
+        "lon": -114.6499273
+      }
+    },
+    {
+      "type": "way",
+      "id": 1254491576,
+      "tags": {
+        "addr:city": "Tempe",
+        "addr:housenumber": "1331",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "North Scottsdale Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/az/tempe/1331-n-scottsdale-rd"
+      },
+      "center": {
+        "lat": 33.443803849999995,
+        "lon": -111.92617689999997
+      }
+    }
+  ]
+}

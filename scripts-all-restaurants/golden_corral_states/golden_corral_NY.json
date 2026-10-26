@@ -1,0 +1,96 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "golden_corral",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5320363693,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral"
+      },
+      "lat": 41.4549766,
+      "lon": -74.3908273
+    },
+    {
+      "type": "way",
+      "id": 125953690,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:housenumber": "450",
+        "addr:postcode": "14623",
+        "addr:state": "NY",
+        "addr:street": "Jefferson Road",
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "yes",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral",
+        "nysgissam:nysaddresspointid": "MONR233298"
+      },
+      "center": {
+        "lat": 43.089692799999995,
+        "lon": -77.6398077
+      }
+    },
+    {
+      "type": "way",
+      "id": 298966682,
+      "tags": {
+        "addr:city": "Queensbury",
+        "addr:housenumber": "75",
+        "addr:postcode": "12804",
+        "addr:state": "NY",
+        "addr:street": "Quaker Road",
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "yes",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral",
+        "nysgissam:nysaddresspointid": "WARR021914",
+        "phone": "+1 518 636 3300",
+        "website": "https://www.goldencorral.com/"
+      },
+      "center": {
+        "lat": 43.3320418,
+        "lon": -73.66698860000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 672488410,
+      "tags": {
+        "addr:housenumber": "115",
+        "addr:street": "Simon Drive",
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "yes",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral"
+      },
+      "center": {
+        "lat": 43.0572284,
+        "lon": -76.10227044999999
+      }
+    }
+  ]
+}

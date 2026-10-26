@@ -1,0 +1,83 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "the_original_pancake_house",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7705317009,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House"
+      },
+      "lat": 42.9620465,
+      "lon": -78.7486689
+    },
+    {
+      "type": "way",
+      "id": 639212948,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:housenumber": "2075",
+        "addr:postcode": "14228",
+        "addr:state": "NY",
+        "addr:street": "Niagara Falls Boulevard",
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House",
+        "nysgissam:nysaddresspointid": "ERIE186696",
+        "phone": "+1 716 691 8219",
+        "website": "https://ophwny.com"
+      },
+      "center": {
+        "lat": 43.0110107,
+        "lon": -78.82167770000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1245919288,
+      "tags": {
+        "addr:city": "Orchard Park",
+        "addr:housenumber": "3019",
+        "addr:postcode": "14127",
+        "addr:state": "NY",
+        "addr:street": "Union Road",
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House",
+        "nysgissam:nysaddresspointid": "ERIE010070",
+        "opening_hours": "07:00-14:00",
+        "phone": "+1-716-674-3344",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://ophwny.com/"
+      },
+      "center": {
+        "lat": 42.80305985,
+        "lon": -78.75104439999996
+      }
+    }
+  ]
+}

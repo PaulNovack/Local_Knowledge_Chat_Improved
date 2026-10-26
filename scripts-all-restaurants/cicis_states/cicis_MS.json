@@ -1,0 +1,45 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "cicis",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7606880903,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cici's Pizza",
+        "brand:wikidata": "Q2972189",
+        "cuisine": "pizza;buffet",
+        "name": "Cici's Pizza"
+      },
+      "lat": 34.9613754,
+      "lon": -89.9716673
+    },
+    {
+      "type": "node",
+      "id": 12616464418,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cicis",
+        "brand:wikidata": "Q2972189",
+        "cuisine": "pizza;buffet",
+        "name": "Cicis"
+      },
+      "lat": 32.3400981,
+      "lon": -90.0658156
+    }
+  ]
+}

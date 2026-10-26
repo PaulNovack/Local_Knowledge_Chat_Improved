@@ -1,0 +1,66 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "bertucci_s",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 506857414,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bertucci's",
+        "brand:wikidata": "Q4895917",
+        "cuisine": "pizza;italian",
+        "name": "Max a Mia"
+      },
+      "lat": 41.8168012,
+      "lon": -72.8630661
+    },
+    {
+      "type": "node",
+      "id": 4559438092,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bertucci's",
+        "brand:wikidata": "Q4895917",
+        "cuisine": "pizza;italian",
+        "name": "Bertucci's"
+      },
+      "lat": 41.0905191,
+      "lon": -73.4548961
+    },
+    {
+      "type": "way",
+      "id": 544945745,
+      "tags": {
+        "addr:city": "Newington",
+        "addr:housenumber": "2929",
+        "addr:postcode": "06111",
+        "addr:state": "CT",
+        "addr:street": "Berlin Turnpike",
+        "amenity": "restaurant",
+        "brand": "Bertucci's",
+        "brand:wikidata": "Q4895917",
+        "building": "yes",
+        "cuisine": "pizza;italian",
+        "name": "Bertucci's"
+      },
+      "center": {
+        "lat": 41.6696451,
+        "lon": -72.71872359999998
+      }
+    }
+  ]
+}

@@ -1,0 +1,811 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "applebee_s",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4049484305,
+      "tags": {
+        "addr:state": "IL",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 618-235-4577",
+        "website": "https://restaurants.applebees.com/en-us/il/swansea/2624-n.-illinois-street-81015",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=81015&action=viewmenu"
+      },
+      "lat": 38.542208,
+      "lon": -89.9831472
+    },
+    {
+      "type": "node",
+      "id": 6618127260,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "2554",
+        "addr:postcode": "62703",
+        "addr:state": "IL",
+        "addr:street": "Sunrise Drive",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "cuisine": "american",
+        "delivery": "yes",
+        "delivery:partner": "DoorDash",
+        "delivery:partner:wikidata": "Q20714323",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "phone": "+1-217-528-7021",
+        "source:name": "local_knowledge",
+        "website": "https://restaurants.applebees.com/en-us/il/springfield/2554-sunrise-drive-98034",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=98034&action=viewmenu"
+      },
+      "lat": 39.768649,
+      "lon": -89.6083363
+    },
+    {
+      "type": "node",
+      "id": 12398887071,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 309-353-3988",
+        "website": "https://restaurants.applebees.com/en-us/il/pekin/3540-court-street-93008",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=93008&action=viewmenu"
+      },
+      "lat": 40.5413267,
+      "lon": -89.5962026
+    },
+    {
+      "type": "node",
+      "id": 12451405863,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 618-526-2220",
+        "website": "https://restaurants.applebees.com/en-us/il/breese/13975-progress-drive-78083",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=78083&action=viewmenu"
+      },
+      "lat": 38.6248115,
+      "lon": -89.5268228
+    },
+    {
+      "type": "way",
+      "id": 93478704,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 815-936-0571",
+        "website": "https://restaurants.applebees.com/en-us/il/bradley/1040-n.-kinzie-ave.-90067",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=90067&action=viewmenu"
+      },
+      "center": {
+        "lat": 41.15984215,
+        "lon": -87.85024190000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 142439037,
+      "tags": {
+        "addr:housenumber": "2795",
+        "addr:street": "Plainfield Road",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 815-254-9070",
+        "website": "https://restaurants.applebees.com/en-us/il/joliet/2795-plainfield-road-91058",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=91058&action=viewmenu"
+      },
+      "center": {
+        "lat": 41.57662225,
+        "lon": -88.15673450000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 163263410,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "6656",
+        "addr:postcode": "60707",
+        "addr:state": "IL",
+        "addr:street": "West Grand Avenue",
+        "addr:street:name": "Grand",
+        "addr:street:prefix": "West",
+        "addr:street:type": "Avenue",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "retail",
+        "building:levels": "1",
+        "chicago:building_id": "267317",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 773-836-7696",
+        "website": "https://restaurants.applebees.com/en-us/il/chicago/6656-w.-grand-avenue-93034",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=93034&action=viewmenu"
+      },
+      "center": {
+        "lat": 41.92402405,
+        "lon": -87.79238874999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 182478565,
+      "tags": {
+        "addr:city": "Galesburg",
+        "addr:housenumber": "1966",
+        "addr:postcode": "61401",
+        "addr:state": "IL",
+        "addr:street": "North Henderson Street",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 309-344-7325",
+        "website": "https://restaurants.applebees.com/en-us/il/galesburg/1966-north-henderson-street-87089",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=87089&action=viewmenu"
+      },
+      "center": {
+        "lat": 40.9718688,
+        "lon": -90.38365514999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 197806315,
+      "tags": {
+        "addr:housenumber": "4300",
+        "addr:postcode": "62269",
+        "addr:state": "IL",
+        "addr:street": "Greenmount Crossing Drive",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 618-632-6210",
+        "website": "https://restaurants.applebees.com/en-us/il/shiloh/4300-green-mount-crossing-drive-81025",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=81025&action=viewmenu"
+      },
+      "center": {
+        "lat": 38.571829949999994,
+        "lon": -89.92841440000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 231274966,
+      "tags": {
+        "addr:city": "Rockford",
+        "addr:housenumber": "1675",
+        "addr:postcode": "61114",
+        "addr:state": "IL",
+        "addr:street": "East Riverside Boulevard",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "yes",
+        "changing_table": "yes",
+        "cuisine": "american",
+        "level": "1",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1-815-654-8339",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "https://restaurants.applebees.com/en-us/il/rockford/1675-e-riverside-blvd-91066",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=91066&action=viewmenu",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 42.317720800000004,
+        "lon": -89.02984935
+      }
+    },
+    {
+      "type": "way",
+      "id": 233264841,
+      "tags": {
+        "addr:state": "IL",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar"
+      },
+      "center": {
+        "lat": 39.91810785,
+        "lon": -88.95630290000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 239093397,
+      "tags": {
+        "addr:city": "Granite City",
+        "addr:housenumber": "3551",
+        "addr:postcode": "62040",
+        "addr:state": "IL",
+        "addr:street": "Nameoki Road",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 618-798-9780",
+        "website": "https://restaurants.applebees.com/en-us/il/granite-city/3551-nameoki-rd.-81030",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=81030&action=viewmenu"
+      },
+      "center": {
+        "lat": 38.72665095,
+        "lon": -90.12381515000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 292657726,
+      "tags": {
+        "addr:city": "Carbondale",
+        "addr:housenumber": "1125",
+        "addr:postcode": "62901",
+        "addr:state": "IL",
+        "addr:street": "East Main Street",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 618 529 5715"
+      },
+      "center": {
+        "lat": 37.72785785000001,
+        "lon": -89.19781750000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 349638316,
+      "tags": {
+        "addr:city": "Marion",
+        "addr:housenumber": "2712",
+        "addr:postcode": "62959",
+        "addr:state": "IL",
+        "addr:street": "West Deyoung Street",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "opening_hours": "Mo-Th 11:00-24:00; Fr-Sa 11:00-01:00; Su 11:00+",
+        "phone": "+1-618-997-9436",
+        "takeaway": "yes",
+        "website": "https://restaurants.applebees.com/en-us/il/marion/2712-w.-deyoung-st.-81093",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=81093&action=viewmenu"
+      },
+      "center": {
+        "lat": 37.7434803,
+        "lon": -88.96836735
+      }
+    },
+    {
+      "type": "way",
+      "id": 436592631,
+      "tags": {
+        "addr:city": "Moline",
+        "addr:state": "IL",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 309-797-9232",
+        "website": "https://restaurants.applebees.com/en-us/il/moline/3805-41st-avenue-91089",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=91089&action=viewmenu"
+      },
+      "center": {
+        "lat": 41.470920250000006,
+        "lon": -90.48436575
+      }
+    },
+    {
+      "type": "way",
+      "id": 492429416,
+      "tags": {
+        "addr:state": "IL",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 618-504-8400",
+        "website": "https://restaurants.applebees.com/en-us/il/waterloo/923-n-illinois-rt.-3-81029",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=81029&action=viewmenu"
+      },
+      "center": {
+        "lat": 38.3584786,
+        "lon": -90.1544288
+      }
+    },
+    {
+      "type": "way",
+      "id": 519425206,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 847-697-4897",
+        "website": "https://restaurants.applebees.com/en-us/il/elgin/125-south-randall-road-91022",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=91022&action=viewmenu"
+      },
+      "center": {
+        "lat": 42.029168049999996,
+        "lon": -88.33752815000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 541647617,
+      "tags": {
+        "addr:city": "Freeport",
+        "addr:postcode": "61032",
+        "addr:state": "IL",
+        "addr:street": "South West Avenue",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 815-233-1815",
+        "website": "https://restaurants.applebees.com/en-us/il/freeport/1802-s.-west-street-91070",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=91070&action=viewmenu"
+      },
+      "center": {
+        "lat": 42.2759972,
+        "lon": -89.632138
+      }
+    },
+    {
+      "type": "way",
+      "id": 544920903,
+      "tags": {
+        "addr:city": "Glen Carbon",
+        "addr:housenumber": "3600",
+        "addr:postcode": "62034",
+        "addr:state": "IL",
+        "addr:street": "South State Route 159",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "phone": "+1-618-205-8550",
+        "roof:levels": "0",
+        "website": "https://restaurants.applebees.com/en-us/il/glen-carbon/3600-s-state-route-159-81013",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=81013&action=viewmenu"
+      },
+      "center": {
+        "lat": 38.77694025,
+        "lon": -89.95464470000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 553888330,
+      "tags": {
+        "addr:city": "Alton",
+        "addr:housenumber": "319",
+        "addr:postcode": "62002",
+        "addr:state": "IL",
+        "addr:street": "Homer M Adams Parkway",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 618-462-6575",
+        "website": "https://restaurants.applebees.com/en-us/il/alton/319-homer-adams-pkwy-81023",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=81023&action=viewmenu"
+      },
+      "center": {
+        "lat": 38.91901815,
+        "lon": -90.17024064999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 554941197,
+      "tags": {
+        "addr:city": "Hodgkins",
+        "addr:housenumber": "6247",
+        "addr:postcode": "60525",
+        "addr:state": "IL",
+        "addr:street": "Joliet Road",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 708-387-7350",
+        "website": "https://restaurants.applebees.com/en-us/il/hodgkins/9380-joliet-road-88038",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=88038&action=viewmenu"
+      },
+      "center": {
+        "lat": 41.7804838,
+        "lon": -87.86276929999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 565082504,
+      "tags": {
+        "addr:city": "Savoy",
+        "addr:housenumber": "1201",
+        "addr:postcode": "61874",
+        "addr:state": "IL",
+        "addr:street": "North Dunlap Avenue",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "retail",
+        "check_date": "2026-06-12",
+        "cuisine": "american",
+        "delivery": "yes",
+        "diet:pescetarian": "yes",
+        "diet:vegan": "no",
+        "diet:vegetarian": "no",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "outdoor_seating": "no",
+        "phone": "+1-217-359-1894",
+        "takeaway": "yes",
+        "website": "https://restaurants.applebees.com/en-us/il/savoy/1201-n-dunlap-ave-75024",
+        "website:menu": "https://www.applebees.com/en/menu"
+      },
+      "center": {
+        "lat": 40.0696101,
+        "lon": -88.24977724999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 567144520,
+      "tags": {
+        "addr:city": "Jacksonville",
+        "addr:postcode": "62650",
+        "addr:state": "IL",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 217-243-3654",
+        "website": "https://restaurants.applebees.com/en-us/il/jacksonville/1721-w-morton-ave-75051",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=75051&action=viewmenu"
+      },
+      "center": {
+        "lat": 39.72264265,
+        "lon": -90.26068450000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 643279470,
+      "tags": {
+        "addr:city": "Quincy",
+        "addr:housenumber": "3827",
+        "addr:postcode": "62301",
+        "addr:state": "IL",
+        "addr:street": "Broadway Street",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 217-228-8451",
+        "website": "https://restaurants.applebees.com/en-us/il/quincy/3827-broadway-91016",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=91016&action=viewmenu"
+      },
+      "center": {
+        "lat": 39.935601000000005,
+        "lon": -91.35396775000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 706448031,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 618-548-9601",
+        "website": "https://restaurants.applebees.com/en-us/il/salem/117-woods-lane-81017",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=81017&action=viewmenu"
+      },
+      "center": {
+        "lat": 38.624629049999996,
+        "lon": -88.97492275000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 708335611,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 309-663-2134",
+        "website": "https://restaurants.applebees.com/en-us/il/bloomington/502-n-veterans-parkway-89031",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=89031&action=viewmenu"
+      },
+      "center": {
+        "lat": 40.48449255,
+        "lon": -88.95358190000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1013950559,
+      "tags": {
+        "addr:city": "Wood River",
+        "addr:housenumber": "1921",
+        "addr:postcode": "62095",
+        "addr:state": "IL",
+        "addr:street": "Vaughn Road",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1-618-258-1501",
+        "website": "https://restaurants.applebees.com/en-us/il/wood-river/1921-vaughn-road-80098",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=80098&action=viewmenu"
+      },
+      "center": {
+        "lat": 38.8686613,
+        "lon": -90.06484739999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1201589491,
+      "tags": {
+        "amenity": "restaurant",
+        "branch": "Vermilion St.",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 217-446-4182",
+        "website": "https://restaurants.applebees.com/en-us/il/danville/3569-n.-vermilion-st.-78073",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=78073&action=viewmenu"
+      },
+      "center": {
+        "lat": 40.1809321,
+        "lon": -87.62919235000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1246966198,
+      "tags": {
+        "addr:city": "Crestwood",
+        "addr:housenumber": "4937",
+        "addr:postcode": "60445",
+        "addr:state": "IL",
+        "addr:street": "Cal Sag Road",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 708-389-9085",
+        "website": "https://restaurants.applebees.com/en-us/il/crestwood/4937-cal-sag-road-90044",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=90044&action=viewmenu"
+      },
+      "center": {
+        "lat": 41.65489075,
+        "lon": -87.74218710000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1335595775,
+      "tags": {
+        "addr:city": "Collinsville",
+        "addr:housenumber": "610",
+        "addr:postcode": "62234",
+        "addr:state": "IL",
+        "addr:street": "North Bluff Road",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 618-345-6840",
+        "website": "https://restaurants.applebees.com/en-us/il/collinsville/610-n.-bluff-road-81010",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=81010&action=viewmenu"
+      },
+      "center": {
+        "lat": 38.68588865,
+        "lon": -90.0093966
+      }
+    },
+    {
+      "type": "way",
+      "id": 1344631923,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 815-544-0136",
+        "website": "https://restaurants.applebees.com/en-us/il/belvidere/2126-gateway-center-75072",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=75072&action=viewmenu"
+      },
+      "center": {
+        "lat": 42.24042555,
+        "lon": -88.8184915
+      }
+    },
+    {
+      "type": "way",
+      "id": 1467922140,
+      "tags": {
+        "addr:city": "Benton",
+        "addr:state": "IL",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 37.9984537,
+        "lon": -88.93756874999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1535455992,
+      "tags": {
+        "addr:city": "Peru",
+        "addr:housenumber": "1507",
+        "addr:postcode": "31354",
+        "addr:state": "IL",
+        "addr:street": "36th Street",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar"
+      },
+      "center": {
+        "lat": 41.354226100000005,
+        "lon": -89.1262213
+      }
+    },
+    {
+      "type": "way",
+      "id": 1536577372,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "yes",
+        "check_date": "2026-06-01",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1-618-244-7510",
+        "website": "https://restaurants.applebees.com/en-us/il/mount-vernon/105-potomac-boulevard-81089",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=81089&action=viewmenu"
+      },
+      "center": {
+        "lat": 38.31429835,
+        "lon": -88.95717594999996
+      }
+    }
+  ]
+}

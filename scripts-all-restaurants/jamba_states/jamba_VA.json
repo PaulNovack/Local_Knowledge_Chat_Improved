@@ -1,0 +1,98 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "jamba",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4213244533,
+      "tags": {
+        "addr:city": "Blacksburg",
+        "addr:country": "US",
+        "addr:housenumber": "430",
+        "addr:postcode": "24061-0712",
+        "addr:state": "VA",
+        "addr:street": "Old Turner Street",
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "branch": "Virginia Tech",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "cuisine": "juice",
+        "name": "Jamba",
+        "opening_hours": "Mo-Th 07:30-20:00; Fr 07:30-15:00",
+        "operator": "Virginia Tech Dining Services",
+        "phone": "+1-540-231-8203",
+        "takeaway": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://locations.jamba.com/va/blacksburg/jamba-virginia-tech",
+        "wheelchair": "yes"
+      },
+      "lat": 37.2311741,
+      "lon": -80.4227825
+    },
+    {
+      "type": "node",
+      "id": 4970511171,
+      "tags": {
+        "addr:city": "Norfolk",
+        "addr:housenumber": "1600",
+        "addr:postcode": "23502",
+        "addr:state": "VA",
+        "addr:street": "Premium Outlets Boulevard",
+        "addr:unit": "606",
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "branch": "Norfolk Premium Outlets",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "cuisine": "juice",
+        "drive_through": "no",
+        "name": "Jamba",
+        "opening_hours": "Mo-Th 10:00-19:30; Fr-Sa 10:00-20:30; Su 11:00-18:30",
+        "phone": "+1-757-966-1451",
+        "takeaway": "yes",
+        "website": "https://locations.jamba.com/va/norfolk/1600-premium-outlets-blvd"
+      },
+      "lat": 36.8817303,
+      "lon": -76.1991637
+    },
+    {
+      "type": "node",
+      "id": 12050368557,
+      "tags": {
+        "addr:city": "Tysons",
+        "addr:housenumber": "1961",
+        "addr:postcode": "22102",
+        "addr:state": "VA",
+        "addr:street": "Chains Bridge Road",
+        "addr:unit": "KSK12U",
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "branch": "Tyson's Corner Center",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "cuisine": "juice",
+        "name": "Jamba",
+        "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-19:00",
+        "phone": "+1 571-424-7553",
+        "takeaway": "yes",
+        "website": "https://locations.jamba.com/va/tysons/1961-chains-bridge-rd"
+      },
+      "lat": 38.9176466,
+      "lon": -77.2219154
+    }
+  ]
+}

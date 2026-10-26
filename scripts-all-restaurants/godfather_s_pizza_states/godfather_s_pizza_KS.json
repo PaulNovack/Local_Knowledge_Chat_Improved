@@ -1,0 +1,80 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "godfather_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1458456180,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza"
+      },
+      "lat": 39.8284439,
+      "lon": -100.5334173
+    },
+    {
+      "type": "node",
+      "id": 8218623144,
+      "tags": {
+        "addr:city": "Topeka",
+        "addr:housenumber": "5300",
+        "addr:postcode": "66604",
+        "addr:state": "KS",
+        "addr:street": "Southwest 17th Street",
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Godfather's Pizza",
+        "phone": "+1-785-273-0313",
+        "source": "esri_USDOT_Kansas",
+        "takeaway": "yes"
+      },
+      "lat": 39.0377567,
+      "lon": -95.7448042
+    },
+    {
+      "type": "node",
+      "id": 9469799784,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza Express"
+      },
+      "lat": 38.0011682,
+      "lon": -100.9961695
+    },
+    {
+      "type": "node",
+      "id": 11595340876,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza",
+        "takeaway": "only"
+      },
+      "lat": 39.0194701,
+      "lon": -95.5088546
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "buffalo_wild_wings",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T07:20:37.151586+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4177355289,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3",
+        "wheelchair": "yes"
+      },
+      "lat": 38.8758657,
+      "lon": -77.0072425
+    },
+    {
+      "type": "node",
+      "id": 14065460811,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3"
+      },
+      "lat": 38.9205079,
+      "lon": -76.9953115
+    }
+  ]
+}

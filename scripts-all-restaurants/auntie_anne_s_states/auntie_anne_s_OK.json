@@ -1,0 +1,117 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "auntie_anne_s",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11251630776,
+      "tags": {
+        "addr:city": "Oklahoma City",
+        "addr:housenumber": "7624",
+        "addr:postcode": "73127",
+        "addr:state": "OK",
+        "addr:street": "West Reno Avenue",
+        "addr:unit": "D482",
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "name": "Auntie Anne's",
+        "phone": "+1 405 896 0869",
+        "takeaway": "yes"
+      },
+      "lat": 35.4622016,
+      "lon": -97.6485278
+    },
+    {
+      "type": "node",
+      "id": 11282099664,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "no",
+        "internet_access": "wlan",
+        "name": "Marco's Pizza",
+        "phone": "+1-405-603-4330",
+        "survey:date": "2023-10-22",
+        "takeaway": "yes",
+        "website": "https://www.marcos.com/",
+        "wheelchair": "yes"
+      },
+      "lat": 35.5226815,
+      "lon": -97.6147624
+    },
+    {
+      "type": "node",
+      "id": 11478550781,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "name": "Auntie Anne's",
+        "takeaway": "yes"
+      },
+      "lat": 35.6126502,
+      "lon": -97.5594814
+    },
+    {
+      "type": "node",
+      "id": 13358000656,
+      "tags": {
+        "addr:unit": "8152",
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "indoor_seating": "no",
+        "name": "Auntie Anne's",
+        "opening_hours": "Mo-Th 10:00-19:00; Fr-Sa 10:00-20:00; Su 11:00-18:00",
+        "outdoor_seating": "no",
+        "phone": "+1 539 538 1485",
+        "takeaway": "only",
+        "website": "https://locations.auntieannes.com/ok/jenks/801-e-outlet-dr"
+      },
+      "lat": 36.0150793,
+      "lon": -95.9625169
+    },
+    {
+      "type": "way",
+      "id": 1548953998,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "drive_through": "no",
+        "indoor": "area",
+        "level": "1",
+        "name": "Auntie Anne's",
+        "opening_hours": "Mo-Th 10:00-20:00; Fr-Sa 10:00-21:00; Su 12:00-18:00",
+        "phone": "+1-918-732-9742",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.063377599999995,
+        "lon": -95.88069425000003
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "perkins",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1227214696,
+      "tags": {
+        "addr:city": "Bullhead City",
+        "addr:housenumber": "2250",
+        "addr:postcode": "86442",
+        "addr:state": "AZ",
+        "addr:street": "South Highway 95",
+        "addr:unit": "26",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "source": "microsoft/BuildingFootprints;esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 35.105785,
+        "lon": -114.59741550000001
+      }
+    }
+  ]
+}

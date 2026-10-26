@@ -1,0 +1,81 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "buca_di_beppo",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6505340551,
+      "tags": {
+        "addr:city": "Columbus",
+        "addr:housenumber": "343",
+        "addr:postcode": "43215",
+        "addr:state": "OH",
+        "addr:street": "North Front Street",
+        "amenity": "restaurant",
+        "brand": "Buca di Beppo",
+        "brand:wikidata": "Q4982340",
+        "cuisine": "italian",
+        "name": "Buca di Beppo",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr,Sa 11:00-23:00; Su 11:00-21:00",
+        "phone": "+1-614-621-3287",
+        "website": "https://locations.bucadibeppo.com/us/oh/columbus/343-n-front-st"
+      },
+      "lat": 39.9692481,
+      "lon": -83.0044893
+    },
+    {
+      "type": "node",
+      "id": 8957960592,
+      "tags": {
+        "addr:city": "Strongsville",
+        "addr:housenumber": "16677",
+        "addr:postcode": "44136",
+        "addr:state": "OH",
+        "addr:street": "Southpark Center",
+        "amenity": "restaurant",
+        "brand": "Buca di Beppo",
+        "brand:wikidata": "Q4982340",
+        "cuisine": "italian",
+        "name": "Buca di Beppo"
+      },
+      "lat": 41.3101344,
+      "lon": -81.8162605
+    },
+    {
+      "type": "way",
+      "id": 1289196395,
+      "tags": {
+        "addr:city": "Norwood",
+        "addr:housenumber": "2635",
+        "addr:postcode": "45209",
+        "addr:state": "OH",
+        "addr:street": "Edmondson Road",
+        "amenity": "restaurant",
+        "brand": "Buca di Beppo",
+        "brand:wikidata": "Q4982340",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Buca di Beppo",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-21:00",
+        "phone": "+1-513-396-7673"
+      },
+      "center": {
+        "lat": 39.14814015,
+        "lon": -84.44543844999998
+      }
+    }
+  ]
+}

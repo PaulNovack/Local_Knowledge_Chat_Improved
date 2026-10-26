@@ -1,0 +1,112 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OR",
+    "brand": "godfather_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/oregon-latest.osm.pbf",
+    "source_md5": "bc93fd72fe4589fdc6c9b2b497cb7ef1",
+    "processed_utc": "2026-10-24T07:14:41.004303+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11119813418,
+      "tags": {
+        "addr:city": "Forest Grove",
+        "addr:housenumber": "2834",
+        "addr:postcode": "97116",
+        "addr:street": "Pacific Avenue",
+        "addr:unit": "Suite A",
+        "amenity": "restaurant",
+        "name": "Godfather's Pizza",
+        "phone": "+15033595405",
+        "website": "https://godfathers.com/"
+      },
+      "lat": 45.5188958,
+      "lon": -123.0953747
+    },
+    {
+      "type": "way",
+      "id": 97654900,
+      "tags": {
+        "addr:city": "Beaverton",
+        "addr:housenumber": "17691",
+        "addr:postcode": "97007",
+        "addr:state": "OR",
+        "addr:street": "Southwest Farmington Road",
+        "addr:unit": "E",
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "building": "yes",
+        "contact:facebook": "http://www.facebook.com/GodfathersPizzaAloha/",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Godfather's Pizza",
+        "opening_hours": "Mo-Su 11:00-22:00; Fr,Sa 11:00-23:00",
+        "phone": "+1-503-649-5600",
+        "takeaway": "yes",
+        "website": "https://godfathers.com/"
+      },
+      "center": {
+        "lat": 45.47939985,
+        "lon": -122.85906650000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 101298756,
+      "tags": {
+        "addr:city": "Hillsboro",
+        "addr:housenumber": "7440",
+        "addr:postcode": "97123",
+        "addr:state": "OR",
+        "addr:street": "East Main Street",
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "building": "yes",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Godfather's Pizza",
+        "opening_hours": "11:00-22:00",
+        "phone": "+1-503-848-0100",
+        "website": "https://godfathers.orderexperience.net/66b4f0d8e8028c8a2a0c75c7/menu"
+      },
+      "center": {
+        "lat": 45.5154855,
+        "lon": -122.90386260000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 325611412,
+      "tags": {
+        "addr:city": "Portland",
+        "addr:housenumber": "11140",
+        "addr:postcode": "97225",
+        "addr:state": "OR",
+        "addr:street": "Southwest Barnes Road",
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza",
+        "website": "https://www.godfathers.com/"
+      },
+      "center": {
+        "lat": 45.51501285,
+        "lon": -122.79144025
+      }
+    }
+  ]
+}

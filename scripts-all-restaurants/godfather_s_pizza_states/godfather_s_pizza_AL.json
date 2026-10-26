@@ -1,0 +1,92 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AL",
+    "brand": "godfather_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/alabama-latest.osm.pbf",
+    "source_md5": "3ee9c8ab6ddb6921e2aa2562af6c9bce",
+    "processed_utc": "2026-10-24T06:56:09.586986+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9680970003,
+      "tags": {
+        "addr:city": "Homewood",
+        "addr:housenumber": "231",
+        "addr:postcode": "35209",
+        "addr:state": "AL",
+        "addr:street": "State Farm Parkway",
+        "addr:unit": "101",
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "cuisine": "pizza",
+        "diet:meat": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Godfather's Pizza",
+        "opening_hours": "Tu-Sa 11:00-20:00",
+        "phone": "+1 205-848-8111",
+        "website": "https://godfathers.com"
+      },
+      "lat": 33.4463329,
+      "lon": -86.826919
+    },
+    {
+      "type": "node",
+      "id": 10308637384,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza"
+      },
+      "lat": 33.9336331,
+      "lon": -86.1913365
+    },
+    {
+      "type": "node",
+      "id": 13794363844,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza"
+      },
+      "lat": 32.86636,
+      "lon": -87.9223688
+    },
+    {
+      "type": "way",
+      "id": 280155810,
+      "tags": {
+        "addr:city": "mobile",
+        "addr:housenumber": "5442",
+        "addr:postcode": "36619",
+        "addr:street": "Hwy. 90 West",
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "building": "yes",
+        "capacity": "90",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza",
+        "phone": "+1 251-666-0106",
+        "smoking": "no",
+        "website": "http://godfatherspizza.com"
+      },
+      "center": {
+        "lat": 30.5869668,
+        "lon": -88.17035025000001
+      }
+    }
+  ]
+}

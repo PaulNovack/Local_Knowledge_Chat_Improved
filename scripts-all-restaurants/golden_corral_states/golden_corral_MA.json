@@ -1,0 +1,38 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "golden_corral",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 216087169,
+      "tags": {
+        "addr:housenumber": "436",
+        "addr:street": "Parker Street",
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "yes",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral",
+        "source": "mapillary"
+      },
+      "center": {
+        "lat": 42.1426568,
+        "lon": -72.49599395000001
+      }
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TX",
+    "brand": "lazy_dog",
+    "source": "https://download.geofabrik.de/north-america/us/texas-latest.osm.pbf",
+    "source_md5": "eb8f4603e9b48bd481c192fe621ae18b",
+    "processed_utc": "2026-10-24T07:17:23.814833+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11817256403,
+      "tags": {
+        "addr:city": "Dallas",
+        "addr:housenumber": "5100",
+        "addr:postcode": "75254",
+        "addr:state": "TX",
+        "addr:street": "Belt Line Road",
+        "addr:unit": "500",
+        "amenity": "restaurant",
+        "brand": "Lazy Dog",
+        "brand:wikidata": "Q111304278",
+        "cuisine": "american",
+        "name": "Lazy Dog",
+        "website": "https://www.lazydogrestaurants.com/locations/addison-tx"
+      },
+      "lat": 32.9513045,
+      "lon": -96.8210614
+    },
+    {
+      "type": "node",
+      "id": 12520691297,
+      "tags": {
+        "amenity": "restaurant",
+        "branch": "Restaurant & Bar",
+        "brand": "Lazy Dog",
+        "brand:wikidata": "Q111304278",
+        "cuisine": "american",
+        "name": "Lazy Dog"
+      },
+      "lat": 33.0926898,
+      "lon": -96.8066266
+    },
+    {
+      "type": "way",
+      "id": 545020338,
+      "tags": {
+        "addr:city": "Euless",
+        "addr:housenumber": "2521",
+        "addr:postcode": "76039",
+        "addr:state": "TX",
+        "addr:street": "State Highway 121",
+        "amenity": "restaurant",
+        "brand": "Lazy Dog",
+        "brand:wikidata": "Q111304278",
+        "building": "restaurant",
+        "building:levels": "1",
+        "cuisine": "american",
+        "name": "Lazy Dog",
+        "phone": "+1-682-738-0861",
+        "website": "https://lazydogrestaurants.com/pages/euless-tx-glade-parks"
+      },
+      "center": {
+        "lat": 32.8743215,
+        "lon": -97.10081459999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1064887122,
+      "tags": {
+        "addr:city": "Stafford",
+        "addr:housenumber": "12223",
+        "addr:postcode": "77477",
+        "addr:state": "TX",
+        "addr:street": "Southwest Freeway Frontage Road",
+        "amenity": "restaurant",
+        "brand": "Lazy Dog",
+        "brand:wikidata": "Q111304278",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Lazy Dog",
+        "website": "https://lazydogrestaurants.com/"
+      },
+      "center": {
+        "lat": 29.64251865,
+        "lon": -95.57666325000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1267499785,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Lazy Dog",
+        "brand:wikidata": "Q111304278",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Lazy Dog",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 33.12604245,
+        "lon": -96.66468185000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1347190827,
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "4810",
+        "addr:postcode": "77407",
+        "addr:state": "TX",
+        "addr:street": "Waterview Meadow Drive",
+        "amenity": "restaurant",
+        "brand": "Lazy Dog",
+        "brand:wikidata": "Q111304278",
+        "building": "retail",
+        "check_date": "2025-02-02",
+        "cuisine": "american",
+        "name": "Lazy Dog",
+        "organic": "yes",
+        "outdoor_seating": "yes",
+        "phone": "+1 346-471-7247",
+        "toilets": "yes"
+      },
+      "center": {
+        "lat": 29.6609061,
+        "lon": -95.72160854999998
+      }
+    }
+  ]
+}

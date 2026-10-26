@@ -1,0 +1,131 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "dave_buster_s",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6551304792,
+      "tags": {
+        "addr:city": "Silver Spring",
+        "addr:housenumber": "8661",
+        "addr:postcode": "20910",
+        "addr:state": "MD",
+        "addr:street": "Colesville Road",
+        "addr:unit": "E102",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "check_date": "2023-08-09",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "opening_hours": "Mo-Th,Su 10:00-24:00, Fr-Sa 10:00-25:00",
+        "phone": "+1 301-273-2700",
+        "website": "https://www.daveandbusters.com/us/en/about/locations/silver-spring"
+      },
+      "lat": 38.9970956,
+      "lon": -77.026753
+    },
+    {
+      "type": "node",
+      "id": 6597087424,
+      "tags": {
+        "addr:city": "Hanover",
+        "addr:housenumber": "7000",
+        "addr:postcode": "21076",
+        "addr:state": "MD",
+        "addr:street": "Arundel Mills Circle",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "phone": "+1-443-755-0113",
+        "website": "https://www.daveandbusters.com/locations/hanover-arundel-mills"
+      },
+      "lat": 39.1596579,
+      "lon": -76.723355
+    },
+    {
+      "type": "node",
+      "id": 7243076709,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "opening_hours": "Su-Th 10:00-24:00, Fr,Sa 10:00-02:00"
+      },
+      "lat": 39.3754031,
+      "lon": -76.4691295
+    },
+    {
+      "type": "node",
+      "id": 9324384717,
+      "tags": {
+        "addr:city": "Gaithersburg",
+        "addr:housenumber": "9811",
+        "addr:postcode": "20878",
+        "addr:state": "MD",
+        "addr:street": "Washingtonian Boulevard",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "check_date": "2024-06-09",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "level": "2",
+        "name": "Dave & Buster's",
+        "opening_hours": "Mo 11:00-23:30; Tu 11:00-23:00; We-Th,Su 11:00-24:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+13012969350",
+        "website": "https://www.daveandbusters.com/locations/gaithersburg"
+      },
+      "lat": 39.1158462,
+      "lon": -77.1978106
+    },
+    {
+      "type": "way",
+      "id": 705993218,
+      "tags": {
+        "addr:city": "Capitol Heights",
+        "addr:housenumber": "1851",
+        "addr:postcode": "20743",
+        "addr:state": "MD",
+        "addr:street": "Ritchie Station Court",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "retail",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "opening_hours": "Mo-Th 11:00-24:00, Fr 11:00-25:00, Sa 10:00-25:00, Su 10:00-24:00",
+        "phone": "+1 301-909-9601",
+        "website": "https://www.daveandbusters.com/us/en/about/locations/capitol-heights"
+      },
+      "center": {
+        "lat": 38.863824050000005,
+        "lon": -76.84956224999996
+      }
+    }
+  ]
+}

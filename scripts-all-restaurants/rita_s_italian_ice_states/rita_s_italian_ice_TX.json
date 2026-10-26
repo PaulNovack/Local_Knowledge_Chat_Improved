@@ -1,0 +1,100 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TX",
+    "brand": "rita_s_italian_ice",
+    "source": "https://download.geofabrik.de/north-america/us/texas-latest.osm.pbf",
+    "source_md5": "eb8f4603e9b48bd481c192fe621ae18b",
+    "processed_utc": "2026-10-24T07:17:23.814833+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10213601277,
+      "tags": {
+        "addr:city": "South Padre Island",
+        "addr:country": "US",
+        "addr:housenumber": "4001",
+        "addr:postcode": "78597",
+        "addr:state": "TX",
+        "addr:street": "State Park Rd 100",
+        "amenity": "ice_cream",
+        "branch": "Restaurant Bar",
+        "brand": "Rita's Italian Ice",
+        "brand:wikidata": "Q7336456",
+        "cuisine": "ice_cream",
+        "name": "Rita's Italian Ice",
+        "opening_hours": "Mo-Su 15:00-00:00",
+        "operator": "Marz Daniel Flores",
+        "outdoor_seating": "yes",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-956-761-7482",
+        "website": "https://ritasrestaurantbar.menufy.com"
+      },
+      "lat": 26.1142101,
+      "lon": -97.1697107
+    },
+    {
+      "type": "node",
+      "id": 10848411475,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Rita's Italian Ice",
+        "brand:wikidata": "Q7336456",
+        "drive_through": "yes",
+        "name": "Rita's Italian Ice"
+      },
+      "lat": 33.0259424,
+      "lon": -96.8854545
+    },
+    {
+      "type": "node",
+      "id": 13749448875,
+      "tags": {
+        "addr:city": "Bedford",
+        "addr:housenumber": "505",
+        "addr:postcode": "76021",
+        "addr:state": "TX",
+        "addr:street": "North Industrial Boulevard",
+        "addr:unit": "100",
+        "amenity": "ice_cream",
+        "brand": "Rita's Italian Ice",
+        "brand:wikidata": "Q7336456",
+        "name": "Rita's Italian Ice"
+      },
+      "lat": 32.8429522,
+      "lon": -97.1003402
+    },
+    {
+      "type": "way",
+      "id": 460668429,
+      "tags": {
+        "addr:city": "Houston",
+        "addr:housenumber": "5429",
+        "addr:postcode": "77096",
+        "addr:state": "TX",
+        "addr:street": "South Braeswood Boulevard",
+        "addr:unit": "A",
+        "amenity": "ice_cream",
+        "brand": "Rita's Italian Ice",
+        "brand:wikidata": "Q7336456",
+        "name": "Rita's Italian Ice"
+      },
+      "center": {
+        "lat": 29.676041249999997,
+        "lon": -95.47846679999998
+      }
+    }
+  ]
+}

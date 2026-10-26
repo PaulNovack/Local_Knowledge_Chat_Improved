@@ -1,0 +1,57 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SD",
+    "brand": "texas_roadhouse",
+    "source": "https://download.geofabrik.de/north-america/us/south-dakota-latest.osm.pbf",
+    "source_md5": "4d012b130d8682e6f0e1bc093c255981",
+    "processed_utc": "2026-10-24T07:16:00.169778+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 254754603,
+      "tags": {
+        "addr:city": "Rapid City",
+        "addr:housenumber": "2106",
+        "addr:postcode": "57701",
+        "addr:state": "SD",
+        "addr:street": "North Maple Avenue",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "contact:phone": "+1 605 341 2901",
+        "cuisine": "steak_house;burger;sandwich;salad",
+        "name": "Texas Roadhouse"
+      },
+      "center": {
+        "lat": 44.10522875,
+        "lon": -103.2112161
+      }
+    },
+    {
+      "type": "way",
+      "id": 304934498,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse"
+      },
+      "center": {
+        "lat": 43.509756100000004,
+        "lon": -96.78081474999999
+      }
+    }
+  ]
+}

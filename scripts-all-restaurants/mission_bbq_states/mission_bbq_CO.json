@@ -1,0 +1,70 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "mission_bbq",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12410917429,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "1391",
+        "addr:postcode": "80921",
+        "addr:state": "CO",
+        "addr:street": "Interquest Parkway",
+        "addr:unit": "110",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "contact:facebook": "https://www.facebook.com/missionbbqtheamericanway",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ",
+        "opening_hours": "Mo-Sa 11:00-21:00; Su 11:30-20:00",
+        "phone": "+1-719-368-3411",
+        "website": "https://mission-bbq.com/locations-and-menu/colorado-springs-co/",
+        "website:menu": "https://mission-bbq.com/menu-b/"
+      },
+      "lat": 38.9902145,
+      "lon": -104.7988374
+    },
+    {
+      "type": "way",
+      "id": 132806995,
+      "tags": {
+        "addr:city": "Arvada",
+        "addr:housenumber": "5525",
+        "addr:postcode": "80002",
+        "addr:state": "CO",
+        "addr:street": "Wadsworth Bypass",
+        "amenity": "restaurant",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "building": "restaurant",
+        "building:levels": "1",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ",
+        "old_name": "Ruby Tuesday",
+        "opening_hours": "Mo-Sa 11:00-21:00; Su 11:30-20:00",
+        "phone": "+1-720-458-6895",
+        "website": "https://mission-bbq.com/locations-and-menu/arvada-co/"
+      },
+      "center": {
+        "lat": 39.7965443,
+        "lon": -105.07805150000002
+      }
+    }
+  ]
+}

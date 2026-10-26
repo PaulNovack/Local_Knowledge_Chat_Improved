@@ -1,0 +1,83 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "LA",
+    "brand": "moe_s_southwest_grill",
+    "source": "https://download.geofabrik.de/north-america/us/louisiana-latest.osm.pbf",
+    "source_md5": "2e108953505ee82f68e2a6e7a3e4f783",
+    "processed_utc": "2026-10-24T07:05:17.318731+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8917778910,
+      "tags": {
+        "addr:city": "Metairie",
+        "addr:housenumber": "730",
+        "addr:postcode": "70005",
+        "addr:state": "LA",
+        "addr:street": "Veterans Memorial Boulevard",
+        "amenity": "fast_food",
+        "branch": "Metairie",
+        "brand": "Moe's Southwest Grill",
+        "brand:wikidata": "Q6889938",
+        "cuisine": "mexican",
+        "name": "Moe's Southwest Grill",
+        "opening_hours": "10:30-21:00",
+        "phone": "+1 504-407-3029",
+        "short_name": "Moe's",
+        "takeaway": "yes",
+        "website": "https://locations.moes.com/la/metairie/730-veterans-memorial-boulevard"
+      },
+      "lat": 30.0011628,
+      "lon": -90.1308962
+    },
+    {
+      "type": "node",
+      "id": 11126900769,
+      "tags": {
+        "addr:city": "Shreveport",
+        "addr:housenumber": "7141",
+        "addr:postcode": "71105",
+        "addr:state": "LA",
+        "addr:street": "Youree Drive",
+        "amenity": "fast_food",
+        "branch": "Kings Crossing Center",
+        "brand": "Moe's Southwest Grill",
+        "brand:wikidata": "Q6889938",
+        "cuisine": "mexican",
+        "name": "Moe's Southwest Grill",
+        "opening_hours": "Mo-Th 10:30-21:00; Fr-Sa 10:30-22:00; Su 11:00-21:00",
+        "phone": "+1 318-797-4202",
+        "short_name": "Moe's",
+        "takeaway": "yes",
+        "website": "https://locations.moes.com/la/shreveport/7141-youree-drive"
+      },
+      "lat": 32.4411291,
+      "lon": -93.7163829
+    },
+    {
+      "type": "node",
+      "id": 11172713357,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Moe's Southwest Grill",
+        "brand:wikidata": "Q6889938",
+        "cuisine": "mexican",
+        "level": "0",
+        "name": "Moe's Southwest Grill",
+        "short_name": "Moe's",
+        "takeaway": "yes"
+      },
+      "lat": 32.5264567,
+      "lon": -92.6489903
+    }
+  ]
+}

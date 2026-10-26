@@ -1,0 +1,80 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IA",
+    "brand": "mcalister_s_deli",
+    "source": "https://download.geofabrik.de/north-america/us/iowa-latest.osm.pbf",
+    "source_md5": "67edcd557c575ead09c9f80bc8694526",
+    "processed_utc": "2026-10-24T07:04:05.270534+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5415384422,
+      "tags": {
+        "addr:city": "West Des Moines",
+        "addr:housename": "Premier Shoppes at Jordan Creek",
+        "addr:housenumber": "455",
+        "addr:postcode": "50266",
+        "addr:street": "South 64th Street",
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli",
+        "opening_hours": "Mo-Su 10:00-21:00"
+      },
+      "lat": 41.5629041,
+      "lon": -93.7963225
+    },
+    {
+      "type": "node",
+      "id": 7815121704,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli"
+      },
+      "lat": 41.5573794,
+      "lon": -90.5453037
+    },
+    {
+      "type": "node",
+      "id": 13205041998,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli"
+      },
+      "lat": 41.2198768,
+      "lon": -95.8371685
+    },
+    {
+      "type": "way",
+      "id": 342659201,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "cuisine": "sandwich",
+        "demolished:building": "yes",
+        "name": "McAlister's Deli"
+      },
+      "center": {
+        "lat": 41.557374100000004,
+        "lon": -90.54529709999997
+      }
+    }
+  ]
+}

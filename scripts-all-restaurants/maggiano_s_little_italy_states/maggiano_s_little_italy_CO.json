@@ -1,0 +1,63 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "maggiano_s_little_italy",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1431147679,
+      "tags": {
+        "addr:city": "Denver",
+        "addr:housenumber": "500",
+        "addr:postcode": "80202",
+        "addr:state": "CO",
+        "addr:street": "16th Street",
+        "addr:unit": "150",
+        "amenity": "restaurant",
+        "brand": "Maggiano's Little Italy",
+        "brand:wikidata": "Q6730149",
+        "cuisine": "italian",
+        "level": "0",
+        "name": "Maggiano's Little Italy",
+        "wheelchair": "yes"
+      },
+      "lat": 39.7428176,
+      "lon": -104.990404
+    },
+    {
+      "type": "way",
+      "id": 111348525,
+      "tags": {
+        "addr:city": "Englewood",
+        "addr:housenumber": "7401",
+        "addr:postcode": "80112",
+        "addr:state": "CO",
+        "addr:street": "South Clinton Street",
+        "amenity": "restaurant",
+        "brand": "Maggiano's Little Italy",
+        "brand:wikidata": "Q6730149",
+        "building": "yes",
+        "cuisine": "italian",
+        "delivery": "no",
+        "name": "Maggiano's Little Italy",
+        "website": "https://www.maggianos.com/"
+      },
+      "center": {
+        "lat": 39.5820035,
+        "lon": -104.87616070000001
+      }
+    }
+  ]
+}

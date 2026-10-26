@@ -1,0 +1,88 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "jet_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4764550175,
+      "tags": {
+        "addr:city": "Creve Coeur",
+        "addr:housenumber": "12536",
+        "addr:postcode": "63141",
+        "addr:state": "MO",
+        "addr:street": "Olive Boulevard",
+        "addr:unit": "E",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "level": "0",
+        "name": "Jet's Pizza",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 314-548-2585",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://jetspizza.com/"
+      },
+      "lat": 38.6756008,
+      "lon": -90.4648387
+    },
+    {
+      "type": "way",
+      "id": 620984840,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza"
+      },
+      "center": {
+        "lat": 38.5931201,
+        "lon": -90.36252060000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 696569441,
+      "tags": {
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "3533",
+        "addr:postcode": "63139",
+        "addr:state": "MO",
+        "addr:street": "Hampton Avenue",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "building": "retail",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr,Sa 10:00-23:00; Su 11:00-22:00",
+        "phone": "+13143510955",
+        "website": "https://www.jetspizza.com/stores/missouri/st-louis/3533-hampton-ave"
+      },
+      "center": {
+        "lat": 38.597417300000004,
+        "lon": -90.29303170000003
+      }
+    }
+  ]
+}

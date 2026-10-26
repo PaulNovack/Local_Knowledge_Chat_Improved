@@ -1,0 +1,64 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ME",
+    "brand": "red_robin",
+    "source": "https://download.geofabrik.de/north-america/us/maine-latest.osm.pbf",
+    "source_md5": "561ab4eba7b10f360a72f8484b6f08c3",
+    "processed_utc": "2026-10-24T07:05:33.375896+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 371292007,
+      "tags": {
+        "addr:city": "Augusta",
+        "addr:housenumber": "52",
+        "addr:postcode": "04330",
+        "addr:state": "ME",
+        "addr:street": "Stephen King Drive",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews",
+        "phone": "+1-207-623-4848"
+      },
+      "center": {
+        "lat": 44.348010849999994,
+        "lon": -69.78699290000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 734799016,
+      "tags": {
+        "addr:city": "Scarborough",
+        "addr:housenumber": "800",
+        "addr:postcode": "04074",
+        "addr:state": "ME",
+        "addr:street": "Gallery Boulevard",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews"
+      },
+      "center": {
+        "lat": 43.62482345,
+        "lon": -70.34066065000002
+      }
+    }
+  ]
+}

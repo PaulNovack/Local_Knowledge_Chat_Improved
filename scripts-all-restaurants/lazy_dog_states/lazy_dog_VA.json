@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "lazy_dog",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9118222723,
+      "tags": {
+        "addr:city": "Fairfax",
+        "addr:housenumber": "11963",
+        "addr:postcode": "22033",
+        "addr:state": "VA",
+        "addr:street": "Fair Oaks Shopping Center",
+        "amenity": "restaurant",
+        "branch": "Restaurant & Bar",
+        "brand": "Lazy Dog",
+        "brand:wikidata": "Q111304278",
+        "cuisine": "american",
+        "name": "Lazy Dog"
+      },
+      "lat": 38.8631092,
+      "lon": -77.3617134
+    },
+    {
+      "type": "node",
+      "id": 12222280486,
+      "tags": {
+        "addr:city": "Chantilly",
+        "addr:housenumber": "14333",
+        "addr:postcode": "20151",
+        "addr:state": "VA",
+        "addr:street": "Newbrook Drive",
+        "amenity": "restaurant",
+        "brand": "Lazy Dog",
+        "brand:wikidata": "Q111304278",
+        "cuisine": "american",
+        "name": "Lazy Dog"
+      },
+      "lat": 38.8773326,
+      "lon": -77.4410489
+    }
+  ]
+}

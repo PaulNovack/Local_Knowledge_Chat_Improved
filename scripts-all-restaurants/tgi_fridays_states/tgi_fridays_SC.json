@@ -1,0 +1,91 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SC",
+    "brand": "tgi_fridays",
+    "source": "https://download.geofabrik.de/north-america/us/south-carolina-latest.osm.pbf",
+    "source_md5": "488018afb1e1040732b7a791d4ebffae",
+    "processed_utc": "2026-10-24T07:15:46.592450+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2625018073,
+      "tags": {
+        "addr:city": "Myrtle Beach",
+        "addr:housenumber": "7515",
+        "addr:postcode": "29572",
+        "addr:street": "North Kings Highway",
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "cuisine": "american",
+        "name": "TGI Fridays",
+        "website": "https://locations.tgifridays.com/sc/myrtle-beach/7515-n-kings-hwy.html"
+      },
+      "lat": 33.7468492,
+      "lon": -78.8197151
+    },
+    {
+      "type": "node",
+      "id": 11682795299,
+      "tags": {
+        "addr:city": "North Myrtle Beach",
+        "addr:housenumber": "500",
+        "addr:postcode": "29582",
+        "addr:state": "SC",
+        "addr:street": "US Highway 17 North",
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "cuisine": "american",
+        "name": "TGI Fridays",
+        "opening_hours": "Su-Th 11:00-01:00; Fr-Sa 11:00-02:00",
+        "phone": "+1-800-374-3297",
+        "website": "https://order.tgifridays.com/menu/745"
+      },
+      "lat": 33.8322507,
+      "lon": -78.6741709
+    },
+    {
+      "type": "way",
+      "id": 188254443,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "TGI Friday's",
+        "brand:wikidata": "Q1524184",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "TGI Friday's",
+        "website": "https://locations.tgifridays.com/sc/mount-pleasant/1835-n-highway-17.html"
+      },
+      "center": {
+        "lat": 32.8298377,
+        "lon": -79.83274115
+      }
+    },
+    {
+      "type": "way",
+      "id": 608105137,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "TGI Fridays"
+      },
+      "center": {
+        "lat": 33.57960505,
+        "lon": -79.02240284999999
+      }
+    }
+  ]
+}

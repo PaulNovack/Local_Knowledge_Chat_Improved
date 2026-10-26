@@ -1,0 +1,91 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ID",
+    "brand": "black_bear_diner",
+    "source": "https://download.geofabrik.de/north-america/us/idaho-latest.osm.pbf",
+    "source_md5": "1a1a06364d5343af00d67fef4750905f",
+    "processed_utc": "2026-10-24T07:02:45.671077+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 32290756,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Black Bear Diner"
+      },
+      "center": {
+        "lat": 43.48203545,
+        "lon": -112.00193975000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 757725163,
+      "tags": {
+        "addr:city": "Boise",
+        "addr:housenumber": "7530",
+        "addr:postcode": "83714",
+        "addr:state": "ID",
+        "addr:street": "West State Street",
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Black Bear Diner"
+      },
+      "center": {
+        "lat": 43.67111095,
+        "lon": -116.28207175
+      }
+    },
+    {
+      "type": "way",
+      "id": 863166623,
+      "tags": {
+        "addr:housenumber": "1725",
+        "addr:street": "Harrison Street ",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "american",
+        "delivery": "Door dash",
+        "diet:gluten_free": "yes",
+        "diet:vegetarian": "yes",
+        "highchair": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Black Bear Diner",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "roof:levels": "0",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "limited"
+      },
+      "center": {
+        "lat": 42.5923004,
+        "lon": -114.4703834
+      }
+    }
+  ]
+}

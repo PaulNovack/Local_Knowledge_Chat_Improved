@@ -1,0 +1,376 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OR",
+    "brand": "applebee_s",
+    "source": "https://download.geofabrik.de/north-america/us/oregon-latest.osm.pbf",
+    "source_md5": "bc93fd72fe4589fdc6c9b2b497cb7ef1",
+    "processed_utc": "2026-10-24T07:14:41.004303+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2287608858,
+      "tags": {
+        "addr:state": "OR",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "check_date:opening_hours": "2024-11-14",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "opening_hours": "Su-Th 11:00-22:00; Fr,Sa 11:00-23:00",
+        "outdoor_seating": "no",
+        "phone": "+1 541-850-1080",
+        "website": "https://restaurants.applebees.com/en-us/or/klamath-falls/2750-campus-drive-93099",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=93099&action=viewmenu"
+      },
+      "lat": 42.2505667,
+      "lon": -121.7874962
+    },
+    {
+      "type": "node",
+      "id": 4197881842,
+      "tags": {
+        "addr:city": "Salem",
+        "addr:housenumber": "5070",
+        "addr:postcode": "97306",
+        "addr:state": "OR",
+        "addr:street": "Commercial Street Southeast",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "cuisine": "american",
+        "delivery": "no",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "opening_hours": "Mo-Fr 11:00-24:00; Sa,Su 00:00-01:00,11:00-24:00",
+        "phone": "+1-503-364-1775",
+        "takeaway": "yes",
+        "website": "https://restaurants.applebees.com/en-us/or/salem/5070-commercial-st.-s.e.-85001",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=85001&action=viewmenu"
+      },
+      "lat": 44.8817724,
+      "lon": -123.0294743
+    },
+    {
+      "type": "way",
+      "id": 37101341,
+      "tags": {
+        "addr:city": "Salem",
+        "addr:housenumber": "747",
+        "addr:state": "OR",
+        "addr:street": "Lancaster Drive Northeast",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 503-581-8040",
+        "website": "https://restaurants.applebees.com/en-us/or/salem/747-lancaster-drive-n.e.-84060",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=84060&action=viewmenu"
+      },
+      "center": {
+        "lat": 44.9404233,
+        "lon": -122.98378654999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 53956336,
+      "tags": {
+        "addr:city": "Lake Oswego",
+        "addr:housenumber": "6325",
+        "addr:postcode": "97035",
+        "addr:state": "OR",
+        "addr:street": "Meadows Road",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "opening_hours": "Mo-Fr 11:00-24:00; Sa,Su 00:00-01:00,11:00-24:00",
+        "phone": "+1-503-968-8040",
+        "website": "https://restaurants.applebees.com/en-us/or/lake-oswego/6325-s.w.-meadows-road-84039",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=84039&action=viewmenu"
+      },
+      "center": {
+        "lat": 45.418108,
+        "lon": -122.74080325
+      }
+    },
+    {
+      "type": "way",
+      "id": 80676714,
+      "tags": {
+        "addr:city": "Gresham",
+        "addr:housenumber": "489",
+        "addr:postcode": "97030",
+        "addr:state": "OR",
+        "addr:street": "Northwest Burnside Road",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "opening_hours": "Mo-Fr 11:00-24:00; Sa,Su 00:00-01:00,11:00-24:00",
+        "phone": "+1-503-666-2603",
+        "website": "https://restaurants.applebees.com/en-us/or/gresham/489-n.w.-burnside-road-85019",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=85019&action=viewmenu"
+      },
+      "center": {
+        "lat": 45.510622100000006,
+        "lon": -122.43651260000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 97796380,
+      "tags": {
+        "addr:city": "Beaverton",
+        "addr:housenumber": "1220",
+        "addr:postcode": "97006",
+        "addr:state": "OR",
+        "addr:street": "Northwest 185th Avenue",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "opening_hours": "Mo-Fr 11:00-24:00; Sa,Su 00:00-01:00,11:00-24:00",
+        "phone": "+1-503-690-8040",
+        "website": "https://restaurants.applebees.com/en-us/or/beaverton/1220-n.w.-185th-avenue-84036",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=84036&action=viewmenu"
+      },
+      "center": {
+        "lat": 45.52853455,
+        "lon": -122.86677105000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 116428439,
+      "tags": {
+        "addr:city": "Happy Valley",
+        "addr:housenumber": "10172",
+        "addr:postcode": "97086",
+        "addr:state": "OR",
+        "addr:street": "Southeast 82nd Avenue",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "contact:phone": "+1-503-775-7770",
+        "contact:website": "https://restaurants.applebees.com/en-us/or/portland/10172-se-82nd-ave-84071",
+        "cuisine": "american",
+        "height": "5.8",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "opening_hours": "Mo-Fr 11:00-24:00; Sa,Su 00:00-01:00,11:00-24:00",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=84071&action=viewmenu"
+      },
+      "center": {
+        "lat": 45.449224900000004,
+        "lon": -122.57863780000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 122612318,
+      "tags": {
+        "addr:city": "Corvallis",
+        "addr:housenumber": "1915",
+        "addr:postcode": "97330",
+        "addr:state": "OR",
+        "addr:street": "Northeast Four Acre Place",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "opening_hours": "Mo-Fr 11:00-24:00; Sa,Su 00:00-01:00,11:00-24:00",
+        "outdoor_seating": "no",
+        "phone": "+1-541-758-2204",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "website": "https://restaurants.applebees.com/en-us/or/corvallis/1915-ne-four-acre-place-84024",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=84024&action=viewmenu"
+      },
+      "center": {
+        "lat": 44.5869847,
+        "lon": -123.25018764999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 344394725,
+      "tags": {
+        "addr:state": "OR",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 541-338-7121",
+        "source": "Bing",
+        "website": "https://restaurants.applebees.com/en-us/or/eugene/2300-w-11th-avenue-84027",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=84027&action=viewmenu"
+      },
+      "center": {
+        "lat": 44.04755275,
+        "lon": -123.12817254999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 346367246,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "3026",
+        "addr:postcode": "97477",
+        "addr:state": "OR",
+        "addr:street": "Gateway Street",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 541-744-1364",
+        "source": "Bing",
+        "website": "https://restaurants.applebees.com/en-us/or/springfield/3026-gateway-street-84098",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=84098&action=viewmenu"
+      },
+      "center": {
+        "lat": 44.07606765,
+        "lon": -123.0426377
+      }
+    },
+    {
+      "type": "way",
+      "id": 361107921,
+      "tags": {
+        "addr:city": "Albany",
+        "addr:housenumber": "1525",
+        "addr:postcode": "97322",
+        "addr:state": "OR",
+        "addr:street": "Geary Street Southeast",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "opening_hours": "Mo-Fr 11:00-24:00; Sa,Su 00:00-01:00,11:00-24:00",
+        "phone": "+1-541-928-9595",
+        "website": "https://restaurants.applebees.com/en-us/or/albany/1525-se-geary-st-85013",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=85013&action=viewmenu"
+      },
+      "center": {
+        "lat": 44.6277927,
+        "lon": -123.08285235
+      }
+    },
+    {
+      "type": "way",
+      "id": 419607402,
+      "tags": {
+        "addr:city": "Portland",
+        "addr:housenumber": "10004",
+        "addr:postcode": "97220",
+        "addr:state": "OR",
+        "addr:street": "Northeast Halsey Street",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "contact:phone": "+1-503-408-8088",
+        "contact:website": "https://restaurants.applebees.com/en-us/or/portland/10004-ne-halsey-st.-84068",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "opening_hours": "Mo-Fr 11:00-24:00; Sa,Su 00:00-01:00,11:00-24:00",
+        "takeaway": "yes",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=84068&action=viewmenu"
+      },
+      "center": {
+        "lat": 45.53322885,
+        "lon": -122.5606421
+      }
+    },
+    {
+      "type": "way",
+      "id": 471237258,
+      "tags": {
+        "addr:city": "Salem",
+        "addr:housenumber": "2625",
+        "addr:postcode": "97301",
+        "addr:state": "OR",
+        "addr:street": "Liberty Street Northeast",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "opening_hours": "Mo-Fr 11:00-24:00; Sa,Su 00:00-01:00,11:00-24:00",
+        "phone": "+1-503-365-0372",
+        "website": "https://restaurants.applebees.com/en-us/or/salem/2625-liberty-street-ne-84086",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=84086&action=viewmenu"
+      },
+      "center": {
+        "lat": 44.96563965,
+        "lon": -123.03213345
+      }
+    },
+    {
+      "type": "way",
+      "id": 1204285411,
+      "tags": {
+        "addr:state": "OR",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 541-956-8652",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://restaurants.applebees.com/en-us/or/grants-pass/250-ne-agness-ave.-96030",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=96030&action=viewmenu",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 42.436181399999995,
+        "lon": -123.29841214999999
+      }
+    }
+  ]
+}

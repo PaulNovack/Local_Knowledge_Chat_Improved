@@ -1,0 +1,733 @@
+{
+  "version": 0.6,
+  "generator": "TruckStopExtractDownloader/1.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SD",
+    "source": "https://download.geofabrik.de/north-america/us/south-dakota-latest.osm.pbf",
+    "source_md5": "3a3a9ead141c9b29d235df2ce34daf5d",
+    "processed_utc": "2026-10-24T22:10:03.812149+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1345443282,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "name": "Love's"
+      },
+      "lat": 43.6039122,
+      "lon": -96.7127001
+    },
+    {
+      "type": "node",
+      "id": 2449961873,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "hgv": "no",
+        "name": "Flying J",
+        "operator": "Flying J"
+      },
+      "lat": 43.6029274,
+      "lon": -96.767045
+    },
+    {
+      "type": "node",
+      "id": 2449961903,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "hgv": "yes",
+        "name": "Flying J",
+        "operator": "Flying J"
+      },
+      "lat": 43.6035353,
+      "lon": -96.7672918
+    },
+    {
+      "type": "node",
+      "id": 12361099470,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 43.693337,
+      "lon": -98.0152318
+    },
+    {
+      "type": "node",
+      "id": 12672621523,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 44.3717213,
+      "lon": -98.1756681
+    },
+    {
+      "type": "node",
+      "id": 12673059225,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 44.1035368,
+      "lon": -103.1528637
+    },
+    {
+      "type": "node",
+      "id": 13711978933,
+      "tags": {
+        "highway": "services",
+        "name": "Quick Pro Lube"
+      },
+      "lat": 45.2254641,
+      "lon": -96.6166877
+    },
+    {
+      "type": "node",
+      "id": 14014824007,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 43.0840265,
+      "lon": -96.8024965
+    },
+    {
+      "type": "node",
+      "id": 14144386627,
+      "tags": {
+        "amenity": "fuel",
+        "description": "LP, gasoline and diesel provider. This is a card-lock station.",
+        "fuel:HGV_diesel": "yes",
+        "fuel:diesel": "yes",
+        "fuel:lpg": "yes",
+        "fuel:octane_85": "yes",
+        "fuel:octane_89": "yes",
+        "fuel:taxfree_diesel": "yes",
+        "name": "Nelson's Oil & Gas",
+        "operator": "Nelson's Oil & Gas Inc."
+      },
+      "lat": 43.4214099,
+      "lon": -103.4749422
+    },
+    {
+      "type": "relation",
+      "id": 19189712,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Coffee Cup Travel Plaza",
+        "type": "multipolygon"
+      },
+      "center": {
+        "lat": 45.31162555,
+        "lon": -97.04742105000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 224604781,
+      "tags": {
+        "branch": "Sioux Falls",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 605-332-7611",
+        "ref": "445",
+        "website": "https://www.loves.com/locations/sd/sioux-falls/loves-travel-stop-sioux-falls-445"
+      },
+      "center": {
+        "lat": 43.60420135,
+        "lon": -96.713211
+      }
+    },
+    {
+      "type": "way",
+      "id": 235555344,
+      "tags": {
+        "branch": "Rapid City",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2013-08-29",
+        "email": "TravelCenter.931@pilottravelcenters.com",
+        "fax": "+1 605-342-3011",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 605-342-5450",
+        "ref": "931",
+        "sanitary_dump_station": "yes",
+        "website": "https://locations.pilotflyingj.com/us/sd/rapid-city/4200-n-i-90-service-rd"
+      },
+      "center": {
+        "lat": 44.10346755,
+        "lon": -103.14879199999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 235555447,
+      "tags": {
+        "branch": "Sioux Falls",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.716@pilottravelcenters.com",
+        "fax": "+1 605-977-1538",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 605-977-1438",
+        "ref": "716",
+        "website": "https://locations.pilotflyingj.com/us/sd/sioux-falls/5201-n-granite-ln"
+      },
+      "center": {
+        "lat": 43.6038544,
+        "lon": -96.76799400000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 254748366,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "hgv": "no",
+        "name": "Pilot Travel Center",
+        "operator": "Pilot Travel Centers"
+      },
+      "center": {
+        "lat": 44.1127484,
+        "lon": -103.27265360000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 254748371,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "name": "Pilot Travel Center",
+        "operator": "Pilot Travel Centers"
+      },
+      "center": {
+        "lat": 44.112456249999994,
+        "lon": -103.27292769999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 265138289,
+      "tags": {
+        "addr:city": "Murdo",
+        "addr:country": "US",
+        "addr:housenumber": "601",
+        "addr:postcode": "57559",
+        "addr:state": "SD",
+        "addr:street": "5th Street",
+        "branch": "Murdo",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.599@pilottravelcenters.com",
+        "fax": "+1 605-669-2859",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 605-578-0057",
+        "ref": "599",
+        "website": "https://locations.pilotflyingj.com/us/sd/murdo/601-e-5th-st"
+      },
+      "center": {
+        "lat": 43.88581885,
+        "lon": -100.70478315000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 265138290,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "fuel:e10": "yes",
+        "hgv": "no",
+        "layer": "1",
+        "name": "Pilot"
+      },
+      "center": {
+        "lat": 43.88579025,
+        "lon": -100.70524425000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 265138292,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "capacity:hgv": "10",
+        "fuel:HGV_diesel": "yes",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "layer": "1",
+        "name": "Pilot"
+      },
+      "center": {
+        "lat": 43.88612605,
+        "lon": -100.70499004999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 265138449,
+      "tags": {
+        "branch": "Rapid City",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.918@pilottravelcenters.com",
+        "fax": "+1 605-348-3438",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 605-348-7070",
+        "ref": "918",
+        "website": "https://locations.pilotflyingj.com/us/sd/rapid-city/2783-deadwood-ave"
+      },
+      "center": {
+        "lat": 44.11305885,
+        "lon": -103.27354304999994
+      }
+    },
+    {
+      "type": "way",
+      "id": 408947488,
+      "tags": {
+        "branch": "Box Elder",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 605-923-4292",
+        "ref": "602",
+        "website": "https://www.loves.com/locations/sd/box-elder/loves-travel-stop-box-elder-602"
+      },
+      "center": {
+        "lat": 44.12001975,
+        "lon": -103.05248495000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 570761397,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "hgv": "yes"
+      },
+      "center": {
+        "lat": 42.7849821,
+        "lon": -96.79662495000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 627248347,
+      "tags": {
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA Express",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 605-745-4215",
+        "ref": "0273",
+        "website": "https://www.ta-petro.com/location/sd/ta-express-hot-springs/"
+      },
+      "center": {
+        "lat": 43.39876135,
+        "lon": -103.39573039999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 627248349,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "fuel:HGV_diesel": "yes",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "wheelchair": "limited"
+      },
+      "center": {
+        "lat": 43.3992423,
+        "lon": -103.39578925
+      }
+    },
+    {
+      "type": "way",
+      "id": 649744693,
+      "tags": {
+        "addr:city": "Lemmon",
+        "addr:housenumber": "5",
+        "addr:postcode": "57638",
+        "addr:state": "SD",
+        "addr:street": "10th Street West",
+        "highway": "services",
+        "name": "Lemmon Pit Stop"
+      },
+      "center": {
+        "lat": 45.935198549999996,
+        "lon": -102.16014689999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 722980319,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "hgv": "yes",
+        "name": "Coffee Cup Travel Plaza"
+      },
+      "center": {
+        "lat": 45.3108627,
+        "lon": -97.04644155
+      }
+    },
+    {
+      "type": "way",
+      "id": 769221607,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "check_date": "2026-08-17",
+        "hgv": "yes",
+        "layer": "1"
+      },
+      "center": {
+        "lat": 44.12011055,
+        "lon": -103.05278644999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 847802586,
+      "tags": {
+        "highway": "services",
+        "name": "Coffee Cup Fuel Stop"
+      },
+      "center": {
+        "lat": 43.91746435,
+        "lon": -100.31469089999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 863881515,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Coffee Cub Travel Plaza - TA Express"
+      },
+      "center": {
+        "lat": 42.78531805,
+        "lon": -96.79653439999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 965645866,
+      "tags": {
+        "amenity": "fuel",
+        "building": "yes",
+        "hgv": "yes"
+      },
+      "center": {
+        "lat": 42.523678849999996,
+        "lon": -96.49659910000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1178224236,
+      "tags": {
+        "highway": "services",
+        "landuse": "commercial"
+      },
+      "center": {
+        "lat": 42.880317399999996,
+        "lon": -97.35380574999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1241770355,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "center": {
+        "lat": 43.97835095,
+        "lon": -96.76375465000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1255422748,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "no",
+        "name": "Love's",
+        "website": "https://www.loves.com/locations/266"
+      },
+      "center": {
+        "lat": 43.736279499999995,
+        "lon": -98.9576313
+      }
+    },
+    {
+      "type": "way",
+      "id": 1255422749,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "name": "Love's",
+        "website": "https://www.loves.com/locations/266"
+      },
+      "center": {
+        "lat": 43.73656635,
+        "lon": -98.95653759999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1255422766,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 605-778-6140",
+        "ref": "816",
+        "website": "https://www.loves.com/locations/sd/kimball/loves-travel-stop-kimball-816"
+      },
+      "center": {
+        "lat": 43.7363839,
+        "lon": -98.95624550000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1336407826,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 43.693340899999995,
+        "lon": -98.01582725000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1367190651,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 43.6631283,
+        "lon": -97.58720445
+      }
+    },
+    {
+      "type": "way",
+      "id": 1368389246,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 44.103482850000006,
+        "lon": -103.1527577
+      }
+    },
+    {
+      "type": "way",
+      "id": 1462732038,
+      "tags": {
+        "addr:city": "Sioux Falls",
+        "addr:housenumber": "901",
+        "addr:postcode": "57107",
+        "addr:state": "SD",
+        "addr:street": "North Ebenezer Avenue",
+        "amenity": "fuel",
+        "brand": "Kwik Star",
+        "brand:wikidata": "Q123269534",
+        "building": "yes",
+        "fuel:HGV_diesel": "yes",
+        "fuel:def": "yes",
+        "name": "Kwik Star",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 43.55765185,
+        "lon": -96.78751569999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1462732065,
+      "tags": {
+        "addr:city": "Sioux Falls",
+        "addr:housenumber": "3310",
+        "addr:postcode": "57104",
+        "addr:state": "SD",
+        "addr:street": "North Cliff Avenue",
+        "amenity": "fuel",
+        "brand": "Kwik Star",
+        "brand:wikidata": "Q123269534",
+        "building": "yes",
+        "fuel:DEF": "yes",
+        "fuel:HGV_diesel": "yes",
+        "name": "Kwik Star"
+      },
+      "center": {
+        "lat": 43.5810788,
+        "lon": -96.7102117
+      }
+    },
+    {
+      "type": "way",
+      "id": 1462732068,
+      "tags": {
+        "addr:city": "Sioux Falls",
+        "addr:housenumber": "5400",
+        "addr:postcode": "57104",
+        "addr:state": "SD",
+        "addr:street": "North Cliff Avenue",
+        "amenity": "fuel",
+        "brand": "Circle K",
+        "brand:wikidata": "Q3268010",
+        "building": "yes",
+        "fuel:DEF": "yes",
+        "fuel:HGV_diesel": "yes",
+        "name": "Circle K"
+      },
+      "center": {
+        "lat": 43.6071181,
+        "lon": -96.71000855
+      }
+    },
+    {
+      "type": "way",
+      "id": 1462732081,
+      "tags": {
+        "addr:city": "Sioux Falls",
+        "addr:housenumber": "6301",
+        "addr:postcode": "57110",
+        "addr:state": "SD",
+        "addr:street": "East 41st Street",
+        "amenity": "fuel",
+        "brand": "Kwik Star",
+        "brand:wikidata": "Q123269534",
+        "building": "yes",
+        "fuel:DEF": "yes",
+        "fuel:HGV_diesel": "yes",
+        "name": "Kwik Star",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 43.51395925,
+        "lon": -96.64849900000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1462732093,
+      "tags": {
+        "addr:city": "Harrisburg",
+        "addr:housenumber": "1430",
+        "addr:postcode": "57032",
+        "addr:state": "SD",
+        "addr:street": "Tom Sawyer Trail",
+        "amenity": "fuel",
+        "brand": "Kwik Star",
+        "brand:wikidata": "Q123269534",
+        "building": "yes",
+        "fuel:DEF": "yes",
+        "fuel:HGV_diesel": "yes",
+        "name": "Kwik Star",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 43.44471885,
+        "lon": -96.72708090000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1523837922,
+      "tags": {
+        "addr:city": "Sioux Falls",
+        "addr:housenumber": "4915",
+        "addr:postcode": "57104",
+        "addr:state": "SD",
+        "addr:street": "North Cliff Avenue",
+        "amenity": "fuel",
+        "brand": "Amoco",
+        "brand:wikidata": "Q465952",
+        "building": "roof",
+        "fuel:HGV_diesel": "yes",
+        "fuel:diesel": "yes",
+        "name": "Amoco",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 43.6014069,
+        "lon": -96.71277495000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1539081126,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 43.0843282,
+        "lon": -96.80316700000003
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KY",
+    "brand": "smoothie_king",
+    "source": "https://download.geofabrik.de/north-america/us/kentucky-latest.osm.pbf",
+    "source_md5": "beee275db6b863afe4847059e1397537",
+    "processed_utc": "2026-10-24T07:04:39.223265+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3373719472,
+      "tags": {
+        "addr:city": "Louisville",
+        "addr:housenumber": "1504",
+        "addr:postcode": "40205",
+        "addr:state": "KY",
+        "addr:street": "Bardstown Road",
+        "amenity": "fast_food",
+        "brand": "Smoothie King",
+        "brand:wikidata": "Q5491421",
+        "cuisine": "juice",
+        "drive_through": "no",
+        "name": "Smoothie King",
+        "takeaway": "yes"
+      },
+      "lat": 38.2316973,
+      "lon": -85.7089945
+    },
+    {
+      "type": "way",
+      "id": 746898471,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Smoothie King",
+        "brand:wikidata": "Q5491421",
+        "building": "yes",
+        "cuisine": "juice",
+        "name": "Smoothie King",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.085071049999996,
+        "lon": -84.47695015
+      }
+    }
+  ]
+}

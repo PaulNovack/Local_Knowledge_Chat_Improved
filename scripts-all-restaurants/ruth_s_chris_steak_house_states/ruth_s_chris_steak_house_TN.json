@@ -1,0 +1,85 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TN",
+    "brand": "ruth_s_chris_steak_house",
+    "source": "https://download.geofabrik.de/north-america/us/tennessee-latest.osm.pbf",
+    "source_md5": "a047c5da6c897a8a98b1fc4a282b8d3f",
+    "processed_utc": "2026-10-24T07:16:20.210730+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7373909460,
+      "tags": {
+        "addr:housenumber": "2100",
+        "addr:postcode": "37203",
+        "addr:street": "West End Avenue",
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "check_date": "2026-06-04",
+        "check_date:opening_hours": "2026-06-04",
+        "cuisine": "american",
+        "name": "Ruth's Chris Steak House",
+        "opening_hours": "Mo-Th 16:00-22:00; Fr-Sa 16:00-22:30; Su 16:00-21:00",
+        "phone": "+1-615-320-0163",
+        "website": "https://ruthschris.com/locations/tn/nashville/nashville/7304"
+      },
+      "lat": 36.1505894,
+      "lon": -86.8015679
+    },
+    {
+      "type": "way",
+      "id": 666986792,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "building": "retail",
+        "check_date": "2025-07-20",
+        "cuisine": "american",
+        "name": "Ruth's Chris Steak House"
+      },
+      "center": {
+        "lat": 35.10239165,
+        "lon": -89.85889370000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1187510743,
+      "tags": {
+        "addr:city": "Knoxville",
+        "addr:housenumber": "950",
+        "addr:postcode": "37915",
+        "addr:state": "TN",
+        "addr:street": "Volunteer Landing Lane",
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "building": "yes",
+        "contact:facebook": "ruthschris",
+        "contact:instagram": "ruthschris",
+        "cuisine": "american;steak_house",
+        "name": "Ruth's Chris Steak House",
+        "opening_hours": "Mo-Th 16:00-22:00; Fr-Sa 16:00-22:30; Su 16:00-21:00",
+        "phone": "+1-865-546-4696",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://ruthschris.com/locations/tn/knoxville/knoxville/7340",
+        "website:menu": "https://ruthschris.com/menu/"
+      },
+      "center": {
+        "lat": 35.9611404,
+        "lon": -83.91253
+      }
+    }
+  ]
+}

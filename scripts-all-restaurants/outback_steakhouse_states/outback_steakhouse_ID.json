@@ -1,0 +1,91 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ID",
+    "brand": "outback_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/idaho-latest.osm.pbf",
+    "source_md5": "1a1a06364d5343af00d67fef4750905f",
+    "processed_utc": "2026-10-24T07:02:45.671077+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 32356823,
+      "tags": {
+        "addr:city": "Idaho Falls",
+        "addr:housenumber": "970",
+        "addr:postcode": "83402",
+        "addr:state": "ID",
+        "addr:street": "Lindsay Boulevard",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse",
+        "opening_hours": "Mo-Th 16:00-22:00; Fr-Sa 12:00-23:00; Su 12:00-21:00",
+        "phone": "+1 208-523-9301",
+        "website:menu": "https://www.outback.com/menu/idaho-falls/category/0"
+      },
+      "center": {
+        "lat": 43.50463485,
+        "lon": -112.05244125000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 328634782,
+      "tags": {
+        "addr:city": "Nampa",
+        "addr:housenumber": "2011",
+        "addr:postcode": "83651",
+        "addr:state": "ID",
+        "addr:street": "West Karcher Road",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "commercial",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse",
+        "opening_hours": "Su 11:30-21:00, Mo-Th 11:30-22:00, Fr-Sa 11:30-23:00",
+        "phone": "+1 208 461 4585",
+        "ref:shop:num": "1313",
+        "roof:shape": "flat",
+        "takeaway": "yes",
+        "website": "https://www.buffalowildwings.com/"
+      },
+      "center": {
+        "lat": 43.6044859,
+        "lon": -116.60612789999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1072902198,
+      "tags": {
+        "addr:city": "Boise",
+        "addr:housenumber": "7189",
+        "addr:postcode": "83709",
+        "addr:state": "ID",
+        "addr:street": "West Overland Road",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse"
+      },
+      "center": {
+        "lat": 43.58951365,
+        "lon": -116.27136780000001
+      }
+    }
+  ]
+}

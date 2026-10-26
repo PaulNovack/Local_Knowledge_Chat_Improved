@@ -1,0 +1,77 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "sbarro",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12037752747,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "name": "Sbarro",
+        "takeaway": "yes"
+      },
+      "lat": 37.4735149,
+      "lon": -105.8566406
+    },
+    {
+      "type": "node",
+      "id": 12198752146,
+      "tags": {
+        "addr:city": "Castle Rock",
+        "addr:housenumber": "4901",
+        "addr:postcode": "80109",
+        "addr:state": "CO",
+        "addr:street": "North Castleton Drive",
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Sbarro",
+        "opening_hours": "Mo-Fr 07:00-21:00; Sa-Su 08:00-21:00",
+        "phone": "+1-303-720-7314",
+        "takeaway": "yes"
+      },
+      "lat": 39.4100155,
+      "lon": -104.8723886
+    },
+    {
+      "type": "node",
+      "id": 12608554577,
+      "tags": {
+        "addr:city": "Parker",
+        "addr:housenumber": "9364",
+        "addr:postcode": "80134",
+        "addr:state": "CO",
+        "addr:street": "Jordan Road",
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "name": "Sbarro",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "phone": "+1 303-276-2851",
+        "takeaway": "yes",
+        "website": "https://sbarro.com/locations/co/parker/eg-lnj-parker-43/"
+      },
+      "lat": 39.5463421,
+      "lon": -104.7927159
+    }
+  ]
+}

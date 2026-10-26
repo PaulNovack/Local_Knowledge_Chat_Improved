@@ -1,0 +1,43 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "RI",
+    "brand": "panda_express",
+    "source": "https://download.geofabrik.de/north-america/us/rhode-island-latest.osm.pbf",
+    "source_md5": "089bd14c5348318ad280c1c9ab732067",
+    "processed_utc": "2026-10-24T07:15:29.409283+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11248157581,
+      "tags": {
+        "addr:city": "Warwick",
+        "addr:housenumber": "400",
+        "addr:postcode": "02886",
+        "addr:state": "RI",
+        "addr:street": "Bald Hill Road",
+        "addr:unit": "f10",
+        "amenity": "fast_food",
+        "branch": "Warwick Mall",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:30-20:00; Fr-Sa 10:30-21:00; Su 10:30-18:00",
+        "phone": "+1 401-738-0152",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/ri/warwick/461"
+      },
+      "lat": 41.723653,
+      "lon": -71.4758506
+    }
+  ]
+}

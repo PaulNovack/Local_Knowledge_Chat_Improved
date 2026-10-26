@@ -1,0 +1,93 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "krispy_kreme",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 272538005,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "lat": 30.4165089,
+      "lon": -88.8191015
+    },
+    {
+      "type": "way",
+      "id": 654581097,
+      "tags": {
+        "addr:city": "Hattiesburg",
+        "addr:housenumber": "5006",
+        "addr:postcode": "39402",
+        "addr:state": "MS",
+        "addr:street": "Hardy Street",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "contact:website": "https://site.krispykreme.com/ms/hattiesburg/5006-w-hardy-st",
+        "cuisine": "donut",
+        "delivery": "yes",
+        "name": "Krispy Kreme",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "phone": "+1-601-271-7700",
+        "takeaway": "yes",
+        "website": "https://site.krispykreme.com/ms/hattiesburg/5006-w-hardy-st"
+      },
+      "center": {
+        "lat": 31.32216415,
+        "lon": -89.36842139999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1195261794,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 34.9358685,
+        "lon": -89.99103055
+      }
+    },
+    {
+      "type": "way",
+      "id": 1411648527,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "retail",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.399886249999994,
+        "lon": -90.13409615
+      }
+    }
+  ]
+}

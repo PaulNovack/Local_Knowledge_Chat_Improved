@@ -1,0 +1,94 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ME",
+    "brand": "ruby_tuesday",
+    "source": "https://download.geofabrik.de/north-america/us/maine-latest.osm.pbf",
+    "source_md5": "561ab4eba7b10f360a72f8484b6f08c3",
+    "processed_utc": "2026-10-24T07:05:33.375896+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6620668201,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "lat": 43.6785475,
+      "lon": -70.3295219
+    },
+    {
+      "type": "node",
+      "id": 8910216556,
+      "tags": {
+        "addr:city": "Presque Isle",
+        "addr:housenumber": "830",
+        "addr:postcode": "04769",
+        "addr:state": "ME",
+        "addr:street": "Main Street",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "lat": 46.6991888,
+      "lon": -68.0050493
+    },
+    {
+      "type": "way",
+      "id": 328287646,
+      "tags": {
+        "addr:city": "Waterville",
+        "addr:housenumber": "20",
+        "addr:postcode": "04901",
+        "addr:state": "ME",
+        "addr:street": "Waterville Commons Drive",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday",
+        "opening_hours": "Mo-Su 11:30-21:00",
+        "phone": "+1-207-859-8991"
+      },
+      "center": {
+        "lat": 44.5706952,
+        "lon": -69.64359815
+      }
+    },
+    {
+      "type": "way",
+      "id": 704079233,
+      "tags": {
+        "addr:city": "Brewer",
+        "addr:housenumber": "5",
+        "addr:postcode": "04412",
+        "addr:state": "ME",
+        "addr:street": "Walton Drive",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "center": {
+        "lat": 44.77627905,
+        "lon": -68.73435619999998
+      }
+    }
+  ]
+}

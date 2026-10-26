@@ -1,0 +1,114 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "sweetgreen",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 511117188,
+      "tags": {
+        "addr:city": "Wayne",
+        "addr:housenumber": "223",
+        "addr:postcode": "19087",
+        "addr:state": "PA",
+        "addr:street": "East Lancaster Avenue",
+        "amenity": "fast_food",
+        "brand": "Sweetgreen",
+        "brand:wikidata": "Q18636413",
+        "check_date": "2024-08-09",
+        "cuisine": "salad",
+        "name": "Sweetgreen",
+        "opening_hours": "10:00-21:00",
+        "phone": "+1 215-398-1269",
+        "takeaway": "yes",
+        "website": "https://order.sweetgreen.com/wayne/menu"
+      },
+      "lat": 40.0441381,
+      "lon": -75.3831088
+    },
+    {
+      "type": "node",
+      "id": 2107713539,
+      "tags": {
+        "addr:city": "Philadelphia",
+        "addr:housenumber": "3925",
+        "addr:postcode": "19104",
+        "addr:state": "PA",
+        "addr:street": "Walnut Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "UPenn",
+        "brand": "Sweetgreen",
+        "brand:wikidata": "Q18636413",
+        "cuisine": "salad",
+        "drive_through": "no",
+        "name": "Sweetgreen",
+        "opening_hours": "Mo-Th 10:30-22:00; Fr-Sa 10:30-23:00; Su 10:30-22:00",
+        "phone": "+1-215-286-1365",
+        "takeaway": "yes",
+        "website": "https://sweetgreen.com",
+        "website:menu": "https://order.sweetgreen.com/upenn/menu"
+      },
+      "lat": 39.9540663,
+      "lon": -75.2011902
+    },
+    {
+      "type": "node",
+      "id": 10679432873,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sweetgreen",
+        "brand:wikidata": "Q18636413",
+        "check_date": "2023-10-16",
+        "cuisine": "salad",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Sweetgreen",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "takeaway": "yes",
+        "website": "https://order.sweetgreen.com/10th-walnut",
+        "wheelchair": "yes"
+      },
+      "lat": 39.9483406,
+      "lon": -75.1571253
+    },
+    {
+      "type": "node",
+      "id": 11554649659,
+      "tags": {
+        "addr:city": "Ardmore",
+        "addr:country": "US",
+        "addr:housenumber": "58",
+        "addr:postcode": "19003",
+        "addr:state": "PA",
+        "addr:street": "Coulter Avenue",
+        "amenity": "fast_food",
+        "brand": "Sweetgreen",
+        "brand:wikidata": "Q18636413",
+        "check_date": "2024-02-03",
+        "cuisine": "salad",
+        "drive_through": "no",
+        "name": "Sweetgreen",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "phone": "+1-610-642-9400",
+        "takeaway": "yes",
+        "website": "https://www.sweetgreen.com/locations"
+      },
+      "lat": 40.0077702,
+      "lon": -75.2878213
+    }
+  ]
+}

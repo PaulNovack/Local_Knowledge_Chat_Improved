@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ND",
+    "brand": "popeyes",
+    "source": "https://download.geofabrik.de/north-america/us/north-dakota-latest.osm.pbf",
+    "source_md5": "9eff3bc6ca09aea0f8e064cee3b44c15",
+    "processed_utc": "2026-10-24T07:12:54.105950+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5706725198,
+      "tags": {
+        "addr:city": "Fargo",
+        "addr:housenumber": "4510",
+        "addr:postcode": "58103",
+        "addr:state": "ND",
+        "addr:street": "19th Avenue South",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "opening_hours": "10:30-21:00",
+        "phone": "+1 701-551-4033",
+        "takeaway": "yes",
+        "website": "https://www.popeyes.com/store-locator/store/restaurant_85196"
+      },
+      "lat": 46.8500731,
+      "lon": -96.8632106
+    },
+    {
+      "type": "node",
+      "id": 14156218836,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Popeyes Louisiana Kitchen"
+      },
+      "lat": 48.4244397,
+      "lon": -101.3374238
+    }
+  ]
+}

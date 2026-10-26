@@ -1,0 +1,96 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "pizza_inn_america",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2972354727,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizza Inn"
+      },
+      "lat": 36.8856667,
+      "lon": -89.5557303
+    },
+    {
+      "type": "node",
+      "id": 5789918246,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Pizza Inn",
+        "brand:wikidata": "Q4118850",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Pizza Inn",
+        "takeaway": "yes"
+      },
+      "lat": 37.6352159,
+      "lon": -91.5347709
+    },
+    {
+      "type": "way",
+      "id": 468839569,
+      "tags": {
+        "addr:city": "West Plains",
+        "addr:housenumber": "1805",
+        "addr:postcode": "65775",
+        "addr:state": "MO",
+        "addr:street": "Bruce Smith Parkway",
+        "amenity": "fast_food",
+        "brand": "Pizza Inn",
+        "brand:wikidata": "Q4118850",
+        "building": "yes",
+        "check_date": "2026-03-31",
+        "check_date:opening_hours": "2026-03-31",
+        "cuisine": "pizza",
+        "name": "Pizza Inn",
+        "opening_hours": "Su-Th 11:00-21:00; Fr-Sa 11:00-22:00",
+        "phone": "+1-417-596-9800",
+        "takeaway": "yes",
+        "website": "https://www.pizzainn.com/locations/west-plains-mo/",
+        "website:menu": "https://www.pizzainn.com/menu/"
+      },
+      "center": {
+        "lat": 36.71291375,
+        "lon": -91.87790604999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 673432644,
+      "tags": {
+        "addr:city": "Jackson",
+        "addr:housenumber": "196",
+        "addr:postcode": "63755",
+        "addr:state": "MO",
+        "addr:street": "Drury Lane",
+        "amenity": "fast_food",
+        "brand": "Pizza Inn",
+        "brand:wikidata": "Q4118850",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Inn",
+        "opening_hours": "Su-Th 10:30-21:00; Fr-Sa 10:30-22:00",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 37.4283135,
+        "lon": -89.64246804999999
+      }
+    }
+  ]
+}

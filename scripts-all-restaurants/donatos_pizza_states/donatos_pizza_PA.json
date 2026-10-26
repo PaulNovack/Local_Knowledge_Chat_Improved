@@ -1,0 +1,58 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "donatos_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 532135890,
+      "tags": {
+        "addr:city": "Pittsburgh",
+        "addr:housenumber": "46",
+        "addr:postcode": "15238",
+        "addr:street": "Fox Chapel Road",
+        "amenity": "restaurant",
+        "branch": "Fox Chapel",
+        "brand": "Donatos Pizza",
+        "brand:wikidata": "Q1240741",
+        "cuisine": "pizza",
+        "name": "Donatos Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 40.4882975,
+      "lon": -79.8826677
+    },
+    {
+      "type": "node",
+      "id": 3379135365,
+      "tags": {
+        "addr:city": "Erie",
+        "addr:housenumber": "4829",
+        "addr:postcode": "16510",
+        "addr:state": "PA",
+        "addr:street": "Buffalo Road",
+        "amenity": "restaurant",
+        "brand": "Donatos Pizza",
+        "brand:wikidata": "Q1240741",
+        "cuisine": "pizza",
+        "name": "Donatos Pizza",
+        "source": "Bing",
+        "takeaway": "yes"
+      },
+      "lat": 42.1504344,
+      "lon": -79.9934432
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CA",
+    "brand": "logan_s_roadhouse",
+    "source": "https://download.geofabrik.de/north-america/us/california-latest.osm.pbf",
+    "source_md5": "26040c163edb7a5f630164ee55d5afda",
+    "processed_utc": "2026-10-24T06:59:04.829226+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2103961192,
+      "tags": {
+        "addr:city": "Sacramento",
+        "addr:housenumber": "3698",
+        "addr:postcode": "95834",
+        "addr:state": "CA",
+        "addr:street": "North Freeway Boulevard",
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse"
+      },
+      "lat": 38.6378648,
+      "lon": -121.494577
+    },
+    {
+      "type": "way",
+      "id": 173220598,
+      "tags": {
+        "addr:city": "Elk Grove",
+        "addr:housenumber": "9105",
+        "addr:postcode": "95758",
+        "addr:state": "CA",
+        "addr:street": "West Stockton Boulevard",
+        "amenity": "restaurant",
+        "brand:wikidata": "Q6666872",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cattlemens"
+      },
+      "center": {
+        "lat": 38.42706355,
+        "lon": -121.39802099999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 563030777,
+      "tags": {
+        "addr:city": "Redding",
+        "addr:country": "US",
+        "addr:housenumber": "1955",
+        "addr:postcode": "96002",
+        "addr:state": "CA",
+        "addr:street": "Hilltop Drive",
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "building": "retail",
+        "cuisine": "american",
+        "email": "lg888@jafoods.com",
+        "name": "Logan's Roadhouse",
+        "outdoor_seating": "yes",
+        "phone": "+1 530-221-0113"
+      },
+      "center": {
+        "lat": 40.57980185,
+        "lon": -122.35743385
+      }
+    }
+  ]
+}

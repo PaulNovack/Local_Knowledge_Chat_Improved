@@ -1,0 +1,113 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MI",
+    "brand": "on_the_border",
+    "source": "https://download.geofabrik.de/north-america/us/michigan-latest.osm.pbf",
+    "source_md5": "1c9e00f502a3ea973e97c7d6f989094d",
+    "processed_utc": "2026-10-24T07:07:39.587953+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2436118644,
+      "tags": {
+        "addr:city": "Grandville",
+        "addr:housenumber": "3676",
+        "addr:postcode": "49418",
+        "addr:state": "MI",
+        "addr:street": "Potomac Circle Southwest",
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "wheelchair": "yes"
+      },
+      "lat": 42.8831819,
+      "lon": -85.7546861
+    },
+    {
+      "type": "node",
+      "id": 11074176379,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina"
+      },
+      "lat": 42.8140346,
+      "lon": -86.0885171
+    },
+    {
+      "type": "way",
+      "id": 241960859,
+      "tags": {
+        "addr:city": "Novi",
+        "addr:housenumber": "21091",
+        "addr:postcode": "48375",
+        "addr:state": "MI",
+        "addr:street": "Haggerty Road",
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "yes",
+        "check_date": "2026-02-08",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "opening_hours": "Su-Th 11:00-23:00; Fr 11:00-24:00; Sa 10:00-24:00",
+        "phone": "+1-248-946-8513"
+      },
+      "center": {
+        "lat": 42.4414505,
+        "lon": -83.4358264
+      }
+    },
+    {
+      "type": "way",
+      "id": 260310449,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 42.9153349,
+        "lon": -85.58638689999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 582388537,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina"
+      },
+      "center": {
+        "lat": 42.7004841,
+        "lon": -83.30584140000002
+      }
+    }
+  ]
+}

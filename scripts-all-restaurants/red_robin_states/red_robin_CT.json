@@ -1,0 +1,82 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "red_robin",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 57945665,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews"
+      },
+      "center": {
+        "lat": 41.72287215,
+        "lon": -72.75974359999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 551360674,
+      "tags": {
+        "addr:city": "Manchester",
+        "addr:housenumber": "360",
+        "addr:postcode": "06042",
+        "addr:state": "CT",
+        "addr:street": "Buckland Hills Drive",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews",
+        "phone": "+1 860 644 4100",
+        "website": "https://order.redrobin.com/menu/red-robin-manchester-connecticut-2"
+      },
+      "center": {
+        "lat": 41.80760755,
+        "lon": -72.54048849999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 950234360,
+      "tags": {
+        "addr:city": "Enfield",
+        "addr:housenumber": "15",
+        "addr:postcode": "06082",
+        "addr:state": "CT",
+        "addr:street": "Hazard Avenue",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews"
+      },
+      "center": {
+        "lat": 41.990498200000005,
+        "lon": -72.58231845
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "pizza_ranch",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5628789408,
+      "tags": {
+        "addr:city": "Wentzville",
+        "addr:housenumber": "1225",
+        "addr:postcode": "63385",
+        "addr:street": "Wentzville Parkway",
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "cuisine": "pizza",
+        "name": "Pizza Ranch",
+        "phone": "+1-636-887-2890",
+        "website": "https://pizzaranch.com/locations/mo/wentzville/1225-wentzville-parkway"
+      },
+      "lat": 38.8259471,
+      "lon": -90.8656974
+    },
+    {
+      "type": "node",
+      "id": 12688394019,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "cuisine": "pizza",
+        "name": "Pizza Ranch"
+      },
+      "lat": 39.7959307,
+      "lon": -94.8120031
+    },
+    {
+      "type": "way",
+      "id": 495166469,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Ranch"
+      },
+      "center": {
+        "lat": 39.181897899999996,
+        "lon": -94.57595839999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 500480370,
+      "tags": {
+        "addr:city": "Independence",
+        "addr:housenumber": "4660",
+        "addr:postcode": "64055",
+        "addr:state": "MO",
+        "addr:street": "South Bass Pro Drive",
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Ranch"
+      },
+      "center": {
+        "lat": 39.0353638,
+        "lon": -94.36531130000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1054545152,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "building": "yes",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Pizza Ranch"
+      },
+      "center": {
+        "lat": 40.347125250000005,
+        "lon": -94.85308859999998
+      }
+    }
+  ]
+}

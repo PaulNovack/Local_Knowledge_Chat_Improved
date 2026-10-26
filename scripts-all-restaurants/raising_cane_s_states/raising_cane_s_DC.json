@@ -1,0 +1,65 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "raising_cane_s",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T07:20:37.151586+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 738212122,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "722",
+        "addr:postcode": "20001",
+        "addr:state": "DC",
+        "addr:street": "7th Street Northwest",
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "cuisine": "chicken",
+        "level": "0",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "start_date": "2025-10-21",
+        "takeaway": "yes",
+        "website": "https://locations.raisingcanes.com/dc/washington/722-7th-st-nw"
+      },
+      "lat": 38.899219,
+      "lon": -77.022098
+    },
+    {
+      "type": "node",
+      "id": 11898499178,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "50",
+        "addr:postcode": "20002-4214",
+        "addr:state": "DC",
+        "addr:street": "Massachusetts Avenue Northeast",
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "check_date": "2024-05-10",
+        "cuisine": "chicken",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "phone": "+1 202-481-3204",
+        "takeaway": "yes",
+        "website": "https://locations.raisingcanes.com/dc/washington/m143-50-massachusetts-ave-ne"
+      },
+      "lat": 38.8977392,
+      "lon": -77.0052092
+    }
+  ]
+}

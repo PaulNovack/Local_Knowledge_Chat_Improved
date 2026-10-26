@@ -1,0 +1,54 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SD",
+    "brand": "olive_garden",
+    "source": "https://download.geofabrik.de/north-america/us/south-dakota-latest.osm.pbf",
+    "source_md5": "4d012b130d8682e6f0e1bc093c255981",
+    "processed_utc": "2026-10-24T07:16:00.169778+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1533053889,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "lat": 43.5140141,
+      "lon": -96.7648795
+    },
+    {
+      "type": "way",
+      "id": 254754611,
+      "tags": {
+        "addr:city": "Rapid City",
+        "addr:housenumber": "160",
+        "addr:postcode": "57701",
+        "addr:state": "SD",
+        "addr:street": "Disk Drive",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 44.105246949999994,
+        "lon": -103.21492734999998
+      }
+    }
+  ]
+}

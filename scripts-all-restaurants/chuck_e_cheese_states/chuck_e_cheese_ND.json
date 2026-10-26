@@ -1,0 +1,38 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ND",
+    "brand": "chuck_e_cheese",
+    "source": "https://download.geofabrik.de/north-america/us/north-dakota-latest.osm.pbf",
+    "source_md5": "9eff3bc6ca09aea0f8e064cee3b44c15",
+    "processed_utc": "2026-10-24T07:12:54.105950+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 133113087,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "yes",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "source": "Bing",
+        "website": "https://locations.chuckecheese.com/us/nd/fargo/1202-nodak-dr."
+      },
+      "center": {
+        "lat": 46.8627457,
+        "lon": -96.83174070000001
+      }
+    }
+  ]
+}

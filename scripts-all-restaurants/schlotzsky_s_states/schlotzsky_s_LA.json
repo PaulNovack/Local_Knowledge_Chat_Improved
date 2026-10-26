@@ -1,0 +1,122 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "LA",
+    "brand": "schlotzsky_s",
+    "source": "https://download.geofabrik.de/north-america/us/louisiana-latest.osm.pbf",
+    "source_md5": "2e108953505ee82f68e2a6e7a3e4f783",
+    "processed_utc": "2026-10-24T07:05:17.318731+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2797941203,
+      "tags": {
+        "addr:city": "Lafayette",
+        "addr:housenumber": "2968",
+        "addr:postcode": "70503",
+        "addr:state": "LA",
+        "addr:street": "Johnston Street",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's",
+        "phone": "+1-337-232-6515",
+        "takeaway": "yes"
+      },
+      "lat": 30.2048653,
+      "lon": -92.0437631
+    },
+    {
+      "type": "node",
+      "id": 2798819987,
+      "tags": {
+        "addr:city": "Lafayette",
+        "addr:housenumber": "3570",
+        "addr:postcode": "70508",
+        "addr:state": "LA",
+        "addr:street": "West Pinhook Road",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's",
+        "phone": "+1-337-837-5255",
+        "takeaway": "yes"
+      },
+      "lat": 30.1599071,
+      "lon": -91.9915276
+    },
+    {
+      "type": "node",
+      "id": 4360569326,
+      "tags": {
+        "addr:city": "Baton Rouge",
+        "addr:housenumber": "5565",
+        "addr:state": "LA",
+        "addr:street": "Essen Lane",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's",
+        "takeaway": "yes"
+      },
+      "lat": 30.3976896,
+      "lon": -91.1074182
+    },
+    {
+      "type": "way",
+      "id": 438323637,
+      "tags": {
+        "addr:city": "Gonzales",
+        "addr:housenumber": "1324",
+        "addr:state": "LA",
+        "addr:street": "North Airline Highway",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's Deli"
+      },
+      "center": {
+        "lat": 30.244137000000002,
+        "lon": -90.91826430000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1391088701,
+      "tags": {
+        "addr:city": "Alexandria",
+        "addr:housenumber": "959",
+        "addr:postcode": "71303",
+        "addr:state": "LA",
+        "addr:street": "Macarthur Drive",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "building": "retail",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Schlotzsky's",
+        "opening_hours": "10:00-21:05",
+        "phone": "+1-318-445-3354",
+        "takeaway": "yes",
+        "website": "https://locations.schlotzskys.com/la/alexandria/959-macarthur-dr",
+        "website:menu": "https://www.schlotzskys.com/menu"
+      },
+      "center": {
+        "lat": 31.292581849999998,
+        "lon": -92.47659499999997
+      }
+    }
+  ]
+}

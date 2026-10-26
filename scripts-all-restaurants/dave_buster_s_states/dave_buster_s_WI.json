@@ -1,0 +1,79 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WI",
+    "brand": "dave_buster_s",
+    "source": "https://download.geofabrik.de/north-america/us/wisconsin-latest.osm.pbf",
+    "source_md5": "1718ff98080ec3edeb95ab8fb47b0ce7",
+    "processed_utc": "2026-10-24T07:19:59.510074+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4756662227,
+      "tags": {
+        "addr:housenumber": "202",
+        "addr:postcode": "54304",
+        "addr:street": "Bay Park Square",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "check_date": "2026-07-15",
+        "check_date:opening_hours": "2026-07-15",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "old_name": "Younkers",
+        "opening_hours": "Su-Th 10:00-00:00; Fr-Sa 10:00-01:00",
+        "phone": "+1-920-401-3400",
+        "website": "https://www.daveandbusters.com/us/en/about/locations/green-bay"
+      },
+      "lat": 44.4844862,
+      "lon": -88.066764
+    },
+    {
+      "type": "node",
+      "id": 5425792364,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's"
+      },
+      "lat": 43.0553642,
+      "lon": -89.5059355
+    },
+    {
+      "type": "way",
+      "id": 661594289,
+      "tags": {
+        "addr:city": "Wauwatosa",
+        "addr:housenumber": "2201",
+        "addr:postcode": "53226",
+        "addr:state": "WI",
+        "addr:street": "North Mayfair Road",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "yes",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's"
+      },
+      "center": {
+        "lat": 43.05797785,
+        "lon": -88.04870464999999
+      }
+    }
+  ]
+}

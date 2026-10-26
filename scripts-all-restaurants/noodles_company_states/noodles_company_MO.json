@@ -1,0 +1,120 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "noodles_company",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4758355721,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "9140",
+        "addr:postcode": "64157",
+        "addr:state": "MO",
+        "addr:street": "Northeast Barry Road",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "opening_hours": "Mo-Fr 11:00-21:00",
+        "phone": "+1-816-407-9089"
+      },
+      "lat": 39.2455572,
+      "lon": -94.4663624
+    },
+    {
+      "type": "node",
+      "id": 7885528687,
+      "tags": {
+        "addr:city": "Richmond Heights",
+        "addr:housenumber": "1624",
+        "addr:postcode": "63144",
+        "addr:state": "MO",
+        "addr:street": "South Hanley Road",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "opening_hours": "Su-Th 10:30-21:00, Fr-Sa 10:30-22:00",
+        "phone": "+13143170612",
+        "website": "https://noodles.com"
+      },
+      "lat": 38.6246585,
+      "lon": -90.3344718
+    },
+    {
+      "type": "node",
+      "id": 13441782350,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 38.9903055,
+      "lon": -94.6086748
+    },
+    {
+      "type": "way",
+      "id": 478324125,
+      "tags": {
+        "addr:city": "Creve Coeur",
+        "addr:housenumber": "10925",
+        "addr:postcode": "63141",
+        "addr:state": "MO",
+        "addr:street": "Olive Boulevard",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "building": "yes",
+        "cuisine": "pasta",
+        "delivery": "no",
+        "internet_access:fee": "no",
+        "level": "0",
+        "name": "Noodles & Company",
+        "opening_hours": "Mo-We 10:30-21:00,Th-Sa 10:30-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 314-997-8804",
+        "smoking": "no",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 38.673554100000004,
+        "lon": -90.42051320000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1121556899,
+      "tags": {
+        "addr:housenumber": "64",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "building": "retail",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "center": {
+        "lat": 38.5917217,
+        "lon": -90.2937986
+      }
+    }
+  ]
+}

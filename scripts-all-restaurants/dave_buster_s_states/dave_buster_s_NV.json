@@ -1,0 +1,75 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "dave_buster_s",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7021695355,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "2130",
+        "addr:postcode": "89135",
+        "addr:state": "NV",
+        "addr:street": "Park Centre Drive",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's"
+      },
+      "lat": 36.1488363,
+      "lon": -115.331895
+    },
+    {
+      "type": "node",
+      "id": 14302098201,
+      "tags": {
+        "addr:housenumber": "13969",
+        "addr:postcode": "89511",
+        "addr:street": "South Virginia Street",
+        "amenity": "restaurant",
+        "check_date": "2026-10-19",
+        "name": "Dave & Buster’s"
+      },
+      "lat": 39.4042186,
+      "lon": -119.7486485
+    },
+    {
+      "type": "way",
+      "id": 1305466029,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "821",
+        "addr:postcode": "89011",
+        "addr:state": "NV",
+        "addr:street": "David Baker Way",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "yes",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "phone": "+1-725-230-3950"
+      },
+      "center": {
+        "lat": 36.0720649,
+        "lon": -115.03342544999998
+      }
+    }
+  ]
+}

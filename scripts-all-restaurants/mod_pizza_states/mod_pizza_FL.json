@@ -1,0 +1,105 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "mod_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8479122972,
+      "tags": {
+        "addr:city": "Lutz",
+        "addr:housenumber": "2227",
+        "addr:postcode": "33559",
+        "addr:state": "FL",
+        "addr:street": "Sun Vista Drive",
+        "amenity": "fast_food",
+        "branch": "Wesley Chapel",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "cuisine": "pizza",
+        "name": "MOD Pizza",
+        "opening_hours": "Mo-We 10:30-22:00; Th-Sa 10:30-23:00; Su 10:30-22:00",
+        "phone": "+1 813-777-5524",
+        "takeaway": "yes",
+        "website": "https://locations.modpizza.com/usa/fl/lutz/2227-sun-vista-dr"
+      },
+      "lat": 28.1908365,
+      "lon": -82.3954789
+    },
+    {
+      "type": "node",
+      "id": 8747866123,
+      "tags": {
+        "addr:city": "Orlando",
+        "addr:housenumber": "11549",
+        "addr:postcode": "32821",
+        "addr:state": "FL",
+        "addr:street": "Regency Village Drive",
+        "amenity": "fast_food",
+        "branch": "Vineland Pointe",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "cuisine": "pizza",
+        "name": "MOD Pizza",
+        "opening_hours": "Mo-We 10:30-22:00; Th-Sa 10:30-23:00; Su 10:30-22:00",
+        "phone": "+1 407-239-4116",
+        "takeaway": "yes",
+        "website": "https://locations.modpizza.com/usa/fl/orlando/11549-regency-village-dr"
+      },
+      "lat": 28.3941462,
+      "lon": -81.4845851
+    },
+    {
+      "type": "node",
+      "id": 13620465551,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "cuisine": "pizza",
+        "name": "MOD Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 27.4829995,
+      "lon": -82.4086651
+    },
+    {
+      "type": "way",
+      "id": 664317395,
+      "tags": {
+        "addr:city": "Jacksonville",
+        "addr:housenumber": "12547",
+        "addr:postcode": "32258",
+        "addr:state": "FL",
+        "addr:street": "Bartram Park Boulevard",
+        "amenity": "fast_food",
+        "branch": "Bartram Village",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "MOD Pizza",
+        "opening_hours": "Mo-We 10:30-22:00; Th-Sa 10:30-23:00; Su 10:30-22:00",
+        "phone": "+1 904-666-5190",
+        "takeaway": "yes",
+        "website": "https://locations.modpizza.com/usa/fl/jacksonville/12547-bartram-park-blvd"
+      },
+      "center": {
+        "lat": 30.1409158,
+        "lon": -81.54658574999996
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/3.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DE",
+    "brand": "pizza_hut",
+    "source": "https://download.geofabrik.de/north-america/us/delaware-latest.osm.pbf",
+    "source_md5": "5f714be897be010ea09e4134c39a0638",
+    "processed_utc": "2026-10-24T06:18:11.889302+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6703404891,
+      "tags": {
+        "addr:city": "Bear",
+        "addr:housenumber": "1837",
+        "addr:postcode": "19701",
+        "addr:state": "DE",
+        "addr:street": "Pulaski Highway 40",
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "phone": "+1 302-838-5935",
+        "website": "https://locations.pizzahut.com/de/bear/1837-pulaski-hwy-40"
+      },
+      "lat": 39.6113854,
+      "lon": -75.7070456
+    },
+    {
+      "type": "node",
+      "id": 6852762214,
+      "tags": {
+        "addr:city": "Seaford",
+        "addr:housenumber": "820",
+        "addr:postcode": "19973",
+        "addr:state": "DE",
+        "addr:street": "Norman Eskridge Highway",
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "phone": "+1 302-629-0600",
+        "website": "https://locations.pizzahut.com/de/seaford/820-norman-eskridge-hwy"
+      },
+      "lat": 38.6507657,
+      "lon": -75.6036107
+    },
+    {
+      "type": "node",
+      "id": 13365270501,
+      "tags": {
+        "addr:housenumber": "515",
+        "addr:postcode": "19901",
+        "addr:street": "South Dupont Highway",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "opening_hours": "Mo-Su 10:00-00:00",
+        "phone": "+1-302-546-0145",
+        "website": "https://pizzahut.com"
+      },
+      "lat": 39.1548446,
+      "lon": -75.5123943
+    },
+    {
+      "type": "way",
+      "id": 657504368,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "building": "retail",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      },
+      "center": {
+        "lat": 39.18119455,
+        "lon": -75.52892324999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360453449,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "building": "yes",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Pizza Hut"
+      },
+      "center": {
+        "lat": 39.1186474,
+        "lon": -75.51032470000001
+      }
+    }
+  ]
+}

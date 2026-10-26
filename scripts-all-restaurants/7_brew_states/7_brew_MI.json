@@ -1,0 +1,45 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MI",
+    "brand": "7_brew",
+    "source": "https://download.geofabrik.de/north-america/us/michigan-latest.osm.pbf",
+    "source_md5": "1c9e00f502a3ea973e97c7d6f989094d",
+    "processed_utc": "2026-10-24T07:07:39.587953+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1501529042,
+      "tags": {
+        "addr:city": "Owosso",
+        "addr:housenumber": "1413",
+        "addr:postcode": "48867",
+        "addr:state": "MI",
+        "addr:street": "East Main Street",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew - Owosso",
+        "phone": "+1-479-358-9274",
+        "takeaway": "yes",
+        "website": "https://locations.7brew.com/mi/owosso/1413-e-m21"
+      },
+      "center": {
+        "lat": 42.998190550000004,
+        "lon": -84.14487585
+      }
+    }
+  ]
+}

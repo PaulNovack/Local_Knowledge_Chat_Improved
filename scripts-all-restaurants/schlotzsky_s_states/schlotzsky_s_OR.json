@@ -1,0 +1,52 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OR",
+    "brand": "schlotzsky_s",
+    "source": "https://download.geofabrik.de/north-america/us/oregon-latest.osm.pbf",
+    "source_md5": "bc93fd72fe4589fdc6c9b2b497cb7ef1",
+    "processed_utc": "2026-10-24T07:14:41.004303+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 507091530,
+      "tags": {
+        "addr:city": "Bend",
+        "addr:housenumber": "62080",
+        "addr:postcode": "97701",
+        "addr:state": "OR",
+        "addr:street": "27th Street",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "disused:amenity": "fast_food",
+        "disused:brand": "Schlotzsky's",
+        "disused:brand:wikidata": "Q2244796",
+        "disused:cuisine": "sandwich",
+        "disused:internet_access": "wlan",
+        "disused:internet_access:fee": "no",
+        "disused:opening_hours": "08:00-21:00",
+        "disused:phone": "+1-541-317-5980",
+        "disused:takeaway": "yes",
+        "disused:website": "https://www.schlotzskys.com/",
+        "drive_through": "yes",
+        "name": "Schlotzsky's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 44.054292950000004,
+        "lon": -121.26312035000001
+      }
+    }
+  ]
+}

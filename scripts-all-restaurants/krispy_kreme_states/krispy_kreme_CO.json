@@ -1,0 +1,126 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "krispy_kreme",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9866277171,
+      "tags": {
+        "addr:city": "Lone Tree",
+        "addr:housenumber": "7514",
+        "addr:postcode": "80124",
+        "addr:state": "CO",
+        "addr:street": "East Parkway Drive",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "drive_through": "yes",
+        "name": "Krispy Kreme",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "phone": "+1-303-649-9933",
+        "takeaway": "yes",
+        "website": "https://site.krispykreme.com/co/lone-tree/7514-e-parkway-dr"
+      },
+      "lat": 39.5648741,
+      "lon": -104.9027471
+    },
+    {
+      "type": "node",
+      "id": 12110442418,
+      "tags": {
+        "addr:city": "Fort Collins",
+        "addr:housenumber": "4624",
+        "addr:postcode": "80525",
+        "addr:state": "CO",
+        "addr:street": "South Mason Street",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "construction:amenity": "fast_food",
+        "cuisine": "donut",
+        "drive_through": "yes",
+        "name": "Krispy Kreme",
+        "start_date": "2024-08-13",
+        "takeaway": "yes",
+        "website": "https://www.krispykreme.com"
+      },
+      "lat": 40.5225551,
+      "lon": -105.0776682
+    },
+    {
+      "type": "way",
+      "id": 45610938,
+      "tags": {
+        "addr:city": "Thornton",
+        "addr:housenumber": "1051",
+        "addr:postcode": "80233",
+        "addr:state": "CO",
+        "addr:street": "East 120th Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "cuisine": "donut",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Krispy Kreme",
+        "opening_hours": "Mo-Su 05:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-720-977-8555",
+        "takeaway": "yes",
+        "website": "https://krispykreme.com/location/thornton",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 39.9145841,
+        "lon": -104.97403919999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 194417013,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "5790",
+        "addr:postcode": "80917",
+        "addr:state": "CO",
+        "addr:street": "South Carefree Circle",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "cuisine": "donut",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Krispy Kreme",
+        "opening_hours": "Mo-Su 05:30-22:00",
+        "phone": "+1-719-259-6543",
+        "source": "Bing",
+        "takeaway": "yes",
+        "vacant": "yes",
+        "website": "https://site.krispykreme.com/co/colorado-springs/5790-south-carefree-circle"
+      },
+      "center": {
+        "lat": 38.877810350000004,
+        "lon": -104.72111565
+      }
+    }
+  ]
+}

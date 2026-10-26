@@ -1,0 +1,42 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NH",
+    "brand": "first_watch",
+    "source": "https://download.geofabrik.de/north-america/us/new-hampshire-latest.osm.pbf",
+    "source_md5": "603b90470df09c1b933955cbfe841c6d",
+    "processed_utc": "2026-10-24T07:09:51.168561+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 52734159,
+      "tags": {
+        "addr:city": "Nashua",
+        "addr:housenumber": "256",
+        "addr:postcode": "03060",
+        "addr:state": "NH",
+        "addr:street": "Daniel Webster Highway",
+        "addr:unit": "19",
+        "amenity": "restaurant",
+        "brand": "First Watch",
+        "brand:wikidata": "Q5454064",
+        "building": "yes",
+        "cuisine": "american;breakfast",
+        "name": "First Watch",
+        "official_name": "First Watch The Daytime Cafe"
+      },
+      "center": {
+        "lat": 42.707884449999995,
+        "lon": -71.44070375000001
+      }
+    }
+  ]
+}

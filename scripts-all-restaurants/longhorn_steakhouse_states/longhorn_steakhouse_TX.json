@@ -1,0 +1,720 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TX",
+    "brand": "longhorn_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/texas-latest.osm.pbf",
+    "source_md5": "eb8f4603e9b48bd481c192fe621ae18b",
+    "processed_utc": "2026-10-24T07:17:23.814833+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12877480991,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "check_date": "2025-05-31",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "lat": 29.9942584,
+      "lon": -95.7548621
+    },
+    {
+      "type": "node",
+      "id": 13895089182,
+      "tags": {
+        "addr:city": "Brownsville",
+        "addr:housenumber": "3891",
+        "addr:postcode": "78520",
+        "addr:state": "TX",
+        "addr:street": "Expressway, 77 Frontage Rd.",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 956-983-3115",
+        "website": "https://m.longhornsteakhouse.com/locations/tx/brownsville/brownsville/5675"
+      },
+      "lat": 25.9587704,
+      "lon": -97.5089299
+    },
+    {
+      "type": "way",
+      "id": 112128881,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "commercial",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 29.48939405,
+        "lon": -98.70600945000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 210542999,
+      "tags": {
+        "addr:city": "San Antonio",
+        "addr:housenumber": "7439",
+        "addr:state": "TX",
+        "addr:street": "San Pedro Avenue",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "retail",
+        "contact:website": "https://www.longhornsteakhouse.com/locations/tx/san-antonio/san-antonio-park-north/5381",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "ref": "5381",
+        "website": "https://www.longhornsteakhouse.com/locations/tx/san-antonio/san-antonio-park-north/5381"
+      },
+      "center": {
+        "lat": 29.518349800000003,
+        "lon": -98.49988504999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 238353721,
+      "tags": {
+        "addr:city": "San Antonio",
+        "addr:housenumber": "5803",
+        "addr:postcode": "78249",
+        "addr:state": "TX",
+        "addr:street": "North Loop 1604 West",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 29.5919224,
+        "lon": -98.60122324999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 291808999,
+      "tags": {
+        "addr:city": "New Braunfels",
+        "addr:housenumber": "2963",
+        "addr:postcode": "78130",
+        "addr:state": "TX",
+        "addr:street": "Cold Spring Drive",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 29.7300492,
+        "lon": -98.07533515
+      }
+    },
+    {
+      "type": "way",
+      "id": 293977260,
+      "tags": {
+        "addr:city": "Round Rock",
+        "addr:housenumber": "2702",
+        "addr:postcode": "78681",
+        "addr:state": "TX",
+        "addr:street": "Parker Drive",
+        "addr:unit": "C",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-512-246-7474",
+        "website": "https://www.longhornsteakhouse.com/locations/tx/round-rock/round-rock-la-frontera/5414",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 30.4808528,
+        "lon": -97.68112670000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 334274274,
+      "tags": {
+        "addr:city": "San Antonio",
+        "addr:housenumber": "22503",
+        "addr:postcode": "78258",
+        "addr:state": "TX",
+        "addr:street": "US Highway 281 North",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 29.649741499999998,
+        "lon": -98.45180234999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 381922065,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "height": "7.3",
+        "name": "LongHorn Steakhouse",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 30.528147500000003,
+        "lon": -97.80861830000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 384362576,
+      "tags": {
+        "addr:city": "Austin",
+        "addr:housenumber": "9900",
+        "addr:postcode": "78748",
+        "addr:state": "TX",
+        "addr:street": "South Interstate 35",
+        "addr:unit": "U",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "branch": "Austin-Southpark Meadows",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "check_date": "2025-09-03",
+        "cuisine": "steak_house",
+        "dinner": "yes",
+        "height": "7.9",
+        "lunch": "yes",
+        "name": "LongHorn Steakhouse",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-512-292-1889",
+        "takeaway": "yes",
+        "website": "https://www.longhornsteakhouse.com",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 30.15572675,
+        "lon": -97.79186845000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 387235939,
+      "tags": {
+        "addr:city": "Katy",
+        "addr:housenumber": "20636",
+        "addr:postcode": "77449",
+        "addr:state": "TX",
+        "addr:street": "Katy Freeway",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 29.786149700000003,
+        "lon": -95.72985449999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 426880806,
+      "tags": {
+        "addr:city": "Humble",
+        "addr:housenumber": "20127",
+        "addr:state": "TX",
+        "addr:street": "Eastex Freeway",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "retail",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 30.00713505,
+        "lon": -95.26791935
+      }
+    },
+    {
+      "type": "way",
+      "id": 442009169,
+      "tags": {
+        "addr:city": "Lubbock",
+        "addr:housenumber": "4805",
+        "addr:postcode": "79424",
+        "addr:state": "TX",
+        "addr:street": "South Loop 289",
+        "addr:unit": "500",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 33.53203875,
+        "lon": -101.91596344999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 491692244,
+      "tags": {
+        "addr:city": "Webster",
+        "addr:housenumber": "19019",
+        "addr:postcode": "77598",
+        "addr:state": "TX",
+        "addr:street": "Gulf Freeway",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "steak_house",
+        "height": "5",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 29.54555665,
+        "lon": -95.14514559999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 506331679,
+      "tags": {
+        "addr:city": "Harlingen",
+        "addr:housenumber": "106",
+        "addr:postcode": "78552",
+        "addr:state": "TX",
+        "addr:street": "Bass Pro Drive",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 26.18974485,
+        "lon": -97.7210164
+      }
+    },
+    {
+      "type": "way",
+      "id": 512455621,
+      "tags": {
+        "addr:city": "Amarillo",
+        "addr:housenumber": "8200",
+        "addr:postcode": "79106",
+        "addr:state": "TX",
+        "addr:street": "West Interstate Drive",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-806-358-0640",
+        "website": "https://www.longhornsteakhouse.com/locations/tx/amarillo/amarillo/5552"
+      },
+      "center": {
+        "lat": 35.1878854,
+        "lon": -101.93198324999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 547344619,
+      "tags": {
+        "addr:housenumber": "1005",
+        "addr:street": "West University Avenue",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "check_date": "2023-04-02",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "payment:credit_cards": "yes",
+        "phone": "+1 512-863-0684",
+        "takeaway": "yes",
+        "website": "https://www.longhornsteakhouse.com",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 30.63249675,
+        "lon": -97.69394824999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 596238692,
+      "tags": {
+        "addr:city": "San Antonio",
+        "addr:housenumber": "7833",
+        "addr:postcode": "78224",
+        "addr:state": "TX",
+        "addr:street": "Interstate 35 South",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 29.35101245,
+        "lon": -98.53521285
+      }
+    },
+    {
+      "type": "way",
+      "id": 620670787,
+      "tags": {
+        "addr:city": "McAllen",
+        "addr:housenumber": "3600",
+        "addr:postcode": "78501",
+        "addr:state": "TX",
+        "addr:street": "Expressway 83",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 26.195492700000003,
+        "lon": -98.26221654999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 645090319,
+      "tags": {
+        "addr:city": "Temple",
+        "addr:housenumber": "4507",
+        "addr:postcode": "76502",
+        "addr:state": "TX",
+        "addr:street": "South General Bruce Drive",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "retail",
+        "check_date": "2025-03-23",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr,Sa 11:00-23:00",
+        "phone": "+1 254-774-1248",
+        "website": "https://www.longhornsteakhouse.com/locations/tx/temple/temple/5535"
+      },
+      "center": {
+        "lat": 31.0864161,
+        "lon": -97.39807044999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 666856798,
+      "tags": {
+        "addr:city": "Spring",
+        "addr:housenumber": "26805",
+        "addr:postcode": "77380",
+        "addr:state": "TX",
+        "addr:street": "Interstate 45 North Frontage Road",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 30.150845,
+        "lon": -95.44943524999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 670333783,
+      "tags": {
+        "addr:city": "Plano",
+        "addr:housenumber": "3421",
+        "addr:postcode": "75023",
+        "addr:state": "TX",
+        "addr:street": "Central Expressway",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 33.043864850000006,
+        "lon": -96.70216540000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 725250620,
+      "tags": {
+        "addr:city": "Weatherford",
+        "addr:housenumber": "325",
+        "addr:postcode": "76086",
+        "addr:state": "TX",
+        "addr:street": "East Interstate 20",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "former_name": "Logan's Roadhouse",
+        "indoor_seating": "yes",
+        "name": "LongHorn Steakhouse",
+        "outdoor_seating": "no"
+      },
+      "center": {
+        "lat": 32.7314031,
+        "lon": -97.78588854999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 734028884,
+      "tags": {
+        "addr:city": "Laredo",
+        "addr:housenumber": "5301",
+        "addr:postcode": "78041",
+        "addr:state": "TX",
+        "addr:street": "San Dario Avenue",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 27.548257,
+        "lon": -99.50278600000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 734499947,
+      "tags": {
+        "addr:city": "Waco",
+        "addr:housenumber": "4300",
+        "addr:postcode": "76710",
+        "addr:state": "TX",
+        "addr:street": "Franklin Avenue",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 31.523551750000003,
+        "lon": -97.16645749999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 771936810,
+      "tags": {
+        "addr:city": "Beaumont",
+        "addr:housenumber": "5920",
+        "addr:postcode": "77708",
+        "addr:state": "TX",
+        "addr:street": "Eastex Freeway",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "check_date": "2026-01-16",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 30.12759165,
+        "lon": -94.15725944999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 794935063,
+      "tags": {
+        "addr:city": "Texarkana",
+        "addr:housenumber": "3912",
+        "addr:postcode": "75503",
+        "addr:state": "TX",
+        "addr:street": "Saint Michael Drive",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 33.45577545,
+        "lon": -94.09041865
+      }
+    },
+    {
+      "type": "way",
+      "id": 1052130093,
+      "tags": {
+        "addr:city": "Sunset Valley",
+        "addr:housenumber": "4809",
+        "addr:postcode": "78745",
+        "addr:state": "TX",
+        "addr:street": "West US Highway 290",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 30.232213,
+        "lon": -97.81655899999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1067933490,
+      "tags": {
+        "addr:city": "Sugar Land",
+        "addr:housenumber": "16746",
+        "addr:postcode": "77479",
+        "addr:state": "TX",
+        "addr:street": "Southwest Freeway",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "check_date": "2024-11-01",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 29.59059215,
+        "lon": -95.63480394999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1079090036,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 26.2702124,
+        "lon": -98.21924754999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1131060037,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 32.908830800000004,
+        "lon": -97.3183464
+      }
+    },
+    {
+      "type": "way",
+      "id": 1222842968,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 32.29857465,
+        "lon": -95.3012622
+      }
+    },
+    {
+      "type": "way",
+      "id": 1340624518,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 32.57498065,
+        "lon": -97.31830860000002
+      }
+    }
+  ]
+}

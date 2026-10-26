@@ -1,0 +1,43 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "mission_bbq",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 662640274,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "375",
+        "addr:postcode": "89014",
+        "addr:state": "NV",
+        "addr:street": "North Stephanie Street",
+        "amenity": "restaurant",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ",
+        "opening_hours": "Mo-Sa 11:00-21:00; Su 11:30-20:00",
+        "phone": "+1-702-835-6822",
+        "website": "https://mission-bbq.com/locations-and-menu/henderson-nv/"
+      },
+      "center": {
+        "lat": 36.05568715,
+        "lon": -115.04693974999998
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "sweetgreen",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6030952686,
+      "tags": {
+        "addr:city": "Seattle",
+        "addr:housenumber": "801",
+        "addr:postcode": "98121",
+        "addr:state": "WA",
+        "addr:street": "Lenora Street",
+        "amenity": "fast_food",
+        "brand": "Sweetgreen",
+        "brand:wikidata": "Q18636413",
+        "check_date": "2025-12-29",
+        "check_date:opening_hours": "2025-12-29",
+        "cuisine": "salad",
+        "name": "Sweetgreen",
+        "opening_hours": "Mo-Su 10:30-21:00",
+        "takeaway": "yes",
+        "website": "https://www.sweetgreen.com/locations/south-lake-union"
+      },
+      "lat": 47.6164977,
+      "lon": -122.3376528
+    },
+    {
+      "type": "node",
+      "id": 12254179752,
+      "tags": {
+        "addr:city": "Seattle",
+        "addr:country": "US",
+        "addr:housenumber": "1530",
+        "addr:postcode": "98122",
+        "addr:state": "WA",
+        "addr:street": "11th Avenue",
+        "addr:unit": "A",
+        "amenity": "fast_food",
+        "brand": "Sweetgreen",
+        "brand:wikidata": "Q18636413",
+        "check_date": "2025-01-01",
+        "contact:phone": "+1-253-499-8563",
+        "contact:website": "https://order.sweetgreen.com/11th-pine/menu",
+        "cuisine": "salad",
+        "indoor_seating": "yes",
+        "level": "0",
+        "name": "Sweetgreen",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "outdoor_seating": "no",
+        "takeaway": "yes"
+      },
+      "lat": 47.6151088,
+      "lon": -122.3179752
+    },
+    {
+      "type": "way",
+      "id": 1365269631,
+      "tags": {
+        "addr:city": "Kirkland",
+        "addr:housenumber": "11900",
+        "addr:postcode": "98034",
+        "addr:state": "WA",
+        "addr:street": "Northeast Village Plaza",
+        "addr:unit": "Suite C-154",
+        "amenity": "fast_food",
+        "brand": "Sweetgreen",
+        "brand:wikidata": "Q18636413",
+        "building:part": "retail",
+        "cuisine": "salad",
+        "internet_access": "wlan",
+        "level": "0",
+        "name": "Sweetgreen",
+        "opening_hours": "10:30-22:00",
+        "payment:app": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:google_pay": "yes",
+        "phone": "+1-425-403-2998",
+        "takeaway": "yes",
+        "website": "https://order.sweetgreen.com/totem-lake/menu"
+      },
+      "center": {
+        "lat": 47.712600550000005,
+        "lon": -122.18138269999997
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "the_original_pancake_house",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2504506713,
+      "tags": {
+        "addr:city": "Pittsburgh",
+        "addr:housenumber": "2229",
+        "addr:postcode": "15220",
+        "addr:state": "PA",
+        "addr:street": "Swallow Hill Road",
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House",
+        "phone": "+1-412-279-1442",
+        "website": "https://www.originalpancakehousepittsburgh.com/location/scott-townshipsouth-hills/"
+      },
+      "lat": 40.3915907,
+      "lon": -80.0738474
+    },
+    {
+      "type": "way",
+      "id": 347013754,
+      "tags": {
+        "addr:city": "Pittsburgh",
+        "addr:housenumber": "30",
+        "addr:postcode": "15237",
+        "addr:state": "PA",
+        "addr:street": "McIntyre Square Drive",
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House",
+        "phone": "+1-412-358-9622",
+        "source:geometry": "bing",
+        "website": "https://www.originalpancakehousepittsburgh.com/location/ross-townshipnorth-hills/"
+      },
+      "center": {
+        "lat": 40.5522388,
+        "lon": -80.01903915000003
+      }
+    }
+  ]
+}

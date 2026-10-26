@@ -1,0 +1,38 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TN",
+    "brand": "qdoba",
+    "source": "https://download.geofabrik.de/north-america/us/tennessee-latest.osm.pbf",
+    "source_md5": "a047c5da6c897a8a98b1fc4a282b8d3f",
+    "processed_utc": "2026-10-24T07:16:20.210730+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 544053310,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "building": "yes",
+        "cuisine": "mexican",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Grill",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.1502877,
+        "lon": -86.80059819999997
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "red_robin",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1805114899,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "smoking": "no",
+        "wheelchair": "yes"
+      },
+      "lat": 42.1736035,
+      "lon": -72.6418862
+    },
+    {
+      "type": "node",
+      "id": 11264710224,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews"
+      },
+      "lat": 42.0929433,
+      "lon": -71.2654652
+    },
+    {
+      "type": "node",
+      "id": 12088154932,
+      "tags": {
+        "addr:city": "Millbury",
+        "addr:housenumber": "70",
+        "addr:postcode": "01527",
+        "addr:state": "MA",
+        "addr:street": "Worcester-Providence Turnpike",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+15089176012",
+        "website": "https://locations.redrobin.com/ma/millbury/175/"
+      },
+      "lat": 42.199229,
+      "lon": -71.7773053
+    },
+    {
+      "type": "way",
+      "id": 83368314,
+      "tags": {
+        "addr:city": "Plymouth",
+        "addr:housenumber": "269",
+        "addr:postcode": "02360",
+        "addr:state": "MA",
+        "addr:street": "Colony Place",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews"
+      },
+      "center": {
+        "lat": 41.951732699999994,
+        "lon": -70.71480985
+      }
+    }
+  ]
+}

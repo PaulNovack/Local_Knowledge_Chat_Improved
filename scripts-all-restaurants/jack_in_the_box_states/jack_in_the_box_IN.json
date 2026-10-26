@@ -1,0 +1,93 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "jack_in_the_box",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5276446583,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "2130",
+        "addr:postcode": "46219",
+        "addr:state": "IN",
+        "addr:street": "North Post Road",
+        "amenity": "fast_food",
+        "brand": "Jack in the Box",
+        "brand:wikidata": "Q1538507",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Jack in the Box",
+        "opening_hours": "24/7",
+        "outdoor_seating": "yes",
+        "phone": "+1 317-897-8043",
+        "takeaway": "yes",
+        "website": "https://locations.jackinthebox.com/us/in/indianapolis/2130-n-post-rd"
+      },
+      "lat": 39.7975655,
+      "lon": -86.0101428
+    },
+    {
+      "type": "way",
+      "id": 1025969017,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "5613",
+        "addr:postcode": "46254",
+        "addr:state": "IN",
+        "addr:street": "West 38th Street",
+        "amenity": "fast_food",
+        "brand": "Jack in the Box",
+        "brand:wikidata": "Q1538507",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Jack in the Box",
+        "phone": "+1 317-291-5703",
+        "source": "esri/Indianapolis_IN_Buildings",
+        "takeaway": "yes",
+        "website": "https://locations.jackinthebox.com/us/in/indianapolis/5613-w-38th-st"
+      },
+      "center": {
+        "lat": 39.823199349999996,
+        "lon": -86.25975879999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1083065625,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "8950",
+        "addr:postcode": "46227",
+        "addr:state": "IN",
+        "addr:street": "South US 31",
+        "amenity": "fast_food",
+        "brand": "Jack in the Box",
+        "brand:wikidata": "Q1538507",
+        "building": "commercial",
+        "cuisine": "burger",
+        "name": "Jack in the Box",
+        "phone": "+1 317-859-2803",
+        "source": "esri/Indianapolis_IN_Buildings",
+        "takeaway": "yes",
+        "website": "https://locations.jackinthebox.com/us/in/indianapolis/8950-s-us-31"
+      },
+      "center": {
+        "lat": 39.63579795,
+        "lon": -86.12771354999995
+      }
+    }
+  ]
+}

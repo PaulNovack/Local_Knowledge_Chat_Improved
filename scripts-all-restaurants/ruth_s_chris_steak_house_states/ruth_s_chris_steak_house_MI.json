@@ -1,0 +1,61 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MI",
+    "brand": "ruth_s_chris_steak_house",
+    "source": "https://download.geofabrik.de/north-america/us/michigan-latest.osm.pbf",
+    "source_md5": "1c9e00f502a3ea973e97c7d6f989094d",
+    "processed_utc": "2026-10-24T07:07:39.587953+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3269182222,
+      "tags": {
+        "addr:city": "Troy",
+        "addr:housenumber": "755",
+        "addr:postcode": "48084",
+        "addr:state": "MI",
+        "addr:street": "West Big Beaver Road",
+        "addr:unit": "Suite 151",
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "cuisine": "american;steak_house",
+        "name": "Ruth's Chris Steak House",
+        "source": "https://contact.ruthschris.com/websurvey/2/execute?_g=OTkxMw%3D%3Df&_s=fc692a4e-86d8-40ca-a990-370ca2704f4f#!/1",
+        "wheelchair": "yes"
+      },
+      "lat": 42.5602285,
+      "lon": -83.1614585
+    },
+    {
+      "type": "node",
+      "id": 9187951217,
+      "tags": {
+        "addr:city": "Grand Rapids",
+        "addr:housenumber": "187",
+        "addr:postcode": "49503",
+        "addr:state": "MI",
+        "addr:street": "Monroe Avenue Northwest",
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "name": "Ruth's Chris Steak House",
+        "phone": "+1-616-776-6426",
+        "website": "https://ruthschris.com/"
+      },
+      "lat": 42.9670244,
+      "lon": -85.6724914
+    }
+  ]
+}

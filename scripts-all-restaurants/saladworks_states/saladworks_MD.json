@@ -1,0 +1,76 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "saladworks",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6532410075,
+      "tags": {
+        "addr:city": "College Park",
+        "addr:housenumber": "214",
+        "addr:postcode": "20742",
+        "addr:state": "MD",
+        "addr:street": "Campus Drive",
+        "amenity": "fast_food",
+        "brand": "Saladworks",
+        "brand:wikidata": "Q7403411",
+        "cuisine": "salad",
+        "drive_through": "no",
+        "name": "Saladworks",
+        "takeaway": "yes"
+      },
+      "lat": 38.9881946,
+      "lon": -76.94453
+    },
+    {
+      "type": "node",
+      "id": 6715656462,
+      "tags": {
+        "addr:city": "Bel Air",
+        "addr:housenumber": "617",
+        "addr:postcode": "21014",
+        "addr:state": "MD",
+        "addr:street": "Belair Road",
+        "amenity": "fast_food",
+        "brand": "Saladworks",
+        "brand:wikidata": "Q7403411",
+        "contact:facebook": "@SaladworksBelAir",
+        "cuisine": "salad",
+        "name": "Saladworks",
+        "note": "officially open on 2020-01-15",
+        "phone": "+1-443-640-4680",
+        "takeaway": "yes",
+        "website": "https://saladworks.com/"
+      },
+      "lat": 39.5247114,
+      "lon": -76.3533539
+    },
+    {
+      "type": "node",
+      "id": 9690827680,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Saladworks",
+        "brand:wikidata": "Q7403411",
+        "cuisine": "salad",
+        "name": "Saladworks",
+        "takeaway": "yes"
+      },
+      "lat": 38.3405445,
+      "lon": -75.6053311
+    }
+  ]
+}

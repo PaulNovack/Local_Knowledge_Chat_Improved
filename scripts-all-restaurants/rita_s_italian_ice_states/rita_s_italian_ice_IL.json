@@ -1,0 +1,86 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "rita_s_italian_ice",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11895740399,
+      "tags": {
+        "addr:city": "Oak Lawn",
+        "addr:housenumber": "5136",
+        "addr:postcode": "60453",
+        "addr:state": "IL",
+        "addr:street": "West 95th Street",
+        "amenity": "ice_cream",
+        "brand": "Rita's Italian Ice",
+        "brand:wikidata": "Q7336456",
+        "cuisine": "ice_cream",
+        "name": "Rita's Italian Ice",
+        "website": "https://www.ritasice.com/location/ritas-of-oak-lawn-il/"
+      },
+      "lat": 41.7201169,
+      "lon": -87.7500872
+    },
+    {
+      "type": "node",
+      "id": 13712910684,
+      "tags": {
+        "addr:city": "Park Ridge",
+        "addr:housenumber": "157",
+        "addr:postcode": "60068",
+        "addr:state": "IL",
+        "addr:street": "North Northwest Highway",
+        "amenity": "ice_cream",
+        "brand": "Rita's Italian Ice",
+        "brand:wikidata": "Q7336456",
+        "name": "Rita's Italian Ice",
+        "website": "https://www.ritasice.com/location/ritas-of-park-ridge-il"
+      },
+      "lat": 42.0132283,
+      "lon": -87.8323413
+    },
+    {
+      "type": "way",
+      "id": 164021858,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "5940",
+        "addr:postcode": "60659",
+        "addr:state": "IL",
+        "addr:street": "North Lincoln Avenue",
+        "addr:street:name": "Lincoln",
+        "addr:street:prefix": "North",
+        "addr:street:type": "Avenue",
+        "amenity": "ice_cream",
+        "brand": "Rita's Italian Ice",
+        "brand:wikidata": "Q7336456",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "ice_cream",
+        "diet:kosher": "only",
+        "diet:kosher:certifier": "CRC",
+        "diet:kosher:dairy": "only",
+        "name": "Rita's Italian Ice",
+        "outdoor_seating": "yes",
+        "website": "https://www.ritasice.com/location/ritas-of-west-ridge-il/"
+      },
+      "center": {
+        "lat": 41.9889961,
+        "lon": -87.70546954999998
+      }
+    }
+  ]
+}

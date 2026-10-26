@@ -1,0 +1,59 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "black_bear_diner",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 112753554,
+      "tags": {
+        "addr:city": "Fayetteville",
+        "addr:housenumber": "4078",
+        "addr:postcode": "72703",
+        "addr:street": "North College Avenue",
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Black Bear Diner",
+        "opening_hours": "07:00-20:00",
+        "phone": "+1 479 368 0144",
+        "website": "https://blackbeardiner.com/location/fayetteville/"
+      },
+      "center": {
+        "lat": 36.12548905,
+        "lon": -94.14406565000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 918407980,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "building": "yes",
+        "check_date": "2025-12-07",
+        "cuisine": "american",
+        "name": "Black Bear Diner"
+      },
+      "center": {
+        "lat": 34.7950924,
+        "lon": -92.23348494999999
+      }
+    }
+  ]
+}

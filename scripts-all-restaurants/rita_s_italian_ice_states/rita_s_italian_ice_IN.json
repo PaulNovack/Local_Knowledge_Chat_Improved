@@ -1,0 +1,61 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "rita_s_italian_ice",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5000638849,
+      "tags": {
+        "addr:city": "Fishers",
+        "addr:country": "US",
+        "addr:housenumber": "8910",
+        "addr:postcode": "46037",
+        "addr:state": "IN",
+        "addr:street": "East 96th Street",
+        "amenity": "ice_cream",
+        "branch": "and Frozen Custard",
+        "brand": "Rita's Italian Ice",
+        "brand:wikidata": "Q7336456",
+        "cuisine": "ice_cream",
+        "delivery": "no",
+        "name": "Rita's Italian Ice",
+        "outdoor_seating": "yes"
+      },
+      "lat": 39.9278247,
+      "lon": -86.0114659
+    },
+    {
+      "type": "node",
+      "id": 10087973771,
+      "tags": {
+        "addr:city": "Carmel",
+        "addr:housenumber": "110",
+        "addr:postcode": "46033",
+        "addr:state": "IN",
+        "addr:street": "West Main Street",
+        "addr:unit": "127",
+        "amenity": "ice_cream",
+        "branch": "Ice",
+        "brand": "Rita's Italian Ice",
+        "brand:wikidata": "Q7336456",
+        "cuisine": "ice_cream",
+        "name": "Rita's Italian Ice"
+      },
+      "lat": 39.978501,
+      "lon": -86.1293201
+    }
+  ]
+}

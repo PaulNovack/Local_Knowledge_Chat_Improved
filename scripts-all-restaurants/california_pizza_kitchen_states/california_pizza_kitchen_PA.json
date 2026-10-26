@@ -1,0 +1,80 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "california_pizza_kitchen",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1027315923,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "cuisine": "pizza",
+        "name": "California Pizza Kitchen",
+        "short_name": "CPK"
+      },
+      "lat": 40.0894175,
+      "lon": -75.3848242
+    },
+    {
+      "type": "node",
+      "id": 3922596256,
+      "tags": {
+        "addr:city": "Pittsburgh",
+        "addr:housenumber": "1000",
+        "addr:postcode": "15237",
+        "addr:state": "PA",
+        "addr:street": "Ross Park Mall Drive",
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "cuisine": "pizza",
+        "level": "0",
+        "name": "California Pizza Kitchen",
+        "phone": "+1 412 548 1399",
+        "short_name": "CPK"
+      },
+      "lat": 40.5428266,
+      "lon": -80.0085791
+    },
+    {
+      "type": "way",
+      "id": 289626903,
+      "tags": {
+        "addr:city": "Plymouth Meeting",
+        "addr:housenumber": "514",
+        "addr:postcode": "19462",
+        "addr:state": "PA",
+        "addr:street": "West Germantown Pike",
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "building": "yes",
+        "check_date": "2026-01-16",
+        "cuisine": "pizza",
+        "name": "California Pizza Kitchen",
+        "opening_hours": "Mo-Th,Su 10:30-21:30; Fr-Sa 10:30-22:00",
+        "phone": "+1 610-828-8232",
+        "short_name": "CPK",
+        "website": "https://www.cpk.com/locations/california-pizza-kitchen-plymouth-meeting-mall"
+      },
+      "center": {
+        "lat": 40.1172762,
+        "lon": -75.28231925
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "RI",
+    "brand": "saladworks",
+    "source": "https://download.geofabrik.de/north-america/us/rhode-island-latest.osm.pbf",
+    "source_md5": "089bd14c5348318ad280c1c9ab732067",
+    "processed_utc": "2026-10-24T07:15:29.409283+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9809183264,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Saladworks",
+        "brand:wikidata": "Q7403411",
+        "check_date": "2022-06-10",
+        "cuisine": "salad",
+        "drive_through": "no",
+        "internet_access": "no",
+        "level": "0",
+        "name": "Saladworks",
+        "opening_hours": "Mo-Sa 11:00-21:00; Su 11:00-18:00",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 41.7056755,
+      "lon": -71.4923309
+    }
+  ]
+}

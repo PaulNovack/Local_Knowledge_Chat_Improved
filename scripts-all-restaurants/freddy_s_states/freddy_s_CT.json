@@ -1,0 +1,61 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "freddy_s",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6349380849,
+      "tags": {
+        "addr:city": "Cromwell",
+        "addr:housenumber": "550",
+        "addr:postcode": "06416",
+        "addr:state": "CT",
+        "addr:street": "Main Street",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Freddy's Pizza & Grinders",
+        "not:brand:wikidata": "Q5496837"
+      },
+      "lat": 41.6186321,
+      "lon": -72.6535907
+    },
+    {
+      "type": "way",
+      "id": 173001271,
+      "tags": {
+        "addr:city": "Plainville",
+        "addr:housenumber": "230",
+        "addr:postcode": "06062",
+        "addr:state": "CT",
+        "addr:street": "New Britain Avenue",
+        "amenity": "restaurant",
+        "brand": "Friendly's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger;american",
+        "name": "Friendly's",
+        "official_name": "Friendly's",
+        "phone": "+1-860-410-9703",
+        "takeaway": "yes",
+        "website": "https://www.friendlys.com/"
+      },
+      "center": {
+        "lat": 41.6762331,
+        "lon": -72.84185969999999
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "fleming_s",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1848893550,
+      "tags": {
+        "addr:city": "Charlotte",
+        "addr:housenumber": "210",
+        "addr:postcode": "28202",
+        "addr:state": "NC",
+        "addr:street": "East Trade Street",
+        "addr:unit": "Suite C-110",
+        "amenity": "restaurant",
+        "brand": "Fleming's",
+        "brand:wikidata": "Q5458552",
+        "cuisine": "steak_house",
+        "name": "Fleming's",
+        "official_name": "Fleming's Prime Steakhouse & Wine Bar"
+      },
+      "lat": 35.225542,
+      "lon": -80.8427582
+    },
+    {
+      "type": "way",
+      "id": 324348501,
+      "tags": {
+        "addr:housenumber": "3342",
+        "addr:street": "West Friendly Avenue",
+        "amenity": "restaurant",
+        "branch": "Prime Steakhouse",
+        "brand": "Fleming's",
+        "brand:wikidata": "Q5458552",
+        "building": "retail",
+        "check_date": "2025-01-14",
+        "cuisine": "steak_house",
+        "name": "Fleming's",
+        "official_name": "Fleming's Prime Steakhouse & Wine Bar",
+        "opening_hours": "Mo-Sa 16:00-22:00; Su 16:00-21:00",
+        "phone": "+1 336-294-7790",
+        "website": "https://www.flemingssteakhouse.com/locations/nc/greensboro"
+      },
+      "center": {
+        "lat": 36.08682585,
+        "lon": -79.84018760000004
+      }
+    }
+  ]
+}

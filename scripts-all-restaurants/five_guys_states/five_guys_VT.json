@@ -1,0 +1,111 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VT",
+    "brand": "five_guys",
+    "source": "https://download.geofabrik.de/north-america/us/vermont-latest.osm.pbf",
+    "source_md5": "20a19d56b1e59d82493b3194b9e30440",
+    "processed_utc": "2026-10-24T07:18:02.754583+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9143745324,
+      "tags": {
+        "addr:city": "South Burlington",
+        "addr:housenumber": "570",
+        "addr:postcode": "05401",
+        "addr:state": "VT",
+        "addr:street": "Shelburne Road",
+        "amenity": "fast_food",
+        "branch": "The Gateway",
+        "brand": "Five Guys",
+        "brand:wikidata": "Q1131810",
+        "cuisine": "burger",
+        "indoor_seating": "yes",
+        "name": "Five Guys",
+        "official_name": "Five Guys Burgers and Fries",
+        "opening_hours": "11:00-21:30",
+        "outdoor_seating": "yes",
+        "phone": "+1 802-318-4522",
+        "takeaway": "yes",
+        "website": "https://restaurants.fiveguys.com/570-shelburne-road"
+      },
+      "lat": 44.4486356,
+      "lon": -73.2080459
+    },
+    {
+      "type": "way",
+      "id": 694353916,
+      "tags": {
+        "addr:city": "West Lebanon",
+        "addr:housenumber": "250",
+        "addr:postcode": "03784",
+        "addr:state": "NH",
+        "addr:street": "Plainfield Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "Upper Valley Plaza",
+        "brand": "Five Guys",
+        "brand:wikidata": "Q1131810",
+        "building": "yes",
+        "check_date:opening_hours": "2024-12-28",
+        "cuisine": "burger",
+        "delivery": "no",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "drive_through": "no",
+        "indoor_seating": "yes",
+        "name": "Five Guys",
+        "official_name": "Five Guys Burgers and Fries",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "outdoor_seating": "no",
+        "phone": "+1 603-790-8076",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://restaurants.fiveguys.com/250-plainfield-rd",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 43.63044175,
+        "lon": -72.32481330000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 983298637,
+      "tags": {
+        "addr:city": "Rutland",
+        "addr:housenumber": "5",
+        "addr:postcode": "05701",
+        "addr:state": "VT",
+        "addr:street": "North Main Street",
+        "amenity": "fast_food",
+        "branch": "Rutland",
+        "brand": "Five Guys",
+        "brand:wikidata": "Q1131810",
+        "building": "commercial",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "name": "Five Guys",
+        "official_name": "Five Guys Burgers and Fries",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+1 802-417-2752",
+        "ref:vcgi:esiteid": "210456",
+        "takeaway": "yes",
+        "website": "https://restaurants.fiveguys.com/5-n-main-street"
+      },
+      "center": {
+        "lat": 43.60919825,
+        "lon": -72.97297275
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SC",
+    "brand": "jet_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/south-carolina-latest.osm.pbf",
+    "source_md5": "488018afb1e1040732b7a791d4ebffae",
+    "processed_utc": "2026-10-24T07:15:46.592450+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2531729947,
+      "tags": {
+        "addr:housenumber": "5325",
+        "addr:postcode": "29418",
+        "addr:street": "Park Forest Parkway",
+        "amenity": "restaurant",
+        "name": "Jet's Pizza"
+      },
+      "lat": 32.9122432,
+      "lon": -80.108394
+    },
+    {
+      "type": "node",
+      "id": 2973812102,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza"
+      },
+      "lat": 34.8707532,
+      "lon": -82.2562244
+    },
+    {
+      "type": "node",
+      "id": 3162919472,
+      "tags": {
+        "addr:city": "Simpsonville",
+        "addr:housenumber": "216",
+        "addr:street": "Scuffletown Road",
+        "addr:unit": "F",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza"
+      },
+      "lat": 34.8040017,
+      "lon": -82.2292075
+    },
+    {
+      "type": "node",
+      "id": 3351315315,
+      "tags": {
+        "addr:city": "Anderson",
+        "addr:postcode": "29621",
+        "addr:street": "North Highway 81",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza"
+      },
+      "lat": 34.5954408,
+      "lon": -82.6166279
+    }
+  ]
+}

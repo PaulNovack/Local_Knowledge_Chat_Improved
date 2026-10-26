@@ -1,0 +1,47 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "smoothie_king",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4133757591,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Smoothie King",
+        "brand:wikidata": "Q5491421",
+        "cuisine": "juice",
+        "name": "Smoothie King",
+        "takeaway": "yes"
+      },
+      "lat": 41.2619838,
+      "lon": -73.0066353
+    },
+    {
+      "type": "node",
+      "id": 5136215021,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Smoothie King",
+        "brand:wikidata": "Q5491421",
+        "cuisine": "juice",
+        "name": "Smoothie King",
+        "takeaway": "yes"
+      },
+      "lat": 41.2757352,
+      "lon": -72.8374513
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NM",
+    "brand": "red_lobster",
+    "source": "https://download.geofabrik.de/north-america/us/new-mexico-latest.osm.pbf",
+    "source_md5": "5e236c0e9dd59b2df560a9316c86a745",
+    "processed_utc": "2026-10-24T07:10:42.593170+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3561724593,
+      "tags": {
+        "addr:housenumber": "5555",
+        "addr:street": "Montgomery Boulevard Northeast",
+        "addr:unit": "4",
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "cuisine": "seafood",
+        "name": "Red Lobster",
+        "outdoor_seating": "no",
+        "smoking": "no"
+      },
+      "lat": 35.131937,
+      "lon": -106.5784328
+    },
+    {
+      "type": "node",
+      "id": 3706212458,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "cuisine": "seafood",
+        "name": "Red Lobster",
+        "source": "Bing"
+      },
+      "lat": 33.4265638,
+      "lon": -104.5225393
+    },
+    {
+      "type": "node",
+      "id": 6626953349,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "cuisine": "seafood",
+        "name": "Red Lobster"
+      },
+      "lat": 35.6379228,
+      "lon": -106.0157882
+    },
+    {
+      "type": "node",
+      "id": 10270744742,
+      "tags": {
+        "addr:city": "Rio Rancho",
+        "addr:housenumber": "10520",
+        "addr:postcode": "87114",
+        "addr:state": "NM",
+        "addr:street": "Coors Boulevard Bypass Northwest",
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "cuisine": "seafood",
+        "name": "Red Lobster"
+      },
+      "lat": 35.2085206,
+      "lon": -106.6575536
+    },
+    {
+      "type": "way",
+      "id": 67292629,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "building": "retail",
+        "cuisine": "seafood",
+        "name": "Red Lobster"
+      },
+      "center": {
+        "lat": 32.314399300000005,
+        "lon": -106.74255110000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 550333918,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "building": "yes",
+        "check_date": "2025-12-09",
+        "cuisine": "seafood",
+        "name": "Red Lobster"
+      },
+      "center": {
+        "lat": 36.748782750000004,
+        "lon": -108.15983145000001
+      }
+    }
+  ]
+}

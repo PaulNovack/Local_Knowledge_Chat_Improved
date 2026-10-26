@@ -1,0 +1,70 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "auntie_anne_s",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6861439060,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "drive_through": "no",
+        "name": "Auntie Anne's",
+        "takeaway": "yes"
+      },
+      "lat": 40.2756095,
+      "lon": -111.6798458
+    },
+    {
+      "type": "node",
+      "id": 11882564966,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "name": "Auntie Anne's",
+        "takeaway": "yes"
+      },
+      "lat": 40.785899,
+      "lon": -111.9804934
+    },
+    {
+      "type": "node",
+      "id": 13273265040,
+      "tags": {
+        "addr:city": "Lehi",
+        "addr:housenumber": "3700",
+        "addr:postcode": "84048",
+        "addr:state": "UT",
+        "addr:street": "North Cabelas Boulevard",
+        "addr:unit": "234",
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "check_date": "2025-10-31",
+        "cuisine": "pretzel",
+        "name": "Auntie Anne's",
+        "opening_hours": "Mo-Sa 10:00-20:00; Su 11:00-18:00",
+        "takeaway": "yes"
+      },
+      "lat": 40.4358245,
+      "lon": -111.8854329
+    }
+  ]
+}

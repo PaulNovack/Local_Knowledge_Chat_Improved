@@ -1,0 +1,51 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MI",
+    "brand": "pizza_factory",
+    "source": "https://download.geofabrik.de/north-america/us/michigan-latest.osm.pbf",
+    "source_md5": "1c9e00f502a3ea973e97c7d6f989094d",
+    "processed_utc": "2026-10-24T07:07:39.587953+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4958557023,
+      "tags": {
+        "addr:city": "Mears",
+        "addr:housenumber": "7854",
+        "addr:postcode": "49436",
+        "addr:state": "MI",
+        "addr:street": "West Hazel Road",
+        "amenity": "restaurant",
+        "brand": "Pizza Factory",
+        "brand:wikidata": "Q39054369",
+        "cuisine": "pizza",
+        "name": "Pizza Factory"
+      },
+      "lat": 43.6675154,
+      "lon": -86.4745497
+    },
+    {
+      "type": "node",
+      "id": 4959263121,
+      "tags": {
+        "addr:street": "North 34th Avenue",
+        "amenity": "restaurant",
+        "brand": "Pizza Factory",
+        "brand:wikidata": "Q39054369",
+        "cuisine": "pizza",
+        "name": "Pizza Factory"
+      },
+      "lat": 43.6692135,
+      "lon": -86.4739466
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "mcalister_s_deli",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 833372217,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli"
+      },
+      "lat": 34.6047411,
+      "lon": -92.5332754
+    },
+    {
+      "type": "node",
+      "id": 11669458392,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli"
+      },
+      "lat": 35.3530796,
+      "lon": -94.3536639
+    },
+    {
+      "type": "node",
+      "id": 14080868720,
+      "tags": {
+        "addr:city": "Russellville",
+        "addr:housenumber": "319",
+        "addr:postcode": "72802",
+        "addr:state": "AR",
+        "addr:street": "Weir Road",
+        "addr:unit": "3",
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "check_date": "2026-08-08",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli",
+        "shop": "deli"
+      },
+      "lat": 35.2812685,
+      "lon": -93.1075406
+    },
+    {
+      "type": "way",
+      "id": 488026533,
+      "tags": {
+        "addr:city": "Fayetteville",
+        "addr:country": "US",
+        "addr:full": "4055 North Steele Boulevard",
+        "addr:housenumber": "4055",
+        "addr:postcode": "72703",
+        "addr:state": "AR",
+        "addr:street": "North Steele Boulevard",
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "building": "retail",
+        "check_date": "2026-03-24",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli",
+        "opening_hours": "10:30-21:30; Fr,Sa 10:30-22:00",
+        "phone": "+1 479 521 7900",
+        "website": "https://www.mcalistersdeli.com/locations/ar/fayetteville/4055-north-steele-boulevard-1096"
+      },
+      "center": {
+        "lat": 36.12543615,
+        "lon": -94.15665085
+      }
+    },
+    {
+      "type": "way",
+      "id": 702435786,
+      "tags": {
+        "addr:city": "Conway",
+        "addr:housenumber": "2465",
+        "addr:postcode": "72032",
+        "addr:state": "AR",
+        "addr:street": "Sanders Street",
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "phone": "+1-501-513-1311",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 35.11003255,
+        "lon": -92.43704005000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 918528768,
+      "tags": {
+        "addr:city": "North Little Rock",
+        "addr:housenumber": "4842",
+        "addr:postcode": "72116",
+        "addr:state": "AR",
+        "addr:street": "North Hills Boulevard",
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli",
+        "website": "https://www.mcalistersdeli.com/locations/ar/north-little-rock"
+      },
+      "center": {
+        "lat": 34.798942350000004,
+        "lon": -92.23713465000003
+      }
+    }
+  ]
+}

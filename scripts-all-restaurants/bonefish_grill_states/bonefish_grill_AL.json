@@ -1,0 +1,90 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AL",
+    "brand": "bonefish_grill",
+    "source": "https://download.geofabrik.de/north-america/us/alabama-latest.osm.pbf",
+    "source_md5": "3ee9c8ab6ddb6921e2aa2562af6c9bce",
+    "processed_utc": "2026-10-24T06:56:09.586986+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12298408975,
+      "tags": {
+        "addr:city": "Huntsville",
+        "addr:housenumber": "4800",
+        "addr:postcode": "35802",
+        "addr:state": "AL",
+        "addr:street": "Whitesburg Drive South",
+        "addr:unit": "33",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-21:00",
+        "phone": "+1-256-883-0643",
+        "website": "https://locations.bonefishgrill.com/alabama/huntsville/4800-whitesburg-drive-s."
+      },
+      "lat": 34.6937888,
+      "lon": -86.5692489
+    },
+    {
+      "type": "node",
+      "id": 13903969532,
+      "tags": {
+        "addr:city": "Montgomery",
+        "addr:housenumber": "7020",
+        "addr:postcode": "36117",
+        "addr:state": "AL",
+        "addr:street": "Eastchase Parkway",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "contact:facebook": "https://www.facebook.com/bonefishgrill",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 10:00-21:00,11:00-21:00",
+        "phone": "+1 334-396-1770",
+        "website": "https://locations.bonefishgrill.com/alabama/montgomery/7020-eastchase-parkway"
+      },
+      "lat": 32.3590913,
+      "lon": -86.1678852
+    },
+    {
+      "type": "way",
+      "id": 574571348,
+      "tags": {
+        "addr:city": "Mobile",
+        "addr:housenumber": "6955",
+        "addr:postcode": "36608",
+        "addr:state": "AL",
+        "addr:street": "Airport Boulevard",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "building": "yes",
+        "contact:facebook": "https://www.facebook.com/bonefishgrill",
+        "cuisine": "seafood",
+        "delivery": "no",
+        "name": "Bonefish Grill",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 10:00-21:00,11:00-21:00",
+        "outdoor_seating": "no",
+        "phone": "+1 251-633-7196",
+        "website": "https://locations.bonefishgrill.com/alabama/mobile/6955-airport-boulevard"
+      },
+      "center": {
+        "lat": 30.683368700000003,
+        "lon": -88.20474265000001
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MN",
+    "brand": "jet_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/minnesota-latest.osm.pbf",
+    "source_md5": "4cabd6519cf6e8b1f74c96f59629df95",
+    "processed_utc": "2026-10-24T07:08:10.045763+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 763529249,
+      "tags": {
+        "addr:city": "Plymouth",
+        "addr:housenumber": "10160",
+        "addr:postcode": "55441",
+        "addr:state": "MN",
+        "addr:street": "6th Avenue North",
+        "addr:unit": "D",
+        "amenity": "restaurant",
+        "bar": "no",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "highchair": "no",
+        "microbrewery": "no",
+        "name": "Jet's Pizza",
+        "outdoor_seating": "no",
+        "phone": "+17637105387",
+        "reservation": "no",
+        "takeaway": "only",
+        "toilets": "no",
+        "website": "https://www.jetspizza.com/stores/minnesota/plymouth/10160-6th-ave-n-unit-d/"
+      },
+      "lat": 44.9856419,
+      "lon": -93.4096829
+    },
+    {
+      "type": "node",
+      "id": 7131834922,
+      "tags": {
+        "addr:city": "New Hope",
+        "addr:housenumber": "4216",
+        "addr:postcode": "55428",
+        "addr:state": "MN",
+        "addr:street": "Winnetka Avenue North",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza"
+      },
+      "lat": 45.0337507,
+      "lon": -93.3796951
+    },
+    {
+      "type": "node",
+      "id": 12336559715,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza"
+      },
+      "lat": 45.0060229,
+      "lon": -93.1052628
+    }
+  ]
+}

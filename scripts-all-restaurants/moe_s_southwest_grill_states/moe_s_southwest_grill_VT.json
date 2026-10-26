@@ -1,0 +1,104 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VT",
+    "brand": "moe_s_southwest_grill",
+    "source": "https://download.geofabrik.de/north-america/us/vermont-latest.osm.pbf",
+    "source_md5": "20a19d56b1e59d82493b3194b9e30440",
+    "processed_utc": "2026-10-24T07:18:02.754583+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1129102816,
+      "tags": {
+        "addr:city": "South Burlington",
+        "addr:country": "US",
+        "addr:housenumber": "1150",
+        "addr:state": "VT",
+        "addr:street": "Williston Road",
+        "amenity": "fast_food",
+        "branch": "Burlington",
+        "brand": "Moe's Southwest Grill",
+        "brand:wikidata": "Q6889938",
+        "cuisine": "mexican",
+        "indoor_seating": "yes",
+        "name": "Moe's Southwest Grill",
+        "opening_hours": "10:30-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 802-660-4900",
+        "short_name": "Moe's",
+        "source": "knowledge",
+        "takeaway": "yes",
+        "website": "https://locations.moes.com/vt/burlington/1150-williston-rd",
+        "wheelchair": "yes"
+      },
+      "lat": 44.4689793,
+      "lon": -73.1780634
+    },
+    {
+      "type": "node",
+      "id": 5269919033,
+      "tags": {
+        "addr:city": "Williston",
+        "addr:housenumber": "85",
+        "addr:state": "VT",
+        "addr:street": "Retail Way",
+        "amenity": "fast_food",
+        "branch": "Taft's Corner Park",
+        "brand": "Moe's Southwest Grill",
+        "brand:wikidata": "Q6889938",
+        "cuisine": "mexican",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Moe's Southwest Grill",
+        "opening_hours": "Mo-Sa 11:00-21:00; Su 11:00-20:00",
+        "phone": "+1 802-879-2005",
+        "ref:vcgi:esiteid": "336336",
+        "short_name": "Moe's",
+        "takeaway": "yes",
+        "website": "https://locations.moes.com/vt/williston/85-retail-way"
+      },
+      "lat": 44.4446954,
+      "lon": -73.1156674
+    },
+    {
+      "type": "way",
+      "id": 694353911,
+      "tags": {
+        "addr:city": "West Lebanon",
+        "addr:housenumber": "250",
+        "addr:postcode": "03784",
+        "addr:state": "NH",
+        "addr:street": "Plainfield Road",
+        "alt_name": "Southwest Grill",
+        "amenity": "fast_food",
+        "branch": "West Lebanon",
+        "brand": "Moe's Southwest Grill",
+        "brand:wikidata": "Q6889938",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "no",
+        "email": "Moeswlebanon@gmail.com",
+        "internet_access": "wlan",
+        "name": "Moe's Southwest Grill",
+        "opening_hours": "Mo-Su 11:00-20:00",
+        "phone": "+1 603-790-8222",
+        "short_name": "Moe's",
+        "takeaway": "yes",
+        "website": "https://www.moes.com/find-a-moes/new_hampshire/west_lebanon/1486"
+      },
+      "center": {
+        "lat": 43.62916445,
+        "lon": -72.32377450000001
+      }
+    }
+  ]
+}

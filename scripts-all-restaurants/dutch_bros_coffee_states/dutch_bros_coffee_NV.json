@@ -1,0 +1,664 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "dutch_bros_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7194251476,
+      "tags": {
+        "addr:city": "Carson City",
+        "addr:housenumber": "1675",
+        "addr:postcode": "89701",
+        "addr:state": "NV",
+        "addr:street": "East William Street",
+        "amenity": "cafe",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "We-Su 05:00-23:00",
+        "ref": "DB281",
+        "takeaway": "only",
+        "website": "https://locations.dutchbros.com/dutch-bros-coffee-4ba8e78e9c6a"
+      },
+      "lat": 39.1722563,
+      "lon": -119.7487
+    },
+    {
+      "type": "node",
+      "id": 11512131381,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "5211",
+        "addr:postcode": "89118",
+        "addr:state": "NV",
+        "addr:street": "South Decatur Boulevard",
+        "amenity": "cafe",
+        "branch": "South Decatur",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "Mo-Th 05:00-22:00; Fr-Sa 05:00-23:00; Su 05:00-22:00",
+        "ref": "DB425",
+        "takeaway": "only",
+        "website": "https://locations.dutchbros.com/dutch-bros-coffee-cc54331535e0"
+      },
+      "lat": 36.0951108,
+      "lon": -115.2084337
+    },
+    {
+      "type": "node",
+      "id": 11979617702,
+      "tags": {
+        "addr:city": "Mesquite",
+        "addr:housenumber": "331",
+        "addr:postcode": "89027",
+        "addr:state": "NV",
+        "addr:street": "North Sandhill Boulevard",
+        "amenity": "cafe",
+        "branch": "Sandhill",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "Mo-Th 05:00-22:00; Fr-Sa 05:00-23:00; Su 05:00-22:00",
+        "ref": "DB694",
+        "takeaway": "only",
+        "website": "https://locations.dutchbros.com/dutch-bros-coffee-90ee7ce17e0b"
+      },
+      "lat": 36.80917,
+      "lon": -114.06499
+    },
+    {
+      "type": "node",
+      "id": 13398002861,
+      "tags": {
+        "amenity": "restaurant",
+        "indoor_seating": "no",
+        "name": "Dutch Bros Cafe",
+        "outdoor_seating": "yes"
+      },
+      "lat": 36.1020066,
+      "lon": -115.2978764
+    },
+    {
+      "type": "way",
+      "id": 376910042,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "2840",
+        "addr:postcode": "89121",
+        "addr:state": "NV",
+        "addr:street": "East Tropicana Avenue",
+        "amenity": "cafe",
+        "branch": "Las Vegas",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "ref": "DB247",
+        "takeaway": "only",
+        "website": "https://locations.dutchbros.com/dutch-bros-coffee-1e5b3060352e"
+      },
+      "center": {
+        "lat": 36.1002716,
+        "lon": -115.11201019999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 385778780,
+      "tags": {
+        "addr:city": "Reno",
+        "addr:county": "Washoe",
+        "addr:housenumber": "4555",
+        "addr:postcode": "89502",
+        "addr:state": "NV",
+        "addr:street": "South Virginia Street",
+        "amenity": "cafe",
+        "branch": "Heidi",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "commercial",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "05:00-23:00",
+        "outdoor_seating": "yes",
+        "ref": "DB302",
+        "takeaway": "only",
+        "website": "https://locations.dutchbros.com/dutch-bros-coffee-5bfdcb1b4ed1"
+      },
+      "center": {
+        "lat": 39.48432699999999,
+        "lon": -119.79300054999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 676939848,
+      "tags": {
+        "addr:city": "North Las Vegas",
+        "addr:housenumber": "2245",
+        "addr:postcode": "89030",
+        "addr:state": "NV",
+        "addr:street": "North Las Vegas Boulevard",
+        "amenity": "cafe",
+        "branch": "North Las Vegas",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "05:00-23:00",
+        "ref": "DB309",
+        "takeaway": "only",
+        "website": "https://locations.dutchbros.com/dutch-bros-coffee-2c3e2e682d5a"
+      },
+      "center": {
+        "lat": 36.2009591,
+        "lon": -115.1228433
+      }
+    },
+    {
+      "type": "way",
+      "id": 676940879,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "590",
+        "addr:postcode": "89123",
+        "addr:state": "NV",
+        "addr:street": "East Windmill Lane",
+        "amenity": "cafe",
+        "branch": "Las Vegas",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "05:00-22:00",
+        "outdoor_seating": "yes",
+        "panoramax": "fd8717fe-0674-4d7a-9eec-f4b81fe17cfa",
+        "ref": "DB322",
+        "roof:levels": "0",
+        "service:electricity": "no",
+        "takeaway": "only",
+        "toilets": "no",
+        "website": "https://locations.dutchbros.com/dutch-bros-coffee-6f08b4ff03cc"
+      },
+      "center": {
+        "lat": 36.04268765,
+        "lon": -115.15007200000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 676940880,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "4585",
+        "addr:postcode": "89139",
+        "addr:state": "NV",
+        "addr:street": "Blue Diamond Road",
+        "amenity": "cafe",
+        "branch": "Las Vegas",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "05:00-23:00",
+        "ref": "DB316",
+        "takeaway": "only",
+        "website": "https://locations.dutchbros.com/dutch-bros-coffee-192232291fe6"
+      },
+      "center": {
+        "lat": 36.0345478,
+        "lon": -115.20262575000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 708965557,
+      "tags": {
+        "addr:city": "Carson City",
+        "addr:housenumber": "1231",
+        "addr:postcode": "89701",
+        "addr:state": "NV",
+        "addr:street": "South Carson Street",
+        "amenity": "cafe",
+        "branch": "Carson City",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "commercial",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "05:00-23:00",
+        "ref": "DB104",
+        "takeaway": "only",
+        "website": "https://locations.dutchbros.com/dutch-bros-coffee-f7f1d632f3d3"
+      },
+      "center": {
+        "lat": 39.156372,
+        "lon": -119.76672504999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 789364941,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "6884",
+        "addr:postcode": "89149",
+        "addr:state": "NV",
+        "addr:street": "North Hualapai Way",
+        "amenity": "cafe",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "Mo-Th 05:00-22:00; Fr-Sa 05:00-23:00; Su 05:00-22:00",
+        "operator": "Dutch Brothers Coffee",
+        "ref": "DB329",
+        "takeaway": "only",
+        "website": "https://locations.dutchbros.com/dutch-bros-coffee-bc2f755758a9"
+      },
+      "center": {
+        "lat": 36.2858667,
+        "lon": -115.31454135000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 936562925,
+      "tags": {
+        "addr:city": "Reno",
+        "addr:county": "Washoe",
+        "addr:housenumber": "7250",
+        "addr:postcode": "89511",
+        "addr:state": "NV",
+        "addr:street": "South Virginia Street",
+        "amenity": "cafe",
+        "branch": "GA",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "05:00-23:00",
+        "ref": "DB296",
+        "takeaway": "only",
+        "website": "https://locations.dutchbros.com/dutch-bros-coffee-3b451ceec223"
+      },
+      "center": {
+        "lat": 39.4614777,
+        "lon": -119.78135935
+      }
+    },
+    {
+      "type": "way",
+      "id": 943068958,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3121",
+        "addr:postcode": "89102",
+        "addr:state": "NV",
+        "addr:street": "West sahara Avenue",
+        "amenity": "cafe",
+        "branch": "West Sahara",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "05:00-23:00",
+        "phone": "+1-877-899-2767",
+        "ref": "DB391",
+        "takeaway": "only",
+        "website": "https://locations.dutchbros.com/dutch-bros-coffee-fae10cb1914b"
+      },
+      "center": {
+        "lat": 36.144004100000004,
+        "lon": -115.18420100000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1155296961,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "251",
+        "addr:postcode": "89074",
+        "addr:state": "NV",
+        "addr:street": "North Stephanie Street",
+        "amenity": "cafe",
+        "branch": "Stephanie Street",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "Mo-Th 05:00-22:00; Fr-Sa 05:00-23:00; Su 05:00-22:00",
+        "ref": "DB449",
+        "takeaway": "only",
+        "website": "https://locations.dutchbros.com/dutch-bros-coffee-50d41228e10a"
+      },
+      "center": {
+        "lat": 36.045198150000004,
+        "lon": -115.04711480000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1160996160,
+      "tags": {
+        "addr:city": "Carson City",
+        "addr:housenumber": "211",
+        "addr:postcode": "89703",
+        "addr:state": "NV",
+        "addr:street": "West Appion Way",
+        "amenity": "cafe",
+        "branch": "Appion Way",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "commercial",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "05:00-23:00",
+        "ref": "DB466",
+        "takeaway": "only",
+        "website": "https://locations.dutchbros.com/dutch-bros-coffee-29f424e6d694"
+      },
+      "center": {
+        "lat": 39.12463375,
+        "lon": -119.77201145000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1175160416,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "4340",
+        "addr:postcode": "89130",
+        "addr:state": "NV",
+        "addr:street": "North Rancho Drive",
+        "amenity": "cafe",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "05:00-23:00",
+        "ref": "DB374",
+        "takeaway": "only",
+        "website": "https://locations.dutchbros.com/dutch-bros-coffee-e849353a947c"
+      },
+      "center": {
+        "lat": 36.2391205,
+        "lon": -115.2310723
+      }
+    },
+    {
+      "type": "way",
+      "id": 1201741591,
+      "tags": {
+        "addr:city": "Reno",
+        "addr:county": "Washoe",
+        "addr:housenumber": "740",
+        "addr:postcode": "89521",
+        "addr:state": "NV",
+        "addr:street": "South Meadows Parkway",
+        "amenity": "cafe",
+        "branch": "South Meadows",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "05:00-23:00",
+        "ref": "DB378",
+        "source": "WC GIS",
+        "takeaway": "only",
+        "website": "https://locations.dutchbros.com/dutch-bros-coffee-c6307a210a5c"
+      },
+      "center": {
+        "lat": 39.43618075,
+        "lon": -119.75798474999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1261922911,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "2830",
+        "addr:postcode": "89121",
+        "addr:state": "NV",
+        "addr:street": "South Nellis Boulevard",
+        "amenity": "cafe",
+        "branch": "Nellis",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "Mo-Th 05:00-22:00; Fr-Sa 05:00-23:00; Su 05:00-22:00",
+        "ref": "DB625",
+        "takeaway": "only",
+        "website": "https://locations.dutchbros.com/dutch-bros-coffee-41b23ec617b2"
+      },
+      "center": {
+        "lat": 36.13836245,
+        "lon": -115.06501885
+      }
+    },
+    {
+      "type": "way",
+      "id": 1324477016,
+      "tags": {
+        "addr:city": "Minden",
+        "addr:housenumber": "1752",
+        "addr:postcode": "89423",
+        "addr:state": "NV",
+        "addr:street": "Highway 395 North",
+        "amenity": "cafe",
+        "brand": "Dutch Bros. Coffee",
+        "building": "retail",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "Dutch Bros. Coffee",
+        "takeaway": "only"
+      },
+      "center": {
+        "lat": 38.96234575,
+        "lon": -119.77968265000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1328642458,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "1780",
+        "addr:postcode": "89123",
+        "addr:state": "NV",
+        "addr:street": "East Serene Avenue",
+        "amenity": "cafe",
+        "bar": "no",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "yes",
+        "changing_table": "no",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "highchair": "no",
+        "internet_access": "no",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "Mo-Th 05:00-22:00; Fr-Sa 05:00-23:00",
+        "outdoor_seating": "no",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:google_pay": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "reservation": "no",
+        "takeaway": "only",
+        "toilets": "no",
+        "website": "https://locations.dutchbros.com/dutch-bros-coffee-635afbb9cadf",
+        "website:menu": "https://www.dutchbros.com/menu",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 36.020801399999996,
+        "lon": -115.12789305000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1344408127,
+      "tags": {
+        "addr:city": "North Las Vegas",
+        "addr:housenumber": "1185",
+        "addr:postcode": "89030",
+        "addr:state": "NV",
+        "addr:street": "East Craig Road",
+        "amenity": "cafe",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "only"
+      },
+      "center": {
+        "lat": 36.23944835,
+        "lon": -115.12673684999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1363677386,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "6651",
+        "addr:postcode": "89146",
+        "addr:state": "NV",
+        "addr:street": "West Charleston Boulevard",
+        "amenity": "cafe",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "commercial",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "takeaway": "only"
+      },
+      "center": {
+        "lat": 36.1588388,
+        "lon": -115.23892215000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1378411171,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "8806",
+        "addr:postcode": "89123",
+        "addr:state": "NV",
+        "addr:street": "South Eastern Avenue",
+        "amenity": "cafe",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "Su-Th 05:00-22:00; Fr-Sa 05:00-23:00",
+        "outdoor_seating": "yes",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "only",
+        "website": "https://www.dutchbros.com/locations/nv/las-vegas/8806-s.-eastern-ave."
+      },
+      "center": {
+        "lat": 36.02932425,
+        "lon": -115.11806910000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1384196318,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "326",
+        "addr:postcode": "89107",
+        "addr:state": "NV",
+        "addr:street": "South Decatur Boulevard",
+        "amenity": "cafe",
+        "branch": "Decatur",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "commercial",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "05:00-23:00",
+        "ref": "DB457",
+        "takeaway": "only",
+        "website": "https://locations.dutchbros.com/dutch-bros-coffee-ecd0941227fb"
+      },
+      "center": {
+        "lat": 36.16933235,
+        "lon": -115.20645424999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1414475839,
+      "tags": {
+        "addr:city": "North Las Vegas",
+        "addr:housenumber": "1170",
+        "addr:postcode": "89032",
+        "addr:state": "NV",
+        "addr:street": "West Craig Road",
+        "amenity": "cafe",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "takeaway": "only"
+      },
+      "center": {
+        "lat": 36.23977405,
+        "lon": -115.15829380000002
+      }
+    }
+  ]
+}

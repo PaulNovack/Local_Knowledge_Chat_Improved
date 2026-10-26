@@ -1,0 +1,431 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "olive_garden",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2037621472,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "lat": 47.0402443,
+      "lon": -122.9322052
+    },
+    {
+      "type": "node",
+      "id": 10129192145,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "cuisine": "italian",
+        "level": "0",
+        "name": "Olive Garden",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "wheelchair": "yes"
+      },
+      "lat": 46.6026204,
+      "lon": -120.5033948
+    },
+    {
+      "type": "node",
+      "id": 11251632551,
+      "tags": {
+        "addr:city": "Bellingham",
+        "addr:housenumber": "4276",
+        "addr:postcode": "98226",
+        "addr:state": "WA",
+        "addr:street": "Meridian Street",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "check_date": "2026-08-27",
+        "cuisine": "italian",
+        "indoor_seating": "yes",
+        "name": "Olive Garden",
+        "opening_hours": "11:00-22:00; Fr,Sa 11:00-23:00",
+        "outdoor_seating": "no",
+        "phone": "+1-360-733-6286",
+        "website": "https://www.olivegarden.com/locations/wa/bellingham/bellingham/1487",
+        "wheelchair": "yes"
+      },
+      "lat": 48.795504,
+      "lon": -122.4852209
+    },
+    {
+      "type": "way",
+      "id": 39375586,
+      "tags": {
+        "addr:city": "Tacoma",
+        "addr:country": "US",
+        "addr:housenumber": "1921",
+        "addr:postcode": "98408",
+        "addr:state": "WA",
+        "addr:street": "South 72nd Street",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "center": {
+        "lat": 47.1935704,
+        "lon": -122.46143225000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 75037161,
+      "tags": {
+        "addr:city": "Spokane",
+        "addr:housenumber": "14742",
+        "addr:postcode": "99216",
+        "addr:street": "East Indiana Avenue",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "opening_hours": "Mo-Th 11:00-22:00; Sa,Fr 11:00-23:00",
+        "phone": "+1-509-818-3246",
+        "source": "local knowledge",
+        "source:name": "local_knowledge",
+        "website": "https://www.olivegarden.com/home"
+      },
+      "center": {
+        "lat": 47.6728176,
+        "lon": -117.20282674999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 85432834,
+      "tags": {
+        "addr:city": "Federal Way",
+        "addr:country": "US",
+        "addr:housenumber": "35030",
+        "addr:postcode": "98003",
+        "addr:state": "WA",
+        "addr:street": "Enchanted Parkway South",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "phone": "+1-253-815-1375"
+      },
+      "center": {
+        "lat": 47.28784785,
+        "lon": -122.31302555000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 119980184,
+      "tags": {
+        "addr:city": "Tukwila",
+        "addr:country": "US",
+        "addr:housenumber": "310",
+        "addr:postcode": "98188",
+        "addr:state": "WA",
+        "addr:street": "Strander Boulevard",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "check_date": "2025-04-25",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      },
+      "center": {
+        "lat": 47.45628065,
+        "lon": -122.25772615
+      }
+    },
+    {
+      "type": "way",
+      "id": 161778002,
+      "tags": {
+        "addr:city": "Kirkland",
+        "addr:housenumber": "11325",
+        "addr:postcode": "98034",
+        "addr:street": "Northeast 124th Street",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "center": {
+        "lat": 47.7108922,
+        "lon": -122.18948094999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 165350950,
+      "tags": {
+        "addr:city": "East Wenatchee",
+        "addr:housenumber": "615",
+        "addr:postcode": "98802",
+        "addr:state": "WA",
+        "addr:street": "Valley Mall Parkway",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "commercial",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "source": "esri_USDOT_RiverCom911_WA",
+        "website": "https://www.olivegarden.com/"
+      },
+      "center": {
+        "lat": 47.412896,
+        "lon": -120.29115055
+      }
+    },
+    {
+      "type": "way",
+      "id": 174716550,
+      "tags": {
+        "addr:city": "Silverdale",
+        "addr:housenumber": "3204",
+        "addr:postcode": "98383",
+        "addr:state": "WA",
+        "addr:street": "Northwest Randall Way",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "diet:vegetarian": "no",
+        "indoor_seating": "yes",
+        "name": "Olive Garden",
+        "outdoor_seating": "no",
+        "phone": "+1-360-613-0207",
+        "website": "https://www.olivegarden.com/locations/wa/silverdale/silverdale/1377"
+      },
+      "center": {
+        "lat": 47.65971395,
+        "lon": -122.69383464999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 182037395,
+      "tags": {
+        "addr:city": "Vancouver",
+        "addr:housenumber": "8101",
+        "addr:street": "Northeast Parkway Drive",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "designation": "Vancouver Mall Olive Garden",
+        "name": "Olive Garden",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00"
+      },
+      "center": {
+        "lat": 45.65554615,
+        "lon": -122.5892475
+      }
+    },
+    {
+      "type": "way",
+      "id": 219348133,
+      "tags": {
+        "addr:city": "Burlington",
+        "addr:housenumber": "1809",
+        "addr:postcode": "98233",
+        "addr:street": "Marketplace Drive",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "retail",
+        "check_date": "2026-09-12",
+        "cuisine": "italian",
+        "indoor_seating": "yes",
+        "name": "Olive Garden",
+        "outdoor_seating": "no",
+        "website": "https://www.olivegarden.com/locations/wa/burlington/burlington-washington/1691"
+      },
+      "center": {
+        "lat": 48.4515548,
+        "lon": -122.33833979999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 260232826,
+      "tags": {
+        "addr:city": "Puyallup",
+        "addr:country": "US",
+        "addr:housenumber": "3803",
+        "addr:postcode": "98373",
+        "addr:state": "WA",
+        "addr:street": "9th Street Southwest",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "opening_hours": "Su-Th 11:00-22:00; Fr,Sa 11:00-23:00",
+        "phone": "+1-253-435-7446",
+        "ref": "1596",
+        "roof:levels": "0",
+        "website": "https://www.olivegarden.com/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 47.15644,
+        "lon": -122.30297050000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 351763806,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "check_date": "2025-07-17",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "center": {
+        "lat": 47.8214138,
+        "lon": -122.29045610000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 375694816,
+      "tags": {
+        "addr:housenumber": "10326",
+        "addr:street": "Quil Ceda Boulevard",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "retail",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-360-653-5322",
+        "website": "https://www.olivegarden.com/locations/wa/tulalip/tulalip/1867"
+      },
+      "center": {
+        "lat": 48.08992375,
+        "lon": -122.18648845000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 414543458,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "center": {
+        "lat": 45.614813999999996,
+        "lon": -122.50379559999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 430797518,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "retail",
+        "check_date": "2026-09-12",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "center": {
+        "lat": 47.91155515,
+        "lon": -122.21466865000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 440146273,
+      "tags": {
+        "addr:city": "Spokane",
+        "addr:housenumber": "9780",
+        "addr:state": "WA",
+        "addr:street": "North Newport Highway",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "phone": "+1-509-466-1230",
+        "takeaway:covid19": "yes",
+        "website": "https://www.olivegarden.com/locations/wa/spokane/spokane-north-point-plaza/1851"
+      },
+      "center": {
+        "lat": 47.7488648,
+        "lon": -117.40162885000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 681747739,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 46.2265106,
+        "lon": -119.23211994999997
+      }
+    }
+  ]
+}

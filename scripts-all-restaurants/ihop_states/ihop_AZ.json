@@ -1,0 +1,970 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "ihop",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4716197059,
+      "tags": {
+        "addr:city": "Tempe",
+        "addr:housenumber": "705",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Rural Road",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-09-24",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1 480-303-6585",
+        "source": "official website",
+        "website": "https://restaurants.ihop.com/en-us/az/tempe/breakfast-705-s-rural-ave-3388"
+      },
+      "lat": 33.4234569,
+      "lon": -111.9257859
+    },
+    {
+      "type": "node",
+      "id": 11362518338,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "1743",
+        "addr:postcode": "85016",
+        "addr:state": "AZ",
+        "addr:street": "East Camelback Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-09-01",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "phone": "+1 602-279-8990",
+        "source": "official website",
+        "website": "https://restaurants.ihop.com/en-us/az/phoenix/breakfast-1743-e.-camelback-rd-3643"
+      },
+      "lat": 33.5088848,
+      "lon": -112.0439154
+    },
+    {
+      "type": "way",
+      "id": 35433993,
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:housenumber": "3495",
+        "addr:postcode": "85234",
+        "addr:state": "AZ",
+        "addr:street": "East Baseline Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 33.3785915,
+        "lon": -111.75606525
+      }
+    },
+    {
+      "type": "way",
+      "id": 38656641,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "7945",
+        "addr:postcode": "85710",
+        "addr:state": "AZ",
+        "addr:street": "East Broadway Boulevard",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "website": "https://restaurants.ihop.com/en-us/az/tucson/breakfast-7945-e-broadway-blvd-1515"
+      },
+      "center": {
+        "lat": 32.2215503,
+        "lon": -110.82328769999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 44660050,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:country": "US",
+        "addr:housenumber": "913",
+        "addr:postcode": "85201",
+        "addr:state": "AZ",
+        "addr:street": "North Dobson Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "operator": "International House of Pancakes"
+      },
+      "center": {
+        "lat": 33.4328967,
+        "lon": -111.87086299999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 64888590,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "4501",
+        "addr:postcode": "85032",
+        "addr:state": "AZ",
+        "addr:street": "East Cactus Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "breakfast;pancake",
+        "indoor_seating": "yes",
+        "name": "IHOP",
+        "opening_hours": "Mo-Su 00:00-24:00",
+        "outdoor_seating": "no",
+        "phone": "+1-602-765-1430"
+      },
+      "center": {
+        "lat": 33.599285550000005,
+        "lon": -111.98728790000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 130319025,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "2529",
+        "addr:postcode": "85035",
+        "addr:state": "AZ",
+        "addr:street": "North 75th Avenue",
+        "air_conditioning": "yes",
+        "alt_name": "International House of Pancakes",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "check_date": "2022-12-22",
+        "cuisine": "breakfast;pancake",
+        "delivery": "no",
+        "internet_access": "no",
+        "name": "IHOP",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "source": "esri_USDOT_Arizona",
+        "source:name": "local_knowledge",
+        "wheelchair": "no"
+      },
+      "center": {
+        "lat": 33.47542985,
+        "lon": -112.22003255000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 137609327,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "2501",
+        "addr:postcode": "85008",
+        "addr:state": "AZ",
+        "addr:street": "North 44th Street",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 33.47515855,
+        "lon": -111.98657815000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 144358753,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "2508",
+        "addr:postcode": "85003",
+        "addr:state": "AZ",
+        "addr:street": "North Central Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 33.47554285,
+        "lon": -112.07411509999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 170998297,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "10662",
+        "addr:postcode": "85208",
+        "addr:state": "AZ",
+        "addr:street": "East Southern Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1 480 354 7781",
+        "source": "esri_USDOT_Arizona",
+        "website": "https://www.ihop.com/"
+      },
+      "center": {
+        "lat": 33.393890999999996,
+        "lon": -111.6003983
+      }
+    },
+    {
+      "type": "way",
+      "id": 172876694,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "1230",
+        "addr:postcode": "85043",
+        "addr:state": "AZ",
+        "addr:street": "North 51st Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "source": "local knowledge;esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 33.4618279,
+        "lon": -112.16962950000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 199753942,
+      "tags": {
+        "addr:city": "Scottsdale",
+        "addr:country": "US",
+        "addr:housenumber": "8950",
+        "addr:postcode": "85258",
+        "addr:state": "AZ",
+        "addr:street": "East Mountain View Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "breakfast;pancake",
+        "delivery": "no",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1-480-661-8998",
+        "takeaway": "no"
+      },
+      "center": {
+        "lat": 33.575533449999995,
+        "lon": -111.88639665
+      }
+    },
+    {
+      "type": "way",
+      "id": 205012187,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "5020",
+        "addr:postcode": "85044",
+        "addr:state": "AZ",
+        "addr:street": "East Ray Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 33.3204805,
+        "lon": -111.97531034999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 229967076,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:country": "US",
+        "addr:housenumber": "4187",
+        "addr:postcode": "85705",
+        "addr:state": "AZ",
+        "addr:street": "North Oracle Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1-520-293-3003",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 32.282556150000005,
+        "lon": -110.97884935000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 231885664,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "5101",
+        "addr:postcode": "85712",
+        "addr:state": "AZ",
+        "addr:street": "East Grant Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "website": "https://restaurants.ihop.com/en-us/az/tucson/breakfast-5101-e-grant-rd-1514"
+      },
+      "center": {
+        "lat": 32.25115365,
+        "lon": -110.88376625000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 240575343,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 32.2510334,
+        "lon": -110.99884359999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 244912294,
+      "tags": {
+        "addr:city": "Marana",
+        "addr:country": "US",
+        "addr:state": "AZ",
+        "addr:street": "West Cortaro Farms Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no",
+        "smoking": "no"
+      },
+      "center": {
+        "lat": 32.3598973,
+        "lon": -111.0849445
+      }
+    },
+    {
+      "type": "way",
+      "id": 256800740,
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:country": "US",
+        "addr:housenumber": "920",
+        "addr:postcode": "85296",
+        "addr:state": "AZ",
+        "addr:street": "South Gilbert Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "source": "esri/USA_NAD_Addresses;esri_USDOT_Arizona"
+      },
+      "center": {
+        "lat": 33.3330052,
+        "lon": -111.79068925000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 258148181,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "4040",
+        "addr:postcode": "85711",
+        "addr:state": "AZ",
+        "addr:street": "East 22nd Street",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "building:facade:colour": "beige",
+        "cuisine": "breakfast;pancake",
+        "delivery": "yes",
+        "name": "IHOP",
+        "old_name": "Denny's",
+        "opening_hours": "24/7",
+        "phone": "+1 520-822-8054",
+        "takeaway": "yes",
+        "website": "https://restaurants.ihop.com/en-us/az/tucson/breakfast-4040-e-22nd-street-3848",
+        "website:menu": "https://www.ihop.com/en/menu?StoreNumber=3848&action=viewmenu"
+      },
+      "center": {
+        "lat": 32.20659335,
+        "lon": -110.90578355000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 323207434,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 35.227200100000005,
+        "lon": -114.03590284999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 335387034,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "2090",
+        "addr:postcode": "85042",
+        "addr:state": "AZ",
+        "addr:street": "East Baseline Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "source": "esri_USDOT_Arizona"
+      },
+      "center": {
+        "lat": 33.3782516,
+        "lon": -112.03551299999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 355203751,
+      "tags": {
+        "addr:city": "Surprise",
+        "addr:housenumber": "13734",
+        "addr:postcode": "85374",
+        "addr:state": "AZ",
+        "addr:street": "West Bell Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "delivery": "no",
+        "name": "IHOP",
+        "opening_hours": "Su-Th 06:00-24:00; Fr-Sa 00:00-24:00",
+        "phone": "+1-623-556-2151",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.63918595,
+        "lon": -112.35440210000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 384178379,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "2000",
+        "addr:postcode": "85021",
+        "addr:state": "AZ",
+        "addr:street": "West Northern Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 33.55343575,
+        "lon": -112.10183230000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 401378200,
+      "tags": {
+        "addr:city": "Glendale",
+        "addr:state": "AZ",
+        "addr:street": "West Peoria Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "outdoor_seating": "no"
+      },
+      "center": {
+        "lat": 33.5813421,
+        "lon": -112.20062535
+      }
+    },
+    {
+      "type": "way",
+      "id": 482483309,
+      "tags": {
+        "addr:city": "Glendale;Peoria",
+        "addr:country": "US",
+        "addr:housenumber": "10603",
+        "addr:postcode": "85345",
+        "addr:state": "AZ",
+        "addr:street": "West Olive Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no",
+        "phone": "+1-623-977-0599"
+      },
+      "center": {
+        "lat": 33.56513615,
+        "lon": -112.28772659999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 506417607,
+      "tags": {
+        "addr:city": "Avondale",
+        "addr:housenumber": "1491",
+        "addr:postcode": "85323",
+        "addr:state": "AZ",
+        "addr:street": "North Dysart Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "phone": "+1-623-925-1260",
+        "source": "esri/USA_NAD_Addresses",
+        "website": "https://www.ihop.com/"
+      },
+      "center": {
+        "lat": 33.456350799999996,
+        "lon": -112.34033599999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 510690821,
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:housenumber": "2100",
+        "addr:postcode": "85206",
+        "addr:state": "AZ",
+        "addr:street": "South Power Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "source": "esri_USDOT_Arizona"
+      },
+      "center": {
+        "lat": 33.37738415,
+        "lon": -111.6884071
+      }
+    },
+    {
+      "type": "way",
+      "id": 516106390,
+      "tags": {
+        "addr:city": "Chandler",
+        "addr:housenumber": "935",
+        "addr:postcode": "85225",
+        "addr:state": "AZ",
+        "addr:street": "West Elliot Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 33.349343250000004,
+        "lon": -111.85653539999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 634987459,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "8359",
+        "addr:postcode": "85382",
+        "addr:state": "AZ",
+        "addr:street": "West Bell Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1-623-412-1001",
+        "website": "https://www.ihop.com/"
+      },
+      "center": {
+        "lat": 33.63763185,
+        "lon": -112.23625149999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 642627085,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 33.2496501,
+        "lon": -111.839947
+      }
+    },
+    {
+      "type": "way",
+      "id": 655760884,
+      "tags": {
+        "addr:city": "Casa Grande",
+        "addr:housenumber": "2064",
+        "addr:postcode": "85122",
+        "addr:state": "AZ",
+        "addr:street": "East Florence Boulevard",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 32.880363700000004,
+        "lon": -111.69840045000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 768060923,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "9976",
+        "addr:postcode": "85383",
+        "addr:state": "AZ",
+        "addr:street": "West Happy Valley Parkway",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 33.711729899999995,
+        "lon": -112.27417435000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 779398072,
+      "tags": {
+        "addr:city": "Prescott Valley",
+        "addr:housenumber": "3000",
+        "addr:postcode": "86314",
+        "addr:state": "AZ",
+        "addr:street": "North Glassford Hill Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "check_date": "2025-02-22",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1 928-775-4121",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://restaurants.ihop.com/en-us/az/prescott-valley/breakfast-3000-n.-glassford-hill-rd-3081"
+      },
+      "center": {
+        "lat": 34.5859835,
+        "lon": -112.3422215
+      }
+    },
+    {
+      "type": "way",
+      "id": 780419576,
+      "tags": {
+        "addr:city": "Nogales",
+        "addr:housenumber": "1671",
+        "addr:postcode": "85621",
+        "addr:state": "AZ",
+        "addr:street": "North Industrial Park Drive",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "commercial",
+        "check_date": "2025-02-20",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1 520-377-0500",
+        "smoking": "no",
+        "source": "esri/USA_NAD_Addresses",
+        "website": "https://restaurants.ihop.com/en-us/az/nogales/breakfast-1671-n-industrial-park-dr-1524",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 31.36316275,
+        "lon": -110.94845985
+      }
+    },
+    {
+      "type": "way",
+      "id": 807401858,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1150",
+        "addr:postcode": "85205",
+        "addr:state": "AZ",
+        "addr:street": "North Higley Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Su-Sa 07:00-22:00",
+        "phone": "+1-480-981-3398",
+        "website": "https://www.ihop.com/en/restaurants-mesa-az/1150-n-higley-rd-1512"
+      },
+      "center": {
+        "lat": 33.43685255,
+        "lon": -111.72014485
+      }
+    },
+    {
+      "type": "way",
+      "id": 842272572,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "4201",
+        "addr:postcode": "85053",
+        "addr:state": "AZ",
+        "addr:street": "West Bell Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 33.6388582,
+        "lon": -112.14934349999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 853100455,
+      "tags": {
+        "addr:city": "Queen Creek",
+        "addr:housenumber": "20710",
+        "addr:postcode": "85142",
+        "addr:state": "AZ",
+        "addr:street": "East Victoria Lane",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 33.251681649999995,
+        "lon": -111.63639135
+      }
+    },
+    {
+      "type": "way",
+      "id": 1118823128,
+      "tags": {
+        "addr:city": "Yuma",
+        "addr:housenumber": "575",
+        "addr:postcode": "85364",
+        "addr:state": "AZ",
+        "addr:street": "East 16th Street",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "source": "microsoft/BuildingFootprints;Bing;esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 32.697942299999994,
+        "lon": -114.61445325
+      }
+    },
+    {
+      "type": "way",
+      "id": 1201625954,
+      "tags": {
+        "addr:city": "Lake Havasu City",
+        "addr:housenumber": "101",
+        "addr:postcode": "86403",
+        "addr:state": "AZ",
+        "addr:street": "Paseo del Sol",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "phone": "+1-928-854-6501",
+        "website": "https://restaurants.ihop.com/en-us/az/lake-havasu-city/breakfast-101-paseo-del-sol-3033"
+      },
+      "center": {
+        "lat": 34.475144549999996,
+        "lon": -114.34822780000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1357864366,
+      "tags": {
+        "addr:city": "Bullhead City",
+        "addr:postcode": "86442",
+        "addr:state": "AZ",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 35.170281,
+        "lon": -114.56557595000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1453489869,
+      "tags": {
+        "addr:city": "Maricopa",
+        "addr:housenumber": "20429",
+        "addr:postcode": "85138",
+        "addr:state": "AZ",
+        "addr:street": "North John Wayne Parkway",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 33.065471200000005,
+        "lon": -112.04709194999998
+      }
+    }
+  ]
+}

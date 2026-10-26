@@ -1,0 +1,90 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "mission_bbq",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12209960230,
+      "tags": {
+        "addr:city": "Deptford",
+        "addr:housenumber": "1901",
+        "addr:postcode": "08096",
+        "addr:state": "NJ",
+        "addr:street": "Deptford Center Road",
+        "amenity": "restaurant",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "building": "yes",
+        "check_date": "2026-01-27",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ",
+        "opening_hours": "Mo-Sa 11:00-21:00; Su 11:30-20:00",
+        "phone": "+1 856-352-5158",
+        "website": "https://mission-bbq.com/locations-and-menu/deptford-nj/"
+      },
+      "lat": 39.8282771,
+      "lon": -75.0917192
+    },
+    {
+      "type": "node",
+      "id": 12847686205,
+      "tags": {
+        "addr:city": "Hamilton",
+        "addr:housenumber": "201",
+        "addr:postcode": "08691",
+        "addr:state": "NJ",
+        "addr:street": "Market Place Boulevard",
+        "amenity": "restaurant",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "check_date": "2026-07-06",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ",
+        "opening_hours": "Mo-Sa 11:00-21:00; Su 11:30-20:00",
+        "phone": "+1 609-759-2401",
+        "website": "https://mission-bbq.com/locations-and-menu/hamilton-nj/"
+      },
+      "lat": 40.1938595,
+      "lon": -74.6415278
+    },
+    {
+      "type": "way",
+      "id": 780260835,
+      "tags": {
+        "addr:city": "Marlton",
+        "addr:housenumber": "545",
+        "addr:postcode": "08053",
+        "addr:state": "NJ",
+        "addr:street": "Route 73 North",
+        "amenity": "restaurant",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2024-10-23",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ",
+        "opening_hours": "Mo-Sa 11:00-21:00; Su 11:30-20:00",
+        "phone": "+1 856-810-8111",
+        "website": "https://mission-bbq.com/locations-and-menu/marlton-nj/"
+      },
+      "center": {
+        "lat": 39.90207665,
+        "lon": -74.93523875
+      }
+    }
+  ]
+}

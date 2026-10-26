@@ -1,0 +1,51 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "famous_dave_s",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6460884384,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's"
+      },
+      "lat": 40.6703768,
+      "lon": -74.3594524
+    },
+    {
+      "type": "way",
+      "id": 385417302,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "delivery": "no",
+        "name": "Famous Dave's",
+        "smoking": "outside",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.91383845,
+        "lon": -75.00742170000001
+      }
+    }
+  ]
+}

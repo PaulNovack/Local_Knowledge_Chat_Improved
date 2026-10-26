@@ -1,0 +1,112 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "qdoba",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2938250534,
+      "tags": {
+        "addr:city": "Alpharetta",
+        "addr:housenumber": "5530",
+        "addr:postcode": "30004",
+        "addr:state": "GA",
+        "addr:street": "Windward Parkway",
+        "addr:unit": "330",
+        "amenity": "fast_food",
+        "branch": "Windward",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "cuisine": "mexican",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Grill",
+        "opening_hours": "10:30-21:00",
+        "phone": "+1 770-346-0087",
+        "takeaway": "yes",
+        "website": "https://locations.qdoba.com/us/ga/alpharetta/5530-windward-pkwy.html"
+      },
+      "lat": 34.0876252,
+      "lon": -84.2664706
+    },
+    {
+      "type": "node",
+      "id": 3448635978,
+      "tags": {
+        "addr:city": "Atlanta",
+        "addr:housenumber": "12700",
+        "addr:postcode": "30320",
+        "addr:state": "GA",
+        "addr:street": "Spine Road Southwest",
+        "amenity": "fast_food",
+        "branch": "Atlanta Airport Ii",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "cuisine": "mexican",
+        "indoor_seating": "yes",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Grill",
+        "opening_hours": "06:00-20:00",
+        "outdoor_seating": "no",
+        "phone": "+1 404-684-0312",
+        "takeaway": "yes",
+        "website": "https://locations.qdoba.com/us/ga/atlanta/12700-spine-rd-sw.html"
+      },
+      "lat": 33.6409032,
+      "lon": -84.4252576
+    },
+    {
+      "type": "node",
+      "id": 6401506022,
+      "tags": {
+        "addr:city": "Suwanee",
+        "addr:housenumber": "3630",
+        "addr:postcode": "30024",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Parkway",
+        "addr:unit": "701",
+        "amenity": "fast_food",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "cuisine": "mexican",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Grill",
+        "takeaway": "yes"
+      },
+      "lat": 34.0692205,
+      "lon": -84.1692147
+    },
+    {
+      "type": "node",
+      "id": 11094544222,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "check_date": "2023-08-06",
+        "cuisine": "mexican",
+        "fixme:atp": "no ATP match, check if still exists",
+        "indoor_seating": "yes",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Grill",
+        "outdoor_seating": "no",
+        "takeaway": "yes",
+        "website": "https://locations.qdoba.com/us/ga/atlanta/6000-n-terminal-pkwy.html"
+      },
+      "lat": 33.6409343,
+      "lon": -84.4394754
+    }
+  ]
+}

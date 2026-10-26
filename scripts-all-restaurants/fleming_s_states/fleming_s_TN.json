@@ -1,0 +1,85 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TN",
+    "brand": "fleming_s",
+    "source": "https://download.geofabrik.de/north-america/us/tennessee-latest.osm.pbf",
+    "source_md5": "a047c5da6c897a8a98b1fc4a282b8d3f",
+    "processed_utc": "2026-10-24T07:16:20.210730+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9678551970,
+      "tags": {
+        "addr:city": "Nashville",
+        "addr:housenumber": "2525",
+        "addr:postcode": "37203",
+        "addr:state": "TN",
+        "addr:street": "West End Avenue",
+        "amenity": "restaurant",
+        "brand": "Fleming's",
+        "brand:wikidata": "Q5458552",
+        "cuisine": "steak_house",
+        "name": "Fleming's",
+        "official_name": "Fleming's Prime Steakhouse & Wine Bar"
+      },
+      "lat": 36.1459793,
+      "lon": -86.8093845
+    },
+    {
+      "type": "way",
+      "id": 372412829,
+      "tags": {
+        "addr:housenumber": "11287",
+        "addr:postcode": "37934",
+        "addr:street": "Parkside Drive",
+        "amenity": "restaurant",
+        "brand": "Fleming's",
+        "brand:wikidata": "Q5458552",
+        "building": "yes",
+        "check_date": "2026-07-06",
+        "check_date:opening_hours": "2026-07-06",
+        "cuisine": "steak_house",
+        "name": "Fleming's",
+        "official_name": "Fleming's Prime Steakhouse & Wine Bar",
+        "opening_hours": "Mo 16:00-22:00; Tu-Sa 11:00-22:00; Su 16:00-21:00",
+        "phone": "+1-865-675-9463",
+        "website": "https://www.flemingssteakhouse.com/Locations/TN/Knoxville"
+      },
+      "center": {
+        "lat": 35.90114585,
+        "lon": -84.15798725000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 667071176,
+      "tags": {
+        "addr:city": "Memphis",
+        "addr:housenumber": "6245",
+        "addr:postcode": "38119",
+        "addr:state": "TN",
+        "addr:street": "Poplar Avenue",
+        "amenity": "restaurant",
+        "brand": "Fleming's",
+        "brand:wikidata": "Q5458552",
+        "building": "retail",
+        "cuisine": "steak_house",
+        "name": "Fleming's",
+        "official_name": "Fleming's Prime Steakhouse & Wine Bar"
+      },
+      "center": {
+        "lat": 35.1008479,
+        "lon": -89.85572400000001
+      }
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "mission_bbq",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7824784743,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ"
+      },
+      "lat": 42.3857851,
+      "lon": -87.9620696
+    },
+    {
+      "type": "node",
+      "id": 8419610028,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "2401",
+        "addr:postcode": "62704",
+        "addr:state": "IL",
+        "addr:street": "Wabash Avenue",
+        "addr:unit": "B",
+        "amenity": "restaurant",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "cuisine": "barbecue",
+        "indoor_seating": "yes",
+        "name": "Mission BBQ",
+        "opening_hours": "Mo-Sa 11:00-21:00; Su 11:30-20:00",
+        "phone": "+1-217-275-5610",
+        "website": "https://mission-bbq.com/"
+      },
+      "lat": 39.7646199,
+      "lon": -89.70141
+    },
+    {
+      "type": "node",
+      "id": 8462946725,
+      "tags": {
+        "addr:city": "Naperville",
+        "addr:country": "US",
+        "addr:housenumber": "376",
+        "addr:postcode": "60540",
+        "addr:state": "IL",
+        "addr:street": "South Illinois Route 59",
+        "amenity": "restaurant",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "check_date": "2022-08-27",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ",
+        "phone": "+1 630 974 5498",
+        "website": "https://mission-bbq.com/"
+      },
+      "lat": 41.7657876,
+      "lon": -88.205112
+    },
+    {
+      "type": "node",
+      "id": 9998816140,
+      "tags": {
+        "addr:city": "Rockford",
+        "addr:country": "US",
+        "addr:full": "6820 East State Street Rockford, IL 61108",
+        "addr:housenumber": "6820",
+        "addr:postcode": "61108",
+        "addr:state": "IL",
+        "addr:street": "East State Street",
+        "amenity": "restaurant",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ",
+        "takeaway": "yes",
+        "toilets:access": "customers"
+      },
+      "lat": 42.2691146,
+      "lon": -88.9839751
+    },
+    {
+      "type": "way",
+      "id": 199388562,
+      "tags": {
+        "addr:city": "Downers Grove",
+        "addr:country": "US",
+        "addr:housenumber": "1570",
+        "addr:postcode": "60515",
+        "addr:state": "IL",
+        "addr:street": "Butterfield Road",
+        "amenity": "restaurant",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "building": "retail",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ"
+      },
+      "center": {
+        "lat": 41.834082699999996,
+        "lon": -88.02514525000004
+      }
+    }
+  ]
+}

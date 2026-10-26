@@ -1,0 +1,97 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WV",
+    "brand": "waffle_house",
+    "source": "https://download.geofabrik.de/north-america/us/west-virginia-latest.osm.pbf",
+    "source_md5": "4f8c380a535ff9841f95eae4e1a7f84f",
+    "processed_utc": "2026-10-24T07:19:30.158292+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13868848208,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Waffle House",
+        "brand:wikidata": "Q1701206",
+        "cuisine": "american",
+        "name": "Waffle House",
+        "opening_hours": "24/7"
+      },
+      "lat": 39.2959563,
+      "lon": -77.8339471
+    },
+    {
+      "type": "way",
+      "id": 237760467,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Waffle House",
+        "brand:wikidata": "Q1701206",
+        "building": "yes",
+        "check_date": "2026-09-28",
+        "check_date:opening_hours": "2024-09-24",
+        "cuisine": "american",
+        "name": "Waffle House",
+        "opening_hours": "24/7",
+        "phone": "+1 304-205-1195",
+        "website": "https://locations.wafflehouse.com/inwood-wv-1529/"
+      },
+      "center": {
+        "lat": 39.36283195,
+        "lon": -78.04315580000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 239373309,
+      "tags": {
+        "addr:city": "Martinsburg",
+        "addr:housenumber": "1000-A",
+        "addr:postcode": "25403",
+        "addr:state": "WV",
+        "addr:street": "Foxcroft Avenue",
+        "amenity": "restaurant",
+        "brand": "Waffle House",
+        "brand:wikidata": "Q1701206",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Waffle House",
+        "opening_hours": "24/7"
+      },
+      "center": {
+        "lat": 39.44452535,
+        "lon": -77.98758194999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 696383656,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Waffle House",
+        "brand:wikidata": "Q1701206",
+        "building": "yes",
+        "check_date": "2024-09-24",
+        "check_date:opening_hours": "2024-09-24",
+        "cuisine": "american",
+        "name": "Waffle House",
+        "opening_hours": "24/7",
+        "phone": "+1 304-733-6464",
+        "website": "https://locations.wafflehouse.com/huntington-wv-1695/"
+      },
+      "center": {
+        "lat": 38.4127373,
+        "lon": -82.36175255
+      }
+    }
+  ]
+}

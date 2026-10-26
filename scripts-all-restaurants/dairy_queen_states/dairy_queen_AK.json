@@ -1,0 +1,70 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AK",
+    "brand": "dairy_queen",
+    "source": "https://download.geofabrik.de/north-america/us/alaska-latest.osm.pbf",
+    "source_md5": "55281fca0391ab2c26b0d99fd6a6f5f8",
+    "processed_utc": "2026-10-24T06:56:26.590469+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 303074745,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "DQ Grill & Chill",
+        "brand:wikidata": "Q1141226",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "DQ Grill & Chill",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 61.599796049999995,
+        "lon": -149.12075805
+      }
+    },
+    {
+      "type": "way",
+      "id": 496063324,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Dairy Queen",
+        "brand:wikidata": "Q1141226",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Dairy Queen",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 61.1386683,
+        "lon": -149.8451088
+      }
+    },
+    {
+      "type": "way",
+      "id": 694141039,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Dairy Queen",
+        "brand:wikidata": "Q1141226",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Dairy Queen",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 61.581539449999994,
+        "lon": -149.4316773
+      }
+    }
+  ]
+}

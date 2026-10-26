@@ -1,0 +1,145 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "cold_stone_creamery",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10577754603,
+      "tags": {
+        "addr:housenumber": "3000",
+        "addr:unit": "100A",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery"
+      },
+      "lat": 37.7381051,
+      "lon": -97.2440975
+    },
+    {
+      "type": "node",
+      "id": 13067885946,
+      "tags": {
+        "addr:city": "Topeka",
+        "addr:housenumber": "1227",
+        "addr:postcode": "66604",
+        "addr:state": "KS",
+        "addr:street": "Southwest Wanamaker Road",
+        "addr:unit": "100",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "name": "Cold Stone Creamery",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-22:30",
+        "phone": "+1-785-215-8807",
+        "website": "https://www.coldstonecreamery.com/stores/22114"
+      },
+      "lat": 39.0450846,
+      "lon": -95.763914
+    },
+    {
+      "type": "node",
+      "id": 13126424871,
+      "tags": {
+        "addr:city": "Lawrence",
+        "addr:housenumber": "647",
+        "addr:postcode": "66044",
+        "addr:state": "KS",
+        "addr:street": "Massachusetts Street",
+        "addr:unit": "101B",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "name": "Cold Stone Creamery",
+        "opening_hours": "Mo-Su 12:30-21:30",
+        "outdoor_seating": "no",
+        "phone": "+1-785-843-0990",
+        "website": "https://www.coldstonecreamery.com/stores/21115"
+      },
+      "lat": 38.9714413,
+      "lon": -95.2361344
+    },
+    {
+      "type": "node",
+      "id": 13565828371,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "name": "Cold Stone Creamery"
+      },
+      "lat": 37.6764874,
+      "lon": -97.4279489
+    },
+    {
+      "type": "way",
+      "id": 104897898,
+      "tags": {
+        "addr:city": "Manhattan",
+        "addr:housenumber": "1225",
+        "addr:street": "Moro Street",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "building": "yes",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery",
+        "opening_hours": "Su-Th 11:00-22:30; Fr-Sa 11:00-23:00",
+        "source": "Riley county imagery"
+      },
+      "center": {
+        "lat": 39.1855317,
+        "lon": -96.57604119999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 547523150,
+      "tags": {
+        "addr:housenumber": "507",
+        "addr:street": "Main Street",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery",
+        "roof:levels": "0",
+        "start_date": "2023-11-01"
+      },
+      "center": {
+        "lat": 38.868910850000006,
+        "lon": -99.33311560000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1487222475,
+      "tags": {
+        "amenity": "ice_cream",
+        "indoor": "room",
+        "level": "0",
+        "name": "Cold Stone Creamery"
+      },
+      "center": {
+        "lat": 39.1266785,
+        "lon": -94.82749275000003
+      }
+    }
+  ]
+}

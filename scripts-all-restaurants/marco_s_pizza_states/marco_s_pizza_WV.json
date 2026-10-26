@@ -1,0 +1,127 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WV",
+    "brand": "marco_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/west-virginia-latest.osm.pbf",
+    "source_md5": "4f8c380a535ff9841f95eae4e1a7f84f",
+    "processed_utc": "2026-10-24T07:19:30.158292+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6446107677,
+      "tags": {
+        "addr:city": "Hurricane",
+        "addr:housenumber": "3550",
+        "addr:postcode": "25526",
+        "addr:state": "WV",
+        "addr:street": "Teays Valley Road",
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 38.443203,
+      "lon": -81.9830584
+    },
+    {
+      "type": "node",
+      "id": 13971660883,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "opening_hours": "Su-Th 11:00-23:00, Fr,Sa 11:00-24:00",
+        "takeaway": "yes"
+      },
+      "lat": 38.4349039,
+      "lon": -82.1257966
+    },
+    {
+      "type": "way",
+      "id": 377427708,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "building": "yes",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Marco's Pizza",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.3685205,
+        "lon": -81.66764754999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 690076060,
+      "tags": {
+        "addr:city": "Huntington",
+        "addr:country": "US",
+        "addr:housenumber": "428",
+        "addr:postcode": "25701",
+        "addr:state": "WV",
+        "addr:street": "1st Street",
+        "amenity": "restaurant",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "building": "yes",
+        "cuisine": "pizza",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "name": "Marco's Pizza",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.417413800000006,
+        "lon": -82.45691424999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 1019920717,
+      "tags": {
+        "addr:city": "Saint Albans",
+        "addr:full": "313 6th Avenue",
+        "addr:housenumber": "313",
+        "addr:postcode": "25177",
+        "addr:state": "WV",
+        "addr:street": "6th Avenue",
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "building": "commercial",
+        "cuisine": "pizza",
+        "drive_through": "yes",
+        "name": "Marcos Pizza - Saint Albans",
+        "opening_hours": "Mo-Th,Su 11:00-23:00; Fr-Sa 11:00-24:00",
+        "phone": "+1-304-945-3111",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://www.marcos.com/"
+      },
+      "center": {
+        "lat": 38.38571045,
+        "lon": -81.83419585000001
+      }
+    }
+  ]
+}

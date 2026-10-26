@@ -1,0 +1,77 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "california_pizza_kitchen",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3019370083,
+      "tags": {
+        "addr:city": "Cockeysville",
+        "addr:housenumber": "118",
+        "addr:postcode": "21030",
+        "addr:state": "MD",
+        "addr:street": "Shawan Road",
+        "addr:unit": "FF",
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "cuisine": "pizza",
+        "name": "California Pizza Kitchen",
+        "short_name": "CPK"
+      },
+      "lat": 39.4989114,
+      "lon": -76.6547529
+    },
+    {
+      "type": "node",
+      "id": 3759223641,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "check_date": "2024-12-08",
+        "cuisine": "pizza",
+        "name": "California Pizza Kitchen",
+        "short_name": "CPK"
+      },
+      "lat": 38.9903949,
+      "lon": -76.5427006
+    },
+    {
+      "type": "way",
+      "id": 161308302,
+      "tags": {
+        "addr:housenumber": "136",
+        "addr:street": "Boardwalk Pl",
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "building": "yes",
+        "check_date": "2024-06-09",
+        "cuisine": "pizza",
+        "name": "California Pizza Kitchen",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "short_name": "CPK"
+      },
+      "center": {
+        "lat": 39.1172318,
+        "lon": -77.1985699
+      }
+    }
+  ]
+}

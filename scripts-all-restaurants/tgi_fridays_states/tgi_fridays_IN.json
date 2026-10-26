@@ -1,0 +1,72 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "tgi_fridays",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6872541680,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "cuisine": "american",
+        "name": "TGI Fridays",
+        "website": "https://locations.tgifridays.com/in/terre-haute/3401-s-us-hwy-41.html"
+      },
+      "lat": 39.4280686,
+      "lon": -87.4187955
+    },
+    {
+      "type": "way",
+      "id": 619575788,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "TGI Fridays"
+      },
+      "center": {
+        "lat": 41.703376649999996,
+        "lon": -86.18680454999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1037866981,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "6915",
+        "addr:postcode": "46254",
+        "addr:state": "IN",
+        "addr:street": "West 38th Street",
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "TGI Fridays",
+        "source": "esri/Indianapolis_IN_Buildings",
+        "website": "https://locations.tgifridays.com/in/indianapolis/6915-w-38th-st.html"
+      },
+      "center": {
+        "lat": 39.822486,
+        "lon": -86.27897680000001
+      }
+    }
+  ]
+}

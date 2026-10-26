@@ -9,14 +9,15 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 RUN mkdir -p models \
- && curl -L --fail -o models/en_US-amy-low.onnx \
-    https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/en/en_US/amy/low/en_US-amy-low.onnx \
- && curl -L --fail -o models/en_US-amy-low.onnx.json \
-    https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/en/en_US/amy/low/en_US-amy-low.onnx.json
+ && curl -L --fail -o models/en_US-ryan-low.onnx \
+     https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/en/en_US/ryan/low/en_US-ryan-low.onnx \
+ && curl -L --fail -o models/en_US-ryan-low.onnx.json \
+     https://huggingface.co/rhasspy/piper-voices/resolve/v1.0.0/en/en_US/ryan/low/en_US-ryan-low.onnx.json
 
 COPY server.py .
 
-ENV PIPER_MODEL=models/en_US-amy-low.onnx \
+ENV PIPER_MODEL=models/en_US-ryan-low.onnx \
+    PIPER_OUTPUT_RATE_SCALE=0.9 \
     PIPER_LENGTH_SCALE=1.0 \
     PIPER_NOISE_SCALE=0.667 \
     PIPER_NOISE_W=0.8 \

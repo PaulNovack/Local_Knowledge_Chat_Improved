@@ -1,0 +1,208 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "bj_s",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12913453742,
+      "tags": {
+        "addr:city": "Chandler",
+        "addr:housenumber": "7151",
+        "addr:postcode": "85226",
+        "addr:state": "AZ",
+        "addr:street": "West Ray Road",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 623-320-0300",
+        "source": "esri/USA_NAD_Addresses",
+        "website": "https://www.bjsrestaurants.com/locations/az/chandler-ray-rd"
+      },
+      "lat": 33.3193936,
+      "lon": -111.9659013
+    },
+    {
+      "type": "way",
+      "id": 165268633,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "yes",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 520-690-1900",
+        "website": "https://www.bjsrestaurants.com/locations/az/tucson-oracle",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 32.28440605,
+        "lon": -110.97767205000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 247568416,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "5510",
+        "addr:state": "AZ",
+        "addr:street": "East Broadway Boulevard",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "yes",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "description": "micro brew",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 520-512-0330",
+        "website": "https://www.bjsrestaurants.com/locations/az/tucson-broadway"
+      },
+      "center": {
+        "lat": 32.22117285,
+        "lon": -110.87467685000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 252962060,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "21001",
+        "addr:postcode": "85050",
+        "addr:state": "AZ",
+        "addr:street": "North Tatum Boulevard",
+        "addr:unit": "91",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "retail",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 480-538-0555",
+        "website": "https://www.bjsrestaurants.com/locations/az/desert-ridge"
+      },
+      "center": {
+        "lat": 33.67712365,
+        "lon": -111.9765607
+      }
+    },
+    {
+      "type": "way",
+      "id": 342398664,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "6622",
+        "addr:postcode": "85206",
+        "addr:state": "AZ",
+        "addr:street": "East Superstition Springs Boulevard",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "yes",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 480-324-1675",
+        "website": "https://www.bjsrestaurants.com/locations/az/mesa"
+      },
+      "center": {
+        "lat": 33.38554105,
+        "lon": -111.68922335000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 451078814,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "9748",
+        "addr:postcode": "85345",
+        "addr:state": "AZ",
+        "addr:street": "West Northern Avenue",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "retail",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 623-772-6470",
+        "source": "esri_USDOT_Arizona",
+        "website": "https://www.bjsrestaurants.com/locations/az/peoria"
+      },
+      "center": {
+        "lat": 33.55205555,
+        "lon": -112.26927124999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1191504298,
+      "tags": {
+        "addr:city": "Goodyear",
+        "addr:housenumber": "14950",
+        "addr:postcode": "85395",
+        "addr:state": "AZ",
+        "addr:street": "West McDowell Road",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "yes",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 480-863-9420",
+        "website": "https://www.bjsrestaurants.com/locations/az/goodyear"
+      },
+      "center": {
+        "lat": 33.464959300000004,
+        "lon": -112.38051840000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1546074804,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "construction",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse"
+      },
+      "center": {
+        "lat": 33.464791149999996,
+        "lon": -112.50366324999999
+      }
+    }
+  ]
+}

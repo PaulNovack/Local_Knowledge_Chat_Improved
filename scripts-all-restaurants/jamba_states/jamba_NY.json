@@ -1,0 +1,87 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "jamba",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6201867910,
+      "tags": {
+        "addr:city": "Jamaica",
+        "addr:postcode": "11430",
+        "addr:state": "NY",
+        "airside": "yes",
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "branch": "JFK - Terminal 4",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "check_date": "2024-06-01",
+        "cuisine": "juice",
+        "level": "2",
+        "name": "Jamba",
+        "opening_hours": "05:00-22:00",
+        "phone": "+1 917-280-4451",
+        "takeaway": "yes",
+        "website": "https://locations.jamba.com/ny/jamaica/jfk-international-airport"
+      },
+      "lat": 40.6406544,
+      "lon": -73.7820044
+    },
+    {
+      "type": "node",
+      "id": 8206950139,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Jamba Juice",
+        "brand:wikidata": "Q3088784",
+        "cuisine": "juice",
+        "drive_through": "no",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Jamba",
+        "takeaway": "yes"
+      },
+      "lat": 40.8779867,
+      "lon": -73.1178007
+    },
+    {
+      "type": "node",
+      "id": 12342378378,
+      "tags": {
+        "addr:city": "Garden City",
+        "addr:housenumber": "630",
+        "addr:postcode": "11530",
+        "addr:state": "NY",
+        "addr:street": "Old Country Road",
+        "addr:unit": "KI07A",
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "cuisine": "juice",
+        "drive_through": "no",
+        "level": "0",
+        "name": "Jamba",
+        "opening_hours": "Mo-Sa 11:00-19:00; Su 12:00-18:00",
+        "phone": "+1 516-747-0140",
+        "start_date": "2010-12-22",
+        "takeaway": "yes",
+        "website": "https://locations.jamba.com/ny/garden-city/630-old-country-road"
+      },
+      "lat": 40.7384182,
+      "lon": -73.6129012
+    }
+  ]
+}

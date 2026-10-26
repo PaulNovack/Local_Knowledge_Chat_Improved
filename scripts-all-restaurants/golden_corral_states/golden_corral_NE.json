@@ -1,0 +1,55 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "golden_corral",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 166188645,
+      "tags": {
+        "addr:housenumber": "6006",
+        "addr:postcode": "68122",
+        "addr:street": "North 72nd Street",
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "retail",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral",
+        "source": "bing"
+      },
+      "center": {
+        "lat": 41.3131433,
+        "lon": -96.02452875
+      }
+    },
+    {
+      "type": "way",
+      "id": 387284678,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "yes",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral"
+      },
+      "center": {
+        "lat": 41.159698750000004,
+        "lon": -95.93689280000001
+      }
+    }
+  ]
+}

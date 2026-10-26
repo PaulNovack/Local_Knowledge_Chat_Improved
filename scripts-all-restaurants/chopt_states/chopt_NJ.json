@@ -1,0 +1,49 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "chopt",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5618485125,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Chopt",
+        "brand:wikidata": "Q17509305",
+        "cuisine": "salad",
+        "name": "Chopt",
+        "takeaway": "yes",
+        "website": "http://choptsalad.com/"
+      },
+      "lat": 40.7053195,
+      "lon": -74.4039813
+    },
+    {
+      "type": "node",
+      "id": 9021559629,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Chopt",
+        "brand:wikidata": "Q17509305",
+        "cuisine": "salad",
+        "name": "Chopt",
+        "opening_hours": "Mo-Su 10:30-20:00",
+        "takeaway": "yes"
+      },
+      "lat": 40.3624737,
+      "lon": -74.6506947
+    }
+  ]
+}

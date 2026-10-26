@@ -1,0 +1,82 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "o_charley_s",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3190496475,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "O'Charley's",
+        "brand:wikidata": "Q7071703",
+        "cuisine": "american",
+        "name": "O'Charley's"
+      },
+      "lat": 35.6606417,
+      "lon": -80.4601928
+    },
+    {
+      "type": "way",
+      "id": 273492805,
+      "tags": {
+        "addr:city": "Asheville",
+        "addr:housenumber": "2",
+        "addr:postcode": "28805",
+        "addr:state": "NC",
+        "addr:street": "Kenilworth Knolls",
+        "amenity": "restaurant",
+        "brand": "O'Charley's",
+        "brand:wikidata": "Q7071703",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "O'Charley's",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 35.59048935,
+        "lon": -82.52886135
+      }
+    },
+    {
+      "type": "way",
+      "id": 549234878,
+      "tags": {
+        "addr:city": "Hickory",
+        "addr:housenumber": "2360",
+        "addr:postcode": "28602",
+        "addr:state": "NC",
+        "addr:street": "US 70 Southeast",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brand": "O'Charley's",
+        "brand:wikidata": "Q7071703",
+        "building": "yes",
+        "cuisine": "american",
+        "delivery": "yes",
+        "name": "O'Charley's",
+        "phone": "+1-828-431-4777",
+        "website": "https://www.ocharleys.com",
+        "website:menu": "https://www.ocharleys.com/menu/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 35.701302749999996,
+        "lon": -81.29272325
+      }
+    }
+  ]
+}

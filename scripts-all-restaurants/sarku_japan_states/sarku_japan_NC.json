@@ -1,0 +1,89 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "sarku_japan",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3302844766,
+      "tags": {
+        "addr:city": "charlotte",
+        "addr:housenumber": "4400",
+        "addr:postcode": "28211",
+        "addr:state": "nc",
+        "addr:street": "sharon road",
+        "addr:unit": "vc07",
+        "amenity": "restaurant",
+        "check_date": "2026-05-06",
+        "check_date:opening_hours": "2026-05-06",
+        "cuisine": "japanese",
+        "name": "Sarku Japan",
+        "opening_hours": "Mo-Th 11:00-20:00; Fr-Sa 10:00-21:00; Su 12:00-18:00",
+        "phone": "+1 704-471-3701",
+        "website": "https://www.sarkujapan.com/"
+      },
+      "lat": 35.1529031,
+      "lon": -80.8330267
+    },
+    {
+      "type": "node",
+      "id": 5206659813,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sarku Japan",
+        "brand:wikidata": "Q7424243",
+        "cuisine": "japanese",
+        "name": "Sarku Japan",
+        "takeaway": "yes"
+      },
+      "lat": 35.0820019,
+      "lon": -80.8769454
+    },
+    {
+      "type": "node",
+      "id": 5346236692,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sarku Japan",
+        "brand:wikidata": "Q7424243",
+        "cuisine": "japanese",
+        "name": "Sarku Japan",
+        "takeaway": "yes"
+      },
+      "lat": 35.0725971,
+      "lon": -78.9599311
+    },
+    {
+      "type": "way",
+      "id": 772323797,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sarku Japan",
+        "brand:wikidata": "Q7424243",
+        "check_date": "2025-06-19",
+        "cuisine": "japanese",
+        "drive_through": "no",
+        "indoor": "retail",
+        "level": "1",
+        "name": "Sarku Japan",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.0678408,
+        "lon": -80.30071614999997
+      }
+    }
+  ]
+}

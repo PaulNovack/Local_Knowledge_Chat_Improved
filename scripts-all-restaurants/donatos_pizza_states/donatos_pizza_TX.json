@@ -1,0 +1,51 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TX",
+    "brand": "donatos_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/texas-latest.osm.pbf",
+    "source_md5": "eb8f4603e9b48bd481c192fe621ae18b",
+    "processed_utc": "2026-10-24T07:17:23.814833+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13341405762,
+      "tags": {
+        "addr:housenumber": "1400",
+        "addr:street": "Long Prairie Road",
+        "amenity": "restaurant",
+        "check_date": "2025-11-29",
+        "cuisine": "pizza",
+        "name": "Donatos Pizza"
+      },
+      "lat": 33.0055424,
+      "lon": -97.0702427
+    },
+    {
+      "type": "node",
+      "id": 13794843979,
+      "tags": {
+        "addr:housenumber": "1259",
+        "addr:street": "Alma Drive",
+        "addr:unit": "160",
+        "amenity": "restaurant",
+        "brand": "Donatos Pizza",
+        "brand:wikidata": "Q1240741",
+        "check_date": "2026-05-04",
+        "cuisine": "pizza",
+        "name": "Donatos Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 33.1169716,
+      "lon": -96.6992171
+    }
+  ]
+}

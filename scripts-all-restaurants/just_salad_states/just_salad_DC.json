@@ -1,0 +1,41 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "just_salad",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T07:20:37.151586+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 739339951,
+      "tags": {
+        "addr:housenumber": "1900",
+        "addr:postcode": "20036",
+        "addr:street": "M Street Northwest",
+        "addr:unit": "020",
+        "amenity": "fast_food",
+        "brand": "Just Salad",
+        "brand:wikidata": "Q23091823",
+        "cuisine": "salad",
+        "dataset": "ABRA locations",
+        "name": "Just Salad",
+        "outdoor_seating": "yes",
+        "source": "dcgis",
+        "takeaway": "yes",
+        "website": "https://www.justsalad.com/location/120-washington"
+      },
+      "lat": 38.9054031,
+      "lon": -77.0436829
+    }
+  ]
+}

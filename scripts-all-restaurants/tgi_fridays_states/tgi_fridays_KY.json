@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KY",
+    "brand": "tgi_fridays",
+    "source": "https://download.geofabrik.de/north-america/us/kentucky-latest.osm.pbf",
+    "source_md5": "beee275db6b863afe4847059e1397537",
+    "processed_utc": "2026-10-24T07:04:39.223265+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3516418240,
+      "tags": {
+        "addr:city": "Louisville",
+        "addr:housenumber": "415",
+        "addr:postcode": "40202",
+        "addr:state": "KY",
+        "addr:street": "South 4th Street",
+        "amenity": "restaurant",
+        "brand": "TGI Friday's",
+        "brand:wikidata": "Q1524184",
+        "cuisine": "american",
+        "name": "TGI Friday's",
+        "phone": "+1-502-585-3604",
+        "website": "https://locations.tgifridays.com/ky/louisville/415-s-4th-st.html"
+      },
+      "lat": 38.2523271,
+      "lon": -85.757027
+    },
+    {
+      "type": "way",
+      "id": 42264805,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "TGI Friday’s",
+        "brand:wikidata": "Q1524184",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "TGI Friday’s",
+        "website": "https://locations.tgifridays.com/ky/crestview-hills/2804-turkeyfoot-rd.html"
+      },
+      "center": {
+        "lat": 39.0249479,
+        "lon": -84.57176650000002
+      }
+    }
+  ]
+}

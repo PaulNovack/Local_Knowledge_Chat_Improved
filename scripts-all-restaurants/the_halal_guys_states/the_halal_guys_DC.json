@@ -1,0 +1,43 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "the_halal_guys",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T07:20:37.151586+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11466206148,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "50",
+        "addr:postcode": "20001",
+        "addr:state": "DC",
+        "addr:street": "Massachusetts Avenue Northwest",
+        "amenity": "fast_food",
+        "brand": "The Halal Guys",
+        "brand:wikidata": "Q10846129",
+        "check_date": "2024-11-08",
+        "cuisine": "chicken;falafel;gyros",
+        "diet:halal": "yes",
+        "level": "-1",
+        "name": "The Halal Guys",
+        "phone": "+1 202-655-5813",
+        "takeaway": "yes",
+        "website": "https://thehalalguys.com/locations/50-massachusetts-avenue-district-of-columbia/"
+      },
+      "lat": 38.8975706,
+      "lon": -77.0065491
+    }
+  ]
+}

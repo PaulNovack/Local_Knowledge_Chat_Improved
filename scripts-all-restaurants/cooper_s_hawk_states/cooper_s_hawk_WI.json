@@ -1,0 +1,75 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WI",
+    "brand": "cooper_s_hawk",
+    "source": "https://download.geofabrik.de/north-america/us/wisconsin-latest.osm.pbf",
+    "source_md5": "1718ff98080ec3edeb95ab8fb47b0ce7",
+    "processed_utc": "2026-10-24T07:19:59.510074+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12302762467,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cooper's Hawk",
+        "brand:wikidata": "Q17511079",
+        "cuisine": "american",
+        "name": "Cooper's Hawk",
+        "official_name": "Cooper's Hawk Winery & Restaurants",
+        "shop": "wine"
+      },
+      "lat": 43.0909163,
+      "lon": -89.5267034
+    },
+    {
+      "type": "node",
+      "id": 12900739182,
+      "tags": {
+        "addr:city": "Greenfield",
+        "addr:housenumber": "8415",
+        "addr:postcode": "53228",
+        "addr:state": "WI",
+        "addr:street": "West Sura Lane",
+        "amenity": "restaurant",
+        "brand": "Cooper's Hawk",
+        "brand:wikidata": "Q17511079",
+        "cuisine": "american",
+        "name": "Cooper's Hawk",
+        "official_name": "Cooper's Hawk Winery & Restaurants",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr 11:00-22:00; Sa 10:00-22:00; Su 10:00-21:00",
+        "phone": "+1 414-455-4200",
+        "shop": "wine",
+        "website": "https://chwinery.com/locations/greenfield-wi"
+      },
+      "lat": 42.959679,
+      "lon": -88.0188265
+    },
+    {
+      "type": "way",
+      "id": 799196009,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cooper's Hawk",
+        "brand:wikidata": "Q17511079",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Cooper's Hawk",
+        "official_name": "Cooper's Hawk Winery & Restaurants",
+        "shop": "wine"
+      },
+      "center": {
+        "lat": 43.03133775,
+        "lon": -88.10873890000005
+      }
+    }
+  ]
+}

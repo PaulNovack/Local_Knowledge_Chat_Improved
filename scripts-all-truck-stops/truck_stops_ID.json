@@ -1,0 +1,865 @@
+{
+  "version": 0.6,
+  "generator": "TruckStopExtractDownloader/1.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ID",
+    "source": "https://download.geofabrik.de/north-america/us/idaho-latest.osm.pbf",
+    "source_md5": "6c95e8d0191229c3b18784cdf12aee57",
+    "processed_utc": "2026-10-24T18:54:28.057640+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9225653472,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "compressed_air": "yes",
+        "hgv": "no",
+        "name": "Flying J"
+      },
+      "lat": 43.6620709,
+      "lon": -116.6547364
+    },
+    {
+      "type": "node",
+      "id": 9953834469,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "no",
+        "name": "Love's"
+      },
+      "lat": 42.9242015,
+      "lon": -114.9407157
+    },
+    {
+      "type": "node",
+      "id": 9953834470,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "name": "Love's"
+      },
+      "lat": 42.9251931,
+      "lon": -114.940749
+    },
+    {
+      "type": "node",
+      "id": 12105225780,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 43.6618997,
+      "lon": -116.6538791
+    },
+    {
+      "type": "node",
+      "id": 12105236834,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 43.5716302,
+      "lon": -116.189462
+    },
+    {
+      "type": "node",
+      "id": 12222372692,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 47.7114201,
+      "lon": -116.9975844
+    },
+    {
+      "type": "node",
+      "id": 12301844857,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 42.7229023,
+      "lon": -114.5426631
+    },
+    {
+      "type": "node",
+      "id": 12301848256,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 43.5650197,
+      "lon": -116.1991189
+    },
+    {
+      "type": "node",
+      "id": 12301858251,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 46.4270906,
+      "lon": -117.0058617
+    },
+    {
+      "type": "node",
+      "id": 12683703053,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 43.5986553,
+      "lon": -116.5719447
+    },
+    {
+      "type": "node",
+      "id": 12683717038,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 42.5743151,
+      "lon": -114.2969191
+    },
+    {
+      "type": "node",
+      "id": 14145342289,
+      "tags": {
+        "addr:city": "Caldwell",
+        "addr:housenumber": "15918",
+        "addr:postcode": "83607",
+        "addr:state": "ID",
+        "addr:street": "Karcher Road",
+        "amenity": "fuel",
+        "brand": "Shell",
+        "fuel:HGV_diesel": "yes",
+        "fuel:diesel": "yes",
+        "fuel:octane_87": "yes",
+        "fuel:octane_89": "yes",
+        "fuel:octane_91": "yes",
+        "name": "Buds Marketplace Shell",
+        "operator": "Obendorf Farms",
+        "self_service": "yes"
+      },
+      "lat": 43.6048104,
+      "lon": -116.7109894
+    },
+    {
+      "type": "relation",
+      "id": 13741633,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "name": "Pilot",
+        "type": "multipolygon"
+      },
+      "center": {
+        "lat": 43.1423047,
+        "lon": -115.66293660000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 223312757,
+      "tags": {
+        "addr:city": "Heyburn",
+        "addr:housenumber": "260",
+        "addr:postcode": "83336",
+        "addr:state": "ID",
+        "addr:street": "Centennial Drive",
+        "branch": "Heyburn",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "opening_hours": "24/7",
+        "operator": "Loves'",
+        "phone": "+1 208-434-8777",
+        "ref": "334",
+        "website": "https://www.loves.com/locations/id/heyburn/loves-travel-stop-heyburn-334"
+      },
+      "center": {
+        "lat": 42.5649976,
+        "lon": -113.74068649999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 223312758,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "capacity": "7",
+        "fuel:adblue": "yes",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "layer": "1"
+      },
+      "center": {
+        "lat": 42.56482975,
+        "lon": -113.74036815
+      }
+    },
+    {
+      "type": "way",
+      "id": 223313114,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "hgv": "yes",
+        "name": "Love's",
+        "website": "https://www.loves.com/locations/301"
+      },
+      "center": {
+        "lat": 47.7108644,
+        "lon": -117.00393174999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 223313117,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "hgv": "no",
+        "name": "Love's",
+        "website": "https://www.loves.com/locations/301"
+      },
+      "center": {
+        "lat": 47.7112298,
+        "lon": -117.00279439999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 223467961,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "hgv": "yes"
+      },
+      "center": {
+        "lat": 42.6495802,
+        "lon": -114.44241120000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 223467962,
+      "tags": {
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.640@pilottravelcenters.com",
+        "fax": "+1 208-324-4097",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 208-324-3454",
+        "ref": "640",
+        "toilets": "yes",
+        "website": "https://locations.pilotflyingj.com/us/id/jerome/5350-us-93"
+      },
+      "center": {
+        "lat": 42.6492706,
+        "lon": -114.44171819999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 226826333,
+      "tags": {
+        "branch": "Boise",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 208-344-1091",
+        "ref": "0167",
+        "website": "https://www.ta-petro.com/location/id/ta-boise/"
+      },
+      "center": {
+        "lat": 43.56560105,
+        "lon": -116.19957984999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 226826414,
+      "tags": {
+        "addr:city": "Boise",
+        "addr:housenumber": "3353",
+        "addr:postcode": "83705",
+        "addr:state": "ID",
+        "addr:street": "South Federal Way",
+        "branch": "East Boise",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "fax": "+1 208-344-3624",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 208-268-8541",
+        "ref": "777",
+        "website": "https://locations.pilotflyingj.com/us/id/east-boise/3353-federal-way"
+      },
+      "center": {
+        "lat": 43.571178950000004,
+        "lon": -116.1895007
+      }
+    },
+    {
+      "type": "way",
+      "id": 230494855,
+      "tags": {
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.638@pilottravelcenters.com",
+        "fax": "+1 208-453-2010",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 208-453-9225",
+        "ref": "638",
+        "shower": "yes",
+        "toilets": "yes",
+        "website": "https://locations.pilotflyingj.com/us/id/caldwell/3512-franklin-rd"
+      },
+      "center": {
+        "lat": 43.66121255,
+        "lon": -116.65426709999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 230495145,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "building": "roof",
+        "check_date": "2026-09-05",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "layer": "1",
+        "name": "Flying J"
+      },
+      "center": {
+        "lat": 42.66026705,
+        "lon": -112.20614935000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 230495147,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "building": "yes",
+        "check_date": "2026-09-05",
+        "fuel:diesel": "yes",
+        "fuel:octane_85": "yes",
+        "fuel:octane_87": "yes",
+        "fuel:octane_91": "yes",
+        "hgv": "no",
+        "name": "Flying J"
+      },
+      "center": {
+        "lat": 42.660413000000005,
+        "lon": -112.2068749
+      }
+    },
+    {
+      "type": "way",
+      "id": 230495148,
+      "tags": {
+        "branch": "McCammon",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.641@pilottravelcenters.com",
+        "fax": "+1 208-845-0879",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 208-845-0866",
+        "ref": "641",
+        "website": "https://locations.pilotflyingj.com/us/id/mccammon/587-e-us-30"
+      },
+      "center": {
+        "lat": 42.659932749999996,
+        "lon": -112.20649270000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 235563325,
+      "tags": {
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.350@pilottravelcenters.com",
+        "fax": "+1 208-587-3071",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 208-587-4465",
+        "ref": "350",
+        "website": "https://locations.pilotflyingj.com/us/id/mountain-home/1050-us-20"
+      },
+      "center": {
+        "lat": 43.14192075,
+        "lon": -115.66345360000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 375323034,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "building": "yes",
+        "hgv": "yes",
+        "name": "Flying J"
+      },
+      "center": {
+        "lat": 43.439932299999995,
+        "lon": -112.1157389
+      }
+    },
+    {
+      "type": "way",
+      "id": 375323035,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "building": "yes",
+        "hgv": "no",
+        "name": "Flying J"
+      },
+      "center": {
+        "lat": 43.43936995,
+        "lon": -112.11568784999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 375324347,
+      "tags": {
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.1043@pilottravelcenters.com",
+        "fax": "+1 208-528-2989",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 208-522-4149",
+        "ref": "1043",
+        "website": "https://locations.pilotflyingj.com/us/id/idaho-falls/6485-w-overland-dr"
+      },
+      "center": {
+        "lat": 43.44050785,
+        "lon": -112.11483249999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 919828828,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 43.59889805,
+        "lon": -116.57139325000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1018879834,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 208-773-4577",
+        "ref": "301",
+        "website": "https://www.loves.com/locations/id/post-falls/loves-travel-stop-post-falls-301"
+      },
+      "center": {
+        "lat": 47.710446649999994,
+        "lon": -117.0041364
+      }
+    },
+    {
+      "type": "way",
+      "id": 1018879843,
+      "tags": {
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.639@pilottravelcenters.com",
+        "fax": "+1 208-773-0404",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 208-773-0593",
+        "ref": "639",
+        "website": "https://locations.pilotflyingj.com/us/id/post-falls/3636-w-5th-ave"
+      },
+      "center": {
+        "lat": 47.71108475,
+        "lon": -116.9976858
+      }
+    },
+    {
+      "type": "way",
+      "id": 1026756110,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "hgv": "yes"
+      },
+      "center": {
+        "lat": 43.526409900000004,
+        "lon": -112.02219264999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1059966690,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "center": {
+        "lat": 42.54732735,
+        "lon": -114.42039190000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1063418637,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "building": "roof",
+        "fuel:gasoline": "yes",
+        "hgv": "no",
+        "layer": "1",
+        "name": "TA",
+        "official_name": "TravelCenters of America"
+      },
+      "center": {
+        "lat": 44.29325135,
+        "lon": -117.22392045000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080134558,
+      "tags": {
+        "highway": "services",
+        "name": "Mr Gas Travel Center"
+      },
+      "center": {
+        "lat": 43.511224299999995,
+        "lon": -116.14753604999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1085949081,
+      "tags": {
+        "highway": "services",
+        "name": "Flags West Truck Stop",
+        "opening_hours": "24/7"
+      },
+      "center": {
+        "lat": 42.4297205,
+        "lon": -112.17825664999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1086096109,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Mr. Gas",
+        "website": "https://www.mrgas.com/"
+      },
+      "center": {
+        "lat": 42.722806250000005,
+        "lon": -114.54208930000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1086329558,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 208-536-7083",
+        "ref": "812",
+        "website": "https://www.loves.com/locations/id/bliss/loves-travel-stop-bliss-812"
+      },
+      "center": {
+        "lat": 42.9252542,
+        "lon": -114.93984545
+      }
+    },
+    {
+      "type": "way",
+      "id": 1086329568,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 42.922996299999994,
+        "lon": -114.94697495000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1086330544,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 43.384496549999994,
+        "lon": -116.00024065000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1086330895,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 43.866601700000004,
+        "lon": -116.78148120000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1087662705,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 42.9226336,
+        "lon": -114.71149135000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1119091060,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "capacity:hgv": "7",
+        "name": "Love's"
+      },
+      "center": {
+        "lat": 43.4367175,
+        "lon": -112.12057785000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1119091061,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 208-529-1904",
+        "ref": "478",
+        "website": "https://www.loves.com/locations/id/idaho-falls/loves-travel-stop-idaho-falls-478"
+      },
+      "center": {
+        "lat": 43.436622299999996,
+        "lon": -112.12078474999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1204205379,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes",
+        "motorcar": "yes"
+      },
+      "center": {
+        "lat": 42.68567,
+        "lon": -114.51911130000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1204361896,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes",
+        "motorcar": "yes"
+      },
+      "center": {
+        "lat": 43.51076595,
+        "lon": -111.96511384999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1204362728,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes",
+        "motorcar": "yes"
+      },
+      "center": {
+        "lat": 44.015203549999995,
+        "lon": -116.92306769999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1241766379,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "center": {
+        "lat": 46.4304017,
+        "lon": -116.98567539999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1329656718,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 42.8423511,
+        "lon": -112.41342635000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1329656723,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Maverik",
+        "brand:wikidata": "Q64149010",
+        "building": "roof",
+        "hgv": "yes",
+        "layer": "1",
+        "name": "Maverik"
+      },
+      "center": {
+        "lat": 42.84264055,
+        "lon": -112.41354510000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1354521351,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "center": {
+        "lat": 42.60327735,
+        "lon": -113.68683729999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1417651315,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "hgv": "designated"
+      },
+      "center": {
+        "lat": 43.2018002,
+        "lon": -112.36837580000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1483974562,
+      "tags": {
+        "addr:city": "Caldwell",
+        "addr:housenumber": "15918",
+        "addr:postcode": "83607",
+        "addr:state": "ID",
+        "addr:street": "Karcher Road",
+        "amenity": "fuel",
+        "brand": "Shell",
+        "fuel:HGV_diesel": "yes",
+        "fuel:diesel": "yes",
+        "fuel:octane_85": "yes",
+        "fuel:octane_88": "yes",
+        "fuel:octane_91": "yes",
+        "name": "Buds Marketeplace Shell",
+        "operator": "Obendorf Farms",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 43.6054594,
+        "lon": -116.7113946
+      }
+    },
+    {
+      "type": "way",
+      "id": 1559227323,
+      "tags": {
+        "access": "no",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 44.02585415,
+        "lon": -115.6226322
+      }
+    }
+  ]
+}

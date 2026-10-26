@@ -1,0 +1,113 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "the_cheesecake_factory",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9466822489,
+      "tags": {
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory"
+      },
+      "lat": 39.4737427,
+      "lon": -119.7841232
+    },
+    {
+      "type": "node",
+      "id": 9483794117,
+      "tags": {
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory"
+      },
+      "lat": 36.1660781,
+      "lon": -115.1569766
+    },
+    {
+      "type": "way",
+      "id": 180833632,
+      "tags": {
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "check_date": "2026-02-06",
+        "cuisine": "american",
+        "indoor": "room",
+        "level": "0",
+        "level:ref": "1",
+        "name": "The Cheesecake Factory",
+        "source": "Map of the Shopping Centre"
+      },
+      "center": {
+        "lat": 36.119125249999996,
+        "lon": -115.17859449999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 226496967,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "160",
+        "addr:postcode": "89052",
+        "addr:state": "NV",
+        "addr:street": "South Green Valley Parkway",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory"
+      },
+      "center": {
+        "lat": 36.021884299999996,
+        "lon": -115.08325460000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1196455590,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "750",
+        "addr:postcode": "89145",
+        "addr:state": "NV",
+        "addr:street": "South Rampart Boulevard",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory",
+        "phone": "+1-702-951-3800"
+      },
+      "center": {
+        "lat": 36.1647078,
+        "lon": -115.28939009999999
+      }
+    }
+  ]
+}

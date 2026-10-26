@@ -1,0 +1,60 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "playa_bowls",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T07:20:37.151586+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11956139622,
+      "tags": {
+        "addr:housenumber": "143",
+        "addr:postcode": "20003",
+        "addr:street": "N Street Southeast",
+        "amenity": "fast_food",
+        "brand": "Playa Bowls",
+        "brand:wikidata": "Q114618507",
+        "cuisine": "açaí",
+        "name": "Playa Bowls",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "phone": "+1-202-204-0615",
+        "takeaway": "yes",
+        "website": "https://www.playabowls.com/location/navy-yard"
+      },
+      "lat": 38.8744575,
+      "lon": -77.0043788
+    },
+    {
+      "type": "node",
+      "id": 12800665881,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "4859",
+        "addr:postcode": "20016-2065",
+        "addr:state": "DC",
+        "addr:street": "Massachusetts Avenue Northwest",
+        "amenity": "fast_food",
+        "brand": "Playa Bowls",
+        "brand:wikidata": "Q114618507",
+        "cuisine": "açaí",
+        "name": "Playa Bowls",
+        "phone": "+1 202-506-5871",
+        "takeaway": "yes",
+        "website": "https://www.playabowls.com/location/spring-valley"
+      },
+      "lat": 38.9460894,
+      "lon": -77.0962279
+    }
+  ]
+}

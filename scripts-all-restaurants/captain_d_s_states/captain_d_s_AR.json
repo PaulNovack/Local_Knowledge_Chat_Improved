@@ -1,0 +1,160 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "captain_d_s",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 860573142,
+      "tags": {
+        "addr:city": "Little Rock",
+        "addr:housenumber": "6301",
+        "addr:postcode": "72204",
+        "addr:state": "AR",
+        "addr:street": "Colonel Glenn Road",
+        "amenity": "fast_food",
+        "branch": "Seafood",
+        "brand": "Captain D's",
+        "brand:wikidata": "Q5036616",
+        "check_date": "2025-07-13",
+        "cuisine": "seafood",
+        "name": "Captain D's",
+        "official_name": "Captain D's Seafood Kitchen",
+        "opening_hours": "10:30-22:00",
+        "phone": "+1 501-568-6244",
+        "takeaway": "yes",
+        "website": "https://locations.captainds.com/ll/us/ar/little-rock/6301-colonel-glenn-rd/"
+      },
+      "lat": 34.717442,
+      "lon": -92.3455588
+    },
+    {
+      "type": "way",
+      "id": 547164635,
+      "tags": {
+        "addr:city": "Jonesboro",
+        "addr:housenumber": "2629",
+        "addr:postcode": "72401",
+        "addr:state": "AR",
+        "addr:street": "Red Wolf Boulevard",
+        "amenity": "fast_food",
+        "brand": "Captain D's",
+        "brand:wikidata": "Q5036616",
+        "building": "commercial",
+        "cuisine": "seafood",
+        "name": "Captain D's",
+        "official_name": "Captain D's Seafood Kitchen",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.81106615,
+        "lon": -90.66977505
+      }
+    },
+    {
+      "type": "way",
+      "id": 775440814,
+      "tags": {
+        "addr:city": "North Little Rock",
+        "addr:housenumber": "5320",
+        "addr:state": "AR",
+        "addr:street": "John F Kennedy Boulevard",
+        "amenity": "fast_food",
+        "brand": "Captain D's",
+        "brand:wikidata": "Q5036616",
+        "building": "yes",
+        "cuisine": "seafood",
+        "drive_through": "yes",
+        "name": "Captain D's",
+        "official_name": "Captain D's Seafood Kitchen",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 34.8040498,
+        "lon": -92.25298005000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 775583568,
+      "tags": {
+        "addr:city": "Springdale",
+        "addr:housenumber": "909",
+        "addr:postcode": "72764",
+        "addr:street": "South Thompson Street",
+        "amenity": "fast_food",
+        "brand": "Captain D's",
+        "brand:wikidata": "Q5036616",
+        "building": "retail",
+        "cuisine": "seafood",
+        "drive_through": "yes",
+        "name": "Captain D's",
+        "opening_hours": "11:00-22:00; Fr,Sa 11:00-23:00",
+        "phone": "+1 479 717 6727",
+        "takeaway": "yes",
+        "website": "https://locations.captainds.com/ll/US/AR/Springdale/909-S-Thompson-St"
+      },
+      "center": {
+        "lat": 36.175980550000006,
+        "lon": -94.13848695000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1091598427,
+      "tags": {
+        "addr:city": "Benton",
+        "addr:housenumber": "1419",
+        "addr:postcode": "72015",
+        "addr:state": "AR",
+        "addr:street": "Military Road",
+        "amenity": "fast_food",
+        "brand": "Captain D's",
+        "brand:wikidata": "Q5036616",
+        "building": "yes",
+        "cuisine": "seafood",
+        "drive_through": "yes",
+        "name": "Captain D's",
+        "official_name": "Captain D's Seafood Kitchen",
+        "phone": "+1-501-778-7909",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 34.577689649999996,
+        "lon": -92.57548509999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1338710270,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Captain D's",
+        "brand:wikidata": "Q5036616",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Captain D's",
+        "official_name": "Captain D's Seafood Kitchen",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.25095795,
+        "lon": -91.71808599999997
+      }
+    }
+  ]
+}

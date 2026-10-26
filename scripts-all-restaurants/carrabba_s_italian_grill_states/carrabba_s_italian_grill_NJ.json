@@ -1,0 +1,117 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "carrabba_s_italian_grill",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2104411500,
+      "tags": {
+        "addr:city": "East Brunswick",
+        "addr:housenumber": "335",
+        "addr:postcode": "08816",
+        "addr:state": "NJ",
+        "addr:street": "NJ 18 Souh",
+        "amenity": "restaurant",
+        "brand": "Carrabba's Italian Grill",
+        "brand:wikidata": "Q5045999",
+        "cuisine": "italian",
+        "email": "CA8107@carrabbas.com",
+        "name": "Carrabba's Italian Grill",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-21:00",
+        "operator": "Sally Kobuta",
+        "phone": "+1 732-432-8054",
+        "website": "https://locations.carrabbas.com/new-jersey/e.-brunswick/335-hwy-nj-18"
+      },
+      "lat": 40.453811,
+      "lon": -74.4002023
+    },
+    {
+      "type": "node",
+      "id": 10142917525,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Carrabba's Italian Grill",
+        "brand:wikidata": "Q5045999",
+        "cuisine": "italian",
+        "name": "Carrabba's Italian Grill"
+      },
+      "lat": 40.6013766,
+      "lon": -74.4817096
+    },
+    {
+      "type": "way",
+      "id": 278138649,
+      "tags": {
+        "addr:city": "Secaucus",
+        "addr:housenumber": "475",
+        "addr:state": "NJ",
+        "addr:street": "Harmon Meadow Boulevard",
+        "amenity": "restaurant",
+        "brand": "Carrabba's Italian Grill",
+        "brand:wikidata": "Q5045999",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Carrabba's Italian Grill",
+        "opening_hours": "Mo-Th 16:00-22:00; Fr,Sa 11:00-23:00; Su 11:00-21:30"
+      },
+      "center": {
+        "lat": 40.78926545,
+        "lon": -74.04405265000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 523749594,
+      "tags": {
+        "addr:city": "Turnersville",
+        "addr:housenumber": "4650",
+        "addr:postcode": "08012",
+        "addr:state": "NJ",
+        "addr:street": "Route 42",
+        "amenity": "restaurant",
+        "brand": "Carrabba's Italian Grill",
+        "brand:wikidata": "Q5045999",
+        "building": "yes",
+        "check_date": "2024-09-03",
+        "cuisine": "italian",
+        "name": "Carrabba's Italian Grill",
+        "opening_hours": "Mo-Sa 11:00-22:00; Su 11:00-21:00",
+        "phone": "+1 856-629-0100",
+        "website": "https://locations.carrabbas.com/new-jersey/turnersville/4650-route-42"
+      },
+      "center": {
+        "lat": 39.7448238,
+        "lon": -75.04411215000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 597827085,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Carrabba's Italian Grill",
+        "brand:wikidata": "Q5045999",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Carrabba's Italian Grill"
+      },
+      "center": {
+        "lat": 39.94175835,
+        "lon": -74.98782840000001
+      }
+    }
+  ]
+}

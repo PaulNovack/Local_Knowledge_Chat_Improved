@@ -1,0 +1,37 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "church_s_chicken",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1182104242,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Church's Chicken",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.294924800000004,
+        "lon": -96.17805145
+      }
+    }
+  ]
+}

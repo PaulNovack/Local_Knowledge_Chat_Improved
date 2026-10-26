@@ -1,0 +1,364 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "panda_express",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2061121677,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "6100",
+        "addr:postcode": "68505",
+        "addr:state": "NE",
+        "addr:street": "O Street",
+        "addr:unit": "FC-8",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "check_date": "2025-11-07",
+        "cuisine": "chinese",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "no",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "opening_hours": "Su 10:30-18:00; Mo-Sa 10:30-20:00",
+        "phone": "+1-402-466-5212",
+        "source": "http://www.shoppinggatewaymall.com;local knowledge",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/ne/lincoln/1214"
+      },
+      "lat": 40.8152092,
+      "lon": -96.6379607
+    },
+    {
+      "type": "node",
+      "id": 2149926430,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "1317",
+        "addr:postcode": "68508",
+        "addr:state": "NE",
+        "addr:street": "Q Street",
+        "addr:unit": "140",
+        "amenity": "fast_food",
+        "branch": "University of Nebraska",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "check_date": "2025-07-03",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "is_in:state": "Nebraska",
+        "is_in:state_code": "NE",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:00-22:00; Su 10:30-22:00",
+        "phone": "+1-402-475-0008",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/ne/lincoln/2190"
+      },
+      "lat": 40.8156644,
+      "lon": -96.7017837
+    },
+    {
+      "type": "node",
+      "id": 5532155913,
+      "tags": {
+        "addr:city": "Grand Island",
+        "addr:housenumber": "960",
+        "addr:postcode": "68803",
+        "addr:state": "NE",
+        "addr:street": "AllenDrive",
+        "amenity": "fast_food",
+        "branch": "281 & Allen",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 09:30-22:00; Fr 09:30-22:30; Sa 10:00-22:00; Su 10:00-21:30",
+        "phone": "+1 308-381-6666",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/ne/grand-island/2253"
+      },
+      "lat": 40.9277159,
+      "lon": -98.3827695
+    },
+    {
+      "type": "node",
+      "id": 11701097669,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "3920",
+        "addr:state": "NE",
+        "addr:street": "North 26th Street",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "opening_hours": "Su 11:00-22:00; Mo-Tu 10:00-22:00; We 10:30-22:00, Th-Sa 10:00-22:00",
+        "phone": "+1-402-242-6768",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/ne/lincoln/3801"
+      },
+      "lat": 40.8510469,
+      "lon": -96.6828408
+    },
+    {
+      "type": "node",
+      "id": 12885563122,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 41.1799349,
+      "lon": -96.1082214
+    },
+    {
+      "type": "way",
+      "id": 170765471,
+      "tags": {
+        "addr:city": "Papillion",
+        "addr:housenumber": "8760",
+        "addr:postcode": "68133",
+        "addr:state": "NE",
+        "addr:street": "South 71st Plaza",
+        "amenity": "fast_food",
+        "branch": "71st & Giles",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 09:30-22:30; Fr-Sa 09:30-23:00; Su 09:30-22:30",
+        "phone": "+1 402-331-6266",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/ne/papillion/1868"
+      },
+      "center": {
+        "lat": 41.171109099999995,
+        "lon": -96.02304824999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 180645013,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "17627",
+        "addr:postcode": "68130",
+        "addr:state": "NE",
+        "addr:street": "Gold Plaza",
+        "amenity": "fast_food",
+        "branch": "175 & Center",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 09:30-22:00; Fr-Sa 09:30-22:30; Su 09:30-22:00",
+        "phone": "+1 402-330-0870",
+        "source": "bing",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/ne/omaha/1803"
+      },
+      "center": {
+        "lat": 41.23468935,
+        "lon": -96.19094634999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 316276787,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "16920",
+        "addr:postcode": "68116",
+        "addr:state": "NE",
+        "addr:street": "Evans Plaza",
+        "amenity": "fast_food",
+        "branch": "168th & Maple",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 09:30-22:00; Fr-Sa 09:30-22:30; Su 09:30-22:00",
+        "phone": "+1 402-289-1698",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/ne/omaha/1802"
+      },
+      "center": {
+        "lat": 41.2916144,
+        "lon": -96.17879845000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 412903951,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "7052",
+        "addr:postcode": "68132",
+        "addr:state": "NE",
+        "addr:street": "Dodge Street",
+        "amenity": "fast_food",
+        "branch": "72nd & Dodge",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 09:30-22:30; Fr-Sa 09:30-23:00; Su 09:30-22:30",
+        "phone": "+1 402-551-0160",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/ne/omaha/2235"
+      },
+      "center": {
+        "lat": 41.2600958,
+        "lon": -96.02175765000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 704962409,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.4508955,
+        "lon": -96.45804429999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 737159583,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "1540",
+        "addr:postcode": "68512",
+        "addr:state": "NE",
+        "addr:street": "Pine Lake Road",
+        "amenity": "fast_food",
+        "branch": "Pine Lake Road & 14th St",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:30-21:00; Fr-Sa 10:30-21:30; Su 11:00-21:00",
+        "phone": "+1 402-858-9977",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/ne/lincoln/3030"
+      },
+      "center": {
+        "lat": 40.738967099999996,
+        "lon": -96.69935365000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 828303708,
+      "tags": {
+        "addr:city": "Kearney",
+        "addr:housenumber": "4910",
+        "addr:postcode": "68845",
+        "addr:state": "NE",
+        "addr:street": "2nd Avenue",
+        "amenity": "fast_food",
+        "branch": "2nd & West 48th",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 09:30-22:00; Fr 10:00-22:00; Sa 09:30-22:00; Su 10:00-22:00",
+        "phone": "+1 308-236-8898",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/ne/kearney/2600"
+      },
+      "center": {
+        "lat": 40.722915650000004,
+        "lon": -99.084744
+      }
+    },
+    {
+      "type": "way",
+      "id": 1042440674,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "6228",
+        "addr:postcode": "68134",
+        "addr:state": "NE",
+        "addr:street": "North 72nd Street",
+        "amenity": "fast_food",
+        "branch": "72nd & Sorensen",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 09:30-22:30; Su 10:00-22:30",
+        "phone": "+1 402-572-9000",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/ne/omaha/2280"
+      },
+      "center": {
+        "lat": 41.315682949999996,
+        "lon": -96.02439200000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1291646005,
+      "tags": {
+        "addr:city": "North Platte",
+        "addr:housenumber": "1101",
+        "addr:postcode": "69101",
+        "addr:state": "NE",
+        "addr:street": "South Dewey Street",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "note": "apparently building was demolished and rebuilt, still using old arby's footprint",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/ne/north-platte/"
+      },
+      "center": {
+        "lat": 41.1240172,
+        "lon": -100.76253995000002
+      }
+    }
+  ]
+}

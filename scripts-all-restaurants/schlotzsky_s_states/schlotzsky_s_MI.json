@@ -1,0 +1,76 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MI",
+    "brand": "schlotzsky_s",
+    "source": "https://download.geofabrik.de/north-america/us/michigan-latest.osm.pbf",
+    "source_md5": "1c9e00f502a3ea973e97c7d6f989094d",
+    "processed_utc": "2026-10-24T07:07:39.587953+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2798865910,
+      "tags": {
+        "addr:city": "Battle Creek",
+        "addr:housenumber": "94",
+        "addr:postcode": "49015",
+        "addr:state": "MI",
+        "addr:street": "South 20th Street",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's",
+        "phone": "+1-269-964-8677",
+        "takeaway": "yes"
+      },
+      "lat": 42.2997225,
+      "lon": -85.2200234
+    },
+    {
+      "type": "node",
+      "id": 2798881930,
+      "tags": {
+        "addr:city": "Battle Creek",
+        "addr:housenumber": "14",
+        "addr:postcode": "49017",
+        "addr:state": "MI",
+        "addr:street": "West Michigan Avenue",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's",
+        "phone": "+1-269-963-2526",
+        "takeaway": "yes"
+      },
+      "lat": 42.3197758,
+      "lon": -85.1827724
+    },
+    {
+      "type": "way",
+      "id": 1274306330,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.260656049999994,
+        "lon": -85.17725915
+      }
+    }
+  ]
+}

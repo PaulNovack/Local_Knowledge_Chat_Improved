@@ -1,0 +1,108 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "red_lobster",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2871430507,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "cuisine": "seafood",
+        "name": "Red Lobster"
+      },
+      "lat": 31.3233383,
+      "lon": -89.3609067
+    },
+    {
+      "type": "way",
+      "id": 130793129,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Red Lobster",
+        "source": "bing"
+      },
+      "center": {
+        "lat": 30.4548458,
+        "lon": -88.90175205000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 557139033,
+      "tags": {
+        "addr:city": "Meridian",
+        "addr:housenumber": "201",
+        "addr:postcode": "39301",
+        "addr:state": "MS",
+        "addr:street": "South Frontage Road",
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "building": "yes",
+        "building:levels": "1",
+        "contact:website": "https://redlobster.com/locations/list/ms/meridian/201-s-frontage-road",
+        "cuisine": "seafood",
+        "name": "Red Lobster",
+        "opening_hours": "Su-Th 11:00-21:00; Fr-Sa 11:00-22:00",
+        "phone": "+1-601-483-9194",
+        "website": "https://redlobster.com/locations/list/ms/meridian/201-s-frontage-road"
+      },
+      "center": {
+        "lat": 32.364121850000004,
+        "lon": -88.67465664999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 640813967,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Red Lobster",
+        "source": "bing"
+      },
+      "center": {
+        "lat": 34.955993899999996,
+        "lon": -89.99083560000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1098119175,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "building": "commercial",
+        "cuisine": "seafood",
+        "name": "Red Lobster"
+      },
+      "center": {
+        "lat": 34.3150529,
+        "lon": -88.70381090000001
+      }
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DE",
+    "brand": "kfc",
+    "source": "https://download.geofabrik.de/north-america/us/delaware-latest.osm.pbf",
+    "source_md5": "5f714be897be010ea09e4134c39a0638",
+    "processed_utc": "2026-10-24T07:00:37.202137+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5291587635,
+      "tags": {
+        "addr:city": "Camden",
+        "addr:housenumber": "344",
+        "addr:postcode": "19934",
+        "addr:state": "DE",
+        "addr:street": "Walmart Drive",
+        "amenity": "fast_food",
+        "name": "KFC/Taco Bell",
+        "phone": "+1 302-697-1250",
+        "website": "https://locations.tacobell.com/de/camden/344-walmart-drive.html"
+      },
+      "lat": 39.1008819,
+      "lon": -75.543861
+    },
+    {
+      "type": "node",
+      "id": 8973160922,
+      "tags": {
+        "addr:city": "New Castle",
+        "addr:housenumber": "112",
+        "addr:postcode": "19720",
+        "addr:state": "DE",
+        "addr:street": "North Dupont Highway",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "opening_hours": "Mo-Su 10:30-21:00",
+        "phone": "+1 302-322-8075",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/de/new-castle/112-n-dupont-hwy"
+      },
+      "lat": 39.668185,
+      "lon": -75.600736
+    },
+    {
+      "type": "node",
+      "id": 11939389104,
+      "tags": {
+        "addr:city": "Wilmington",
+        "addr:housenumber": "1925",
+        "addr:postcode": "19805",
+        "addr:state": "DE",
+        "addr:street": "Lancaster Avenue",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "check_date": "2026-02-01",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "opening_hours": "10:30-24:00",
+        "phone": "+1 302-575-1566",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/de/wilmington/1925-lancaster-ave/"
+      },
+      "lat": 39.7469589,
+      "lon": -75.5741865
+    },
+    {
+      "type": "way",
+      "id": 152100067,
+      "tags": {
+        "addr:city": "Bear",
+        "addr:housenumber": "220",
+        "addr:postcode": "19701",
+        "addr:state": "DE",
+        "addr:street": "Fox Hunt Drive",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "check_date": "2026-02-01",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "KFC",
+        "phone": "+1 302-836-0714",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/de/bear/220-fox-hunt-dr"
+      },
+      "center": {
+        "lat": 39.60810695,
+        "lon": -75.71164425
+      }
+    },
+    {
+      "type": "way",
+      "id": 700190743,
+      "tags": {
+        "addr:city": "Claymont",
+        "addr:housenumber": "609",
+        "addr:postcode": "19703",
+        "addr:state": "DE",
+        "addr:street": "Naamans Road",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "check_date": "2024-06-03",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "opening_hours": "11:00-23:00",
+        "phone": "+1 302-792-0425",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/de/claymont/609-naamans-rd"
+      },
+      "center": {
+        "lat": 39.8171763,
+        "lon": -75.45723729999997
+      }
+    }
+  ]
+}

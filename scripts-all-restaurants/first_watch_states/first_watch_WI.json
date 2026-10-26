@@ -1,0 +1,119 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WI",
+    "brand": "first_watch",
+    "source": "https://download.geofabrik.de/north-america/us/wisconsin-latest.osm.pbf",
+    "source_md5": "1718ff98080ec3edeb95ab8fb47b0ce7",
+    "processed_utc": "2026-10-24T07:19:59.510074+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10239178904,
+      "tags": {
+        "addr:city": "Oak Creek",
+        "addr:floor": "1",
+        "addr:housenumber": "120",
+        "addr:postcode": "53154",
+        "addr:state": "WI",
+        "addr:street": "West Town Square Way",
+        "addr:unit": "200",
+        "amenity": "restaurant",
+        "brand": "First Watch",
+        "brand:wikidata": "Q5454064",
+        "breakfast": "yes",
+        "check_date": "2024-12-07",
+        "contact:facebook": "https://www.facebook.com/FirstWatch/",
+        "cuisine": "american;breakfast",
+        "level": "0",
+        "name": "First Watch",
+        "official_name": "First Watch The Daytime Cafe",
+        "opening_hours": "07:00-14:30",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-414-409-1414",
+        "toilets": "yes",
+        "website": "https://firstwatch.com/locations/oak-creek/",
+        "website:menu": "https://firstwatch.com/menu/",
+        "wheelchair": "yes"
+      },
+      "lat": 42.8994485,
+      "lon": -87.9121974
+    },
+    {
+      "type": "node",
+      "id": 13460880424,
+      "tags": {
+        "addr:city": "Brookfield",
+        "addr:housenumber": "17550",
+        "addr:postcode": "53045",
+        "addr:state": "WI",
+        "addr:street": "West Bluemound Road",
+        "addr:unit": "A",
+        "amenity": "restaurant",
+        "brand": "First Watch",
+        "brand:wikidata": "Q5454064",
+        "cuisine": "american;breakfast",
+        "name": "First Watch",
+        "official_name": "First Watch The Daytime Cafe",
+        "website": "https://firstwatch.com/locations/brookfield"
+      },
+      "lat": 43.0376999,
+      "lon": -88.1313977
+    },
+    {
+      "type": "way",
+      "id": 664026042,
+      "tags": {
+        "addr:city": "Greendale",
+        "addr:housenumber": "5320",
+        "addr:postcode": "53129",
+        "addr:state": "WI",
+        "addr:street": "South 76th Street",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "First Watch",
+        "brand:wikidata": "Q5454064",
+        "building": "retail",
+        "cuisine": "american;breakfast",
+        "name": "First Watch",
+        "official_name": "First Watch The Daytime Cafe",
+        "opening_hours": "Mo-Su 07:00-14:30"
+      },
+      "center": {
+        "lat": 42.94787005,
+        "lon": -88.00784844999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1223369069,
+      "tags": {
+        "addr:housenumber": "11032",
+        "addr:street": "North Port Washington Road",
+        "amenity": "restaurant",
+        "brand": "First Watch",
+        "brand:wikidata": "Q5454064",
+        "building": "retail",
+        "cuisine": "american;breakfast",
+        "name": "First Watch",
+        "official_name": "First Watch The Daytime Cafe",
+        "opening_hours": "07:00-14:30",
+        "website": "https://www.firstwatch.com/locations/mequon"
+      },
+      "center": {
+        "lat": 43.219417500000006,
+        "lon": -87.92312530000004
+      }
+    }
+  ]
+}

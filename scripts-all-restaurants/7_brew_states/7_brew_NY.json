@@ -1,0 +1,117 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "7_brew",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13544497317,
+      "tags": {
+        "addr:city": "Amherst",
+        "addr:housenumber": "3999",
+        "addr:postcode": "14226",
+        "addr:state": "NY",
+        "addr:street": "Maple Road",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew",
+        "outdoor_seating": "no",
+        "takeaway": "yes"
+      },
+      "lat": 42.9905764,
+      "lon": -78.8150529
+    },
+    {
+      "type": "node",
+      "id": 13832251348,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew",
+        "note": "drive-by survey, approximate location b/c the building isn't on imagery yet",
+        "takeaway": "yes"
+      },
+      "lat": 42.7838951,
+      "lon": -73.9159556
+    },
+    {
+      "type": "node",
+      "id": 14185897448,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:housenumber": "2833",
+        "addr:postcode": "14626",
+        "addr:state": "NY",
+        "addr:street": "West Ridge Road",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew",
+        "phone": "+14793589274",
+        "takeaway": "only",
+        "website": "https://7brew.com/"
+      },
+      "lat": 43.2101893,
+      "lon": -77.7072758
+    },
+    {
+      "type": "way",
+      "id": 302897056,
+      "tags": {
+        "addr:city": "Johnstown",
+        "addr:housenumber": "230",
+        "addr:postcode": "12095",
+        "addr:state": "NY",
+        "addr:street": "North Comrie Avenue",
+        "amenity": "cafe",
+        "building": "yes",
+        "check_date": "2023-11-17",
+        "cuisine": "coffee_shop",
+        "name": "7-Brew coffee",
+        "nysgissam:nysaddresspointid": "FULT021520",
+        "source": "NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery"
+      },
+      "center": {
+        "lat": 43.01527900000001,
+        "lon": -74.36068814999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1531792300,
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "7 Brew"
+      },
+      "center": {
+        "lat": 42.0933752,
+        "lon": -75.95465855000003
+      }
+    }
+  ]
+}

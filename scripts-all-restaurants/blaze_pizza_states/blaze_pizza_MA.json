@@ -1,0 +1,77 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "blaze_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5019071938,
+      "tags": {
+        "addr:city": "Cambridge",
+        "addr:housenumber": "1",
+        "addr:postcode": "02141",
+        "addr:state": "MA",
+        "addr:street": "Canal Park",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "check_date": "2025-12-17",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "phone": "+18572568062",
+        "website": "https://www.blazepizza.com/locations/cambridge"
+      },
+      "lat": 42.3693896,
+      "lon": -71.077059
+    },
+    {
+      "type": "node",
+      "id": 7711828650,
+      "tags": {
+        "addr:city": "Boston",
+        "addr:housenumber": "1282",
+        "addr:postcode": "02215",
+        "addr:state": "MA",
+        "addr:street": "Boylston Street",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "website": "https://www.blazepizza.com/locations/MA/Boston",
+        "wheelchair": "yes"
+      },
+      "lat": 42.3444241,
+      "lon": -71.0974206
+    },
+    {
+      "type": "node",
+      "id": 11585227013,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "indoor_seating": "yes",
+        "name": "Blaze Pizza",
+        "outdoor_seating": "yes"
+      },
+      "lat": 42.4853257,
+      "lon": -71.2193667
+    }
+  ]
+}

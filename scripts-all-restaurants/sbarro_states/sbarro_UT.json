@@ -1,0 +1,76 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "sbarro",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2327662160,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "28",
+        "addr:postcode": "84111",
+        "addr:state": "UT",
+        "addr:street": "South State Street",
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "check_date": "2024-06-17",
+        "cuisine": "pizza",
+        "name": "Sbarro",
+        "opening_hours": "Mo-Th 11:00-20:00; Fr-Sa 11:00-21:00",
+        "phone": "+1-801-596-2243",
+        "takeaway": "yes",
+        "website": "https://sbarro.com/locations/UT/Salt-Lake-City/City-Creek-Center/",
+        "wheelchair": "yes"
+      },
+      "lat": 40.7684913,
+      "lon": -111.8889123
+    },
+    {
+      "type": "node",
+      "id": 2332260254,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "check_date": "2022-10-05",
+        "cuisine": "pizza",
+        "name": "Sbarro",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 40.6355477,
+      "lon": -111.8855596
+    },
+    {
+      "type": "node",
+      "id": 3999586743,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "level": "1",
+        "name": "Sbarro",
+        "takeaway": "yes"
+      },
+      "lat": 40.5626993,
+      "lon": -111.8943804
+    }
+  ]
+}

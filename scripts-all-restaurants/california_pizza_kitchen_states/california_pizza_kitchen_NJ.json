@@ -1,0 +1,47 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "california_pizza_kitchen",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2385911521,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "cuisine": "pizza",
+        "name": "California Pizza Kitchen",
+        "short_name": "CPK"
+      },
+      "lat": 40.9188425,
+      "lon": -74.0771558
+    },
+    {
+      "type": "node",
+      "id": 11402447821,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "cuisine": "pizza",
+        "name": "California Pizza Kitchen",
+        "short_name": "CPK"
+      },
+      "lat": 40.7401288,
+      "lon": -74.3633066
+    }
+  ]
+}

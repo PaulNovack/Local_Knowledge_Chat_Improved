@@ -1,0 +1,46 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NM",
+    "brand": "dave_buster_s",
+    "source": "https://download.geofabrik.de/north-america/us/new-mexico-latest.osm.pbf",
+    "source_md5": "5e236c0e9dd59b2df560a9316c86a745",
+    "processed_utc": "2026-10-24T07:10:42.593170+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 315354971,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "2100",
+        "addr:postcode": "87110",
+        "addr:state": "NM",
+        "addr:street": "Louisiana Boulevard Northeast",
+        "addr:unit": "201",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "yes",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "opening_hours": "Mo-Tu 11:00-24:00; We 11:00-01:00, Th 11:00-24:00, Fr-Sa 11:00-01:30, Su 11:00-23:00",
+        "outdoor_seating": "no",
+        "phone": "+1-505-348-5157",
+        "website": "https://www.daveandbusters.com/albuquerque"
+      },
+      "center": {
+        "lat": 35.10147515,
+        "lon": -106.56409625000003
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "schlotzsky_s",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2800010185,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "2782",
+        "addr:postcode": "68144",
+        "addr:state": "NE",
+        "addr:street": "West Center Road",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's",
+        "phone": "+1-402-691-0611",
+        "takeaway": "yes"
+      },
+      "lat": 41.2335372,
+      "lon": -96.1151555
+    },
+    {
+      "type": "way",
+      "id": 186983182,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "530",
+        "addr:postcode": "68132",
+        "addr:state": "NE",
+        "addr:street": "North Saddle Creek Road",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's",
+        "phone": "+1-402-397-9305",
+        "source": "Bing",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.26445615,
+        "lon": -95.98139435000002
+      }
+    }
+  ]
+}

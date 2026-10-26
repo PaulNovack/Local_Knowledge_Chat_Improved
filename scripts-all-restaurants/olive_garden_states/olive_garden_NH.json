@@ -1,0 +1,73 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NH",
+    "brand": "olive_garden",
+    "source": "https://download.geofabrik.de/north-america/us/new-hampshire-latest.osm.pbf",
+    "source_md5": "603b90470df09c1b933955cbfe841c6d",
+    "processed_utc": "2026-10-24T07:09:51.168561+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 80214996,
+      "tags": {
+        "addr:city": "Manchester",
+        "addr:housenumber": "1888",
+        "addr:postcode": "03103",
+        "addr:street": "South Willow Street",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "check_date": "2026-03-20",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "center": {
+        "lat": 42.9491504,
+        "lon": -71.43338540000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 84301431,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "center": {
+        "lat": 43.096156449999995,
+        "lon": -70.79829014999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 259364233,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "center": {
+        "lat": 43.22184485,
+        "lon": -71.4959015
+      }
+    }
+  ]
+}

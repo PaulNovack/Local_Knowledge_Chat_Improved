@@ -1,0 +1,915 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NM",
+    "brand": "kfc",
+    "source": "https://download.geofabrik.de/north-america/us/new-mexico-latest.osm.pbf",
+    "source_md5": "5e236c0e9dd59b2df560a9316c86a745",
+    "processed_utc": "2026-10-24T07:10:42.593170+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2509947275,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "2201",
+        "addr:postcode": "87112",
+        "addr:state": "NM",
+        "addr:street": "Eubank Boulevard Northeast",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "source": "Open Data Government",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/albuquerque/2201-eubank-boulevard-ne"
+      },
+      "lat": 35.1077137,
+      "lon": -106.533506
+    },
+    {
+      "type": "node",
+      "id": 2510098402,
+      "tags": {
+        "addr:city": "Gallup",
+        "addr:housenumber": "1050",
+        "addr:postcode": "87301",
+        "addr:state": "NM",
+        "addr:street": "US Highway 491",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/gallup/1050-us-highway-491"
+      },
+      "lat": 35.5385821,
+      "lon": -108.7584525
+    },
+    {
+      "type": "node",
+      "id": 3214627075,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "6551",
+        "addr:postcode": "87114",
+        "addr:state": "NM",
+        "addr:street": "Paradise Northwest",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/albuquerque/6551-paradise-nw-023838"
+      },
+      "lat": 35.1927267,
+      "lon": -106.7264551
+    },
+    {
+      "type": "node",
+      "id": 3696233017,
+      "tags": {
+        "addr:city": "Clovis",
+        "addr:housenumber": "2120",
+        "addr:postcode": "88101",
+        "addr:state": "NM",
+        "addr:street": "North Prince Street",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/clovis/2120-n-prince-street"
+      },
+      "lat": 34.4202837,
+      "lon": -103.1969192
+    },
+    {
+      "type": "node",
+      "id": 3716555450,
+      "tags": {
+        "addr:city": "Roswell",
+        "addr:housenumber": "110",
+        "addr:postcode": "88203",
+        "addr:state": "NM",
+        "addr:street": "West Hobbs",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/roswell/110-west-hobbs"
+      },
+      "lat": 33.3722598,
+      "lon": -104.5240843
+    },
+    {
+      "type": "node",
+      "id": 3752605573,
+      "tags": {
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "source": "Bing",
+        "takeaway": "yes"
+      },
+      "lat": 32.8424799,
+      "lon": -104.4146846
+    },
+    {
+      "type": "node",
+      "id": 6348117818,
+      "tags": {
+        "addr:city": "Las Cruces",
+        "addr:housenumber": "2424",
+        "addr:postcode": "88001",
+        "addr:state": "NM",
+        "addr:street": "North Main Street",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/las-cruces/2424-n-main"
+      },
+      "lat": 32.3305522,
+      "lon": -106.784058
+    },
+    {
+      "type": "node",
+      "id": 6654113442,
+      "tags": {
+        "addr:city": "Espanola",
+        "addr:housenumber": "813",
+        "addr:postcode": "87532",
+        "addr:state": "NM",
+        "addr:street": "Riverside Drive",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/espanola/813-riverside-drive"
+      },
+      "lat": 36.0024909,
+      "lon": -106.0637459
+    },
+    {
+      "type": "node",
+      "id": 6719956454,
+      "tags": {
+        "addr:city": "Taos",
+        "addr:housenumber": "115",
+        "addr:postcode": "87571",
+        "addr:state": "NM",
+        "addr:street": "Paseo Del Canon",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/taos/115-paseo-del-canon"
+      },
+      "lat": 36.3795485,
+      "lon": -105.5883458
+    },
+    {
+      "type": "node",
+      "id": 8348365192,
+      "tags": {
+        "addr:city": "Gallup",
+        "addr:housenumber": "2504",
+        "addr:postcode": "87301",
+        "addr:state": "NM",
+        "addr:street": "East Highway 66",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/gallup/2504-east-highway-66"
+      },
+      "lat": 35.5289394,
+      "lon": -108.7029532
+    },
+    {
+      "type": "node",
+      "id": 10270860568,
+      "tags": {
+        "addr:city": "Rio Rancho",
+        "addr:housenumber": "2003",
+        "addr:postcode": "87124",
+        "addr:state": "NM",
+        "addr:street": "Southern Boulevard",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/rio-rancho/2003-southern-boulevard"
+      },
+      "lat": 35.2428055,
+      "lon": -106.696038
+    },
+    {
+      "type": "node",
+      "id": 11283630004,
+      "tags": {
+        "addr:city": "Santa Fe",
+        "addr:country": "US",
+        "addr:housenumber": "3295",
+        "addr:postcode": "87507",
+        "addr:state": "NM",
+        "addr:street": "Cerrillos Road",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/santa-fe/3295-cerrillos-road"
+      },
+      "lat": 35.6505406,
+      "lon": -106.0004481
+    },
+    {
+      "type": "node",
+      "id": 12038539730,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "3555",
+        "addr:postcode": "87105",
+        "addr:state": "NM",
+        "addr:street": "Isleta Boulevard Southwest",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "opening_hours": "Mo-Th 10:00-01:00; Fr-Sa 10:00-02:00; Su 10:00-01:00",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/albuquerque/3555-isleta-blvd-sw-4173/"
+      },
+      "lat": 35.0246596,
+      "lon": -106.6814377
+    },
+    {
+      "type": "node",
+      "id": 12038539735,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "6810",
+        "addr:postcode": "87121",
+        "addr:state": "NM",
+        "addr:street": "Central Avenue Southwest",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "opening_hours": "Mo-Th 10:00-23:00; Fr-Sa 10:00-24:00; Su 10:00-23:00",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/albuquerque/6810-central-ave-sw-24051/"
+      },
+      "lat": 35.0790192,
+      "lon": -106.7124204
+    },
+    {
+      "type": "node",
+      "id": 12038539736,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "6551",
+        "addr:postcode": "87114",
+        "addr:state": "NM",
+        "addr:street": "Paradise Northwest",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "opening_hours": "Mo-Th 07:00-24:00; Fr-Sa 07:00-01:00; Su 07:00-24:00",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/albuquerque/6551-paradise-nw-23838/"
+      },
+      "lat": 35.1927696,
+      "lon": -106.7264353
+    },
+    {
+      "type": "node",
+      "id": 12038539746,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "5410",
+        "addr:postcode": "87107",
+        "addr:state": "NM",
+        "addr:street": "Fourth Street Northwest",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "opening_hours": "10:30-22:00",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/albuquerque/5410-fourth-street-nw/"
+      },
+      "lat": 35.1377151,
+      "lon": -106.6410536
+    },
+    {
+      "type": "node",
+      "id": 12038573475,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "2636",
+        "addr:postcode": "87110",
+        "addr:state": "NM",
+        "addr:street": "San Mateo Boulevard",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "opening_hours": "10:30-22:00",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/albuquerque/2636-san-mateo-blvd/"
+      },
+      "lat": 35.1108069,
+      "lon": -106.5859457
+    },
+    {
+      "type": "node",
+      "id": 13714826491,
+      "tags": {
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes"
+      },
+      "lat": 35.0097387,
+      "lon": -106.0625508
+    },
+    {
+      "type": "way",
+      "id": 50437806,
+      "tags": {
+        "addr:city": "Las Cruces",
+        "addr:housenumber": "435",
+        "addr:postcode": "88011",
+        "addr:state": "NM",
+        "addr:street": "Telshor",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/las-cruces/435-telshor"
+      },
+      "center": {
+        "lat": 32.316018799999995,
+        "lon": -106.7455367
+      }
+    },
+    {
+      "type": "way",
+      "id": 99970179,
+      "tags": {
+        "addr:city": "Ruidoso",
+        "addr:housenumber": "331",
+        "addr:postcode": "88345",
+        "addr:state": "NM",
+        "addr:street": "Sudderth Drive",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "phone": "+1 575-257-2119",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/ruidoso/331-suddreth-drive"
+      },
+      "center": {
+        "lat": 33.3223057,
+        "lon": -105.63629079999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 203713374,
+      "tags": {
+        "addr:city": "Shiprock",
+        "addr:postcode": "87420",
+        "addr:state": "NM",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "retail",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/shiprock/us-highway-491-&-us-highway-64"
+      },
+      "center": {
+        "lat": 36.77816615,
+        "lon": -108.69584954999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 208615979,
+      "tags": {
+        "addr:country": "US",
+        "addr:postcode": "87301",
+        "addr:state": "NM",
+        "addr:street": "State Highway 264",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:website": "https://www.kfc.com",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "KFC",
+        "opening_hours": "Mo-Sa 10:00-22:00; Su 10:00-21:00",
+        "opening_hours:url": "https://locations.kfc.com/nm/tse-bonito/highway-264",
+        "phone": "+1 505-371-5452",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/tse-bonito/highway-264"
+      },
+      "center": {
+        "lat": 35.65983265,
+        "lon": -109.04380815000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 209861280,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "7010",
+        "addr:postcode": "87108",
+        "addr:state": "NM",
+        "addr:street": "Central Avenue Southeast",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/albuquerque/7010-central-ave-se"
+      },
+      "center": {
+        "lat": 35.0756174,
+        "lon": -106.56886020000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 219989339,
+      "tags": {
+        "addr:city": "Alamogordo",
+        "addr:housenumber": "730",
+        "addr:postcode": "88310",
+        "addr:state": "NM",
+        "addr:street": "South While Sands Boulevard",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "contact:phone": "+1-575-437-4700",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "source": "https://www.kfc.com/store-locator/C750038/NM/alamogordo/730-s-white-sands-boulevard",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/alamogordo/730-s-white-sands-boulevard"
+      },
+      "center": {
+        "lat": 32.883037200000004,
+        "lon": -105.9607876
+      }
+    },
+    {
+      "type": "way",
+      "id": 222581429,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "6200",
+        "addr:postcode": "87109",
+        "addr:state": "NM",
+        "addr:street": "San Mateo Boulevard Northeast",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "phone": "+1 505 8817331",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/albuquerque/6200-san-mateo-boulevard-ne"
+      },
+      "center": {
+        "lat": 35.146118,
+        "lon": -106.58594604999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 245731051,
+      "tags": {
+        "addr:city": "Deming",
+        "addr:housenumber": "516",
+        "addr:postcode": "88030",
+        "addr:state": "NM",
+        "addr:street": "East Cedar",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/deming/516-east-cedar"
+      },
+      "center": {
+        "lat": 32.2702533,
+        "lon": -107.75292130000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 318466349,
+      "tags": {
+        "addr:city": "Carlsbad",
+        "addr:country": "US",
+        "addr:housenumber": "1207",
+        "addr:postcode": "88220",
+        "addr:state": "NM",
+        "addr:street": "West Pierce Street",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "commercial",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/carlsbad/1207-w-pierce-street"
+      },
+      "center": {
+        "lat": 32.4352147,
+        "lon": -104.24212734999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 385784613,
+      "tags": {
+        "addr:city": "Los Lunas",
+        "addr:housenumber": "2264",
+        "addr:postcode": "87031",
+        "addr:state": "NM",
+        "addr:street": "Sun Ranch Village Loop",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/los-lunas/2264-sun-ranch-village-loop"
+      },
+      "center": {
+        "lat": 34.81454555,
+        "lon": -106.76466045000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 464022918,
+      "tags": {
+        "addr:city": "Hobbs",
+        "addr:housenumber": "1735",
+        "addr:postcode": "88240",
+        "addr:state": "NM",
+        "addr:street": "North Turner",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+1-575-397-0154",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/hobbs/1735-north-turner"
+      },
+      "center": {
+        "lat": 32.718252449999994,
+        "lon": -103.14162499999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 488257331,
+      "tags": {
+        "addr:city": "Farmington",
+        "addr:housenumber": "532",
+        "addr:postcode": "87401",
+        "addr:state": "NM",
+        "addr:street": "East Main Street",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/farmington/532-e-main-street"
+      },
+      "center": {
+        "lat": 36.7307638,
+        "lon": -108.19812079999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 530920767,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "1139",
+        "addr:postcode": "87701",
+        "addr:state": "NM",
+        "addr:street": "Grand Avenue",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "phone": "+1-505-425-3815",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/las-vegas/1139-grand-avenue"
+      },
+      "center": {
+        "lat": 35.6038441,
+        "lon": -105.21206480000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 550993726,
+      "tags": {
+        "addr:city": "Farmington",
+        "addr:housenumber": "3801",
+        "addr:postcode": "87402",
+        "addr:state": "NM",
+        "addr:street": "East Main Street",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/farmington/3801-e-main-street"
+      },
+      "center": {
+        "lat": 36.7546837,
+        "lon": -108.15593965
+      }
+    },
+    {
+      "type": "way",
+      "id": 581022506,
+      "tags": {
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.154056499999996,
+        "lon": -103.72531405000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 727005627,
+      "tags": {
+        "addr:city": "Kirtland",
+        "addr:housenumber": "4198",
+        "addr:postcode": "87417",
+        "addr:state": "NM",
+        "addr:street": "US Highway 64",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/kirtland/4198-us-highway-64"
+      },
+      "center": {
+        "lat": 36.74347865,
+        "lon": -108.35871839999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 853554241,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "12921",
+        "addr:postcode": "87123",
+        "addr:state": "NM",
+        "addr:street": "Central Avenue Northeast",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/albuquerque/12921-central-avenue-ne"
+      },
+      "center": {
+        "lat": 35.06929125,
+        "lon": -106.50453340000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 902867608,
+      "tags": {
+        "addr:city": "Grants",
+        "addr:housenumber": "1609",
+        "addr:postcode": "87020",
+        "addr:state": "NM",
+        "addr:street": "Lava Place",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/grants/1800-w-santa-fe-avenue"
+      },
+      "center": {
+        "lat": 35.1584365,
+        "lon": -107.87217150000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 929462156,
+      "tags": {
+        "addr:city": "Bernalillo",
+        "addr:housenumber": "239",
+        "addr:postcode": "87004",
+        "addr:state": "NM",
+        "addr:street": "East US Highway 550",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/bernalillo/239-e-us-highway-550"
+      },
+      "center": {
+        "lat": 35.31736775,
+        "lon": -106.54235315
+      }
+    },
+    {
+      "type": "way",
+      "id": 1235472432,
+      "tags": {
+        "addr:city": "Lovington",
+        "addr:housenumber": "703",
+        "addr:postcode": "88260",
+        "addr:state": "NM",
+        "addr:street": "North Main Avenue",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "restaurant",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/lovington/703-north-main"
+      },
+      "center": {
+        "lat": 32.954723599999994,
+        "lon": -103.34895130000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1342749589,
+      "tags": {
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nm/bloomfield/506-s-bloomfield-boulevard"
+      },
+      "center": {
+        "lat": 36.7071136,
+        "lon": -107.98474859999999
+      }
+    }
+  ]
+}

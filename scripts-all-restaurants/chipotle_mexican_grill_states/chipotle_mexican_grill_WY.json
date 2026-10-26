@@ -1,0 +1,80 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "chipotle_mexican_grill",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 86296758,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:housenumber": "1508",
+        "addr:postcode": "82009",
+        "addr:state": "WY",
+        "addr:street": "Dell Range Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "building": "retail",
+        "capacity": "59",
+        "cuisine": "mexican",
+        "highchair": "2",
+        "indoor_seating": "yes",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "opening_hours": "10:45-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 307-632-6200",
+        "smoking": "no",
+        "source": "local visit, city website",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "https://locations.chipotle.com/wy/cheyenne/1508-dell-range-blvd",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 41.160721249999995,
+        "lon": -104.80570879999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 389982776,
+      "tags": {
+        "addr:city": "Laramie",
+        "addr:housenumber": "2615",
+        "addr:postcode": "82070",
+        "addr:state": "WY",
+        "addr:street": "East Grand Avenue",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "phone": "+1 307-223-9430",
+        "takeaway": "yes",
+        "website": "https://locations.chipotle.com/wy/laramie/2615-e-grand-ave"
+      },
+      "center": {
+        "lat": 41.309387,
+        "lon": -105.55943604999999
+      }
+    }
+  ]
+}

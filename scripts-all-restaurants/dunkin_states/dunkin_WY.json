@@ -1,0 +1,68 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "dunkin",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11911077028,
+      "tags": {
+        "addr:city": "FE Warren Air Force Base",
+        "addr:housenumber": "6305",
+        "addr:postcode": "82005",
+        "addr:state": "WY",
+        "addr:street": "Missile Drive",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "Mo-Fr 06:00-17:00; Sa-Su 08:00-17:00",
+        "phone": "+1 307-222-2694",
+        "ref": "357148",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/wy/fe-warren-afb/6305-missile-dr/357148"
+      },
+      "lat": 41.1444265,
+      "lon": -104.859254
+    },
+    {
+      "type": "way",
+      "id": 236445110,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:postcode": "82001",
+        "addr:street": "East Pershing Boulevard",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "note": "Coming soon",
+        "source": "local visit, company website",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.14524805,
+        "lon": -104.76893454999998
+      }
+    }
+  ]
+}

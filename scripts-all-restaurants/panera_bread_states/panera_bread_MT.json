@@ -1,0 +1,109 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MT",
+    "brand": "panera_bread",
+    "source": "https://download.geofabrik.de/north-america/us/montana-latest.osm.pbf",
+    "source_md5": "abfa2e1bfc18f6c00a77776eb9185b11",
+    "processed_utc": "2026-10-24T07:09:10.271084+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11011529371,
+      "tags": {
+        "addr:city": "Kalispell",
+        "addr:housenumber": "2240",
+        "addr:postcode": "59901",
+        "addr:state": "MT",
+        "addr:street": "Highway 93 North",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "phone": "+1 406-314-4120",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/mt/kalispell/2240-highway-93-n.html"
+      },
+      "lat": 48.2295882,
+      "lon": -114.3312567
+    },
+    {
+      "type": "node",
+      "id": 13341067773,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "short_name": "Panera",
+        "takeaway": "yes"
+      },
+      "lat": 46.5908908,
+      "lon": -112.0118705
+    },
+    {
+      "type": "way",
+      "id": 866169607,
+      "tags": {
+        "addr:city": "Billings",
+        "addr:housenumber": "110",
+        "addr:postcode": "59102",
+        "addr:state": "MT",
+        "addr:street": "South 24th Street West",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "yes",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "07:00-21:00",
+        "phone": "+1 406-702-1160",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/mt/billings/110-s-24th-street-west.html"
+      },
+      "center": {
+        "lat": 45.7676078,
+        "lon": -108.57667824999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029117240,
+      "tags": {
+        "addr:city": "Missoula",
+        "addr:housenumber": "2410",
+        "addr:postcode": "59808",
+        "addr:state": "MT",
+        "addr:street": "North Reserve Street",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "yes",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "07:00-21:00",
+        "phone": "+1 406-203-5636",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/mt/missoula/2410-n-reserve-st.html"
+      },
+      "center": {
+        "lat": 46.88729745,
+        "lon": -114.03868925
+      }
+    }
+  ]
+}

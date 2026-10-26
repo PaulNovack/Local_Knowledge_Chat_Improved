@@ -1,0 +1,65 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "twin_peaks",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2323765811,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Twin Peaks"
+      },
+      "lat": 38.9123072,
+      "lon": -94.7577506
+    },
+    {
+      "type": "node",
+      "id": 13565828369,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "cuisine": "american",
+        "name": "Twin Peaks"
+      },
+      "lat": 37.6767812,
+      "lon": -97.4280751
+    },
+    {
+      "type": "way",
+      "id": 45507416,
+      "tags": {
+        "addr:housenumber": "8310",
+        "addr:postcode": "67206",
+        "addr:street": "East 21st Street North",
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Twin Peaks",
+        "opening_hours": "Su-We 11:00-24:00; Th-Sa 11:00-02:00",
+        "phone": "+1 316 440 5533",
+        "website": "http://www.twinpeaksrestaurant.com/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 37.7236595,
+        "lon": -97.24124575000002
+      }
+    }
+  ]
+}

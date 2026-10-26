@@ -1,0 +1,69 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AL",
+    "brand": "red_robin",
+    "source": "https://download.geofabrik.de/north-america/us/alabama-latest.osm.pbf",
+    "source_md5": "3ee9c8ab6ddb6921e2aa2562af6c9bce",
+    "processed_utc": "2026-10-24T06:56:09.586986+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 865118925,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "cuisine": "burger",
+        "ele": "197.0",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews"
+      },
+      "lat": 34.7187255,
+      "lon": -86.674142
+    },
+    {
+      "type": "way",
+      "id": 267076705,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews",
+        "opening_hours": "Mo-Su 11:00+"
+      },
+      "center": {
+        "lat": 34.677025150000006,
+        "lon": -86.54678745000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 432553173,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews"
+      },
+      "center": {
+        "lat": 32.36010895,
+        "lon": -86.16900199999998
+      }
+    }
+  ]
+}

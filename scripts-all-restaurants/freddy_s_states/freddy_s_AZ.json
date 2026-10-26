@@ -1,0 +1,653 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "freddy_s",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10673733073,
+      "tags": {
+        "addr:city": "Chandler",
+        "addr:housenumber": "3476",
+        "addr:postcode": "85226",
+        "addr:state": "AZ",
+        "addr:street": "West Frye Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "capacity": "130",
+        "check_date": "2025-07-25",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "outdoor_seating": "yes",
+        "payment:cards": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:garmin_pay": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-480-857-8815",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "yes"
+      },
+      "lat": 33.2981352,
+      "lon": -111.9002898
+    },
+    {
+      "type": "node",
+      "id": 12790327758,
+      "tags": {
+        "addr:city": "San Tan Valley",
+        "addr:housenumber": "41020",
+        "addr:postcode": "85140",
+        "addr:state": "AZ",
+        "addr:street": "North Ironwood Road",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "takeaway": "yes"
+      },
+      "lat": 33.2517499,
+      "lon": -111.5639022
+    },
+    {
+      "type": "node",
+      "id": 13168447400,
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:housenumber": "129",
+        "addr:postcode": "85295",
+        "addr:state": "AZ",
+        "addr:street": "East Williams Field Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "check_date": "2026-03-16",
+        "cuisine": "custard;burger",
+        "drive_through": "yes",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "outdoor_seating": "yes",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cards": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "yes"
+      },
+      "lat": 33.3058883,
+      "lon": -111.7868819
+    },
+    {
+      "type": "way",
+      "id": 68170917,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:postcode": "85204",
+        "addr:state": "AZ",
+        "addr:street": "East Mayo Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "fixme": "missing address",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.6556047,
+        "lon": -111.92722624999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 132995600,
+      "tags": {
+        "addr:city": "Flagstaff",
+        "addr:housenumber": "2675",
+        "addr:postcode": "86001",
+        "addr:state": "AZ",
+        "addr:street": "South Beulah Boulevard",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "restaurant",
+        "contact:phone": "+1-928-779-7100",
+        "contact:website": "freddysusa.com",
+        "cuisine": "ice_cream;burger",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 35.1750828,
+        "lon": -111.66401615000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 236018413,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:country": "US",
+        "addr:housenumber": "7120",
+        "addr:postcode": "85710",
+        "addr:state": "AZ",
+        "addr:street": "East Broadway Boulevard",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "phone": "+1-520-298-9337",
+        "takeaway": "yes",
+        "website": "https://www.freddys.com"
+      },
+      "center": {
+        "lat": 32.2205378,
+        "lon": -110.83981540000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 374750502,
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:housenumber": "2065",
+        "addr:postcode": "85234",
+        "addr:state": "AZ",
+        "addr:street": "East Baseline Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.3784265,
+        "lon": -111.78724384999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 506355322,
+      "tags": {
+        "addr:city": "Goodyear",
+        "addr:housenumber": "1340",
+        "addr:postcode": "85395",
+        "addr:state": "AZ",
+        "addr:street": "North Litchfield Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "phone": "+1-623-547-2563",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://www.freddys.com/"
+      },
+      "center": {
+        "lat": 33.46141325,
+        "lon": -112.35881389999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 510458259,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "6846",
+        "addr:postcode": "85209",
+        "addr:state": "AZ",
+        "addr:street": "East Hampton Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.39085295,
+        "lon": -111.68320690000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 516991841,
+      "tags": {
+        "addr:city": "Tempe",
+        "addr:housenumber": "1818",
+        "addr:postcode": "85284",
+        "addr:state": "AZ",
+        "addr:street": "East Elliot Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "source": "esri/USA_NAD_Addresses;esri_USDOT_Arizona",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.3496598,
+        "lon": -111.91015785000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 630032582,
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:housenumber": "1405",
+        "addr:postcode": "85233",
+        "addr:state": "AZ",
+        "addr:street": "North Arizona Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.3748316,
+        "lon": -111.84184600000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 723352627,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.69812245,
+        "lon": -114.60213379999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 731233402,
+      "tags": {
+        "addr:city": "Surprise",
+        "addr:housenumber": "14029",
+        "addr:postcode": "85379",
+        "addr:state": "AZ",
+        "addr:street": "West Waddell Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-623-214-9624",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes",
+        "website": "https://freddysusa.com/store/surprise/"
+      },
+      "center": {
+        "lat": 33.6086999,
+        "lon": -112.36201270000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 802301766,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.0889763,
+        "lon": -110.77481094999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 842271608,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "4929",
+        "addr:postcode": "85308",
+        "addr:state": "AZ",
+        "addr:street": "West Bell Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "source": "microsoft/BuildingFootprints;esri/USA_NAD_Addresses",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.638747,
+        "lon": -112.16727600000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 891290739,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "retail",
+        "check_date": "2022-09-15",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "highchair": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "Freddy's Guest",
+        "level": "0",
+        "name": "Freddy's",
+        "official_name": "Freddys Frozen Custard & Steakburgers",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "website": "https://freddysusa.com/store/oro-valley/",
+        "wheelchair": "limited"
+      },
+      "center": {
+        "lat": 32.4083778,
+        "lon": -110.94454095000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 918492610,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "9790",
+        "addr:postcode": "85383",
+        "addr:state": "AZ",
+        "addr:street": "West Happy Valley Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "retail",
+        "contact:phone": "+16235660517",
+        "contact:website": "https://freddysusa.com",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "opening_hours": "Mo-Su 10:30-21:00; Fr,Sa 10:30-22:00",
+        "opening_hours:url": "https://freddysusa.com/store/peoria/",
+        "operator": "JayToo Enterprises, Inc",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.7113619,
+        "lon": -112.27000305000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 940547876,
+      "tags": {
+        "addr:city": "Litchfield Park",
+        "addr:housenumber": "5125",
+        "addr:postcode": "85340",
+        "addr:state": "AZ",
+        "addr:street": "North Dysart Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.510189100000005,
+        "lon": -112.34022555000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1092438837,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "39520",
+        "addr:postcode": "85086",
+        "addr:state": "AZ",
+        "addr:street": "West Daisy Mountain Drive",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.8436832,
+        "lon": -112.13189664999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1108441052,
+      "tags": {
+        "addr:city": "San Tan Valley",
+        "addr:housenumber": "1746",
+        "addr:postcode": "85143",
+        "addr:state": "AZ",
+        "addr:street": "West Hunt Highway",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.18099825,
+        "lon": -111.58296065000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1206765003,
+      "tags": {
+        "addr:city": "Glendale",
+        "addr:housenumber": "7670",
+        "addr:postcode": "85308",
+        "addr:state": "AZ",
+        "addr:street": "West Bell Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.638701999999995,
+        "lon": -112.22419485
+      }
+    },
+    {
+      "type": "way",
+      "id": 1285743586,
+      "tags": {
+        "addr:city": "Tolleson",
+        "addr:housenumber": "405",
+        "addr:postcode": "85353",
+        "addr:state": "AZ",
+        "addr:street": "North 99th Avenue",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.451611400000004,
+        "lon": -112.27187450000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1450418124,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.66645835,
+        "lon": -114.44463350000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1453489876,
+      "tags": {
+        "addr:city": "Maricopa",
+        "addr:housenumber": "21467",
+        "addr:postcode": "85138",
+        "addr:state": "AZ",
+        "addr:street": "North John Wayne Parkway",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.074179349999994,
+        "lon": -112.04234839999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1569008807,
+      "tags": {
+        "addr:city": "Goodyear",
+        "addr:housenumber": "773",
+        "addr:postcode": "85338",
+        "addr:state": "AZ",
+        "addr:street": "South Cotton Lane",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.43952015,
+        "lon": -112.42528800000002
+      }
+    }
+  ]
+}

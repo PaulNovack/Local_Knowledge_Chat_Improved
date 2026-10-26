@@ -1,0 +1,67 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "potbelly",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12357313297,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Potbelly",
+        "brand:wikidata": "Q7234777",
+        "cuisine": "sandwich",
+        "name": "Potbelly",
+        "official_name": "Potbelly Sandwich Works",
+        "takeaway": "yes"
+      },
+      "lat": 34.750246,
+      "lon": -92.3424962
+    },
+    {
+      "type": "node",
+      "id": 13042497301,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Potbelly",
+        "brand:wikidata": "Q7234777",
+        "cuisine": "sandwich",
+        "name": "Potbelly",
+        "official_name": "Potbelly Sandwich Works",
+        "takeaway": "yes"
+      },
+      "lat": 36.3618382,
+      "lon": -94.1962789
+    },
+    {
+      "type": "way",
+      "id": 550741699,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Potbelly",
+        "brand:wikidata": "Q7234777",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Potbelly",
+        "official_name": "Potbelly Sandwich Works",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.82079105,
+        "lon": -90.68278444999999
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "pei_wei",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4742377469,
+      "tags": {
+        "addr:city": "Highlands Ranch",
+        "addr:housenumber": "9352",
+        "addr:postcode": "80126",
+        "addr:state": "CO",
+        "addr:street": "South Colorado Boulevard",
+        "addr:unit": "B",
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "cuisine": "asian",
+        "name": "Pei Wei"
+      },
+      "lat": 39.5452053,
+      "lon": -104.9437979
+    },
+    {
+      "type": "node",
+      "id": 5057442468,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "cuisine": "asian",
+        "name": "Pei Wei"
+      },
+      "lat": 38.9362239,
+      "lon": -104.7984472
+    }
+  ]
+}

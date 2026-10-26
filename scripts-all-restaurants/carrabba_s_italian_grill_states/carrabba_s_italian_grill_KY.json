@@ -1,0 +1,79 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KY",
+    "brand": "carrabba_s_italian_grill",
+    "source": "https://download.geofabrik.de/north-america/us/kentucky-latest.osm.pbf",
+    "source_md5": "beee275db6b863afe4847059e1397537",
+    "processed_utc": "2026-10-24T07:04:39.223265+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 23701792,
+      "tags": {
+        "addr:city": "Lexington",
+        "addr:housenumber": "1881",
+        "addr:state": "KY",
+        "addr:street": "Plaudit Place",
+        "amenity": "restaurant",
+        "brand": "Carrabba's Italian Grill",
+        "brand:wikidata": "Q5045999",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Carrabba's Italian Grill"
+      },
+      "center": {
+        "lat": 38.0180293,
+        "lon": -84.41755130000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 160709712,
+      "tags": {
+        "addr:city": "Crestview Hills",
+        "addr:housenumber": "2899",
+        "addr:postcode": "41017",
+        "addr:state": "KY",
+        "addr:street": "Dixie Highway",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Carrabba's Italian Grill"
+      },
+      "center": {
+        "lat": 39.0268801,
+        "lon": -84.57916094999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 337694461,
+      "tags": {
+        "addr:city": "Jeffersontown",
+        "addr:housenumber": "617",
+        "addr:postcode": "40222",
+        "addr:state": "KY",
+        "addr:street": "South Hurstbourne Parkway",
+        "amenity": "restaurant",
+        "brand": "Carrabba's Italian Grill",
+        "brand:wikidata": "Q5045999",
+        "building": "yes",
+        "cuisine": "italian",
+        "lojic:bgnum": "17687",
+        "name": "Carrabba's Italian Grill"
+      },
+      "center": {
+        "lat": 38.2378585,
+        "lon": -85.57632390000003
+      }
+    }
+  ]
+}

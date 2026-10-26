@@ -1,0 +1,61 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "RI",
+    "brand": "ihop",
+    "source": "https://download.geofabrik.de/north-america/us/rhode-island-latest.osm.pbf",
+    "source_md5": "089bd14c5348318ad280c1c9ab732067",
+    "processed_utc": "2026-10-24T07:15:29.409283+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 140415394,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 41.7322879,
+        "lon": -71.43597729999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 411916146,
+      "tags": {
+        "addr:city": "Middletown",
+        "addr:housenumber": "159",
+        "addr:postcode": "02842",
+        "addr:state": "RI",
+        "addr:street": "West Main Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "commercial",
+        "cuisine": "breakfast;pancake",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "IHOP",
+        "opening_hours": "Fr-Sa 06:00-27:00, Su-Th 06:00-24:00",
+        "outdoor_seating": "yes",
+        "source": "esri_USDOT_RhodeIsland"
+      },
+      "center": {
+        "lat": 41.510074700000004,
+        "lon": -71.30159319999996
+      }
+    }
+  ]
+}

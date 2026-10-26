@@ -1,0 +1,60 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "sweetgreen",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9659314880,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sweetgreen",
+        "brand:wikidata": "Q18636413",
+        "check_date": "2026-06-08",
+        "cuisine": "salad",
+        "name": "Sweetgreen",
+        "takeaway": "yes"
+      },
+      "lat": 40.7150442,
+      "lon": -74.0341424
+    },
+    {
+      "type": "node",
+      "id": 11225615372,
+      "tags": {
+        "addr:city": "Montclair",
+        "addr:housenumber": "460",
+        "addr:postcode": "07042",
+        "addr:state": "NJ",
+        "addr:street": "Bloomfield Avenue",
+        "addr:unit": "1D;1E",
+        "amenity": "fast_food",
+        "brand": "Sweetgreen",
+        "brand:wikidata": "Q18636413",
+        "catering": "yes",
+        "cuisine": "salad",
+        "delivery": "no",
+        "drive_through": "no",
+        "name": "Sweetgreen",
+        "opening_hours": "Mo-Sa 10:30-22:00; Su 10:30-21:00",
+        "phone": "+1 862-346-6789",
+        "takeaway": "yes",
+        "website": "https://www.sweetgreen.com/locations/montclair"
+      },
+      "lat": 40.8136624,
+      "lon": -74.2175472
+    }
+  ]
+}

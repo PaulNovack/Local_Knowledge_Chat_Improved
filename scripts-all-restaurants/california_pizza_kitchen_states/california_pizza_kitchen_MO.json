@@ -1,0 +1,68 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "california_pizza_kitchen",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3919482860,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "cuisine": "pizza",
+        "name": "California Pizza Kitchen",
+        "short_name": "CPK"
+      },
+      "lat": 38.6018813,
+      "lon": -90.4465848
+    },
+    {
+      "type": "node",
+      "id": 6642022557,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "cuisine": "pizza",
+        "name": "California Pizza Kitchen",
+        "short_name": "CPK"
+      },
+      "lat": 38.6341783,
+      "lon": -90.3477554
+    },
+    {
+      "type": "way",
+      "id": 477222757,
+      "tags": {
+        "addr:city": "Creve Coeur",
+        "addr:housenumber": "10590",
+        "addr:postcode": "63141",
+        "addr:state": "MO",
+        "addr:street": "Old Olive Street Road",
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "California Pizza Kitchen"
+      },
+      "center": {
+        "lat": 38.673975850000005,
+        "lon": -90.41286639999998
+      }
+    }
+  ]
+}

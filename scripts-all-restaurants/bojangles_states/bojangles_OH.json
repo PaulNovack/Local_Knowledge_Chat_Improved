@@ -1,0 +1,106 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "bojangles",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12728127112,
+      "tags": {
+        "addr:city": "Zanesville",
+        "addr:housenumber": "2953",
+        "addr:postcode": "43701",
+        "addr:state": "OH",
+        "addr:street": "Balls Lane",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "contact:facebook": "https://www.facebook.com/profile.php?id=61568209566098",
+        "contact:phone": "+1 740-617-8410",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Mo-Sa 05:30-22:00, Su 06:00-22:00",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/oh/zanesville/2953-balls-lane-1436.html"
+      },
+      "lat": 39.9766157,
+      "lon": -82.0136082
+    },
+    {
+      "type": "node",
+      "id": 13438544127,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "06:00-21:00",
+        "opening_hours:drive_through": "Mo-Sa 05:30-22:00; Su 06:00-22:00",
+        "takeaway": "yes"
+      },
+      "lat": 40.2658266,
+      "lon": -83.0687642
+    },
+    {
+      "type": "way",
+      "id": 1293740616,
+      "tags": {
+        "addr:city": "Columbus",
+        "addr:housenumber": "891",
+        "addr:postcode": "43228",
+        "addr:state": "OH",
+        "addr:street": "Hilliard-Rome Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+13802030326",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/oh/columbus/891-hilliard-rome-road.html"
+      },
+      "center": {
+        "lat": 39.96968415,
+        "lon": -83.14938569999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1492008383,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.587391499999995,
+        "lon": -82.95152665
+      }
+    }
+  ]
+}

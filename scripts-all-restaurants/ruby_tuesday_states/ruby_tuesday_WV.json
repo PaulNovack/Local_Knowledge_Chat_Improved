@@ -1,0 +1,107 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WV",
+    "brand": "ruby_tuesday",
+    "source": "https://download.geofabrik.de/north-america/us/west-virginia-latest.osm.pbf",
+    "source_md5": "4f8c380a535ff9841f95eae4e1a7f84f",
+    "processed_utc": "2026-10-24T07:19:30.158292+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5941411633,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "cuisine": "american",
+        "diet:vegan": "yes",
+        "name": "Ruby Tuesday"
+      },
+      "lat": 38.422021,
+      "lon": -82.2651911
+    },
+    {
+      "type": "way",
+      "id": 122345910,
+      "tags": {
+        "addr:housenumber": "512",
+        "addr:postcode": "26508",
+        "addr:street": "Venture Dr",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "check_date": "2025-05-23",
+        "cuisine": "american",
+        "name": "Ruby Tuesday",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 39.64815455,
+        "lon": -79.89662829999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 288195071,
+      "tags": {
+        "addr:city": "Beckley",
+        "addr:housenumber": "2082",
+        "addr:postcode": "25801",
+        "addr:state": "WV",
+        "addr:street": "Harper Road",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "center": {
+        "lat": 37.79586435,
+        "lon": -81.21752615000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 494365608,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "center": {
+        "lat": 37.8150278,
+        "lon": -80.42853574999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 854090196,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "center": {
+        "lat": 39.26809205,
+        "lon": -80.28690304999998
+      }
+    }
+  ]
+}

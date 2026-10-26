@@ -1,0 +1,115 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MI",
+    "brand": "raising_cane_s",
+    "source": "https://download.geofabrik.de/north-america/us/michigan-latest.osm.pbf",
+    "source_md5": "1c9e00f502a3ea973e97c7d6f989094d",
+    "processed_utc": "2026-10-24T07:07:39.587953+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1330363470,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "cuisine": "chicken",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "old_name": "Cosí",
+        "takeaway": "yes"
+      },
+      "lat": 42.734732,
+      "lon": -84.481391
+    },
+    {
+      "type": "node",
+      "id": 3249310041,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "cuisine": "chicken",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "takeaway": "yes"
+      },
+      "lat": 42.22977,
+      "lon": -85.5889046
+    },
+    {
+      "type": "node",
+      "id": 13147598564,
+      "tags": {
+        "addr:city": "Ann Arbor",
+        "addr:housenumber": "1116",
+        "addr:postcode": "48104",
+        "addr:state": "MI",
+        "addr:street": "South University Avenue",
+        "addr:unit": "B",
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "check_date": "2026-06-01",
+        "check_date:opening_hours": "2026-06-01",
+        "cuisine": "chicken",
+        "drive_through": "no",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "opening_hours": "Su-Th 10:00-00:00; Fr-Sa 10:00-01:00",
+        "phone": "+1 734-452-0934",
+        "takeaway": "yes",
+        "website": "https://locations.raisingcanes.com/mi/ann-arbor/1116-s-university-avenue"
+      },
+      "lat": 42.2748904,
+      "lon": -83.7356026
+    },
+    {
+      "type": "way",
+      "id": 369773602,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "building": "yes",
+        "cuisine": "chicken",
+        "fixme": "Building outline based on rough estimate from ground survey, will need to be updated once better imagery is available. (10/23/25",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.9121039,
+        "lon": -85.57756979999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 545890654,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.322806549999996,
+        "lon": -83.47673294999998
+      }
+    }
+  ]
+}

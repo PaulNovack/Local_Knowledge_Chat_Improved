@@ -1,0 +1,47 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/3.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ME",
+    "brand": "popeyes",
+    "source": "https://download.geofabrik.de/north-america/us/maine-latest.osm.pbf",
+    "source_md5": "561ab4eba7b10f360a72f8484b6f08c3",
+    "processed_utc": "2026-10-24T06:24:27.198153+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 460286689,
+      "tags": {
+        "addr:city": "South Portland",
+        "addr:housenumber": "291",
+        "addr:postcode": "04106",
+        "addr:state": "ME",
+        "addr:street": "Maine Mall Road",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "opening_hours": "10:30-21:30",
+        "phone": "+1 207-835-0835",
+        "takeaway": "yes",
+        "website": "https://www.popeyes.com/store-locator/store/restaurant_85573"
+      },
+      "center": {
+        "lat": 43.6369232,
+        "lon": -70.33632160000002
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SC",
+    "brand": "bj_s",
+    "source": "https://download.geofabrik.de/north-america/us/south-carolina-latest.osm.pbf",
+    "source_md5": "488018afb1e1040732b7a791d4ebffae",
+    "processed_utc": "2026-10-24T07:15:46.592450+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2841037922,
+      "tags": {
+        "amenity": "cafe",
+        "name": "BJ's Cafe",
+        "not:brand:wikidata": "Q4835755"
+      },
+      "lat": 34.0304001,
+      "lon": -81.0331799
+    },
+    {
+      "type": "node",
+      "id": 5331838607,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 803-828-5850",
+        "website": "https://www.bjsrestaurants.com/locations/sc/columbiana-station"
+      },
+      "lat": 34.0688581,
+      "lon": -81.1637546
+    }
+  ]
+}

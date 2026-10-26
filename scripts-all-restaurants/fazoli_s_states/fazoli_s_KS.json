@@ -1,0 +1,107 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "fazoli_s",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12074338247,
+      "tags": {
+        "addr:housenumber": "8520",
+        "addr:street": "West Central Avenue",
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "cuisine": "italian",
+        "name": "Fazoli's",
+        "phone": "+1-316-721-1011",
+        "takeaway": "yes"
+      },
+      "lat": 37.6946493,
+      "lon": -97.441331
+    },
+    {
+      "type": "way",
+      "id": 196252724,
+      "tags": {
+        "addr:city": "Overland Park",
+        "addr:housenumber": "12045",
+        "addr:state": "KS",
+        "addr:street": "Metcalf Avenue",
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Fazoli's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.9101971,
+        "lon": -94.66708905000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 614513338,
+      "tags": {
+        "addr:city": "Shawnee",
+        "addr:housenumber": "6345",
+        "addr:postcode": "66203",
+        "addr:state": "KS",
+        "addr:street": "Quivira Road",
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "building": "yes",
+        "cuisine": "italian",
+        "drive_through": "yes",
+        "name": "Fazoli's",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "outdoor_seating": "no",
+        "phone": "+1-913-962-5814",
+        "takeaway": "yes",
+        "website": "https://fazolis.com/stores/ks-shawnee-6345-quivira-road-66216/"
+      },
+      "center": {
+        "lat": 39.01380495,
+        "lon": -94.72328579999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016962103,
+      "tags": {
+        "addr:housenumber": "3553",
+        "addr:street": "North Rock Road",
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "building": "yes",
+        "cuisine": "italian",
+        "description": "Italian fast food.",
+        "name": "Fazoli's",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "phone": "+1-316-634-1855",
+        "takeaway": "yes",
+        "website": "https://locations.fazolis.com/ks/wichita/3553-n--rock-road.html"
+      },
+      "center": {
+        "lat": 37.74838045,
+        "lon": -97.24527160000002
+      }
+    }
+  ]
+}

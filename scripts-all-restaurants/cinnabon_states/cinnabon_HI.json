@@ -1,0 +1,100 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "HI",
+    "brand": "cinnabon",
+    "source": "https://download.geofabrik.de/north-america/us/hawaii-latest.osm.pbf",
+    "source_md5": "72d4122e050f63452c0aa341f9272254",
+    "processed_utc": "2026-10-24T07:02:30.197996+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4715904376,
+      "tags": {
+        "addr:city": "Kapolei",
+        "addr:housenumber": "91-5431",
+        "addr:postcode": "96707",
+        "addr:state": "HI",
+        "addr:street": "Kapolei Parkway",
+        "amenity": "fast_food",
+        "brand": "Cinnabon",
+        "brand:wikidata": "Q1092539",
+        "cuisine": "dessert",
+        "name": "Cinnabon",
+        "safety:mask:covid19": "yes",
+        "takeaway": "yes",
+        "website": "https://locations.cinnabon.com/hi/kapolei/91-5431-kapolei-pkwy",
+        "wheelchair": "yes"
+      },
+      "lat": 21.333351,
+      "lon": -158.0517403
+    },
+    {
+      "type": "node",
+      "id": 7895530096,
+      "tags": {
+        "addr:city": "Hilo",
+        "addr:floor": "1",
+        "addr:housenumber": "111",
+        "addr:postcode": "96720",
+        "addr:state": "HI",
+        "addr:street": "East Puainako Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Cinnabon",
+        "brand:wikidata": "Q1092539",
+        "cuisine": "dessert",
+        "drive_through": "no",
+        "level": "0",
+        "name": "Cinnabon",
+        "takeaway": "yes",
+        "website": "https://locations.cinnabon.com/hi/hilo/111-east-puaninako-street"
+      },
+      "lat": 19.697643,
+      "lon": -155.0633704
+    },
+    {
+      "type": "node",
+      "id": 11060928292,
+      "tags": {
+        "addr:city": "Honolulu",
+        "addr:floor": "1",
+        "addr:housenumber": "1450",
+        "addr:postcode": "96814",
+        "addr:state": "HI",
+        "addr:street": "Ala Moana Boulevard",
+        "amenity": "fast_food",
+        "brand": "Cinnabon",
+        "brand:wikidata": "Q1092539",
+        "cuisine": "dessert",
+        "level": "0",
+        "name": "Cinnabon",
+        "takeaway": "yes",
+        "website": "https://locations.cinnabon.com/hi/honolulu/1450-ala-moana-blvd"
+      },
+      "lat": 21.2902272,
+      "lon": -157.84388
+    },
+    {
+      "type": "node",
+      "id": 11064162378,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cinnabon",
+        "cuisine": "dessert",
+        "name": "Cinnabon",
+        "takeaway": "yes"
+      },
+      "lat": 21.3327702,
+      "lon": -158.0514036
+    }
+  ]
+}

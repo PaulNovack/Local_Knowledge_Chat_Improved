@@ -1,0 +1,75 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "rita_s_italian_ice",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6312072092,
+      "tags": {
+        "addr:city": "Chandler",
+        "addr:housenumber": "2975",
+        "addr:postcode": "85249",
+        "addr:state": "AZ",
+        "addr:street": "East Ocotillo Road",
+        "addr:unit": "6",
+        "amenity": "ice_cream",
+        "brand": "Rita's Italian Ice",
+        "brand:wikidata": "Q7336456",
+        "cuisine": "ice_cream",
+        "name": "Rita's Italian Ice",
+        "opening_hours": "Mo-Su 12:00-22:00",
+        "outdoor_seating": "yes"
+      },
+      "lat": 33.2462072,
+      "lon": -111.7905166
+    },
+    {
+      "type": "node",
+      "id": 12450050101,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Rita's Italian Ice",
+        "cuisine": "ice_cream",
+        "name": "Rita's Italian Ice"
+      },
+      "lat": 32.2834042,
+      "lon": -110.9607379
+    },
+    {
+      "type": "way",
+      "id": 155843235,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "1402",
+        "addr:postcode": "85009",
+        "addr:state": "AZ",
+        "addr:street": "North 35th Avenue",
+        "amenity": "ice_cream",
+        "branch": "Mexican Food & Mariscos",
+        "brand": "Rita's Italian Ice",
+        "brand:wikidata": "Q7336456",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Rita's Italian Ice",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 33.4643406,
+        "lon": -112.13483635
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "white_castle",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 983415048,
+      "tags": {
+        "addr:city": "Scottsdale",
+        "addr:housenumber": "9310",
+        "addr:postcode": "85258",
+        "addr:state": "AZ",
+        "addr:street": "East Via De Ventura",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "White Castle",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.55492665,
+        "lon": -111.8805347
+      }
+    },
+    {
+      "type": "way",
+      "id": 1351684476,
+      "tags": {
+        "addr:city": "Tempe",
+        "addr:housenumber": "8735",
+        "addr:postcode": "85284",
+        "addr:state": "AZ",
+        "addr:street": "South Jewel Street",
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "White Castle",
+        "phone": "+1-623-273-2546",
+        "takeaway": "yes",
+        "website": "https://whitecastle.com/locations/0000011"
+      },
+      "center": {
+        "lat": 33.3351696,
+        "lon": -111.96787010000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1558224807,
+      "tags": {
+        "addr:city": "Goodyear",
+        "addr:housenumber": "1420",
+        "addr:postcode": "85395",
+        "addr:state": "AZ",
+        "addr:street": "North Bullard Avenue",
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "White Castle",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.46244035,
+        "lon": -112.37606720000002
+      }
+    }
+  ]
+}

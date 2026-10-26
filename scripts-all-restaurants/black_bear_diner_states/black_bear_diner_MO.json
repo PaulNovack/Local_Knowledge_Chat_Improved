@@ -1,0 +1,61 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "black_bear_diner",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 652437294,
+      "tags": {
+        "addr:city": "Saint Charles",
+        "addr:housenumber": "2865",
+        "addr:postcode": "63303",
+        "addr:state": "MO",
+        "addr:street": "Veterans Memorial Parkway",
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Black Bear Diner"
+      },
+      "center": {
+        "lat": 38.783200300000004,
+        "lon": -90.52457195
+      }
+    },
+    {
+      "type": "way",
+      "id": 792384657,
+      "tags": {
+        "addr:city": "Independence",
+        "addr:housenumber": "4053",
+        "addr:postcode": "64057",
+        "addr:state": "MO",
+        "addr:street": "South Little Blue Parkway",
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Black Bear Diner"
+      },
+      "center": {
+        "lat": 39.04179205,
+        "lon": -94.34034165000003
+      }
+    }
+  ]
+}

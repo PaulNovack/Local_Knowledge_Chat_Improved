@@ -1,0 +1,73 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "wendys",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T07:20:37.151586+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 737405231,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "50",
+        "addr:postcode": "20002",
+        "addr:state": "DC",
+        "addr:street": "Massachusetts Avenue Northeast",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "check_date": "2024-11-08",
+        "cuisine": "burger",
+        "dataset": "ABRA locations",
+        "diet:halal": "no",
+        "level": "-1",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Fr 07:00-10:00; Sa-Su 09:00-19:00",
+        "phone": "+1 202-838-0978",
+        "source": "dcgis",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/dc/washington/50-massachusetts-avenue-ne"
+      },
+      "lat": 38.8976332,
+      "lon": -77.006669
+    },
+    {
+      "type": "way",
+      "id": 296021199,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "4250",
+        "addr:postcode": "20019",
+        "addr:state": "DC",
+        "addr:street": "Nannie Helen Burroughs Avenue Northeast",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "dcgis:gis_id": "57915",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Th 07:00-22:00; Fr-Sa 07:00-23:00; Su 07:00-22:00",
+        "opening_hours:drive_through": "24/7",
+        "phone": "+1 202-399-8874",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/dc/washington/4250-nannie-helen-burroughs-ave"
+      },
+      "center": {
+        "lat": 38.90188005,
+        "lon": -76.9416367
+      }
+    }
+  ]
+}

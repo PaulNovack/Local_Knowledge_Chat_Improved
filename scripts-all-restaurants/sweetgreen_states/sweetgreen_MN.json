@@ -1,0 +1,71 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MN",
+    "brand": "sweetgreen",
+    "source": "https://download.geofabrik.de/north-america/us/minnesota-latest.osm.pbf",
+    "source_md5": "4cabd6519cf6e8b1f74c96f59629df95",
+    "processed_utc": "2026-10-24T07:08:10.045763+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 945574884,
+      "tags": {
+        "addr:city": "Minneapolis",
+        "addr:housenumber": "615",
+        "addr:postcode": "55414",
+        "addr:state": "MN",
+        "addr:street": "Southeast Washington Avenue",
+        "amenity": "fast_food",
+        "brand": "Sweetgreen",
+        "brand:wikidata": "Q18636413",
+        "check_date": "2025-03-08",
+        "cuisine": "salad",
+        "name": "Sweetgreen",
+        "takeaway": "yes",
+        "website": "https://www.sweetgreen.com/"
+      },
+      "lat": 44.9739642,
+      "lon": -93.2300642
+    },
+    {
+      "type": "node",
+      "id": 12164557870,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sweetgreen",
+        "brand:wikidata": "Q18636413",
+        "cuisine": "salad",
+        "indoor_seating": "yes",
+        "name": "Sweetgreen",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "lat": 44.9852863,
+      "lon": -93.271692
+    },
+    {
+      "type": "node",
+      "id": 12691291373,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sweetgreen",
+        "brand:wikidata": "Q18636413",
+        "check_date": "2025-03-22",
+        "cuisine": "salad",
+        "name": "Sweetgreen",
+        "takeaway": "yes"
+      },
+      "lat": 44.9402991,
+      "lon": -93.1311293
+    }
+  ]
+}

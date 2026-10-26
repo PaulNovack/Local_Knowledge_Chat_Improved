@@ -1,0 +1,96 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "chicken_salad_chick",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6311912189,
+      "tags": {
+        "addr:city": "Littleton",
+        "addr:housenumber": "7301",
+        "addr:postcode": "80120",
+        "addr:state": "CO",
+        "addr:street": "South Santa Fe Drive",
+        "addr:unit": "320",
+        "amenity": "fast_food",
+        "brand": "Chicken Salad Chick",
+        "brand:wikidata": "Q19720749",
+        "cuisine": "chicken",
+        "name": "Chicken Salad Chick",
+        "takeaway": "yes"
+      },
+      "lat": 39.5859456,
+      "lon": -105.0260946
+    },
+    {
+      "type": "node",
+      "id": 12580199067,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "5660",
+        "addr:postcode": "80917",
+        "addr:state": "CO",
+        "addr:street": "Barnes Road",
+        "addr:unit": "108",
+        "amenity": "fast_food",
+        "brand": "Chicken Salad Chick",
+        "brand:wikidata": "Q19720749",
+        "cuisine": "chicken",
+        "name": "Chicken Salad Chick",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "phone": "+1-719-358-8121",
+        "takeaway": "yes",
+        "website": "https://www.chickensaladchick.com/locations/co/colorado-springs/5660-barnes-road/"
+      },
+      "lat": 38.8949479,
+      "lon": -104.723069
+    },
+    {
+      "type": "node",
+      "id": 12986756246,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Chicken Salad Chick",
+        "brand:wikidata": "Q19720749",
+        "cuisine": "chicken",
+        "name": "Chicken Salad Chick",
+        "takeaway": "yes"
+      },
+      "lat": 40.4793134,
+      "lon": -104.885471
+    },
+    {
+      "type": "node",
+      "id": 14244509817,
+      "tags": {
+        "addr:city": "Greeley",
+        "addr:housenumber": "4414",
+        "addr:postcode": "80634",
+        "addr:state": "CO",
+        "addr:street": "24th Street Road",
+        "amenity": "fast_food",
+        "brand": "Chicken Salad Chick",
+        "brand:wikidata": "Q19720749",
+        "cuisine": "chicken",
+        "name": "Chicken Salad Chick",
+        "takeaway": "yes",
+        "website": "https://www.chickensaladchick.com/locations"
+      },
+      "lat": 40.3965971,
+      "lon": -104.744847
+    }
+  ]
+}

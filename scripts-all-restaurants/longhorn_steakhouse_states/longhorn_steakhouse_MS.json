@@ -1,0 +1,119 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "longhorn_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4274447687,
+      "tags": {
+        "addr:city": "Madison",
+        "addr:postcode": "39110",
+        "addr:state": "MS",
+        "addr:street": "Grand View Boulevard",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "smoking": "no"
+      },
+      "lat": 32.4641066,
+      "lon": -90.1335372
+    },
+    {
+      "type": "node",
+      "id": 7606880926,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "lat": 34.9631551,
+      "lon": -89.9950603
+    },
+    {
+      "type": "way",
+      "id": 320564296,
+      "tags": {
+        "addr:housenumber": "4503",
+        "addr:street": "Hardy Street",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "smoking": "no"
+      },
+      "center": {
+        "lat": 31.32511995,
+        "lon": -89.35711600000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 566519156,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 33.5232182,
+        "lon": -88.43643135000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 653910911,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "source": "bing"
+      },
+      "center": {
+        "lat": 32.33797045,
+        "lon": -90.0712709
+      }
+    },
+    {
+      "type": "way",
+      "id": 1098113994,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 34.30399955,
+        "lon": -88.7067639
+      }
+    }
+  ]
+}

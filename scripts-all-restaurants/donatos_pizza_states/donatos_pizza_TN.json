@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TN",
+    "brand": "donatos_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/tennessee-latest.osm.pbf",
+    "source_md5": "a047c5da6c897a8a98b1fc4a282b8d3f",
+    "processed_utc": "2026-10-24T07:16:20.210730+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5525047897,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Donatos Pizza",
+        "brand:wikidata": "Q1240741",
+        "cuisine": "pizza",
+        "name": "Donatos Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 36.1499182,
+      "lon": -86.7974841
+    },
+    {
+      "type": "node",
+      "id": 13525433403,
+      "tags": {
+        "addr:city": "Knoxville",
+        "addr:housenumber": "1012",
+        "addr:postcode": "37923",
+        "addr:state": "TN",
+        "addr:street": "Ebenezer Road",
+        "amenity": "restaurant",
+        "brand": "Donatos Pizza",
+        "brand:wikidata": "Q1240741",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Donatos Pizza",
+        "opening_hours": "Su-Th 11:00-20:00, Fr-Sa 11:00-22:00",
+        "phone": "+1-865-895-4444",
+        "takeaway": "yes",
+        "website": "https://donatos.com/location/ebenezer"
+      },
+      "lat": 35.892825,
+      "lon": -84.0675727
+    }
+  ]
+}

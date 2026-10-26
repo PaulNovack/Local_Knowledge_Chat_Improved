@@ -1,0 +1,82 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "mellow_mushroom",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4935986462,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Mellow Mushroom",
+        "brand:wikidata": "Q17021360",
+        "cuisine": "pizza",
+        "name": "Mellow Mushroom"
+      },
+      "lat": 41.4811968,
+      "lon": -81.8367104
+    },
+    {
+      "type": "node",
+      "id": 12824345411,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brand": "Mellow Mushroom",
+        "cuisine": "pizza",
+        "name": "Mellow Mushroom",
+        "opening_hours": "Mo-Fr 11:00-21:00; Sa-Su 11:00-22:00",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 40.0806991,
+      "lon": -82.8144125
+    },
+    {
+      "type": "way",
+      "id": 141900575,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Mellow Mushroom",
+        "brand:wikidata": "Q17021360",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Mellow Mushroom"
+      },
+      "center": {
+        "lat": 39.32321215,
+        "lon": -84.43040355
+      }
+    },
+    {
+      "type": "way",
+      "id": 605386577,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Mellow Mushroom",
+        "brand:wikidata": "Q17021360",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Mellow Mushroom",
+        "wheelchair": "limited"
+      },
+      "center": {
+        "lat": 40.773745899999994,
+        "lon": -84.16470724999999
+      }
+    }
+  ]
+}

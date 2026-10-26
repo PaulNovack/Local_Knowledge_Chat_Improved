@@ -1,0 +1,55 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "LA",
+    "brand": "fleming_s",
+    "source": "https://download.geofabrik.de/north-america/us/louisiana-latest.osm.pbf",
+    "source_md5": "2e108953505ee82f68e2a6e7a3e4f783",
+    "processed_utc": "2026-10-24T07:05:17.318731+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 712415293,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Fleming's"
+      },
+      "center": {
+        "lat": 30.008717,
+        "lon": -90.15563105000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1247920182,
+      "tags": {
+        "addr:city": "Baton Rouge",
+        "addr:housenumber": "7321",
+        "addr:postcode": "70809",
+        "addr:state": "LA",
+        "addr:street": "Corporate Boulevard",
+        "amenity": "restaurant",
+        "brand": "Fleming's",
+        "brand:wikidata": "Q5458552",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Fleming's",
+        "official_name": "Fleming's Prime Steakhouse & Wine Bar"
+      },
+      "center": {
+        "lat": 30.43092985,
+        "lon": -91.11492650000002
+      }
+    }
+  ]
+}

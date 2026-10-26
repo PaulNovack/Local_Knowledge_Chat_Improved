@@ -1,0 +1,151 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "tgi_fridays",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2924093236,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "TGI Friday's",
+        "brand:wikidata": "Q1524184",
+        "cuisine": "american",
+        "level": "1",
+        "name": "TGI Friday's",
+        "website": "https://locations.tgifridays.com/ga/atlanta/6000-n-terminal-pkwy-concourse-b-gate-b-19.html"
+      },
+      "lat": 33.6406637,
+      "lon": -84.4354705
+    },
+    {
+      "type": "node",
+      "id": 2924610305,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "TGI Friday's",
+        "brand:wikidata": "Q1524184",
+        "cuisine": "american",
+        "name": "TGI Friday's",
+        "website": "https://locations.tgifridays.com/ga/atlanta/6000-n-terminal-pkwy-atrium-nw-f-11-pre-security.html"
+      },
+      "lat": 33.6409911,
+      "lon": -84.4450378
+    },
+    {
+      "type": "node",
+      "id": 3448635979,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "TGI Friday's",
+        "brand:wikidata": "Q1524184",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "TGI Friday's",
+        "outdoor_seating": "no",
+        "website": "https://locations.tgifridays.com/ga/atlanta/6000-n-terminal-pkwy-concourse-e-centerpoint.html"
+      },
+      "lat": 33.640346,
+      "lon": -84.4251718
+    },
+    {
+      "type": "node",
+      "id": 11957104787,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "TGI Fridays",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "outdoor_seating": "no"
+      },
+      "lat": 33.6388877,
+      "lon": -84.4424914
+    },
+    {
+      "type": "way",
+      "id": 250698468,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "TGI Friday's",
+        "brand:wikidata": "Q1524184",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "TGI Friday's",
+        "website": "https://locations.tgifridays.com/ga/lithonia/2871-stonecrest-cir.html"
+      },
+      "center": {
+        "lat": 33.6987525,
+        "lon": -84.09175164999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 288997152,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "TGI Friday's",
+        "brand:wikidata": "Q1524184",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "TGI Friday's",
+        "website": "https://locations.tgifridays.com/ga/atlanta/3670-camp-creek-pkwy.html"
+      },
+      "center": {
+        "lat": 33.655053699999996,
+        "lon": -84.50871085
+      }
+    },
+    {
+      "type": "way",
+      "id": 392374789,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "building": "yes",
+        "check_date": "2026-07-12",
+        "check_date:opening_hours": "2026-07-12",
+        "cuisine": "american",
+        "name": "Whataburger",
+        "opening_hours": "24/7"
+      },
+      "center": {
+        "lat": 33.946717500000005,
+        "lon": -84.12698280000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 847329092,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "TGI Friday's",
+        "brand:wikidata": "Q1524184",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "TGI Friday's",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://locations.tgifridays.com/ga/morrow/1881-mount-zion-road.html"
+      },
+      "center": {
+        "lat": 33.567771500000006,
+        "lon": -84.33001100000001
+      }
+    }
+  ]
+}

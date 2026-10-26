@@ -1,0 +1,73 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WI",
+    "brand": "mission_bbq",
+    "source": "https://download.geofabrik.de/north-america/us/wisconsin-latest.osm.pbf",
+    "source_md5": "1718ff98080ec3edeb95ab8fb47b0ce7",
+    "processed_utc": "2026-10-24T07:19:59.510074+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8086243479,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ",
+        "opening_hours": "Mo-Sa 11:00-21:00; Su 11:30-20:00"
+      },
+      "lat": 43.1296141,
+      "lon": -89.3047634
+    },
+    {
+      "type": "way",
+      "id": 69727428,
+      "tags": {
+        "addr:city": "Brookfield",
+        "addr:housenumber": "18340",
+        "addr:postcode": "53045",
+        "addr:state": "WI",
+        "addr:street": "West Bluemound Road",
+        "amenity": "restaurant",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ",
+        "old_name": "Boston Market",
+        "takeaway": "yes",
+        "website": "https://mission-bbq.com/"
+      },
+      "center": {
+        "lat": 43.0370147,
+        "lon": -88.14146740000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1302087061,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ"
+      },
+      "center": {
+        "lat": 44.4893799,
+        "lon": -88.0656406
+      }
+    }
+  ]
+}

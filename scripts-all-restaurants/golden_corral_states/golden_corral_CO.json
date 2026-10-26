@@ -1,0 +1,144 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "golden_corral",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 423737979,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "check_date": "2026-06-13",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral"
+      },
+      "lat": 38.8592733,
+      "lon": -104.7192062
+    },
+    {
+      "type": "node",
+      "id": 566881963,
+      "tags": {
+        "addr:city": "Thornton",
+        "addr:postcode": "80229",
+        "addr:state": "CO",
+        "addr:street": "Grant Street",
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "cuisine": "american;buffet",
+        "delivery": "no",
+        "name": "Golden Corral",
+        "outdoor_seating": "no",
+        "smoking": "outside"
+      },
+      "lat": 39.8738069,
+      "lon": -104.9839836
+    },
+    {
+      "type": "way",
+      "id": 284758484,
+      "tags": {
+        "addr:housenumber": "3677",
+        "addr:postcode": "80110",
+        "addr:state": "CO",
+        "addr:street": "South Santa Fe Drive",
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "retail",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral",
+        "phone": "+1-303-643-5898",
+        "source": "Bing",
+        "website": "https://goldencorral.com/"
+      },
+      "center": {
+        "lat": 39.6508843,
+        "lon": -105.00352084999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 292134803,
+      "tags": {
+        "addr:city": "Loveland",
+        "addr:housenumber": "1360",
+        "addr:postcode": "80537-5159",
+        "addr:state": "CO",
+        "addr:street": "Sculptor Drive",
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "yes",
+        "contact:phone": "+1-970-461-3000",
+        "contact:website": "https://www.goldencorral.com/locations/location-detail/2563/golden-corral-sculptor-drive/",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral",
+        "opening_hours": "Mo-Th 11:00-20:30; Fr 11:00-21:00; Sa 08:30-21:00; Su 08:30-20:30",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.40660455,
+        "lon": -105.03468154999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 326165207,
+      "tags": {
+        "addr:city": "Aurora",
+        "addr:housenumber": "11090",
+        "addr:postcode": "80012",
+        "addr:state": "CO",
+        "addr:street": "East Mississippi Avenue",
+        "alt_name": "Golden Corral Buffet and Grill",
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral",
+        "opening_hours": "Mo-Fr 10:00-21:00, Sa-Su 07:30-21:00",
+        "phone": "+1-303-306-9171",
+        "source": "Bing;Mapbox",
+        "website": "https://www.goldencorral.com/locations/793/golden-corral-east-mississippi-avenue/"
+      },
+      "center": {
+        "lat": 39.696064,
+        "lon": -104.85923854999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 542497456,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "yes",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral"
+      },
+      "center": {
+        "lat": 38.304866950000005,
+        "lon": -104.61394784999999
+      }
+    }
+  ]
+}

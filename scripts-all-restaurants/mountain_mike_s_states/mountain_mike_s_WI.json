@@ -1,0 +1,58 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WI",
+    "brand": "mountain_mike_s",
+    "source": "https://download.geofabrik.de/north-america/us/wisconsin-latest.osm.pbf",
+    "source_md5": "1718ff98080ec3edeb95ab8fb47b0ce7",
+    "processed_utc": "2026-10-24T07:19:59.510074+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12059948012,
+      "tags": {
+        "alt_name": "Mountain Mike's Pizza",
+        "amenity": "restaurant",
+        "brand": "Mountain Mike's",
+        "brand:wikidata": "Q6925120",
+        "cuisine": "pizza",
+        "name": "Mountain Mike's",
+        "takeaway": "yes"
+      },
+      "lat": 44.4891335,
+      "lon": -88.0656799
+    },
+    {
+      "type": "node",
+      "id": 12776630821,
+      "tags": {
+        "addr:city": "Bellevue",
+        "addr:housenumber": "2298",
+        "addr:postcode": "54311",
+        "addr:state": "WI",
+        "addr:street": "Costco Way",
+        "alt_name": "Mountain Mike's Pizza",
+        "amenity": "restaurant",
+        "brand": "Mountain Mike's",
+        "brand:wikidata": "Q6925120",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Mountain Mike's",
+        "opening_hours": "Su-Th 10:00-21:30; Fr-Sa 10:00-22:00",
+        "phone": "+1-920-607-0500",
+        "takeaway": "yes",
+        "website": "https://www.mountainmikespizza.com/locations/bellevue-costco-way/"
+      },
+      "lat": 44.4599437,
+      "lon": -87.9876842
+    }
+  ]
+}

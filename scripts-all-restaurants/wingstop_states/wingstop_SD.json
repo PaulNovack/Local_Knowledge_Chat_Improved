@@ -1,0 +1,49 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SD",
+    "brand": "wingstop",
+    "source": "https://download.geofabrik.de/north-america/us/south-dakota-latest.osm.pbf",
+    "source_md5": "4d012b130d8682e6f0e1bc093c255981",
+    "processed_utc": "2026-10-24T07:16:00.169778+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12290903606,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wingstop",
+        "brand:wikidata": "Q8025339",
+        "cuisine": "wings",
+        "name": "Wingstop",
+        "takeaway": "yes"
+      },
+      "lat": 43.5283852,
+      "lon": -96.7307529
+    },
+    {
+      "type": "node",
+      "id": 13458420079,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wingstop",
+        "brand:wikidata": "Q8025339",
+        "cuisine": "wings",
+        "drive_through": "no",
+        "name": "Wingstop",
+        "opening_hours": "Mo-Su 11:00-24:00",
+        "takeaway": "yes"
+      },
+      "lat": 44.2991239,
+      "lon": -96.7698013
+    }
+  ]
+}

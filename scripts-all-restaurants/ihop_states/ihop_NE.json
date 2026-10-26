@@ -1,0 +1,141 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "ihop",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4100993924,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:country": "US",
+        "addr:housenumber": "2801",
+        "addr:postcode": "68516",
+        "addr:state": "NE",
+        "addr:street": "Pine Lake Road",
+        "addr:unit": "B",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-03-09",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "phone": "+1-402-904-4910",
+        "start_date": "2021-06-01",
+        "website": "https://restaurants.ihop.com/en-us/ne/lincoln/breakfast-2801-pine-lake-road-3749"
+      },
+      "lat": 40.7386934,
+      "lon": -96.6810981
+    },
+    {
+      "type": "node",
+      "id": 4638902439,
+      "tags": {
+        "addr:city": "Bellevue",
+        "addr:housenumber": "1503",
+        "addr:postcode": "68123",
+        "addr:state": "NE",
+        "addr:street": "Cornhusker Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-09-24",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1 402-292-6690",
+        "source": "official website",
+        "website": "https://restaurants.ihop.com/en-us/ne/bellevue/breakfast-1503-cornhusker-rd-5331"
+      },
+      "lat": 41.1582475,
+      "lon": -95.9358767
+    },
+    {
+      "type": "node",
+      "id": 11493936097,
+      "tags": {
+        "addr:city": "La Vista",
+        "addr:housenumber": "7201",
+        "addr:postcode": "68128",
+        "addr:state": "NE",
+        "addr:street": "South 84th Street",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-09-22",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1 402-339-2880",
+        "website": "https://restaurants.ihop.com/en-us/ne/la-vista/breakfast-7201-s-84th-st-5327"
+      },
+      "lat": 41.1887051,
+      "lon": -96.0422502
+    },
+    {
+      "type": "way",
+      "id": 195697150,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "6440",
+        "addr:postcode": "68510",
+        "addr:state": "NE",
+        "addr:street": "O Street",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "check_date": "2025-11-08",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Th, Su 07:00-22:00; Fr-Sa 07:00-24:00",
+        "phone": "+1-402-904-6605",
+        "source": "bing",
+        "website": "https://restaurants.ihop.com/en-us/ne/lincoln/breakfast-6440-o-street-3673"
+      },
+      "center": {
+        "lat": 40.81378875,
+        "lon": -96.63265535000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 672412796,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "4501",
+        "addr:postcode": "68521",
+        "addr:state": "NE",
+        "addr:street": "North 27th Street",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "check_date": "2024-03-09",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no",
+        "phone": "+1-402-477-4467",
+        "website": "https://restaurants.ihop.com/en-us/ne/lincoln/breakfast-4501-n-27th-st-5326"
+      },
+      "center": {
+        "lat": 40.8567078,
+        "lon": -96.68271249999998
+      }
+    }
+  ]
+}

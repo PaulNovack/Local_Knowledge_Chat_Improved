@@ -1,0 +1,83 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "the_halal_guys",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3782331714,
+      "tags": {
+        "addr:city": "Willow Grove",
+        "addr:housenumber": "4001",
+        "addr:state": "PA",
+        "addr:street": "Welsh Road",
+        "amenity": "fast_food",
+        "brand": "The Halal Guys",
+        "brand:wikidata": "Q10846129",
+        "check_date": "2026-01-02",
+        "cuisine": "chicken;falafel;gyros",
+        "diet:halal": "yes",
+        "disused:name": "Sweet Taco",
+        "name": "The Halal Guys",
+        "opening_hours": "11:00-23:00",
+        "phone": "+1 267-818-6162",
+        "takeaway": "yes",
+        "website": "https://thehalalguys.com/locations/4001-welsh-willow-grove/"
+      },
+      "lat": 40.156196,
+      "lon": -75.1409243
+    },
+    {
+      "type": "node",
+      "id": 12020291138,
+      "tags": {
+        "addr:city": "King of Prussia",
+        "addr:housenumber": "150",
+        "addr:postcode": "19406",
+        "addr:state": "PA",
+        "addr:street": "West Dekalb Pike",
+        "amenity": "fast_food",
+        "brand": "The Halal Guys",
+        "brand:wikidata": "Q10846129",
+        "check_date": "2024-11-08",
+        "cuisine": "chicken;falafel;gyros",
+        "diet:halal": "yes",
+        "name": "The Halal Guys",
+        "opening_hours": "Mo-Sa 10:00-24:00; Su 10:00-22:00",
+        "phone": "+1 484-679-1444",
+        "takeaway": "yes",
+        "website": "https://thehalalguys.com/locations/150-west-dekalb-pike-king-of-prussia"
+      },
+      "lat": 40.095236,
+      "lon": -75.3644774
+    },
+    {
+      "type": "node",
+      "id": 12855724953,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "The Halal Guys",
+        "brand:wikidata": "Q10846129",
+        "check_date": "2025-10-08",
+        "cuisine": "chicken;falafel;gyros",
+        "diet:halal": "yes",
+        "name": "The Halal Guys",
+        "takeaway": "yes"
+      },
+      "lat": 40.0026897,
+      "lon": -75.2250909
+    }
+  ]
+}

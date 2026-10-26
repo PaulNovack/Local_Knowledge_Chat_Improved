@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/3.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AK",
+    "brand": "popeyes",
+    "source": "https://download.geofabrik.de/north-america/us/alaska-latest.osm.pbf",
+    "source_md5": "55281fca0391ab2c26b0d99fd6a6f5f8",
+    "processed_utc": "2026-10-24T06:12:19.265814+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1572998489,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "cuisine": "chicken",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "takeaway": "yes"
+      },
+      "lat": 61.2356797,
+      "lon": -149.7660521
+    },
+    {
+      "type": "way",
+      "id": 386447682,
+      "tags": {
+        "addr:city": "Anchorage",
+        "addr:housenumber": "2960",
+        "addr:state": "AK",
+        "addr:street": "C Street",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 61.1937504,
+        "lon": -149.88718169999999
+      }
+    }
+  ]
+}

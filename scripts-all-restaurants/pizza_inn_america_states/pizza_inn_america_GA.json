@@ -1,0 +1,55 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "pizza_inn_america",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10144621820,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Pizza Inn",
+        "brand:wikidata": "Q4118850",
+        "cuisine": "pizza",
+        "name": "Pizza Inn",
+        "takeaway": "yes"
+      },
+      "lat": 31.1952427,
+      "lon": -81.4836665
+    },
+    {
+      "type": "way",
+      "id": 742078396,
+      "tags": {
+        "addr:city": "Jesup",
+        "addr:housenumber": "1003",
+        "addr:postcode": "31545",
+        "addr:state": "GA",
+        "addr:street": "Sunset Boulevard",
+        "amenity": "fast_food",
+        "brand": "Pizza Inn",
+        "brand:wikidata": "Q4118850",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Inn",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 31.6036438,
+        "lon": -81.9068562
+      }
+    }
+  ]
+}

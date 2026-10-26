@@ -1,0 +1,53 @@
+{
+  "version": 0.6,
+  "generator": "TruckStopExtractDownloader/1.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "RI",
+    "source": "https://download.geofabrik.de/north-america/us/rhode-island-latest.osm.pbf",
+    "source_md5": "a49a56fc33730edadaf5983602f127ba",
+    "processed_utc": "2026-10-24T22:02:27.660789+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9611841078,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "name": "TA Diesel"
+      },
+      "lat": 41.6085268,
+      "lon": -71.6633657
+    },
+    {
+      "type": "way",
+      "id": 223016723,
+      "tags": {
+        "area": "yes",
+        "branch": "West Greenwich",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 401-397-7774",
+        "ref": "0253",
+        "website": "https://www.ta-petro.com/location/ri/ta-west-greenwich/"
+      },
+      "center": {
+        "lat": 41.608531,
+        "lon": -71.66475575000004
+      }
+    }
+  ]
+}

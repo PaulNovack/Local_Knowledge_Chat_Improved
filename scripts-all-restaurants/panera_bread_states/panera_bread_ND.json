@@ -1,0 +1,117 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ND",
+    "brand": "panera_bread",
+    "source": "https://download.geofabrik.de/north-america/us/north-dakota-latest.osm.pbf",
+    "source_md5": "9eff3bc6ca09aea0f8e064cee3b44c15",
+    "processed_utc": "2026-10-24T07:12:54.105950+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12306235245,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "short_name": "Panera",
+        "takeaway": "yes"
+      },
+      "lat": 48.2093329,
+      "lon": -101.3199445
+    },
+    {
+      "type": "way",
+      "id": 219117387,
+      "tags": {
+        "addr:city": "Fargo",
+        "addr:housenumber": "4000",
+        "addr:postcode": "58103",
+        "addr:state": "ND",
+        "addr:street": "West 13th Avenue Southwest",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "yes",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Fr 07:00-20:00; Sa-Su 08:00-15:00",
+        "phone": "+1 701-492-4598",
+        "short_name": "Panera",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/nd/fargo/4000-west-13th-ave-sw.html"
+      },
+      "center": {
+        "lat": 46.86123395,
+        "lon": -96.84874015000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 556890778,
+      "tags": {
+        "addr:city": "Grand Forks",
+        "addr:housenumber": "2515",
+        "addr:postcode": "58201",
+        "addr:state": "ND",
+        "addr:street": "32nd Avenue South",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "yes",
+        "cuisine": "sandwich;bakery",
+        "indoor_seating": "yes",
+        "name": "Panera Bread",
+        "opening_hours": "07:00-20:00",
+        "outdoor_seating": "no",
+        "phone": "+1 701-772-1571",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/nd/grand-forks/2515-32nd-ave-s.html"
+      },
+      "center": {
+        "lat": 47.888849199999996,
+        "lon": -97.06350559999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 747434403,
+      "tags": {
+        "addr:city": "Bismarck",
+        "addr:housenumber": "1016",
+        "addr:postcode": "58504",
+        "addr:state": "ND",
+        "addr:street": "South 7th Street",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "retail",
+        "cuisine": "sandwich;bakery",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "phone": "+1 701-354-6454",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/nd/bismarck/1016-s-7th-st.html"
+      },
+      "center": {
+        "lat": 46.7956274,
+        "lon": -100.78267160000001
+      }
+    }
+  ]
+}

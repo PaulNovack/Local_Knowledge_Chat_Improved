@@ -1,7 +1,16 @@
 const $ = id => document.getElementById(id);
 const welcomeTemplate = $('welcome')?.cloneNode(true);
 let socket = null, busy = false, transcript = [], current = null;
-let introAudio = null, introAudioUrl = '';
+let introAudio = null, introAudioUrl = '', introFinish = null;
+const introDialog = document.createElement('dialog');
+introDialog.id = 'cdla-intro-dialog';
+introDialog.setAttribute('aria-labelledby', 'cdla-intro-title');
+introDialog.innerHTML = '<div class="intro-dialog-content"><h2 id="cdla-intro-title">CDLA study collection</h2><div id="cdla-intro-text"></div><div class="intro-dialog-actions"><button id="cdla-intro-close" class="secondary" type="button">Close</button></div></div>';
+document.body.append(introDialog);
+const introStylesheet = document.createElement('link');
+introStylesheet.rel = 'stylesheet';
+introStylesheet.href = '/cdla-intro.css';
+document.head.append(introStylesheet);
 const showAskAndTrain = location.origin === 'http://127.0.0.1:8000';
 const training = {
   form: $('train-form'),
@@ -41,11 +50,13 @@ async function playCdlaIntro(event) {
   let audio = null;
   let audioUrl = '';
   const finish = () => {
+    if (introFinish === finish) introFinish = null;
     if (introAudio === audio) introAudio = null;
     if (introAudioUrl === audioUrl && audioUrl) {
       URL.revokeObjectURL(audioUrl);
       introAudioUrl = '';
     }
+    if (introDialog.open) introDialog.close();
     button.disabled = false;
   };
   try {
@@ -63,6 +74,9 @@ async function playCdlaIntro(event) {
     introAudioUrl = audioUrl;
     audio = new Audio(audioUrl);
     introAudio = audio;
+    introFinish = finish;
+    $('cdla-intro-text').textContent = text;
+    introDialog.showModal();
     audio.addEventListener('ended', finish, {once: true});
     audio.addEventListener('error', finish, {once: true});
     await audio.play();
@@ -73,6 +87,15 @@ async function playCdlaIntro(event) {
     status(error.message || 'Unable to play the CDLA introduction.');
   }
 }
+$("cdla-intro-close").addEventListener('click', () => {
+  introAudio?.pause();
+  introFinish?.();
+});
+introDialog.addEventListener('cancel', event => {
+  event.preventDefault();
+  introAudio?.pause();
+  introFinish?.();
+});
 function bubble(role, text) {
   $('welcome')?.remove();
   const card = document.createElement('article'); card.className = `message ${role}`;
@@ -158,10 +181,11 @@ $('form').addEventListener('submit', event => {
     return;
   }
   if (!$('topic').value) return;
+  const directionsWindow = window.prepareLocatorDirections?.(question, $('show-map')?.checked);
   bubble('user', question); const answer = bubble('assistant', '');
   answer.body.classList.add('thinking');
   answer.body.append(thinkingIndicator());
-  const record = {question, answer: '', sources: [], topic: $('topic').value, complete: false, error: ''};
+  const record = {question, answer: '', sources: [], topic: $('topic').value, complete: false, error: '', directionsWindow};
   transcript.push(record); current = record; setBusy(true); status('Connecting…');
   trainStatus('');
   $('question').value = '';
@@ -176,12 +200,17 @@ $('form').addEventListener('submit', event => {
         answer.body.textContent = record.answer;
         scroll();
       }
-      if (data.type === 'sources') { record.sources = data.sources; addSources(answer.card, data.sources); }
+      if (data.type === 'sources') {
+        record.sources = data.sources;
+        addSources(answer.card, data.sources);
+        window.resolveLocatorDirections?.(record.directionsWindow, data.sources, answer.card);
+      }
       if (data.type === 'status') status(data.message);
       if (data.type === 'error') { record.error = data.message; status(data.message); if (!record.answer) { answer.body.classList.remove('thinking'); answer.body.textContent = data.message; } }
       if (data.type === 'done') {
         answer.body.classList.remove('thinking');
         record.complete = true;
+        window.finishLocatorDirections?.(record.directionsWindow);
         status('Ready for your next question.');
         if (training.form && training.question && training.answer) {
           training.question.value = question;
@@ -193,13 +222,17 @@ $('form').addEventListener('submit', event => {
     } catch (_) { status('Received an invalid server response.'); ws.close(); }
   };
   ws.onerror = () => status('Connection failed. Check the backend terminal.');
-  ws.onclose = () => { if (socket === ws) { socket = null; setBusy(false); if (!record.complete) status(record.error || 'Response interrupted. You can try again.'); $('question').focus(); } };
+  ws.onclose = () => {
+    window.finishLocatorDirections?.(record.directionsWindow);
+    if (socket === ws) { socket = null; setBusy(false); if (!record.complete) status(record.error || 'Response interrupted. You can try again.'); $('question').focus(); }
+  };
 });
 $('stop').onclick = () => socket?.close();
 $('question').addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey && !e.isComposing) { e.preventDefault(); $('form').requestSubmit(); } });
 function clearChat() {
   transcript = [];
   introAudio?.pause();
+  introFinish?.();
   if (introAudioUrl) URL.revokeObjectURL(introAudioUrl);
   introAudio = null;
   introAudioUrl = '';

@@ -1,0 +1,38 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "del_taco",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 772251165,
+      "tags": {
+        "addr:city": "Durham",
+        "addr:housenumber": "4716",
+        "addr:postcode": "27713",
+        "addr:state": "NC",
+        "addr:street": "NC Highway 55",
+        "amenity": "fast_food",
+        "building": "yes",
+        "name": "Del Taco",
+        "source:addr": "Durham Open Data"
+      },
+      "center": {
+        "lat": 35.901474,
+        "lon": -78.89641800000004
+      }
+    }
+  ]
+}

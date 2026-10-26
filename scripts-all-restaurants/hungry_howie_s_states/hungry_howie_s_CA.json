@@ -1,0 +1,46 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CA",
+    "brand": "hungry_howie_s",
+    "source": "https://download.geofabrik.de/north-america/us/california-latest.osm.pbf",
+    "source_md5": "26040c163edb7a5f630164ee55d5afda",
+    "processed_utc": "2026-10-24T06:59:04.829226+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10724649608,
+      "tags": {
+        "addr:housenumber": "600 W",
+        "addr:postcode": "91202",
+        "addr:street": "Glenoaks Boulevard",
+        "amenity": "restaurant",
+        "name": "Hungry Howie's Pizza"
+      },
+      "lat": 34.1592288,
+      "lon": -118.2670495
+    },
+    {
+      "type": "node",
+      "id": 13971370424,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Hungry Howie's",
+        "brand:wikidata": "Q16985303",
+        "cuisine": "pizza",
+        "name": "Hungry Howie's",
+        "takeaway": "yes"
+      },
+      "lat": 35.1271518,
+      "lon": -118.4687457
+    }
+  ]
+}

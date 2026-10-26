@@ -1,0 +1,71 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NH",
+    "brand": "denny_s",
+    "source": "https://download.geofabrik.de/north-america/us/new-hampshire-latest.osm.pbf",
+    "source_md5": "603b90470df09c1b933955cbfe841c6d",
+    "processed_utc": "2026-10-24T07:09:51.168561+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 116979303,
+      "tags": {
+        "addr:city": "Nashua",
+        "addr:housenumber": "34",
+        "addr:postcode": "03063",
+        "addr:state": "NH",
+        "addr:street": "Gusabel Avenue",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2024-09-10",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "phone": "+1-603-883-6165",
+        "roof:shape": "hipped",
+        "website": "https://www.dennys.com/"
+      },
+      "center": {
+        "lat": 42.76518325,
+        "lon": -71.49436805000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 264788348,
+      "tags": {
+        "addr:city": "West Lebanon",
+        "addr:housenumber": "261",
+        "addr:postcode": "03784",
+        "addr:state": "NH",
+        "addr:street": "Plainfield Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "phone": "+1-603-298-5922",
+        "takeaway": "yes",
+        "website": "https://locations.dennys.com/NH/WEST-LEBANON/202366"
+      },
+      "center": {
+        "lat": 43.62701385,
+        "lon": -72.32322469999997
+      }
+    }
+  ]
+}

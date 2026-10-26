@@ -1,0 +1,64 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IA",
+    "brand": "teriyaki_madness",
+    "source": "https://download.geofabrik.de/north-america/us/iowa-latest.osm.pbf",
+    "source_md5": "67edcd557c575ead09c9f80bc8694526",
+    "processed_utc": "2026-10-24T07:04:05.270534+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12427903066,
+      "tags": {
+        "addr:city": "West Des Moines",
+        "addr:housenumber": "160",
+        "addr:postcode": "50266-8480",
+        "addr:state": "IA",
+        "addr:street": "Jordan Creek Parkway",
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "phone": "+1 515-842-7008",
+        "takeaway": "yes",
+        "website": "https://teriyakimadness.com/locations/ia-west-des-moines/"
+      },
+      "lat": 41.5698941,
+      "lon": -93.8112003
+    },
+    {
+      "type": "way",
+      "id": 678910747,
+      "tags": {
+        "addr:city": "Bettendorf",
+        "addr:housenumber": "3721",
+        "addr:postcode": "52722",
+        "addr:state": "IA",
+        "addr:street": "State Street",
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "building": "yes",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-20:00",
+        "phone": "+1-563-888-1187",
+        "takeaway": "yes",
+        "website": "https://teriyakimadness.com/locations/bettendorf/"
+      },
+      "center": {
+        "lat": 41.52879045,
+        "lon": -90.48168090000001
+      }
+    }
+  ]
+}

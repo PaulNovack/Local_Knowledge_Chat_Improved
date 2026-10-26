@@ -1,0 +1,119 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "chuy_s",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4484305789,
+      "tags": {
+        "addr:city": "Cary",
+        "addr:country": "US",
+        "addr:housenumber": "1035",
+        "addr:postcode": "27519",
+        "addr:state": "NC",
+        "addr:street": "Parkside Main Street",
+        "amenity": "restaurant",
+        "brand": "Chuy's",
+        "brand:wikidata": "Q5118415",
+        "cuisine": "tex-mex",
+        "name": "Chuy's",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1 919 388 7455",
+        "website": "https://www.chuys.com/locations/cary/cary"
+      },
+      "lat": 35.8465504,
+      "lon": -78.8886264
+    },
+    {
+      "type": "node",
+      "id": 5030955657,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuy's",
+        "brand:wikidata": "Q5118415",
+        "cuisine": "tex-mex",
+        "name": "Chuy's"
+      },
+      "lat": 35.0518056,
+      "lon": -80.7676493
+    },
+    {
+      "type": "node",
+      "id": 14243475057,
+      "tags": {
+        "addr:city": "Southern Pines",
+        "addr:housenumber": "311",
+        "addr:postcode": "28387",
+        "addr:state": "NC",
+        "addr:street": "Southeast Broad Street",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Chuy's Mexican Grill & Cantina",
+        "not:brand:wikidata": "Q5118415",
+        "phone": "+1910-725-0147"
+      },
+      "lat": 35.1714457,
+      "lon": -79.3949158
+    },
+    {
+      "type": "node",
+      "id": 14264910867,
+      "tags": {
+        "addr:city": "Fayetteville",
+        "addr:housenumber": "570",
+        "addr:postcode": "28303",
+        "addr:state": "NC",
+        "addr:street": "Skibo Road",
+        "amenity": "restaurant",
+        "branch": "Fayetteville NC",
+        "brand": "Chuy's",
+        "brand:wikidata": "Q5118415",
+        "cuisine": "tex-mex",
+        "name": "Chuy's",
+        "phone": "+1910-637-9663",
+        "website": "https://www.chuys.com/locations/nc/fayetteville/fayetteville-nc/6125"
+      },
+      "lat": 35.0723201,
+      "lon": -78.9635255
+    },
+    {
+      "type": "way",
+      "id": 305860336,
+      "tags": {
+        "addr:housenumber": "4020",
+        "addr:street": "Market at North Hills Street",
+        "amenity": "restaurant",
+        "brand": "Chuy's",
+        "brand:wikidata": "Q5118415",
+        "building": "yes",
+        "check_date": "2023-11-13",
+        "cuisine": "tex-mex",
+        "name": "Chuy's",
+        "opening_hours": "Mo-Th,Su 11:00-21:00; Fr-Sa 11:00-22:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 919-571-2489",
+        "website": "https://chuys.com",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 35.83654345,
+        "lon": -78.63754044999996
+      }
+    }
+  ]
+}

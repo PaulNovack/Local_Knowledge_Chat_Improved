@@ -1,0 +1,93 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WI",
+    "brand": "the_cheesecake_factory",
+    "source": "https://download.geofabrik.de/north-america/us/wisconsin-latest.osm.pbf",
+    "source_md5": "1718ff98080ec3edeb95ab8fb47b0ce7",
+    "processed_utc": "2026-10-24T07:19:59.510074+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 591443374,
+      "tags": {
+        "addr:city": "Madison",
+        "addr:housenumber": "1",
+        "addr:postcode": "53719",
+        "addr:state": "WI",
+        "addr:street": "West Towne Mall",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "check_date": "2025-07-13",
+        "cuisine": "american",
+        "disused:shop": "electronics",
+        "name": "The Cheesecake Factory",
+        "old_name": "Radio Shack",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr,Sa 11:00-23:00; Su 10:00-22:00",
+        "phone": "+1 608-824-2370",
+        "toilets:wheelchair": "yes",
+        "website": "https://locations.thecheesecakefactory.com/wi/madison-190.html",
+        "wheelchair": "yes"
+      },
+      "lat": 43.0574728,
+      "lon": -89.5049543
+    },
+    {
+      "type": "way",
+      "id": 661546293,
+      "tags": {
+        "addr:city": "Wauwatosa",
+        "addr:housenumber": "2350",
+        "addr:postcode": "53226",
+        "addr:state": "WI",
+        "addr:street": "North Mayfair Road",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory",
+        "website": "https://www.thecheesecakefactory.com/"
+      },
+      "center": {
+        "lat": 43.06164225,
+        "lon": -88.04674484999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1152756756,
+      "tags": {
+        "addr:city": "Glendale",
+        "addr:housenumber": "5799",
+        "addr:postcode": "53217",
+        "addr:state": "WI",
+        "addr:street": "North Bayshore Drive",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "building:part": "yes",
+        "cuisine": "american",
+        "layer": "0",
+        "name": "The Cheesecake Factory",
+        "website": "https://www.thecheesecakefactory.com/"
+      },
+      "center": {
+        "lat": 43.12280095,
+        "lon": -87.91475574999998
+      }
+    }
+  ]
+}

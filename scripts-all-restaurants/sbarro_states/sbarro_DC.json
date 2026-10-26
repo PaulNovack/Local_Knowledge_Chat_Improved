@@ -1,0 +1,82 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "sbarro",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T07:20:37.151586+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6399814685,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "3001",
+        "addr:postcode": "20008",
+        "addr:state": "DC",
+        "addr:street": "Connecticut Avenue Northwest",
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "check_date": "2025-03-11",
+        "check_date:opening_hours": "2025-03-11",
+        "cuisine": "pizza",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "no",
+        "name": "Sbarro",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 202-805-0666",
+        "ref": "1101",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 38.9318989,
+      "lon": -77.0519763
+    },
+    {
+      "type": "way",
+      "id": 1240491212,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:country": "US",
+        "addr:housenumber": "1104",
+        "addr:postcode": "20001",
+        "addr:state": "DC",
+        "addr:street": "7th Street Northwest",
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "check_date": "2023-09-17",
+        "contact:facebook": "Sbarro",
+        "contact:instagram": "sbarroofficial",
+        "contact:twitter": "Sbarro",
+        "contact:website": "https://www.sbarrodc.com/",
+        "cuisine": "pizza",
+        "level": "0",
+        "name": "Sbarro",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa-Su off",
+        "phone": "+1 202-517-7211",
+        "source": "dcgis",
+        "takeaway": "yes",
+        "website": "https://sbarro.com/locations/dc/washington/washington-dc-convention-center/"
+      },
+      "center": {
+        "lat": 38.904461749999996,
+        "lon": -77.02213280000001
+      }
+    }
+  ]
+}

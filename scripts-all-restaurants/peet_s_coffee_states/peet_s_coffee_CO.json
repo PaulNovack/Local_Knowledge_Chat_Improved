@@ -1,0 +1,73 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "peet_s_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1158382692,
+      "tags": {
+        "addr:city": "Denver",
+        "addr:housenumber": "1550",
+        "addr:postcode": "80202",
+        "addr:state": "CO",
+        "addr:street": "Court Place",
+        "amenity": "cafe",
+        "brand": "Peet's Coffee",
+        "brand:wikidata": "Q1094101",
+        "cuisine": "coffee_shop",
+        "name": "Peet's Coffee",
+        "takeaway": "yes"
+      },
+      "lat": 39.7428303,
+      "lon": -104.9894245
+    },
+    {
+      "type": "node",
+      "id": 5195385378,
+      "tags": {
+        "addr:city": "Denver",
+        "addr:housenumber": "2500",
+        "addr:postcode": "80206",
+        "addr:state": "CO",
+        "addr:street": "East 2nd Avenue",
+        "amenity": "cafe",
+        "brand": "Peet's Coffee",
+        "brand:wikidata": "Q1094101",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "name": "Peet's Coffee",
+        "takeaway": "yes"
+      },
+      "lat": 39.7192743,
+      "lon": -104.9569151
+    },
+    {
+      "type": "node",
+      "id": 13359892062,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Peet's Coffee",
+        "brand:wikidata": "Q1094101",
+        "check_date": "2025-11-19",
+        "cuisine": "coffee_shop",
+        "name": "Peet's Coffee",
+        "takeaway": "yes"
+      },
+      "lat": 39.8537401,
+      "lon": -104.6797917
+    }
+  ]
+}

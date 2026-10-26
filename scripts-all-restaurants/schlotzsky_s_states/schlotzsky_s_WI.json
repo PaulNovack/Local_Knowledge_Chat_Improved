@@ -1,0 +1,79 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WI",
+    "brand": "schlotzsky_s",
+    "source": "https://download.geofabrik.de/north-america/us/wisconsin-latest.osm.pbf",
+    "source_md5": "1718ff98080ec3edeb95ab8fb47b0ce7",
+    "processed_utc": "2026-10-24T07:19:59.510074+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2819630196,
+      "tags": {
+        "addr:city": "Appleton",
+        "addr:housenumber": "881",
+        "addr:postcode": "54913",
+        "addr:state": "WI",
+        "addr:street": "North Casaloma Drive",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's",
+        "phone": "+1-920-731-7272",
+        "takeaway": "yes"
+      },
+      "lat": 44.268883,
+      "lon": -88.4770452
+    },
+    {
+      "type": "node",
+      "id": 2819635495,
+      "tags": {
+        "addr:city": "Green Bay",
+        "addr:housenumber": "2420",
+        "addr:postcode": "54303",
+        "addr:state": "WI",
+        "addr:street": "West Mason Street",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's",
+        "phone": "+1-920-497-1313",
+        "takeaway": "yes"
+      },
+      "lat": 44.5242745,
+      "lon": -88.0899271
+    },
+    {
+      "type": "node",
+      "id": 2821741302,
+      "tags": {
+        "addr:city": "Milwaukee",
+        "addr:housenumber": "6800",
+        "addr:postcode": "53223",
+        "addr:state": "WI",
+        "addr:street": "West Brown Deer Road",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's",
+        "phone": "+1-414-355-6161",
+        "takeaway": "yes"
+      },
+      "lat": 43.1785002,
+      "lon": -87.9949946
+    }
+  ]
+}

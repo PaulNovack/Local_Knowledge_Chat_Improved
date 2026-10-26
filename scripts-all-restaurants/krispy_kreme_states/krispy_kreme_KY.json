@@ -1,0 +1,92 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KY",
+    "brand": "krispy_kreme",
+    "source": "https://download.geofabrik.de/north-america/us/kentucky-latest.osm.pbf",
+    "source_md5": "beee275db6b863afe4847059e1397537",
+    "processed_utc": "2026-10-24T07:04:39.223265+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1577450694,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "lat": 38.0074715,
+      "lon": -84.451331
+    },
+    {
+      "type": "node",
+      "id": 3364361419,
+      "tags": {
+        "addr:city": "Middletown",
+        "addr:housenumber": "13319",
+        "addr:postcode": "40223",
+        "addr:state": "KY",
+        "addr:street": "Shelbyville Road",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "lat": 38.2427779,
+      "lon": -85.5057254
+    },
+    {
+      "type": "node",
+      "id": 6069846474,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "lat": 38.2055004,
+      "lon": -85.5793068
+    },
+    {
+      "type": "way",
+      "id": 333995571,
+      "tags": {
+        "addr:city": "Louisville",
+        "addr:housenumber": "3000",
+        "addr:postcode": "40205",
+        "addr:state": "KY",
+        "addr:street": "Bardstown Road",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "cuisine": "donut",
+        "delivery": "no",
+        "drive_through": "yes",
+        "lojic:bgnum": "169101",
+        "name": "Krispy Kreme",
+        "opening_hours": "open",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.215018400000005,
+        "lon": -85.67479594999998
+      }
+    }
+  ]
+}

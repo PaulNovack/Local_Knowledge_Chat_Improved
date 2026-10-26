@@ -1,0 +1,557 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "olive_garden",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2145160304,
+      "tags": {
+        "addr:city": "Southern Pines",
+        "addr:housenumber": "10572",
+        "addr:postcode": "28387",
+        "addr:state": "NC",
+        "addr:street": "US 15/501",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa; 11:00-23:00; Su 11:00-22:00",
+        "phone": "+19102465201",
+        "website": "https://www.olivegarden.com/locations/nc/southern-pines/southern-pines/1811"
+      },
+      "lat": 35.169179,
+      "lon": -79.4250377
+    },
+    {
+      "type": "node",
+      "id": 2791748045,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "source": "survey",
+        "wheelchair": "yes"
+      },
+      "lat": 35.7431508,
+      "lon": -77.9641481
+    },
+    {
+      "type": "node",
+      "id": 7122775672,
+      "tags": {
+        "addr:city": "Goldsboro",
+        "addr:housenumber": "803",
+        "addr:postcode": "27534",
+        "addr:state": "NC",
+        "addr:street": "North Berkeley Boulevard",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "phone": "+19197784140"
+      },
+      "lat": 35.3774969,
+      "lon": -77.9394764
+    },
+    {
+      "type": "node",
+      "id": 8529623616,
+      "tags": {
+        "addr:city": "Raleigh",
+        "addr:housenumber": "4805",
+        "addr:postcode": "27616",
+        "addr:state": "NC",
+        "addr:street": "Capital Boulevard",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "source": "WakeGIS"
+      },
+      "lat": 35.8510183,
+      "lon": -78.5814869
+    },
+    {
+      "type": "node",
+      "id": 9423787065,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "opening_hours": "Su-Th 11:00-22:00; Fr,Sa 11:00-23:00"
+      },
+      "lat": 35.9099971,
+      "lon": -78.7834815
+    },
+    {
+      "type": "node",
+      "id": 10106312960,
+      "tags": {
+        "addr:city": "Wilkesboro",
+        "addr:housenumber": "1852",
+        "addr:postcode": "28697",
+        "addr:state": "NC",
+        "addr:street": "US-421",
+        "amenity": "restaurant",
+        "branch": "Italian Restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "phone": "+13368380337"
+      },
+      "lat": 36.1506955,
+      "lon": -81.2014621
+    },
+    {
+      "type": "node",
+      "id": 10138327625,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "cuisine": "italian",
+        "delivery": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Olive Garden",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-22:00",
+        "phone": "+1-919-552-2237",
+        "takeaway": "yes",
+        "website": "https://www.olivegarden.com/locations/nc/holly-springs/holly-springs-towne-center/4441"
+      },
+      "lat": 35.6586628,
+      "lon": -78.8494324
+    },
+    {
+      "type": "node",
+      "id": 12106806544,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "lat": 35.2637473,
+      "lon": -81.1329051
+    },
+    {
+      "type": "relation",
+      "id": 9046139,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "type": "multipolygon"
+      },
+      "center": {
+        "lat": 35.44612085,
+        "lon": -82.53424765
+      }
+    },
+    {
+      "type": "way",
+      "id": 32073865,
+      "tags": {
+        "addr:city": "Cary",
+        "addr:housenumber": "1809",
+        "addr:postcode": "27518",
+        "addr:state": "NC",
+        "addr:street": "Walnut Street",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "check_date": "2025-05-04",
+        "cuisine": "italian",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Olive Garden",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 35.76058595,
+        "lon": -78.74276409999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 219356055,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 35.9727367,
+        "lon": -77.80591115000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 286140616,
+      "tags": {
+        "addr:housenumber": "170",
+        "addr:street": "Hanes Mall Circle",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "retail",
+        "cuisine": "italian",
+        "indoor_seating": "yes",
+        "name": "Olive Garden",
+        "opening_hours": "Su-Th 11:00-22:00; Fr,Sa 11:00-23:00",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 36.067396200000005,
+        "lon": -80.30377999999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 334211891,
+      "tags": {
+        "addr:city": "Greensboro",
+        "addr:country": "US",
+        "addr:housenumber": "3000",
+        "addr:postcode": "27403",
+        "addr:state": "NC",
+        "addr:street": "West Gate City Boulevard",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "check_date": "2026-05-09",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "phone": "+1-336-854-7094",
+        "website": "https://www.olivegarden.com/locations/nc/greensboro/greensboro/1177"
+      },
+      "center": {
+        "lat": 36.0491185,
+        "lon": -79.83595709999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 339165960,
+      "tags": {
+        "addr:city": "High Point",
+        "addr:country": "US",
+        "addr:housenumber": "4006",
+        "addr:postcode": "27265",
+        "addr:state": "NC",
+        "addr:street": "Brian Jordan Place",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "retail",
+        "check_date": "2026-10-11",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-336-841-5066",
+        "website": "https://www.olivegarden.com/locations/nc/high-point/high-point/4415"
+      },
+      "center": {
+        "lat": 36.03256925,
+        "lon": -79.95893905000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 377503947,
+      "tags": {
+        "addr:housenumber": "8010",
+        "addr:street": "Concord Mills Boulevard",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "phone": "+1-704-979-1130"
+      },
+      "center": {
+        "lat": 35.3704896,
+        "lon": -80.71529075000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 431248628,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "center": {
+        "lat": 35.071494,
+        "lon": -78.95122475
+      }
+    },
+    {
+      "type": "way",
+      "id": 544452403,
+      "tags": {
+        "addr:city": "Charlotte",
+        "addr:housenumber": "8225",
+        "addr:postcode": "28216",
+        "addr:state": "NC",
+        "addr:street": "Northlake Commons Boulevard",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "center": {
+        "lat": 35.34839755,
+        "lon": -80.85462424999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 556411392,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "delivery": "no",
+        "name": "Olive Garden",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.70331095,
+        "lon": -81.29538754999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 604398422,
+      "tags": {
+        "addr:city": "Asheville",
+        "addr:housenumber": "121",
+        "addr:postcode": "28805",
+        "addr:state": "NC",
+        "addr:street": "Tunnel Road",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 35.59266355,
+        "lon": -82.53162474999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 628047092,
+      "tags": {
+        "addr:city": "Pineville",
+        "addr:housenumber": "9421",
+        "addr:postcode": "28134",
+        "addr:state": "NC",
+        "addr:street": "Pineville-Matthews Road",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-704-544-2334",
+        "website": "https://www.olivegarden.com/locations/nc/pineville/pineville-carolina-place-mall/1312"
+      },
+      "center": {
+        "lat": 35.0863904,
+        "lon": -80.87734064999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 657089797,
+      "tags": {
+        "addr:city": "Wake Forest",
+        "addr:housenumber": "12600",
+        "addr:postcode": "27587",
+        "addr:state": "NC",
+        "addr:street": "Capital Boulevard",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "italian;pasta",
+        "name": "Olive Garden",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-919-556-1007",
+        "website": "https://www.olivegarden.com/locations/nc/wake-forest/wake-forest/1831"
+      },
+      "center": {
+        "lat": 35.98841765,
+        "lon": -78.5315453
+      }
+    },
+    {
+      "type": "way",
+      "id": 743412153,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "retail",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "center": {
+        "lat": 36.0679127,
+        "lon": -79.51815679999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 746273931,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "center": {
+        "lat": 34.24601425,
+        "lon": -77.87417579999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 814229763,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "layer": "1",
+        "name": "Olive Garden",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 34.788416,
+        "lon": -77.4043385
+      }
+    },
+    {
+      "type": "way",
+      "id": 899886311,
+      "tags": {
+        "addr:city": "Monroe",
+        "addr:housenumber": "2983",
+        "addr:postcode": "28110",
+        "addr:state": "NC",
+        "addr:street": "Monroe Way",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "center": {
+        "lat": 35.02246735,
+        "lon": -80.57966009999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1047773315,
+      "tags": {
+        "addr:housenumber": "438",
+        "addr:postcode": "28117",
+        "addr:street": "Talbert Road",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "check_date": "2026-10-17",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-704-230-2619",
+        "website": "https://www.olivegarden.com/locations/nc/mooresville/mooresville/6438"
+      },
+      "center": {
+        "lat": 35.58029415,
+        "lon": -80.85352245000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1180546247,
+      "tags": {
+        "addr:city": "Charlotte",
+        "addr:housenumber": "4910",
+        "addr:postcode": "28278",
+        "addr:state": "NC",
+        "addr:street": "Trojan Drive",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "center": {
+        "lat": 35.1654008,
+        "lon": -80.96802255
+      }
+    }
+  ]
+}

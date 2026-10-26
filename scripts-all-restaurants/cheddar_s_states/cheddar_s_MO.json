@@ -1,0 +1,136 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "cheddar_s",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13798461201,
+      "tags": {
+        "addr:postcode": "65616",
+        "addr:street": "West 76 Country Boulevard",
+        "amenity": "restaurant",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "name": "Cheddar's Scratch Kitchen",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-417-213-3188",
+        "self_service": "no",
+        "website": "https://www.cheddars.com/locations/mo/branson/branson/2207"
+      },
+      "lat": 36.6386549,
+      "lon": -93.2748338
+    },
+    {
+      "type": "way",
+      "id": 206964501,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen",
+        "source": "Bing",
+        "source:name": "local_knowledge"
+      },
+      "center": {
+        "lat": 37.0480071,
+        "lon": -94.4753718
+      }
+    },
+    {
+      "type": "way",
+      "id": 500480371,
+      "tags": {
+        "addr:city": "Independence",
+        "addr:housenumber": "4675",
+        "addr:postcode": "64055",
+        "addr:state": "MO",
+        "addr:street": "South Bass Pro Drive",
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen"
+      },
+      "center": {
+        "lat": 39.03450715,
+        "lon": -94.3640737
+      }
+    },
+    {
+      "type": "way",
+      "id": 555334633,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen",
+        "opening_hours": "Su-Th 11:00-22:00; Fr,Sa 11:00-23:00"
+      },
+      "center": {
+        "lat": 38.9644698,
+        "lon": -92.35411690000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 605378105,
+      "tags": {
+        "addr:city": "Saint Joseph",
+        "addr:housenumber": "5302",
+        "addr:postcode": "64506",
+        "addr:state": "MO",
+        "addr:street": "North Belt Highway",
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen"
+      },
+      "center": {
+        "lat": 39.814399550000005,
+        "lon": -94.81602380000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1317050360,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 37.15042545,
+        "lon": -93.25958025
+      }
+    }
+  ]
+}

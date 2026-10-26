@@ -1,0 +1,87 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "denny_s",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2416625026,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:housename": "Dennys at Pilot Travel Center",
+        "addr:housenumber": "2250",
+        "addr:postcode": "82007",
+        "addr:state": "WY",
+        "addr:street": "Etchepare Drive",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "cuisine": "american",
+        "name": "Denny's",
+        "phone": "+1-307-634-6659",
+        "source": "local visit, company website",
+        "website": "https://www.dennys.com/"
+      },
+      "lat": 41.0989575,
+      "lon": -104.85382
+    },
+    {
+      "type": "node",
+      "id": 3931966171,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "lat": 41.608976,
+      "lon": -109.230443
+    },
+    {
+      "type": "node",
+      "id": 5648899217,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "name": "Denny's"
+      },
+      "lat": 41.7784654,
+      "lon": -107.3098601
+    },
+    {
+      "type": "way",
+      "id": 1075463763,
+      "tags": {
+        "addr:city": "Casper",
+        "addr:housenumber": "4220",
+        "addr:postcode": "82609",
+        "addr:state": "WY",
+        "addr:street": "Hospitality Lane",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "center": {
+        "lat": 42.8530655,
+        "lon": -106.27418899999998
+      }
+    }
+  ]
+}

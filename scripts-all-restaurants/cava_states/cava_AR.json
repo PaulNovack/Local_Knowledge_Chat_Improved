@@ -1,0 +1,50 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "cava",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1283298061,
+      "tags": {
+        "addr:city": "Rogers",
+        "addr:housenumber": "4007",
+        "addr:postcode": "72756",
+        "addr:state": "AR",
+        "addr:street": "West Walnut Street",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "no",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "building": "yes",
+        "cuisine": "mediterranean",
+        "delivery": "yes",
+        "indoor_seating": "yes",
+        "microbrewery": "no",
+        "name": "CAVA",
+        "outdoor_seating": "yes",
+        "self_service": "no",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "toilets": "yes"
+      },
+      "center": {
+        "lat": 36.335389199999995,
+        "lon": -94.17663345
+      }
+    }
+  ]
+}

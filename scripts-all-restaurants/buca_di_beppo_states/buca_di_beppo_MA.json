@@ -1,0 +1,37 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "buca_di_beppo",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 110052892,
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:street": "Boston Turnpike",
+        "amenity": "restaurant",
+        "brand": "Buca di Beppo",
+        "brand:wikidata": "Q4982340",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Buca di Beppo"
+      },
+      "center": {
+        "lat": 42.27476155,
+        "lon": -71.754528
+      }
+    }
+  ]
+}

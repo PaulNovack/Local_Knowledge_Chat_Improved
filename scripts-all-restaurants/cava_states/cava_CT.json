@@ -1,0 +1,128 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "cava",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2033110076,
+      "tags": {
+        "addr:city": "New Canaan",
+        "addr:housenumber": "2",
+        "addr:postcode": "06840",
+        "addr:state": "CT",
+        "addr:street": "Forest Street",
+        "amenity": "restaurant",
+        "name": "Cava Wine Bar",
+        "not:brand:wikidata": "Q85751038",
+        "website": "https://cavawinebar.com/"
+      },
+      "lat": 41.1479849,
+      "lon": -73.4921394
+    },
+    {
+      "type": "node",
+      "id": 13009136839,
+      "tags": {
+        "addr:city": "Newington",
+        "addr:housenumber": "3323",
+        "addr:postcode": "06111",
+        "addr:state": "CT",
+        "addr:street": "Berlin Turnpike",
+        "addr:unit": "4",
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "cuisine": "mediterranean",
+        "name": "CAVA",
+        "opening_hours": "Mo-Su 10:30-22:30",
+        "phone": "+1-860-595-5451",
+        "website": "https://cava.com/locations/meadow-commons-ct"
+      },
+      "lat": 41.6577732,
+      "lon": -72.7265656
+    },
+    {
+      "type": "node",
+      "id": 13323048191,
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:street": "Backus Avenue",
+        "amenity": "restaurant",
+        "name": "CAVA"
+      },
+      "lat": 41.3790122,
+      "lon": -73.4762239
+    },
+    {
+      "type": "node",
+      "id": 13665745391,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "cuisine": "mediterranean",
+        "name": "CAVA"
+      },
+      "lat": 41.0276238,
+      "lon": -73.63048
+    },
+    {
+      "type": "way",
+      "id": 953252447,
+      "tags": {
+        "amenity": "restaurant",
+        "bar": "yes",
+        "building": "yes",
+        "cuisine": "italian",
+        "diet:gluten_free": "yes",
+        "fax": "+1-860-628-2282",
+        "indoor_seating": "yes",
+        "name": "Cava",
+        "outdoor_seating": "yes",
+        "reservation": "recommended",
+        "website": "https://www.cavact.com"
+      },
+      "center": {
+        "lat": 41.63222705,
+        "lon": -72.8996674
+      }
+    },
+    {
+      "type": "way",
+      "id": 1472098484,
+      "tags": {
+        "addr:city": "Shelton",
+        "addr:housenumber": "779",
+        "addr:postcode": "06484",
+        "addr:state": "Ct",
+        "addr:street": "Bridgeport Avenue",
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "building": "yes",
+        "cuisine": "mediterranean",
+        "name": "CAVA",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "phone": "+1-475-369-0336",
+        "website": "https://cava.com"
+      },
+      "center": {
+        "lat": 41.27265855,
+        "lon": -73.12745765
+      }
+    }
+  ]
+}

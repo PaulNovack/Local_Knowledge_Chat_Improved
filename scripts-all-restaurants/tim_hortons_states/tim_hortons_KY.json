@@ -1,0 +1,74 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KY",
+    "brand": "tim_hortons",
+    "source": "https://download.geofabrik.de/north-america/us/kentucky-latest.osm.pbf",
+    "source_md5": "beee275db6b863afe4847059e1397537",
+    "processed_utc": "2026-10-24T07:04:39.223265+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2104959304,
+      "tags": {
+        "addr:city": "Ashland",
+        "addr:housenumber": "2206",
+        "addr:postcode": "41101-3522",
+        "addr:state": "KY",
+        "addr:street": "13th Street",
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "cuisine": "coffee_shop",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "no",
+        "internet_access": "wlan",
+        "name": "Tim Hortons",
+        "opening_hours": "Mo-We 06:00-19:00; Fr-Sa 06:00-19:00; Su 06:00-16:00",
+        "operator": "Restaurant Brands International Inc.",
+        "phone": "+1 606-327-8819",
+        "takeaway": "yes",
+        "website": "https://www.timhortons.com/"
+      },
+      "lat": 38.4657344,
+      "lon": -82.6581934
+    },
+    {
+      "type": "way",
+      "id": 315996543,
+      "tags": {
+        "addr:city": "Ashland",
+        "addr:housenumber": "2524",
+        "addr:postcode": "41101-7838",
+        "addr:state": "KY",
+        "addr:street": "Winchester Avenue",
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "building": "retail",
+        "cuisine": "coffee_shop",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "no",
+        "internet_access": "wlan",
+        "name": "Tim Hortons",
+        "opening_hours": "Mo-We 06:00-20:00; Fr-Sa 06:00-20:00; Su 06:00-16:00",
+        "phone": "+1 606-325-3093",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.472397650000005,
+        "lon": -82.62782049999998
+      }
+    }
+  ]
+}

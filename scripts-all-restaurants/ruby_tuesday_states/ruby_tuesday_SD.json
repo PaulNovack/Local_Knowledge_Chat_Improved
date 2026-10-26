@@ -1,0 +1,83 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SD",
+    "brand": "ruby_tuesday",
+    "source": "https://download.geofabrik.de/north-america/us/south-dakota-latest.osm.pbf",
+    "source_md5": "4d012b130d8682e6f0e1bc093c255981",
+    "processed_utc": "2026-10-24T07:16:00.169778+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 285153665,
+      "tags": {
+        "addr:city": "Rapid City",
+        "addr:housenumber": "821",
+        "addr:postcode": "57701",
+        "addr:state": "SD",
+        "addr:street": "Fairmont Boulevard",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday",
+        "website": "https://www.rubytuesday.com/"
+      },
+      "center": {
+        "lat": 44.0581655,
+        "lon": -103.2331754
+      }
+    },
+    {
+      "type": "way",
+      "id": 317894296,
+      "tags": {
+        "addr:city": "Mitchell",
+        "addr:housenumber": "1900",
+        "addr:postcode": "57301",
+        "addr:state": "SD",
+        "addr:street": "Highland Way",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "center": {
+        "lat": 43.690737999999996,
+        "lon": -98.0094757
+      }
+    },
+    {
+      "type": "way",
+      "id": 1007685318,
+      "tags": {
+        "addr:city": "Aberdeen",
+        "addr:housenumber": "3125",
+        "addr:postcode": "57401",
+        "addr:state": "SD",
+        "addr:street": "6th Avenue Southeast",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "center": {
+        "lat": 45.4596577,
+        "lon": -98.44382065000002
+      }
+    }
+  ]
+}

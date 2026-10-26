@@ -1,0 +1,503 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "cold_stone_creamery",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 602315191,
+      "tags": {
+        "addr:city": "Olney",
+        "addr:housenumber": "18159",
+        "addr:postcode": "20832",
+        "addr:state": "MD",
+        "addr:street": "Village Center Drive",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "name": "Cold Stone Creamery",
+        "opening_hours": "11:00-22:00",
+        "phone": "+1-301-570-5639",
+        "website": "https://www.coldstonecreamery.com/stores/20995"
+      },
+      "lat": 39.1539218,
+      "lon": -77.0632467
+    },
+    {
+      "type": "node",
+      "id": 1076971275,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery"
+      },
+      "lat": 38.9972975,
+      "lon": -77.0252633
+    },
+    {
+      "type": "node",
+      "id": 1667323898,
+      "tags": {
+        "addr:housenumber": "84",
+        "addr:postcode": "20878",
+        "addr:street": "Main Street",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery"
+      },
+      "lat": 39.1247029,
+      "lon": -77.2369393
+    },
+    {
+      "type": "node",
+      "id": 2679789520,
+      "tags": {
+        "addr:city": "Cockeysville",
+        "addr:housenumber": "10015",
+        "addr:postcode": "21030",
+        "addr:state": "MD",
+        "addr:street": "York Road",
+        "addr:unit": "A5",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "check_date": "2026-07-03",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1 410-628-8001",
+        "website": "https://www.coldstonecreamery.com/stores/21736"
+      },
+      "lat": 39.4644131,
+      "lon": -76.6358731
+    },
+    {
+      "type": "node",
+      "id": 2716319373,
+      "tags": {
+        "addr:city": "Baltimore",
+        "addr:country": "US",
+        "addr:housenumber": "2500",
+        "addr:postcode": "21224",
+        "addr:state": "MD",
+        "addr:street": "Boston Street",
+        "addr:unit": "2",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery"
+      },
+      "lat": 39.2807682,
+      "lon": -76.5801373
+    },
+    {
+      "type": "node",
+      "id": 3029996006,
+      "tags": {
+        "addr:city": "Nottingham",
+        "addr:housenumber": "8137",
+        "addr:postcode": "21236",
+        "addr:state": "MD",
+        "addr:street": "Honeygo Boulevard",
+        "addr:unit": "C",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "check_date": "2026-05-16",
+        "check_date:opening_hours": "2026-05-16",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery",
+        "opening_hours": "Mo-Su 11:00-22:00"
+      },
+      "lat": 39.3708869,
+      "lon": -76.4648678
+    },
+    {
+      "type": "node",
+      "id": 3722209854,
+      "tags": {
+        "addr:city": "Ellicott City",
+        "addr:housenumber": "5705",
+        "addr:postcode": "21043",
+        "addr:street": "Richards Valley Road",
+        "addr:unit": "B2",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery",
+        "opening_hours": "11:00-22:00"
+      },
+      "lat": 39.213861,
+      "lon": -76.8023579
+    },
+    {
+      "type": "node",
+      "id": 3797199729,
+      "tags": {
+        "access": "yes",
+        "addr:city": "Dunkirk",
+        "addr:country": "US",
+        "addr:floor": "G",
+        "addr:housenumber": "2985",
+        "addr:postcode": "20754",
+        "addr:state": "MD",
+        "addr:street": "Plaza Drive",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "check_date": "2025-10-25",
+        "cuisine": "ice_cream",
+        "delivery": "yes",
+        "diet:lactose_free": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "no",
+        "entrance": "main",
+        "indoor_seating": "yes",
+        "internet_access": "no",
+        "level": "0",
+        "name": "Cold Stone Creamery",
+        "opening_hours": "12:00-21:30",
+        "outdoor_seating": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 443-646-2140",
+        "takeaway": "yes",
+        "website": "https://www.coldstonecreamery.com/stores/23476",
+        "wheelchair": "yes"
+      },
+      "lat": 38.7240594,
+      "lon": -76.6587827
+    },
+    {
+      "type": "node",
+      "id": 4351297023,
+      "tags": {
+        "addr:city": "Edgewater",
+        "addr:housenumber": "15",
+        "addr:postcode": "21037",
+        "addr:state": "MD",
+        "addr:street": "Lee Airpark Drive",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "delivery": "yes",
+        "double": "yes",
+        "name": "Cold Stone Creamery",
+        "opening_hours": "Mo-Th 12:00-21:00; Fr-Su 12:00-21:30",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 38.9427275,
+      "lon": -76.5629603
+    },
+    {
+      "type": "node",
+      "id": 4464419153,
+      "tags": {
+        "addr:city": "Germantown",
+        "addr:housenumber": "19847",
+        "addr:postcode": "20874",
+        "addr:state": "MD",
+        "addr:street": "Century Boulevard",
+        "addr:unit": "I",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery",
+        "opening_hours": "11:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:american_express": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-301-916-5353",
+        "website": "https://www.coldstonecreamery.com/"
+      },
+      "lat": 39.1816937,
+      "lon": -77.2656622
+    },
+    {
+      "type": "node",
+      "id": 4995773404,
+      "tags": {
+        "addr:city": "Ocean City",
+        "addr:postcode": "21842",
+        "addr:state": "MD",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 38.4372284,
+      "lon": -75.0549527
+    },
+    {
+      "type": "node",
+      "id": 5631234645,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:housenumber": "10101",
+        "addr:postcode": "21044",
+        "addr:state": "MD",
+        "addr:street": "Twin Rivers Road",
+        "addr:unit": "102",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "wheelchair": "yes"
+      },
+      "lat": 39.2150045,
+      "lon": -76.8650903
+    },
+    {
+      "type": "node",
+      "id": 6468287380,
+      "tags": {
+        "addr:city": "College Park",
+        "addr:housenumber": "7314",
+        "addr:postcode": "20740",
+        "addr:state": "MD",
+        "addr:street": "Baltimore Avenue",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery",
+        "opening_hours": "Su-Th 12:00-20:00; Fr,Sa 12:00-23:00"
+      },
+      "lat": 38.9800116,
+      "lon": -76.9386973
+    },
+    {
+      "type": "node",
+      "id": 6754802711,
+      "tags": {
+        "addr:city": "Bel Air",
+        "addr:housenumber": "1200",
+        "addr:postcode": "21014",
+        "addr:state": "MD",
+        "addr:street": "Agora Drive",
+        "addr:unit": "D",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "check_date": "2026-03-08",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery",
+        "opening_hours": "Mo-Th,Su 11:00-21:00; Fr-Sa 11:00-22:00; PH off",
+        "phone": "+1-410-836-0130",
+        "ref": "21173",
+        "website": "https://www.coldstonecreamery.com/stores/21173",
+        "wheelchair": "limited"
+      },
+      "lat": 39.5468172,
+      "lon": -76.3153537
+    },
+    {
+      "type": "node",
+      "id": 6979887431,
+      "tags": {
+        "access": "customers",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "check_date": "2025-10-28",
+        "cuisine": "ice_cream",
+        "door": "hinged",
+        "entrance": "main",
+        "indoor_seating": "no",
+        "name": "Cold Stone Creamery",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "outdoor_seating": "no",
+        "takeaway": "only"
+      },
+      "lat": 39.3886852,
+      "lon": -76.7362088
+    },
+    {
+      "type": "node",
+      "id": 8078716183,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery"
+      },
+      "lat": 39.0773098,
+      "lon": -76.8697134
+    },
+    {
+      "type": "node",
+      "id": 9278457388,
+      "tags": {
+        "addr:housenumber": "6711",
+        "addr:street": "Ritchie Highway",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery",
+        "opening_hours": "Mo-Su 12:00-22:00"
+      },
+      "lat": 39.1908539,
+      "lon": -76.6114894
+    },
+    {
+      "type": "node",
+      "id": 9634376242,
+      "tags": {
+        "addr:city": "California",
+        "addr:floor": "G",
+        "addr:housenumber": "44980",
+        "addr:postcode": "20619",
+        "addr:state": "MD",
+        "addr:street": "Saint Andrews Church Road",
+        "addr:unit": "D",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "check_date": "2026-01-19",
+        "cuisine": "ice_cream",
+        "drive_through": "no",
+        "level": "0",
+        "name": "Cold Stone Creamery",
+        "opening_hours": "Mo-Th 12:00-21:00; Fr-Su 12:00-21:30",
+        "outdoor_seating": "no",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 240 237 8296",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://www.coldstonecreamery.com/stores/23568",
+        "wheelchair": "yes"
+      },
+      "lat": 38.3038403,
+      "lon": -76.5226425
+    },
+    {
+      "type": "node",
+      "id": 9763046707,
+      "tags": {
+        "addr:city": "Clarksville",
+        "addr:housenumber": "12175",
+        "addr:postcode": "21029",
+        "addr:state": "MD",
+        "addr:street": "Clarksville Pike",
+        "addr:unit": "201",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery"
+      },
+      "lat": 39.2145013,
+      "lon": -76.9339605
+    },
+    {
+      "type": "node",
+      "id": 9932738737,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery"
+      },
+      "lat": 39.4036914,
+      "lon": -76.5989111
+    },
+    {
+      "type": "node",
+      "id": 10573595042,
+      "tags": {
+        "addr:city": "Jessup",
+        "addr:housenumber": "8530",
+        "addr:postcode": "20794",
+        "addr:state": "MD",
+        "addr:street": "Washington Boulevard",
+        "addr:unit": "Suite 7",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery"
+      },
+      "lat": 39.1483451,
+      "lon": -76.8070079
+    },
+    {
+      "type": "node",
+      "id": 10870797160,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "check_date": "2023-05-05",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery"
+      },
+      "lat": 39.038092,
+      "lon": -76.6809812
+    },
+    {
+      "type": "node",
+      "id": 11188155594,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery",
+        "wheelchair": "yes"
+      },
+      "lat": 38.9223451,
+      "lon": -76.8470101
+    },
+    {
+      "type": "node",
+      "id": 12150915076,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery"
+      },
+      "lat": 39.3088581,
+      "lon": -76.7505699
+    }
+  ]
+}

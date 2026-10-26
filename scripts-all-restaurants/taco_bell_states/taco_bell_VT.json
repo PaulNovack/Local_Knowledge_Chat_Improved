@@ -1,0 +1,119 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VT",
+    "brand": "taco_bell",
+    "source": "https://download.geofabrik.de/north-america/us/vermont-latest.osm.pbf",
+    "source_md5": "20a19d56b1e59d82493b3194b9e30440",
+    "processed_utc": "2026-10-24T07:18:02.754583+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6553006158,
+      "tags": {
+        "addr:city": "Brattleboro",
+        "addr:housenumber": "1007",
+        "addr:postcode": "05301",
+        "addr:state": "VT",
+        "addr:street": "Putney Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "phone": "+1 802-257-1446",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/vt/brattleboro/1007-putney-road.html"
+      },
+      "lat": 42.8817241,
+      "lon": -72.5579126
+    },
+    {
+      "type": "way",
+      "id": 233436052,
+      "tags": {
+        "addr:city": "Rutland",
+        "addr:housenumber": "45",
+        "addr:postcode": "05701",
+        "addr:state": "VT",
+        "addr:street": "Farrell Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-24:00",
+        "phone": "+1 802-773-6865",
+        "ref:vcgi:esiteid": "315440",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/vt/rutland/45-farrell-road.html"
+      },
+      "center": {
+        "lat": 43.584172,
+        "lon": -72.96851249999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 704961537,
+      "tags": {
+        "addr:city": "Saint Albans",
+        "addr:housenumber": "33",
+        "addr:postcode": "05478",
+        "addr:state": "VT",
+        "addr:street": "Highgate Commons Road",
+        "amenity": "fast_food",
+        "building": "yes",
+        "height": "4",
+        "name": "Taco Bell / KFC",
+        "ref:vcgi:esiteid": "243620"
+      },
+      "center": {
+        "lat": 44.8395963,
+        "lon": -73.08203665000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 727820762,
+      "tags": {
+        "addr:city": "Saint Johnsbury",
+        "addr:housenumber": "985",
+        "addr:postcode": "05819",
+        "addr:state": "VT",
+        "addr:street": "Memorial Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "check_date": "2026-08-30",
+        "check_date:opening_hours": "2026-08-30",
+        "cuisine": "tex-mex",
+        "diet:meat": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 11:30-20:00",
+        "phone": "+1 802-748-1900",
+        "ref:vcgi:esiteid": "247244",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/vt/saint-johnsbury/985-memorial-drive.html"
+      },
+      "center": {
+        "lat": 44.446325599999994,
+        "lon": -72.01624000000004
+      }
+    }
+  ]
+}

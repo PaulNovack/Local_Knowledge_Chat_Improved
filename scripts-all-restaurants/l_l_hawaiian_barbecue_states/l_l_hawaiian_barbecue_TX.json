@@ -1,0 +1,83 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TX",
+    "brand": "l_l_hawaiian_barbecue",
+    "source": "https://download.geofabrik.de/north-america/us/texas-latest.osm.pbf",
+    "source_md5": "eb8f4603e9b48bd481c192fe621ae18b",
+    "processed_utc": "2026-10-24T07:17:23.814833+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4613199214,
+      "tags": {
+        "addr:city": "San Antonio",
+        "addr:country": "US",
+        "addr:housenumber": "1302",
+        "addr:postcode": "78209",
+        "addr:state": "TX",
+        "addr:street": "Austin Highway",
+        "addr:unit": "1",
+        "amenity": "fast_food",
+        "contact:website": "http://www.llhawaiiangrill.com",
+        "cuisine": "hawaiian",
+        "name": "L&L Hawaiian Grill",
+        "opening_hours": "11:00-21:00",
+        "phone": "+1-210-474-6699",
+        "website": "http://www.llhawaiiangrill.com"
+      },
+      "lat": 29.4893948,
+      "lon": -98.4418854
+    },
+    {
+      "type": "node",
+      "id": 6868668793,
+      "tags": {
+        "addr:housenumber": "209",
+        "addr:street": "Heights Boulevard",
+        "amenity": "fast_food",
+        "brand": "L&L Hawaiian Barbecue",
+        "brand:wikidata": "Q6455441",
+        "check_date": "2026-07-03",
+        "cuisine": "hawaiian",
+        "name": "Wise Street Eats",
+        "opening_hours:signed": "no",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 29.7746441,
+      "lon": -95.3979976
+    },
+    {
+      "type": "node",
+      "id": 11203294937,
+      "tags": {
+        "addr:housenumber": "8404",
+        "addr:postcode": "75024",
+        "addr:street": "Preston Road",
+        "addr:unit": "200",
+        "amenity": "fast_food",
+        "brand": "L&L Hawaiian Barbecue",
+        "brand:wikidata": "Q6455441",
+        "cuisine": "hawaiian",
+        "name": "L&L Hawaiian Barbecue",
+        "takeaway": "yes"
+      },
+      "lat": 33.0922555,
+      "lon": -96.8041188
+    }
+  ]
+}

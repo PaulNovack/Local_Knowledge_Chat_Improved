@@ -1,0 +1,83 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "pancheros_mexican_grill",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5087591917,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pancheros",
+        "brand:wikidata": "Q7130313",
+        "cuisine": "mexican",
+        "name": "Pancheros Mexican Grill"
+      },
+      "lat": 38.9609714,
+      "lon": -92.3729967
+    },
+    {
+      "type": "node",
+      "id": 10035424068,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "mexican",
+        "name": "Pancheros",
+        "not:brand:wikidata": "Q7130313"
+      },
+      "lat": 38.9108173,
+      "lon": -92.3254731
+    },
+    {
+      "type": "node",
+      "id": 11043108123,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pancheros",
+        "brand:wikidata": "Q7130313",
+        "cuisine": "mexican",
+        "name": "Pancheros Mexican Grill"
+      },
+      "lat": 38.5821028,
+      "lon": -92.2080923
+    },
+    {
+      "type": "way",
+      "id": 727335487,
+      "tags": {
+        "addr:city": "Rolla",
+        "addr:housenumber": "1303",
+        "addr:postcode": "65401",
+        "addr:state": "MO",
+        "addr:street": "North Bishop Avenue",
+        "amenity": "restaurant",
+        "brand": "Pancheros",
+        "brand:wikidata": "Q7130313",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "mexican",
+        "disused:amenity": "fast_food",
+        "name": "Pancheros Mexican Grill",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "phone": "+1-573-891-1141",
+        "website": "https://pancheros.com/"
+      },
+      "center": {
+        "lat": 37.9543949,
+        "lon": -91.77751209999997
+      }
+    }
+  ]
+}

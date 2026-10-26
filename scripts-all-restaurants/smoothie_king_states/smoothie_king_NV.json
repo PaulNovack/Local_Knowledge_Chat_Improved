@@ -1,0 +1,82 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "smoothie_king",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4448970995,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "8000",
+        "addr:postcode": "89117",
+        "addr:street": "West Sahara Avenue",
+        "amenity": "fast_food",
+        "brand": "Smoothie King",
+        "brand:wikidata": "Q5491421",
+        "cuisine": "juice",
+        "name": "Smoothie King",
+        "opening_hours": "Mo-Fr 07:00-21:00; Sa 09:00-21:00; Su 11:00-19:00",
+        "phone": "+1-702-384-5464",
+        "takeaway": "yes",
+        "website": "https://www.smoothieking.com/"
+      },
+      "lat": 36.1442389,
+      "lon": -115.265733
+    },
+    {
+      "type": "node",
+      "id": 12863749385,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "249",
+        "addr:postcode": "89074",
+        "addr:state": "NV",
+        "addr:street": "North Stephanie Street",
+        "addr:unit": "140",
+        "amenity": "fast_food",
+        "brand": "Smoothie King",
+        "brand:wikidata": "Q5491421",
+        "cuisine": "juice",
+        "name": "Smoothie King",
+        "phone": "+1-702-202-3430",
+        "takeaway": "yes",
+        "website": "https://locations.smoothieking.com/ll/us/nv/henderson/249-n-stephanie-st-ste-140/"
+      },
+      "lat": 36.0447248,
+      "lon": -115.0471891
+    },
+    {
+      "type": "node",
+      "id": 12863762932,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "9210",
+        "addr:postcode": "89074",
+        "addr:state": "NV",
+        "addr:street": "South Eastern Avenue",
+        "addr:unit": "105",
+        "amenity": "fast_food",
+        "brand": "Smoothie King",
+        "brand:wikidata": "Q5491421",
+        "cuisine": "juice",
+        "name": "Smoothie King",
+        "takeaway": "yes"
+      },
+      "lat": 36.0220555,
+      "lon": -115.1180101
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "dickey_s_barbecue_pit",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6965156272,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "cuisine": "barbecue",
+        "name": "Dickey's Barbecue Pit"
+      },
+      "lat": 40.0329502,
+      "lon": -83.1321132
+    },
+    {
+      "type": "node",
+      "id": 12007550663,
+      "tags": {
+        "addr:city": "Mentor",
+        "addr:housenumber": "9434",
+        "addr:postcode": "44060",
+        "addr:state": "OH",
+        "addr:street": "Mentor Avenue",
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "cuisine": "barbecue",
+        "name": "Dickey's Barbecue Pit",
+        "opening_hours": "Su-Sa 11:00-21:00",
+        "phone": "+1 440 809 8483"
+      },
+      "lat": 41.6799618,
+      "lon": -81.3012502
+    },
+    {
+      "type": "way",
+      "id": 784962425,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Dickey's Barbecue Pit"
+      },
+      "center": {
+        "lat": 41.152648400000004,
+        "lon": -81.86246354999997
+      }
+    }
+  ]
+}

@@ -1,0 +1,549 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/3.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "dominos",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T06:29:28.875368+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1539143608,
+      "tags": {
+        "addr:city": "Hastings",
+        "addr:housenumber": "618",
+        "addr:postcode": "68901",
+        "addr:state": "NE",
+        "addr:street": "South Burlington Avenue",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 402-902-4646",
+        "ref": "6131",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/nebraska/hastings/618-south-burlington-ave"
+      },
+      "lat": 40.5776733,
+      "lon": -98.3929536
+    },
+    {
+      "type": "node",
+      "id": 1911168761,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "18460",
+        "addr:postcode": "68130",
+        "addr:state": "NE",
+        "addr:street": "Wright Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "fixme:atp": "Check if still exists. No corresponding ATP object.",
+        "name": "Domino's",
+        "short_name": "Domino's",
+        "takeaway": "yes"
+      },
+      "lat": 41.2334852,
+      "lon": -96.2035267
+    },
+    {
+      "type": "node",
+      "id": 1922502141,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "1230",
+        "addr:postcode": "68508",
+        "addr:state": "NE",
+        "addr:street": "P Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-12:00; Fr-Sa 10:00-01:00; Su 10:00-12:00",
+        "phone": "+1-402-817-3988",
+        "ref": "6101",
+        "short_name": "Domino's",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/nebraska/lincoln/1230-p-street"
+      },
+      "lat": 40.8149097,
+      "lon": -96.7030366
+    },
+    {
+      "type": "node",
+      "id": 1967876146,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "721",
+        "addr:postcode": "68114",
+        "addr:state": "NE",
+        "addr:street": "South 72nd Street",
+        "addr:unit": "105",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 402-614-7990",
+        "ref": "6112",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/nebraska/omaha/721-south-72nd-street-suite-105"
+      },
+      "lat": 41.253328,
+      "lon": -96.0231305
+    },
+    {
+      "type": "node",
+      "id": 4514324246,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "14330",
+        "addr:postcode": "68137",
+        "addr:state": "NE",
+        "addr:street": "Hillsdale Avenue",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "fixme:atp": "Check if still exists. No corresponding ATP object.",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "lat": 41.215494,
+      "lon": -96.137851
+    },
+    {
+      "type": "node",
+      "id": 4953977479,
+      "tags": {
+        "addr:city": "Fremont",
+        "addr:housenumber": "2155",
+        "addr:postcode": "68025",
+        "addr:state": "NE",
+        "addr:street": "East 23rd Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 402-721-1444",
+        "ref": "6126",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/nebraska/fremont/2155-e-23rd-st"
+      },
+      "lat": 41.450648,
+      "lon": -96.468812
+    },
+    {
+      "type": "node",
+      "id": 5302602965,
+      "tags": {
+        "addr:city": "Kearney",
+        "addr:housenumber": "3702",
+        "addr:postcode": "68847",
+        "addr:state": "NE",
+        "addr:street": "2nd Avenue",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "drive_through": "no",
+        "name": "Domino's",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "outdoor_seating": "no",
+        "phone": "+1 308-234-6544",
+        "ref": "6150",
+        "short_name": "Domino's",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/nebraska/kearney/3702-2nd-avenue"
+      },
+      "lat": 40.7119206,
+      "lon": -99.0844721
+    },
+    {
+      "type": "node",
+      "id": 5509833916,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "7051",
+        "addr:postcode": "68136",
+        "addr:state": "NE",
+        "addr:street": "South 181st Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 402-502-4302",
+        "ref": "6124",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/nebraska/omaha/7051-s-181st-st"
+      },
+      "lat": 41.1892937,
+      "lon": -96.1970314
+    },
+    {
+      "type": "node",
+      "id": 6795322264,
+      "tags": {
+        "addr:city": "Bellevue",
+        "addr:housenumber": "2015",
+        "addr:postcode": "68005",
+        "addr:state": "NE",
+        "addr:street": "Pratt Avenue",
+        "addr:unit": "113",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:30; Su 10:00-24:00",
+        "phone": "+1 402-292-4700",
+        "ref": "6110",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/nebraska/bellevue/2015-pratt-ave-ste-113"
+      },
+      "lat": 41.1577253,
+      "lon": -95.9415605
+    },
+    {
+      "type": "node",
+      "id": 6872128696,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "6125",
+        "addr:postcode": "68516",
+        "addr:state": "NE",
+        "addr:street": "Apples Way",
+        "addr:unit": "201",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "check_date": "2024-05-23",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1-531-289-7700",
+        "ref": "6103",
+        "short_name": "Domino's",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/nebraska/lincoln/6125-applesway"
+      },
+      "lat": 40.7507739,
+      "lon": -96.6365343
+    },
+    {
+      "type": "node",
+      "id": 8294367355,
+      "tags": {
+        "addr:city": "Norfolk",
+        "addr:housenumber": "904",
+        "addr:postcode": "68701",
+        "addr:state": "NE",
+        "addr:street": "Riverside Boulevard",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-02:00; Su 10:30-24:00",
+        "phone": "+1 402-371-0107",
+        "ref": "6130",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/nebraska/norfolk/904-riverside-blvd"
+      },
+      "lat": 42.0414647,
+      "lon": -97.4122256
+    },
+    {
+      "type": "node",
+      "id": 8365716225,
+      "tags": {
+        "addr:city": "Papillon",
+        "addr:housenumber": "1449",
+        "addr:postcode": "68046",
+        "addr:state": "NE",
+        "addr:street": "Papillion Drive",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 402-933-0037",
+        "ref": "6160",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/nebraska/papillion/1449-papillion-dr"
+      },
+      "lat": 41.1379521,
+      "lon": -96.0224304
+    },
+    {
+      "type": "node",
+      "id": 9984409859,
+      "tags": {
+        "addr:city": "North Platte",
+        "addr:housenumber": "1815",
+        "addr:postcode": "69101",
+        "addr:state": "NE",
+        "addr:street": "West A Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 308-534-0400",
+        "ref": "6132",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/nebraska/north-platte/1815-west-a-street"
+      },
+      "lat": 41.1344827,
+      "lon": -100.7852243
+    },
+    {
+      "type": "node",
+      "id": 12125628154,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "2401",
+        "addr:postcode": "68504",
+        "addr:state": "NE",
+        "addr:street": "North 48th Street",
+        "addr:unit": "9",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1-402-434-2377",
+        "ref": "6102",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/nebraska/lincoln/2401-n-48th-st--suite-9"
+      },
+      "lat": 40.8364246,
+      "lon": -96.6543021
+    },
+    {
+      "type": "node",
+      "id": 12147122762,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "lat": 40.7391149,
+      "lon": -96.6797603
+    },
+    {
+      "type": "node",
+      "id": 12779850421,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "1055",
+        "addr:postcode": "68521",
+        "addr:state": "NE",
+        "addr:street": "Saunders Avenue",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "phone": "+1-402-434-2380",
+        "takeaway": "yes",
+        "website": "https://www.dominos.com/en/"
+      },
+      "lat": 40.8362657,
+      "lon": -96.7065499
+    },
+    {
+      "type": "node",
+      "id": 12807093149,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "indoor_seating": "yes",
+        "name": "Domino's",
+        "outdoor_seating": "no",
+        "takeaway": "yes"
+      },
+      "lat": 41.2610814,
+      "lon": -96.0905263
+    },
+    {
+      "type": "node",
+      "id": 13004584117,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "lat": 41.1176355,
+      "lon": -102.9542659
+    },
+    {
+      "type": "node",
+      "id": 13317725167,
+      "tags": {
+        "addr:city": "Chadron",
+        "addr:housenumber": "1519",
+        "addr:postcode": "69337",
+        "addr:state": "NE",
+        "addr:street": "West 6th Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 308-747-2203",
+        "ref": "6140",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/nebraska/chadron/1519-w-6th-street"
+      },
+      "lat": 42.8252208,
+      "lon": -103.0207473
+    },
+    {
+      "type": "way",
+      "id": 190131065,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "fixme:atp": "Check if still exists. No corresponding ATP object.",
+        "name": "Domino's",
+        "source": "bing",
+        "takeaway": "only"
+      },
+      "center": {
+        "lat": 41.139327449999996,
+        "lon": -95.92343495
+      }
+    },
+    {
+      "type": "way",
+      "id": 553338539,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.30354505,
+        "lon": -96.05164809999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 803489833,
+      "tags": {
+        "addr:city": "Scottsbluff",
+        "addr:housenumber": "1015",
+        "addr:postcode": "69361",
+        "addr:state": "NE",
+        "addr:street": "West 27th Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "drive_through": "yes",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 308-635-0330",
+        "ref": "6155",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/nebraska/scottsbluff/1015-w-27th-st"
+      },
+      "center": {
+        "lat": 41.8742455,
+        "lon": -103.67752200000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1240794186,
+      "tags": {
+        "addr:city": "Gering",
+        "addr:housenumber": "2915",
+        "addr:postcode": "69341",
+        "addr:state": "NE",
+        "addr:street": "10th Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 308-633-0003",
+        "ref": "6198",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/nebraska/gering/2915-10th-st"
+      },
+      "center": {
+        "lat": 41.84179025,
+        "lon": -103.66104029999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1352757922,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "2728",
+        "addr:postcode": "68105",
+        "addr:state": "NE",
+        "addr:street": "Saint Mary's Avenue",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Domino's",
+        "source": "esri/Douglas_County_NE_Buildings;esri_USDOT_Nebraska",
+        "takeaway": "only"
+      },
+      "center": {
+        "lat": 41.25382675,
+        "lon": -95.95276769999998
+      }
+    }
+  ]
+}

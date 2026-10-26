@@ -1,0 +1,109 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "tgi_fridays",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 218799898,
+      "tags": {
+        "addr:city": "Garner",
+        "addr:housenumber": "1100",
+        "addr:postcode": "27529",
+        "addr:state": "NC",
+        "addr:street": "Timber Drive East",
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "TGI Fridays",
+        "phone": "+19197791935",
+        "website": "https://locations.tgifridays.com/nc/garner/1100-timber-drive-east.html"
+      },
+      "center": {
+        "lat": 35.68877445,
+        "lon": -78.57864545000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 397358155,
+      "tags": {
+        "addr:city": "Concord",
+        "addr:housenumber": "8041",
+        "addr:postcode": "28027",
+        "addr:state": "NC",
+        "addr:street": "Concord Mills Boulevard",
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "TGI Fridays",
+        "website": "https://locations.tgifridays.com/nc/concord/8041-concord-mills-blvd.html"
+      },
+      "center": {
+        "lat": 35.3704879,
+        "lon": -80.71831980000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 419471359,
+      "tags": {
+        "addr:city": "Charlotte",
+        "addr:housenumber": "6840",
+        "addr:postcode": "28269",
+        "addr:state": "NC",
+        "addr:street": "Northlake Mall Drive",
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "TGI Fridays",
+        "website": "https://locations.tgifridays.com/nc/charlotte/6840-northlake-mall-dr.html"
+      },
+      "center": {
+        "lat": 35.349417200000005,
+        "lon": -80.85132575
+      }
+    },
+    {
+      "type": "way",
+      "id": 833667355,
+      "tags": {
+        "addr:city": "Charlotte",
+        "addr:housenumber": "409",
+        "addr:postcode": "28262",
+        "addr:state": "NC",
+        "addr:street": "West W T Harris Boulevard",
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "TGI Fridays",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://locations.tgifridays.com/nc/charlotte/409-w-wt-harris-blvd.html"
+      },
+      "center": {
+        "lat": 35.30784,
+        "lon": -80.75425200000001
+      }
+    }
+  ]
+}

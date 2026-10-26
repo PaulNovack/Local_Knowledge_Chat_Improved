@@ -1,0 +1,88 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "red_robin",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1127253844,
+      "tags": {
+        "addr:city": "Rogers",
+        "addr:country": "US",
+        "addr:full": "4300 West Walnut Street",
+        "addr:housenumber": "4300",
+        "addr:postcode": "72756",
+        "addr:state": "AR",
+        "addr:street": "West Walnut Street",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews"
+      },
+      "lat": 36.334358,
+      "lon": -94.1776051
+    },
+    {
+      "type": "way",
+      "id": 486889862,
+      "tags": {
+        "addr:city": "Fayetteville",
+        "addr:country": "US",
+        "addr:full": "695 East Van Asche Drive",
+        "addr:housenumber": "695",
+        "addr:postcode": "72703",
+        "addr:state": "AR",
+        "addr:street": "East Van Asche Drive",
+        "amenity": "restaurant",
+        "branch": "Gourmet Burgers",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "retail",
+        "check_date": "2026-02-13",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews",
+        "opening_hours": "11:00-22:00; Fr,Sa 11:00-23:00",
+        "phone": "+1 479 521 3524",
+        "website": "https://www.redrobin.com/locations/arkansas/fayetteville/fayetteville.html"
+      },
+      "center": {
+        "lat": 36.117678,
+        "lon": -94.14760264999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 1091599227,
+      "tags": {
+        "addr:city": "Benton",
+        "addr:housenumber": "20220",
+        "addr:postcode": "72019",
+        "addr:state": "AR",
+        "addr:street": "I-30",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Red Robin Gourmet Burgers and Brews",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 34.604223000000005,
+        "lon": -92.54112750000002
+      }
+    }
+  ]
+}

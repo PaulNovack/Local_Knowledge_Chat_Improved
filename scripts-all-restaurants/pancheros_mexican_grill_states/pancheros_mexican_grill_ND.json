@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ND",
+    "brand": "pancheros_mexican_grill",
+    "source": "https://download.geofabrik.de/north-america/us/north-dakota-latest.osm.pbf",
+    "source_md5": "9eff3bc6ca09aea0f8e064cee3b44c15",
+    "processed_utc": "2026-10-24T07:12:54.105950+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9680388121,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Panchero's Mexican Grill"
+      },
+      "lat": 46.8597331,
+      "lon": -100.7709628
+    },
+    {
+      "type": "node",
+      "id": 13424434065,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pancheros",
+        "brand:wikidata": "Q7130313",
+        "cuisine": "mexican",
+        "name": "Pancheros Mexican Grill"
+      },
+      "lat": 46.8614014,
+      "lon": -96.858265
+    },
+    {
+      "type": "way",
+      "id": 600904817,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Pancheros Mexican Grill"
+      },
+      "center": {
+        "lat": 46.83247815,
+        "lon": -100.811036
+      }
+    }
+  ]
+}

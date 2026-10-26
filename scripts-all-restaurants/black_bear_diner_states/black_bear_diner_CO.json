@@ -1,0 +1,122 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "black_bear_diner",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13152900208,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "cuisine": "american",
+        "name": "Black Bear Diner"
+      },
+      "lat": 38.3440887,
+      "lon": -104.624896
+    },
+    {
+      "type": "way",
+      "id": 198255647,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "1340",
+        "addr:state": "CO",
+        "addr:street": "West Garden of the Gods Road",
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "building": "retail",
+        "check_date:opening_hours": "2025-10-19",
+        "cuisine": "american",
+        "name": "Black Bear Diner",
+        "opening_hours": "Mo-Su 06:00-21:00",
+        "phone": "+1-719-268-6874",
+        "roof:shape": "flat",
+        "source": "Bing",
+        "website": "https://blackbeardiner.com/location/garden-of-the-gods/"
+      },
+      "center": {
+        "lat": 38.897039250000006,
+        "lon": -104.852239
+      }
+    },
+    {
+      "type": "way",
+      "id": 202771432,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "building": "yes",
+        "check_date": "2025-05-10",
+        "cuisine": "american",
+        "name": "Black Bear Diner"
+      },
+      "center": {
+        "lat": 38.846545250000005,
+        "lon": -104.75648009999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 217709957,
+      "tags": {
+        "addr:city": "Aurora",
+        "addr:housenumber": "14100",
+        "addr:postcode": "80014",
+        "addr:street": "East Iliff Avenue",
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Black Bear Diner",
+        "source": "Bing",
+        "website": "https://blackbeardiner.com/"
+      },
+      "center": {
+        "lat": 39.67438575,
+        "lon": -104.82305580000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 423526962,
+      "tags": {
+        "addr:city": "Fountain",
+        "addr:housenumber": "6715",
+        "addr:postcode": "80817",
+        "addr:state": "CO",
+        "addr:street": "Mesa Ridge Parkway",
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Black Bear Diner",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "phone": "+1-719-382-0349",
+        "smoking": "no",
+        "website": "https://blackbeardiner.com/location/fountain/"
+      },
+      "center": {
+        "lat": 38.71897835,
+        "lon": -104.70239885000001
+      }
+    }
+  ]
+}

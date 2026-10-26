@@ -1,0 +1,87 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "scooter_s_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12007277303,
+      "tags": {
+        "addr:city": "Orlando",
+        "addr:housenumber": "3005",
+        "addr:postcode": "32809",
+        "addr:state": "FL",
+        "addr:street": "West Oak Ridge Road",
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "cuisine": "coffee_shop",
+        "name": "Scooter's Coffee",
+        "opening_hours": "Mo-Fr 05:00-19:30; Sa 06:00-19:30; Su 07:00-19:30",
+        "phone": "+1-407-286-0363",
+        "takeaway": "yes",
+        "website": "https://scooterscoffee.com"
+      },
+      "lat": 28.4727026,
+      "lon": -81.4180346
+    },
+    {
+      "type": "way",
+      "id": 535345189,
+      "tags": {
+        "addr:city": "Saint Petersburg",
+        "addr:housenumber": "980",
+        "addr:postcode": "33707",
+        "addr:state": "FL",
+        "addr:street": "Pasadena Avenue South",
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "coffee_shop",
+        "name": "Scooter's Coffee",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 27.7604733,
+        "lon": -82.73517325
+      }
+    },
+    {
+      "type": "way",
+      "id": 1342751698,
+      "tags": {
+        "addr:city": "Davenport",
+        "addr:housenumber": "49537",
+        "addr:postcode": "33837",
+        "addr:state": "FL",
+        "addr:street": "US 27",
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Scooter's Coffee",
+        "opening_hours": "Mo-Fr 05:00-20:00; Sa-Su 06:00-20:00",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 28.30633905,
+        "lon": -81.66633675000003
+      }
+    }
+  ]
+}

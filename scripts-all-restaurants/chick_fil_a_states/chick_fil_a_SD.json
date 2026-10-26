@@ -1,0 +1,127 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SD",
+    "brand": "chick_fil_a",
+    "source": "https://download.geofabrik.de/north-america/us/south-dakota-latest.osm.pbf",
+    "source_md5": "4d012b130d8682e6f0e1bc093c255981",
+    "processed_utc": "2026-10-24T07:16:00.169778+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3112116705,
+      "tags": {
+        "addr:city": "Vermillion",
+        "addr:housenumber": "414",
+        "addr:postcode": "57069",
+        "addr:state": "SD",
+        "addr:street": "East Clark Street",
+        "amenity": "fast_food",
+        "branch": "University of South Dakota",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "drive_through": "no",
+        "indoor_seating": "no",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 11:00-19:00",
+        "outdoor_seating": "yes",
+        "ref": "80519",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/sd/university-of-south-dakota"
+      },
+      "lat": 42.7859193,
+      "lon": -96.9254191
+    },
+    {
+      "type": "node",
+      "id": 12478660300,
+      "tags": {
+        "addr:city": "Brookings",
+        "addr:housenumber": "1421",
+        "addr:postcode": "57007",
+        "addr:state": "SD",
+        "addr:street": "Student Union Lane",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "diet:chicken": "yes",
+        "drive_through": "no",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 10:45-19:00",
+        "operator": "SDSU Dining Services",
+        "takeaway": "yes"
+      },
+      "lat": 44.3171601,
+      "lon": -96.7815124
+    },
+    {
+      "type": "way",
+      "id": 1243945545,
+      "tags": {
+        "addr:city": "Sioux Falls",
+        "addr:housenumber": "4005",
+        "addr:postcode": "57106",
+        "addr:state": "SD",
+        "addr:street": "West 41st Street",
+        "amenity": "fast_food",
+        "branch": "Empire Place",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00; Su off",
+        "phone": "+1 605-275-1010",
+        "ref": "04566",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/sd/empire-place-sd"
+      },
+      "center": {
+        "lat": 43.5143231,
+        "lon": -96.77513245
+      }
+    },
+    {
+      "type": "way",
+      "id": 1567180396,
+      "tags": {
+        "addr:city": "Sioux Falls",
+        "addr:housenumber": "4900",
+        "addr:postcode": "57110",
+        "addr:state": "SD",
+        "addr:street": "East Arrowhead Parkway",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00",
+        "phone": "+1-605-610-2499",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/sd/east-sioux-falls-sd"
+      },
+      "center": {
+        "lat": 43.544409,
+        "lon": -96.66639129999999
+      }
+    }
+  ]
+}

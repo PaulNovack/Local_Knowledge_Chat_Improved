@@ -1,0 +1,968 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TN",
+    "brand": "panda_express",
+    "source": "https://download.geofabrik.de/north-america/us/tennessee-latest.osm.pbf",
+    "source_md5": "a047c5da6c897a8a98b1fc4a282b8d3f",
+    "processed_utc": "2026-10-24T07:16:20.210730+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2018729198,
+      "tags": {
+        "addr:city": "Nashville",
+        "addr:housenumber": "2534",
+        "addr:postcode": "37204",
+        "addr:state": "TN",
+        "addr:street": "Powell Avenue",
+        "amenity": "fast_food",
+        "branch": "Powell & Thompson",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "09:30-22:00",
+        "phone": "+1 615-279-8102",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/nashville/1864"
+      },
+      "lat": 36.1061346,
+      "lon": -86.7636763
+    },
+    {
+      "type": "node",
+      "id": 6978575916,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 35.8479274,
+      "lon": -86.3603659
+    },
+    {
+      "type": "node",
+      "id": 8157815546,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 35.6664317,
+      "lon": -88.8593504
+    },
+    {
+      "type": "node",
+      "id": 8525853243,
+      "tags": {
+        "addr:city": "Franklin",
+        "addr:housenumber": "3058",
+        "addr:postcode": "37067",
+        "addr:state": "TN",
+        "addr:street": "Mallory Lane",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "phone": "+1-615-771-5872",
+        "takeaway": "yes"
+      },
+      "lat": 35.944717,
+      "lon": -86.8187526
+    },
+    {
+      "type": "node",
+      "id": 8561109623,
+      "tags": {
+        "addr:city": "Murfreesboro",
+        "addr:housenumber": "510",
+        "addr:postcode": "37129",
+        "addr:state": "TN",
+        "addr:street": "North Thompson Lane",
+        "amenity": "fast_food",
+        "branch": "Thompson & Robert Rose",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 09:30-21:30; Fr-Sa 09:30-22:00; Su 10:00-21:30",
+        "phone": "+1 615-896-6363",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/murfreesboro/1919"
+      },
+      "lat": 35.8562846,
+      "lon": -86.4297642
+    },
+    {
+      "type": "node",
+      "id": 10292435194,
+      "tags": {
+        "addr:housenumber": "300",
+        "addr:street": "Pleasant Grove Rd Mount Juliet, Tennessee 37122",
+        "amenity": "fast_food",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Su 10:30-21:00",
+        "phone": "+1-615-334-8760",
+        "website": "https://www.pandaexpress.com/locations/tn/mount-juliet/300-pleasant-grove-rd"
+      },
+      "lat": 36.178633,
+      "lon": -86.5131705
+    },
+    {
+      "type": "node",
+      "id": 11283500924,
+      "tags": {
+        "addr:city": "Gallatin",
+        "addr:housenumber": "707",
+        "addr:postcode": "37066",
+        "addr:state": "TN",
+        "addr:street": "Nashville Pike",
+        "amenity": "fast_food",
+        "branch": "Nashville Pike & Green Wave",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "09:30-22:00",
+        "phone": "+1 615-206-6998",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/gallatin/2119"
+      },
+      "lat": 36.3802495,
+      "lon": -86.4637201
+    },
+    {
+      "type": "node",
+      "id": 11296021924,
+      "tags": {
+        "addr:city": "Lenoir City",
+        "addr:housenumber": "185",
+        "addr:postcode": "37771",
+        "addr:state": "TN",
+        "addr:street": "Market Drive",
+        "amenity": "fast_food",
+        "branch": "Highway 321 & Market",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:00-21:30; Su 10:30-21:30",
+        "phone": "+1 865-988-9976",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/lenoir-city/2699"
+      },
+      "lat": 35.8219467,
+      "lon": -84.2703821
+    },
+    {
+      "type": "node",
+      "id": 11735532684,
+      "tags": {
+        "addr:city": "Murfreesboro",
+        "addr:housenumber": "2925",
+        "addr:postcode": "37127",
+        "addr:state": "TN",
+        "addr:street": "South Church Street",
+        "addr:unit": "A",
+        "amenity": "fast_food",
+        "branch": "South Church St & Runnymeade Drive",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "09:30-21:30",
+        "phone": "+1 629-206-3227",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/murfreesboro/3543"
+      },
+      "lat": 35.790414,
+      "lon": -86.3991622
+    },
+    {
+      "type": "node",
+      "id": 12006293689,
+      "tags": {
+        "addr:city": "Nashville",
+        "addr:housenumber": "2740",
+        "addr:postcode": "37214",
+        "addr:state": "TN",
+        "addr:street": "Elm Hill Pike",
+        "amenity": "fast_food",
+        "branch": "Elm Hill Pike & Donelson Pike",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "09:30-22:00",
+        "phone": "+1 629-401-3033",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/nashville/3227"
+      },
+      "lat": 36.149535,
+      "lon": -86.6680835
+    },
+    {
+      "type": "node",
+      "id": 13243028546,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 35.1019347,
+      "lon": -89.8636259
+    },
+    {
+      "type": "node",
+      "id": 14191645005,
+      "tags": {
+        "addr:city": "Knoxville",
+        "addr:housenumber": "1502",
+        "addr:postcode": "37996",
+        "addr:state": "TN",
+        "addr:street": "Cumberland Avenue",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "check_date": "2026-09-18",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "operator": "University of Tennessee",
+        "takeaway": "yes",
+        "website:menu": "https://dining.utk.edu/locations-and-menus/panda-express-menu/"
+      },
+      "lat": 35.9564149,
+      "lon": -83.9282185
+    },
+    {
+      "type": "node",
+      "id": 14232807978,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 35.0636479,
+      "lon": -89.7564402
+    },
+    {
+      "type": "way",
+      "id": 130899372,
+      "tags": {
+        "addr:housenumber": "1808",
+        "addr:postcode": "37421",
+        "addr:street": "Gunbarrel Road",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "check_date": "2026-05-20",
+        "check_date:opening_hours": "2026-05-20",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Su-Th 09:30-22:30; Fr-Sa 09:30-23:00",
+        "phone": "+1-423-933-3069",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/chattanooga/3567"
+      },
+      "center": {
+        "lat": 35.02519785,
+        "lon": -85.15771555000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 283274609,
+      "tags": {
+        "addr:city": "Clarksville",
+        "addr:country": "US",
+        "addr:housenumber": "3073",
+        "addr:postcode": "37040",
+        "addr:state": "TN",
+        "addr:street": "Wilma Rudolph Boulevard",
+        "amenity": "fast_food",
+        "branch": "Wilma Rudolph & Mr. C",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "delivery": "no",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:30-21:00; Fr,Sa 10:30-22:00; Su 11:00-21:00",
+        "operator": "Panda Restaurant Group",
+        "outdoor_seating": "yes",
+        "phone": "+1 931-542-9121",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/clarksville/2764",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 36.595091350000004,
+        "lon": -87.287011
+      }
+    },
+    {
+      "type": "way",
+      "id": 477589271,
+      "tags": {
+        "addr:city": "Memphis",
+        "addr:housenumber": "7579",
+        "addr:postcode": "38125",
+        "addr:state": "TN",
+        "addr:street": "Winchester Road",
+        "amenity": "fast_food",
+        "branch": "Highway 385 & Winchester",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 09:30-21:00; Fr 09:30-21:30; Sa 09:30-21:00; Su 10:30-21:00",
+        "phone": "+1 901-309-7989",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/memphis/2182"
+      },
+      "center": {
+        "lat": 35.04936275,
+        "lon": -89.81054174999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 545666137,
+      "tags": {
+        "addr:city": "Kingsport",
+        "addr:housenumber": "2632",
+        "addr:postcode": "37660",
+        "addr:state": "TN",
+        "addr:street": "East Stone Drive",
+        "amenity": "fast_food",
+        "branch": "Stone & New Beason Well",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:00-21:30; Su 10:30-21:30",
+        "phone": "+1 423-378-0189",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/kingsport/2591"
+      },
+      "center": {
+        "lat": 36.550239250000004,
+        "lon": -82.49383590000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 587295278,
+      "tags": {
+        "addr:city": "Sevierville",
+        "addr:housenumber": "1526",
+        "addr:postcode": "37862",
+        "addr:state": "TN",
+        "addr:street": "Parkway",
+        "amenity": "fast_food",
+        "branch": "Parkway & Collier",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "commercial",
+        "check_date": "2025-12-31",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr-Sa 10:00-22:30; Su 10:00-22:00",
+        "phone": "+1 865-774-1113",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/sevierville/2528"
+      },
+      "center": {
+        "lat": 35.83729205,
+        "lon": -83.57178664999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 596575507,
+      "tags": {
+        "addr:city": "Oak Ridge",
+        "addr:country": "US",
+        "addr:housenumber": "375",
+        "addr:postcode": "37830",
+        "addr:state": "TN",
+        "addr:street": "S Illinois Avenue",
+        "amenity": "fast_food",
+        "branch": "South Illinois & East Tulsa",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Su-Th 10:30-21:30, Fr 10:30-22:00, Sa 10:30-21:30",
+        "phone": "+1 865-483-7121",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/oak-ridge/2716"
+      },
+      "center": {
+        "lat": 36.0065022,
+        "lon": -84.25286325000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 622890359,
+      "tags": {
+        "addr:city": "Spring Hill",
+        "addr:housenumber": "2004",
+        "addr:postcode": "37174",
+        "addr:state": "TN",
+        "addr:street": "Crossings Boulevard",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 35.741942550000005,
+        "lon": -86.94099110000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 639897042,
+      "tags": {
+        "addr:city": "Cookeville",
+        "addr:housenumber": "1020",
+        "addr:postcode": "38501",
+        "addr:state": "TN",
+        "addr:street": "South Walnut Avenue",
+        "amenity": "fast_food",
+        "branch": "Interstate Drive & South Walnut Avenue",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "09:30-22:00",
+        "phone": "+1 931-525-1780",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/cookeville/2812"
+      },
+      "center": {
+        "lat": 36.13924985,
+        "lon": -85.51165249999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 739111857,
+      "tags": {
+        "addr:city": "Collierville",
+        "addr:housenumber": "540",
+        "addr:postcode": "38017",
+        "addr:state": "TN",
+        "addr:street": "West Poplar Avenue",
+        "amenity": "fast_food",
+        "branch": "Poplar & Maynard",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "10:00-21:00",
+        "phone": "+1 901-861-1296",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/collierville/2181"
+      },
+      "center": {
+        "lat": 35.046357099999994,
+        "lon": -89.6804027
+      }
+    },
+    {
+      "type": "way",
+      "id": 747162634,
+      "tags": {
+        "addr:city": "Maryville",
+        "addr:housenumber": "506",
+        "addr:postcode": "37801",
+        "addr:state": "TN",
+        "addr:street": "Foothills Plaza Drive",
+        "amenity": "fast_food",
+        "branch": "North Foothills Plaza Drive & Mall Road Maryville",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "commercial",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:00-21:30; Su 10:30-21:30",
+        "phone": "+1 865-984-3130",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/maryville/2908"
+      },
+      "center": {
+        "lat": 35.74275475,
+        "lon": -83.99370275000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 755279627,
+      "tags": {
+        "addr:city": "Ooltewah",
+        "addr:housenumber": "8967",
+        "addr:postcode": "37363",
+        "addr:state": "TN",
+        "addr:street": "Lee Highway",
+        "amenity": "fast_food",
+        "branch": "Old Lee Highway & Little Debbie Parkway",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:30-21:00; Fr-Sa 10:30-21:30; Su 10:30-21:00",
+        "phone": "+1 423-933-3037",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/college-dale/3013"
+      },
+      "center": {
+        "lat": 35.084944300000004,
+        "lon": -85.06578960000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 777346041,
+      "tags": {
+        "addr:city": "Johnson City",
+        "addr:housenumber": "922",
+        "addr:postcode": "37604",
+        "addr:state": "TN",
+        "addr:street": "North State Of Franklin Road",
+        "amenity": "fast_food",
+        "branch": "State of Franklin & Sunset",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "10:00-21:30",
+        "opening_hours:drive_through": "10:00-22:00",
+        "phone": "+1-423-262-0337",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/johnson-city/2811"
+      },
+      "center": {
+        "lat": 36.3238299,
+        "lon": -82.39428495000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 828611622,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.1410121,
+        "lon": -89.79633339999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 852475548,
+      "tags": {
+        "addr:city": "Nashville",
+        "addr:housenumber": "6601",
+        "addr:postcode": "37209",
+        "addr:state": "TN",
+        "addr:street": "Charlotte Pike",
+        "amenity": "fast_food",
+        "branch": "Charlotte Pike & Hillwood",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "09:30-22:00",
+        "phone": "+1 615-356-0103",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/nashville/2485"
+      },
+      "center": {
+        "lat": 36.13856015,
+        "lon": -86.88053775000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 915308528,
+      "tags": {
+        "addr:city": "Smyrna",
+        "addr:housenumber": "150",
+        "addr:postcode": "37167",
+        "addr:state": "TN",
+        "addr:street": "Movie Row",
+        "amenity": "fast_food",
+        "branch": "Movie Row & Industrial",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 09:30-22:30; Fr-Sa 09:30-23:00; Su 09:30-22:30",
+        "phone": "+1 615-355-7391",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/smyrna/1846"
+      },
+      "center": {
+        "lat": 35.9795316,
+        "lon": -86.56501679999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 973941535,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Su-Th 10:30-22:00; Fr,Sa 10:30-22:30",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 34.99220575,
+        "lon": -85.20111249999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1051392390,
+      "tags": {
+        "addr:city": "Nashville",
+        "addr:housenumber": "455",
+        "addr:postcode": "37214",
+        "addr:state": "TN",
+        "addr:street": "Opry Mills Drive",
+        "amenity": "fast_food",
+        "branch": "Opry Mills Mall",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 11:00-19:00; Su 12:00-18:00",
+        "phone": "+1 615-649-0426",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/nashville/2057"
+      },
+      "center": {
+        "lat": 36.20293975,
+        "lon": -86.69304019999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1098430502,
+      "tags": {
+        "addr:city": "Cleveland",
+        "addr:housenumber": "4474",
+        "addr:postcode": "37312",
+        "addr:state": "TN",
+        "addr:street": "Ellis Circle Northwest",
+        "amenity": "fast_food",
+        "branch": "Paul Huff Parkway & Peerless Road Northwest",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:30; Fr-Sa 10:00-22:00; Su 10:00-21:30",
+        "phone": "+1 423-602-2700",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/cleveland/3419"
+      },
+      "center": {
+        "lat": 35.211314,
+        "lon": -84.86313074999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1229445333,
+      "tags": {
+        "addr:city": "Hendersonville",
+        "addr:housenumber": "208",
+        "addr:postcode": "37075",
+        "addr:state": "TN",
+        "addr:street": "Anderson Lane North",
+        "amenity": "fast_food",
+        "branch": "Anderson & Indian Lake - Walmart",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "10:30-21:30",
+        "phone": "+1 615-826-1830",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/hendersonville/2343"
+      },
+      "center": {
+        "lat": 36.32096435,
+        "lon": -86.59811715000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1231283115,
+      "tags": {
+        "addr:city": "Bristol",
+        "addr:housenumber": "251",
+        "addr:postcode": "37620",
+        "addr:state": "TN",
+        "addr:street": "Pinnacle Parkway",
+        "amenity": "fast_food",
+        "branch": "Pinnacle & I-81",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:00-21:30; Su 10:30-21:30",
+        "phone": "+1 423-573-2788",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/bristol/2629"
+      },
+      "center": {
+        "lat": 36.59047615,
+        "lon": -82.26438925000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1316867813,
+      "tags": {
+        "addr:city": "Knoxville",
+        "addr:housenumber": "4833",
+        "addr:postcode": "37918",
+        "addr:state": "TN",
+        "addr:street": "North Broadway Street",
+        "amenity": "fast_food",
+        "branch": "North Broadway St & Woodrow Drive",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "check_date": "2026-09-27",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 09:30-22:30; Fr 09:30-23:00; Sa 10:00-23:00; Su 10:00-22:30",
+        "phone": "+1 865-687-3688",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/knoxville/2830"
+      },
+      "center": {
+        "lat": 36.02659195,
+        "lon": -83.92785930000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1328637162,
+      "tags": {
+        "addr:city": "Franklin",
+        "addr:housenumber": "2430",
+        "addr:postcode": "37064",
+        "addr:state": "TN",
+        "addr:street": "Goose Creek Bypass",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "restaurant",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Sa-Th 10:00-21:30; Fr 09:30-21:30",
+        "phone": "+1-629-206-9386",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/franklin/2853"
+      },
+      "center": {
+        "lat": 35.86085305,
+        "lon": -86.84087535000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1390847597,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.5078675,
+        "lon": -87.272401
+      }
+    },
+    {
+      "type": "way",
+      "id": 1393522034,
+      "tags": {
+        "addr:city": "Knoxville",
+        "addr:housenumber": "11480",
+        "addr:postcode": "37934",
+        "addr:state": "TN",
+        "addr:street": "Parkside Drive",
+        "amenity": "fast_food",
+        "branch": "Parkside & Lakes Edge",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "10:00-21:30",
+        "phone": "+1 865-671-6199",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/knoxville/2328"
+      },
+      "center": {
+        "lat": 35.8980267,
+        "lon": -84.16702650000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1417617426,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.924772700000005,
+        "lon": -86.81748715000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1464235461,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.88577965,
+        "lon": -83.57441564999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1497980276,
+      "tags": {
+        "addr:city": "Murfreesboro",
+        "addr:housenumber": "2122",
+        "addr:postcode": "37129",
+        "addr:state": "TN",
+        "addr:street": "Memorial Boulevard",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "phone": "+1-615-647-6860",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.882091,
+        "lon": -86.38309620000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1520933955,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "check_date": "2026-04-29",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th,Su 09:30-21:30; Fr-Sa 09:30-22:00",
+        "opening_hours:drive_through": "Mo-Th,Su 09:30-22:00; Fr-Sa 09:30-22:30",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/tn/chattanooga/3011",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 35.12689355,
+        "lon": -85.24104699999998
+      }
+    }
+  ]
+}

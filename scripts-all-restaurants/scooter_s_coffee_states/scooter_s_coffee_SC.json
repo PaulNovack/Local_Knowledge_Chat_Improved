@@ -1,0 +1,72 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SC",
+    "brand": "scooter_s_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/south-carolina-latest.osm.pbf",
+    "source_md5": "488018afb1e1040732b7a791d4ebffae",
+    "processed_utc": "2026-10-24T07:15:46.592450+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12108329413,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "cuisine": "coffee_shop",
+        "name": "Scooter's Coffee",
+        "takeaway": "yes"
+      },
+      "lat": 33.5194444,
+      "lon": -80.8810724
+    },
+    {
+      "type": "way",
+      "id": 1162525688,
+      "tags": {
+        "addr:city": "Greenville",
+        "addr:housenumber": "2027",
+        "addr:postcode": "29615",
+        "addr:state": "SC",
+        "addr:street": "Wade Hampton Boulevard",
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Scooter's Coffee",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 34.883742999999996,
+        "lon": -82.35604365
+      }
+    },
+    {
+      "type": "way",
+      "id": 1391597206,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Scooter's Coffee",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.9013813,
+        "lon": -79.98593964999998
+      }
+    }
+  ]
+}

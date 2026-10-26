@@ -1,0 +1,76 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "village_inn",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 744764907,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "5230",
+        "addr:postcode": "74135",
+        "addr:state": "OK",
+        "addr:street": "South Yale Avenue East",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "building:colour": "#eecfaf",
+        "check_date": "2025-06-23",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "Mom's Family Diner",
+        "opening_hours": "Su-Th 06:00-24:00; Fr,Sa 06:00-03:00",
+        "outdoor_seating": "no",
+        "smoking": "no"
+      },
+      "center": {
+        "lat": 36.086487950000006,
+        "lon": -95.92282399999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1009483314,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "2745",
+        "addr:postcode": "74114",
+        "addr:state": "OK",
+        "addr:street": "South Harvard Avenue East",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2025-03-06",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "Village Inn",
+        "outdoor_seating": "no",
+        "roof:levels": "0",
+        "roof:shape": "quadruple_saltbox"
+      },
+      "center": {
+        "lat": 36.12265015,
+        "lon": -95.93999954999998
+      }
+    }
+  ]
+}

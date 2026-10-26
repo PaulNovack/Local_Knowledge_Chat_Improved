@@ -1,0 +1,143 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SD",
+    "brand": "sonic",
+    "source": "https://download.geofabrik.de/north-america/us/south-dakota-latest.osm.pbf",
+    "source_md5": "4d012b130d8682e6f0e1bc093c255981",
+    "processed_utc": "2026-10-24T07:16:00.169778+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2441039956,
+      "tags": {
+        "addr:city": "Sioux Falls",
+        "addr:housenumber": "3810",
+        "addr:postcode": "57106",
+        "addr:state": "SD",
+        "addr:street": "West 34th Street",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "Mo-Th 06:00-23:00; Fr-Sa 06:00-24:00; Su 06:00-23:00",
+        "phone": "+1 605-275-3663",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/sd/siouxfalls/3810-west-34th-street.html"
+      },
+      "lat": 43.5209206,
+      "lon": -96.7739573
+    },
+    {
+      "type": "way",
+      "id": 299596960,
+      "tags": {
+        "addr:city": "Rapid City",
+        "addr:housenumber": "815",
+        "addr:postcode": "57702",
+        "addr:state": "SD",
+        "addr:street": "Jackson Boulevard",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "drive_through": "yes",
+        "name": "Sonic",
+        "opening_hours": "10:00-22:00",
+        "phone": "+1 605-716-3668",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/sd/rapidcity/815-jackson-boulevard.html"
+      },
+      "center": {
+        "lat": 44.0783213,
+        "lon": -103.25047255000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 407098895,
+      "tags": {
+        "addr:city": "Sioux Falls",
+        "addr:housenumber": "3501",
+        "addr:postcode": "57103",
+        "addr:state": "SD",
+        "addr:street": "East 10th Street",
+        "amenity": "restaurant",
+        "brand": "Sonic",
+        "building": "yes",
+        "cuisine": "greek",
+        "name": "Nick's Gyros",
+        "not:brand:wikidata": "Q7561808",
+        "source": "Bing",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 43.546103849999994,
+        "lon": -96.68336959999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 759631195,
+      "tags": {
+        "addr:city": "Rapid City",
+        "addr:housenumber": "2316",
+        "addr:postcode": "57701",
+        "addr:state": "SD",
+        "addr:street": "Mount Rushmore Road",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "drive_through": "yes",
+        "name": "Sonic",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su 08:00-22:00",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/sd/rapidcity/2316-mount-rushmore-road.html"
+      },
+      "center": {
+        "lat": 44.0628343,
+        "lon": -103.23198190000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 1308908083,
+      "tags": {
+        "addr:city": "Rapid City",
+        "addr:housenumber": "502",
+        "addr:postcode": "57701",
+        "addr:state": "SD",
+        "addr:street": "Century Road",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 44.088665649999996,
+        "lon": -103.188108
+      }
+    }
+  ]
+}

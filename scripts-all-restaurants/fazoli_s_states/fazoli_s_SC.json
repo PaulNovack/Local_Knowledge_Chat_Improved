@@ -1,0 +1,75 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SC",
+    "brand": "fazoli_s",
+    "source": "https://download.geofabrik.de/north-america/us/south-carolina-latest.osm.pbf",
+    "source_md5": "488018afb1e1040732b7a791d4ebffae",
+    "processed_utc": "2026-10-24T07:15:46.592450+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 111663521,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:housenumber": "139",
+        "addr:postcode": "29212",
+        "addr:street": "Columbiana Drive",
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Fazoli's",
+        "source": "Bing",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 34.075670099999996,
+        "lon": -81.15880400000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 436989823,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:country": "US",
+        "addr:housenumber": "7621",
+        "addr:postcode": "29223",
+        "addr:state": "SC",
+        "addr:street": "Two Notch Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "building": "yes",
+        "check_date": "2024-10-25",
+        "cuisine": "italian",
+        "delivery": "yes",
+        "internet_access": "no",
+        "name": "Fazoli's",
+        "opening_hours": "10:30-21:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-803-401-5540",
+        "takeaway": "yes",
+        "website": "https://locations.fazolis.com/sc/columbia/7621-two-notch-road.html",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 34.07758735,
+        "lon": -80.9440745
+      }
+    }
+  ]
+}

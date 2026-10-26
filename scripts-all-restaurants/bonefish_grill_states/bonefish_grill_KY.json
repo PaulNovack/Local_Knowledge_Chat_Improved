@@ -1,0 +1,62 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KY",
+    "brand": "bonefish_grill",
+    "source": "https://download.geofabrik.de/north-america/us/kentucky-latest.osm.pbf",
+    "source_md5": "beee275db6b863afe4847059e1397537",
+    "processed_utc": "2026-10-24T07:04:39.223265+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 736821970,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "lat": 38.2378982,
+      "lon": -85.5751831
+    },
+    {
+      "type": "node",
+      "id": 747885267,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "lat": 39.0511852,
+      "lon": -84.5756078
+    },
+    {
+      "type": "node",
+      "id": 2502253385,
+      "tags": {
+        "addr:city": "Lexington",
+        "addr:housenumber": "2341",
+        "addr:state": "KY",
+        "addr:street": "Sir Barton Way",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "lat": 38.0241219,
+      "lon": -84.4238637
+    }
+  ]
+}

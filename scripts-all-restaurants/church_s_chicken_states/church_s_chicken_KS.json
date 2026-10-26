@@ -1,0 +1,167 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "church_s_chicken",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12732311360,
+      "tags": {
+        "addr:city": "Topeka",
+        "addr:housenumber": "201",
+        "addr:postcode": "66605",
+        "addr:state": "KS",
+        "addr:street": "Southeast 29th Street",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Church's Chicken",
+        "takeaway": "yes",
+        "website": "https://order.churchs.com/home"
+      },
+      "lat": 39.0149234,
+      "lon": -95.6771214
+    },
+    {
+      "type": "way",
+      "id": 195470051,
+      "tags": {
+        "addr:city": "Topeka",
+        "addr:housenumber": "3001",
+        "addr:postcode": "66604",
+        "addr:state": "KS",
+        "addr:street": "Southwest 10th Avenue",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "commercial",
+        "cuisine": "chicken",
+        "name": "Church's Chicken",
+        "source": "esri_USDOT_Kansas",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/ks/topeka/3001-s.w.-10th-avenue"
+      },
+      "center": {
+        "lat": 39.0510226,
+        "lon": -95.71467359999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 231042598,
+      "tags": {
+        "addr:city": "Olathe",
+        "addr:housenumber": "124",
+        "addr:postcode": "66062",
+        "addr:state": "KS",
+        "addr:street": "North Clairborne Road",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Church's Chicken",
+        "opening_hours": "Su-Th 10:00-22:00; Fr-Sa 10:00-23:00",
+        "operator": "Church's Chicken",
+        "phone": "+1 913-393-2441",
+        "website": "https://locations.churchs.com/ks/olathe/124-n-clairborne-road"
+      },
+      "center": {
+        "lat": 38.882818150000006,
+        "lon": -94.78856385
+      }
+    },
+    {
+      "type": "way",
+      "id": 293501414,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "8234",
+        "addr:postcode": "66112",
+        "addr:state": "KS",
+        "addr:street": "Parallel Parkway",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Church's Chicken",
+        "phone": "+1 913-499-6771",
+        "source": "esri_USDOT_Kansas",
+        "website": "https://locations.churchs.com/ks/kansas-city/8234-parallel-parkway"
+      },
+      "center": {
+        "lat": 39.128973900000005,
+        "lon": -94.77129769999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 498137815,
+      "tags": {
+        "addr:city": "Shawnee",
+        "addr:housenumber": "7404",
+        "addr:postcode": "66214",
+        "addr:state": "KS",
+        "addr:street": "Nieman Road",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "retail",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Church's Chicken",
+        "opening_hours": "Mo-Su 10:00-22:30",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/ks/shawnee/7404-neiman-road"
+      },
+      "center": {
+        "lat": 38.9941395,
+        "lon": -94.71497360000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 991233036,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "1222",
+        "addr:postcode": "66102",
+        "addr:state": "KS",
+        "addr:street": "Central Avenue",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Church's Chicken",
+        "operator": "Church's Chicken",
+        "phone": "+1 913-342-9273",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/ks/kansas-city/1222-central-avenue",
+        "wheelchair": "limited"
+      },
+      "center": {
+        "lat": 39.103179499999996,
+        "lon": -94.64097549999997
+      }
+    }
+  ]
+}

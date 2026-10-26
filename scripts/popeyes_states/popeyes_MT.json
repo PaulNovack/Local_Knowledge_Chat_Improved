@@ -1,0 +1,49 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/3.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MT",
+    "brand": "popeyes",
+    "source": "https://download.geofabrik.de/north-america/us/montana-latest.osm.pbf",
+    "source_md5": "abfa2e1bfc18f6c00a77776eb9185b11",
+    "processed_utc": "2026-10-24T06:29:16.172981+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 822326791,
+      "tags": {
+        "addr:city": "Missoula",
+        "addr:housenumber": "4750",
+        "addr:postcode": "59808",
+        "addr:state": "MT",
+        "addr:street": "North Reserve Street",
+        "amenity": "fast_food",
+        "brand": "Popeyes",
+        "brand:wikidata": "Q1330910",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Popeyes",
+        "official_name": "Popeyes Louisiana Kitchen",
+        "opening_hours": "11:00-22:00",
+        "phone": "+1 406-926-1096",
+        "takeaway": "yes",
+        "website": "https://www.popeyes.com/store-locator/store/restaurant_85379"
+      },
+      "center": {
+        "lat": 46.90825115,
+        "lon": -114.03625454999997
+      }
+    }
+  ]
+}

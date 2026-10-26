@@ -1,0 +1,125 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IA",
+    "brand": "qdoba",
+    "source": "https://download.geofabrik.de/north-america/us/iowa-latest.osm.pbf",
+    "source_md5": "67edcd557c575ead09c9f80bc8694526",
+    "processed_utc": "2026-10-24T07:04:05.270534+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 766966296,
+      "tags": {
+        "addr:housenumber": "10201",
+        "addr:postcode": "50325",
+        "addr:street": "University Avenue",
+        "amenity": "fast_food",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "cuisine": "mexican",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Grill",
+        "takeaway": "yes"
+      },
+      "lat": 41.6010227,
+      "lon": -93.758097
+    },
+    {
+      "type": "node",
+      "id": 2157828157,
+      "tags": {
+        "addr:city": "Des Moines",
+        "addr:housenumber": "2105",
+        "addr:postcode": "50312",
+        "addr:state": "IA",
+        "addr:street": "Ingersoll Avenue",
+        "addr:unit": "104",
+        "amenity": "fast_food",
+        "branch": "Ingersoll",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "check_date": "2025-03-13",
+        "cuisine": "mexican",
+        "drive_through": "no",
+        "level": "0",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Eats",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-515-619-5358",
+        "takeaway": "yes",
+        "website": "https://locations.qdoba.com/us/ia/des-moines/2105-ingersoll-ave.html"
+      },
+      "lat": 41.5859688,
+      "lon": -93.6464861
+    },
+    {
+      "type": "node",
+      "id": 2347569366,
+      "tags": {
+        "addr:city": "Sioux City",
+        "addr:housenumber": "5110",
+        "addr:postcode": "51106",
+        "addr:state": "IA",
+        "addr:street": "Sergeant Road",
+        "amenity": "fast_food",
+        "branch": "Seargeant Road",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "cuisine": "mexican",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Grill",
+        "opening_hours": "Mo-Sa 10:30-22:00; Su 10:30-21:00",
+        "phone": "+1 712-274-5968",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.qdoba.com/us/ia/sioux-city/5110-sergeant-rd.html"
+      },
+      "lat": 42.4453716,
+      "lon": -96.3398126
+    },
+    {
+      "type": "node",
+      "id": 14100047601,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "cuisine": "mexican",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Eats",
+        "takeaway": "yes"
+      },
+      "lat": 41.2202164,
+      "lon": -95.8343115
+    },
+    {
+      "type": "node",
+      "id": 14104323902,
+      "tags": {
+        "addr:housenumber": "6305",
+        "addr:postcode": "50266",
+        "addr:street": "Mills Civic Parkway",
+        "amenity": "fast_food",
+        "cuisine": "mexican",
+        "name": "Qdoba Mexican Eats",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "phone": "+1-563-216-4440",
+        "website": "https://locations.qdoba.com/us/ia/des-moines/6305-mills-civic-pkwy",
+        "website:menu": "https://order.qdoba.com/menu"
+      },
+      "lat": 41.5613318,
+      "lon": -93.7949
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "cooper_s_hawk",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3385406167,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cooper's Hawk",
+        "brand:wikidata": "Q17511079",
+        "cuisine": "american",
+        "name": "Cooper's Hawk",
+        "official_name": "Cooper's Hawk Winery & Restaurants",
+        "shop": "wine"
+      },
+      "lat": 39.0425609,
+      "lon": -94.5917763
+    },
+    {
+      "type": "node",
+      "id": 7099312057,
+      "tags": {
+        "addr:city": "Town & Country",
+        "addr:housenumber": "1146",
+        "addr:postcode": "63017",
+        "addr:street": "Town and Country Crossing Drive",
+        "amenity": "restaurant",
+        "branch": "Winery and Restaurant",
+        "brand": "Cooper's Hawk",
+        "brand:wikidata": "Q17511079",
+        "cuisine": "american",
+        "name": "Cooper's Hawk",
+        "official_name": "Cooper's Hawk Winery & Restaurants",
+        "shop": "wine",
+        "source:addr": "St. Louis County GIS Service Center (https://data.stlouisco.com/pages/open-data 2019-08)"
+      },
+      "lat": 38.6227347,
+      "lon": -90.5164744
+    },
+    {
+      "type": "way",
+      "id": 1391740975,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cooper's Hawk",
+        "brand:wikidata": "Q17511079",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cooper's Hawk",
+        "official_name": "Cooper's Hawk Winery & Restaurants",
+        "shop": "wine"
+      },
+      "center": {
+        "lat": 38.9260682,
+        "lon": -94.39317470000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1450966610,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cooper's Hawk",
+        "brand:wikidata": "Q17511079",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Cooper's Hawk",
+        "official_name": "Cooper's Hawk Winery & Restaurants",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr 11:00-22:00; Sa 10:00-22:00; Su 10:00-21:00",
+        "phone": "+1 816-398-8100",
+        "shop": "wine"
+      },
+      "center": {
+        "lat": 39.26043615,
+        "lon": -94.60185094999997
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AL",
+    "brand": "hungry_howie_s",
+    "source": "https://download.geofabrik.de/north-america/us/alabama-latest.osm.pbf",
+    "source_md5": "3ee9c8ab6ddb6921e2aa2562af6c9bce",
+    "processed_utc": "2026-10-24T06:56:09.586986+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1378946600,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Hungry Howie's",
+        "brand:wikidata": "Q16985303",
+        "cuisine": "pizza",
+        "name": "Hungry Howie's",
+        "takeaway": "yes"
+      },
+      "lat": 33.2634313,
+      "lon": -87.5145108
+    },
+    {
+      "type": "node",
+      "id": 13830665550,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Hungry Howie's",
+        "brand:wikidata": "Q16985303",
+        "cuisine": "pizza",
+        "name": "Hungry Howie's",
+        "takeaway": "yes"
+      },
+      "lat": 33.2401015,
+      "lon": -87.5755935
+    },
+    {
+      "type": "node",
+      "id": 14075355931,
+      "tags": {
+        "addr:housenumber": "1209",
+        "addr:street": "Ross Clark Circle",
+        "amenity": "fast_food",
+        "brand": "Hungry Howie's",
+        "brand:wikidata": "Q16985303",
+        "cuisine": "pizza",
+        "name": "Hungry Howie's",
+        "takeaway": "yes"
+      },
+      "lat": 31.2117761,
+      "lon": -85.3615798
+    },
+    {
+      "type": "way",
+      "id": 467261943,
+      "tags": {
+        "addr:city": "Mobile",
+        "addr:housenumber": "5611",
+        "addr:postcode": "36608",
+        "addr:state": "AL",
+        "addr:street": "Old Shell Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Hungry Howie's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 30.6888722,
+        "lon": -88.17255180000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 870061888,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Hungry Howie's",
+        "brand:wikidata": "Q16985303",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Hungry Howie's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.21412895,
+        "lon": -86.82558999999998
+      }
+    }
+  ]
+}

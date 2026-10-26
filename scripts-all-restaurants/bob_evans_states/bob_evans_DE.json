@@ -1,0 +1,102 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DE",
+    "brand": "bob_evans",
+    "source": "https://download.geofabrik.de/north-america/us/delaware-latest.osm.pbf",
+    "source_md5": "5f714be897be010ea09e4134c39a0638",
+    "processed_utc": "2026-10-24T07:00:37.202137+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5291587636,
+      "tags": {
+        "addr:city": "Camden",
+        "addr:housenumber": "4574",
+        "addr:postcode": "19934",
+        "addr:street": "South Dupont Highway",
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "cuisine": "american",
+        "name": "Bob Evans"
+      },
+      "lat": 39.1002179,
+      "lon": -75.5441936
+    },
+    {
+      "type": "way",
+      "id": 127128629,
+      "tags": {
+        "addr:city": "Middletown",
+        "addr:housenumber": "200",
+        "addr:postcode": "19709",
+        "addr:state": "DE",
+        "addr:street": "Casa Drive",
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "building": "commercial",
+        "check_date": "2025-07-10",
+        "cuisine": "american",
+        "name": "Bob Evans",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "phone": "+1 302-378-6029",
+        "website": "https://www.bobevans.com/locations/middletown-2"
+      },
+      "center": {
+        "lat": 39.450786050000005,
+        "lon": -75.72746280000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 350692656,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Bob Evans"
+      },
+      "center": {
+        "lat": 39.19713055,
+        "lon": -75.5526504
+      }
+    },
+    {
+      "type": "way",
+      "id": 887910547,
+      "tags": {
+        "addr:city": "Newark",
+        "addr:housenumber": "402",
+        "addr:postcode": "19702",
+        "addr:state": "DE",
+        "addr:street": "Eagle Run Road",
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "building": "yes",
+        "check_date": "2025-11-19",
+        "cuisine": "american",
+        "name": "Bob Evans",
+        "opening_hours": "07:00-21:00",
+        "phone": "+1 302-369-3122",
+        "website": "https://www.bobevans.com/locations/newark-de"
+      },
+      "center": {
+        "lat": 39.6696428,
+        "lon": -75.67038919999999
+      }
+    }
+  ]
+}

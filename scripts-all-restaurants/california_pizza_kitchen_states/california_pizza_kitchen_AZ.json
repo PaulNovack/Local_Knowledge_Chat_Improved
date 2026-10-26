@@ -1,0 +1,60 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "california_pizza_kitchen",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 332925781,
+      "tags": {
+        "addr:city": "Scottsdale",
+        "addr:country": "US",
+        "addr:housenumber": "10100",
+        "addr:postcode": "85253",
+        "addr:state": "AZ",
+        "addr:street": "North Scottsdale Road",
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "California Pizza Kitchen",
+        "short_name": "CPK",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 33.5780164,
+        "lon": -111.92697850000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 870984043,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "California Pizza Kitchen",
+        "short_name": "CPK"
+      },
+      "center": {
+        "lat": 33.43298485,
+        "lon": -111.90309839999998
+      }
+    }
+  ]
+}

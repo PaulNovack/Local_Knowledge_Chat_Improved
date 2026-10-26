@@ -1,0 +1,47 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "tijuana_flats",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3108616240,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Tijuana Flats",
+        "brand:wikidata": "Q7801833",
+        "cuisine": "mexican",
+        "name": "Tijuana Flats"
+      },
+      "lat": 35.8441838,
+      "lon": -78.8885742
+    },
+    {
+      "type": "node",
+      "id": 3304798387,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Tijuana Flats",
+        "brand:wikidata": "Q7801833",
+        "cuisine": "mexican",
+        "name": "Tijuana Flats",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "website": "https://www.tijuanaflats.com/locations/holly-springs"
+      },
+      "lat": 35.6617683,
+      "lon": -78.8483604
+    }
+  ]
+}

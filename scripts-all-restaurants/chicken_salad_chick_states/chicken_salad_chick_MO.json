@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "chicken_salad_chick",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5476471237,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "1322",
+        "addr:postcode": "65804",
+        "addr:state": "MO",
+        "addr:street": "East Battlefield Road",
+        "amenity": "fast_food",
+        "brand": "Chicken Salad Chick",
+        "brand:wikidata": "Q19720749",
+        "cuisine": "chicken",
+        "name": "Chicken Salad Chick",
+        "opening_hours": "Mo-Sa 10:30-20:00",
+        "takeaway": "yes"
+      },
+      "lat": 37.1586949,
+      "lon": -93.2735631
+    },
+    {
+      "type": "way",
+      "id": 488811760,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Chicken Salad Chick",
+        "brand:wikidata": "Q19720749",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Chicken Salad Chick",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.94714745,
+        "lon": -92.29548410000001
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "cafe_rio",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4871579389,
+      "tags": {
+        "addr:city": "Spokane Valley",
+        "addr:housenumber": "13920",
+        "addr:state": "WA",
+        "addr:street": "East Indiana Avenue",
+        "amenity": "restaurant",
+        "brand": "Cafe Rio",
+        "brand:wikidata": "Q5017108",
+        "cuisine": "mexican",
+        "name": "Cafe Rio",
+        "phone": "+1-509-822-4350",
+        "takeaway:covid19": "yes"
+      },
+      "lat": 47.675465,
+      "lon": -117.214372
+    },
+    {
+      "type": "node",
+      "id": 6439752996,
+      "tags": {
+        "addr:housenumber": "3000",
+        "addr:street": "184th Street Southwest",
+        "addr:unit": "933",
+        "amenity": "restaurant",
+        "brand": "Cafe Rio",
+        "brand:wikidata": "Q5017108",
+        "check_date": "2024-12-21",
+        "cuisine": "mexican",
+        "name": "Cafe Rio",
+        "outdoor_seating": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 47.8309282,
+      "lon": -122.2717283
+    },
+    {
+      "type": "way",
+      "id": 42238013,
+      "tags": {
+        "addr:city": "Federal Way",
+        "addr:housenumber": "1700",
+        "addr:postcode": "98003",
+        "addr:state": "WA",
+        "addr:street": "South 320th Street",
+        "amenity": "restaurant",
+        "brand": "Cafe Rio",
+        "brand:wikidata": "Q5017108",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Cafe Rio"
+      },
+      "center": {
+        "lat": 47.31549425,
+        "lon": -122.31167729999999
+      }
+    }
+  ]
+}

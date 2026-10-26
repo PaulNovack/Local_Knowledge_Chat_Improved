@@ -1,0 +1,87 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OR",
+    "brand": "chuck_e_cheese",
+    "source": "https://download.geofabrik.de/north-america/us/oregon-latest.osm.pbf",
+    "source_md5": "bc93fd72fe4589fdc6c9b2b497cb7ef1",
+    "processed_utc": "2026-10-24T07:14:41.004303+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 544351750,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/or/salem/3240-lancaster-dr.-ne"
+      },
+      "lat": 44.9670566,
+      "lon": -122.982314
+    },
+    {
+      "type": "way",
+      "id": 108552664,
+      "tags": {
+        "addr:city": "Beaverton",
+        "addr:housenumber": "4145",
+        "addr:postcode": "97005",
+        "addr:state": "OR",
+        "addr:street": "Southwest 110th Avenue",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "yes",
+        "cuisine": "pizza",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "opening_hours": "Mo-Th 10:00-21:00; Fr,Sa 10:00-22:00; Su 11:00-21:00",
+        "phone": "+1-503-643-2002",
+        "ref": "3169",
+        "website": "https://locations.chuckecheese.com/us/or/beaverton/4145-sw-110th-ave."
+      },
+      "center": {
+        "lat": 45.4899659,
+        "lon": -122.79086035
+      }
+    },
+    {
+      "type": "way",
+      "id": 1379024455,
+      "tags": {
+        "addr:city": "Medford",
+        "addr:housenumber": "293",
+        "addr:postcode": "97501",
+        "addr:state": "OR",
+        "addr:street": "East Barnett Road",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "retail",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "opening_hours": "Su-Th 11:00-21:00; Fr 11:00-22:00; Sa 10:00-22:00",
+        "phone": "+1-541-930-7071",
+        "website": "https://www.chuckecheese.com/medford-or/"
+      },
+      "center": {
+        "lat": 42.31653165,
+        "lon": -122.85962259999997
+      }
+    }
+  ]
+}

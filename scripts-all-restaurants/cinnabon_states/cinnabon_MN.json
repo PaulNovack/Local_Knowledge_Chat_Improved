@@ -1,0 +1,91 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MN",
+    "brand": "cinnabon",
+    "source": "https://download.geofabrik.de/north-america/us/minnesota-latest.osm.pbf",
+    "source_md5": "4cabd6519cf6e8b1f74c96f59629df95",
+    "processed_utc": "2026-10-24T07:08:10.045763+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5739830086,
+      "tags": {
+        "addr:housenumber": "180",
+        "addr:street": "East Broadway",
+        "amenity": "fast_food",
+        "brand": "Cinnabon",
+        "brand:website": "https://www.cinnabon.com/",
+        "brand:wikidata": "Q1092539",
+        "cuisine": "dessert",
+        "level": "0",
+        "name": "Cinnabon",
+        "opening_hours": "Mo-Sa 08:30-21:30; Su 10:00-19:00",
+        "phone": "+1-952-858-8208",
+        "takeaway": "yes",
+        "website": "https://locations.cinnabon.com/mn/bloomington/e-180-broadway"
+      },
+      "lat": 44.8553303,
+      "lon": -93.2405878
+    },
+    {
+      "type": "node",
+      "id": 6946828071,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cinnabon",
+        "brand:website": "https://www.cinnabon.com/",
+        "check_date": "2026-09-04",
+        "cuisine": "dessert",
+        "name": "Cinnabon / Auntie Anne's",
+        "takeaway": "yes"
+      },
+      "lat": 44.8832951,
+      "lon": -93.2140861
+    },
+    {
+      "type": "node",
+      "id": 7212036453,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:housenumber": "101",
+        "addr:street": "1st Avenue Southwest",
+        "addr:unit": "Suite 15",
+        "amenity": "fast_food",
+        "brand": "Cinnabon",
+        "brand:wikidata": "Q1092539",
+        "cuisine": "dessert",
+        "drive_through": "no",
+        "level": "-1",
+        "name": "Cinnabon",
+        "phone": "+1-507-281-1233",
+        "takeaway": "yes",
+        "website": "https://locations.cinnabon.com/mn/rochester/101-first-avenue-sw"
+      },
+      "lat": 44.0217833,
+      "lon": -92.4646803
+    },
+    {
+      "type": "node",
+      "id": 11565288185,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cinnabon",
+        "brand:wikidata": "Q1092539",
+        "cuisine": "dessert",
+        "name": "Cinnabon",
+        "takeaway": "yes"
+      },
+      "lat": 44.146117,
+      "lon": -93.9938501
+    }
+  ]
+}

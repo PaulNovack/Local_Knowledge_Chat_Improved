@@ -1,0 +1,68 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "dutch_bros_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11898784778,
+      "tags": {
+        "addr:city": "Athens",
+        "addr:housenumber": "3131",
+        "addr:postcode": "30606",
+        "addr:street": "Atlanta Highway",
+        "amenity": "cafe",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "Su-Th 05:00-22:00; Fr-Sa 05:00-23:00",
+        "takeaway": "only",
+        "website": "https://www.dutchbros.com/locations/ga/athens/3131-atlanta-hwy"
+      },
+      "lat": 33.9421251,
+      "lon": -83.4427871
+    },
+    {
+      "type": "node",
+      "id": 13287942761,
+      "tags": {
+        "addr:floor": "G",
+        "addr:housenumber": "9650",
+        "addr:street": "Medlock Bridge Road",
+        "amenity": "cafe",
+        "branch": "John's Creek",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "check_date": "2026-06-06",
+        "cuisine": "coffee_shop;juice",
+        "drive_through": "yes",
+        "level": "0",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "Mo-Th 05:00-22:00; Fr-Sa 05:00-23:00; Su 05:00-22:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-877-899-2767",
+        "takeaway": "only",
+        "website": "https://www.dutchbros.com/locations/ga/johns-creek/9630-medlock-bridge-rd",
+        "wheelchair": "yes"
+      },
+      "lat": 34.0163375,
+      "lon": -84.1911349
+    }
+  ]
+}

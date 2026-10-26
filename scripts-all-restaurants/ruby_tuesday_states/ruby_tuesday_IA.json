@@ -1,0 +1,77 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IA",
+    "brand": "ruby_tuesday",
+    "source": "https://download.geofabrik.de/north-america/us/iowa-latest.osm.pbf",
+    "source_md5": "67edcd557c575ead09c9f80bc8694526",
+    "processed_utc": "2026-10-24T07:04:05.270534+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 103159428,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "linncounty:objectid": "6782",
+        "name": "Ruby Tuesday"
+      },
+      "center": {
+        "lat": 41.956763499999994,
+        "lon": -91.71565895000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 135364024,
+      "tags": {
+        "addr:city": "Urbandale",
+        "addr:housenumber": "4900",
+        "addr:postcode": "50322",
+        "addr:state": "IA",
+        "addr:street": "86th Street",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "center": {
+        "lat": 41.6488846,
+        "lon": -93.73721015000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 191659278,
+      "tags": {
+        "addr:housenumber": "3150",
+        "addr:postcode": "51501",
+        "addr:street": "24th Avenue",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Ruby Tuesday",
+        "source": "bing"
+      },
+      "center": {
+        "lat": 41.240013149999996,
+        "lon": -95.89337624999996
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "blaze_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8005379688,
+      "tags": {
+        "addr:city": "Scottsdale",
+        "addr:housenumber": "16203",
+        "addr:postcode": "85254",
+        "addr:state": "AZ",
+        "addr:street": "North Scottsdale Road",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "lat": 33.6335549,
+      "lon": -111.924961
+    },
+    {
+      "type": "node",
+      "id": 11372141732,
+      "tags": {
+        "addr:city": "Avondale",
+        "addr:housenumber": "10155",
+        "addr:postcode": "85392",
+        "addr:state": "AZ",
+        "addr:street": "West Mcdowell Road",
+        "addr:unit": "103",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "lat": 33.4642011,
+      "lon": -112.2793298
+    },
+    {
+      "type": "way",
+      "id": 634360029,
+      "tags": {
+        "addr:city": "Tempe",
+        "addr:country": "US",
+        "addr:housenumber": "105",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "West University Drive",
+        "amenity": "cafe",
+        "brand:wikidata": "Q23016666",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2026-10-13",
+        "drive_through": "no",
+        "name": "Café Zupas",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.4216592,
+        "lon": -111.9414878
+      }
+    }
+  ]
+}

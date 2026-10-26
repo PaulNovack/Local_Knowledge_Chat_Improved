@@ -1,0 +1,102 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MI",
+    "brand": "caribou_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/michigan-latest.osm.pbf",
+    "source_md5": "1c9e00f502a3ea973e97c7d6f989094d",
+    "processed_utc": "2026-10-24T07:07:39.587953+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2747615001,
+      "tags": {
+        "addr:city": "Grand Rapids",
+        "addr:housenumber": "5551",
+        "addr:postcode": "49512",
+        "addr:street": "28th Street Southeast",
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "cuisine": "coffee_shop",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Caribou Coffee",
+        "takeaway": "yes"
+      },
+      "lat": 42.9135588,
+      "lon": -85.5306662
+    },
+    {
+      "type": "node",
+      "id": 8024128787,
+      "tags": {
+        "addr:city": "Stevensville",
+        "addr:housenumber": "5637",
+        "addr:postcode": "49127",
+        "addr:state": "MI",
+        "addr:street": "Cleveland Avenue",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Caribou Coffee",
+        "opening_hours": "Mo-Su 06:00-21:00",
+        "phone": "+1-269-429-1711",
+        "takeaway": "yes",
+        "website": "https://locations.cariboucoffee.com/us/mi/stevensville/5637-cleveland-avenue"
+      },
+      "lat": 42.0160428,
+      "lon": -86.4931056
+    },
+    {
+      "type": "node",
+      "id": 14250419278,
+      "tags": {
+        "addr:city": "Marquette",
+        "addr:housenumber": "1401",
+        "addr:postcode": "49855",
+        "addr:state": "MI",
+        "addr:street": "Odovero Drive",
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Caribou Coffee",
+        "opening_hours": "Mo-Su 06:00-17:00",
+        "outdoor_seating": "no",
+        "phone": "+1-906-226-3500",
+        "takeaway": "yes",
+        "website": "https://locations.cariboucoffee.com/us/mi/marquette/1401-odovero-drive"
+      },
+      "lat": 46.5425833,
+      "lon": -87.4243412
+    },
+    {
+      "type": "way",
+      "id": 452779810,
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Caribou Coffee"
+      },
+      "center": {
+        "lat": 42.45586205,
+        "lon": -83.13076194999996
+      }
+    }
+  ]
+}

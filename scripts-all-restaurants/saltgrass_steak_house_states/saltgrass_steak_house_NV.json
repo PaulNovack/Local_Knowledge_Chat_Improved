@@ -1,0 +1,52 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "saltgrass_steak_house",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4817057321,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Saltgrass Steak House",
+        "check_date": "2025-11-14",
+        "cuisine": "steak_house",
+        "internet_access": "wlan",
+        "name": "Saltgrass Steak House"
+      },
+      "lat": 38.9616658,
+      "lon": -119.9412786
+    },
+    {
+      "type": "node",
+      "id": 12570513045,
+      "tags": {
+        "addr:city": "Laughlin",
+        "addr:housenumber": "2300",
+        "addr:postcode": "89029",
+        "addr:state": "NV",
+        "addr:street": "South Casino Drive",
+        "amenity": "restaurant",
+        "brand": "Saltgrass Steak House",
+        "brand:wikidata": "Q7406113",
+        "cuisine": "steak_house",
+        "name": "Saltgrass Steak House",
+        "phone": "+1 702 798-7153"
+      },
+      "lat": 35.1545344,
+      "lon": -114.5725646
+    }
+  ]
+}

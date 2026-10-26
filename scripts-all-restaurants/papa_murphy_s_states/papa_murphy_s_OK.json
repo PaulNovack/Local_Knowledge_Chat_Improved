@@ -1,0 +1,95 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "papa_murphy_s",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4615637077,
+      "tags": {
+        "addr:city": "Oklahoma City",
+        "addr:housenumber": "9501",
+        "addr:state": "OK",
+        "addr:street": "North May Avenue",
+        "amenity": "fast_food",
+        "brand": "Papa Murphy's",
+        "brand:wikidata": "Q7132349",
+        "cuisine": "pizza",
+        "name": "Papa Murphy's",
+        "official_name": "Papa Murphy's Take 'N' Bake Pizza",
+        "takeaway": "only"
+      },
+      "lat": 35.5667499,
+      "lon": -97.5678603
+    },
+    {
+      "type": "node",
+      "id": 13991395101,
+      "tags": {
+        "addr:housenumber": "1295",
+        "addr:postcode": "73003",
+        "addr:street": "West Danforth Road",
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "name": "Papa Murphy's Take 'N' Bake"
+      },
+      "lat": 35.6681292,
+      "lon": -97.5002521
+    },
+    {
+      "type": "way",
+      "id": 370412986,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Papa Murphy's",
+        "brand:wikidata": "Q7132349",
+        "building": "yes",
+        "check_date": "2026-01-19",
+        "cuisine": "pizza",
+        "name": "Papa Murphy's",
+        "official_name": "Papa Murphy's Take 'N' Bake Pizza",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.09021355,
+        "lon": -95.90563810000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 546837671,
+      "tags": {
+        "addr:city": "Broken Arrow",
+        "addr:housenumber": "610",
+        "addr:postcode": "74012",
+        "addr:state": "OK",
+        "addr:street": "West Kenosha Street North",
+        "amenity": "fast_food",
+        "brand": "Papa Murphy's",
+        "brand:wikidata": "Q7132349",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Papa Murphy's",
+        "official_name": "Papa Murphy's Take 'N' Bake Pizza",
+        "phone": "+1-918-251-7272",
+        "takeaway": "only"
+      },
+      "center": {
+        "lat": 36.0613438,
+        "lon": -95.79642335000005
+      }
+    }
+  ]
+}

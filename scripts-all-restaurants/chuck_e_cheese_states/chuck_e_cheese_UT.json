@@ -1,0 +1,63 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "chuck_e_cheese",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12162459043,
+      "tags": {
+        "addr:housenumber": "4101",
+        "addr:street": "Riverdale Road",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "check_date": "2024-09-07",
+        "cuisine": "pizza",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "opening_hours": "Mo-Th,Su 11:00-21:00; Fr 11:00-22:00; Sa 10:00-22:00"
+      },
+      "lat": 41.1901865,
+      "lon": -111.9842822
+    },
+    {
+      "type": "way",
+      "id": 613170405,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "389",
+        "addr:postcode": "84115",
+        "addr:state": "UT",
+        "addr:street": "West 1830 South",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "commercial",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "utahagrc:parcelid": "15133760120000",
+        "website": "https://locations.chuckecheese.com/us/ut/saltlakecity/389-w.-1830-south"
+      },
+      "center": {
+        "lat": 40.729107049999996,
+        "lon": -111.9023292
+      }
+    }
+  ]
+}

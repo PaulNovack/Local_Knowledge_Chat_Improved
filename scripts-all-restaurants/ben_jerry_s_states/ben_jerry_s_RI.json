@@ -1,0 +1,91 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "RI",
+    "brand": "ben_jerry_s",
+    "source": "https://download.geofabrik.de/north-america/us/rhode-island-latest.osm.pbf",
+    "source_md5": "089bd14c5348318ad280c1c9ab732067",
+    "processed_utc": "2026-10-24T07:15:29.409283+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3474149915,
+      "tags": {
+        "addr:city": "Providence",
+        "addr:housenumber": "224",
+        "addr:postcode": "02906",
+        "addr:state": "RI",
+        "addr:street": "Thayer Street",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "check_date": "2026-06-18",
+        "cuisine": "ice_cream",
+        "internet_access": "yes",
+        "name": "Ben & Jerry's",
+        "opening_hours": "11:00-23:00"
+      },
+      "lat": 41.8277429,
+      "lon": -71.4007885
+    },
+    {
+      "type": "node",
+      "id": 6433065775,
+      "tags": {
+        "addr:city": "Newport",
+        "addr:housenumber": "33",
+        "addr:postcode": "02840",
+        "addr:state": "RI",
+        "addr:street": "Bannisters Wharf",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "check_date": "2026-07-18",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's"
+      },
+      "lat": 41.4862897,
+      "lon": -71.3166219
+    },
+    {
+      "type": "node",
+      "id": 7125130881,
+      "tags": {
+        "addr:city": "Newport",
+        "addr:housenumber": "359",
+        "addr:postcode": "02840",
+        "addr:state": "RI",
+        "addr:street": "Thames Street",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "check_date": "2026-07-18",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's"
+      },
+      "lat": 41.48366,
+      "lon": -71.3147407
+    },
+    {
+      "type": "node",
+      "id": 13069866015,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "check_date": "2025-08-13",
+        "name": "Ben & Jerry's"
+      },
+      "lat": 41.1725948,
+      "lon": -71.5581136
+    }
+  ]
+}

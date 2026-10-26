@@ -1,0 +1,65 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "saltgrass_steak_house",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 79511873,
+      "tags": {
+        "addr:city": "Orlando",
+        "addr:housenumber": "8850",
+        "addr:postcode": "32821",
+        "addr:state": "FL",
+        "addr:street": "Vineland Avenue",
+        "amenity": "restaurant",
+        "brand": "Saltgrass Steak House",
+        "brand:wikidata": "Q7406113",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Saltgrass Steak House",
+        "phone": "+1 407 560 0440",
+        "ref": "6423",
+        "source:addr:housenumber": "Orange County GIS data",
+        "website": "https://www.saltgrass.com/"
+      },
+      "center": {
+        "lat": 28.373317049999997,
+        "lon": -81.50290665
+      }
+    },
+    {
+      "type": "way",
+      "id": 230603814,
+      "tags": {
+        "addr:city": "Pensacola",
+        "addr:country": "US",
+        "addr:postcode": "32502",
+        "addr:state": "FL",
+        "amenity": "restaurant",
+        "brand": "Saltgrass Steak House",
+        "brand:wikidata": "Q7406113",
+        "building": "commercial",
+        "cuisine": "steak_house",
+        "name": "Saltgrass Steak House",
+        "source": "bing"
+      },
+      "center": {
+        "lat": 30.418225300000003,
+        "lon": -87.19801865
+      }
+    }
+  ]
+}

@@ -1,0 +1,936 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MI",
+    "brand": "chick_fil_a",
+    "source": "https://download.geofabrik.de/north-america/us/michigan-latest.osm.pbf",
+    "source_md5": "1c9e00f502a3ea973e97c7d6f989094d",
+    "processed_utc": "2026-10-24T07:07:39.587953+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3605144431,
+      "tags": {
+        "addr:city": "Romulus",
+        "addr:postcode": "48242",
+        "addr:state": "MI",
+        "addr:unit": "10",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "check_date": "2026-08-22",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "drive_through": "no",
+        "fixme:atp": "no ATP match, check if still exists",
+        "indoor_seating": "yes",
+        "name": "Chick-fil-A",
+        "note": "Receipt address was given as: Core 10 Concourse A // McNamara Terminal (DTW Airport) // Romulus, MI 48242",
+        "opening_hours": "Mo-Sa 05:00-22:00; Su off",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 734-941-3481",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/detroit-metropolitan-airport"
+      },
+      "lat": 42.2139376,
+      "lon": -83.3539967
+    },
+    {
+      "type": "node",
+      "id": 4783431307,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Th 10:00-19:00; Fr 10:00-17:00; PH off",
+        "opening_hours:url": "https://new.dineoncampus.com/oakland/where-to-eat",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "lat": 42.6744277,
+      "lon": -83.2166797
+    },
+    {
+      "type": "node",
+      "id": 8580830753,
+      "tags": {
+        "addr:city": "Shelby Township",
+        "addr:housenumber": "13811",
+        "addr:postcode": "48315",
+        "addr:state": "MI",
+        "addr:street": "Hall Road",
+        "amenity": "fast_food",
+        "branch": "Shelby Township",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "no",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Th 06:30-21:00; Fr-Sa 06:30-22:00; Su off",
+        "operator": "Dennis Sampier",
+        "phone": "+1 586-840-1311",
+        "ref": "04355",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/shelby-township-mi"
+      },
+      "lat": 42.6281231,
+      "lon": -82.9903028
+    },
+    {
+      "type": "node",
+      "id": 9331208987,
+      "tags": {
+        "addr:city": "Walker",
+        "addr:housenumber": "356",
+        "addr:postcode": "49534",
+        "addr:state": "MI",
+        "addr:street": "Wilson Avenue Northwest",
+        "amenity": "fast_food",
+        "branch": "Walker",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Th 06:30-21:00; Fr-Sa 06:30-22:00; Su off",
+        "phone": "+1 616-453-7045",
+        "ref": "04599",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/walker-mi"
+      },
+      "lat": 42.9718174,
+      "lon": -85.7758687
+    },
+    {
+      "type": "node",
+      "id": 11065958806,
+      "tags": {
+        "addr:city": "Grand Rapids",
+        "addr:housenumber": "5525",
+        "addr:postcode": "49512",
+        "addr:state": "MI",
+        "addr:street": "28th Street Southeast",
+        "amenity": "fast_food",
+        "branch": "Cascade",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Th 06:30-21:00; Fr-Sa 06:30-22:00; Su off",
+        "phone": "+1 616-600-1437",
+        "ref": "04428",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/cascade-mi"
+      },
+      "lat": 42.913698,
+      "lon": -85.532889
+    },
+    {
+      "type": "node",
+      "id": 11286251455,
+      "tags": {
+        "addr:city": "McKenny Hall",
+        "addr:housenumber": "878",
+        "addr:postcode": "48197",
+        "addr:state": "MI",
+        "addr:street": "West Cross Street",
+        "amenity": "fast_food",
+        "branch": "Eastern Michigan University",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "drive_through": "no",
+        "indoor_seating": "no",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Th 11:00-18:00; Fr 11:00-16:00; Su off",
+        "phone": "+1 734-487-0260",
+        "ref": "80643",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/eastern-michigan-university"
+      },
+      "lat": 42.2464025,
+      "lon": -83.6252205
+    },
+    {
+      "type": "node",
+      "id": 11952747623,
+      "tags": {
+        "addr:city": "Southfield",
+        "addr:housenumber": "28588",
+        "addr:postcode": "48034",
+        "addr:state": "MI",
+        "addr:street": "Telegraph Road",
+        "amenity": "fast_food",
+        "branch": "Southfield",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "drive_through": "yes",
+        "indoor_seating": "no",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-21:00; Su off",
+        "phone": "+1 248-480-7912",
+        "ref": "04712",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/southfield-mi"
+      },
+      "lat": 42.4973466,
+      "lon": -83.2842905
+    },
+    {
+      "type": "node",
+      "id": 12290750721,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "level": "1",
+        "name": "Chick-fil-A",
+        "takeaway": "yes"
+      },
+      "lat": 42.2292793,
+      "lon": -83.3462309
+    },
+    {
+      "type": "node",
+      "id": 13098460827,
+      "tags": {
+        "addr:city": "Saginaw",
+        "addr:housenumber": "2525",
+        "addr:postcode": "48604",
+        "addr:state": "MI",
+        "addr:street": "Tittabawassee Road",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "name": "Chick-fil-A",
+        "phone": "+1 989-252-7828",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/tittabawassee-road-saginaw-mi"
+      },
+      "lat": 43.4795684,
+      "lon": -83.9660635
+    },
+    {
+      "type": "node",
+      "id": 13226828422,
+      "tags": {
+        "addr:city": "Lincoln Park",
+        "addr:housenumber": "2060",
+        "addr:postcode": "48146",
+        "addr:state": "MI",
+        "addr:street": "Southfield Road",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Chick-fil-A",
+        "takeaway": "yes"
+      },
+      "lat": 42.2558942,
+      "lon": -83.1943664
+    },
+    {
+      "type": "way",
+      "id": 153485643,
+      "tags": {
+        "addr:city": "Taylor",
+        "addr:housenumber": "22250",
+        "addr:postcode": "48180",
+        "addr:state": "MI",
+        "addr:street": "Eureka Road",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Chick-fil-A",
+        "start_date": "2024-10-17",
+        "takeaway": "yes",
+        "toilets": "yes"
+      },
+      "center": {
+        "lat": 42.198463700000005,
+        "lon": -83.25059780000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 237861303,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Chick-fil-A",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.08374445,
+        "lon": -86.41851524999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 259413498,
+      "tags": {
+        "addr:city": "Kalamazoo",
+        "addr:housenumber": "4748",
+        "addr:postcode": "49006",
+        "addr:state": "MI",
+        "addr:street": "West Main Street",
+        "amenity": "fast_food",
+        "branch": "Kalamazoo Main Street",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "no",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-21:00; Su off",
+        "phone": "+1 269-337-1880",
+        "ref": "04369",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/kalamazoo-main-street-mi"
+      },
+      "center": {
+        "lat": 42.296884399999996,
+        "lon": -85.64766710000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 259999813,
+      "tags": {
+        "addr:city": "Lansing",
+        "addr:housenumber": "5617",
+        "addr:postcode": "48917",
+        "addr:state": "MI",
+        "addr:street": "West Saginaw Highway",
+        "amenity": "fast_food",
+        "branch": "Lansing",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "level": "0",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00",
+        "phone": "+1 517-321-7800",
+        "ref": "3706",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/Locations/MI/Lansing",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 42.74031,
+        "lon": -84.63028625000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 345330837,
+      "tags": {
+        "addr:city": "Ann Arbor",
+        "addr:housenumber": "3310",
+        "addr:postcode": "48104",
+        "addr:state": "MI",
+        "addr:street": "Washtenaw Avenue",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "retail",
+        "cuisine": "chicken",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Th 06:30-22:00; Fr,Sa 06:30-23:00",
+        "phone": "+1-734-998-1001",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/ann-arbor-washtenaw-mi"
+      },
+      "center": {
+        "lat": 42.25587455,
+        "lon": -83.69483464999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 441542863,
+      "tags": {
+        "addr:city": "Holland",
+        "addr:housenumber": "2332",
+        "addr:postcode": "49424",
+        "addr:state": "MI",
+        "addr:street": "North Park Drive",
+        "amenity": "fast_food",
+        "branch": "Holland",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Th 06:30-21:00; Fr-Sa 06:30-22:00; Su off",
+        "phone": "+1 616-355-9933",
+        "ref": "03605",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/holland"
+      },
+      "center": {
+        "lat": 42.81083785,
+        "lon": -86.08885889999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 542194748,
+      "tags": {
+        "addr:city": "Okemos",
+        "addr:country": "US",
+        "addr:housenumber": "2075",
+        "addr:postcode": "48864",
+        "addr:state": "MI",
+        "addr:street": "West Grand River Avenue",
+        "amenity": "fast_food",
+        "branch": "Okemos",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "commercial",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 855-692-7474",
+        "ref": "03695",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/okemos"
+      },
+      "center": {
+        "lat": 42.7212588,
+        "lon": -84.4258117
+      }
+    },
+    {
+      "type": "way",
+      "id": 742673854,
+      "tags": {
+        "addr:city": "Portage",
+        "addr:housenumber": "6202",
+        "addr:postcode": "49002",
+        "addr:state": "MI",
+        "addr:street": "South Westnedge Avenue",
+        "amenity": "fast_food",
+        "branch": "Westnedge",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-21:00; Su off",
+        "outdoor_seating": "no",
+        "phone": "+1 269-327-0877",
+        "ref": "03870",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/westnedge"
+      },
+      "center": {
+        "lat": 42.227477050000005,
+        "lon": -85.59005200000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 778700996,
+      "tags": {
+        "addr:city": "Allen Park",
+        "addr:housenumber": "3355",
+        "addr:postcode": "48101",
+        "addr:state": "MI",
+        "addr:street": "Fairlane Drive",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "building:year_built": "2019",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "indoor_seating": "yes",
+        "name": "Chick-fil-A",
+        "start_date": "2020-01-09",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/allen-park-mi"
+      },
+      "center": {
+        "lat": 42.280009,
+        "lon": -83.20720815000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 809690571,
+      "tags": {
+        "addr:city": "Troy",
+        "addr:housenumber": "2800",
+        "addr:postcode": "48084",
+        "addr:state": "MI",
+        "addr:street": "West Big Beaver Road",
+        "addr:unit": "Y-323",
+        "amenity": "fast_food",
+        "branch": "Somerset Collection North",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "no",
+        "indoor_seating": "no",
+        "internet_access": "wlan",
+        "level": "2",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 10:00-20:00; Su off",
+        "phone": "+1 248-930-0135",
+        "ref": "03875",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/somerset-collection-north"
+      },
+      "center": {
+        "lat": 42.56266025,
+        "lon": -83.18373439999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 896016299,
+      "tags": {
+        "addr:city": "Novi",
+        "addr:housenumber": "27750",
+        "addr:postcode": "48377",
+        "addr:state": "MI",
+        "addr:street": "Novi Road",
+        "amenity": "fast_food",
+        "branch": "Twelve Oaks",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-21:00; Su off",
+        "phone": "+1 248-993-0025",
+        "ref": "04367",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/twelve-oaks-mi"
+      },
+      "center": {
+        "lat": 42.489487,
+        "lon": -83.47531885000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1023375204,
+      "tags": {
+        "addr:city": "Grand Rapids",
+        "addr:housenumber": "1545",
+        "addr:postcode": "49508",
+        "addr:state": "MI",
+        "addr:street": "Edgeknoll Drive Southeast",
+        "amenity": "fast_food",
+        "branch": "Grand Rapids South",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Th 06:30-21:00; Fr-Sa 06:30-22:00; Su off",
+        "phone": "+1 616-656-6000",
+        "ref": "03769",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/grand-rapids-south",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 42.84563045,
+        "lon": -85.62566059999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 1038123484,
+      "tags": {
+        "addr:city": "Woodhaven",
+        "addr:housenumber": "20200",
+        "addr:postcode": "48183",
+        "addr:state": "MI",
+        "addr:street": "West Road",
+        "amenity": "fast_food",
+        "branch": "Woodhaven",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "building:year_built": "2021",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-21:00; Su off",
+        "phone": "+1 734-676-0210",
+        "ref": "04424",
+        "start_date": "2021-10-14",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/woodhaven-mi"
+      },
+      "center": {
+        "lat": 42.140703450000004,
+        "lon": -83.22948215000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1056726777,
+      "tags": {
+        "addr:city": "Grand Rapids",
+        "addr:housenumber": "2750",
+        "addr:postcode": "49546",
+        "addr:state": "MI",
+        "addr:street": "East Beltline Avenue Southeast",
+        "amenity": "fast_food",
+        "branch": "28th & Beltline",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Th 06:30-21:00; Fr-Sa 06:30-22:00; Su off",
+        "phone": "+1 616-464-2697",
+        "ref": "03723",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/28th-beltline"
+      },
+      "center": {
+        "lat": 42.91344385,
+        "lon": -85.58266474999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1067085774,
+      "tags": {
+        "addr:city": "Northville",
+        "addr:housenumber": "20135",
+        "addr:postcode": "48167",
+        "addr:state": "MI",
+        "addr:street": "Haggerty Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "Northville",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Th 06:30-21:00; Fr-Sa 06:30-22:00; Su off",
+        "phone": "+1 248-465-0065",
+        "ref": "04326",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/northville-mi"
+      },
+      "center": {
+        "lat": 42.4340927,
+        "lon": -83.4343384
+      }
+    },
+    {
+      "type": "way",
+      "id": 1099962516,
+      "tags": {
+        "addr:city": "Norton Shores",
+        "addr:housenumber": "5607",
+        "addr:postcode": "49444",
+        "addr:state": "MI",
+        "addr:street": "South Harvey Street",
+        "amenity": "fast_food",
+        "branch": "Norton Shores",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Th 06:30-21:00; Fr-Sa 06:30-22:00; Su off",
+        "phone": "+1 231-799-0107",
+        "ref": "04226",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/norton-shores-mi"
+      },
+      "center": {
+        "lat": 43.1497432,
+        "lon": -86.20652304999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1136852986,
+      "tags": {
+        "addr:city": "Wyoming",
+        "addr:housenumber": "700",
+        "addr:postcode": "49509",
+        "addr:state": "MI",
+        "addr:street": "54th Street Southwest",
+        "amenity": "fast_food",
+        "branch": "54th and 131",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00; Su off",
+        "phone": "+1 616-534-2961",
+        "ref": "03815",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/54th-and-131"
+      },
+      "center": {
+        "lat": 42.8654609,
+        "lon": -85.68118764999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1155143477,
+      "tags": {
+        "addr:city": "Traverse City",
+        "addr:housenumber": "2700",
+        "addr:postcode": "49684",
+        "addr:state": "MI",
+        "addr:street": "North US 31 South",
+        "amenity": "fast_food",
+        "branch": "Traverse City",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Th 06:30-21:00; Fr-Sa 06:30-22:00; Su off",
+        "phone": "+1 231-493-8881",
+        "ref": "04815",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/traverse-city-mi"
+      },
+      "center": {
+        "lat": 44.7273251,
+        "lon": -85.64530524999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1178493795,
+      "tags": {
+        "addr:city": "Livonia",
+        "addr:housenumber": "11700",
+        "addr:postcode": "48150",
+        "addr:state": "MI",
+        "addr:street": "Middlebelt Road",
+        "amenity": "fast_food",
+        "branch": "Livonia",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "building:year_built": "2022",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-21:00; Su off",
+        "phone": "+1 734-744-3337",
+        "ref": "04664",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/livonia-mi"
+      },
+      "center": {
+        "lat": 42.3708967,
+        "lon": -83.33261855
+      }
+    },
+    {
+      "type": "way",
+      "id": 1274306329,
+      "tags": {
+        "addr:city": "Battle Creek",
+        "addr:housenumber": "6083",
+        "addr:postcode": "49014",
+        "addr:state": "MI",
+        "addr:street": "B Drive North",
+        "amenity": "fast_food",
+        "branch": "Battle Creek",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00; Su off",
+        "phone": "+1 269-468-5454",
+        "ref": "04849",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/battle-creek-mi"
+      },
+      "center": {
+        "lat": 42.261518300000006,
+        "lon": -85.17721465
+      }
+    },
+    {
+      "type": "way",
+      "id": 1312522910,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "indoor_seating": "yes",
+        "name": "Chick-fil-A",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.99088715,
+        "lon": -83.73722140000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1328458212,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "fixme": "Rough outline, needs to be updated once newer aerial imagery is available 10/26/24",
+        "name": "Chick-fil-A",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 43.0261333,
+        "lon": -85.68976810000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1523121350,
+      "tags": {
+        "addr:city": "Monroe",
+        "addr:housenumber": "2071",
+        "addr:postcode": "48162",
+        "addr:state": "MI",
+        "addr:street": "North Telegraph Road",
+        "amenity": "fast_food",
+        "branch": "Monroe (MI)",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Chick-fil-A",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mi/monroe-mi"
+      },
+      "center": {
+        "lat": 41.9507734,
+        "lon": -83.40014535
+      }
+    }
+  ]
+}

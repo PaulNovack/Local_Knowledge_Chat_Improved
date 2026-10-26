@@ -1,0 +1,74 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OR",
+    "brand": "raising_cane_s",
+    "source": "https://download.geofabrik.de/north-america/us/oregon-latest.osm.pbf",
+    "source_md5": "bc93fd72fe4589fdc6c9b2b497cb7ef1",
+    "processed_utc": "2026-10-24T07:14:41.004303+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11082114305,
+      "tags": {
+        "addr:city": "Portland",
+        "addr:housenumber": "700",
+        "addr:postcode": "97204",
+        "addr:state": "OR",
+        "addr:street": "Southwest 5th Avenue",
+        "addr:unit": "1109",
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "cuisine": "chicken",
+        "indoor_seating": "yes",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "outdoor_seating": "no",
+        "takeaway": "yes",
+        "website": "https://locations.raisingcanes.com/or/portland/700-sw-5th-st-1109"
+      },
+      "lat": 45.517511,
+      "lon": -122.6779068
+    },
+    {
+      "type": "way",
+      "id": 1545595991,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "2720",
+        "addr:postcode": "97477",
+        "addr:state": "OR",
+        "addr:street": "Gateway Street",
+        "amenity": "fast_food",
+        "branch": "1267",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "building": "retail",
+        "check_date": "2026-10-13",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "opening_hours": "10:00-01:00; Tu 09:00-01:00; Fr,Sa 10:00-02:00",
+        "operator": "BRFI Gateway LLC",
+        "phone": "+1-458-239-6808",
+        "start_date": "2026-10-13",
+        "takeaway": "yes",
+        "website": "https://locations.raisingcanes.com/or/springfield/2720-gateway-st"
+      },
+      "center": {
+        "lat": 44.07022445,
+        "lon": -123.04477014999998
+      }
+    }
+  ]
+}

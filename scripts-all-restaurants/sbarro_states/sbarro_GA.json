@@ -1,0 +1,91 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "sbarro",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5195048895,
+      "tags": {
+        "addr:floor": "G",
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "check_date": "2026-05-16",
+        "cuisine": "pizza",
+        "level": "0",
+        "name": "Sbarro",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 33.9240577,
+      "lon": -84.3409295
+    },
+    {
+      "type": "node",
+      "id": 8902471953,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "level": "2",
+        "name": "Sbarro",
+        "takeaway": "yes"
+      },
+      "lat": 33.7282041,
+      "lon": -84.7448146
+    },
+    {
+      "type": "node",
+      "id": 13474989127,
+      "tags": {
+        "addr:floor": "G",
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "check_date": "2026-01-21",
+        "cuisine": "pizza",
+        "level": "0",
+        "name": "Sbarro",
+        "takeaway": "yes"
+      },
+      "lat": 33.9805873,
+      "lon": -84.0808849
+    },
+    {
+      "type": "node",
+      "id": 13712004961,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Sbarro",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "operator": "Sbarro",
+        "takeaway": "only"
+      },
+      "lat": 33.6424517,
+      "lon": -84.4327368
+    }
+  ]
+}

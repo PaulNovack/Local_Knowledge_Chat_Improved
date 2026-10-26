@@ -1,0 +1,704 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/3.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NH",
+    "brand": "wendys",
+    "source": "https://download.geofabrik.de/north-america/us/new-hampshire-latest.osm.pbf",
+    "source_md5": "603b90470df09c1b933955cbfe841c6d",
+    "processed_utc": "2026-10-24T06:30:11.350834+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1772991683,
+      "tags": {
+        "addr:city": "Milford",
+        "addr:housenumber": "153",
+        "addr:postcode": "03055",
+        "addr:state": "NH",
+        "addr:street": "Elm Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Wendy's",
+        "phone": "+1-603-672-1600",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/milford/153-elm-st"
+      },
+      "lat": 42.8373841,
+      "lon": -71.6636909
+    },
+    {
+      "type": "node",
+      "id": 14167166701,
+      "tags": {
+        "addr:housenumber": "1411",
+        "addr:postcode": "03461",
+        "addr:street": "NH Route 119",
+        "amenity": "fast_food",
+        "check_date": "2026-09-09",
+        "check_date:opening_hours": "2026-09-09",
+        "cuisine": "american;breakfast;burger;chicken;grill;sandwich",
+        "name": "Wendy's",
+        "opening_hours": "Su-Th 10:00-23:00; Fr-Sa 10:00-00:00",
+        "phone": "+1-603-899-2264",
+        "website": "https://locations.wendys.com/united-states/nh/rindge/1411-nh-route-119",
+        "website:menu": "https://order.wendys.com/us/en/national/menu"
+      },
+      "lat": 42.7615304,
+      "lon": -72.0361919
+    },
+    {
+      "type": "way",
+      "id": 31362116,
+      "tags": {
+        "addr:city": "Londonderry",
+        "addr:housenumber": "36",
+        "addr:postcode": "03053",
+        "addr:state": "NH",
+        "addr:street": "Nashua Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-23:00; Fr-Sa 06:30-00:00; Su 06:30-23:00",
+        "phone": "+1 603-432-3920",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/londonderry/36-nashua-rd"
+      },
+      "center": {
+        "lat": 42.8676855,
+        "lon": -71.34675960000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 71368178,
+      "tags": {
+        "addr:city": "Nashua",
+        "addr:housenumber": "46",
+        "addr:postcode": "03060",
+        "addr:state": "NH",
+        "addr:street": "East Hollis Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "building:levels": "1",
+        "building:material": "brick",
+        "check_date": "2024-10-21",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-01:00; Fr-Sa 06:30-02:00; Su 06:30-01:00",
+        "phone": "+1 603-594-8838",
+        "ref": "8200",
+        "roof:shape": "flat",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/nashua/46-e-hollis-street"
+      },
+      "center": {
+        "lat": 42.75933805,
+        "lon": -71.45782600000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 73754702,
+      "tags": {
+        "addr:city": "Hooksett",
+        "addr:housenumber": "206",
+        "addr:postcode": "03106",
+        "addr:state": "NH",
+        "addr:street": "Quality Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 603-668-5362",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/hooksett/206-quality-dr"
+      },
+      "center": {
+        "lat": 43.0475424,
+        "lon": -71.46043429999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 80214152,
+      "tags": {
+        "addr:city": "Salem",
+        "addr:housenumber": "316",
+        "addr:postcode": "03079",
+        "addr:state": "NH",
+        "addr:street": "North Broadway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-00:00; Fr-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 603-898-1996",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/salem/316-n-broadway"
+      },
+      "center": {
+        "lat": 42.800117549999996,
+        "lon": -71.23978554999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 85245804,
+      "tags": {
+        "addr:city": "Portsmouth",
+        "addr:housenumber": "1465",
+        "addr:postcode": "03801",
+        "addr:state": "NH",
+        "addr:street": "Woodbury Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2026-06-08",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "phone": "+1-603-430-7835",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/portsmouth/1465-woodbury-ave"
+      },
+      "center": {
+        "lat": 43.0886134,
+        "lon": -70.78986800000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 85931761,
+      "tags": {
+        "addr:city": "Manchester",
+        "addr:housenumber": "675",
+        "addr:postcode": "03103",
+        "addr:state": "NH",
+        "addr:street": "South Willow Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 603-623-2122",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/manchester/675-south-willow-st"
+      },
+      "center": {
+        "lat": 42.964703150000005,
+        "lon": -71.4472093
+      }
+    },
+    {
+      "type": "way",
+      "id": 106468457,
+      "tags": {
+        "addr:city": "West Lebanon",
+        "addr:housenumber": "258",
+        "addr:postcode": "03784",
+        "addr:state": "NH",
+        "addr:street": "Plainfield Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-20:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-20:00",
+        "phone": "+1 603-298-7814",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/west-lebanon/258-plainfield-rd"
+      },
+      "center": {
+        "lat": 43.62757315,
+        "lon": -72.32390980000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 106989218,
+      "tags": {
+        "addr:city": "Lee",
+        "addr:housenumber": "95",
+        "addr:postcode": "03861",
+        "addr:state": "NH",
+        "addr:street": "Calef Highway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "check_date": "2026-03-22",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-00:00; Fr-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 603-868-1502",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/lee/95-calef-highway"
+      },
+      "center": {
+        "lat": 43.14996255,
+        "lon": -71.00591689999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 116979332,
+      "tags": {
+        "addr:city": "Nashua",
+        "addr:housenumber": "14",
+        "addr:postcode": "03063",
+        "addr:state": "NH",
+        "addr:street": "Gusabel Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "check_date": "2024-09-10",
+        "cuisine": "burger",
+        "drive_through": "Mo-Fr 00:00-01:00,10:00-24:00; Sa,Su 00:00-02:00,10:00-24:00",
+        "name": "Wendy's",
+        "opening_hours": "06:30-10:30",
+        "phone": "+1 603-577-8719",
+        "ref": "9523",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/nashua/14-gusabel-ave"
+      },
+      "center": {
+        "lat": 42.766554,
+        "lon": -71.49456190000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 138519852,
+      "tags": {
+        "addr:city": "Epping",
+        "addr:housenumber": "115",
+        "addr:postcode": "03042",
+        "addr:state": "NH",
+        "addr:street": "Calef Highway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "check_date": "2026-09-04",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 603-679-2326",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/epping/115-calef-road"
+      },
+      "center": {
+        "lat": 43.033312949999996,
+        "lon": -71.07166295000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 159118694,
+      "tags": {
+        "addr:city": "Concord",
+        "addr:housenumber": "106",
+        "addr:postcode": "03301",
+        "addr:state": "NH",
+        "addr:street": "Loudon Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-22:00; Fr-Sa 06:30-23:00; Su 06:30-22:00",
+        "phone": "+1 603-224-1951",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/concord/106-loudon-road"
+      },
+      "center": {
+        "lat": 43.2125766,
+        "lon": -71.51391810000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 207690566,
+      "tags": {
+        "addr:city": "Manchester",
+        "addr:housenumber": "860",
+        "addr:postcode": "03109",
+        "addr:state": "NH",
+        "addr:street": "Candia Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-00:00; Fr-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 603-222-9074",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/manchester/860-candia-road"
+      },
+      "center": {
+        "lat": 42.98521395,
+        "lon": -71.41248374999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 241059993,
+      "tags": {
+        "addr:city": "Nashua",
+        "addr:housenumber": "631",
+        "addr:postcode": "03063",
+        "addr:state": "NH",
+        "addr:street": "Amherst Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-23:00; Fr-Sa 06:30-00:00; Su 06:30-23:00",
+        "phone": "+1 603-577-8706",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/nashua/631-amherst-st"
+      },
+      "center": {
+        "lat": 42.80320585,
+        "lon": -71.54042445000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 395788622,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:housenumber": "198",
+        "addr:postcode": "03867",
+        "addr:state": "NH",
+        "addr:street": "Wakefield Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 603-332-5975",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/rochester/198-wakefield-st"
+      },
+      "center": {
+        "lat": 43.317429700000005,
+        "lon": -70.97716654999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 400479809,
+      "tags": {
+        "addr:city": "Claremont",
+        "addr:housenumber": "384",
+        "addr:postcode": "03743",
+        "addr:state": "NH",
+        "addr:street": "Washington Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger;breakfast",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Su-Th 06:30-23:00; Fr-Sa 06:30-24:00",
+        "phone": "+1-603-504-6038",
+        "takeaway": "yes",
+        "website:menu": "https://order.wendys.com/?site=14490"
+      },
+      "center": {
+        "lat": 43.3632508,
+        "lon": -72.31548090000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 414697515,
+      "tags": {
+        "addr:city": "Dover",
+        "addr:housenumber": "909",
+        "addr:postcode": "03820",
+        "addr:state": "NH",
+        "addr:street": "Central Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 603-742-9967",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/dover/909-central-ave"
+      },
+      "center": {
+        "lat": 43.2203882,
+        "lon": -70.88499224999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 574509884,
+      "tags": {
+        "addr:city": "Gilford",
+        "addr:housenumber": "1428",
+        "addr:postcode": "03249",
+        "addr:state": "NH",
+        "addr:street": "Lake Shore Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "commercial",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-22:00; Fr-Sa 06:30-23:00; Su 06:30-22:00",
+        "phone": "+1 603-528-9666",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/gilford/1428-lake-shore-rd"
+      },
+      "center": {
+        "lat": 43.563403550000004,
+        "lon": -71.44416465
+      }
+    },
+    {
+      "type": "way",
+      "id": 584031315,
+      "tags": {
+        "addr:city": "Tilton",
+        "addr:housenumber": "156",
+        "addr:postcode": "03276",
+        "addr:state": "NH",
+        "addr:street": "Laconia Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-22:00; Fr-Sa 06:30-00:00; Su 06:30-22:00",
+        "phone": "+1 603-286-9644",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/tilton/156-laconia-rd",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 43.459755,
+        "lon": -71.55793975
+      }
+    },
+    {
+      "type": "way",
+      "id": 605323706,
+      "tags": {
+        "addr:city": "Seabrook",
+        "addr:housenumber": "570",
+        "addr:postcode": "03874",
+        "addr:state": "NH",
+        "addr:street": "Lafayette Road",
+        "addr:unit": "1001",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "check_date": "2023-01-27",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 603-474-0402",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/seabrook/570-lafayette-rd-unit"
+      },
+      "center": {
+        "lat": 42.89151475,
+        "lon": -70.8716215
+      }
+    },
+    {
+      "type": "way",
+      "id": 693054196,
+      "tags": {
+        "addr:city": "Epsom",
+        "addr:housenumber": "1924",
+        "addr:postcode": "03234",
+        "addr:state": "NH",
+        "addr:street": "Dover Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Sa 09:00-22:00; Su 11:00-20:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-22:00; Fr-Sa 06:30-23:00; Su 06:30-22:00",
+        "phone": "+1 603-736-3324",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/epsom/1924-dover-road"
+      },
+      "center": {
+        "lat": 43.2289835,
+        "lon": -71.36294045
+      }
+    },
+    {
+      "type": "way",
+      "id": 835274036,
+      "tags": {
+        "addr:city": "Manchester",
+        "addr:housenumber": "722",
+        "addr:postcode": "03102",
+        "addr:state": "NH",
+        "addr:street": "Second Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "check_date": "2025-12-05",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 603-626-7081",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/manchester/722-second-st"
+      },
+      "center": {
+        "lat": 42.9709481,
+        "lon": -71.4775616
+      }
+    },
+    {
+      "type": "way",
+      "id": 1205272759,
+      "tags": {
+        "addr:city": "Concord",
+        "addr:country": "US",
+        "addr:housenumber": "2",
+        "addr:postcode": "03301",
+        "addr:state": "NH",
+        "addr:street": "Merchants Way",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 43.287850750000004,
+        "lon": -71.58005405
+      }
+    },
+    {
+      "type": "way",
+      "id": 1206212870,
+      "tags": {
+        "addr:city": "Milford",
+        "addr:housenumber": "153",
+        "addr:postcode": "03055",
+        "addr:state": "NH",
+        "addr:street": "Elm Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-22:00; Fr-Sa 06:30-00:00; Su 06:30-22:00",
+        "phone": "+1 603-672-1600",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nh/milford/153-elm-st"
+      },
+      "center": {
+        "lat": 42.837414550000005,
+        "lon": -71.66370989999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1316716974,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.925411,
+        "lon": -72.2896485
+      }
+    }
+  ]
+}

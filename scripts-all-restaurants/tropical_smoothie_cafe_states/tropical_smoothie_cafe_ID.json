@@ -1,0 +1,67 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ID",
+    "brand": "tropical_smoothie_cafe",
+    "source": "https://download.geofabrik.de/north-america/us/idaho-latest.osm.pbf",
+    "source_md5": "1a1a06364d5343af00d67fef4750905f",
+    "processed_utc": "2026-10-24T07:02:45.671077+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6767074700,
+      "tags": {
+        "addr:city": "Boise",
+        "addr:housenumber": "777",
+        "addr:postcode": "83702",
+        "addr:state": "ID",
+        "addr:street": "West Main Street",
+        "addr:unit": "120",
+        "amenity": "fast_food",
+        "brand": "Tropical Smoothie Cafe",
+        "brand:wikidata": "Q7845817",
+        "cuisine": "juice",
+        "name": "Tropical Smoothie Cafe",
+        "opening_hours": "Mo-Fr 07:00-20:00; Sa 09:00-20:00; Su 10:00-17:00",
+        "takeaway": "yes"
+      },
+      "lat": 43.6152596,
+      "lon": -116.2037189
+    },
+    {
+      "type": "way",
+      "id": 1154904730,
+      "tags": {
+        "addr:city": "Nampa",
+        "addr:housenumber": "1355",
+        "addr:postcode": "83651",
+        "addr:state": "ID",
+        "addr:street": "Caldwell Boulevard",
+        "addr:unit": "103",
+        "amenity": "fast_food",
+        "brand": "Tropical Smoothie Cafe",
+        "brand:wikidata": "Q7845817",
+        "building": "yes",
+        "cuisine": "juice",
+        "drive_through": "yes",
+        "name": "Tropical Smoothie Cafe",
+        "opening_hours": "Mo-Fr 07:00-21:00, Sa-Su 08:00-21:00",
+        "phone": "+1-208-314-9580",
+        "takeaway": "yes",
+        "website": "https://locations.tropicalsmoothiecafe.com/id/nampa/1355-caldwell-blvd"
+      },
+      "center": {
+        "lat": 43.6012884,
+        "lon": -116.59833155000001
+      }
+    }
+  ]
+}

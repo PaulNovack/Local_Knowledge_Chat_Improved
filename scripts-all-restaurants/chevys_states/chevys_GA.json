@@ -1,0 +1,44 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "chevys",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1234601499,
+      "tags": {
+        "addr:city": "Gray",
+        "addr:housenumber": "115",
+        "addr:postcode": "31032",
+        "addr:state": "GA",
+        "addr:street": "West Clinton Street",
+        "amenity": "restaurant",
+        "brand": "Chevys Fresh Mex",
+        "brand:wikidata": "Q5094466",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Chevys",
+        "official_name": "Chevys Fresh Mex",
+        "opening_hours": "Mo-Th, Su 11:00-21:00; Fr, Sa 11:00-22:00",
+        "phone": "+1-478-986-9800",
+        "website": "https://m.facebook.com/chevys.pizza"
+      },
+      "center": {
+        "lat": 33.00879855,
+        "lon": -83.53495329999998
+      }
+    }
+  ]
+}

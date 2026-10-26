@@ -1,0 +1,68 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SD",
+    "brand": "panera_bread",
+    "source": "https://download.geofabrik.de/north-america/us/south-dakota-latest.osm.pbf",
+    "source_md5": "4d012b130d8682e6f0e1bc093c255981",
+    "processed_utc": "2026-10-24T07:16:00.169778+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4060933593,
+      "tags": {
+        "addr:city": "Sioux Falls",
+        "addr:housenumber": "5117",
+        "addr:postcode": "57108",
+        "addr:state": "SD",
+        "addr:street": "South Louise Avenue",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Fr 06:30-21:00; Sa-Su 07:00-21:00",
+        "phone": "+1 605-361-1100",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/sd/sioux-falls/5117-s-louise-ave.html"
+      },
+      "lat": 43.4990167,
+      "lon": -96.7716025
+    },
+    {
+      "type": "way",
+      "id": 1011511300,
+      "tags": {
+        "addr:city": "Rapid City",
+        "addr:housenumber": "1830",
+        "addr:postcode": "57701",
+        "addr:state": "SD",
+        "addr:street": "Eglin Street",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "retail",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "07:00-21:00",
+        "phone": "+1 605-646-6084",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/sd/rapid-city/1830-eglin-street.html"
+      },
+      "center": {
+        "lat": 44.09787145,
+        "lon": -103.18169890000001
+      }
+    }
+  ]
+}

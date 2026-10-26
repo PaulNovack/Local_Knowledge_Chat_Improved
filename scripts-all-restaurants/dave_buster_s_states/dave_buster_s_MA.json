@@ -1,0 +1,87 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "dave_buster_s",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9143282753,
+      "tags": {
+        "addr:city": "Natick",
+        "addr:housenumber": "1235",
+        "addr:postcode": "01760",
+        "addr:street": "Worcester Street",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "check_date": "2026-03-15",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "limited"
+      },
+      "lat": 42.3008707,
+      "lon": -71.3815039
+    },
+    {
+      "type": "way",
+      "id": 344620079,
+      "tags": {
+        "addr:city": "Woburn",
+        "addr:housenumber": "271",
+        "addr:postcode": "01801",
+        "addr:state": "MA",
+        "addr:street": "Mishawum Road",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "retail",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "note": "Building may need to be updated once Aerial view is updated."
+      },
+      "center": {
+        "lat": 42.5025341,
+        "lon": -71.13874955
+      }
+    },
+    {
+      "type": "way",
+      "id": 549222809,
+      "tags": {
+        "addr:city": "Braintree",
+        "addr:housenumber": "250",
+        "addr:postcode": "02184",
+        "addr:street": "Granite Street",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "yes",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "phone": "+1 781-519-7900",
+        "website": "https://www.daveandbusters.com/locations/StoreInformation.aspx?StoreId=61"
+      },
+      "center": {
+        "lat": 42.218999100000005,
+        "lon": -71.02345000000003
+      }
+    }
+  ]
+}

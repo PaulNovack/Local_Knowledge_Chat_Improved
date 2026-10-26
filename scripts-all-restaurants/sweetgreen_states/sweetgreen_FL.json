@@ -1,0 +1,87 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "sweetgreen",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11336950638,
+      "tags": {
+        "addr:city": "Miami",
+        "addr:housenumber": "2621",
+        "addr:postcode": "33127",
+        "addr:state": "FL",
+        "addr:street": "Northwest 2nd Avenue",
+        "amenity": "fast_food",
+        "brand": "Sweetgreen",
+        "brand:wikidata": "Q18636413",
+        "cuisine": "salad",
+        "drive_through": "no",
+        "name": "Sweetgreen",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "phone": "+1-305-614-9007",
+        "takeaway": "yes",
+        "website": "https://order.sweetgreen.com/wynwood/menu"
+      },
+      "lat": 25.8016774,
+      "lon": -80.1989806
+    },
+    {
+      "type": "node",
+      "id": 14040115101,
+      "tags": {
+        "addr:city": "Tampa",
+        "addr:housenumber": "722",
+        "addr:postcode": "33606",
+        "addr:state": "FL",
+        "addr:street": "South Village Circle",
+        "amenity": "fast_food",
+        "brand": "sweetgreen",
+        "brand:wikidata": "Q18636413",
+        "check_date": "2026-07-22",
+        "check_date:opening_hours": "2026-07-22",
+        "contact:facebook": "sweetgreen",
+        "contact:instagram": "sweetgreen",
+        "cuisine": "salad",
+        "drive_through": "no",
+        "level": "0",
+        "name": "sweetgreen",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "phone": "+1-813-680-4050",
+        "takeaway": "yes",
+        "website": "https://www.sweetgreen.com/locations/hyde-park-village"
+      },
+      "lat": 27.9358684,
+      "lon": -82.4751863
+    },
+    {
+      "type": "way",
+      "id": 1335713051,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sweetgreen",
+        "brand:wikidata": "Q18636413",
+        "building:part": "retail",
+        "cuisine": "salad",
+        "name": "Sweetgreen",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 26.707367849999997,
+        "lon": -80.05747365000002
+      }
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "cafe_rio",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2610302995,
+      "tags": {
+        "addr:housenumber": "5100",
+        "addr:street": "Buckeystown Pike",
+        "amenity": "restaurant",
+        "brand": "Cafe Rio",
+        "brand:wikidata": "Q5017108",
+        "check_date": "2023-04-29",
+        "cuisine": "mexican",
+        "name": "Cafe Rio",
+        "opening_hours": "Mo-Sa 10:30-22:00; Su 11:00-22:00",
+        "phone": "+1 240-415-7240",
+        "website": "https://www.caferio.com/order/frederick"
+      },
+      "lat": 39.3722454,
+      "lon": -77.4125403
+    },
+    {
+      "type": "node",
+      "id": 2624987608,
+      "tags": {
+        "addr:city": "Rockville",
+        "addr:housenumber": "10062",
+        "addr:postcode": "20850",
+        "addr:state": "MD",
+        "addr:street": "Darnestown Road",
+        "amenity": "restaurant",
+        "brand": "Cafe Rio",
+        "brand:wikidata": "Q5017108",
+        "cuisine": "mexican",
+        "name": "Cafe Rio",
+        "opening_hours": "Mo-We 10:30-22:00; Th-Sa 10:30-23:00; Su 11:00-21:00",
+        "phone": "+1-301-309-4111"
+      },
+      "lat": 39.0959726,
+      "lon": -77.2076354
+    },
+    {
+      "type": "node",
+      "id": 5762635513,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cafe Rio",
+        "brand:wikidata": "Q5017108",
+        "cuisine": "mexican",
+        "name": "Cafe Rio",
+        "website": "https://www.caferio.com/locations/germantown"
+      },
+      "lat": 39.1997732,
+      "lon": -77.254093
+    },
+    {
+      "type": "way",
+      "id": 44965802,
+      "tags": {
+        "addr:city": "Olney",
+        "addr:housenumber": "3142",
+        "addr:postcode": "20832",
+        "addr:state": "MD",
+        "addr:street": "Olney Sandy Spring Road",
+        "amenity": "restaurant",
+        "brand": "Cafe Rio",
+        "brand:wikidata": "Q5017108",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Cafe Rio"
+      },
+      "center": {
+        "lat": 39.151251349999995,
+        "lon": -77.06468244999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 206883734,
+      "tags": {
+        "addr:city": "Severna Park",
+        "addr:housenumber": "586",
+        "addr:postcode": "21146",
+        "addr:state": "MD",
+        "addr:street": "Ritchie Highway",
+        "amenity": "restaurant",
+        "brand": "Cafe Rio",
+        "brand:wikidata": "Q5017108",
+        "building": "retail",
+        "check_date": "2026-04-07",
+        "contact:facebook": "https://www.facebook.com/CafeRioSevernaPark/",
+        "cuisine": "mexican",
+        "disused:amenity": "fast_food",
+        "name": "Cafe Rio",
+        "opening_hours": "Mo-Sa 10:30-22:00; Su 11:00-22:00",
+        "phone": "+1 443-906-1810"
+      },
+      "center": {
+        "lat": 39.0748268,
+        "lon": -76.54424895
+      }
+    }
+  ]
+}

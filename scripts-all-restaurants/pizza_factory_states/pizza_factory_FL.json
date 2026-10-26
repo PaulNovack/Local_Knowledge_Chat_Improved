@@ -1,0 +1,32 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "pizza_factory",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 462067756,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Factory",
+        "brand:wikidata": "Q39054369",
+        "cuisine": "pizza",
+        "name": "Pizza Factory"
+      },
+      "lat": 29.205558,
+      "lon": -82.1035035
+    }
+  ]
+}

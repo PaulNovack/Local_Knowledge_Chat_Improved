@@ -1,0 +1,91 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "culver_s",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11911077031,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:country": "US",
+        "addr:housenumber": "2231",
+        "addr:postcode": "82001",
+        "addr:state": "WY",
+        "addr:street": "East Lincolnway",
+        "amenity": "fast_food",
+        "branch": "Cheyenne, WY - E Lincolnway",
+        "brand": "Culver's",
+        "brand:wikidata": "Q1143589",
+        "check_date:opening_hours": "2024-06-09",
+        "check_date:opening_hours:drive_through": "2024-06-09",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Culver's",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr-Sa 10:00-23:00; Su 10:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 10:00-22:00; Fr-Sa 10:00-23:00; Su 10:00-22:00",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 307-369-4136",
+        "ref": "857",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://www.culvers.com/restaurants/cheyenne-wy-lincolnway"
+      },
+      "lat": 41.138029,
+      "lon": -104.7905073
+    },
+    {
+      "type": "way",
+      "id": 900013272,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:country": "US",
+        "addr:housenumber": "1239",
+        "addr:postcode": "82009",
+        "addr:state": "WY",
+        "addr:street": "Dell Range Boulevard",
+        "amenity": "fast_food",
+        "branch": "Cheyenne, WY - Dell Range Blvd",
+        "brand": "Culver's",
+        "brand:wikidata": "Q1143589",
+        "building": "retail",
+        "check_date:opening_hours:drive_through": "2024-06-09",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Culver's",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr 10:00-23:00; Sa-Su 10:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 10:00-22:00; Fr 10:00-23:00; Sa-Su 10:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 307-778-3166",
+        "ref": "284",
+        "source": "local visit;company website",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://www.culvers.com/restaurants/cheyenne"
+      },
+      "center": {
+        "lat": 41.158857600000005,
+        "lon": -104.8098152
+      }
+    }
+  ]
+}

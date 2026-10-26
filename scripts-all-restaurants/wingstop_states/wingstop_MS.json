@@ -1,0 +1,99 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "wingstop",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3608078601,
+      "tags": {
+        "addr:city": "Oxford",
+        "addr:housenumber": "1522",
+        "addr:postcode": "38655",
+        "addr:state": "MS",
+        "addr:street": "Jackson Avenue West",
+        "amenity": "fast_food",
+        "branch": "Oxford Jackson Avenue",
+        "brand": "Wingstop",
+        "brand:wikidata": "Q8025339",
+        "cuisine": "wings",
+        "delivery": "no",
+        "name": "Wingstop",
+        "phone": "+1 662-380-5667",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "ww.wingstop.com/"
+      },
+      "lat": 34.3659038,
+      "lon": -89.5510569
+    },
+    {
+      "type": "node",
+      "id": 10876171272,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wingstop",
+        "brand:wikidata": "Q8025339",
+        "cuisine": "wings",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Wingstop",
+        "takeaway": "yes"
+      },
+      "lat": 33.4488666,
+      "lon": -88.8400203
+    },
+    {
+      "type": "node",
+      "id": 12431629897,
+      "tags": {
+        "addr:unit": "5B",
+        "amenity": "fast_food",
+        "brand": "Wingstop",
+        "brand:wikidata": "Q8025339",
+        "cuisine": "wings",
+        "name": "Wingstop",
+        "takeaway": "yes"
+      },
+      "lat": 32.3533326,
+      "lon": -90.0221253
+    },
+    {
+      "type": "node",
+      "id": 13441800907,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wingstop",
+        "cuisine": "wings",
+        "name": "Wingstop"
+      },
+      "lat": 34.2017238,
+      "lon": -90.5718417
+    },
+    {
+      "type": "node",
+      "id": 13897776654,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wingstop",
+        "brand:wikidata": "Q8025339",
+        "cuisine": "wings",
+        "name": "Wingstop",
+        "takeaway": "yes"
+      },
+      "lat": 31.3148536,
+      "lon": -89.4111417
+    }
+  ]
+}

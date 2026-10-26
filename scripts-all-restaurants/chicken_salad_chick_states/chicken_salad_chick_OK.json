@@ -1,0 +1,81 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "chicken_salad_chick",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11975746340,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Chicken Salad Chick",
+        "brand:wikidata": "Q19720749",
+        "check_date": "2025-07-02",
+        "cuisine": "chicken",
+        "entrance": "shop",
+        "indoor_seating": "yes",
+        "name": "Chicken Salad Chick",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "lat": 36.0749297,
+      "lon": -95.9233743
+    },
+    {
+      "type": "way",
+      "id": 473703490,
+      "tags": {
+        "addr:city": "Broken Arrow",
+        "addr:housenumber": "1320",
+        "addr:postcode": "74012",
+        "addr:street": "East Hillside Drive",
+        "amenity": "fast_food",
+        "brand": "Chicken Salad Chick",
+        "brand:wikidata": "Q19720749",
+        "building": "retail",
+        "cuisine": "chicken",
+        "name": "Chicken Salad Chick",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.065288949999996,
+        "lon": -95.77487359999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 480976657,
+      "tags": {
+        "addr:city": "Del City",
+        "addr:housenumber": "5550",
+        "addr:postcode": "73115",
+        "addr:state": "OK",
+        "addr:street": "Tinker Diagonal",
+        "amenity": "fast_food",
+        "brand": "Chicken Salad Chick",
+        "brand:wikidata": "Q19720749",
+        "building": "retail",
+        "cuisine": "chicken",
+        "name": "Chicken Salad Chick",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.444586,
+        "lon": -97.42414710000003
+      }
+    }
+  ]
+}

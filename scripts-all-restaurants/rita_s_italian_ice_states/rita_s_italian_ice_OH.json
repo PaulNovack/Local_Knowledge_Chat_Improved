@@ -1,0 +1,85 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "rita_s_italian_ice",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6944185582,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "ice_cream",
+        "brand": "Rita's Italian Ice",
+        "brand:wikidata": "Q7336456",
+        "cuisine": "ice_cream",
+        "indoor_seating": "yes",
+        "name": "Rita's Italian Ice",
+        "opening_hours": "Mo-Su 12:00-21:00",
+        "outdoor_seating": "yes"
+      },
+      "lat": 39.6966125,
+      "lon": -84.1067785
+    },
+    {
+      "type": "node",
+      "id": 12015559276,
+      "tags": {
+        "addr:city": "Columbus",
+        "addr:housenumber": "2116",
+        "addr:postcode": "43220",
+        "addr:state": "OH",
+        "addr:street": "West Henderson Road",
+        "amenity": "ice_cream",
+        "brand": "Rita's Italian Ice",
+        "brand:wikidata": "Q7336456",
+        "cuisine": "ice_cream",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Rita's Italian Ice",
+        "outdoor_seating": "yes"
+      },
+      "lat": 40.0575007,
+      "lon": -83.0749739
+    },
+    {
+      "type": "node",
+      "id": 13889994640,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Rita's Italian Ice",
+        "brand:wikidata": "Q7336456",
+        "name": "Rita's Italian Ice"
+      },
+      "lat": 41.2396038,
+      "lon": -81.3465894
+    },
+    {
+      "type": "way",
+      "id": 617495718,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Rita's Italian Ice",
+        "brand:wikidata": "Q7336456",
+        "building": "yes",
+        "cuisine": "ice_cream",
+        "name": "Rita's Italian Ice"
+      },
+      "center": {
+        "lat": 40.01900405,
+        "lon": -82.87434179999997
+      }
+    }
+  ]
+}

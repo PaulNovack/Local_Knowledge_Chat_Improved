@@ -1,0 +1,126 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "on_the_border",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 697832995,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina"
+      },
+      "lat": 40.4178984,
+      "lon": -104.9915543
+    },
+    {
+      "type": "way",
+      "id": 44661196,
+      "tags": {
+        "addr:city": "Highlands Ranch",
+        "addr:housenumber": "8555",
+        "addr:postcode": "80126",
+        "addr:state": "CO",
+        "addr:street": "South Quebec Street",
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "opening_hours": "Su-Th 11:00-21:00; Fr-Sa 11:00-22:00",
+        "phone": "+1-303-927-0720",
+        "source": "Bing",
+        "website": "https://www.ontheborder.com/locations/highlands-ranch/"
+      },
+      "center": {
+        "lat": 39.562605000000005,
+        "lon": -104.90621020000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 202369451,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "5832",
+        "addr:postcode": "80922",
+        "addr:street": "Barnes Road",
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "yes",
+        "check_date": "2025-07-14",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 38.89424785,
+        "lon": -104.71874539999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 209302932,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:state": "CO",
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "yes",
+        "check_date": "2026-05-25",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 38.800389949999996,
+        "lon": -104.81804
+      }
+    },
+    {
+      "type": "way",
+      "id": 1202961627,
+      "tags": {
+        "addr:city": "Aurora",
+        "addr:housenumber": "6369",
+        "addr:postcode": "80016",
+        "addr:state": "CO",
+        "addr:street": "South Southlands Parkway",
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 39.60187435,
+        "lon": -104.71161875000001
+      }
+    }
+  ]
+}

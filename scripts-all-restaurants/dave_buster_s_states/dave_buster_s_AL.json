@@ -1,0 +1,80 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AL",
+    "brand": "dave_buster_s",
+    "source": "https://download.geofabrik.de/north-america/us/alabama-latest.osm.pbf",
+    "source_md5": "3ee9c8ab6ddb6921e2aa2562af6c9bce",
+    "processed_utc": "2026-10-24T06:56:09.586986+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7131738911,
+      "tags": {
+        "addr:city": "Birmingham",
+        "addr:housenumber": "3000",
+        "addr:postcode": "35244",
+        "addr:state": "AL",
+        "addr:street": "Galleria Circle",
+        "addr:unit": "110",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "brewery": "yes",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "opening_hours": "Su-Th 11:00-24:00; Fr,Sa 11:00-02:00",
+        "phone": "+1-205-986-6200",
+        "website": "https://www.daveandbusters.com/locations/birmingham",
+        "wheelchair": "yes"
+      },
+      "lat": 33.3791348,
+      "lon": -86.8080476
+    },
+    {
+      "type": "way",
+      "id": 765277866,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "retail",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "roof:shape": "flat"
+      },
+      "center": {
+        "lat": 34.738198100000005,
+        "lon": -86.66415080000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1413367627,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "yes",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's"
+      },
+      "center": {
+        "lat": 30.654655599999998,
+        "lon": -88.12098409999999
+      }
+    }
+  ]
+}

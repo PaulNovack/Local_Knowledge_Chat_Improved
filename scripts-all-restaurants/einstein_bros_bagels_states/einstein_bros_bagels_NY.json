@@ -1,0 +1,53 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "einstein_bros_bagels",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12287885940,
+      "tags": {
+        "addr:city": "Queensbury",
+        "addr:housenumber": "640",
+        "addr:postcode": "12804",
+        "addr:state": "NY",
+        "addr:street": "Bay Road",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "SUNY Adirondack",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "Mo-Fr 07:30-14:00",
+        "phone": "+1 518-743-2200",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/ny/queensbury/640-bay-rd"
+      },
+      "lat": 43.3517858,
+      "lon": -73.655387
+    },
+    {
+      "type": "node",
+      "id": 13394013305,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Einstein Bros. Bagels"
+      },
+      "lat": 43.1150317,
+      "lon": -76.1099112
+    }
+  ]
+}

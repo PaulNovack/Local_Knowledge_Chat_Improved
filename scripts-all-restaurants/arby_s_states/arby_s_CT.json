@@ -1,0 +1,95 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "arby_s",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7940004618,
+      "tags": {
+        "addr:city": "Danbury",
+        "addr:housenumber": "118",
+        "addr:postcode": "06811",
+        "addr:state": "CT",
+        "addr:street": "Federal Road",
+        "amenity": "fast_food",
+        "brand": "Arby's",
+        "brand:wikidata": "Q630866",
+        "check_date": "2024-06-21",
+        "check_date:opening_hours": "2024-06-08",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Arby's",
+        "opening_hours": "Mo-Su 10:00-24:00",
+        "phone": "+1 203-794-0942",
+        "takeaway": "yes",
+        "website": "https://www.arbys.com/locations/us/ct/danbury/118-federal-rd/store-1705/"
+      },
+      "lat": 41.4266871,
+      "lon": -73.4193992
+    },
+    {
+      "type": "node",
+      "id": 8891416436,
+      "tags": {
+        "addr:city": "Southington",
+        "addr:housenumber": "869",
+        "addr:postcode": "06479",
+        "addr:state": "CT",
+        "addr:street": "Meriden-Waterbury Turnpike",
+        "amenity": "fast_food",
+        "brand": "Arby's",
+        "brand:wikidata": "Q630866",
+        "check_date": "2024-06-21",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Arby's",
+        "opening_hours": "Mo-Th 10:00-23:00; Fr-Sa 10:00-24:00; Su 10:00-23:00",
+        "phone": "+1 860-621-9403",
+        "takeaway": "yes",
+        "website": "https://www.arbys.com/locations/us/ct/plantsville/867-meriden-waterbury-tpke/store-1877/"
+      },
+      "lat": 41.5632025,
+      "lon": -72.8734064
+    },
+    {
+      "type": "way",
+      "id": 403786003,
+      "tags": {
+        "addr:city": "North Haven",
+        "addr:housenumber": "267",
+        "addr:postcode": "06473",
+        "addr:state": "CT",
+        "addr:street": "Washington Avenue",
+        "amenity": "fast_food",
+        "brand": "Arby's",
+        "brand:wikidata": "Q630866",
+        "building": "yes",
+        "check_date": "2024-06-21",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Arby's",
+        "opening_hours": "Mo-Th 10:00-23:00; Fr-Sa 10:00-24:00; Su 10:00-23:00",
+        "phone": "+1 203-234-7115",
+        "takeaway": "yes",
+        "website": "https://www.arbys.com/locations/us/ct/north-haven/267-washington-ave/store-7862/"
+      },
+      "center": {
+        "lat": 41.401962499999996,
+        "lon": -72.84976589999997
+      }
+    }
+  ]
+}

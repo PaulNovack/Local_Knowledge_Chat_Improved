@@ -1,0 +1,66 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VT",
+    "brand": "chipotle_mexican_grill",
+    "source": "https://download.geofabrik.de/north-america/us/vermont-latest.osm.pbf",
+    "source_md5": "20a19d56b1e59d82493b3194b9e30440",
+    "processed_utc": "2026-10-24T07:18:02.754583+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6838425964,
+      "tags": {
+        "addr:city": "South Burlington",
+        "addr:housenumber": "205",
+        "addr:postcode": "05403",
+        "addr:state": "VT",
+        "addr:street": "Dorset Street",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "cuisine": "mexican",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "phone": "+1 802-318-4646",
+        "ref:vcgi:esiteid": "231733",
+        "takeaway": "yes",
+        "website": "https://locations.chipotle.com/vt/south-burlington/205-dorset-st"
+      },
+      "lat": 44.4635614,
+      "lon": -73.1810643
+    },
+    {
+      "type": "node",
+      "id": 9143745325,
+      "tags": {
+        "addr:city": "Burlington",
+        "addr:housenumber": "580",
+        "addr:postcode": "05401",
+        "addr:state": "VT",
+        "addr:street": "Shelburne Road",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "cuisine": "mexican",
+        "indoor_seating": "yes",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "outdoor_seating": "no",
+        "phone": "+1 802-859-3301",
+        "takeaway": "yes",
+        "website": "https://locations.chipotle.com/vt/burlington/580-shelburne-rd"
+      },
+      "lat": 44.4485696,
+      "lon": -73.2080504
+    }
+  ]
+}

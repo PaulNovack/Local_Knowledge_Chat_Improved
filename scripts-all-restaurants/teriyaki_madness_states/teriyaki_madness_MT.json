@@ -1,0 +1,44 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MT",
+    "brand": "teriyaki_madness",
+    "source": "https://download.geofabrik.de/north-america/us/montana-latest.osm.pbf",
+    "source_md5": "abfa2e1bfc18f6c00a77776eb9185b11",
+    "processed_utc": "2026-10-24T07:09:10.271084+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8912921261,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Teriyaki Madness"
+      },
+      "lat": 47.4938857,
+      "lon": -111.2773785
+    },
+    {
+      "type": "node",
+      "id": 13778461836,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "takeaway": "yes"
+      },
+      "lat": 45.7510664,
+      "lon": -108.6164251
+    }
+  ]
+}

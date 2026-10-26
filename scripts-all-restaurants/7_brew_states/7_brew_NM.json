@@ -1,0 +1,115 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NM",
+    "brand": "7_brew",
+    "source": "https://download.geofabrik.de/north-america/us/new-mexico-latest.osm.pbf",
+    "source_md5": "5e236c0e9dd59b2df560a9316c86a745",
+    "processed_utc": "2026-10-24T07:10:42.593170+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13184128483,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:country": "US",
+        "addr:housenumber": "3835",
+        "addr:postcode": "87120",
+        "addr:state": "NM",
+        "addr:street": "Coors Boulevard Northwest",
+        "amenity": "cafe",
+        "branch": "Albuquerque",
+        "brand": "7 Brew",
+        "brand:website": "https://7brew.com",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "email": "info@7brew.com",
+        "name": "7 Brew - Coors",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:gift_card": "yes",
+        "phone": "+1-479-358-9274",
+        "takeaway": "yes",
+        "website": "https://7brew.com/location/new-mexico-albuquerque-000152",
+        "website:menu": "https://7brew.com/menu"
+      },
+      "lat": 35.1264762,
+      "lon": -106.7025051
+    },
+    {
+      "type": "way",
+      "id": 1366431485,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:country": "US",
+        "addr:housenumber": "4331",
+        "addr:postcode": "87109",
+        "addr:state": "NM",
+        "addr:street": "Wyoming Boulevard Northeast",
+        "amenity": "cafe",
+        "branch": "Albuquerque",
+        "brand": "7 Brew",
+        "brand:website": "https://7brew.com",
+        "brand:wikidata": "Q131838275",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "email": "info@7brew.com",
+        "name": "7 Brew",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:gift_card": "yes",
+        "phone": "+1-479-358-9274",
+        "takeaway": "yes",
+        "website": "https://7brew.com/location/new-mexico-albuquerque-000031",
+        "website:menu": "https://7brew.com/menu"
+      },
+      "center": {
+        "lat": 35.12943225,
+        "lon": -106.55143034999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1469024620,
+      "tags": {
+        "addr:city": "Rio Rancho",
+        "addr:housenumber": "2010",
+        "addr:postcode": "87124",
+        "addr:state": "NM",
+        "addr:street": "Southern Boulevard Southeast",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew",
+        "takeaway": "yes",
+        "website": "https://7brew.com/"
+      },
+      "center": {
+        "lat": 35.2412458,
+        "lon": -106.69573230000003
+      }
+    }
+  ]
+}

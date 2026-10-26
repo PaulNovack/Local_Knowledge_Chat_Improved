@@ -1,0 +1,35 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "morton_s_the_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 390004030,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Morton's The Steakhouse"
+      },
+      "center": {
+        "lat": 36.114853749999995,
+        "lon": -115.15320665000002
+      }
+    }
+  ]
+}

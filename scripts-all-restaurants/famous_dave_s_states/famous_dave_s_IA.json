@@ -1,0 +1,85 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IA",
+    "brand": "famous_dave_s",
+    "source": "https://download.geofabrik.de/north-america/us/iowa-latest.osm.pbf",
+    "source_md5": "67edcd557c575ead09c9f80bc8694526",
+    "processed_utc": "2026-10-24T07:04:05.270534+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7815076617,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's"
+      },
+      "lat": 41.5577166,
+      "lon": -90.5600129
+    },
+    {
+      "type": "way",
+      "id": 102128415,
+      "tags": {
+        "addr:city": "West Des Moines",
+        "addr:housenumber": "1720",
+        "addr:postcode": "50266",
+        "addr:street": "22nd Street",
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's",
+        "website": "https://www.famousdaves.com/"
+      },
+      "center": {
+        "lat": 41.598487250000005,
+        "lon": -93.7369165
+      }
+    },
+    {
+      "type": "way",
+      "id": 211849673,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's"
+      },
+      "center": {
+        "lat": 42.49219325,
+        "lon": -96.40538550000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 544791679,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "retail",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's"
+      },
+      "center": {
+        "lat": 42.5138137,
+        "lon": -92.43302285000004
+      }
+    }
+  ]
+}

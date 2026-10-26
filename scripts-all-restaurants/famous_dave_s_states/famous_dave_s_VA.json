@@ -1,0 +1,107 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "famous_dave_s",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4682147620,
+      "tags": {
+        "addr:city": "Oakton",
+        "addr:housenumber": "2910",
+        "addr:postcode": "22124",
+        "addr:state": "VA",
+        "addr:street": "Chain Bridge Road",
+        "amenity": "restaurant",
+        "branch": "Oakton",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "lat": 38.882448,
+      "lon": -77.2987677
+    },
+    {
+      "type": "way",
+      "id": 94053802,
+      "tags": {
+        "addr:city": "Woodbridge",
+        "addr:housenumber": "2430",
+        "addr:postcode": "22192",
+        "addr:state": "VA",
+        "addr:street": "Prince William Parkway",
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's",
+        "website": "https://www.famousdaves.com/"
+      },
+      "center": {
+        "lat": 38.6530183,
+        "lon": -77.28818359999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 236290632,
+      "tags": {
+        "addr:housenumber": "10073",
+        "addr:postcode": "23059",
+        "addr:street": "Brook Road",
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "check_date": "2026-08-22",
+        "cuisine": "vietnamese",
+        "name": "Pho Que Huong",
+        "opening_hours": "Mo off; Tu-Su 10:30-20:30",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 804-553-9783"
+      },
+      "center": {
+        "lat": 37.6730099,
+        "lon": -77.45708530000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 579943904,
+      "tags": {
+        "addr:housenumber": "6630",
+        "addr:postcode": "22306",
+        "addr:state": "VA",
+        "addr:street": "Richmond Highway",
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's"
+      },
+      "center": {
+        "lat": 38.773746349999996,
+        "lon": -77.08186165000001
+      }
+    }
+  ]
+}

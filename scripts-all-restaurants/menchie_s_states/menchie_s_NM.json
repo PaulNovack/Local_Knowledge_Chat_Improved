@@ -1,0 +1,86 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NM",
+    "brand": "menchie_s",
+    "source": "https://download.geofabrik.de/north-america/us/new-mexico-latest.osm.pbf",
+    "source_md5": "5e236c0e9dd59b2df560a9316c86a745",
+    "processed_utc": "2026-10-24T07:10:42.593170+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1929985416,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Menchie's",
+        "brand:wikidata": "Q6816528",
+        "cuisine": "frozen_yogurt",
+        "name": "Menchie's"
+      },
+      "lat": 35.1491627,
+      "lon": -106.683976
+    },
+    {
+      "type": "node",
+      "id": 7705603314,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "6500",
+        "addr:postcode": "87113",
+        "addr:state": "NM",
+        "addr:street": "Holly Avenue Northeast",
+        "addr:unit": "A-1",
+        "amenity": "ice_cream",
+        "brand": "Menchie's",
+        "brand:wikidata": "Q6816528",
+        "cuisine": "frozen_yogurt",
+        "name": "Menchie's",
+        "opening_hours": "Sa-Su 12:00-20:00",
+        "phone": "+1-505-797-8221",
+        "website": "https://www.menchies.com/locations/frozen-yogurt-holly-plaza-nm"
+      },
+      "lat": 35.1754584,
+      "lon": -106.5733731
+    },
+    {
+      "type": "node",
+      "id": 10285733873,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Menchie's",
+        "brand:wikidata": "Q6816528",
+        "cuisine": "frozen_yogurt",
+        "level": "1",
+        "name": "Menchie's",
+        "opening_hours": "Mo-Th 12:00-21:00; Fr,Sa 11:00-22:00; Su 12:00-21:00"
+      },
+      "lat": 35.108018,
+      "lon": -106.5708458
+    },
+    {
+      "type": "node",
+      "id": 13840876424,
+      "tags": {
+        "addr:housenumber": "1101",
+        "addr:street": "Unser Boulevard Southeast",
+        "addr:unit": "103",
+        "amenity": "ice_cream",
+        "brand": "Menchie's",
+        "brand:wikidata": "Q6816528",
+        "cuisine": "frozen_yogurt",
+        "name": "Menchie's",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr,Sa 11:00-23:00"
+      },
+      "lat": 35.2399414,
+      "lon": -106.6975593
+    }
+  ]
+}

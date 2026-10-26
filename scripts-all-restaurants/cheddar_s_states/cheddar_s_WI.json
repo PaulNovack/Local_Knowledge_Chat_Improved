@@ -1,0 +1,73 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WI",
+    "brand": "cheddar_s",
+    "source": "https://download.geofabrik.de/north-america/us/wisconsin-latest.osm.pbf",
+    "source_md5": "1718ff98080ec3edeb95ab8fb47b0ce7",
+    "processed_utc": "2026-10-24T07:19:59.510074+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 144357984,
+      "tags": {
+        "addr:city": "Appleton",
+        "addr:housenumber": "4531",
+        "addr:postcode": "54913",
+        "addr:state": "WI",
+        "addr:street": "West Wisconsin Avenue",
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "commercial",
+        "construction": "Food",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-920-749-0827",
+        "source": "local News",
+        "start_date": "2018",
+        "website": "https://cheddars.com/locations/wi/appleton/appleton/2174"
+      },
+      "center": {
+        "lat": 44.27241255,
+        "lon": -88.47446024999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 675502500,
+      "tags": {
+        "addr:city": "Pleasant Prairie",
+        "addr:housenumber": "10366",
+        "addr:postcode": "53158",
+        "addr:state": "WI",
+        "addr:street": "77th Street",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1 262 697 1657",
+        "website": "https://www.cheddars.com"
+      },
+      "center": {
+        "lat": 42.56639705,
+        "lon": -87.9328061
+      }
+    }
+  ]
+}

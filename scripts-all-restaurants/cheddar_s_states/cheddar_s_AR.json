@@ -1,0 +1,66 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "cheddar_s",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 558662798,
+      "tags": {
+        "addr:city": "Fort Smith",
+        "addr:housenumber": "3907",
+        "addr:postcode": "72903",
+        "addr:state": "AR",
+        "addr:street": "Phoenix Avenue",
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen"
+      },
+      "center": {
+        "lat": 35.339032,
+        "lon": -94.3892993
+      }
+    },
+    {
+      "type": "way",
+      "id": 607718328,
+      "tags": {
+        "addr:city": "Little Rock",
+        "addr:housenumber": "400",
+        "addr:postcode": "72205",
+        "addr:state": "AR",
+        "addr:street": "South University Avenue",
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+15016147578",
+        "website": "https://www.cheddars.com/locations/ar/little-rock/little-rock/2057?cmpid=br:csk_ag:ie_ch:loc_ca:CSKGMB_sn:gmb_gt:little-rock-ar-2057_pl:locurl_rd:1049"
+      },
+      "center": {
+        "lat": 34.749031,
+        "lon": -92.34167675000003
+      }
+    }
+  ]
+}

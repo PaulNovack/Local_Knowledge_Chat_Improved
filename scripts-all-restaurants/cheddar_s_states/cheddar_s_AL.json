@@ -1,0 +1,69 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AL",
+    "brand": "cheddar_s",
+    "source": "https://download.geofabrik.de/north-america/us/alabama-latest.osm.pbf",
+    "source_md5": "3ee9c8ab6ddb6921e2aa2562af6c9bce",
+    "processed_utc": "2026-10-24T06:56:09.586986+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 477334365,
+      "tags": {
+        "addr:housenumber": "6125",
+        "addr:street": "University Drive Northwest",
+        "addr:unit": "F",
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-256-971-2000",
+        "website": "https://www.cheddars.com/locations/al/huntsville/huntsville/2048"
+      },
+      "center": {
+        "lat": 34.74303055,
+        "lon": -86.67607929999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1013644817,
+      "tags": {
+        "addr:city": "Dothan",
+        "addr:housenumber": "4941",
+        "addr:postcode": "36303",
+        "addr:state": "AL",
+        "addr:street": "Montgomery Highway",
+        "amenity": "restaurant",
+        "branch": "Dothan",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen",
+        "opening_hours": "Sa-Su 11:00-23:00",
+        "phone": "+1 334-677-0854",
+        "ref": "2074",
+        "website": "https://www.cheddars.com/locations/al/dothan/dothan/2074"
+      },
+      "center": {
+        "lat": 31.27026785,
+        "lon": -85.44883125000001
+      }
+    }
+  ]
+}

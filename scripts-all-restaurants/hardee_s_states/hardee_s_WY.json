@@ -1,0 +1,45 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "hardee_s",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1158328577,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:housenumber": "104",
+        "addr:postcode": "82834",
+        "addr:state": "WY",
+        "addr:street": "East Hart Street",
+        "amenity": "fast_food",
+        "brand": "Hardee's",
+        "brand:wikidata": "Q1585088",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Hardee's",
+        "phone": "+1 307-684-7971",
+        "ref": "1503907",
+        "takeaway": "yes",
+        "website": "https://locations.hardees.com/wy/buffalo/104-e-hart-st"
+      },
+      "center": {
+        "lat": 44.35443855,
+        "lon": -106.69430940000001
+      }
+    }
+  ]
+}

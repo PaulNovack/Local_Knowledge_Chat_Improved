@@ -1,0 +1,58 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "round_table_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13239482052,
+      "tags": {
+        "addr:city": "Belleville",
+        "addr:housenumber": "6401",
+        "addr:postcode": "62223",
+        "addr:state": "IL",
+        "addr:street": "West Main Street",
+        "addr:unit": "0",
+        "amenity": "restaurant",
+        "cuisine": "regional;burger;chicken;noodle;breakfast;american;cake;salad;dessert;diner",
+        "email": "asanasani1959@gmail.com",
+        "name": "Round Table Cafe",
+        "phone": "+1 618-293-6544",
+        "website": "https://www.roundtable217.com/",
+        "website:menu": "https://www.roundtable217.com/services"
+      },
+      "lat": 38.553654,
+      "lon": -90.0389848
+    },
+    {
+      "type": "way",
+      "id": 1026903058,
+      "tags": {
+        "addr:city": "Godfrey",
+        "addr:housenumber": "5407",
+        "addr:postcode": "62035",
+        "addr:state": "IL",
+        "addr:street": "Godfrey Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Round Table Family Restaurant"
+      },
+      "center": {
+        "lat": 38.944924400000005,
+        "lon": -90.19041950000002
+      }
+    }
+  ]
+}

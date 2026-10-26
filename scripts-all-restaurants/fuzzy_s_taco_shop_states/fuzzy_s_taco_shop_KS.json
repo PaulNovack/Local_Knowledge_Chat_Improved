@@ -1,0 +1,112 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "fuzzy_s_taco_shop",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3253024338,
+      "tags": {
+        "addr:city": "Overland Park",
+        "addr:housenumber": "13386",
+        "addr:state": "KS",
+        "addr:street": "Metcalf Avenue",
+        "amenity": "fast_food",
+        "cuisine": "mexican",
+        "name": "Fuzzy's Taco Shop"
+      },
+      "lat": 38.8854942,
+      "lon": -94.668222
+    },
+    {
+      "type": "node",
+      "id": 5912481682,
+      "tags": {
+        "addr:city": "Overland Park",
+        "addr:housenumber": "8909",
+        "addr:postcode": "66212",
+        "addr:state": "KS",
+        "addr:street": "West 95th Street",
+        "amenity": "restaurant",
+        "cuisine": "tacos",
+        "name": "Fuzzy's Taco Shop",
+        "opening_hours": "Su-Th 10:00-22:00; Fr,Sa 10:00-23:00",
+        "phone": "+1-913-291-2056"
+      },
+      "lat": 38.9562975,
+      "lon": -94.6892295
+    },
+    {
+      "type": "node",
+      "id": 11746682070,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Fuzzy's Taco Shop",
+        "brand:wikidata": "Q85762348",
+        "cuisine": "mexican",
+        "name": "Fuzzy's Taco Shop",
+        "takeaway": "yes"
+      },
+      "lat": 39.0371209,
+      "lon": -95.7104343
+    },
+    {
+      "type": "node",
+      "id": 12751384201,
+      "tags": {
+        "addr:housenumber": "306",
+        "addr:postcode": "67206",
+        "addr:street": "North Rock Road",
+        "amenity": "fast_food",
+        "brand": "Fuzzy's Taco Shop",
+        "brand:wikidata": "Q85762348",
+        "contact:facebook": "419012075152792",
+        "contact:instagram": "fuzzystacoshop",
+        "cuisine": "mexican",
+        "name": "Fuzzy's Taco Shop",
+        "opening_hours": "Sa 10:00-22:30; Su 10:00-22:00; Mo-Th 08:30-22:00; Fr 08:30-22:30",
+        "phone": "+1 316-684-8226",
+        "self_service": "no",
+        "takeaway": "yes",
+        "website": "https://fuzzystacoshop.com/locations/kansas/wichita-rock-road"
+      },
+      "lat": 37.6906157,
+      "lon": -97.2438326
+    },
+    {
+      "type": "way",
+      "id": 1431417519,
+      "tags": {
+        "addr:city": "Wichita",
+        "addr:housenumber": "10728",
+        "addr:postcode": "67205",
+        "addr:state": "KS",
+        "addr:street": "West 21st Street North",
+        "amenity": "restaurant",
+        "brand": "Fuzzy's Taco Shop",
+        "brand:wikidata": "Q85762348",
+        "building": "retail",
+        "cuisine": "mexican",
+        "name": "Fuzzy's Taco Shop",
+        "source": "esri_USDOT_Kansas",
+        "website": "https://www.fuzzystacoshop.com/locations/kansas/wichita-new-market-square"
+      },
+      "center": {
+        "lat": 37.723271499999996,
+        "lon": -97.46596225000002
+      }
+    }
+  ]
+}

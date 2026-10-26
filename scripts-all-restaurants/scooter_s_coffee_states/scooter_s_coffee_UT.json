@@ -1,0 +1,75 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "scooter_s_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 305504585,
+      "tags": {
+        "addr:city": "Roy",
+        "addr:housenumber": "1871 W",
+        "addr:postcode": "84067",
+        "addr:state": "UT",
+        "addr:street": "5300 South",
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "cuisine": "coffee_shop",
+        "name": "Scooter's Coffee",
+        "shop": "coffee",
+        "source": "survey",
+        "takeaway": "yes"
+      },
+      "lat": 41.1673023,
+      "lon": -112.025031
+    },
+    {
+      "type": "node",
+      "id": 12494064381,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "check_date": "2025-01-11",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "Scooter's Coffee",
+        "takeaway": "yes"
+      },
+      "lat": 41.2440285,
+      "lon": -112.0068007
+    },
+    {
+      "type": "way",
+      "id": 1304549140,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "indoor_seating": "no",
+        "name": "Scooter's Coffee",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.307226650000004,
+        "lon": -112.00845609999999
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NH",
+    "brand": "arby_s",
+    "source": "https://download.geofabrik.de/north-america/us/new-hampshire-latest.osm.pbf",
+    "source_md5": "603b90470df09c1b933955cbfe841c6d",
+    "processed_utc": "2026-10-24T07:09:51.168561+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 230522139,
+      "tags": {
+        "addr:city": "Manchester",
+        "addr:housenumber": "1500",
+        "addr:postcode": "03103",
+        "addr:state": "NH",
+        "addr:street": "South Willow Street",
+        "amenity": "fast_food",
+        "brand": "Arby's",
+        "brand:wikidata": "Q630866",
+        "check_date": "2024-06-21",
+        "cuisine": "sandwich",
+        "drive_through": "no",
+        "indoor": "room",
+        "name": "Arby's",
+        "opening_hours": "Mo-Th 10:00-20:00; Fr-Sa 10:00-21:00; Su 11:00-18:00",
+        "phone": "+1 603-625-2792",
+        "takeaway": "yes",
+        "website": "https://www.arbys.com/locations/us/nh/manchester/1500-south-willow-st/store-8453/"
+      },
+      "center": {
+        "lat": 42.956947400000004,
+        "lon": -71.43185940000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 580053413,
+      "tags": {
+        "addr:city": "Nashua",
+        "addr:housenumber": "621",
+        "addr:postcode": "03063",
+        "addr:state": "NH",
+        "addr:street": "Amherst Street",
+        "addr:unit": "1",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Arby's",
+        "brand:wikidata": "Q630866",
+        "building": "commercial",
+        "check_date": "2026-10-17",
+        "check_date:opening_hours": "2026-10-17",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Arby's",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 10:00-21:30",
+        "phone": "+1 603-459-8563",
+        "ref": "8533",
+        "takeaway": "yes",
+        "website": "https://www.arbys.com/locations/us/nh/nashua/621-amherst-street/store-8533"
+      },
+      "center": {
+        "lat": 42.80263705,
+        "lon": -71.53943370000002
+      }
+    }
+  ]
+}

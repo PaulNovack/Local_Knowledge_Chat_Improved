@@ -1,0 +1,67 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SD",
+    "brand": "noodles_company",
+    "source": "https://download.geofabrik.de/north-america/us/south-dakota-latest.osm.pbf",
+    "source_md5": "4d012b130d8682e6f0e1bc093c255981",
+    "processed_utc": "2026-10-24T07:16:00.169778+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9331400277,
+      "tags": {
+        "addr:city": "Rapid City",
+        "addr:housenumber": "1734",
+        "addr:postcode": "57701",
+        "addr:state": "SD",
+        "addr:street": "Eglin Street",
+        "addr:unit": "500",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "delivery": "Su-Sa 11:15-17:00;Sa 11:15-17:00",
+        "name": "Noodles & Company",
+        "opening_hours": "Su-Sa 11:00-17:00; Sa 11:00-17:00",
+        "phone": "+1 605-388-2546",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://locations.noodles.com/sd/rapid-city/1734-eglin-street.html"
+      },
+      "lat": 44.0983563,
+      "lon": -103.1827563
+    },
+    {
+      "type": "node",
+      "id": 9354494913,
+      "tags": {
+        "addr:city": "Sioux Falls",
+        "addr:housenumber": "5005",
+        "addr:postcode": "57108",
+        "addr:state": "SD",
+        "addr:street": "South Louise Avenue",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "delivery": "Mo-Su 10:45-22:00",
+        "name": "Noodles & Company",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "phone": "+1 605-610-1439",
+        "takeaway": "yes",
+        "website": "https://locations.noodles.com/sd/sioux-falls/5005-s--louise-ave.html"
+      },
+      "lat": 43.499974,
+      "lon": -96.7728744
+    }
+  ]
+}

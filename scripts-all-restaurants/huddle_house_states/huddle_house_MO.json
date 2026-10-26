@@ -1,0 +1,64 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "huddle_house",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 547230362,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Huddle House"
+      },
+      "center": {
+        "lat": 37.91775455,
+        "lon": -90.77577510000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1054099536,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Huddle House",
+        "brand:wikidata": "Q5928324",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Huddle House"
+      },
+      "center": {
+        "lat": 38.1406288,
+        "lon": -90.57719210000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 1229265511,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Huddle House",
+        "brand:wikidata": "Q5928324",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Huddle House"
+      },
+      "center": {
+        "lat": 38.075919850000005,
+        "lon": -91.40796920000003
+      }
+    }
+  ]
+}

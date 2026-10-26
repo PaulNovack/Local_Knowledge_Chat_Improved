@@ -1,0 +1,88 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "tgi_fridays",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 592541568,
+      "tags": {
+        "addr:city": "Fort Smith",
+        "addr:housenumber": "6201",
+        "addr:postcode": "72903",
+        "addr:state": "AR",
+        "addr:street": "Rogers Avenue",
+        "addr:unit": "B",
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "building": "retail",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "TGI Fridays",
+        "opening_hours": "Su 10:30-23:00; Mo-We 10:45-23:00; Th-Sa 10:45-24:00",
+        "outdoor_seating": "yes",
+        "website": "https://locations.tgifridays.com/ar/fort-smith/6201-b-rogers-ave.html"
+      },
+      "center": {
+        "lat": 35.360532899999995,
+        "lon": -94.3639551
+      }
+    },
+    {
+      "type": "way",
+      "id": 857882374,
+      "tags": {
+        "addr:city": "Conway",
+        "addr:housenumber": "1105",
+        "addr:postcode": "72032",
+        "addr:state": "AR",
+        "addr:street": "East Oak Street",
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "TGI Fridays",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "phone": "+1-501-329-8300",
+        "website": "https://locations.tgifridays.com/ar/conway/1105-e-oak-st.html"
+      },
+      "center": {
+        "lat": 35.09091035,
+        "lon": -92.4157032
+      }
+    },
+    {
+      "type": "way",
+      "id": 918407985,
+      "tags": {
+        "addr:city": "North Little Rock",
+        "addr:state": "AR",
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "TGI Fridays",
+        "website": "https://locations.tgifridays.com/ar/north-little-rock/2820-lakewood-village-dr.html"
+      },
+      "center": {
+        "lat": 34.795233100000004,
+        "lon": -92.23193935
+      }
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TX",
+    "brand": "tim_hortons",
+    "source": "https://download.geofabrik.de/north-america/us/texas-latest.osm.pbf",
+    "source_md5": "eb8f4603e9b48bd481c192fe621ae18b",
+    "processed_utc": "2026-10-24T07:17:23.814833+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11390407494,
+      "tags": {
+        "addr:city": "Houston",
+        "addr:housenumber": "13451",
+        "addr:postcode": "77040-6006",
+        "addr:state": "TX",
+        "addr:street": "Northwest Freeway",
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "check_date": "2023-12-02",
+        "cuisine": "coffee_shop",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Tim Hortons",
+        "opening_hours": "Mo-We 06:00-20:00; Fr-Su 06:00-20:00",
+        "phone": "+1 346-200-7417",
+        "takeaway": "yes"
+      },
+      "lat": 29.8499539,
+      "lon": -95.5097565
+    },
+    {
+      "type": "node",
+      "id": 12105312612,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "check_date": "2024-08-11",
+        "cuisine": "coffee_shop",
+        "name": "Tim Hortons",
+        "takeaway": "yes"
+      },
+      "lat": 29.6457016,
+      "lon": -95.5789455
+    },
+    {
+      "type": "node",
+      "id": 13531957704,
+      "tags": {
+        "addr:housenumber": "3706",
+        "addr:postcode": "77801",
+        "addr:street": "Texas Avenue South",
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "cuisine": "coffee_shop",
+        "name": "Tim Hortons",
+        "opening_hours": "24/7",
+        "takeaway": "yes",
+        "website": "https://locations.timhortons.com/en/tx/bryan/3706-s-texas-ave/"
+      },
+      "lat": 30.637485,
+      "lon": -96.3470097
+    },
+    {
+      "type": "node",
+      "id": 14278441745,
+      "tags": {
+        "addr:city": "Cypress",
+        "addr:housenumber": "11430",
+        "addr:postcode": "77433",
+        "addr:state": "TX",
+        "addr:street": "Barker Cypress Road",
+        "addr:unit": "100",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Tim Horton's",
+        "phone": "+1-346-445-6165"
+      },
+      "lat": 29.941922,
+      "lon": -95.6781693
+    },
+    {
+      "type": "way",
+      "id": 848797770,
+      "tags": {
+        "addr:city": "Houston",
+        "addr:housenumber": "8910",
+        "addr:postcode": "77063-3602",
+        "addr:state": "TX",
+        "addr:street": "Westheimer Road",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "building": "yes",
+        "check_date": "2025-07-11",
+        "cuisine": "coffee_shop",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Tim Hortons",
+        "opening_hours": "Mo-We 06:00-20:00; Fr-Su 06:00-20:00",
+        "phone": "+1 346-241-7660",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 29.73768385,
+        "lon": -95.52196040000001
+      }
+    }
+  ]
+}

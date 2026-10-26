@@ -1,0 +1,65 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "denny_s",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T07:20:37.151586+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3165690275,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "1250",
+        "addr:postcode": "20002",
+        "addr:state": "DC",
+        "addr:street": "Bladensburg Road Northeast",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "check_date": "2024-08-18",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "phone": "+1 202-758-3637",
+        "source": "official website",
+        "website": "https://locations.dennys.com/DC/WASHINGTON/248646"
+      },
+      "lat": 38.9067755,
+      "lon": -76.9794732
+    },
+    {
+      "type": "way",
+      "id": 296075226,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "4445",
+        "addr:postcode": "20019",
+        "addr:state": "DC",
+        "addr:street": "Benning Road Northeast",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "dcgis:gis_id": "50634",
+        "name": "Denny's",
+        "phone": "+1-202-399-7526"
+      },
+      "center": {
+        "lat": 38.89041585,
+        "lon": -76.93833755000003
+      }
+    }
+  ]
+}

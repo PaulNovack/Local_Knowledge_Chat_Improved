@@ -1,0 +1,119 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "baja_fresh",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 446944550,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Baja Fresh",
+        "brand:wikidata": "Q2880019",
+        "cuisine": "mexican",
+        "name": "Baja Fresh",
+        "official_name": "Baja Fresh Mexican Grill",
+        "takeaway": "yes"
+      },
+      "lat": 39.4752764,
+      "lon": -119.792264
+    },
+    {
+      "type": "node",
+      "id": 4669220521,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "mexican;italian",
+        "name": "Baja Fresh Mexican Grill;Buca di Beppo"
+      },
+      "lat": 36.0990145,
+      "lon": -115.1757985
+    },
+    {
+      "type": "node",
+      "id": 5741952822,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Baja Fresh",
+        "brand:wikidata": "Q2880019",
+        "cuisine": "mexican",
+        "indoor_seating": "no",
+        "name": "Baja Fresh Express",
+        "official_name": "Baja Fresh Mexican Grill",
+        "outdoor_seating": "no",
+        "takeaway": "only"
+      },
+      "lat": 36.0814328,
+      "lon": -115.137964
+    },
+    {
+      "type": "node",
+      "id": 11418193324,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Baja Fresh",
+        "brand:wikidata": "Q2880019",
+        "cuisine": "mexican",
+        "name": "Baja Fresh",
+        "official_name": "Baja Fresh Mexican Grill",
+        "takeaway": "yes"
+      },
+      "lat": 36.2994328,
+      "lon": -115.2811139
+    },
+    {
+      "type": "way",
+      "id": 1393669088,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Baja Fresh",
+        "brand:wikidata": "Q2880019",
+        "building": "retail",
+        "cuisine": "mexican",
+        "name": "Baja Fresh",
+        "official_name": "Baja Fresh Mexican Grill",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.11496685,
+        "lon": -115.13367399999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1569912059,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "8780",
+        "addr:postcode": "89117",
+        "addr:state": "NV",
+        "addr:street": "West Charleston Boulevard",
+        "addr:unit": "100",
+        "amenity": "fast_food",
+        "brand": "Baja Fresh",
+        "brand:wikidata": "Q2880019",
+        "building:part": "retail",
+        "cuisine": "mexican",
+        "name": "Baja Fresh",
+        "official_name": "Baja Fresh Mexican Grill",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.15950065,
+        "lon": -115.28735215
+      }
+    }
+  ]
+}

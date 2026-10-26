@@ -1,0 +1,69 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "chicken_salad_chick",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4805001399,
+      "tags": {
+        "addr:unit": "5",
+        "amenity": "fast_food",
+        "brand": "Chicken Salad Chick",
+        "brand:wikidata": "Q19720749",
+        "check_date": "2026-03-24",
+        "cuisine": "chicken",
+        "name": "Chicken Salad Chick",
+        "opening_hours": "Mo-Sa 10:30-20:00",
+        "phone": "+1 479 227 2658",
+        "takeaway": "yes",
+        "website": "https://www.chickensaladchick.com/fayetteville/"
+      },
+      "lat": 36.1248495,
+      "lon": -94.1517906
+    },
+    {
+      "type": "node",
+      "id": 12318380354,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Chicken Salad Chick",
+        "brand:wikidata": "Q19720749",
+        "cuisine": "chicken",
+        "name": "Chicken Salad Chick",
+        "takeaway": "yes"
+      },
+      "lat": 35.0698264,
+      "lon": -92.4571522
+    },
+    {
+      "type": "way",
+      "id": 1292557196,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Chicken Salad Chick",
+        "brand:wikidata": "Q19720749",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Chicken Salad Chick",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.8170538,
+        "lon": -90.67167165000001
+      }
+    }
+  ]
+}

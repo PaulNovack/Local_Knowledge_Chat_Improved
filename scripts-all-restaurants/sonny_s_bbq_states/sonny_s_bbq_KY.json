@@ -1,0 +1,49 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KY",
+    "brand": "sonny_s_bbq",
+    "source": "https://download.geofabrik.de/north-america/us/kentucky-latest.osm.pbf",
+    "source_md5": "beee275db6b863afe4847059e1397537",
+    "processed_utc": "2026-10-24T07:04:39.223265+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8023489843,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Sonny's BBQ",
+        "brand:wikidata": "Q7561989",
+        "cuisine": "barbecue",
+        "name": "Sonny's BBQ"
+      },
+      "lat": 36.9777674,
+      "lon": -84.1147989
+    },
+    {
+      "type": "way",
+      "id": 1262370632,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Sonny's BBQ",
+        "brand:wikidata": "Q7561989",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Sonny's BBQ",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 38.1712033,
+        "lon": -84.81149545
+      }
+    }
+  ]
+}

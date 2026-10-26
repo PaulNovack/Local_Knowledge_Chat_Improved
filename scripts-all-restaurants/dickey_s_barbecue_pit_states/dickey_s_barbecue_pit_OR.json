@@ -1,0 +1,105 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OR",
+    "brand": "dickey_s_barbecue_pit",
+    "source": "https://download.geofabrik.de/north-america/us/oregon-latest.osm.pbf",
+    "source_md5": "bc93fd72fe4589fdc6c9b2b497cb7ef1",
+    "processed_utc": "2026-10-24T07:14:41.004303+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4194795326,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "cuisine": "barbecue",
+        "fixme": "Possibly closed; cannot find any mention of a Eugene location on their website",
+        "name": "Dickey's Barbecue Pit"
+      },
+      "lat": 44.0811673,
+      "lon": -123.0683297
+    },
+    {
+      "type": "way",
+      "id": 285599676,
+      "tags": {
+        "addr:city": "Beaverton",
+        "addr:housenumber": "14700",
+        "addr:postcode": "97007",
+        "addr:state": "OR",
+        "addr:street": "Southwest Murray Scholls Drive",
+        "addr:unit": "102",
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Dickey's Barbecue Pit",
+        "opening_hours": "11:00-21:00",
+        "phone": "+1-503-746-5299",
+        "website": "https://www.dickeys.com/locations/oregon/beaverton"
+      },
+      "center": {
+        "lat": 45.43766745,
+        "lon": -122.82802294999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 436494935,
+      "tags": {
+        "addr:city": "Hillsboro",
+        "addr:housenumber": "11213",
+        "addr:postcode": "97006",
+        "addr:state": "OR",
+        "addr:street": "Northeast Evergreen Parkway",
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Dickey's Barbecue Pit"
+      },
+      "center": {
+        "lat": 45.536691700000006,
+        "lon": -122.86268769999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 484394188,
+      "tags": {
+        "addr:city": "Lake Oswego",
+        "addr:housenumber": "4811",
+        "addr:postcode": "97035",
+        "addr:state": "OR",
+        "addr:street": "Meadows Road",
+        "addr:unit": "113",
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Dickey's Barbecue Pit",
+        "payment:american_express": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes"
+      },
+      "center": {
+        "lat": 45.41839495,
+        "lon": -122.72602419999998
+      }
+    }
+  ]
+}

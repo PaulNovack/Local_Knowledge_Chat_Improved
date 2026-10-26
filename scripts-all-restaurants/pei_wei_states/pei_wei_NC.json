@@ -1,0 +1,121 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "pei_wei",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3302844780,
+      "tags": {
+        "addr:city": "charlotte",
+        "addr:housenumber": "4400",
+        "addr:postcode": "28211",
+        "addr:state": "nc",
+        "addr:street": "sharon road",
+        "amenity": "restaurant",
+        "check_date": "2026-05-06",
+        "check_date:opening_hours": "2026-05-06",
+        "cuisine": "asian;chinese",
+        "name": "Pei Wei Asian Express",
+        "not:brand:wikidata": "Q7160898",
+        "opening_hours": "Mo-Th 11:00-20:00; Fr-Sa 11:00-20:30; Su 00:00-18:00",
+        "phone": "+1-704-442-7222",
+        "website": "https://www.peiwei.com/north-carolina/548-southpark-mall/"
+      },
+      "lat": 35.1531109,
+      "lon": -80.8327597
+    },
+    {
+      "type": "node",
+      "id": 5127122852,
+      "tags": {
+        "addr:city": "Charlotte",
+        "addr:housenumber": "13855",
+        "addr:postcode": "28277",
+        "addr:state": "NC",
+        "addr:street": "Conlan Circle",
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "cuisine": "asian",
+        "name": "Pei Wei"
+      },
+      "lat": 35.0555075,
+      "lon": -80.8515889
+    },
+    {
+      "type": "node",
+      "id": 7406399456,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "cuisine": "asian",
+        "name": "Pei Wei"
+      },
+      "lat": 35.8424598,
+      "lon": -78.6120959
+    },
+    {
+      "type": "node",
+      "id": 9469356538,
+      "tags": {
+        "addr:city": "Raleigh",
+        "addr:housenumber": "10251",
+        "addr:postcode": "27617",
+        "addr:state": "NC",
+        "addr:street": "Little Brier Creek Lane",
+        "addr:unit": "Suite 112",
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "check_date": "2025-01-20",
+        "cuisine": "asian",
+        "name": "Pei Wei",
+        "phone": "+1 919 484 4113",
+        "source": "WakeGIS;local knowledge",
+        "website": "https://www.peiwei.com/north-carolina/108-brier-creek/"
+      },
+      "lat": 35.9115962,
+      "lon": -78.7848754
+    },
+    {
+      "type": "way",
+      "id": 232840759,
+      "tags": {
+        "addr:city": "Cary",
+        "addr:housenumber": "1107",
+        "addr:postcode": "27511",
+        "addr:street": "Walnut Street",
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "building": "yes",
+        "contact:phone": "+1 919 337 0050",
+        "cuisine": "asian",
+        "name": "Pei Wei",
+        "opening_hours": "Su-Th 11:00-21:00; Fr-Sa 11:00-22:00",
+        "outdoor_seating": "yes",
+        "ref": "0116",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.771544,
+        "lon": -78.76265030000002
+      }
+    }
+  ]
+}

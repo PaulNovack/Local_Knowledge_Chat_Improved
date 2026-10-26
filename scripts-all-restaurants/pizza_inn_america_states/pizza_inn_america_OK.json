@@ -1,0 +1,73 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "pizza_inn_america",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 988488433,
+      "tags": {
+        "addr:city": "Durant",
+        "addr:housenumber": "415",
+        "addr:postcode": "74701",
+        "addr:state": "OK",
+        "addr:street": "Westside Drive",
+        "amenity": "fast_food",
+        "brand": "Pizza Inn",
+        "brand:wikidata": "Q4118850",
+        "building": "retail",
+        "cuisine": "pizza",
+        "name": "Pizza Inn",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 34.00097235,
+        "lon": -96.40517395
+      }
+    },
+    {
+      "type": "way",
+      "id": 1171583739,
+      "tags": {
+        "addr:city": "Muskogee",
+        "addr:housenumber": "1107",
+        "addr:postcode": "74403",
+        "addr:state": "OK",
+        "addr:street": "North York Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Pizza Inn",
+        "brand:wikidata": "Q4118850",
+        "building": "yes",
+        "check_date": "2025-08-15",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "drive_through": "no",
+        "name": "Pizza Inn",
+        "opening_hours": "Mo-Th,Su 11:00-21:00; Fr-Sa 11:00-22:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-918-682-3407",
+        "takeaway": "yes",
+        "website": "https://pizzainn.com"
+      },
+      "center": {
+        "lat": 35.75456285,
+        "lon": -95.34080749999998
+      }
+    }
+  ]
+}

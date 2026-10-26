@@ -1,0 +1,73 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "RI",
+    "brand": "little_caesars",
+    "source": "https://download.geofabrik.de/north-america/us/rhode-island-latest.osm.pbf",
+    "source_md5": "089bd14c5348318ad280c1c9ab732067",
+    "processed_utc": "2026-10-24T07:15:29.409283+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2408815895,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "takeaway": "yes",
+        "website": "https://littlecaesars.com/en-us/store/8841/"
+      },
+      "lat": 41.8364905,
+      "lon": -71.4291974
+    },
+    {
+      "type": "node",
+      "id": 11026287563,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "takeaway": "yes",
+        "website": "https://littlecaesars.com/en-us/store/10031/"
+      },
+      "lat": 41.7794083,
+      "lon": -71.4442062
+    },
+    {
+      "type": "way",
+      "id": 771420574,
+      "tags": {
+        "addr:city": "Providence",
+        "addr:housenumber": "529",
+        "addr:postcode": "02907",
+        "addr:state": "RI",
+        "addr:street": "Broad Street",
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "phone": "+1 401-353-2282",
+        "takeaway": "yes",
+        "website": "https://littlecaesars.com/en-us/store/9278/"
+      },
+      "center": {
+        "lat": 41.8096429,
+        "lon": -71.42137174999999
+      }
+    }
+  ]
+}

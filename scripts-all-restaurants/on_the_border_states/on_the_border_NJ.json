@@ -1,0 +1,105 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "on_the_border",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 30176084,
+      "tags": {
+        "addr:city": "Mount Laurel",
+        "addr:housenumber": "4160",
+        "addr:postcode": "08054",
+        "addr:state": "NJ",
+        "addr:street": "Church Road",
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina"
+      },
+      "center": {
+        "lat": 39.923616300000006,
+        "lon": -74.95194685000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 204706610,
+      "tags": {
+        "addr:city": "New Brunswick",
+        "addr:housenumber": "51",
+        "addr:postcode": "08901",
+        "addr:state": "NJ",
+        "addr:street": "US Highway 1",
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "yes",
+        "check_date": "2024-12-11",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "outdoor_seating": "no",
+        "phone": "+1 732-979-2192",
+        "source": "Bing",
+        "website": "https://www.ontheborder.com/locations/new-brunswick/"
+      },
+      "center": {
+        "lat": 40.48035315,
+        "lon": -74.42169324999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 278717089,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina"
+      },
+      "center": {
+        "lat": 40.91608,
+        "lon": -74.07334285000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1013816572,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "cuisine": "tex-mex",
+        "indoor": "yes",
+        "indoor:level": "0",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "room": "restaurant"
+      },
+      "center": {
+        "lat": 39.98237715,
+        "lon": -74.17775004999999
+      }
+    }
+  ]
+}

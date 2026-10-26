@@ -1,0 +1,168 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MN",
+    "brand": "sonic",
+    "source": "https://download.geofabrik.de/north-america/us/minnesota-latest.osm.pbf",
+    "source_md5": "4cabd6519cf6e8b1f74c96f59629df95",
+    "processed_utc": "2026-10-24T07:08:10.045763+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4812608485,
+      "tags": {
+        "addr:city": "New Ulm",
+        "addr:housenumber": "321",
+        "addr:postcode": "56073",
+        "addr:state": "MN",
+        "addr:street": "Crown Street",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "drive_through": "yes",
+        "email": "getsonic@sonicfranchise.com",
+        "fixme": "find actual location (does it exist?)",
+        "name": "Sonic",
+        "opening_hours": "09:00-21:00",
+        "operator": "Sonic",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "takeaway": "yes"
+      },
+      "lat": 44.3311071,
+      "lon": -94.4931336
+    },
+    {
+      "type": "way",
+      "id": 307202201,
+      "tags": {
+        "addr:city": "Bloomington",
+        "addr:housenumber": "2101",
+        "addr:postcode": "55431",
+        "addr:state": "MN",
+        "addr:street": "American Boulevard West",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "08:00-23:00",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/mn/bloomington/2101-american-boulevard-west.html"
+      },
+      "center": {
+        "lat": 44.85812565,
+        "lon": -93.30603280000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 411206129,
+      "tags": {
+        "addr:city": "Savage",
+        "addr:housenumber": "4233",
+        "addr:postcode": "55378",
+        "addr:state": "MN",
+        "addr:street": "Egan Road",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "08:00-23:00",
+        "phone": "+1 952-746-8120",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/mn/savage/4233-egan-road.html"
+      },
+      "center": {
+        "lat": 44.74586755,
+        "lon": -93.33283720000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 565827351,
+      "tags": {
+        "addr:city": "Elk River",
+        "addr:housenumber": "229",
+        "addr:postcode": "55330",
+        "addr:state": "MN",
+        "addr:street": "Carson Street",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "08:00-23:00",
+        "phone": "+1 763-404-8284",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/mn/elkriver/229-carson-street.html"
+      },
+      "center": {
+        "lat": 45.30357625,
+        "lon": -93.55677960000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 852432351,
+      "tags": {
+        "addr:city": "Saint Paul",
+        "addr:housenumber": "1960",
+        "addr:postcode": "55119",
+        "addr:state": "MN",
+        "addr:street": "Suburban Avenue",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "08:00-23:00",
+        "phone": "+1 651-379-9898",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/mn/saintpaul/1960-suburban-avenue.html"
+      },
+      "center": {
+        "lat": 44.949456999999995,
+        "lon": -93.01759070000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1365027887,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 45.0577966,
+        "lon": -93.24830535000001
+      }
+    }
+  ]
+}

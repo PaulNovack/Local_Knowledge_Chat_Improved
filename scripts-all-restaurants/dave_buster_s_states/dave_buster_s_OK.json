@@ -1,0 +1,62 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "dave_buster_s",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 250484717,
+      "tags": {
+        "addr:city": "Oklahoma City",
+        "addr:housenumber": "5501",
+        "addr:state": "OK",
+        "addr:street": "North May Avenue",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "yes",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "opening_hours": "Su-Th 11:00-00:00; Fr-Sa 11:00-01:00",
+        "source": "local_knowledge"
+      },
+      "center": {
+        "lat": 35.52576485,
+        "lon": -97.56734074999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1235076308,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "retail",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 36.06514635,
+        "lon": -95.86061130000002
+      }
+    }
+  ]
+}

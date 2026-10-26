@@ -1,0 +1,68 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "cheddar_s",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 810345356,
+      "tags": {
+        "addr:city": "Erie",
+        "addr:housename": "Cheddars",
+        "addr:housenumber": "2085",
+        "addr:postcode": "16509",
+        "addr:state": "PA",
+        "addr:street": "Interchange Road",
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen",
+        "website": "https://www.cheddars.com/"
+      },
+      "center": {
+        "lat": 42.064619050000005,
+        "lon": -80.10389709999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1195217415,
+      "tags": {
+        "addr:city": "York",
+        "addr:housenumber": "1340",
+        "addr:postcode": "17402",
+        "addr:state": "PA",
+        "addr:street": "Toronita Street",
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen",
+        "opening_hours": "Su-Th 11:00-22:00, Fr-Sa 11:00-23:00",
+        "phone": "+1 717-848-1079",
+        "website": "https://www.cheddars.com/locations/pa/york/york/2059?cmpid=br:csk_ag:ie_ch:loc_ca:CSKGMB_sn:gmb_gt:york-pa-2059_pl:locurl_rd:1051"
+      },
+      "center": {
+        "lat": 39.983392949999995,
+        "lon": -76.72831680000002
+      }
+    }
+  ]
+}

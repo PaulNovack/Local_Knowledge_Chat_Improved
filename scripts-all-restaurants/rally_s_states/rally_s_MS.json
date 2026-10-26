@@ -1,0 +1,102 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "rally_s",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8971192372,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Rally's",
+        "brand:wikidata": "Q63919323",
+        "cuisine": "burger",
+        "name": "Rally's",
+        "takeaway": "yes"
+      },
+      "lat": 32.2822641,
+      "lon": -90.1168392
+    },
+    {
+      "type": "node",
+      "id": 13914767463,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Rally's",
+        "brand:wikidata": "Q63919323",
+        "cuisine": "burger",
+        "name": "Rally's",
+        "takeaway": "yes"
+      },
+      "lat": 32.3553475,
+      "lon": -90.1789989
+    },
+    {
+      "type": "way",
+      "id": 785927921,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Rally's",
+        "brand:wikidata": "Q63919323",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Rally's",
+        "takeaway": "yes",
+        "website": "https://checkersandrallys.com/location/rally-s-9487-woodrow-wilson-782047"
+      },
+      "center": {
+        "lat": 32.32720905,
+        "lon": -90.19469719999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 1126558195,
+      "tags": {
+        "addr:housenumber": "755",
+        "addr:state": "MS",
+        "addr:street": "Brookway Boulevard",
+        "amenity": "fast_food",
+        "brand": "Rally's",
+        "brand:wikidata": "Q63919323",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Rally's",
+        "opening_hours": "Mo-Su 10:00-01:00",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "website": "https://checkersandrallys.com/location/rally-s-4371-brookway-blvd-24684535"
+      },
+      "center": {
+        "lat": 31.5791526,
+        "lon": -90.4593946
+      }
+    },
+    {
+      "type": "way",
+      "id": 1326157619,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Rally's Hamburgers"
+      },
+      "center": {
+        "lat": 31.86550445,
+        "lon": -89.73682085000002
+      }
+    }
+  ]
+}

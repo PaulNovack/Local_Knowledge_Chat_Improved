@@ -1,0 +1,114 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VT",
+    "brand": "applebee_s",
+    "source": "https://download.geofabrik.de/north-america/us/vermont-latest.osm.pbf",
+    "source_md5": "20a19d56b1e59d82493b3194b9e30440",
+    "processed_utc": "2026-10-24T07:18:02.754583+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5073216523,
+      "tags": {
+        "addr:city": "South Burlington",
+        "addr:country": "US",
+        "addr:housenumber": "155",
+        "addr:postcode": "05403",
+        "addr:state": "VT",
+        "addr:street": "Dorset Street",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1-802-862-2818",
+        "website": "https://restaurants.applebees.com/en-us/vt/burlington/155-dorset-st-83075",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=83075&action=viewmenu"
+      },
+      "lat": 44.46433,
+      "lon": -73.1836344
+    },
+    {
+      "type": "node",
+      "id": 11229888359,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 802-747-7700",
+        "website": "https://restaurants.applebees.com/en-us/vt/rutland/225-woodstock-avenue-83076",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=83076&action=viewmenu"
+      },
+      "lat": 43.6199221,
+      "lon": -72.9550446
+    },
+    {
+      "type": "way",
+      "id": 265236658,
+      "tags": {
+        "addr:city": "West Lebanon",
+        "addr:housenumber": "280",
+        "addr:state": "NH",
+        "addr:street": "Plainfield Road",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "yes",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "opening_hours": "Su-Th 11:00-24:00; Fr,Sa 11:00-25:00",
+        "phone": "+1-603-298-8608",
+        "takeaway": "yes",
+        "website": "https://restaurants.applebees.com/en-us/nh/west-lebanon/280-plainfield-road-83063",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=83063&action=viewmenu"
+      },
+      "center": {
+        "lat": 43.62481535,
+        "lon": -72.32586319999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 866795199,
+      "tags": {
+        "addr:city": "Montpelier",
+        "addr:housenumber": "233",
+        "addr:postcode": "05602",
+        "addr:state": "VT",
+        "addr:street": "Paine Turnpike North",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "opening_hours": "Mo-Su 11:00-24:00",
+        "phone": "+1 802-229-2223",
+        "ref:vcgi:esiteid": "23479",
+        "website": "https://restaurants.applebees.com/en-us/vt/berlin/213-paine-turnpike-n.-83077",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=83077&action=viewmenu"
+      },
+      "center": {
+        "lat": 44.2133434,
+        "lon": -72.57538475000001
+      }
+    }
+  ]
+}

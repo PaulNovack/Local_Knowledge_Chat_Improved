@@ -1,0 +1,140 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MN",
+    "brand": "texas_roadhouse",
+    "source": "https://download.geofabrik.de/north-america/us/minnesota-latest.osm.pbf",
+    "source_md5": "4cabd6519cf6e8b1f74c96f59629df95",
+    "processed_utc": "2026-10-24T07:08:10.045763+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3338148102,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse"
+      },
+      "lat": 44.0777947,
+      "lon": -92.5144459
+    },
+    {
+      "type": "node",
+      "id": 6467219637,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse"
+      },
+      "lat": 45.5510507,
+      "lon": -94.2205003
+    },
+    {
+      "type": "node",
+      "id": 11881239969,
+      "tags": {
+        "addr:postcode": "55379",
+        "addr:street": "Old Carriage Court North",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse"
+      },
+      "lat": 44.7811589,
+      "lon": -93.4138587
+    },
+    {
+      "type": "node",
+      "id": 11988940821,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "opening_hours": "Mo-Th 15:00-22:00; Fr,Sa 11:00-23:00; Su 11:00-22:00"
+      },
+      "lat": 44.9453312,
+      "lon": -92.9332399
+    },
+    {
+      "type": "way",
+      "id": 1072445874,
+      "tags": {
+        "addr:city": "Duluth",
+        "addr:housenumber": "902",
+        "addr:postcode": "55811",
+        "addr:state": "MN",
+        "addr:street": "Mall Drive",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "retail",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "opening_hours": "Mo-Th 15:30-22:00, Fr-Sa 11:00-23:00, Su 11:00-22:00",
+        "phone": "+1-218-624-7427",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://www.texasroadhouse.com/locations/minnesota/duluth",
+        "website:menu": "https://togo.texasroadhouse.com/location/374-duluthmn/digital-menu"
+      },
+      "center": {
+        "lat": 46.8012403,
+        "lon": -92.14910220000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1134531051,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse"
+      },
+      "center": {
+        "lat": 44.7213977,
+        "lon": -93.1776734
+      }
+    },
+    {
+      "type": "way",
+      "id": 1548230453,
+      "tags": {
+        "addr:city": "Coon Rapids",
+        "addr:housenumber": "2780",
+        "addr:postcode": "55448",
+        "addr:state": "MN",
+        "addr:street": "Main Street Northwest",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "opening_hours": "Su 11:00-22:00; Mo-We 15:00-22:00; Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-763-862-3389",
+        "website": "https://www.texasroadhouse.com/locations/261-coon-rapidsmn"
+      },
+      "center": {
+        "lat": 45.19643885,
+        "lon": -93.33756825
+      }
+    }
+  ]
+}

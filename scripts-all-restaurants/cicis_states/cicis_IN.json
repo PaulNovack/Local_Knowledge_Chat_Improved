@@ -1,0 +1,45 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "cicis",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2108154979,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cicis",
+        "brand:wikidata": "Q2972189",
+        "cuisine": "pizza;buffet",
+        "name": "Cicis"
+      },
+      "lat": 41.6994817,
+      "lon": -86.1835013
+    },
+    {
+      "type": "node",
+      "id": 4529699685,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cici's Pizza",
+        "brand:wikidata": "Q2972189",
+        "cuisine": "pizza;buffet",
+        "name": "Cici's Pizza"
+      },
+      "lat": 37.9783707,
+      "lon": -87.4903932
+    }
+  ]
+}

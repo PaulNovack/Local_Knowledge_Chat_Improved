@@ -1,0 +1,122 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "mcalister_s_deli",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4827813361,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "12847",
+        "addr:postcode": "85032",
+        "addr:state": "AZ",
+        "addr:street": "North Tatum Boulevard",
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "cuisine": "vietnamese",
+        "name": "Hello Vietnam - Pho and Roll",
+        "self_service": "no"
+      },
+      "lat": 33.6028429,
+      "lon": -111.978053
+    },
+    {
+      "type": "node",
+      "id": 11214923985,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli"
+      },
+      "lat": 33.6368999,
+      "lon": -112.2315881
+    },
+    {
+      "type": "node",
+      "id": 14165149183,
+      "tags": {
+        "addr:city": "Goodyear",
+        "addr:housenumber": "13425",
+        "addr:postcode": "85395",
+        "addr:state": "AZ",
+        "addr:street": "West McDowell Road",
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli"
+      },
+      "lat": 33.4636542,
+      "lon": -112.3478881
+    },
+    {
+      "type": "way",
+      "id": 257009019,
+      "tags": {
+        "addr:city": "Tempe",
+        "addr:housenumber": "715",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "South Rural Road",
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli",
+        "roof:levels": "0",
+        "source": "esri/USA_NAD_Addresses",
+        "was:amenity": "restaurant"
+      },
+      "center": {
+        "lat": 33.42316795,
+        "lon": -111.9258241
+      }
+    },
+    {
+      "type": "way",
+      "id": 711864542,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "735",
+        "addr:postcode": "85705",
+        "addr:state": "AZ",
+        "addr:street": "East Wetmore Road",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q17020829",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "opening_hours": "Mo-Fr 10:30-21:00; Sa-Su 10:30-22:00",
+        "operator": "KFC",
+        "operator:wikidata": "Q524757",
+        "phone": "+1 520-276-2049",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.28715115,
+        "lon": -110.96043765000002
+      }
+    }
+  ]
+}

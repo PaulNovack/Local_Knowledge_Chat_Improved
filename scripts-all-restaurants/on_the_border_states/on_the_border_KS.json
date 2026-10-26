@@ -1,0 +1,88 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "on_the_border",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 195469965,
+      "tags": {
+        "addr:city": "Topeka",
+        "addr:housenumber": "1235",
+        "addr:postcode": "66604",
+        "addr:state": "KS",
+        "addr:street": "Southwest Wanamaker Road",
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "opening_hours": "Su-Th 11:00-21:00; Fr-Sa 11:00-22:00",
+        "phone": "+1-785-380-4755",
+        "source": "esri_USDOT_Kansas",
+        "website": "https://www.ontheborder.com/locations/topeka/"
+      },
+      "center": {
+        "lat": 39.04437195,
+        "lon": -95.76232759999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 266257296,
+      "tags": {
+        "addr:city": "Wichita",
+        "addr:country": "US",
+        "addr:state": "KS",
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina"
+      },
+      "center": {
+        "lat": 37.71893395,
+        "lon": -97.24397335000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 385784368,
+      "tags": {
+        "addr:city": "Wichita",
+        "addr:housenumber": "2347",
+        "addr:postcode": "67205",
+        "addr:state": "KS",
+        "addr:street": "North Maize Road",
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "source": "esri_USDOT_Kansas"
+      },
+      "center": {
+        "lat": 37.7251206,
+        "lon": -97.46337319999998
+      }
+    }
+  ]
+}

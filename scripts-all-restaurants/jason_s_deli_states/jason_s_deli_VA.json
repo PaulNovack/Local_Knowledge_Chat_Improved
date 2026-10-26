@@ -1,0 +1,104 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "jason_s_deli",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2538416544,
+      "tags": {
+        "addr:city": "Hampton",
+        "addr:housenumber": "39",
+        "addr:postcode": "23666",
+        "addr:street": "Coliseum Crossing",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli"
+      },
+      "lat": 37.0488142,
+      "lon": -76.3936688
+    },
+    {
+      "type": "node",
+      "id": 10179152148,
+      "tags": {
+        "addr:city": "Chesapeake",
+        "addr:housenumber": "725",
+        "addr:postcode": "23320",
+        "addr:state": "VA",
+        "addr:street": "Eden Way",
+        "addr:unit": "714",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli",
+        "phone": "+1-757-382-0889",
+        "source": "esri/USA_NAD_Addresses",
+        "website": "https://www.jasonsdeli.com/"
+      },
+      "lat": 36.7721789,
+      "lon": -76.2353872
+    },
+    {
+      "type": "way",
+      "id": 369196073,
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "7115",
+        "addr:postcode": "23225",
+        "addr:street": "Forest Hill Avenue",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli"
+      },
+      "center": {
+        "lat": 37.53551745,
+        "lon": -77.52619085000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 402243906,
+      "tags": {
+        "addr:city": "Virginia Beach",
+        "addr:housenumber": "4512",
+        "addr:postcode": "23462",
+        "addr:street": "Virginia Beach Boulevard",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "fax": "+1-757-456-5485",
+        "height": "31'",
+        "name": "Jason's Deli",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+1-757-456-5481",
+        "start_date": "1965",
+        "website": "https://www.jasonsdeli.com/restaurants/virginia-beach-deli"
+      },
+      "center": {
+        "lat": 36.8440189,
+        "lon": -76.13218495000001
+      }
+    }
+  ]
+}

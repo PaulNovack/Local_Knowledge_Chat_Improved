@@ -1,0 +1,69 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "first_watch",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5487625474,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "First Watch",
+        "brand:wikidata": "Q5454064",
+        "cuisine": "american;breakfast",
+        "name": "First Watch",
+        "official_name": "First Watch The Daytime Cafe"
+      },
+      "lat": 39.9125338,
+      "lon": -86.2112016
+    },
+    {
+      "type": "node",
+      "id": 12148118325,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "First Watch",
+        "brand:wikidata": "Q5454064",
+        "cuisine": "american;breakfast",
+        "indoor_seating": "yes",
+        "name": "First Watch",
+        "official_name": "First Watch The Daytime Cafe",
+        "outdoor_seating": "yes"
+      },
+      "lat": 39.9108774,
+      "lon": -86.1091144
+    },
+    {
+      "type": "node",
+      "id": 13587404645,
+      "tags": {
+        "addr:city": "Noblesville",
+        "addr:housenumber": "16725",
+        "addr:postcode": "46060",
+        "addr:state": "IN",
+        "addr:street": "Mercantile Boulevard",
+        "amenity": "restaurant",
+        "brand": "First Watch",
+        "brand:wikidata": "Q5454064",
+        "cuisine": "american;breakfast",
+        "name": "First Watch",
+        "official_name": "First Watch The Daytime Cafe",
+        "website": "https://firstwatch.com/locations/noblesville"
+      },
+      "lat": 40.032022,
+      "lon": -85.9942882
+    }
+  ]
+}

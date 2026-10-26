@@ -1,0 +1,102 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "mcalister_s_deli",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5282432375,
+      "tags": {
+        "addr:city": "Niceville",
+        "addr:housenumber": "1154",
+        "addr:postcode": "32578",
+        "addr:state": "FL",
+        "addr:street": "John Sims Parkway",
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli"
+      },
+      "lat": 30.5163074,
+      "lon": -86.4657666
+    },
+    {
+      "type": "node",
+      "id": 8747853272,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli"
+      },
+      "lat": 28.3985748,
+      "lon": -81.4881307
+    },
+    {
+      "type": "node",
+      "id": 13687730920,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli",
+        "shop": "deli"
+      },
+      "lat": 26.2716979,
+      "lon": -81.7881008
+    },
+    {
+      "type": "node",
+      "id": 13872327325,
+      "tags": {
+        "addr:city": "Fort Myers",
+        "addr:housenumber": "3409",
+        "addr:postcode": "33905",
+        "addr:street": "Forum Boulevard",
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli"
+      },
+      "lat": 26.6155965,
+      "lon": -81.7960218
+    },
+    {
+      "type": "way",
+      "id": 993578448,
+      "tags": {
+        "addr:city": "Pembroke Pines",
+        "addr:housenumber": "10620",
+        "addr:postcode": "33025",
+        "addr:state": "FL",
+        "addr:street": "Pines Boulevard",
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli"
+      },
+      "center": {
+        "lat": 26.0071061,
+        "lon": -80.28758805000001
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NM",
+    "brand": "godfather_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/new-mexico-latest.osm.pbf",
+    "source_md5": "5e236c0e9dd59b2df560a9316c86a745",
+    "processed_utc": "2026-10-24T07:10:42.593170+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11597150822,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza Express"
+      },
+      "lat": 32.3537002,
+      "lon": -108.7356852
+    },
+    {
+      "type": "node",
+      "id": 12374059606,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza"
+      },
+      "lat": 35.1588025,
+      "lon": -103.7011624
+    },
+    {
+      "type": "way",
+      "id": 1201595909,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza"
+      },
+      "center": {
+        "lat": 34.3884534,
+        "lon": -103.0347021
+      }
+    }
+  ]
+}

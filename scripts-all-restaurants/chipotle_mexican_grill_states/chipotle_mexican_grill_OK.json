@@ -1,0 +1,407 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "chipotle_mexican_grill",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1953639962,
+      "tags": {
+        "addr:city": "Norman",
+        "addr:housenumber": "765",
+        "addr:postcode": "73069",
+        "addr:state": "OK",
+        "addr:street": "Asp Avenue",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "cuisine": "mexican",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "phone": "+1 405-360-0221",
+        "takeaway": "yes",
+        "website": "https://locations.chipotle.com/ok/norman/765-asp-ave"
+      },
+      "lat": 35.2117484,
+      "lon": -97.4435659
+    },
+    {
+      "type": "node",
+      "id": 2368025680,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "cuisine": "mexican",
+        "entrance": "main",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "source": "local_knowledge",
+        "takeaway": "yes"
+      },
+      "lat": 35.5311662,
+      "lon": -97.5757688
+    },
+    {
+      "type": "node",
+      "id": 4600169738,
+      "tags": {
+        "addr:city": "Oklahoma City",
+        "addr:housenumber": "14221",
+        "addr:postcode": "73134",
+        "addr:state": "OK",
+        "addr:street": "North Pennsylvania Avenue",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "cuisine": "mexican",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "phone": "+1 405-302-4903",
+        "takeaway": "yes",
+        "website": "https://locations.chipotle.com/ok/oklahoma-city/14221-n-pennsylvania-ave"
+      },
+      "lat": 35.6148779,
+      "lon": -97.5500356
+    },
+    {
+      "type": "node",
+      "id": 9278099944,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:housenumber": "10902",
+        "addr:postcode": "74133",
+        "addr:state": "OK",
+        "addr:street": "East 71st Street South",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "cuisine": "mexican",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "outdoor_seating": "pedestrian_zone",
+        "phone": "+1 918 459 2465",
+        "takeaway": "yes",
+        "website": "https://locations.chipotle.com/ok/tulsa/10902-e-71st-st"
+      },
+      "lat": 36.0604486,
+      "lon": -95.8547111
+    },
+    {
+      "type": "node",
+      "id": 11483096355,
+      "tags": {
+        "addr:city": "Owasso",
+        "addr:housenumber": "11320",
+        "addr:postcode": "74055",
+        "addr:state": "OK",
+        "addr:street": "East 96th Street North",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "cuisine": "mexican",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "yes",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "opening_hours": "10:45-23:00",
+        "phone": "+1 539-208-1078",
+        "takeaway": "yes",
+        "website": "https://locations.chipotle.com/ok/owasso/11320-e-96th-street-n"
+      },
+      "lat": 36.2925605,
+      "lon": -95.8467866
+    },
+    {
+      "type": "relation",
+      "id": 19397817,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:housenumber": "5730",
+        "addr:postcode": "74135",
+        "addr:state": "OK",
+        "addr:street": "East 41st Street",
+        "addr:unit": "200",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "check_date": "2024-12-11",
+        "cuisine": "mexican",
+        "drive_through": "no",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "opening_hours": "10:45-22:30",
+        "phone": "+1 918-770-4675",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "takeaway": "yes",
+        "type": "multipolygon",
+        "website": "https://locations.chipotle.com/ok/tulsa/5730-e-41st-st"
+      },
+      "center": {
+        "lat": 36.103937450000004,
+        "lon": -95.91147809999995
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19627114,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "10410",
+        "addr:postcode": "74133",
+        "addr:state": "OK",
+        "addr:street": "South Memorial Drive East",
+        "addr:unit": "A",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "cuisine": "mexican",
+        "drive_through": "no",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "phone": "+1 918-364-3564",
+        "takeaway": "yes",
+        "type": "multipolygon",
+        "website": "https://locations.chipotle.com/ok/tulsa/10410-s-memorial-dr"
+      },
+      "center": {
+        "lat": 36.01338715,
+        "lon": -95.88718465
+      }
+    },
+    {
+      "type": "way",
+      "id": 241573344,
+      "tags": {
+        "addr:city": "Stillwater",
+        "addr:housenumber": "415",
+        "addr:postcode": "74075",
+        "addr:state": "OK",
+        "addr:street": "East Hall of Fame Avenue",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "phone": "+1 405-372-1642",
+        "takeaway": "yes",
+        "website": "https://locations.chipotle.com/ok/stillwater/415-e-hall-of-fame-ave"
+      },
+      "center": {
+        "lat": 36.1264787,
+        "lon": -97.05335530000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 309854843,
+      "tags": {
+        "addr:city": "Edmond",
+        "addr:housenumber": "1569",
+        "addr:postcode": "73013",
+        "addr:state": "OK",
+        "addr:street": "South Broadway",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "phone": "+1 405-341-6765",
+        "takeaway": "yes",
+        "website": "https://locations.chipotle.com/ok/edmond/1569-s-broadway"
+      },
+      "center": {
+        "lat": 35.6376588,
+        "lon": -97.48437754999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 429506232,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "6060",
+        "addr:postcode": "74135",
+        "addr:state": "OK",
+        "addr:street": "South Yale Avenue East",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "no",
+        "indoor_seating": "yes",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "outdoor_seating": "yes",
+        "phone": "+1 918-477-9675",
+        "takeaway": "yes",
+        "website": "https://locations.chipotle.com/ok/tulsa/6060-s-yale-ave"
+      },
+      "center": {
+        "lat": 36.075734,
+        "lon": -95.92271905000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 902530695,
+      "tags": {
+        "addr:city": "Broken Arrow",
+        "addr:housenumber": "750",
+        "addr:postcode": "74012",
+        "addr:state": "OK",
+        "addr:street": "East Kenosha Street North",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "building": "yes",
+        "check_date": "2024-10-20",
+        "cuisine": "mexican",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "opening_hours": "10:45-23:00",
+        "phone": "+1 918-615-4060",
+        "takeaway": "yes",
+        "website": "https://locations.chipotle.com/ok/broken-arrow/750-e-kenosha-st"
+      },
+      "center": {
+        "lat": 36.06158095,
+        "lon": -95.78205805000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 995604951,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:housenumber": "1623",
+        "addr:postcode": "74120",
+        "addr:state": "OK",
+        "addr:street": "East 15th Street South",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "mexican",
+        "diet:gluten_free": "yes",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "opening_hours": "Mo-Su 10:45-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 918-582-9005",
+        "roof:levels": "0",
+        "takeaway": "yes",
+        "website": "https://locations.chipotle.com/ok/tulsa/1623-e-15th-st",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 36.1408129,
+        "lon": -95.9686393
+      }
+    },
+    {
+      "type": "way",
+      "id": 1092574524,
+      "tags": {
+        "addr:city": "Moore",
+        "addr:housenumber": "705",
+        "addr:postcode": "73160",
+        "addr:state": "OK",
+        "addr:street": "Southwest 19th Street",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "phone": "+1 405-790-0531",
+        "takeaway": "yes",
+        "website": "https://locations.chipotle.com/ok/moore/705-sw-19th-st"
+      },
+      "center": {
+        "lat": 35.3202306,
+        "lon": -97.49984764999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1293937950,
+      "tags": {
+        "addr:city": "Broken Arrow",
+        "addr:housenumber": "5405",
+        "addr:postcode": "74011",
+        "addr:state": "OK",
+        "addr:street": "South Aspen Avenue West",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "building": "retail;yes",
+        "cuisine": "mexican",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "opening_hours": "10:45-23:00",
+        "phone": "+1 539-250-4518",
+        "takeaway": "yes",
+        "website": "https://locations.chipotle.com/ok/broken-arrow/5405-s-aspen-ave"
+      },
+      "center": {
+        "lat": 35.9960024,
+        "lon": -95.81469134999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1524892657,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:housenumber": "7655",
+        "addr:postcode": "74132",
+        "addr:state": "OK",
+        "addr:street": "South Olympia Avenue West",
+        "amenity": "fast_food",
+        "brand": "Chipotle",
+        "brand:wikidata": "Q465751",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Chipotle",
+        "official_name": "Chipotle Mexican Grill",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.052869,
+        "lon": -96.00409535
+      }
+    }
+  ]
+}

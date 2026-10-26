@@ -1,0 +1,82 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "the_original_pancake_house",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5285124823,
+      "tags": {
+        "addr:city": "Edgewater",
+        "addr:housenumber": "15",
+        "addr:postcode": "07020",
+        "addr:state": "NJ",
+        "addr:street": "The Promenade",
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House"
+      },
+      "lat": 40.8072224,
+      "lon": -73.989782
+    },
+    {
+      "type": "way",
+      "id": 187798475,
+      "tags": {
+        "addr:city": "Metuchen",
+        "addr:housenumber": "61",
+        "addr:postcode": "08840",
+        "addr:state": "NJ",
+        "addr:street": "US Route 1",
+        "amenity": "restaurant",
+        "building": "yes",
+        "check_date": "2026-04-09",
+        "name": "The Original Pancake House",
+        "opening_hours": "Mo-Th 08:00-15:00; Fr-Su 07:00-15:00",
+        "phone": "+1 732-710-3826",
+        "reservation": "no",
+        "website": "https://www.ophwoodbridge.com/"
+      },
+      "center": {
+        "lat": 40.547979,
+        "lon": -74.32676924999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 864672854,
+      "tags": {
+        "addr:city": "West Caldwell",
+        "addr:housenumber": "817",
+        "addr:postcode": "07006",
+        "addr:state": "NJ",
+        "addr:street": "Bloomfield Avenue",
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House",
+        "opening_hours": "We-Mo 07:00-03:00"
+      },
+      "center": {
+        "lat": 40.8511532,
+        "lon": -74.29698225000004
+      }
+    }
+  ]
+}

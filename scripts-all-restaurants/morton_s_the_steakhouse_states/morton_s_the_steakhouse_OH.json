@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "morton_s_the_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2608320906,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "cuisine": "steak_house",
+        "name": "Morton's The Steakhouse",
+        "wheelchair": "limited"
+      },
+      "lat": 41.4974117,
+      "lon": -81.6933974
+    },
+    {
+      "type": "node",
+      "id": 5448633710,
+      "tags": {
+        "addr:city": "Cincinnati",
+        "addr:housenumber": "441",
+        "addr:postcode": "45202",
+        "addr:state": "OH",
+        "addr:street": "Vine Street",
+        "addr:unit": "Suite 1H",
+        "amenity": "restaurant",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "cuisine": "steak_house",
+        "level": "2",
+        "name": "Morton's The Steakhouse",
+        "opening_hours": "Su-Th 17:00-22:00; Fr-Sa 17:00-23:00",
+        "phone": "+1-513-621-3111",
+        "website": "https://www.mortons.com/"
+      },
+      "lat": 39.10095,
+      "lon": -84.5130975
+    }
+  ]
+}

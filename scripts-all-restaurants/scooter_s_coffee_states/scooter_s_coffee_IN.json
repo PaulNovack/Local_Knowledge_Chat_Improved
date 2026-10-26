@@ -1,0 +1,114 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "scooter_s_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12027031744,
+      "tags": {
+        "addr:city": "Franklin",
+        "addr:housenumber": "1730",
+        "addr:postcode": "46131",
+        "addr:state": "IN",
+        "addr:street": "North Morton Street",
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "cuisine": "coffee_shop",
+        "name": "Scooter's Coffee",
+        "takeaway": "yes",
+        "website": "https://scooterscoffee.com/"
+      },
+      "lat": 39.4952426,
+      "lon": -86.0659209
+    },
+    {
+      "type": "node",
+      "id": 12723668257,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "cuisine": "coffee_shop",
+        "name": "Scooter's Coffee",
+        "takeaway": "yes"
+      },
+      "lat": 38.4114314,
+      "lon": -86.9375301
+    },
+    {
+      "type": "way",
+      "id": 681988672,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Scooter's Coffee",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.75735305,
+        "lon": -86.32607559999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 779426353,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Scooter's Coffee",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.702985549999994,
+        "lon": -85.9852611
+      }
+    },
+    {
+      "type": "way",
+      "id": 1499108645,
+      "tags": {
+        "addr:city": "Kendallville",
+        "addr:housenumber": "621",
+        "addr:postcode": "46755",
+        "addr:state": "IN",
+        "addr:street": "East North Street",
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "internet_access": "no",
+        "name": "Scooter's Coffee",
+        "opening_hours": "Mo-Su 05:00-20:00",
+        "outdoor_seating": "no",
+        "phone": "+1-260-946-0127",
+        "takeaway": "yes",
+        "website": "https://www.scooterscoffee.com/"
+      },
+      "center": {
+        "lat": 41.45255225,
+        "lon": -85.25960350000003
+      }
+    }
+  ]
+}

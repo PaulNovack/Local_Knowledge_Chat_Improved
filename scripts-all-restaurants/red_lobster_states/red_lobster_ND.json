@@ -1,0 +1,61 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ND",
+    "brand": "red_lobster",
+    "source": "https://download.geofabrik.de/north-america/us/north-dakota-latest.osm.pbf",
+    "source_md5": "9eff3bc6ca09aea0f8e064cee3b44c15",
+    "processed_utc": "2026-10-24T07:12:54.105950+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 244148284,
+      "tags": {
+        "addr:city": "Fargo",
+        "addr:housenumber": "4215",
+        "addr:postcode": "58103",
+        "addr:state": "ND",
+        "addr:street": "13th Avenue South",
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "seafood",
+        "name": "Red Lobster",
+        "phone": "+1 701-282-8983",
+        "source": "Bing;local knowledge"
+      },
+      "center": {
+        "lat": 46.8623161,
+        "lon": -96.85286450000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 370058500,
+      "tags": {
+        "addr:housenumber": "1130",
+        "addr:street": "East Century Avenue",
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "building": "retail",
+        "cuisine": "seafood",
+        "name": "Red Lobster"
+      },
+      "center": {
+        "lat": 46.83855415,
+        "lon": -100.77401910000003
+      }
+    }
+  ]
+}

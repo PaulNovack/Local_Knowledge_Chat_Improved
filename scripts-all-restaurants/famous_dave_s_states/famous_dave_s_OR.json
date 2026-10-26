@@ -1,0 +1,69 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OR",
+    "brand": "famous_dave_s",
+    "source": "https://download.geofabrik.de/north-america/us/oregon-latest.osm.pbf",
+    "source_md5": "bc93fd72fe4589fdc6c9b2b497cb7ef1",
+    "processed_utc": "2026-10-24T07:14:41.004303+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 114916078,
+      "tags": {
+        "addr:city": "Portland",
+        "addr:housenumber": "9911",
+        "addr:postcode": "97220",
+        "addr:state": "OR",
+        "addr:street": "Northeast Cascades Parkway",
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "contact:phone": "+1-503-493-9000",
+        "contact:website": "https://www.famousdaves.com/cascade-station",
+        "cuisine": "barbecue",
+        "indoor_seating": "yes",
+        "name": "Famous Dave's",
+        "opening_hours": "Mo-Su 11:00-22:30; Fr,Sa 11:00-23:00",
+        "outdoor_seating": "yes"
+      },
+      "center": {
+        "lat": 45.5739939,
+        "lon": -122.560384
+      }
+    },
+    {
+      "type": "way",
+      "id": 418238369,
+      "tags": {
+        "addr:city": "Tualatin",
+        "addr:housenumber": "7121",
+        "addr:postcode": "97062",
+        "addr:state": "OR",
+        "addr:street": "Southwest Nyberg Street",
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's",
+        "opening_hours": "11:00-22:00",
+        "phone": "+1-503-486-5631",
+        "website": "https://www.famousdaves.com/tualatin"
+      },
+      "center": {
+        "lat": 45.3830473,
+        "lon": -122.74987764999997
+      }
+    }
+  ]
+}

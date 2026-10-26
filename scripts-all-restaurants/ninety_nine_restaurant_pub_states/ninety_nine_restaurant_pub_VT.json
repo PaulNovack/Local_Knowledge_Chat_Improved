@@ -1,0 +1,78 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VT",
+    "brand": "ninety_nine_restaurant_pub",
+    "source": "https://download.geofabrik.de/north-america/us/vermont-latest.osm.pbf",
+    "source_md5": "20a19d56b1e59d82493b3194b9e30440",
+    "processed_utc": "2026-10-24T07:18:02.754583+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1575027391,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ninety Nine Restaurant & Pub",
+        "brand:wikidata": "Q64358371",
+        "check_date": "2026-07-31",
+        "cuisine": "american",
+        "name": "Ninety Nine Restaurant & Pub"
+      },
+      "lat": 43.5863083,
+      "lon": -72.9688911
+    },
+    {
+      "type": "node",
+      "id": 1657294815,
+      "tags": {
+        "addr:city": "Williston",
+        "addr:housenumber": "11",
+        "addr:postcode": "05495",
+        "addr:state": "VT",
+        "addr:street": "Taft Corners Shopping Center",
+        "amenity": "restaurant",
+        "brand": "Ninety Nine Restaurant & Pub",
+        "brand:wikidata": "Q64358371",
+        "cuisine": "burger",
+        "name": "Ninety Nine Restaurant & Pub",
+        "opening_hours": "Mo-We 11:00-21:30; Th-Sa 11:00-22:00; Su 11:00-21:00",
+        "phone": "+1 802-879-9901",
+        "ref:vcgi:esiteid": "292403",
+        "website": "https://www.99restaurants.com/locations/vermont/williston/",
+        "wheelchair": "yes"
+      },
+      "lat": 44.4499714,
+      "lon": -73.1102724
+    },
+    {
+      "type": "way",
+      "id": 1065722003,
+      "tags": {
+        "addr:city": "Brattleboro",
+        "addr:housenumber": "1184",
+        "addr:state": "VT",
+        "addr:street": "Putney Road",
+        "amenity": "restaurant",
+        "brand": "Ninety Nine Restaurant & Pub",
+        "brand:wikidata": "Q64358371",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ninety Nine Restaurant & Pub",
+        "ref:vcgi:esiteid": "316021",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 42.8862,
+        "lon": -72.55647399999998
+      }
+    }
+  ]
+}

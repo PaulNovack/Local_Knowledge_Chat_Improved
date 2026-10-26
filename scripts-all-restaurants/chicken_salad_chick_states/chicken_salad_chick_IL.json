@@ -1,0 +1,44 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "chicken_salad_chick",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 918217775,
+      "tags": {
+        "addr:city": "Edwardsville",
+        "addr:housenumber": "2323",
+        "addr:postcode": "62025",
+        "addr:state": "IL",
+        "addr:street": "Plum Street",
+        "addr:unit": "300",
+        "amenity": "fast_food",
+        "brand": "Chicken Salad Chick",
+        "brand:wikidata": "Q19720749",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "chicken",
+        "name": "Chicken Salad Chick",
+        "takeaway": "yes",
+        "website": "https://www.chickensaladchick.com/edwardsville/"
+      },
+      "center": {
+        "lat": 38.7858115,
+        "lon": -89.95843885
+      }
+    }
+  ]
+}

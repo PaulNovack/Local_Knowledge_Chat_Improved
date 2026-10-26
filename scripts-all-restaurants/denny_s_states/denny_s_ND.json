@@ -1,0 +1,101 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ND",
+    "brand": "denny_s",
+    "source": "https://download.geofabrik.de/north-america/us/north-dakota-latest.osm.pbf",
+    "source_md5": "9eff3bc6ca09aea0f8e064cee3b44c15",
+    "processed_utc": "2026-10-24T07:12:54.105950+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 62251039,
+      "tags": {
+        "addr:city": "Bismarck",
+        "addr:housenumber": "405",
+        "addr:postcode": "58504",
+        "addr:state": "ND",
+        "addr:street": "South 7th Street",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours:covid19": "07:00-22:00",
+        "phone": "+1-701-223-2015",
+        "source": "Yahoo",
+        "website": "https://locations.dennys.com/ND/BISMARCK/246240"
+      },
+      "center": {
+        "lat": 46.801784299999994,
+        "lon": -100.78121420000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 244111375,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 46.8623057,
+        "lon": -96.86121494999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 630386451,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "center": {
+        "lat": 47.8900182,
+        "lon": -97.0822503
+      }
+    },
+    {
+      "type": "way",
+      "id": 825440464,
+      "tags": {
+        "addr:city": "Minot",
+        "addr:housenumber": "2701",
+        "addr:postcode": "58701",
+        "addr:state": "ND",
+        "addr:street": "South Broadway",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "07:00-22:00",
+        "phone": "+1 701-837-5646",
+        "website": "https://dennys.com"
+      },
+      "center": {
+        "lat": 48.20575915,
+        "lon": -101.29514649999999
+      }
+    }
+  ]
+}

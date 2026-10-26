@@ -1,0 +1,69 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "ihop",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T07:20:37.151586+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 737982144,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "1523",
+        "addr:postcode": "20032",
+        "addr:state": "DC",
+        "addr:street": "Alabama Avenue Southeast",
+        "alt_name": "International House of Pancakes",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-08-23",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Th,Su 07:00-22:00; Fr,Sa 07:00-24:00",
+        "phone": "+1 202-870-1271",
+        "source": "official website",
+        "website": "https://restaurants.ihop.com/en-us/dc/washington/breakfast-1523-alabama-ave-se-3221"
+      },
+      "lat": 38.8460105,
+      "lon": -76.982706
+    },
+    {
+      "type": "node",
+      "id": 1333685835,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "3100",
+        "addr:postcode": "20010",
+        "addr:state": "DC",
+        "addr:street": "14th Street Northwest",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-08-29",
+        "cuisine": "breakfast;pancake",
+        "indoor_seating": "yes",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no",
+        "phone": "+1 202-939-0500",
+        "source": "official website",
+        "website": "https://restaurants.ihop.com/en-us/dc/washington/breakfast-3100-14th-st-nw-3332",
+        "wheelchair": "yes"
+      },
+      "lat": 38.9288994,
+      "lon": -77.0336861
+    }
+  ]
+}

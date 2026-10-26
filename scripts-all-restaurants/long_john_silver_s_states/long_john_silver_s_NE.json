@@ -1,0 +1,119 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "long_john_silver_s",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8663242488,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Long John Silver's",
+        "brand:wikidata": "Q1535221",
+        "cuisine": "seafood",
+        "drive_through": "yes",
+        "name": "Long John Silver's",
+        "takeaway": "yes"
+      },
+      "lat": 41.2087215,
+      "lon": -96.0808128
+    },
+    {
+      "type": "way",
+      "id": 186976487,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "4440",
+        "addr:postcode": "68132",
+        "addr:state": "NE",
+        "addr:street": "Dodge Street",
+        "amenity": "fast_food",
+        "brand": "Long John Silver's",
+        "brand:wikidata": "Q1535221",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "seafood",
+        "drive_through": "yes",
+        "name": "Long John Silver's",
+        "source": "Bing",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.2601887,
+        "lon": -95.98076305000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 189987285,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Long John Silver's",
+        "brand:wikidata": "Q1535221",
+        "building": "retail",
+        "cuisine": "seafood",
+        "name": "Long John Silver's",
+        "source": "bing",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.154196600000006,
+        "lon": -95.91918644999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 208806257,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "3400",
+        "addr:postcode": "68502",
+        "addr:state": "NE",
+        "addr:street": "South 10th Street",
+        "amenity": "fast_food",
+        "brand": "Long John Silver's",
+        "brand:wikidata": "Q1535221",
+        "building": "retail",
+        "cuisine": "seafood",
+        "drive_through": "yes",
+        "name": "Long John Silver's",
+        "source": "bing",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.7780475,
+        "lon": -96.70588344999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 488840174,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Long John Silver's",
+        "brand:wikidata": "Q1535221",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Long John Silver's",
+        "source": "mapbox",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.29495005,
+        "lon": -96.11900309999999
+      }
+    }
+  ]
+}

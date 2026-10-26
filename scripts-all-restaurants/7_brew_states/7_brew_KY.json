@@ -1,0 +1,105 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KY",
+    "brand": "7_brew",
+    "source": "https://download.geofabrik.de/north-america/us/kentucky-latest.osm.pbf",
+    "source_md5": "beee275db6b863afe4847059e1397537",
+    "processed_utc": "2026-10-24T07:04:39.223265+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6069185523,
+      "tags": {
+        "addr:city": "Louisville",
+        "addr:housenumber": "10013",
+        "addr:postcode": "40241",
+        "addr:state": "KY",
+        "addr:street": "Brownsboro Rd",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew",
+        "takeaway": "yes"
+      },
+      "lat": 38.3157575,
+      "lon": -85.5620606
+    },
+    {
+      "type": "node",
+      "id": 12033971550,
+      "tags": {
+        "addr:city": "Murray",
+        "addr:housenumber": "700",
+        "addr:postcode": "42071",
+        "addr:state": "KY",
+        "addr:street": "North 12th Street",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "7 Brew Coffee"
+      },
+      "lat": 36.6228018,
+      "lon": -88.3145298
+    },
+    {
+      "type": "node",
+      "id": 13894229881,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "takeaway": "yes"
+      },
+      "lat": 36.9180587,
+      "lon": -84.1240015
+    },
+    {
+      "type": "node",
+      "id": 14099040955,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "takeaway": "yes"
+      },
+      "lat": 39.0113815,
+      "lon": -84.6296128
+    },
+    {
+      "type": "node",
+      "id": 14184378616,
+      "tags": {
+        "addr:city": "Elizabethtown",
+        "addr:housenumber": "108",
+        "addr:postcode": "42701",
+        "addr:state": "KY",
+        "addr:street": "Executive Drive",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "7 Brew Coffee",
+        "opening_hours": "Mo-Th 05:30-22:00; Fr-Sa 05:30-23:00; Su 05:30-22:00",
+        "phone": "+1-479-358-9274",
+        "website": "https://locations.7brew.com/ky/elizabethtown/108-executive-drive"
+      },
+      "lat": 37.7111503,
+      "lon": -85.8326244
+    }
+  ]
+}

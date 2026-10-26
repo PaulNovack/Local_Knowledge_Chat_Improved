@@ -1,0 +1,53 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MT",
+    "brand": "cinnabon",
+    "source": "https://download.geofabrik.de/north-america/us/montana-latest.osm.pbf",
+    "source_md5": "abfa2e1bfc18f6c00a77776eb9185b11",
+    "processed_utc": "2026-10-24T07:09:10.271084+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13915124410,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cinnabon",
+        "brand:wikidata": "Q1092539",
+        "cuisine": "dessert",
+        "name": "Cinnabon",
+        "takeaway": "yes"
+      },
+      "lat": 45.8041497,
+      "lon": -108.5374389
+    },
+    {
+      "type": "way",
+      "id": 1363234836,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cinnabon",
+        "brand:wikidata": "Q1092539",
+        "building": "yes",
+        "cuisine": "dessert",
+        "level": "0",
+        "name": "Cinnabon",
+        "shop": "pastry",
+        "takeaway": "yes",
+        "website": "https://locations.cinnabon.com/mt/billings/300-south-24th-street-w"
+      },
+      "center": {
+        "lat": 45.7652286,
+        "lon": -108.57943920000002
+      }
+    }
+  ]
+}

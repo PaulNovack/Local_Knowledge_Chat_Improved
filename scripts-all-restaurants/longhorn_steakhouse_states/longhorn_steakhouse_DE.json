@@ -1,0 +1,91 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DE",
+    "brand": "longhorn_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/delaware-latest.osm.pbf",
+    "source_md5": "5f714be897be010ea09e4134c39a0638",
+    "processed_utc": "2026-10-24T07:00:37.202137+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6510186712,
+      "tags": {
+        "addr:city": "Dover",
+        "addr:housenumber": "505",
+        "addr:postcode": "19901",
+        "addr:state": "DE",
+        "addr:street": "North Dupont Highway",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "opening_hours": "11:00-22:00; Fr,Sa 11:00-23:00",
+        "phone": "+1 302-678-8509",
+        "website": "https://www.longhornsteakhouse.com/locations/de/dover/dover/5549"
+      },
+      "lat": 39.174853,
+      "lon": -75.5223689
+    },
+    {
+      "type": "way",
+      "id": 1011590567,
+      "tags": {
+        "addr:city": "Bear",
+        "addr:housenumber": "1299",
+        "addr:postcode": "19701",
+        "addr:state": "DE",
+        "addr:street": "Quintilio Drive",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "retail",
+        "check_date": "2024-06-03",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1 302-834-5729",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://longhornsteakhouse.com/locations/de/bear/bear/5243"
+      },
+      "center": {
+        "lat": 39.629307999999995,
+        "lon": -75.66842250000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1494493551,
+      "tags": {
+        "addr:city": "Wilmington",
+        "addr:housenumber": "4157",
+        "addr:postcode": "19803",
+        "addr:state": "DE",
+        "addr:street": "Concord Pike",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "check_date": "2024-05-15",
+        "cuisine": "steak_house",
+        "diet:meat": "yes",
+        "name": "LongHorn Steakhouse",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1 302-353-5653",
+        "website": "https://longhornsteakhouse.com/locations/de/wilmington/wilmington-de/5619"
+      },
+      "center": {
+        "lat": 39.8125184,
+        "lon": -75.54900454999995
+      }
+    }
+  ]
+}

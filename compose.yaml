@@ -24,6 +24,9 @@ services:
   piper-service:
     build:
       context: ./piper-service
+    environment:
+      PIPER_LINE_PAUSE_MS: ${PIPER_LINE_PAUSE_MS:-250}
+      PIPER_OUTPUT_RATE_SCALE: ${PIPER_OUTPUT_RATE_SCALE:-0.9}
     ports:
       - "127.0.0.1:8001:8001"
     restart: unless-stopped

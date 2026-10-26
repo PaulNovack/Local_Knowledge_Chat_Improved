@@ -1,0 +1,60 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "fleming_s",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5455715745,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "25",
+        "addr:postcode": "60611",
+        "addr:state": "IL",
+        "addr:street": "East Ohio Street",
+        "amenity": "restaurant",
+        "brand": "Fleming's",
+        "brand:wikidata": "Q5458552",
+        "cuisine": "steak_house",
+        "name": "Fleming's",
+        "official_name": "Fleming's Prime Steakhouse & Wine Bar",
+        "opening_hours": "Mo-Th 17:00-22:00; Fr-Sa 17:00-23:00; Su 16:00-21:00",
+        "phone": "+1-312-329-9463",
+        "website": "https://www.flemingssteakhouse.com/"
+      },
+      "lat": 41.8922743,
+      "lon": -87.6271377
+    },
+    {
+      "type": "way",
+      "id": 211548353,
+      "tags": {
+        "amenity": "restaurant",
+        "branch": "Steakhouse",
+        "brand": "Fleming's",
+        "brand:wikidata": "Q5458552",
+        "building": "yes",
+        "building:levels": "2",
+        "cuisine": "steak_house",
+        "name": "Fleming's",
+        "official_name": "Fleming's Prime Steakhouse & Wine Bar"
+      },
+      "center": {
+        "lat": 42.18181175,
+        "lon": -87.92860050000002
+      }
+    }
+  ]
+}

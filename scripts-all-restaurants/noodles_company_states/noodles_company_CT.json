@@ -1,0 +1,91 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "noodles_company",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5333940109,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 41.8049475,
+      "lon": -72.5610795
+    },
+    {
+      "type": "node",
+      "id": 7802360331,
+      "tags": {
+        "addr:city": "Glastonbury",
+        "addr:housenumber": "41",
+        "addr:postcode": "06033",
+        "addr:state": "CT",
+        "addr:street": "Hebron Avenue",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "delivery": "yes",
+        "internet_access": "wlan",
+        "name": "Noodles & Company",
+        "opening_hours": "Mo-Th,Su 11:00-21:00; Fr,Sa 11:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 860 430 6888",
+        "takeaway": "yes",
+        "website": "https://locations.noodles.com/ct/glastonbury/41-hebron-avenue.html",
+        "wheelchair": "yes"
+      },
+      "lat": 41.7127847,
+      "lon": -72.6077875
+    },
+    {
+      "type": "node",
+      "id": 10120264043,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 41.554917,
+      "lon": -72.6794495
+    },
+    {
+      "type": "node",
+      "id": 13586143638,
+      "tags": {
+        "addr:city": "Southington",
+        "addr:housenumber": "832",
+        "addr:postcode": "06489",
+        "addr:state": "CT",
+        "addr:street": "Queen Street",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "phone": "+1-860-426-3500",
+        "website": "https://locations.noodles.com/ct/southington/832-queen-st"
+      },
+      "lat": 41.6394622,
+      "lon": -72.874455
+    }
+  ]
+}

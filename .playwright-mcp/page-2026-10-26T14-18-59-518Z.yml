@@ -1,0 +1,61 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]: K✦
+    - paragraph [ref=e5]: TEXT TO VOICE
+    - heading "Type, listen, and keep going." [level=1] [ref=e6]: Type, listen,and keep going.
+    - paragraph [ref=e7]: TypeVoice sends your prompt to the local chat engine and speaks the answer back with the configured Piper voice.
+    - generic [ref=e8]: KNOWLEDGE COLLECTION
+    - generic [ref=e9]:
+      - combobox "KNOWLEDGE COLLECTION" [ref=e10]:
+        - option "CDLA" [selected]
+        - option "Constipation"
+        - option "Dementia"
+        - option "Melanie Martinez"
+        - option "PHP"
+        - option "Rolling Stones"
+      - button "Refresh topics" [ref=e11] [cursor=pointer]: ↻
+    - generic [ref=e12]:
+      - checkbox "Show Map" [checked] [ref=e13]
+      - text: Show Map
+    - button "New conversation" [ref=e14] [cursor=pointer]
+    - button "Back to chat" [ref=e15] [cursor=pointer]
+    - button "Chat by Voice" [ref=e16] [cursor=pointer]
+    - button "Chat and Answer by Voice" [ref=e17] [cursor=pointer]
+    - status [ref=e18]: ● Services ready · Qwen:latest · en_US-ryan-low voice ready
+    - generic [ref=e19]: Powered by ASR + PiperType a question and hear the answer.
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]: TYPEVOICE
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e26]:
+            - checkbox "Override Location" [ref=e27]
+            - generic [ref=e28]: Override Location
+          - generic [ref=e29]:
+            - text: Latitude
+            - spinbutton "Latitude" [ref=e30]
+          - generic [ref=e31]:
+            - text: Longitude
+            - spinbutton "Longitude" [ref=e32]
+          - status [ref=e33]
+        - button "Export session" [ref=e34] [cursor=pointer]
+    - region [ref=e35]:
+      - heading "Type your prompt" [level=2] [ref=e36]
+      - paragraph [ref=e37]: Write a question or a short prompt, then send it to the local chat engine. The answer will appear below and play out loud automatically.
+      - generic [ref=e38]:
+        - generic [ref=e39]: Your prompt
+        - textbox "Your prompt" [ref=e40]:
+          - /placeholder: Ask something about your collection…
+        - generic [ref=e41]:
+          - status [ref=e42]: Ready. Type a prompt and send it.
+          - button "Speak response ↗" [ref=e43] [cursor=pointer]
+        - generic [ref=e44]:
+          - button "Replay answer" [disabled] [ref=e45]
+          - generic [ref=e46]: Ready to speak replies.
+        - generic [ref=e47]: The typed prompt goes to the chat model, then the response is voiced through the local Piper service.
+    - region "Conversation" [ref=e48]:
+      - generic [ref=e49]:
+        - text: TYPE FIRST, VOICE SECOND
+        - heading "Type it once. Hear the answer." [level=2] [ref=e50]: Type it once.Hear the answer.
+        - paragraph [ref=e51]: The typed prompt goes to the chat model, and the reply is spoken aloud through the local Piper voice service.
+    - paragraph [ref=e53]: Generated answers can be wrong. Inspect the retrieved excerpts to verify them, and use replay if you want to hear the answer again.

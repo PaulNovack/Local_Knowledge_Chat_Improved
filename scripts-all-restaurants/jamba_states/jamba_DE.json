@@ -1,0 +1,68 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DE",
+    "brand": "jamba",
+    "source": "https://download.geofabrik.de/north-america/us/delaware-latest.osm.pbf",
+    "source_md5": "5f714be897be010ea09e4134c39a0638",
+    "processed_utc": "2026-10-24T07:00:37.202137+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9922905839,
+      "tags": {
+        "addr:city": "Wilmington",
+        "addr:housenumber": "5613",
+        "addr:postcode": "19803",
+        "addr:state": "DE",
+        "addr:street": "Concord Pike",
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "branch": "Delaware",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "check_date": "2025-12-05",
+        "cuisine": "juice",
+        "name": "Jamba",
+        "opening_hours": "Mo-Sa 10:00-21:00; Su 10:00-20:00",
+        "phone": "+1 302-543-7530",
+        "takeaway": "yes",
+        "website": "https://locations.jamba.com/de/wilmington/5613-concord-pike"
+      },
+      "lat": 39.8336487,
+      "lon": -75.5408815
+    },
+    {
+      "type": "node",
+      "id": 12299160881,
+      "tags": {
+        "addr:city": "Rehoboth Beach",
+        "addr:housenumber": "160",
+        "addr:postcode": "19971",
+        "addr:state": "DE",
+        "addr:street": "Rehoboth Avenue",
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "branch": "Rehoboth Beach",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "cuisine": "juice",
+        "name": "Jamba",
+        "opening_hours": "09:00-21:00",
+        "phone": "+1 302-227-1999",
+        "takeaway": "yes",
+        "website": "https://locations.jamba.com/de/rehoboth-beach/160-rehoboth-ave"
+      },
+      "lat": 38.7158587,
+      "lon": -75.081089
+    }
+  ]
+}

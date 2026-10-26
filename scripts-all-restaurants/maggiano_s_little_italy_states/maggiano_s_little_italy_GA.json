@@ -1,0 +1,84 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "maggiano_s_little_italy",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4705937286,
+      "tags": {
+        "addr:city": "Atlanta",
+        "addr:housenumber": "3368",
+        "addr:postcode": "30326",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Road",
+        "alt_name": "Maggiano's",
+        "amenity": "restaurant",
+        "contact:instagram": "http://instagram.com/maggianoslittleitaly",
+        "cuisine": "american;italian",
+        "delivery": "yes",
+        "name": "Maggiano's Little Italy",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr,Sa 11:00-23:00; Su 11:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-404-816-9650",
+        "reservation": "yes",
+        "takeaway": "yes",
+        "twitter": "https://twitter.com/Maggianos",
+        "website": "https://locations.maggianos.com/georgia/atlanta/30326/3368-peachtree-rd-"
+      },
+      "lat": 33.8481716,
+      "lon": -84.3673571
+    },
+    {
+      "type": "node",
+      "id": 5196224750,
+      "tags": {
+        "addr:floor": "G",
+        "amenity": "restaurant",
+        "brand": "Maggiano's Little Italy",
+        "brand:wikidata": "Q6730149",
+        "check_date": "2026-05-16",
+        "cuisine": "italian",
+        "level": "0",
+        "name": "Maggiano's Little Italy",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 33.923019,
+      "lon": -84.3400953
+    },
+    {
+      "type": "way",
+      "id": 1008714232,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Maggiano's Little Italy",
+        "brand:wikidata": "Q6730149",
+        "building:part": "yes",
+        "cuisine": "italian",
+        "level": "1",
+        "name": "Maggiano's Little Italy"
+      },
+      "center": {
+        "lat": 33.8808633,
+        "lon": -84.46772955
+      }
+    }
+  ]
+}

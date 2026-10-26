@@ -1,0 +1,104 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "a_and_w",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4048645357,
+      "tags": {
+        "addr:city": "Yuma",
+        "addr:housenumber": "11183",
+        "addr:postcode": "85367",
+        "addr:state": "AZ",
+        "addr:street": "South Frontage Road",
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "cuisine": "burger",
+        "name": "A&W",
+        "takeaway": "yes",
+        "website": "https://awrestaurants.com/locations/arizona/yuma/11183-s-frontage-drive/"
+      },
+      "lat": 32.6684536,
+      "lon": -114.442415
+    },
+    {
+      "type": "node",
+      "id": 4054678133,
+      "tags": {
+        "addr:city": "Eloy",
+        "addr:housenumber": "2929",
+        "addr:state": "AZ",
+        "addr:street": "North Toltec Road",
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "name": "A&W",
+        "website": "https://awrestaurants.com/locations/arizona/eloy/2929-s-toltec-road/"
+      },
+      "lat": 32.7737593,
+      "lon": -111.617635
+    },
+    {
+      "type": "way",
+      "id": 402853612,
+      "tags": {
+        "addr:city": "Holbrook",
+        "addr:housenumber": "101",
+        "addr:postcode": "86025",
+        "addr:state": "AZ",
+        "addr:street": "West Hopi Drive",
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "A&W",
+        "takeaway": "yes",
+        "website": "https://awrestaurants.com/locations/arizona/holbrook/101-west-hopi-drive/"
+      },
+      "center": {
+        "lat": 34.901348150000004,
+        "lon": -110.15898720000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 870597331,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "6261",
+        "addr:postcode": "85706",
+        "addr:state": "AZ",
+        "addr:street": "East Benson Highway",
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "name": "A&W",
+        "phone": "+1-520-664-0907",
+        "takeaway": "yes",
+        "website": "https://awrestaurants.com/locations/arizona/tucson/6261-e-benson-highway/"
+      },
+      "center": {
+        "lat": 32.11606975,
+        "lon": -110.85883290000004
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "einstein_bros_bagels",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2206094900,
+      "tags": {
+        "addr:city": "Overland Park",
+        "addr:housenumber": "8700",
+        "addr:postcode": "66221",
+        "addr:state": "KS",
+        "addr:street": "West 135th Street",
+        "addr:unit": "36",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "135th & Antioch",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "06:00-14:00",
+        "phone": "+1 913-681-0282",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/ks/overland-park/8700-w-135th-st"
+      },
+      "lat": 38.8861149,
+      "lon": -94.6872562
+    },
+    {
+      "type": "node",
+      "id": 11180337473,
+      "tags": {
+        "addr:city": "Roeland Park",
+        "addr:housenumber": "4050",
+        "addr:postcode": "66205",
+        "addr:state": "KS",
+        "addr:street": "Shawnee Mission Parkway",
+        "addr:unit": "36",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "Shawnee Mission Parkway & Buena Vista",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "check_date:opening_hours": "2025-08-12",
+        "cuisine": "bagel",
+        "drive_through": "no",
+        "internet_access": "wlan",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "Mo-Su 06:00-14:00",
+        "phone": "+1 913-384-1900",
+        "shop": "bakery",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/ks/fairway/4050-shawnee-mission-pkwy"
+      },
+      "lat": 39.029828,
+      "lon": -94.6326726
+    },
+    {
+      "type": "way",
+      "id": 397302298,
+      "tags": {
+        "addr:city": "Overland Park",
+        "addr:housenumber": "8600",
+        "addr:postcode": "66210",
+        "addr:state": "KS",
+        "addr:street": "College Boulevard",
+        "addr:unit": "36",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "Antioch & College Boulevard",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "building": "yes",
+        "cuisine": "bagel",
+        "drive_through": "yes",
+        "name": "Einstein Bros Bagels",
+        "opening_hours": "06:00-14:00",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/ks/overland-park/8600-college-blvd"
+      },
+      "center": {
+        "lat": 38.927862399999995,
+        "lon": -94.6840664
+      }
+    }
+  ]
+}

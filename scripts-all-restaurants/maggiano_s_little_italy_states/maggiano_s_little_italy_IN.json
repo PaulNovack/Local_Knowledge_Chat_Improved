@@ -1,0 +1,45 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "maggiano_s_little_italy",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 193358594,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "3550",
+        "addr:postcode": "46240",
+        "addr:state": "IN",
+        "addr:street": "East 86th Street",
+        "amenity": "restaurant",
+        "brand": "Maggiano's Little Italy",
+        "brand:wikidata": "Q6730149",
+        "building": "retail",
+        "cuisine": "italian",
+        "diet:vegetarian": "yes",
+        "name": "Maggiano's Little Italy",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr 11:00-23:00; Sa 10:30-23:00; Su 10:30-21:00",
+        "phone": "+1-317-814-0700",
+        "source": "esri_USDOT_Indiana",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 39.9117501,
+        "lon": -86.1070292
+      }
+    }
+  ]
+}

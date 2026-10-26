@@ -1,0 +1,105 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "the_halal_guys",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5118001196,
+      "tags": {
+        "addr:city": "Boston",
+        "addr:housenumber": "137",
+        "addr:postcode": "02116",
+        "addr:state": "MA",
+        "addr:street": "Stuart Street",
+        "amenity": "fast_food",
+        "brand": "The Halal Guys",
+        "brand:wikidata": "Q10846129",
+        "check_date": "2026-07-14",
+        "cuisine": "chicken;falafel;gyros",
+        "diet:halal": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "no",
+        "level": "0",
+        "name": "The Halal Guys",
+        "opening_hours": "Mo-Th 10:30-23:00; Fr-Su 10:30-24:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 857-250-2279",
+        "takeaway": "yes",
+        "website": "https://thehalalguys.com/locations/137-stuart-street-boston/"
+      },
+      "lat": 42.3512904,
+      "lon": -71.0657649
+    },
+    {
+      "type": "node",
+      "id": 9861597644,
+      "tags": {
+        "addr:city": "Somerville",
+        "addr:housenumber": "15",
+        "addr:postcode": "02140",
+        "addr:state": "MA",
+        "addr:street": "White Street",
+        "amenity": "fast_food",
+        "brand": "The Halal Guys",
+        "brand:wikidata": "Q10846129",
+        "cuisine": "chicken;falafel;gyros",
+        "diet:gluten_free": "yes",
+        "diet:halal": "yes",
+        "drive_through": "no",
+        "level": "0",
+        "name": "The Halal Guys",
+        "opening_hours": "Mo-Su 10:30-23:00",
+        "phone": "+1 617-945-0864",
+        "takeaway": "yes",
+        "website": "https://thehalalguys.com/locations/15-white-street-cambridge/"
+      },
+      "lat": 42.3894576,
+      "lon": -71.1191636
+    },
+    {
+      "type": "node",
+      "id": 14005797901,
+      "tags": {
+        "addr:city": "Boston",
+        "addr:housenumber": "1260",
+        "addr:postcode": "02215",
+        "addr:state": "MA",
+        "addr:street": "Boylston Street",
+        "amenity": "fast_food",
+        "brand": "The Halal Guys",
+        "brand:wikidata": "Q10846129",
+        "check_date": "2026-07-11",
+        "check_date:opening_hours": "2026-07-11",
+        "contact:facebook": "https://www.facebook.com/TheHalalGuys",
+        "contact:tiktok": "https://www.tiktok.com/@thehalalguysofficial",
+        "contact:twitter": "https://x.com/HALALGUYS",
+        "contact:youtube": "https://youtube.com/@thehalalguysNY",
+        "cuisine": "chicken;falafel;gyros",
+        "diet:halal": "yes",
+        "drive_through": "no",
+        "name": "The Halal Guys",
+        "opening_hours": "Fr-Sa 10:30-01:00, Su-Th 10:30-24:00",
+        "phone": "+1 347-695-8424",
+        "takeaway": "yes",
+        "website": "https://thehalalguys.com/locations/1260-boylston-street-boston/"
+      },
+      "lat": 42.344927,
+      "lon": -71.0956872
+    }
+  ]
+}

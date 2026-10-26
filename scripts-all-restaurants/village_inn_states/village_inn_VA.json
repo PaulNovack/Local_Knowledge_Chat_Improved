@@ -1,0 +1,61 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "village_inn",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12190175660,
+      "tags": {
+        "addr:city": "Chesapeake",
+        "addr:housenumber": "1509",
+        "addr:postcode": "23322",
+        "addr:state": "VA",
+        "addr:street": "Cedar Road",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "esri/USA_NAD_Addresses",
+        "website": "https://www.villageinn.com/chesapeake-va"
+      },
+      "lat": 36.7251984,
+      "lon": -76.2975637
+    },
+    {
+      "type": "way",
+      "id": 684811474,
+      "tags": {
+        "addr:city": "Suffolk",
+        "addr:housenumber": "6116",
+        "addr:postcode": "23435",
+        "addr:state": "VA",
+        "addr:street": "College Drive",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 36.875064,
+        "lon": -76.42244549999998
+      }
+    }
+  ]
+}

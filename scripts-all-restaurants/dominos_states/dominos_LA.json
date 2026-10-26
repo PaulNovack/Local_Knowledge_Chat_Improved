@@ -1,0 +1,1448 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "LA",
+    "brand": "dominos",
+    "source": "https://download.geofabrik.de/north-america/us/louisiana-latest.osm.pbf",
+    "source_md5": "2e108953505ee82f68e2a6e7a3e4f783",
+    "processed_utc": "2026-10-24T07:05:17.318731+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1186305120,
+      "tags": {
+        "addr:city": "New Orleans",
+        "addr:housenumber": "1120",
+        "addr:postcode": "70117",
+        "addr:state": "LA",
+        "addr:street": "Franklin Avenue",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "10:30-22:00",
+        "phone": "+1 504-948-3030",
+        "ref": "5236",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/new-orleans/1120-franklin-ave"
+      },
+      "lat": 29.9697576,
+      "lon": -90.0503049
+    },
+    {
+      "type": "node",
+      "id": 1235088075,
+      "tags": {
+        "addr:city": "New Orleans",
+        "addr:housenumber": "402",
+        "addr:postcode": "70119",
+        "addr:state": "LA",
+        "addr:street": "N Carrollton Avenue",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:30; Su 10:30-24:00",
+        "phone": "+1 504-483-7770",
+        "ref": "5212",
+        "website": "https://pizza.dominos.com/louisiana/new-orleans/402-north-carrolton-ave"
+      },
+      "lat": 29.9768471,
+      "lon": -90.0977317
+    },
+    {
+      "type": "node",
+      "id": 3327484218,
+      "tags": {
+        "addr:city": "New Orleans",
+        "addr:housenumber": "5240",
+        "addr:postcode": "70122",
+        "addr:state": "LA",
+        "addr:street": "Elysian Fields Avenue",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 504-267-7284",
+        "ref": "5297",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/new-orleans/5240-elysian-fields-ave"
+      },
+      "lat": 30.0121571,
+      "lon": -90.0606477
+    },
+    {
+      "type": "node",
+      "id": 3446986583,
+      "tags": {
+        "addr:city": "Slidell",
+        "addr:housenumber": "875",
+        "addr:postcode": "70458",
+        "addr:state": "LA",
+        "addr:street": "Robert Boulevard",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 985-641-3030",
+        "ref": "5217",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/slidell/875-robert-blvd"
+      },
+      "lat": 30.294014,
+      "lon": -89.7665339
+    },
+    {
+      "type": "node",
+      "id": 3447102759,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "fixme:atp": "Check if still exists. No corresponding ATP object.",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "lat": 30.4112596,
+      "lon": -90.0402263
+    },
+    {
+      "type": "node",
+      "id": 5883148227,
+      "tags": {
+        "addr:city": "New Orleans",
+        "addr:housenumber": "4938",
+        "addr:postcode": "70115",
+        "addr:state": "LA",
+        "addr:street": "Freret Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "drive_through": "no",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-02:00; Fr-Sa 10:00-03:00; Su 10:00-02:00",
+        "outdoor_seating": "no",
+        "phone": "+1 504-891-3030",
+        "ref": "5201",
+        "short_name": "Domino's",
+        "takeaway": "only",
+        "website": "https://pizza.dominos.com/louisiana/new-orleans/4938-freret-st"
+      },
+      "lat": 29.9348024,
+      "lon": -90.1081391
+    },
+    {
+      "type": "node",
+      "id": 6699741495,
+      "tags": {
+        "addr:city": "Westwego",
+        "addr:housenumber": "1092",
+        "addr:postcode": "70094",
+        "addr:state": "LA",
+        "addr:street": "Westbank Expressway",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 504-348-1800",
+        "ref": "5209",
+        "short_name": "Domino’s",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/westwego/1092-westbank-expressway"
+      },
+      "lat": 29.8969601,
+      "lon": -90.1408067
+    },
+    {
+      "type": "node",
+      "id": 6793910279,
+      "tags": {
+        "addr:city": "Boutte",
+        "addr:housenumber": "13505",
+        "addr:postcode": "70039",
+        "addr:state": "LA",
+        "addr:street": "Highway 90",
+        "addr:unit": "B",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 985-785-1200",
+        "ref": "5200",
+        "short_name": "Domino's",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/boutte/13505-highway-90-suite-b"
+      },
+      "lat": 29.9004918,
+      "lon": -90.3882168
+    },
+    {
+      "type": "node",
+      "id": 7239159091,
+      "tags": {
+        "addr:city": "Baton Rouge",
+        "addr:housenumber": "3676",
+        "addr:postcode": "70807",
+        "addr:state": "LA",
+        "addr:street": "Harding Boulevard",
+        "addr:unit": "D",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "drive_through": "yes",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 225-775-3278",
+        "ref": "5226",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/baton-rouge/3676-harding-blvd-suite-d"
+      },
+      "lat": 30.5211353,
+      "lon": -91.1538403
+    },
+    {
+      "type": "node",
+      "id": 7447558173,
+      "tags": {
+        "addr:city": "New Orleans",
+        "addr:housenumber": "3737",
+        "addr:postcode": "70121",
+        "addr:state": "LA",
+        "addr:street": "Jefferson Highway",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 504-832-3030",
+        "ref": "5213",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/new-orleans/3737-jefferson-hwy"
+      },
+      "lat": 29.9635664,
+      "lon": -90.1645123
+    },
+    {
+      "type": "node",
+      "id": 8501222164,
+      "tags": {
+        "addr:city": "Jennings",
+        "addr:housenumber": "1205",
+        "addr:postcode": "70546",
+        "addr:state": "LA",
+        "addr:street": "Elton Road",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "drive_through": "yes",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00, Fr-Sa 10:00-01:00",
+        "phone": "+1 337-246-7401",
+        "ref": "9506",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/jennings/1205-elton-road"
+      },
+      "lat": 30.231755,
+      "lon": -92.6637202
+    },
+    {
+      "type": "node",
+      "id": 8521527884,
+      "tags": {
+        "addr:city": "Destrehan",
+        "addr:housenumber": "1955",
+        "addr:postcode": "70047",
+        "addr:state": "LA",
+        "addr:street": "Ormond Boulevard",
+        "addr:unit": "K",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 985-764-8751",
+        "ref": "3055",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/destrehan/1955-ormond-blvd-suite-k"
+      },
+      "lat": 29.9696265,
+      "lon": -90.3765832
+    },
+    {
+      "type": "node",
+      "id": 9098501465,
+      "tags": {
+        "addr:city": "West Monroe",
+        "addr:housenumber": "4920",
+        "addr:postcode": "71291",
+        "addr:state": "LA",
+        "addr:street": "Cypress Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Su-Th 10:00-24:00, Fr-Sa 10:00-01:00",
+        "phone": "+1 318-397-2800",
+        "ref": "5293",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/west-monroe/4920-cypress-st"
+      },
+      "lat": 32.5164137,
+      "lon": -92.1836098
+    },
+    {
+      "type": "node",
+      "id": 10187305601,
+      "tags": {
+        "addr:city": "Metairie",
+        "addr:housenumber": "3030",
+        "addr:postcode": "70002",
+        "addr:state": "LA",
+        "addr:street": "Severn Avenue",
+        "addr:unit": "10",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 504-885-2667",
+        "ref": "5208",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/metairie/3030-severn-ave-10"
+      },
+      "lat": 30.0064551,
+      "lon": -90.1601045
+    },
+    {
+      "type": "node",
+      "id": 10909366445,
+      "tags": {
+        "addr:city": "Slidell",
+        "addr:housenumber": "2170",
+        "addr:postcode": "70460",
+        "addr:state": "LA",
+        "addr:street": "West Gause Boulevard",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 985-649-3030",
+        "ref": "3057",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/slidell/2170-w-gause-blvd"
+      },
+      "lat": 30.3028267,
+      "lon": -89.8217133
+    },
+    {
+      "type": "node",
+      "id": 10913935207,
+      "tags": {
+        "addr:city": "Hammond",
+        "addr:housenumber": "1400",
+        "addr:postcode": "70401",
+        "addr:state": "LA",
+        "addr:street": "West Thomas Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 985-542-7284",
+        "ref": "5246",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/hammond/1400-w-thomas-st"
+      },
+      "lat": 30.5012576,
+      "lon": -90.4759637
+    },
+    {
+      "type": "node",
+      "id": 10915649780,
+      "tags": {
+        "addr:city": "Denham Springs",
+        "addr:housenumber": "33716",
+        "addr:postcode": "70706",
+        "addr:state": "LA",
+        "addr:street": "LA-16",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 225-664-3015",
+        "ref": "3007",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/denham-springs/33716-la-16"
+      },
+      "lat": 30.5570201,
+      "lon": -90.9550972
+    },
+    {
+      "type": "node",
+      "id": 10965707447,
+      "tags": {
+        "addr:city": "DeRidder",
+        "addr:housenumber": "1132",
+        "addr:postcode": "70634",
+        "addr:state": "LA",
+        "addr:street": "North Pine Drive",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 337-462-3030",
+        "ref": "5277",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/deridder/1132-n-pine-dr"
+      },
+      "lat": 30.8669394,
+      "lon": -93.2844674
+    },
+    {
+      "type": "node",
+      "id": 10967879546,
+      "tags": {
+        "addr:city": "Monroe",
+        "addr:housenumber": "126",
+        "addr:postcode": "71203",
+        "addr:state": "LA",
+        "addr:street": "Rowland Drive",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 318-343-4984",
+        "ref": "3053",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/monroe/126-rowland-dr"
+      },
+      "lat": 32.5450194,
+      "lon": -92.0142983
+    },
+    {
+      "type": "node",
+      "id": 10974636586,
+      "tags": {
+        "addr:city": "Baton Rouge",
+        "addr:housenumber": "8910",
+        "addr:postcode": "70814",
+        "addr:state": "LA",
+        "addr:street": "Greenwell Springs Road",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 225-231-2690",
+        "ref": "3063",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/baton-rouge/8910-greenwell-springs-rd"
+      },
+      "lat": 30.4828594,
+      "lon": -91.091494
+    },
+    {
+      "type": "node",
+      "id": 10982152717,
+      "tags": {
+        "addr:city": "Erath",
+        "addr:housenumber": "1616",
+        "addr:postcode": "70533",
+        "addr:state": "LA",
+        "addr:street": "Veterans Memorial Drive",
+        "addr:unit": "3",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 337-685-3030",
+        "ref": "3047",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/erath/1616-veterans-memorial-drive-suite-3"
+      },
+      "lat": 29.9537998,
+      "lon": -91.9997427
+    },
+    {
+      "type": "node",
+      "id": 11073516256,
+      "tags": {
+        "addr:city": "Baton Rouge",
+        "addr:housenumber": "9837",
+        "addr:postcode": "70810",
+        "addr:state": "LA",
+        "addr:street": "Bluebonnet Boulevard",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 225-236-3030",
+        "ref": "5214",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/baton-rouge/9837-bluebonnet-blvd"
+      },
+      "lat": 30.3557171,
+      "lon": -91.1087921
+    },
+    {
+      "type": "node",
+      "id": 11074820205,
+      "tags": {
+        "addr:city": "Youngsville",
+        "addr:housenumber": "2761",
+        "addr:postcode": "70592",
+        "addr:state": "LA",
+        "addr:street": "East Milton Avenue",
+        "addr:unit": "A-1",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 337-857-3090",
+        "ref": "9507",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/youngsville/2761-east-milton-ave-ste-a-1"
+      },
+      "lat": 30.1095973,
+      "lon": -92.020297
+    },
+    {
+      "type": "node",
+      "id": 11091913113,
+      "tags": {
+        "addr:city": "Bossier City",
+        "addr:housenumber": "4112",
+        "addr:postcode": "71111",
+        "addr:state": "LA",
+        "addr:street": "Airline Drive",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 318-747-3870",
+        "ref": "5281",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/bossier-city/4112-airline-drive"
+      },
+      "lat": 32.5745176,
+      "lon": -93.7132935
+    },
+    {
+      "type": "node",
+      "id": 12006147069,
+      "tags": {
+        "addr:housenumber": "1501",
+        "addr:postcode": "70380",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Su 10:30-00:00",
+        "phone": "+1-985-412-6996",
+        "takeaway": "yes",
+        "website": "https://dominos.com/"
+      },
+      "lat": 29.6835844,
+      "lon": -91.2593312
+    },
+    {
+      "type": "way",
+      "id": 187831005,
+      "tags": {
+        "addr:city": "Natchitoches",
+        "addr:country": "US",
+        "addr:housenumber": "101",
+        "addr:postcode": "71457",
+        "addr:state": "LA",
+        "addr:street": "South Drive",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 318-352-6382",
+        "ref": "5274",
+        "short_name": "Domino's",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/natchitoches/101-hwy-1-south"
+      },
+      "center": {
+        "lat": 31.75177755,
+        "lon": -93.08218124999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 552712754,
+      "tags": {
+        "addr:city": "Leesville",
+        "addr:housenumber": "1604",
+        "addr:postcode": "71446",
+        "addr:state": "LA",
+        "addr:street": "South 5th Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 337-239-0665",
+        "ref": "5270",
+        "short_name": "Domino's",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/leesville/1604-south-5th-street"
+      },
+      "center": {
+        "lat": 31.1269883,
+        "lon": -93.26769055
+      }
+    },
+    {
+      "type": "way",
+      "id": 608387275,
+      "tags": {
+        "addr:city": "Ruston",
+        "addr:housenumber": "995",
+        "addr:postcode": "71270",
+        "addr:state": "LA",
+        "addr:street": "Tech Drive",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "check_date": "2026-08-17",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "internet_access": "no",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-318-251-3030",
+        "ref": "5291",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/ruston/995-tech-drive",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 32.53513155,
+        "lon": -92.65283645
+      }
+    },
+    {
+      "type": "way",
+      "id": 616186845,
+      "tags": {
+        "addr:city": "Denham Springs",
+        "addr:housenumber": "110",
+        "addr:postcode": "70726",
+        "addr:state": "LA",
+        "addr:street": "Florida Boulevard",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 225-664-3030",
+        "ref": "5249",
+        "short_name": "Domino's",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/denham-springs/110-florida-blvd"
+      },
+      "center": {
+        "lat": 30.4816581,
+        "lon": -90.95545034999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 632222173,
+      "tags": {
+        "addr:city": "New Iberia",
+        "addr:housenumber": "14",
+        "addr:postcode": "70560",
+        "addr:state": "LA",
+        "addr:street": "North Lewis Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "fixme:atp": "Check if still exists. No corresponding ATP object.",
+        "name": "Domino's",
+        "phone": "+1-337-365-3030",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/new-iberia/14-n-lewis-st/"
+      },
+      "center": {
+        "lat": 29.998191300000002,
+        "lon": -91.80227745000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 722613460,
+      "tags": {
+        "addr:city": "Metairie",
+        "addr:housenumber": "2405",
+        "addr:postcode": "70003",
+        "addr:state": "LA",
+        "addr:street": "David Drive",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 504-885-3030",
+        "ref": "5205",
+        "short_name": "Domino's",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/metairie/2405-david-dr"
+      },
+      "center": {
+        "lat": 29.9980832,
+        "lon": -90.21785575000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 760011218,
+      "tags": {
+        "addr:city": "Lake Charles",
+        "addr:housenumber": "204",
+        "addr:postcode": "70611",
+        "addr:state": "LA",
+        "addr:street": "Sam Houston Jones Parkway",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 337-855-8100",
+        "ref": "3064",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/lake-charles/204-sam-houston-jones-pkwy"
+      },
+      "center": {
+        "lat": 30.30097795,
+        "lon": -93.1976095
+      }
+    },
+    {
+      "type": "way",
+      "id": 764840451,
+      "tags": {
+        "addr:city": "Walker",
+        "addr:housenumber": "28470",
+        "addr:postcode": "70785",
+        "addr:state": "LA",
+        "addr:street": "Walker Road South",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 225-664-3090",
+        "ref": "3037",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/walker/28470-walker-rd-south"
+      },
+      "center": {
+        "lat": 30.4774818,
+        "lon": -90.86283945000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 843710781,
+      "tags": {
+        "addr:city": "Baton Rouge",
+        "addr:housenumber": "5443",
+        "addr:postcode": "70817",
+        "addr:state": "LA",
+        "addr:street": "Jones Creek Road",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 225-751-8193",
+        "ref": "5258",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/baton-rouge/5443-jones-creek-rd"
+      },
+      "center": {
+        "lat": 30.40448345,
+        "lon": -91.01593660000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 857592545,
+      "tags": {
+        "addr:city": "Shreveport",
+        "addr:housenumber": "5604",
+        "addr:postcode": "71108",
+        "addr:state": "LA",
+        "addr:street": "Hearne Avenue",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 318-631-3030",
+        "ref": "5287",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/shreveport/5604-hearne-ave"
+      },
+      "center": {
+        "lat": 32.458012499999995,
+        "lon": -93.78037499999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1009702359,
+      "tags": {
+        "addr:city": "Shreveport",
+        "addr:housenumber": "4455",
+        "addr:postcode": "71119",
+        "addr:state": "LA",
+        "addr:street": "Pines Road",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "drive_through": "yes",
+        "name": "Domino's",
+        "opening_hours": "Mo-Su 10:30-24:00",
+        "phone": "+1 318-688-3030",
+        "ref": "3054",
+        "takeaway": "yes",
+        "website": "https://www.dominos.com/en/"
+      },
+      "center": {
+        "lat": 32.45411325,
+        "lon": -93.86514769999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1017557938,
+      "tags": {
+        "addr:city": "Shreveport",
+        "addr:housenumber": "3148",
+        "addr:postcode": "71107",
+        "addr:state": "LA",
+        "addr:street": "North Market Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "commercial",
+        "cuisine": "pizza",
+        "drive_through": "yes",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-00:00, Fr-Sa 10:00-01:00, Su 10:00-00:00",
+        "phone": "+1-318-425-3278",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://www.dominos.com/en/"
+      },
+      "center": {
+        "lat": 32.56069065,
+        "lon": -93.7842756
+      }
+    },
+    {
+      "type": "way",
+      "id": 1056127019,
+      "tags": {
+        "addr:city": "Port Allen",
+        "addr:housenumber": "3225",
+        "addr:postcode": "70767",
+        "addr:state": "LA",
+        "addr:street": "LA-1",
+        "addr:unit": "B",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Domino's",
+        "opening_hours": "Su-Th 10:30-24:00; Fr-Sa 10:30-25:00",
+        "phone": "+1 225-377-2020",
+        "ref": "3045",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/port-allen/3225-la-hwy-1-south-suite-b"
+      },
+      "center": {
+        "lat": 30.420625450000003,
+        "lon": -91.21873885000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1061579491,
+      "tags": {
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Domino's Pizza",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 29.773064050000002,
+        "lon": -90.81542569999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1062440665,
+      "tags": {
+        "addr:city": "River Ridge",
+        "addr:housenumber": "10601",
+        "addr:postcode": "70123",
+        "addr:state": "LA",
+        "addr:street": "Jefferson Highway",
+        "addr:unit": "A",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 504-738-3161",
+        "ref": "5232",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/river-ridge/10601-jefferson-hwy-suite-a"
+      },
+      "center": {
+        "lat": 29.96675005,
+        "lon": -90.22835899999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 1063403465,
+      "tags": {
+        "addr:city": "Baton Rouge",
+        "addr:housenumber": "10595",
+        "addr:postcode": "70816",
+        "addr:state": "LA",
+        "addr:street": "Airline Highway",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-25:00; Su 10:30-24:00",
+        "phone": "+1 225-291-5225",
+        "ref": "5257",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/baton-rouge/10595-airline-hwy/"
+      },
+      "center": {
+        "lat": 30.40974585,
+        "lon": -91.06312025
+      }
+    },
+    {
+      "type": "way",
+      "id": 1064722511,
+      "tags": {
+        "addr:city": "Metairie",
+        "addr:housenumber": "1720",
+        "addr:postcode": "70005",
+        "addr:state": "LA",
+        "addr:street": "Lake Avenue",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "phone": "+1-504-832-2877",
+        "takeaway": "yes",
+        "website": "https://www.dominos.com"
+      },
+      "center": {
+        "lat": 30.018966849999998,
+        "lon": -90.12347995000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 1064923345,
+      "tags": {
+        "addr:city": "Marrero",
+        "addr:housenumber": "2466",
+        "addr:postcode": "70072",
+        "addr:state": "LA",
+        "addr:street": "Barataria Boulevard",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 504-349-4600",
+        "ref": "5233",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/marrero/2466-barataria-blvd"
+      },
+      "center": {
+        "lat": 29.8577957,
+        "lon": -90.10229430000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1120081400,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 29.5879631,
+        "lon": -90.70195305000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1120098327,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 29.6036824,
+        "lon": -90.74673570000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1190298421,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 30.1772889,
+        "lon": -93.23210219999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1196304888,
+      "tags": {
+        "addr:city": "Maurice",
+        "addr:housenumber": "8202",
+        "addr:postcode": "70555",
+        "addr:state": "LA",
+        "addr:street": "Maurice Avenue",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 337-893-4334",
+        "ref": "3012",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/maurice/8202-maurice-avenue"
+      },
+      "center": {
+        "lat": 30.1132311,
+        "lon": -92.12496329999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1196304905,
+      "tags": {
+        "addr:city": "Broussard",
+        "addr:housenumber": "6025",
+        "addr:postcode": "70518",
+        "addr:state": "LA",
+        "addr:street": "US Highway 90 East",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 337-839-3660",
+        "ref": "3032",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/broussard/6025-us-hwy-90-east"
+      },
+      "center": {
+        "lat": 30.1039976,
+        "lon": -91.94136755
+      }
+    },
+    {
+      "type": "way",
+      "id": 1199691740,
+      "tags": {
+        "addr:city": "Shreveport",
+        "addr:housenumber": "8530",
+        "addr:postcode": "71115",
+        "addr:state": "LA",
+        "addr:street": "Youree Drive",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 318-795-2380",
+        "ref": "3046",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/shreveport/8530-youree-drive"
+      },
+      "center": {
+        "lat": 32.427416550000004,
+        "lon": -93.70994165000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1201522781,
+      "tags": {
+        "addr:city": "Baton Rouge",
+        "addr:housenumber": "2806",
+        "addr:postcode": "70806",
+        "addr:state": "LA",
+        "addr:street": "Government Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 225-383-3030",
+        "ref": "5251",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/baton-rouge/2806-government-st"
+      },
+      "center": {
+        "lat": 30.443768749999997,
+        "lon": -91.15973824999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1235110946,
+      "tags": {
+        "addr:city": "Lake Charles",
+        "addr:housenumber": "2018",
+        "addr:postcode": "70601",
+        "addr:state": "LA",
+        "addr:street": "Gerstner Memorial Drive",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 337-437-9000",
+        "ref": "5267",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/lake-charles/2018-gerstner-memorial-dr"
+      },
+      "center": {
+        "lat": 30.21156495,
+        "lon": -93.18043750000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1235111927,
+      "tags": {
+        "addr:city": "Covington",
+        "addr:housenumber": "803",
+        "addr:postcode": "70433",
+        "addr:state": "LA",
+        "addr:street": "Collins Boulevard",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 985-892-2992",
+        "ref": "5244",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/covington/803-collins-blvd"
+      },
+      "center": {
+        "lat": 30.479990899999997,
+        "lon": -90.0903538
+      }
+    },
+    {
+      "type": "way",
+      "id": 1311420418,
+      "tags": {
+        "addr:city": "Mandeville",
+        "addr:housenumber": "68228",
+        "addr:postcode": "70471",
+        "addr:state": "LA",
+        "addr:street": "Highway 59",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "drive_through": "yes",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 30.4194175,
+        "lon": -90.04011605
+      }
+    },
+    {
+      "type": "way",
+      "id": 1322514890,
+      "tags": {
+        "addr:city": "Monroe",
+        "addr:housenumber": "1405",
+        "addr:postcode": "71203",
+        "addr:state": "LA",
+        "addr:street": "Sterlington Road",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "retail",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Fr 10:30-24:00; Sa, Su 10:30-01:00",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.53498635,
+        "lon": -92.08003735
+      }
+    },
+    {
+      "type": "way",
+      "id": 1344865228,
+      "tags": {
+        "addr:city": "Lafayette",
+        "addr:housenumber": "3241",
+        "addr:postcode": "70506",
+        "addr:state": "LA",
+        "addr:street": "Ambassador Caffery Prky",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 337-988-4724",
+        "ref": "5263",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/lafayette/3241-ambassador-caffery-prky"
+      },
+      "center": {
+        "lat": 30.18348075,
+        "lon": -92.07446515000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1355563310,
+      "tags": {
+        "addr:city": "Sulphur",
+        "addr:housenumber": "2300",
+        "addr:postcode": "70663",
+        "addr:state": "LA",
+        "addr:street": "Maplewood Drive",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "retail",
+        "check_date:opening_hours": "2026-02-09",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Su-Th 10:30-24:00; Fr,Sa 10:30-25:00",
+        "opening_hours:url": "https://pizza.dominos.com/louisiana/sulphur/2300-maplewood-dr",
+        "phone": "+1-337-626-2070",
+        "source:opening_hours": "website",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/sulphur/2300-maplewood-dr"
+      },
+      "center": {
+        "lat": 30.22783415,
+        "lon": -93.35059324999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1433584875,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 29.86755115,
+        "lon": -90.0036222
+      }
+    },
+    {
+      "type": "way",
+      "id": 1472533728,
+      "tags": {
+        "addr:city": "Bogalusa",
+        "addr:housenumber": "201",
+        "addr:postcode": "70427",
+        "addr:state": "LA",
+        "addr:street": "Superior Avenue",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "retail",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 985-732-5551",
+        "ref": "3058",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/louisiana/bogalusa/201-superior-avenue"
+      },
+      "center": {
+        "lat": 30.79130255,
+        "lon": -89.86042925000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1499518444,
+      "tags": {
+        "addr:city": "Haughton",
+        "addr:housenumber": "1000",
+        "addr:postcode": "71037",
+        "addr:state": "LA",
+        "addr:street": "Highway 80",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "commercial",
+        "cuisine": "pizza",
+        "drive_through": "yes",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-00:00, Fr-Sa 10:30-01:00, Su 10:30-00:00",
+        "phone": "+1-318-949-2000",
+        "takeaway": "yes",
+        "website": "https://www.dominos.com/"
+      },
+      "center": {
+        "lat": 32.5553536,
+        "lon": -93.61275660000001
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "pizza_inn_america",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12291947631,
+      "tags": {
+        "addr:city": "Hillsville",
+        "addr:housenumber": "49",
+        "addr:postcode": "24343",
+        "addr:state": "VA",
+        "addr:street": "Farmers Market Drive",
+        "amenity": "fast_food",
+        "brand": "Pizza Inn",
+        "brand:wikidata": "Q4118850",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Pizza Inn",
+        "opening_hours": "Su-Th 11:00-21:00; Fr-Sa 11:00-22:00",
+        "phone": "+1-276-728-2799",
+        "takeaway": "yes",
+        "website": "https://www.pizzainn.com/locations/hillsville-va/"
+      },
+      "lat": 36.7446328,
+      "lon": -80.774667
+    },
+    {
+      "type": "way",
+      "id": 286167487,
+      "tags": {
+        "addr:city": "Christiansburg",
+        "addr:housenumber": "190",
+        "addr:postcode": "24073",
+        "addr:street": "North Franklin Street",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Inn",
+        "phone": "+15403824989",
+        "smoking": "no",
+        "website": "https://www.pizzainn.com/"
+      },
+      "center": {
+        "lat": 37.1320069,
+        "lon": -80.41238680000004
+      }
+    }
+  ]
+}

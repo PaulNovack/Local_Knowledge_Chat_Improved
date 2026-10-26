@@ -1,0 +1,45 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "RI",
+    "brand": "papa_johns",
+    "source": "https://download.geofabrik.de/north-america/us/rhode-island-latest.osm.pbf",
+    "source_md5": "089bd14c5348318ad280c1c9ab732067",
+    "processed_utc": "2026-10-24T07:15:29.409283+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 380342115,
+      "tags": {
+        "addr:city": "Pawtucket",
+        "addr:housenumber": "376",
+        "addr:postcode": "02860",
+        "addr:state": "RI",
+        "addr:street": "smithfield Avenue",
+        "amenity": "fast_food",
+        "brand": "Papa John's",
+        "brand:wikidata": "Q2759586",
+        "building": "yes",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Papa John's",
+        "opening_hours": "Mo-Th 10:00-01:00; Fr-Sa 10:00-02:00; Su 10:00-01:00",
+        "phone": "+1 401-722-7272",
+        "takeaway": "yes",
+        "website": "https://locations.papajohns.com/united-states/ri/02860/pawtucket/379-smithfield-ave"
+      },
+      "center": {
+        "lat": 41.870882449999996,
+        "lon": -71.4132487
+      }
+    }
+  ]
+}

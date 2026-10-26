@@ -1,0 +1,55 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "bonefish_grill",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 259797622,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "center": {
+        "lat": 37.709532749999994,
+        "lon": -97.22010235000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 318996280,
+      "tags": {
+        "addr:city": "Leawood",
+        "addr:housenumber": "5021",
+        "addr:state": "KS",
+        "addr:street": "West 135th Street",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "center": {
+        "lat": 38.882283900000004,
+        "lon": -94.6452299
+      }
+    }
+  ]
+}

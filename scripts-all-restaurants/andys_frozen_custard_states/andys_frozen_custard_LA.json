@@ -1,0 +1,78 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "LA",
+    "brand": "andys_frozen_custard",
+    "source": "https://download.geofabrik.de/north-america/us/louisiana-latest.osm.pbf",
+    "source_md5": "2e108953505ee82f68e2a6e7a3e4f783",
+    "processed_utc": "2026-10-24T07:05:17.318731+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13610461854,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Andy's Frozen Custard",
+        "brand:wikidata": "Q4760327",
+        "name": "Andy's Frozen Custard",
+        "short_name": "Andy's"
+      },
+      "lat": 32.5029438,
+      "lon": -92.15409
+    },
+    {
+      "type": "way",
+      "id": 1311840853,
+      "tags": {
+        "addr:city": "Denham Springs",
+        "addr:housenumber": "27356",
+        "addr:postcode": "70726",
+        "addr:state": "LA",
+        "addr:street": "Crossing Circle",
+        "amenity": "ice_cream",
+        "brand": "Andy's Frozen Custard",
+        "brand:wikidata": "Q4760327",
+        "building": "yes",
+        "name": "Andy's Frozen Custard",
+        "short_name": "Andy's"
+      },
+      "center": {
+        "lat": 30.4685952,
+        "lon": -90.91931045000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1323244337,
+      "tags": {
+        "addr:city": "Bossier City",
+        "addr:housenumber": "3117",
+        "addr:postcode": "71111",
+        "addr:state": "LA",
+        "addr:street": "Airline Drive",
+        "amenity": "ice_cream",
+        "brand": "Andy's Frozen Custard",
+        "brand:wikidata": "Q4760327",
+        "building": "commercial",
+        "building:levels": "1",
+        "height": "5",
+        "name": "Andy's Frozen Custard",
+        "opening_hours": "Su-Th 11:00-23:00, Fr-Sa 11:00-23:30",
+        "outdoor_seating": "yes",
+        "short_name": "Andy's"
+      },
+      "center": {
+        "lat": 32.56370375,
+        "lon": -93.7119214
+      }
+    }
+  ]
+}

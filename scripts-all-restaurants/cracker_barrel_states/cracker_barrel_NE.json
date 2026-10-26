@@ -1,0 +1,76 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "cracker_barrel",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 436974453,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "9409",
+        "addr:postcode": "68138",
+        "addr:state": "NE",
+        "addr:street": "South 142nd Street",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "retail",
+        "check_date": "2025-06-06",
+        "check_date:smoking": "2025-06-06",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Su-Th 07:00-21:00; Fr-Sa 07:00-22:00",
+        "phone": "+1-402-891-8665",
+        "ref": "296",
+        "smoking": "no",
+        "website": "https://locations.crackerbarrel.com/ne/omaha/296/"
+      },
+      "center": {
+        "lat": 41.1651591,
+        "lon": -96.13583925
+      }
+    },
+    {
+      "type": "way",
+      "id": 539143194,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "6700",
+        "addr:postcode": "68521",
+        "addr:state": "NE",
+        "addr:street": "North 27th Street",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store",
+        "opening_hours": "Mo-Th 07:00-21:00; Fr-Sa 07:00-22:00; Su 07:00-21:00",
+        "phone": "+1-402-476-4901",
+        "source": "Bing",
+        "website": "https://www.crackerbarrel.com/Locations/States/ne/lincoln/365"
+      },
+      "center": {
+        "lat": 40.8792292,
+        "lon": -96.68125194999999
+      }
+    }
+  ]
+}

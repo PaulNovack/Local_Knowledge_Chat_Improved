@@ -1,0 +1,1238 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "in_n_out_burger",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10676557585,
+      "tags": {
+        "addr:city": "Chandler",
+        "addr:housenumber": "2790",
+        "addr:postcode": "85224",
+        "addr:state": "AZ",
+        "addr:street": "West Chandler Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "capacity": "68",
+        "check_date": "2026-07-10",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "outdoor_seating": "no",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:visa": "yes",
+        "ref": "164",
+        "smoking": "no",
+        "stroller": "yes",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://locations.in-n-out.com/164"
+      },
+      "lat": 33.3064175,
+      "lon": -111.891799
+    },
+    {
+      "type": "node",
+      "id": 13125197648,
+      "tags": {
+        "addr:city": "Queen Creek",
+        "addr:country": "US",
+        "addr:housenumber": "20545",
+        "addr:postcode": "85242",
+        "addr:state": "AZ",
+        "addr:street": "East Rittenhouse Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "check_date": "2025-09-06",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "10:30-01:00",
+        "outdoor_seating": "yes",
+        "ref": "293",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://locations.in-n-out.com/293"
+      },
+      "lat": 33.258769,
+      "lon": -111.6403705
+    },
+    {
+      "type": "relation",
+      "id": 19652421,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "3711",
+        "addr:postcode": "85716",
+        "addr:state": "AZ",
+        "addr:street": "East Broadway Boulevard",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "ref": "207",
+        "start_date": "2007-04-24",
+        "takeaway": "yes",
+        "type": "multipolygon",
+        "website": "https://locations.in-n-out.com/207"
+      },
+      "center": {
+        "lat": 32.221984899999995,
+        "lon": -110.91421659999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 28754433,
+      "tags": {
+        "addr:city": "Chandler",
+        "addr:housenumber": "7050",
+        "addr:postcode": "85226",
+        "addr:state": "AZ",
+        "addr:street": "West Ray Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "ref": "153",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/153"
+      },
+      "center": {
+        "lat": 33.3204603,
+        "lon": -111.96416535000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 38314463,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:country": "US",
+        "addr:housenumber": "4620",
+        "addr:postcode": "85705",
+        "addr:state": "AZ",
+        "addr:street": "North Oracle Road",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "building:use": "fast_food",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "ref": "253",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/253"
+      },
+      "center": {
+        "lat": 32.2904949,
+        "lon": -110.97786215000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 64888595,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "12413",
+        "addr:postcode": "85032-7708",
+        "addr:state": "AZ",
+        "addr:street": "North Tatum Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "layer": "1",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Su-Th 10:30-01:00, Fr,Sa 10:30-01:30",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/192"
+      },
+      "center": {
+        "lat": 33.59898870000001,
+        "lon": -111.97967819999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 67121992,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "21001",
+        "addr:postcode": "85050",
+        "addr:state": "AZ",
+        "addr:street": "North Tatum Boulevard",
+        "addr:unit": "86",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "outdoor_seating": "yes",
+        "ref": "160",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/160"
+      },
+      "center": {
+        "lat": 33.67907175,
+        "lon": -111.97679805000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 68295755,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "2770",
+        "addr:postcode": "85051",
+        "addr:state": "AZ",
+        "addr:street": "West Peoria Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "building:levels": "1",
+        "building:use": "fast_food",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/252"
+      },
+      "center": {
+        "lat": 33.582404499999996,
+        "lon": -112.1198392
+      }
+    },
+    {
+      "type": "way",
+      "id": 79734178,
+      "tags": {
+        "addr:city": "Scottsdale",
+        "addr:country": "US",
+        "addr:housenumber": "7467",
+        "addr:postcode": "85255",
+        "addr:state": "AZ",
+        "addr:street": "East Frank Lloyd Wright Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "building:use": "fast_food",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "name:en": "In-N-Out Burger",
+        "name:ja": "イン・アンド・アウト",
+        "name:ko": "인앤아웃 버거",
+        "opening_hours": "10:30-01:00",
+        "outdoor_seating": "yes",
+        "ref": "146",
+        "start_date": "2000-11-02",
+        "store_number": "146",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/146"
+      },
+      "center": {
+        "lat": 33.63647855,
+        "lon": -111.91978425000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 103863601,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "34850",
+        "addr:postcode": "85086",
+        "addr:state": "AZ",
+        "addr:street": "North North Valley Parkway",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "building:use": "fast_food",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Mo-Su 10:30-01:00",
+        "opening_hours:drive_through": "Mo-Th,Su 10:30-01:00; Fr-Sa 10:30-01:30",
+        "phone": "+1 800-786-1000",
+        "ref": "228",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/228"
+      },
+      "center": {
+        "lat": 33.8005175,
+        "lon": -112.13004434999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 113486334,
+      "tags": {
+        "addr:city": "Flagstaff",
+        "addr:country": "US",
+        "addr:housenumber": "1860",
+        "addr:postcode": "86001",
+        "addr:state": "AZ",
+        "addr:street": "South Milton Road",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "In-N-Out Burger",
+        "name:en": "In-N-Out Burger",
+        "name:ja": "イン・アンド・アウト",
+        "name:ko": "인앤아웃 버거",
+        "opening_hours": "Su-Th 10:30-01:00, Fr-Sa 10:30-01:30",
+        "phone": "+1 800-786-1000",
+        "ref": "402",
+        "start_date": "2024-04-05",
+        "store_number": "402",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/402"
+      },
+      "center": {
+        "lat": 35.1815696,
+        "lon": -111.66092464999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 134186760,
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:housenumber": "2449",
+        "addr:postcode": "85296;85295",
+        "addr:state": "AZ",
+        "addr:street": "South Market Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "building:use": "fast_food",
+        "cuisine": "burger",
+        "designation": "Fast Food",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "ref": "205",
+        "source": "www.in-n-out.com;esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/205",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 33.30585635,
+        "lon": -111.74344465000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 154559489,
+      "tags": {
+        "addr:city": "Casa Grande",
+        "addr:country": "US",
+        "addr:housenumber": "873",
+        "addr:postcode": "85194",
+        "addr:state": "AZ",
+        "addr:street": "North Promenade Parkway",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "building:use": "fast_food",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Mo-Su 10:30-01:00",
+        "outdoor_seating": "yes",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "ref": "223",
+        "smoking": "outside",
+        "source:name": "local_knowledge",
+        "start_date": "2008-10-16",
+        "takeaway": "yes",
+        "url": "http://locations.in-n-out.com/223",
+        "website": "https://locations.in-n-out.com/223"
+      },
+      "center": {
+        "lat": 32.880146749999994,
+        "lon": -111.68224479999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 168946908,
+      "tags": {
+        "addr:city": "Kingman",
+        "addr:housenumber": "1770",
+        "addr:postcode": "86409",
+        "addr:state": "AZ",
+        "addr:street": "East Beverly Avenue",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "building:use": "fast_food",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "outdoor_seating": "yes",
+        "ref": "201",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/201"
+      },
+      "center": {
+        "lat": 35.2182512,
+        "lon": -114.03694934999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 183803058,
+      "tags": {
+        "addr:city": "Yuma",
+        "addr:housenumber": "1940",
+        "addr:postcode": "85365",
+        "addr:state": "AZ",
+        "addr:street": "East 16th Street",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "building:use": "fast_food",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Su-Th 10:30-01:00; Fr-Sa 10:30-01:30",
+        "outdoor_seating": "yes",
+        "ref": "203",
+        "smoking": "outside",
+        "start_date": "2006-11-16",
+        "takeaway": "yes",
+        "url": "http://locations.in-n-out.com/203",
+        "url:image": "http://www.in-n-out.com/ino-images/default-source/location-store-images/Store_203.jpg",
+        "website": "https://locations.in-n-out.com/203"
+      },
+      "center": {
+        "lat": 32.699050549999995,
+        "lon": -114.60058249999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 187123687,
+      "tags": {
+        "addr:city": "Prescott",
+        "addr:country": "US",
+        "addr:housenumber": "3040",
+        "addr:postcode": "86301",
+        "addr:state": "AZ",
+        "addr:street": "Highway 69",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "building:use": "fast_food",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "10:30-01:00",
+        "phone": "+1 800-786-1000",
+        "smoking": "isolated",
+        "start_date": "2004-06-29",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/184",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 34.55248589999999,
+        "lon": -112.40926224999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 211707783,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1859",
+        "addr:postcode": "85209",
+        "addr:state": "AZ",
+        "addr:street": "South Signal Butte Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "building:use": "fast_food",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "phone": "+1 800-786-1000",
+        "ref": "218",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/218"
+      },
+      "center": {
+        "lat": 33.3816951,
+        "lon": -111.59975359999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 219874977,
+      "tags": {
+        "addr:city": "Avondale",
+        "addr:housenumber": "1525",
+        "addr:postcode": "85392",
+        "addr:state": "AZ",
+        "addr:street": "North Dysart Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "building:use": "fast_food",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "name:en": "In-N-Out Burger",
+        "name:ja": "イン・アンド・アウト",
+        "name:ko": "인앤아웃 버거",
+        "opening_hours": "10:30-01:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-800-786-1000",
+        "ref": "148",
+        "source": "SanGIS Addresses Public Domain (http://www.sangis.org/)",
+        "start_date": "2000-12-07",
+        "store_number": "148",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/148"
+      },
+      "center": {
+        "lat": 33.4593547,
+        "lon": -112.34042464999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 232234326,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "7111",
+        "addr:postcode": "85710",
+        "addr:state": "AZ",
+        "addr:street": "East Broadway Boulevard",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "building:use": "fast_food",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "outdoor_seating": "yes",
+        "phone": "+1-800-786-1000",
+        "ref": "242",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/242"
+      },
+      "center": {
+        "lat": 32.221769699999996,
+        "lon": -110.84044104999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 256800780,
+      "tags": {
+        "addr:city": "Chandler",
+        "addr:housenumber": "2910",
+        "addr:postcode": "85286",
+        "addr:state": "AZ",
+        "addr:street": "East Germann Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "commercial",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/219"
+      },
+      "center": {
+        "lat": 33.28118625,
+        "lon": -111.7902383
+      }
+    },
+    {
+      "type": "way",
+      "id": 257297498,
+      "tags": {
+        "addr:city": "Lake Havasu City",
+        "addr:housenumber": "81-101",
+        "addr:postcode": "86403",
+        "addr:state": "AZ",
+        "addr:street": "London Bridge Road",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "building:use": "fast_food",
+        "check_date:opening_hours": "2025-08-21",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "name:en": "In-N-Out Burger",
+        "name:ja": "イン・アンド・アウト",
+        "name:ko": "인앤아웃 버거",
+        "opening_hours": "10:30-01:00",
+        "outdoor_seating": "yes",
+        "ref": "143",
+        "smoking": "no",
+        "start_date": "2000-05-03",
+        "store_number": "143",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/143",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 34.4742835,
+        "lon": -114.34734605
+      }
+    },
+    {
+      "type": "way",
+      "id": 286360769,
+      "tags": {
+        "addr:city": "Marana",
+        "addr:housenumber": "8180",
+        "addr:postcode": "85743",
+        "addr:state": "AZ",
+        "addr:street": "Cortaro Road",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Mo-Th,Su 10:30-01:00, Fr,Sa 10:30-01:30",
+        "ref": "210",
+        "source": "Bing",
+        "source:name": "local_knowledge",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/210"
+      },
+      "center": {
+        "lat": 32.355165,
+        "lon": -111.09298754999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 292498617,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "19407",
+        "addr:postcode": "85027",
+        "addr:state": "AZ",
+        "addr:street": "North 27th Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "outdoor_seating": "yes",
+        "ref": "177",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/177"
+      },
+      "center": {
+        "lat": 33.66207435,
+        "lon": -112.11672525
+      }
+    },
+    {
+      "type": "way",
+      "id": 446569272,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "9585",
+        "addr:postcode": "85037",
+        "addr:state": "AZ",
+        "addr:street": "West Camelback Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "building:use": "fast_food",
+        "check_date": "2022-12-19",
+        "cuisine": "burger",
+        "delivery": "no",
+        "description": "In-N-Out Burger is an American regional chain of fast food restaurants with locations primarily in the American Southwest and Pacific coast.",
+        "drive_through": "yes",
+        "highchair": "no",
+        "indoor_seating": "yes",
+        "internet_access": "no",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Mo-Th,Su 10:30-01:00; Fr-Sa 10:30-01:30",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "ref": "232",
+        "smoking": "outside",
+        "start_date": "2009-06-11",
+        "takeaway": "yes",
+        "url": "http://locations.in-n-out.com/232",
+        "website": "https://locations.in-n-out.com/232",
+        "wheelchair": "limited"
+      },
+      "center": {
+        "lat": 33.50804495,
+        "lon": -112.26649850000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 454799857,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "978",
+        "addr:postcode": "85713",
+        "addr:state": "AZ",
+        "addr:street": "East Ajo Way",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "building:use": "fast_food",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/238"
+      },
+      "center": {
+        "lat": 32.178279450000005,
+        "lon": -110.9428792
+      }
+    },
+    {
+      "type": "way",
+      "id": 461569936,
+      "tags": {
+        "addr:city": "Oro Valley",
+        "addr:housenumber": "11545",
+        "addr:postcode": "85755",
+        "addr:state": "AZ",
+        "addr:street": "North Oracle Road",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "outdoor_seating": "yes",
+        "ref": "241",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/241"
+      },
+      "center": {
+        "lat": 32.415445399999996,
+        "lon": -110.93879900000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 471542221,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1342",
+        "addr:postcode": "85210",
+        "addr:state": "AZ",
+        "addr:street": "South Alma School Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "building:use": "fast_food",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "ref": "230",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/230"
+      },
+      "center": {
+        "lat": 33.3900881,
+        "lon": -111.85775224999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 561627545,
+      "tags": {
+        "addr:city": "Tempe",
+        "addr:housenumber": "920",
+        "addr:postcode": "85288",
+        "addr:state": "AZ",
+        "addr:street": "East Playa Del Norte Drive",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Tu-Su 10:30-01:00, Fr,Sa 10:30-01:30",
+        "outdoor_seating": "yes",
+        "ref": "195",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/195"
+      },
+      "center": {
+        "lat": 33.4349097,
+        "lon": -111.92541885000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 741584050,
+      "tags": {
+        "addr:city": "Surprise",
+        "addr:housenumber": "14321",
+        "addr:postcode": "85374",
+        "addr:state": "AZ",
+        "addr:street": "West Bell Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Mo-Th,Su 10:30-01:00; Fr-Sa 10:30-01:30",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/332"
+      },
+      "center": {
+        "lat": 33.638116,
+        "lon": -112.36857559999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 842254997,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "8285",
+        "addr:postcode": "85382",
+        "addr:state": "AZ",
+        "addr:street": "West Bell Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/169"
+      },
+      "center": {
+        "lat": 33.637762300000006,
+        "lon": -112.23299299999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 882003086,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "3156",
+        "addr:postcode": "85215",
+        "addr:state": "AZ",
+        "addr:street": "North Recker Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "10:30-01:00",
+        "phone": "+1-800-786-1000",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/338"
+      },
+      "center": {
+        "lat": 33.473414000000005,
+        "lon": -111.70186739999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 895126090,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "4840",
+        "addr:postcode": "85016",
+        "addr:state": "AZ",
+        "addr:street": "North 20th Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "ref": "317",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/317"
+      },
+      "center": {
+        "lat": 33.50716865,
+        "lon": -112.03942240000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 974855560,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "1100",
+        "addr:postcode": "85714",
+        "addr:state": "AZ",
+        "addr:street": "West Irvington Road",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "ref": "356",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/356"
+      },
+      "center": {
+        "lat": 32.1636241,
+        "lon": -110.98818125000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1132361034,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1650",
+        "addr:postcode": "85204",
+        "addr:state": "AZ",
+        "addr:street": "South Stapley Drive",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "In-N-Out Burger",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/155"
+      },
+      "center": {
+        "lat": 33.3833591,
+        "lon": -111.80629980000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1274706229,
+      "tags": {
+        "addr:city": "Tempe",
+        "addr:housenumber": "2405",
+        "addr:postcode": "85283",
+        "addr:state": "AZ",
+        "addr:street": "West Baseline Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "ref": "361",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/361"
+      },
+      "center": {
+        "lat": 33.377632399999996,
+        "lon": -111.97407245
+      }
+    },
+    {
+      "type": "way",
+      "id": 1274744873,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "4901",
+        "addr:postcode": "85212",
+        "addr:state": "AZ",
+        "addr:street": "South Power Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "phone": "+1-800-786-1000",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.327193300000005,
+        "lon": -111.68635495000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1462199320,
+      "tags": {
+        "addr:city": "Laveen Village",
+        "addr:housenumber": "5940",
+        "addr:postcode": "85339",
+        "addr:state": "AZ",
+        "addr:street": "West Baseline Road",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "In-N-Out Burger",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.37797985,
+        "lon": -112.18664204999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1497827023,
+      "tags": {
+        "addr:city": "Surprise",
+        "addr:housenumber": "16440",
+        "addr:postcode": "85388",
+        "addr:state": "AZ",
+        "addr:street": "West Cactus Road",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Mo-Th 10:30-13:00; Fr-Sa 10:30-13:30; Su 10:30-13:00",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.595832200000004,
+        "lon": -112.41249414999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1528943630,
+      "tags": {
+        "addr:city": "San Tan Valley",
+        "addr:country": "US",
+        "addr:housenumber": "33375",
+        "addr:postcode": "85143",
+        "addr:state": "AZ",
+        "addr:street": "North Gary Road",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "In-N-Out Burger",
+        "name:en": "In-N-Out Burger",
+        "name:ja": "イン・アンド・アウト",
+        "name:ko": "인앤아웃 버거",
+        "opening_hours": "Su-Th 10:30-01:00, Fr-Sa 10:30-01:30",
+        "phone": "+1 800-786-1000",
+        "ref": "444",
+        "start_date": "2026-09-25",
+        "store_number": "444",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/444"
+      },
+      "center": {
+        "lat": 33.18167699999999,
+        "lon": -111.58243620000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1540176533,
+      "tags": {
+        "addr:city": "Buckeye",
+        "addr:country": "US",
+        "addr:housenumber": "1050",
+        "addr:postcode": "85326",
+        "addr:state": "AZ",
+        "addr:street": "North Verrado Way",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "diet:gluten_free": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "no",
+        "name": "In-N-Out Burger",
+        "name:en": "In-N-Out Burger",
+        "name:ja": "イン・アンド・アウト",
+        "name:ko": "인앤아웃 버거",
+        "opening_hours": "Su-Th 10:30-01:00, Fr-Sa 10:30-01:30",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 800-786-1000",
+        "ref": "435",
+        "start_date": "2026-04-03",
+        "store_number": "435",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://locations.in-n-out.com/435"
+      },
+      "center": {
+        "lat": 33.458300699999995,
+        "lon": -112.50497610000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1569552743,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "25390",
+        "addr:postcode": "85383",
+        "addr:state": "AZ",
+        "addr:street": "North Lake Pleasant Parkway",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.714293,
+        "lon": -112.27194555
+      }
+    }
+  ]
+}

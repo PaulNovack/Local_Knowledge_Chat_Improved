@@ -1,0 +1,45 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "planet_smoothie",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T07:20:37.151586+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1066788789,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "3501",
+        "addr:postcode": "20008-6411",
+        "addr:state": "DC",
+        "addr:street": "Connecticut Avenue Northwest",
+        "amenity": "fast_food",
+        "brand": "Planet Smoothie",
+        "brand:wikidata": "Q7201170",
+        "cuisine": "smoothie",
+        "dataset": "address",
+        "dcgis:lot": "0015",
+        "dcgis:square": "2222",
+        "drive_through": "no",
+        "name": "Planet Smoothie",
+        "phone": "+1 202-597-5705",
+        "source": "dcgis",
+        "takeaway": "yes",
+        "website": "https://www.planetsmoothie.com/stores/washington/19217"
+      },
+      "lat": 38.9357343,
+      "lon": -77.0579552
+    }
+  ]
+}

@@ -1,0 +1,828 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "steak_n_shake",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2961847733,
+      "tags": {
+        "addr:country": "US",
+        "addr:postcode": "31794",
+        "addr:state": "GA",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "check_date": "2025-05-16",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "delivery": "no",
+        "name": "Steak 'n Shake",
+        "outdoor_seating": "no",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1 229-387-6000",
+        "source": "Survey",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-tifton-old-union-road/",
+        "wheelchair": "yes"
+      },
+      "lat": 31.428711,
+      "lon": -83.516323
+    },
+    {
+      "type": "way",
+      "id": 41338971,
+      "tags": {
+        "addr:city": "Atlanta",
+        "addr:housenumber": "2839",
+        "addr:postcode": "30329",
+        "addr:state": "GA",
+        "addr:street": "North Druid Hills Road",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date": "2025-10-11",
+        "check_date:currency:XBT": "2025-05-27",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:lightning": "yes",
+        "payment:onchain": "no",
+        "phone": "+1-404-549-5346",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-atlanta-n-druid-hills-road/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 33.8171915,
+        "lon": -84.31216014999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 250698473,
+      "tags": {
+        "addr:country": "US",
+        "addr:postcode": "30038",
+        "addr:state": "GA",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date:currency:XBT": "2025-05-27",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "payment:lightning": "yes",
+        "payment:onchain": "yes",
+        "phone": "+1 770-482-1117",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-lithonia-stonecrest-circle/"
+      },
+      "center": {
+        "lat": 33.69863745,
+        "lon": -84.09113460000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 251038818,
+      "tags": {
+        "addr:city": "Columbus",
+        "addr:housenumber": "1601",
+        "addr:postcode": "31904",
+        "addr:state": "GA",
+        "addr:street": "Bradley Park Drive",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "restaurant",
+        "check_date": "2025-05-16",
+        "check_date:currency:XBT": "2025-05-16",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "drive_through": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Mo-Su 10:00-03:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1 706-323-0267",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-columbus-bradley-park-drive/"
+      },
+      "center": {
+        "lat": 32.53277635,
+        "lon": -84.97022830000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 264851427,
+      "tags": {
+        "addr:city": "Smyrna",
+        "addr:housenumber": "2736",
+        "addr:postcode": "30080",
+        "addr:state": "GA",
+        "addr:street": "Cobb Parkway South",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2026-05-05",
+        "check_date:currency:XBT": "2025-05-27",
+        "contact:website": "https://www.steaknshake.com/locations/ga-smyrna-cobb-parkway/",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "delivery": "no",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Mo-Th,Su 10:00-02:00; Fr-Sa 10:00-04:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:lightning": "yes",
+        "payment:onchain": "no",
+        "phone": "+1-770-952-2744",
+        "roof:shape": "flat",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-smyrna-cobb-parkway/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 33.88710975,
+        "lon": -84.47352394999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 299023981,
+      "tags": {
+        "addr:city": "Union City",
+        "addr:housenumber": "6789",
+        "addr:postcode": "30291",
+        "addr:street": "Shannon Parkway",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date:currency:XBT": "2025-05-27",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "payment:lightning": "yes",
+        "payment:onchain": "no",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.570232950000005,
+        "lon": -84.53973640000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 308115937,
+      "tags": {
+        "addr:country": "US",
+        "addr:postcode": "30135",
+        "addr:state": "GA",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date:currency:XBT": "2025-05-27",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "payment:lightning": "yes",
+        "payment:onchain": "no",
+        "phone": "+1 770-942-2200",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-douglasville-bill-arp-road/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 33.7234447,
+        "lon": -84.76295255000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 387811438,
+      "tags": {
+        "addr:country": "US",
+        "addr:postcode": "30041",
+        "addr:state": "GA",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2023-10-25",
+        "check_date:currency:XBT": "2025-05-27",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "drive_through": "yes",
+        "name": "Steak 'n Shake",
+        "payment:cash": "yes",
+        "payment:lightning": "yes",
+        "payment:mastercard": "yes",
+        "payment:onchain": "no",
+        "payment:visa": "yes",
+        "phone": "+1 770-887-3002",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-cumming-buford-highway/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 34.178859200000005,
+        "lon": -84.13142619999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 388681431,
+      "tags": {
+        "addr:city": "Buford",
+        "addr:housenumber": "3370",
+        "addr:postcode": "30519",
+        "addr:state": "GA",
+        "addr:street": "Buford Drive",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date:currency:XBT": "2025-05-27",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "payment:lightning": "yes",
+        "payment:onchain": "no",
+        "phone": "+1 678-804-4331",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-buford-buford-drive/"
+      },
+      "center": {
+        "lat": 34.0739255,
+        "lon": -83.98489755000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 389555638,
+      "tags": {
+        "addr:housenumber": "820",
+        "addr:postcode": "30043",
+        "addr:state": "GA",
+        "addr:street": "Lawrenceville Suwanee Road",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date:currency:XBT": "2025-05-27",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Su-Th 10:00-22:00; Fr-Sa 10:00-00:00",
+        "payment:lightning": "yes",
+        "payment:onchain": "no",
+        "phone": "+1 770-962-1600",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-lawrenceville-lawrenceville-suwanee-road/"
+      },
+      "center": {
+        "lat": 33.970056650000004,
+        "lon": -84.02109884999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 391071434,
+      "tags": {
+        "addr:country": "US",
+        "addr:postcode": "30265",
+        "addr:state": "GA",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date:currency:XBT": "2025-05-27",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "payment:lightning": "yes",
+        "payment:onchain": "no",
+        "phone": "+1 770-252-1181",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-newnan-highway-34-east/"
+      },
+      "center": {
+        "lat": 33.3974683,
+        "lon": -84.73795784999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 474785062,
+      "tags": {
+        "addr:city": "Warner Robins",
+        "addr:housenumber": "2999",
+        "addr:postcode": "31093",
+        "addr:state": "GA",
+        "addr:street": "Watson Boulevard",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "retail",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "check_date:currency:XBT": "2025-05-27",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Mo-Su 06:00-03:00",
+        "payment:lightning": "yes",
+        "payment:onchain": "no",
+        "phone": "+1 478-953-0596",
+        "reservation": "no",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-warner-robins-watson-boulevard/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 32.6171905,
+        "lon": -83.68915475
+      }
+    },
+    {
+      "type": "way",
+      "id": 475640402,
+      "tags": {
+        "addr:city": "Alpharetta",
+        "addr:housenumber": "2355",
+        "addr:postcode": "30022",
+        "addr:state": "GA",
+        "addr:street": "North Point Court",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date:currency:XBT": "2025-05-22",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "24/7",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1-770-751-1101",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-alpharetta-north-point-court/"
+      },
+      "center": {
+        "lat": 34.0499042,
+        "lon": -84.28768585
+      }
+    },
+    {
+      "type": "way",
+      "id": 510028929,
+      "tags": {
+        "addr:city": "Kennesaw",
+        "addr:housenumber": "825",
+        "addr:postcode": "30144",
+        "addr:state": "GA",
+        "addr:street": "Ernest W. Barrett Parkway Northwest",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2024-12-26",
+        "check_date:currency:XBT": "2025-05-27",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "10:00-24:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:lightning": "yes",
+        "payment:mastercard": "yes",
+        "payment:onchain": "no",
+        "payment:visa": "yes",
+        "phone": "+1-770-499-1059",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-kennesaw-barrett-parkway/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 34.005102050000005,
+        "lon": -84.57501810000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 533901082,
+      "tags": {
+        "addr:city": "Acworth",
+        "addr:housenumber": "3396",
+        "addr:postcode": "30101",
+        "addr:state": "GA",
+        "addr:street": "Cobb Parkway",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date:currency:XBT": "2025-05-27",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "delivery": "no",
+        "name": "Steak 'n Shake",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no",
+        "payment:lightning": "yes",
+        "payment:onchain": "no",
+        "phone": "+1-770-529-6661",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-acworth-cobb-parkway-nw/"
+      },
+      "center": {
+        "lat": 34.03717505,
+        "lon": -84.6857779
+      }
+    },
+    {
+      "type": "way",
+      "id": 536798240,
+      "tags": {
+        "addr:city": "Woodstock",
+        "addr:housenumber": "120",
+        "addr:postcode": "30189",
+        "addr:state": "GA",
+        "addr:street": "Lauren Lane",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2025-09-01",
+        "check_date:currency:XBT": "2025-05-27",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Mo-Su 10:00-24:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:lightning": "yes",
+        "payment:onchain": "no",
+        "phone": "+1-678-626-0424",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-woodstock-lauren-lane/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 34.08452665,
+        "lon": -84.54190400000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 550521676,
+      "tags": {
+        "addr:city": "Hiram",
+        "addr:housenumber": "4835",
+        "addr:postcode": "30141",
+        "addr:state": "GA",
+        "addr:street": "Jimmy Lee Smith Parkway",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date:currency:XBT": "2025-05-27",
+        "contact:website": "https://www.steaknshake.com/locations/ga-hiram-jimmy-lee-smith-parkway/",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "delivery": "no",
+        "diet:vegetarian": "no",
+        "drive_through": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no",
+        "payment:lightning": "yes",
+        "payment:onchain": "no",
+        "phone": "+1-770-439-3557",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-hiram-jimmy-lee-smith-parkway/"
+      },
+      "center": {
+        "lat": 33.8899014,
+        "lon": -84.74749574999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 560425126,
+      "tags": {
+        "addr:country": "US",
+        "addr:postcode": "30078",
+        "addr:state": "GA",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date:currency:XBT": "2025-05-27",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "diet:vegetarian": "no",
+        "indoor_seating": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Mo-Su 10:00-24:00",
+        "outdoor_seating": "no",
+        "payment:lightning": "yes",
+        "payment:onchain": "yes",
+        "phone": "+1 770-978-8787",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-snellville-scenic-highway-sw/"
+      },
+      "center": {
+        "lat": 33.885174000000006,
+        "lon": -84.00961474999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 693441143,
+      "tags": {
+        "addr:city": "Fort Oglethorpe",
+        "addr:country": "US",
+        "addr:housenumber": "1182",
+        "addr:postcode": "30742",
+        "addr:state": "GA",
+        "addr:street": "Battlefield Parkway",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date:currency:XBT": "2025-05-27",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "payment:lightning": "yes",
+        "payment:onchain": "no",
+        "phone": "+1 706-858-1919",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-ft-oglethorpe-battlefield-parkway/"
+      },
+      "center": {
+        "lat": 34.9518579,
+        "lon": -85.24476579999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 731831557,
+      "tags": {
+        "addr:country": "US",
+        "addr:postcode": "30161",
+        "addr:state": "GA",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date:currency:XBT": "2025-05-27",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "payment:lightning": "yes",
+        "payment:onchain": "no",
+        "phone": "+1 706-204-8657",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-rome-turner-mccall-boulevard-sw/"
+      },
+      "center": {
+        "lat": 34.25987685,
+        "lon": -85.16663165
+      }
+    },
+    {
+      "type": "way",
+      "id": 745112064,
+      "tags": {
+        "addr:country": "US",
+        "addr:postcode": "30117",
+        "addr:state": "GA",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "retail",
+        "check_date:currency:XBT": "2025-05-27",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "payment:lightning": "yes",
+        "payment:onchain": "no",
+        "phone": "+1 678-664-0837",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-carrollton-highway-27-south/"
+      },
+      "center": {
+        "lat": 33.550984299999996,
+        "lon": -85.07268835000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 752113942,
+      "tags": {
+        "addr:housenumber": "610",
+        "addr:street": "East Main Street",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date:currency:XBT": "2025-05-27",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "drive_through": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Su-Th 10:00-01:00; Fr-Sa 10:00-02:00",
+        "payment:lightning": "yes",
+        "payment:onchain": "no",
+        "phone": "+1-770-382-8182",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-cartersville-east-main-street/"
+      },
+      "center": {
+        "lat": 34.174020299999995,
+        "lon": -84.78012949999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 834354564,
+      "tags": {
+        "addr:country": "US",
+        "addr:postcode": "30720",
+        "addr:state": "GA",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date:currency:XBT": "2025-05-27",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "payment:lightning": "yes",
+        "payment:onchain": "no",
+        "phone": "+1 706-272-3300",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-dalton-w-walnut-avenue/"
+      },
+      "center": {
+        "lat": 34.75961685,
+        "lon": -84.98992544999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 949890582,
+      "tags": {
+        "addr:country": "US",
+        "addr:postcode": "30260",
+        "addr:state": "GA",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date:currency:XBT": "2025-05-27",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "payment:lightning": "yes",
+        "payment:onchain": "no",
+        "phone": "+1 770-472-0220",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-morrow-mt-zion-parkway/"
+      },
+      "center": {
+        "lat": 33.5627525,
+        "lon": -84.32110949999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016099436,
+      "tags": {
+        "addr:city": "Valdosta",
+        "addr:housenumber": "980",
+        "addr:postcode": "31601",
+        "addr:state": "GA",
+        "addr:street": "Saint Augustine Road",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date": "2026-09-19",
+        "check_date:currency:XBT": "2025-06-16",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "delivery": "yes",
+        "delivery:partner": "Uber Eats",
+        "delivery:partner:wikidata": "Q21462723",
+        "name": "Steak n’ Shake",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1 229-242-5000",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-valdosta-n-st-augustine-road/"
+      },
+      "center": {
+        "lat": 30.837769549999997,
+        "lon": -83.31752044999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1056006381,
+      "tags": {
+        "addr:country": "US",
+        "addr:postcode": "30248",
+        "addr:state": "GA",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date:currency:XBT": "2025-05-27",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "payment:lightning": "yes",
+        "payment:onchain": "no",
+        "phone": "+1 678-846-2270",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ga-locust-grove-marketplace-boulevard/"
+      },
+      "center": {
+        "lat": 33.3551154,
+        "lon": -84.1222416
+      }
+    },
+    {
+      "type": "way",
+      "id": 1272215254,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date:currency:XBT": "2025-05-27",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "payment:lightning": "yes",
+        "payment:onchain": "no",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 31.61616845,
+        "lon": -84.22246129999996
+      }
+    }
+  ]
+}

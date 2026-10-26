@@ -1,0 +1,57 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "ben_jerry_s",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3409340545,
+      "tags": {
+        "addr:city": "Athens",
+        "addr:housenumber": "105",
+        "addr:postcode": "30601",
+        "addr:street": "College Avenue",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "contact:facebook": "https://www.facebook.com/BenJerrysAthens/",
+        "contact:instagram": "https://www.instagram.com/benjerrysathens/",
+        "cuisine": "ice_cream",
+        "level": "0",
+        "name": "Ben & Jerry's",
+        "opening_hours": "Mo-Th 13:00-21:30; Fr-Sa 13:00-22:30; Su 13:00-21:30",
+        "outdoor_seating": "yes",
+        "ref:athensclarkeaddress": "49753",
+        "website": "https://www.benjerry.com/athens",
+        "wheelchair": "yes"
+      },
+      "lat": 33.9579683,
+      "lon": -83.3755658
+    },
+    {
+      "type": "node",
+      "id": 12732224865,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's"
+      },
+      "lat": 32.0785591,
+      "lon": -81.0911055
+    }
+  ]
+}

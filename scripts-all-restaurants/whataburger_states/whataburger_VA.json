@@ -1,0 +1,40 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "whataburger",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 780324242,
+      "tags": {
+        "addr:city": "Petersburg",
+        "addr:housenumber": "2350",
+        "addr:postcode": "23803",
+        "addr:street": "West Washington Street",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "What-a-Burger",
+        "not:brand": "Whataburger",
+        "not:brand:wikidata": "Q376627",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 37.2170988,
+        "lon": -77.44324979999999
+      }
+    }
+  ]
+}

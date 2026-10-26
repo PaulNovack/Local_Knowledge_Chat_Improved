@@ -1,0 +1,1201 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "whataburger",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9359048069,
+      "tags": {
+        "addr:city": "Chandler",
+        "addr:housenumber": "7375",
+        "addr:postcode": "85226",
+        "addr:state": "AZ",
+        "addr:street": "West Chandler Boulevard",
+        "amenity": "fast_food",
+        "branch": "Chandler & Southgate",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "capacity": "95",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "opening_hours": "24/7",
+        "phone": "+1 480-940-3707",
+        "ref": "587",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/chandler/7375-w-chandler-blvd.html"
+      },
+      "lat": 33.3048547,
+      "lon": -111.9682371
+    },
+    {
+      "type": "node",
+      "id": 11663793895,
+      "tags": {
+        "addr:city": "Casa Grande",
+        "addr:housenumber": "1785",
+        "addr:postcode": "85122",
+        "addr:state": "AZ",
+        "addr:street": "East Florence Boulevard",
+        "amenity": "fast_food",
+        "branch": "Florence Boulevard",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "opening_hours": "24/7",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/casa-grande/1785-e-florence-blvd.html"
+      },
+      "lat": 32.8790939,
+      "lon": -111.7100117
+    },
+    {
+      "type": "node",
+      "id": 12061911183,
+      "tags": {
+        "addr:city": "Goodyear",
+        "addr:housenumber": "1135",
+        "addr:postcode": "85338",
+        "addr:state": "AZ",
+        "addr:street": "North Estrella Parkway",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "fixme": "missing address",
+        "name": "Whataburger",
+        "takeaway": "yes"
+      },
+      "lat": 33.459368,
+      "lon": -112.3918003
+    },
+    {
+      "type": "node",
+      "id": 12091886286,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1957",
+        "addr:postcode": "85201",
+        "addr:state": "AZ",
+        "addr:street": "North Country Club Drive",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "Country Club & McKellips",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "layer": "1",
+        "name": "Whataburger",
+        "self_service": "yes",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/mesa/1957-n-country-club-dr.html"
+      },
+      "lat": 33.4510001,
+      "lon": -111.8390595
+    },
+    {
+      "type": "node",
+      "id": 12103072365,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "3301",
+        "addr:postcode": "85029",
+        "addr:state": "AZ",
+        "addr:street": "West Peoria Avenue",
+        "amenity": "fast_food",
+        "brand": "Whataburger",
+        "brand:website": "https://whataburger.com",
+        "brand:wikidata": "Q376627",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "opening_hours": "24/7",
+        "opening_hours:url": "https://locations.whataburger.com/az/phoenix/3301-west-peoria-avenue.html",
+        "phone": "+1-480-674-4946",
+        "ref": "1571",
+        "takeaway": "yes",
+        "website:menu": "https://whataburger.com/locations/1571/menu"
+      },
+      "lat": 33.5815778,
+      "lon": -112.1318655
+    },
+    {
+      "type": "node",
+      "id": 12703212190,
+      "tags": {
+        "addr:city": "Tolleson",
+        "addr:housenumber": "2710",
+        "addr:postcode": "85353",
+        "addr:state": "AZ",
+        "addr:street": "South 99th Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "check_date": "2025-03-23",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "highchair": "yes",
+        "name": "Whataburger",
+        "outdoor_seating": "no",
+        "payment:apple_pay": "yes",
+        "payment:cards": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:visa": "yes",
+        "source": "survey",
+        "takeaway": "yes"
+      },
+      "lat": 33.4217557,
+      "lon": -112.2736115
+    },
+    {
+      "type": "node",
+      "id": 13228123409,
+      "tags": {
+        "addr:city": "Chandler",
+        "addr:housenumber": "3077",
+        "addr:postcode": "85286",
+        "addr:state": "AZ",
+        "addr:street": "East Queen Creek Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "capacity": "100",
+        "check_date": "2025-10-11",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "highchair": "yes",
+        "name": "Whataburger",
+        "takeaway": "yes"
+      },
+      "lat": 33.2623075,
+      "lon": -111.7883625
+    },
+    {
+      "type": "node",
+      "id": 13370503342,
+      "tags": {
+        "addr:city": "Surprise",
+        "addr:housenumber": "13611",
+        "addr:postcode": "85379",
+        "addr:state": "AZ",
+        "addr:street": "North Litchfield Road",
+        "amenity": "fast_food",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "opening_hours": "24/7",
+        "phone": "+1-480-372-2025",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/surprise/13611-north-litchfield-road.html"
+      },
+      "lat": 33.6075613,
+      "lon": -112.3585399
+    },
+    {
+      "type": "node",
+      "id": 13547250073,
+      "tags": {
+        "addr:city": "Surprise",
+        "addr:postcode": "85387",
+        "addr:state": "AZ",
+        "addr:street": "North 163rd Avenue",
+        "amenity": "fast_food",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "cuisine": "burger",
+        "name": "Whataburger",
+        "takeaway": "yes"
+      },
+      "lat": 33.6952865,
+      "lon": -112.4087016
+    },
+    {
+      "type": "node",
+      "id": 14129958292,
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:housenumber": "1395",
+        "addr:postcode": "85234",
+        "addr:state": "AZ",
+        "addr:street": "North Higley Road",
+        "amenity": "fast_food",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "check_date": "2026-08-26",
+        "cuisine": "burger",
+        "name": "Whataburger",
+        "takeaway": "yes",
+        "toilets": "yes"
+      },
+      "lat": 33.3755215,
+      "lon": -111.721558
+    },
+    {
+      "type": "way",
+      "id": 64888609,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "12440",
+        "addr:postcode": "85032",
+        "addr:state": "AZ",
+        "addr:street": "North Tatum Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "North Tatum Boulevard & East Cactus Road",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Whataburger",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/phoenix/12440-n-tatum-blvd.html"
+      },
+      "center": {
+        "lat": 33.60063775,
+        "lon": -111.98015154999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 67392731,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "4610",
+        "addr:postcode": "85040",
+        "addr:state": "AZ",
+        "addr:street": "South 48th Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "48th & Broadway",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "phone": "+1 602-454-6453",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/phoenix/4610-s-48th-st.html"
+      },
+      "center": {
+        "lat": 33.40575675,
+        "lon": -111.97880800000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 124895995,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "737",
+        "addr:postcode": "85006",
+        "addr:state": "AZ",
+        "addr:street": "East McDowell Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "McDowell & North 7th",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "commercial",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "phone": "+1 602-252-2443",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/phoenix/737-e-mcdowell-rd.html"
+      },
+      "center": {
+        "lat": 33.465474400000005,
+        "lon": -112.06355329999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 146986464,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "2901",
+        "addr:postcode": "85032",
+        "addr:state": "AZ",
+        "addr:street": "East Bell Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "Bell & 29th",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "phone": "+1 602-867-9039",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/phoenix/2901-e-bell-rd.html"
+      },
+      "center": {
+        "lat": 33.6402772,
+        "lon": -112.01962824999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 152769108,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "450",
+        "addr:postcode": "85013",
+        "addr:state": "AZ",
+        "addr:street": "West Indian School Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "phone": "+1-602-279-9265",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.495093600000004,
+        "lon": -112.07994539999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 155465113,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "2040",
+        "addr:postcode": "85035",
+        "addr:state": "AZ",
+        "addr:street": "North 75th Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "75th & Encanto",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "opening_hours": "24/7",
+        "phone": "+1 623-873-2880",
+        "source:name": "local_knowledge",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/phoenix/2040-n-75th-ave.html"
+      },
+      "center": {
+        "lat": 33.47066915,
+        "lon": -112.22121900000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 199753945,
+      "tags": {
+        "addr:city": "Scottsdale",
+        "addr:country": "US",
+        "addr:housenumber": "9990",
+        "addr:postcode": "85258",
+        "addr:state": "AZ",
+        "addr:street": "North 90th Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "90th & Mountain View",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "retail",
+        "check_date": "2026-07-17",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 480-767-9281",
+        "ref": "721",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/scottsdale/9990-n-90th-st.html"
+      },
+      "center": {
+        "lat": 33.577102749999995,
+        "lon": -111.8862775
+      }
+    },
+    {
+      "type": "way",
+      "id": 221565623,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "1430",
+        "addr:postcode": "85704",
+        "addr:state": "AZ",
+        "addr:street": "West River Road",
+        "amenity": "fast_food",
+        "branch": "West River & La Cañada",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "phone": "+1 520-407-9236",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/tucson/1430-w-river-rd.html"
+      },
+      "center": {
+        "lat": 32.2979275,
+        "lon": -110.99690379999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 261267699,
+      "tags": {
+        "addr:city": "Avondale",
+        "addr:housenumber": "1460",
+        "addr:postcode": "85323",
+        "addr:state": "AZ",
+        "addr:street": "North Dysart Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "Dysart & Van Buren",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "phone": "+1 623-932-4934",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/avondale/1460-n-dysart-rd.html"
+      },
+      "center": {
+        "lat": 33.4495067,
+        "lon": -112.34207585000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 261316478,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "4280",
+        "addr:postcode": "85308",
+        "addr:state": "AZ",
+        "addr:street": "West Bell Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "43rd Avenue - Glendale",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "phone": "+1 602-547-0186",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/glendale/4280-w-bell-rd.html"
+      },
+      "center": {
+        "lat": 33.6398092,
+        "lon": -112.15122854999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 261316864,
+      "tags": {
+        "addr:city": "Goodyear",
+        "addr:housenumber": "14251",
+        "addr:postcode": "85338",
+        "addr:state": "AZ",
+        "addr:street": "West Indian School Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "West Indian School & Litchfield",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "phone": "+1 623-536-2279",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/goodyear/14251-w-indian-school-rd.html"
+      },
+      "center": {
+        "lat": 33.48542305,
+        "lon": -112.36549674999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 261316983,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1947",
+        "addr:postcode": "85202",
+        "addr:state": "AZ",
+        "addr:street": "West Broadway Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "Broadway & Dobson",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "phone": "+1 480-615-8378",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/mesa/1947-w-broadway-rd.html",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 33.407162,
+        "lon": -111.87349645
+      }
+    },
+    {
+      "type": "way",
+      "id": 261317375,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:country": "US",
+        "addr:housenumber": "2747",
+        "addr:postcode": "85204",
+        "addr:state": "AZ",
+        "addr:street": "East Broadway Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "Broadway & Lindsay",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/mesa/2747-e-broadway-rd.html"
+      },
+      "center": {
+        "lat": 33.40774625,
+        "lon": -111.77157880000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 261318361,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "8922",
+        "addr:postcode": "85382",
+        "addr:state": "AZ",
+        "addr:street": "West Bell Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "Bell & 89th",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "phone": "+1 623-933-3998",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/peoria/8922-w-bell-rd.html"
+      },
+      "center": {
+        "lat": 33.6385627,
+        "lon": -112.25116555
+      }
+    },
+    {
+      "type": "way",
+      "id": 261318654,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "2460",
+        "addr:postcode": "85015",
+        "addr:state": "AZ",
+        "addr:street": "West Bethany Home Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "I17 & Bethany Home",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "phone": "+1 602-347-8667",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/phoenix/2460-w-bethany-home-rd.html"
+      },
+      "center": {
+        "lat": 33.52521485,
+        "lon": -112.111513
+      }
+    },
+    {
+      "type": "way",
+      "id": 261331088,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "1840",
+        "addr:postcode": "85009",
+        "addr:state": "AZ",
+        "addr:street": "South 19th Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "19th & Durango",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "phone": "+1 602-254-5154",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/phoenix/1840-s-19th-ave.html"
+      },
+      "center": {
+        "lat": 33.42973285,
+        "lon": -112.10034789999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 261331634,
+      "tags": {
+        "addr:city": "Scottsdale",
+        "addr:housenumber": "2955",
+        "addr:postcode": "85251",
+        "addr:state": "AZ",
+        "addr:street": "North Hayden Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "phone": "+1-480-946-9010",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.4817101,
+        "lon": -111.90852135
+      }
+    },
+    {
+      "type": "way",
+      "id": 261331971,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "3925",
+        "addr:postcode": "85714",
+        "addr:state": "AZ",
+        "addr:street": "South 6th Avenue",
+        "amenity": "fast_food",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "phone": "+1-520-294-2116",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.1762191,
+        "lon": -110.96799729999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 261414226,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "1235",
+        "addr:postcode": "85745",
+        "addr:state": "AZ",
+        "addr:street": "West Saint Mary's Road",
+        "amenity": "fast_food",
+        "branch": "Saint Mary's & Melrose",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "phone": "+1 520-624-6044",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/tucson/1235-w-saint-marys-rd.html"
+      },
+      "center": {
+        "lat": 32.2290433,
+        "lon": -110.99198319999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 261414952,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "435",
+        "addr:postcode": "85706",
+        "addr:state": "AZ",
+        "addr:street": "West Valencia Road",
+        "amenity": "fast_food",
+        "branch": "Valencia & 12th",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "check_date": "2025-08-24",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "opening_hours": "24/7",
+        "opening_hours:drive_through": "24/7",
+        "phone": "+1 520-294-9540",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/tucson/435-w-valencia-rd.html"
+      },
+      "center": {
+        "lat": 32.13363605000001,
+        "lon": -110.97632099999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 261415329,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "5402",
+        "addr:postcode": "85712",
+        "addr:state": "AZ",
+        "addr:street": "East Speedway Boulevard",
+        "amenity": "fast_food",
+        "branch": "Speedway & Woodland",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "building:colour": "#eecfaf",
+        "building:material": "plaster",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "phone": "+1 520-327-2684",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/tucson/5402-e-speedway-blvd.html"
+      },
+      "center": {
+        "lat": 32.235822850000005,
+        "lon": -110.87727745000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 261415794,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "6504",
+        "addr:postcode": "85710",
+        "addr:state": "AZ",
+        "addr:street": "East 22nd Street",
+        "amenity": "fast_food",
+        "branch": "East 22nd & Wilmot",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "phone": "+1 520-747-5525",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/tucson/6504-e-22nd-st.html"
+      },
+      "center": {
+        "lat": 32.206047549999994,
+        "lon": -110.85344329999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 851934895,
+      "tags": {
+        "addr:city": "Queen Creek",
+        "addr:housenumber": "20151",
+        "addr:postcode": "85142",
+        "addr:state": "AZ",
+        "addr:street": "South Ellsworth Road",
+        "amenity": "fast_food",
+        "branch": "South Ellsworth St. & East Terravella Parkway",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "retail",
+        "building:levels": "1",
+        "building:levels:underground": "0",
+        "capacity": "120",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "outdoor_seating": "no",
+        "payment:cards": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 623-900-7778",
+        "ref": "1163",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/queen-creek/20151-s-ellsworth-rd.html"
+      },
+      "center": {
+        "lat": 33.2655217,
+        "lon": -111.63401354999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1112841591,
+      "tags": {
+        "addr:city": "Surprise",
+        "addr:housenumber": "13730",
+        "addr:postcode": "85388",
+        "addr:state": "AZ",
+        "addr:street": "North Sarival Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "North Sarival Avenue & West Waddell Road",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "opening_hours": "24/7",
+        "phone": "+1 480-351-0975",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/surprise/13730-n-sarival-ave.html"
+      },
+      "center": {
+        "lat": 33.6091541,
+        "lon": -112.4102153
+      }
+    },
+    {
+      "type": "way",
+      "id": 1213904443,
+      "tags": {
+        "addr:city": "Laveen Village",
+        "addr:housenumber": "5775",
+        "addr:postcode": "85339",
+        "addr:state": "AZ",
+        "addr:street": "West Baseline Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "West Baseline Road & South 59th Avenue",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/laveen-village/5775-baseline-rd.html"
+      },
+      "center": {
+        "lat": 33.37688165,
+        "lon": -112.18360135
+      }
+    },
+    {
+      "type": "way",
+      "id": 1246747195,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "921",
+        "addr:postcode": "85713",
+        "addr:state": "AZ",
+        "addr:street": "East Tucson Marketplace Boulevard",
+        "amenity": "fast_food",
+        "branch": "East Tucson Marketplace Boulevard & South Park Avenue",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/tucson/921-e-tucson-marketplace-blvd.html"
+      },
+      "center": {
+        "lat": 32.1874671,
+        "lon": -110.95696685000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1286399714,
+      "tags": {
+        "addr:city": "Scottsdale",
+        "addr:housenumber": "7134",
+        "addr:postcode": "85251",
+        "addr:state": "AZ",
+        "addr:street": "East Thomas Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "East Thomas Road & North Scottsdale Road",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "phone": "+1 623-239-3416",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/scottsdale/7134-e-thomas-rd.html"
+      },
+      "center": {
+        "lat": 33.48078975,
+        "lon": -111.92801044999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1288179615,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:country": "US",
+        "addr:housenumber": "1140",
+        "addr:postcode": "85204",
+        "addr:state": "AZ",
+        "addr:street": "East Baseline Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "East Baseline Road and South Stapley Drive",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/az/mesa/1140-e-baseline-rd.html"
+      },
+      "center": {
+        "lat": 33.37938575,
+        "lon": -111.80868544999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1385229307,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1506",
+        "addr:postcode": "85209",
+        "addr:state": "AZ",
+        "addr:street": "South Signal Butte Road",
+        "amenity": "fast_food",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.38938855,
+        "lon": -111.5987811
+      }
+    },
+    {
+      "type": "way",
+      "id": 1479318653,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "3927",
+        "addr:postcode": "85018",
+        "addr:state": "AZ",
+        "addr:street": "East Thomas Road",
+        "amenity": "fast_food",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.4799775,
+        "lon": -111.99720379999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1486420953,
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:housenumber": "2590",
+        "addr:postcode": "85295",
+        "addr:state": "AZ",
+        "addr:street": "South Market Street",
+        "amenity": "fast_food",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Whataburger",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.3030409,
+        "lon": -111.7442413
+      }
+    },
+    {
+      "type": "way",
+      "id": 1494142570,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "5427",
+        "addr:postcode": "85212",
+        "addr:state": "AZ",
+        "addr:street": "South Power Road",
+        "amenity": "fast_food",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Whataburger",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.317330299999995,
+        "lon": -111.68628009999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1545833679,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Whataburger",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.088972600000005,
+        "lon": -110.77715869999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1545855340,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "5050",
+        "addr:postcode": "85756",
+        "addr:state": "AZ",
+        "addr:street": "East Valencia Road",
+        "amenity": "fast_food",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "phone": "+1-520-274-1938",
+        "takeaway": "yes",
+        "website": "https://whataburger.com"
+      },
+      "center": {
+        "lat": 32.13368745,
+        "lon": -110.88418285
+      }
+    },
+    {
+      "type": "way",
+      "id": 1562097256,
+      "tags": {
+        "addr:city": "Avondale",
+        "addr:housenumber": "1625",
+        "addr:postcode": "85392",
+        "addr:street": "North 107th Avenue",
+        "amenity": "fast_food",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Whataburger",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no",
+        "phone": "+1-480-865-1209",
+        "self_service": "no",
+        "takeaway": "yes",
+        "website": "https://whataburger.com/"
+      },
+      "center": {
+        "lat": 33.46503835,
+        "lon": -112.2894521
+      }
+    }
+  ]
+}

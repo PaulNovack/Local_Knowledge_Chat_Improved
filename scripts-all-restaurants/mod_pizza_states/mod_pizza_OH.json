@@ -1,0 +1,84 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "mod_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6944058019,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "cuisine": "pizza",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "MOD Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 39.664014,
+      "lon": -84.1079635
+    },
+    {
+      "type": "node",
+      "id": 8663722717,
+      "tags": {
+        "addr:city": "Pickerington",
+        "addr:housenumber": "1301",
+        "addr:postcode": "43147",
+        "addr:state": "OH",
+        "addr:street": "Hill Road North",
+        "amenity": "fast_food",
+        "branch": "Hill Road",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "cuisine": "pizza",
+        "name": "MOD Pizza",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr-Sa 11:00-22:00; Su 11:00-21:00",
+        "phone": "+1 614-682-7454",
+        "takeaway": "yes",
+        "website": "https://locations.modpizza.com/usa/oh/pickerington/1301-hill-rd-n"
+      },
+      "lat": 39.9161331,
+      "lon": -82.7810781
+    },
+    {
+      "type": "way",
+      "id": 1096779226,
+      "tags": {
+        "addr:city": "Lancaster",
+        "addr:country": "US",
+        "addr:housenumber": "1854",
+        "addr:postcode": "43130",
+        "addr:state": "OH",
+        "addr:street": "North Memorial Drive",
+        "amenity": "fast_food",
+        "branch": "Memorial Drive",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "building": "retail",
+        "cuisine": "pizza",
+        "name": "MOD Pizza",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr-Sa 11:00-22:00; Su 11:00-21:00",
+        "phone": "+1 740-918-8989",
+        "takeaway": "yes",
+        "website": "https://locations.modpizza.com/usa/oh/lancaster/1854-n-memorial-dr"
+      },
+      "center": {
+        "lat": 39.73299275,
+        "lon": -82.61957615
+      }
+    }
+  ]
+}

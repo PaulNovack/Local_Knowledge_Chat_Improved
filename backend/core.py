@@ -274,11 +274,48 @@ def ensure_chat_history_db(path=None):
                 name TEXT NOT NULL UNIQUE
             )
         ''')
+        db.execute('''
+            CREATE TABLE IF NOT EXISTS user_location_events (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                session_id TEXT NOT NULL,
+                recorded_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                latitude REAL,
+                longitude REAL
+            )
+        ''')
+        db.execute('''
+            CREATE INDEX IF NOT EXISTS idx_user_location_events_session_time
+            ON user_location_events(session_id, recorded_at)
+        ''')
         db.executemany(
             'INSERT OR IGNORE INTO routerFunctions(name) VALUES (?)',
-            [('',), ('Pre-trip Text',), ('Pre-trip Video',)],
+                [('',), ('Pre-trip Text',), ('Pre-trip Video',), ('Closest Loves',), ('Closest Roadys',), ('Closest McDonalds',),
+               ('Closest Restaurant',), ('Supported Restaurants',), ('Open Directions',)],
         )
     ensure_topic_data_table(path)
+    with sqlite3.connect(path) as db:
+        db.execute('''
+            INSERT OR IGNORE INTO topic_data(
+                topic, id, vector, question, answer, text, url, source,
+                embedding_model, routerFunction, key
+            ) VALUES (
+                '__system__', 'closest-loves', '',
+                'What is closest loves in direction I am Going',
+                'Find the nearest Love''s travel center using the current location and travel direction.',
+                '', '', '', '', 'Closest Loves', ''
+            )
+        ''')
+        db.execute('''
+            INSERT OR IGNORE INTO topic_data(
+                topic, id, vector, question, answer, text, url, source,
+                embedding_model, routerFunction, key
+            ) VALUES (
+                '__system__', 'closest-mcdonalds', '',
+                'What is the closest McDonalds in the direction I am going?',
+                'Find the nearest McDonald''s using the current location and recent direction of travel. If direction cannot be determined, return the nearest overall.',
+                '', '', '', '', 'Closest McDonalds', ''
+            )
+        ''')
     return path
 
 
@@ -579,6 +616,8 @@ class Store:
             used += cost
             chosen.append({'id': len(chosen) + 1, 'question': question, 'text': text,
                            'url': payload.get('url', ''), 'source': payload.get('source', ''),
+                           'routerFunction': payload.get('routerFunction', ''),
+                           'key': payload.get('key', ''),
                            'score': round(hit.score, 4)})
             if len(chosen) >= self.settings.top_k:
                 break

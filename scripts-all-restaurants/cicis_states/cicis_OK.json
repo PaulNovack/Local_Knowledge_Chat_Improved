@@ -1,0 +1,123 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "cicis",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2165873813,
+      "tags": {
+        "addr:housenumber": "540",
+        "addr:postcode": "73069",
+        "addr:street": "West Main Street",
+        "amenity": "restaurant",
+        "brand": "Cicis",
+        "brand:wikidata": "Q2972189",
+        "cuisine": "pizza;buffet",
+        "name": "Cicis",
+        "website": "https://cicispizza.com/"
+      },
+      "lat": 35.217911,
+      "lon": -97.4508415
+    },
+    {
+      "type": "node",
+      "id": 4610562294,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cicis",
+        "brand:wikidata": "Q2972189",
+        "cuisine": "pizza;buffet",
+        "name": "Cicis"
+      },
+      "lat": 35.6522013,
+      "lon": -97.457669
+    },
+    {
+      "type": "node",
+      "id": 11812243932,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cicis",
+        "brand:wikidata": "Q2972189",
+        "check_date": "2024-04-12",
+        "cuisine": "pizza;buffet",
+        "name": "Cicis"
+      },
+      "lat": 35.3931824,
+      "lon": -97.5310563
+    },
+    {
+      "type": "node",
+      "id": 13343189125,
+      "tags": {
+        "addr:city": "Owasso",
+        "addr:country": "US",
+        "addr:housenumber": "9540",
+        "addr:postcode": "74055",
+        "addr:state": "OK",
+        "addr:street": "North Garnett Road East",
+        "addr:unit": "107",
+        "amenity": "restaurant",
+        "brand": "Cicis",
+        "brand:wikidata": "Q2972189",
+        "cuisine": "pizza;buffet",
+        "name": "Cicis"
+      },
+      "lat": 36.2920521,
+      "lon": -95.8497369
+    },
+    {
+      "type": "node",
+      "id": 13599386470,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "4949",
+        "addr:postcode": "74105",
+        "addr:state": "OK",
+        "addr:street": "South Peoria Avenue East",
+        "amenity": "restaurant",
+        "brand": "Cicis",
+        "brand:wikidata": "Q2972189",
+        "check_date": "2023-01-25",
+        "cuisine": "pizza;buffet",
+        "name": "Cicis",
+        "opening_hours": "Su-Sa 11:00-22:00",
+        "website": "https://www.cicis.com/locations/ok-tulsa-4949-s-peoria-ave"
+      },
+      "lat": 36.0912203,
+      "lon": -95.9749733
+    },
+    {
+      "type": "way",
+      "id": 376283384,
+      "tags": {
+        "addr:housenumber": "1918",
+        "addr:street": "South Garnett Road East",
+        "amenity": "restaurant",
+        "brand": "Cicis",
+        "brand:wikidata": "Q2972189",
+        "building": "yes",
+        "cuisine": "pizza;buffet",
+        "name": "Cicis"
+      },
+      "center": {
+        "lat": 36.135214500000004,
+        "lon": -95.85226814999999
+      }
+    }
+  ]
+}

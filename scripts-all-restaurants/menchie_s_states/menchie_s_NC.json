@@ -1,0 +1,80 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "menchie_s",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5644388832,
+      "tags": {
+        "addr:city": "Durham",
+        "addr:housenumber": "4711",
+        "addr:postcode": "27713",
+        "addr:state": "NC",
+        "addr:street": "Hope Valley Road",
+        "addr:unit": "6E",
+        "air_conditioning": "yes",
+        "amenity": "ice_cream",
+        "brand": "Menchie's",
+        "brand:wikidata": "Q6816528",
+        "cuisine": "frozen_yogurt",
+        "name": "Menchie's",
+        "opening_hours": "Mo-Su 12:00-22:00",
+        "source:addr": "Durham Open Data"
+      },
+      "lat": 35.9210546,
+      "lon": -78.9575507
+    },
+    {
+      "type": "node",
+      "id": 6395012623,
+      "tags": {
+        "addr:housenumber": "5607",
+        "addr:street": "West Friendly Avenue",
+        "addr:unit": "M",
+        "amenity": "ice_cream",
+        "brand": "Menchie's",
+        "brand:wikidata": "Q6816528",
+        "check_date": "2025-08-07",
+        "cuisine": "frozen_yogurt",
+        "name": "Menchie's Frozen Yogurt",
+        "opening_hours": "Mo-Th,Su 13:00-21:00; Fr-Sa 13:00-22:00",
+        "phone": "+1-336-285-9587",
+        "website": "https://www.menchies.com/location/quaker-village/"
+      },
+      "lat": 36.0888603,
+      "lon": -79.8856739
+    },
+    {
+      "type": "node",
+      "id": 10315256493,
+      "tags": {
+        "addr:city": "Garner",
+        "addr:housenumber": "2636",
+        "addr:postcode": "27529",
+        "addr:state": "NC",
+        "addr:street": "Timber Drive",
+        "amenity": "ice_cream",
+        "brand": "Menchie's",
+        "brand:wikidata": "Q6816528",
+        "cuisine": "frozen_yogurt",
+        "name": "Menchie's",
+        "phone": "+1-919-771-1895"
+      },
+      "lat": 35.7148113,
+      "lon": -78.6359473
+    }
+  ]
+}

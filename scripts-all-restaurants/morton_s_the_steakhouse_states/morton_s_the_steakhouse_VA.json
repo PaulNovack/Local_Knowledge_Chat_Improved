@@ -1,0 +1,84 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "morton_s_the_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3824526874,
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "111",
+        "addr:postcode": "23219",
+        "addr:state": "VA",
+        "addr:street": "Virginia Street",
+        "amenity": "restaurant",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "cuisine": "steak_house",
+        "description": "Upscale chain for aged prime beef, seafood & other traditional steakhouse fare in a clubby space.",
+        "name": "Morton's The Steakhouse",
+        "phone": "+1 804-648-1662",
+        "source": "survey",
+        "website": "https://www.mortons.com/"
+      },
+      "lat": 37.5341381,
+      "lon": -77.4329882
+    },
+    {
+      "type": "node",
+      "id": 8864525756,
+      "tags": {
+        "addr:city": "Reston",
+        "addr:housenumber": "11956",
+        "addr:postcode": "20190",
+        "addr:state": "VA",
+        "addr:street": "Market Street",
+        "amenity": "restaurant",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "cuisine": "steak_house",
+        "name": "Morton's The Steakhouse",
+        "phone": "+1 703-796-0128"
+      },
+      "lat": 38.9588472,
+      "lon": -77.359288
+    },
+    {
+      "type": "node",
+      "id": 8958078221,
+      "tags": {
+        "addr:city": "Arlington",
+        "addr:housenumber": "1750",
+        "addr:postcode": "22202-3400",
+        "addr:state": "VA",
+        "addr:street": "Crystal Drive",
+        "amenity": "restaurant",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "check_date": "2025-04-17",
+        "cuisine": "steak_house",
+        "indoor_seating": "yes",
+        "name": "Morton's The Steakhouse",
+        "opening_hours": "Mo-Th,Su 16:00-21:00; Fr-Sa 16:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 703-418-1444",
+        "website": "https://www.mortons.com/location/mortons-the-steakhouse-arlington-va/"
+      },
+      "lat": 38.8583877,
+      "lon": -77.0493493
+    }
+  ]
+}

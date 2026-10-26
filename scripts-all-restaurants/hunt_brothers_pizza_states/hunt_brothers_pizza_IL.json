@@ -1,0 +1,88 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "hunt_brothers_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10005198504,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Hunt Brothers Pizza",
+        "brand:wikidata": "Q5943909",
+        "cuisine": "pizza",
+        "name": "Hunt Brothers Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 38.3750759,
+      "lon": -89.3719522
+    },
+    {
+      "type": "node",
+      "id": 13009955272,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Hunt Brothers Pizza",
+        "brand:wikidata": "Q5943909",
+        "cuisine": "pizza",
+        "name": "Hunt Brothers Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 41.0627646,
+      "lon": -89.7752715
+    },
+    {
+      "type": "node",
+      "id": 13458754578,
+      "tags": {
+        "addr:city": "Pleasant Hill",
+        "addr:housenumber": "202",
+        "addr:postcode": "62366",
+        "addr:state": "IL",
+        "addr:street": "Sixth Street",
+        "amenity": "fast_food",
+        "brand": "Hunt Brothers Pizza",
+        "brand:wikidata": "Q5943909",
+        "check_date": "2026-01-15",
+        "cuisine": "pizza",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "name": "Hunt Brothers Pizza",
+        "opening_hours": "Su-Sa 10:00-20:00",
+        "outdoor_seating": "no",
+        "phone": "+1-217-734-2812",
+        "takeaway": "only",
+        "website": "https://www.huntbrotherspizza.com/",
+        "website:menu": "https://www.huntbrotherspizza.com/menu/"
+      },
+      "lat": 39.4463185,
+      "lon": -90.8778777
+    },
+    {
+      "type": "node",
+      "id": 14028243932,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Hunt Brothers Pizza",
+        "brand:wikidata": "Q5943909",
+        "cuisine": "pizza",
+        "name": "Hunt Brothers Pizza",
+        "takeaway": "only"
+      },
+      "lat": 41.1646706,
+      "lon": -90.0427455
+    }
+  ]
+}

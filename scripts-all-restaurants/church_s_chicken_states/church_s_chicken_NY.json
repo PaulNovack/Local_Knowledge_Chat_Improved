@@ -1,0 +1,64 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "church_s_chicken",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13148008272,
+      "tags": {
+        "addr:city": "Niagara Falls",
+        "addr:housenumber": "310",
+        "addr:postcode": "14303",
+        "addr:state": "NY",
+        "addr:street": "Rainbow Boulevard",
+        "addr:unit": "110",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "cuisine": "chicken",
+        "drive_through": "no",
+        "name": "Church's Chicken",
+        "takeaway": "yes"
+      },
+      "lat": 43.0862139,
+      "lon": -79.0632162
+    },
+    {
+      "type": "way",
+      "id": 1009527073,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:housenumber": "2165",
+        "addr:postcode": "14216",
+        "addr:state": "NY",
+        "addr:street": "Delaware Avenue",
+        "amenity": "restaurant",
+        "brand": "Church's Texas Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Church's Texas Chicken",
+        "opening_hours": "Mo-Su 10:00-10:00",
+        "phone": "+17167107801",
+        "website": "https://locations.churchs.com/ny/buffalo/2165-delaware-avenue"
+      },
+      "center": {
+        "lat": 42.94313755,
+        "lon": -78.86767680000003
+      }
+    }
+  ]
+}

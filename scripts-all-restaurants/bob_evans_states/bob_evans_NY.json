@@ -1,0 +1,100 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "bob_evans",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2349011912,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "cuisine": "american",
+        "name": "Bob Evans"
+      },
+      "lat": 42.1529436,
+      "lon": -77.0794434
+    },
+    {
+      "type": "way",
+      "id": 321032682,
+      "tags": {
+        "addr:city": "Niagara Falls",
+        "addr:housenumber": "6543",
+        "addr:postcode": "14304",
+        "addr:state": "NY",
+        "addr:street": "Niagara Falls Boulevard",
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Bob Evans",
+        "nysgissam:nysaddresspointid": "NIAG086791"
+      },
+      "center": {
+        "lat": 43.0890541,
+        "lon": -78.98892085
+      }
+    },
+    {
+      "type": "way",
+      "id": 576475263,
+      "tags": {
+        "addr:city": "Jamestown",
+        "addr:housenumber": "2798",
+        "addr:postcode": "14701",
+        "addr:state": "NY",
+        "addr:street": "North Main Street Extension",
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Bob Evans",
+        "nysgissam:nysaddresspointid": "CHAU004152",
+        "nysgissam:review": "no matching street nearby",
+        "source": "NYS GIS Clearinghouse OpenData & MS Footprints (OpenData)"
+      },
+      "center": {
+        "lat": 42.1192631,
+        "lon": -79.24009720000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 639212941,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:housenumber": "1925",
+        "addr:postcode": "14228",
+        "addr:state": "NY",
+        "addr:street": "Niagara Falls Boulevard",
+        "amenity": "restaurant",
+        "brand": "Bob Evans",
+        "brand:wikidata": "Q4932386",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Bob Evans",
+        "nysgissam:nysaddresspointid": "ERIE185643"
+      },
+      "center": {
+        "lat": 43.00705395,
+        "lon": -78.82173840000002
+      }
+    }
+  ]
+}

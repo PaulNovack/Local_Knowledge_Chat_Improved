@@ -1,0 +1,66 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TN",
+    "brand": "playa_bowls",
+    "source": "https://download.geofabrik.de/north-america/us/tennessee-latest.osm.pbf",
+    "source_md5": "a047c5da6c897a8a98b1fc4a282b8d3f",
+    "processed_utc": "2026-10-24T07:16:20.210730+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13186137558,
+      "tags": {
+        "addr:city": "Nashville",
+        "addr:housenumber": "246",
+        "addr:postcode": "37219",
+        "addr:state": "TN",
+        "addr:street": "Rep. John Lewis Way North",
+        "amenity": "fast_food",
+        "brand": "Playa Bowls",
+        "brand:wikidata": "Q114618507",
+        "cuisine": "açaí",
+        "drive_through": "no",
+        "name": "Playa Bowls",
+        "opening_hours": "Mo-Fr 07:00-19:00; Fr-Sa 08:00-18:00; Su 08:00-17:00",
+        "phone": "+1-629-702-3111",
+        "takeaway": "yes",
+        "website": "https://playabowls.com/location/the-arcade-nashville-downtown"
+      },
+      "lat": 36.1644966,
+      "lon": -86.7809336
+    },
+    {
+      "type": "node",
+      "id": 13630324681,
+      "tags": {
+        "addr:city": "Knoxville",
+        "addr:housenumber": "1708",
+        "addr:postcode": "37916",
+        "addr:state": "TN",
+        "addr:street": "Cumberland Avenue",
+        "amenity": "fast_food",
+        "brand": "Playa Bowls",
+        "brand:wikidata": "Q114618507",
+        "cuisine": "açaí",
+        "drive_through": "no",
+        "name": "Playa Bowls",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "phone": "+1-865-230-7840",
+        "takeaway": "yes",
+        "website": "https://playabowls.com/location/knoxville-tn-located-near-ut",
+        "website:menu": "https://playabowls.com/menu"
+      },
+      "lat": 35.9563516,
+      "lon": -83.9324355
+    }
+  ]
+}

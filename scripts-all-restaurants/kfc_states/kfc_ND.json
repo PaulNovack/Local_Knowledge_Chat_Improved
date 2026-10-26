@@ -1,0 +1,145 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ND",
+    "brand": "kfc",
+    "source": "https://download.geofabrik.de/north-america/us/north-dakota-latest.osm.pbf",
+    "source_md5": "9eff3bc6ca09aea0f8e064cee3b44c15",
+    "processed_utc": "2026-10-24T07:12:54.105950+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12306235244,
+      "tags": {
+        "addr:city": "Minot",
+        "addr:country": "US",
+        "addr:housenumber": "1929",
+        "addr:postcode": "58703",
+        "addr:state": "ND",
+        "addr:street": "North Broadway",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nd/minot/1929-north-broadway"
+      },
+      "lat": 48.2556549,
+      "lon": -101.2967041
+    },
+    {
+      "type": "way",
+      "id": 656600142,
+      "tags": {
+        "addr:city": "Dickinson",
+        "addr:housenumber": "235",
+        "addr:postcode": "58601",
+        "addr:state": "ND",
+        "addr:street": "Osborn Drive",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "commercial",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nd/dickinson/235-osborn-drive"
+      },
+      "center": {
+        "lat": 46.89362955,
+        "lon": -102.78779555
+      }
+    },
+    {
+      "type": "way",
+      "id": 755754298,
+      "tags": {
+        "addr:city": "Williston",
+        "addr:housenumber": "212",
+        "addr:postcode": "58801",
+        "addr:state": "ND",
+        "addr:street": "14th Street",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nd/williston/212-14th-street"
+      },
+      "center": {
+        "lat": 48.15824495,
+        "lon": -103.62690025
+      }
+    },
+    {
+      "type": "way",
+      "id": 883802070,
+      "tags": {
+        "addr:city": "Bismarck",
+        "addr:housenumber": "2630",
+        "addr:postcode": "58503",
+        "addr:state": "ND",
+        "addr:street": "State Street",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:website": "https://kfc.com/",
+        "brand:wikidata": "Q524757",
+        "building": "retail",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "name": "KFC",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "phone": "+1 701-222-4125",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nd/bismarck/2630-state-street"
+      },
+      "center": {
+        "lat": 46.835933,
+        "lon": -100.7739075
+      }
+    },
+    {
+      "type": "way",
+      "id": 1230582024,
+      "tags": {
+        "addr:city": "Devils Lake",
+        "addr:housenumber": "403",
+        "addr:postcode": "58301",
+        "addr:state": "ND",
+        "addr:street": "Highway 2 West",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "opening_hours": "11:00-22:00",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/nd/devils-lake/403-highway-2-w/"
+      },
+      "center": {
+        "lat": 48.10796415,
+        "lon": -98.86930445000002
+      }
+    }
+  ]
+}

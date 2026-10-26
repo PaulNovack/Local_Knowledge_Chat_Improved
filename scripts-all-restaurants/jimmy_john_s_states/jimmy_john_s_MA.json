@@ -1,0 +1,147 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "jimmy_john_s",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4421257479,
+      "tags": {
+        "addr:city": "Boston",
+        "addr:housenumber": "413",
+        "addr:postcode": "02210",
+        "addr:state": "MA",
+        "addr:street": "D Street",
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "cuisine": "sandwich",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "phone": "+1 857-317-3947",
+        "takeaway": "yes",
+        "website": "https://locations.jimmyjohns.com/ma/boston/sandwiches-2846.html"
+      },
+      "lat": 42.344832,
+      "lon": -71.0435038
+    },
+    {
+      "type": "node",
+      "id": 4671815907,
+      "tags": {
+        "addr:city": "Waltham",
+        "addr:housenumber": "475",
+        "addr:postcode": "02451",
+        "addr:state": "MA",
+        "addr:street": "Winter Street",
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "cuisine": "sandwich",
+        "delivery": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "phone": "+1-781-907-7158",
+        "takeaway": "yes",
+        "website": "https://locations.jimmyjohns.com/ma/waltham/sandwiches-2843.html"
+      },
+      "lat": 42.398022,
+      "lon": -71.2626187
+    },
+    {
+      "type": "node",
+      "id": 14023097958,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "cuisine": "sandwich",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "takeaway": "yes"
+      },
+      "lat": 42.3515249,
+      "lon": -71.1216389
+    },
+    {
+      "type": "node",
+      "id": 14165308213,
+      "tags": {
+        "addr:city": "Wayland",
+        "addr:housenumber": "289",
+        "addr:postcode": "01778",
+        "addr:state": "MA",
+        "addr:street": "Boston Post Road",
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "cuisine": "sandwich",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "takeaway": "yes"
+      },
+      "lat": 42.3627586,
+      "lon": -71.3644195
+    },
+    {
+      "type": "way",
+      "id": 166031156,
+      "tags": {
+        "addr:city": "Lawrence",
+        "addr:housenumber": "500",
+        "addr:postcode": "01843",
+        "addr:state": "MA",
+        "addr:street": "Merrimack Street",
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "start_date": "2007",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.7039356,
+        "lon": -71.14098354999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 213749110,
+      "tags": {
+        "addr:housenumber": "544",
+        "addr:street": "North Main Street",
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.5503357,
+        "lon": -71.76365470000002
+      }
+    }
+  ]
+}

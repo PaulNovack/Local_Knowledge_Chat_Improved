@@ -1,0 +1,63 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SD",
+    "brand": "blaze_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/south-dakota-latest.osm.pbf",
+    "source_md5": "4d012b130d8682e6f0e1bc093c255981",
+    "processed_utc": "2026-10-24T07:16:00.169778+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4274679454,
+      "tags": {
+        "addr:housenumber": "1325",
+        "addr:street": "Eglin Street",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Blaze Pizza",
+        "opening_hours": "Su-Th 10:30-21:00; Fr-Sa 10:30-22:00",
+        "takeaway": "yes",
+        "website": "https://www.blazepizza.com/"
+      },
+      "lat": 44.100573,
+      "lon": -103.189796
+    },
+    {
+      "type": "way",
+      "id": 778684000,
+      "tags": {
+        "addr:city": "Rapid City",
+        "addr:housenumber": "515",
+        "addr:postcode": "57702",
+        "addr:state": "SD",
+        "addr:street": "Mountain View Road",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "building": "yes",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Blaze Pizza",
+        "opening_hours": "Su-Th 10:30-21:00; Fr-Sa 10:30-22:00",
+        "takeaway": "yes",
+        "website": "https://www.blazepizza.com/"
+      },
+      "center": {
+        "lat": 44.08219805,
+        "lon": -103.25265479999996
+      }
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "bj_s",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 418996963,
+      "tags": {
+        "addr:city": "Redmond",
+        "addr:housenumber": "7211",
+        "addr:postcode": "98052",
+        "addr:state": "WA",
+        "addr:street": "166th Avenue Northeast",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "check_date": "2026-04-25",
+        "check_date:opening_hours": "2026-04-25",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "opening_hours": "Su-Th 11:00-23:00, Fr,Sa 11:00-24:00",
+        "outdoor_seating": "no",
+        "phone": "+1-425-376-1560",
+        "takeaway": "yes",
+        "website": "https://www.bjsrestaurants.com/locations/wa/redmond"
+      },
+      "lat": 47.6687603,
+      "lon": -122.11986
+    },
+    {
+      "type": "way",
+      "id": 51458248,
+      "tags": {
+        "addr:city": "Puyallup",
+        "addr:country": "US",
+        "addr:housenumber": "3703",
+        "addr:postcode": "98703",
+        "addr:state": "WA",
+        "addr:street": "9th Street Southwest",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "yes",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "microbrewery": "yes",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1-253-848-4000",
+        "website": "https://www.bjsrestaurants.com/locations/wa/puyallup"
+      },
+      "center": {
+        "lat": 47.15699,
+        "lon": -122.30310424999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 502329990,
+      "tags": {
+        "addr:city": "Tukwila",
+        "addr:housenumber": "1159",
+        "addr:place": "Southcenter Mall",
+        "addr:postcode": "98188",
+        "addr:state": "WA",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "check_date": "2024-09-22",
+        "contact:facebook": "https://www.facebook.com/BJsRestaurants",
+        "contact:twitter": "https://twitter.com/bjsrestaurants",
+        "contact:youtube": "https://www.youtube.com/user/BJsRestaurants",
+        "cuisine": "american",
+        "delivery": "no",
+        "indoor": "room",
+        "indoor:level": "0",
+        "level": "0",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "opening_hours": "Mo-Fr 11:00-24:00; Sa-Su 10:00-24:00",
+        "phone": "+1-206-439-7500",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.bjsrestaurants.com/locations/wa/southcenter-mall",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 47.45779925,
+        "lon": -122.25739744999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 605939197,
+      "tags": {
+        "addr:city": "Tacoma",
+        "addr:country": "US",
+        "addr:housenumber": "4502",
+        "addr:state": "WA",
+        "addr:street": "South Steele Street",
+        "addr:unit": "1500",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "yes",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "opening_hours": "Mo-Sa 10:00-21:00; Su 10:00-19:00",
+        "phone": "+1-253-472-1220",
+        "website": "https://www.bjsrestaurants.com/locations/wa/tacoma",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 47.214935,
+        "lon": -122.46758245000001
+      }
+    }
+  ]
+}

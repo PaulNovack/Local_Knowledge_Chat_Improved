@@ -1,0 +1,94 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "papa_johns",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3456546939,
+      "tags": {
+        "addr:city": "Orange",
+        "addr:housenumber": "116",
+        "addr:postcode": "06477",
+        "addr:state": "CT",
+        "addr:street": "Boston Post Road",
+        "amenity": "fast_food",
+        "brand": "Papa John's",
+        "brand:wikidata": "Q2759586",
+        "cuisine": "pizza",
+        "name": "Papa John's",
+        "takeaway": "yes"
+      },
+      "lat": 41.2751605,
+      "lon": -72.9904261
+    },
+    {
+      "type": "node",
+      "id": 3470330512,
+      "tags": {
+        "addr:city": "Bridgeport",
+        "addr:housenumber": "2354",
+        "addr:postcode": "06606",
+        "addr:state": "CT",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "branch": "Main St",
+        "brand": "Papa John's",
+        "brand:wikidata": "Q2759586",
+        "cuisine": "pizza",
+        "name": "Papa John's",
+        "opening_hours": "Mo-We 11:00-01:15; Th-Sa 11:00-03:00; Su 11:00-01:15",
+        "phone": "+1 203-333-7272",
+        "takeaway": "yes",
+        "website": "https://locations.papajohns.com/united-states/ct/06606/bridgeport/2354-main-street"
+      },
+      "lat": 41.1951275,
+      "lon": -73.1990347
+    },
+    {
+      "type": "node",
+      "id": 5889481813,
+      "tags": {
+        "addr:city": "New Haven",
+        "addr:housenumber": "125",
+        "addr:postcode": "06511",
+        "addr:state": "CT",
+        "addr:street": "Whalley Avenue",
+        "amenity": "fast_food",
+        "brand": "Papa John's",
+        "brand:wikidata": "Q2759586",
+        "cuisine": "pizza",
+        "name": "Papa John's",
+        "opening_hours": "Mo-Th 10:30-02:00; Fr-Sa 10:30-03:00; Su 10:30-02:00",
+        "phone": "+1 203-776-7272",
+        "takeaway": "yes",
+        "website": "https://locations.papajohns.com/united-states/ct/06511/new-haven/125-whalley-avenue"
+      },
+      "lat": 41.3148676,
+      "lon": -72.9364402
+    },
+    {
+      "type": "node",
+      "id": 13741402150,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "name": "Papa John's"
+      },
+      "lat": 41.1370935,
+      "lon": -73.4255254
+    }
+  ]
+}

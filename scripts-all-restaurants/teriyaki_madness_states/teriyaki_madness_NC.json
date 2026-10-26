@@ -1,0 +1,61 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "teriyaki_madness",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3204062709,
+      "tags": {
+        "addr:housenumber": "591",
+        "addr:postcode": "28117",
+        "addr:street": "River Highway",
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "takeaway": "yes"
+      },
+      "lat": 35.5938586,
+      "lon": -80.8723771
+    },
+    {
+      "type": "node",
+      "id": 10828034326,
+      "tags": {
+        "addr:city": "Charlotte",
+        "addr:housenumber": "1100",
+        "addr:postcode": "28204",
+        "addr:state": "NC",
+        "addr:street": "Metropolitan Avenue",
+        "addr:unit": "130",
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "cuisine": "japanese",
+        "drive_through": "no",
+        "name": "Teriyaki Madness",
+        "opening_hours": "Mo-Sa 11:00-21:00; Su 11:00-20:00",
+        "phone": "+1-704-910-2076",
+        "takeaway": "yes",
+        "website": "https://teriyakimadness.com/locations/metropolitan/"
+      },
+      "lat": 35.212885,
+      "lon": -80.8356758
+    }
+  ]
+}

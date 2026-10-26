@@ -1,0 +1,59 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "rita_s_italian_ice",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9120011780,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Rita's Italian Ice",
+        "brand:wikidata": "Q7336456",
+        "cuisine": "ice_cream",
+        "name": "Rita's Italian Ice"
+      },
+      "lat": 33.8947054,
+      "lon": -84.329431
+    },
+    {
+      "type": "node",
+      "id": 12714565675,
+      "tags": {
+        "amenity": "ice_cream",
+        "name": "Rita’s"
+      },
+      "lat": 34.0554907,
+      "lon": -84.0651631
+    },
+    {
+      "type": "node",
+      "id": 13993046933,
+      "tags": {
+        "addr:city": "Savannah",
+        "addr:housenumber": "7878",
+        "addr:postcode": "31410",
+        "addr:state": "GA",
+        "addr:street": "US-80",
+        "amenity": "ice_cream",
+        "brand": "Rita's Italian Ice",
+        "brand:wikidata": "Q7336456",
+        "name": "Rita's Italian Ice"
+      },
+      "lat": 32.0323606,
+      "lon": -80.9640776
+    }
+  ]
+}

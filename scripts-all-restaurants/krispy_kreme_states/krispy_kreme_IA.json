@@ -1,0 +1,108 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IA",
+    "brand": "krispy_kreme",
+    "source": "https://download.geofabrik.de/north-america/us/iowa-latest.osm.pbf",
+    "source_md5": "67edcd557c575ead09c9f80bc8694526",
+    "processed_utc": "2026-10-24T07:04:05.270534+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6699502714,
+      "tags": {
+        "addr:city": "Ankeny",
+        "addr:housenumber": "810",
+        "addr:postcode": "50021",
+        "addr:street": "East 1st Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes",
+        "website": "https://krispykreme.com/",
+        "wheelchair": "yes"
+      },
+      "lat": 41.7322524,
+      "lon": -93.5855537
+    },
+    {
+      "type": "node",
+      "id": 10731816471,
+      "tags": {
+        "addr:city": "West Des Moines",
+        "addr:housenumber": "206",
+        "addr:postcode": "50266",
+        "addr:state": "IA",
+        "addr:street": "Jordan Creek Parkway",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "phone": "+1 515-644-4233",
+        "takeaway": "yes",
+        "website": "https://site.krispykreme.com/ia/west-des-moines/206-jordan-creek-pkwy"
+      },
+      "lat": 41.5702875,
+      "lon": -93.8099554
+    },
+    {
+      "type": "way",
+      "id": 110163249,
+      "tags": {
+        "addr:city": "Clive",
+        "addr:housenumber": "1880",
+        "addr:postcode": "50325",
+        "addr:state": "IA",
+        "addr:street": "Northwest 86th Street",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "retail",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.609126,
+        "lon": -93.73696295000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 192582263,
+      "tags": {
+        "addr:city": "Council Bluffs",
+        "addr:housenumber": "2420",
+        "addr:postcode": "51501",
+        "addr:state": "IA",
+        "addr:street": "West Broadway",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "phone": "+1-712-352-0296",
+        "source": "Bing",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.262201950000005,
+        "lon": -95.88110699999999
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MT",
+    "brand": "sonic",
+    "source": "https://download.geofabrik.de/north-america/us/montana-latest.osm.pbf",
+    "source_md5": "abfa2e1bfc18f6c00a77776eb9185b11",
+    "processed_utc": "2026-10-24T07:09:10.271084+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4359438567,
+      "tags": {
+        "addr:city": "Billings",
+        "addr:housenumber": "601",
+        "addr:postcode": "59105",
+        "addr:state": "MT",
+        "addr:street": "North Main Street",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "07:00-24:00",
+        "phone": "+1 406-245-2197",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/mt/billings/601-north-main-street.html"
+      },
+      "lat": 45.8093034,
+      "lon": -108.4721453
+    },
+    {
+      "type": "way",
+      "id": 545142898,
+      "tags": {
+        "addr:city": "Great Falls",
+        "addr:housenumber": "2101",
+        "addr:postcode": "59405",
+        "addr:state": "MT",
+        "addr:street": "10th Avenue South",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "07:00-24:00",
+        "phone": "+1 406-761-0763",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/mt/greatfalls/2101-10th-avenue-south.html"
+      },
+      "center": {
+        "lat": 47.4945276,
+        "lon": -111.27082185
+      }
+    }
+  ]
+}

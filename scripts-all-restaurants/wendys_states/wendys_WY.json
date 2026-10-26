@@ -1,0 +1,408 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "wendys",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3789874728,
+      "tags": {
+        "addr:city": "Casper",
+        "addr:housenumber": "1111",
+        "addr:postcode": "82604",
+        "addr:state": "WY",
+        "addr:street": "Cy Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Sa 06:30-23:30; Su 06:30-23:00",
+        "phone": "+1 307-235-4578",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/wy/casper/1111-cy-avenue"
+      },
+      "lat": 42.8336226,
+      "lon": -106.338365
+    },
+    {
+      "type": "node",
+      "id": 4052427088,
+      "tags": {
+        "addr:city": "Laramie",
+        "addr:housenumber": "1564",
+        "addr:postcode": "82072",
+        "addr:state": "WY",
+        "addr:street": "McCue Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-00:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 307-742-2878",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/wy/laramie/1564-mccue-street"
+      },
+      "lat": 41.327183,
+      "lon": -105.6104067
+    },
+    {
+      "type": "way",
+      "id": 43007231,
+      "tags": {
+        "addr:city": "Riverton",
+        "addr:housenumber": "1800",
+        "addr:postcode": "82501",
+        "addr:state": "WY",
+        "addr:street": "North Federal Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-21:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-23:00",
+        "phone": "+1 307-856-6538",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/wy/riverton/1800-n-federal-blvd"
+      },
+      "center": {
+        "lat": 43.04207125,
+        "lon": -108.38133349999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 235714629,
+      "tags": {
+        "addr:city": "Jackson",
+        "addr:housenumber": "525",
+        "addr:postcode": "83001",
+        "addr:state": "WY",
+        "addr:street": "West Broadway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Su 06:30-24:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-24:00",
+        "operator": "Wendy's",
+        "phone": "+1 307-733-5636",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/wy/jackson/525-w-broadway"
+      },
+      "center": {
+        "lat": 43.47830245,
+        "lon": -110.77104285000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 236512751,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:housename": "Wendys",
+        "addr:housenumber": "1830",
+        "addr:postcode": "82009",
+        "addr:state": "WY",
+        "addr:street": "Dell Range Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-21:00",
+        "opening_hours:drive_through": "Mo-Tu 06:00-23:00; We 06:00-22:00; Th-Su 06:00-23:00",
+        "phone": "+1 307-635-0392",
+        "source": "local visit, company website",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/wy/cheyenne/1830-dell-range-blvd"
+      },
+      "center": {
+        "lat": 41.1606533,
+        "lon": -104.79640419999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 237818433,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:housenumber": "2520",
+        "addr:postcode": "82001",
+        "addr:state": "WY",
+        "addr:street": "East Lincolnway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-21:00",
+        "opening_hours:drive_through": "Mo-We 06:00-00:00; Th 06:00-22:00; Fr-Su 06:00-00:00",
+        "phone": "+1 307-635-8232",
+        "source": "local visit, company website",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/wy/cheyenne/2520-e.-lincoln-way"
+      },
+      "center": {
+        "lat": 41.13878595,
+        "lon": -104.78662005000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 237818618,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:housename": "Wendy's",
+        "addr:housenumber": "3305",
+        "addr:postcode": "82007",
+        "addr:state": "WY",
+        "addr:street": "West College Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-23:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-00:00",
+        "phone": "+1 307-638-2976",
+        "source": "local visit, company website",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/wy/cheyenne/3305-w-college-dr"
+      },
+      "center": {
+        "lat": 41.098170100000004,
+        "lon": -104.84875835000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 260860535,
+      "tags": {
+        "addr:city": "Gillette",
+        "addr:housenumber": "1913",
+        "addr:postcode": "82718",
+        "addr:state": "WY",
+        "addr:street": "South Douglas Highway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2026-07-06",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "outdoor_seating": "no",
+        "phone": "+1 307-686-0106",
+        "roof:shape": "flat",
+        "source": "survey;local knowledge",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/wy/gillette/1913-s-douglas-highway"
+      },
+      "center": {
+        "lat": 44.276838600000005,
+        "lon": -105.49333035000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 292205289,
+      "tags": {
+        "addr:city": "Casper",
+        "addr:housenumber": "4281",
+        "addr:postcode": "82609",
+        "addr:state": "WY",
+        "addr:street": "East 2nd Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 307-237-9378",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/wy/casper/4281-east-second-street"
+      },
+      "center": {
+        "lat": 42.848592,
+        "lon": -106.27123234999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 326760067,
+      "tags": {
+        "addr:city": "Cody",
+        "addr:housenumber": "1456",
+        "addr:postcode": "82414",
+        "addr:state": "WY",
+        "addr:street": "Sheridan Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 307-527-7636",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/wy/cody/1456-sheridan-ave"
+      },
+      "center": {
+        "lat": 44.525773349999994,
+        "lon": -109.05861300000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 584750942,
+      "tags": {
+        "addr:city": "Laramie",
+        "addr:country": "US",
+        "addr:housenumber": "3103",
+        "addr:postcode": "82070",
+        "addr:state": "WY",
+        "addr:street": "Grand Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "check_date": "2023-11-17",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-21:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-00:00",
+        "phone": "+1 307-742-0082",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/wy/laramie/3103-grand-ave"
+      },
+      "center": {
+        "lat": 41.309255449999995,
+        "lon": -105.5559824
+      }
+    },
+    {
+      "type": "way",
+      "id": 733293188,
+      "tags": {
+        "addr:city": "Evanston",
+        "addr:housenumber": "115",
+        "addr:postcode": "82930",
+        "addr:state": "WY",
+        "addr:street": "North 2nd Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 307-789-6393",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/wy/evanston/115-n-2nd-street"
+      },
+      "center": {
+        "lat": 41.26382805,
+        "lon": -110.95446170000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 781954926,
+      "tags": {
+        "addr:city": "Rock Springs",
+        "addr:housenumber": "1981",
+        "addr:postcode": "82901",
+        "addr:state": "WY",
+        "addr:street": "Dewar Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "ele": "1906",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-00:00",
+        "phone": "+1 307-362-6985",
+        "source": "collected by Volker Bartheld, converted and imported by malenki",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/wy/rock-springs/1981-dewar-drive"
+      },
+      "center": {
+        "lat": 41.5742283,
+        "lon": -109.24680219999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1026800073,
+      "tags": {
+        "addr:city": "Sheridan",
+        "addr:housenumber": "1319",
+        "addr:postcode": "82801",
+        "addr:state": "WY",
+        "addr:street": "Coffeen Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "09:00-20:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-23:00; Fr-Sa 06:30-00:00; Su 06:30-23:00",
+        "phone": "+1 307-674-9281",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/wy/sheridan/1319-coffeen-ave"
+      },
+      "center": {
+        "lat": 44.784276,
+        "lon": -106.94209039999998
+      }
+    }
+  ]
+}

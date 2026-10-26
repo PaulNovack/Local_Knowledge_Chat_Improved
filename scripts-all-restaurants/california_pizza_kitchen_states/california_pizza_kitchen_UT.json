@@ -1,0 +1,80 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "california_pizza_kitchen",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2328396038,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "check_date": "2022-10-05",
+        "cuisine": "pizza",
+        "name": "P.F. Chang's",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 40.6353467,
+      "lon": -111.8871407
+    },
+    {
+      "type": "node",
+      "id": 4013587113,
+      "tags": {
+        "addr:postcode": "84058",
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "cuisine": "american;burger;chicken;diner",
+        "internet_access": "wlan",
+        "name": "Buffalo Wild Wings",
+        "opening_hours": "Mo-We 11:00-01:00; Th-Sa 11:00-02:00; Su 10:30-00:00",
+        "phone": "+1-385-213-8277",
+        "short_name": "CPK",
+        "website": "https://www.buffalowildwings.com/locations/us/ut/orem/575-e-university-parkway,-suite-b28/sports-bar-1722/",
+        "website:menu": "https://www.buffalowildwings.com/menu/"
+      },
+      "lat": 40.2745074,
+      "lon": -111.681295
+    },
+    {
+      "type": "way",
+      "id": 1568380280,
+      "tags": {
+        "airside": "yes",
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "changing_table": "no",
+        "cuisine": "pizza",
+        "indoor": "yes",
+        "level": "2",
+        "name": "California Pizza Kitchen",
+        "short_name": "CPK",
+        "takeaway": "yes",
+        "toilets": "no",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 40.7853401,
+        "lon": -111.99154295
+      }
+    }
+  ]
+}

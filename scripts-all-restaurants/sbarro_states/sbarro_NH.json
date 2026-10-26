@@ -1,0 +1,86 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NH",
+    "brand": "sbarro",
+    "source": "https://download.geofabrik.de/north-america/us/new-hampshire-latest.osm.pbf",
+    "source_md5": "603b90470df09c1b933955cbfe841c6d",
+    "processed_utc": "2026-10-24T07:09:51.168561+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8063092111,
+      "tags": {
+        "addr:city": "Lebanon",
+        "addr:housenumber": "1",
+        "addr:postcode": "03756",
+        "addr:state": "NH",
+        "addr:street": "Medical Center Drive",
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "level": "2",
+        "name": "Sbarro",
+        "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-15:00",
+        "phone": "+1-603-643-9903",
+        "takeaway": "yes",
+        "website": "https://sbarro.com/locations/nh/lebanon/dartmouth-hitchcock-medical-center/"
+      },
+      "lat": 43.6759239,
+      "lon": -72.2740091
+    },
+    {
+      "type": "node",
+      "id": 12610692636,
+      "tags": {
+        "addr:city": "Nashua",
+        "addr:housenumber": "310",
+        "addr:postcode": "03060",
+        "addr:state": "NH",
+        "addr:street": "Daniel Webster Highway",
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "name": "Sbarro",
+        "opening_hours": "Mo-Sa 11:00-19:00; Su 12:00-18:00",
+        "phone": "+1-603-206-4702",
+        "takeaway": "yes",
+        "website": "https://sbarro.com/locations/nh/nashua/pheasant-lane-mall/"
+      },
+      "lat": 42.7010496,
+      "lon": -71.4362499
+    },
+    {
+      "type": "way",
+      "id": 230522201,
+      "tags": {
+        "addr:city": "Manchester",
+        "addr:housenumber": "1500",
+        "addr:postcode": "03103",
+        "addr:street": "South Willow Street",
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "indoor": "room",
+        "name": "Sbarro",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.9565948,
+        "lon": -71.43227045000003
+      }
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "buffalo_wild_wings",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1922496327,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "1328",
+        "addr:postcode": "68508",
+        "addr:state": "NE",
+        "addr:street": "P Street",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "check_date": "2025-07-04",
+        "cuisine": "wings",
+        "is_in:city": "Lincoln",
+        "is_in:state": "Nebraska",
+        "is_in:state_code": "NE",
+        "name": "Buffalo Wild Wings",
+        "opening_hours": "Mo-Su 11:00-01:00",
+        "phone": "+1-402-475-2999",
+        "short_name": "BW3",
+        "website": "https://www.buffalowildwings.com/locations/us/ne/lincoln/1328-p-street/sports-bar-1673/"
+      },
+      "lat": 40.8149122,
+      "lon": -96.7017904
+    },
+    {
+      "type": "node",
+      "id": 3910024776,
+      "tags": {
+        "addr:city": "Papillon",
+        "addr:housenumber": "11651",
+        "addr:state": "NE",
+        "addr:street": "South 73rd Street",
+        "addr:unit": "101",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building": "commercial",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3",
+        "source": "bing"
+      },
+      "lat": 41.135878,
+      "lon": -96.0245531
+    },
+    {
+      "type": "node",
+      "id": 4638902624,
+      "tags": {
+        "addr:state": "NE",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "cuisine": "wings",
+        "delivery": "no",
+        "diet:vegetarian": "yes",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 41.1564738,
+      "lon": -95.9340676
+    },
+    {
+      "type": "node",
+      "id": 6919062461,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3"
+      },
+      "lat": 41.2612098,
+      "lon": -96.0304941
+    },
+    {
+      "type": "node",
+      "id": 12863098303,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3"
+      },
+      "lat": 41.8795439,
+      "lon": -103.6751732
+    },
+    {
+      "type": "way",
+      "id": 195448938,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building": "retail",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3",
+        "source": "bing"
+      },
+      "center": {
+        "lat": 40.73371575,
+        "lon": -96.60036835
+      }
+    },
+    {
+      "type": "way",
+      "id": 454948867,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "4287",
+        "addr:postcode": "68137",
+        "addr:state": "NE",
+        "addr:street": "South 144th Street",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building": "commercial",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings"
+      },
+      "center": {
+        "lat": 41.2161019,
+        "lon": -96.13781704999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 581030830,
+      "tags": {
+        "addr:state": "NE",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building": "commercial",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings"
+      },
+      "center": {
+        "lat": 41.29297075,
+        "lon": -96.12144130000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 828303715,
+      "tags": {
+        "addr:city": "Kearney",
+        "addr:housenumber": "5208",
+        "addr:postcode": "68845",
+        "addr:state": "NE",
+        "addr:street": "2nd Avenue",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3"
+      },
+      "center": {
+        "lat": 40.725709949999995,
+        "lon": -99.0845754
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "baja_fresh",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1742239489,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Baja Fresh",
+        "brand:wikidata": "Q2880019",
+        "cuisine": "mexican",
+        "name": "Baja Fresh",
+        "official_name": "Baja Fresh Mexican Grill",
+        "takeaway": "yes"
+      },
+      "lat": 45.6161533,
+      "lon": -122.507355
+    },
+    {
+      "type": "way",
+      "id": 204508566,
+      "tags": {
+        "addr:city": "Kent",
+        "addr:housenumber": "8821",
+        "addr:postcode": "98032",
+        "addr:state": "WA",
+        "addr:street": "South 180th Street",
+        "amenity": "fast_food",
+        "brand": "Baja Fresh",
+        "brand:wikidata": "Q2880019",
+        "building": "yes",
+        "check_date": "2023-12-27",
+        "cuisine": "mexican",
+        "name": "Baja Fresh",
+        "official_name": "Baja Fresh Mexican Grill",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 47.44063895,
+        "lon": -122.22273719999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 310950703,
+      "tags": {
+        "addr:city": "Vancouver",
+        "addr:housenumber": "7801",
+        "addr:postcode": "98665",
+        "addr:state": "WA",
+        "addr:street": "Northeast Highway 99",
+        "addr:unit": "D",
+        "amenity": "fast_food",
+        "brand": "Baja Fresh",
+        "brand:wikidata": "Q2880019",
+        "building": "yes",
+        "cuisine": "mexican",
+        "fax": "+1-360-823-8002",
+        "name": "Baja Fresh",
+        "official_name": "Baja Fresh Mexican Grill",
+        "opening_hours": "Mo-Su 10:30-21:00; Fr,Sa 10:30-22:00",
+        "phone": "+1-360-823-8001",
+        "takeaway": "yes",
+        "website": "https://www.bajafresh.com/"
+      },
+      "center": {
+        "lat": 45.6788213,
+        "lon": -122.66166340000001
+      }
+    }
+  ]
+}

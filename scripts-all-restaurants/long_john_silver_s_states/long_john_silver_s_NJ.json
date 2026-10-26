@@ -1,0 +1,57 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "long_john_silver_s",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4719745267,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Long John Silver's",
+        "brand:wikidata": "Q1535221",
+        "cuisine": "seafood",
+        "name": "Long John Silver's",
+        "takeaway": "yes"
+      },
+      "lat": 40.1535751,
+      "lon": -74.4350627
+    },
+    {
+      "type": "node",
+      "id": 6403336980,
+      "tags": {
+        "addr:city": "Mantua Township",
+        "addr:housenumber": "235",
+        "addr:postcode": "08051",
+        "addr:state": "NJ",
+        "addr:street": "Bridgeton Pike",
+        "amenity": "fast_food",
+        "brand": "Long John Silver's",
+        "brand:wikidata": "Q1535221",
+        "check_date": "2026-04-07",
+        "cuisine": "seafood",
+        "name": "Long John Silver's",
+        "opening_hours": "10:30-22:00",
+        "phone": "+1 856-415-2092",
+        "ref": "22267",
+        "takeaway": "yes",
+        "website": "https://www.ljsilvers.com/locations/nj/mantua-township/235-north-bridgeton-pike/"
+      },
+      "lat": 39.7906141,
+      "lon": -75.17464
+    }
+  ]
+}

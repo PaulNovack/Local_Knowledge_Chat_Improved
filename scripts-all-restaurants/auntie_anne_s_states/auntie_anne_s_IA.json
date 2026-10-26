@@ -1,0 +1,72 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IA",
+    "brand": "auntie_anne_s",
+    "source": "https://download.geofabrik.de/north-america/us/iowa-latest.osm.pbf",
+    "source_md5": "67edcd557c575ead09c9f80bc8694526",
+    "processed_utc": "2026-10-24T07:04:05.270534+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5369172401,
+      "tags": {
+        "addr:city": "Altoona",
+        "addr:housename": "Outlets of Des Moines",
+        "addr:housenumber": "545",
+        "addr:postcode": "50009",
+        "addr:street": "Bass Pro Drive Northwest",
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "name": "Auntie Anne's",
+        "takeaway": "yes"
+      },
+      "lat": 41.6561147,
+      "lon": -93.5122582
+    },
+    {
+      "type": "node",
+      "id": 6017113410,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "level": "1",
+        "name": "Auntie Anne's",
+        "takeaway": "yes"
+      },
+      "lat": 41.5700669,
+      "lon": -93.8033166
+    },
+    {
+      "type": "node",
+      "id": 8284038755,
+      "tags": {
+        "addr:city": "Dubuque",
+        "addr:housenumber": "555",
+        "addr:postcode": "52002",
+        "addr:state": "IA",
+        "addr:street": "John F Kennedy Road",
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "name": "Auntie Anne's",
+        "takeaway": "yes"
+      },
+      "lat": 42.4946431,
+      "lon": -90.7230969
+    }
+  ]
+}

@@ -1,0 +1,998 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "taco_bell",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3806111426,
+      "tags": {
+        "addr:city": "Columbus",
+        "addr:housenumber": "3408",
+        "addr:postcode": "68601",
+        "addr:state": "NE",
+        "addr:street": "23rd Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-24:00",
+        "phone": "+1 402-563-9300",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/columbus/3408-23rd-street.html"
+      },
+      "lat": 41.4390786,
+      "lon": -97.3704954
+    },
+    {
+      "type": "node",
+      "id": 3905930998,
+      "tags": {
+        "addr:city": "Bellevue",
+        "addr:housenumber": "10110",
+        "addr:postcode": "68123",
+        "addr:state": "NE",
+        "addr:street": "South 15th Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "diet:vegetarian": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 07:00-02:00",
+        "phone": "+1 402-291-3073",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/bellevue/10110-south-15th-st.html",
+        "wheelchair": "yes"
+      },
+      "lat": 41.1592165,
+      "lon": -95.9361545
+    },
+    {
+      "type": "node",
+      "id": 4936473952,
+      "tags": {
+        "addr:city": "Plattsmouth",
+        "addr:housenumber": "2412",
+        "addr:postcode": "68048",
+        "addr:state": "NE",
+        "addr:street": "West 8th Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/ne/plattsmouth/2412-w-8th-avenue"
+      },
+      "lat": 41.0029087,
+      "lon": -95.9084009
+    },
+    {
+      "type": "node",
+      "id": 6215203131,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "17130",
+        "addr:postcode": "68116",
+        "addr:state": "NE",
+        "addr:street": "Evans Plaza",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-02:00; Fr-Sa 07:00-03:00; Su 07:00-02:00",
+        "phone": "+1 402-289-2709",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/omaha/17130-evans-plz.html"
+      },
+      "lat": 41.2915037,
+      "lon": -96.1828398
+    },
+    {
+      "type": "node",
+      "id": 9595886117,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "4810",
+        "addr:postcode": "68127",
+        "addr:state": "NE",
+        "addr:street": "South 72nd Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "08:00-24:00",
+        "phone": "+1 402-979-8700",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/omaha/4810-south-72nd-st-.html"
+      },
+      "lat": 41.2110637,
+      "lon": -96.0244426
+    },
+    {
+      "type": "node",
+      "id": 11768051846,
+      "tags": {
+        "addr:city": "Gretna",
+        "addr:housenumber": "16116",
+        "addr:postcode": "68028",
+        "addr:state": "NE",
+        "addr:street": "Stevens Point Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "phone": "+14025093210",
+        "takeaway": "yes",
+        "website": "https://www.tacobell.com/"
+      },
+      "lat": 41.1446342,
+      "lon": -96.1628052
+    },
+    {
+      "type": "way",
+      "id": 180666920,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "18370",
+        "addr:postcode": "68130",
+        "addr:state": "NE",
+        "addr:street": "Wright Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-We 07:00-24:00; Th 07:00-21:00; Fr-Su 07:00-24:00",
+        "phone": "+1 402-697-5027",
+        "source": "bing",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/omaha/18370-wright-st.html"
+      },
+      "center": {
+        "lat": 41.23351955,
+        "lon": -96.20254814999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 180773949,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "14554",
+        "addr:postcode": "68144",
+        "addr:state": "NE",
+        "addr:street": "West Center Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "phone": "+1 402-330-0224",
+        "source": "bing",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/omaha/14554-w--center-rd-.html"
+      },
+      "center": {
+        "lat": 41.234441950000004,
+        "lon": -96.1423944
+      }
+    },
+    {
+      "type": "way",
+      "id": 184081784,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "13725",
+        "addr:postcode": "68137",
+        "addr:state": "NE",
+        "addr:street": "Q. Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-03:00",
+        "phone": "+1 402-891-1421",
+        "source": "bing",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/omaha/13725-q--street.html"
+      },
+      "center": {
+        "lat": 41.20471515,
+        "lon": -96.12774345000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 184723381,
+      "tags": {
+        "addr:city": "Papillon",
+        "addr:housenumber": "7710",
+        "addr:postcode": "68046",
+        "addr:state": "NE",
+        "addr:street": "Olson Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "phone": "+1 402-339-1875",
+        "source": "bing",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/papillion/7710-olson-drive.html"
+      },
+      "center": {
+        "lat": 41.1379029,
+        "lon": -96.02823715
+      }
+    },
+    {
+      "type": "way",
+      "id": 185915427,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "7051",
+        "addr:postcode": "68132",
+        "addr:state": "NE",
+        "addr:street": "Dodge Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-03:00",
+        "phone": "+1 402-551-6886",
+        "source": "bing",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/omaha/7051-dodge-street.html"
+      },
+      "center": {
+        "lat": 41.2592966,
+        "lon": -96.02192159999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 186976008,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "3855",
+        "addr:postcode": "68131",
+        "addr:state": "NE",
+        "addr:street": "Dodge Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "restaurant",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-03:00",
+        "phone": "+1 402-551-8683",
+        "source": "bing",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/omaha/3855-dodge-street.html"
+      },
+      "center": {
+        "lat": 41.2593326,
+        "lon": -95.97076685000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 188156106,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "source": "bing",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.21682675,
+        "lon": -95.94671704999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 189992514,
+      "tags": {
+        "addr:city": "Bellevue",
+        "addr:housenumber": "1605",
+        "addr:postcode": "68005",
+        "addr:state": "NE",
+        "addr:street": "Galvin Road South",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "outdoor_seating": "no",
+        "phone": "+1 402-292-6333",
+        "source": "bing",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/bellevue/1506-galvin-rd-s.html"
+      },
+      "center": {
+        "lat": 41.14453265,
+        "lon": -95.91242050000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 267237097,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "2812",
+        "addr:postcode": "68124",
+        "addr:state": "NE",
+        "addr:street": "South 84th Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-02:00; Fr-Sa 07:00-03:00; Su 07:00-02:00",
+        "phone": "+1 402-391-4101",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/omaha/2812-south-84th-street.html"
+      },
+      "center": {
+        "lat": 41.23295555,
+        "lon": -96.04366829999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 324616096,
+      "tags": {
+        "addr:city": "Bellevue",
+        "addr:housenumber": "4105",
+        "addr:postcode": "68123",
+        "addr:state": "NE",
+        "addr:street": "Twin Creek Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Tu 07:00-01:00; We 09:00-01:00; Th 07:00-01:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "phone": "+1 402-293-5600",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/bellevue/4105-twin-creek-dr-.html"
+      },
+      "center": {
+        "lat": 41.14063675,
+        "lon": -95.97509409999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 371359790,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "5310",
+        "addr:postcode": "68137",
+        "addr:state": "NE",
+        "addr:street": "South 108th Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-02:00; Fr-Sa 07:00-03:00; Su 07:00-02:00",
+        "phone": "+1 402-537-8007",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/omaha/5310-south-108th-street.html"
+      },
+      "center": {
+        "lat": 41.20441645,
+        "lon": -96.08175614999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 411198672,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "3211",
+        "addr:postcode": "68134",
+        "addr:state": "NE",
+        "addr:street": "North 108th Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "phone": "+1-402-498-0345",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/omaha/3211-n-108th-st.html"
+      },
+      "center": {
+        "lat": 41.287997,
+        "lon": -96.08071625000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 479648857,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "6700",
+        "addr:postcode": "68512",
+        "addr:state": "NE",
+        "addr:street": "South 27th Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "check_date": "2024-02-25",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th, Su 07:00-01:00; Fr-Sa 07:00-03:00",
+        "phone": "+1-402-328-9949",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/lincoln/6700-s-27th-st.html"
+      },
+      "center": {
+        "lat": 40.74264255,
+        "lon": -96.68186030000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 489544617,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "14606",
+        "addr:postcode": "68116",
+        "addr:state": "NE",
+        "addr:street": "West Maple Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-We 07:00-02:00; Th-Sa 07:00-03:00; Su 07:00-02:00",
+        "phone": "+1 402-445-4546",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/omaha/14606-w-maple-rd.html"
+      },
+      "center": {
+        "lat": 41.29273525,
+        "lon": -96.14227629999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 492818659,
+      "tags": {
+        "addr:city": "Kearney",
+        "addr:housenumber": "925",
+        "addr:postcode": "68847",
+        "addr:state": "NE",
+        "addr:street": "2nd Avenue East",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-24:00; Fr-Sa 07:00-01:00; Su 07:00-24:00",
+        "phone": "+1 308-234-1500",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/kearney/925-2nd-avenue-east.html"
+      },
+      "center": {
+        "lat": 40.683995,
+        "lon": -99.08419579999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 514571239,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "16845",
+        "addr:postcode": "68135",
+        "addr:state": "NE",
+        "addr:street": "Polk Plaza",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-02:00",
+        "phone": "+1 402-896-8146",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/omaha/16845-polk-plaza.html"
+      },
+      "center": {
+        "lat": 41.1911872,
+        "lon": -96.17884329999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 549655585,
+      "tags": {
+        "addr:city": "Blair",
+        "addr:housenumber": "105",
+        "addr:postcode": "68008",
+        "addr:state": "NE",
+        "addr:street": "South 19th Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-24:00",
+        "phone": "+1 402-533-9099",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/blair/105-south-19th-street.html"
+      },
+      "center": {
+        "lat": 41.54338425,
+        "lon": -96.14147294999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 553338542,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "5139",
+        "addr:postcode": "68134",
+        "addr:state": "NE",
+        "addr:street": "North 90th Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 08:00-02:00",
+        "phone": "+1 402-572-7414",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/omaha/5139-north-90th-street.html"
+      },
+      "center": {
+        "lat": 41.305385650000005,
+        "lon": -96.05202444999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 572451640,
+      "tags": {
+        "addr:city": "Kearney",
+        "addr:housenumber": "5620",
+        "addr:postcode": "68847",
+        "addr:state": "NE",
+        "addr:street": "1st Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-23:00; Fr-Sa 07:00-24:00; Su 07:00-23:00",
+        "phone": "+1 308-338-0787",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/kearney/5620-1st-avenue.html"
+      },
+      "center": {
+        "lat": 40.729279500000004,
+        "lon": -99.08306925
+      }
+    },
+    {
+      "type": "way",
+      "id": 576497844,
+      "tags": {
+        "addr:city": "Grand Island",
+        "addr:housenumber": "1911",
+        "addr:postcode": "68803",
+        "addr:state": "NE",
+        "addr:street": "North Diers Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-24:00; Fr-Sa 07:00-01:00; Su 07:00-24:00",
+        "phone": "+1 308-389-3808",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/grand-island/1911-north-diers-ave.html"
+      },
+      "center": {
+        "lat": 40.93906935,
+        "lon": -98.38403389999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 729102052,
+      "tags": {
+        "addr:city": "Fremont",
+        "addr:housenumber": "1540",
+        "addr:postcode": "68025",
+        "addr:state": "NE",
+        "addr:street": "East 23rd Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "phone": "+1 402-727-4097",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/fremont/1540-e-23rd-st-.html"
+      },
+      "center": {
+        "lat": 41.4519759,
+        "lon": -96.47892200000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 729968210,
+      "tags": {
+        "addr:city": "South Sioux City",
+        "addr:housenumber": "822",
+        "addr:postcode": "68776",
+        "addr:state": "NE",
+        "addr:street": "Dakota Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "phone": "+1-402-494-4944",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/south-sioux-city/810-dakota-ave.html"
+      },
+      "center": {
+        "lat": 42.48131515,
+        "lon": -96.41267165
+      }
+    },
+    {
+      "type": "way",
+      "id": 730033413,
+      "tags": {
+        "addr:city": "Hastings",
+        "addr:housenumber": "3706",
+        "addr:postcode": "68901",
+        "addr:state": "NE",
+        "addr:street": "Cimarron Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-24:00",
+        "phone": "+1 402-462-2701",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/hastings/3706-cimarron-ave-.html"
+      },
+      "center": {
+        "lat": 40.62195035,
+        "lon": -98.38384414999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 733257476,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "3917",
+        "addr:postcode": "68107",
+        "addr:state": "NE",
+        "addr:street": "South 42nd Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-02:00",
+        "phone": "+1 402-733-1757",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/omaha/3917-s-42nd-st.html"
+      },
+      "center": {
+        "lat": 41.220997100000005,
+        "lon": -95.9753447
+      }
+    },
+    {
+      "type": "way",
+      "id": 790429128,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "4502",
+        "addr:postcode": "68510",
+        "addr:state": "NE",
+        "addr:street": "O Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "check_date": "2025-10-01",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 07:00-03:00",
+        "phone": "+1-402-476-2173",
+        "source": "survey",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/lincoln/4502-o-street.html"
+      },
+      "center": {
+        "lat": 40.8138152,
+        "lon": -96.6568565
+      }
+    },
+    {
+      "type": "way",
+      "id": 1153071535,
+      "tags": {
+        "addr:city": "La Vista",
+        "addr:housenumber": "8014",
+        "addr:postcode": "68128",
+        "addr:state": "NE",
+        "addr:street": "South 84th Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "facebook": "https://www.facebook.com/TacoBellLaVistaNE/",
+        "name": "Taco Bell",
+        "phone": "+1 402-331-2502",
+        "ref": "35275",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/la-vista/8013-south-84th-street.html"
+      },
+      "center": {
+        "lat": 41.178465849999995,
+        "lon": -96.04247394999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1182617765,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "3310",
+        "addr:postcode": "68521",
+        "addr:state": "NE",
+        "addr:street": "North 27th Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "check_date": "2024-02-25",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 07:00-03:00",
+        "phone": "+1-402-466-0584",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/lincoln/3310-n-27th-st.html"
+      },
+      "center": {
+        "lat": 40.845143050000004,
+        "lon": -96.68145129999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1231033330,
+      "tags": {
+        "addr:city": "Nebraska City",
+        "addr:housenumber": "2110",
+        "addr:postcode": "68410",
+        "addr:state": "NE",
+        "addr:street": "South 11th Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-24:00",
+        "phone": "+1 402-873-1013",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/nebraska-city/2110-south-11th-street.html"
+      },
+      "center": {
+        "lat": 40.65745115,
+        "lon": -95.85991950000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 1239185620,
+      "tags": {
+        "addr:city": "Scottsbluff",
+        "addr:housenumber": "804",
+        "addr:postcode": "69361",
+        "addr:state": "NE",
+        "addr:street": "West 27th Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "phone": "+1 308-562-3878",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/scottsbluff/806-w-27th-st.html"
+      },
+      "center": {
+        "lat": 41.8734496,
+        "lon": -103.6740403
+      }
+    },
+    {
+      "type": "way",
+      "id": 1254739727,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "1440",
+        "addr:postcode": "68528",
+        "addr:state": "NE",
+        "addr:street": "West O Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "check_date": "2024-02-25",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "opening_hours:drive_through": "Mo,We-Th,Su 07:00-01:00; Tu 08:00-01:00; Fr-Sa 07:00-02:00",
+        "phone": "+1-402-477-5775",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/lincoln/1440-west-o-street.html"
+      },
+      "center": {
+        "lat": 40.81421935,
+        "lon": -96.74312235000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1255068496,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "7355",
+        "addr:postcode": "68516",
+        "addr:state": "NE",
+        "addr:street": "Wilowbrook Lane",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "check_date": "2024-02-26",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "opening_hours:drive_through": "Mo-Th,Su 07:00-24:00; Fr-Sa 07:00-01:00",
+        "phone": "+1-402-477-6659",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/lincoln/7355-willowbrook-lane.html"
+      },
+      "center": {
+        "lat": 40.74193295,
+        "lon": -96.62050060000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1286165621,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.3284956,
+        "lon": -95.95872075
+      }
+    },
+    {
+      "type": "way",
+      "id": 1455945999,
+      "tags": {
+        "addr:city": "Elkhorn",
+        "addr:housenumber": "6601",
+        "addr:postcode": "68022",
+        "addr:state": "NE",
+        "addr:street": "South 205th Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "opening_hours:drive_through": "Mo-Su 07:00-23:00",
+        "phone": "+1-402-509-1065",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/ne/elkhorn/6601-s--205th-street.html"
+      },
+      "center": {
+        "lat": 41.192624,
+        "lon": -96.23530010000002
+      }
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "shake_shack",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2327662162,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "28",
+        "addr:postcode": "84111",
+        "addr:state": "UT",
+        "addr:street": "South State Street",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "cuisine": "burger",
+        "name": "Shake Shack",
+        "takeaway": "yes"
+      },
+      "lat": 40.7684871,
+      "lon": -111.8890517
+    },
+    {
+      "type": "node",
+      "id": 5278025116,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "1314",
+        "addr:postcode": "84108",
+        "addr:state": "UT",
+        "addr:street": "South Foothill Drive",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "name": "Shake Shack",
+        "opening_hours": "Su-Th 10:00-23:00; Fr-Sa 10:00-24:00"
+      },
+      "lat": 40.7409929,
+      "lon": -111.8274088
+    },
+    {
+      "type": "node",
+      "id": 6463282887,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "check_date": "2026-05-14",
+        "cuisine": "burger",
+        "name": "Shake Shack",
+        "note": "This is not part of the national chain",
+        "takeaway": "yes"
+      },
+      "lat": 37.8777203,
+      "lon": -109.342722
+    },
+    {
+      "type": "node",
+      "id": 8072353904,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "check_date": "2024-06-09",
+        "cuisine": "burger",
+        "level": "2",
+        "name": "Shake Shack",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "takeaway": "yes",
+        "website": "https://shakeshack.com/location/salt-lake-city-international-airport#/"
+      },
+      "lat": 40.7849848,
+      "lon": -111.9852224
+    },
+    {
+      "type": "node",
+      "id": 12926602218,
+      "tags": {
+        "addr:city": "Sandy",
+        "addr:housenumber": "11020",
+        "addr:postcode": "84070",
+        "addr:state": "UT",
+        "addr:street": "S State Street",
+        "addr:unit": "Suite B",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "cuisine": "burger",
+        "diet:vegetarian": "yes",
+        "drive_through": "no",
+        "name": "Shake Shack",
+        "opening_hours": "Su-Th 10:30-21:00; Fr-Sa 10:30-23:00",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "lat": 40.551189,
+      "lon": -111.8914007
+    },
+    {
+      "type": "way",
+      "id": 925448260,
+      "tags": {
+        "addr:city": "Murray",
+        "addr:housenumber": "6123",
+        "addr:postcode": "84107",
+        "addr:state": "UT",
+        "addr:street": "South State Street",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Shake Shack",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.63755085,
+        "lon": -111.88858994999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1558546394,
+      "tags": {
+        "addr:city": "Ogden",
+        "addr:housenumber": "4142",
+        "addr:postcode": "84405",
+        "addr:state": "UT",
+        "addr:street": "Riverdale Road",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "building": "retail",
+        "check_date": "2025-06-18",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Shake Shack",
+        "opening_hours": "Mo-Th,Su 10:30-23:00; Fr-Sa 10:30-24:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 385-785-0011",
+        "takeaway": "yes",
+        "website": "https://shakeshack.com/location/riverdale-road-ut#/"
+      },
+      "center": {
+        "lat": 41.18753575,
+        "lon": -111.98378880000001
+      }
+    }
+  ]
+}

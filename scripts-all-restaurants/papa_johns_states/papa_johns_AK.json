@@ -1,0 +1,83 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AK",
+    "brand": "papa_johns",
+    "source": "https://download.geofabrik.de/north-america/us/alaska-latest.osm.pbf",
+    "source_md5": "55281fca0391ab2c26b0d99fd6a6f5f8",
+    "processed_utc": "2026-10-24T06:56:26.590469+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3978107975,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Papa John's",
+        "brand:wikidata": "Q2759586",
+        "cuisine": "pizza",
+        "name": "Papa John's",
+        "takeaway": "yes"
+      },
+      "lat": 64.8512824,
+      "lon": -147.7043788
+    },
+    {
+      "type": "node",
+      "id": 8857957953,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Papa John's",
+        "brand:wikidata": "Q2759586",
+        "cuisine": "pizza",
+        "name": "Papa John's",
+        "takeaway": "yes"
+      },
+      "lat": 61.195148,
+      "lon": -149.8969981
+    },
+    {
+      "type": "node",
+      "id": 8912244762,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Papa John's",
+        "brand:wikidata": "Q2759586",
+        "cuisine": "pizza",
+        "name": "Papa John's",
+        "takeaway": "yes"
+      },
+      "lat": 61.5789642,
+      "lon": -149.4136871
+    },
+    {
+      "type": "way",
+      "id": 1466601963,
+      "tags": {
+        "addr:city": "Fort Wainwright",
+        "addr:postcode": "99703",
+        "addr:state": "AK",
+        "amenity": "fast_food",
+        "brand": "Papa John's",
+        "brand:wikidata": "Q2759586",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Papa John's",
+        "phone": "+1-907-451-7272",
+        "takeaway": "only",
+        "website": "https://locations.papajohns.com/united-states/ak/99703/fort-wainwright/fort-wainwright-army-base"
+      },
+      "center": {
+        "lat": 64.82345545000001,
+        "lon": -147.6362706
+      }
+    }
+  ]
+}

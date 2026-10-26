@@ -1,0 +1,39 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WI",
+    "brand": "bj_s",
+    "source": "https://download.geofabrik.de/north-america/us/wisconsin-latest.osm.pbf",
+    "source_md5": "1718ff98080ec3edeb95ab8fb47b0ce7",
+    "processed_utc": "2026-10-24T07:19:59.510074+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 64164675,
+      "tags": {
+        "addr:city": "Lake Delton",
+        "addr:housenumber": "1201",
+        "addr:state": "WI",
+        "addr:street": "Wisconsin Dells Parkway North",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "BJ's Restaurant",
+        "not:brand:wikidata": "Q4835755",
+        "opening_hours": "07:00-12:00",
+        "phone": "+1-608-254-6278"
+      },
+      "center": {
+        "lat": 43.60276915,
+        "lon": -89.79288344999998
+      }
+    }
+  ]
+}

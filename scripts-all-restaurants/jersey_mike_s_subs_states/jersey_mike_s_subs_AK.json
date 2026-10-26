@@ -1,0 +1,52 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AK",
+    "brand": "jersey_mike_s_subs",
+    "source": "https://download.geofabrik.de/north-america/us/alaska-latest.osm.pbf",
+    "source_md5": "55281fca0391ab2c26b0d99fd6a6f5f8",
+    "processed_utc": "2026-10-24T06:56:26.590469+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13312785892,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Jersey Mike's Subs",
+        "brand:wikidata": "Q6184897",
+        "cuisine": "sandwich",
+        "name": "Jersey Mike's Subs",
+        "short_name": "Jersey Mike's",
+        "takeaway": "yes"
+      },
+      "lat": 61.1413614,
+      "lon": -149.8455144
+    },
+    {
+      "type": "way",
+      "id": 729729596,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Jersey Mike's Subs",
+        "brand:wikidata": "Q6184897",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Jersey Mike's Subs",
+        "short_name": "Jersey Mike's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 60.559288300000006,
+        "lon": -151.25188705
+      }
+    }
+  ]
+}

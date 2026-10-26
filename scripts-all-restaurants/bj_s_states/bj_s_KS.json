@@ -1,0 +1,45 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "bj_s",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 854549623,
+      "tags": {
+        "addr:city": "Wichita",
+        "addr:housenumber": "7960",
+        "addr:postcode": "67207",
+        "addr:state": "KS",
+        "addr:street": "East Kellogg Drive",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "yes",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 316-687-0250",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://www.bjsrestaurants.com/locations/ks/wichita"
+      },
+      "center": {
+        "lat": 37.680193,
+        "lon": -97.24530249999998
+      }
+    }
+  ]
+}

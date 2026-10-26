@@ -1,0 +1,940 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/3.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "dominos",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T06:33:16.183542+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3049879915,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:housenumber": "16",
+        "addr:postcode": "74103",
+        "addr:state": "OK",
+        "addr:street": "West 4th Street South",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "outdoor_seating": "no",
+        "phone": "+1 918-582-3030",
+        "ref": "6475",
+        "short_name": "Domino's",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/tulsa/16-w-4th-street",
+        "wheelchair": "yes"
+      },
+      "lat": 36.1520112,
+      "lon": -95.9912115
+    },
+    {
+      "type": "node",
+      "id": 3106268529,
+      "tags": {
+        "addr:city": "Midwest City",
+        "addr:housenumber": "7114",
+        "addr:postcode": "73110",
+        "addr:state": "OK",
+        "addr:street": "Southeast 15th Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 405-733-5224",
+        "ref": "6455",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/midwest-city/7114-se-15th-street"
+      },
+      "lat": 35.4493972,
+      "lon": -97.4014142
+    },
+    {
+      "type": "node",
+      "id": 3388339328,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:housenumber": "3151",
+        "addr:postcode": "74129",
+        "addr:state": "OK",
+        "addr:street": "South Garnett Road East",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 918-438-5333",
+        "ref": "6471",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/tulsa/3151-s-garnett"
+      },
+      "lat": 36.1176489,
+      "lon": -95.8505852
+    },
+    {
+      "type": "node",
+      "id": 4677328323,
+      "tags": {
+        "addr:city": "Tahlequah",
+        "addr:housenumber": "1004",
+        "addr:postcode": "74464",
+        "addr:state": "OK",
+        "addr:street": "South Muskogee Avenue",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 918-207-1444",
+        "ref": "6482",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/tahlequah/1004-s-muskogee"
+      },
+      "lat": 35.9026529,
+      "lon": -94.9750747
+    },
+    {
+      "type": "node",
+      "id": 5760902762,
+      "tags": {
+        "addr:city": "Durant",
+        "addr:housenumber": "1436",
+        "addr:postcode": "74701",
+        "addr:state": "OK",
+        "addr:street": "West University",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 580-924-1350",
+        "ref": "6454",
+        "short_name": "Domino's",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/durant/1436-w-university"
+      },
+      "lat": 34.005268,
+      "lon": -96.39018
+    },
+    {
+      "type": "node",
+      "id": 7275905477,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:housenumber": "2222",
+        "addr:postcode": "74136",
+        "addr:state": "OK",
+        "addr:street": "East 61st Street South",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "entrance": "shop",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 918-794-9444",
+        "ref": "9656",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/tulsa/2222-61st-st"
+      },
+      "lat": 36.0749396,
+      "lon": -95.9590249
+    },
+    {
+      "type": "node",
+      "id": 8064571390,
+      "tags": {
+        "addr:city": "Ardmore",
+        "addr:housenumber": "201",
+        "addr:postcode": "73401",
+        "addr:state": "OK",
+        "addr:street": "North Commerce Street",
+        "addr:unit": "A",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 580-226-6330",
+        "ref": "6450",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/ardmore/201-n-commerce"
+      },
+      "lat": 34.1786455,
+      "lon": -97.1438019
+    },
+    {
+      "type": "node",
+      "id": 8934203721,
+      "tags": {
+        "addr:city": "Broken Bow",
+        "addr:housenumber": "511",
+        "addr:postcode": "74728",
+        "addr:state": "OK",
+        "addr:street": "South Park Drive",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 580-306-9500",
+        "ref": "6441",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/broken-bow/511-south-park"
+      },
+      "lat": 34.021878,
+      "lon": -94.7383048
+    },
+    {
+      "type": "node",
+      "id": 9820902058,
+      "tags": {
+        "addr:city": "Grove",
+        "addr:housenumber": "2",
+        "addr:postcode": "74344",
+        "addr:state": "OK",
+        "addr:street": "West 3rd Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Domino's",
+        "opening_hours": "Mo-Su 10:30-24:00",
+        "phone": "+1 918-791-0202",
+        "ref": "6472",
+        "website": "https://pizza.dominos.com/oklahoma/grove/2-w-3rd-st"
+      },
+      "lat": 36.593318,
+      "lon": -94.769531
+    },
+    {
+      "type": "node",
+      "id": 9894038731,
+      "tags": {
+        "addr:city": "Altus",
+        "addr:housenumber": "813",
+        "addr:postcode": "73521",
+        "addr:state": "OK",
+        "addr:street": "East Broadway Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 580-482-8120",
+        "ref": "6410",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/altus/813-e-broadway"
+      },
+      "lat": 34.6381588,
+      "lon": -99.3237455
+    },
+    {
+      "type": "node",
+      "id": 11201184967,
+      "tags": {
+        "addr:city": "Choctaw",
+        "addr:housenumber": "1654",
+        "addr:postcode": "73020",
+        "addr:state": "OK",
+        "addr:street": "South Choctaw Road",
+        "addr:unit": "101",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's Pizza",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 405-281-4050",
+        "ref": "9666",
+        "website": "https://pizza.dominos.com/oklahoma/choctaw/1654-south-choctaw-road-ste-101"
+      },
+      "lat": 35.4495001,
+      "lon": -97.2644691
+    },
+    {
+      "type": "node",
+      "id": 12089824002,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "lat": 35.1461941,
+      "lon": -97.6527152
+    },
+    {
+      "type": "node",
+      "id": 12119264496,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "3866",
+        "addr:postcode": "74145",
+        "addr:state": "OK",
+        "addr:street": "South Sheridan Road",
+        "addr:unit": "101",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 918 921 3465",
+        "ref": "6473",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/tulsa/3866-south-sheridan-rd"
+      },
+      "lat": 36.1087954,
+      "lon": -95.9049815
+    },
+    {
+      "type": "node",
+      "id": 12160691930,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "lat": 35.2336267,
+      "lon": -97.4880559
+    },
+    {
+      "type": "node",
+      "id": 12795263501,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "lat": 35.4546831,
+      "lon": -97.6017003
+    },
+    {
+      "type": "way",
+      "id": 185737194,
+      "tags": {
+        "addr:city": "Sapulpa",
+        "addr:country": "US",
+        "addr:housenumber": "1",
+        "addr:postcode": "74066",
+        "addr:state": "OK",
+        "addr:street": "North Mission Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "internet_access": "no",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 918-224-4444",
+        "ref": "6476",
+        "short_name": "Domino's",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/sapulpa/1-n-mission-st",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 35.99966515,
+        "lon": -96.09847669999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 195664349,
+      "tags": {
+        "addr:city": "Broken Arrow",
+        "addr:housenumber": "620",
+        "addr:postcode": "74012",
+        "addr:state": "OK",
+        "addr:street": "West New Orleans Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "check_date": "2023-08-18",
+        "cuisine": "pizza",
+        "description": "Formerly Sonic",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 918-957-5418",
+        "ref": "6485",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/broken-arrow/620-w-new-orleans-st",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 36.01782274999999,
+        "lon": -95.79618970000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 221921920,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "7020",
+        "addr:postcode": "74115",
+        "addr:state": "OK",
+        "addr:street": "East Admiral Place South",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "commercial",
+        "building:levels": "1",
+        "check_date": "2023-08-05",
+        "cuisine": "pizza",
+        "indoor_seating": "no",
+        "internet_access": "no",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "outdoor_seating": "no",
+        "phone": "+1 918-747-3030",
+        "ref": "6432",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "short_name": "Domino's",
+        "smoking": "no",
+        "source": "INCOG",
+        "takeaway": "only",
+        "website": "https://pizza.dominos.com/oklahoma/tulsa/7020-e-admiral-place",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 36.16045585,
+        "lon": -95.89821855000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 260054031,
+      "tags": {
+        "addr:city": "Stillwater",
+        "addr:country": "US",
+        "addr:housenumber": "1524",
+        "addr:postcode": "74075",
+        "addr:state": "OK",
+        "addr:street": "North Boomer Road",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 405-624-3030",
+        "ref": "6460",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/stillwater/1524-n-boomer-road"
+      },
+      "center": {
+        "lat": 36.13785195,
+        "lon": -97.06601004999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 547489761,
+      "tags": {
+        "addr:city": "Norman",
+        "addr:housenumber": "1236",
+        "addr:postcode": "73071",
+        "addr:state": "OK",
+        "addr:street": "East Alameda Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-02:00; Fr-Sa 10:00-03:00; Su 10:00-02:00",
+        "phone": "+1 405-329-8181",
+        "ref": "6440",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/norman/1236-alameda-st"
+      },
+      "center": {
+        "lat": 35.21800915,
+        "lon": -97.42199819999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 676150879,
+      "tags": {
+        "addr:city": "Miami",
+        "addr:housenumber": "1315",
+        "addr:postcode": "74354",
+        "addr:state": "OK",
+        "addr:street": "North Main",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 918-542-4000",
+        "ref": "9651",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/miami/1315-n-main"
+      },
+      "center": {
+        "lat": 36.8906429,
+        "lon": -94.87784265000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 839517566,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "8611",
+        "addr:postcode": "74137",
+        "addr:state": "OK",
+        "addr:street": "South Lewis Avenue East",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Su-Th 10:30-12:00, Fr,Sa 10:30-01:00",
+        "phone": "+1 918-298-3030",
+        "ref": "6474",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/tulsa/8611-s-lewis",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 36.0388022,
+        "lon": -95.95562770000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 867172832,
+      "tags": {
+        "addr:city": "Ponca City",
+        "addr:housenumber": "506",
+        "addr:postcode": "74601",
+        "addr:state": "OK",
+        "addr:street": "South 14th Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 580-765-5305",
+        "ref": "6461",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/ponca-city/506-s-14th-st"
+      },
+      "center": {
+        "lat": 36.69875825,
+        "lon": -97.06770469999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 946561724,
+      "tags": {
+        "addr:city": "Moore",
+        "addr:housenumber": "819",
+        "addr:postcode": "73160",
+        "addr:state": "OK",
+        "addr:street": "Southwest 19th Street",
+        "addr:unit": "100",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 405-759-8825",
+        "ref": "9657",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/moore/819-sw-19th-st-suite-100"
+      },
+      "center": {
+        "lat": 35.3202505,
+        "lon": -97.50559245
+      }
+    },
+    {
+      "type": "way",
+      "id": 960103633,
+      "tags": {
+        "addr:city": "Wagoner",
+        "addr:postcode": "74467",
+        "addr:street": "West Cherokee Street",
+        "amenity": "restaurant",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "retail",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.960385099999996,
+        "lon": -95.39012439999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1009158006,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:housenumber": "1408",
+        "addr:postcode": "74114",
+        "addr:state": "OK",
+        "addr:street": "South Harvard Avenue East",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "building:colour": "white",
+        "cuisine": "pizza",
+        "indoor_seating": "yes",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "outdoor_seating": "no",
+        "phone": "+1 918-747-6600",
+        "ref": "6490",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/tulsa/1408-s-harvard"
+      },
+      "center": {
+        "lat": 36.1420975,
+        "lon": -95.94068659999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1056341161,
+      "tags": {
+        "addr:city": "Idabel",
+        "addr:housenumber": "2019",
+        "addr:postcode": "74745",
+        "addr:state": "OK",
+        "addr:street": "Southeast Washington Street",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 580-376-4040",
+        "ref": "6401",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/idabel/2019-se-washington-st"
+      },
+      "center": {
+        "lat": 33.8958858,
+        "lon": -94.79850884999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1056943725,
+      "tags": {
+        "addr:city": "Oklahoma City",
+        "addr:housenumber": "2929",
+        "addr:postcode": "73108",
+        "addr:state": "OK",
+        "addr:street": "South Meridian Avenue",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "10:00-24:00",
+        "phone": "+1 405-688-4349",
+        "ref": "6429",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/oklahoma-city/2929-south-meridian-ave"
+      },
+      "center": {
+        "lat": 35.435793450000006,
+        "lon": -97.60154879999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1070109642,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "7201",
+        "addr:postcode": "74133",
+        "addr:state": "OK",
+        "addr:street": "South Memorial Drive East",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "retail",
+        "check_date": "2024-10-26",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 918-481-6030",
+        "ref": "6488",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/tulsa/7201-s-memorial-dr"
+      },
+      "center": {
+        "lat": 36.05952105,
+        "lon": -95.88587495000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1079155908,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:housenumber": "5108",
+        "addr:postcode": "74107",
+        "addr:state": "OK",
+        "addr:street": "South 33rd Avenue West",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 918-446-4444",
+        "ref": "6467",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/tulsa/5108-s-33rd-west-ave"
+      },
+      "center": {
+        "lat": 36.0895991,
+        "lon": -96.02998654999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1149807171,
+      "tags": {
+        "addr:city": "Warr Acres",
+        "addr:housenumber": "4401",
+        "addr:postcode": "73122",
+        "addr:state": "OK",
+        "addr:street": "North MacArthur Boulevard",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:00-24:00; Fr-Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1 405-495-3013",
+        "ref": "6456",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/warr-acres/4401-a-n-macarthur-blvd"
+      },
+      "center": {
+        "lat": 35.516601800000004,
+        "lon": -97.61938384999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1215508832,
+      "tags": {
+        "addr:city": "Oklahoma City",
+        "addr:housenumber": "7615",
+        "addr:postcode": "73116",
+        "addr:state": "OK",
+        "addr:street": "North May Avenue",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building:part": "yes",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "drive_through": "no",
+        "name": "Domino's",
+        "opening_hours": "Su-Th 10:00-00:00; Fr-Sa 10:00-01:00",
+        "phone": "+1 405-673-5550",
+        "ref": "9652",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/oklahoma-city/7615-n-may-ave/"
+      },
+      "center": {
+        "lat": 35.548204999999996,
+        "lon": -97.56598565000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1230462970,
+      "tags": {
+        "addr:city": "Muskogee",
+        "addr:housenumber": "603",
+        "addr:postcode": "74403",
+        "addr:state": "OK",
+        "addr:street": "East Okmulgee Avenue",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-24:00; Fr-Sa 10:30-01:00; Su 10:30-24:00",
+        "phone": "+1 918-682-5888",
+        "ref": "6480",
+        "takeaway": "yes",
+        "website": "https://pizza.dominos.com/oklahoma/muskogee/603-e-okmulgee"
+      },
+      "center": {
+        "lat": 35.744721850000005,
+        "lon": -95.36217055000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1315813463,
+      "tags": {
+        "addr:city": "Glenpool",
+        "addr:country": "US",
+        "addr:housenumber": "13601",
+        "addr:postcode": "74033",
+        "addr:state": "OK",
+        "addr:street": "South US 75 West",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "retail",
+        "cuisine": "pizza",
+        "indoor_seating": "no",
+        "name": "Domino's",
+        "opening_hours": "Su-Th 10:30-24:00; Fr-Sa 10:30-01:00",
+        "outdoor_seating": "no",
+        "phone": "+1 918-528-5770",
+        "ref": "6444",
+        "takeaway": "only",
+        "website": "https://pizza.dominos.com/oklahoma/glenpool/13601-s-75-hwy"
+      },
+      "center": {
+        "lat": 35.9661253,
+        "lon": -96.01102954999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1356067477,
+      "tags": {
+        "addr:city": "Broken Arrow",
+        "addr:postcode": "74014",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "retail",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.075011599999996,
+        "lon": -95.76108975
+      }
+    },
+    {
+      "type": "way",
+      "id": 1364918790,
+      "tags": {
+        "addr:city": "Bixby",
+        "addr:country": "US",
+        "addr:housenumber": "13335",
+        "addr:postcode": "74008",
+        "addr:state": "OK",
+        "addr:street": "South Memorial Drive East",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "retail",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.9690643,
+        "lon": -95.88595350000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1389423614,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "retail",
+        "check_date": "2024-10-02",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.612314600000005,
+        "lon": -95.96217324999998
+      }
+    }
+  ]
+}

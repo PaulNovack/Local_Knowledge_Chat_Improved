@@ -1,0 +1,140 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "auntie_anne_s",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4812789192,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "level": "1",
+        "name": "Auntie Anne's",
+        "note": "C Gates",
+        "opening_hours:signed": "no",
+        "takeaway": "yes"
+      },
+      "lat": 39.8629921,
+      "lon": -104.6769405
+    },
+    {
+      "type": "node",
+      "id": 8720094885,
+      "tags": {
+        "addr:housenumber": "7680",
+        "addr:street": "Wenatchee Street",
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "name": "Auntie Anne's",
+        "opening_hours:covid19": "closed",
+        "phone": "+1-303-363-4831",
+        "takeaway": "yes",
+        "website": "https://locations.auntieannes.com/co/denver/7680-n-wenatchee-street"
+      },
+      "lat": 39.8361863,
+      "lon": -104.7195716
+    },
+    {
+      "type": "node",
+      "id": 9150633440,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "name": "Auntie Anne's",
+        "takeaway": "yes"
+      },
+      "lat": 39.6124251,
+      "lon": -105.094299
+    },
+    {
+      "type": "node",
+      "id": 11853065571,
+      "tags": {
+        "addr:city": "Grand Junction",
+        "addr:housenumber": "2424",
+        "addr:postcode": "81505",
+        "addr:state": "CO",
+        "addr:street": "US Highway 6 and 50",
+        "addr:unit": "156",
+        "amenity": "fast_food",
+        "branch": "Grand Junction",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "drive_through": "no",
+        "name": "Auntie Anne's",
+        "opening_hours": "Mo-Sa 10:00-20:00; Su 12:00-18:00",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "no",
+        "phone": "+1-970-609-2005",
+        "takeaway": "yes",
+        "website": "https://locations.auntieannes.com/co/grand-junction/2424-us-6-156"
+      },
+      "lat": 39.092391,
+      "lon": -108.6026315
+    },
+    {
+      "type": "node",
+      "id": 12229028863,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "name": "Auntie Anne's",
+        "takeaway": "yes"
+      },
+      "lat": 39.7309299,
+      "lon": -105.1614876
+    },
+    {
+      "type": "way",
+      "id": 1331302714,
+      "tags": {
+        "access": "permissive",
+        "addr:city": "Castle Rock",
+        "addr:housenumber": "5050",
+        "addr:postcode": "80108",
+        "addr:state": "CO",
+        "addr:street": "Factory Shops Boulevard",
+        "addr:unit": "605",
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "indoor": "room",
+        "level": "0",
+        "name": "Auntie Anne's",
+        "opening_hours": "Mo-Sa 11:00-19:00; Su 11:00-18:00",
+        "phone": "+1-720-328-8422",
+        "ref": "605",
+        "room": "shop",
+        "takeaway": "yes",
+        "website": "https://locations.auntieannes.com/co/castle-rock/5050-factory-shops-blvd"
+      },
+      "center": {
+        "lat": 39.41554055,
+        "lon": -104.87392779999999
+      }
+    }
+  ]
+}

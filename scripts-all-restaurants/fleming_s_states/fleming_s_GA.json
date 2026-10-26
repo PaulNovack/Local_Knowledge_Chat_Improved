@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "fleming_s",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 14207977331,
+      "tags": {
+        "addr:floor": "G;1",
+        "addr:housenumber": "1331",
+        "addr:street": "Spring Street Northwest",
+        "amenity": "restaurant",
+        "check_date": "2026-09-22",
+        "cuisine": "steak_house",
+        "level": "0;1",
+        "name": "Fleming's Prime Steakhouse & Wine Bar",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 33.7912617,
+      "lon": -84.3880125
+    },
+    {
+      "type": "way",
+      "id": 544920934,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Fleming's",
+        "brand:wikidata": "Q5458552",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Fleming's",
+        "official_name": "Fleming's Prime Steakhouse & Wine Bar"
+      },
+      "center": {
+        "lat": 33.928111200000004,
+        "lon": -84.34315994999997
+      }
+    }
+  ]
+}

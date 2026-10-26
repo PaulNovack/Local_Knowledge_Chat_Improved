@@ -1,0 +1,74 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "pei_wei",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3163900879,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "cuisine": "asian",
+        "name": "Pei Wei"
+      },
+      "lat": 36.0810469,
+      "lon": -115.1472694
+    },
+    {
+      "type": "way",
+      "id": 558884293,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "10830",
+        "addr:postcode": "89135",
+        "addr:state": "NV",
+        "addr:street": "West Charleston Boulevard",
+        "addr:unit": "110",
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "building": "commercial",
+        "cuisine": "asian",
+        "name": "Pei Wei",
+        "phone": "+1 702-233-4692"
+      },
+      "center": {
+        "lat": 36.1611752,
+        "lon": -115.33128234999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1559183657,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "cuisine": "asian",
+        "indoor": "room",
+        "indoor_seating": "yes",
+        "level": "2",
+        "name": "Pei Wei",
+        "outdoor_seating": "no"
+      },
+      "center": {
+        "lat": 36.086025649999996,
+        "lon": -115.13897885
+      }
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "baskin_robbins",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6803015086,
+      "tags": {
+        "amenity": "ice_cream",
+        "name": "Baskin-Robbins"
+      },
+      "lat": 35.3818514,
+      "lon": -96.8065417
+    },
+    {
+      "type": "node",
+      "id": 9421623794,
+      "tags": {
+        "addr:city": "Moore",
+        "addr:housenumber": "630",
+        "addr:postcode": "73160",
+        "addr:state": "OK",
+        "addr:street": "Southwest 4th Street",
+        "amenity": "ice_cream",
+        "brand": "Baskin-Robbins",
+        "brand:wikidata": "Q584601",
+        "cuisine": "ice_cream",
+        "name": "Baskin-Robbins",
+        "opening_hours": "05:00-21:00",
+        "phone": "+1 405-735-8744",
+        "website": "https://locations.baskinrobbins.com/ok/moore/630-sw-4th-st-355991-br"
+      },
+      "lat": 35.3336716,
+      "lon": -97.4960865
+    },
+    {
+      "type": "node",
+      "id": 11141669319,
+      "tags": {
+        "addr:city": "Glenpool",
+        "addr:housenumber": "12190",
+        "addr:postcode": "74066",
+        "addr:state": "OK",
+        "addr:street": "South Waco Avenue",
+        "amenity": "ice_cream",
+        "brand": "Baskin-Robbins",
+        "brand:wikidata": "Q584601",
+        "cuisine": "ice_cream",
+        "drive_through": "yes",
+        "name": "Baskin-Robbins",
+        "opening_hours": "11:00-22:00",
+        "outdoor_seating": "no",
+        "phone": "+1 918-528-5697",
+        "website": "https://locations.baskinrobbins.com/ok/glenpool/12190-south-waco-avenue-364393-br"
+      },
+      "lat": 35.9860772,
+      "lon": -96.0172725
+    },
+    {
+      "type": "node",
+      "id": 11258208055,
+      "tags": {
+        "addr:city": "Oklahoma City",
+        "addr:housenumber": "7502",
+        "addr:postcode": "73116",
+        "addr:state": "OK",
+        "addr:street": "North May Avenue",
+        "amenity": "ice_cream",
+        "brand": "Baskin-Robbins",
+        "brand:wikidata": "Q584601",
+        "cuisine": "ice_cream",
+        "name": "Baskin-Robbins",
+        "opening_hours": "Mo-Th 10:30-21:30; Fr-Sa 10:30-22:00; Su 11:00-21:30",
+        "phone": "+1 405-418-4191",
+        "website": "https://locations.baskinrobbins.com/ok/oklahoma-city/7502-n-may-ave-347250-br"
+      },
+      "lat": 35.5463468,
+      "lon": -97.5651925
+    },
+    {
+      "type": "way",
+      "id": 1291525114,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "9210",
+        "addr:postcode": "74137",
+        "addr:state": "OK",
+        "addr:street": "South Sheridan Road East",
+        "amenity": "ice_cream",
+        "brand": "Baskin-Robbins",
+        "brand:wikidata": "Q584601",
+        "building": "retail",
+        "drive_through": "yes",
+        "name": "Baskin-Robbins",
+        "outdoor_seating": "yes"
+      },
+      "center": {
+        "lat": 36.03015675,
+        "lon": -95.90467520000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1385634847,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Baskin-Robbins",
+        "brand:wikidata": "Q584601",
+        "building": "yes",
+        "name": "Baskin-Robbins"
+      },
+      "center": {
+        "lat": 36.10606115,
+        "lon": -95.85155050000003
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "caribou_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1914981857,
+      "tags": {
+        "addr:housenumber": "17650",
+        "addr:postcode": "68130",
+        "addr:street": "Wright Street",
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "cuisine": "coffee_shop",
+        "name": "Caribou Coffee",
+        "takeaway": "yes"
+      },
+      "lat": 41.2328323,
+      "lon": -96.1912592
+    },
+    {
+      "type": "node",
+      "id": 7732654641,
+      "tags": {
+        "addr:city": "Kearney",
+        "addr:housenumber": "5204",
+        "addr:postcode": "68845",
+        "addr:state": "NE",
+        "addr:street": "2nd Avenue",
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Caribou Coffee",
+        "opening_hours": "Mo-Su 06:00-18:00",
+        "outdoor_seating": "no",
+        "phone": "+1-308-236-0050",
+        "takeaway": "yes",
+        "website": "https://locations.cariboucoffee.com/us/ne/kearney/5204-2nd-avenue"
+      },
+      "lat": 40.7250357,
+      "lon": -99.0846168
+    },
+    {
+      "type": "node",
+      "id": 10969699526,
+      "tags": {
+        "addr:city": "Kearney",
+        "addr:housenumber": "3920",
+        "addr:postcode": "68847",
+        "addr:state": "NE",
+        "addr:street": "2nd Avenue",
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "cuisine": "coffee_shop",
+        "name": "Caribou Coffee",
+        "opening_hours": "Mo-Su 06:00-19:00",
+        "phone": "+1-308-236-5488",
+        "takeaway": "yes",
+        "website": "https://locations.cariboucoffee.com/us/ne/kearney/3920-2nd-avenue",
+        "wheelchair": "yes"
+      },
+      "lat": 40.7147768,
+      "lon": -99.0847573
+    },
+    {
+      "type": "node",
+      "id": 10992518039,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "cuisine": "coffee_shop",
+        "name": "Caribou Coffee",
+        "outdoor_seating": "no",
+        "takeaway": "yes"
+      },
+      "lat": 41.2501809,
+      "lon": -96.1938917
+    }
+  ]
+}

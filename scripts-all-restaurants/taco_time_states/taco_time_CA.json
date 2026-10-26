@@ -1,0 +1,59 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CA",
+    "brand": "taco_time",
+    "source": "https://download.geofabrik.de/north-america/us/california-latest.osm.pbf",
+    "source_md5": "26040c163edb7a5f630164ee55d5afda",
+    "processed_utc": "2026-10-24T06:59:04.829226+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12594339100,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "mexican",
+        "name": "Taco Time Food Truck",
+        "not:brand:wikidata": "Q7673969",
+        "opening_hours": "Mo-Su 18:00-23:30",
+        "payment:cash": "only",
+        "phone": "+1-619-622-4520",
+        "street_vendor": "yes",
+        "website": "https://taco-time-food-truck.edan.io/"
+      },
+      "lat": 32.783235,
+      "lon": -117.1720473
+    },
+    {
+      "type": "way",
+      "id": 1197547358,
+      "tags": {
+        "addr:city": "Sutter",
+        "addr:housenumber": "2281",
+        "addr:postcode": "95982",
+        "addr:state": "CA",
+        "addr:street": "California Street",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "no",
+        "name": "Taco Time",
+        "not:brand:wikidata": "Q7673969;Q7673970",
+        "phone": "+1-530-763-4531",
+        "wikidata": "Q135683766"
+      },
+      "center": {
+        "lat": 39.16121355,
+        "lon": -121.74864005
+      }
+    }
+  ]
+}

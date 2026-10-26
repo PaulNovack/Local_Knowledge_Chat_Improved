@@ -1,0 +1,142 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "scooter_s_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9897997980,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "Scooter's Coffee",
+        "outdoor_seating": "no",
+        "takeaway": "yes",
+        "website": "https://www.scooterscoffee.com"
+      },
+      "lat": 40.1967987,
+      "lon": -105.102963
+    },
+    {
+      "type": "way",
+      "id": 193622725,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "building": "retail",
+        "cuisine": "coffee_shop",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Scooter's Coffee",
+        "source": "Bing",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.830301,
+        "lon": -104.84102934999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 466556743,
+      "tags": {
+        "addr:housenumber": "940",
+        "addr:street": "East Eisenhower Boulevard",
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Scooter's Coffee",
+        "note": "not exactly at right position, new building is probably 20-30 ft east of its current location and that road is gone as of 2024 November",
+        "start_date": "2024-10",
+        "takeaway": "yes",
+        "website": "https://www.scooterscoffee.com"
+      },
+      "center": {
+        "lat": 40.406943150000004,
+        "lon": -105.06578619999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1046590075,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "1049",
+        "addr:postcode": "80915",
+        "addr:state": "CO",
+        "addr:street": "Space Center Drive",
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "Scooter's Coffee",
+        "opening_hours": "Mo-Fr 05:00-19:00; Sa 06:00-19:00; Su 07:00-19:00",
+        "phone": "+1 719 413 6402",
+        "takeaway": "yes",
+        "website": "https://www.scooterscoffee.com/locations"
+      },
+      "center": {
+        "lat": 38.846702699999994,
+        "lon": -104.72143455000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1383629311,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Scooter's Coffee",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.102179449999994,
+        "lon": -102.61880335000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1391562031,
+      "tags": {
+        "addr:city": "Parker",
+        "addr:housenumber": "9110",
+        "addr:postcode": "80134",
+        "addr:state": "CO",
+        "addr:street": "Jordan Road",
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Scooter's Coffee",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.55301735,
+        "lon": -104.7934429
+      }
+    }
+  ]
+}

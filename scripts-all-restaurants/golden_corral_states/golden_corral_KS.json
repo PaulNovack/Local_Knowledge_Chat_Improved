@@ -1,0 +1,93 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "golden_corral",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1482648577,
+      "tags": {
+        "addr:city": "Garden City",
+        "addr:housenumber": "1727",
+        "addr:postcode": "67846",
+        "addr:street": "East Kansas Plaza",
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral"
+      },
+      "lat": 37.9754797,
+      "lon": -100.8508651
+    },
+    {
+      "type": "way",
+      "id": 119895946,
+      "tags": {
+        "addr:city": "Topeka",
+        "addr:housenumber": "1601",
+        "addr:postcode": "66604",
+        "addr:state": "KS",
+        "addr:street": "Southwest Wanamaker Road",
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "yes",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral",
+        "opening_hours": "Mo-Fr 11:00-21:00; Sa-Su 08:00-21:00",
+        "phone": "+1-785-273-5354",
+        "source": "esri_USDOT_Kansas",
+        "website": "https://www.goldencorral.com/locations/location-detail/2401/golden-corral-sw-wanamaker-road/"
+      },
+      "center": {
+        "lat": 39.0374823,
+        "lon": -95.76255579999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 319481436,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "yes",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral"
+      },
+      "center": {
+        "lat": 38.885980849999996,
+        "lon": -94.76177799999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 391919955,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "yes",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral"
+      },
+      "center": {
+        "lat": 37.6741706,
+        "lon": -97.4249934
+      }
+    }
+  ]
+}

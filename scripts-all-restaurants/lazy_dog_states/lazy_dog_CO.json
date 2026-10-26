@@ -1,0 +1,150 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "lazy_dog",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7217353759,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Lazy Dog Tavern"
+      },
+      "lat": 40.4066252,
+      "lon": -104.9844218
+    },
+    {
+      "type": "node",
+      "id": 12254142857,
+      "tags": {
+        "addr:city": "Westminster",
+        "addr:housenumber": "14618",
+        "addr:postcode": "80023",
+        "addr:state": "CO",
+        "addr:street": "Delaware Street",
+        "amenity": "restaurant",
+        "brand": "Lazy Dog",
+        "brand:wikidata": "Q111304278",
+        "cuisine": "american",
+        "happy_hours": "Mo-Fr 15:00-18:00; Mo-Th,Su 21:00-24:00",
+        "name": "Lazy Dog",
+        "opening_hours": "Mo-Fr 11:00-24:00, Sa-Su 09:00-24:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-720-459-5613",
+        "website": "https://lazydogrestaurants.com/pages/westminster-co-orchard"
+      },
+      "lat": 39.9614126,
+      "lon": -104.9892387
+    },
+    {
+      "type": "way",
+      "id": 55660817,
+      "tags": {
+        "addr:city": "Highlands Ranch",
+        "addr:housenumber": "43",
+        "addr:postcode": "80129",
+        "addr:state": "CO",
+        "addr:street": "Centennial Boulevard",
+        "amenity": "restaurant",
+        "brand": "Lazy Dog",
+        "brand:wikidata": "Q111304278",
+        "building": "restaurant",
+        "check_date": "2026-01-20",
+        "cuisine": "american",
+        "happy_hours": "Mo-Fr 15:00-18:00; Mo-Th,Su 21:00-23:00",
+        "name": "Lazy Dog",
+        "opening_hours": "Mo-Fr 11:00-24:00; Sa-Su 09:00-24:00",
+        "phone": "+1-720-741-2942",
+        "website": "https://lazydogrestaurants.com/locations/highlands-ranch-co"
+      },
+      "center": {
+        "lat": 39.56268275,
+        "lon": -104.98844530000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 168943274,
+      "tags": {
+        "addr:city": "Erie",
+        "addr:housenumber": "3100",
+        "addr:postcode": "80516",
+        "addr:state": "CO",
+        "addr:street": "Village Vista Drive",
+        "amenity": "restaurant",
+        "branch": "Sports Bar and Grill",
+        "brand": "Lazy Dog",
+        "brand:wikidata": "Q111304278",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Lazy Dog",
+        "source": "esri_USDOT_ColoradoOITGIS"
+      },
+      "center": {
+        "lat": 40.00087775,
+        "lon": -105.02162429999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 183687160,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "7605",
+        "addr:postcode": "80920",
+        "addr:state": "CO",
+        "addr:street": "North Academy Boulevard",
+        "amenity": "restaurant",
+        "brand": "Lazy Dog",
+        "brand:wikidata": "Q111304278",
+        "building": "yes",
+        "check_date": "2025-07-27",
+        "cuisine": "american",
+        "name": "Lazy Dog",
+        "opening_hours": "Mo-Fr 11:00-00:00; Sa-Su 09:00-00:00",
+        "phone": "+1-719-445-5851",
+        "website": "https://www.lazydogrestaurants.com/locations/colorado-springs-co"
+      },
+      "center": {
+        "lat": 38.941582600000004,
+        "lon": -104.79882485000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 702844812,
+      "tags": {
+        "addr:city": "Aurora",
+        "addr:housenumber": "24110",
+        "addr:postcode": "80016",
+        "addr:state": "CO",
+        "addr:street": "East State Avenue",
+        "amenity": "restaurant",
+        "branch": "Restaurant and Bar",
+        "brand": "Lazy Dog",
+        "brand:wikidata": "Q111304278",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Lazy Dog",
+        "outdoor_seating": "yes",
+        "smoking": "no"
+      },
+      "center": {
+        "lat": 39.60206650000001,
+        "lon": -104.70775470000001
+      }
+    }
+  ]
+}

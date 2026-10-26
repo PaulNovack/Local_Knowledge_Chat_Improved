@@ -1,0 +1,84 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "teriyaki_madness",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5278520668,
+      "tags": {
+        "addr:city": "Saint George",
+        "addr:housenumber": "15",
+        "addr:postcode": "84790",
+        "addr:state": "UT",
+        "addr:street": "S River Rd",
+        "addr:unit": "320",
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "check_date": "2026-08-19",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "opening_hours": "Su-Th 10:00-21:00; Fr-Sa 10:00-22:00",
+        "phone": "+1 435-673-4078",
+        "takeaway": "yes",
+        "website": "https://teriyakimadness.com/locations/ut-st-george/"
+      },
+      "lat": 37.1067439,
+      "lon": -113.5539469
+    },
+    {
+      "type": "node",
+      "id": 10916765655,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "takeaway": "yes"
+      },
+      "lat": 40.1197308,
+      "lon": -111.6399758
+    },
+    {
+      "type": "way",
+      "id": 1531797714,
+      "tags": {
+        "addr:city": "Saratoga Spring",
+        "addr:housenumber": "717",
+        "addr:postcode": "84045",
+        "addr:state": "UT",
+        "addr:street": "North Redwood Road",
+        "addr:unit": "115",
+        "amenity": "fast_food",
+        "branch": "Saratoga Springs",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "check_date": "2026-06-18",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "opening_hours": "Mo-Th,Su 11:00-21:00; Fr-Sa 11:00-22:00",
+        "phone": "+1 801-766-1801",
+        "takeaway": "yes",
+        "website": "https://teriyakimadness.com/locations/ut-saratoga-springs/"
+      },
+      "center": {
+        "lat": 40.374577099999996,
+        "lon": -111.9169736
+      }
+    }
+  ]
+}

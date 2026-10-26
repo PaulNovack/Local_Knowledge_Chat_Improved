@@ -1,0 +1,69 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WV",
+    "brand": "logan_s_roadhouse",
+    "source": "https://download.geofabrik.de/north-america/us/west-virginia-latest.osm.pbf",
+    "source_md5": "4f8c380a535ff9841f95eae4e1a7f84f",
+    "processed_utc": "2026-10-24T07:19:30.158292+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2111945221,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse"
+      },
+      "lat": 38.3277673,
+      "lon": -81.7140939
+    },
+    {
+      "type": "way",
+      "id": 401654339,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse"
+      },
+      "center": {
+        "lat": 38.418078699999995,
+        "lon": -82.26459084999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 546862547,
+      "tags": {
+        "addr:city": "Martinsburg",
+        "addr:housenumber": "115",
+        "addr:postcode": "25403",
+        "addr:state": "WV",
+        "addr:street": "Retail Commons Parkway",
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse"
+      },
+      "center": {
+        "lat": 39.44132285,
+        "lon": -77.99009914999999
+      }
+    }
+  ]
+}

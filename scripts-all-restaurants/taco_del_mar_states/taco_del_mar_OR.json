@@ -1,0 +1,104 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OR",
+    "brand": "taco_del_mar",
+    "source": "https://download.geofabrik.de/north-america/us/oregon-latest.osm.pbf",
+    "source_md5": "bc93fd72fe4589fdc6c9b2b497cb7ef1",
+    "processed_utc": "2026-10-24T07:14:41.004303+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4854462616,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Taco Del Mar",
+        "brand:wikidata": "Q7673972",
+        "cuisine": "mexican",
+        "name": "Taco Del Mar",
+        "takeaway": "yes"
+      },
+      "lat": 45.3248731,
+      "lon": -122.5796919
+    },
+    {
+      "type": "node",
+      "id": 9943015355,
+      "tags": {
+        "addr:housenumber": "9968",
+        "addr:postcode": "97086",
+        "addr:street": "Southeast 82nd Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Del Mar",
+        "brand:wikidata": "Q7673972",
+        "cuisine": "mexican",
+        "name": "Taco Del Mar",
+        "takeaway": "yes"
+      },
+      "lat": 45.4511297,
+      "lon": -122.577357
+    },
+    {
+      "type": "way",
+      "id": 419024673,
+      "tags": {
+        "addr:city": "Bend",
+        "addr:housenumber": "63455",
+        "addr:postcode": "97703",
+        "addr:state": "OR",
+        "addr:street": "North Highway 97",
+        "addr:unit": "41",
+        "amenity": "fast_food",
+        "brand": "Taco Del Mar",
+        "brand:wikidata": "Q7673972",
+        "building": "yes",
+        "cuisine": "mexican",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "yes",
+        "fax": "+1-541-317-1142",
+        "name": "Taco Del Mar",
+        "opening_hours": "Mo-Sa 10:00-20:30; Su 11:00-20:00",
+        "phone": "+1-541-317-1112",
+        "takeaway": "yes",
+        "website": "https://tacodelmar.com/"
+      },
+      "center": {
+        "lat": 44.1018867,
+        "lon": -121.30231230000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 551186819,
+      "tags": {
+        "addr:city": "McMinnville",
+        "addr:housenumber": "1259",
+        "addr:postcode": "97128",
+        "addr:state": "OR",
+        "addr:street": "Southwest Booth Bend Road",
+        "amenity": "fast_food",
+        "brand": "Taco Del Mar",
+        "brand:wikidata": "Q7673972",
+        "building": "retail",
+        "cuisine": "mexican",
+        "name": "Taco Del Mar",
+        "opening_hours": "11:00-21:00",
+        "phone": "+1-503-883-9763",
+        "takeaway": "yes",
+        "website": "https://tacodelmar.com/"
+      },
+      "center": {
+        "lat": 45.1928438,
+        "lon": -123.21149439999999
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "sweetfrog",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7802360340,
+      "tags": {
+        "addr:city": "Glastonbury",
+        "addr:housenumber": "63",
+        "addr:postcode": "06033",
+        "addr:state": "CT",
+        "addr:street": "Hebron Avenue",
+        "amenity": "ice_cream",
+        "brand": "sweetFrog",
+        "brand:wikidata": "Q16952110",
+        "cuisine": "frozen_yogurt",
+        "drive_through": "no",
+        "name": "sweetFrog",
+        "outdoor_seating": "no",
+        "phone": "+1 860 657 0700",
+        "website": "https://www.sweetfrogct.com/"
+      },
+      "lat": 41.7134076,
+      "lon": -72.6072977
+    },
+    {
+      "type": "way",
+      "id": 349272165,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "sweetFrog",
+        "brand:wikidata": "Q16952110",
+        "building": "yes",
+        "cuisine": "frozen_yogurt",
+        "name": "sweetFrog"
+      },
+      "center": {
+        "lat": 41.28898425,
+        "lon": -72.67845275000002
+      }
+    }
+  ]
+}

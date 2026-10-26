@@ -1,0 +1,70 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OR",
+    "brand": "the_cheesecake_factory",
+    "source": "https://download.geofabrik.de/north-america/us/oregon-latest.osm.pbf",
+    "source_md5": "bc93fd72fe4589fdc6c9b2b497cb7ef1",
+    "processed_utc": "2026-10-24T07:14:41.004303+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5330112032,
+      "tags": {
+        "addr:city": "Clackamas",
+        "addr:housenumber": "12000",
+        "addr:postcode": "97086",
+        "addr:state": "OR",
+        "addr:street": "Southeast 82nd Avenue",
+        "addr:unit": "2044",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "contact:phone": "+1-503-653-1353",
+        "contact:website": "https://locations.thecheesecakefactory.com/or/happy-valley-204.html",
+        "cuisine": "american",
+        "level": "1",
+        "name": "The Cheesecake Factory",
+        "opening_hours": "Mo-Th 11:30-23:00; Fr 11:30-24:00; Sa 10:00-24:00; Su 10:00-22:00"
+      },
+      "lat": 45.4353464,
+      "lon": -122.5742725
+    },
+    {
+      "type": "way",
+      "id": 961742897,
+      "tags": {
+        "addr:city": "Tigard",
+        "addr:housenumber": "9309",
+        "addr:postcode": "97223",
+        "addr:state": "OR",
+        "addr:street": "Southwest Washington Square Road",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "branch": "Washington Square",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "check_date": "2024-11-01",
+        "cuisine": "american",
+        "level": "0",
+        "name": "The Cheesecake Factory",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 10:00-22:00",
+        "phone": "+1-503-620-1100",
+        "website": "https://locations.thecheesecakefactory.com/or/tigard-101.html"
+      },
+      "center": {
+        "lat": 45.45100395,
+        "lon": -122.78237039999999
+      }
+    }
+  ]
+}

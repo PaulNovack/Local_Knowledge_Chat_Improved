@@ -1,0 +1,107 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "dave_buster_s",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3264772139,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's"
+      },
+      "lat": 42.0391615,
+      "lon": -88.0338453
+    },
+    {
+      "type": "way",
+      "id": 583838390,
+      "tags": {
+        "addr:city": "Orland Park",
+        "addr:housenumber": "49",
+        "addr:postcode": "60462",
+        "addr:state": "IL",
+        "addr:street": "Orland Square Drive",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "retail",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "phone": "+1-708-428-2100"
+      },
+      "center": {
+        "lat": 41.6173734,
+        "lon": -87.85115250000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 599431862,
+      "tags": {
+        "addr:city": "Rosemont",
+        "addr:housenumber": "9870",
+        "addr:postcode": "60018",
+        "addr:state": "IL",
+        "addr:street": "Berwyn Street",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "retail",
+        "cuisine": "american",
+        "layer": "1",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's"
+      },
+      "center": {
+        "lat": 41.9757292,
+        "lon": -87.87036775000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1226981407,
+      "tags": {
+        "addr:city": "Vernon Hills",
+        "addr:housenumber": "424",
+        "addr:postcode": "60061",
+        "addr:state": "IL",
+        "addr:street": "Hawthorn Center",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "retail",
+        "cuisine": "american",
+        "layer": "1",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "phone": "+18475492118",
+        "website": "https://www.daveandbusters.com/us/en/about/locations/vernon-hills"
+      },
+      "center": {
+        "lat": 42.2427068,
+        "lon": -87.94894464999999
+      }
+    }
+  ]
+}

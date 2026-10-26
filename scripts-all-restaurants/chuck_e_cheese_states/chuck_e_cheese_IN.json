@@ -1,0 +1,138 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "chuck_e_cheese",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2810064596,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/in/evansville/559-n.-green-river-rd."
+      },
+      "lat": 37.9818941,
+      "lon": -87.4916873
+    },
+    {
+      "type": "node",
+      "id": 5320978312,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "5501",
+        "addr:postcode": "46250",
+        "addr:state": "IN",
+        "addr:street": "East 82nd Street",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "outdoor_seating": "no",
+        "source": "esri_USDOT_Indiana",
+        "website": "https://locations.chuckecheese.com/us/in/indianapolis/5501-e.-82nd-st."
+      },
+      "lat": 39.9044107,
+      "lon": -86.0745959
+    },
+    {
+      "type": "way",
+      "id": 72865188,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "yes",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/in/mishawaka/822-w.-mckinley-ave"
+      },
+      "center": {
+        "lat": 41.6806846,
+        "lon": -86.19342165
+      }
+    },
+    {
+      "type": "way",
+      "id": 819136909,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "yes",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/in/avon/9931-e.-us-highway-36"
+      },
+      "center": {
+        "lat": 39.762980799999994,
+        "lon": -86.34698049999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1083065999,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "8804",
+        "addr:postcode": "46227",
+        "addr:state": "IN",
+        "addr:street": "US 31",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "yes",
+        "check_date": "2022-08-02",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "source": "esri/Indianapolis_IN_Buildings"
+      },
+      "center": {
+        "lat": 39.6381032,
+        "lon": -86.13082804999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1247505453,
+      "tags": {
+        "addr:city": "Merrillville",
+        "addr:housenumber": "2968",
+        "addr:postcode": "46410",
+        "addr:state": "IN",
+        "addr:street": "East 81st Avenue",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "retail",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese"
+      },
+      "center": {
+        "lat": 41.4717355,
+        "lon": -87.29987900000003
+      }
+    }
+  ]
+}

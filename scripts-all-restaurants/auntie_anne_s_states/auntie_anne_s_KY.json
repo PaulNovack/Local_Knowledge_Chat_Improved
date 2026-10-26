@@ -1,0 +1,87 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KY",
+    "brand": "auntie_anne_s",
+    "source": "https://download.geofabrik.de/north-america/us/kentucky-latest.osm.pbf",
+    "source_md5": "beee275db6b863afe4847059e1397537",
+    "processed_utc": "2026-10-24T07:04:39.223265+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6069862356,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "name": "Auntie Anne's",
+        "takeaway": "yes"
+      },
+      "lat": 38.2468846,
+      "lon": -85.6106612
+    },
+    {
+      "type": "node",
+      "id": 9231301035,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "name": "Auntie Anne's",
+        "takeaway": "yes"
+      },
+      "lat": 38.0372401,
+      "lon": -84.4220858
+    },
+    {
+      "type": "node",
+      "id": 13652944531,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "check_date": "2026-03-16",
+        "cuisine": "pretzel",
+        "internet_access": "no",
+        "name": "Auntie Anne's",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 37.9871997,
+      "lon": -84.5285375
+    },
+    {
+      "type": "way",
+      "id": 976759704,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "indoor": "shop",
+        "layer": "1",
+        "level": "0",
+        "name": "Auntie Anne's",
+        "ref": "465",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 37.07884345,
+        "lon": -88.68848809999997
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "longhorn_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 334911074,
+      "tags": {
+        "addr:city": "Oklahoma City",
+        "addr:housenumber": "2521",
+        "addr:postcode": "73134",
+        "addr:state": "OK",
+        "addr:street": "West Memorial Road",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 35.6103149,
+        "lon": -97.55974635000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 777004158,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 35.4781296,
+        "lon": -97.74742034999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1235076317,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "9111",
+        "addr:postcode": "74133",
+        "addr:state": "OK",
+        "addr:street": "East 71st Street South",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "check_date": "2024-03-16",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "sport": "athletics"
+      },
+      "center": {
+        "lat": 36.0614426,
+        "lon": -95.87481434999995
+      }
+    }
+  ]
+}

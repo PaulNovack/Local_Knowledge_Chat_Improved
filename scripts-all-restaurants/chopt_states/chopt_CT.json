@@ -1,0 +1,61 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "chopt",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7805071020,
+      "tags": {
+        "addr:city": "Glastonbury",
+        "addr:housenumber": "2520",
+        "addr:postcode": "06033",
+        "addr:state": "CT",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "branch": "Creative Salads",
+        "brand": "Chopt",
+        "brand:wikidata": "Q17509305",
+        "cuisine": "salad",
+        "description": "organic ingredients, high end salad and wrap venue.",
+        "name": "Chopt",
+        "phone": "+1-860-968-6332",
+        "takeaway": "yes",
+        "website": "https://www.choptsalad.com"
+      },
+      "lat": 41.7141812,
+      "lon": -72.6089037
+    },
+    {
+      "type": "node",
+      "id": 13980794897,
+      "tags": {
+        "addr:city": "Greenwich",
+        "addr:housenumber": "1271",
+        "addr:postcode": "06878",
+        "addr:state": "CT",
+        "addr:street": "East Putnam Avenue",
+        "amenity": "fast_food",
+        "brand": "Chopt",
+        "brand:wikidata": "Q17509305",
+        "cuisine": "salad",
+        "name": "Chopt",
+        "takeaway": "yes"
+      },
+      "lat": 41.0425131,
+      "lon": -73.5767834
+    }
+  ]
+}

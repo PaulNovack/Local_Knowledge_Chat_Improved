@@ -1,0 +1,68 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "cava",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5591321661,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "cuisine": "mediterranean",
+        "name": "CAVA",
+        "takeaway": "yes"
+      },
+      "lat": 38.9562299,
+      "lon": -94.7227547
+    },
+    {
+      "type": "node",
+      "id": 11458646174,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "cuisine": "mediterranean",
+        "name": "CAVA"
+      },
+      "lat": 38.883274,
+      "lon": -94.6601976
+    },
+    {
+      "type": "way",
+      "id": 1564841034,
+      "tags": {
+        "addr:city": "Merriam",
+        "addr:housenumber": "8701",
+        "addr:postcode": "66202",
+        "addr:state": "KS",
+        "addr:street": "Shawnee Mission Parkway",
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "building": "yes",
+        "cuisine": "mediterranean",
+        "name": "CAVA",
+        "phone": "+1-913-529-0117"
+      },
+      "center": {
+        "lat": 39.014518100000004,
+        "lon": -94.68673765
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "bruegger_s_bagels",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 186843340,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "4015",
+        "addr:postcode": "68131",
+        "addr:state": "NE",
+        "addr:street": "Dodge Street",
+        "amenity": "fast_food",
+        "brand": "Bruegger's Bagels",
+        "brand:wikidata": "Q4978656",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "bagel",
+        "name": "Bruegger's Bagels",
+        "opening_hours": "Mo-Su 06:00-14:00",
+        "phone": "+1-402-558-0800",
+        "short_name": "Bruegger's",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.brueggers.com"
+      },
+      "center": {
+        "lat": 41.259284550000004,
+        "lon": -95.97409189999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 603468897,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Bruegger's Bagels",
+        "brand:wikidata": "Q4978656",
+        "building": "yes",
+        "cuisine": "bagel",
+        "name": "Bruegger's Bagels",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.2335063,
+        "lon": -96.11626960000001
+      }
+    }
+  ]
+}

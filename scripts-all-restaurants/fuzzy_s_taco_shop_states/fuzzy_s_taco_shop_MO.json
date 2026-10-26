@@ -1,0 +1,55 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "fuzzy_s_taco_shop",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2611157750,
+      "tags": {
+        "addr:city": "Manchester",
+        "addr:housenumber": "1288",
+        "addr:postcode": "63011",
+        "addr:street": "Old Orchard Center",
+        "amenity": "fast_food",
+        "brand": "Fuzzy's Taco Shop",
+        "brand:wikidata": "Q85762348",
+        "cuisine": "mexican",
+        "delivery": "no",
+        "name": "Fuzzy's Taco Shop",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.fuzzystacoshop.com/"
+      },
+      "lat": 38.5926986,
+      "lon": -90.4961585
+    },
+    {
+      "type": "node",
+      "id": 2613808669,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Fuzzy's Taco Shop",
+        "brand:wikidata": "Q85762348",
+        "cuisine": "mexican",
+        "name": "Fuzzy's Taco Shop",
+        "takeaway": "yes"
+      },
+      "lat": 38.5680061,
+      "lon": -90.3432549
+    }
+  ]
+}

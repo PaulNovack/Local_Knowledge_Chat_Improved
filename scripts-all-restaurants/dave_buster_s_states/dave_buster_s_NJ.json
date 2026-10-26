@@ -1,0 +1,95 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "dave_buster_s",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10854076829,
+      "tags": {
+        "addr:city": "Wayne",
+        "addr:housenumber": "310",
+        "addr:postcode": "07470",
+        "addr:state": "NJ",
+        "addr:street": "Willowbrook Mall",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "operator": "Dave & Buster's Wayne"
+      },
+      "lat": 40.8901997,
+      "lon": -74.261184
+    },
+    {
+      "type": "node",
+      "id": 11139817980,
+      "tags": {
+        "addr:city": "Woodbridge",
+        "addr:housenumber": "274",
+        "addr:state": "NJ",
+        "addr:street": "Woodbridge Center Drive",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "check_date": "2026-02-17",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "level": "0;1",
+        "name": "Dave & Buster's",
+        "opening_hours": "Mo-Th 11:00-24:00; Fr 11:00-01:00, Sa 10:00-01:00, Su 10:00-24:00",
+        "phone": "+1 973-435-9800",
+        "website": "https://www.daveandbusters.com/us/en/about/locations/woodbridge-middlesex"
+      },
+      "lat": 40.5572854,
+      "lon": -74.3003024
+    },
+    {
+      "type": "node",
+      "id": 12862808385,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "level": "0",
+        "name": "Dave & Buster's",
+        "opening_date": "2025-05-12"
+      },
+      "lat": 40.251444,
+      "lon": -74.2998912
+    },
+    {
+      "type": "way",
+      "id": 893365683,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "yes",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's"
+      },
+      "center": {
+        "lat": 39.7851876,
+        "lon": -75.04994740000001
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SC",
+    "brand": "planet_smoothie",
+    "source": "https://download.geofabrik.de/north-america/us/south-carolina-latest.osm.pbf",
+    "source_md5": "488018afb1e1040732b7a791d4ebffae",
+    "processed_utc": "2026-10-24T07:15:46.592450+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4173325055,
+      "tags": {
+        "addr:city": "Greenville",
+        "addr:housenumber": "1944",
+        "addr:postcode": "29605",
+        "addr:street": "Augusta Street",
+        "amenity": "fast_food",
+        "brand": "Planet Smoothie",
+        "brand:wikidata": "Q7201170",
+        "cuisine": "smoothie",
+        "name": "Planet Smoothie",
+        "takeaway": "yes"
+      },
+      "lat": 34.8253691,
+      "lon": -82.3958775
+    },
+    {
+      "type": "node",
+      "id": 9445777856,
+      "tags": {
+        "addr:city": "Spartanburg",
+        "addr:housenumber": "435",
+        "addr:postcode": "29302",
+        "addr:state": "SC",
+        "addr:street": "East Main Street",
+        "addr:unit": "6",
+        "amenity": "fast_food",
+        "brand": "Planet Smoothie",
+        "brand:wikidata": "Q7201170",
+        "cuisine": "smoothie",
+        "name": "Planet Smoothie",
+        "phone": "+1-864-804-6597",
+        "takeaway": "yes",
+        "website": "https://www.planetsmoothie.com/stores/19301"
+      },
+      "lat": 34.9512865,
+      "lon": -81.9206513
+    }
+  ]
+}

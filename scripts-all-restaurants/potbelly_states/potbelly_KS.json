@@ -1,0 +1,50 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "potbelly",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5385147111,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Potbelly",
+        "brand:wikidata": "Q7234777",
+        "cuisine": "sandwich",
+        "name": "Potbelly",
+        "official_name": "Potbelly Sandwich Works",
+        "opening_hours": "Mo-Fr 10:00-21:00; Sa,Su 10:00-19:00",
+        "takeaway": "yes"
+      },
+      "lat": 38.9271124,
+      "lon": -94.663603
+    },
+    {
+      "type": "node",
+      "id": 11458646171,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Potbelly",
+        "brand:wikidata": "Q7234777",
+        "cuisine": "sandwich",
+        "name": "Potbelly",
+        "official_name": "Potbelly Sandwich Works",
+        "takeaway": "yes"
+      },
+      "lat": 38.8832797,
+      "lon": -94.6605432
+    }
+  ]
+}

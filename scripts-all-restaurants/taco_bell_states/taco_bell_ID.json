@@ -1,0 +1,828 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ID",
+    "brand": "taco_bell",
+    "source": "https://download.geofabrik.de/north-america/us/idaho-latest.osm.pbf",
+    "source_md5": "1a1a06364d5343af00d67fef4750905f",
+    "processed_utc": "2026-10-24T07:02:45.671077+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6566487245,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "phone": "+1 208-344-1091",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/boise/4115-broadway-ave.html"
+      },
+      "lat": 43.5655967,
+      "lon": -116.199359
+    },
+    {
+      "type": "node",
+      "id": 8853073408,
+      "tags": {
+        "addr:city": "Idaho Falls",
+        "addr:housenumber": "2740",
+        "addr:postcode": "83404",
+        "addr:state": "ID",
+        "addr:street": "South Hitt Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-01:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "phone": "+1 208-552-3102",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/idaho-falls/2740-south-hitt-road.html"
+      },
+      "lat": 43.4729547,
+      "lon": -111.9850772
+    },
+    {
+      "type": "node",
+      "id": 9950561019,
+      "tags": {
+        "addr:city": "Burley",
+        "addr:housenumber": "632",
+        "addr:postcode": "83318",
+        "addr:state": "ID",
+        "addr:street": "Overland Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "mobile_reception": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Tu 07:00-01:00; We 13:00-01:00; Th 07:00-01:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "phone": "+1 208-678-6919",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/burley/632-overland-ave.html"
+      },
+      "lat": 42.5634048,
+      "lon": -113.7922475
+    },
+    {
+      "type": "node",
+      "id": 11685876110,
+      "tags": {
+        "addr:city": "Idaho Falls",
+        "addr:housenumber": "3242",
+        "addr:postcode": "83402",
+        "addr:state": "ID",
+        "addr:street": "South Fork Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-01:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/idaho-falls/3242-south-fork-blvd-.html"
+      },
+      "lat": 43.468357,
+      "lon": -112.0806957
+    },
+    {
+      "type": "node",
+      "id": 11955813140,
+      "tags": {
+        "addr:city": "Jerome",
+        "addr:housenumber": "2811",
+        "addr:postcode": "83338",
+        "addr:state": "ID",
+        "addr:street": "South Lincoln Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "07:00-25:00",
+        "phone": "+1 208-324-3478",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/jerome/2811-s-lincoln-ave.html"
+      },
+      "lat": 42.6919841,
+      "lon": -114.5190358
+    },
+    {
+      "type": "way",
+      "id": 170045208,
+      "tags": {
+        "addr:city": "Ponderay",
+        "addr:housenumber": "476930",
+        "addr:postcode": "83852",
+        "addr:state": "ID",
+        "addr:street": "US 95;US 2",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Su-Th 07:00-00:00; Fr-Sa 07:00-01:00",
+        "outdoor_seating": "no",
+        "phone": "+1-208-255-1570",
+        "source:name": "local_knowledge",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/ponderay/476930-hwy-95-n.html",
+        "website:menu": "https://www.tacobell.com/food?store=020088"
+      },
+      "center": {
+        "lat": 48.30736485,
+        "lon": -116.54693580000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 289575650,
+      "tags": {
+        "addr:city": "Rexburg",
+        "addr:housenumber": "22",
+        "addr:postcode": "83440",
+        "addr:state": "ID",
+        "addr:street": "West Main Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-We 07:00-01:00; Th-Sa 07:00-02:00; Su 07:00-01:00",
+        "phone": "+1 208-656-0220",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/rexburg/22-west-main-street.html"
+      },
+      "center": {
+        "lat": 43.826361,
+        "lon": -111.78454154999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 442986585,
+      "tags": {
+        "addr:city": "Blackfoot",
+        "addr:housenumber": "1475",
+        "addr:postcode": "83221",
+        "addr:state": "ID",
+        "addr:street": "Parkway Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "restaurant",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "opening_hours:drive_through": "Mo-Th,Su 07:00-01:00; Fr-Sa 07:00-02:00",
+        "phone": "+1-208-785-2830",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/blackfoot/1475-south-parkway-drive.html"
+      },
+      "center": {
+        "lat": 43.19474515,
+        "lon": -112.36235414999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 462655644,
+      "tags": {
+        "addr:city": "Meridian",
+        "addr:housenumber": "645",
+        "addr:postcode": "83642",
+        "addr:state": "ID",
+        "addr:street": "South Main Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo 07:00-21:00; Tu-Su 07:00-23:00",
+        "phone": "+1 208-884-0091",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/meridian/645-s-main-st.html"
+      },
+      "center": {
+        "lat": 43.598871,
+        "lon": -116.39298159999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 492831834,
+      "tags": {
+        "addr:city": "Caldwell",
+        "addr:housenumber": "2807",
+        "addr:postcode": "83605",
+        "addr:state": "ID",
+        "addr:street": "East Cleveland Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-02:00; Fr-Sa 07:00-03:00; Su 07:00-02:00",
+        "phone": "+1 208-454-9869",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/caldwell/2807-east-cleveland-blvd.html"
+      },
+      "center": {
+        "lat": 43.65016755,
+        "lon": -116.66786450000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 493170060,
+      "tags": {
+        "addr:city": "Nampa",
+        "addr:housenumber": "1415",
+        "addr:postcode": "83651",
+        "addr:state": "ID",
+        "addr:street": "Caldwell Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-01:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "phone": "+1 208-465-8030",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/nampa/1415-caldwell-blvd.html"
+      },
+      "center": {
+        "lat": 43.601810799999996,
+        "lon": -116.59831114999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 513423399,
+      "tags": {
+        "addr:city": "Lewiston",
+        "addr:housenumber": "1717",
+        "addr:postcode": "83501",
+        "addr:state": "ID",
+        "addr:street": "21st Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-03:00; Fr-Sa 07:00-04:00; Su 07:00-03:00",
+        "phone": "+1 208-746-1799",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/lewiston/1717-21st-street.html"
+      },
+      "center": {
+        "lat": 46.4026982,
+        "lon": -117.00156319999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 546692642,
+      "tags": {
+        "addr:city": "Pocatello",
+        "addr:housenumber": "1133",
+        "addr:postcode": "83201",
+        "addr:state": "ID",
+        "addr:street": "South 5th",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-01:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "phone": "+1 208-232-3077",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/pocatello/1133-south-5th.html"
+      },
+      "center": {
+        "lat": 42.85824825,
+        "lon": -112.43443189999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 559516075,
+      "tags": {
+        "addr:city": "Coeur D Alene",
+        "addr:housenumber": "217",
+        "addr:postcode": "83814",
+        "addr:state": "ID",
+        "addr:street": "West Appleway Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-03:00; Fr-Sa 07:00-04:00; Su 07:00-03:00",
+        "phone": "+1 208-664-0439",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/coeur-d-alene/217-w-appleway-ave.html"
+      },
+      "center": {
+        "lat": 47.70099665,
+        "lon": -116.788364
+      }
+    },
+    {
+      "type": "way",
+      "id": 585747924,
+      "tags": {
+        "addr:city": "Twin Falls",
+        "addr:housenumber": "1920",
+        "addr:postcode": "83301",
+        "addr:state": "ID",
+        "addr:street": "Blue Lakes Boulevard North",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-We 07:00-02:00; Th 07:00-01:00; Fr-Sa 07:00-03:00; Su 07:00-02:00",
+        "phone": "+1 208-734-9991",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/twin-falls/1920-blue-lakes-blvd-north.html"
+      },
+      "center": {
+        "lat": 42.5959425,
+        "lon": -114.45471974999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 622426634,
+      "tags": {
+        "addr:city": "Garden City",
+        "addr:housenumber": "8109",
+        "addr:postcode": "83714",
+        "addr:state": "ID",
+        "addr:street": "West Chinden Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "phone": "+1 208-377-2888",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/garden-city/8109-chinden-blvd.html"
+      },
+      "center": {
+        "lat": 43.649096650000004,
+        "lon": -116.28107550000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 675220879,
+      "tags": {
+        "addr:city": "Nampa",
+        "addr:housenumber": "4226",
+        "addr:postcode": "83687",
+        "addr:state": "ID",
+        "addr:street": "Garrity Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-01:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "phone": "+1 208-461-1864",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/nampa/4226-garrity-blvd.html"
+      },
+      "center": {
+        "lat": 43.5945624,
+        "lon": -116.51858145
+      }
+    },
+    {
+      "type": "way",
+      "id": 722773376,
+      "tags": {
+        "addr:city": "Boise",
+        "addr:housenumber": "1420",
+        "addr:postcode": "83706",
+        "addr:state": "ID",
+        "addr:street": "South Broadway Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th, Su 07:00-01:00; Fr 07:00-02:00",
+        "phone": "+1 208-384-0744",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/boise/1420-broadway.html"
+      },
+      "center": {
+        "lat": 43.59494805,
+        "lon": -116.19311614999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 771161519,
+      "tags": {
+        "addr:city": "Meridian",
+        "addr:housenumber": "1523",
+        "addr:postcode": "83642",
+        "addr:state": "ID",
+        "addr:street": "South Eagle Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-01:00; Fr 07:00-02:00; Sa 07:00-12:00",
+        "phone": "+1 208-855-0981",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/meridian/1523-s-eagle-rd.html"
+      },
+      "center": {
+        "lat": 43.591313,
+        "lon": -116.35515050000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 772610062,
+      "tags": {
+        "addr:city": "Boise",
+        "addr:housenumber": "3377",
+        "addr:postcode": "83703",
+        "addr:state": "ID",
+        "addr:street": "West State Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "phone": "+1 208-384-1254",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/boise/3377-west-state.html"
+      },
+      "center": {
+        "lat": 43.6370215,
+        "lon": -116.23159049999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 865541709,
+      "tags": {
+        "addr:city": "Meridian",
+        "addr:housenumber": "6560",
+        "addr:postcode": "83646",
+        "addr:state": "ID",
+        "addr:street": "North Linder Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "phone": "+1 208-888-5333",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/eagle/6560-n--linder-road.html",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 43.664307050000005,
+        "lon": -116.41326449999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 880361364,
+      "tags": {
+        "addr:city": "Boise",
+        "addr:housenumber": "6521",
+        "addr:postcode": "83704",
+        "addr:state": "ID",
+        "addr:street": "West Fairview Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "phone": "+1 208-378-4548",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/boise/6521-fairview-ave.html"
+      },
+      "center": {
+        "lat": 43.6189185,
+        "lon": -116.26264449999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 892846948,
+      "tags": {
+        "addr:city": "Boise",
+        "addr:housenumber": "7070",
+        "addr:postcode": "83709",
+        "addr:state": "ID",
+        "addr:street": "West Overland Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "phone": "+1 208-323-2857",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/boise/7070-overland-road.html"
+      },
+      "center": {
+        "lat": 43.59040855,
+        "lon": -116.26968034999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 937448440,
+      "tags": {
+        "addr:city": "Moscow",
+        "addr:housenumber": "1429",
+        "addr:postcode": "83843",
+        "addr:state": "ID",
+        "addr:street": "South Blaine Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-02:00; Fr-Sa 07:00-03:00; Su 07:00-02:00",
+        "phone": "+1 208-596-4905",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/moscow/1429-s-blaine-st.html"
+      },
+      "center": {
+        "lat": 46.7217256,
+        "lon": -116.98514720000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 948938803,
+      "tags": {
+        "addr:city": "Idaho Falls",
+        "addr:housenumber": "1000",
+        "addr:postcode": "83404",
+        "addr:state": "ID",
+        "addr:street": "East 17th Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-02:00; Fr-Sa 07:00-03:00; Su 07:00-02:00",
+        "phone": "+1 208-522-8951",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/idaho-falls/1000-e--17th-street.html"
+      },
+      "center": {
+        "lat": 43.48218425,
+        "lon": -112.01450640000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 959904507,
+      "tags": {
+        "addr:city": "Nampa",
+        "addr:housenumber": "906",
+        "addr:postcode": "83686",
+        "addr:state": "ID",
+        "addr:street": "12th Avenue Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "yes",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-02:00; Fr-Sa 07:00-03:00; Su 07:00-02:00",
+        "phone": "+1 208-461-1294",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/nampa/906-12th-avenue-road.html"
+      },
+      "center": {
+        "lat": 43.5602009,
+        "lon": -116.5724265
+      }
+    },
+    {
+      "type": "way",
+      "id": 966370899,
+      "tags": {
+        "addr:city": "Rathdrum",
+        "addr:housenumber": "15545",
+        "addr:postcode": "83858",
+        "addr:state": "ID",
+        "addr:street": "North Vernon Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-24:00; Fr-Sa 07:00-01:00; Su 07:00-24:00",
+        "phone": "+1 208-687-8512",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/rathdrum/15545-n-vernon-st.html"
+      },
+      "center": {
+        "lat": 47.81310895,
+        "lon": -116.88624629999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1003784612,
+      "tags": {
+        "addr:city": "Kuna",
+        "addr:housenumber": "985",
+        "addr:postcode": "83634",
+        "addr:state": "ID",
+        "addr:street": "North Meridian Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-01:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "phone": "+1 208-922-5170",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/kuna/985-n-meridian-road.html"
+      },
+      "center": {
+        "lat": 43.497834499999996,
+        "lon": -116.394455
+      }
+    },
+    {
+      "type": "way",
+      "id": 1006524441,
+      "tags": {
+        "addr:city": "Boise",
+        "addr:housenumber": "3680",
+        "addr:postcode": "83713",
+        "addr:state": "ID",
+        "addr:street": "North Eagle Road",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-01:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "phone": "+1 208-938-1305",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/boise/3680-n-eagle-rd.html"
+      },
+      "center": {
+        "lat": 43.6383575,
+        "lon": -116.35368849999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1124349087,
+      "tags": {
+        "addr:city": "Mountain Home",
+        "addr:housenumber": "190",
+        "addr:postcode": "83647",
+        "addr:state": "ID",
+        "addr:street": "City View Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-01:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "phone": "+1 208-609-3776",
+        "smoking": "isolated",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/mountain-home/190-city-view-dr-.html",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 43.135053,
+        "lon": -115.66604689999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1190017594,
+      "tags": {
+        "addr:city": "Coeur D Alene",
+        "addr:housenumber": "268",
+        "addr:postcode": "83815",
+        "addr:state": "ID",
+        "addr:street": "West Hanley Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "opening_hours": "Mo-Th 07:00-01:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "phone": "+1 208-762-9422",
+        "takeaway": "yes",
+        "website": "https://locations.tacobell.com/id/coeur-d-alene/268-w-hanley-ave.html"
+      },
+      "center": {
+        "lat": 47.729628250000005,
+        "lon": -116.78917775000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1257559020,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 47.710876150000004,
+        "lon": -116.91882190000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1314884994,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Taco Bell",
+        "brand:wikidata": "Q752941",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Taco Bell",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 47.70231415,
+        "lon": -117.0309646
+      }
+    }
+  ]
+}

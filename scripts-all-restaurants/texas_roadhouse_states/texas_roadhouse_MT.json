@@ -1,0 +1,75 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MT",
+    "brand": "texas_roadhouse",
+    "source": "https://download.geofabrik.de/north-america/us/montana-latest.osm.pbf",
+    "source_md5": "abfa2e1bfc18f6c00a77776eb9185b11",
+    "processed_utc": "2026-10-24T07:09:10.271084+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10068156795,
+      "tags": {
+        "addr:city": "Billings",
+        "addr:housenumber": "1824",
+        "addr:postcode": "59102",
+        "addr:state": "MT",
+        "addr:street": "King Avenue West",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "lat": 45.7544029,
+      "lon": -108.5624284
+    },
+    {
+      "type": "node",
+      "id": 12056445408,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse"
+      },
+      "lat": 46.8462619,
+      "lon": -114.026521
+    },
+    {
+      "type": "way",
+      "id": 1249382768,
+      "tags": {
+        "addr:city": "Bozeman",
+        "addr:housenumber": "870",
+        "addr:postcode": "59718-4085",
+        "addr:state": "MT",
+        "addr:street": "Harmon Stream Boulevard",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "opening_hours": "Mo-Th 16:00-22:00; Fr 15:00-22:00; Sa 10:00-22:00; Su 11:00-22:00",
+        "phone": "+1-406-404-2043",
+        "website": "https://www.texasroadhouse.com/locations/bozeman"
+      },
+      "center": {
+        "lat": 45.67066295,
+        "lon": -111.07824705000002
+      }
+    }
+  ]
+}

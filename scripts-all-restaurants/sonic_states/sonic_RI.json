@@ -1,0 +1,87 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "RI",
+    "brand": "sonic",
+    "source": "https://download.geofabrik.de/north-america/us/rhode-island-latest.osm.pbf",
+    "source_md5": "089bd14c5348318ad280c1c9ab732067",
+    "processed_utc": "2026-10-24T07:15:29.409283+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11246152611,
+      "tags": {
+        "addr:city": "Warwick",
+        "addr:housenumber": "1134",
+        "addr:postcode": "02886",
+        "addr:state": "RI",
+        "addr:street": "Bald Hill Road",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "drive_through": "yes",
+        "name": "Sonic",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "phone": "+1-401-822-7776",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/ri/warwick/1134-bald-hill-road.html"
+      },
+      "lat": 41.707855,
+      "lon": -71.4910095
+    },
+    {
+      "type": "way",
+      "id": 766297114,
+      "tags": {
+        "addr:city": "Smithfield",
+        "addr:housenumber": "393",
+        "addr:postcode": "02917",
+        "addr:state": "RI",
+        "addr:street": "Putnam Pike",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "11:00-22:00",
+        "phone": "+1 401-349-2152",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/ri/smithfield/393-putnam-pike.html"
+      },
+      "center": {
+        "lat": 41.87063685,
+        "lon": -71.52432249999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1500926962,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.8036665,
+        "lon": -71.44099119999998
+      }
+    }
+  ]
+}

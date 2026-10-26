@@ -1,0 +1,188 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "krispy_kreme",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1646288762,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "lat": 38.5852336,
+      "lon": -89.9843743
+    },
+    {
+      "type": "node",
+      "id": 2713013778,
+      "tags": {
+        "addr:city": "Elk Grove Village",
+        "addr:country": "US",
+        "addr:housenumber": "412",
+        "addr:postcode": "60007",
+        "addr:state": "IL",
+        "addr:street": "East Devon Avenue",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "drive_through": "yes",
+        "name": "Krispy Kreme",
+        "phone": "+1-847-472-9500",
+        "source": "GPS",
+        "takeaway": "yes"
+      },
+      "lat": 41.9932198,
+      "lon": -87.9857937
+    },
+    {
+      "type": "node",
+      "id": 4072166506,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "2301",
+        "addr:postcode": "62704",
+        "addr:state": "IL",
+        "addr:street": "West Monroe Street",
+        "addr:unit": "C",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "delivery": "yes",
+        "delivery:partner": "DoorDash",
+        "delivery:partner:wikidata": "Q20714323",
+        "drive_through": "yes",
+        "name": "Krispy Kreme",
+        "opening_hours": "06:00-22:00",
+        "phone": "+1-217-718-6200",
+        "takeaway": "yes",
+        "website": "https://site.krispykreme.com/il/springfield/2301-w-monroe"
+      },
+      "lat": 39.7964758,
+      "lon": -89.6937748
+    },
+    {
+      "type": "node",
+      "id": 13109019757,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "lat": 41.8677164,
+      "lon": -87.8849239
+    },
+    {
+      "type": "way",
+      "id": 628066401,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 37.74359705,
+        "lon": -88.9647228
+      }
+    },
+    {
+      "type": "way",
+      "id": 660880674,
+      "tags": {
+        "addr:city": "Evergreen Park",
+        "addr:housenumber": "9150",
+        "addr:postcode": "60805",
+        "addr:state": "IL",
+        "addr:street": "South Western Avenue",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "retail",
+        "cuisine": "donut",
+        "drive_through": "yes",
+        "name": "Krispy Kreme",
+        "takeaway": "yes",
+        "website": "https://krispykremechi.com/"
+      },
+      "center": {
+        "lat": 41.72768995,
+        "lon": -87.68293300000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 766609491,
+      "tags": {
+        "addr:city": "Bloomington",
+        "addr:housenumber": "201",
+        "addr:postcode": "61704",
+        "addr:state": "IL",
+        "addr:street": "North Veterans Parkway",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "contact:phone": "+1 309 664 7400",
+        "contact:website": "https://www.krispykreme.com/location/bloomington",
+        "cuisine": "donut",
+        "drive_through": "yes",
+        "name": "Krispy Kreme",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "outdoor_seating": "no",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.4813282,
+        "lon": -88.95205535000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 930852014,
+      "tags": {
+        "addr:city": "Homewood",
+        "addr:housenumber": "17815",
+        "addr:postcode": "60430",
+        "addr:state": "IL",
+        "addr:street": "Halsted Street",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "retail",
+        "cuisine": "donut",
+        "drive_through": "yes",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.5662214,
+        "lon": -87.63588715000003
+      }
+    }
+  ]
+}

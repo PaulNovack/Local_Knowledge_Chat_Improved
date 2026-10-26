@@ -1,0 +1,692 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "chick_fil_a",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4931235534,
+      "tags": {
+        "addr:city": "Manhattan",
+        "addr:housenumber": "918",
+        "addr:postcode": "66506",
+        "addr:state": "KS",
+        "addr:street": "North 17th Street 121 K- State Student Union",
+        "amenity": "fast_food",
+        "branch": "Kansas State University",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "drive_through": "no",
+        "indoor_seating": "no",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Fr 11:00-14:00",
+        "phone": "+1 785-532-5111",
+        "ref": "80308",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/ks/kansas-state-university"
+      },
+      "lat": 39.1884533,
+      "lon": -96.5826574
+    },
+    {
+      "type": "node",
+      "id": 6245195571,
+      "tags": {
+        "addr:city": "Wichita",
+        "addr:housenumber": "7990",
+        "addr:postcode": "67206",
+        "addr:state": "KS",
+        "addr:street": "East Central Avenue",
+        "amenity": "fast_food",
+        "branch": "Central & Rock Road",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su off",
+        "phone": "+1 316-683-2691",
+        "ref": "02817",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/ks/central-rock-road"
+      },
+      "lat": 37.6942313,
+      "lon": -97.2449696
+    },
+    {
+      "type": "node",
+      "id": 12535261170,
+      "tags": {
+        "addr:city": "Lawrence",
+        "addr:housenumber": "1301",
+        "addr:postcode": "66044",
+        "addr:state": "KS",
+        "addr:street": "Jayhawk Boulevard",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "drive_through": "no",
+        "level": "2",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Fr 08:00-19:00; Sa 10:00-18:00",
+        "opening_hours:url": "https://dining.ku.edu/hours",
+        "phone": "+1-785-864-2449",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/ks/university-of-kansas"
+      },
+      "lat": 38.9591259,
+      "lon": -95.2436868
+    },
+    {
+      "type": "node",
+      "id": 12732311359,
+      "tags": {
+        "addr:city": "Topeka",
+        "addr:housenumber": "3231",
+        "addr:postcode": "66611",
+        "addr:state": "KS",
+        "addr:street": "Southwest Topeka Boulevard",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Chick-fil-A",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/"
+      },
+      "lat": 39.0088007,
+      "lon": -95.6881423
+    },
+    {
+      "type": "way",
+      "id": 103765031,
+      "tags": {
+        "addr:city": "Olathe",
+        "addr:housenumber": "12087",
+        "addr:postcode": "66062",
+        "addr:state": "KS",
+        "addr:street": "South Black Bob Road",
+        "amenity": "fast_food",
+        "branch": "Olathe Pointe",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00",
+        "owner": "Jeff Rouse",
+        "phone": "+1 913-829-7600",
+        "ref": "01846",
+        "source": "bing",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/ks/olathe-pointe"
+      },
+      "center": {
+        "lat": 38.90955505,
+        "lon": -94.76021100000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 119895944,
+      "tags": {
+        "addr:city": "Topeka",
+        "addr:housenumber": "1625",
+        "addr:postcode": "66604",
+        "addr:state": "KS",
+        "addr:street": "Southwest Wanamaker Road",
+        "amenity": "fast_food",
+        "branch": "17th and Wanamaker",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 785-272-2610",
+        "ref": "03763",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/ks/17th-and-wanamaker"
+      },
+      "center": {
+        "lat": 39.03717985,
+        "lon": -95.76250379999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 174389788,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "8551",
+        "addr:postcode": "64114",
+        "addr:state": "MO",
+        "addr:street": "State Line Road",
+        "amenity": "fast_food",
+        "branch": "Ward Parkway",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00",
+        "phone": "+1 816-361-8800",
+        "ref": "01772",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mo/ward-parkway"
+      },
+      "center": {
+        "lat": 38.9733712,
+        "lon": -94.60774300000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 194472367,
+      "tags": {
+        "addr:city": "Overland Park",
+        "addr:housenumber": "9707",
+        "addr:postcode": "66215",
+        "addr:state": "KS",
+        "addr:street": "Quivira Road",
+        "amenity": "fast_food",
+        "branch": "Oak Park Plaza",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "building:material": "brick",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00",
+        "operator": "C. T. Taylor",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 913-310-9222",
+        "ref": "01836",
+        "takeaway": "yes",
+        "website": "https://www.cfarestaurant.com/oakparkplaza/home"
+      },
+      "center": {
+        "lat": 38.95165625,
+        "lon": -94.72301775
+      }
+    },
+    {
+      "type": "way",
+      "id": 218961874,
+      "tags": {
+        "addr:city": "Lawrence",
+        "addr:housenumber": "2735",
+        "addr:postcode": "66046",
+        "addr:state": "KS",
+        "addr:street": "Iowa Street",
+        "amenity": "fast_food",
+        "branch": "Iowa & 27th",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 785-842-1002",
+        "ref": "03466",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/ks/iowa-27th-ks"
+      },
+      "center": {
+        "lat": 38.932978950000006,
+        "lon": -95.26128395
+      }
+    },
+    {
+      "type": "way",
+      "id": 241744934,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "10770",
+        "addr:postcode": "66109",
+        "addr:state": "KS",
+        "addr:street": "Parallel Parkway",
+        "amenity": "fast_food",
+        "branch": "Plaza at the Speedway",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00; Su off",
+        "phone": "+1 913-334-2442",
+        "ref": "02501",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/ks/plaza-at-the-speedway"
+      },
+      "center": {
+        "lat": 39.1289654,
+        "lon": -94.82792595000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 292349537,
+      "tags": {
+        "addr:city": "Manhattan",
+        "addr:housenumber": "636",
+        "addr:postcode": "66502",
+        "addr:state": "KS",
+        "addr:street": "Tuttle Creek Boulevard",
+        "amenity": "fast_food",
+        "branch": "Manhattan",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00",
+        "phone": "+1 785-537-2130",
+        "ref": "03278",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/ks/manhattan-ks"
+      },
+      "center": {
+        "lat": 39.18522405,
+        "lon": -96.55790350000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 318892117,
+      "tags": {
+        "addr:city": "Overland Park",
+        "addr:housenumber": "7500",
+        "addr:postcode": "66223",
+        "addr:state": "KS",
+        "addr:street": "West 135th Street",
+        "amenity": "fast_food",
+        "branch": "135th and 69 Highway",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00; Su off",
+        "phone": "+1 913-814-0222",
+        "ref": "01975",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/ks/135th-and-69-hwy"
+      },
+      "center": {
+        "lat": 38.8845419,
+        "lon": -94.6731661
+      }
+    },
+    {
+      "type": "way",
+      "id": 485988787,
+      "tags": {
+        "addr:city": "Mission",
+        "addr:housenumber": "6039",
+        "addr:postcode": "66202",
+        "addr:state": "KS",
+        "addr:street": "Metcalf Avenue",
+        "amenity": "fast_food",
+        "branch": "Mission Crossing",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "level": "1",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 913-432-5300",
+        "ref": "02906",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/ks/mission-crossing"
+      },
+      "center": {
+        "lat": 39.018904649999996,
+        "lon": -94.66710339999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 902275025,
+      "tags": {
+        "addr:city": "Salina",
+        "addr:housenumber": "2245",
+        "addr:postcode": "67401",
+        "addr:state": "KS",
+        "addr:street": "South 9th Street",
+        "amenity": "fast_food",
+        "branch": "Salina",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00; Su off",
+        "phone": "+1 785-820-8007",
+        "ref": "03731",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/ks/salina"
+      },
+      "center": {
+        "lat": 38.80251025,
+        "lon": -97.6119827
+      }
+    },
+    {
+      "type": "way",
+      "id": 1063043451,
+      "tags": {
+        "addr:city": "Hutchinson",
+        "addr:housenumber": "1809",
+        "addr:postcode": "67501",
+        "addr:state": "KS",
+        "addr:street": "East 17th Avenue",
+        "amenity": "fast_food",
+        "branch": "Hutchinson",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00; Su off",
+        "phone": "+1 620-662-2744",
+        "ref": "03721",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/ks/hutchinson",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 38.071709999999996,
+        "lon": -97.89456625000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1122155048,
+      "tags": {
+        "addr:city": "Overland Park",
+        "addr:housenumber": "9591",
+        "addr:postcode": "66212",
+        "addr:state": "KS",
+        "addr:street": "Metcalf Avenue",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00; Su off",
+        "phone": "+1-913-341-2655",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/ks/97th-metcalf-ks"
+      },
+      "center": {
+        "lat": 38.95365025,
+        "lon": -94.666901
+      }
+    },
+    {
+      "type": "way",
+      "id": 1169446637,
+      "tags": {
+        "addr:city": "Wichita",
+        "addr:housenumber": "10515",
+        "addr:postcode": "67205",
+        "addr:state": "KS",
+        "addr:street": "West 21st Street North",
+        "amenity": "fast_food",
+        "branch": "21st & Maize",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su off",
+        "phone": "+1 316-721-2697",
+        "ref": "03015",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/ks/21st-maize"
+      },
+      "center": {
+        "lat": 37.72211165,
+        "lon": -97.4639737
+      }
+    },
+    {
+      "type": "way",
+      "id": 1184091078,
+      "tags": {
+        "addr:city": "Lenexa",
+        "addr:housenumber": "15919",
+        "addr:postcode": "66219",
+        "addr:state": "KS",
+        "addr:street": "West 87th Street Parkway",
+        "amenity": "fast_food",
+        "branch": "Lenexa",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo 10:15-22:00; Tu-Sa 06:30-22:00; Su off",
+        "phone": "+1 913-227-0512",
+        "ref": "04230",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/ks/lenexa"
+      },
+      "center": {
+        "lat": 38.97058425,
+        "lon": -94.7716163
+      }
+    },
+    {
+      "type": "way",
+      "id": 1316202032,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Chick-fil-A",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/ks/derby-marketplace"
+      },
+      "center": {
+        "lat": 37.5655592,
+        "lon": -97.24346494999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1369025130,
+      "tags": {
+        "addr:city": "Overland Park",
+        "addr:housenumber": "11240",
+        "addr:postcode": "66211",
+        "addr:state": "KS",
+        "addr:street": "Nall Avenue",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00",
+        "phone": "+1-913-522-4613",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/ks/113th-nall-ks"
+      },
+      "center": {
+        "lat": 38.9233816,
+        "lon": -94.64961134999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1382792864,
+      "tags": {
+        "addr:city": "Wichita",
+        "addr:housenumber": "7320",
+        "addr:postcode": "67209",
+        "addr:state": "KS",
+        "addr:street": "West Taft Street",
+        "amenity": "fast_food",
+        "branch": "Maple & Ridge",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "no",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su off",
+        "phone": "+1 316-729-2697",
+        "ref": "03952",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/ks/maple-ridge"
+      },
+      "center": {
+        "lat": 37.677451950000005,
+        "lon": -97.42702940000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1442601601,
+      "tags": {
+        "addr:city": "Wichita",
+        "addr:housenumber": "2400",
+        "addr:postcode": "67226",
+        "addr:state": "KS",
+        "addr:street": "North Greenwich Road",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "indoor_seating": "yes",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:00-22:00",
+        "phone": "+1 316-369-3600",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/ks/k96-greenwich-rd-ks"
+      },
+      "center": {
+        "lat": 37.72690695,
+        "lon": -97.20728565000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1557245911,
+      "tags": {
+        "addr:city": "Shawnee",
+        "addr:housenumber": "11500",
+        "addr:postcode": "66203",
+        "addr:state": "KS",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00; Su off",
+        "phone": "+1-913-363-0823",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/ks/shawnee-mission"
+      },
+      "center": {
+        "lat": 39.0153137,
+        "lon": -94.71951639999997
+      }
+    }
+  ]
+}

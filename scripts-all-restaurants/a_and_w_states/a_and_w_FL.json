@@ -1,0 +1,63 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "a_and_w",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3268333164,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "cuisine": "burger",
+        "name": "A&W",
+        "takeaway": "yes",
+        "website": "https://awrestaurants.com/locations/florida/kissimmee/5770-w-irlo-bronson-highway-suite-326/"
+      },
+      "lat": 28.329497,
+      "lon": -81.5160195
+    },
+    {
+      "type": "node",
+      "id": 8554084231,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "cuisine": "burger",
+        "name": "A&W",
+        "takeaway": "yes",
+        "website": "https://awrestaurants.com/locations/florida/auburndale/2082-us-highway-92/"
+      },
+      "lat": 28.0582067,
+      "lon": -81.8131394
+    },
+    {
+      "type": "node",
+      "id": 8975197937,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "cuisine": "burger",
+        "name": "A&W",
+        "takeaway": "yes"
+      },
+      "lat": 28.4471587,
+      "lon": -81.3938616
+    }
+  ]
+}

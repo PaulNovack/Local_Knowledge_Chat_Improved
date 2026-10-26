@@ -1,0 +1,83 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ID",
+    "brand": "red_lobster",
+    "source": "https://download.geofabrik.de/north-america/us/idaho-latest.osm.pbf",
+    "source_md5": "1a1a06364d5343af00d67fef4750905f",
+    "processed_utc": "2026-10-24T07:02:45.671077+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 361061296,
+      "tags": {
+        "addr:city": "Boise",
+        "addr:housenumber": "550",
+        "addr:postcode": "83704",
+        "addr:state": "ID",
+        "addr:street": "North Milwaukee Street",
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Red Lobster",
+        "phone": "+1 208-672-1188",
+        "website": "https://www.redlobster.com/locations/default.aspx?q=83704&Restaurantid=6259&cmpid=rl_ll_google"
+      },
+      "center": {
+        "lat": 43.60963245,
+        "lon": -116.28433560000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 449146341,
+      "tags": {
+        "addr:city": "Coeur d'Alene",
+        "addr:housenumber": "212",
+        "addr:postcode": "83815",
+        "addr:state": "ID",
+        "addr:street": "West Neider Avenue",
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "building": "retail",
+        "cuisine": "seafood",
+        "delivery": "yes",
+        "name": "Red Lobster",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+12086673369",
+        "website": "https://www.redlobster.com/seafood-restaurants/locations/id/coeur-dalene/212-neider-ave"
+      },
+      "center": {
+        "lat": 47.70682995,
+        "lon": -116.7908385
+      }
+    },
+    {
+      "type": "way",
+      "id": 584984890,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Red Lobster"
+      },
+      "center": {
+        "lat": 42.9077877,
+        "lon": -112.46680824999999
+      }
+    }
+  ]
+}

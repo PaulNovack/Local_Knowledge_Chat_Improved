@@ -1,0 +1,51 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WV",
+    "brand": "ponderosa_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/west-virginia-latest.osm.pbf",
+    "source_md5": "4f8c380a535ff9841f95eae4e1a7f84f",
+    "processed_utc": "2026-10-24T07:19:30.158292+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 377805113,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ponderosa Steakhouse",
+        "brand:wikidata": "Q64038204",
+        "building": "yes",
+        "cuisine": "american;steak;buffet",
+        "name": "Ponderosa Steakhouse"
+      },
+      "center": {
+        "lat": 38.45791835,
+        "lon": -81.49833639999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 391127458,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ponderosa Steakhouse",
+        "brand:wikidata": "Q64038204",
+        "building": "yes",
+        "cuisine": "american;steak;buffet",
+        "name": "Ponderosa Steakhouse"
+      },
+      "center": {
+        "lat": 38.822310849999994,
+        "lon": -81.72804055
+      }
+    }
+  ]
+}

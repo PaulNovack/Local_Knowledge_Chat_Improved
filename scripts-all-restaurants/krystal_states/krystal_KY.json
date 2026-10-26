@@ -1,0 +1,112 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KY",
+    "brand": "krystal",
+    "source": "https://download.geofabrik.de/north-america/us/kentucky-latest.osm.pbf",
+    "source_md5": "beee275db6b863afe4847059e1397537",
+    "processed_utc": "2026-10-24T07:04:39.223265+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11725716181,
+      "tags": {
+        "addr:city": "Mount Sterling",
+        "addr:country": "US",
+        "addr:housenumber": "102",
+        "addr:state": "KY",
+        "addr:street": "Stone Trace Drive",
+        "amenity": "fast_food",
+        "brand": "Krystal",
+        "brand:wikidata": "Q472195",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Krystal",
+        "phone": "+1 859-498-3607",
+        "takeaway": "yes",
+        "website": "https://www.krystal.com/locations/ky/mt-sterling/102-stone-trace-dr/"
+      },
+      "lat": 38.0796546,
+      "lon": -83.9504404
+    },
+    {
+      "type": "way",
+      "id": 484156536,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krystal",
+        "brand:wikidata": "Q472195",
+        "building": "yes",
+        "capacity": "50",
+        "cuisine": "burger",
+        "name": "Krystal",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.krystal.com/locations/ky/london/1704-w-hwy-192/"
+      },
+      "center": {
+        "lat": 37.1075465,
+        "lon": -84.08834150000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1260653631,
+      "tags": {
+        "addr:city": "Middlesboro",
+        "addr:country": "US",
+        "addr:housenumber": "1225",
+        "addr:state": "KY",
+        "addr:street": "12th Street",
+        "amenity": "fast_food",
+        "brand": "Krystal",
+        "brand:wikidata": "Q472195",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Krystal",
+        "phone": "+1 606-248-7086",
+        "takeaway": "yes",
+        "website": "https://www.krystal.com/locations/ky/middlesboro/1225-north-12th-street/"
+      },
+      "center": {
+        "lat": 36.62106835,
+        "lon": -83.70468964999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1260660242,
+      "tags": {
+        "addr:city": "Bowling Green",
+        "addr:country": "US",
+        "addr:housenumber": "2704",
+        "addr:state": "KY",
+        "addr:street": "Scottsville Road",
+        "amenity": "fast_food",
+        "brand": "Krystal",
+        "brand:wikidata": "Q472195",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Krystal",
+        "phone": "+1 270-781-8412",
+        "takeaway": "yes",
+        "website": "https://www.krystal.com/locations/ky/bowling-green/2704-scottsville-rd/"
+      },
+      "center": {
+        "lat": 36.9487506,
+        "lon": -86.42375800000002
+      }
+    }
+  ]
+}

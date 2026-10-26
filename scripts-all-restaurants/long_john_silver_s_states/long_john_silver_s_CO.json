@@ -1,0 +1,69 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "long_john_silver_s",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4017515502,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Long John Silver's",
+        "brand:wikidata": "Q1535221",
+        "cuisine": "seafood",
+        "name": "Long John Silver's",
+        "source": "Mapbox",
+        "takeaway": "yes"
+      },
+      "lat": 37.4750176,
+      "lon": -105.8931986
+    },
+    {
+      "type": "node",
+      "id": 7153552165,
+      "tags": {
+        "addr:city": "Garden City",
+        "addr:housenumber": "2413",
+        "addr:postcode": "80631",
+        "addr:state": "CO",
+        "addr:street": "8th Avenue",
+        "amenity": "fast_food",
+        "brand": "Long John Silver's",
+        "brand:wikidata": "Q1535221",
+        "cuisine": "seafood",
+        "drive_through": "yes",
+        "name": "Long John Silver's",
+        "phone": "+1-970-352-3771",
+        "takeaway": "yes"
+      },
+      "lat": 40.3983788,
+      "lon": -104.691626
+    },
+    {
+      "type": "node",
+      "id": 12232136022,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Long John Silver's",
+        "brand:wikidata": "Q1535221",
+        "cuisine": "seafood",
+        "name": "Long John Silver's",
+        "takeaway": "yes"
+      },
+      "lat": 39.9426268,
+      "lon": -104.9918923
+    }
+  ]
+}

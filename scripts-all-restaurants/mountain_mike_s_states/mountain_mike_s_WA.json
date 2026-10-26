@@ -1,0 +1,99 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "mountain_mike_s",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12953271540,
+      "tags": {
+        "addr:city": "Wenatchee",
+        "addr:housenumber": "106",
+        "addr:postcode": "98801",
+        "addr:state": "WA",
+        "addr:street": "Easy Way",
+        "addr:unit": "C",
+        "alt_name": "Mountain Mike's Pizza",
+        "amenity": "restaurant",
+        "brand": "Mountain Mike's",
+        "brand:wikidata": "Q6925120",
+        "cuisine": "pizza",
+        "name": "Mountain Mike's",
+        "phone": "+1-509-741-7404",
+        "takeaway": "yes",
+        "website": "https://www.mountainmikespizza.com/locations/wenatchee-easy-way/"
+      },
+      "lat": 47.4679543,
+      "lon": -120.3348935
+    },
+    {
+      "type": "node",
+      "id": 13043093016,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Mountain Mike's Pizza"
+      },
+      "lat": 45.7235186,
+      "lon": -122.6596566
+    },
+    {
+      "type": "way",
+      "id": 218405009,
+      "tags": {
+        "addr:housenumber": "17127",
+        "addr:postcode": "98223",
+        "addr:street": "Smokey Point Boulevard",
+        "amenity": "restaurant",
+        "building": "yes",
+        "check_date": "2026-05-22",
+        "cuisine": "pizza",
+        "name": "Mountain Mike’s Pizza",
+        "short_name": "Mountain Mike’s",
+        "website": "https://www.mountainmikespizza.com/locations/arlington-smokey-point-blvd/?storecode=462"
+      },
+      "center": {
+        "lat": 48.152098949999996,
+        "lon": -122.18234380000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 368476535,
+      "tags": {
+        "addr:city": "Mount Vernon",
+        "addr:housenumber": "528",
+        "addr:postcode": "98273",
+        "addr:street": "East College Way",
+        "alt_name": "Mountain Mike's Pizza",
+        "amenity": "restaurant",
+        "brand": "Mountain Mike's",
+        "brand:wikidata": "Q6925120",
+        "building": "yes",
+        "check_date": "2026-01-24",
+        "cuisine": "pizza",
+        "name": "Mountain Mike's",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+1-425-549-4500",
+        "takeaway": "yes",
+        "website": "https://www.mountainmikespizza.com/locations/mount-vernon-e-college-way/"
+      },
+      "center": {
+        "lat": 48.43551715,
+        "lon": -122.33254175000002
+      }
+    }
+  ]
+}

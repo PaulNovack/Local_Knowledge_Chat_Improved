@@ -1,0 +1,52 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "krispy_kreme",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T07:20:37.151586+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 595498696,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 38.9086787,
+      "lon": -77.0431907
+    },
+    {
+      "type": "node",
+      "id": 10607178885,
+      "tags": {
+        "addr:housenumber": "3100",
+        "addr:street": "14th Street Northwest",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "check_date": "2025-01-25",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "opening_hours": "Mo-Th,Su 06:00-22:00; Fr-Sa 06:00-23:00",
+        "takeaway": "yes"
+      },
+      "lat": 38.9290289,
+      "lon": -77.0328407
+    }
+  ]
+}

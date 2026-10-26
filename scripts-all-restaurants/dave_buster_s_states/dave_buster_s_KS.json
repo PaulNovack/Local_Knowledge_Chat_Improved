@@ -1,0 +1,84 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "dave_buster_s",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 874420630,
+      "tags": {
+        "addr:housenumber": "6811",
+        "addr:street": "West 135th Street",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "retail",
+        "check_date:opening_hours": "2023-11-13",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "opening_hours": "Mo-Fr 11:00-24:00; Th 11:00-17:00,23:00-24:00; Sa 00:00-01:00,11:00-24:00; Su 00:00-01:00,10:00-24:00",
+        "phone": "+1 913 249 3900",
+        "website": "https://www.daveandbusters.com/us/en/about/locations/overland-park"
+      },
+      "center": {
+        "lat": 38.881470050000004,
+        "lon": -94.66533979999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1411638362,
+      "tags": {
+        "addr:city": "Wichita",
+        "addr:housenumber": "2644",
+        "addr:postcode": "67226",
+        "addr:state": "KS",
+        "addr:street": "North Greenwich Court",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "yes",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "phone": "+1-316-796-8550",
+        "website": "https://www.daveandbusters.com/us/en/about/locations/wichita"
+      },
+      "center": {
+        "lat": 37.73006185,
+        "lon": -97.20144755000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1487265959,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "cuisine": "american",
+        "indoor": "room",
+        "leisure": "amusement_arcade",
+        "level": "1;2",
+        "name": "Dave & Buster's"
+      },
+      "center": {
+        "lat": 39.12676475,
+        "lon": -94.82679519999999
+      }
+    }
+  ]
+}

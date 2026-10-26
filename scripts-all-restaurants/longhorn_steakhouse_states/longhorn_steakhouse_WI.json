@@ -1,0 +1,86 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WI",
+    "brand": "longhorn_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/wisconsin-latest.osm.pbf",
+    "source_md5": "1718ff98080ec3edeb95ab8fb47b0ce7",
+    "processed_utc": "2026-10-24T07:19:59.510074+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 44001809,
+      "tags": {
+        "addr:housenumber": "418",
+        "addr:street": "South Gammon Road",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "commercial",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 43.059409,
+        "lon": -89.50351060000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 483309244,
+      "tags": {
+        "addr:housenumber": "2475",
+        "addr:postcode": "54304",
+        "addr:street": "South Oneida Street",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "commercial",
+        "check_date": "2026-07-05",
+        "check_date:opening_hours": "2026-07-05",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "name:en": "Longhorn",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-920-405-0467",
+        "website": "https://m.longhornsteakhouse.com/locations/wi/green-bay/green-bay/5354",
+        "website:menu": "https://m.longhornsteakhouse.com/menu"
+      },
+      "center": {
+        "lat": 44.48366315,
+        "lon": -88.06858030000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 597121590,
+      "tags": {
+        "addr:city": "Greendale",
+        "addr:housenumber": "5220",
+        "addr:postcode": "53129",
+        "addr:state": "WI",
+        "addr:street": "South 76th Street",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 42.95046045,
+        "lon": -88.00775329999999
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AL",
+    "brand": "dickey_s_barbecue_pit",
+    "source": "https://download.geofabrik.de/north-america/us/alabama-latest.osm.pbf",
+    "source_md5": "3ee9c8ab6ddb6921e2aa2562af6c9bce",
+    "processed_utc": "2026-10-24T06:56:09.586986+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12290835050,
+      "tags": {
+        "addr:city": "Huntsville",
+        "addr:housenumber": "6886",
+        "addr:postcode": "35806",
+        "addr:state": "AL",
+        "addr:street": "Governors West",
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "cuisine": "barbecue",
+        "name": "Dickey's Barbecue Pit",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "phone": "+1-737-277-5318",
+        "website": "https://www.dickeys.com/"
+      },
+      "lat": 34.7152023,
+      "lon": -86.6766114
+    },
+    {
+      "type": "node",
+      "id": 13771362822,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "check_date": "2026-04-28",
+        "cuisine": "barbecue",
+        "name": "Dickey's Barbecue Pit"
+      },
+      "lat": 31.2150538,
+      "lon": -85.359266
+    },
+    {
+      "type": "node",
+      "id": 14090307526,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "cuisine": "barbecue",
+        "name": "Dickey's Barbecue Pit"
+      },
+      "lat": 30.6833013,
+      "lon": -88.2232712
+    },
+    {
+      "type": "way",
+      "id": 435224273,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Dickey's Barbecue Pit"
+      },
+      "center": {
+        "lat": 30.65047125,
+        "lon": -88.1185994
+      }
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "7_brew",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10822776422,
+      "tags": {
+        "addr:city": "Overland Park",
+        "addr:housenumber": "11001",
+        "addr:postcode": "66211",
+        "addr:state": "KS",
+        "addr:street": "Metcalf Avenue",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "7 Brew Coffee",
+        "website": "https://7brew.com/menu/"
+      },
+      "lat": 38.9290609,
+      "lon": -94.6672347
+    },
+    {
+      "type": "node",
+      "id": 10977990405,
+      "tags": {
+        "amenity": "cafe",
+        "name": "7 Brew"
+      },
+      "lat": 38.8833506,
+      "lon": -94.7818383
+    },
+    {
+      "type": "node",
+      "id": 13056499587,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "7Brew",
+        "outdoor_seating": "no"
+      },
+      "lat": 37.6794499,
+      "lon": -97.4264374
+    },
+    {
+      "type": "node",
+      "id": 13562927151,
+      "tags": {
+        "addr:city": "Hays",
+        "addr:housenumber": "3380",
+        "addr:postcode": "67601",
+        "addr:state": "KS",
+        "addr:street": "North Vine Street",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "7 Brew Coffee",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00",
+        "outdoor_seating": "no",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:google_pay": "yes",
+        "payment:mastercard": "yes",
+        "payment:samsung_pay": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-479-358-9274",
+        "start_date": "2025-11",
+        "takeaway": "yes",
+        "website": "https://locations.7brew.com/ks/hays/3380-vine-street"
+      },
+      "lat": 38.8943632,
+      "lon": -99.3171553
+    },
+    {
+      "type": "node",
+      "id": 13714497864,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "takeaway": "yes"
+      },
+      "lat": 37.5703072,
+      "lon": -97.2437522
+    },
+    {
+      "type": "way",
+      "id": 195470040,
+      "tags": {
+        "addr:city": "Topeka",
+        "addr:housenumber": "1115",
+        "addr:postcode": "66604",
+        "addr:state": "KS",
+        "addr:street": "Southwest Wanamaker Road",
+        "amenity": "cafe",
+        "building": "retail",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "7 Brew",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00",
+        "phone": "+1-785-592-7936",
+        "source": "esri_USDOT_Kansas",
+        "website": "https://7brew.com/location/kansas-topeka-000017"
+      },
+      "center": {
+        "lat": 39.047657349999994,
+        "lon": -95.76212169999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 218961922,
+      "tags": {
+        "addr:city": "Lawrence",
+        "addr:housenumber": "3231",
+        "addr:postcode": "66046",
+        "addr:state": "KS",
+        "addr:street": "Iowa Street",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "building": "retail",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00",
+        "phone": "+1-479-358-9274",
+        "takeaway": "yes",
+        "website": "https://locations.7brew.com/ks/lawrence/3231-iowa-street"
+      },
+      "center": {
+        "lat": 38.9254144,
+        "lon": -95.26106950000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 615633812,
+      "tags": {
+        "addr:city": "Shawnee",
+        "addr:housenumber": "11560",
+        "addr:postcode": "66203",
+        "addr:state": "KS",
+        "addr:street": "West 63rd Street",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00",
+        "phone": "+1-479-358-9274",
+        "takeaway": "yes",
+        "website": "https://locations.7brew.com/ks/shawnee/11560-west-63rd-street"
+      },
+      "center": {
+        "lat": 39.0152725,
+        "lon": -94.72017579999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1531842623,
+      "tags": {
+        "addr:city": "Lawrence",
+        "addr:housenumber": "4433",
+        "addr:postcode": "66049",
+        "addr:state": "KS",
+        "addr:street": "Bauer Farm Drive",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00",
+        "phone": "+1-816-300-3622",
+        "takeaway": "yes",
+        "website": "https://7brew.com/location/kansas-lawrence-000790"
+      },
+      "center": {
+        "lat": 38.9719733,
+        "lon": -95.29839819999995
+      }
+    }
+  ]
+}

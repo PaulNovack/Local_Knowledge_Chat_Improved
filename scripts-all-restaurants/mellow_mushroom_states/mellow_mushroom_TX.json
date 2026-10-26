@@ -1,0 +1,77 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TX",
+    "brand": "mellow_mushroom",
+    "source": "https://download.geofabrik.de/north-america/us/texas-latest.osm.pbf",
+    "source_md5": "eb8f4603e9b48bd481c192fe621ae18b",
+    "processed_utc": "2026-10-24T07:17:23.814833+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12766672490,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Mellow Mushroom",
+        "brand:wikidata": "Q17021360",
+        "cuisine": "pizza",
+        "indoor_seating": "yes",
+        "name": "Mellow Mushroom",
+        "outdoor_seating": "no"
+      },
+      "lat": 29.609972,
+      "lon": -98.4901157
+    },
+    {
+      "type": "way",
+      "id": 499930249,
+      "tags": {
+        "addr:housenumber": "3455",
+        "addr:street": "Bluebonnet Circle",
+        "amenity": "restaurant",
+        "brand": "Mellow Mushroom",
+        "brand:wikidata": "Q17021360",
+        "building": "retail",
+        "cuisine": "pizza",
+        "name": "Mellow Mushroom"
+      },
+      "center": {
+        "lat": 32.6998181,
+        "lon": -97.36011450000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1092447816,
+      "tags": {
+        "addr:city": "Arlington",
+        "addr:housenumber": "200",
+        "addr:postcode": "76011",
+        "addr:state": "TX",
+        "addr:street": "North Center Street",
+        "amenity": "restaurant",
+        "branch": "Arlington",
+        "brand": "Mellow Mushroom",
+        "brand:wikidata": "Q17021360",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Mellow Mushroom",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+1-817-274-7173",
+        "website": "https://www.mellowmushroom.com/locations/tx/arlington/200-n-center-st/"
+      },
+      "center": {
+        "lat": 32.738032450000006,
+        "lon": -97.10728604999997
+      }
+    }
+  ]
+}

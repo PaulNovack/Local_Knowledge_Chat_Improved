@@ -1,0 +1,145 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "perkins",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2919665745,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "lat": 44.6962469,
+      "lon": -73.4887765
+    },
+    {
+      "type": "node",
+      "id": 9005755217,
+      "tags": {
+        "addr:housenumber": "1409",
+        "addr:postcode": "10305",
+        "addr:street": "Hylan Boulevard",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "phone": "+1-718-979-9180",
+        "website": "https://www.perkinsrestaurants.com/locations/us/ny/staten-island/1409-hylan-blvd/"
+      },
+      "lat": 40.5944238,
+      "lon": -74.0870031
+    },
+    {
+      "type": "node",
+      "id": 10262763309,
+      "tags": {
+        "addr:city": "Wappingers Falls",
+        "addr:housenumber": "1576",
+        "addr:postcode": "12590",
+        "addr:state": "NY",
+        "addr:street": "Albany Post Road",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "lat": 41.5985451,
+      "lon": -73.9102584
+    },
+    {
+      "type": "way",
+      "id": 95975161,
+      "tags": {
+        "addr:city": "Newburgh",
+        "addr:housenumber": "1421",
+        "addr:postcode": "12550",
+        "addr:state": "NY",
+        "addr:street": "Route 300",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "note": "Perkins website now has the branding \"Perkins American Food Co.\" and a new logo with those words. Do they have a new logo/sign on the ground? If so, it's probably the new official name as well.",
+        "nysgissam:nysaddresspointid": "ORAN083471",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "phone": "+1-845-566-4045",
+        "website": "https://www.perkinsrestaurants.com/locations/us/ny/newburgh/1421-route-300"
+      },
+      "center": {
+        "lat": 41.521379800000005,
+        "lon": -74.07125934999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 600466216,
+      "tags": {
+        "addr:city": "Olean",
+        "addr:housenumber": "2728",
+        "addr:postcode": "14760",
+        "addr:state": "NY",
+        "addr:street": "West State Street",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "nysgissam:nysaddresspointid": "CATT037969",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "center": {
+        "lat": 42.077291450000004,
+        "lon": -78.46179940000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1122078526,
+      "tags": {
+        "addr:city": "Cortland",
+        "addr:housenumber": "2",
+        "addr:postcode": "13045",
+        "addr:state": "NY",
+        "addr:street": "Locust Avenue",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "center": {
+        "lat": 42.61036175,
+        "lon": -76.16717355000003
+      }
+    }
+  ]
+}

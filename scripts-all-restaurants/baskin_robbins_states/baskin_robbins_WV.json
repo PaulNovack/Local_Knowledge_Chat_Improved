@@ -1,0 +1,116 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WV",
+    "brand": "baskin_robbins",
+    "source": "https://download.geofabrik.de/north-america/us/west-virginia-latest.osm.pbf",
+    "source_md5": "4f8c380a535ff9841f95eae4e1a7f84f",
+    "processed_utc": "2026-10-24T07:19:30.158292+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2819619671,
+      "tags": {
+        "addr:city": "Charleston",
+        "addr:housenumber": "4120",
+        "addr:postcode": "25304",
+        "addr:state": "WV",
+        "addr:street": "MacCorkle Avenue Southeast",
+        "amenity": "ice_cream",
+        "brand": "Baskin-Robbins",
+        "brand:wikidata": "Q584601",
+        "cuisine": "ice_cream",
+        "name": "Baskin-Robbins",
+        "opening_hours": "Mo-Th 10:00-21:00; Fr-Sa 10:00-22:00; Su 11:00-22:00",
+        "phone": "+1 304-925-3013",
+        "website": "https://locations.baskinrobbins.com/wv/charleston/4120-maccorkle-ave-se-361682-br"
+      },
+      "lat": 38.3255734,
+      "lon": -81.5881001
+    },
+    {
+      "type": "node",
+      "id": 3823931657,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Baskin-Robbins",
+        "brand:wikidata": "Q584601",
+        "cuisine": "ice_cream",
+        "name": "Baskin-Robbins"
+      },
+      "lat": 38.3679333,
+      "lon": -81.6890991
+    },
+    {
+      "type": "node",
+      "id": 5893808636,
+      "tags": {
+        "addr:city": "Huntington",
+        "addr:country": "US",
+        "addr:housenumber": "1598",
+        "addr:postcode": "25701",
+        "addr:state": "WV",
+        "addr:street": "Washington Boulevard",
+        "amenity": "ice_cream",
+        "brand": "Baskin-Robbins",
+        "brand:wikidata": "Q584601",
+        "cuisine": "ice_cream",
+        "diet:vegan": "yes",
+        "entrance": "yes",
+        "name": "Baskin-Robbins",
+        "opening_hours": "Su-Th 11:00-21:00; Fr,Sa 11:00-22:00",
+        "website": "https://locations.baskinrobbins.com/wv/huntington/1598-washington-blvd-360569-br",
+        "wheelchair": "yes"
+      },
+      "lat": 38.4047822,
+      "lon": -82.4283667
+    },
+    {
+      "type": "node",
+      "id": 12752867799,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Baskin-Robbins",
+        "brand:wikidata": "Q584601",
+        "cuisine": "ice_cream",
+        "name": "Baskin-Robbins"
+      },
+      "lat": 39.5474813,
+      "lon": -77.9142449
+    },
+    {
+      "type": "way",
+      "id": 465918578,
+      "tags": {
+        "addr:city": "Martinsburg",
+        "addr:housenumber": "980",
+        "addr:postcode": "25401",
+        "addr:state": "WV",
+        "addr:street": "Foxcroft Avenue",
+        "amenity": "fast_food",
+        "atm": "yes",
+        "building": "yes",
+        "drive_through": "yes",
+        "name": "Baskin-Robbins/Dunkin' Donuts",
+        "note": "Coming Soon.",
+        "opening_hours": "05:00-21:00",
+        "phone": "+1 304-229-2115",
+        "ref": "358056",
+        "takeaway": "yes",
+        "website": "https://locations.dunkindonuts.com/en/wv/martinsburg/980-foxcroft-ave/358056"
+      },
+      "center": {
+        "lat": 39.445635100000004,
+        "lon": -77.98635535
+      }
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "jason_s_deli",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8019760608,
+      "tags": {
+        "addr:city": "Lawrence",
+        "addr:housenumber": "3140",
+        "addr:postcode": "66046",
+        "addr:state": "KS",
+        "addr:street": "Iowa Street",
+        "addr:unit": "110",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "delivery": "yes",
+        "diet:gluten_free": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Jason's Deli",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "phone": "+1-785-842-5600",
+        "website": "https://www.jasonsdeli.com/restaurants/lawrence-deli"
+      },
+      "lat": 38.9257346,
+      "lon": -95.2598252
+    },
+    {
+      "type": "node",
+      "id": 11488987044,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli"
+      },
+      "lat": 38.9700951,
+      "lon": -94.6975603
+    },
+    {
+      "type": "way",
+      "id": 207270050,
+      "tags": {
+        "addr:city": "Topeka",
+        "addr:housenumber": "6121",
+        "addr:postcode": "66604",
+        "addr:state": "KS",
+        "addr:street": "Southwest 12th Street",
+        "addr:unit": "Suite 100",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "building": "retail",
+        "contact:phone": "+1-785-478-4144",
+        "cuisine": "sandwich",
+        "facebook": "http://www.facebook.com/80788928291",
+        "name": "Jason's Deli",
+        "opening_hours": "Mo-Su 06:00-21:00",
+        "source": "esri_USDOT_Kansas",
+        "website": "https://www.jasonsdeli.com/locations/ks/topeka/6121-sw-12th-st/"
+      },
+      "center": {
+        "lat": 39.044891,
+        "lon": -95.76503689999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 218130643,
+      "tags": {
+        "addr:city": "Olathe",
+        "addr:housenumber": "16535",
+        "addr:postcode": "66061",
+        "addr:street": "West 119th Street",
+        "amenity": "restaurant",
+        "branch": "#9006",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli",
+        "operator": "Jason's Deli",
+        "phone": "+1-913-825-4422"
+      },
+      "center": {
+        "lat": 38.9118066,
+        "lon": -94.77789435
+      }
+    },
+    {
+      "type": "way",
+      "id": 1318793635,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 37.7162042,
+        "lon": -97.24518224999997
+      }
+    }
+  ]
+}

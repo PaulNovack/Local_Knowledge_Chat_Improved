@@ -1,0 +1,74 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "ben_jerry_s",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9418312173,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's"
+      },
+      "lat": 42.0886855,
+      "lon": -87.824378
+    },
+    {
+      "type": "node",
+      "id": 10603039948,
+      "tags": {
+        "addr:city": "Naperville",
+        "addr:country": "US",
+        "addr:county": "DuPage, IL",
+        "addr:housenumber": "120",
+        "addr:postcode": "60540",
+        "addr:state": "IL",
+        "addr:street": "Water Street",
+        "addr:unit": "106",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's",
+        "opening_hours": "Mo off; Tu-Th, Su 15:00-21:00; Fr 15:00-23:00; Sa 13:00-23:00",
+        "phone": "+1 630 544 8122",
+        "website": "https://www.benjerry.com/naperville"
+      },
+      "lat": 41.7709028,
+      "lon": -88.1504886
+    },
+    {
+      "type": "node",
+      "id": 13908356094,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "600",
+        "addr:postcode": "60611",
+        "addr:state": "IL",
+        "addr:street": "East Grand Avenue",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "name": "Ben & Jerry's",
+        "website": "https://www.benjerry.com/navypier"
+      },
+      "lat": 41.8917655,
+      "lon": -87.6086372
+    }
+  ]
+}

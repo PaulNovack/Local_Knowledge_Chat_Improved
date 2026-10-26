@@ -1,0 +1,45 @@
+#cdla-intro-dialog {
+  width: min(760px, calc(100% - 32px));
+  max-height: min(82vh, 760px);
+  padding: 0;
+  border: 1px solid #c9cfc3;
+  border-radius: 12px;
+  background: #f7f6f1;
+  color: #24282b;
+  box-shadow: 0 24px 80px rgba(17, 25, 17, 0.28);
+}
+
+#cdla-intro-dialog::backdrop {
+  background: rgba(20, 27, 21, 0.62);
+  backdrop-filter: blur(3px);
+}
+
+.intro-dialog-content {
+  max-height: min(82vh, 760px);
+  overflow: auto;
+  padding: clamp(20px, 5vw, 40px);
+}
+
+.intro-dialog-content h2 {
+  margin: 0 0 18px;
+  font-family: Georgia, serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+#cdla-intro-text {
+  color: #3d463b;
+  font-size: 15px;
+  line-height: 1.75;
+  white-space: pre-wrap;
+}
+
+.intro-dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 22px;
+}
+
+.intro-dialog-actions button {
+  min-width: 88px;
+}

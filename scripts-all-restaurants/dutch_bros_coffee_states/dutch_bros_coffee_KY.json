@@ -1,0 +1,187 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KY",
+    "brand": "dutch_bros_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/kentucky-latest.osm.pbf",
+    "source_md5": "beee275db6b863afe4847059e1397537",
+    "processed_utc": "2026-10-24T07:04:39.223265+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11866857229,
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "847",
+        "addr:postcode": "40475",
+        "addr:state": "KY",
+        "addr:street": "Eastern Bypass",
+        "amenity": "cafe",
+        "branch": "Eastern",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "Su-Th 05:00-22:00; Fr-Sa 05:00-23:00",
+        "phone": "+1 541-955-4700",
+        "ref": "DB815",
+        "takeaway": "only",
+        "website": "https://locations.dutchbros.com/dutch-bros-coffee-edc88fdc8fdb"
+      },
+      "lat": 37.7321502,
+      "lon": -84.281784
+    },
+    {
+      "type": "node",
+      "id": 13169236517,
+      "tags": {
+        "addr:city": "Bowling Green",
+        "addr:housenumber": "1854",
+        "addr:postcode": "42101",
+        "addr:state": "KY",
+        "addr:street": "Russellville Road",
+        "amenity": "cafe",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "Su-Th 05:00-22:00, Fr-Sa 05:00-23:00",
+        "takeaway": "only",
+        "website": "https://www.dutchbros.com/locations/ky/bowling-green/1854-russellville-rd"
+      },
+      "lat": 36.9802569,
+      "lon": -86.4670373
+    },
+    {
+      "type": "node",
+      "id": 13734767041,
+      "tags": {
+        "addr:city": "Owensboro",
+        "addr:housenumber": "3750",
+        "addr:postcode": "42301",
+        "addr:state": "KY",
+        "addr:street": "Frederica Street",
+        "addr:unit": "4",
+        "amenity": "cafe",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "Su-Th 05:00-22:00; Fr-Sa 05:00-23:00",
+        "takeaway": "only",
+        "website": "https://www.dutchbros.com/locations/ky/owensboro/3750-frederica-st-ste-4"
+      },
+      "lat": 37.7353042,
+      "lon": -87.1205102
+    },
+    {
+      "type": "node",
+      "id": 13876577007,
+      "tags": {
+        "addr:city": "Lexington",
+        "addr:housenumber": "2084",
+        "addr:postcode": "40503",
+        "addr:state": "KY",
+        "addr:street": "Harrodsburg Road",
+        "amenity": "cafe",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "indoor_seating": "no",
+        "name": "Dutch Bros. Coffee",
+        "outdoor_seating": "yes",
+        "takeaway": "only"
+      },
+      "lat": 38.0249468,
+      "lon": -84.5373051
+    },
+    {
+      "type": "way",
+      "id": 401881205,
+      "tags": {
+        "addr:city": "Lexington",
+        "addr:housenumber": "234",
+        "addr:state": "KY",
+        "addr:street": "East New Circle Road",
+        "amenity": "cafe",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drive_in": "yes",
+        "name": "Dutch Bros. Coffee",
+        "takeaway": "only"
+      },
+      "center": {
+        "lat": 38.0609769,
+        "lon": -84.46667305
+      }
+    },
+    {
+      "type": "way",
+      "id": 1504055048,
+      "tags": {
+        "addr:city": "Louisville",
+        "addr:housenumber": "3145",
+        "addr:postcode": "40214",
+        "addr:state": "KY",
+        "addr:street": "South 3rd Street",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "height": "7.3152",
+        "name": "Dutch Bros. Coffee",
+        "note": "Start date IS the building construction date, not the start date of a particular business, etc. For start date, used the date it passed it's final building inspection for the building inspector.",
+        "opening_hours": "Su-Th 05:00-22:00; Fr-Sa 05:00-23:00",
+        "source:height": "building permit",
+        "start_date": "2026-04-07",
+        "takeaway": "only",
+        "website": "https://www.dutchbros.com/locations/ky/louisville/3145-s-3rd-st"
+      },
+      "center": {
+        "lat": 38.203241649999995,
+        "lon": -85.76401095
+      }
+    },
+    {
+      "type": "way",
+      "id": 1535967996,
+      "tags": {
+        "addr:city": "Radcliff",
+        "addr:housenumber": "705",
+        "addr:postcode": "40160",
+        "addr:state": "KY",
+        "addr:street": "North Dixie Boulevard",
+        "amenity": "cafe",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "Mo-Th 05:00-22:00; Fr-Sa 05:00-23:00; Su 05:00-22:00",
+        "takeaway": "only",
+        "website": "https://www.dutchbros.com/locations/ky/radcliff/705-n-dixie-blvd"
+      },
+      "center": {
+        "lat": 37.8466723,
+        "lon": -85.94499135000001
+      }
+    }
+  ]
+}

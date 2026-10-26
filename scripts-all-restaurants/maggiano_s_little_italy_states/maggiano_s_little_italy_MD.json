@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "maggiano_s_little_italy",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13049225117,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Maggiano's Little Italy",
+        "brand:wikidata": "Q6730149",
+        "cuisine": "italian",
+        "name": "Maggiano's Little Italy"
+      },
+      "lat": 38.9903345,
+      "lon": -76.5474295
+    },
+    {
+      "type": "way",
+      "id": 747422943,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:housenumber": "10300",
+        "addr:postcode": "21044",
+        "addr:state": "MD",
+        "addr:street": "Little Patuxent Parkway",
+        "amenity": "restaurant",
+        "brand": "Maggiano's Little Italy",
+        "brand:wikidata": "Q6730149",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Maggiano's Little Italy",
+        "phone": "+1-410-730-3706",
+        "website": "https://www.maggianos.com/locations/maryland/columbia/10300-little-patuxent-parkway/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 39.215778549999996,
+        "lon": -76.86174385000004
+      }
+    }
+  ]
+}

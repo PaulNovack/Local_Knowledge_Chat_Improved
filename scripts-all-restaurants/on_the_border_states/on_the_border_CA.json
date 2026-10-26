@@ -1,0 +1,99 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CA",
+    "brand": "on_the_border",
+    "source": "https://download.geofabrik.de/north-america/us/california-latest.osm.pbf",
+    "source_md5": "26040c163edb7a5f630164ee55d5afda",
+    "processed_utc": "2026-10-24T06:59:04.829226+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 31807141,
+      "tags": {
+        "addr:city": "San Diego",
+        "addr:country": "US",
+        "addr:housenumber": "10789",
+        "addr:postcode": "92126",
+        "addr:state": "CA",
+        "addr:street": "Westview Parkway",
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "yes",
+        "building_type": "commercial",
+        "check_date": "2026-05-26",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "phone": "+1-858-530-1130",
+        "sangis:OBJECTID": "8387",
+        "sangis:TYPE": "Commercial",
+        "source": "SanGIS Footprints_Nonresidential_SD public domain (http://www.sangis.org/)",
+        "website": "https://www.ontheborder.com/locations/mira-mesa/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 32.9167618,
+        "lon": -117.12009280000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 148216807,
+      "tags": {
+        "addr:city": "Escondido",
+        "addr:housenumber": "298",
+        "addr:postcode": "92025",
+        "addr:street": "East Via Rancho Parkway",
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "website": "https://www.ontheborder.com/"
+      },
+      "center": {
+        "lat": 33.0689459,
+        "lon": -117.06171864999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 939049955,
+      "tags": {
+        "addr:city": "Eastvale",
+        "addr:housenumber": "12269",
+        "addr:postcode": "91752",
+        "addr:state": "CA",
+        "addr:street": "Limonite Avenue",
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "internet_access": "wlan",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "opening_hours": "Su-Th 11:00-21:30; Fr-Sa 11:00-22:30",
+        "phone": "+1-951-727-0047",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://www.ontheborder.com/"
+      },
+      "center": {
+        "lat": 33.976910000000004,
+        "lon": -117.5502955
+      }
+    }
+  ]
+}

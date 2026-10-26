@@ -1,0 +1,98 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MT",
+    "brand": "dickey_s_barbecue_pit",
+    "source": "https://download.geofabrik.de/north-america/us/montana-latest.osm.pbf",
+    "source_md5": "abfa2e1bfc18f6c00a77776eb9185b11",
+    "processed_utc": "2026-10-24T07:09:10.271084+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6010980772,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "cuisine": "barbecue",
+        "name": "Dickey's Barbecue Pit",
+        "outdoor_seating": "no",
+        "smoking": "no"
+      },
+      "lat": 45.7827111,
+      "lon": -108.5022393
+    },
+    {
+      "type": "node",
+      "id": 8140242428,
+      "tags": {
+        "addr:city": "Bozeman",
+        "addr:housenumber": "1040",
+        "addr:postcode": "59718-4163",
+        "addr:state": "MT",
+        "addr:street": "Fowler Avenue",
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "cuisine": "barbecue",
+        "name": "Dickey's Barbecue Pit",
+        "phone": "+1-406-404-1333",
+        "website": "https://www.dickeys.com/locations/Montana/Bozeman/bozeman"
+      },
+      "lat": 45.668997,
+      "lon": -111.082289
+    },
+    {
+      "type": "node",
+      "id": 8180772801,
+      "tags": {
+        "addr:city": "Kalispell",
+        "addr:housenumber": "175",
+        "addr:postcode": "59901",
+        "addr:state": "MT",
+        "addr:street": "Hutton Ranch Road",
+        "addr:unit": "115",
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "cuisine": "barbecue",
+        "name": "Dickey's Barbecue Pit",
+        "phone": "+1-406-300-1375",
+        "website": "https://www.dickeys.com/locations/montana/kalispell/kalispell"
+      },
+      "lat": 48.233332,
+      "lon": -114.327101
+    },
+    {
+      "type": "way",
+      "id": 886918082,
+      "tags": {
+        "addr:city": "Butte",
+        "addr:country": "US",
+        "addr:housenumber": "2800",
+        "addr:postcode": "59701",
+        "addr:state": "MT",
+        "addr:street": "Harrison Avenue",
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Dickey's Barbecue Pit",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 45.985645500000004,
+        "lon": -112.5076386
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "ruth_s_chris_steak_house",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3061269368,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "cuisine": "american;steak_house",
+        "name": "Ruth's Chris Steak House"
+      },
+      "lat": 41.0596669,
+      "lon": -73.8319659
+    },
+    {
+      "type": "node",
+      "id": 4794092321,
+      "tags": {
+        "addr:housenumber": "148",
+        "addr:postcode": "10019",
+        "addr:street": "West 51st Street",
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "cuisine": "american;steak_house",
+        "name": "Ruth's Chris Steak House",
+        "name:de": "Ruth's Chris Steak House",
+        "phone": "+1 212 265 9600",
+        "website": "https://www.ruthschris.com/"
+      },
+      "lat": 40.7613487,
+      "lon": -73.9822791
+    },
+    {
+      "type": "way",
+      "id": 86084112,
+      "tags": {
+        "addr:city": "Albany",
+        "addr:state": "NY",
+        "addr:street": "Wolf Road",
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "building": "yes",
+        "cuisine": "american;steak_house",
+        "name": "Ruth's Chris Steak House"
+      },
+      "center": {
+        "lat": 42.7201114,
+        "lon": -73.80269105000002
+      }
+    }
+  ]
+}

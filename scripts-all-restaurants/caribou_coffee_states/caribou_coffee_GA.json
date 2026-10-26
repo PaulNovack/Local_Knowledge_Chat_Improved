@@ -1,0 +1,201 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "caribou_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 779212236,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "cuisine": "coffee_shop",
+        "name": "Caribou Coffee",
+        "takeaway": "yes"
+      },
+      "lat": 33.8439407,
+      "lon": -84.3701491
+    },
+    {
+      "type": "node",
+      "id": 2277885151,
+      "tags": {
+        "addr:floor": "G;1",
+        "addr:housenumber": "1000",
+        "addr:street": "Piedmont Avenue Northeast",
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "check_date": "2025-10-08",
+        "cuisine": "coffee_shop",
+        "level": "0;1",
+        "name": "Caribou Coffee",
+        "opening_hours": "06:00-18:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-404-870-0711",
+        "source": "local_knowledge",
+        "takeaway": "yes",
+        "website": "https://locations.cariboucoffee.com/us/ga/atlanta/1000-piedmont-avenue-ne",
+        "wheelchair": "yes"
+      },
+      "lat": 33.7820764,
+      "lon": -84.3806365
+    },
+    {
+      "type": "node",
+      "id": 2545086404,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "cuisine": "coffee_shop",
+        "name": "Caribou Coffee",
+        "takeaway": "yes"
+      },
+      "lat": 33.63766,
+      "lon": -84.4392807
+    },
+    {
+      "type": "node",
+      "id": 2924606872,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "cuisine": "coffee_shop",
+        "indoor_seating": "yes",
+        "name": "Caribou Coffee",
+        "outdoor_seating": "no",
+        "takeaway": "yes"
+      },
+      "lat": 33.6408524,
+      "lon": -84.4255666
+    },
+    {
+      "type": "node",
+      "id": 13822271220,
+      "tags": {
+        "addr:floor": "G",
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "check_date": "2026-05-12",
+        "cuisine": "coffee_shop",
+        "level": "0",
+        "name": "Caribou Coffee",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 34.1481946,
+      "lon": -84.1740604
+    },
+    {
+      "type": "way",
+      "id": 298170920,
+      "tags": {
+        "addr:housenumber": "3280",
+        "addr:street": "Barrett Lakes Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "building": "retail",
+        "check_date": "2024-05-23",
+        "cuisine": "coffee_shop;breakfast",
+        "delivery": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Caribou Coffee",
+        "opening_hours": "Mo-Fr 05:00-20:00; Sa-Su 06:00-20:00",
+        "operator": "Caribou Coffee",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 678-890-0737",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://locations.cariboucoffee.com/us/ga/kennesaw/3280-barrett-lakes-blvd-nw",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 34.032415900000004,
+        "lon": -84.57878525000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 311052972,
+      "tags": {
+        "addr:city": "Athens",
+        "addr:housenumber": "2198",
+        "addr:postcode": "30606",
+        "addr:street": "West Broad Street",
+        "amenity": "cafe",
+        "branch": "Drive In",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "Caribou Coffee",
+        "phone": "+1-706-932-1470",
+        "ref:athensclarkeaddress": "30100",
+        "takeaway": "yes",
+        "website": "https://locations.cariboucoffee.com/us/ga/athens/2198-west-broad-street"
+      },
+      "center": {
+        "lat": 33.95021705,
+        "lon": -83.40940194999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 388492249,
+      "tags": {
+        "addr:city": "Lawrenceville",
+        "addr:housenumber": "919",
+        "addr:postcode": "30043",
+        "addr:state": "GA",
+        "addr:street": "Buford Drive",
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "building": "yes",
+        "check_date": "2022-10-10",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Caribou Coffee",
+        "opening_hours": "Mo-Su 06:00-18:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-470-853-2277",
+        "takeaway": "yes",
+        "website": "https://locations.cariboucoffee.com/us/ga/lawrenceville/919-buford-drive",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 33.98732725,
+        "lon": -83.98400755
+      }
+    }
+  ]
+}

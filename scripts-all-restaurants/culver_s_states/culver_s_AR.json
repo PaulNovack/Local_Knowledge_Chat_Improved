@@ -1,0 +1,90 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "culver_s",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12781980861,
+      "tags": {
+        "addr:city": "Bentonville",
+        "addr:country": "US",
+        "addr:housenumber": "1003",
+        "addr:postcode": "72712",
+        "addr:state": "AR",
+        "addr:street": "South Walton Boulevard",
+        "amenity": "fast_food",
+        "branch": "Bentonville, AR - Walton Blvd",
+        "brand": "Culver's",
+        "brand:wikidata": "Q1143589",
+        "check_date:opening_hours": "2025-04-23",
+        "check_date:opening_hours:drive_through": "2025-04-23",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Culver's",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 10:30-22:00",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 479-364-0651",
+        "ref": "915",
+        "takeaway": "no",
+        "toilets": "yes",
+        "website": "https://www.culvers.com/restaurants/bentonville-walton-blvd"
+      },
+      "lat": 36.3610992,
+      "lon": -94.2164001
+    },
+    {
+      "type": "way",
+      "id": 1284926342,
+      "tags": {
+        "addr:city": "Rogers",
+        "addr:country": "US",
+        "addr:housenumber": "4204",
+        "addr:postcode": "72758",
+        "addr:state": "AR",
+        "addr:street": "West New Hope Road",
+        "amenity": "fast_food",
+        "branch": "Rogers, AR - New Hope Rd",
+        "brand": "Culver's",
+        "brand:wikidata": "Q1143589",
+        "building": "yes",
+        "check_date:opening_hours": "2024-06-09",
+        "check_date:opening_hours:drive_through": "2024-06-09",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Culver's",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 10:30-22:00",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 479-372-6028",
+        "ref": "873",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://www.culvers.com/restaurants/rogers-ar-new-hope-rd"
+      },
+      "center": {
+        "lat": 36.3132127,
+        "lon": -94.17746090000003
+      }
+    }
+  ]
+}

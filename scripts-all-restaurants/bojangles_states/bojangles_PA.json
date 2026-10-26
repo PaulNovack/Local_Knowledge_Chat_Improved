@@ -1,0 +1,75 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "bojangles",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 604741093,
+      "tags": {
+        "addr:city": "Reading",
+        "addr:housenumber": "3215",
+        "addr:postcode": "19605",
+        "addr:state": "PA",
+        "addr:street": "North 5th Street Highway",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "check_date": "2023-10-20",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Mo-Th,Su 09:00-22:00; Fr-Sa 09:00-22:30",
+        "phone": "+1 610-929-8033",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/pa/reading/3215-n--5th-street-highway.html"
+      },
+      "center": {
+        "lat": 40.3818347,
+        "lon": -75.92696390000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1206760180,
+      "tags": {
+        "addr:city": "Quakertown",
+        "addr:housenumber": "85",
+        "addr:postcode": "18951",
+        "addr:state": "PA",
+        "addr:street": "South West End Boulevard",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "check_date": "2026-01-29",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Mo-We 07:00-22:00; Th-Su 07:00-23:00",
+        "phone": "+1 267-227-3070",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/pa/quakertown/85-s-west-end-blvd.html"
+      },
+      "center": {
+        "lat": 40.441354000000004,
+        "lon": -75.35640384999999
+      }
+    }
+  ]
+}

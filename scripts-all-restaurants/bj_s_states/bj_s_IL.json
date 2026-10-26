@@ -1,0 +1,94 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "bj_s",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2322673320,
+      "tags": {
+        "amenity": "fast_food",
+        "check_date": "2026-06-14",
+        "cuisine": "regional",
+        "level": "1",
+        "name": "BJ's Market & Bakery",
+        "not:brand:wikidata": "Q4835755"
+      },
+      "lat": 41.9743026,
+      "lon": -87.8971599
+    },
+    {
+      "type": "node",
+      "id": 11300504659,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "1737",
+        "addr:postcode": "60617",
+        "addr:state": "IL",
+        "addr:street": "East 95th Street",
+        "amenity": "restaurant",
+        "cuisine": "soul_food",
+        "name": "BJ's Market & Bakery",
+        "not:brand:wikidata": "Q4835755",
+        "shop": "bakery",
+        "website": "https://bjsmarket.com/"
+      },
+      "lat": 41.7214335,
+      "lon": -87.5812959
+    },
+    {
+      "type": "way",
+      "id": 200196978,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "source": "Bing",
+        "source:name": "local_knowledge"
+      },
+      "center": {
+        "lat": 39.7234126,
+        "lon": -90.2678032
+      }
+    },
+    {
+      "type": "way",
+      "id": 1336317642,
+      "tags": {
+        "addr:city": "Orland Park",
+        "addr:housenumber": "15081",
+        "addr:postcode": "60462",
+        "addr:state": "IL",
+        "addr:street": "South La Grange Road",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "retail",
+        "check_date": "2023-01-10",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse"
+      },
+      "center": {
+        "lat": 41.6164743,
+        "lon": -87.85261455
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "LA",
+    "brand": "twin_peaks",
+    "source": "https://download.geofabrik.de/north-america/us/louisiana-latest.osm.pbf",
+    "source_md5": "2e108953505ee82f68e2a6e7a3e4f783",
+    "processed_utc": "2026-10-24T07:05:17.318731+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3891167455,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "cuisine": "american",
+        "name": "Twin Peaks"
+      },
+      "lat": 29.6074875,
+      "lon": -90.7462194
+    },
+    {
+      "type": "way",
+      "id": 1009005907,
+      "tags": {
+        "addr:city": "Lafayette",
+        "addr:housenumber": "5801",
+        "addr:postcode": "70503",
+        "addr:state": "LA",
+        "addr:street": "Johnston Street",
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Twin Peaks"
+      },
+      "center": {
+        "lat": 30.1708623,
+        "lon": -92.08035710000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1495986825,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Twin Peaks"
+      },
+      "center": {
+        "lat": 30.3860066,
+        "lon": -91.06433665000003
+      }
+    }
+  ]
+}

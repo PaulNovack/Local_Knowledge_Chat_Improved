@@ -1,0 +1,37 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "hungry_howie_s",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 544021121,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Hungry Howie's",
+        "brand:wikidata": "Q16985303",
+        "building": "yes",
+        "cuisine": "pizza",
+        "disused:amenity": "fast_food",
+        "name": "Hungry Howie's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.48662215,
+        "lon": -82.13609335000001
+      }
+    }
+  ]
+}

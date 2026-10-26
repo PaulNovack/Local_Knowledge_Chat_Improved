@@ -1,0 +1,150 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "7_brew",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13184083089,
+      "tags": {
+        "addr:city": "Alamosa",
+        "addr:country": "US",
+        "addr:housenumber": "2209",
+        "addr:postcode": "81101",
+        "addr:state": "CO",
+        "addr:street": "Main Street",
+        "amenity": "cafe",
+        "branch": "Alamosa",
+        "brand": "7 Brew",
+        "brand:website": "https://7brew.com",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "email": "info@7brew.com",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:gift_card": "yes",
+        "phone": "+1 720-983-1120",
+        "website": "https://7brew.com/location/colorado-alamosa-000196",
+        "website:menu": "https://7brew.com/menu"
+      },
+      "lat": 37.473943,
+      "lon": -105.8905431
+    },
+    {
+      "type": "node",
+      "id": 13184657036,
+      "tags": {
+        "addr:city": "Aurora",
+        "addr:country": "US",
+        "addr:housenumber": "13792",
+        "addr:postcode": "80012",
+        "addr:state": "CO",
+        "addr:street": "East Mississippi Avenue",
+        "amenity": "cafe",
+        "branch": "Augusta",
+        "brand": "7 Brew",
+        "brand:website": "https://7brew.com",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "email": "info@7brew.com",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:gift_card": "yes",
+        "phone": "+1 720-983-1120",
+        "website": "https://7brew.com/location/colorado-aurora-000353",
+        "website:menu": "https://7brew.com/menu"
+      },
+      "lat": 39.6962566,
+      "lon": -104.830631
+    },
+    {
+      "type": "node",
+      "id": 14098085034,
+      "tags": {
+        "addr:city": "Firestone",
+        "addr:housenumber": "4295",
+        "addr:postcode": "80504",
+        "addr:state": "CO",
+        "addr:street": "Firestone Boulevard",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew",
+        "takeaway": "yes",
+        "website": "https://locations.7brew.com/co/firestone/4295-firestone-blvd"
+      },
+      "lat": 40.1611168,
+      "lon": -104.9740112
+    },
+    {
+      "type": "way",
+      "id": 1315438243,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "3806",
+        "addr:postcode": "80909",
+        "addr:state": "CO",
+        "addr:street": "Maizeland Road",
+        "amenity": "cafe",
+        "building": "commercial",
+        "check_date": "2025-07-20",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "email": "info@7brew.com",
+        "name": "7 Brew Coffee",
+        "opening_hours:drive_through": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00",
+        "outdoor_seating": "no",
+        "phone": "+1-719-937-7450",
+        "website": "https://7brew.com/location/colorado-colorado-springs-000226"
+      },
+      "center": {
+        "lat": 38.86815295,
+        "lon": -104.75668129999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1493851454,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "layer": "1",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.463235049999994,
+        "lon": -107.86668925000004
+      }
+    }
+  ]
+}

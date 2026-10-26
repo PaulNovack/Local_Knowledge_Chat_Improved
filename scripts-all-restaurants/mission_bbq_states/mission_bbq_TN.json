@@ -1,0 +1,72 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TN",
+    "brand": "mission_bbq",
+    "source": "https://download.geofabrik.de/north-america/us/tennessee-latest.osm.pbf",
+    "source_md5": "a047c5da6c897a8a98b1fc4a282b8d3f",
+    "processed_utc": "2026-10-24T07:16:20.210730+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8553652539,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ"
+      },
+      "lat": 35.8587538,
+      "lon": -86.4378072
+    },
+    {
+      "type": "way",
+      "id": 827725292,
+      "tags": {
+        "addr:city": "Chattanooga",
+        "addr:housenumber": "1926",
+        "addr:postcode": "37421",
+        "addr:street": "Gunbarrel Road",
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "check_date": "2026-05-19",
+        "check_date:opening_hours": "2026-05-19",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ",
+        "opening_hours": "Mo-Sa 11:00-21:00; Su 11:30-20:00",
+        "phone": "+1-423-933-3098",
+        "roof:levels": "1",
+        "roof:shape": "flat",
+        "website": "https://mission-bbq.com/locations-and-menu/chattanooga-tn/"
+      },
+      "center": {
+        "lat": 35.0292137,
+        "lon": -85.15528970000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1051371042,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ"
+      },
+      "center": {
+        "lat": 36.204816750000006,
+        "lon": -86.69168035000001
+      }
+    }
+  ]
+}

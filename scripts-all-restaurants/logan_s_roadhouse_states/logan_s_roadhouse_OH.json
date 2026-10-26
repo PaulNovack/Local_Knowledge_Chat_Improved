@@ -1,0 +1,68 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "logan_s_roadhouse",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 169677680,
+      "tags": {
+        "addr:city": "Cincinnati",
+        "addr:country": "US",
+        "addr:housenumber": "3720",
+        "addr:postcode": "45251",
+        "addr:state": "OH",
+        "addr:street": "Stone Creek Boulevard",
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse",
+        "opening_hours": "Su-Th 11:00-22:00; Fr,Sa 11:00-23:00",
+        "phone": "+1 513 923 3700",
+        "website": "https://locations.logansroadhouse.com/ll/US/OH/Cincinnati/3720-Stone-Creek-Boulevard"
+      },
+      "center": {
+        "lat": 39.25368375,
+        "lon": -84.60380850000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 516990634,
+      "tags": {
+        "addr:city": "Ontario",
+        "addr:housenumber": "2170",
+        "addr:postcode": "44906",
+        "addr:state": "OH",
+        "addr:street": "West 4th Street",
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-419-529-8599",
+        "website": "https://logansroadhouse.com"
+      },
+      "center": {
+        "lat": 40.77325545,
+        "lon": -82.59289485
+      }
+    }
+  ]
+}

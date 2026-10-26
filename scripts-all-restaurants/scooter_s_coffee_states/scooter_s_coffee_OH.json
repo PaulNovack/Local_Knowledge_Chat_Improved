@@ -1,0 +1,81 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "scooter_s_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12119377376,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "cuisine": "coffee_shop",
+        "name": "Scooter's Coffee",
+        "takeaway": "yes"
+      },
+      "lat": 41.0718947,
+      "lon": -81.4903751
+    },
+    {
+      "type": "way",
+      "id": 1190165147,
+      "tags": {
+        "addr:city": "Lancaster",
+        "addr:country": "US",
+        "addr:housenumber": "1260",
+        "addr:postcode": "43130",
+        "addr:state": "OH",
+        "addr:street": "North Memorial Drive",
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "building": "retail",
+        "cuisine": "coffee_shop",
+        "name": "Scooter's Coffee",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.7291711,
+        "lon": -82.61089064999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1550355253,
+      "tags": {
+        "addr:city": "Marysville",
+        "addr:housenumber": "17769",
+        "addr:postcode": "43040",
+        "addr:state": "OH",
+        "addr:street": "State Route 31",
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Scooter's Coffee",
+        "opening_hours": "Mo-Fr 05:00-20:00; Sa-Su 06:00-20:00",
+        "phone": "+19375539189",
+        "takeaway": "yes",
+        "website": "https://scooterscoffee.com/"
+      },
+      "center": {
+        "lat": 40.25722395,
+        "lon": -83.37411665000002
+      }
+    }
+  ]
+}

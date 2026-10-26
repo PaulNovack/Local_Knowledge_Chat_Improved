@@ -1,0 +1,78 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "caribou_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2195275125,
+      "tags": {
+        "addr:city": "Stillwater",
+        "addr:postcode": "74078",
+        "addr:state": "OK",
+        "addr:unit": "125",
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "cuisine": "coffee_shop",
+        "name": "Caribou Coffee",
+        "opening_hours": "Mo-Th 07:30-22:00, Fr 07:30-15:00, Su 15:00-21:00",
+        "phone": "+1-405-744-2911",
+        "takeaway": "yes",
+        "website": "https://locations.cariboucoffee.com/us/ok/stillwater/470-student-union",
+        "wheelchair": "yes"
+      },
+      "lat": 36.1213019,
+      "lon": -97.0685917
+    },
+    {
+      "type": "node",
+      "id": 5462490322,
+      "tags": {
+        "access": "permit",
+        "addr:city": "Tulsa",
+        "addr:housenumber": "7777",
+        "addr:postcode": "74115",
+        "addr:state": "OK",
+        "addr:street": "East Apache Street",
+        "airside": "yes",
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "cuisine": "coffee_shop",
+        "level": "1",
+        "name": "Caribou Coffee",
+        "permit": "boarding_pass",
+        "takeaway": "yes"
+      },
+      "lat": 36.1908732,
+      "lon": -95.8872569
+    },
+    {
+      "type": "node",
+      "id": 14156573575,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "cuisine": "coffee_shop",
+        "name": "Caribou Coffee",
+        "takeaway": "yes"
+      },
+      "lat": 36.1234563,
+      "lon": -97.0749162
+    }
+  ]
+}

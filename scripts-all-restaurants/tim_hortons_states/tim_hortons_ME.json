@@ -1,0 +1,207 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ME",
+    "brand": "tim_hortons",
+    "source": "https://download.geofabrik.de/north-america/us/maine-latest.osm.pbf",
+    "source_md5": "561ab4eba7b10f360a72f8484b6f08c3",
+    "processed_utc": "2026-10-24T07:05:33.375896+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1769664435,
+      "tags": {
+        "addr:city": "Houlton",
+        "addr:housenumber": "290",
+        "addr:postcode": "04730-3530",
+        "addr:state": "ME",
+        "addr:street": "North Street",
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "cuisine": "coffee_shop",
+        "delivery": "no",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Tim Hortons",
+        "opening_hours": "Mo-We 05:00-18:00; Fr-Su 05:00-18:00",
+        "phone": "+1 207-521-0100",
+        "takeaway": "yes"
+      },
+      "lat": 46.1450351,
+      "lon": -67.8410593
+    },
+    {
+      "type": "node",
+      "id": 4069784637,
+      "tags": {
+        "addr:city": "Bangor",
+        "addr:housenumber": "301",
+        "addr:postcode": "04401-6703",
+        "addr:state": "ME",
+        "addr:street": "Odlin Road",
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "cuisine": "coffee_shop",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Tim Hortons",
+        "opening_hours": "Mo-We 05:00-19:00; Fr 05:00-19:00; Sa 06:00-19:00; Su 07:00-15:00",
+        "phone": "+1 207-942-0400",
+        "takeaway": "yes"
+      },
+      "lat": 44.790656,
+      "lon": -68.811218
+    },
+    {
+      "type": "way",
+      "id": 186842028,
+      "tags": {
+        "addr:city": "Presque Isle",
+        "addr:housenumber": "779",
+        "addr:postcode": "04769",
+        "addr:state": "ME",
+        "addr:street": "Main Street",
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Tim Hortons",
+        "opening_hours": "24/7",
+        "phone": "+1 207-760-9158",
+        "source": "common knowledge",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 46.69743125,
+        "lon": -68.01197385
+      }
+    },
+    {
+      "type": "way",
+      "id": 443685915,
+      "tags": {
+        "addr:city": "Biddeford",
+        "addr:housenumber": "426",
+        "addr:postcode": "04005",
+        "addr:state": "ME",
+        "addr:street": "Alfred Street",
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Tim Hortons",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 43.481589400000004,
+        "lon": -70.48021625000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 499904880,
+      "tags": {
+        "addr:city": "Caribou",
+        "addr:housenumber": "109",
+        "addr:postcode": "04736",
+        "addr:state": "ME",
+        "addr:street": "Bennett Drive",
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Tim Hortons",
+        "opening_hours": "Mo-We 04:30-22:00; Fr-Su 04:30-22:00",
+        "phone": "+1 207-492-0363",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 46.86836745,
+        "lon": -68.00403849999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 509001765,
+      "tags": {
+        "addr:city": "Brewer",
+        "addr:housenumber": "299",
+        "addr:postcode": "04412",
+        "addr:state": "ME",
+        "addr:street": "Chamberlain Street",
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "building": "retail",
+        "cuisine": "coffee_shop",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Tim Hortons",
+        "opening_hours": "Mo-We 05:00-19:00; Fr-Su 05:00-19:00",
+        "phone": "+1 207-989-6319",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 44.784739900000005,
+        "lon": -68.7512226
+      }
+    },
+    {
+      "type": "way",
+      "id": 928852772,
+      "tags": {
+        "addr:city": "Madawaska",
+        "addr:housenumber": "229",
+        "addr:postcode": "04756-1425",
+        "addr:state": "ME",
+        "addr:street": "Main Street",
+        "amenity": "cafe",
+        "brand": "Tim Hortons",
+        "brand:wikidata": "Q175106",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Tim Hortons",
+        "opening_hours": "Mo-We 04:30-22:00; Fr-Su 04:30-22:00",
+        "phone": "+1 207-728-3565",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 47.35605005,
+        "lon": -68.33168475000002
+      }
+    }
+  ]
+}

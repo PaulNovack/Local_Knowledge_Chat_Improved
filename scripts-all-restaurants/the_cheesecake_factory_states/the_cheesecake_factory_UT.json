@@ -1,0 +1,92 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "the_cheesecake_factory",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2327662145,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:country": "US",
+        "addr:housenumber": "65",
+        "addr:postcode": "84111",
+        "addr:state": "UT",
+        "addr:street": "South Regent Street",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "cuisine": "american",
+        "delivery": "yes",
+        "level": "0",
+        "name": "The Cheesecake Factory",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr-Sa 11:00-22:00; Su 10:00-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-801-521-1732",
+        "reservation": "yes",
+        "smoking": "outside",
+        "source": "Bing;website",
+        "takeaway": "yes",
+        "website": "https://www.thecheesecakefactory.com/",
+        "wheelchair": "yes"
+      },
+      "lat": 40.7676044,
+      "lon": -111.889609
+    },
+    {
+      "type": "node",
+      "id": 2328396014,
+      "tags": {
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "check_date": "2022-10-05",
+        "cuisine": "american",
+        "fixme": "The meat-on-a-stick place opened at this postal address. Does that mean Cheesecake Fattory closed or are they close neighbors?",
+        "name": "The Cheesecake Factory",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr 11:00-24:00; Sa 10:00-24:00; Su 10:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 40.6354006,
+      "lon": -111.8879422
+    },
+    {
+      "type": "node",
+      "id": 12479825454,
+      "tags": {
+        "addr:city": "Orem",
+        "addr:housenumber": "575",
+        "addr:postcode": "84097",
+        "addr:state": "UT",
+        "addr:street": "University Parkway",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory",
+        "phone": "+1-385-476-5521",
+        "website": "https://locations.thecheesecakefactory.com/ut/orem-227.html"
+      },
+      "lat": 40.2747,
+      "lon": -111.6827401
+    }
+  ]
+}

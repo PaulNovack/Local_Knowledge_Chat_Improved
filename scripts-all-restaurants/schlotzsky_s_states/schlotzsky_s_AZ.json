@@ -1,0 +1,212 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "schlotzsky_s",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13724494516,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's",
+        "takeaway": "yes"
+      },
+      "lat": 33.3340047,
+      "lon": -111.6866512
+    },
+    {
+      "type": "way",
+      "id": 31973152,
+      "tags": {
+        "addr:city": "Goodyear",
+        "addr:housenumber": "395",
+        "addr:postcode": "85338",
+        "addr:state": "AZ",
+        "addr:street": "North Litchfield Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Schlotzsky's",
+        "phone": "+1-623-925-2009",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.451492349999995,
+        "lon": -112.35756070000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 32000405,
+      "tags": {
+        "addr:city": "Sierra Vista",
+        "addr:housenumber": "3900",
+        "addr:postcode": "85635",
+        "addr:state": "AZ",
+        "addr:street": "East Fry Boulevard",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's",
+        "phone": "+1-520-458-4022",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 31.55411505,
+        "lon": -110.2585952
+      }
+    },
+    {
+      "type": "way",
+      "id": 258599186,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "1520",
+        "addr:postcode": "85023",
+        "addr:state": "AZ",
+        "addr:street": "West Bell Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Schlotzsky's",
+        "phone": "+1-602-472-3500",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.640587249999996,
+        "lon": -112.09189755
+      }
+    },
+    {
+      "type": "way",
+      "id": 511637735,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "408",
+        "addr:postcode": "85210",
+        "addr:state": "AZ",
+        "addr:street": "West Juanita Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "phone": "+1-480-833-6540",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes",
+        "website": "https://locations.schlotzskys.com/az/mesa/408-w-juanita-ave"
+      },
+      "center": {
+        "lat": 33.38275659999999,
+        "lon": -111.84063685000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 583066559,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "3270",
+        "addr:postcode": "85706",
+        "addr:state": "AZ",
+        "addr:street": "East Valencia Road",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's",
+        "phone": "+1-520-741-2333",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.1336465,
+        "lon": -110.92238394999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 938218836,
+      "tags": {
+        "addr:city": "Tempe",
+        "addr:housenumber": "1401",
+        "addr:postcode": "85282",
+        "addr:state": "AZ",
+        "addr:street": "West Southern Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "building": "yes",
+        "check_date": "2025-02-12",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Schlotzsky's",
+        "opening_hours": "Mo-Sa 06:00-21:00; Su 09:00-20:00",
+        "phone": "+1-480-966-7672",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://www.schlotzskys.com/find-your-schlotzskys/arizona/tempe/1007/"
+      },
+      "center": {
+        "lat": 33.3924263,
+        "lon": -111.96116434999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1155601773,
+      "tags": {
+        "addr:city": "Scottsdale",
+        "addr:country": "US",
+        "addr:housenumber": "10070",
+        "addr:postcode": "85258",
+        "addr:state": "AZ",
+        "addr:street": "North 90th Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "building": "retail",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.57780405,
+        "lon": -111.88657280000001
+      }
+    }
+  ]
+}

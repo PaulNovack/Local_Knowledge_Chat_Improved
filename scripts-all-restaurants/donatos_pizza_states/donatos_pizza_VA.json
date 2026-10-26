@@ -1,0 +1,63 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "donatos_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5440632243,
+      "tags": {
+        "addr:city": "Newport News",
+        "addr:housenumber": "12515",
+        "addr:postcode": "23602",
+        "addr:state": "VA",
+        "addr:street": "Jefferson Avenue",
+        "addr:unit": "100",
+        "amenity": "restaurant",
+        "brand": "Donatos Pizza",
+        "brand:wikidata": "Q1240741",
+        "cuisine": "pizza",
+        "name": "Donatos Pizza",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-757-525-4944",
+        "takeaway": "yes",
+        "website": "https://donatos.com/location/jefferson-marketplace"
+      },
+      "lat": 37.1266498,
+      "lon": -76.5113649
+    },
+    {
+      "type": "node",
+      "id": 12349701720,
+      "tags": {
+        "addr:city": "Virginia Beach",
+        "addr:housenumber": "1833",
+        "addr:postcode": "23454",
+        "addr:state": "VA",
+        "addr:street": "Republic Road",
+        "amenity": "restaurant",
+        "brand": "Donatos Pizza",
+        "brand:wikidata": "Q1240741",
+        "cuisine": "pizza",
+        "name": "Donatos Pizza",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://www.donatos.com/"
+      },
+      "lat": 36.850389,
+      "lon": -76.0268283
+    }
+  ]
+}

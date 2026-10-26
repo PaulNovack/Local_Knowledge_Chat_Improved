@@ -1,0 +1,82 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "carrabba_s_italian_grill",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 200861517,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Carrabba's Italian Grill",
+        "brand:wikidata": "Q5045999",
+        "building": "retail",
+        "cuisine": "italian",
+        "name": "Carrabba's Italian Grill"
+      },
+      "center": {
+        "lat": 41.69898705,
+        "lon": -86.1842383
+      }
+    },
+    {
+      "type": "way",
+      "id": 802538587,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "4690",
+        "addr:postcode": "46237",
+        "addr:state": "IN",
+        "addr:street": "Southport Crossings Drive",
+        "amenity": "restaurant",
+        "brand": "Carrabba's Italian Grill",
+        "brand:wikidata": "Q5045999",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Carrabba's Italian Grill",
+        "opening_hours": "Mo-Sa 11:00-22:00; Su 11:00-21:00",
+        "phone": "+1-317-881-4008",
+        "source": "esri/Indianapolis_IN_Buildings",
+        "website": "https://locations.carrabbas.com/indiana/southport/4690-southport-crossing-drive"
+      },
+      "center": {
+        "lat": 39.66367545,
+        "lon": -86.08806605000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 920591217,
+      "tags": {
+        "addr:city": "Schererville",
+        "addr:housenumber": "49",
+        "addr:postcode": "46375",
+        "addr:state": "IN",
+        "addr:street": "Indianapolis Boulevard",
+        "amenity": "restaurant",
+        "brand": "Carrabba's Italian Grill",
+        "brand:wikidata": "Q5045999",
+        "building": "retail",
+        "cuisine": "italian",
+        "name": "Carrabba's Italian Grill",
+        "website": "https://locations.carrabbas.com/indiana/schererville/49-us-41"
+      },
+      "center": {
+        "lat": 41.521874100000005,
+        "lon": -87.47063049999997
+      }
+    }
+  ]
+}

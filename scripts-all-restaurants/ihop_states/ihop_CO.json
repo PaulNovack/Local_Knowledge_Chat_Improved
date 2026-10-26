@@ -1,0 +1,842 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "ihop",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 584330237,
+      "tags": {
+        "addr:city": "Greenwood Village",
+        "addr:housenumber": "7017",
+        "addr:postcode": "80112",
+        "addr:state": "CO",
+        "addr:street": "South Clinton Street",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "restaurant",
+        "check_date": "2025-10-12",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1-303-790-1818",
+        "website": "https://restaurants.ihop.com/en-us/co/greenwood-village/breakfast-7017-s-clinton-st-1818"
+      },
+      "lat": 39.5889469,
+      "lon": -104.880596
+    },
+    {
+      "type": "node",
+      "id": 2108425281,
+      "tags": {
+        "addr:city": "Boulder",
+        "addr:housenumber": "1675",
+        "addr:postcode": "80301",
+        "addr:state": "CO",
+        "addr:street": "28th Street",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1-303-444-2115",
+        "website": "https://restaurants.ihop.com/en-us/co/boulder/breakfast-1675-28th-st-1836"
+      },
+      "lat": 40.016242,
+      "lon": -105.2588884
+    },
+    {
+      "type": "node",
+      "id": 2494414591,
+      "tags": {
+        "addr:city": "Limon",
+        "addr:housenumber": "2495",
+        "addr:postcode": "80828",
+        "addr:state": "CO",
+        "addr:street": "Williams Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-09-22",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1 719-775-9032",
+        "source": "official website",
+        "website": "https://restaurants.ihop.com/en-us/co/limon/breakfast-2495-william-ave-2101"
+      },
+      "lat": 39.2750848,
+      "lon": -103.7088037
+    },
+    {
+      "type": "node",
+      "id": 4236839305,
+      "tags": {
+        "addr:city": "Canon City",
+        "addr:housenumber": "108",
+        "addr:postcode": "81212",
+        "addr:state": "CO",
+        "addr:street": "Latigo Lane",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-09-15",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "07:00-22:00",
+        "phone": "+1 719-275-2111",
+        "source": "official website",
+        "website": "https://restaurants.ihop.com/en-us/co/canon-city/breakfast-108-latigo-lane-3514"
+      },
+      "lat": 38.4476448,
+      "lon": -105.1817911
+    },
+    {
+      "type": "node",
+      "id": 6765410098,
+      "tags": {
+        "addr:city": "Aurora",
+        "addr:housenumber": "13650",
+        "addr:postcode": "80011",
+        "addr:state": "CO",
+        "addr:street": "East Colfax Avenue",
+        "addr:unit": "L",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2025-10-12",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1-303-341-7125",
+        "website": "https://restaurants.ihop.com/en-us/co/aurora/breakfast-13650-e.-colfax-ave-3584"
+      },
+      "lat": 39.7398886,
+      "lon": -104.8291481
+    },
+    {
+      "type": "node",
+      "id": 11047443091,
+      "tags": {
+        "addr:city": "Aurora",
+        "addr:housenumber": "12101",
+        "addr:postcode": "80014",
+        "addr:state": "CO",
+        "addr:street": "East Dartmouth Avenue",
+        "addr:unit": "600",
+        "alt_name": "International House of Pancakes",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1-720-756-2990",
+        "website": "https://restaurants.ihop.com/en-us/co/aurora/breakfast-12101-east-dartmouth-avenue-3803"
+      },
+      "lat": 39.6605588,
+      "lon": -104.846044
+    },
+    {
+      "type": "way",
+      "id": 39158569,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "check_date": "2026-09-06",
+        "cuisine": "breakfast;indian;pancake",
+        "name": "Mausam"
+      },
+      "center": {
+        "lat": 38.8547242,
+        "lon": -104.8752422
+      }
+    },
+    {
+      "type": "way",
+      "id": 39994554,
+      "tags": {
+        "addr:city": "Highlands Ranch",
+        "addr:housenumber": "9565",
+        "addr:postcode": "80126",
+        "addr:state": "CO",
+        "addr:street": "South University Boulevard",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Su-Th 06:00-22:00, Fr-Sa 06:00-24:00",
+        "phone": "+1-720-344-7383",
+        "smoking": "no"
+      },
+      "center": {
+        "lat": 39.54275375,
+        "lon": -104.94160305000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 42120650,
+      "tags": {
+        "addr:city": "Littleton",
+        "addr:housenumber": "7733",
+        "addr:postcode": "80123",
+        "addr:state": "CO",
+        "addr:street": "West Long Drive",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 39.611227299999996,
+        "lon": -105.08251869999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 45711754,
+      "tags": {
+        "addr:city": "Northglenn",
+        "addr:housenumber": "221",
+        "addr:postcode": "80234",
+        "addr:state": "CO",
+        "addr:street": "West 104th Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "restaurant",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1-303-252-0942",
+        "website": "https://restaurants.ihop.com/en-us/co/northglenn/breakfast-221-w.-104th-ave-3581"
+      },
+      "center": {
+        "lat": 39.88576035,
+        "lon": -104.9893831
+      }
+    },
+    {
+      "type": "way",
+      "id": 51442436,
+      "tags": {
+        "addr:city": "Lakewood",
+        "addr:housenumber": "389",
+        "addr:postcode": "80226",
+        "addr:state": "CO",
+        "addr:street": "South Wadsworth Boulevard",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no",
+        "phone": "+1-720-974-0757",
+        "website": "https://restaurants.ihop.com/en-us/co/lakewood/breakfast-389-s.-wadsworth-blvd-3519"
+      },
+      "center": {
+        "lat": 39.7094931,
+        "lon": -105.08296934999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 130807112,
+      "tags": {
+        "addr:city": "Denver",
+        "addr:housenumber": "3730",
+        "addr:postcode": "80207",
+        "addr:state": "CO",
+        "addr:street": "North Quebec Street",
+        "alt_name": "International House of Pancakes",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "restaurant",
+        "building:levels": "1",
+        "cuisine": "breakfast;pancake",
+        "internet_access": "wlan",
+        "name": "IHOP",
+        "old_name": "International House of Pancakes",
+        "opening_hours": "24/7",
+        "phone": "+1-303-399-4646",
+        "website": "https://restaurants.ihop.com/en-us/co/denver/breakfast-3730-quebec-st-1840"
+      },
+      "center": {
+        "lat": 39.7691434,
+        "lon": -104.90108685000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 138671794,
+      "tags": {
+        "addr:city": "Superior",
+        "addr:postcode": "80027",
+        "addr:state": "CO",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "mapillary": "1165520443893394",
+        "name": "IHOP",
+        "opening_hours": "06:00-21:00"
+      },
+      "center": {
+        "lat": 39.95793795,
+        "lon": -105.17054365000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 177853364,
+      "tags": {
+        "addr:city": "Fort Collins",
+        "addr:housenumber": "1502",
+        "addr:postcode": "80525-7305",
+        "addr:state": "CO",
+        "addr:street": "Oakridge Drive",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "contact:phone": "+1-970-226-3154",
+        "contact:website": "http://www.ihop.com",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Th 06:00-22:00; Fr-Sa 06:00-03:00, Su 06:00-22:00"
+      },
+      "center": {
+        "lat": 40.523120399999996,
+        "lon": -105.0520075
+      }
+    },
+    {
+      "type": "way",
+      "id": 193057501,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "512",
+        "addr:postcode": "80909",
+        "addr:street": "North Chelton Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "delivery": "no",
+        "level": "0",
+        "name": "IHOP",
+        "roof:colour": "blue",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.8405571,
+        "lon": -104.76696329999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 199298907,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "5749",
+        "addr:postcode": "80917",
+        "addr:street": "Stetson Hills Boulevard",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 38.9105299,
+        "lon": -104.72153575000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 208493994,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 38.870895649999994,
+        "lon": -104.71662939999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 208620612,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "8065",
+        "addr:postcode": "80920",
+        "addr:state": "CO",
+        "addr:street": "North Academy Boulevard",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2026-06-18",
+        "cuisine": "breakfast;pancake",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "IHOP",
+        "name:en": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1-719-264-0469",
+        "roof:levels": "0",
+        "website": "https://restaurants.ihop.com/en-us/co/colorado-springs/breakfast-8065-n-academy-blvd-1820",
+        "website:menu": "https://www.ihop.com/en/menu?StoreNumber=1820&action=viewmenu"
+      },
+      "center": {
+        "lat": 38.948245400000005,
+        "lon": -104.80269305000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 209302987,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "2290",
+        "addr:postcode": "80906",
+        "addr:state": "CO",
+        "addr:street": "Southgate Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "check_date": "2026-05-25",
+        "cuisine": "breakfast;pancake",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "outdoor_seating": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 719-635-0777",
+        "website": "https://www.ihop.com/en/menu?StoreNumber=1827&action=viewmenu"
+      },
+      "center": {
+        "lat": 38.7985171,
+        "lon": -104.81813414999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 222835249,
+      "tags": {
+        "addr:city": "Castle Rock",
+        "addr:housenumber": "575",
+        "addr:postcode": "80109",
+        "addr:state": "CO",
+        "addr:street": "Genoa Way",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "breakfast;pancake",
+        "level": "0",
+        "name": "IHOP",
+        "opening_hours": "Mo-Th 07:00-22:00; Fr-Sa 07:00-12:00",
+        "phone": "+1-303-814-2246",
+        "source": "Bing",
+        "website": "https://restaurants.ihop.com/en-us/co/castle-rock/breakfast-575-genoa-way-1825"
+      },
+      "center": {
+        "lat": 39.410651200000004,
+        "lon": -104.86838560000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 224011286,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 39.792833200000004,
+        "lon": -105.07974680000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 230389601,
+      "tags": {
+        "addr:city": "Grand Junction",
+        "addr:housenumber": "2420",
+        "addr:postcode": "81505",
+        "addr:state": "CO",
+        "addr:street": "US Highway 6 and 50",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "check_date": "2025-05-12",
+        "cuisine": "breakfast;pancake",
+        "indoor_seating": "yes",
+        "name": "IHOP",
+        "opening_hours": "Mo-Th 05:00-22:00; Fr-Sa 05:00-24:00; Su 05:00-22:00",
+        "outdoor_seating": "no",
+        "phone": "+1 970 248 9559",
+        "source": "bing",
+        "website": "https://restaurants.ihop.com/en-us/co/grand-junction/breakfast-2420-hwy-6-and-50-1837"
+      },
+      "center": {
+        "lat": 39.0905537,
+        "lon": -108.60480439999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 247975049,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 40.40778085,
+        "lon": -104.99820325000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 257505704,
+      "tags": {
+        "addr:city": "Parker",
+        "addr:housenumber": "11133",
+        "addr:postcode": "80134",
+        "addr:state": "CO",
+        "addr:street": "South Parker Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "phone": "+1-720-851-8121"
+      },
+      "center": {
+        "lat": 39.51259315,
+        "lon": -104.76479885000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 265540810,
+      "tags": {
+        "addr:city": "Brighton",
+        "addr:housenumber": "962",
+        "addr:postcode": "80601",
+        "addr:state": "CO",
+        "addr:street": "South 4th Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "07:00-22:00",
+        "phone": "+1 303 654 1600"
+      },
+      "center": {
+        "lat": 39.97056585,
+        "lon": -104.81781899999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 271668705,
+      "tags": {
+        "addr:city": "Westminster",
+        "addr:housenumber": "4730",
+        "addr:postcode": "80020",
+        "addr:state": "CO",
+        "addr:street": "West 120th Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "restaurant",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1-303-410-8900",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://restaurants.ihop.com/en-us/co/westminster/breakfast-4730-w-120th-ave-1830"
+      },
+      "center": {
+        "lat": 39.91348805,
+        "lon": -105.04748855000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 289684137,
+      "tags": {
+        "addr:city": "Aurora",
+        "addr:housenumber": "13700",
+        "addr:postcode": "80012",
+        "addr:state": "CO",
+        "addr:street": "East Mississippi Avenue",
+        "alt_name": "International House of Pancakes",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "restaurant",
+        "building:levels": "1",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1-303-743-7474",
+        "website": "https://restaurants.ihop.com/en-us/co/aurora/breakfast-13700-e-mississippi-ave-1821"
+      },
+      "center": {
+        "lat": 39.696121500000004,
+        "lon": -104.83264810000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 326481384,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 40.3914155,
+        "lon": -104.72523254999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 344431170,
+      "tags": {
+        "addr:city": "Denver",
+        "addr:housenumber": "1595",
+        "addr:postcode": "80222",
+        "addr:state": "CO",
+        "addr:street": "South Colorado Boulevard",
+        "alt_name": "International House of Pancakes",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "restaurant",
+        "check_date": "2025-10-12",
+        "cuisine": "breakfast;pancake",
+        "height": "7",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1-303-758-1492",
+        "website": "https://restaurants.ihop.com/en-us/co/denver/breakfast-1595-s.-colorado-blvd-2076"
+      },
+      "center": {
+        "lat": 39.6876352,
+        "lon": -104.94143144999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 365354616,
+      "tags": {
+        "addr:city": "Aurora",
+        "addr:housenumber": "5820",
+        "addr:postcode": "80015",
+        "addr:state": "CO",
+        "addr:street": "South Parker Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "smoking": "outside"
+      },
+      "center": {
+        "lat": 39.611863099999994,
+        "lon": -104.8108408
+      }
+    },
+    {
+      "type": "way",
+      "id": 379115526,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 40.1438877,
+        "lon": -105.12836475
+      }
+    },
+    {
+      "type": "way",
+      "id": 531336347,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "3090",
+        "addr:postcode": "80907",
+        "addr:state": "CO",
+        "addr:street": "North Chestnut Street",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "check_date": "2025-01-28",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1-719-632-2404"
+      },
+      "center": {
+        "lat": 38.8767972,
+        "lon": -104.83773374999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 541941773,
+      "tags": {
+        "addr:city": "Pueblo",
+        "addr:housenumber": "4701",
+        "addr:postcode": "81008",
+        "addr:state": "CO",
+        "addr:street": "North Freeway",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "delivery": "no",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no",
+        "smoking": "no"
+      },
+      "center": {
+        "lat": 38.321043849999995,
+        "lon": -104.61679945000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 610925115,
+      "tags": {
+        "addr:city": "Fountain",
+        "addr:housenumber": "6450",
+        "addr:postcode": "80817",
+        "addr:state": "CO",
+        "addr:street": "Highway 85",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1-719-392-1900"
+      },
+      "center": {
+        "lat": 38.7382468,
+        "lon": -104.73289784999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 855681084,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "check_date": "2025-09-14",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 37.4721118,
+        "lon": -105.88641289999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1109022587,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "1344",
+        "addr:postcode": "80921",
+        "addr:state": "CO",
+        "addr:street": "Republic Drive",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-24:00",
+        "phone": "+1-719-593-1223",
+        "website": "https://restaurants.ihop.com/en-us/co/colorado-springs/breakfast-1344-republic-drive-3705",
+        "website:menu": "https://www.ihop.com/en/menu"
+      },
+      "center": {
+        "lat": 38.988900799999996,
+        "lon": -104.7998235
+      }
+    }
+  ]
+}

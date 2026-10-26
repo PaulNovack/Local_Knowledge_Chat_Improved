@@ -1,0 +1,110 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "krispy_kreme",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11418706857,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "check_date": "2024-12-12",
+        "check_date:diet:vegetarian": "2024-12-12",
+        "check_date:opening_hours": "2024-12-12",
+        "cuisine": "donut",
+        "diet:vegetarian": "yes",
+        "drive_through": "no",
+        "level": "2",
+        "name": "Krispy Kreme",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no",
+        "source": "survey",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 36.0986214,
+      "lon": -115.175044
+    },
+    {
+      "type": "node",
+      "id": 14090844910,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "indoor": "yes",
+        "level": "0",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "lat": 36.137581,
+      "lon": -115.165275
+    },
+    {
+      "type": "way",
+      "id": 321044766,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "9791",
+        "addr:postcode": "89183",
+        "addr:state": "NV",
+        "addr:street": "South Eastern Avenue",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "opening_hours": "05:00-22:00",
+        "phone": "+1 702-617-9160",
+        "takeaway": "yes",
+        "website": "https://krispykreme.com/"
+      },
+      "center": {
+        "lat": 36.01165385,
+        "lon": -115.11937834999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1236784484,
+      "tags": {
+        "addr:housenumber": "7015",
+        "addr:postcode": "89103",
+        "addr:street": "West Mountain Spring Road",
+        "amenity": "fast_food",
+        "branch": "Donuts",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "phone": "+1-702-222-1813",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://site.krispykreme.com/nv/las-vegas/7015-w-spring-mountain-rd"
+      },
+      "center": {
+        "lat": 36.238910849999996,
+        "lon": -115.15997145
+      }
+    }
+  ]
+}

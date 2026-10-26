@@ -1,0 +1,180 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "a_and_w",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4149245988,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "cuisine": "burger",
+        "name": "A&W",
+        "takeaway": "yes"
+      },
+      "lat": 40.7900686,
+      "lon": -73.0954814
+    },
+    {
+      "type": "node",
+      "id": 11384542610,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "cuisine": "burger",
+        "name": "A&W",
+        "takeaway": "yes"
+      },
+      "lat": 41.5280346,
+      "lon": -73.8992585
+    },
+    {
+      "type": "node",
+      "id": 13093222607,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "check_date": "2025-08-22",
+        "cuisine": "burger",
+        "name": "A&W",
+        "takeaway": "yes"
+      },
+      "lat": 44.3868108,
+      "lon": -73.8259293
+    },
+    {
+      "type": "way",
+      "id": 198964101,
+      "tags": {
+        "addr:city": "Lake George",
+        "addr:housenumber": "2208",
+        "addr:postcode": "12845",
+        "addr:state": "NY",
+        "addr:street": "United States Route 9",
+        "amenity": "fast_food",
+        "branch": "Rootbeer",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "A&W",
+        "nysgissam:nysaddresspointid": "WARR011360",
+        "takeaway": "yes",
+        "website": "https://awrestaurants.com/locations/new-york/lake-george/2208-route-9/"
+      },
+      "center": {
+        "lat": 43.413966099999996,
+        "lon": -73.7117045
+      }
+    },
+    {
+      "type": "way",
+      "id": 629327976,
+      "tags": {
+        "addr:city": "Springville",
+        "addr:housenumber": "218",
+        "addr:postcode": "14141",
+        "addr:state": "NY",
+        "addr:street": "South Cascade Drive",
+        "amenity": "fast_food",
+        "baby_feeding": "no",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "building": "retail",
+        "changing_table": "yes",
+        "changing_table:location": "male_toilet;female_toilet",
+        "cuisine": "burger",
+        "diet:gluten_free": "no",
+        "diet:vegetarian": "no",
+        "drive_through": "yes",
+        "highchair": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "no",
+        "name": "A&W",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 42.5033212,
+        "lon": -78.6890113
+      }
+    },
+    {
+      "type": "way",
+      "id": 800153056,
+      "tags": {
+        "addr:city": "Cortland",
+        "addr:housenumber": "3501",
+        "addr:postcode": "13045",
+        "addr:state": "NY",
+        "addr:street": "State Route 281",
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "building": "yes",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "A&W",
+        "not:brand:wikidata": "Q277641",
+        "nysgissam:nysaddresspointid": "CORT014013",
+        "takeaway": "yes",
+        "website": "https://awrestaurants.com/locations/new-york/cortland/883-route-13/"
+      },
+      "center": {
+        "lat": 42.5760431,
+        "lon": -76.21689040000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1238981124,
+      "tags": {
+        "addr:city": "Niagara Falls",
+        "addr:housenumber": "303",
+        "addr:state": "NY",
+        "addr:street": "Rainbow Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "building": "retail",
+        "cuisine": "burger",
+        "diet:vegetarian": "no",
+        "indoor_seating": "yes",
+        "name": "A&W",
+        "opening_hours": "Su-Th 11:00-21:00; Fr-Sa 11:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-716-299-0426",
+        "takeaway": "yes",
+        "website": "https://awrestaurants.com/locations/new-york/niagara-falls/303-rainbow-blvd/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 43.0834335,
+        "lon": -79.0589051
+      }
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "denny_s",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3408984700,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Denny's"
+      },
+      "lat": 35.5050657,
+      "lon": -97.9717665
+    },
+    {
+      "type": "node",
+      "id": 3690872197,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:housenumber": "121",
+        "addr:postcode": "74116",
+        "addr:state": "OK",
+        "addr:street": "North 129th Avenue East",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no",
+        "phone": "+1 918-437-5800",
+        "takeaway": "yes",
+        "website": "https://locations.dennys.com/OK/TULSA/248594",
+        "wheelchair": "yes"
+      },
+      "lat": 36.161803,
+      "lon": -95.8319794
+    },
+    {
+      "type": "way",
+      "id": 245526569,
+      "tags": {
+        "addr:city": "Oklahoma City",
+        "addr:housenumber": "3030",
+        "addr:postcode": "73129",
+        "addr:state": "OK",
+        "addr:street": "South Prospect Avenue",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 35.434629900000004,
+        "lon": -97.48530675
+      }
+    },
+    {
+      "type": "way",
+      "id": 255501065,
+      "tags": {
+        "addr:city": "Oklahoma City",
+        "addr:country": "US",
+        "addr:housenumber": "1617",
+        "addr:postcode": "73159",
+        "addr:state": "OK",
+        "addr:street": "Southwest 74th Street",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "smoking": "no",
+        "source": "Bing",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.3920729,
+        "lon": -97.54670150000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 323928188,
+      "tags": {
+        "addr:city": "Norman",
+        "addr:housenumber": "500",
+        "addr:postcode": "73072",
+        "addr:state": "OK",
+        "addr:street": "Ed Noble Parkway",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "center": {
+        "lat": 35.21294125,
+        "lon": -97.48580049999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 491987662,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "center": {
+        "lat": 35.43363505000001,
+        "lon": -97.36988280000003
+      }
+    }
+  ]
+}

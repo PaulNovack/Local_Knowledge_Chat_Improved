@@ -1,0 +1,92 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "carl_s_jr",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11911077023,
+      "tags": {
+        "addr:city": "Laramie",
+        "addr:country": "US",
+        "addr:housenumber": "1770",
+        "addr:postcode": "82072",
+        "addr:state": "WY",
+        "addr:street": "McCue Street",
+        "amenity": "fast_food",
+        "brand": "Carl's Jr.",
+        "brand:wikidata": "Q1043486",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Carl's Jr.",
+        "phone": "+1 307-742-2638",
+        "ref": "1102592",
+        "takeaway": "yes",
+        "website": "https://locations.carlsjr.com/wy/laramie/1770-north-mccue-street"
+      },
+      "lat": 41.329021,
+      "lon": -105.6110516
+    },
+    {
+      "type": "node",
+      "id": 11911077045,
+      "tags": {
+        "addr:city": "Green River",
+        "addr:housenumber": "8901",
+        "addr:postcode": "82935",
+        "addr:state": "WY",
+        "addr:street": "Highway 374",
+        "amenity": "fast_food",
+        "brand": "Carl's Jr.",
+        "brand:wikidata": "Q1043486",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Carl's Jr.",
+        "phone": "+1-307-364-9007",
+        "ref": "1102963",
+        "takeaway": "yes",
+        "website": "https://locations.carlsjr.com/wy/green-river/8901-highway-374"
+      },
+      "lat": 41.5601632,
+      "lon": -109.5396454
+    },
+    {
+      "type": "way",
+      "id": 317610306,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:housenumber": "216",
+        "addr:postcode": "82001-4504",
+        "addr:state": "WY",
+        "addr:street": "East Lincolnway",
+        "amenity": "fast_food",
+        "brand": "Carl's Jr.",
+        "brand:wikidata": "Q1043486",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Carl's Jr.",
+        "phone": "+1 307-637-6126",
+        "ref": "1101730",
+        "takeaway": "yes",
+        "website": "https://locations.carlsjr.com/wy/cheyenne/216-e-lincolnway"
+      },
+      "center": {
+        "lat": 41.13407435,
+        "lon": -104.81274754999998
+      }
+    }
+  ]
+}

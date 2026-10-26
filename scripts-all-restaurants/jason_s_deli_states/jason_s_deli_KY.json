@@ -1,0 +1,75 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KY",
+    "brand": "jason_s_deli",
+    "source": "https://download.geofabrik.de/north-america/us/kentucky-latest.osm.pbf",
+    "source_md5": "beee275db6b863afe4847059e1397537",
+    "processed_utc": "2026-10-24T07:04:39.223265+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2496184048,
+      "tags": {
+        "addr:housenumber": "1975",
+        "addr:street": "South Hurstbourne Parkway",
+        "amenity": "restaurant",
+        "brand:wikidata": "Q16997641",
+        "check_date": "2024-11-27",
+        "cuisine": "seafood;cajun",
+        "name": "Pier 17",
+        "phone": "+1 502-409-9857",
+        "website": "https://www.pier17seafood.com/"
+      },
+      "lat": 38.2173324,
+      "lon": -85.5859218
+    },
+    {
+      "type": "node",
+      "id": 3447808162,
+      "tags": {
+        "addr:city": "St Matthews",
+        "addr:housenumber": "4600",
+        "addr:postcode": "40207",
+        "addr:state": "KY",
+        "addr:street": "Shelbyville Road",
+        "addr:unit": "401",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+1-502-896-0150",
+        "website": "https://www.jasonsdeli.com/"
+      },
+      "lat": 38.2475391,
+      "lon": -85.6292722
+    },
+    {
+      "type": "node",
+      "id": 12001006005,
+      "tags": {
+        "addr:city": "Lexington",
+        "addr:housenumber": "134",
+        "addr:state": "KY",
+        "addr:street": "Malabu Drive",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli"
+      },
+      "lat": 38.0021477,
+      "lon": -84.5175155
+    }
+  ]
+}

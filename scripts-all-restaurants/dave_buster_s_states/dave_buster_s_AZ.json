@@ -1,0 +1,111 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "dave_buster_s",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11511339324,
+      "tags": {
+        "addr:city": "Tempe",
+        "addr:housenumber": "2000",
+        "addr:state": "AZ",
+        "addr:street": "East Rio Salado Parkway",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "capacity": "2459",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "opening_hours": "Mo, Tu 11:00-00:00; We-Fr 11:00-01:00; Sa 10:00-02:00; Su 10:00-00:00",
+        "phone": "+1-480-281-8456",
+        "website": "https://www.daveandbusters.com/us/en/about/locations/tempe"
+      },
+      "lat": 33.4331389,
+      "lon": -111.9043189
+    },
+    {
+      "type": "way",
+      "id": 507951690,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:country": "US",
+        "addr:housenumber": "1390",
+        "addr:postcode": "85713",
+        "addr:state": "AZ",
+        "addr:street": "East Tucson Marketplace Boulevard",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "commercial",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "opening_hours": "Mo-Su 10:00-24:00"
+      },
+      "center": {
+        "lat": 32.1826049,
+        "lon": -110.95150309999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1189927757,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "21001",
+        "addr:postcode": "85050",
+        "addr:state": "AZ",
+        "addr:street": "North Tatum Boulevard",
+        "addr:unit": "44B",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "yes",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's"
+      },
+      "center": {
+        "lat": 33.67665575,
+        "lon": -111.9730973
+      }
+    },
+    {
+      "type": "way",
+      "id": 1219382205,
+      "tags": {
+        "addr:city": "Glendale",
+        "addr:housenumber": "9460",
+        "addr:postcode": "85305",
+        "addr:state": "AZ",
+        "addr:street": "West Hanna Lane",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "yes",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "roof:shape": "flat"
+      },
+      "center": {
+        "lat": 33.53531435,
+        "lon": -112.2626985
+      }
+    }
+  ]
+}

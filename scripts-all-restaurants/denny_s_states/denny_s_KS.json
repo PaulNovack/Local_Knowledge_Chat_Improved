@@ -1,0 +1,72 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "denny_s",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 761334419,
+      "tags": {
+        "addr:city": "Wichita",
+        "addr:housenumber": "4024",
+        "addr:postcode": "67218",
+        "addr:state": "KS",
+        "addr:street": "East Harry Street",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "website": "https://locations.dennys.com/KS/WICHITA/247372"
+      },
+      "lat": 37.6650412,
+      "lon": -97.2886341
+    },
+    {
+      "type": "node",
+      "id": 3408874763,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "lat": 38.9388996,
+      "lon": -94.6682771
+    },
+    {
+      "type": "way",
+      "id": 197032185,
+      "tags": {
+        "addr:city": "Topeka",
+        "addr:housenumber": "3210",
+        "addr:postcode": "66611",
+        "addr:street": "Southwest Topeka Boulevard",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "center": {
+        "lat": 39.0103041,
+        "lon": -95.68704865000001
+      }
+    }
+  ]
+}

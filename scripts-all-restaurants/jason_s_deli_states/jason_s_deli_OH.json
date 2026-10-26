@@ -1,0 +1,78 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "jason_s_deli",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1730576888,
+      "tags": {
+        "addr:housenumber": "225",
+        "addr:street": "West Bridge Street",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli",
+        "source": "knowledge"
+      },
+      "lat": 40.0978948,
+      "lon": -83.1212883
+    },
+    {
+      "type": "node",
+      "id": 5198385046,
+      "tags": {
+        "addr:city": "Cincinnati",
+        "addr:housenumber": "3831",
+        "addr:postcode": "45209",
+        "addr:state": "OH",
+        "addr:street": "Edwards Road",
+        "addr:unit": "400",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+1-513-351-1685"
+      },
+      "lat": 39.1500476,
+      "lon": -84.4427167
+    },
+    {
+      "type": "way",
+      "id": 550207527,
+      "tags": {
+        "addr:city": "Columbus",
+        "addr:housenumber": "1122",
+        "addr:postcode": "43240",
+        "addr:state": "OH",
+        "addr:street": "Gemini Place",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.1483508,
+        "lon": -82.98770354999999
+      }
+    }
+  ]
+}

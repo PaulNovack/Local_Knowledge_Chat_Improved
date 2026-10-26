@@ -1,0 +1,74 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SD",
+    "brand": "einstein_bros_bagels",
+    "source": "https://download.geofabrik.de/north-america/us/south-dakota-latest.osm.pbf",
+    "source_md5": "4d012b130d8682e6f0e1bc093c255981",
+    "processed_utc": "2026-10-24T07:16:00.169778+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6350443819,
+      "tags": {
+        "addr:city": "Rapid City",
+        "addr:housenumber": "902",
+        "addr:postcode": "57701",
+        "addr:state": "SD",
+        "addr:street": "Mount Rushmore Road",
+        "addr:unit": "9032",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "Mount Rushmore & Colmbus",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "06:00-14:00",
+        "phone": "+1 605-341-3266",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/sd/rapid-city/902-mount-rushmore-road"
+      },
+      "lat": 44.0769472,
+      "lon": -103.231435
+    },
+    {
+      "type": "node",
+      "id": 9331400283,
+      "tags": {
+        "addr:city": "Rapid City",
+        "addr:housenumber": "501",
+        "addr:postcode": "57701",
+        "addr:state": "SD",
+        "addr:street": "East Saint Joseph Street",
+        "addr:unit": "9032",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "SD School of Mines & Technology",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "cuisine": "bagel",
+        "drive_through": "no",
+        "level": "1",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "Mo-Fr 07:00-15:00; SH off",
+        "operator": "Sodexo",
+        "outdoor_seating": "yes",
+        "reservation": "no",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/sd/rapid-city/501-e-saint-joseph-st",
+        "wheelchair": "yes"
+      },
+      "lat": 44.0754351,
+      "lon": -103.2059381
+    }
+  ]
+}

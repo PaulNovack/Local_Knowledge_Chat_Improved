@@ -1,0 +1,85 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "blaze_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3695870156,
+      "tags": {
+        "addr:city": "College Park",
+        "addr:housenumber": "7419",
+        "addr:state": "MD",
+        "addr:street": "Baltimore Avenue",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza"
+      },
+      "lat": 38.9817831,
+      "lon": -76.9375776
+    },
+    {
+      "type": "node",
+      "id": 5154483976,
+      "tags": {
+        "addr:city": "Laurel",
+        "addr:housenumber": "14708",
+        "addr:postcode": "20707",
+        "addr:state": "MD",
+        "addr:street": "Baltimore Avenue",
+        "addr:unit": "112",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-22:00",
+        "website": "https://www.blazepizza.com/locations/MD/Laurel"
+      },
+      "lat": 39.0943206,
+      "lon": -76.8581193
+    },
+    {
+      "type": "node",
+      "id": 12174004411,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza",
+        "website": "https://locations.blazepizza.com/md/westminster/265-baltimore-blvd."
+      },
+      "lat": 39.5762685,
+      "lon": -76.9862514
+    },
+    {
+      "type": "node",
+      "id": 13365804060,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "check_date": "2025-12-09",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza"
+      },
+      "lat": 38.9454527,
+      "lon": -76.736508
+    }
+  ]
+}

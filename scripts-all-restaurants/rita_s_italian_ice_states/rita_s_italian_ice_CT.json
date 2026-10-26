@@ -1,0 +1,53 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "rita_s_italian_ice",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6533239133,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Rita's Italian Ice",
+        "brand:wikidata": "Q7336456",
+        "cuisine": "ice_cream",
+        "name": "Rita's Italian Ice"
+      },
+      "lat": 41.7027502,
+      "lon": -72.8879707
+    },
+    {
+      "type": "node",
+      "id": 11017179860,
+      "tags": {
+        "addr:city": "Vernon",
+        "addr:housenumber": "378",
+        "addr:postcode": "06066",
+        "addr:state": "CT",
+        "addr:street": "Kelly Road",
+        "addr:unit": "7A",
+        "amenity": "ice_cream",
+        "brand": "Rita's Italian Ice",
+        "brand:wikidata": "Q7336456",
+        "cuisine": "ice_cream",
+        "name": "Rita's Italian Ice",
+        "opening_hours": "Mo-Su 12:00-22:00",
+        "website": "https://www.ritasice.com/location/ritas-of-vernon-ct/"
+      },
+      "lat": 41.8248521,
+      "lon": -72.499826
+    }
+  ]
+}

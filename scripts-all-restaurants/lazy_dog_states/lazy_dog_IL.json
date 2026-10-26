@@ -1,0 +1,121 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "lazy_dog",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 124631578,
+      "tags": {
+        "addr:city": "Naperville",
+        "addr:country": "US",
+        "addr:county": "DuPage, IL",
+        "addr:housenumber": "436",
+        "addr:postcode": "60540",
+        "addr:state": "IL",
+        "addr:street": "South Illinois Route 59",
+        "amenity": "restaurant",
+        "brand": "Lazy Dog",
+        "brand:wikidata": "Q111304278",
+        "building": "yes",
+        "check_date": "2023-04-06",
+        "cuisine": "american",
+        "name": "Lazy Dog",
+        "napervillegis:objectid": "227646",
+        "opening_hours": "Mo-Fr 11:00-23:00, Sa-Su 09:00-23:00",
+        "phone": "+1 630 481 7301",
+        "website": "https://www.lazydogrestaurants.com/locations/naperville-il"
+      },
+      "center": {
+        "lat": 41.764434300000005,
+        "lon": -88.20519635
+      }
+    },
+    {
+      "type": "way",
+      "id": 201869515,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Lazy Dog",
+        "brand:wikidata": "Q111304278",
+        "building": "retail",
+        "cuisine": "american",
+        "microbrewery": "no",
+        "name": "Lazy Dog",
+        "opening_date": "2024",
+        "opening_hours": "closed",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 42.1062176,
+        "lon": -87.80296395000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 687473868,
+      "tags": {
+        "addr:city": "Vernon Hills",
+        "addr:housenumber": "1115",
+        "addr:postcode": "60061",
+        "addr:state": "IL",
+        "addr:street": "North Milwaukee Avenue",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "branch": "Restaurant & Bar",
+        "brand": "Lazy Dog",
+        "brand:wikidata": "Q111304278",
+        "building": "retail",
+        "check_date": "2026-06-13",
+        "cuisine": "american",
+        "delivery": "yes",
+        "name": "Lazy Dog",
+        "opening_hours": "Mo-Fr 11:00-00:00;Sa-Su 10:00-00:00",
+        "outdoor_seating": "yes",
+        "pets_allowed": "dogs",
+        "phone": "+1-847-780-7977",
+        "reservation": "yes",
+        "toilets": "yes",
+        "website": "https://lazydogrestaurants.com/pages/vernon-hills-il",
+        "website:menu": "https://orders.lazydogrestaurants.com/menu"
+      },
+      "center": {
+        "lat": 42.24510735,
+        "lon": -87.94460715000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1322290353,
+      "tags": {
+        "addr:city": "Buffalo Grove",
+        "addr:housenumber": "51",
+        "addr:postcode": "60089",
+        "addr:state": "IL",
+        "addr:street": "McHenry Road",
+        "amenity": "restaurant",
+        "brand": "Lazy Dog",
+        "brand:wikidata": "Q111304278",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Lazy Dog"
+      },
+      "center": {
+        "lat": 42.1545356,
+        "lon": -87.95893215000001
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DE",
+    "brand": "ruby_tuesday",
+    "source": "https://download.geofabrik.de/north-america/us/delaware-latest.osm.pbf",
+    "source_md5": "5f714be897be010ea09e4134c39a0638",
+    "processed_utc": "2026-10-24T07:00:37.202137+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 127128636,
+      "tags": {
+        "addr:city": "Middletown",
+        "addr:housenumber": "474",
+        "addr:postcode": "19709",
+        "addr:state": "DE",
+        "addr:street": "West Main Street",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "check_date": "2025-07-10",
+        "cuisine": "american",
+        "name": "Ruby Tuesday",
+        "opening_hours": "Mo-Th,Su 11:00-21:00; Fr-Sa 11:00-22:00; PH off",
+        "phone": "+1-302-449-1266",
+        "website": "https://www.rubytuesday.com/locations/middletown/"
+      },
+      "center": {
+        "lat": 39.44878715,
+        "lon": -75.72646555
+      }
+    },
+    {
+      "type": "way",
+      "id": 211939226,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "center": {
+        "lat": 39.6311138,
+        "lon": -75.66063459999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 681236860,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "center": {
+        "lat": 38.9307727,
+        "lon": -75.43165555000002
+      }
+    }
+  ]
+}

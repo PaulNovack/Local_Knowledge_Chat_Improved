@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "california_pizza_kitchen",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4786888836,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "cuisine": "pizza",
+        "diet:vegetarian": "yes",
+        "name": "California Pizza Kitchen",
+        "short_name": "CPK"
+      },
+      "lat": 42.3473792,
+      "lon": -71.0802008
+    },
+    {
+      "type": "way",
+      "id": 257087749,
+      "tags": {
+        "addr:city": "Natick",
+        "addr:housenumber": "1245",
+        "addr:postcode": "01760",
+        "addr:street": "Worcester Street",
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "California Pizza Kitchen",
+        "short_name": "CPK",
+        "website": "https://www.cpk.com/"
+      },
+      "center": {
+        "lat": 42.30022195,
+        "lon": -71.38538545
+      }
+    }
+  ]
+}

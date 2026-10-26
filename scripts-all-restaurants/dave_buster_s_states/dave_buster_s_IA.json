@@ -1,0 +1,67 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IA",
+    "brand": "dave_buster_s",
+    "source": "https://download.geofabrik.de/north-america/us/iowa-latest.osm.pbf",
+    "source_md5": "67edcd557c575ead09c9f80bc8694526",
+    "processed_utc": "2026-10-24T07:04:05.270534+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 342652190,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "yes",
+        "cuisine": "american",
+        "fixme:atp": "check if location still exists; no corresponding ATP location found",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's"
+      },
+      "center": {
+        "lat": 41.57219825,
+        "lon": -90.53104114999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1197236122,
+      "tags": {
+        "addr:city": "West Des Moines",
+        "addr:housenumber": "190",
+        "addr:postcode": "50266",
+        "addr:state": "IA",
+        "addr:street": "S. Jordan Creek Parkway",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "retail",
+        "building:levels": "2",
+        "cuisine": "american",
+        "layer": "1",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "opening_hours": "Mo-Th 11:00-24:00; Fr 11:00-01:00; Sa 10:00-01:00; Su 10:00-24:00",
+        "phone": "+1-515-858-4141",
+        "smoking": "no",
+        "start_date": "2023-07-31",
+        "website": "https://www.daveandbusters.com/us/en/about/locations/des-moines"
+      },
+      "center": {
+        "lat": 41.56750615,
+        "lon": -93.80316555000002
+      }
+    }
+  ]
+}

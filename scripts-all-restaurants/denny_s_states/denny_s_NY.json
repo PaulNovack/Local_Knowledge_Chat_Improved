@@ -1,0 +1,825 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "denny_s",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1545329529,
+      "tags": {
+        "addr:city": "Queensbury",
+        "addr:housenumber": "248",
+        "addr:postcode": "12804",
+        "addr:state": "NY",
+        "addr:street": "Quaker Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "check_date": "2024-08-19",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "Mo-We 07:00-24:00; Th-Su 00:00-24:00",
+        "phone": "+1 518-798-4388",
+        "takeaway": "yes",
+        "website": "https://locations.dennys.com/NY/QUEENSBURY/247305"
+      },
+      "lat": 43.3319109,
+      "lon": -73.6510686
+    },
+    {
+      "type": "node",
+      "id": 1626413959,
+      "tags": {
+        "addr:city": "Lockport",
+        "addr:housenumber": "5699",
+        "addr:postcode": "14094",
+        "addr:state": "NY",
+        "addr:street": "South Transit Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "phone": "+1 716-433-7840",
+        "website": "https://locations.dennys.com/NY/LOCKPORT/248124"
+      },
+      "lat": 43.1486498,
+      "lon": -78.6962792
+    },
+    {
+      "type": "node",
+      "id": 2553624028,
+      "tags": {
+        "addr:city": "Jackson Heights",
+        "addr:housenumber": "87-10",
+        "addr:postcode": "11372",
+        "addr:state": "NY",
+        "addr:street": "Northern Boulevard",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "Mo-We,Su 07:00-22:00; Th-Sa 07:00-24:00",
+        "phone": "+1 718-446-1312",
+        "takeaway": "yes",
+        "website": "https://locations.dennys.com/NY/JACKSON-HEIGHTS/248760"
+      },
+      "lat": 40.7559109,
+      "lon": -73.8805005
+    },
+    {
+      "type": "node",
+      "id": 2606329035,
+      "tags": {
+        "addr:city": "Herkimer",
+        "addr:housenumber": "701",
+        "addr:postcode": "13350",
+        "addr:state": "NY",
+        "addr:street": "Mohawk Street",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "check_date": "2024-08-18",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "Mo-We 07:00-23:00; Th-Sa 00:00-24:00; Su 00:00-23:00",
+        "phone": "+1 315-866-1603",
+        "source": "official website",
+        "website": "https://locations.dennys.com/NY/HERKIMER/246717"
+      },
+      "lat": 43.0184606,
+      "lon": -74.9919542
+    },
+    {
+      "type": "node",
+      "id": 4432547575,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "1250",
+        "addr:postcode": "13901",
+        "addr:state": "NY",
+        "addr:street": "Upper Front Street",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "check_date": "2024-08-18",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "phone": "+1 607-722-4971",
+        "source": "official website",
+        "website": "https://locations.dennys.com/NY/BINGHAMTON/248194"
+      },
+      "lat": 42.1556691,
+      "lon": -75.8958694
+    },
+    {
+      "type": "node",
+      "id": 6508642300,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "lat": 42.4540783,
+      "lon": -79.3092223
+    },
+    {
+      "type": "node",
+      "id": 8787516282,
+      "tags": {
+        "addr:city": "Liverpool",
+        "addr:housenumber": "103",
+        "addr:postcode": "13088",
+        "addr:state": "NY",
+        "addr:street": "Elwood Davis Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "cuisine": "american",
+        "name": "Denny's",
+        "nysgissam:nysaddresspointid": "ONON062415",
+        "nysgissam:review": "existing element's addr:postcode has different addr:postcode",
+        "opening_hours": "24/7",
+        "website": "https://locations.dennys.com/NY/SYRACUSE/248119"
+      },
+      "lat": 43.0935661,
+      "lon": -76.1722878
+    },
+    {
+      "type": "relation",
+      "id": 6585135,
+      "tags": {
+        "addr:city": "Rome",
+        "addr:housenumber": "200",
+        "addr:postcode": "13440",
+        "addr:state": "NY",
+        "addr:street": "South James Street",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "hotel",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "06:00-24:00",
+        "phone": "+1 315-339-6390",
+        "type": "multipolygon",
+        "website": "https://locations.dennys.com/NY/ROME/246951"
+      },
+      "center": {
+        "lat": 43.2098891,
+        "lon": -75.45941249999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 57741874,
+      "tags": {
+        "addr:city": "East Greenbush",
+        "addr:housenumber": "126",
+        "addr:postcode": "12061",
+        "addr:state": "NY",
+        "addr:street": "Troy Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "check_date": "2026-04-05",
+        "cuisine": "american",
+        "name": "Denny's",
+        "nysgissam:nysaddresspointid": "RENS038908"
+      },
+      "center": {
+        "lat": 42.62606155,
+        "lon": -73.69975854999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 66210203,
+      "tags": {
+        "addr:city": "Latham",
+        "addr:housenumber": "697",
+        "addr:postcode": "12110",
+        "addr:state": "NY",
+        "addr:street": "Troy Schenectady Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Don Juan's Mexican Grill & Cantina",
+        "nysgissam:nysaddresspointid": "ALBA087083",
+        "old_name": "Denny's",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "website": "https://www.donjuansmexgrill.com",
+        "website:menu": "https://www.donjuansmexgrill.com/menu-1"
+      },
+      "center": {
+        "lat": 42.756077000000005,
+        "lon": -73.77488304999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 97352048,
+      "tags": {
+        "addr:city": "Newburgh",
+        "addr:housenumber": "1283",
+        "addr:postcode": "12550",
+        "addr:state": "NY",
+        "addr:street": "Union Avenue",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's",
+        "nysgissam:nysaddresspointid": "ORAN087972",
+        "phone": "+1-845-564-6470",
+        "website": "https://locations.dennys.com/NY/NEWBURGH/248195"
+      },
+      "center": {
+        "lat": 41.50709475,
+        "lon": -74.06886804999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 128574764,
+      "tags": {
+        "addr:city": "Schenectady",
+        "addr:country": "US",
+        "addr:housenumber": "60",
+        "addr:postcode": "12308",
+        "addr:state": "NY",
+        "addr:street": "Nott Terrace",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "center": {
+        "lat": 42.814415100000005,
+        "lon": -73.93379004999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 247034359,
+      "tags": {
+        "addr:city": "Cicero",
+        "addr:housenumber": "7873",
+        "addr:postcode": "13039",
+        "addr:state": "NY",
+        "addr:street": "Brewerton Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "Denny's",
+        "nysgissam:nysaddresspointid": "ONON011500",
+        "outdoor_seating": "no"
+      },
+      "center": {
+        "lat": 43.15066,
+        "lon": -76.12579495
+      }
+    },
+    {
+      "type": "way",
+      "id": 283253997,
+      "tags": {
+        "addr:housenumber": "235-20",
+        "addr:postcode": "11427",
+        "addr:street": "Hillside Avenue",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "height": "3.3",
+        "name": "Denny's",
+        "nycdoitt:bin": "4166475"
+      },
+      "center": {
+        "lat": 40.73293385,
+        "lon": -73.73401060000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 306050518,
+      "tags": {
+        "addr:city": "Middletown",
+        "addr:housenumber": "415",
+        "addr:postcode": "10941",
+        "addr:state": "NY",
+        "addr:street": "Route 211 East",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "building:colour": "red",
+        "building:use": "foodservice",
+        "cuisine": "american",
+        "name": "Denny's",
+        "website": "https://locations.dennys.com/NY/MIDDLETOWN/248196",
+        "website:menu": "https://www.dennys.com/location/dennys-8196/menu",
+        "website:orders": "https://order.dennys.com/locations/8196"
+      },
+      "center": {
+        "lat": 41.456203900000006,
+        "lon": -74.38708955000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 351964474,
+      "tags": {
+        "addr:city": "Syracuse",
+        "addr:country": "US",
+        "addr:housenumber": "6591",
+        "addr:postcode": "13206",
+        "addr:state": "NY",
+        "addr:street": "Thompson Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "contact:phone": "+1-315-437-9012",
+        "contact:website": "http://locations.dennys.com/NY/SYRACUSE/248116",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Denny's",
+        "opening_hours": "24/7"
+      },
+      "center": {
+        "lat": 43.08947685,
+        "lon": -76.09274945000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 363946674,
+      "tags": {
+        "addr:city": "Utica",
+        "addr:housenumber": "180",
+        "addr:postcode": "13502",
+        "addr:state": "NY",
+        "addr:street": "North Genesee Street",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's",
+        "nysgissam:nysaddresspointid": "ONEI024415"
+      },
+      "center": {
+        "lat": 43.1098994,
+        "lon": -75.21788715000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 368801227,
+      "tags": {
+        "addr:city": "Centereach",
+        "addr:housename": "Centereach Mall",
+        "addr:housenumber": "255",
+        "addr:postcode": "11720",
+        "addr:state": "NY",
+        "addr:street": "Centereach Square",
+        "alt_name": "Dennys",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "retail",
+        "cuisine": "american",
+        "internet_access": "yes",
+        "name": "Denny's",
+        "nysgissam:nysaddresspointid": "SUFF567830",
+        "operator": "Denny's",
+        "website": "https://dennys.com/"
+      },
+      "center": {
+        "lat": 40.85902045,
+        "lon": -73.0830191
+      }
+    },
+    {
+      "type": "way",
+      "id": 396886934,
+      "tags": {
+        "addr:city": "Amherst",
+        "addr:housenumber": "3920",
+        "addr:postcode": "14226",
+        "addr:state": "NY",
+        "addr:street": "Maple Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "breakfast": "24/7",
+        "building": "yes",
+        "cuisine": "american",
+        "delivery": "yes",
+        "dinner": "yes",
+        "lunch": "yes",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "phone": "+1 716-446-1671",
+        "ref": "8136",
+        "takeaway": "yes",
+        "website": "https://locations.dennys.com/NY/AMHERST/248136",
+        "website:menu": "https://www.dennys.com/location/dennys-8136/menu"
+      },
+      "center": {
+        "lat": 42.991324000000006,
+        "lon": -78.81778075
+      }
+    },
+    {
+      "type": "way",
+      "id": 400724917,
+      "tags": {
+        "addr:city": "Watertown",
+        "addr:housenumber": "1142",
+        "addr:postcode": "13601",
+        "addr:state": "NY",
+        "addr:street": "Arsenal Street",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Denny's",
+        "nysgissam:nysaddresspointid": "JEFF050494"
+      },
+      "center": {
+        "lat": 43.97733985,
+        "lon": -75.93996959999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 445882919,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "24/7"
+      },
+      "center": {
+        "lat": 42.6063968,
+        "lon": -76.16660460000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 543953837,
+      "tags": {
+        "addr:city": "Painted Post",
+        "addr:housenumber": "118",
+        "addr:postcode": "14870",
+        "addr:state": "NY",
+        "addr:street": "Victory Highway",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's",
+        "nysgissam:nysaddresspointid": "STEU038795",
+        "opening_hours": "24/7",
+        "phone": "+1-607-937-1073",
+        "website": "https://www.dennys.com/"
+      },
+      "center": {
+        "lat": 42.1716171,
+        "lon": -77.10649634999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 551172003,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:housenumber": "2890",
+        "addr:postcode": "14626",
+        "addr:state": "NY",
+        "addr:street": "West Ridge Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "american",
+        "delivery": "no",
+        "name": "Denny's",
+        "nysgissam:nysaddresspointid": "MONR014996",
+        "outdoor_seating": "no",
+        "phone": "+1 585-225-8350",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.dennys.com",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 43.21088195,
+        "lon": -77.70522885000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 560150344,
+      "tags": {
+        "addr:city": "Hamburg",
+        "addr:housenumber": "5092",
+        "addr:postcode": "14075",
+        "addr:state": "NY",
+        "addr:street": "Camp Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "retail",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Denny's",
+        "nysgissam:nysaddresspointid": "ERIE032908",
+        "opening_hours": "24/7",
+        "phone": "+1-716-646-3065",
+        "website": "https://locations.dennys.com/NY/HAMBURG/248137"
+      },
+      "center": {
+        "lat": 42.74879525,
+        "lon": -78.85463855
+      }
+    },
+    {
+      "type": "way",
+      "id": 618400394,
+      "tags": {
+        "addr:city": "Vestal",
+        "addr:housenumber": "4024",
+        "addr:postcode": "13850",
+        "addr:state": "NY",
+        "addr:street": "Vestal Parkway East",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's",
+        "phone": "+1-607-798-9660",
+        "website": "https://locations.dennys.com/NY/VESTAL/248193"
+      },
+      "center": {
+        "lat": 42.09538835,
+        "lon": -75.97590615000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 664200002,
+      "tags": {
+        "addr:city": "Niagara Falls",
+        "addr:housenumber": "8020",
+        "addr:postcode": "14304",
+        "addr:state": "NY",
+        "addr:street": "Niagara Falls Boulevard",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's",
+        "phone": "+1-716-283-5560"
+      },
+      "center": {
+        "lat": 43.089659499999996,
+        "lon": -78.97240720000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 734248851,
+      "tags": {
+        "addr:city": "Oneonta",
+        "addr:housenumber": "4979",
+        "addr:postcode": "13820",
+        "addr:state": "NY",
+        "addr:street": "State Highway 23",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's",
+        "nysgissam:nysaddresspointid": "OTSE030864"
+      },
+      "center": {
+        "lat": 42.44862465,
+        "lon": -75.04867460000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 803142566,
+      "tags": {
+        "addr:city": "Carle Place",
+        "addr:housenumber": "371",
+        "addr:postcode": "11514",
+        "addr:state": "NY",
+        "addr:street": "Old Country Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's",
+        "nysgissam:nysaddresspointid": "NASS274675"
+      },
+      "center": {
+        "lat": 40.7459635,
+        "lon": -73.60167030000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 817058652,
+      "tags": {
+        "addr:city": "Saratoga Springs",
+        "addr:housenumber": "468",
+        "addr:postcode": "12866",
+        "addr:state": "NY",
+        "addr:street": "Louden Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "restaurant",
+        "cuisine": "american",
+        "name": "Denny's",
+        "nysgissam:nysaddresspointid": "SARA058428",
+        "opening_hours": "Mo-We 06:00-24:00; Th-Su 00:00-24:00",
+        "phone": "+1 518-580-1598",
+        "source": "NYS Clearinghouse OpenData & ESRI Clarity Sat Imagery",
+        "takeaway": "yes",
+        "website": "https://locations.dennys.com/NY/SARATOGA-SPRINGS/247779"
+      },
+      "center": {
+        "lat": 43.0976875,
+        "lon": -73.7476355
+      }
+    },
+    {
+      "type": "way",
+      "id": 825527821,
+      "tags": {
+        "addr:city": "Geneva",
+        "addr:housenumber": "813",
+        "addr:postcode": "14456",
+        "addr:state": "NY",
+        "addr:street": "Canandaigua Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's",
+        "nysgissam:nysaddresspointid": "ONTA054961",
+        "opening_hours": "Su-Th 06:00-23:00; Fr-Sa 06:00-03:00",
+        "phone": "+1-315-789-2039",
+        "website": "https://locations.dennys.com/NY/GENEVA/248657"
+      },
+      "center": {
+        "lat": 42.856319400000004,
+        "lon": -77.01333955000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 827530107,
+      "tags": {
+        "addr:city": "Geneseo",
+        "addr:housenumber": "4240",
+        "addr:postcode": "14454",
+        "addr:state": "NY",
+        "addr:street": "Lakeville Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "disused:amenity": "restaurant",
+        "name": "Denny's",
+        "nysgissam:nysaddresspointid": "LIVI001158",
+        "phone": "+15852431825",
+        "source": "Modified MS Footprints 2018 (OpenData)",
+        "website": "https://locations.dennys.com/NY/GENESEO/248130"
+      },
+      "center": {
+        "lat": 42.796395000000004,
+        "lon": -77.78928300000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 829913317,
+      "tags": {
+        "addr:city": "Batavia",
+        "addr:housenumber": "364-368",
+        "addr:postcode": "14020",
+        "addr:state": "NY",
+        "addr:street": "West Main Street",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "source": "Satellite imagery & MS Footprts '18"
+      },
+      "center": {
+        "lat": 43.004859749999994,
+        "lon": -78.20161949999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 953596303,
+      "tags": {
+        "addr:city": "West Seneca",
+        "addr:housenumber": "1881",
+        "addr:postcode": "14224",
+        "addr:state": "NY",
+        "addr:street": "Ridge Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "phone": "+1-716-675-7148",
+        "website": "https://locations.dennys.com/NY/WEST-SENECA/248135",
+        "website:menu": "https://www.dennys.com/location/dennys-8135/menu"
+      },
+      "center": {
+        "lat": 42.8283743,
+        "lon": -78.78267849999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1009527071,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:housenumber": "2215",
+        "addr:postcode": "14216",
+        "addr:state": "NY",
+        "addr:street": "Delaware Avenue",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "Denny's",
+        "outdoor_seating": "no",
+        "phone": "+17168775398",
+        "website": "https://locations.dennys.com/NY/BUFFALO/248121"
+      },
+      "center": {
+        "lat": 42.9443964,
+        "lon": -78.86772880000001
+      }
+    }
+  ]
+}

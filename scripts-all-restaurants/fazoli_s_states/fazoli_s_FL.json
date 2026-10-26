@@ -1,0 +1,90 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "fazoli_s",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10254486109,
+      "tags": {
+        "addr:housenumber": "2219",
+        "addr:street": "Martin Luther King Jr Bvld, Panama City, FL, 32405",
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "cuisine": "italian",
+        "name": "Fazoli's",
+        "takeaway": "yes"
+      },
+      "lat": 30.1865739,
+      "lon": -85.6507763
+    },
+    {
+      "type": "node",
+      "id": 12793325094,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "cuisine": "italian",
+        "name": "Fazoli's",
+        "takeaway": "yes"
+      },
+      "lat": 28.1865456,
+      "lon": -82.4062533
+    },
+    {
+      "type": "way",
+      "id": 1149694963,
+      "tags": {
+        "addr:city": "Plant City",
+        "addr:housenumber": "238",
+        "addr:postcode": "33563",
+        "addr:state": "FL",
+        "addr:street": "West Alexander Street",
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Fazoli's",
+        "source": "esri/Tampa_FL_Buildings",
+        "start_date": "2008",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 27.98963535,
+        "lon": -82.12405469999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1278601128,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Fazoli's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 28.542041,
+        "lon": -81.74042244999998
+      }
+    }
+  ]
+}

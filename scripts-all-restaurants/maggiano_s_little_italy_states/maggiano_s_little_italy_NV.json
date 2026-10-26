@@ -1,0 +1,77 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "maggiano_s_little_italy",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 558884281,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "10940",
+        "addr:postcode": "89135",
+        "addr:state": "NV",
+        "addr:street": "Rosemary Park Drive",
+        "amenity": "restaurant",
+        "brand": "Maggiano's Little Italy",
+        "brand:wikidata": "Q6730149",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2026-07-20",
+        "check_date:opening_hours": "2026-07-20",
+        "cuisine": "italian",
+        "internet_access": "wlan",
+        "level": "0",
+        "name": "Maggiano's Little Italy",
+        "opening_hours": "Su-Th 11:00-21:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-702-254-6025",
+        "self_service": "no",
+        "website": "https://www.maggianos.com/locations/nevada/las%20vegas/10940-rosemary-park-drive/"
+      },
+      "center": {
+        "lat": 36.150965049999996,
+        "lon": -115.33198749999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1421675368,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:state": "NV",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Maggiano's Little Italy",
+        "brand:wikidata": "Q6730149",
+        "check_date": "2025-04-10",
+        "cuisine": "italian",
+        "diet:vegetarian": "yes",
+        "indoor": "room",
+        "indoor_seating": "yes",
+        "layer": "1",
+        "level": "1",
+        "name": "Maggiano's Little Italy",
+        "opening_hours": "Mo-Fr 11:00-15:00, Mo-Su 15:00-23:00",
+        "outdoor_seating": "no",
+        "room": "restaurant",
+        "smoking": "no"
+      },
+      "center": {
+        "lat": 36.127615750000004,
+        "lon": -115.16859735000003
+      }
+    }
+  ]
+}

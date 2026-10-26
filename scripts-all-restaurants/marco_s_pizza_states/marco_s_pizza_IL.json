@@ -1,0 +1,98 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "marco_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5261318948,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 39.7237164,
+      "lon": -90.2309914
+    },
+    {
+      "type": "node",
+      "id": 8244349455,
+      "tags": {
+        "addr:city": "Homewood",
+        "addr:housenumber": "2010",
+        "addr:postcode": "60430",
+        "addr:state": "IL",
+        "addr:street": "183rd Street",
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Marco's Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 41.5576216,
+      "lon": -87.6659922
+    },
+    {
+      "type": "way",
+      "id": 344331808,
+      "tags": {
+        "addr:city": "Wheeling",
+        "addr:housenumber": "1990",
+        "addr:postcode": "60090",
+        "addr:state": "IL",
+        "addr:street": "South Wolf Road",
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "building": "retail",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.09553175,
+        "lon": -87.90838869999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 526340205,
+      "tags": {
+        "addr:city": "Collinsville",
+        "addr:housenumber": "108",
+        "addr:postcode": "62234",
+        "addr:state": "IL",
+        "addr:street": "St Louis Road",
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.66632175,
+        "lon": -89.99510250000003
+      }
+    }
+  ]
+}

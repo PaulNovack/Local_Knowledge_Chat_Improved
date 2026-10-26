@@ -1,0 +1,78 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SC",
+    "brand": "dave_buster_s",
+    "source": "https://download.geofabrik.de/north-america/us/south-carolina-latest.osm.pbf",
+    "source_md5": "488018afb1e1040732b7a791d4ebffae",
+    "processed_utc": "2026-10-24T07:15:46.592450+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5162238139,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's"
+      },
+      "lat": 34.0770275,
+      "lon": -81.1559921
+    },
+    {
+      "type": "way",
+      "id": 314850129,
+      "tags": {
+        "addr:city": "Greenville",
+        "addr:housenumber": "1025",
+        "addr:postcode": "29607",
+        "addr:state": "SC",
+        "addr:street": "Woodruff Road",
+        "addr:unit": "P01",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "restaurant",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "website": "https://www.daveandbusters.com/locations/greenville"
+      },
+      "center": {
+        "lat": 34.833962,
+        "lon": -82.30403709999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 529286565,
+      "tags": {
+        "addr:city": "Myrtle Beach",
+        "addr:housenumber": "1322",
+        "addr:postcode": "29577",
+        "addr:street": "Celebrity Circle",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "yes",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's"
+      },
+      "center": {
+        "lat": 33.7182634,
+        "lon": -78.88082374999999
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "burger_king",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T07:20:37.151586+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 67266454,
+      "tags": {
+        "addr:city": "Bolling",
+        "addr:housenumber": "4500",
+        "addr:postcode": "20032-7433",
+        "addr:state": "MD",
+        "addr:street": "Tinker Street Southwest",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "yes",
+        "cuisine": "burger",
+        "dataset": "buildings",
+        "dcgis:captureyear": "19990331",
+        "dcgis:gis_id": "44421",
+        "dcgis:lot": "0020",
+        "dcgis:square": "PAR",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Burger King",
+        "opening_hours": "Mo-Fr 07:00-18:00; Sa 10:30-18:00",
+        "phone": "+1 202-562-4540",
+        "ref": "6264",
+        "source": "dcgis",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_3555"
+      },
+      "center": {
+        "lat": 38.84058885,
+        "lon": -77.01851095
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DE",
+    "brand": "sweetfrog",
+    "source": "https://download.geofabrik.de/north-america/us/delaware-latest.osm.pbf",
+    "source_md5": "5f714be897be010ea09e4134c39a0638",
+    "processed_utc": "2026-10-24T07:00:37.202137+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6829124391,
+      "tags": {
+        "addr:city": "Rehoboth Beach",
+        "addr:housenumber": "18598",
+        "addr:postcode": "19971",
+        "addr:state": "DE",
+        "addr:street": "Coastal Highway",
+        "addr:unit": "1",
+        "amenity": "ice_cream",
+        "brand": "sweetFrog",
+        "brand:wikidata": "Q16952110",
+        "check_date": "2025-12-10",
+        "cuisine": "frozen_yogurt",
+        "name": "sweetFrog",
+        "opening_hours": "12:00-20:45",
+        "phone": "+1 302-703-6990",
+        "ref": "35267",
+        "website": "https://www.sweetfrog.com/stores/frozen-yogurt-rehoboth-beach/35267"
+      },
+      "lat": 38.7364201,
+      "lon": -75.1416194
+    },
+    {
+      "type": "node",
+      "id": 10679289595,
+      "tags": {
+        "addr:city": "Bear",
+        "addr:housenumber": "1225",
+        "addr:postcode": "19701",
+        "addr:street": "Quintilio Drive",
+        "air_conditioning": "yes",
+        "amenity": "ice_cream",
+        "brand": "sweetFrog",
+        "brand:wikidata": "Q16952110",
+        "check_date": "2026-04-06",
+        "cuisine": "frozen_yogurt",
+        "delivery": "yes",
+        "name": "sweetFrog",
+        "opening_hours": "Mo-Th 13:00-20:45; Fr 13:00-21:30; Sa 12:00-21:30; Su off",
+        "phone": "+1 302-832-2360",
+        "ref": "35243",
+        "website": "https://www.sweetfrog.com/stores/frozen-yogurt-bear/35243"
+      },
+      "lat": 39.6309964,
+      "lon": -75.6667019
+    }
+  ]
+}

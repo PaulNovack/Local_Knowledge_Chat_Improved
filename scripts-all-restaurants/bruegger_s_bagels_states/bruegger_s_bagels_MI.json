@@ -1,0 +1,84 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MI",
+    "brand": "bruegger_s_bagels",
+    "source": "https://download.geofabrik.de/north-america/us/michigan-latest.osm.pbf",
+    "source_md5": "1c9e00f502a3ea973e97c7d6f989094d",
+    "processed_utc": "2026-10-24T07:07:39.587953+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 430026809,
+      "tags": {
+        "addr:city": "Royal Oak",
+        "addr:housenumber": "201",
+        "addr:state": "MI",
+        "addr:street": "South Main Street",
+        "amenity": "fast_food",
+        "brand": "Bruegger's Bagels",
+        "brand:wikidata": "Q4978656",
+        "cuisine": "bagel",
+        "name": "Bruegger's Bagels",
+        "short_name": "Bruegger's",
+        "takeaway": "yes",
+        "website": "https://locations.brueggers.com/us/mi/royal-oak/201-south-main-street"
+      },
+      "lat": 42.4888478,
+      "lon": -83.144039
+    },
+    {
+      "type": "node",
+      "id": 5009753001,
+      "tags": {
+        "addr:city": "Ann Arbor",
+        "addr:housenumber": "709",
+        "addr:postcode": "48104",
+        "addr:state": "MI",
+        "addr:street": "North University Avenue",
+        "amenity": "fast_food",
+        "brand": "Bruegger's Bagels",
+        "brand:wikidata": "Q4978656",
+        "cuisine": "bagel",
+        "drive_through": "no",
+        "name": "Bruegger's Bagels",
+        "opening_hours": "Mo-Su 08:00-14:00",
+        "phone": "+1-734-747-8561",
+        "short_name": "Bruegger's",
+        "takeaway": "yes",
+        "website": "https://locations.brueggers.com/us/mi/ann-arbor/709-n-university-ave"
+      },
+      "lat": 42.2787534,
+      "lon": -83.7402081
+    },
+    {
+      "type": "node",
+      "id": 8613171362,
+      "tags": {
+        "addr:city": "Bloomfield Hills",
+        "addr:housenumber": "39568",
+        "addr:state": "MI",
+        "addr:street": "Woodward Avenue",
+        "amenity": "fast_food",
+        "brand": "Bruegger's Bagels",
+        "brand:wikidata": "Q4978656",
+        "cuisine": "bagel",
+        "name": "Bruegger's Bagels",
+        "phone": "+1-248-847-0924",
+        "short_name": "Bruegger's",
+        "takeaway": "yes",
+        "website": "https://locations.brueggers.com/us/mi/bloomfield-hills/39568-n-woodward-avenue"
+      },
+      "lat": 42.5836065,
+      "lon": -83.2442863
+    }
+  ]
+}

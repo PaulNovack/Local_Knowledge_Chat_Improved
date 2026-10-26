@@ -1,0 +1,101 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "einstein_bros_bagels",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 530711305,
+      "tags": {
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "takeaway": "yes"
+      },
+      "lat": 42.3656601,
+      "lon": -71.2600137
+    },
+    {
+      "type": "node",
+      "id": 1456423778,
+      "tags": {
+        "addr:city": "Boston",
+        "addr:housename": "College of Arts and Sciences",
+        "addr:housenumber": "685",
+        "addr:postcode": "02215",
+        "addr:state": "MA",
+        "addr:street": "Commonwealth Avenue",
+        "addr:unit": "211",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "Boston University",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "Mo-Th 07:30-15:30; Fr 07:30-14:00",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/ma/boston/725-commonwealth-ave"
+      },
+      "lat": 42.3501535,
+      "lon": -71.1045366
+    },
+    {
+      "type": "node",
+      "id": 4777546996,
+      "tags": {
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "check_date": "2026-06-26",
+        "cuisine": "chicken",
+        "level": "0",
+        "name": "Dave's Hot Chicken",
+        "takeaway": "yes"
+      },
+      "lat": 42.6249822,
+      "lon": -71.3605804
+    },
+    {
+      "type": "node",
+      "id": 10781606107,
+      "tags": {
+        "addr:city": "Wayland",
+        "addr:housenumber": "44",
+        "addr:postcode": "01778",
+        "addr:state": "MA",
+        "addr:street": "Main Street",
+        "addr:unit": "211",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "Commonwealth Avenue & Main St",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "06:00-14:00",
+        "phone": "+1 508-655-6420",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/ma/wayland/44-main-st"
+      },
+      "lat": 42.3169988,
+      "lon": -71.3640042
+    }
+  ]
+}

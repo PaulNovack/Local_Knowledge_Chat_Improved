@@ -1,0 +1,48 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MN",
+    "brand": "marco_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/minnesota-latest.osm.pbf",
+    "source_md5": "4cabd6519cf6e8b1f74c96f59629df95",
+    "processed_utc": "2026-10-24T07:08:10.045763+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11882027269,
+      "tags": {
+        "addr:postcode": "55379",
+        "addr:street": "Marschall Road",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza"
+      },
+      "lat": 44.7965956,
+      "lon": -93.5085009
+    },
+    {
+      "type": "way",
+      "id": 934265175,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza"
+      },
+      "center": {
+        "lat": 45.0828237,
+        "lon": -93.21828885000002
+      }
+    }
+  ]
+}

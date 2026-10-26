@@ -1,0 +1,81 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "mellow_mushroom",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6839076600,
+      "tags": {
+        "addr:city": "Sunset Hills",
+        "addr:housenumber": "3811",
+        "addr:postcode": "63127",
+        "addr:street": "South Lindbergh Boulevard",
+        "amenity": "restaurant",
+        "brand": "Mellow Mushroom",
+        "brand:wikidata": "Q17021360",
+        "cuisine": "pizza",
+        "name": "Mellow Mushroom",
+        "source:addr": "St. Louis County GIS Service Center (https://data.stlouisco.com/pages/open-data 2019-08)"
+      },
+      "lat": 38.5491234,
+      "lon": -90.4067309
+    },
+    {
+      "type": "way",
+      "id": 664108624,
+      "tags": {
+        "addr:city": "Chesterfield",
+        "addr:housenumber": "15525",
+        "addr:postcode": "63017",
+        "addr:street": "Olive Boulevard",
+        "amenity": "restaurant",
+        "brand": "Mellow Mushroom",
+        "brand:wikidata": "Q17021360",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Mellow Mushroom"
+      },
+      "center": {
+        "lat": 38.65776205,
+        "lon": -90.55387569999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1104736432,
+      "tags": {
+        "addr:city": "Cottleville",
+        "addr:housenumber": "4716",
+        "addr:postcode": "63376",
+        "addr:state": "MO",
+        "addr:street": "Mid Rivers Mall Drive",
+        "amenity": "restaurant",
+        "brand": "Mellow Mushroom",
+        "brand:wikidata": "Q17021360",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "pizza",
+        "name": "Mellow Mushroom",
+        "smoking": "no",
+        "website": "https://mellowmushroom.com/"
+      },
+      "center": {
+        "lat": 38.7581331,
+        "lon": -90.63644024999996
+      }
+    }
+  ]
+}

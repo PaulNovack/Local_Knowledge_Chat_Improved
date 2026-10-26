@@ -1,0 +1,62 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "mcalister_s_deli",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5262558493,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli"
+      },
+      "lat": 38.3094094,
+      "lon": -104.6265535
+    },
+    {
+      "type": "way",
+      "id": 421376962,
+      "tags": {
+        "addr:city": "Grand Junction",
+        "addr:housenumber": "480",
+        "addr:postcode": "81505",
+        "addr:state": "CO",
+        "addr:street": "West Park Drive",
+        "amenity": "restaurant",
+        "branch": "Grand Junction, CO",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "building:levels": "1",
+        "building:part": "retail",
+        "check_date": "2024-08-01",
+        "craft": "caterer",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli",
+        "opening_hours": "Mo-Sa 10:00-20:00; Su 10:30-19:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-970-235-3354",
+        "takeaway": "yes",
+        "website": "https://locations.mcalistersdeli.com/co/grand-junction/480-west-park-drive"
+      },
+      "center": {
+        "lat": 39.091565599999996,
+        "lon": -108.57461949999998
+      }
+    }
+  ]
+}

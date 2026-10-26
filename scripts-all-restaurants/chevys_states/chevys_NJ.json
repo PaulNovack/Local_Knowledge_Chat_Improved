@@ -1,0 +1,36 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "chevys",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 45791861,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chevys Fresh Mex",
+        "brand:wikidata": "Q5094466",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Chevys",
+        "official_name": "Chevys Fresh Mex"
+      },
+      "center": {
+        "lat": 40.8276633,
+        "lon": -74.13931049999997
+      }
+    }
+  ]
+}

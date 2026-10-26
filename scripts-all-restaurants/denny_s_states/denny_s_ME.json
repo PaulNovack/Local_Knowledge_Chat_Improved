@@ -1,0 +1,89 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ME",
+    "brand": "denny_s",
+    "source": "https://download.geofabrik.de/north-america/us/maine-latest.osm.pbf",
+    "source_md5": "561ab4eba7b10f360a72f8484b6f08c3",
+    "processed_utc": "2026-10-24T07:05:33.375896+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 375638063,
+      "tags": {
+        "addr:city": "Augusta",
+        "addr:housenumber": "123",
+        "addr:postcode": "04330",
+        "addr:state": "ME",
+        "addr:street": "Civic Center Drive",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "delivery": "no",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "phone": "+1-207-623-1290",
+        "smoking": "no"
+      },
+      "center": {
+        "lat": 44.33767105,
+        "lon": -69.79169300000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 377403954,
+      "tags": {
+        "addr:city": "Bangor",
+        "addr:housenumber": "120",
+        "addr:postcode": "04401",
+        "addr:state": "ME",
+        "addr:street": "Haskell Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "center": {
+        "lat": 44.8324229,
+        "lon": -68.73989039999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 385170183,
+      "tags": {
+        "addr:city": "Auburn",
+        "addr:housenumber": "211",
+        "addr:postcode": "04210",
+        "addr:state": "ME",
+        "addr:street": "Court Street",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "phone": "+1-207-782-8338",
+        "smoking": "no"
+      },
+      "center": {
+        "lat": 44.09835465,
+        "lon": -70.23056765000001
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IA",
+    "brand": "marco_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/iowa-latest.osm.pbf",
+    "source_md5": "67edcd557c575ead09c9f80bc8694526",
+    "processed_utc": "2026-10-24T07:04:05.270534+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6611327489,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 42.0471811,
+      "lon": -91.6392483
+    },
+    {
+      "type": "node",
+      "id": 8084907835,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 42.4701315,
+      "lon": -92.3771381
+    }
+  ]
+}

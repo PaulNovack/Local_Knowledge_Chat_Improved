@@ -1,0 +1,44 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "hardee_s",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1242345201,
+      "tags": {
+        "addr:city": "Sallisaw",
+        "addr:housenumber": "2102",
+        "addr:postcode": "74955",
+        "addr:state": "OK",
+        "addr:street": "East Cherokee Avenue",
+        "amenity": "fast_food",
+        "brand": "Hardee's",
+        "brand:wikidata": "Q1585088",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Hardee's",
+        "phone": "+1-918-775-5882",
+        "takeaway": "yes",
+        "website": "https://locations.hardees.com/ok/sallisaw/2102-e-cherokee-ave"
+      },
+      "center": {
+        "lat": 35.45666129999999,
+        "lon": -94.76790004999998
+      }
+    }
+  ]
+}

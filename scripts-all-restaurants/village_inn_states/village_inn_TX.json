@@ -1,0 +1,111 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TX",
+    "brand": "village_inn",
+    "source": "https://download.geofabrik.de/north-america/us/texas-latest.osm.pbf",
+    "source_md5": "eb8f4603e9b48bd481c192fe621ae18b",
+    "processed_utc": "2026-10-24T07:17:23.814833+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1501317175,
+      "tags": {
+        "addr:housenumber": "1500",
+        "addr:street": "Airway Boulevard",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "cuisine": "american",
+        "description": "Area code 79925",
+        "name": "Village Inn",
+        "opening_hours": "24/7",
+        "phone": "+1-915-779-5363"
+      },
+      "lat": 31.788914,
+      "lon": -106.395176
+    },
+    {
+      "type": "way",
+      "id": 160682616,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn"
+      },
+      "center": {
+        "lat": 31.77986005,
+        "lon": -106.50550254999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 568338242,
+      "tags": {
+        "addr:city": "El Paso",
+        "addr:housenumber": "1331",
+        "addr:postcode": "79936",
+        "addr:state": "TX",
+        "addr:street": "North Zaragoza Road",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "contact:phone": "+1-915-590-5058",
+        "contact:website": "https://www.villageinn.com/",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "opening_hours": "Mo-Th 05:30-01:00, Fr 05:30-24:00; Sa 00:00-24:00, Su 00:00-01:00",
+        "source": "https://www.villageinn.com/locations/el-paso-tx-zaragosa/"
+      },
+      "center": {
+        "lat": 31.72709705,
+        "lon": -106.30052884999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 723617073,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn"
+      },
+      "center": {
+        "lat": 31.830995,
+        "lon": -106.5302845
+      }
+    },
+    {
+      "type": "way",
+      "id": 1504463433,
+      "tags": {
+        "addr:street": "Joe Battle Boulevard",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn"
+      },
+      "center": {
+        "lat": 31.795398249999998,
+        "lon": -106.2672435
+      }
+    }
+  ]
+}

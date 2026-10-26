@@ -1,0 +1,581 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "applebee_s",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1819268914,
+      "tags": {
+        "addr:state": "AZ",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 520-459-1664",
+        "source": "Bing",
+        "website": "https://restaurants.applebees.com/en-us/az/sierra-vista/3899-el-mercado-loop-97096",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=97096&action=viewmenu"
+      },
+      "lat": 31.532287,
+      "lon": -110.2581491
+    },
+    {
+      "type": "node",
+      "id": 13819508493,
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:housenumber": "4712",
+        "addr:postcode": "85296",
+        "addr:state": "AZ",
+        "addr:street": "East Ray Road",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 480-279-0824",
+        "website": "https://restaurants.applebees.com/en-us/az/gilbert/4712-e.-ray-rd.-99039",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=99039&action=viewmenu"
+      },
+      "lat": 33.3221702,
+      "lon": -111.6888247
+    },
+    {
+      "type": "way",
+      "id": 89132980,
+      "tags": {
+        "addr:city": "Prescott",
+        "addr:housenumber": "1881",
+        "addr:postcode": "86301",
+        "addr:state": "AZ",
+        "addr:street": "AZ 69",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "check_date": "2025-02-22",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "opening_hours": "11:00-24:00",
+        "outdoor_seating": "no",
+        "phone": "+1 928-445-8787",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://restaurants.applebees.com/en-us/az/prescott/1881-east-highway-69-91015",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=91015&action=viewmenu"
+      },
+      "center": {
+        "lat": 34.55086355,
+        "lon": -112.43268719999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 130318999,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "2837",
+        "addr:postcode": "85033",
+        "addr:state": "AZ",
+        "addr:street": "North 75th Avenue",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2022-12-22",
+        "cuisine": "american",
+        "internet_access": "no",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 623-849-8895",
+        "smoking": "no",
+        "website": "https://restaurants.applebees.com/en-us/az/phoenix/2651-n-75th-ave-78022",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=78022&action=viewmenu",
+        "wheelchair": "limited"
+      },
+      "center": {
+        "lat": 33.47817525,
+        "lon": -112.22016730000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 137609302,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "2547",
+        "addr:postcode": "85008",
+        "addr:state": "AZ",
+        "addr:street": "North 44th Street",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 602-952-0033",
+        "source": "esri_USDOT_Arizona",
+        "website": "https://restaurants.applebees.com/en-us/az/phoenix/2547-n-44th-street-90003",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=90003&action=viewmenu"
+      },
+      "center": {
+        "lat": 33.476401249999995,
+        "lon": -111.98638979999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 155766523,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "5210",
+        "addr:postcode": "85339",
+        "addr:state": "AZ",
+        "addr:street": "West Baseline Road",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "yes",
+        "check_date": "2022-12-22",
+        "cuisine": "american",
+        "delivery": "no",
+        "internet_access": "no",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 602-605-8010",
+        "source": "esri/USA_NAD_Addresses",
+        "website": "https://restaurants.applebees.com/en-us/az/laveen/5210-w-baseline-rd.-75078",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=75078&action=viewmenu"
+      },
+      "center": {
+        "lat": 33.37795,
+        "lon": -112.17134770000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 174870868,
+      "tags": {
+        "addr:state": "AZ",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 928-782-7474",
+        "source": "Bing",
+        "source:name": "local_knowledge",
+        "website": "https://restaurants.applebees.com/en-us/az/yuma/1100-east-16th-street-96010",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=96010&action=viewmenu"
+      },
+      "center": {
+        "lat": 32.699148050000005,
+        "lon": -114.60975965
+      }
+    },
+    {
+      "type": "way",
+      "id": 236491641,
+      "tags": {
+        "addr:state": "AZ",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar"
+      },
+      "center": {
+        "lat": 32.2869983,
+        "lon": -110.96356790000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 255487363,
+      "tags": {
+        "addr:state": "AZ",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar"
+      },
+      "center": {
+        "lat": 32.251175950000004,
+        "lon": -110.89451209999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 274178071,
+      "tags": {
+        "addr:state": "AZ",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 928-305-9200",
+        "website": "https://restaurants.applebees.com/en-us/az/yuma/11274-s.-fortuna-road-99043",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=99043&action=viewmenu"
+      },
+      "center": {
+        "lat": 32.669428800000006,
+        "lon": -114.44719685000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 291811017,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "6259",
+        "addr:postcode": "85206",
+        "addr:state": "AZ",
+        "addr:street": "East Southern Avenue",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 480-830-3099",
+        "website": "https://restaurants.applebees.com/en-us/az/mesa/6259-e.-southern-avenue-87037",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=87037&action=viewmenu"
+      },
+      "center": {
+        "lat": 33.39357095,
+        "lon": -111.69574210000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 314680083,
+      "tags": {
+        "addr:city": "Glendale",
+        "addr:country": "US",
+        "addr:housenumber": "5880",
+        "addr:postcode": "85302",
+        "addr:state": "AZ",
+        "addr:street": "West Peoria Avenue",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 623-878-3500",
+        "website": "https://restaurants.applebees.com/en-us/az/glendale/5880-w.-peoria-ave.-91076",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=91076&action=viewmenu"
+      },
+      "center": {
+        "lat": 33.58249015,
+        "lon": -112.18572589999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 335386994,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "2180",
+        "addr:postcode": "85042",
+        "addr:state": "AZ",
+        "addr:street": "East Baseline Road",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 602-323-5680",
+        "source": "esri_USDOT_Arizona",
+        "website": "https://restaurants.applebees.com/en-us/az/phoenix/2180-e.-baseline-road-98063",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=98063&action=viewmenu"
+      },
+      "center": {
+        "lat": 33.378383549999995,
+        "lon": -112.03312505000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 355327097,
+      "tags": {
+        "addr:city": "Surprise",
+        "addr:housenumber": "13756",
+        "addr:postcode": "85374",
+        "addr:state": "AZ",
+        "addr:street": "West Bell Road",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "delivery": "no",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "opening_hours": "11:00-24:00",
+        "phone": "+1 623-544-0368",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://restaurants.applebees.com/en-us/az/surprise/13756-w.-bell-road-96028",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=96028&action=viewmenu"
+      },
+      "center": {
+        "lat": 33.642199250000004,
+        "lon": -112.35568024999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 369053869,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "9330",
+        "addr:postcode": "85305",
+        "addr:state": "AZ",
+        "addr:street": "West Northern Avenue",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "delivery": "no",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 623-877-4885",
+        "website": "https://restaurants.applebees.com/en-us/az/glendale/9330-w.-northern-ave.-98071",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=98071&action=viewmenu"
+      },
+      "center": {
+        "lat": 33.552203250000005,
+        "lon": -112.26007675
+      }
+    },
+    {
+      "type": "way",
+      "id": 374750467,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "2032",
+        "addr:postcode": "85204",
+        "addr:state": "AZ",
+        "addr:street": "East Baseline Road",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "retail",
+        "building:levels": "1",
+        "building:levels:underground": "0",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "outdoor_seating": "no",
+        "phone": "+1 480-545-4299",
+        "website": "https://restaurants.applebees.com/en-us/az/mesa/2032-east-baseline-road-87071",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=87071&action=viewmenu"
+      },
+      "center": {
+        "lat": 33.3795222,
+        "lon": -111.78779225
+      }
+    },
+    {
+      "type": "way",
+      "id": 386558975,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "2230",
+        "addr:postcode": "85741",
+        "addr:state": "AZ",
+        "addr:street": "West Ina Road",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 520-297-2220",
+        "website": "https://restaurants.applebees.com/en-us/az/tucson/2230-w.-ina-road-92050",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=92050&action=viewmenu"
+      },
+      "center": {
+        "lat": 32.337837050000005,
+        "lon": -111.0153631
+      }
+    },
+    {
+      "type": "way",
+      "id": 429012966,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "2053",
+        "addr:postcode": "85210",
+        "addr:state": "AZ",
+        "addr:street": "South Alma School Road",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1 480-831-7557",
+        "source": "esri/USA_NAD_Addresses",
+        "website": "https://restaurants.applebees.com/en-us/az/mesa/2053-s.-alma-school-road-85030",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=85030&action=viewmenu"
+      },
+      "center": {
+        "lat": 33.3772702,
+        "lon": -111.85908589999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 685500119,
+      "tags": {
+        "addr:city": "Goodyear",
+        "addr:housenumber": "13832",
+        "addr:postcode": "85395",
+        "addr:state": "AZ",
+        "addr:street": "West McDowell Road",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1-623-536-8440",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 33.465032300000004,
+        "lon": -112.3567109
+      }
+    },
+    {
+      "type": "way",
+      "id": 807337437,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1143",
+        "addr:postcode": "85205",
+        "addr:state": "AZ",
+        "addr:street": "North Higley Road",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-480-981-4667",
+        "website": "https://restaurants.applebees.com/en-us/az/mesa/1143-n.-higley-road-94005",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=94005&action=viewmenu"
+      },
+      "center": {
+        "lat": 33.4368913,
+        "lon": -111.71834920000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 838366654,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "5870",
+        "addr:postcode": "85711",
+        "addr:state": "AZ",
+        "addr:street": "East Broadway Boulevard",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "opening_hours": "Mo-Th 11:00-01:00, Fr-Sa 11:00-02:00, Su 11:00-00:00",
+        "phone": "+1 520-750-9780",
+        "website": "https://restaurants.applebees.com/en-us/az/tucson/5870-east-broadway-87066",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=87066&action=viewmenu"
+      },
+      "center": {
+        "lat": 32.221071300000006,
+        "lon": -110.86726935000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 842258067,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "8001",
+        "addr:postcode": "85382",
+        "addr:state": "AZ",
+        "addr:street": "West Bell Road",
+        "amenity": "restaurant",
+        "brand": "Applebee's Neighborhood Grill & Bar",
+        "brand:wikidata": "Q621532",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Applebee's",
+        "official_name": "Applebee's Neighborhood Grill & Bar",
+        "phone": "+1-623-878-1410",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://restaurants.applebees.com/en-us/az/peoria/8001-west-bell-road-88007",
+        "website:menu": "https://www.applebees.com/en/menu?StoreNumber=88007&action=viewmenu"
+      },
+      "center": {
+        "lat": 33.6377715,
+        "lon": -112.23079815
+      }
+    }
+  ]
+}

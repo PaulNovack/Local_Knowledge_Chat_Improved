@@ -1,0 +1,34 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "cicis",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1812756519,
+      "tags": {
+        "addr:unit": "Suite 144",
+        "amenity": "restaurant",
+        "brand": "Cicis",
+        "brand:wikidata": "Q2972189",
+        "cuisine": "pizza;buffet",
+        "name": "Cicis",
+        "opening_hours": "closed"
+      },
+      "lat": 39.3716582,
+      "lon": -77.4124629
+    }
+  ]
+}

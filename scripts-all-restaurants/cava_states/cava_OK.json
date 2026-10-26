@@ -1,0 +1,136 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "cava",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11975781072,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:housenumber": "6044",
+        "addr:postcode": "74135",
+        "addr:street": "South Yale Avenue East",
+        "addr:unit": "250",
+        "amenity": "restaurant",
+        "branch": "Kingspointe",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "cuisine": "mediterranean",
+        "name": "CAVA",
+        "outdoor_seating": "yes",
+        "phone": "+1 539 242 6424",
+        "website": "https://cava.com/locations/kingspointe-ok"
+      },
+      "lat": 36.0759375,
+      "lon": -95.9232124
+    },
+    {
+      "type": "node",
+      "id": 12177166786,
+      "tags": {
+        "addr:city": "Broken Arrow",
+        "addr:housenumber": "1556",
+        "addr:postcode": "74012",
+        "addr:street": "North 9th Street East",
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "cuisine": "mediterranean",
+        "name": "CAVA",
+        "phone": "+1 539 250 4017"
+      },
+      "lat": 36.0671188,
+      "lon": -95.7802486
+    },
+    {
+      "type": "node",
+      "id": 13465253765,
+      "tags": {
+        "addr:city": "Oklahoma City",
+        "addr:housenumber": "6150",
+        "addr:postcode": "73118",
+        "addr:state": "OK",
+        "addr:street": "Northwest Grand Boulevard",
+        "addr:unit": "C",
+        "amenity": "restaurant",
+        "branch": "Classen Curve",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "cuisine": "mediterranean",
+        "drive_in": "no",
+        "drive_through": "no",
+        "name": "CAVA",
+        "takeaway": "yes",
+        "website": "https://cava.com/locations/classen-curve-ok"
+      },
+      "lat": 35.5350101,
+      "lon": -97.5321147
+    },
+    {
+      "type": "node",
+      "id": 13805089769,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "cuisine": "mediterranean",
+        "name": "CAVA"
+      },
+      "lat": 36.1104291,
+      "lon": -95.9755191
+    },
+    {
+      "type": "relation",
+      "id": 19966239,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "building:part": "retail",
+        "cuisine": "mediterranean",
+        "name": "CAVA",
+        "takeaway": "yes",
+        "type": "multipolygon"
+      },
+      "center": {
+        "lat": 36.019239999999996,
+        "lon": -95.88576484999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 887143591,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "7427",
+        "addr:postcode": "74132",
+        "addr:state": "OK",
+        "addr:street": "South Olympia Avenue West",
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "building": "yes",
+        "cuisine": "mediterranean",
+        "name": "CAVA"
+      },
+      "center": {
+        "lat": 36.0558911,
+        "lon": -96.00285550000001
+      }
+    }
+  ]
+}

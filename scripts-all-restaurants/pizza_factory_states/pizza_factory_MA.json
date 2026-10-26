@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "pizza_factory",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6393763458,
+      "tags": {
+        "addr:city": "Plymouth",
+        "addr:housenumber": "25",
+        "addr:postcode": "02360",
+        "addr:state": "MA",
+        "addr:street": "Home Depot Drive",
+        "amenity": "restaurant",
+        "brand": "Pizza Factory",
+        "brand:wikidata": "Q39054369",
+        "cuisine": "pizza",
+        "name": "Pizza Factory",
+        "website": "http://pizzafactoryplymouth.com/"
+      },
+      "lat": 41.9341067,
+      "lon": -70.6596563
+    },
+    {
+      "type": "way",
+      "id": 214935512,
+      "tags": {
+        "addr:housenumber": "11;13",
+        "addr:street": "West Main Street",
+        "amenity": "restaurant",
+        "brand": "Pizza Factory",
+        "brand:wikidata": "Q39054369",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Factory"
+      },
+      "center": {
+        "lat": 42.5906734,
+        "lon": -72.31036315
+      }
+    }
+  ]
+}

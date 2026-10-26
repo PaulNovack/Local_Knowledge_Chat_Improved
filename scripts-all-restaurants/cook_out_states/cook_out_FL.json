@@ -1,0 +1,92 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "cook_out",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 832792277,
+      "tags": {
+        "addr:city": "Tampa",
+        "addr:housenumber": "5601",
+        "addr:postcode": "33617",
+        "addr:state": "fl",
+        "addr:street": "East Fowler Avenue",
+        "amenity": "fast_food",
+        "brand": "Cook Out",
+        "brand:wikidata": "Q5166992",
+        "cuisine": "american;chicken;sandwich",
+        "drive_through": "yes",
+        "name": "Cook Out",
+        "opening_hours": "Mo-Su 10:00-04:00",
+        "outdoor_seating": "no",
+        "phone": "+1-866-547-0011",
+        "takeaway": "yes",
+        "website": "http://cookout.com"
+      },
+      "lat": 28.0539316,
+      "lon": -82.3942748
+    },
+    {
+      "type": "way",
+      "id": 355921671,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cook Out",
+        "brand:wikidata": "Q5166992",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cook Out",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 30.5316549,
+        "lon": -87.22505790000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 370587834,
+      "tags": {
+        "addr:city": "Tallahassee",
+        "addr:country": "US",
+        "addr:housenumber": "1942",
+        "addr:postcode": "32303",
+        "addr:state": "FL",
+        "addr:street": "North Monroe Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Cook Out",
+        "brand:wikidata": "Q5166992",
+        "cuisine": "american",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "landuse": "commercial",
+        "name": "Cook Out",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 30.46625375,
+        "lon": -84.2847605
+      }
+    }
+  ]
+}

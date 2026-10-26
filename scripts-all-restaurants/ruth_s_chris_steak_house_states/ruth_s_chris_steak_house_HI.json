@@ -1,0 +1,46 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "HI",
+    "brand": "ruth_s_chris_steak_house",
+    "source": "https://download.geofabrik.de/north-america/us/hawaii-latest.osm.pbf",
+    "source_md5": "72d4122e050f63452c0aa341f9272254",
+    "processed_utc": "2026-10-24T07:02:30.197996+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7238125671,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "cuisine": "american;steak_house",
+        "level": "1",
+        "name": "Ruth's Chris Steak House"
+      },
+      "lat": 20.6869591,
+      "lon": -156.441081
+    },
+    {
+      "type": "node",
+      "id": 8023783828,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "cuisine": "american;steak_house",
+        "name": "Ruth's Chris Steak House"
+      },
+      "lat": 20.6868131,
+      "lon": -156.439939
+    }
+  ]
+}

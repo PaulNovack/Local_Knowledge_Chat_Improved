@@ -1,0 +1,710 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "in_n_out_burger",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4860223222,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3545",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "addr:unit": "L24",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "check_date": "2025-03-12",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "no",
+        "level": "1",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Su-Th 10:30-01:00; Fr-Sa 10:30-01:30",
+        "outdoor_seating": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cards": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 800-786-1000",
+        "ref": "320",
+        "smoking": "no",
+        "source": "survey",
+        "start_date": "2017-01-11",
+        "store_number": "320",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/320"
+      },
+      "lat": 36.1174181,
+      "lon": -115.169885
+    },
+    {
+      "type": "node",
+      "id": 11879184487,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "6530",
+        "addr:postcode": "89118",
+        "addr:state": "NV",
+        "addr:street": "South Rainbow Boulevard",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "cuisine": "burger",
+        "name": "In-N-Out Burger",
+        "ref": "352",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/352"
+      },
+      "lat": 36.0698589,
+      "lon": -115.2418931
+    },
+    {
+      "type": "node",
+      "id": 14121071723,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3747",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "addr:unit": "3-150",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "cuisine": "burger",
+        "level": "3",
+        "name": "In-N-Out Burger",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/437"
+      },
+      "lat": 36.1064061,
+      "lon": -115.1724986
+    },
+    {
+      "type": "way",
+      "id": 242317253,
+      "tags": {
+        "addr:city": "Carson City",
+        "addr:housenumber": "957",
+        "addr:postcode": "89705",
+        "addr:state": "NV",
+        "addr:street": "Topsy Lane",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "cuisine": "burger",
+        "diet:vegetarian": "yes",
+        "drive_through": "yes",
+        "image": "http://www.in-n-out.com/ino-images/default-source/location-store-images/Store_187.jpg",
+        "indoor_seating": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Mo-Su 10:30-01:00",
+        "outdoor_seating": "yes",
+        "ref": "187",
+        "roof:shape": "flat",
+        "smoking": "outside",
+        "start_date": "2004-10-14",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/187",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 39.10911915,
+        "lon": -119.77493865000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 257307259,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "4888",
+        "addr:postcode": "89103",
+        "addr:state": "NV",
+        "addr:street": "Dean Martin Drive",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "indoor_seating": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Fr,Sa 10:30-01:30; Su-Th 10:30-01:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 800-786-1000",
+        "ref": "86",
+        "roof:shape": "flat",
+        "start_date": "1993-07-28",
+        "store_number": "86",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/86"
+      },
+      "center": {
+        "lat": 36.1013304,
+        "lon": -115.18222385000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 257307262,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "4705",
+        "addr:postcode": "89119",
+        "addr:state": "NV",
+        "addr:street": "University Road",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "ref": "88",
+        "start_date": "1993-08-31",
+        "store_number": "88",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/88"
+      },
+      "center": {
+        "lat": 36.104165050000006,
+        "lon": -115.13765290000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 276426443,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "2900",
+        "addr:postcode": "89102-4347",
+        "addr:state": "NV",
+        "addr:street": "West Sahara Avenue",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "building:levels": "1",
+        "building:use": "fast_food",
+        "contact:facebook": "https://www.facebook.com/163730827014925",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Mo-Th 10:30-01:00; Fr-Su 10:30-01:30",
+        "outdoor_seating": "yes",
+        "phone": "+1-800-786-1000",
+        "ref": "80",
+        "smoking": "outside",
+        "start_date": "1992-11-17",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/80",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 36.14481735,
+        "lon": -115.18058715000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 295885909,
+      "tags": {
+        "addr:city": "Sparks",
+        "addr:county": "Washoe",
+        "addr:housenumber": "280",
+        "addr:postcode": "89431",
+        "addr:state": "NV",
+        "addr:street": "Pyramid Way",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Su-Th 10:30-01:00, Fr,Sa 10:30-01:30",
+        "ref": "188",
+        "source": "WC GIS",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/188"
+      },
+      "center": {
+        "lat": 39.5355943,
+        "lon": -119.75257699999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 306292323,
+      "tags": {
+        "addr:city": "Laughlin",
+        "addr:housenumber": "2085",
+        "addr:postcode": "89029",
+        "addr:state": "NV",
+        "addr:street": "South Casino Drive",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Mo-Fr 10:30-01:00; Sa-Su 10:00-01:30",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/181",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 35.15929185,
+        "lon": -114.57521605
+      }
+    },
+    {
+      "type": "way",
+      "id": 380174500,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "51",
+        "addr:postcode": "89110",
+        "addr:state": "NV",
+        "addr:street": "North Nellis Boulevard",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Su-Th 10:30-01:00; Fr-Sa 10:30-01:30",
+        "phone": "+1 800-786-1000",
+        "ref": "81",
+        "start_date": "1992-11-18",
+        "store_number": "81",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/81"
+      },
+      "center": {
+        "lat": 36.16084395,
+        "lon": -115.06271874999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 383915358,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "1960",
+        "addr:postcode": "89128",
+        "addr:state": "NV",
+        "addr:street": "Rock Springs Drive",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Su-Th 10:30-01:00; Fr-Sa 10:30-01:30",
+        "outdoor_seating": "yes",
+        "phone": "+1-800-786-1000",
+        "ref": "104",
+        "start_date": "1995-02-28",
+        "start_date:railway": "104",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/104"
+      },
+      "center": {
+        "lat": 36.19566685,
+        "lon": -115.24655860000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 461504551,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "9240",
+        "addr:postcode": "89123",
+        "addr:state": "NV",
+        "addr:street": "South Eastern Avenue",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "building:levels": "1",
+        "building:use": "fast_food",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Su-Th 10:30-01:00; Fr-Sa 10:30-01:30",
+        "outdoor_seating": "yes",
+        "phone": "+1 800-786-1000",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/165"
+      },
+      "center": {
+        "lat": 36.021380949999994,
+        "lon": -115.11809044999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 461571637,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "1051",
+        "addr:postcode": "89014",
+        "addr:state": "NV",
+        "addr:street": "Sunset Road",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "building:use": "fast_food",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "name:en": "In-N-Out Burger",
+        "name:ja": "イン・アンド・アウト",
+        "name:ko": "인앤아웃 버거",
+        "opening_hours": "10:30-01:00",
+        "outdoor_seating": "yes",
+        "ref": "150",
+        "start_date": "2001-03-29",
+        "store_number": "150",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/150"
+      },
+      "center": {
+        "lat": 36.06330635,
+        "lon": -115.0339434
+      }
+    },
+    {
+      "type": "way",
+      "id": 462172023,
+      "tags": {
+        "addr:city": "Reno",
+        "addr:county": "Washoe",
+        "addr:housenumber": "8215",
+        "addr:postcode": "89511",
+        "addr:state": "NV",
+        "addr:street": "South Virginia Street",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "outdoor_seating": "yes",
+        "ref": "186",
+        "source": "WC GIS",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/186"
+      },
+      "center": {
+        "lat": 39.452003500000004,
+        "lon": -119.77740700000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 462220966,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "9610",
+        "addr:postcode": "89147",
+        "addr:state": "NV",
+        "addr:street": "West Tropicana Avenue",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Su-Th 10:30-01:00; Fr-Sa 10:30-01:30",
+        "phone": "+1 800-786-1000",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/226"
+      },
+      "center": {
+        "lat": 36.10065195,
+        "lon": -115.30207684999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 467627201,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "5690",
+        "addr:postcode": "89131",
+        "addr:state": "NV",
+        "addr:street": "Centennial Center Boulevard",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "building:use": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "10:30-01:00; PH off",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/204"
+      },
+      "center": {
+        "lat": 36.265260600000005,
+        "lon": -115.25704639999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 545589325,
+      "tags": {
+        "addr:city": "North Las Vegas",
+        "addr:housenumber": "6880",
+        "addr:postcode": "89084",
+        "addr:state": "NV",
+        "addr:street": "North 5th Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "commercial",
+        "building:levels": "1",
+        "check_date": "2026-10-06",
+        "check_date:diet:vegetarian": "2026-07-30",
+        "cuisine": "burger",
+        "diet:vegetarian": "no",
+        "drive_through": "yes",
+        "image": "http://www.in-n-out.com/ino-images/default-source/location-store-images/store_234.png",
+        "level": "0",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Su-Th 10:30-01:00; Fr-Sa 10:30-01:30",
+        "phone": "+1 702-786-1000",
+        "self_service": "partially",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/234",
+        "website:menu": "https://www.in-n-out.com/menu",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 36.2852204,
+        "lon": -115.13437875
+      }
+    },
+    {
+      "type": "way",
+      "id": 819991641,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3882",
+        "addr:postcode": "89139",
+        "addr:state": "NV",
+        "addr:street": "Blue Diamond Road",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Su-Th 10:30-01:00; Fr-Sa 10:30-01:30; Mo-Su 10:30-13:00",
+        "ref": "221",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/221"
+      },
+      "center": {
+        "lat": 36.040637149999995,
+        "lon": -115.19127155000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1117027544,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "10040",
+        "addr:postcode": "89117-0306",
+        "addr:state": "NV",
+        "addr:street": "West Sahara Avenue",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Su-Th 10:30-01:00; Fr-Sa 10:30-01:30",
+        "phone": "+1 800-786-1000",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/331"
+      },
+      "center": {
+        "lat": 36.1448239,
+        "lon": -115.31343355000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1135619974,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3804",
+        "addr:postcode": "89121",
+        "addr:state": "NV",
+        "addr:street": "East Flamingo Road",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Su-Th 10:30-01:00; Fr-Sa 10:30-01:20",
+        "phone": "+1 800-786-1000",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/334"
+      },
+      "center": {
+        "lat": 36.11570105,
+        "lon": -115.09165569999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1236770126,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3397",
+        "addr:postcode": "89118",
+        "addr:state": "NV",
+        "addr:street": "West Russell Road",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "In-N-Out Burger",
+        "ref": "393",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/393"
+      },
+      "center": {
+        "lat": 36.08572155,
+        "lon": -115.18488954999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1258818560,
+      "tags": {
+        "addr:city": "Reno",
+        "addr:housenumber": "915",
+        "addr:postcode": "89503",
+        "addr:state": "NV",
+        "addr:street": "West 5th Street",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "In-N-Out Burger",
+        "ref": "377",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/377"
+      },
+      "center": {
+        "lat": 39.5289969,
+        "lon": -119.82904444999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1266704444,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "3551",
+        "addr:postcode": "89052",
+        "addr:state": "NV",
+        "addr:street": "Saint Rose Parkway",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "retail",
+        "cuisine": "burger",
+        "layer": "1",
+        "name": "In-N-Out Burger",
+        "ref": "364",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/364"
+      },
+      "center": {
+        "lat": 35.98636585,
+        "lon": -115.14208615000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1344408434,
+      "tags": {
+        "addr:city": "North Las Vegas",
+        "addr:housenumber": "2765",
+        "addr:postcode": "89030",
+        "addr:state": "NV",
+        "addr:street": "East Craig Road",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "layer": "1",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Su-Th 10:30-01:00; Fr-Sa 10:00-01:30",
+        "phone": "+1 702-786-1000",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/243"
+      },
+      "center": {
+        "lat": 36.2396969,
+        "lon": -115.11147940000001
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "o_charley_s",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 280081120,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "O'Charley's",
+        "brand:wikidata": "Q7071703",
+        "cuisine": "american",
+        "name": "O'Charley's"
+      },
+      "lat": 30.4409968,
+      "lon": -89.0972253
+    },
+    {
+      "type": "way",
+      "id": 281566391,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "O'Charley's",
+        "brand:wikidata": "Q7071703",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "O'Charley's"
+      },
+      "center": {
+        "lat": 34.30773865,
+        "lon": -88.70635579999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 705605559,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "O'Charley's",
+        "brand:wikidata": "Q7071703",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "O'Charley's"
+      },
+      "center": {
+        "lat": 32.36109145,
+        "lon": -88.67249909999998
+      }
+    }
+  ]
+}

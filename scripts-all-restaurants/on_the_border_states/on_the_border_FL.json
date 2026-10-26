@@ -1,0 +1,57 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "on_the_border",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4613199089,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "cuisine": "tex-mex",
+        "indoor_seating": "yes",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "outdoor_seating": "no"
+      },
+      "lat": 28.4347383,
+      "lon": -81.3145699
+    },
+    {
+      "type": "node",
+      "id": 7903473922,
+      "tags": {
+        "addr:housenumber": "3236",
+        "addr:postcode": "34747",
+        "addr:street": "Rolling Oaks Blvd.",
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "name:en": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-407-452-5437",
+        "website": "https://www.ontheborder.com/"
+      },
+      "lat": 28.3454619,
+      "lon": -81.6131061
+    }
+  ]
+}

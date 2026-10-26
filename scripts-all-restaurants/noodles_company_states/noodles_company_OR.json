@@ -1,0 +1,125 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OR",
+    "brand": "noodles_company",
+    "source": "https://download.geofabrik.de/north-america/us/oregon-latest.osm.pbf",
+    "source_md5": "bc93fd72fe4589fdc6c9b2b497cb7ef1",
+    "processed_utc": "2026-10-24T07:14:41.004303+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2300370353,
+      "tags": {
+        "addr:city": "Beaverton",
+        "addr:housenumber": "4655",
+        "addr:postcode": "97005",
+        "addr:state": "OR",
+        "addr:street": "Southwest Griffith Drive",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "indoor_seating": "yes",
+        "name": "Noodles & Company",
+        "opening_hours": "11:00-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-503-350-0591",
+        "website": "https://locations.noodles.com/or/beaverton/4655-sw-griffith-dr"
+      },
+      "lat": 45.4863124,
+      "lon": -122.7963831
+    },
+    {
+      "type": "node",
+      "id": 4041115572,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "level": "1",
+        "name": "Noodles & Company"
+      },
+      "lat": 44.0730357,
+      "lon": -123.0434699
+    },
+    {
+      "type": "node",
+      "id": 10227760002,
+      "tags": {
+        "addr:city": "Eugene",
+        "addr:postcode": "97401",
+        "addr:state": "OR",
+        "addr:street": "Valley River Way",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "check_date": "2025-07-10",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 44.0685149,
+      "lon": -123.1028263
+    },
+    {
+      "type": "way",
+      "id": 107656162,
+      "tags": {
+        "addr:city": "Hillsboro",
+        "addr:housenumber": "7216",
+        "addr:postcode": "97124",
+        "addr:state": "OR",
+        "addr:street": "Northeast Cornell Road",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "building": "yes",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "opening_hours": "Mo-Su 11:00-21:00; Fr,Sa 11:00-22:00",
+        "phone": "+1-503-648-4783",
+        "website": "https://locations.noodles.com/or/hillsboro/7216-ne-cornell-road"
+      },
+      "center": {
+        "lat": 45.53819345,
+        "lon": -122.904223
+      }
+    },
+    {
+      "type": "way",
+      "id": 551563463,
+      "tags": {
+        "addr:city": "Clackamas",
+        "addr:housenumber": "12190",
+        "addr:postcode": "97086",
+        "addr:state": "OR",
+        "addr:street": "Southeast 82nd Avenue",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "pasta",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Noodles & Company",
+        "opening_hours": "11:00-21:00",
+        "phone": "+1-971-233-0330",
+        "website": "https://locations.noodles.com/or/clackamas/12190-se-82nd-ave"
+      },
+      "center": {
+        "lat": 45.434964050000005,
+        "lon": -122.57229374999997
+      }
+    }
+  ]
+}

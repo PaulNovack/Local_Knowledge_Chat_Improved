@@ -1,0 +1,61 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "HI",
+    "brand": "cold_stone_creamery",
+    "source": "https://download.geofabrik.de/north-america/us/hawaii-latest.osm.pbf",
+    "source_md5": "72d4122e050f63452c0aa341f9272254",
+    "processed_utc": "2026-10-24T07:02:30.197996+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9544045402,
+      "tags": {
+        "access": "permit",
+        "addr:city": "Honolulu",
+        "addr:housenumber": "300",
+        "addr:postcode": "96819",
+        "addr:state": "HI",
+        "addr:street": "Rodgers Boulevard",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "1",
+        "name": "Cold Stone Creamery",
+        "wheelchair": "yes"
+      },
+      "lat": 21.330125,
+      "lon": -157.9199712
+    },
+    {
+      "type": "node",
+      "id": 11164309224,
+      "tags": {
+        "addr:city": "Kihei",
+        "addr:housenumber": "225",
+        "addr:postcode": "96753",
+        "addr:state": "HI",
+        "addr:street": "Piikea Avenue",
+        "addr:unit": "9-94",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery"
+      },
+      "lat": 20.7521712,
+      "lon": -156.4494271
+    }
+  ]
+}

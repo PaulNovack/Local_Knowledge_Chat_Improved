@@ -1,0 +1,101 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "the_cheesecake_factory",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3073269015,
+      "tags": {
+        "addr:city": "Bellevue",
+        "addr:housenumber": "401",
+        "addr:postcode": "98004",
+        "addr:street": "Bellevue Square",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "check_date": "2023-09-23",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "The Cheesecake Factory",
+        "opening_hours": "Mo-Fr 11:00-24:00; Sa,Su 10:00-24:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-425-450-6000",
+        "wheelchair": "yes"
+      },
+      "lat": 47.6158935,
+      "lon": -122.2019989
+    },
+    {
+      "type": "node",
+      "id": 5745965461,
+      "tags": {
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory",
+        "opening_hours": "Mo-Sa 10:00-21:00; Su 10:00-19:00",
+        "wheelchair": "yes"
+      },
+      "lat": 47.2154581,
+      "lon": -122.468636
+    },
+    {
+      "type": "way",
+      "id": 119980185,
+      "tags": {
+        "addr:city": "Tukwila",
+        "addr:housenumber": "230",
+        "addr:postcode": "98188",
+        "addr:state": "WA",
+        "addr:street": "Strander Boulevard",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "building": "yes",
+        "check_date": "2025-07-11",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory",
+        "source": "local_knowledge"
+      },
+      "center": {
+        "lat": 47.45631,
+        "lon": -122.26037435
+      }
+    },
+    {
+      "type": "way",
+      "id": 671183756,
+      "tags": {
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "building": "yes",
+        "check_date": "2024-12-21",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory"
+      },
+      "center": {
+        "lat": 47.8305677,
+        "lon": -122.26981754999997
+      }
+    }
+  ]
+}

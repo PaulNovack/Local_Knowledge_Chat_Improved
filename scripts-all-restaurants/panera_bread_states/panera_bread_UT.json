@@ -1,0 +1,87 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "panera_bread",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8072353908,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:housenumber": "3920",
+        "addr:postcode": "84116",
+        "addr:state": "UT",
+        "addr:street": "West Terminal Drive",
+        "addr:unit": "CAW-2-040",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "check_date": "2026-07-28",
+        "cuisine": "sandwich;bakery",
+        "level": "2",
+        "name": "Panera Bread",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 801-657-5070",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/ut/salt-lake-city/3920-w-terminal-drive.html"
+      },
+      "lat": 40.7856372,
+      "lon": -111.9865758
+    },
+    {
+      "type": "node",
+      "id": 11490281092,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Sa 07:00-21:00; Su 08:00-20:00",
+        "short_name": "Panera",
+        "takeaway": "yes"
+      },
+      "lat": 40.508338,
+      "lon": -111.9966437
+    },
+    {
+      "type": "node",
+      "id": 12196228113,
+      "tags": {
+        "addr:city": "Pleasant Grove",
+        "addr:housenumber": "887",
+        "addr:postcode": "84062",
+        "addr:state": "UT",
+        "addr:street": "South Pleasant View Drive",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "drive_through": "yes",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Sa 07:00-21:00; Sa 08:00-20:00",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://www.panerabread.com/en-us/cafe/locations/ut/pleasant-grove/887-s-north-county-blvd"
+      },
+      "lat": 40.3533261,
+      "lon": -111.7622668
+    }
+  ]
+}

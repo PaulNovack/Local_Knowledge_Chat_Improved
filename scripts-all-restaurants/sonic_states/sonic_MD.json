@@ -1,0 +1,395 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "sonic",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3113168682,
+      "tags": {
+        "addr:city": "Hagerstown",
+        "addr:floor": "G",
+        "addr:housenumber": "1710",
+        "addr:postcode": "21740",
+        "addr:state": "MD",
+        "addr:street": "Dual Highway",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "check_date": "2025-05-22",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "drive_through": "yes",
+        "level": "0",
+        "name": "Sonic",
+        "opening_hours": "10:00-23:00",
+        "outdoor_seating": "yes",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "source": "survey",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/md/hagerstown/1710-dual-highway.html"
+      },
+      "lat": 39.615619,
+      "lon": -77.6912996
+    },
+    {
+      "type": "node",
+      "id": 4471964492,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "takeaway": "yes"
+      },
+      "lat": 38.8706474,
+      "lon": -76.8516572
+    },
+    {
+      "type": "node",
+      "id": 11688220280,
+      "tags": {
+        "addr:city": "Waldorf",
+        "addr:housenumber": "2055",
+        "addr:postcode": "20601",
+        "addr:state": "MD",
+        "addr:street": "Crain Highway",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "check_date": "2024-03-03",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "Mo-Th 10:00-23:00; Fr-Sa 10:00-24:00; Su 10:00-23:00",
+        "phone": "+1 240-210-8268",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/md/waldorf/2055-crain-highway.html"
+      },
+      "lat": 38.6556325,
+      "lon": -76.8775752
+    },
+    {
+      "type": "relation",
+      "id": 9836406,
+      "tags": {
+        "addr:city": "Bel Air",
+        "addr:housenumber": "1920",
+        "addr:postcode": "21015",
+        "addr:state": "MD",
+        "addr:street": "Emmorton Road",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes;roof",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "drive_through": "yes",
+        "name": "Sonic",
+        "outdoor_seating": "yes",
+        "phone": "+1-410-588-5638",
+        "takeaway": "yes",
+        "type": "multipolygon",
+        "website": "https://locations.sonicdrivein.com/md/bel-air/1921-emmorton-road.html"
+      },
+      "center": {
+        "lat": 39.503812350000004,
+        "lon": -76.32675549999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 169222838,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "source": "USGS Ortho",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.35642255,
+        "lon": -76.7646446
+      }
+    },
+    {
+      "type": "way",
+      "id": 292330328,
+      "tags": {
+        "addr:city": "Edgewater",
+        "addr:housenumber": "3106",
+        "addr:postcode": "21037",
+        "addr:state": "MD",
+        "addr:street": "Solomons Island Road",
+        "addr:unit": "B",
+        "air_conditioning": "no",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "commercial",
+        "building:levels": "1",
+        "check_date": "2026-09-30",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_in": "yes",
+        "drive_through": "yes",
+        "highchair": "no",
+        "internet_access": "no",
+        "name": "Sonic",
+        "opening_hours": "09:00-01:00",
+        "outdoor_seating": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 410-956-3986",
+        "roof:levels": "1",
+        "roof:shape": "flat",
+        "smoking": "no",
+        "survey:date": "2021-11-07",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/md/edgewater/3106-b-solomons-island-road.html",
+        "website:menu": "https://www.sonicdrivein.com/menu/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 38.93956795,
+        "lon": -76.56552750000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 303301956,
+      "tags": {
+        "addr:city": "Ellicott City",
+        "addr:housenumber": "10160",
+        "addr:postcode": "21042",
+        "addr:state": "MD",
+        "addr:street": "Baltimore National Pike",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "Mo-Th 09:00-23:00; Fr-Sa 09:00-24:00; Su 09:00-23:00",
+        "phone": "+1 410-988-5663",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/md/ellicottcity/10160-baltimore-national-pike.html"
+      },
+      "center": {
+        "lat": 39.28010515,
+        "lon": -76.8617673
+      }
+    },
+    {
+      "type": "way",
+      "id": 451742146,
+      "tags": {
+        "addr:city": "Frederick",
+        "addr:housenumber": "7420",
+        "addr:postcode": "21704",
+        "addr:state": "MD",
+        "addr:street": "Guilford Drive",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "check_date": "2023-04-29",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "drive_through": "yes",
+        "name": "Sonic",
+        "opening_hours": "10:00-23:00",
+        "phone": "+1 301-620-4036",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/md/frederick/7420-guilford-drive.html"
+      },
+      "center": {
+        "lat": 39.394655650000004,
+        "lon": -77.40991899999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 487789418,
+      "tags": {
+        "addr:city": "Capitol Heights",
+        "addr:housenumber": "8950",
+        "addr:postcode": "20743",
+        "addr:state": "MD",
+        "addr:street": "Walker Mill Road",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "Mo-Th 09:00-23:00; Fr-Sa 09:00-24:00; Su 10:00-23:00",
+        "phone": "+1 301-350-0195",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/md/capitolheights/8950-walker-mill-road.html"
+      },
+      "center": {
+        "lat": 38.8706696,
+        "lon": -76.85170649999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 545289658,
+      "tags": {
+        "addr:city": "Lexington Park",
+        "addr:floor": "G",
+        "addr:housenumber": "46350",
+        "addr:postcode": "20653",
+        "addr:state": "MD",
+        "addr:street": "Lexington Village Way",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "check_date": "2025-06-22",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "level": "0",
+        "name": "Sonic",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa,Su 08:00-23:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 240-895-0105",
+        "source": "survey",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/md/lexingtonpark/46350-lexington-village-way.html"
+      },
+      "center": {
+        "lat": 38.28571585,
+        "lon": -76.47794449999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 704410990,
+      "tags": {
+        "addr:city": "Elkton",
+        "addr:housenumber": "103",
+        "addr:postcode": "21921",
+        "addr:state": "MD",
+        "addr:street": "East Pulaski Highway",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "check_date": "2023-03-31",
+        "contact:phone": "+1 410-398-0430",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "Mo-Fr 08:00-23:00",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/md/elkton/103-east-pulaski-highway.html"
+      },
+      "center": {
+        "lat": 39.60016545,
+        "lon": -75.82646580000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 721201815,
+      "tags": {
+        "addr:city": "Westminster",
+        "addr:housenumber": "400",
+        "addr:postcode": "21157",
+        "addr:state": "MD",
+        "addr:street": "North Center Street",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "09:00-23:00",
+        "phone": "+1 410-857-5500",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/md/westminster/400-north-center-street.html"
+      },
+      "center": {
+        "lat": 39.5757227,
+        "lon": -76.9836315
+      }
+    },
+    {
+      "type": "way",
+      "id": 1126757640,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.6556232,
+        "lon": -76.87762350000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1277897574,
+      "tags": {
+        "addr:city": "Baltimore",
+        "addr:housenumber": "2205",
+        "addr:postcode": "21230",
+        "addr:state": "MD",
+        "addr:street": "West Patapsco Avenue",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "10:00-23:00",
+        "phone": "+1 410-368-3923",
+        "ref": "6306",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/md/baltimore/2205-west-patapsco-avenue.html"
+      },
+      "center": {
+        "lat": 39.2508379,
+        "lon": -76.64569674999996
+      }
+    }
+  ]
+}

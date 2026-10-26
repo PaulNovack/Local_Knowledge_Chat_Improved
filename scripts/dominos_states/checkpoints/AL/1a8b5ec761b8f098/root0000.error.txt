@@ -1,0 +1,12 @@
+
+SERVER: https://overpass-api.de/api/interpreter
+<urlopen error [Errno 111] Connection refused>
+QUERY:
+[out:json][timeout:90];
+(
+nwr["amenity"~"^(fast_food|restaurant|cafe|food_court)$"]["brand:wikidata"="Q839466"](area:3600161950)(30.14337600,-88.47310140,31.35956003,-87.57689817);
+nwr["amenity"~"^(fast_food|restaurant|cafe|food_court)$"]["brand"~"^Domino",i](area:3600161950)(30.14337600,-88.47310140,31.35956003,-87.57689817);
+nwr["amenity"~"^(fast_food|restaurant|cafe|food_court)$"]["name"~"^Domino",i](area:3600161950)(30.14337600,-88.47310140,31.35956003,-87.57689817);
+);out center tags;
+RESPONSE:
+

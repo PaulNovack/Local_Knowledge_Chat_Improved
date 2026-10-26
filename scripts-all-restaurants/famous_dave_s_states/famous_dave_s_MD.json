@@ -1,0 +1,82 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "famous_dave_s",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 146249612,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:country": "US",
+        "addr:housenumber": "6201",
+        "addr:postcode": "21045",
+        "addr:state": "MD",
+        "addr:street": "Columbia Crossing Circle",
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's",
+        "opening_hours": "Su-Th 11:00-21:00; Fr,Sa 11:00-22:00",
+        "website": "https://www.famousdaves.com/"
+      },
+      "center": {
+        "lat": 39.196098000000006,
+        "lon": -76.81540855000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 235170156,
+      "tags": {
+        "addr:city": "Laurel",
+        "addr:country": "US",
+        "addr:housenumber": "14140",
+        "addr:postcode": "20707",
+        "addr:state": "MD",
+        "addr:street": "Baltimore Avenue",
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "retail",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 39.083936300000005,
+        "lon": -76.86304325000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 240897010,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's"
+      },
+      "center": {
+        "lat": 38.6272475,
+        "lon": -76.91900944999998
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "zaxby_s",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13305909055,
+      "tags": {
+        "addr:city": "Queen Creek",
+        "addr:postcode": "85140",
+        "addr:state": "AZ",
+        "addr:street": "North Gantzel Road",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "cuisine": "chicken",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "takeaway": "yes"
+      },
+      "lat": 33.222274,
+      "lon": -111.5638867
+    },
+    {
+      "type": "node",
+      "id": 13547250071,
+      "tags": {
+        "addr:city": "Surprise",
+        "addr:postcode": "85387",
+        "addr:state": "AZ",
+        "addr:street": "North 163rd Avenue",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "cuisine": "chicken",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "takeaway": "yes"
+      },
+      "lat": 33.6963193,
+      "lon": -112.408728
+    }
+  ]
+}

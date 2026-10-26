@@ -1,0 +1,61 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "l_l_hawaiian_barbecue",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10179152142,
+      "tags": {
+        "addr:city": "Chesapeake",
+        "addr:housenumber": "717",
+        "addr:postcode": "23320",
+        "addr:state": "VA",
+        "addr:street": "Eden Way",
+        "addr:unit": "610",
+        "amenity": "fast_food",
+        "brand": "L&L Hawaiian Barbecue",
+        "brand:wikidata": "Q6455441",
+        "cuisine": "hawaiian",
+        "name": "L&L Hawaiian Barbecue",
+        "phone": "+1-757-410-3200",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://www.hawaiianbarbecue.com/"
+      },
+      "lat": 36.7718962,
+      "lon": -76.2366801
+    },
+    {
+      "type": "node",
+      "id": 14079322678,
+      "tags": {
+        "addr:city": "Annandale",
+        "addr:housenumber": "4353",
+        "addr:postcode": "22003",
+        "addr:state": "VA",
+        "addr:street": "John Marr Drive",
+        "amenity": "fast_food",
+        "brand": "L&L Hawaiian Barbecue",
+        "brand:wikidata": "Q6455441",
+        "cuisine": "hawaiian",
+        "name": "L&L Hawaiian Barbecue",
+        "takeaway": "yes"
+      },
+      "lat": 38.8300666,
+      "lon": -77.1881884
+    }
+  ]
+}

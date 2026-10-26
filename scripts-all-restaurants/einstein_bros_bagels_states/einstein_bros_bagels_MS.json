@@ -1,0 +1,58 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "einstein_bros_bagels",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5941130252,
+      "tags": {
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "takeaway": "yes"
+      },
+      "lat": 34.3627096,
+      "lon": -89.5423261
+    },
+    {
+      "type": "node",
+      "id": 5941130253,
+      "tags": {
+        "addr:city": "Oxford",
+        "addr:housenumber": "751",
+        "addr:postcode": "38677",
+        "addr:state": "MS",
+        "addr:street": "All American Drive",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "Ole Miss",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "Mo-Fr 07:00-14:00",
+        "phone": "+1 662-915-2139",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/ms/oxford/751-all-american-drive"
+      },
+      "lat": 34.363832,
+      "lon": -89.5353832
+    }
+  ]
+}

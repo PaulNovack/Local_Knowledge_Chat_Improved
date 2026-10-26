@@ -1,0 +1,111 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AK",
+    "brand": "dominos",
+    "source": "https://download.geofabrik.de/north-america/us/alaska-latest.osm.pbf",
+    "source_md5": "55281fca0391ab2c26b0d99fd6a6f5f8",
+    "processed_utc": "2026-10-24T06:56:26.590469+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6134216830,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "lat": 58.3665055,
+      "lon": -134.589123
+    },
+    {
+      "type": "node",
+      "id": 9704301637,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "lat": 61.578038,
+      "lon": -149.4094769
+    },
+    {
+      "type": "node",
+      "id": 10797780545,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "lat": 61.1959444,
+      "lon": -149.734518
+    },
+    {
+      "type": "node",
+      "id": 11493783310,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Domino's Pizza"
+      },
+      "lat": 61.2196143,
+      "lon": -149.8225385
+    },
+    {
+      "type": "node",
+      "id": 14050316759,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "cuisine": "pizza",
+        "name": "Domino's",
+        "takeaway": "yes"
+      },
+      "lat": 64.7571005,
+      "lon": -147.35138
+    },
+    {
+      "type": "way",
+      "id": 1446188753,
+      "tags": {
+        "addr:city": "Fairbanks",
+        "addr:housenumber": "3451",
+        "addr:postcode": "99701",
+        "addr:state": "AK",
+        "addr:street": "College Road",
+        "amenity": "fast_food",
+        "brand": "Domino's",
+        "brand:wikidata": "Q839466",
+        "building": "retail",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Domino's",
+        "opening_hours": "Mo-Th 10:30-01:00, Fr-Sa 10:30-02:00",
+        "phone": "+19073280809",
+        "takeaway": "yes",
+        "website": "https://dominos.com"
+      },
+      "center": {
+        "lat": 64.85635595,
+        "lon": -147.805944
+      }
+    }
+  ]
+}

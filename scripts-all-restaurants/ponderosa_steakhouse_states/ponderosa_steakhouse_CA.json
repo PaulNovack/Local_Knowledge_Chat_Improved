@@ -1,0 +1,34 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CA",
+    "brand": "ponderosa_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/california-latest.osm.pbf",
+    "source_md5": "26040c163edb7a5f630164ee55d5afda",
+    "processed_utc": "2026-10-24T06:59:04.829226+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 369140581,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Ponderosa Dining Hall",
+        "source": "local_knowledge:2bre99"
+      },
+      "center": {
+        "lat": 36.78711,
+        "lon": -118.91143950000003
+      }
+    }
+  ]
+}

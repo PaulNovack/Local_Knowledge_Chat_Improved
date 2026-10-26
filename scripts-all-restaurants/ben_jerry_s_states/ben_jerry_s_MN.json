@@ -1,0 +1,44 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MN",
+    "brand": "ben_jerry_s",
+    "source": "https://download.geofabrik.de/north-america/us/minnesota-latest.osm.pbf",
+    "source_md5": "4cabd6519cf6e8b1f74c96f59629df95",
+    "processed_utc": "2026-10-24T07:08:10.045763+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6656004627,
+      "tags": {
+        "addr:city": "Minneapolis",
+        "addr:housenumber": "3070",
+        "addr:postcode": "55416",
+        "addr:state": "MN",
+        "addr:street": "Excelsior Boulevard",
+        "addr:unit": "202",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "check_date": "2026-07-14",
+        "check_date:opening_hours": "2026-07-14",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's",
+        "opening_hours": "12:00-22:00",
+        "outdoor_seating": "yes",
+        "website": "https://www.benjerry.com/southminneapolis",
+        "website:menu": "https://www.benjerry.com/southminneapolis/menu"
+      },
+      "lat": 44.9469768,
+      "lon": -93.3223202
+    }
+  ]
+}

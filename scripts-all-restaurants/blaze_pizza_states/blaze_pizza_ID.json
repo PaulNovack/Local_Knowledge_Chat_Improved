@@ -1,0 +1,99 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ID",
+    "brand": "blaze_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/idaho-latest.osm.pbf",
+    "source_md5": "1a1a06364d5343af00d67fef4750905f",
+    "processed_utc": "2026-10-24T07:02:45.671077+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6593378616,
+      "tags": {
+        "addr:city": "Eagle",
+        "addr:housenumber": "4363",
+        "addr:postcode": "83616",
+        "addr:state": "ID",
+        "addr:street": "West Gray Fox Street",
+        "addr:unit": "115",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza",
+        "wheelchair": "yes"
+      },
+      "lat": 43.6633075,
+      "lon": -116.4082945
+    },
+    {
+      "type": "node",
+      "id": 8672347697,
+      "tags": {
+        "addr:city": "Meridian",
+        "addr:housenumber": "2206",
+        "addr:postcode": "83646",
+        "addr:state": "ID",
+        "addr:street": "North Eagle Road",
+        "addr:unit": "140",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza"
+      },
+      "lat": 43.6251085,
+      "lon": -116.353689
+    },
+    {
+      "type": "node",
+      "id": 8808163268,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza"
+      },
+      "lat": 43.6111157,
+      "lon": -116.5943134
+    },
+    {
+      "type": "node",
+      "id": 8853901572,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza"
+      },
+      "lat": 43.4673723,
+      "lon": -111.9809479
+    },
+    {
+      "type": "node",
+      "id": 11232414037,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "diet:gluten_free": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Blaze Pizza",
+        "opening_hours": "Mo-Sa 11:00-21:00; Su 11:00-20:00",
+        "wheelchair": "yes"
+      },
+      "lat": 42.5957218,
+      "lon": -114.4585239
+    }
+  ]
+}

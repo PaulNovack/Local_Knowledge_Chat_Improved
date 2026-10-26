@@ -1,0 +1,58 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "jason_s_deli",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1889235203,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "1111",
+        "addr:postcode": "64106",
+        "addr:state": "MO",
+        "addr:street": "Main Street",
+        "addr:unit": "155",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli",
+        "website": "https://www.jasonsdeli.com/restaurants/downtown-kansas-city-deli"
+      },
+      "lat": 39.1009919,
+      "lon": -94.5825705
+    },
+    {
+      "type": "node",
+      "id": 6117347630,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "9026",
+        "addr:postcode": "64154",
+        "addr:state": "MO",
+        "addr:street": "Northwest Skyview Avenue",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli",
+        "opening_hours": "Mo-Su 10:00-21:00"
+      },
+      "lat": 39.2588158,
+      "lon": -94.6538836
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SC",
+    "brand": "jim_n_nick_s",
+    "source": "https://download.geofabrik.de/north-america/us/south-carolina-latest.osm.pbf",
+    "source_md5": "488018afb1e1040732b7a791d4ebffae",
+    "processed_utc": "2026-10-24T07:15:46.592450+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3054622091,
+      "tags": {
+        "addr:housenumber": "4964",
+        "addr:street": "Centre Pointe Drive",
+        "amenity": "restaurant",
+        "branch": "Bar B Q",
+        "brand": "Jim 'N Nick's",
+        "brand:wikidata": "Q122955601",
+        "cuisine": "barbecue",
+        "name": "Jim 'N Nick's",
+        "phone": "+1 8437473800",
+        "website": "https://jimnnicks.com/"
+      },
+      "lat": 32.872043,
+      "lon": -80.021608
+    },
+    {
+      "type": "way",
+      "id": 122127119,
+      "tags": {
+        "addr:city": "Spartanburg",
+        "addr:housenumber": "106",
+        "addr:postcode": "29301",
+        "addr:state": "SC",
+        "addr:street": "East Blackstock Road",
+        "amenity": "restaurant",
+        "branch": "Bar B Q",
+        "brand": "Jim 'N Nick's",
+        "brand:wikidata": "Q122955601",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Jim 'N Nick's"
+      },
+      "center": {
+        "lat": 34.9353763,
+        "lon": -81.99082565000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 301401673,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Jim 'N Nick's",
+        "brand:wikidata": "Q122955601",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Jim 'N Nick's"
+      },
+      "center": {
+        "lat": 32.87203355,
+        "lon": -80.02157975
+      }
+    },
+    {
+      "type": "way",
+      "id": 546854706,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Jim 'N Nick's Bar-B-Q"
+      },
+      "center": {
+        "lat": 34.99886345,
+        "lon": -80.85631910000001
+      }
+    }
+  ]
+}

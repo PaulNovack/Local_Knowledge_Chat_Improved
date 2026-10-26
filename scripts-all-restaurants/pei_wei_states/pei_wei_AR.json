@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "pei_wei",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5292521593,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "cuisine": "asian",
+        "name": "Pei Wei"
+      },
+      "lat": 36.2979328,
+      "lon": -94.184001
+    },
+    {
+      "type": "way",
+      "id": 788669709,
+      "tags": {
+        "addr:city": "Little Rock",
+        "addr:housenumber": "205",
+        "addr:postcode": "72205",
+        "addr:state": "AR",
+        "addr:street": "North University Avenue",
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "building": "yes",
+        "cuisine": "asian",
+        "name": "Pei Wei",
+        "opening_hours": "Su-Th 11:00-20:00; Fr-Sa 11:00-21:00",
+        "phone": "+1-501-280-9423",
+        "website": "https://www.peiwei.com"
+      },
+      "center": {
+        "lat": 34.754414249999996,
+        "lon": -92.3407178
+      }
+    }
+  ]
+}

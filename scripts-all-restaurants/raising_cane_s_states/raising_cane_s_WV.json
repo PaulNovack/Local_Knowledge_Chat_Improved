@@ -1,0 +1,52 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WV",
+    "brand": "raising_cane_s",
+    "source": "https://download.geofabrik.de/north-america/us/west-virginia-latest.osm.pbf",
+    "source_md5": "4f8c380a535ff9841f95eae4e1a7f84f",
+    "processed_utc": "2026-10-24T07:19:30.158292+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11274298901,
+      "tags": {
+        "addr:city": "Morgantown",
+        "addr:housenumber": "3515",
+        "addr:state": "WV",
+        "addr:street": "University Town Centre Drive",
+        "amenity": "restaurant",
+        "name": "Raising Cane's Chicken Fingers"
+      },
+      "lat": 39.6499277,
+      "lon": -80.0022237
+    },
+    {
+      "type": "way",
+      "id": 1480978655,
+      "tags": {
+        "addr:city": "Morgantown",
+        "addr:housenumber": "3515",
+        "addr:postcode": "26501",
+        "addr:state": "WV",
+        "addr:street": "University Town Centre Drive",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Raising Cane's Chicken Fingers",
+        "phone": "+1-304-381-9517"
+      },
+      "center": {
+        "lat": 39.650721950000005,
+        "lon": -80.00265890000003
+      }
+    }
+  ]
+}

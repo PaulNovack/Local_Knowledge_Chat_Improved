@@ -1,0 +1,124 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "LA",
+    "brand": "freddy_s",
+    "source": "https://download.geofabrik.de/north-america/us/louisiana-latest.osm.pbf",
+    "source_md5": "2e108953505ee82f68e2a6e7a3e4f783",
+    "processed_utc": "2026-10-24T07:05:17.318731+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13993277095,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "check_date": "2026-07-06",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "highchair": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "Freddy's Guest",
+        "level": "0",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "takeaway": "yes",
+        "toilets": "yes"
+      },
+      "lat": 31.357535,
+      "lon": -92.4190157
+    },
+    {
+      "type": "way",
+      "id": 599075918,
+      "tags": {
+        "addr:city": "Lafayette",
+        "addr:housenumber": "2507",
+        "addr:state": "LA",
+        "addr:street": "Kaliste Saloom Road",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "name": "Freddy's",
+        "official_name": "Freddys Frozen Custard & Steakburgers",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 30.157614700000003,
+        "lon": -92.04648810000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 992504515,
+      "tags": {
+        "addr:city": "West Monroe",
+        "addr:housenumber": "3112",
+        "addr:postcode": "71291",
+        "addr:state": "LA",
+        "addr:street": "Cypress Street",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "opening_hours": "Su-Th 10:30-22:00, Fr-Sa 10:30-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-318-350-6837",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.517453450000005,
+        "lon": -92.1546573
+      }
+    },
+    {
+      "type": "way",
+      "id": 1185863530,
+      "tags": {
+        "addr:city": "Baton Rouge",
+        "addr:housenumber": "13636",
+        "addr:postcode": "70816",
+        "addr:state": "LA",
+        "addr:street": "Millerville Greens Boulevard",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "opening_hours": "Su-Th 10:30-22:00; Fr-Sa 10:30-23:00",
+        "phone": "+1 225-960-1310",
+        "takeaway": "yes",
+        "website": "https://www.freddys.com/"
+      },
+      "center": {
+        "lat": 30.43961705,
+        "lon": -91.02521734999999
+      }
+    }
+  ]
+}

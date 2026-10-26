@@ -1,0 +1,85 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "the_original_pancake_house",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2705146105,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "cuisine": "breakfast;pancake",
+        "email": "info@ophindy.com",
+        "name": "The Original Pancake House",
+        "opening_hours": "Mo-Fr 06:30-14:00; Sa,Su 06:30-15:00",
+        "phone": "+1-317-570-1245",
+        "website": "https://www.originalpancakehouseindy.com/about-us/fishers-restaurant"
+      },
+      "lat": 39.956263,
+      "lon": -86.0192561
+    },
+    {
+      "type": "node",
+      "id": 4962096792,
+      "tags": {
+        "addr:city": "Noblesville",
+        "addr:housenumber": "14631",
+        "addr:postcode": "46062",
+        "addr:state": "IN",
+        "addr:street": "Gray Road",
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House"
+      },
+      "lat": 40.0013079,
+      "lon": -86.091583
+    },
+    {
+      "type": "node",
+      "id": 12038525915,
+      "tags": {
+        "amenity": "cafe",
+        "name": "The Original Pancake House"
+      },
+      "lat": 39.9130983,
+      "lon": -86.1860185
+    },
+    {
+      "type": "way",
+      "id": 473861272,
+      "tags": {
+        "addr:housenumber": "1430",
+        "addr:street": "North Ironwood Drive",
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "building": "yes",
+        "check_date": "2023-08-18",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House",
+        "opening_hours": "Mo-Su 07:00-13:00",
+        "phone": "+1-574-232-3220"
+      },
+      "center": {
+        "lat": 41.69537835,
+        "lon": -86.21604405000005
+      }
+    }
+  ]
+}

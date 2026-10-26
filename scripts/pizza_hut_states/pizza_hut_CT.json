@@ -1,0 +1,110 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/3.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "pizza_hut",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T06:18:03.672900+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1647114391,
+      "tags": {
+        "addr:city": "Windsor",
+        "addr:housenumber": "1075",
+        "addr:postcode": "06095",
+        "addr:state": "CT",
+        "addr:street": "Kennedy Road",
+        "amenity": "fast_food",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Pizza Hut Express",
+        "operator": "Yum! Brands, Inc.",
+        "takeaway": "yes",
+        "website": "https://locations.pizzahut.com/ct/windsor/1075-kennedy-rd"
+      },
+      "lat": 41.8910182,
+      "lon": -72.652327
+    },
+    {
+      "type": "node",
+      "id": 3731767897,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr-Sa 11:00-24:00; Su 11:00-23:00",
+        "phone": "+1 203 3725555"
+      },
+      "lat": 41.2190356,
+      "lon": -73.2151801
+    },
+    {
+      "type": "node",
+      "id": 3739868519,
+      "tags": {
+        "addr:city": "Bridgeport",
+        "addr:housenumber": "2133",
+        "addr:postcode": "06610",
+        "addr:state": "CT",
+        "addr:street": "Boston Avenue",
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "opening_hours": "Su-Th 11:00-23:00; Fr-Sa 11:00-24:00",
+        "phone": "+1 203 3319999"
+      },
+      "lat": 41.192768,
+      "lon": -73.1549858
+    },
+    {
+      "type": "node",
+      "id": 6029587568,
+      "tags": {
+        "addr:city": "Waterbury",
+        "addr:housenumber": "300",
+        "addr:postcode": "06704",
+        "addr:state": "CT",
+        "addr:street": "Chase Avenue",
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "takeaway": "yes",
+        "website": "https://locations.pizzahut.com/ct/waterbury/300-chase-ave"
+      },
+      "lat": 41.5806306,
+      "lon": -73.0309785
+    },
+    {
+      "type": "node",
+      "id": 6481871895,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "name": "Pizza Hut Express",
+        "takeaway": "yes"
+      },
+      "lat": 41.5528264,
+      "lon": -72.8155469
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "village_inn",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 818213780,
+      "tags": {
+        "addr:city": "Harrisville",
+        "addr:floor": "Floor 2",
+        "addr:housenumber": "8208",
+        "addr:postcode": "13648",
+        "addr:state": "NY",
+        "addr:street": "Main Street",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Village Inn",
+        "not:brand:wikidata": "Q7930659",
+        "nysgissam:nysaddresspointid": "LEWI017861;LEWI008698",
+        "source": "NYS GIS"
+      },
+      "center": {
+        "lat": 44.1485297,
+        "lon": -75.31635015
+      }
+    }
+  ]
+}

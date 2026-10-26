@@ -1,0 +1,75 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MN",
+    "brand": "red_robin",
+    "source": "https://download.geofabrik.de/north-america/us/minnesota-latest.osm.pbf",
+    "source_md5": "4cabd6519cf6e8b1f74c96f59629df95",
+    "processed_utc": "2026-10-24T07:08:10.045763+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 415414886,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews"
+      },
+      "lat": 44.7238558,
+      "lon": -93.2169151
+    },
+    {
+      "type": "way",
+      "id": 164032821,
+      "tags": {
+        "addr:city": "Shoreview",
+        "addr:housenumber": "1090",
+        "addr:postcode": "55126",
+        "addr:state": "MN",
+        "addr:street": "Gramsie Road",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews"
+      },
+      "center": {
+        "lat": 45.060666850000004,
+        "lon": -93.14601545000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 602298975,
+      "tags": {
+        "addr:housenumber": "2669",
+        "addr:street": "Campus Drive",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews",
+        "opening_hours": "Su-Th 11:00-22:00; Fr,Sa 11:00-23:00"
+      },
+      "center": {
+        "lat": 45.00863925,
+        "lon": -93.44962850000002
+      }
+    }
+  ]
+}

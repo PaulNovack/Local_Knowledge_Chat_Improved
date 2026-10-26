@@ -1,0 +1,810 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "del_taco",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 308176215,
+      "tags": {
+        "addr:housenumber": "4436",
+        "addr:street": "South 1900 West",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "source": "survey",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/roy/4436-s-1900-w"
+      },
+      "lat": 41.1828065,
+      "lon": -112.0251684
+    },
+    {
+      "type": "node",
+      "id": 672555180,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "name:fa": "دل تاکو",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/st-george/1091-n-bluff-st"
+      },
+      "lat": 37.1252645,
+      "lon": -113.602736
+    },
+    {
+      "type": "node",
+      "id": 1761421397,
+      "tags": {
+        "addr:city": "Sandy",
+        "addr:housenumber": "8580",
+        "addr:postcode": "84094",
+        "addr:state": "UT",
+        "addr:street": "South 1300 East",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/sandy/8580-s-1300-e"
+      },
+      "lat": 40.5956227,
+      "lon": -111.8536925
+    },
+    {
+      "type": "node",
+      "id": 4177439095,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/hurricane/753-w-state-st"
+      },
+      "lat": 37.1762694,
+      "lon": -113.3016755
+    },
+    {
+      "type": "way",
+      "id": 39996483,
+      "tags": {
+        "addr:housenumber": "4117",
+        "addr:street": "Riverdale Road",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2024-08-31",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "opening_hours": "24/7",
+        "opening_hours:drive_through": "24/7",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 801-627-0830",
+        "source": "Yahoo;survey;local knowledge",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/riverdale/4117-s-riverdale-road",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 41.18837805,
+        "lon": -111.98426124999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 51866567,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "source": "Yahoo",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/ogden/1160-wall-ave"
+      },
+      "center": {
+        "lat": 41.2458268,
+        "lon": -111.9775416
+      }
+    },
+    {
+      "type": "way",
+      "id": 112653580,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "786",
+        "addr:postcode": "84780",
+        "addr:state": "UT",
+        "addr:street": "West Telegraph Street",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "retail",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "opening_hours": "Mo-Su 06:00-24:00",
+        "phone": "+1 435-627-2088",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/washington/786-west-telegraph-road"
+      },
+      "center": {
+        "lat": 37.1280127,
+        "lon": -113.5224763
+      }
+    },
+    {
+      "type": "way",
+      "id": 119392369,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:country": "US",
+        "addr:housenumber": "2000",
+        "addr:postcode": "84104",
+        "addr:state": "UT",
+        "addr:street": "South 3230 West",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/salt-lake-city/2000-s-3230-west",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 40.72833395000001,
+        "lon": -111.96852660000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 151097901,
+      "tags": {
+        "addr:city": "Springville",
+        "addr:housenumber": "442",
+        "addr:postcode": "84663",
+        "addr:state": "UT",
+        "addr:street": "South 1750 West",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/springville/442-south-1750-west"
+      },
+      "center": {
+        "lat": 40.1610366,
+        "lon": -111.6428765
+      }
+    },
+    {
+      "type": "way",
+      "id": 158080555,
+      "tags": {
+        "addr:city": "Saratoga Spring",
+        "addr:housenumber": "128",
+        "addr:postcode": "84045",
+        "addr:state": "UT",
+        "addr:street": "East Crossroads Boulevard",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "retail",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "source": "survey",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/saratoga-springs/128-e-crossroads-blvd"
+      },
+      "center": {
+        "lat": 40.387982550000004,
+        "lon": -111.9134836
+      }
+    },
+    {
+      "type": "way",
+      "id": 203524200,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "retail",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/murray/5672-south-900-east"
+      },
+      "center": {
+        "lat": 40.6474378,
+        "lon": -111.86627505000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 241765486,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/west-jordan/6876-redwood-rd"
+      },
+      "center": {
+        "lat": 40.6261983,
+        "lon": -111.93928534999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 292146719,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:country": "US",
+        "addr:housenumber": "809",
+        "addr:postcode": "84102",
+        "addr:state": "UT",
+        "addr:street": "East 400 South",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "retail",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "opening_hours": "24/7",
+        "phone": "+1-801-596-1107",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/salt-lake-city/809-e-400-south"
+      },
+      "center": {
+        "lat": 40.76099865,
+        "lon": -111.86781804999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 306459717,
+      "tags": {
+        "addr:city": "South Jordan",
+        "addr:housenumber": "1651 W",
+        "addr:postcode": "84095",
+        "addr:state": "UT",
+        "addr:street": "South Jordan Parkway",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "retail",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "opening_hours": "Mo-We 08:00-24:00; Th-Sa 08:00-25:00; Su 09:00-23:00",
+        "phone": "+1-801-253-1831",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/south-jordan/1651-w-south-jordan-pkwy"
+      },
+      "center": {
+        "lat": 40.5619571,
+        "lon": -111.93728895000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 324443836,
+      "tags": {
+        "addr:city": "Cedar City",
+        "addr:country": "US",
+        "addr:housenumber": "1733 W",
+        "addr:postcode": "84720",
+        "addr:state": "UT",
+        "addr:street": "Royal Hunte Drive",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "retail",
+        "check_date": "2026-05-16",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "opening_hours": "06:00-24:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-26:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:cash:USD": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:electronic_purses": "yes",
+        "source": "esri/USA_NAD_Addresses",
+        "stroller": "yes",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/cedar-city/1733-west-royal-hunte-drive",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 37.65632805,
+        "lon": -113.08546990000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 440143283,
+      "tags": {
+        "addr:city": "South Jordan",
+        "addr:housenumber": "11507",
+        "addr:postcode": "84095",
+        "addr:state": "UT",
+        "addr:street": "South 4000 West",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "retail",
+        "check_date": "2026-09-15",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/south-jordan/11507-south-4000-west",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 40.5429154,
+        "lon": -111.98599354999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 465041336,
+      "tags": {
+        "addr:city": "Draper",
+        "addr:housenumber": "96 E",
+        "addr:postcode": "84020",
+        "addr:state": "UT",
+        "addr:street": "East 12300 South",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "retail",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "opening_hours": "24/7",
+        "phone": "+1-801-619-0123",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/draper-city/96-e-12300-south"
+      },
+      "center": {
+        "lat": 40.5263623,
+        "lon": -111.88802679999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 483082453,
+      "tags": {
+        "addr:city": "Layton",
+        "addr:housenumber": "737",
+        "addr:postcode": "84041",
+        "addr:state": "UT",
+        "addr:street": "North Main Street",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "check_date": "2025-04-14",
+        "cuisine": "mexican",
+        "height": "5",
+        "internet_access": "wlan",
+        "name": "Del Taco",
+        "opening_hours": "24/7",
+        "phone": "+1 801-543-1085",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/layton/737-n-main-street"
+      },
+      "center": {
+        "lat": 41.070912199999995,
+        "lon": -111.9774122
+      }
+    },
+    {
+      "type": "way",
+      "id": 522750594,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "commercial",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "layer": "1",
+        "name": "Del Taco",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/salt-lake-city/3010-highland-dr"
+      },
+      "center": {
+        "lat": 40.70577505,
+        "lon": -111.85344484999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 526842490,
+      "tags": {
+        "addr:state": "UT",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/park-city/1723-ute-blvd"
+      },
+      "center": {
+        "lat": 40.7240208,
+        "lon": -111.54402825
+      }
+    },
+    {
+      "type": "way",
+      "id": 613170106,
+      "tags": {
+        "addr:city": "Salt Lake City",
+        "addr:country": "US",
+        "addr:housenumber": "23",
+        "addr:postcode": "84115",
+        "addr:state": "UT",
+        "addr:street": "East 2100 South",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "retail",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "utahagrc:parcelid": "16191010110000",
+        "website": "https://locations.deltaco.com/us/ut/salt-lake-city/23-east-2100-south"
+      },
+      "center": {
+        "lat": 40.7256958,
+        "lon": -111.89003604999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 618058094,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/orem/1055-s-state-street"
+      },
+      "center": {
+        "lat": 40.2777933,
+        "lon": -111.68585105
+      }
+    },
+    {
+      "type": "way",
+      "id": 679132865,
+      "tags": {
+        "addr:city": "Taylorsville",
+        "addr:housenumber": "1731",
+        "addr:postcode": "84123",
+        "addr:state": "UT",
+        "addr:street": "West Bowling Avenue",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "retail",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/taylorsville/1731-w-bowling-ave"
+      },
+      "center": {
+        "lat": 40.668979500000006,
+        "lon": -111.9392444
+      }
+    },
+    {
+      "type": "way",
+      "id": 772203149,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/north-salt-lake/585-n-redwood-road"
+      },
+      "center": {
+        "lat": 40.852526499999996,
+        "lon": -111.93015125
+      }
+    },
+    {
+      "type": "way",
+      "id": 868972511,
+      "tags": {
+        "addr:city": "Lake Point",
+        "addr:housenumber": "1428",
+        "addr:postcode": "84074",
+        "addr:state": "UT",
+        "addr:street": "East Arimo Road",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/lake-point/1428-arimo-road"
+      },
+      "center": {
+        "lat": 40.6837934,
+        "lon": -112.27106030000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 994052419,
+      "tags": {
+        "addr:city": "Logan",
+        "addr:country": "US",
+        "addr:housenumber": "497",
+        "addr:postcode": "84341",
+        "addr:state": "UT",
+        "addr:street": "East 1400 North",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "commercial",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/logan/497-e-1400-n"
+      },
+      "center": {
+        "lat": 41.7577822,
+        "lon": -111.82162849999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 995039196,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/west-point/123-north-2000-west"
+      },
+      "center": {
+        "lat": 41.115606549999995,
+        "lon": -112.06500189999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1006917454,
+      "tags": {
+        "addr:city": "American Fork",
+        "addr:housenumber": "730",
+        "addr:postcode": "84003",
+        "addr:state": "UT",
+        "addr:street": "East State Street",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/american-fork/730-e-state-rd"
+      },
+      "center": {
+        "lat": 40.372118099999994,
+        "lon": -111.77906660000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1006918816,
+      "tags": {
+        "addr:city": "Orem",
+        "addr:housenumber": "1599",
+        "addr:postcode": "84057",
+        "addr:state": "UT",
+        "addr:street": "North State Street",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "opening_hours": "24/7",
+        "phone": "+1-801-225-8501",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/orem/1599-n-state-st"
+      },
+      "center": {
+        "lat": 40.32629565,
+        "lon": -111.70850274999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1006919380,
+      "tags": {
+        "addr:city": "American Fork",
+        "addr:housenumber": "424",
+        "addr:postcode": "84003",
+        "addr:state": "UT",
+        "addr:street": "North 900 West",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/american-fork/424-north-900-west"
+      },
+      "center": {
+        "lat": 40.38695075,
+        "lon": -111.82105485
+      }
+    },
+    {
+      "type": "way",
+      "id": 1023116954,
+      "tags": {
+        "addr:city": "Bountiful",
+        "addr:housenumber": "196",
+        "addr:postcode": "84010",
+        "addr:state": "UT",
+        "addr:street": "West 500 South",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "retail",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "opening_hours": "Mo-Th 08:00-23:00; Fr-Sa 08:00-24:00; Su 10:00-22:00",
+        "phone": "+1 801-397-0388",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/bountiful/196-west-500-south"
+      },
+      "center": {
+        "lat": 40.88446605,
+        "lon": -111.88527075000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1056617971,
+      "tags": {
+        "addr:city": "West Valley City",
+        "addr:country": "US",
+        "addr:housenumber": "2963",
+        "addr:postcode": "84120",
+        "addr:state": "UT",
+        "addr:street": "South 5600 West",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "retail",
+        "cuisine": "mexican",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "opening_hours": "24/7",
+        "phone": "+1-801-966-8050",
+        "source": "website",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/west-valley-city/2963-s-5600-west"
+      },
+      "center": {
+        "lat": 40.7062976,
+        "lon": -112.02450720000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1130956381,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/ut/west-jordan/7800-south-and-5600-west"
+      },
+      "center": {
+        "lat": 40.609027350000005,
+        "lon": -112.02271009999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1207250325,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.09936415,
+        "lon": -111.6135089
+      }
+    }
+  ]
+}

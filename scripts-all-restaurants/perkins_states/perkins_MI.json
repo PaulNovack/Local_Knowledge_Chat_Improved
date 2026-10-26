@@ -1,0 +1,44 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MI",
+    "brand": "perkins",
+    "source": "https://download.geofabrik.de/north-america/us/michigan-latest.osm.pbf",
+    "source_md5": "1c9e00f502a3ea973e97c7d6f989094d",
+    "processed_utc": "2026-10-24T07:07:39.587953+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 44650389,
+      "tags": {
+        "addr:city": "Menominee",
+        "addr:housenumber": "2340",
+        "addr:postcode": "49858",
+        "addr:state": "MI",
+        "addr:street": "10th Street",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "phone": "+1-906-863-1565",
+        "website": "https://stores.perkinsrestaurants.com/us/mi/menominee/2340-10th-street.html"
+      },
+      "center": {
+        "lat": 45.119723300000004,
+        "lon": -87.61299639999999
+      }
+    }
+  ]
+}

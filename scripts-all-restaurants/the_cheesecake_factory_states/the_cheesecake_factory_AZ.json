@@ -1,0 +1,122 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "the_cheesecake_factory",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1106596087,
+      "tags": {
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "contact:website": "https://www.thecheesecakefactory.com",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr 11:00-24:00; Sa, Su 10:00-24:00"
+      },
+      "lat": 33.5101535,
+      "lon": -112.0294706
+    },
+    {
+      "type": "node",
+      "id": 2053894644,
+      "tags": {
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory",
+        "wheelchair": "yes"
+      },
+      "lat": 33.3021279,
+      "lon": -111.8977686
+    },
+    {
+      "type": "way",
+      "id": 240450337,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "60",
+        "addr:postcode": "85705-1644",
+        "addr:state": "AZ",
+        "addr:street": "West Wetmore Road",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr 11:00-00:00; Sa 10:00-00:00; Su 10:00-23:00",
+        "phone": "+1-520-408-0033",
+        "website": "https://locations.thecheesecakefactory.com/az/tucson-150.html"
+      },
+      "center": {
+        "lat": 32.287733599999996,
+        "lon": -110.97280834999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 291810803,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "6613",
+        "addr:postcode": "85206",
+        "addr:state": "AZ",
+        "addr:street": "East Southern Avenue",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory"
+      },
+      "center": {
+        "lat": 33.391362150000006,
+        "lon": -111.68906564999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 842258071,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "16134",
+        "addr:postcode": "85382",
+        "addr:state": "AZ",
+        "addr:street": "North 83rd Avenue",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory",
+        "phone": "+1-623-773-2233",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://www.thecheesecakefactory.com/"
+      },
+      "center": {
+        "lat": 33.633280549999995,
+        "lon": -112.23610374999998
+      }
+    }
+  ]
+}

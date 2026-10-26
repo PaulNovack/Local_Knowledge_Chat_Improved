@@ -1,0 +1,559 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OR",
+    "brand": "taco_time",
+    "source": "https://download.geofabrik.de/north-america/us/oregon-latest.osm.pbf",
+    "source_md5": "bc93fd72fe4589fdc6c9b2b497cb7ef1",
+    "processed_utc": "2026-10-24T07:14:41.004303+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5330111708,
+      "tags": {
+        "addr:city": "Clackamas",
+        "addr:housenumber": "12000",
+        "addr:postcode": "97086",
+        "addr:state": "OR",
+        "addr:street": "Southeast 82nd Avenue",
+        "addr:unit": "2093",
+        "amenity": "fast_food",
+        "brand": "Taco Time",
+        "brand:wikidata": "Q7673969",
+        "cuisine": "mexican",
+        "level": "1",
+        "name": "Taco Time",
+        "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-19:00",
+        "phone": "+1-503-786-8866",
+        "ref": "6263",
+        "takeaway": "yes",
+        "website": "https://www.tacotime.com/stores/6263"
+      },
+      "lat": 45.4364662,
+      "lon": -122.57395
+    },
+    {
+      "type": "node",
+      "id": 11012695975,
+      "tags": {
+        "addr:city": "Sherwood",
+        "addr:housenumber": "21300",
+        "addr:postcode": "97140",
+        "addr:state": "OR",
+        "addr:street": "Southwest Langer Farms Parkway",
+        "addr:unit": "Suite 108",
+        "amenity": "fast_food",
+        "brand": "Taco Time",
+        "brand:wikidata": "Q7673969",
+        "contact:phone": "+15039258226",
+        "contact:website": "https://www.tacotime.com/stores/6632",
+        "cuisine": "mexican",
+        "name": "Taco Time",
+        "takeaway": "yes"
+      },
+      "lat": 45.3662097,
+      "lon": -122.8366099
+    },
+    {
+      "type": "way",
+      "id": 35262063,
+      "tags": {
+        "addr:city": "Hillsboro",
+        "addr:housenumber": "2117",
+        "addr:postcode": "97123",
+        "addr:state": "OR",
+        "addr:street": "Southeast Tualatin Valley Highway",
+        "amenity": "fast_food",
+        "brand": "Taco Time",
+        "brand:wikidata": "Q7673969",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Taco Time",
+        "opening_hours": "Mo-Th 08:00-21:00; Fr,Sa 08:00-21:30; Su 08:00-20:00",
+        "phone": "+1-503-693-7944",
+        "ref": "6262",
+        "takeaway": "yes",
+        "website": "https://www.tacotime.com/stores/6262"
+      },
+      "center": {
+        "lat": 45.5065978,
+        "lon": -122.95962269999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 37101352,
+      "tags": {
+        "addr:city": "Salem",
+        "addr:housenumber": "922",
+        "addr:postcode": "97301",
+        "addr:state": "OR",
+        "addr:street": "Lancaster Drive Northeast",
+        "amenity": "fast_food",
+        "brand": "Taco Time",
+        "brand:wikidata": "Q7673969",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Taco Time",
+        "opening_hours": "Mo-Th 09:00-23:00; Fr,Sa 09:00-24:00; Su 09:00-22:00",
+        "phone": "+1 503-364-9625",
+        "ref": "6241",
+        "takeaway": "yes",
+        "website": "https://www.tacotime.com/stores/6241"
+      },
+      "center": {
+        "lat": 44.9427301,
+        "lon": -122.98294195
+      }
+    },
+    {
+      "type": "way",
+      "id": 200655087,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "265",
+        "addr:postcode": "97477",
+        "addr:state": "OR",
+        "addr:street": "Main Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Taco Time",
+        "brand:wikidata": "Q7673969",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "highchair": "2",
+        "indoor_seating": "yes",
+        "level": "0",
+        "name": "Taco Time",
+        "opening_hours": "Mo-Fr 10:00-21:00; Su 10:00-19:00; Sa 10:00-20:00",
+        "ref": "6251",
+        "start_date": "1962",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "https://www.tacotime.com/stores/6251",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 44.04587705,
+        "lon": -123.02249669999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 215635196,
+      "tags": {
+        "addr:city": "Eugene",
+        "addr:housenumber": "1031",
+        "addr:postcode": "97408",
+        "addr:state": "OR",
+        "addr:street": "Green Acres Road",
+        "amenity": "fast_food",
+        "brand": "Taco Time",
+        "brand:wikidata": "Q7673969",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Taco Time",
+        "opening_hours": "Mo-Sa 10:00-22:00; Su 11:00-21:00",
+        "phone": "+1-541-338-0856",
+        "ref": "6287",
+        "takeaway": "yes",
+        "website": "https://www.tacotime.com/stores/6287"
+      },
+      "center": {
+        "lat": 44.09358975,
+        "lon": -123.09441205000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 300547766,
+      "tags": {
+        "addr:city": "Portland",
+        "addr:housenumber": "9455",
+        "addr:postcode": "97219",
+        "addr:state": "OR",
+        "addr:street": "Southwest Barbur Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Time",
+        "brand:wikidata": "Q7673969",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Taco Time",
+        "opening_hours": "Mo-Fr 07:00-22:30; Sa 08:00-22:30; Su 09:00-21:30",
+        "phone": "+1-503-246-1869",
+        "ref": "6254",
+        "takeaway": "yes",
+        "website": "https://www.tacotime.com/stores/6254"
+      },
+      "center": {
+        "lat": 45.4569626,
+        "lon": -122.71382259999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 329229470,
+      "tags": {
+        "addr:city": "Sandy",
+        "addr:housenumber": "17475",
+        "addr:postcode": "97055",
+        "addr:state": "OR",
+        "addr:street": "Beers Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Time",
+        "brand:wikidata": "Q7673969",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "ele": "287.1",
+        "height": "3.7",
+        "name": "Taco Time",
+        "opening_hours": "Mo-Sa 10:00-22:00; Su 10:00-21:30",
+        "phone": "+1-503-668-3231",
+        "ref": "6237",
+        "takeaway": "yes",
+        "website": "https://www.tacotime.com/stores/6237"
+      },
+      "center": {
+        "lat": 45.3970271,
+        "lon": -122.26733715
+      }
+    },
+    {
+      "type": "way",
+      "id": 352708012,
+      "tags": {
+        "addr:city": "Beaverton",
+        "addr:housenumber": "11960",
+        "addr:postcode": "97005",
+        "addr:state": "OR",
+        "addr:street": "Southwest Allen Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Time",
+        "brand:wikidata": "Q7673969",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "ele": "64.6",
+        "height": "4.8",
+        "name": "Taco Time",
+        "opening_hours": "07:00-22:00",
+        "phone": "+1-503-644-6235",
+        "ref": "6253",
+        "takeaway": "yes",
+        "website": "https://www.tacotime.com/stores/6253"
+      },
+      "center": {
+        "lat": 45.47618335,
+        "lon": -122.79989215
+      }
+    },
+    {
+      "type": "way",
+      "id": 368839097,
+      "tags": {
+        "addr:city": "Portland",
+        "addr:housenumber": "18225",
+        "addr:postcode": "97233",
+        "addr:state": "OR",
+        "addr:street": "Southeast Stark Street",
+        "amenity": "fast_food",
+        "brand": "Taco Time",
+        "brand:wikidata": "Q7673969",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "ele": "75.9",
+        "height": "5.6",
+        "name": "Taco Time",
+        "opening_hours": "Mo-Sa 10:00-22:00; Su 10:00-21:30",
+        "phone": "+1-503-465-9220",
+        "ref": "6670",
+        "takeaway": "yes",
+        "website": "https://www.tacotime.com/stores/6670"
+      },
+      "center": {
+        "lat": 45.5194554,
+        "lon": -122.47534335
+      }
+    },
+    {
+      "type": "way",
+      "id": 371832464,
+      "tags": {
+        "addr:city": "Oregon City",
+        "addr:housenumber": "503",
+        "addr:postcode": "97045",
+        "addr:state": "OR",
+        "addr:street": "Molalla Avenue",
+        "amenity": "fast_food",
+        "brand": "Taco Time",
+        "brand:wikidata": "Q7673969",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "ele": "128.4",
+        "name": "Taco Time",
+        "opening_hours": "Mo-Fr 10:00-21:30; Sa 10:30-21:30; Su 11:00-21:00",
+        "phone": "+1-503-305-8596",
+        "takeaway": "yes",
+        "website": "https://www.tacotime.com/stores/6658"
+      },
+      "center": {
+        "lat": 45.34741665,
+        "lon": -122.59635170000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 408413231,
+      "tags": {
+        "addr:city": "La Grande",
+        "addr:housenumber": "1612",
+        "addr:postcode": "97850",
+        "addr:state": "OR",
+        "addr:street": "North Portland Street",
+        "amenity": "fast_food",
+        "brand": "Taco Time",
+        "brand:wikidata": "Q7673969",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Taco Time",
+        "opening_hours": "Mo-Sa 06:30-21:00; Su 06:30-20:30",
+        "phone": "+1-541-963-9316",
+        "ref": "6222",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.tacotime.com/stores/6222"
+      },
+      "center": {
+        "lat": 45.32791315,
+        "lon": -118.07883594999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 462480558,
+      "tags": {
+        "addr:city": "Veneta",
+        "addr:housenumber": "24985",
+        "addr:postcode": "97487",
+        "addr:state": "OR",
+        "addr:street": "Highway 126",
+        "amenity": "fast_food",
+        "brand": "Taco Time",
+        "brand:wikidata": "Q7673969",
+        "building": "yes",
+        "check_date": "2024-08-06",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "layer": "1",
+        "name": "Taco Time",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "phone": "+1-541-935-2030",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "https://www.tacotime.com/stores/06266"
+      },
+      "center": {
+        "lat": 44.05445805,
+        "lon": -123.35509720000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 475430424,
+      "tags": {
+        "addr:city": "Portland",
+        "addr:housenumber": "12122",
+        "addr:postcode": "97266",
+        "addr:state": "OR",
+        "addr:street": "Southeast Division Street",
+        "amenity": "fast_food",
+        "brand": "Taco Time",
+        "brand:wikidata": "Q7673969",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Taco Time",
+        "opening_hours": "Mo-Sa 10:30-21:00; Su 10:30-20:00",
+        "phone": "+1-503-760-1461",
+        "ref": "6623",
+        "takeaway": "yes",
+        "website": "https://www.tacotime.com/stores/6623"
+      },
+      "center": {
+        "lat": 45.502975649999996,
+        "lon": -122.53824914999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 592802640,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Taco Time",
+        "brand:wikidata": "Q7673969",
+        "building": "yes",
+        "check_date": "2026-07-03",
+        "cuisine": "mexican",
+        "name": "Taco Time",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "takeaway": "yes",
+        "website": "https://www.tacotime.com/stores/6231"
+      },
+      "center": {
+        "lat": 45.60535005,
+        "lon": -121.19946834999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 602268939,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Taco Time",
+        "brand:wikidata": "Q7673969",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Taco Time",
+        "takeaway": "yes",
+        "website": "https://www.tacotime.com/stores/6293"
+      },
+      "center": {
+        "lat": 44.3034861,
+        "lon": -120.82660010000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 786904080,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "199",
+        "addr:postcode": "97478",
+        "addr:state": "OR",
+        "addr:street": "South 58th Street",
+        "amenity": "fast_food",
+        "brand": "Taco Time",
+        "brand:wikidata": "Q7673969",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Taco Time",
+        "takeaway": "yes",
+        "website": "https://www.tacotime.com/stores/6275"
+      },
+      "center": {
+        "lat": 44.0447768,
+        "lon": -122.92636404999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1064552535,
+      "tags": {
+        "addr:city": "Albany",
+        "addr:housenumber": "2715",
+        "addr:postcode": "97322",
+        "addr:state": "OR",
+        "addr:street": "Santiam Highway Southeast",
+        "amenity": "fast_food",
+        "baby_feeding": "no",
+        "brand:wikidata": "Q7673969",
+        "building": "yes",
+        "changing_table": "no",
+        "check_date": "2024-12-27",
+        "cuisine": "mexican",
+        "highchair": "no",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "kids_area": "no",
+        "level": "1",
+        "name": "Tacos El Huarache",
+        "opening_hours": "10:00-21:00",
+        "operator": "Tacos El Huarache",
+        "smoking": "no",
+        "source": "node #4902933855",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      },
+      "center": {
+        "lat": 44.63225225,
+        "lon": -123.07249949999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1111240139,
+      "tags": {
+        "addr:city": "Lebanon",
+        "addr:housenumber": "2300",
+        "addr:postcode": "97355",
+        "addr:state": "OR",
+        "addr:street": "South Santiam Highway",
+        "amenity": "fast_food",
+        "brand": "Taco Time",
+        "brand:wikidata": "Q7673969",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Taco Time",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://www.tacotime.com/stores/6246"
+      },
+      "center": {
+        "lat": 44.523355,
+        "lon": -122.90731749999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1200033850,
+      "tags": {
+        "addr:city": "Baker City",
+        "addr:housenumber": "915",
+        "addr:postcode": "97814",
+        "addr:state": "OR",
+        "addr:street": "Campbell Street",
+        "amenity": "fast_food",
+        "brand": "Taco Time",
+        "brand:wikidata": "Q7673969",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Taco Time",
+        "phone": "+1-541-523-6657",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://www.tacotime.com/stores/6268"
+      },
+      "center": {
+        "lat": 44.781410449999996,
+        "lon": -117.81730585000003
+      }
+    }
+  ]
+}

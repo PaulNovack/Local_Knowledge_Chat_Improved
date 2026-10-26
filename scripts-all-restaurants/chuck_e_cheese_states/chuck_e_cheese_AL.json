@@ -1,0 +1,147 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AL",
+    "brand": "chuck_e_cheese",
+    "source": "https://download.geofabrik.de/north-america/us/alabama-latest.osm.pbf",
+    "source_md5": "3ee9c8ab6ddb6921e2aa2562af6c9bce",
+    "processed_utc": "2026-10-24T06:56:09.586986+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7579027410,
+      "tags": {
+        "addr:city": "Birmingham",
+        "addr:housenumber": "4647",
+        "addr:postcode": "35242",
+        "addr:state": "AL",
+        "addr:street": "Highway 280",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese's",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "internet_access:fee": "no",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese's",
+        "opening_hours": "Su-Th 11:00-20:00; Fr, Sa 11:00-21:00",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-205-991-2495",
+        "reservation": "accepted",
+        "takeaway": "yes",
+        "website": "https://locations.chuckecheese.com/us/al/birmingham/4647-hwy.-280",
+        "wheelchair": "yes"
+      },
+      "lat": 33.4263303,
+      "lon": -86.7017314
+    },
+    {
+      "type": "node",
+      "id": 9021414202,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/al/dothan/1001-commons-dr."
+      },
+      "lat": 31.2534923,
+      "lon": -85.4272565
+    },
+    {
+      "type": "node",
+      "id": 12385126806,
+      "tags": {
+        "addr:housenumber": "1220",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese"
+      },
+      "lat": 34.740241,
+      "lon": -86.6268976
+    },
+    {
+      "type": "way",
+      "id": 574905728,
+      "tags": {
+        "addr:city": "Mobile",
+        "addr:housenumber": "710",
+        "addr:postcode": "36609",
+        "addr:state": "AL",
+        "addr:street": "Downtowner Loop West",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "yes",
+        "cuisine": "pizza",
+        "delivery": "no",
+        "name": "Chuck E. Cheese",
+        "outdoor_seating": "no",
+        "website": "https://locations.chuckecheese.com/us/al/mobile/710-downtowner-loop-w"
+      },
+      "center": {
+        "lat": 30.6748291,
+        "lon": -88.14496325000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 827140524,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "yes",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/al/birmingham/500-old-town-rd."
+      },
+      "center": {
+        "lat": 33.41966775,
+        "lon": -86.79811765
+      }
+    },
+    {
+      "type": "way",
+      "id": 1009698295,
+      "tags": {
+        "addr:city": "Sheffield",
+        "addr:housenumber": "4700",
+        "addr:postcode": "35661",
+        "addr:state": "AL",
+        "addr:street": "Hatch Boulevard",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "yes",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/al/sheffield/4700-hatch-blvd"
+      },
+      "center": {
+        "lat": 34.76632925,
+        "lon": -87.66840979999995
+      }
+    }
+  ]
+}

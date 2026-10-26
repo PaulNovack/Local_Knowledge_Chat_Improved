@@ -1,0 +1,90 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WI",
+    "brand": "the_original_pancake_house",
+    "source": "https://download.geofabrik.de/north-america/us/wisconsin-latest.osm.pbf",
+    "source_md5": "1718ff98080ec3edeb95ab8fb47b0ce7",
+    "processed_utc": "2026-10-24T07:19:59.510074+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5092398203,
+      "tags": {
+        "addr:city": "Monona",
+        "addr:housenumber": "518",
+        "addr:street": "River Place",
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House"
+      },
+      "lat": 43.0456474,
+      "lon": -89.3272743
+    },
+    {
+      "type": "way",
+      "id": 324539411,
+      "tags": {
+        "addr:city": "Madison",
+        "addr:housenumber": "5518",
+        "addr:postcode": "53705",
+        "addr:state": "WI",
+        "addr:street": "University Avenue",
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "delivery": "no",
+        "indoor_seating": "yes",
+        "internet_access": "no",
+        "name": "The Original Pancake House",
+        "opening_hours": "Mo,We-Su 07:00-13:00",
+        "outdoor_seating": "no",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 608 231 3666",
+        "toilets": "yes",
+        "website": "https://www.originalpancakehouse.com/"
+      },
+      "center": {
+        "lat": 43.08335635,
+        "lon": -89.47594649999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 758612513,
+      "tags": {
+        "addr:city": "Brookfield",
+        "addr:housenumber": "16460",
+        "addr:postcode": "53005",
+        "addr:state": "WI",
+        "addr:street": "West Bluemound Road",
+        "amenity": "restaurant",
+        "brand": "The Original Pancake House",
+        "brand:wikidata": "Q7755384",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "The Original Pancake House"
+      },
+      "center": {
+        "lat": 43.037020749999996,
+        "lon": -88.11739
+      }
+    }
+  ]
+}

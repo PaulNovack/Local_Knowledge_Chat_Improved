@@ -1,0 +1,43 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "saladworks",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T07:20:37.151586+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11873052732,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "320",
+        "addr:postcode": "20002",
+        "addr:state": "DC",
+        "addr:street": "Florida Avenue Northeast",
+        "addr:unit": "2A",
+        "amenity": "fast_food",
+        "brand": "Saladworks",
+        "brand:wikidata": "Q7403411",
+        "check_date": "2025-03-06",
+        "cuisine": "salad",
+        "name": "Saladworks",
+        "opening_hours": "Mo-Fr 11:00-20:00; Sa 11:00-18:00; Su 12:00-18:00",
+        "phone": "+1 202-993-6145",
+        "takeaway": "yes",
+        "website": "https://restaurants.saladworks.com/dc/washington/320-florida-avenue-ne/"
+      },
+      "lat": 38.9079113,
+      "lon": -77.0016614
+    }
+  ]
+}

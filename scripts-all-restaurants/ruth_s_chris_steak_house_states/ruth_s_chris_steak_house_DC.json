@@ -1,0 +1,63 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "ruth_s_chris_steak_house",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T07:20:37.151586+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 739339948,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "2017",
+        "addr:postcode": "20009",
+        "addr:state": "DC",
+        "addr:street": "S Street Northwest",
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "cuisine": "american;steak_house",
+        "dataset": "ABRA locations",
+        "disused:amenity": "restaurant",
+        "source": "dcgis",
+        "was:name": "Ruth's Chris Steak House",
+        "wheelchair": "yes"
+      },
+      "lat": 38.9142489,
+      "lon": -77.0457124
+    },
+    {
+      "type": "node",
+      "id": 7259754048,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "2001",
+        "addr:postcode": "20036",
+        "addr:state": "DC",
+        "addr:street": "K Street Northwest",
+        "addr:unit": "100L",
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "cuisine": "american;steak_house",
+        "name": "Ruth's Chris Steak House",
+        "opening_hours": "Mo-Th,Su 16:00-21:00; Fr-Sa 16:00-21:30",
+        "phone": "+1-202-918-5583",
+        "website": "https://www.ruthschris.com/restaurant-locations/washington-dc-3/"
+      },
+      "lat": 38.9035857,
+      "lon": -77.04639
+    }
+  ]
+}

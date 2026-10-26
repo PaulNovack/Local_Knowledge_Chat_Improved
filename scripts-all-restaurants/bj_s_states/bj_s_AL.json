@@ -1,0 +1,72 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AL",
+    "brand": "bj_s",
+    "source": "https://download.geofabrik.de/north-america/us/alabama-latest.osm.pbf",
+    "source_md5": "3ee9c8ab6ddb6921e2aa2562af6c9bce",
+    "processed_utc": "2026-10-24T06:56:09.586986+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13900399402,
+      "tags": {
+        "addr:city": "Alabama",
+        "addr:country": "US",
+        "addr:housenumber": "401",
+        "addr:postcode": "35806",
+        "addr:state": "AL",
+        "addr:street": "The Bridge Street",
+        "addr:unit": "Suite 120",
+        "amenity": "restaurant",
+        "branch": "Huntsville",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "cuisine": "american",
+        "image": "https://bjsrestaurants.scene7.com/is/image/bjsrestaurants/573-huntsville-restaurant",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "opening_hours": "Mo-Su 11:00-23:30",
+        "phone": "+1 256-684-8080",
+        "ref": "573",
+        "website": "https://www.bjsrestaurants.com/locations/al/huntsville"
+      },
+      "lat": 34.7153341,
+      "lon": -86.6748035
+    },
+    {
+      "type": "way",
+      "id": 333502216,
+      "tags": {
+        "addr:city": "Mobile",
+        "addr:housenumber": "3748",
+        "addr:postcode": "36608",
+        "addr:state": "AL",
+        "addr:street": "Airport Boulevard",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "yes",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "opening_hours": "Mo-Su 00:00-00:30,11:00-24:00",
+        "phone": "+1 251-581-9240",
+        "website": "https://www.bjsrestaurants.com/locations/al/mobile"
+      },
+      "center": {
+        "lat": 30.676963,
+        "lon": -88.13851299999999
+      }
+    }
+  ]
+}

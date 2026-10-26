@@ -1,0 +1,93 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "7_brew",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13563997091,
+      "tags": {
+        "amenity": "cafe",
+        "name": "7 Brew Coffee"
+      },
+      "lat": 31.579778,
+      "lon": -90.4615906
+    },
+    {
+      "type": "node",
+      "id": 13726072346,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "takeaway": "yes"
+      },
+      "lat": 34.3636206,
+      "lon": -89.5135471
+    },
+    {
+      "type": "node",
+      "id": 14039971279,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "takeaway": "yes"
+      },
+      "lat": 32.2842777,
+      "lon": -90.0390461
+    },
+    {
+      "type": "node",
+      "id": 14168242502,
+      "tags": {
+        "addr:housenumber": "107",
+        "addr:postcode": "39056",
+        "addr:street": "Hwy 80 W",
+        "amenity": "cafe",
+        "check_date": "2026-09-09",
+        "check_date:opening_hours": "2026-09-09",
+        "cuisine": "coffee_shop",
+        "name": "7 Brew Coffee",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00",
+        "phone": "+1-479-358-9274",
+        "website": "https://locations.7brew.com/ms/clinton/107-hwy-80-w",
+        "website:menu": "https://7brew.com/menu"
+      },
+      "lat": 32.3345162,
+      "lon": -90.3270894
+    },
+    {
+      "type": "way",
+      "id": 1465120333,
+      "tags": {
+        "amenity": "cafe",
+        "building": "retail",
+        "cuisine": "coffee_shop",
+        "name": "7 Brew Coffee"
+      },
+      "center": {
+        "lat": 32.35549015,
+        "lon": -90.02218065
+      }
+    }
+  ]
+}

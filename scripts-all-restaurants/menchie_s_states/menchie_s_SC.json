@@ -1,0 +1,55 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SC",
+    "brand": "menchie_s",
+    "source": "https://download.geofabrik.de/north-america/us/south-carolina-latest.osm.pbf",
+    "source_md5": "488018afb1e1040732b7a791d4ebffae",
+    "processed_utc": "2026-10-24T07:15:46.592450+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5272596955,
+      "tags": {
+        "addr:city": "Lexington",
+        "addr:housenumber": "5580",
+        "addr:postcode": "29072",
+        "addr:state": "SC",
+        "addr:street": "Sunset Boulevard",
+        "addr:unit": "B",
+        "amenity": "ice_cream",
+        "branch": "Frozen Yogurt",
+        "brand": "Menchie's",
+        "brand:wikidata": "Q6816528",
+        "cuisine": "frozen_yogurt",
+        "name": "Menchie's",
+        "outdoor_seating": "yes",
+        "phone": "+1-803-356-0643"
+      },
+      "lat": 33.99485,
+      "lon": -81.2257325
+    },
+    {
+      "type": "node",
+      "id": 6074010963,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Menchie's",
+        "brand:wikidata": "Q6816528",
+        "cuisine": "frozen_yogurt",
+        "name": "Menchie's",
+        "outdoor_seating": "yes"
+      },
+      "lat": 34.999953,
+      "lon": -80.8541805
+    }
+  ]
+}

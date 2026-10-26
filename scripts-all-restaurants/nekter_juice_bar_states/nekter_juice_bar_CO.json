@@ -1,0 +1,83 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "nekter_juice_bar",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6742569137,
+      "tags": {
+        "addr:city": "Fort Collins",
+        "addr:housenumber": "3260",
+        "addr:postcode": "80525",
+        "addr:state": "CO",
+        "addr:street": "South College Avenue",
+        "addr:unit": "130",
+        "amenity": "fast_food",
+        "brand": "Nékter Juice Bar",
+        "brand:wikidata": "Q112826281",
+        "cuisine": "juice",
+        "name": "Nékter Juice Bar",
+        "opening_hours": "Mo-Fr 07:00-19:00, Sa-Su 08:00-18:00",
+        "outdoor_seating": "no",
+        "phone": "+1-970-893-4895",
+        "takeaway": "yes",
+        "website": "https://locations.nekterjuicebar.com/ll/us/co/fort-collins/3260-s-college-ave/"
+      },
+      "lat": 40.5427723,
+      "lon": -105.076425
+    },
+    {
+      "type": "node",
+      "id": 11193989550,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Nékter Juice Bar",
+        "brand:wikidata": "Q112826281",
+        "check_date": "2024-07-24",
+        "cuisine": "juice",
+        "drive_through": "no",
+        "name": "Nékter Juice Bar",
+        "takeaway": "yes",
+        "website": "https://www.nekterjuicebar.com/"
+      },
+      "lat": 39.6093816,
+      "lon": -104.9583393
+    },
+    {
+      "type": "node",
+      "id": 13643799214,
+      "tags": {
+        "addr:city": "Highlands Ranch",
+        "addr:housenumber": "3620",
+        "addr:postcode": "80126",
+        "addr:state": "CO",
+        "addr:street": "East Highlands Ranch Parkway",
+        "addr:unit": "103",
+        "amenity": "fast_food",
+        "brand": "Nékter Juice Bar",
+        "brand:wikidata": "Q112826281",
+        "cuisine": "juice",
+        "name": "Nékter Juice Bar",
+        "opening_hours": "Mo-Fr 08:00-18:00; Sa-Su 08:30-17:00",
+        "phone": "+1-303-346-4327",
+        "takeaway": "yes",
+        "website": "https://locations.nekterjuicebar.com/ll/us/co/highlands-ranch/3620-east-highlands-ranch-pkwy-suite-103/"
+      },
+      "lat": 39.5427872,
+      "lon": -104.9469549
+    }
+  ]
+}

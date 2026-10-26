@@ -1,0 +1,83 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "steak_n_shake",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 487562470,
+      "tags": {
+        "addr:city": "Fayetteville",
+        "addr:country": "US",
+        "addr:housenumber": "4074",
+        "addr:postcode": "72703",
+        "addr:state": "AR",
+        "addr:street": "North Mall Avenue",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "commercial",
+        "check_date": "2026-06-29",
+        "check_date:currency:XBT": "2026-06-29",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1 479 444 6343",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ar-fayetteville-n-mall-avenue/"
+      },
+      "center": {
+        "lat": 36.12527205,
+        "lon": -94.14913315000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1229510752,
+      "tags": {
+        "addr:city": "Jonesboro",
+        "addr:country": "US",
+        "addr:housenumber": "2303",
+        "addr:postcode": "72404",
+        "addr:state": "AR",
+        "addr:street": "East Parker Road",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date": "2026-06-29",
+        "check_date:currency:XBT": "2026-06-29",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr,Sa 10:00-23:00; Su 10:00-22:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1 870 336 0358",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ar-jonesboro-east-parker-road/"
+      },
+      "center": {
+        "lat": 35.804888399999996,
+        "lon": -90.67625225
+      }
+    }
+  ]
+}

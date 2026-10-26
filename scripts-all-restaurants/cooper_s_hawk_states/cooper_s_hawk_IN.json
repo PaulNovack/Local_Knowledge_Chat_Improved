@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "cooper_s_hawk",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 193396778,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "3815",
+        "addr:postcode": "46240",
+        "addr:state": "IN",
+        "addr:street": "East 96th Street",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Cooper's Hawk",
+        "not:brand:wikidata": "Q17511079"
+      },
+      "center": {
+        "lat": 39.9263182,
+        "lon": -86.10164025
+      }
+    },
+    {
+      "type": "way",
+      "id": 1119724623,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cooper's Hawk",
+        "brand:wikidata": "Q17511079",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cooper's Hawk",
+        "official_name": "Cooper's Hawk Winery & Restaurants",
+        "shop": "wine"
+      },
+      "center": {
+        "lat": 39.76375955,
+        "lon": -86.36871429999997
+      }
+    }
+  ]
+}

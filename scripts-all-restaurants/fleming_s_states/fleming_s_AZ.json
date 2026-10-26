@@ -1,0 +1,67 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "fleming_s",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 451078810,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "9712",
+        "addr:postcode": "85345",
+        "addr:state": "AZ",
+        "addr:street": "West Northern Avenue",
+        "amenity": "restaurant",
+        "brand": "Fleming's",
+        "brand:wikidata": "Q5458552",
+        "building": "retail",
+        "cuisine": "steak_house",
+        "name": "Fleming's",
+        "official_name": "Fleming's Prime Steakhouse & Wine Bar",
+        "phone": "+16237729463",
+        "source": "esri_USDOT_Arizona",
+        "website": "https://flemingssteakhouse.com/locations/az/peoria"
+      },
+      "center": {
+        "lat": 33.552109400000006,
+        "lon": -112.26857319999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 523239374,
+      "tags": {
+        "addr:city": "Chandler",
+        "addr:housenumber": "905",
+        "addr:postcode": "85226",
+        "addr:state": "AZ",
+        "addr:street": "North 54th Street",
+        "amenity": "restaurant",
+        "brand": "Fleming's",
+        "brand:wikidata": "Q5458552",
+        "building": "retail",
+        "cuisine": "steak_house",
+        "name": "Fleming's",
+        "official_name": "Fleming's Prime Steakhouse & Wine Bar",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 33.3184659,
+        "lon": -111.96804455
+      }
+    }
+  ]
+}

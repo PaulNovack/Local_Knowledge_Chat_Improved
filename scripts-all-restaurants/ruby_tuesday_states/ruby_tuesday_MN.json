@@ -1,0 +1,75 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MN",
+    "brand": "ruby_tuesday",
+    "source": "https://download.geofabrik.de/north-america/us/minnesota-latest.osm.pbf",
+    "source_md5": "4cabd6519cf6e8b1f74c96f59629df95",
+    "processed_utc": "2026-10-24T07:08:10.045763+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2700304866,
+      "tags": {
+        "addr:city": "Edina",
+        "addr:postcode": "55435",
+        "addr:state": "MN",
+        "addr:street": "Southdale Center",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "cuisine": "american",
+        "name": "Ruby Tuesday",
+        "phone": "+1 952 928 9906",
+        "website": "https://www.rubytuesday.com"
+      },
+      "lat": 44.8804719,
+      "lon": -93.3261185
+    },
+    {
+      "type": "way",
+      "id": 42963530,
+      "tags": {
+        "addr:housenumber": "4135",
+        "addr:postcode": "55379",
+        "addr:street": "Dean Lakes Boulevard",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "vietnamese",
+        "name": "Bun Mee",
+        "opening_hours": "Su 09:00-20:00; Mo, We-Sa 11:00-21:00"
+      },
+      "center": {
+        "lat": 44.7801548,
+        "lon": -93.46823874999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 376270979,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "center": {
+        "lat": 45.0192703,
+        "lon": -93.48242830000004
+      }
+    }
+  ]
+}

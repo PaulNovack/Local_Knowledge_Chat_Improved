@@ -1,0 +1,52 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "nekter_juice_bar",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8925144517,
+      "tags": {
+        "addr:city": "Baltimore",
+        "addr:housenumber": "5713",
+        "addr:postcode": "21224",
+        "addr:state": "MD",
+        "addr:street": "Eastern Avenue",
+        "amenity": "fast_food",
+        "brand": "Nékter Juice Bar",
+        "brand:wikidata": "Q112826281",
+        "cuisine": "juice",
+        "name": "Nékter Juice Bar",
+        "phone": "+1 443-438-6531",
+        "takeaway": "yes",
+        "website": "https://www.nekterjuicebar.com/"
+      },
+      "lat": 39.2870904,
+      "lon": -76.5469888
+    },
+    {
+      "type": "node",
+      "id": 13688883689,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "juice",
+        "name": "Nékter Juice Bar",
+        "opening_hours": "Mo-Sa 08:00-18:00; Su 09:00-18:00"
+      },
+      "lat": 39.0212216,
+      "lon": -76.6933664
+    }
+  ]
+}

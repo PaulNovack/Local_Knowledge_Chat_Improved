@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "steak_n_shake",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 318013152,
+      "tags": {
+        "addr:city": "Broken Arrow",
+        "addr:country": "US",
+        "addr:housenumber": "501",
+        "addr:postcode": "74012",
+        "addr:state": "OK",
+        "addr:street": "West Stonewood Drive",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "commercial",
+        "check_date": "2025-10-04",
+        "check_date:currency:XBT": "2025-10-04",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Mo-Su 10:00-00:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "+1 918 355 6405",
+        "source": "BTCmap verification form",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/ok-broken-arrow-stonewood-drive/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 36.0731721,
+        "lon": -95.79678665
+      }
+    }
+  ]
+}

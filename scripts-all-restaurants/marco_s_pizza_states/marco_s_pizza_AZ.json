@@ -1,0 +1,141 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "marco_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2713039558,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:country": "US",
+        "addr:housenumber": "466",
+        "addr:postcode": "85205",
+        "addr:state": "AZ",
+        "addr:street": "North Higley Road",
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Marco's Pizza",
+        "opening_hours": "11:00-21:00",
+        "takeaway": "yes"
+      },
+      "lat": 33.4240665,
+      "lon": -111.71967
+    },
+    {
+      "type": "node",
+      "id": 6594624473,
+      "tags": {
+        "addr:city": "Oro Valley",
+        "addr:housenumber": "10550",
+        "addr:postcode": "85737",
+        "addr:state": "AZ",
+        "addr:street": "North La Cañada Drive",
+        "addr:unit": "190",
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Marco's Pizza",
+        "phone": "+1-520-297-6500",
+        "takeaway": "yes",
+        "website": "https://www.marcos.com/locations/"
+      },
+      "lat": 32.3978647,
+      "lon": -110.994312
+    },
+    {
+      "type": "node",
+      "id": 7926074158,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Marco's Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 33.2971466,
+      "lon": -111.7482694
+    },
+    {
+      "type": "node",
+      "id": 12646697109,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 33.2624278,
+      "lon": -111.6006458
+    },
+    {
+      "type": "node",
+      "id": 13321381801,
+      "tags": {
+        "addr:housenumber": "6330",
+        "addr:postcode": "85730",
+        "addr:street": "East Golf Links Road",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "opening_hours": "Su-Th 10:30-22:00; Fr-Sa 10:30-23:00",
+        "phone": "+1-520-747-3898"
+      },
+      "lat": 32.190039,
+      "lon": -110.8571151
+    },
+    {
+      "type": "node",
+      "id": 13411858459,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 33.3771073,
+      "lon": -112.1846188
+    },
+    {
+      "type": "way",
+      "id": 868858636,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.2643195,
+        "lon": -110.96143800000004
+      }
+    }
+  ]
+}

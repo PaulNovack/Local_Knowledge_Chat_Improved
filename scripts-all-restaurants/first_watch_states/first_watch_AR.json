@@ -1,0 +1,76 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "first_watch",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5294337274,
+      "tags": {
+        "addr:city": "Rogers",
+        "addr:housenumber": "5206",
+        "addr:postcode": "72758",
+        "addr:state": "AR",
+        "addr:street": "West Village Parkway",
+        "addr:unit": "1",
+        "amenity": "restaurant",
+        "brand": "First Watch",
+        "brand:wikidata": "Q5454064",
+        "check_date": "2026-02-13",
+        "cuisine": "american;breakfast",
+        "name": "First Watch",
+        "official_name": "First Watch The Daytime Cafe",
+        "opening_hours": "07:00-14:30",
+        "phone": "+14796576630",
+        "website": "https://www.firstwatch.com/locations/rogers"
+      },
+      "lat": 36.3170803,
+      "lon": -94.1872494
+    },
+    {
+      "type": "way",
+      "id": 483134343,
+      "tags": {
+        "addr:city": "Fayetteville",
+        "addr:country": "US",
+        "addr:full": "3251 North College Avenue",
+        "addr:housenumber": "3251",
+        "addr:postcode": "72703",
+        "addr:state": "AR",
+        "addr:street": "North College Avenue",
+        "amenity": "restaurant",
+        "brand": "First Watch",
+        "brand:wikidata": "Q5454064",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2026-02-13",
+        "cuisine": "american;breakfast",
+        "internet_access": "wlan",
+        "name": "First Watch",
+        "official_name": "First Watch The Daytime Cafe",
+        "opening_hours": "07:00-14:30",
+        "outdoor_seating": "no",
+        "phone": "+1 479 668 0683",
+        "roof:levels": "0",
+        "self_service": "no",
+        "website": "https://www.firstwatch.com/locations/north-fayetteville"
+      },
+      "center": {
+        "lat": 36.11042765,
+        "lon": -94.14560284999999
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "LA",
+    "brand": "shake_shack",
+    "source": "https://download.geofabrik.de/north-america/us/louisiana-latest.osm.pbf",
+    "source_md5": "2e108953505ee82f68e2a6e7a3e4f783",
+    "processed_utc": "2026-10-24T07:05:17.318731+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7113343392,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "check_date": "2025-12-19",
+        "cuisine": "burger",
+        "name": "Shake Shack",
+        "takeaway": "yes"
+      },
+      "lat": 29.9955314,
+      "lon": -90.2559895
+    },
+    {
+      "type": "node",
+      "id": 11978943156,
+      "tags": {
+        "addr:city": "New Orleans",
+        "addr:housenumber": "333",
+        "addr:postcode": "70130",
+        "addr:state": "LA",
+        "addr:street": "Canal Street",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "check_date": "2026-09-26",
+        "cuisine": "burger",
+        "name": "Shake Shack",
+        "phone": "+1-504-677-8001",
+        "takeaway": "yes",
+        "website": "https://shakeshack.com/location/canal-place-la"
+      },
+      "lat": 29.9513199,
+      "lon": -90.0658033
+    },
+    {
+      "type": "way",
+      "id": 712415296,
+      "tags": {
+        "addr:city": "Metairie",
+        "addr:housenumber": "3501",
+        "addr:postcode": "70002",
+        "addr:street": "Veterans Memorial Boulevard",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Shake Shack",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 30.00410775,
+        "lon": -90.15974499999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1467501850,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Shake Shack",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 30.3900276,
+        "lon": -91.09158839999998
+      }
+    }
+  ]
+}

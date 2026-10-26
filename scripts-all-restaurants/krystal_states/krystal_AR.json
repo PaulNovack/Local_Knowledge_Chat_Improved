@@ -1,0 +1,59 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "krystal",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 760420740,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krystal",
+        "brand:wikidata": "Q472195",
+        "cuisine": "burger",
+        "name": "Krystal",
+        "takeaway": "yes",
+        "website": "https://www.krystal.com/locations/ar/west-memphis/1804-missouri-rd/"
+      },
+      "lat": 35.1662297,
+      "lon": -90.1851359
+    },
+    {
+      "type": "way",
+      "id": 1260639675,
+      "tags": {
+        "addr:city": "Jonesboro",
+        "addr:country": "US",
+        "addr:housenumber": "2229",
+        "addr:state": "AR",
+        "addr:street": "South Caraway Road",
+        "amenity": "fast_food",
+        "brand": "Krystal",
+        "brand:wikidata": "Q472195",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Krystal",
+        "phone": "+1 870-790-0746",
+        "takeaway": "yes",
+        "website": "https://www.krystal.com/locations/ar/jonesboro/2229-s-caraway-rd/"
+      },
+      "center": {
+        "lat": 35.81800885,
+        "lon": -90.67844604999999
+      }
+    }
+  ]
+}

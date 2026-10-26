@@ -1,0 +1,65 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "pizza_ranch",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2802240498,
+      "tags": {
+        "addr:city": "Casper",
+        "addr:housenumber": "5011",
+        "addr:postcode": "82609",
+        "addr:state": "WY",
+        "addr:street": "East 2nd Street",
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "capacity": "200",
+        "cuisine": "pizza",
+        "name": "Pizza Ranch",
+        "opening_hours": "11:00-22:00",
+        "smoking": "no"
+      },
+      "lat": 42.8474687,
+      "lon": -106.2587251
+    },
+    {
+      "type": "way",
+      "id": 1209143879,
+      "tags": {
+        "addr:city": "Gillette",
+        "addr:housenumber": "1000",
+        "addr:postcode": "82716",
+        "addr:state": "WY",
+        "addr:street": "West 2nd Street",
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2026-06-03",
+        "cuisine": "pizza",
+        "name": "Pizza Ranch",
+        "source": "survey;esri/USA_NAD_Addresses",
+        "website": "https://pizzaranch.com/locations/wy/gillette/1000-west-2nd-street"
+      },
+      "center": {
+        "lat": 44.29366415,
+        "lon": -105.5164016
+      }
+    }
+  ]
+}

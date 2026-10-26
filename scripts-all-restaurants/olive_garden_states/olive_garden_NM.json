@@ -1,0 +1,137 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NM",
+    "brand": "olive_garden",
+    "source": "https://download.geofabrik.de/north-america/us/new-mexico-latest.osm.pbf",
+    "source_md5": "5e236c0e9dd59b2df560a9316c86a745",
+    "processed_utc": "2026-10-24T07:10:42.593170+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3674207830,
+      "tags": {
+        "addr:city": "Farmington",
+        "addr:housenumber": "5150",
+        "addr:postcode": "87402",
+        "addr:street": "East Main Street",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "phone": "+1-505-324-0546",
+        "website": "https://www.olivegarden.com/locations/nm/farmington/farmington/1847"
+      },
+      "lat": 36.7694521,
+      "lon": -108.1445765
+    },
+    {
+      "type": "node",
+      "id": 10270744743,
+      "tags": {
+        "addr:city": "Rio Rancho",
+        "addr:housenumber": "10500",
+        "addr:postcode": "87114",
+        "addr:state": "NM",
+        "addr:street": "Coors Boulevard Bypass Northwest",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "lat": 35.208089,
+      "lon": -106.657569
+    },
+    {
+      "type": "node",
+      "id": 13805087598,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "3823",
+        "addr:postcode": "87120",
+        "addr:state": "NM",
+        "addr:street": "Coors Boulevard Northwest",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "lat": 35.1260531,
+      "lon": -106.7022165
+    },
+    {
+      "type": "way",
+      "id": 222586136,
+      "tags": {
+        "addr:housenumber": "6301",
+        "addr:street": "San Mateo Boulevard Northeast",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "center": {
+        "lat": 35.1472936,
+        "lon": -106.5889211
+      }
+    },
+    {
+      "type": "way",
+      "id": 318473701,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "601",
+        "addr:postcode": "87123",
+        "addr:state": "NM",
+        "addr:street": "Juan Tabo Boulevard Northeast",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "phone": "+1 505 2759948",
+        "website": "https://www.olivegarden.com/locations/nm/albuquerque/albuquerque-juan-tabo-blvd/1121"
+      },
+      "center": {
+        "lat": 35.078779499999996,
+        "lon": -106.51579735000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 472252669,
+      "tags": {
+        "addr:city": "Santa Fe",
+        "addr:country": "US",
+        "addr:housenumber": "3781",
+        "addr:postcode": "87507",
+        "addr:state": "NM",
+        "addr:street": "Cerrillos Road",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "center": {
+        "lat": 35.64415445,
+        "lon": -106.01046314999996
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "freddy_s",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 364600019,
+      "tags": {
+        "addr:city": "Camden",
+        "addr:housenumber": "3200",
+        "addr:postcode": "08105",
+        "addr:state": "NJ",
+        "addr:street": "Westfield Avenue",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "retail",
+        "cuisine": "ice_cream;burger",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.95045275,
+        "lon": -75.07788534999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 842051894,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "retail",
+        "check_date": "2026-01-26",
+        "cuisine": "ice_cream;burger",
+        "disused:amenity": "restaurant",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.96292045,
+        "lon": -74.18865219999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1319357520,
+      "tags": {
+        "addr:city": "Burlington",
+        "addr:housenumber": "2325",
+        "addr:postcode": "08016",
+        "addr:state": "NJ",
+        "addr:street": "Mount Holly Road",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "check_date": "2025-08-12",
+        "cuisine": "ice_cream;burger",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "opening_hours": "Mo-Th,Su 10:30-22:00; Fr-Sa 10:30-23:00",
+        "phone": "+1 609-845-3411",
+        "takeaway": "yes",
+        "website": "https://www.freddys.com/location/burlington-nj"
+      },
+      "center": {
+        "lat": 40.0384646,
+        "lon": -74.82743994999998
+      }
+    }
+  ]
+}

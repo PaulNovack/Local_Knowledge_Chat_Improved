@@ -1,0 +1,66 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SD",
+    "brand": "pancheros_mexican_grill",
+    "source": "https://download.geofabrik.de/north-america/us/south-dakota-latest.osm.pbf",
+    "source_md5": "4d012b130d8682e6f0e1bc093c255981",
+    "processed_utc": "2026-10-24T07:16:00.169778+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9360054092,
+      "tags": {
+        "addr:housenumber": "4824",
+        "addr:street": "South Louise Avenue",
+        "amenity": "fast_food",
+        "cuisine": "mexican",
+        "fixme": "opening_hours need to be checked during a non-holiday week, current value is a guess for Friday and Saturday's normal hours",
+        "name": "Panchero's",
+        "opening_hours": "Su-Sa 10:30-22:00",
+        "phone": "+1 605-271-2544",
+        "website": "https://order.pancheros.com/store/5368"
+      },
+      "lat": 43.5012268,
+      "lon": -96.7704611
+    },
+    {
+      "type": "way",
+      "id": 300682895,
+      "tags": {
+        "addr:city": "Rapid City",
+        "addr:housenumber": "1221",
+        "addr:postcode": "57701",
+        "addr:state": "SD",
+        "addr:street": "West Omaha Street",
+        "amenity": "fast_food",
+        "brand:wikidata": "Q7130313",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "no",
+        "name": "Panchero's",
+        "opening_hours": "Su-Sa 10:30-19:30 \"Normally open until 9pm, closing early because short staffed, as of Dec 18 2021\"",
+        "payment:american_express": "yes",
+        "payment:credit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 605-718-2251",
+        "takeaway": "yes",
+        "website": "https://locations.pancheros.com/pancheros-mexican-grill-258614d05442"
+      },
+      "center": {
+        "lat": 44.083659999999995,
+        "lon": -103.23839755
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "pancheros_mexican_grill",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12288415945,
+      "tags": {
+        "addr:city": "Moosic",
+        "addr:housenumber": "2011",
+        "addr:postcode": "18507",
+        "addr:state": "PA",
+        "addr:street": "Shoppes Boulevard",
+        "amenity": "restaurant",
+        "brand": "Pancheros",
+        "brand:wikidata": "Q7130313",
+        "cuisine": "mexican",
+        "name": "Pancheros Mexican Grill"
+      },
+      "lat": 41.3636091,
+      "lon": -75.6789402
+    },
+    {
+      "type": "way",
+      "id": 841373794,
+      "tags": {
+        "addr:city": "Spring House",
+        "addr:housenumber": "1105",
+        "addr:postcode": "19477",
+        "addr:state": "PA",
+        "addr:street": "North Bethlehem Pike",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Pancheros Mexican Grill",
+        "phone": "+1-215-628-8226"
+      },
+      "center": {
+        "lat": 40.188444700000005,
+        "lon": -75.2289389
+      }
+    },
+    {
+      "type": "way",
+      "id": 1561765924,
+      "tags": {
+        "addr:city": "Media",
+        "addr:housenumber": "503",
+        "addr:postcode": "19063",
+        "addr:state": "PA",
+        "addr:street": "E Baltimore Ave",
+        "amenity": "restaurant",
+        "brand": "Pancheros",
+        "brand:wikidata": "Q7130313",
+        "building": "yes",
+        "cuisine": "mexican",
+        "layer": "1",
+        "name": "Pancheros Mexican Grill"
+      },
+      "center": {
+        "lat": 39.91600545,
+        "lon": -75.38020170000004
+      }
+    }
+  ]
+}

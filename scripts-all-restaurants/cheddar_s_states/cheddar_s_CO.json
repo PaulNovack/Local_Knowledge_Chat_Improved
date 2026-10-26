@@ -1,0 +1,84 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "cheddar_s",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3376160737,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen"
+      },
+      "lat": 39.8826254,
+      "lon": -104.9816684
+    },
+    {
+      "type": "way",
+      "id": 163974906,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "1140",
+        "addr:postcode": "80921",
+        "addr:state": "CO",
+        "addr:street": "Interquest Parkway",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "retail",
+        "check_date": "2026-05-23",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen",
+        "opening_hours": "11:00-21:30",
+        "phone": "+1-719-262-7100",
+        "website": "https://www.cheddars.com/",
+        "website:menu": "https://media.cheddars.com/en_us/pdf/CSK-RF-CO-All-Day.pdf"
+      },
+      "center": {
+        "lat": 38.991472349999995,
+        "lon": -104.80955419999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 365403184,
+      "tags": {
+        "addr:city": "Aurora",
+        "addr:housenumber": "15775",
+        "addr:postcode": "80016",
+        "addr:state": "CO",
+        "addr:street": "East Briarwood Circle",
+        "amenity": "restaurant",
+        "branch": "Casual Café",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen"
+      },
+      "center": {
+        "lat": 39.594238149999995,
+        "lon": -104.80414840000003
+      }
+    }
+  ]
+}

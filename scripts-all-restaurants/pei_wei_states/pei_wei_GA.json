@@ -1,0 +1,71 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "pei_wei",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12614690596,
+      "tags": {
+        "access": "customers",
+        "addr:city": "Valdosta",
+        "addr:floor": "1",
+        "addr:housenumber": "1700",
+        "addr:postcode": "31601",
+        "addr:state": "GA",
+        "addr:street": "Norman Drive",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "cuisine": "asian",
+        "currency:USD": "yes",
+        "indoor": "yes",
+        "level": "0",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "stroller": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 30.8436369,
+      "lon": -83.3201485
+    },
+    {
+      "type": "node",
+      "id": 13837048312,
+      "tags": {
+        "addr:floor": "G",
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "check_date": "2026-05-16",
+        "cuisine": "asian",
+        "level": "0",
+        "name": "Pei Wei Express",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 33.9239049,
+      "lon": -84.3409566
+    }
+  ]
+}

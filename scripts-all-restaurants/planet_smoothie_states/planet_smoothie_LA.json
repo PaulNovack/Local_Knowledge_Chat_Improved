@@ -1,0 +1,49 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "LA",
+    "brand": "planet_smoothie",
+    "source": "https://download.geofabrik.de/north-america/us/louisiana-latest.osm.pbf",
+    "source_md5": "2e108953505ee82f68e2a6e7a3e4f783",
+    "processed_utc": "2026-10-24T07:05:17.318731+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8067276640,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "smoothie",
+        "name": "Planet Smoothie"
+      },
+      "lat": 30.036754,
+      "lon": -90.2391246
+    },
+    {
+      "type": "node",
+      "id": 13731064593,
+      "tags": {
+        "addr:city": "Metairie",
+        "addr:housenumber": "400",
+        "addr:postcode": "70005",
+        "addr:state": "LA",
+        "addr:street": "Veterans Memorial Boulevard",
+        "amenity": "fast_food",
+        "brand": "Planet Smoothie",
+        "brand:wikidata": "Q7201170",
+        "cuisine": "smoothie",
+        "name": "Planet Smoothie",
+        "takeaway": "yes"
+      },
+      "lat": 30.0004972,
+      "lon": -90.1269406
+    }
+  ]
+}

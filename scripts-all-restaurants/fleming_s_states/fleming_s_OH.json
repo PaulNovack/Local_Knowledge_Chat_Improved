@@ -1,0 +1,59 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "fleming_s",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 142994272,
+      "tags": {
+        "addr:housenumber": "4432",
+        "addr:street": "Walnut Street",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "branch": "Fine Steakhouse & Wine Bar",
+        "brand": "Fleming's",
+        "brand:wikidata": "Q5458552",
+        "building": "retail",
+        "building:levels": "1",
+        "building:material": "stone",
+        "cuisine": "steak_house",
+        "indoor_seating": "yes",
+        "name": "Fleming's",
+        "official_name": "Fleming's Prime Steakhouse & Wine Bar",
+        "opening_hours": "Mo-Sa 16:00-22:00; Su 16:00-21:00",
+        "outdoor_seating": "yes",
+        "roof:shape": "flat"
+      },
+      "center": {
+        "lat": 39.69512175,
+        "lon": -84.10201795
+      }
+    },
+    {
+      "type": "way",
+      "id": 308336983,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Fleming's Prime Steakhouse & Wine Bar"
+      },
+      "center": {
+        "lat": 41.13532655,
+        "lon": -81.64308015
+      }
+    }
+  ]
+}

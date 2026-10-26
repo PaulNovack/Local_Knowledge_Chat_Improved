@@ -1,0 +1,97 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AK",
+    "brand": "panda_express",
+    "source": "https://download.geofabrik.de/north-america/us/alaska-latest.osm.pbf",
+    "source_md5": "55281fca0391ab2c26b0d99fd6a6f5f8",
+    "processed_utc": "2026-10-24T06:56:26.590469+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10802089188,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 61.1947701,
+      "lon": -149.918074
+    },
+    {
+      "type": "way",
+      "id": 495087999,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Fr 10:00-21:30; Sa-Su 10:30-21:30",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 61.2300101,
+        "lon": -149.7422583
+      }
+    },
+    {
+      "type": "way",
+      "id": 633831995,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "source": "EsriWorldImagery",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 61.57855745,
+        "lon": -149.4125601
+      }
+    },
+    {
+      "type": "way",
+      "id": 1431606359,
+      "tags": {
+        "addr:city": "Fairbanks",
+        "addr:housenumber": "523",
+        "addr:postcode": "99701",
+        "addr:state": "AK",
+        "addr:street": "Harold Bentley Avenue",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Su-Th 09:00-22:30; Fr-Sa 09:00-23:00",
+        "phone": "+1-907-313-8968",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/ak/fairbanks/3622"
+      },
+      "center": {
+        "lat": 64.85929734999999,
+        "lon": -147.69061795
+      }
+    }
+  ]
+}

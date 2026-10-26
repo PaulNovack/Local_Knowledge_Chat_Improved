@@ -1,0 +1,89 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "sweetfrog",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6203573234,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "sweetFrog",
+        "brand:wikidata": "Q16952110",
+        "cuisine": "frozen_yogurt",
+        "name": "sweetFrog"
+      },
+      "lat": 41.1652519,
+      "lon": -81.4056082
+    },
+    {
+      "type": "node",
+      "id": 8853971261,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "sweetFrog",
+        "brand:wikidata": "Q16952110",
+        "cuisine": "frozen_yogurt",
+        "name": "sweetFrog"
+      },
+      "lat": 41.0562449,
+      "lon": -83.5932429
+    },
+    {
+      "type": "node",
+      "id": 10186046223,
+      "tags": {
+        "addr:city": "Uniontown",
+        "addr:housenumber": "3467",
+        "addr:postcode": "44685",
+        "addr:state": "OH",
+        "addr:street": "Massillon Road",
+        "amenity": "ice_cream",
+        "brand": "sweetFrog",
+        "brand:wikidata": "Q16952110",
+        "cuisine": "frozen_yogurt",
+        "name": "sweetFrog",
+        "outdoor_seating": "no",
+        "phone": "+1-330-899-9885",
+        "website": "https://www.sweetfrog.com/stores/frozen-yogurt-cleancity/35265"
+      },
+      "lat": 40.9672002,
+      "lon": -81.4644092
+    },
+    {
+      "type": "way",
+      "id": 1293940311,
+      "tags": {
+        "addr:city": "Cincinnati",
+        "addr:housenumber": "4450",
+        "addr:postcode": "45245",
+        "addr:state": "OH",
+        "addr:street": "Eastgate Boulevard",
+        "addr:unit": "220",
+        "amenity": "ice_cream",
+        "brand": "sweetFrog",
+        "brand:wikidata": "Q16952110",
+        "building": "retail",
+        "cuisine": "frozen_yogurt",
+        "name": "sweetFrog",
+        "website": "https://www.sweetfrog.com/stores/frozen-yogurt-cleancity/35339"
+      },
+      "center": {
+        "lat": 39.09376635,
+        "lon": -84.27256384999998
+      }
+    }
+  ]
+}

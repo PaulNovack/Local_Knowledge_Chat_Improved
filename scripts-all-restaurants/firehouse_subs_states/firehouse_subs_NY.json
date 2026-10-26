@@ -1,0 +1,154 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "firehouse_subs",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2025825114,
+      "tags": {
+        "addr:city": "Camillus",
+        "addr:country": "US",
+        "addr:housenumber": "5308",
+        "addr:postcode": "13031",
+        "addr:state": "NY",
+        "addr:street": "West Genesee Street",
+        "amenity": "fast_food",
+        "brand": "Firehouse Subs",
+        "brand:wikidata": "Q5451873",
+        "contact:website": "http://www.firehousesubs.com/",
+        "cuisine": "sandwich",
+        "name": "Firehouse Subs",
+        "source": "survey;receipt",
+        "takeaway": "yes"
+      },
+      "lat": 43.0415423,
+      "lon": -76.2708295
+    },
+    {
+      "type": "node",
+      "id": 5474542902,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:housenumber": "4405",
+        "addr:postcode": "14219",
+        "addr:state": "NY",
+        "addr:street": "Milestrip Road",
+        "amenity": "fast_food",
+        "brand": "Firehouse Subs",
+        "brand:wikidata": "Q5451873",
+        "cuisine": "sandwich",
+        "name": "Firehouse Subs",
+        "opening_hours": "Su-Th 10:30-21:00; Fr-Sa 10:30-21:30",
+        "phone": "+1-716-604-5639",
+        "takeaway": "yes",
+        "website": "https://www.firehousesubs.com/store-locator/store/OdgwO812HePRIJXmPE5Utg"
+      },
+      "lat": 42.7892183,
+      "lon": -78.8150259
+    },
+    {
+      "type": "node",
+      "id": 9179807917,
+      "tags": {
+        "addr:city": "Ithaca",
+        "addr:country": "US",
+        "addr:housenumber": "740",
+        "addr:postcode": "14850",
+        "addr:street": "South Meadow Street",
+        "amenity": "fast_food",
+        "brand": "Firehouse Subs",
+        "brand:wikidata": "Q5451873",
+        "cuisine": "sandwich",
+        "delivery": "yes",
+        "name": "Firehouse Subs",
+        "takeaway": "yes"
+      },
+      "lat": 42.4301632,
+      "lon": -76.5087971
+    },
+    {
+      "type": "node",
+      "id": 10707877940,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:housenumber": "7870",
+        "addr:postcode": "14221",
+        "addr:state": "NY",
+        "addr:street": "Transit Road",
+        "amenity": "fast_food",
+        "brand": "Firehouse Subs",
+        "brand:wikidata": "Q5451873",
+        "cuisine": "sandwich",
+        "drive_through": "no",
+        "name": "Firehouse Subs",
+        "takeaway": "yes"
+      },
+      "lat": 42.9833011,
+      "lon": -78.6978415
+    },
+    {
+      "type": "way",
+      "id": 248775578,
+      "tags": {
+        "addr:city": "Syracuse",
+        "addr:housenumber": "805",
+        "addr:postcode": "13212",
+        "addr:state": "NY",
+        "addr:street": "North Main Street",
+        "amenity": "fast_food",
+        "brand": "Firehouse Subs",
+        "brand:wikidata": "Q5451873",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "drive_through": "no",
+        "name": "Firehouse Subs",
+        "nysgissam:nysaddresspointid": "ONON048044",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "phone": "+1-315-458-2050",
+        "takeaway": "yes",
+        "website": "https://www.firehousesubs.com/store-locator/store/i9F3QSQ855QnLbeodnSsLv"
+      },
+      "center": {
+        "lat": 43.1446821,
+        "lon": -76.12737444999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 730885197,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:housenumber": "2830",
+        "addr:postcode": "14623",
+        "addr:state": "NY",
+        "addr:street": "West Henrietta Road",
+        "amenity": "fast_food",
+        "brand": "Firehouse Subs",
+        "brand:wikidata": "Q5451873",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Firehouse Subs",
+        "nysgissam:nysaddresspointid": "MONR185355",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 43.0952024,
+        "lon": -77.63194675
+      }
+    }
+  ]
+}

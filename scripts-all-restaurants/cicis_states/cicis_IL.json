@@ -1,0 +1,57 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "cicis",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 664380296,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cicis",
+        "brand:wikidata": "Q2972189",
+        "cuisine": "pizza;buffet",
+        "name": "Cicis"
+      },
+      "lat": 41.6674356,
+      "lon": -88.2061144
+    },
+    {
+      "type": "way",
+      "id": 975492426,
+      "tags": {
+        "addr:city": "Naperville",
+        "addr:country": "US",
+        "addr:county": "DuPage, IL",
+        "addr:housenumber": "618",
+        "addr:postcode": "60540",
+        "addr:state": "IL",
+        "addr:street": "South Illinois Route 59",
+        "amenity": "restaurant",
+        "brand": "Cicis",
+        "brand:wikidata": "Q2972189",
+        "cuisine": "pizza;buffet",
+        "name": "Cicis",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+1 630 357 1202",
+        "website": "https://www.cicis.com/locations/il-naperville-618-s-route-59"
+      },
+      "center": {
+        "lat": 41.76180655,
+        "lon": -88.20419479999998
+      }
+    }
+  ]
+}

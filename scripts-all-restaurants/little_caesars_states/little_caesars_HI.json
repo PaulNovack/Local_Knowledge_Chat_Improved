@@ -1,0 +1,88 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "HI",
+    "brand": "little_caesars",
+    "source": "https://download.geofabrik.de/north-america/us/hawaii-latest.osm.pbf",
+    "source_md5": "72d4122e050f63452c0aa341f9272254",
+    "processed_utc": "2026-10-24T07:02:30.197996+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13875313225,
+      "tags": {
+        "addr:city": "Wahiawa",
+        "addr:housenumber": "93",
+        "addr:postcode": "96786",
+        "addr:state": "HI",
+        "addr:street": "Kamehameha Highway",
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "opening_hours": "10:00-22:00",
+        "takeaway": "yes"
+      },
+      "lat": 21.4973114,
+      "lon": -158.0301957
+    },
+    {
+      "type": "node",
+      "id": 13918099300,
+      "tags": {
+        "addr:city": "Waianae",
+        "addr:housenumber": "86-0120",
+        "addr:postcode": "96792",
+        "addr:state": "HI",
+        "addr:street": "Farrington Highway",
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "opening_hours": "Su-Sa 10:00-22:00",
+        "phone": "+1-808-696-2223",
+        "takeaway": "yes"
+      },
+      "lat": 21.435731,
+      "lon": -158.183646
+    },
+    {
+      "type": "way",
+      "id": 303234303,
+      "tags": {
+        "addr:city": "Hilo",
+        "addr:housenumber": "125",
+        "addr:postcode": "96720",
+        "addr:state": "HI",
+        "addr:street": "Kekuanaoa Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "building": "commercial",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Little Caesars",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://littlecaesars.com/en-us/store/12180/"
+      },
+      "center": {
+        "lat": 19.71168055,
+        "lon": -155.076397
+      }
+    }
+  ]
+}

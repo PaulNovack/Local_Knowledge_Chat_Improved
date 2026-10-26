@@ -1,0 +1,71 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "caribou_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10838177362,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "420",
+        "addr:postcode": "46202",
+        "addr:state": "IN",
+        "addr:street": "University Boulevard",
+        "addr:unit": "120",
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Caribou Coffee",
+        "opening_hours": "Mo-Th 07:00-18:00; Fr 07:00-15:00",
+        "payment:debit_cards": "yes",
+        "phone": "+1-317-274-5157",
+        "takeaway": "yes",
+        "website": "https://locations.cariboucoffee.com/us/in/indianapolis/420-university-boulevard"
+      },
+      "lat": 39.7737026,
+      "lon": -86.1764066
+    },
+    {
+      "type": "node",
+      "id": 10838177363,
+      "tags": {
+        "addr:city": "Mishawaka",
+        "addr:housenumber": "314",
+        "addr:postcode": "46544",
+        "addr:state": "IN",
+        "addr:street": "North Ironwood Drive",
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "check_date": "2023-08-18",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Caribou Coffee",
+        "opening_hours": "Mo-Su 06:00-19:00",
+        "phone": "+1-574-259-6348",
+        "takeaway": "yes",
+        "website": "https://locations.cariboucoffee.com/us/in/mishawaka/314-n-ironwood-drive"
+      },
+      "lat": 41.6600461,
+      "lon": -86.2143221
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "texas_roadhouse",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9843001972,
+      "tags": {
+        "addr:city": "Tupelo",
+        "addr:housenumber": "1342",
+        "addr:postcode": "38804",
+        "addr:street": "North Gloster Street",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse"
+      },
+      "lat": 34.2817289,
+      "lon": -88.7149042
+    },
+    {
+      "type": "node",
+      "id": 10872810135,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse"
+      },
+      "lat": 34.9644584,
+      "lon": -90.0024131
+    },
+    {
+      "type": "way",
+      "id": 1164899479,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse"
+      },
+      "center": {
+        "lat": 30.4369367,
+        "lon": -89.09903235000002
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "papa_murphy_s",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3782765957,
+      "tags": {
+        "addr:unit": "13",
+        "amenity": "fast_food",
+        "brand": "Papa Murphy's",
+        "brand:wikidata": "Q7132349",
+        "cuisine": "pizza",
+        "name": "Papa Murphy's",
+        "official_name": "Papa Murphy's Take 'N' Bake Pizza",
+        "opening_hours": "Mo-Th 10:30-20:00, Fr 10:30-21:00, Su 10:30-20:00",
+        "phone": "+1 479 582 5533",
+        "takeaway": "only",
+        "website": "https://hub.papamurphys.com/"
+      },
+      "lat": 36.049991,
+      "lon": -94.2041231
+    },
+    {
+      "type": "node",
+      "id": 4428288889,
+      "tags": {
+        "addr:city": "Bryant",
+        "addr:postcode": "72022",
+        "addr:state": "AR",
+        "addr:street": "AR-5",
+        "amenity": "fast_food",
+        "brand": "Papa Murphy's",
+        "brand:wikidata": "Q7132349",
+        "cuisine": "pizza",
+        "name": "Papa Murphy's",
+        "name:en": "Papa Murphy's",
+        "official_name": "Papa Murphy's Take 'N' Bake Pizza",
+        "takeaway": "only"
+      },
+      "lat": 34.6234255,
+      "lon": -92.5030964
+    },
+    {
+      "type": "node",
+      "id": 13869847787,
+      "tags": {
+        "addr:city": "Rogers",
+        "addr:housenumber": "2301",
+        "addr:postcode": "72758",
+        "addr:state": "AR",
+        "addr:street": "West Pleasant Grove Road",
+        "amenity": "fast_food",
+        "brand": "Papa Murphy's",
+        "brand:wikidata": "Q7132349",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Papa Murphy's",
+        "official_name": "Papa Murphy's Take 'N' Bake Pizza",
+        "takeaway": "only"
+      },
+      "lat": 36.2837103,
+      "lon": -94.1486056
+    }
+  ]
+}

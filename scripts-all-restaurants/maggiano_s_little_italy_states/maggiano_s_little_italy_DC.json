@@ -1,0 +1,43 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "maggiano_s_little_italy",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T07:20:37.151586+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 736998227,
+      "tags": {
+        "addr:housenumber": "5333",
+        "addr:postcode": "20015-2050",
+        "addr:street": "Wisconsin Avenue Northwest",
+        "amenity": "restaurant",
+        "brand": "Maggiano's Little Italy",
+        "brand:wikidata": "Q6730149",
+        "cuisine": "italian",
+        "dataset": "ABRA locations",
+        "name": "Maggiano's Little Italy",
+        "opening_hours": "Mo-Th 11:30-22:00; Fr 11:30-23:00; Sa 11:00-23:00; Su 11:00-21:00",
+        "outdoor_seating": "no",
+        "phone": "+1-202-966-5500",
+        "smoking": "outside",
+        "source": "dcgis",
+        "takeaway": "yes",
+        "website": "https://www.maggianos.com/"
+      },
+      "lat": 38.9596079,
+      "lon": -77.0848233
+    }
+  ]
+}

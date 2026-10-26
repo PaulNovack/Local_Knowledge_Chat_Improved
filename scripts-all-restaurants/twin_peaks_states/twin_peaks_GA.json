@@ -1,0 +1,110 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "twin_peaks",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5735182021,
+      "tags": {
+        "addr:city": "Atlanta",
+        "addr:housenumber": "3365",
+        "addr:postcode": "30305",
+        "addr:state": "GA",
+        "addr:street": "Piedmont Road Northeast",
+        "amenity": "restaurant",
+        "branch": "Buckhead",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "cuisine": "american",
+        "name": "Twin Peaks",
+        "phone": "+1 404-961-8946",
+        "website": "http://twinpeaksrestaurant.com"
+      },
+      "lat": 33.8474054,
+      "lon": -84.3728849
+    },
+    {
+      "type": "way",
+      "id": 26428738,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "building": "yes",
+        "building_1": "abandoned",
+        "building_2": "burned down",
+        "cuisine": "american",
+        "name": "Twin Peaks"
+      },
+      "center": {
+        "lat": 33.4846011,
+        "lon": -82.08284409999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 289900852,
+      "tags": {
+        "addr:city": "Columbus",
+        "addr:housenumber": "3116",
+        "addr:postcode": "31909",
+        "addr:state": "GA",
+        "addr:street": "Adams Farm Drive",
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Twin Peaks",
+        "opening_hours": "Su-Th 11:00-00:00, Fr-Sa 11:00-01:00",
+        "phone": "+1-706-341-3566",
+        "restaurant": "Twin Peaks",
+        "website": "https://twinpeaksrestaurant.com/locations/columbus"
+      },
+      "center": {
+        "lat": 32.54332195,
+        "lon": -84.9484999
+      }
+    },
+    {
+      "type": "way",
+      "id": 992128993,
+      "tags": {
+        "addr:housenumber": "2475",
+        "addr:street": "George Busbee Parkway Northwest",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "brewery": "yes",
+        "building": "retail",
+        "check_date": "2024-04-26",
+        "cuisine": "american",
+        "name": "Twin Peaks",
+        "opening_hours": "Mo-Th,Su 11:00-24:00; Fr-Sa 11:00-01:00",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 678-348-1605",
+        "website": "https://twinpeaksrestaurant.com/locations/kennesaw-ga",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 34.01184345,
+        "lon": -84.56540840000002
+      }
+    }
+  ]
+}

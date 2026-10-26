@@ -1,0 +1,41 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "planet_smoothie",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7903784879,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "juice",
+        "name": "Planet Smoothie"
+      },
+      "lat": 35.996561,
+      "lon": -79.9966849
+    },
+    {
+      "type": "node",
+      "id": 9403720054,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "smoothie",
+        "name": "Planet Smoothie"
+      },
+      "lat": 35.9528847,
+      "lon": -78.5262622
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "texas_roadhouse",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4262215307,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "6301",
+        "addr:postcode": "68516",
+        "addr:state": "NE",
+        "addr:street": "Apples Way",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "check_date": "2024-05-23",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "opening_hours": "Mo-Th 16:00-22:00; Fr 16:00-23:00; Sa 11:00-23:00; Su 11:00-22:00",
+        "phone": "+1-402-420-0155",
+        "source": "website",
+        "website": "https://www.texasroadhouse.com/locations/330-lincolnne"
+      },
+      "lat": 40.7501974,
+      "lon": -96.6369805
+    },
+    {
+      "type": "way",
+      "id": 178087427,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "520",
+        "addr:postcode": "68154",
+        "addr:state": "NE",
+        "addr:street": "North 155th Plaza",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "retail",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 41.264286600000005,
+        "lon": -96.15739055
+      }
+    },
+    {
+      "type": "way",
+      "id": 184723380,
+      "tags": {
+        "addr:city": "Papillon",
+        "addr:housenumber": "7302",
+        "addr:street": "Olson Drive",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "retail",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "source": "bing"
+      },
+      "center": {
+        "lat": 41.136969199999996,
+        "lon": -96.02514639999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1201588091,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse"
+      },
+      "center": {
+        "lat": 40.91964935,
+        "lon": -98.38216839999995
+      }
+    }
+  ]
+}

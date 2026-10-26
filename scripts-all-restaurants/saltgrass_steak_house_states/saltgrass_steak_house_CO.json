@@ -1,0 +1,71 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "saltgrass_steak_house",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 197467572,
+      "tags": {
+        "addr:city": "Parker",
+        "addr:housenumber": "19310",
+        "addr:postcode": "80138",
+        "addr:state": "CO",
+        "addr:street": "Cottonwood Drive",
+        "amenity": "restaurant",
+        "brand": "Saltgrass Steak House",
+        "brand:wikidata": "Q7406113",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "layer": "1",
+        "name": "Saltgrass Steak House"
+      },
+      "center": {
+        "lat": 39.5529135,
+        "lon": -104.77264875000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 208620603,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "1405",
+        "addr:postcode": "80920",
+        "addr:state": "CO",
+        "addr:street": "Jamboree Drive",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Saltgrass Steak House",
+        "brand:wikidata": "Q7406113",
+        "building": "yes",
+        "check_date": "2026-05-05",
+        "contact:facebook": "https://www.facebook.com/saltgrass/",
+        "contact:instagram": "https://www.instagram.com/saltgrass/",
+        "cuisine": "steak_house",
+        "delivery": "yes",
+        "name": "Saltgrass Steak House",
+        "opening_hours": "Su-Th 11:30-21:00; Fr-Sa 11:30-22:00",
+        "phone": "+1-719-594-5367",
+        "website": "https://www.saltgrass.com/location/saltgrass-colorado-springs/",
+        "website:menu": "https://www.saltgrass.com/location/saltgrass-colorado-springs/#main-menu-sgcs"
+      },
+      "center": {
+        "lat": 38.946963249999996,
+        "lon": -104.8014513
+      }
+    }
+  ]
+}

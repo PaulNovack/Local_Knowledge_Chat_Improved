@@ -1,0 +1,93 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "mountain_mike_s",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2082893816,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "849",
+        "addr:postcode": "85201",
+        "addr:state": "AZ",
+        "addr:street": "North Dobson Road",
+        "addr:unit": "114",
+        "alt_name": "Mountain Mike's Pizza",
+        "amenity": "restaurant",
+        "brand": "Mountain Mike's",
+        "brand:wikidata": "Q6925120",
+        "cuisine": "pizza",
+        "name": "Mountain Mike's",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "phone": "+1-480-992-4131",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://www.mountainmikespizza.com/locations/mesa-n-dobson/"
+      },
+      "lat": 33.4333951,
+      "lon": -111.869079
+    },
+    {
+      "type": "node",
+      "id": 9503659612,
+      "tags": {
+        "alt_name": "Mountain Mike's Pizza",
+        "amenity": "restaurant",
+        "brand": "Mountain Mike's",
+        "brand:wikidata": "Q6925120",
+        "cuisine": "pizza",
+        "name": "Mountain Mike's",
+        "takeaway": "yes",
+        "website": "https://www.mountainmikespizza.com/locations/chandler-north-54th-st/"
+      },
+      "lat": 33.3157043,
+      "lon": -111.968934
+    },
+    {
+      "type": "node",
+      "id": 12449989493,
+      "tags": {
+        "alt_name": "Mountain Mike's Pizza",
+        "amenity": "restaurant",
+        "brand": "Mountain Mike's",
+        "cuisine": "pizza",
+        "name": "Mountain Mike's",
+        "takeaway": "yes"
+      },
+      "lat": 32.2860446,
+      "lon": -110.9771582
+    },
+    {
+      "type": "node",
+      "id": 14292144748,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:postcode": "85037",
+        "addr:state": "AZ",
+        "addr:street": "North 99th Avenue",
+        "alt_name": "Mountain Mike's Pizza",
+        "amenity": "restaurant",
+        "brand": "Mountain Mike's",
+        "brand:wikidata": "Q6925120",
+        "cuisine": "pizza",
+        "name": "Mountain Mike's",
+        "takeaway": "yes"
+      },
+      "lat": 33.4665729,
+      "lon": -112.2710794
+    }
+  ]
+}

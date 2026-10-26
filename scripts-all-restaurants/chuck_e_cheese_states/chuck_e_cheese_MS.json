@@ -1,0 +1,83 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "chuck_e_cheese",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3260831115,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "indoor_seating": "yes",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "outdoor_seating": "no",
+        "website": "https://locations.chuckecheese.com/us/ms/hattiesburg/1000-turtlecreek-dr."
+      },
+      "lat": 31.3252056,
+      "lon": -89.3756175
+    },
+    {
+      "type": "node",
+      "id": 10816216688,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/ms/gulfport/15082-crossroads-pkwy."
+      },
+      "lat": 30.4355818,
+      "lon": -89.0896477
+    },
+    {
+      "type": "node",
+      "id": 10872810137,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/ms/hornlake/7178-desoto-cove"
+      },
+      "lat": 34.9657783,
+      "lon": -90.0008717
+    },
+    {
+      "type": "way",
+      "id": 1413035445,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "retail",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese"
+      },
+      "center": {
+        "lat": 32.396896100000006,
+        "lon": -90.13752309999995
+      }
+    }
+  ]
+}

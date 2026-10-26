@@ -1,0 +1,68 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "sizzler",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 113472249,
+      "tags": {
+        "addr:city": "Flagstaff",
+        "addr:country": "US",
+        "addr:housenumber": "2105",
+        "addr:postcode": "86001",
+        "addr:state": "AZ",
+        "addr:street": "South Milton Road",
+        "amenity": "restaurant",
+        "brand": "Sizzler",
+        "brand:wikidata": "Q1848822",
+        "building": "restaurant",
+        "contact:phone": "+1-928-779-3267",
+        "cuisine": "steak_house",
+        "name": "Sizzler",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr-Sa 11:00-21:30; Su 11:00-21:00",
+        "website": "https://sizzler.com/locations/sizzler-flagstaff/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 35.1787281,
+        "lon": -111.66173485000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 153050395,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "5060",
+        "addr:postcode": "85031",
+        "addr:state": "AZ",
+        "addr:street": "West Indian School Road",
+        "amenity": "restaurant",
+        "brand": "Sizzler",
+        "brand:wikidata": "Q1848822",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Sizzler",
+        "source": "esri/USA_NAD_Addresses",
+        "website": "https://sizzler.com/locations/sizzler-phoenix/"
+      },
+      "center": {
+        "lat": 33.495314050000005,
+        "lon": -112.16845245000002
+      }
+    }
+  ]
+}

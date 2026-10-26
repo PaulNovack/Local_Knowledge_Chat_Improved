@@ -1,0 +1,114 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "chuck_e_cheese",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9531932789,
+      "tags": {
+        "addr:city": "North Las Vegas",
+        "addr:housenumber": "755",
+        "addr:postcode": "89032",
+        "addr:state": "NV",
+        "addr:street": "West Craig Road",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "opening_hours": "Su-Th 11:00-21:00; Fr 11:00-22:00; 10:00-22:00",
+        "phone": "+1 702-669-9832",
+        "website": "https://www.chuckecheese.com/north-las-vegas-nv/"
+      },
+      "lat": 36.23795,
+      "lon": -115.1518826
+    },
+    {
+      "type": "node",
+      "id": 10742377684,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "1521",
+        "addr:postcode": "89014",
+        "addr:state": "NV",
+        "addr:street": "West Sunset Road",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "phone": "+1 702-547-0059",
+        "website": "https://locations.chuckecheese.com/us/nv/henderson/1521-w.-sunset-rd."
+      },
+      "lat": 36.0625743,
+      "lon": -115.0511412
+    },
+    {
+      "type": "node",
+      "id": 11147697098,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/nv/reno/5000-smithridge-dr."
+      },
+      "lat": 39.4785173,
+      "lon": -119.7874799
+    },
+    {
+      "type": "node",
+      "id": 13100012597,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese"
+      },
+      "lat": 36.1134378,
+      "lon": -115.307833
+    },
+    {
+      "type": "way",
+      "id": 555021781,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "9230",
+        "addr:postcode": "89123",
+        "addr:state": "NV",
+        "addr:street": "South Eastern Avenue",
+        "addr:unit": "100",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "yes",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese"
+      },
+      "center": {
+        "lat": 36.021986049999995,
+        "lon": -115.11690314999998
+      }
+    }
+  ]
+}

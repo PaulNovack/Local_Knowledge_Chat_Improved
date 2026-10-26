@@ -1,0 +1,40 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KY",
+    "brand": "the_old_spaghetti_factory",
+    "source": "https://download.geofabrik.de/north-america/us/kentucky-latest.osm.pbf",
+    "source_md5": "beee275db6b863afe4847059e1397537",
+    "processed_utc": "2026-10-24T07:04:39.223265+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 331282821,
+      "tags": {
+        "addr:city": "Louisville",
+        "addr:housenumber": "235",
+        "addr:postcode": "40202",
+        "addr:state": "KY",
+        "addr:street": "West Market Street",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "6",
+        "lojic:bgnum": "247268",
+        "name": "The Old Spaghetti Factory",
+        "website": "https://www.osf.com/"
+      },
+      "center": {
+        "lat": 38.25530805,
+        "lon": -85.75479274999998
+      }
+    }
+  ]
+}

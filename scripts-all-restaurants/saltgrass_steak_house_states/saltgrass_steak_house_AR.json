@@ -1,0 +1,71 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "saltgrass_steak_house",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7115482218,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Saltgrass Steak House",
+        "brand:wikidata": "Q7406113",
+        "cuisine": "steak_house",
+        "name": "Saltgrass Steak House"
+      },
+      "lat": 36.2994289,
+      "lon": -94.1844802
+    },
+    {
+      "type": "way",
+      "id": 640126459,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Saltgrass Steak House",
+        "brand:wikidata": "Q7406113",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Saltgrass Steak House"
+      },
+      "center": {
+        "lat": 34.6601894,
+        "lon": -92.4097031
+      }
+    },
+    {
+      "type": "way",
+      "id": 1094591655,
+      "tags": {
+        "addr:city": "Sherwood",
+        "addr:housenumber": "6040",
+        "addr:postcode": "72120",
+        "addr:state": "AR",
+        "addr:street": "Warden Road",
+        "amenity": "restaurant",
+        "brand": "Saltgrass Steak House",
+        "brand:wikidata": "Q7406113",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Saltgrass Steak House",
+        "opening_hours": "Mo-Su 11:00-21:00; Fr,Sa 11:00-22:00",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 34.8126805,
+        "lon": -92.205487
+      }
+    }
+  ]
+}

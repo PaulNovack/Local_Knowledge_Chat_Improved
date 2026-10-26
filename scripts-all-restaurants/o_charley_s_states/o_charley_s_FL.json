@@ -1,0 +1,55 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "o_charley_s",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1549566832,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "O'Charley's",
+        "brand:wikidata": "Q7071703",
+        "cuisine": "american",
+        "name": "O'Charley's"
+      },
+      "lat": 28.4471309,
+      "lon": -81.4761279
+    },
+    {
+      "type": "way",
+      "id": 776744802,
+      "tags": {
+        "addr:city": "Panama City",
+        "addr:housenumber": "311",
+        "addr:postcode": "32405",
+        "addr:state": "FL",
+        "addr:street": "East 23rd Street",
+        "amenity": "restaurant",
+        "brand": "O'Charley's",
+        "brand:wikidata": "Q7071703",
+        "building": "yes",
+        "cuisine": "american",
+        "delivery": "yes",
+        "name": "O'Charley's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 30.1900763,
+        "lon": -85.65486865000003
+      }
+    }
+  ]
+}

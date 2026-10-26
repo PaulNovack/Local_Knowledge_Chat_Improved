@@ -1,0 +1,112 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "ruth_s_chris_steak_house",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 706904657,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "cuisine": "american",
+        "name": "Ruth's Chris Steak House"
+      },
+      "lat": 38.3494467,
+      "lon": -75.1507626
+    },
+    {
+      "type": "node",
+      "id": 1396565612,
+      "tags": {
+        "addr:city": "Baltimore",
+        "addr:housenumber": "711",
+        "addr:postcode": "21202-4694",
+        "addr:state": "MD",
+        "addr:street": "Eastern Avenue",
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "cuisine": "american;steak_house",
+        "indoor_seating": "yes",
+        "name": "Ruth's Chris Steak House",
+        "outdoor_seating": "yes",
+        "phone": "+1 410-230-0033",
+        "website": "https://ruthschrisbsm.com/baltimore/"
+      },
+      "lat": 39.2847483,
+      "lon": -76.6057191
+    },
+    {
+      "type": "node",
+      "id": 2000781280,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "cuisine": "american;steak_house",
+        "name": "Ruth's Chris Steak House"
+      },
+      "lat": 39.3867949,
+      "lon": -76.7338649
+    },
+    {
+      "type": "node",
+      "id": 5033376266,
+      "tags": {
+        "addr:city": "Odenton",
+        "addr:housenumber": "1110",
+        "addr:postcode": "21113",
+        "addr:state": "MD",
+        "addr:street": "Town Center Boulevard",
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "cuisine": "american;steak_house",
+        "name": "Ruth's Chris Steak House"
+      },
+      "lat": 39.0889473,
+      "lon": -76.7080953
+    },
+    {
+      "type": "way",
+      "id": 1236019812,
+      "tags": {
+        "addr:city": "Gaithersburg",
+        "addr:housenumber": "106",
+        "addr:postcode": "20878",
+        "addr:state": "MD",
+        "addr:street": "Crown Park Avenue",
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "building": "retail",
+        "cuisine": "american;steak_house",
+        "level": "0",
+        "name": "Ruth's Chris Steak House",
+        "opening_hours": "16:00-22:00; Fr-Sa 16:00-22:30; Su 16:00-21:00",
+        "phone": "+1-301-990-1926",
+        "roof:shape": "flat",
+        "website": "https://www.ruthschris.com/locations/md/gaithersburg/gaithersburg/7353",
+        "website:menu": "https://www.ruthschris.com/menu/steaks-chops?setRestaurant=7353"
+      },
+      "center": {
+        "lat": 39.1151392,
+        "lon": -77.20622179999998
+      }
+    }
+  ]
+}

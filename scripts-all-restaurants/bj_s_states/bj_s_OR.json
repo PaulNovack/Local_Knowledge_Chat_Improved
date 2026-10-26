@@ -1,0 +1,191 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OR",
+    "brand": "bj_s",
+    "source": "https://download.geofabrik.de/north-america/us/oregon-latest.osm.pbf",
+    "source_md5": "bc93fd72fe4589fdc6c9b2b497cb7ef1",
+    "processed_utc": "2026-10-24T07:14:41.004303+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2259745461,
+      "tags": {
+        "addr:city": "Sisters",
+        "addr:housenumber": "170",
+        "addr:postcode": "97759",
+        "addr:state": "OR",
+        "addr:street": "West Cascade Avenue",
+        "amenity": "ice_cream",
+        "name": "BJ's Old Fashioned Ice Cream",
+        "not:brand:wikidata": "Q4835755",
+        "outdoor_seating": "yes"
+      },
+      "lat": 44.2914808,
+      "lon": -121.550942
+    },
+    {
+      "type": "node",
+      "id": 9633845989,
+      "tags": {
+        "addr:city": "Winchester Bay",
+        "addr:housenumber": "140",
+        "addr:postcode": "97439",
+        "addr:state": "OR",
+        "addr:street": "Coho Point Loop",
+        "amenity": "ice_cream",
+        "check_date": "2026-09-29",
+        "name": "BJ's Old Fashioned Ice Cream",
+        "not:brand:wikidata": "Q4835755",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 43.6771258,
+      "lon": -124.1771954
+    },
+    {
+      "type": "node",
+      "id": 11119813419,
+      "tags": {
+        "addr:city": "Forest Grove",
+        "addr:housenumber": "2834",
+        "addr:postcode": "97116",
+        "addr:street": "Pacific Avenue",
+        "addr:unit": "Suite C",
+        "amenity": "cafe",
+        "name": "BJ's Coffee Co",
+        "phone": "+15033570969",
+        "website": "https://www.bjscoffeeco.com/"
+      },
+      "lat": 45.5189606,
+      "lon": -123.0953693
+    },
+    {
+      "type": "way",
+      "id": 371993846,
+      "tags": {
+        "addr:city": "Hillsboro",
+        "addr:housenumber": "7390",
+        "addr:postcode": "97124",
+        "addr:state": "OR",
+        "addr:street": "Northeast Cornell Road",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "yes",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "microbrewery": "yes",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr 11:00-24:00; Sa 00:00-01:00,10:00-24:00; Su 00:00-01:00,10:00-23:00",
+        "phone": "+1-503-615-2300",
+        "website": "https://www.bjsrestaurants.com/locations/or/hillsboro"
+      },
+      "center": {
+        "lat": 45.53914805,
+        "lon": -122.90114340000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 746501981,
+      "tags": {
+        "addr:city": "Florence",
+        "addr:postcode": "97439",
+        "addr:state": "OR",
+        "addr:street": "Bay Street",
+        "amenity": "ice_cream",
+        "building": "yes",
+        "name": "BJ's",
+        "not:brand:wikidata": "Q4835755",
+        "outdoor_seating": "yes"
+      },
+      "center": {
+        "lat": 43.96698790000001,
+        "lon": -124.10496784999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 846616156,
+      "tags": {
+        "addr:city": "Eugene",
+        "addr:housenumber": "1080",
+        "addr:postcode": "97401",
+        "addr:state": "OR",
+        "addr:street": "Valley River Way",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "yes",
+        "check_date": "2024-09-22",
+        "craft": "caterer",
+        "cuisine": "american",
+        "delivery": "yes",
+        "dog": "no",
+        "happy_hours": "Mo-Fr 15:00-19:00; Su-Th 21:00-00:00",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "opening_hours": "Mo-Su 11:00-24:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 541-344-2200",
+        "website": "https://www.bjsrestaurants.com/locations/or/valley-river"
+      },
+      "center": {
+        "lat": 44.06943705,
+        "lon": -123.10410905000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080955056,
+      "tags": {
+        "addr:city": "Newport",
+        "addr:housenumber": "501",
+        "addr:postcode": "97365",
+        "addr:state": "OR",
+        "addr:street": "Northwest Coast Street",
+        "addr:unit": "A",
+        "amenity": "ice_cream",
+        "building": "yes",
+        "check_date": "2026-08-27",
+        "check_date:opening_hours": "2026-08-27",
+        "name": "BJ's Old-Fashioned Ice Cream",
+        "not:brand:wikidata": "Q4835755",
+        "opening_hours": "Mo-Su 11:00-22:00"
+      },
+      "center": {
+        "lat": 44.6394043,
+        "lon": -124.06088224999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1116375860,
+      "tags": {
+        "addr:city": "Florence",
+        "addr:postcode": "97439",
+        "addr:state": "OR",
+        "addr:street": "Oregon Coast Highway",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "BJ's Ice Cream",
+        "not:brand:wikidata": "Q4835755",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 43.99210245,
+        "lon": -124.1009201
+      }
+    }
+  ]
+}

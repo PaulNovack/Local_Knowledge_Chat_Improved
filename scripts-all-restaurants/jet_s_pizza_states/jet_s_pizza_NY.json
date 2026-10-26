@@ -1,0 +1,97 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "jet_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2573115154,
+      "tags": {
+        "addr:city": "Brooklyn",
+        "addr:housenumber": "305",
+        "addr:postcode": "11217",
+        "addr:state": "NY",
+        "addr:street": "Flatbush Avenue",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza",
+        "opening_hours": "Mo-Su 11:00-02:00",
+        "phone": "+1-347-295-2856",
+        "takeaway": "yes",
+        "website": "https://jetspizza.com/stores/new-york/brooklyn/305-flatbush-ave/"
+      },
+      "lat": 40.6787149,
+      "lon": -73.9733548
+    },
+    {
+      "type": "node",
+      "id": 2702857187,
+      "tags": {
+        "addr:housenumber": "120",
+        "addr:postcode": "10011",
+        "addr:street": "9th Avenue",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Jet's Pizza",
+        "opening_hours": "Su-Th 11:00-24:00; Fr,Sa 11:00-22:00",
+        "phone": "+1-332-209-5387",
+        "takeaway": "yes",
+        "website": "https://www.jetspizza.com"
+      },
+      "lat": 40.7430204,
+      "lon": -74.0036128
+    },
+    {
+      "type": "node",
+      "id": 11093512882,
+      "tags": {
+        "addr:housenumber": "1165",
+        "addr:street": "2nd Avenue",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "level": "0",
+        "name": "Jet's Pizza",
+        "opening_hours": "Mo-Su 11:00-02:00"
+      },
+      "lat": 40.762171,
+      "lon": -73.9634371
+    },
+    {
+      "type": "node",
+      "id": 11139860790,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:housenumber": "5401",
+        "addr:postcode": "14221",
+        "addr:state": "NY",
+        "addr:street": "Sheridan Drive",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza"
+      },
+      "lat": 42.9777162,
+      "lon": -78.7340779
+    }
+  ]
+}

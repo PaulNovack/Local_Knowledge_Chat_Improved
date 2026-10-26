@@ -1,0 +1,86 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "sbarro",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5206659809,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "name": "Sbarro",
+        "takeaway": "yes"
+      },
+      "lat": 35.0823487,
+      "lon": -80.8769293
+    },
+    {
+      "type": "node",
+      "id": 5206764538,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "name": "Sbarro",
+        "takeaway": "yes"
+      },
+      "lat": 35.3522144,
+      "lon": -80.8510312
+    },
+    {
+      "type": "node",
+      "id": 12630658071,
+      "tags": {
+        "addr:floor": "3",
+        "addr:housenumber": "410",
+        "addr:street": "Four Seasons Boulevard",
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "check_date": "2025-11-20",
+        "cuisine": "pizza",
+        "name": "Sbarro",
+        "takeaway": "yes",
+        "website": "https://sbarro.com/locations/nc/greensboro/four-seasons-town-centre/"
+      },
+      "lat": 36.0393155,
+      "lon": -79.8377305
+    },
+    {
+      "type": "way",
+      "id": 772324134,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "check_date": "2025-06-19",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "indoor": "retail",
+        "level": "1",
+        "name": "Sbarro",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.06820745,
+        "lon": -80.30060215000003
+      }
+    }
+  ]
+}

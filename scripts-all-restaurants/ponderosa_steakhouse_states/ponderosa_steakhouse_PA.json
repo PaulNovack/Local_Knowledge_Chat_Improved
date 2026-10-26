@@ -1,0 +1,53 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "ponderosa_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 224882381,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ponderosa Steakhouse",
+        "brand:en": "Ponderosa Steakhouse",
+        "brand:wikidata": "Q64038204",
+        "brand:zh": "龐德羅莎",
+        "building": "yes",
+        "cuisine": "american;steak;buffet",
+        "name": "Ponderosa Steakhouse",
+        "name:en": "Ponderosa Steakhouse",
+        "name:zh": "龐德羅莎"
+      },
+      "center": {
+        "lat": 40.8974969,
+        "lon": -79.9077408
+      }
+    },
+    {
+      "type": "way",
+      "id": 524074758,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "cuisine": "steak_house",
+        "name": "Ponderosa Steakhouse"
+      },
+      "center": {
+        "lat": 40.6043471,
+        "lon": -79.18706435000001
+      }
+    }
+  ]
+}

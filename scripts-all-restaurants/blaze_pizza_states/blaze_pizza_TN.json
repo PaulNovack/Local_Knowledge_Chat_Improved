@@ -1,0 +1,74 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TN",
+    "brand": "blaze_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/tennessee-latest.osm.pbf",
+    "source_md5": "a047c5da6c897a8a98b1fc4a282b8d3f",
+    "processed_utc": "2026-10-24T07:16:20.210730+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3759764061,
+      "tags": {
+        "addr:city": "Knoxville",
+        "addr:housenumber": "10978",
+        "addr:postcode": "37934",
+        "addr:state": "TN",
+        "addr:street": "Parkside Drive",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza",
+        "phone": "+1-865-288-4354"
+      },
+      "lat": 35.9024812,
+      "lon": -84.1491198
+    },
+    {
+      "type": "node",
+      "id": 8553652533,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza"
+      },
+      "lat": 35.8588877,
+      "lon": -86.4386383
+    },
+    {
+      "type": "node",
+      "id": 11263758901,
+      "tags": {
+        "addr:city": "Knoxville",
+        "addr:country": "US",
+        "addr:housenumber": "113",
+        "addr:postcode": "37923",
+        "addr:state": "TN",
+        "addr:street": "North Peters Road",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "check_date": "2026-03-12",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza",
+        "opening_hours": "Su-Th 11:00-22:00;Fr-Sa 11:00-22:30",
+        "phone": "+1-865-219-1221",
+        "website": "https://locations.blazepizza.com/tn/knoxville/113-n.-peters-rd"
+      },
+      "lat": 35.9129951,
+      "lon": -84.0829276
+    }
+  ]
+}

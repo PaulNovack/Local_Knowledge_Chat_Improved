@@ -1,0 +1,99 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TX",
+    "brand": "del_frisco_s_double_eagle_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/texas-latest.osm.pbf",
+    "source_md5": "eb8f4603e9b48bd481c192fe621ae18b",
+    "processed_utc": "2026-10-24T07:17:23.814833+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1891275823,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Del Frisco's Double Eagle Steakhouse",
+        "brand:wikidata": "Q23461481",
+        "cuisine": "steak_house",
+        "name": "Del Frisco's Double Eagle Steakhouse"
+      },
+      "lat": 32.7520821,
+      "lon": -97.3297288
+    },
+    {
+      "type": "node",
+      "id": 2572432466,
+      "tags": {
+        "addr:city": "Fort Worth",
+        "addr:housenumber": "154",
+        "addr:postcode": "76102",
+        "addr:state": "TX",
+        "addr:street": "East 3rd Street",
+        "amenity": "restaurant",
+        "branch": "Grille",
+        "brand": "Del Frisco's Double Eagle Steakhouse",
+        "brand:wikidata": "Q23461481",
+        "cuisine": "steak_house",
+        "name": "Del Frisco's Double Eagle Steakhouse",
+        "phone": "+1-817-887-9900"
+      },
+      "lat": 32.7552549,
+      "lon": -97.3310433
+    },
+    {
+      "type": "node",
+      "id": 4495272337,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Del Frisco's Double Eagle Steakhouse",
+        "brand:wikidata": "Q23461481",
+        "cuisine": "steak_house",
+        "name": "Del Frisco's Double Eagle Steakhouse"
+      },
+      "lat": 32.791474,
+      "lon": -96.8035997
+    },
+    {
+      "type": "node",
+      "id": 9239045135,
+      "tags": {
+        "addr:unit": "A120",
+        "amenity": "restaurant",
+        "brand": "Del Frisco's Double Eagle Steakhouse",
+        "brand:wikidata": "Q23461481",
+        "check_date": "2026-05-05",
+        "cuisine": "steak_house",
+        "indoor_seating": "yes",
+        "level": "0",
+        "name": "Del Frisco's Double Eagle Steakhouse",
+        "opening_hours": "Mo-Fr 11:30+; Sa 16:00+; Su 16:00-21:00",
+        "outdoor_seating": "yes",
+        "website": "https://www.delfriscos.com/store-locator/"
+      },
+      "lat": 33.0784364,
+      "lon": -96.8262625
+    },
+    {
+      "type": "way",
+      "id": 605712210,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Del Frisco's"
+      },
+      "center": {
+        "lat": 32.94142465,
+        "lon": -97.13321485
+      }
+    }
+  ]
+}

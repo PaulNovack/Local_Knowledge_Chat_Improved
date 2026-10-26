@@ -1,0 +1,98 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "papa_murphy_s",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12602041855,
+      "tags": {
+        "addr:city": "Casper",
+        "addr:housenumber": "201",
+        "addr:postcode": "82601",
+        "addr:state": "WY",
+        "addr:street": "South Montana Avenue",
+        "amenity": "fast_food",
+        "brand": "Papa Murphy's",
+        "brand:wikidata": "Q7132349",
+        "cuisine": "pizza",
+        "drive_through": "yes",
+        "name": "Papa Murphy's",
+        "official_name": "Papa Murphy's Take 'N' Bake Pizza",
+        "takeaway": "only",
+        "website": "https://locations.papamurphys.com/wy/casper/201-south-montana"
+      },
+      "lat": 42.8485406,
+      "lon": -106.2903111
+    },
+    {
+      "type": "way",
+      "id": 491994502,
+      "tags": {
+        "addr:city": "Gillette",
+        "addr:housenumber": "2126",
+        "addr:postcode": "82718",
+        "addr:state": "WY",
+        "addr:street": "South Douglas Highway",
+        "amenity": "fast_food",
+        "brand": "Papa Murphy's",
+        "brand:wikidata": "Q7132349",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "pizza",
+        "delivery": "no",
+        "drive_through": "no",
+        "name": "Papa Murphy's",
+        "official_name": "Papa Murphy's Take 'N' Bake Pizza",
+        "outdoor_seating": "no",
+        "phone": "+1-307-686-7272",
+        "source": "survey",
+        "takeaway": "only",
+        "website": "https://www.papamurphys.com/store-finder/WY/82718/WY003/",
+        "wikimedia_commons": "File:Papa Murphy's in Gillette, Wyoming.jpg"
+      },
+      "center": {
+        "lat": 44.27533655,
+        "lon": -105.49544209999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 535007073,
+      "tags": {
+        "addr:city": "Laramie",
+        "addr:country": "US",
+        "addr:housenumber": "2111",
+        "addr:postcode": "82072",
+        "addr:state": "WY",
+        "addr:street": "East Grand Avenue",
+        "amenity": "fast_food",
+        "brand": "Papa Murphy's",
+        "brand:wikidata": "Q7132349",
+        "building": "yes",
+        "cuisine": "pizza",
+        "delivery": "no",
+        "name": "Papa Murphy's",
+        "official_name": "Papa Murphy's Take 'N' Bake Pizza",
+        "outdoor_seating": "no",
+        "takeaway": "only"
+      },
+      "center": {
+        "lat": 41.3098236,
+        "lon": -105.56711295000002
+      }
+    }
+  ]
+}

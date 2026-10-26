@@ -1,0 +1,62 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NM",
+    "brand": "rudy_s_country_store_and_bar_b_q",
+    "source": "https://download.geofabrik.de/north-america/us/new-mexico-latest.osm.pbf",
+    "source_md5": "5e236c0e9dd59b2df560a9316c86a745",
+    "processed_utc": "2026-10-24T07:10:42.593170+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2755106916,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "10136",
+        "addr:postcode": "87114",
+        "addr:state": "NM",
+        "addr:street": "Coors Boulevard Northwest",
+        "amenity": "restaurant",
+        "brand": "Rudy's Country Store and Bar-B-Q",
+        "brand:wikidata": "Q7377556",
+        "cuisine": "barbecue",
+        "name": "Rudy's Country Store and Bar-B-Q",
+        "phone": "+1-505-890-7113"
+      },
+      "lat": 35.201208,
+      "lon": -106.6481337
+    },
+    {
+      "type": "way",
+      "id": 1007901954,
+      "tags": {
+        "addr:city": "Santa Fe",
+        "addr:housenumber": "6581",
+        "addr:postcode": "87507",
+        "addr:state": "NM",
+        "addr:street": "Cerrillos Road",
+        "amenity": "restaurant",
+        "brand": "Rudy's Country Store and Bar-B-Q",
+        "brand:wikidata": "Q7377556",
+        "building": "retail",
+        "cuisine": "barbecue",
+        "name": "Rudy's Country Store and Bar-B-Q",
+        "opening_hours": "Mo-Th,Su 07:00-21:00; Fr-Sa 07:00-21:30",
+        "phone": "+1-505-395-4227",
+        "website": "https://rudysbbq.com/location/detail/santa-fe-nm"
+      },
+      "center": {
+        "lat": 35.6275075,
+        "lon": -106.02545135000003
+      }
+    }
+  ]
+}

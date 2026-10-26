@@ -1,0 +1,55 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "del_frisco_s_double_eagle_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3008155170,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Del Frisco's Double Eagle Steakhouse",
+        "brand:wikidata": "Q23461481",
+        "cuisine": "steak_house",
+        "name": "Del Frisco's Double Eagle Steakhouse"
+      },
+      "lat": 42.3489033,
+      "lon": -71.0384671
+    },
+    {
+      "type": "node",
+      "id": 7535642214,
+      "tags": {
+        "addr:city": "Boston",
+        "addr:housenumber": "888",
+        "addr:postcode": "02116",
+        "addr:state": "MA",
+        "addr:street": "Boylston Street",
+        "addr:unit": "Suite 053",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brand": "Del Frisco's Double Eagle Steakhouse",
+        "brand:wikidata": "Q23461481",
+        "cuisine": "steak_house",
+        "level": "0",
+        "name": "Del Frisco's Double Eagle Steakhouse",
+        "phone": "+1-617-259-1568",
+        "website": "https://delfriscos.com/"
+      },
+      "lat": 42.3482148,
+      "lon": -71.0826892
+    }
+  ]
+}

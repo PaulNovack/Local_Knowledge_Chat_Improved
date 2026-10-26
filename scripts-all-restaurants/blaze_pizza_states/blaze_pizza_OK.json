@@ -1,0 +1,58 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "blaze_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12688801772,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "check_date": "2026-05-29",
+        "cuisine": "pizza",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Blaze Pizza"
+      },
+      "lat": 36.0458844,
+      "lon": -96.003564
+    },
+    {
+      "type": "way",
+      "id": 1204410233,
+      "tags": {
+        "addr:city": "Midwest City",
+        "addr:housenumber": "7201",
+        "addr:postcode": "73110",
+        "addr:state": "OK",
+        "addr:street": "Southeast 29th Street",
+        "addr:unit": "209",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza",
+        "phone": "+1-405-384-1990"
+      },
+      "center": {
+        "lat": 35.436207749999994,
+        "lon": -97.39945864999999
+      }
+    }
+  ]
+}

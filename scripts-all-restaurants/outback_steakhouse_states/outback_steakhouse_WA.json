@@ -1,0 +1,285 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "outback_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2344993094,
+      "tags": {
+        "addr:city": "Olympia",
+        "addr:housenumber": "2615",
+        "addr:postcode": "98502",
+        "addr:state": "WA",
+        "addr:street": "Capitol Mall Drive Southwest",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "brewery": "yes",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse",
+        "phone": "+1-360-352-4692",
+        "source": "site visit 10 July 2023"
+      },
+      "lat": 47.0390194,
+      "lon": -122.934195
+    },
+    {
+      "type": "node",
+      "id": 4650766260,
+      "tags": {
+        "addr:housenumber": "2537",
+        "addr:postcode": "98271",
+        "addr:street": "172nd Street Northwest",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "check_date": "2026-05-18",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse",
+        "opening_hours": "Su 12:00-21:00; Mo-Th 15:30-21:00; Fr-Sa 12:00-22:00",
+        "phone": "+1-360-657-5589",
+        "website": "https://www.outback.com/"
+      },
+      "lat": 48.1526417,
+      "lon": -122.1961038
+    },
+    {
+      "type": "node",
+      "id": 6008700186,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse"
+      },
+      "lat": 47.9050319,
+      "lon": -122.2420285
+    },
+    {
+      "type": "node",
+      "id": 11544875599,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "cuisine": "american;steak",
+        "level": "0",
+        "name": "Outback Steakhouse"
+      },
+      "lat": 47.7037589,
+      "lon": -117.4083192
+    },
+    {
+      "type": "way",
+      "id": 104577473,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse",
+        "name:en": "Outback Steakhouse",
+        "opening_hours": "Mo-Th 00:00-21:00; Fr,Sa 00:00-22:00; Su 00:00-20:00"
+      },
+      "center": {
+        "lat": 46.566974099999996,
+        "lon": -120.47342285000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 162931721,
+      "tags": {
+        "addr:city": "Tukwila",
+        "addr:housenumber": "16510",
+        "addr:postcode": "98188",
+        "addr:state": "WA",
+        "addr:street": "Southcenter Parkway",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "check_date": "2025-09-27",
+        "check_date:opening_hours": "2025-09-27",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse",
+        "opening_hours": "Mo-Th 15:00-21:30; Fr 15:00-22:00; Sa 12:00-22:00; Su 12:00-21:00",
+        "phone": "+1-206-575-9705",
+        "source": "Yahoo,local_knowledge",
+        "website": "https://www.outback.com/"
+      },
+      "center": {
+        "lat": 47.45397835,
+        "lon": -122.2617735
+      }
+    },
+    {
+      "type": "way",
+      "id": 255489972,
+      "tags": {
+        "addr:city": "Spokane Valley",
+        "addr:housenumber": "14746",
+        "addr:state": "WA",
+        "addr:street": "East Indiana Avenue",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse",
+        "phone": "+1-509-892-6700",
+        "takeaway:covid19": "yes"
+      },
+      "center": {
+        "lat": 47.671273150000005,
+        "lon": -117.20290465
+      }
+    },
+    {
+      "type": "way",
+      "id": 440834287,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "check_date": "2025-12-08",
+        "cuisine": "american;steak",
+        "indoor": "room",
+        "level": "0",
+        "name": "Outback Steakhouse"
+      },
+      "center": {
+        "lat": 47.943276600000004,
+        "lon": -122.10743975000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 500211870,
+      "tags": {
+        "addr:housenumber": "500",
+        "addr:state": "WA",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse",
+        "opening_hours": "Mo-Th 15:00-21:00; Fr 15:00-22:00; Sa 12:00-22:00; Su 12:00-20:00",
+        "roof:levels": "0",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 47.5767418,
+        "lon": -122.13619385000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 533221288,
+      "tags": {
+        "addr:city": "Bothell",
+        "addr:housenumber": "22606",
+        "addr:postcode": "98021",
+        "addr:state": "WA",
+        "addr:street": "Bothell-Everett Highway",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "cuisine": "american;steak",
+        "indoor_seating": "yes",
+        "name": "Outback Steakhouse",
+        "outdoor_seating": "no",
+        "phone": "+1-425-486-7340"
+      },
+      "center": {
+        "lat": 47.794398,
+        "lon": -122.21682844999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 563467410,
+      "tags": {
+        "addr:city": "South Hill",
+        "addr:housenumber": "12920",
+        "addr:postcode": "98373",
+        "addr:state": "WA",
+        "addr:street": "Meridian East",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "check_date": "2025-05-11",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse"
+      },
+      "center": {
+        "lat": 47.1385595,
+        "lon": -122.2937551
+      }
+    },
+    {
+      "type": "way",
+      "id": 676187343,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse"
+      },
+      "center": {
+        "lat": 46.2262726,
+        "lon": -119.21245325000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 886515422,
+      "tags": {
+        "addr:city": "Vancouver",
+        "addr:housenumber": "8700",
+        "addr:postcode": "98662",
+        "addr:state": "WA",
+        "addr:street": "Northeast Vancouver Mall Drive",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "cuisine": "american;steak",
+        "indoor": "room",
+        "level": "0",
+        "name": "Outback Steakhouse",
+        "opening_hours": "Mo-Th 11:30-21:00; Fr 11:30-22:00; Sa 12:00-22:00; Su 12:00-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-360-883-0005",
+        "smoking": "no",
+        "website": "https://www.outback.com/"
+      },
+      "center": {
+        "lat": 45.6575425,
+        "lon": -122.58453365000003
+      }
+    }
+  ]
+}

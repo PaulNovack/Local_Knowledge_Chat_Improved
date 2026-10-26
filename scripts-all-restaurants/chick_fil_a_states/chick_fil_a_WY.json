@@ -1,0 +1,64 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "chick_fil_a",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 14255717891,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "name": "Chick-fil-A",
+        "takeaway": "yes"
+      },
+      "lat": 41.3124358,
+      "lon": -105.5791077
+    },
+    {
+      "type": "way",
+      "id": 511653829,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:housenumber": "4435",
+        "addr:postcode": "82009",
+        "addr:state": "WY",
+        "addr:street": "Windmill Road",
+        "amenity": "fast_food",
+        "branch": "Dell Range",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-21:00; Su off",
+        "phone": "+1 307-638-4444",
+        "ref": "03335",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/wy/dell-range"
+      },
+      "center": {
+        "lat": 41.159609950000004,
+        "lon": -104.77923329999999
+      }
+    }
+  ]
+}

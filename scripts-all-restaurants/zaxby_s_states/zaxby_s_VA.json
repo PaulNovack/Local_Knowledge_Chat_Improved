@@ -1,0 +1,677 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "zaxby_s",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2784209748,
+      "tags": {
+        "addr:city": "Charlottesville",
+        "addr:housenumber": "1248",
+        "addr:state": "VA",
+        "addr:street": "Emmet Street North",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "check_date": "2024-07-10",
+        "check_date:opening_hours": "2024-07-10",
+        "check_date:opening_hours:drive_through": "2024-07-10",
+        "cuisine": "chicken",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Sa 10:30-22:00; Su 11:00-21:00",
+        "opening_hours:drive_through": "Mo-Sa 10:30-22:00; Su 11:00-21:00",
+        "phone": "+1 434-529-8220",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/va/charlottesville/1248-emmet-st-n"
+      },
+      "lat": 38.0545491,
+      "lon": -78.4971993
+    },
+    {
+      "type": "way",
+      "id": 54788974,
+      "tags": {
+        "addr:city": "Blacksburg",
+        "addr:country": "US",
+        "addr:housenumber": "204",
+        "addr:postcode": "24060",
+        "addr:state": "VA",
+        "addr:street": "Turner Street Northwest",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "retail",
+        "building:levels": "1",
+        "building:material": "concrete",
+        "check_date": "2024-07-10",
+        "check_date:opening_hours": "2024-07-10",
+        "check_date:opening_hours:drive_through": "2024-07-10",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "diet:meat": "yes",
+        "diet:vegetarian": "no",
+        "drive_through": "yes",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "opening_hours:drive_through": "Mo-Su 10:00-21:00",
+        "phone": "+1-540-552-0070",
+        "roof:levels": "0",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/va/blacksburg/204-turner-st-nw",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 37.232654,
+        "lon": -80.41950450000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 312171819,
+      "tags": {
+        "addr:city": "Chesapeake",
+        "addr:housenumber": "2316",
+        "addr:postcode": "23321",
+        "addr:state": "VA",
+        "addr:street": "Chesapeake Square Ring Road",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "commercial",
+        "check_date": "2024-07-10",
+        "check_date:opening_hours": "2024-07-10",
+        "check_date:opening_hours:drive_through": "2024-07-10",
+        "comment": "0106009000052",
+        "cuisine": "chicken",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 10:30-22:00",
+        "phone": "+1 757-648-8357",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/va/chesapeake/2316-chesapeake-square-ring-rd"
+      },
+      "center": {
+        "lat": 36.824949000000004,
+        "lon": -76.41245064999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 365945503,
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "5816",
+        "addr:postcode": "23230",
+        "addr:state": "VA",
+        "addr:street": "West Broad Street",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "check_date": "2024-07-10",
+        "check_date:opening_hours": "2024-07-10",
+        "check_date:opening_hours:drive_through": "2024-07-10",
+        "cuisine": "chicken",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Sa 10:30-22:00; Su 10:30-21:00",
+        "opening_hours:drive_through": "Mo-Sa 10:30-22:00; Su 10:30-21:00",
+        "phone": "+1 804-269-3392",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/va/richmond/5816-w-broad-st"
+      },
+      "center": {
+        "lat": 37.5914485,
+        "lon": -77.50484410000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 388580542,
+      "tags": {
+        "addr:city": "Hampton",
+        "addr:housenumber": "2201",
+        "addr:postcode": "23666",
+        "addr:state": "VA",
+        "addr:street": "Todds Lane",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "check_date": "2024-07-10",
+        "check_date:opening_hours": "2024-07-10",
+        "check_date:opening_hours:drive_through": "2024-07-10",
+        "cuisine": "chicken",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Sa 10:30-23:00; Su 10:30-22:00",
+        "opening_hours:drive_through": "Mo-Sa 10:30-23:00; Su 10:30-22:00",
+        "phone": "+1 757-915-6925",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/va/hampton/2201-todds-ln"
+      },
+      "center": {
+        "lat": 37.03982895,
+        "lon": -76.40218979999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 437524950,
+      "tags": {
+        "addr:city": "Roanoke",
+        "addr:housenumber": "3206",
+        "addr:state": "VA",
+        "addr:street": "Ordway Drive Northwest",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "check_date": "2024-07-10",
+        "check_date:opening_hours": "2024-07-10",
+        "check_date:opening_hours:drive_through": "2024-07-10",
+        "cuisine": "chicken",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Sa 10:30-22:00; Su 11:00-21:00",
+        "opening_hours:drive_through": "Mo-Sa 10:30-22:00; Su 11:00-21:00",
+        "phone": "+1 540-566-4046",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/va/roanoke/3206-ordway-dr"
+      },
+      "center": {
+        "lat": 37.30622745,
+        "lon": -79.97859499999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 510854578,
+      "tags": {
+        "addr:housenumber": "800",
+        "addr:street": "Tanyard Road",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "commercial",
+        "cuisine": "chicken",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Su-Th 10:30-22:00; Fr-Sa 10:30-23:00",
+        "phone": "+1-866-892-9297",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/va/rocky-mount/800-tanyard-rd."
+      },
+      "center": {
+        "lat": 37.0064255,
+        "lon": -79.87722580000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 514638072,
+      "tags": {
+        "addr:city": "Newport News",
+        "addr:housenumber": "531",
+        "addr:postcode": "23602",
+        "addr:state": "VA",
+        "addr:street": "Oyster Point Road",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "check_date": "2024-07-10",
+        "check_date:opening_hours": "2024-07-10",
+        "check_date:opening_hours:drive_through": "2024-07-10",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 10:30-22:00",
+        "phone": "+1 757-969-1110",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/va/newport-news/531-oyster-point-rd"
+      },
+      "center": {
+        "lat": 37.10583165,
+        "lon": -76.49869430000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 547759413,
+      "tags": {
+        "addr:city": "Lynchburg",
+        "addr:housenumber": "1038",
+        "addr:postcode": "24502",
+        "addr:state": "VA",
+        "addr:street": "Wards Ferry Road",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "check_date": "2024-07-10",
+        "check_date:opening_hours": "2024-07-10",
+        "check_date:opening_hours:drive_through": "2024-07-10",
+        "contact:phone": "+1 434-237-2651",
+        "cuisine": "chicken",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Th,Su 10:30-21:00; Fr-Sa 10:30-22:00",
+        "opening_hours:drive_through": "Mo-Th,Su 10:30-22:00; Fr-Sa 10:30-23:00",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/va/lynchburg/1038-wards-ferry-rd"
+      },
+      "center": {
+        "lat": 37.3439178,
+        "lon": -79.19077870000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 604325097,
+      "tags": {
+        "addr:city": "Bristol",
+        "addr:housenumber": "201",
+        "addr:postcode": "24202",
+        "addr:state": "VA",
+        "addr:street": "Merchant Trace",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "check_date": "2024-07-10",
+        "check_date:opening_hours": "2024-07-10",
+        "check_date:opening_hours:drive_through": "2024-07-10",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr-Su 10:00-23:00",
+        "opening_hours:drive_through": "Mo-Th 10:00-22:00; Fr-Su 10:00-23:00",
+        "phone": "+1 276-645-0061",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/va/bristol/201-cabela-dr"
+      },
+      "center": {
+        "lat": 36.627843,
+        "lon": -82.14846475000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 684811471,
+      "tags": {
+        "addr:city": "Suffolk",
+        "addr:housenumber": "6120",
+        "addr:postcode": "23435",
+        "addr:state": "VA",
+        "addr:street": "College Drive",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "check_date": "2024-07-10",
+        "check_date:opening_hours": "2024-07-10",
+        "check_date:opening_hours:drive_through": "2024-07-10",
+        "cuisine": "chicken",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 10:30-22:00",
+        "phone": "+1 757-335-7111",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/va/suffolk/6120-college-dr"
+      },
+      "center": {
+        "lat": 36.87554385,
+        "lon": -76.42243504999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 710609445,
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "9110",
+        "addr:postcode": "23228",
+        "addr:state": "VA",
+        "addr:street": "Staples Mill Road",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "check_date": "2024-07-10",
+        "check_date:opening_hours": "2024-07-10",
+        "check_date:opening_hours:drive_through": "2024-07-10",
+        "cuisine": "chicken",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Sa 10:30-22:00; Su 10:30-21:00",
+        "opening_hours:drive_through": "Mo-Sa 10:30-22:00; Su 10:30-21:00",
+        "phone": "+1 804-756-3706",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/va/richmond/9110-staples-mill-rd"
+      },
+      "center": {
+        "lat": 37.639395050000005,
+        "lon": -77.51524434999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 710859809,
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "4798",
+        "addr:postcode": "23231",
+        "addr:state": "VA",
+        "addr:street": "South Laburnum Avenue",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "check_date": "2024-07-10",
+        "check_date:opening_hours": "2024-07-10",
+        "check_date:opening_hours:drive_through": "2024-07-10",
+        "cuisine": "chicken",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Su 10:30-22:45",
+        "opening_hours:drive_through": "Mo-Su 10:30-22:45",
+        "phone": "+1 804-658-1480",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/va/richmond/4798-s-laburnum-ave"
+      },
+      "center": {
+        "lat": 37.5218257,
+        "lon": -77.35241529999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 719608459,
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "7100",
+        "addr:postcode": "23225",
+        "addr:state": "VA",
+        "addr:street": "Tim Price Way",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "check_date": "2024-07-10",
+        "check_date:opening_hours": "2024-07-10",
+        "check_date:opening_hours:drive_through": "2024-07-10",
+        "cuisine": "chicken",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Su 10:30-21:00",
+        "opening_hours:drive_through": "Mo-Su 10:30-20:45",
+        "phone": "+1 804-674-1262",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/va/richmond/7100-tim-price-way"
+      },
+      "center": {
+        "lat": 37.50055375,
+        "lon": -77.52671294999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 756395845,
+      "tags": {
+        "addr:city": "Winchester",
+        "addr:country": "US",
+        "addr:housenumber": "1810",
+        "addr:state": "VA",
+        "addr:street": "South Loudoun Street",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "check_date": "2024-07-10",
+        "check_date:opening_hours:drive_through": "2024-07-10",
+        "cuisine": "chicken",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Su 10:30-23:00",
+        "opening_hours:drive_through": "Mo-Sa 10:30-22:00; Su 11:00-21:00",
+        "phone": "+1 540-450-5127",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/va/winchester/1810-s-loudoun-st"
+      },
+      "center": {
+        "lat": 39.16687975000001,
+        "lon": -78.17114994999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 789560639,
+      "tags": {
+        "addr:city": "Mechanicsville",
+        "addr:housenumber": "6535",
+        "addr:postcode": "23111",
+        "addr:state": "VA",
+        "addr:street": "Mechanicsville Turnpike",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "check_date": "2024-07-10",
+        "check_date:opening_hours": "2024-07-10",
+        "check_date:opening_hours:drive_through": "2024-07-10",
+        "cuisine": "chicken",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Su 10:30-21:00",
+        "opening_hours:drive_through": "Mo-Su 10:30-21:00",
+        "phone": "+1 804-789-4778",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/va/mechanicsville/6535-mechanicsville-tpke/"
+      },
+      "center": {
+        "lat": 37.61262120000001,
+        "lon": -77.33351629999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 866678117,
+      "tags": {
+        "addr:city": "Chantilly",
+        "addr:housenumber": "43820",
+        "addr:state": "VA",
+        "addr:street": "Eastgate Shoppes Drive",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "check_date": "2024-07-10",
+        "check_date:opening_hours": "2024-07-10",
+        "check_date:opening_hours:drive_through": "2024-07-10",
+        "cuisine": "chicken",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Th 10:30-21:30; Fr-Sa 10:30-22:00; Su 10:30-21:00",
+        "opening_hours:drive_through": "Mo-Tu 10:30-21:00; We 10:30-21:30; Th-Su 10:30-21:00",
+        "phone": "+1 571-349-3350",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/va/chantilly/43820-eastgate-shoppes-dr"
+      },
+      "center": {
+        "lat": 38.913950299999996,
+        "lon": -77.4864432
+      }
+    },
+    {
+      "type": "way",
+      "id": 1006012278,
+      "tags": {
+        "addr:city": "Danville",
+        "addr:housenumber": "176",
+        "addr:state": "VA",
+        "addr:street": "Holt Garrison Parkway",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "check_date": "2024-07-10",
+        "check_date:opening_hours": "2024-07-10",
+        "check_date:opening_hours:drive_through": "2024-07-10",
+        "cuisine": "chicken",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Th 10:00-23:00; Fr-Sa 10:00-00:00; Su 10:00-23:00",
+        "opening_hours:drive_through": "Mo-Th 10:00-23:00; Fr-Sa 10:00-00:00; Su 10:00-23:00",
+        "phone": "+1 434-791-2648",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/va/danville/176-holt-garrison-pkwy"
+      },
+      "center": {
+        "lat": 36.60059495,
+        "lon": -79.41629130000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1065598701,
+      "tags": {
+        "addr:housenumber": "911",
+        "addr:postcode": "23113",
+        "addr:state": "VA",
+        "addr:street": "Walmart Way",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "contact:facebook": "Zaxbys",
+        "contact:instagram": "realzaxbys",
+        "contact:twitter": "Zaxbys",
+        "contact:website": "https://www.zaxbys.com/locations/va/midlothian/911-walmart-way",
+        "cuisine": "chicken",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "phone": "+1-804-893-5816",
+        "takeaway": "yes",
+        "website:menu": "https://www.zaxbys.com/menu"
+      },
+      "center": {
+        "lat": 37.50399865,
+        "lon": -77.62770534999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1190165373,
+      "tags": {
+        "addr:city": "Chester",
+        "addr:housenumber": "2520",
+        "addr:state": "VA",
+        "addr:street": "Hundred Road",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "check_date": "2024-07-10",
+        "check_date:opening_hours": "2024-07-10",
+        "check_date:opening_hours:drive_through": "2024-07-10",
+        "cuisine": "chicken",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr-Sa 10:00-23:00; Su 10:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 10:30-22:00; Fr-Sa 10:30-23:00; Su 10:30-22:00",
+        "phone": "+1 804-621-4416",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/va/chester/2520-w-hundred-rd"
+      },
+      "center": {
+        "lat": 37.355464,
+        "lon": -77.41224890000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1201731838,
+      "tags": {
+        "addr:city": "Newport News",
+        "addr:housenumber": "12834",
+        "addr:postcode": "23607",
+        "addr:state": "VA",
+        "addr:street": "Jefferson Avenue",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "check_date": "2026-08-06",
+        "check_date:opening_hours": "2024-07-10",
+        "check_date:opening_hours:drive_through": "2024-07-10",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Su 10:30-23:00",
+        "phone": "+1 757-369-7046",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/va/newport-news/12834-jefferson-ave"
+      },
+      "center": {
+        "lat": 37.1430603,
+        "lon": -76.52276265
+      }
+    },
+    {
+      "type": "way",
+      "id": 1262806229,
+      "tags": {
+        "addr:city": "Chesapeake",
+        "addr:housenumber": "125",
+        "addr:postcode": "23322",
+        "addr:state": "VA",
+        "addr:street": "Hillcrest Parkway",
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "check_date": "2024-07-10",
+        "check_date:opening_hours": "2024-07-10",
+        "check_date:opening_hours:drive_through": "2024-07-10",
+        "cuisine": "chicken",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "opening_hours": "Mo-Su 10:30-21:00",
+        "opening_hours:drive_through": "Mo-Su 10:30-21:00",
+        "phone": "+1 757-204-7390",
+        "source": "esri_USDOT_Virginia;microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://www.zaxbys.com/locations/va/chesapeake/125-hillcrest-pkwy"
+      },
+      "center": {
+        "lat": 36.6575026,
+        "lon": -76.22702364999998
+      }
+    }
+  ]
+}

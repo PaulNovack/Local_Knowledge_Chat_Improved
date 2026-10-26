@@ -1,0 +1,79 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ND",
+    "brand": "longhorn_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/north-dakota-latest.osm.pbf",
+    "source_md5": "9eff3bc6ca09aea0f8e064cee3b44c15",
+    "processed_utc": "2026-10-24T07:12:54.105950+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6515807718,
+      "tags": {
+        "addr:city": "Minot",
+        "addr:housenumber": "1707",
+        "addr:postcode": "58701",
+        "addr:state": "ND",
+        "addr:street": "22nd Avenue Southwest",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "website": "https://www.longhornsteakhouse.com"
+      },
+      "lat": 48.2091448,
+      "lon": -101.3189409
+    },
+    {
+      "type": "way",
+      "id": 639573330,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 46.86142875,
+        "lon": -96.85978669999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 963541205,
+      "tags": {
+        "addr:housenumber": "1070",
+        "addr:state": "ND",
+        "addr:street": "East Interstate Avenue",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:website": "https://longhornsteakhouse.com",
+        "brand:wikidata": "Q3259007",
+        "building": "retail",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "opening_hours": "Mo-Su 11:00-22:00; Fr,Sa 11:00-23:00",
+        "phone": "+1 701 223 6465",
+        "source": "esri/Bismarck_ND_Buildings",
+        "takeaway": "yes",
+        "website": "https://longhornsteakhouse.com/locations/nd/bismarck/bismarck/5557#restaurant-hours-reload"
+      },
+      "center": {
+        "lat": 46.834781500000005,
+        "lon": -100.77547225
+      }
+    }
+  ]
+}

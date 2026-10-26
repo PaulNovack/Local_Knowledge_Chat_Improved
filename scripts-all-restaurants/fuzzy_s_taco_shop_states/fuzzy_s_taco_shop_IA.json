@@ -1,0 +1,65 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IA",
+    "brand": "fuzzy_s_taco_shop",
+    "source": "https://download.geofabrik.de/north-america/us/iowa-latest.osm.pbf",
+    "source_md5": "67edcd557c575ead09c9f80bc8694526",
+    "processed_utc": "2026-10-24T07:04:05.270534+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4484363659,
+      "tags": {
+        "addr:city": "Ankeny",
+        "addr:housenumber": "2732",
+        "addr:postcode": "50021",
+        "addr:state": "IA",
+        "addr:street": "Southeast Delaware Avenue",
+        "amenity": "fast_food",
+        "cuisine": "mexican",
+        "name": "Fuzzy's Taco Shop",
+        "phone": "+1 515-619-9404",
+        "website": "https://www.fuzzystacoshop.com/locations/ankeny-ia"
+      },
+      "lat": 41.7012628,
+      "lon": -93.5826545
+    },
+    {
+      "type": "node",
+      "id": 5012694220,
+      "tags": {
+        "addr:city": "Des Moines",
+        "addr:housenumber": "300",
+        "addr:postcode": "50309",
+        "addr:state": "IA",
+        "addr:street": "West Martin Luther King Junior Parkway",
+        "addr:unit": "120",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "check_date": "2025-03-10",
+        "cuisine": "tacos;mexican",
+        "delivery": "yes",
+        "level": "0",
+        "name": "Fuzzy's Taco Shop",
+        "opening_hours": "Su-Th 10:00-22:00; Fr-Sa 10:00-24:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-515-782-1900",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://fuzzystacoshop.com/locations/iowa/des-moines",
+        "wheelchair": "yes"
+      },
+      "lat": 41.5818628,
+      "lon": -93.6194918
+    }
+  ]
+}

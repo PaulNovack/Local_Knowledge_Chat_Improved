@@ -1,0 +1,57 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "jet_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9506591017,
+      "tags": {
+        "addr:postcode": "23462-7908",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "contact:facebook": "JetsPizza",
+        "contact:instagram": "jetspizza",
+        "contact:twitter": "JetsPizza",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-00:00",
+        "phone": "+1-757-467-4700",
+        "website": "https://www.jetspizza.com/stores/virginia/virginia-beach/4402-princess-anne-rd/"
+      },
+      "lat": 36.800931,
+      "lon": -76.1294518
+    },
+    {
+      "type": "node",
+      "id": 14077541455,
+      "tags": {
+        "addr:city": "Annandale",
+        "addr:housenumber": "7026",
+        "addr:postcode": "22003",
+        "addr:state": "VA",
+        "addr:street": "Columbia Pike",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza"
+      },
+      "lat": 38.8341729,
+      "lon": -77.1881713
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "LA",
+    "brand": "marco_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/louisiana-latest.osm.pbf",
+    "source_md5": "2e108953505ee82f68e2a6e7a3e4f783",
+    "processed_utc": "2026-10-24T07:05:17.318731+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1499518448,
+      "tags": {
+        "addr:city": "Haughton",
+        "addr:housenumber": "1073",
+        "addr:postcode": "71037",
+        "addr:state": "LA",
+        "addr:street": "Highway 80",
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "building": "commercial",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "opening_hours": "Mo-Th 11:00-23:00, Fr-Sa 11:00-00:00, Su 11:00-23:00",
+        "phone": "+1-318-987-5200",
+        "takeaway": "yes",
+        "website": "https://www.marcos.com/our-locations/restaurants/la/haughton/marcos-pizza-highway-80-haughton-1/"
+      },
+      "center": {
+        "lat": 32.5570211,
+        "lon": -93.61207784999999
+      }
+    }
+  ]
+}

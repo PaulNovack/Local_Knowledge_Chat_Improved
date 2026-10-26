@@ -1,0 +1,121 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "pei_wei",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1086884931,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "cuisine": "asian",
+        "indoor_seating": "yes",
+        "name": "Pei Wei",
+        "outdoor_seating": "yes"
+      },
+      "lat": 36.0774854,
+      "lon": -95.9227349
+    },
+    {
+      "type": "node",
+      "id": 2656606944,
+      "tags": {
+        "addr:city": "Norman",
+        "addr:housenumber": "1500",
+        "addr:postcode": "73069",
+        "addr:street": "24th Avenue Northwest",
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "cuisine": "asian",
+        "name": "Pei Wei",
+        "phone": "+1 405 364 1690"
+      },
+      "lat": 35.2372594,
+      "lon": -97.4835317
+    },
+    {
+      "type": "node",
+      "id": 13062424914,
+      "tags": {
+        "addr:city": "Edmond",
+        "addr:housenumber": "1141",
+        "addr:postcode": "73034",
+        "addr:state": "OK",
+        "addr:street": "East 2nd Street",
+        "amenity": "restaurant",
+        "branch": "Asian Kitchen",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "cuisine": "asian",
+        "name": "Pei Wei",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "phone": "+14053416850",
+        "website": "https://www.peiwei.com/menus/"
+      },
+      "lat": 35.6539159,
+      "lon": -97.4652462
+    },
+    {
+      "type": "node",
+      "id": 13805089766,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "cuisine": "asian",
+        "name": "Pei Wei"
+      },
+      "lat": 36.1123695,
+      "lon": -95.9754869
+    },
+    {
+      "type": "relation",
+      "id": 19966238,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "building:part": "retail",
+        "cuisine": "asian",
+        "name": "Pei Wei",
+        "type": "multipolygon"
+      },
+      "center": {
+        "lat": 36.01934595,
+        "lon": -95.88575865000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1201596602,
+      "tags": {
+        "amenity": "restaurant",
+        "branch": "Asian Kitchen",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "building": "yes",
+        "cuisine": "asian",
+        "name": "Pei Wei"
+      },
+      "center": {
+        "lat": 36.0604448,
+        "lon": -95.84709795000003
+      }
+    }
+  ]
+}

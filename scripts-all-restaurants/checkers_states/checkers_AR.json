@@ -1,0 +1,53 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "checkers",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13293905500,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Checkers",
+        "brand:wikidata": "Q63919315",
+        "cuisine": "burger",
+        "name": "Checkers",
+        "takeaway": "yes",
+        "website": "https://checkersandrallys.com/location/checkers-3641-s-caraway-rd-748397"
+      },
+      "lat": 35.8044688,
+      "lon": -90.6775616
+    },
+    {
+      "type": "way",
+      "id": 1449302908,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Checkers",
+        "brand:wikidata": "Q63919315",
+        "building": "yes",
+        "cuisine": "burger",
+        "layer": "1",
+        "name": "Checkers",
+        "takeaway": "yes",
+        "website": "https://checkersandrallys.com/location/checkers-3790-red-wolf-blvd-758784"
+      },
+      "center": {
+        "lat": 35.8274649,
+        "lon": -90.66831115000002
+      }
+    }
+  ]
+}

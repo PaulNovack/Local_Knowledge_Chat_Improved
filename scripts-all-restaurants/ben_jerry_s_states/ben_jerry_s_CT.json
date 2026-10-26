@@ -1,0 +1,113 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "ben_jerry_s",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7802360330,
+      "tags": {
+        "addr:city": "Glastonbury",
+        "addr:housenumber": "41",
+        "addr:postcode": "06033",
+        "addr:state": "CT",
+        "addr:street": "Hebron Avenue",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "cuisine": "ice_cream",
+        "drive_through": "no",
+        "name": "Ben & Jerry's",
+        "opening_hours": "Mo-Th 12:00-21:30; Fr 12:00-22:00; Sa 11:30-22:00; Su 11:30-21:30",
+        "outdoor_seating": "no",
+        "phone": "+1 860 430 6961",
+        "takeaway": "yes",
+        "website": "https://www.benjerry.com/glastonbury"
+      },
+      "lat": 41.7131147,
+      "lon": -72.6078669
+    },
+    {
+      "type": "node",
+      "id": 8044552303,
+      "tags": {
+        "addr:city": "New Haven",
+        "addr:housenumber": "159",
+        "addr:postcode": "06510",
+        "addr:state": "CT",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's"
+      },
+      "lat": 41.3060282,
+      "lon": -72.9272087
+    },
+    {
+      "type": "node",
+      "id": 9647160491,
+      "tags": {
+        "addr:city": "Old Saybrook",
+        "addr:housenumber": "19",
+        "addr:postcode": "06475",
+        "addr:state": "CT",
+        "addr:street": "Main Street",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's",
+        "outdoor_seating": "yes",
+        "phone": "+1-860-339-3900"
+      },
+      "lat": 41.2963475,
+      "lon": -72.3772635
+    },
+    {
+      "type": "node",
+      "id": 10284890323,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "cuisine": "ice_cream",
+        "indoor_seating": "no",
+        "name": "Ben & Jerry's",
+        "outdoor_seating": "no",
+        "takeaway": "only"
+      },
+      "lat": 41.4919585,
+      "lon": -72.0890433
+    },
+    {
+      "type": "way",
+      "id": 487836695,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "building": "yes",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's",
+        "outdoor_seating": "yes"
+      },
+      "center": {
+        "lat": 41.812278500000005,
+        "lon": -72.55660929999999
+      }
+    }
+  ]
+}

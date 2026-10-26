@@ -1,0 +1,57 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "cicis",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 294760308,
+      "tags": {
+        "addr:housenumber": "2415",
+        "addr:postcode": "89121",
+        "addr:street": "East Tropicana Avenue",
+        "amenity": "restaurant",
+        "brand": "Cicis",
+        "brand:wikidata": "Q2972189",
+        "building": "yes",
+        "cuisine": "pizza;buffet",
+        "name": "Cicis",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+17028982424",
+        "website": "https://www.cicis.com/"
+      },
+      "center": {
+        "lat": 36.0986805,
+        "lon": -115.11862239999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 380174495,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cicis",
+        "brand:wikidata": "Q2972189",
+        "building": "yes",
+        "cuisine": "pizza;buffet",
+        "name": "Cicis"
+      },
+      "center": {
+        "lat": 36.1670816,
+        "lon": -115.06374084999999
+      }
+    }
+  ]
+}

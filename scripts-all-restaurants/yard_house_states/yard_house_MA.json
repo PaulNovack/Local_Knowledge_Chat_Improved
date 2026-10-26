@@ -1,0 +1,109 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "yard_house",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2715313529,
+      "tags": {
+        "addr:city": "Lynnfield",
+        "addr:housenumber": "340",
+        "addr:postcode": "01940",
+        "addr:state": "MA",
+        "addr:street": "Market Street",
+        "alcohol": "yes",
+        "amenity": "restaurant",
+        "brand": "Yard House",
+        "brand:wikidata": "Q21189156",
+        "cuisine": "american",
+        "name": "Yard House",
+        "phone": "+1 781 334 6400",
+        "website": "https://www.yardhouse.com/"
+      },
+      "lat": 42.5145388,
+      "lon": -71.0342128
+    },
+    {
+      "type": "node",
+      "id": 7683106106,
+      "tags": {
+        "alcohol": "yes",
+        "amenity": "restaurant",
+        "brand": "Yard House",
+        "brand:wikidata": "Q21189156",
+        "cuisine": "american",
+        "name": "Yard House"
+      },
+      "lat": 42.3452683,
+      "lon": -71.1003432
+    },
+    {
+      "type": "node",
+      "id": 12085299539,
+      "tags": {
+        "alcohol": "yes",
+        "amenity": "restaurant",
+        "brand": "Yard House",
+        "brand:wikidata": "Q21189156",
+        "cuisine": "american",
+        "name": "Yard House"
+      },
+      "lat": 42.2303017,
+      "lon": -71.1758159
+    },
+    {
+      "type": "way",
+      "id": 212288147,
+      "tags": {
+        "addr:city": "Burlington",
+        "addr:country": "US",
+        "addr:housenumber": "108",
+        "addr:postcode": "01803",
+        "addr:state": "MA",
+        "addr:street": "Middlesex Turnpike",
+        "alcohol": "yes",
+        "amenity": "restaurant",
+        "brand": "Yard House",
+        "brand:wikidata": "Q21189156",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Yard House"
+      },
+      "center": {
+        "lat": 42.4802556,
+        "lon": -71.21755055
+      }
+    },
+    {
+      "type": "way",
+      "id": 1554665579,
+      "tags": {
+        "alcohol": "yes",
+        "amenity": "restaurant",
+        "brand": "Yard House",
+        "brand:wikidata": "Q21189156",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Yard House",
+        "note": "This is an extremely rough mapping, because none of this is visible on any aerial"
+      },
+      "center": {
+        "lat": 42.197337149999996,
+        "lon": -71.77720524999995
+      }
+    }
+  ]
+}

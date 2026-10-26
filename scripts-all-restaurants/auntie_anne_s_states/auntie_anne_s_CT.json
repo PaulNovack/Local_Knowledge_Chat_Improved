@@ -1,0 +1,67 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "auntie_anne_s",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9438104259,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "name": "Auntie Anne's",
+        "takeaway": "yes"
+      },
+      "lat": 41.2456017,
+      "lon": -73.0085951
+    },
+    {
+      "type": "node",
+      "id": 13333463160,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "name": "Auntie Anne's",
+        "takeaway": "yes"
+      },
+      "lat": 41.4772092,
+      "lon": -71.9614601
+    },
+    {
+      "type": "node",
+      "id": 14085413852,
+      "tags": {
+        "amenity": "fast_food",
+        "baby_feeding": "no",
+        "brand": "Auntie Anne's",
+        "changing_table": "no",
+        "cuisine": "pretzel",
+        "kids_area": "no",
+        "level": "2",
+        "name": "Auntie Anne's",
+        "takeaway": "yes",
+        "toilets": "no",
+        "toilets:access": "private",
+        "wheelchair": "yes"
+      },
+      "lat": 41.380437,
+      "lon": -73.4798486
+    }
+  ]
+}

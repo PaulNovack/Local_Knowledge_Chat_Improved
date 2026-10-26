@@ -1,0 +1,92 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "l_l_hawaiian_barbecue",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2859191104,
+      "tags": {
+        "addr:city": "Glendale",
+        "addr:postcode": "85301",
+        "addr:state": "AZ",
+        "addr:street": "North 67th Avenue",
+        "addr:unit": "103",
+        "amenity": "fast_food",
+        "brand": "L&L Hawaiian Barbecue",
+        "brand:wikidata": "Q6455441",
+        "cuisine": "hawaiian",
+        "name": "L&L Hawaiian Barbecue",
+        "takeaway": "yes"
+      },
+      "lat": 33.5244423,
+      "lon": -112.203634
+    },
+    {
+      "type": "node",
+      "id": 9214503225,
+      "tags": {
+        "amenity": "fast_food",
+        "branch": "Fresh Hibachi Sushi",
+        "brand": "L&L Drive-Inn",
+        "brand:wikidata": "Q6455441",
+        "cuisine": "hawaiian",
+        "name": "L&L Drive-Inn",
+        "takeaway": "yes"
+      },
+      "lat": 33.3774691,
+      "lon": -111.7202674
+    },
+    {
+      "type": "node",
+      "id": 11956186404,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "2501",
+        "addr:postcode": "85085",
+        "addr:state": "AZ",
+        "addr:street": "West Happy Valley Road",
+        "addr:unit": "1250",
+        "amenity": "fast_food",
+        "brand": "L&L Hawaiian Barbecue",
+        "brand:wikidata": "Q6455441",
+        "cuisine": "hawaiian",
+        "drive_through": "no",
+        "name": "L&L Hawaiian Barbecue",
+        "opening_hours": "Mo-Sa 10:00-20:30; Su 11:00-21:00",
+        "phone": "+1-623-434-4119",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://www.llhawaiianbarbecuephoenix.com/"
+      },
+      "lat": 33.7113615,
+      "lon": -112.1113572
+    },
+    {
+      "type": "node",
+      "id": 12450048800,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "L&L Hawaiian Barbecue",
+        "brand:wikidata": "Q6455441",
+        "cuisine": "hawaiian",
+        "name": "L&L Hawaiian Barbecue",
+        "takeaway": "yes"
+      },
+      "lat": 32.2834957,
+      "lon": -110.9607375
+    }
+  ]
+}

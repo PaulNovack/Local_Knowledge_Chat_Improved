@@ -1,0 +1,115 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "chuck_e_cheese",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3878540689,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/mo/independence/18701-e.-39th-st."
+      },
+      "lat": 39.0476984,
+      "lon": -94.3606743
+    },
+    {
+      "type": "node",
+      "id": 4751681022,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/mo/ellisville/15913-manchester-rd."
+      },
+      "lat": 38.5941524,
+      "lon": -90.5885146
+    },
+    {
+      "type": "node",
+      "id": 5015436689,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "3500",
+        "addr:postcode": "65804",
+        "addr:state": "MO",
+        "addr:street": "South Glenstone Avenue",
+        "addr:unit": "A",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/mo/springfield/3500a-s.-glenstone-ave."
+      },
+      "lat": 37.1502717,
+      "lon": -93.2569779
+    },
+    {
+      "type": "way",
+      "id": 511616474,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "9196",
+        "addr:postcode": "64154",
+        "addr:state": "MO",
+        "addr:street": "Northwest Skyview Avenue",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/mo/kansascity/9196-n.-skyview-ave."
+      },
+      "center": {
+        "lat": 39.260506750000005,
+        "lon": -94.65779889999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 914868288,
+      "tags": {
+        "addr:housenumber": "720",
+        "addr:postcode": "63129",
+        "addr:street": "South County Center Way",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "yes",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/mo/st-louis/720-south-county-centerway"
+      },
+      "center": {
+        "lat": 38.5038675,
+        "lon": -90.32982095
+      }
+    }
+  ]
+}

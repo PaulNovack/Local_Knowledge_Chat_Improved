@@ -1,0 +1,50 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "sbarro",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2687181585,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "level": "2",
+        "name": "Sbarro",
+        "opening_hours": "PH,Mo-Su 09:30-19:00",
+        "takeaway": "yes"
+      },
+      "lat": 42.363042,
+      "lon": -71.0242074
+    },
+    {
+      "type": "node",
+      "id": 3487861638,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "level": "2",
+        "name": "Sbarro",
+        "takeaway": "yes"
+      },
+      "lat": 42.3623602,
+      "lon": -71.0194266
+    }
+  ]
+}

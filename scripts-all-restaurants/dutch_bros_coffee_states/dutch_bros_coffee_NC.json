@@ -1,0 +1,62 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "dutch_bros_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4059271708,
+      "tags": {
+        "addr:city": "Mooresville",
+        "addr:country": "US",
+        "addr:housenumber": "356",
+        "addr:postcode": "28117",
+        "addr:state": "NC",
+        "addr:street": "Williamson Road",
+        "amenity": "cafe",
+        "check_date": "2026-10-06",
+        "check_date:opening_hours": "2026-10-06",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros Coffee",
+        "opening_hours": "Su-Th 05:00-22:00; Fr-Sa 05:00-23:00",
+        "phone": "+1 877-899-2767",
+        "source": "Iredell County GIS Mapping Department",
+        "source:date": "2016-03-13",
+        "website": "https://www.dutchbros.com/locations/nc/mooresville/356-williamson-rd"
+      },
+      "lat": 35.5816773,
+      "lon": -80.873598
+    },
+    {
+      "type": "node",
+      "id": 14011293657,
+      "tags": {
+        "addr:housenumber": "1405",
+        "addr:street": "Sunset Drive",
+        "amenity": "cafe",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "check_date": "2026-07-13",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "Mo-Th,Su 05:00-22:00; Fr-Sa 05:00-23:00",
+        "takeaway": "only",
+        "website": "https://www.dutchbros.com/locations/nc/greensboro/1405-sunset-dr"
+      },
+      "lat": 36.0947344,
+      "lon": -79.8151663
+    }
+  ]
+}

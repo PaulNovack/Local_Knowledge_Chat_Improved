@@ -89,7 +89,8 @@ If you already started the ASR service with Docker Compose, set
 does not try to start a second ASR process on the same port.
 
 Start `piper-service` with Docker Compose before using ChatByVoice so the app can
-fetch and play the generated Amy voice WAV files.
+fetch and play speech generated with the configured Piper voice (currently
+`en_US-ryan-low`).
 
 The voice page uses the local ASR service. If `faster-whisper` reports missing
 audio decoding support, install `ffmpeg` on your system before starting the app.

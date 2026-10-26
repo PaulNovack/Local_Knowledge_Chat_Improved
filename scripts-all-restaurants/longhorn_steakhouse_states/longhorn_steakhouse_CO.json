@@ -1,0 +1,132 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "longhorn_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 242560338,
+      "tags": {
+        "addr:city": "Centennial",
+        "addr:housenumber": "9625",
+        "addr:postcode": "80112",
+        "addr:state": "CO",
+        "addr:street": "East County Line Road",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "restaurant",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-303-649-9477",
+        "website": "https://www.longhornsteakhouse.com/locations/co/centennial/centennial/5523"
+      },
+      "center": {
+        "lat": 39.5672644,
+        "lon": -104.87459825000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 448560067,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 39.91371925,
+        "lon": -104.98686670000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 551170291,
+      "tags": {
+        "addr:city": "Fort Collins",
+        "addr:housenumber": "3450",
+        "addr:postcode": "80525",
+        "addr:state": "CO",
+        "addr:street": "South College Avenue",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "commercial",
+        "building:levels": "1",
+        "check_date": "2026-10-11",
+        "contact:fax": "+1-970-377-9880",
+        "contact:phone": "+1-970-377-1375",
+        "contact:website": "http://www.longhornsteakhouse.com",
+        "cuisine": "steak_house",
+        "height": "3",
+        "name": "LongHorn Steakhouse",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-22:00",
+        "owner": "Darden Restaurants",
+        "source": "http://www.longhornsteakhouse.com/locations/co/fort-collins/fort-collins/5550"
+      },
+      "center": {
+        "lat": 40.540546,
+        "lon": -105.07646024999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 612118397,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "5707",
+        "addr:postcode": "80917",
+        "addr:state": "CO",
+        "addr:street": "Barnes Road",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "commercial",
+        "check_date": "2025-04-29",
+        "cuisine": "steak_house",
+        "level": "0",
+        "name": "LongHorn Steakhouse",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+1 719-597-6352",
+        "website": "https://www.longhornsteakhouse.com/locations/co/colorado-springs/colorado-springs/5568?cmpid=br:lh_ag:ie_ch:loc_ca:LHGMB_sn:gmb_gt:colorado-springs-co-5568_pl:locurl_rd:1492"
+      },
+      "center": {
+        "lat": 38.892756250000005,
+        "lon": -104.72088640000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1330472768,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 39.61025035,
+        "lon": -105.08962754999999
+      }
+    }
+  ]
+}

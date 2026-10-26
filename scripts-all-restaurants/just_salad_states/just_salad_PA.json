@@ -1,0 +1,61 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "just_salad",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12290191545,
+      "tags": {
+        "addr:city": "Philadelphia",
+        "addr:housenumber": "3728",
+        "addr:postcode": "19104",
+        "addr:state": "PA",
+        "addr:street": "Spruce Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "University City (Spruce Street)",
+        "brand": "Just Salad",
+        "brand:wikidata": "Q23091823",
+        "check_date": "2024-10-26",
+        "cuisine": "salad",
+        "drive_through": "no",
+        "name": "Just Salad",
+        "opening_hours": "Mo-Fr 10:30-19:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-866-673-3757",
+        "takeaway": "yes",
+        "website": "https://www.justsalad.com/location/31-philadelphia",
+        "website:menu": "https://order.justsalad.com/menu/271"
+      },
+      "lat": 39.9510556,
+      "lon": -75.1984744
+    },
+    {
+      "type": "node",
+      "id": 14073902101,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Just Salad",
+        "brand:wikidata": "Q23091823",
+        "cuisine": "salad",
+        "name": "Just Salad",
+        "takeaway": "yes"
+      },
+      "lat": 40.0101535,
+      "lon": -75.2946203
+    }
+  ]
+}

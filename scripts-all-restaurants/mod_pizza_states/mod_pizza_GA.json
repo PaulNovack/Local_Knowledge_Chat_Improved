@@ -1,0 +1,128 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "mod_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9672160600,
+      "tags": {
+        "addr:city": "Sandy Springs",
+        "addr:housenumber": "5840",
+        "addr:postcode": "30342",
+        "addr:state": "GA",
+        "addr:street": "Roswell Road",
+        "amenity": "fast_food",
+        "branch": "Roswell Road",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "cuisine": "pizza",
+        "name": "MOD Pizza",
+        "opening_hours": "Mo-Th 10:30-22:00; Fr-Sa 10:30-23:00; Su 10:30-22:00",
+        "phone": "+1 404-975-3455",
+        "takeaway": "yes",
+        "website": "https://locations.modpizza.com/usa/ga/sandy-springs/5840-roswell-rd"
+      },
+      "lat": 33.9143535,
+      "lon": -84.3802532
+    },
+    {
+      "type": "node",
+      "id": 11287307168,
+      "tags": {
+        "addr:city": "Augusta",
+        "addr:housenumber": "229",
+        "addr:postcode": "30909",
+        "addr:state": "GA",
+        "addr:street": "Robert C Daniel Parkway",
+        "amenity": "fast_food",
+        "branch": "Augusta Exchange",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "cuisine": "pizza",
+        "name": "MOD Pizza",
+        "opening_hours": "Mo-Th 10:30-21:00; Fr-Sa 10:30-22:00; Su 10:30-21:00",
+        "phone": "+1 706-738-6748",
+        "takeaway": "yes",
+        "website": "https://locations.modpizza.com/usa/ga/augusta/229-robert-c-daniel-pkwy"
+      },
+      "lat": 33.4905815,
+      "lon": -82.0800141
+    },
+    {
+      "type": "node",
+      "id": 11440010595,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "cuisine": "pizza",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "MOD Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 33.8841543,
+      "lon": -84.3153937
+    },
+    {
+      "type": "node",
+      "id": 12712269708,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "MOD Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 33.7950637,
+      "lon": -84.2869025
+    },
+    {
+      "type": "way",
+      "id": 631068026,
+      "tags": {
+        "addr:city": "Kennesaw",
+        "addr:housenumber": "1945",
+        "addr:postcode": "30152",
+        "addr:state": "GA",
+        "addr:street": "Cobb Parkway",
+        "addr:unit": "250",
+        "amenity": "fast_food",
+        "branch": "Kennesaw Marketplace",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2025-02-23",
+        "cuisine": "pizza",
+        "name": "MOD Pizza",
+        "opening_hours": "Mo-Th 10:30-22:00; Fr-Sa 10:30-23:00; Su 10:30-22:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 470-264-0050",
+        "takeaway": "yes",
+        "website": "https://locations.modpizza.com/usa/ga/kennesaw/1945-cobb-pkwy-nw",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 33.9993345,
+        "lon": -84.59007014999997
+      }
+    }
+  ]
+}

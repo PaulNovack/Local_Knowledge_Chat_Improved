@@ -1,0 +1,50 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "LA",
+    "brand": "jamba",
+    "source": "https://download.geofabrik.de/north-america/us/louisiana-latest.osm.pbf",
+    "source_md5": "2e108953505ee82f68e2a6e7a3e4f783",
+    "processed_utc": "2026-10-24T07:05:17.318731+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7168124769,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Jamba Juice",
+        "brand:wikidata": "Q3088784",
+        "cuisine": "juice",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Jamba",
+        "takeaway": "yes"
+      },
+      "lat": 30.0298854,
+      "lon": -90.0647156
+    },
+    {
+      "type": "node",
+      "id": 8917778909,
+      "tags": {
+        "alt_name": "Jamba Juice",
+        "amenity": "fast_food",
+        "brand": "Jamba",
+        "brand:wikidata": "Q3088784",
+        "cuisine": "juice",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Jamba",
+        "takeaway": "yes"
+      },
+      "lat": 30.0011348,
+      "lon": -90.1307666
+    }
+  ]
+}

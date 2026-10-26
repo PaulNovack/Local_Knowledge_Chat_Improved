@@ -1,0 +1,73 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "baja_fresh",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5987111154,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "1615",
+        "addr:postcode": "85016",
+        "addr:state": "AZ",
+        "addr:street": "East Camelback Road",
+        "addr:unit": "F",
+        "amenity": "fast_food",
+        "brand": "Baja Fresh",
+        "brand:wikidata": "Q2880019",
+        "cuisine": "mexican",
+        "name": "Baja Fresh",
+        "official_name": "Baja Fresh Mexican Grill",
+        "takeaway": "yes"
+      },
+      "lat": 33.5088524,
+      "lon": -112.046703
+    },
+    {
+      "type": "node",
+      "id": 11310054457,
+      "tags": {
+        "addr:city": "Chandler",
+        "addr:housenumber": "4979",
+        "addr:postcode": "85226",
+        "addr:state": "AZ",
+        "addr:street": "West Ray Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Baja Fresh",
+        "brand:wikidata": "Q2880019",
+        "capacity": "35",
+        "check_date": "2026-07-31",
+        "cuisine": "mexican",
+        "drive_through": "no",
+        "name": "Baja Fresh",
+        "official_name": "Baja Fresh Mexican Grill",
+        "outdoor_seating": "yes",
+        "panoramax": "88d5e90a-b3f7-4685-a072-9c6fd6e8fa22",
+        "payment:apple_pay": "yes",
+        "payment:cards": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:visa": "yes",
+        "takeaway": "yes",
+        "toilets": "yes"
+      },
+      "lat": 33.3194765,
+      "lon": -111.92664
+    }
+  ]
+}

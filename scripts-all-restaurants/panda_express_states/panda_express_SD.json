@@ -1,0 +1,47 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SD",
+    "brand": "panda_express",
+    "source": "https://download.geofabrik.de/north-america/us/south-dakota-latest.osm.pbf",
+    "source_md5": "4d012b130d8682e6f0e1bc093c255981",
+    "processed_utc": "2026-10-24T07:16:00.169778+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 525077330,
+      "tags": {
+        "addr:city": "Sioux Falls",
+        "addr:housenumber": "5509",
+        "addr:postcode": "57110",
+        "addr:state": "SD",
+        "addr:street": "East Arrowhead Parkway",
+        "amenity": "fast_food",
+        "branch": "Arrowhead & Foss",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "10:00-21:30",
+        "phone": "+1 605-275-8838",
+        "roof:levels": "0",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/sd/sioux-falls/2394"
+      },
+      "center": {
+        "lat": 43.54344055,
+        "lon": -96.65974490000002
+      }
+    }
+  ]
+}

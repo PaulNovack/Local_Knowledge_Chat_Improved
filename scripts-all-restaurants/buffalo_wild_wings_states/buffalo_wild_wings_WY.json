@@ -1,0 +1,65 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "buffalo_wild_wings",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4842769901,
+      "tags": {
+        "addr:city": "Gillette",
+        "addr:housenumber": "2550",
+        "addr:postcode": "82718",
+        "addr:state": "WY",
+        "addr:street": "South Douglas Highway",
+        "addr:unit": "100",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "check_date": "2026-06-03",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3",
+        "source": "survey",
+        "website": "https://www.buffalowildwings.com/locations/us/wy/gillette/2550-s-douglas-hwy/sports-bar-1245/"
+      },
+      "lat": 44.2714891,
+      "lon": -105.4966864
+    },
+    {
+      "type": "way",
+      "id": 258768038,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:housenumber": "1740",
+        "addr:postcode": "82009",
+        "addr:state": "WY",
+        "addr:street": "Prairie Avenue",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building": "yes",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "phone": "+1-307-635-9968",
+        "website": "https://www.buffalowildwings.com/"
+      },
+      "center": {
+        "lat": 41.163679099999996,
+        "lon": -104.80032979999999
+      }
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "morton_s_the_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9755294236,
+      "tags": {
+        "addr:city": "Rosemont",
+        "addr:housenumber": "9525",
+        "addr:postcode": "60018",
+        "addr:state": "IL",
+        "addr:street": "Bryn Mawr Avenue",
+        "amenity": "restaurant",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "cuisine": "steak_house",
+        "name": "Morton's The Steakhouse"
+      },
+      "lat": 41.9800913,
+      "lon": -87.8653776
+    },
+    {
+      "type": "node",
+      "id": 10942941200,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "65",
+        "addr:postcode": "60601",
+        "addr:state": "IL",
+        "addr:street": "East Wacker Place",
+        "amenity": "restaurant",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "cuisine": "steak_house",
+        "name": "Morton's The Steakhouse",
+        "opening_hours": "Tu-Fr 11:30+; Sa 16:00+",
+        "outdoor_seating": "yes",
+        "website": "https://www.mortons.com/location/mortons-the-steakhouse-chicago-il-wacker-place/",
+        "wheelchair": "yes"
+      },
+      "lat": 41.8867089,
+      "lon": -87.625579
+    },
+    {
+      "type": "way",
+      "id": 381070232,
+      "tags": {
+        "addr:city": "Naperville",
+        "addr:country": "US",
+        "addr:county": "DuPage, IL",
+        "addr:housenumber": "1751",
+        "addr:postcode": "60563",
+        "addr:state": "IL",
+        "addr:street": "Freedom Drive",
+        "amenity": "restaurant",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "building": "retail",
+        "check_date": "2024-10-09",
+        "cuisine": "steak_house",
+        "name": "Morton's The Steakhouse",
+        "napervillegis:loc_id": "138482",
+        "napervillegis:prop_id": "63388",
+        "website": "https://www.mortons.com/naperville/"
+      },
+      "center": {
+        "lat": 41.803096,
+        "lon": -88.1267522
+      }
+    },
+    {
+      "type": "way",
+      "id": 642676076,
+      "tags": {
+        "addr:city": "Schaumburg",
+        "addr:housenumber": "1470",
+        "addr:postcode": "60173",
+        "addr:state": "IL",
+        "addr:street": "East McConnor Parkway",
+        "amenity": "restaurant",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "building": "retail",
+        "cuisine": "steak_house",
+        "name": "Morton's The Steakhouse",
+        "phone": "+1-847-413-8771",
+        "website": "https://www.mortons.com/schaumburg/"
+      },
+      "center": {
+        "lat": 42.0568327,
+        "lon": -88.04343319999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1467125621,
+      "tags": {
+        "addr:city": "Northbrook",
+        "addr:housenumber": "699",
+        "addr:postcode": "60062",
+        "addr:state": "IL",
+        "addr:street": "Skokie Boulevard",
+        "amenity": "restaurant",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "building": "retail",
+        "cuisine": "steak_house",
+        "name": "Morton's The Steakhouse"
+      },
+      "center": {
+        "lat": 42.14046915,
+        "lon": -87.79239965
+      }
+    }
+  ]
+}

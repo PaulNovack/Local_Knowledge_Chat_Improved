@@ -1,0 +1,88 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "village_inn",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 124912312,
+      "tags": {
+        "addr:city": "Bentonville",
+        "addr:country": "US",
+        "addr:full": "2300 Southeast Walton Boulevard",
+        "addr:housenumber": "2300",
+        "addr:postcode": "72712",
+        "addr:state": "AR",
+        "addr:street": "Southeast Walton Boulevard",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn"
+      },
+      "center": {
+        "lat": 36.33470425,
+        "lon": -94.18714939999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 483573791,
+      "tags": {
+        "addr:city": "Fayetteville",
+        "addr:housenumber": "3364",
+        "addr:postcode": "72703",
+        "addr:street": "North College Avenue",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "commercial",
+        "building:colour": "#eecfaf",
+        "building:levels": "1",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "Village Inn",
+        "opening_hours": "Mo-Th 06:00-24:00; Fr 06:00-24:00; Sa,Su 00:00-24:00",
+        "outdoor_seating": "no",
+        "phone": "+1 479 521 1880",
+        "roof:levels": "0",
+        "smoking": "no",
+        "website": "https://www.villageinn.com/locations/700754"
+      },
+      "center": {
+        "lat": 36.11215845,
+        "lon": -94.14456519999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 592506001,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Village Inn"
+      },
+      "center": {
+        "lat": 35.3509103,
+        "lon": -94.34778210000002
+      }
+    }
+  ]
+}

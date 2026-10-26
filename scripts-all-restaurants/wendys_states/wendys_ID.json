@@ -1,0 +1,900 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ID",
+    "brand": "wendys",
+    "source": "https://download.geofabrik.de/north-america/us/idaho-latest.osm.pbf",
+    "source_md5": "1a1a06364d5343af00d67fef4750905f",
+    "processed_utc": "2026-10-24T07:02:45.671077+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3913587481,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "changing_table": "no",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "no",
+        "highchair": "no",
+        "level": "1",
+        "name": "Wendy's",
+        "outdoor_seating": "no",
+        "takeaway": "yes",
+        "toilets": "no"
+      },
+      "lat": 43.5680649,
+      "lon": -116.2219467
+    },
+    {
+      "type": "node",
+      "id": 8853901542,
+      "tags": {
+        "addr:city": "Ammon",
+        "addr:housenumber": "3439",
+        "addr:postcode": "83406",
+        "addr:state": "ID",
+        "addr:street": "South Hitt Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-23:00; Fr-Sa 06:30-23:30; Su 08:00-22:00",
+        "phone": "+1 208-529-5322",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/ammon/3439-s-hitt-rd"
+      },
+      "lat": 43.4666676,
+      "lon": -111.9834625
+    },
+    {
+      "type": "node",
+      "id": 8873817862,
+      "tags": {
+        "addr:city": "Idaho Falls",
+        "addr:housenumber": "1333",
+        "addr:postcode": "83401",
+        "addr:state": "ID",
+        "addr:street": "Northgate Mile",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "indoor_seating": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Sa 06:30-10:30; Su 08:00-10:30",
+        "outdoor_seating": "no",
+        "phone": "+1 208-522-5322",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/idaho-falls/1333-northgate-mile"
+      },
+      "lat": 43.5075406,
+      "lon": -112.0230081
+    },
+    {
+      "type": "node",
+      "id": 12170202069,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "lat": 47.7017173,
+      "lon": -117.023602
+    },
+    {
+      "type": "node",
+      "id": 13980644591,
+      "tags": {
+        "addr:city": "Twin Falls",
+        "addr:housenumber": "818",
+        "addr:postcode": "83301",
+        "addr:state": "ID",
+        "addr:street": "Blue Lakes Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 208-734-8255",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/twin-falls/818-blue-lakes-blvd"
+      },
+      "lat": 42.5762898,
+      "lon": -114.4599539
+    },
+    {
+      "type": "way",
+      "id": 178429897,
+      "tags": {
+        "addr:city": "Moscow",
+        "addr:country": "US",
+        "addr:county": "Latah",
+        "addr:housenumber": "1030",
+        "addr:postcode": "83843",
+        "addr:state": "ID",
+        "addr:street": "West Pullman Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "commercial",
+        "building:colour": "hotpink",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-21:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-23:00",
+        "phone": "+1 208-883-8112",
+        "roof:colour": "white",
+        "roof:shape": "flat",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/moscow/1030-wpullman-road"
+      },
+      "center": {
+        "lat": 46.73341105,
+        "lon": -117.01525880000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 255813368,
+      "tags": {
+        "addr:city": "Lewiston",
+        "addr:housenumber": "1819",
+        "addr:postcode": "83501",
+        "addr:state": "ID",
+        "addr:street": "21st Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Th 09:00-21:00; Fr-Sa 09:00-22:00; Su 09:00-21:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-22:00; Fr-Sa 06:30-23:00; Su 06:30-22:00",
+        "phone": "+1 208-743-1212",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/lewiston/1819-21st-st"
+      },
+      "center": {
+        "lat": 46.4013676,
+        "lon": -117.00128480000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 367165659,
+      "tags": {
+        "addr:city": "Mountain Home",
+        "addr:housenumber": "2910",
+        "addr:postcode": "83647",
+        "addr:state": "ID",
+        "addr:street": "American Legion Way",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "ele": "987",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 208-587-3190",
+        "source": "collected by Volker Bartheld, converted and imported by malenki",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/mountain-home/2910-american-legion-way"
+      },
+      "center": {
+        "lat": 43.137788549999996,
+        "lon": -115.6639275
+      }
+    },
+    {
+      "type": "way",
+      "id": 462655638,
+      "tags": {
+        "addr:city": "Meridian",
+        "addr:housenumber": "100",
+        "addr:postcode": "83642",
+        "addr:state": "ID",
+        "addr:street": "East Corporate Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-00:00; Fr-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 208-888-2900",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/meridian/100-e-corporate-drive"
+      },
+      "center": {
+        "lat": 43.5998054,
+        "lon": -116.39249154999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 493170076,
+      "tags": {
+        "addr:city": "Nampa",
+        "addr:housenumber": "1028",
+        "addr:postcode": "83651",
+        "addr:state": "ID",
+        "addr:street": "Caldwell Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 208-466-9599",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/nampa/1028-caldwell-blvd"
+      },
+      "center": {
+        "lat": 43.5996796,
+        "lon": -116.59384469999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 513242770,
+      "tags": {
+        "addr:city": "Coeur D Alene",
+        "addr:housenumber": "202",
+        "addr:postcode": "83814",
+        "addr:state": "ID",
+        "addr:street": "East Appleway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "highchair": "yes",
+        "internet_access": "wlan",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Su 07:00-00:00",
+        "opening_hours:drive_through": "Mo-Su 07:00-00:00",
+        "phone": "+1 208-676-8699",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://locations.wendys.com/united-states/id/coeur-d-alene/202-east-appleway",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 47.70038705,
+        "lon": -116.78333220000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 547289187,
+      "tags": {
+        "addr:city": "Rigby",
+        "addr:housenumber": "510",
+        "addr:postcode": "83442",
+        "addr:state": "ID",
+        "addr:street": "Rigby Lake Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-23:00; Fr-Sa 06:30-23:30; Su 08:00-22:00",
+        "phone": "+1 208-745-8161",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/rigby/510-rigby-lake-dr"
+      },
+      "center": {
+        "lat": 43.68139035,
+        "lon": -111.90890300000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 579342562,
+      "tags": {
+        "addr:city": "Pocatello",
+        "addr:housenumber": "929",
+        "addr:postcode": "83201",
+        "addr:state": "ID",
+        "addr:street": "Yellowstone Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-23:00; Fr-Sa 06:30-23:30; Su 08:00-22:00",
+        "phone": "+1 208-233-8383",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/pocatello/929-yellowstone-ave"
+      },
+      "center": {
+        "lat": 42.8925171,
+        "lon": -112.45183739999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 579342598,
+      "tags": {
+        "addr:city": "Chubbuck",
+        "addr:housenumber": "4519",
+        "addr:postcode": "83202",
+        "addr:state": "ID",
+        "addr:street": "Yellowstone Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-23:00; Fr-Sa 06:30-23:30; Su 08:00-22:00",
+        "phone": "+1 208-238-8349",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/chubbuck/4519-yellowstone-avenue"
+      },
+      "center": {
+        "lat": 42.915165349999995,
+        "lon": -112.46685485
+      }
+    },
+    {
+      "type": "way",
+      "id": 606459797,
+      "tags": {
+        "addr:city": "Caldwell",
+        "addr:housenumber": "600",
+        "addr:postcode": "83605",
+        "addr:state": "ID",
+        "addr:street": "North 10th Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-00:00; Fr-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 208-459-7535",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/caldwell/600-n-10th-ave"
+      },
+      "center": {
+        "lat": 43.668672900000004,
+        "lon": -116.6794562
+      }
+    },
+    {
+      "type": "way",
+      "id": 649376685,
+      "tags": {
+        "addr:city": "Eagle",
+        "addr:housenumber": "65",
+        "addr:postcode": "83616",
+        "addr:state": "ID",
+        "addr:street": "East Eagle River Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "height": "4",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Sa 06:30-23:00; Su 07:00-23:00",
+        "phone": "+1 208-939-8717",
+        "roof:shape": "flat",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/eagle/65-eagle-river-drive"
+      },
+      "center": {
+        "lat": 43.6889324,
+        "lon": -116.35341729999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 666024428,
+      "tags": {
+        "addr:city": "Meridian",
+        "addr:housenumber": "3140",
+        "addr:postcode": "83642",
+        "addr:state": "ID",
+        "addr:street": "East Florence Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 208-884-5303",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/meridian/3140-e-florence"
+      },
+      "center": {
+        "lat": 43.617086549999996,
+        "lon": -116.35509660000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 667257376,
+      "tags": {
+        "addr:city": "Boise",
+        "addr:housenumber": "3680",
+        "addr:postcode": "83703",
+        "addr:state": "ID",
+        "addr:street": "West State Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 208-344-8284",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/boise/3680-state-street"
+      },
+      "center": {
+        "lat": 43.64015635,
+        "lon": -116.23451940000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 682051807,
+      "tags": {
+        "addr:city": "Boise",
+        "addr:housenumber": "8100",
+        "addr:postcode": "83709",
+        "addr:state": "ID",
+        "addr:street": "West Franklin Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 208-377-5900",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/boise/8100-west-franklin-road"
+      },
+      "center": {
+        "lat": 43.60541525,
+        "lon": -116.28385930000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 712382230,
+      "tags": {
+        "addr:city": "Burley",
+        "addr:housenumber": "659",
+        "addr:postcode": "83318",
+        "addr:state": "ID",
+        "addr:street": "N.Overland",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 208-678-9303",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/burley/659-noverland"
+      },
+      "center": {
+        "lat": 42.5632146,
+        "lon": -113.79104374999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 731978030,
+      "tags": {
+        "addr:city": "Boise",
+        "addr:housenumber": "1180",
+        "addr:postcode": "83706",
+        "addr:state": "ID",
+        "addr:street": "South Broadway Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-23:00",
+        "phone": "+1 208-336-1700",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/boise/1180-broadway"
+      },
+      "center": {
+        "lat": 43.598817800000006,
+        "lon": -116.19314709999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 756934749,
+      "tags": {
+        "addr:city": "Coeur D Alene",
+        "addr:housenumber": "279",
+        "addr:postcode": "83815",
+        "addr:state": "ID",
+        "addr:street": "West Canfield",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 208-772-3344",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/coeur-d-alene/279-w-canfield"
+      },
+      "center": {
+        "lat": 47.73342265,
+        "lon": -116.79061239999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 762713858,
+      "tags": {
+        "addr:city": "Nampa",
+        "addr:housenumber": "424",
+        "addr:postcode": "83686",
+        "addr:state": "ID",
+        "addr:street": "12th Avenue Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 208-463-9044",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/nampa/424-12th-ave-rd"
+      },
+      "center": {
+        "lat": 43.5648905,
+        "lon": -116.572518
+      }
+    },
+    {
+      "type": "way",
+      "id": 772832087,
+      "tags": {
+        "addr:city": "Garden City",
+        "addr:housenumber": "5525",
+        "addr:postcode": "83714",
+        "addr:state": "ID",
+        "addr:street": "West Chinden Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-22:00",
+        "phone": "+1 208-327-4900",
+        "source": "microsoft/Buildingfootprints",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/garden-city/5525-chinden-boulevard"
+      },
+      "center": {
+        "lat": 43.647154,
+        "lon": -116.27683000000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 944907890,
+      "tags": {
+        "addr:city": "Idaho Falls",
+        "addr:housenumber": "1275",
+        "addr:postcode": "83402",
+        "addr:state": "ID",
+        "addr:street": "West Broadway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-23:00; Fr-Sa 06:30-23:30; Su 08:00-22:00",
+        "phone": "+1 208-542-5322",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/idaho-falls/1275-west-broadway"
+      },
+      "center": {
+        "lat": 43.495611999999994,
+        "lon": -112.05189815
+      }
+    },
+    {
+      "type": "way",
+      "id": 1005766027,
+      "tags": {
+        "addr:city": "Boise",
+        "addr:housenumber": "8600",
+        "addr:postcode": "83709",
+        "addr:state": "ID",
+        "addr:street": "West Overland Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 208-377-1726",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/boise/8600-w-overland-rd"
+      },
+      "center": {
+        "lat": 43.590704,
+        "lon": -116.28966300000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029875140,
+      "tags": {
+        "addr:city": "Preston",
+        "addr:housenumber": "145",
+        "addr:postcode": "83263",
+        "addr:state": "ID",
+        "addr:street": "South State Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-23:00; Fr-Sa 06:30-23:30; Su 08:00-22:00",
+        "phone": "+1 208-852-0113",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/preston/145-s-state-st"
+      },
+      "center": {
+        "lat": 42.093216,
+        "lon": -111.87620344999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1037450498,
+      "tags": {
+        "addr:city": "Nampa",
+        "addr:housenumber": "4108",
+        "addr:postcode": "83687",
+        "addr:state": "ID",
+        "addr:street": "Garrity Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-00:00; Fr-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 208-463-9629",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/nampa/4108-garrity-blvd"
+      },
+      "center": {
+        "lat": 43.5935895,
+        "lon": -116.52088400000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1092240704,
+      "tags": {
+        "addr:city": "Post Falls",
+        "addr:housenumber": "3939",
+        "addr:postcode": "83854",
+        "addr:state": "ID",
+        "addr:street": "East Central Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 208-777-8369",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/post-falls/3939-e-central-ave",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 47.713750250000004,
+        "lon": -116.89521485
+      }
+    },
+    {
+      "type": "way",
+      "id": 1113411409,
+      "tags": {
+        "addr:city": "Meridian",
+        "addr:housenumber": "1467",
+        "addr:postcode": "83646",
+        "addr:state": "ID",
+        "addr:street": "West Chinden Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "indoor_seating": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Th 06:30-23:00, Fr-Sa 06:30-00:00, Su 06:30-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-208-296-6190",
+        "smoking": "outside",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 43.6622392,
+        "lon": -116.41179844999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1199692623,
+      "tags": {
+        "addr:city": "Kuna",
+        "addr:housenumber": "871",
+        "addr:postcode": "83634",
+        "addr:state": "ID",
+        "addr:street": "North Meridian Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 208-593-2826",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/kuna/871-n-meridian"
+      },
+      "center": {
+        "lat": 43.49632855,
+        "lon": -116.39447754999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1275397171,
+      "tags": {
+        "addr:city": "Rexburg",
+        "addr:housenumber": "1117",
+        "addr:postcode": "83440",
+        "addr:state": "ID",
+        "addr:street": "South Yellowstone Highway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Sa 07:30-22:00; Su 08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-23:30; Fr-Sa 06:30-00:00; Su 08:00-23:00",
+        "phone": "+1 208-497-0075",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/rexburg/1117-south-yellowstone-highway"
+      },
+      "center": {
+        "lat": 43.802408549999996,
+        "lon": -111.80923200000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1543819598,
+      "tags": {
+        "addr:city": "Rexburg",
+        "addr:housenumber": "240",
+        "addr:postcode": "83440",
+        "addr:state": "ID",
+        "addr:street": "East Moody Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "check_date": "2026-09-06",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Sa 07:30-22:00; Su 08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-23:00; Fr-Sa 06:30-23:30; Su 08:00-23:00",
+        "phone": "+1 208-497-0817",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/id/rexburg/240-e-moody-rd"
+      },
+      "center": {
+        "lat": 43.8543672,
+        "lon": -111.77672335
+      }
+    }
+  ]
+}

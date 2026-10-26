@@ -1,0 +1,43 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VT",
+    "brand": "buffalo_wild_wings",
+    "source": "https://download.geofabrik.de/north-america/us/vermont-latest.osm.pbf",
+    "source_md5": "20a19d56b1e59d82493b3194b9e30440",
+    "processed_utc": "2026-10-24T07:18:02.754583+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 171166636,
+      "tags": {
+        "addr:city": "Burlington",
+        "addr:country": "US",
+        "addr:housenumber": "555",
+        "addr:state": "VT",
+        "addr:street": "Shelburne Street",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building": "commercial",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "ref:vcgi:esiteid": "55527",
+        "short_name": "BW3",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 44.448194150000006,
+        "lon": -73.20968909999999
+      }
+    }
+  ]
+}

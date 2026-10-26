@@ -1,0 +1,97 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AK",
+    "brand": "carl_s_jr",
+    "source": "https://download.geofabrik.de/north-america/us/alaska-latest.osm.pbf",
+    "source_md5": "55281fca0391ab2c26b0d99fd6a6f5f8",
+    "processed_utc": "2026-10-24T06:56:26.590469+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 298012670,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Carl's Jr.",
+        "brand:wikidata": "Q1043486",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Carl's Jr.",
+        "takeaway": "yes",
+        "website": "https://locations.carlsjr.com/ak/wasilla/1741-e.-palmer-wasilla-hwy"
+      },
+      "center": {
+        "lat": 61.57824085,
+        "lon": -149.4086158
+      }
+    },
+    {
+      "type": "way",
+      "id": 496063305,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Carl's Jr.",
+        "brand:wikidata": "Q1043486",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Carl's Jr.",
+        "takeaway": "yes",
+        "website": "https://locations.carlsjr.com/ak/anchorage/2242-abbott-road"
+      },
+      "center": {
+        "lat": 61.137237850000005,
+        "lon": -149.83916575
+      }
+    },
+    {
+      "type": "way",
+      "id": 627912783,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Carl's Jr.",
+        "brand:wikidata": "Q1043486",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Carl's Jr.",
+        "takeaway": "yes",
+        "website": "https://locations.carlsjr.com/ak/anchorage/650-w-northern-lights-blvd"
+      },
+      "center": {
+        "lat": 61.194851299999996,
+        "lon": -149.89535524999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 810897083,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Carl's Jr.",
+        "brand:wikidata": "Q1043486",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Carl's Jr.",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.carlsjr.com/ak/eagle-river/12319-old-glenn-hwy"
+      },
+      "center": {
+        "lat": 61.331591,
+        "lon": -149.56527649999998
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "five_guys",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11911077034,
+      "tags": {
+        "addr:city": "Casper",
+        "addr:housenumber": "5060",
+        "addr:postcode": "82609",
+        "addr:state": "WY",
+        "addr:street": "East 2nd Street",
+        "amenity": "fast_food",
+        "branch": "Studio City Center",
+        "brand": "Five Guys",
+        "brand:wikidata": "Q1131810",
+        "cuisine": "burger",
+        "name": "Five Guys",
+        "official_name": "Five Guys Burgers and Fries",
+        "opening_hours": "11:00-21:30",
+        "phone": "+1 307-472-0102",
+        "takeaway": "yes",
+        "website": "https://restaurants.fiveguys.com/5060-east-2nd-street"
+      },
+      "lat": 42.8479182,
+      "lon": -106.2562985
+    },
+    {
+      "type": "way",
+      "id": 1085921050,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:housenumber": "1400",
+        "addr:postcode": "82009",
+        "addr:state": "WY",
+        "addr:street": "Dell Range Boulevard",
+        "addr:unit": "Space 85",
+        "amenity": "fast_food",
+        "branch": "Frontier Mall",
+        "brand": "Five Guys",
+        "brand:wikidata": "Q1131810",
+        "cuisine": "burger",
+        "indoor": "room",
+        "name": "Five Guys",
+        "official_name": "Five Guys Burgers and Fries",
+        "opening_hours": "10:00-22:00",
+        "phone": "+1 307-634-2543",
+        "takeaway": "yes",
+        "website": "https://restaurants.fiveguys.com/1400-dell-range-blvd"
+      },
+      "center": {
+        "lat": 41.1617763,
+        "lon": -104.80589980000002
+      }
+    }
+  ]
+}

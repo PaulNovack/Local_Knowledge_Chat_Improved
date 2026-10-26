@@ -1,0 +1,58 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MT",
+    "brand": "noodles_company",
+    "source": "https://download.geofabrik.de/north-america/us/montana-latest.osm.pbf",
+    "source_md5": "abfa2e1bfc18f6c00a77776eb9185b11",
+    "processed_utc": "2026-10-24T07:09:10.271084+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 308452041,
+      "tags": {
+        "addr:city": "Bozeman",
+        "addr:housenumber": "1459",
+        "addr:postcode": "59718-2018",
+        "addr:state": "MT",
+        "addr:street": "North 19th Avenue",
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "building": "yes",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "phone": "+1-406-586-2511",
+        "website": "https://locations.noodles.com/mt/bozeman/1459-north-19th-ave"
+      },
+      "center": {
+        "lat": 45.6942126,
+        "lon": -111.06298204999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 810646932,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "building": "yes",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "center": {
+        "lat": 46.836919699999996,
+        "lon": -114.0374908
+      }
+    }
+  ]
+}

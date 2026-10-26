@@ -1,0 +1,130 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "krispy_kreme",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11842281422,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "lat": 40.7412528,
+      "lon": -111.8262244
+    },
+    {
+      "type": "way",
+      "id": 34196759,
+      "tags": {
+        "addr:city": "Layton",
+        "addr:housenumber": "968",
+        "addr:postcode": "84041",
+        "addr:state": "UT",
+        "addr:street": "North Main Street",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "check_date": "2025-04-14",
+        "cuisine": "donut",
+        "drive_through": "yes",
+        "height": "6",
+        "name": "Krispy Kreme",
+        "opening_hours": "06:00-21:00",
+        "phone": "+1 801-497-9001",
+        "source": "survey",
+        "takeaway": "yes",
+        "website": "https://site.krispykreme.com/ut/layton/968-north-main-st"
+      },
+      "center": {
+        "lat": 41.0744805,
+        "lon": -111.97980310000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 715982172,
+      "tags": {
+        "addr:city": "Orem",
+        "addr:housenumber": "417",
+        "addr:postcode": "84057",
+        "addr:state": "UT",
+        "addr:street": "West 1300 South",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.27326175,
+        "lon": -111.70521925000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1118923798,
+      "tags": {
+        "addr:city": "West Valley City",
+        "addr:housenumber": "3370",
+        "addr:postcode": "84120",
+        "addr:state": "UT",
+        "addr:street": "South 5600 West",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "retail",
+        "cuisine": "donut",
+        "drive_through": "yes",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.698998200000005,
+        "lon": -112.02543044999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1290128659,
+      "tags": {
+        "addr:city": "Sandy",
+        "addr:housenumber": "48 W",
+        "addr:postcode": "84070",
+        "addr:state": "UT",
+        "addr:street": "10600 South",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes",
+        "website": "https://site.krispykreme.com/ut/sandy/48-w-10600-s"
+      },
+      "center": {
+        "lat": 40.559302349999996,
+        "lon": -111.89208859999997
+      }
+    }
+  ]
+}

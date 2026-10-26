@@ -1,0 +1,44 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "mod_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1395867812,
+      "tags": {
+        "addr:city": "Lenexa",
+        "addr:housenumber": "8742",
+        "addr:postcode": "66219",
+        "addr:state": "KS",
+        "addr:street": "Loiret Boulevard",
+        "amenity": "fast_food",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "MOD Pizza",
+        "opening_hours": "Su-We 10:30-20:00; Th-Sa 10:30-23:00",
+        "phone": "+19133991212",
+        "takeaway": "yes",
+        "website": "https://locations.modpizza.com/usa/ks/lenexa/8742-loiret-blvd"
+      },
+      "center": {
+        "lat": 38.9698292,
+        "lon": -94.77044060000003
+      }
+    }
+  ]
+}

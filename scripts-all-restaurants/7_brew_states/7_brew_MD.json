@@ -1,0 +1,68 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "7_brew",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13411792645,
+      "tags": {
+        "addr:city": "Abingdon",
+        "addr:housenumber": "2912",
+        "addr:postcode": "21009",
+        "addr:state": "MD",
+        "addr:street": "Emmorton Road",
+        "alt_name": "Seven Brew Coffee",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew",
+        "phone": "+1-479-358-9274",
+        "start_date": "2025-12-29",
+        "takeaway": "yes"
+      },
+      "lat": 39.4788846,
+      "lon": -76.3109026
+    },
+    {
+      "type": "node",
+      "id": 14304918406,
+      "tags": {
+        "addr:city": "Edgewood",
+        "addr:housenumber": "1807",
+        "addr:postcode": "21040",
+        "addr:state": "MD",
+        "addr:street": "Pulaski Highway",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "fixme": "update area with newer aerials",
+        "name": "7 Brew",
+        "phone": "+1-479-358-9274",
+        "start_date": "2026-10-19",
+        "takeaway": "yes",
+        "website": "https://locations.7brew.com/md/edgewood/1807-pulaski-highway"
+      },
+      "lat": 39.4341445,
+      "lon": -76.319419
+    }
+  ]
+}

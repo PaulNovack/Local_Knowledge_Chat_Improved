@@ -1,0 +1,41 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MI",
+    "brand": "cava",
+    "source": "https://download.geofabrik.de/north-america/us/michigan-latest.osm.pbf",
+    "source_md5": "1c9e00f502a3ea973e97c7d6f989094d",
+    "processed_utc": "2026-10-24T07:07:39.587953+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 924981727,
+      "tags": {
+        "addr:city": "Canton",
+        "addr:housenumber": "43450",
+        "addr:postcode": "48187",
+        "addr:state": "MI",
+        "addr:street": "Ford Road",
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "building": "yes",
+        "cuisine": "mediterranean",
+        "name": "CAVA",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 42.322841350000004,
+        "lon": -83.46894365000003
+      }
+    }
+  ]
+}

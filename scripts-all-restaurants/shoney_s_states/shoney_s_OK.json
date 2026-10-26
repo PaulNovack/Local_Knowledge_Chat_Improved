@@ -1,0 +1,44 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "shoney_s",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1475435452,
+      "tags": {
+        "addr:city": "Henryetta",
+        "addr:housenumber": "610",
+        "addr:postcode": "74437",
+        "addr:state": "OK",
+        "addr:street": "East Main Street",
+        "amenity": "restaurant",
+        "brand": "Shoney's",
+        "brand:wikidata": "Q7500392",
+        "building": "yes",
+        "contact:facebook": "https://www.facebook.com/ShoneysHenryetta/",
+        "cuisine": "american",
+        "name": "Shoney's",
+        "opening_hours": "Mo-Su 06:30-22:00",
+        "phone": "+1-918-650-9611",
+        "website": "https://www.shoneys.com/locations/ok/henryetta"
+      },
+      "center": {
+        "lat": 35.44022725000001,
+        "lon": -95.9745246
+      }
+    }
+  ]
+}

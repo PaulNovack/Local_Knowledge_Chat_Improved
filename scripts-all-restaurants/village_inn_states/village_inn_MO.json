@@ -1,0 +1,74 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "village_inn",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 14246491975,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "cuisine": "american",
+        "name": "Village Inn"
+      },
+      "lat": 37.1186569,
+      "lon": -93.4716932
+    },
+    {
+      "type": "way",
+      "id": 1001176337,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "4222",
+        "addr:postcode": "65807",
+        "addr:state": "MO",
+        "addr:street": "South Campbell Avenue",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn"
+      },
+      "center": {
+        "lat": 37.137679,
+        "lon": -93.29546370000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1366522667,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "2036",
+        "addr:postcode": "65804",
+        "addr:state": "MO",
+        "addr:street": "South Glenstone",
+        "amenity": "restaurant",
+        "brand": "Village Inn",
+        "brand:wikidata": "Q7930659",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Village Inn",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 37.1769905,
+        "lon": -93.26199995000002
+      }
+    }
+  ]
+}

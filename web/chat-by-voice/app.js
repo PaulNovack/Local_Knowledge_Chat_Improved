@@ -240,11 +240,12 @@ async function askQuestion(question) {
   if (!ensureSelectedTopic()) {
     throw new Error('Select a knowledge collection first, then ask again.');
   }
+  const directionsWindow = window.prepareLocatorDirections?.(question, $('show-map')?.checked);
   bubble('user', question);
   const answer = bubble('assistant', '');
   answer.body.classList.add('thinking');
   answer.body.append(thinkingIndicator());
-  const record = { question, answer: '', sources: [], topic: $('topic').value, complete: false, error: '' };
+  const record = { question, answer: '', sources: [], topic: $('topic').value, complete: false, error: '', directionsWindow };
   transcript.push(record);
   busy = true;
   setStatus('Connecting to chat…');
@@ -280,6 +281,7 @@ async function askQuestion(question) {
         if (data.type === 'sources') {
           record.sources = data.sources;
           addSources(answer.card, data.sources);
+          window.resolveLocatorDirections?.(record.directionsWindow, data.sources, answer.card);
         }
         if (data.type === 'status') setStatus(data.message);
         if (data.type === 'error') {
@@ -293,6 +295,7 @@ async function askQuestion(question) {
         if (data.type === 'done') {
           answer.body.classList.remove('thinking');
           record.complete = true;
+          window.finishLocatorDirections?.(record.directionsWindow);
           setStatus('Ready for the next question.');
           busy = false;
           done();
@@ -310,6 +313,7 @@ async function askQuestion(question) {
     };
     ws.onclose = () => {
       if (socket === ws) socket = null;
+      window.finishLocatorDirections?.(record.directionsWindow);
       if (!settled) {
         busy = false;
         fail(new Error(record.error || 'Response interrupted.'));

@@ -1,0 +1,64 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "mcalister_s_deli",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12179496247,
+      "tags": {
+        "addr:city": "Selinsgrove",
+        "addr:housenumber": "1035",
+        "addr:postcode": "17870",
+        "addr:state": "PA",
+        "addr:street": "North Susquehanna Trail",
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "check_date": "2025-07-14",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli",
+        "opening_hours": "10:30-21:00",
+        "phone": "+1 570-704-5000",
+        "website": "https://locations.mcalistersdeli.com/pa/selinsgrove/1035-n-susquehanna-trail"
+      },
+      "lat": 40.8251297,
+      "lon": -76.8464432
+    },
+    {
+      "type": "way",
+      "id": 482595187,
+      "tags": {
+        "addr:city": "Warrington Township",
+        "addr:housenumber": "60",
+        "addr:postcode": "18976",
+        "addr:state": "PA",
+        "addr:street": "Easton Road",
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "McAlister's Deli",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.2141017,
+        "lon": -75.14004554999997
+      }
+    }
+  ]
+}

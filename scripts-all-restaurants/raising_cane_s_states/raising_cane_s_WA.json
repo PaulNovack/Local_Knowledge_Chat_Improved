@@ -1,0 +1,116 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "raising_cane_s",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13267403159,
+      "tags": {
+        "addr:housenumber": "1232",
+        "addr:postcode": "98087",
+        "addr:state": "WA",
+        "addr:street": "164th Street Southwest",
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "cuisine": "chicken",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "start_date": "2026-06-23",
+        "takeaway": "yes"
+      },
+      "lat": 47.8493934,
+      "lon": -122.2512465
+    },
+    {
+      "type": "way",
+      "id": 98531490,
+      "tags": {
+        "addr:city": "Seattle",
+        "addr:housenumber": "4345",
+        "addr:postcode": "98105",
+        "addr:state": "WA",
+        "addr:street": "University Way Northeast",
+        "amenity": "fast_food",
+        "branch": "University & NE 45th St",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "building": "yes",
+        "check_date": "2026-04-20",
+        "check_date:diet:vegetarian": "2026-04-20",
+        "cuisine": "chicken",
+        "diet:vegetarian": "no",
+        "drive_through": "no",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "opening_hours": "Mo-We,Su 10:00-02:00; Th-Sa 10:00-03:00",
+        "phone": "+1 206 806 2861",
+        "start_date": "2026-02-17",
+        "takeaway": "yes",
+        "website": "https://locations.raisingcanes.com/wa/seattle/4345-university-way-ne"
+      },
+      "center": {
+        "lat": 47.661137249999996,
+        "lon": -122.31346374999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 442935871,
+      "tags": {
+        "addr:city": "Vancouver",
+        "addr:housenumber": "12601",
+        "addr:postcode": "98684",
+        "addr:state": "WA",
+        "addr:street": "Southeast 2nd Circle",
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "building": "yes",
+        "cuisine": "chicken",
+        "disused:amenity": "restaurant",
+        "disused:name": "Sweet Tomatoes",
+        "name": "Raising Cane's",
+        "note": "Sweet Tomatoes is permanently closed. Added disused prefix to business attributes.\n",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 45.620214450000006,
+        "lon": -122.54193659999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1547586581,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "building": "commercial",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 47.74208615,
+        "lon": -117.40857700000004
+      }
+    }
+  ]
+}

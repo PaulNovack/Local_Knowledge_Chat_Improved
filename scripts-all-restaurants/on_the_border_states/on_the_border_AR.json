@@ -1,0 +1,87 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "on_the_border",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 287052413,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina"
+      },
+      "center": {
+        "lat": 34.4637599,
+        "lon": -93.05835294999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 585538311,
+      "tags": {
+        "addr:city": "Conway",
+        "addr:housenumber": "1150",
+        "addr:postcode": "72032",
+        "addr:state": "AR",
+        "addr:street": "South Amity Road",
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "retail",
+        "check_date": "2026-05-08",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "opening_hours": "Su-Th 11:00-21:00; Fr-Sa 11:00-22:00",
+        "phone": "+1-501-585-4322",
+        "website": "https://www.ontheborder.com/locations/conway/"
+      },
+      "center": {
+        "lat": 35.065089900000004,
+        "lon": -92.41441029999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 827256951,
+      "tags": {
+        "addr:city": "Rogers",
+        "addr:country": "US",
+        "addr:full": "577 North 46th Street",
+        "addr:housenumber": "577",
+        "addr:postcode": "72756",
+        "addr:state": "AR",
+        "addr:street": "North 46th Street",
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "phone": "+1-479-616-1991"
+      },
+      "center": {
+        "lat": 36.340286250000005,
+        "lon": -94.17885865000005
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TN",
+    "brand": "miller_s_ale_house",
+    "source": "https://download.geofabrik.de/north-america/us/tennessee-latest.osm.pbf",
+    "source_md5": "a047c5da6c897a8a98b1fc4a282b8d3f",
+    "processed_utc": "2026-10-24T07:16:20.210730+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8557626725,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Miller's Ale House",
+        "brand:wikidata": "Q6858987",
+        "cuisine": "american",
+        "name": "Miller's Ale House"
+      },
+      "lat": 35.847142,
+      "lon": -86.4186693
+    },
+    {
+      "type": "way",
+      "id": 51706498,
+      "tags": {
+        "addr:city": "Chattanooga",
+        "addr:country": "US",
+        "addr:housename": "Logan's Roadhouse",
+        "addr:housenumber": "2119",
+        "addr:postcode": "37421",
+        "addr:state": "TN",
+        "addr:street": "Gunbarrel Road",
+        "amenity": "restaurant",
+        "brand": "Miller's Ale House",
+        "brand:wikidata": "Q6858987",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Miller's Ale House",
+        "opening_hours": "Mo-Th, Su 11:00-01:00; Fr, Sa 11:00-02:00"
+      },
+      "center": {
+        "lat": 35.0355234,
+        "lon": -85.15313230000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1454804047,
+      "tags": {
+        "addr:city": "Hixson",
+        "addr:housenumber": "574",
+        "addr:postcode": "37343",
+        "addr:state": "TN",
+        "addr:street": "Northgate Mall Drive",
+        "amenity": "restaurant",
+        "brand": "Miller's Ale House",
+        "brand:wikidata": "Q6858987",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Miller's Ale House",
+        "opening_hours": "Mo-Su 11:00-00:00",
+        "phone": "+1 423-205-3219",
+        "website": "https://millersalehouse.com/locations/hixson/"
+      },
+      "center": {
+        "lat": 35.1297571,
+        "lon": -85.24284404999997
+      }
+    }
+  ]
+}

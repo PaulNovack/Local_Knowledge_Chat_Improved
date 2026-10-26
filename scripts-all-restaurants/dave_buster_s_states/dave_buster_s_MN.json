@@ -1,0 +1,60 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MN",
+    "brand": "dave_buster_s",
+    "source": "https://download.geofabrik.de/north-america/us/minnesota-latest.osm.pbf",
+    "source_md5": "4cabd6519cf6e8b1f74c96f59629df95",
+    "processed_utc": "2026-10-24T07:08:10.045763+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 790706888,
+      "tags": {
+        "addr:housenumber": "11780",
+        "addr:postcode": "55369",
+        "addr:street": "Fountains Way",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "opening_hours": "Su-Th 10:00-00:00; Fr-Sa 10:00-01:00",
+        "website": "https://daveandbusters.com/"
+      },
+      "lat": 45.0931863,
+      "lon": -93.4287858
+    },
+    {
+      "type": "node",
+      "id": 12981264401,
+      "tags": {
+        "addr:housenumber": "500",
+        "addr:postcode": "55435",
+        "addr:street": "Southdale Ctr",
+        "amenity": "restaurant",
+        "branch": "Southdale",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "contact:instagram": "dnbedina",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "level": "3",
+        "name": "Dave & Buster's",
+        "opening_hours": "We-Sa 10:00-01:00; Su-Tu 10:00-00:00",
+        "website": "https://daveandbusters.com/"
+      },
+      "lat": 44.8810788,
+      "lon": -93.326898
+    }
+  ]
+}

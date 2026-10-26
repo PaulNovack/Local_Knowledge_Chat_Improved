@@ -1,0 +1,123 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "famous_dave_s",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 14130480886,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "3007",
+        "addr:postcode": "85716",
+        "addr:state": "AZ",
+        "addr:street": "East Speedway Boulevard",
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's",
+        "phone": "+1-520-888-1512",
+        "website": "https://www.famousdaves.com/Tucson"
+      },
+      "lat": 32.2364296,
+      "lon": -110.9278362
+    },
+    {
+      "type": "way",
+      "id": 44660022,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1011",
+        "addr:postcode": "85201",
+        "addr:state": "AZ",
+        "addr:street": "North Dobson Road",
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's"
+      },
+      "center": {
+        "lat": 33.43549435,
+        "lon": -111.86911079999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 183803059,
+      "tags": {
+        "amenity": "restaurant",
+        "branch": "Barbeque",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's"
+      },
+      "center": {
+        "lat": 32.70044455,
+        "lon": -114.60279205
+      }
+    },
+    {
+      "type": "way",
+      "id": 842258070,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "16148",
+        "addr:postcode": "85382",
+        "addr:state": "AZ",
+        "addr:street": "North 83rd Avenue",
+        "amenity": "restaurant",
+        "branch": "Legendary Pit Bar B Que",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's",
+        "phone": "+1-623-979-3706",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://www.famousdaves.com/"
+      },
+      "center": {
+        "lat": 33.63365375,
+        "lon": -112.2357566
+      }
+    },
+    {
+      "type": "way",
+      "id": 979691665,
+      "tags": {
+        "addr:city": "Chandler",
+        "addr:housenumber": "3250",
+        "addr:postcode": "85226",
+        "addr:state": "AZ",
+        "addr:street": "West Frye Road",
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's"
+      },
+      "center": {
+        "lat": 33.29821645,
+        "lon": -111.89849255000001
+      }
+    }
+  ]
+}

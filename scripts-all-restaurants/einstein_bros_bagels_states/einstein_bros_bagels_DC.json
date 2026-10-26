@@ -1,0 +1,69 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "einstein_bros_bagels",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T07:20:37.151586+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6382326938,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "2233",
+        "addr:postcode": "20007",
+        "addr:state": "DC",
+        "addr:street": "Wisconsin Avenue Northwest",
+        "addr:unit": "101",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "Wisconsin Avenue & S Street",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "check_date": "2026-10-01",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "Mo-Su 06:00-13:00",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/dc/washington-dc/2233-wisconsin-ave-nw"
+      },
+      "lat": 38.9201061,
+      "lon": -77.071082
+    },
+    {
+      "type": "node",
+      "id": 12050368607,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "3800",
+        "addr:postcode": "20007",
+        "addr:state": "DC",
+        "addr:street": "Reservoir Road Northwest",
+        "addr:unit": "101",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "Georgetown",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "Mo-Fr 08:30-16:00",
+        "phone": "+1 202-687-6776",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/dc/washington-dc/3800-reservoir-rd-nw"
+      },
+      "lat": 38.9120487,
+      "lon": -77.0752796
+    }
+  ]
+}

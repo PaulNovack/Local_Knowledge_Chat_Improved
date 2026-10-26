@@ -1,0 +1,82 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "krispy_kreme",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 547528796,
+      "tags": {
+        "addr:city": "Jonesboro",
+        "addr:housenumber": "2821",
+        "addr:postcode": "72401",
+        "addr:street": "East Highland Drive",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "opening_hours": "Mo-Su 05:30-20:00; Fr,Sa 05:30-21:00",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.8208449,
+        "lon": -90.67080980000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 973871916,
+      "tags": {
+        "addr:city": "Conway",
+        "addr:housenumber": "1105",
+        "addr:postcode": "72034",
+        "addr:state": "AR",
+        "addr:street": "Dave Ward Drive",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "cuisine": "donut",
+        "drive_through": "yes",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.066853699999996,
+        "lon": -92.44091029999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1283293208,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.3348498,
+        "lon": -94.19114905000004
+      }
+    }
+  ]
+}

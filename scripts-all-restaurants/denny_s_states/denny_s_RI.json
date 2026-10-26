@@ -1,0 +1,97 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "RI",
+    "brand": "denny_s",
+    "source": "https://download.geofabrik.de/north-america/us/rhode-island-latest.osm.pbf",
+    "source_md5": "089bd14c5348318ad280c1c9ab732067",
+    "processed_utc": "2026-10-24T07:15:29.409283+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 65582819,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "center": {
+        "lat": 41.6608946,
+        "lon": -71.54756470000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 147040291,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "center": {
+        "lat": 41.68328325,
+        "lon": -71.49985155000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 419773147,
+      "tags": {
+        "addr:city": "Cranston",
+        "addr:housenumber": "1177",
+        "addr:postcode": "02920",
+        "addr:state": "RI",
+        "addr:street": "Reservoir Avenue",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "Mo-Su 06:00-26:00",
+        "phone": "+1-401-942-2300",
+        "takeaway": "yes",
+        "website": "https://locations.dennys.com/RI/CRANSTON/249241"
+      },
+      "center": {
+        "lat": 41.769553450000004,
+        "lon": -71.45543844999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1247682758,
+      "tags": {
+        "addr:city": "Johnston",
+        "addr:housenumber": "1450",
+        "addr:postcode": "02919",
+        "addr:state": "RI",
+        "addr:street": "Hartford Avenue",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "center": {
+        "lat": 41.82405775,
+        "lon": -71.50182230000001
+      }
+    }
+  ]
+}

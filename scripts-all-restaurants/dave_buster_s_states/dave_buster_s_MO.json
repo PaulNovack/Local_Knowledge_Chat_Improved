@@ -1,0 +1,46 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "dave_buster_s",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 776893316,
+      "tags": {
+        "addr:city": "Maryland Heights",
+        "addr:housenumber": "13857",
+        "addr:postcode": "63043",
+        "addr:state": "MO",
+        "addr:street": "Riverport Drive",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "commercial",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "name:en": "Dave & Buster's",
+        "opening_hours": "Mo-Th 11:00-24:00; Fr-Sa 11:00-01:00; Su 11:00-23:00",
+        "phone": "+1 314-209-8015",
+        "source:addr": "St. Louis County GIS Service Center (https://data.stlouisco.com/pages/open-data 2019-08)",
+        "website": "https://www.daveandbusters.com/"
+      },
+      "center": {
+        "lat": 38.7574173,
+        "lon": -90.46822154999995
+      }
+    }
+  ]
+}

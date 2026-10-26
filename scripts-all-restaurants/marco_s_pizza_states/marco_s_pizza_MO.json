@@ -1,0 +1,67 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "marco_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3375951586,
+      "tags": {
+        "addr:city": "Gladstone",
+        "addr:housenumber": "1918",
+        "addr:postcode": "64118",
+        "addr:state": "MO",
+        "addr:street": "Northeast 72nd Street",
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "opening_hours": "Su-Th 11:00-22:00; Fr,Sa 11:00-23:00",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 39.2248353,
+      "lon": -94.5561479
+    },
+    {
+      "type": "node",
+      "id": 7047902896,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza"
+      },
+      "lat": 38.8033377,
+      "lon": -90.8560841
+    },
+    {
+      "type": "node",
+      "id": 12467996798,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 38.7294499,
+      "lon": -90.3855538
+    }
+  ]
+}

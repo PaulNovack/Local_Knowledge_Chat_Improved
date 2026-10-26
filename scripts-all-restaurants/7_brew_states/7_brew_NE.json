@@ -1,0 +1,125 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "7_brew",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12508494587,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "5302",
+        "addr:postcode": "68516",
+        "addr:state": "NE",
+        "addr:street": "South 56th Street",
+        "amenity": "cafe",
+        "drive_through": "yes",
+        "name": "7 Brew Coffee",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00",
+        "phone": "+1-479-358-9274",
+        "website": "https://7brew.com/location/nebraska-lincoln-000317",
+        "website:menu": "https://7brew.com/menu/"
+      },
+      "lat": 40.7595039,
+      "lon": -96.6436605
+    },
+    {
+      "type": "node",
+      "id": 13667283914,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "takeaway": "yes"
+      },
+      "lat": 41.450837,
+      "lon": -96.4524291
+    },
+    {
+      "type": "way",
+      "id": 605964208,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "2504",
+        "addr:postcode": "68503",
+        "addr:state": "NE",
+        "addr:street": "O Street",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "email": "info@7brew.com",
+        "name": "7 Brew Coffee",
+        "opening_hours": "Mo-Th, Su 05:30-22:00; Fr-Sa 05:30-23:00",
+        "phone": "+1-531-530-3558",
+        "website": "https://7brew.com/location/nebraska-lincoln-000567"
+      },
+      "center": {
+        "lat": 40.81394575,
+        "lon": -96.6847204
+      }
+    },
+    {
+      "type": "way",
+      "id": 1481621321,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "5655",
+        "addr:postcode": "68510",
+        "addr:state": "NE",
+        "addr:street": "O Street",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00",
+        "phone": "+1-479-358-9274",
+        "takeaway": "yes",
+        "website": "https://locations.7brew.com/ne/lincoln/5655-o-st"
+      },
+      "center": {
+        "lat": 40.813181799999995,
+        "lon": -96.64283890000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1505417249,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew Coffee",
+        "shop": "coffee",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.1256425,
+        "lon": -100.76250329999999
+      }
+    }
+  ]
+}

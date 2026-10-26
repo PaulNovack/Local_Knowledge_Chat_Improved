@@ -1,0 +1,355 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MT",
+    "brand": "arby_s",
+    "source": "https://download.geofabrik.de/north-america/us/montana-latest.osm.pbf",
+    "source_md5": "abfa2e1bfc18f6c00a77776eb9185b11",
+    "processed_utc": "2026-10-24T07:09:10.271084+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1271573308,
+      "tags": {
+        "addr:state": "MT",
+        "amenity": "fast_food",
+        "brand": "Arby's",
+        "brand:wikidata": "Q630866",
+        "cuisine": "sandwich",
+        "drive_through": "no",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Arby's",
+        "takeaway": "yes"
+      },
+      "lat": 46.8743133,
+      "lon": -113.8871908
+    },
+    {
+      "type": "node",
+      "id": 3413074141,
+      "tags": {
+        "addr:city": "Miles City",
+        "addr:housenumber": "336",
+        "addr:postcode": "59301-4764",
+        "addr:state": "MT",
+        "addr:street": "South Haynes Avenue",
+        "amenity": "fast_food",
+        "brand": "Arby's",
+        "brand:wikidata": "Q630866",
+        "check_date": "2024-06-21",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Arby's",
+        "opening_hours": "10:00-22:00",
+        "phone": "+1 406-232-8874",
+        "takeaway": "yes",
+        "website": "https://www.arbys.com/locations/us/mt/miles-city/336-s--haynes-avenue/store-8360/"
+      },
+      "lat": 46.4052523,
+      "lon": -105.8219491
+    },
+    {
+      "type": "node",
+      "id": 4359438992,
+      "tags": {
+        "addr:city": "Billings",
+        "addr:housenumber": "1507",
+        "addr:postcode": "59105",
+        "addr:state": "MT",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Arby's",
+        "brand:wikidata": "Q630866",
+        "check_date": "2024-06-21",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Arby's",
+        "opening_hours": "10:00-24:00",
+        "phone": "+1 406-252-9339",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://www.arbys.com/locations/us/mt/billings/1507-main-st/store-1108/"
+      },
+      "lat": 45.8258506,
+      "lon": -108.4703929
+    },
+    {
+      "type": "node",
+      "id": 8601076897,
+      "tags": {
+        "addr:city": "Kalispell",
+        "addr:housenumber": "1210",
+        "addr:postcode": "59901",
+        "addr:state": "MT",
+        "addr:street": "US Highway 2 West",
+        "amenity": "fast_food",
+        "brand": "Arby's",
+        "brand:wikidata": "Q630866",
+        "check_date": "2024-06-21",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Arby's",
+        "opening_hours": "10:00-23:00",
+        "phone": "+1 406-755-8220",
+        "takeaway": "yes",
+        "website": "https://www.arbys.com/locations/us/mt/kalispell/1210-us-highway-2-w/store-6198/"
+      },
+      "lat": 48.1996042,
+      "lon": -114.3336715
+    },
+    {
+      "type": "way",
+      "id": 400668833,
+      "tags": {
+        "addr:city": "Bozeman",
+        "addr:housenumber": "3240",
+        "addr:postcode": "59718",
+        "addr:state": "MT",
+        "addr:street": "Technology Boulevard",
+        "amenity": "fast_food",
+        "brand": "Arby's",
+        "brand:wikidata": "Q630866",
+        "building": "commercial",
+        "check_date": "2024-06-21",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Arby's",
+        "opening_hours": "10:00-22:00",
+        "phone": "+1-406-404-1538",
+        "takeaway": "yes",
+        "website": "https://www.arbys.com/locations/us/mt/bozeman/3240-technology-blvd/store-8471/"
+      },
+      "center": {
+        "lat": 45.669315850000004,
+        "lon": -111.08117340000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 451824897,
+      "tags": {
+        "addr:city": "Butte",
+        "addr:country": "US",
+        "addr:housenumber": "3121",
+        "addr:postcode": "59701",
+        "addr:state": "MT",
+        "addr:street": "Harrison Avenue",
+        "amenity": "fast_food",
+        "brand": "Arby's",
+        "brand:wikidata": "Q630866",
+        "building": "commercial",
+        "check_date": "2024-06-21",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Arby's",
+        "opening_hours": "10:00-22:00",
+        "phone": "+1 406-494-1438",
+        "takeaway": "yes",
+        "website": "https://www.arbys.com/locations/us/mt/butte-silver-bow/3131-harrison-ave/store-1937/"
+      },
+      "center": {
+        "lat": 45.979114949999996,
+        "lon": -112.50853469999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 545703452,
+      "tags": {
+        "addr:city": "Great Falls",
+        "addr:housenumber": "801",
+        "addr:postcode": "59405",
+        "addr:state": "MT",
+        "addr:street": "10th Avenue South",
+        "amenity": "fast_food",
+        "brand": "Arby's",
+        "brand:wikidata": "Q630866",
+        "building": "commercial",
+        "check_date": "2024-06-21",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Arby's",
+        "opening_hours": "10:00-24:00",
+        "phone": "+1 406-452-0752",
+        "takeaway": "yes",
+        "website": "https://www.arbys.com/locations/us/mt/great-falls/801-10th-ave-s/store-1178/"
+      },
+      "center": {
+        "lat": 47.49452695,
+        "lon": -111.29359425000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 545985451,
+      "tags": {
+        "addr:city": "Great Falls",
+        "addr:housenumber": "1300",
+        "addr:postcode": "59404",
+        "addr:state": "MT",
+        "addr:street": "3rd Street Northwest",
+        "amenity": "fast_food",
+        "brand": "Arby's",
+        "brand:wikidata": "Q630866",
+        "building": "commercial",
+        "check_date": "2024-06-21",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Arby's",
+        "opening_hours": "10:00-24:00",
+        "phone": "+1 406-268-8297",
+        "takeaway": "yes",
+        "website": "https://www.arbys.com/locations/us/mt/great-falls/1300-3rd-street-nw/store-6929/"
+      },
+      "center": {
+        "lat": 47.5185588,
+        "lon": -111.31119104999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 560795114,
+      "tags": {
+        "addr:city": "Missoula",
+        "addr:housenumber": "3115",
+        "addr:postcode": "59801",
+        "addr:state": "MT",
+        "addr:street": "North Reserve Street",
+        "amenity": "fast_food",
+        "brand": "Arby's",
+        "brand:wikidata": "Q630866",
+        "building": "yes",
+        "check_date": "2024-06-21",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Arby's",
+        "opening_hours": "10:00-22:00",
+        "phone": "+1 406-541-1640",
+        "takeaway": "yes",
+        "website": "https://www.arbys.com/locations/us/mt/missoula/3115-north-reserve-street/store-6631/"
+      },
+      "center": {
+        "lat": 46.893725700000005,
+        "lon": -114.03998185
+      }
+    },
+    {
+      "type": "way",
+      "id": 608836141,
+      "tags": {
+        "addr:city": "Billings",
+        "addr:housenumber": "1017",
+        "addr:postcode": "59102",
+        "addr:state": "MT",
+        "addr:street": "Grand Avenue",
+        "amenity": "fast_food",
+        "brand": "Arby's",
+        "brand:wikidata": "Q630866",
+        "building": "yes",
+        "check_date": "2024-06-21",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Arby's",
+        "opening_hours": "10:00-24:00",
+        "phone": "+1 406-254-6666",
+        "source": "esri_USDOT_Montana",
+        "takeaway": "yes",
+        "website": "https://www.arbys.com/locations/us/mt/billings/1017-grand-ave/store-1107/"
+      },
+      "center": {
+        "lat": 45.78441535,
+        "lon": -108.54241274999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 632383243,
+      "tags": {
+        "addr:city": "Helena",
+        "addr:housenumber": "2801",
+        "addr:postcode": "59601",
+        "addr:state": "MT",
+        "addr:street": "Montana Avenue",
+        "amenity": "fast_food",
+        "brand": "Arby's",
+        "brand:wikidata": "Q630866",
+        "building": "yes",
+        "check_date": "2024-06-21",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Arby's",
+        "opening_hours": "10:00-23:00",
+        "phone": "+1 406-442-5772",
+        "takeaway": "yes",
+        "website": "https://www.arbys.com/locations/us/mt/helena/2801-montana-ave/store-6540/"
+      },
+      "center": {
+        "lat": 46.6126216,
+        "lon": -112.02026675000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 812388569,
+      "tags": {
+        "addr:city": "Missoula",
+        "addr:housenumber": "2900",
+        "addr:postcode": "59801",
+        "addr:state": "MT",
+        "addr:street": "Brooks Street",
+        "amenity": "fast_food",
+        "brand": "Arby's",
+        "brand:wikidata": "Q630866",
+        "building": "yes",
+        "check_date": "2024-06-21",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Arby's",
+        "opening_hours": "10:00-22:00",
+        "phone": "+1 406-543-8484",
+        "takeaway": "yes",
+        "website": "https://www.arbys.com/locations/us/mt/missoula/2900-brooks-st/store-1177/"
+      },
+      "center": {
+        "lat": 46.8440985,
+        "lon": -114.02434794999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 844093745,
+      "tags": {
+        "addr:city": "Billings",
+        "addr:housenumber": "2834",
+        "addr:postcode": "59102",
+        "addr:state": "MT",
+        "addr:street": "King Avenue West",
+        "amenity": "fast_food",
+        "brand": "Arby's",
+        "brand:wikidata": "Q630866",
+        "building": "yes",
+        "check_date": "2024-06-21",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Arby's",
+        "opening_hours": "10:00-24:00",
+        "phone": "+1 406-652-0277",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://www.arbys.com/locations/us/mt/billings/2834-king-ave-w/store-7442/"
+      },
+      "center": {
+        "lat": 45.7547316,
+        "lon": -108.58479605000002
+      }
+    }
+  ]
+}

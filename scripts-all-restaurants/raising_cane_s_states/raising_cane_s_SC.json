@@ -1,0 +1,102 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SC",
+    "brand": "raising_cane_s",
+    "source": "https://download.geofabrik.de/north-america/us/south-carolina-latest.osm.pbf",
+    "source_md5": "488018afb1e1040732b7a791d4ebffae",
+    "processed_utc": "2026-10-24T07:15:46.592450+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6036983778,
+      "tags": {
+        "addr:city": "Clemson",
+        "addr:housenumber": "511",
+        "addr:postcode": "29634",
+        "addr:state": "SC",
+        "addr:street": "Fort Hill Street",
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "cuisine": "chicken",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "opening_hours": "Mo-Sa 10:30-24:00; Su 16:00-21:00",
+        "operator": "Aramark",
+        "takeaway": "yes"
+      },
+      "lat": 34.6790712,
+      "lon": -82.8394837
+    },
+    {
+      "type": "way",
+      "id": 121021660,
+      "tags": {
+        "addr:city": "Rock Hill",
+        "addr:housenumber": "520",
+        "addr:postcode": "29730",
+        "addr:state": "SC",
+        "addr:street": "John Ross Parkway",
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "building": "commercial",
+        "cuisine": "chicken",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "phone": "+1-803-931-4786",
+        "takeaway": "yes",
+        "website": "https://locations.raisingcanes.com/sc/rock-hill/520-john-ross-pkwy"
+      },
+      "center": {
+        "lat": 34.94156525,
+        "lon": -80.97892960000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 178353598,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.9318405,
+        "lon": -80.03726490000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 558947769,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.82713244999999,
+        "lon": -79.83588175
+      }
+    }
+  ]
+}

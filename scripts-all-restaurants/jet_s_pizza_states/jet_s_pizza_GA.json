@@ -1,0 +1,89 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "jet_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9496952674,
+      "tags": {
+        "addr:city": "Lawrenceville",
+        "addr:housenumber": "2695",
+        "addr:state": "GA",
+        "addr:street": "Sugarloaf Parkway",
+        "addr:unit": "100",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "name": "Jet's Pizza",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr,Sa 11:00-22:00; Su 12:00-22:00",
+        "outdoor_seating": "no"
+      },
+      "lat": 33.9175271,
+      "lon": -83.9987195
+    },
+    {
+      "type": "node",
+      "id": 10274129834,
+      "tags": {
+        "addr:city": "Kennesaw",
+        "addr:housenumber": "4100",
+        "addr:postcode": "30144",
+        "addr:state": "GA",
+        "addr:street": "Jiles Road",
+        "addr:unit": "105",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza",
+        "opening_hours": "Su-Sa 11:00-22:00",
+        "website": "https://www.jetspizza.com/stores/georgia/kennesaw/4100-jiles-rd-nw/"
+      },
+      "lat": 34.0477932,
+      "lon": -84.6104773
+    },
+    {
+      "type": "node",
+      "id": 13530281991,
+      "tags": {
+        "addr:floor": "G;1",
+        "addr:housenumber": "2900",
+        "addr:street": "Delk Road Southeast",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "check_date": "2026-02-06",
+        "cuisine": "pizza",
+        "level": "0;1",
+        "name": "Jet's Pizza",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr-Sa 10:00-23:00; Su 11:00-22:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-770-952-1711",
+        "ref": "ga-010",
+        "website": "https://www.jetspizza.com/stores/georgia/marietta/2900-delk-rd-se/",
+        "wheelchair": "yes"
+      },
+      "lat": 33.9227569,
+      "lon": -84.4678075
+    }
+  ]
+}

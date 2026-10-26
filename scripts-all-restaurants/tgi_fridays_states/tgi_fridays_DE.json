@@ -1,0 +1,113 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DE",
+    "brand": "tgi_fridays",
+    "source": "https://download.geofabrik.de/north-america/us/delaware-latest.osm.pbf",
+    "source_md5": "5f714be897be010ea09e4134c39a0638",
+    "processed_utc": "2026-10-24T07:00:37.202137+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6476881979,
+      "tags": {
+        "addr:city": "Dover",
+        "addr:housenumber": "222",
+        "addr:postcode": "19901",
+        "addr:state": "DE",
+        "addr:street": "South Dupont Highway",
+        "amenity": "restaurant",
+        "brand": "TGI Friday's",
+        "brand:wikidata": "Q1524184",
+        "check_date": "2026-04-06",
+        "cuisine": "american",
+        "name": "Friday's",
+        "opening_hours": "Mo-Th,Su 11:00-24:00; Fr-Sa 11:00-01:00",
+        "phone": "+1 302-735-3500",
+        "website": "https://locations.tgifridays.com/de/dover/222-s-dupont-hwy.html"
+      },
+      "lat": 39.1609281,
+      "lon": -75.5137352
+    },
+    {
+      "type": "way",
+      "id": 230523688,
+      "tags": {
+        "addr:housenumber": "650",
+        "addr:street": "South College Avenue",
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "building": "yes",
+        "check_date": "2023-05-11",
+        "cuisine": "american",
+        "name": "TGI Fridays",
+        "opening_hours": "Mo-Th,Su 11:00-24:00; Fr-Sa 11:00-25:00",
+        "phone": "+1 302-737-3700",
+        "website": "https://locations.tgifridays.com/de/newark/650-s-college-ave.html"
+      },
+      "center": {
+        "lat": 39.65913345,
+        "lon": -75.7531017
+      }
+    },
+    {
+      "type": "way",
+      "id": 746121551,
+      "tags": {
+        "addr:city": "New Castle",
+        "addr:housenumber": "128",
+        "addr:postcode": "19720",
+        "addr:state": "DE",
+        "addr:street": "North Dupont Highway",
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "building": "yes",
+        "check_date": "2026-01-31",
+        "cuisine": "american",
+        "name": "TGI Fridays",
+        "opening_hours": "Mo-Th,Su 11:00-24:00, Fr-Sa 11:00-01:00",
+        "phone": "+1 302-325-6620",
+        "website": "https://locations.tgifridays.com/de/new-castle/128-n-dupont-hwy.html"
+      },
+      "center": {
+        "lat": 39.66999439999999,
+        "lon": -75.59920104999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1427422032,
+      "tags": {
+        "addr:city": "Wilmington",
+        "addr:housenumber": "301",
+        "addr:postcode": "19803",
+        "addr:state": "DE",
+        "addr:street": "Rocky Run Parkway",
+        "amenity": "restaurant",
+        "brand": "TGI Fridays",
+        "brand:wikidata": "Q1524184",
+        "building": "yes",
+        "check_date": "2023-08-25",
+        "cuisine": "american",
+        "name": "TGI Fridays",
+        "opening_hours": "Mo-Th,Su 11:00-24:00; Fr-Sa 11:00-25:00",
+        "phone": "+1 302-479-7170",
+        "website": "https://locations.tgifridays.com/de/wilmington/301-rocky-run-pkwy.html"
+      },
+      "center": {
+        "lat": 39.81854735,
+        "lon": -75.54984530000002
+      }
+    }
+  ]
+}

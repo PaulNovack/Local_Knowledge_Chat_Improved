@@ -1,0 +1,135 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DE",
+    "brand": "buffalo_wild_wings",
+    "source": "https://download.geofabrik.de/north-america/us/delaware-latest.osm.pbf",
+    "source_md5": "5f714be897be010ea09e4134c39a0638",
+    "processed_utc": "2026-10-24T07:00:37.202137+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5318976753,
+      "tags": {
+        "addr:city": "Newark",
+        "addr:housenumber": "100",
+        "addr:postcode": "19711",
+        "addr:state": "DE",
+        "addr:street": "South Main Street",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "check_date": "2023-11-23",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "opening_hours": "11:00-24:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-302-731-3145",
+        "ref": "649",
+        "takeaway": "yes",
+        "website": "https://www.buffalowildwings.com/locations/us/de/newark/100-south-main-street/sports-bar-649"
+      },
+      "lat": 39.680626,
+      "lon": -75.7591302
+    },
+    {
+      "type": "node",
+      "id": 6813496807,
+      "tags": {
+        "addr:city": "Rehoboth Beach",
+        "addr:housenumber": "19930",
+        "addr:postcode": "19971",
+        "addr:state": "DE",
+        "addr:street": "Lighthouse Plaza Boulevard",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "check_date": "2025-07-08",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "opening_hours": "11:00-23:00; Fr,Sa 11:00-24:00",
+        "phone": "+1 302-727-5946",
+        "short_name": "BW3",
+        "takeaway": "yes",
+        "website": "https://www.buffalowildwings.com/locations/us/de/rehoboth-beach/19930-lighthouse-plaza-blvd/sports-bar-1047/"
+      },
+      "lat": 38.7214255,
+      "lon": -75.1194308
+    },
+    {
+      "type": "node",
+      "id": 10202849217,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3"
+      },
+      "lat": 39.6959944,
+      "lon": -75.653063
+    },
+    {
+      "type": "node",
+      "id": 12034782199,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "check_date": "2024-08-01",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3"
+      },
+      "lat": 38.9287664,
+      "lon": -75.4190521
+    },
+    {
+      "type": "way",
+      "id": 152418637,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building": "yes",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 39.6105828,
+        "lon": -75.70744209999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 594275656,
+      "tags": {
+        "addr:state": "DE",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building": "yes",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings"
+      },
+      "center": {
+        "lat": 39.15148655,
+        "lon": -75.50581765000004
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "cava",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13131845259,
+      "tags": {
+        "addr:city": "Fishers",
+        "addr:housenumber": "11594",
+        "addr:postcode": "46037",
+        "addr:state": "IN",
+        "addr:street": "Whistle Drive",
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "cuisine": "mediterranean",
+        "name": "CAVA"
+      },
+      "lat": 39.9565141,
+      "lon": -85.999166
+    },
+    {
+      "type": "node",
+      "id": 13424061607,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "check_date": "2025-12-27",
+        "cuisine": "mediterranean",
+        "name": "CAVA"
+      },
+      "lat": 39.7806383,
+      "lon": -86.1720926
+    },
+    {
+      "type": "node",
+      "id": 13623480997,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "CAVA",
+        "brand:wikidata": "Q85751038",
+        "cuisine": "mediterranean",
+        "name": "CAVA"
+      },
+      "lat": 39.9540714,
+      "lon": -86.2434272
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ID",
+    "brand": "chuck_e_cheese",
+    "source": "https://download.geofabrik.de/north-america/us/idaho-latest.osm.pbf",
+    "source_md5": "1a1a06364d5343af00d67fef4750905f",
+    "processed_utc": "2026-10-24T07:02:45.671077+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 880361627,
+      "tags": {
+        "addr:city": "Boise",
+        "addr:housenumber": "6255",
+        "addr:postcode": "83704",
+        "addr:state": "ID",
+        "addr:street": "West Fairview Avenue",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "yes",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://locations.chuckecheese.com/us/id/boise/6255-fairview-ave."
+      },
+      "center": {
+        "lat": 43.618628,
+        "lon": -116.259209
+      }
+    }
+  ]
+}

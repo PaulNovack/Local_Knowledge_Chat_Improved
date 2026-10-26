@@ -1,0 +1,62 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/3.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "pizza_hut",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T06:39:49.830106+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 776800161,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "1501",
+        "addr:postcode": "20002",
+        "addr:state": "DC",
+        "addr:street": "A",
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "phone": "+1 202-396-3300",
+        "website": "https://locations.pizzahut.com/dc/washington/1501-a&b-maryland-ave-ne"
+      },
+      "lat": 38.9002607,
+      "lon": -76.9816939
+    },
+    {
+      "type": "node",
+      "id": 2788370125,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "4205",
+        "addr:postcode": "20011-7244",
+        "addr:state": "DC",
+        "addr:street": "Georgia Avenue Northwest",
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "contact:facebook": "https://www.facebook.com/111519565555097",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr-Sa 11:00-24:00; Su 11:00-23:00",
+        "phone": "+1 202-882-0600",
+        "source": "Microsoft, meta via overturetoosm",
+        "website": "https://locations.pizzahut.com/dc/washington/4205-georgia-ave-nw"
+      },
+      "lat": 38.9421937,
+      "lon": -77.0253356
+    }
+  ]
+}

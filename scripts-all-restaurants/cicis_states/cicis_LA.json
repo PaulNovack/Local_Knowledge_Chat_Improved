@@ -1,0 +1,76 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "LA",
+    "brand": "cicis",
+    "source": "https://download.geofabrik.de/north-america/us/louisiana-latest.osm.pbf",
+    "source_md5": "2e108953505ee82f68e2a6e7a3e4f783",
+    "processed_utc": "2026-10-24T07:05:17.318731+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3200001612,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Cici's"
+      },
+      "lat": 30.2885446,
+      "lon": -89.7808498
+    },
+    {
+      "type": "node",
+      "id": 6804187065,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cici's Pizza",
+        "brand:wikidata": "Q2972189",
+        "cuisine": "pizza;buffet",
+        "name": "Cici's Pizza"
+      },
+      "lat": 29.978086,
+      "lon": -90.2033979
+    },
+    {
+      "type": "node",
+      "id": 11992628901,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cicis",
+        "brand:wikidata": "Q2972189",
+        "cuisine": "pizza;buffet",
+        "name": "Cicis"
+      },
+      "lat": 30.1926377,
+      "lon": -93.2180897
+    },
+    {
+      "type": "node",
+      "id": 13704623859,
+      "tags": {
+        "addr:city": "Baton Rouge",
+        "addr:housenumber": "7060",
+        "addr:postcode": "70809",
+        "addr:state": "LA",
+        "addr:street": "Siegen Lane",
+        "amenity": "restaurant",
+        "branch": "Baton Rouge-Siegen",
+        "brand": "Cicis",
+        "brand:wikidata": "Q2972189",
+        "cuisine": "pizza;buffet",
+        "name": "Cicis",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+1-225-291-2424"
+      },
+      "lat": 30.3857661,
+      "lon": -91.0658322
+    }
+  ]
+}

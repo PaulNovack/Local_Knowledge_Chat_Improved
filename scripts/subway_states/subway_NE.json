@@ -1,0 +1,2382 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/3.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "subway",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T06:29:28.875368+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1008806798,
+      "tags": {
+        "addr:city": "Kearney",
+        "addr:housenumber": "232",
+        "addr:postcode": "68845",
+        "addr:state": "NE",
+        "addr:street": "West 42nd Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "08:30-21:30",
+        "phone": "+1 308-237-7827",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/kearney/232-w-42nd-st"
+      },
+      "lat": 40.7160252,
+      "lon": -99.0855111
+    },
+    {
+      "type": "node",
+      "id": 1050314467,
+      "tags": {
+        "addr:city": "North Platte",
+        "addr:housenumber": "3211",
+        "addr:postcode": "69101",
+        "addr:state": "NE",
+        "addr:street": "South Newberry Road",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "note": "need more accurate position. Names read off of sign from I-80",
+        "phone": "+1 308-534-4610",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/north-platte/3211-s-newberry-rd"
+      },
+      "lat": 41.1026468,
+      "lon": -100.723858
+    },
+    {
+      "type": "node",
+      "id": 1162038267,
+      "tags": {
+        "addr:city": "South Sioux City",
+        "addr:housenumber": "2720",
+        "addr:postcode": "68776",
+        "addr:state": "NE",
+        "addr:street": "Dakota Avenue",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Fr 08:00-21:30; Sa 08:30-21:00; Su 10:00-21:00",
+        "phone": "+1 402-494-8834",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/south-sioux-city/2720-dakota-ave"
+      },
+      "lat": 42.4637039,
+      "lon": -96.4137439
+    },
+    {
+      "type": "node",
+      "id": 1579230996,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Subway",
+        "takeaway": "yes"
+      },
+      "lat": 40.7505735,
+      "lon": -98.8435052
+    },
+    {
+      "type": "node",
+      "id": 1907740734,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "302",
+        "addr:postcode": "68118",
+        "addr:state": "NE",
+        "addr:street": "North 168th Circle",
+        "addr:unit": "200",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-19:00",
+        "phone": "+1 402-504-4800",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/omaha/302-n-168th-cir"
+      },
+      "lat": 41.2615983,
+      "lon": -96.1774108
+    },
+    {
+      "type": "node",
+      "id": 1924493465,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "4500",
+        "addr:postcode": "68516",
+        "addr:state": "NE",
+        "addr:street": "South 70th Street",
+        "addr:unit": "110",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "phone": "+1-402-488-1012",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/lincoln/4500-s-70-st"
+      },
+      "lat": 40.7674807,
+      "lon": -96.6243478
+    },
+    {
+      "type": "node",
+      "id": 1953751734,
+      "tags": {
+        "addr:city": "Papillion",
+        "addr:housenumber": "7809",
+        "addr:postcode": "68046",
+        "addr:state": "NE",
+        "addr:street": "Towne Center Parkway",
+        "addr:unit": "111",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-18:00",
+        "phone": "+1 402-934-8891",
+        "source": "http://www.shadowlakeshopping.com/directory/map/default.aspx",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/papillion/7809-towne-center-parkway"
+      },
+      "lat": 41.1346946,
+      "lon": -96.0313103
+    },
+    {
+      "type": "node",
+      "id": 2052493838,
+      "tags": {
+        "addr:city": "Waverly",
+        "addr:housenumber": "13220",
+        "addr:postcode": "68462",
+        "addr:state": "NE",
+        "addr:street": "Callum Drive",
+        "addr:unit": "8",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "check_date": "2020-05-18",
+        "cuisine": "sandwich",
+        "delivery": "no",
+        "diet:vegetarian": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Subway",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "payment:debit_cards": "yes",
+        "payment:nfc": "yes",
+        "phone": "+1 402-786-7336",
+        "source": "bing",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 40.9077453,
+      "lon": -96.5431681
+    },
+    {
+      "type": "node",
+      "id": 2061121685,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "6100",
+        "addr:postcode": "68505",
+        "addr:state": "NE",
+        "addr:street": "O Street",
+        "addr:unit": "FC-5",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "check_date": "2025-11-07",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Fr 10:00-20:00; Sa 16:00-20:00; Su 11:00-18:00",
+        "phone": "+1-402-465-8395",
+        "source": "http://www.shoppinggatewaymall.com",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/lincoln/6100-o-st"
+      },
+      "lat": 40.8150232,
+      "lon": -96.6376906
+    },
+    {
+      "type": "node",
+      "id": 2099069143,
+      "tags": {
+        "addr:city": "Hickman",
+        "addr:housenumber": "18780",
+        "addr:postcode": "68372",
+        "addr:state": "NE",
+        "addr:street": "South 68th Street",
+        "addr:unit": "D",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "drive_through": "no",
+        "name": "Subway",
+        "opening_hours": "08:30-21:30",
+        "phone": "+1 402-792-3031",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/hickman/18780-s-68th-street"
+      },
+      "lat": 40.626819,
+      "lon": -96.6289074
+    },
+    {
+      "type": "node",
+      "id": 2179458990,
+      "tags": {
+        "addr:city": "Nebraska City",
+        "addr:housenumber": "2509",
+        "addr:postcode": "68401",
+        "addr:state": "NE",
+        "addr:street": "South 11th Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "09:00-22:00",
+        "phone": "+1 402-873-4200",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/nebraska-city/2509-s-11th-st"
+      },
+      "lat": 40.6546747,
+      "lon": -95.8580998
+    },
+    {
+      "type": "node",
+      "id": 2193340192,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:county": "Lancaster",
+        "addr:housenumber": "1501",
+        "addr:postcode": "68512",
+        "addr:state": "NE",
+        "addr:street": "Pine Lake Road",
+        "addr:unit": "8",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Sa 09:00-21:00; Su 10:00-21:00",
+        "phone": "+1 402-420-5010",
+        "source": "survey",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/lincoln/1501-pine-lake-road"
+      },
+      "lat": 40.7377429,
+      "lon": -96.6998279
+    },
+    {
+      "type": "node",
+      "id": 2281690639,
+      "tags": {
+        "addr:city": "Syracuse",
+        "addr:housenumber": "910",
+        "addr:postcode": "68446",
+        "addr:state": "NE",
+        "addr:street": "12th Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "10:00-21:00",
+        "phone": "+1 402-269-3337",
+        "source": "survey",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/syracuse/910-12th-street"
+      },
+      "lat": 40.6641029,
+      "lon": -96.1785212
+    },
+    {
+      "type": "node",
+      "id": 2281726450,
+      "tags": {
+        "addr:city": "Beatrice",
+        "addr:housenumber": "1219",
+        "addr:postcode": "68310",
+        "addr:state": "NE",
+        "addr:street": "North 6th Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Su 09:00-23:00",
+        "phone": "+1-402-223-5909",
+        "source": "survey",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/beatrice/1219-n-6th-st"
+      },
+      "lat": 40.278802,
+      "lon": -96.747291
+    },
+    {
+      "type": "node",
+      "id": 2295206800,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "5533",
+        "addr:postcode": "68521",
+        "addr:state": "NE",
+        "addr:street": "Northwest 1st Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "09:00-22:00",
+        "phone": "+1 402-477-2550",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/lincoln/5533-nw-1st-street"
+      },
+      "lat": 40.8660384,
+      "lon": -96.722921
+    },
+    {
+      "type": "node",
+      "id": 2417071484,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "151",
+        "addr:postcode": "68528",
+        "addr:state": "NE",
+        "addr:street": "Southwest 48th Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "check_date": "2024-02-25",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "phone": "+1-402-477-5856",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/lincoln/151-sw-48th-st"
+      },
+      "lat": 40.8129188,
+      "lon": -96.7889798
+    },
+    {
+      "type": "node",
+      "id": 2478477390,
+      "tags": {
+        "addr:city": "McCook",
+        "addr:housenumber": "216",
+        "addr:postcode": "69001",
+        "addr:state": "NE",
+        "addr:street": "Westview Plaza",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "09:00-22:00",
+        "phone": "+1 308-345-2322",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/mccook/216-westview-plaza"
+      },
+      "lat": 40.2023111,
+      "lon": -100.646192
+    },
+    {
+      "type": "node",
+      "id": 2479642811,
+      "tags": {
+        "addr:city": "Alma",
+        "addr:housenumber": "516",
+        "addr:postcode": "68920",
+        "addr:state": "NE",
+        "addr:street": "Highway 183",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "10:00-22:00",
+        "phone": "+1 308-928-8998",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/alma/516-hwy-183"
+      },
+      "lat": 40.1033209,
+      "lon": -99.3687637
+    },
+    {
+      "type": "node",
+      "id": 2535893016,
+      "tags": {
+        "addr:city": "Gretna",
+        "addr:housenumber": "11350",
+        "addr:postcode": "68028",
+        "addr:state": "NE",
+        "addr:street": "Wickersham Boulevard",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "09:00-20:00",
+        "phone": "+1 402-895-8889",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/gretna/11350-wickersham-blvd"
+      },
+      "lat": 41.1429078,
+      "lon": -96.1658276
+    },
+    {
+      "type": "node",
+      "id": 2631941900,
+      "tags": {
+        "addr:city": "Stanton",
+        "addr:housenumber": "1003",
+        "addr:postcode": "68779",
+        "addr:state": "NE",
+        "addr:street": "Veterans Avenue",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "08:00-21:00",
+        "phone": "+1 402-439-2340",
+        "source": "bing",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/stanton/1003-veterans-ave"
+      },
+      "lat": 41.948275,
+      "lon": -97.2245183
+    },
+    {
+      "type": "node",
+      "id": 2694866351,
+      "tags": {
+        "addr:city": "Red Cloud",
+        "addr:housenumber": "407",
+        "addr:postcode": "68970",
+        "addr:state": "NE",
+        "addr:street": "North Webster Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "09:00-21:00",
+        "phone": "+1 402-746-5111",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/red-cloud/407-n-webster"
+      },
+      "lat": 40.0889984,
+      "lon": -98.5194709
+    },
+    {
+      "type": "node",
+      "id": 2699342645,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "3900",
+        "addr:postcode": "68516",
+        "addr:state": "NE",
+        "addr:street": "Old Cheney Road",
+        "addr:unit": "207",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "check_date": "2024-01-09",
+        "cuisine": "sandwich",
+        "drive_through": "no",
+        "name": "Subway",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa-Su 08:00-22:00",
+        "phone": "+1-402-421-7826",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/lincoln/3900-old-cheney-rd"
+      },
+      "lat": 40.7557263,
+      "lon": -96.6639646
+    },
+    {
+      "type": "node",
+      "id": 3117539252,
+      "tags": {
+        "addr:city": "Alliance",
+        "addr:housenumber": "1116",
+        "addr:postcode": "69301",
+        "addr:state": "NE",
+        "addr:street": "West 3rd",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa 08:00-22:00; Su 08:00-21:00",
+        "phone": "+1 308-762-1777",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/alliance/1116-w-3rd"
+      },
+      "lat": 42.0970879,
+      "lon": -102.8866035
+    },
+    {
+      "type": "node",
+      "id": 3266254982,
+      "tags": {
+        "addr:city": "Bellevue",
+        "addr:housenumber": "4102",
+        "addr:postcode": "68123",
+        "addr:state": "NE",
+        "addr:street": "Twin Creek Drive",
+        "addr:unit": "122",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "drive_through": "no",
+        "name": "Subway",
+        "opening_hours": "08:00-21:00",
+        "phone": "+1 402-614-4492",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/bellevue/4102-twin-creek-drive"
+      },
+      "lat": 41.1414809,
+      "lon": -95.9748327
+    },
+    {
+      "type": "node",
+      "id": 3790043234,
+      "tags": {
+        "addr:city": "Wayne",
+        "addr:housenumber": "215",
+        "addr:postcode": "68787",
+        "addr:state": "NE",
+        "addr:street": "East 7th Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Fr 08:00-21:30; Sa 09:00-21:30; Su 10:00-21:00",
+        "phone": "+1 402-375-5644",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/wayne/215-e-7th-street"
+      },
+      "lat": 42.2353511,
+      "lon": -97.0153957
+    },
+    {
+      "type": "node",
+      "id": 3812179011,
+      "tags": {
+        "addr:city": "Bennington",
+        "addr:housenumber": "15825",
+        "addr:postcode": "68007",
+        "addr:state": "NE",
+        "addr:street": "C W Hadan Drive",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "08:00-21:00",
+        "phone": "+1 402-614-9053",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/bennington/15825-cw-hadan-drive"
+      },
+      "lat": 41.3721351,
+      "lon": -96.1618386
+    },
+    {
+      "type": "node",
+      "id": 3816695719,
+      "tags": {
+        "addr:city": "Grand Island",
+        "addr:housenumber": "1723",
+        "addr:postcode": "68801",
+        "addr:state": "NE",
+        "addr:street": "West 2nd Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "08:00-22:00",
+        "phone": "+1 308-389-3129",
+        "source": "Mapbox",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/grand-island/1723-w-2nd-street"
+      },
+      "lat": 40.9172058,
+      "lon": -98.3573775
+    },
+    {
+      "type": "node",
+      "id": 3826007060,
+      "tags": {
+        "addr:city": "Holdrege",
+        "addr:housenumber": "322",
+        "addr:postcode": "68949",
+        "addr:state": "NE",
+        "addr:street": "4th Avenue",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa-Su 08:00-22:00",
+        "phone": "+1 308-995-6543",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/holdrege/322-4th-ave"
+      },
+      "lat": 40.4377692,
+      "lon": -99.3755867
+    },
+    {
+      "type": "node",
+      "id": 3864472096,
+      "tags": {
+        "addr:city": "Gothenburg",
+        "addr:housenumber": "202",
+        "addr:postcode": "69138",
+        "addr:state": "NE",
+        "addr:street": "8th Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Sa 08:00-20:00; Su 08:00-18:30",
+        "phone": "+1 308-537-3773",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/gothenburg/202-8th-st"
+      },
+      "lat": 40.9286953,
+      "lon": -100.165863
+    },
+    {
+      "type": "node",
+      "id": 3890015047,
+      "tags": {
+        "addr:city": "Wisner",
+        "addr:housenumber": "900",
+        "addr:postcode": "68791",
+        "addr:state": "NE",
+        "addr:street": "E Avenue East",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-14:00",
+        "phone": "+1 402-529-3344",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/wisner/900-avenue-e"
+      },
+      "lat": 41.9869052,
+      "lon": -96.9131015
+    },
+    {
+      "type": "node",
+      "id": 3917158378,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "2579",
+        "addr:postcode": "68130",
+        "addr:state": "NE",
+        "addr:street": "South 177th Plaza",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "09:00-22:00",
+        "phone": "+1 402-330-0836",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/omaha/2579-south-177th-plaza"
+      },
+      "lat": 41.2352942,
+      "lon": -96.1916646
+    },
+    {
+      "type": "node",
+      "id": 4061081196,
+      "tags": {
+        "addr:city": "Elkhorn",
+        "addr:housenumber": "1119",
+        "addr:postcode": "68022",
+        "addr:state": "NE",
+        "addr:street": "North 204th Avenue",
+        "addr:unit": "101",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "08:00-21:00",
+        "phone": "+1 402-289-0903",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/elkhorn/1119-n-204th-ave"
+      },
+      "lat": 41.269125,
+      "lon": -96.235112
+    },
+    {
+      "type": "node",
+      "id": 4131829005,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "10814",
+        "addr:postcode": "68164",
+        "addr:state": "NE",
+        "addr:street": "Cottonwood Lane",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "09:00-22:00",
+        "phone": "+1 402-493-7899",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/omaha/10814-cottonwood-lane"
+      },
+      "lat": 41.2863453,
+      "lon": -96.0822657
+    },
+    {
+      "type": "node",
+      "id": 4590810032,
+      "tags": {
+        "addr:city": "Chadron",
+        "addr:housenumber": "1250",
+        "addr:postcode": "69337",
+        "addr:state": "NE",
+        "addr:street": "West Highway 20",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "08:00-22:00",
+        "phone": "+1 308-432-2050",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/chadron/1250-west-hwy-20"
+      },
+      "lat": 42.8288802,
+      "lon": -103.0171829
+    },
+    {
+      "type": "node",
+      "id": 4599161431,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "4455",
+        "addr:postcode": "68134",
+        "addr:state": "NE",
+        "addr:street": "North 72nd Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "08:00-21:00",
+        "operator": "am",
+        "phone": "+1 402-573-5779",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/omaha/4455-n-72nd-street"
+      },
+      "lat": 41.299185,
+      "lon": -96.02337
+    },
+    {
+      "type": "node",
+      "id": 4618472605,
+      "tags": {
+        "addr:city": "Stromsburg",
+        "addr:housenumber": "101",
+        "addr:postcode": "68666",
+        "addr:state": "NE",
+        "addr:street": "East 4th Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "08:30-21:30",
+        "phone": "+1 402-764-9899",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/stromsburg/101-east-4th-st"
+      },
+      "lat": 41.1144996,
+      "lon": -97.5980753
+    },
+    {
+      "type": "node",
+      "id": 4946419255,
+      "tags": {
+        "addr:city": "Fremont",
+        "addr:housenumber": "35",
+        "addr:postcode": "68025",
+        "addr:state": "NE",
+        "addr:street": "West 6th Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "phone": "+1 402-816-4508",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/fremont/35-w-6th"
+      },
+      "lat": 41.4345387,
+      "lon": -96.4978804
+    },
+    {
+      "type": "node",
+      "id": 5470422268,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "2800",
+        "addr:postcode": "68507",
+        "addr:state": "NE",
+        "addr:street": "North 83rd Street",
+        "addr:unit": "A",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Subway",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "phone": "+1-402-464-5858",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/lincoln/2800-north-83rd-street"
+      },
+      "lat": 40.8412592,
+      "lon": -96.6068558
+    },
+    {
+      "type": "node",
+      "id": 5526491439,
+      "tags": {
+        "addr:city": "Grand Island",
+        "addr:housenumber": "2136",
+        "addr:postcode": "68803",
+        "addr:state": "NE",
+        "addr:street": "North Webb Road",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "08:00-22:00",
+        "phone": "+1 308-381-1329",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/grand-island/2136-n-webb-rd"
+      },
+      "lat": 40.9413846,
+      "lon": -98.3795348
+    },
+    {
+      "type": "node",
+      "id": 6124885677,
+      "tags": {
+        "addr:city": "Wood River",
+        "addr:housenumber": "905",
+        "addr:postcode": "68883",
+        "addr:state": "NE",
+        "addr:street": "East Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Fr 10:00-21:00; Sa 11:00-21:00; Su 10:00-17:00",
+        "phone": "+1 308-583-6719",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/wood-river/905-east-street"
+      },
+      "lat": 40.8208668,
+      "lon": -98.5999243
+    },
+    {
+      "type": "node",
+      "id": 6215211135,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "16960",
+        "addr:postcode": "68116",
+        "addr:state": "NE",
+        "addr:street": "West Maple Road",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "09:00-20:00",
+        "phone": "+1 402-289-4483",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/omaha/16960-west-maple-road"
+      },
+      "lat": 41.2943149,
+      "lon": -96.1797419
+    },
+    {
+      "type": "node",
+      "id": 6215227654,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "15805",
+        "addr:postcode": "68116",
+        "addr:state": "NE",
+        "addr:street": "West Maple Road",
+        "addr:unit": "107",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "09:00-22:00",
+        "phone": "+1 402-496-2694",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/omaha/15805-west-maple-road"
+      },
+      "lat": 41.2915481,
+      "lon": -96.1601616
+    },
+    {
+      "type": "node",
+      "id": 6228630612,
+      "tags": {
+        "addr:city": "Wymore",
+        "addr:housenumber": "402",
+        "addr:postcode": "68466",
+        "addr:state": "NE",
+        "addr:street": "South 14th Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "10:00-21:00",
+        "outdoor_seating": "no",
+        "phone": "+1 402-645-3030",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/wymore/402-s-14th-street"
+      },
+      "lat": 40.1190772,
+      "lon": -96.6712503
+    },
+    {
+      "type": "node",
+      "id": 6394308182,
+      "tags": {
+        "addr:city": "Valley",
+        "addr:housenumber": "26120",
+        "addr:postcode": "68064",
+        "addr:state": "NE",
+        "addr:street": "East Meigs Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "06:00-23:00",
+        "phone": "+1 402-359-2932",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/valley/26120-e-meigs-street"
+      },
+      "lat": 41.3127704,
+      "lon": -96.3229783
+    },
+    {
+      "type": "node",
+      "id": 6419328879,
+      "tags": {
+        "addr:city": "Gretna",
+        "addr:housenumber": "623",
+        "addr:postcode": "68028",
+        "addr:state": "NE",
+        "addr:street": "North Highway 6",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo 09:00-22:00; Tu 09:00-21:00; We-Su 09:00-22:00",
+        "phone": "+1 402-332-5077",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/gretna/623-n-hwy-6"
+      },
+      "lat": 41.1446377,
+      "lon": -96.2395617
+    },
+    {
+      "type": "node",
+      "id": 6744489916,
+      "tags": {
+        "addr:city": "Kearney",
+        "addr:housenumber": "108",
+        "addr:postcode": "68847",
+        "addr:state": "NE",
+        "addr:street": "2nd Avenue",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "08:00-22:00",
+        "phone": "+1 308-237-7824",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/kearney/108-2nd-ave"
+      },
+      "lat": 40.6731236,
+      "lon": -99.0866845
+    },
+    {
+      "type": "node",
+      "id": 6871404085,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "2600",
+        "addr:postcode": "68506",
+        "addr:state": "NE",
+        "addr:street": "South 48th Street",
+        "addr:unit": "18",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "drive_through": "no",
+        "name": "Subway",
+        "opening_hours": "08:00-21:00",
+        "phone": "+1 402-488-3188",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/lincoln/2600-south-48th-st"
+      },
+      "lat": 40.7855827,
+      "lon": -96.6511416
+    },
+    {
+      "type": "node",
+      "id": 6981334678,
+      "tags": {
+        "addr:city": "Ord",
+        "addr:housenumber": "1424",
+        "addr:postcode": "68862",
+        "addr:state": "NE",
+        "addr:street": "L Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "drive_through": "no",
+        "name": "Subway",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa-Su 09:00-22:00",
+        "phone": "+1 308-728-7625",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/ord/1424-l-street"
+      },
+      "lat": 41.6031249,
+      "lon": -98.9274424
+    },
+    {
+      "type": "node",
+      "id": 7058892169,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "901",
+        "addr:postcode": "68102",
+        "addr:state": "NE",
+        "addr:street": "North 24th Street",
+        "addr:unit": "B",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Fr 08:30-22:00; Sa-Su 10:00-22:00",
+        "phone": "+1 402-345-7808",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/omaha/901-n-24th-st"
+      },
+      "lat": 41.2682801,
+      "lon": -95.9466386
+    },
+    {
+      "type": "node",
+      "id": 7321657837,
+      "tags": {
+        "addr:city": "Fremont",
+        "addr:housenumber": "549",
+        "addr:postcode": "68025",
+        "addr:state": "NE",
+        "addr:street": "East 23rd Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Subway",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 11:00-22:00",
+        "phone": "+1 402-727-7827",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/fremont/549-e-23rd-st"
+      },
+      "lat": 41.451198,
+      "lon": -96.4904575
+    },
+    {
+      "type": "node",
+      "id": 7546124075,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "4350",
+        "addr:postcode": "68105",
+        "addr:state": "NE",
+        "addr:street": "Dewey Avenue",
+        "addr:unit": "1",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "delivery": "no",
+        "diet:vegetarian": "yes",
+        "name": "Subway",
+        "opening_hours": "24/7",
+        "payment:debit_cards": "yes",
+        "payment:nfc": "yes",
+        "phone": "+1-402-552-2123",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/omaha/4350-dewey-avenue",
+        "wheelchair": "yes"
+      },
+      "lat": 41.2563432,
+      "lon": -95.9779785
+    },
+    {
+      "type": "node",
+      "id": 7788569148,
+      "tags": {
+        "addr:city": "Minden",
+        "addr:housenumber": "108",
+        "addr:postcode": "68959",
+        "addr:state": "NE",
+        "addr:street": "West 13th Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Subway",
+        "opening_hours": "Mo-We 09:00-22:00; Th-Fr 09:00-23:00; Sa-Su 09:00-21:00",
+        "phone": "+1 308-832-0608",
+        "ref": "12695",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/minden/108-w-13th-street"
+      },
+      "lat": 40.5068299,
+      "lon": -98.952279
+    },
+    {
+      "type": "node",
+      "id": 8296395090,
+      "tags": {
+        "addr:city": "Louisville",
+        "addr:housenumber": "104",
+        "addr:postcode": "68037",
+        "addr:state": "NE",
+        "addr:street": "North Main Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "09:00-22:00",
+        "phone": "+1 402-234-5003",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/louisville/104-n-main-st"
+      },
+      "lat": 41.0041034,
+      "lon": -96.1616912
+    },
+    {
+      "type": "node",
+      "id": 8367205330,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "7309",
+        "addr:postcode": "68114",
+        "addr:state": "NE",
+        "addr:street": "Jones Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "drive_through": "no",
+        "indoor_seating": "yes",
+        "name": "Subway",
+        "opening_hours": "Mo-Fr 11:00-20:00; Sa 10:00-20:00; Su 11:00-20:00",
+        "outdoor_seating": "no",
+        "phone": "+1 402-884-5091",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/omaha/7309-jones-street"
+      },
+      "lat": 41.2532743,
+      "lon": -96.0256141
+    },
+    {
+      "type": "node",
+      "id": 8805619497,
+      "tags": {
+        "addr:city": "Cozad",
+        "addr:housenumber": "114",
+        "addr:postcode": "69130",
+        "addr:state": "NE",
+        "addr:street": "Meridian Avenue",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "10:00-22:00",
+        "phone": "+1 308-784-3737",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/cozad/114-meridian"
+      },
+      "lat": 40.8532725,
+      "lon": -99.9851953
+    },
+    {
+      "type": "node",
+      "id": 9162843021,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "6304",
+        "addr:postcode": "68134",
+        "addr:state": "NE",
+        "addr:street": "North 99th Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Sa 09:30-20:30; Su 09:30-20:00",
+        "phone": "+1 402-573-9686",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/omaha/6304-n-99th-st"
+      },
+      "lat": 41.3150213,
+      "lon": -96.0678125
+    },
+    {
+      "type": "node",
+      "id": 9312615325,
+      "tags": {
+        "addr:city": "Roca",
+        "addr:housenumber": "1200",
+        "addr:postcode": "68430",
+        "addr:state": "NE",
+        "addr:street": "Saltillo Road",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "08:00-21:00",
+        "phone": "+1 402-420-6161",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/roca/1200-saltillo-road"
+      },
+      "lat": 40.697894,
+      "lon": -96.7044206
+    },
+    {
+      "type": "node",
+      "id": 10014818883,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "18201",
+        "addr:postcode": "68130",
+        "addr:state": "NE",
+        "addr:street": "Wright Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "09:00-22:00",
+        "phone": "+1 402-334-6898",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/omaha/18201-wright-st"
+      },
+      "lat": 41.2319579,
+      "lon": -96.1995652
+    },
+    {
+      "type": "node",
+      "id": 10820396405,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "1648",
+        "addr:postcode": "68502",
+        "addr:state": "NE",
+        "addr:street": "South Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "phone": "+1-402-477-3955",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/lincoln/1648-south-st"
+      },
+      "lat": 40.7920484,
+      "lon": -96.6972363
+    },
+    {
+      "type": "node",
+      "id": 11133820886,
+      "tags": {
+        "addr:city": "Hastings",
+        "addr:housenumber": "3714",
+        "addr:postcode": "68901",
+        "addr:state": "NE",
+        "addr:street": "Cimarron Plaza",
+        "addr:unit": "260",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 09:00-22:00",
+        "phone": "+1 402-462-4789",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/hastings/3714-cimarron-plaza"
+      },
+      "lat": 40.6226138,
+      "lon": -98.3844899
+    },
+    {
+      "type": "node",
+      "id": 11301126371,
+      "tags": {
+        "addr:city": "Falls City",
+        "addr:housenumber": "1423",
+        "addr:postcode": "68355",
+        "addr:state": "NE",
+        "addr:street": "Harlan Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Th 09:00-21:00; Fr-Sa 09:00-21:30; Su 09:00-21:00",
+        "phone": "+1 402-245-3500",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/falls-city/1423-harlan-street"
+      },
+      "lat": 40.0595253,
+      "lon": -95.6021069
+    },
+    {
+      "type": "node",
+      "id": 11517971927,
+      "tags": {
+        "addr:city": "Schuyler",
+        "addr:housenumber": "979",
+        "addr:postcode": "68661",
+        "addr:state": "NE",
+        "addr:street": "Road East",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "note": "located inside Love's",
+        "opening_hours": "07:00-23:00",
+        "phone": "+1 402-352-7909",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/schuyler/979-road-e"
+      },
+      "lat": 41.4515837,
+      "lon": -97.0845898
+    },
+    {
+      "type": "node",
+      "id": 11640325213,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "12243",
+        "addr:postcode": "68144",
+        "addr:state": "NE",
+        "addr:street": "West Center Road",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "09:00-22:00",
+        "phone": "+1 402-333-9622",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/omaha/12243-w-center-rd"
+      },
+      "lat": 41.2335265,
+      "lon": -96.1034736
+    },
+    {
+      "type": "node",
+      "id": 11663962557,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "1550",
+        "addr:postcode": "68522",
+        "addr:state": "NE",
+        "addr:street": "South Coddington Avenue",
+        "addr:unit": "G",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "check_date": "2024-02-25",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "phone": "+1 402-477-1551",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/lincoln/1550-s-coddington"
+      },
+      "lat": 40.7984696,
+      "lon": -96.7478397
+    },
+    {
+      "type": "node",
+      "id": 11663962558,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "4700",
+        "addr:postcode": "68521",
+        "addr:state": "NE",
+        "addr:street": "North 27th Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "drive_through": "no",
+        "name": "Subway",
+        "opening_hours": "09:00-21:00",
+        "phone": "+1 402-474-0006",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/lincoln/4700-n-27th-street"
+      },
+      "lat": 40.8588852,
+      "lon": -96.6781732
+    },
+    {
+      "type": "node",
+      "id": 11728118180,
+      "tags": {
+        "addr:city": "Gering",
+        "addr:housenumber": "1635",
+        "addr:postcode": "69341",
+        "addr:state": "NE",
+        "addr:street": "Tenth Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "08:30-21:30",
+        "phone": "+1 308-436-2221",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/gering/1635-tenth-st"
+      },
+      "lat": 41.8251907,
+      "lon": -103.6607152
+    },
+    {
+      "type": "node",
+      "id": 11728606314,
+      "tags": {
+        "addr:city": "Scottsbluff",
+        "addr:housenumber": "814",
+        "addr:postcode": "69361",
+        "addr:state": "NE",
+        "addr:street": "West 27th Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Sa 09:00-22:30; Su 09:00-21:00",
+        "phone": "+1 308-632-3005",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/scottsbluff/814-w-27th-st"
+      },
+      "lat": 41.8734562,
+      "lon": -103.6746946
+    },
+    {
+      "type": "node",
+      "id": 12038461708,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      },
+      "lat": 40.5241863,
+      "lon": -97.5951138
+    },
+    {
+      "type": "node",
+      "id": 12128928774,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "8901",
+        "addr:postcode": "68526",
+        "addr:state": "NE",
+        "addr:street": "Andermatt Drive",
+        "addr:unit": "101",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "09:00-22:00",
+        "phone": "+1 402-483-4220",
+        "source": "bing",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/lincoln/8901-andermatt-drive"
+      },
+      "lat": 40.7334608,
+      "lon": -96.5996967
+    },
+    {
+      "type": "node",
+      "id": 12146583076,
+      "tags": {
+        "addr:city": "Plattsmouth",
+        "addr:housenumber": "902",
+        "addr:postcode": "68048",
+        "addr:state": "NE",
+        "addr:street": "Chicago Avenue",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      },
+      "lat": 41.0021874,
+      "lon": -95.894831
+    },
+    {
+      "type": "node",
+      "id": 13004584113,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      },
+      "lat": 41.1175171,
+      "lon": -102.9520383
+    },
+    {
+      "type": "node",
+      "id": 13998188800,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "check_date": "2026-07-08",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      },
+      "lat": 42.5501837,
+      "lon": -99.8518096
+    },
+    {
+      "type": "node",
+      "id": 14078711002,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Subway"
+      },
+      "lat": 40.5973593,
+      "lon": -97.8588894
+    },
+    {
+      "type": "node",
+      "id": 14216288852,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      },
+      "lat": 41.8367752,
+      "lon": -96.7107178
+    },
+    {
+      "type": "way",
+      "id": 208807060,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "3245",
+        "addr:postcode": "68502",
+        "addr:state": "NE",
+        "addr:street": "South 10th Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "check_date": "2024-02-25",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Subway",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa-Su 09:00-22:00",
+        "phone": "+1-402-421-9191",
+        "source": "bing",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/lincoln/3245-s-10th-st"
+      },
+      "center": {
+        "lat": 40.7802329,
+        "lon": -96.70687099999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 387463345,
+      "tags": {
+        "addr:city": "Bellevue",
+        "addr:housenumber": "2302",
+        "addr:postcode": "68123",
+        "addr:state": "NE",
+        "addr:street": "Cornhusker Road",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "diet:vegetarian": "yes",
+        "name": "Subway",
+        "opening_hours": "09:00-22:00",
+        "phone": "+1 402-292-3845",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/bellevue/2302-cornhusker-road"
+      },
+      "center": {
+        "lat": 41.159553599999995,
+        "lon": -95.9455666
+      }
+    },
+    {
+      "type": "way",
+      "id": 454632018,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "14235",
+        "addr:postcode": "68137",
+        "addr:state": "NE",
+        "addr:street": "Q Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "09:00-21:00",
+        "phone": "+1 402-896-5533",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/omaha/14235-q-st"
+      },
+      "center": {
+        "lat": 41.20502664999999,
+        "lon": -96.13673059999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 474029929,
+      "tags": {
+        "addr:city": "Fairbury",
+        "addr:housenumber": "1413",
+        "addr:postcode": "68352",
+        "addr:state": "NE",
+        "addr:street": "K Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "commercial",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "09:00-22:00",
+        "phone": "+1 402-729-3995",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/fairbury/1413-k-st"
+      },
+      "center": {
+        "lat": 40.1471149,
+        "lon": -97.17267404999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 490931110,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.12464145,
+        "lon": -100.76362465
+      }
+    },
+    {
+      "type": "way",
+      "id": 549655587,
+      "tags": {
+        "addr:city": "Blair",
+        "addr:housenumber": "1414",
+        "addr:postcode": "68008",
+        "addr:state": "NE",
+        "addr:street": "Washington Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "09:00-22:00",
+        "phone": "+1 402-426-5466",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/blair/1414-washington-st"
+      },
+      "center": {
+        "lat": 41.5440734,
+        "lon": -96.13324169999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 550499154,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.5155029,
+        "lon": -101.64279024999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 566002135,
+      "tags": {
+        "addr:city": "Battle Creek",
+        "addr:housenumber": "308",
+        "addr:postcode": "68715",
+        "addr:state": "NE",
+        "addr:street": "West Main Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "08:30-21:30",
+        "phone": "+1 402-675-1485",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/battle-creek/308-w-main-street"
+      },
+      "center": {
+        "lat": 41.999679,
+        "lon": -97.60010034999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 604423774,
+      "tags": {
+        "addr:city": "Neligh",
+        "addr:housenumber": "306",
+        "addr:postcode": "68756",
+        "addr:state": "NE",
+        "addr:street": "West 11th Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Th 08:00-21:00; Fr 08:00-22:00; Sa 09:00-22:00; Su 09:00-21:00",
+        "phone": "+1 402-887-5073",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/neligh/306-w-11th-street"
+      },
+      "center": {
+        "lat": 42.13601545,
+        "lon": -98.03210204999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 664250725,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "2929",
+        "addr:postcode": "68504",
+        "addr:state": "NE",
+        "addr:street": "State Fair Park Drive",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "check_date": "2025-03-27",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Subway",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa-Su 09:00-22:00",
+        "phone": "+1-402-464-4300",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/lincoln/2929-state-fair-park-dr"
+      },
+      "center": {
+        "lat": 40.841796450000004,
+        "lon": -96.67993100000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 680469566,
+      "tags": {
+        "addr:city": "Waterloo",
+        "addr:housenumber": "26402",
+        "addr:postcode": "68069",
+        "addr:state": "NE",
+        "addr:street": "West Center Road",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "10:00-20:00",
+        "phone": "+1 402-359-2669",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/waterloo/26402-west-center-road"
+      },
+      "center": {
+        "lat": 41.2344052,
+        "lon": -96.33070525
+      }
+    },
+    {
+      "type": "way",
+      "id": 695889961,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "4020",
+        "addr:postcode": "68131",
+        "addr:state": "NE",
+        "addr:street": "Dodge Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "sandwich",
+        "delivery": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "yes",
+        "name": "Subway",
+        "opening_hours": "Mo-Th 10:00-21:00; Fr,Sa 10:00-22:00; Su 11:00-21:00",
+        "payment:debit_cards": "yes",
+        "payment:nfc": "yes",
+        "phone": "+1-402-551-1081",
+        "source": "EsriWorldImagery",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/omaha/4020-dodge-st",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 41.25986345,
+        "lon": -95.97430955000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 696752886,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "5335",
+        "addr:postcode": "68510",
+        "addr:state": "NE",
+        "addr:street": "O Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Subway",
+        "opening_hours": "Mo-Fr 09:00-22:00; Sa-Su 09:00-22:00",
+        "phone": "+1-402-488-2833",
+        "source": "survey",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/lincoln/5335-o-street"
+      },
+      "center": {
+        "lat": 40.81313595,
+        "lon": -96.64691234999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 806645780,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "5005",
+        "addr:postcode": "68106",
+        "addr:state": "NE",
+        "addr:street": "Center Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "delivery": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Subway",
+        "opening_hours": "Mo-Su 10:00-20:00",
+        "payment:debit_cards": "yes",
+        "payment:nfc": "yes",
+        "phone": "+1-402-551-4416",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/omaha/5005-center-st",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 41.2412372,
+        "lon": -95.99068879999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 852447828,
+      "tags": {
+        "addr:city": "Hartington",
+        "addr:housenumber": "311",
+        "addr:postcode": "68739",
+        "addr:state": "NE",
+        "addr:street": "South Robinson Avenue",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "08:30-22:00",
+        "phone": "+1 402-254-3400",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/hartington/311-s-robinson-ave"
+      },
+      "center": {
+        "lat": 42.614867000000004,
+        "lon": -97.26888599999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 854192698,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com"
+      },
+      "center": {
+        "lat": 42.5365155,
+        "lon": -98.97857250000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 892412068,
+      "tags": {
+        "addr:city": "Norfolk",
+        "addr:housenumber": "1008",
+        "addr:postcode": "68701",
+        "addr:state": "NE",
+        "addr:street": "Riverside Boulevard",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "09:00-22:00",
+        "phone": "+1 402-379-9944",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/norfolk/1008-riverside-blvd"
+      },
+      "center": {
+        "lat": 42.0432624,
+        "lon": -97.4134163
+      }
+    },
+    {
+      "type": "way",
+      "id": 952800480,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "10780",
+        "addr:postcode": "68127",
+        "addr:state": "NE",
+        "addr:street": "M Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "drive_through": "no",
+        "name": "Subway",
+        "opening_hours": "09:00-22:00",
+        "phone": "+1 402-593-6777",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/omaha/10780-m-st"
+      },
+      "center": {
+        "lat": 41.21152805,
+        "lon": -96.080915
+      }
+    },
+    {
+      "type": "way",
+      "id": 1229058057,
+      "tags": {
+        "addr:city": "David City",
+        "addr:housenumber": "404",
+        "addr:postcode": "68632",
+        "addr:state": "NE",
+        "addr:street": "E Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "09:00-21:00",
+        "phone": "+1 402-367-4527",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/david-city/404-e-street"
+      },
+      "center": {
+        "lat": 41.254261400000004,
+        "lon": -97.12985660000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1229058256,
+      "tags": {
+        "addr:city": "Arapahoe",
+        "addr:housenumber": "610",
+        "addr:postcode": "68922",
+        "addr:state": "NE",
+        "addr:street": "Chestnut Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo-Th 08:00-21:00; Fr-Sa 08:00-22:00; Su 08:00-21:00",
+        "phone": "+1 308-962-4782",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/arapahoe/610-chestnut"
+      },
+      "center": {
+        "lat": 40.30652285,
+        "lon": -99.89723305000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1229062061,
+      "tags": {
+        "addr:city": "Superior",
+        "addr:housenumber": "510",
+        "addr:postcode": "68978",
+        "addr:state": "NE",
+        "addr:street": "North Bloom",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "10:00-22:00",
+        "phone": "+1 402-879-4010",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/superior/510-n-bloom"
+      },
+      "center": {
+        "lat": 40.02125795,
+        "lon": -98.06623285
+      }
+    },
+    {
+      "type": "way",
+      "id": 1229062303,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "905",
+        "addr:postcode": "68371",
+        "addr:state": "NE",
+        "addr:street": "Road B",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "10:00-21:00",
+        "phone": "+1 402-723-5470",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/henderson/905-road-b"
+      },
+      "center": {
+        "lat": 40.817705000000004,
+        "lon": -97.80658419999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1229094409,
+      "tags": {
+        "addr:city": "Ashland",
+        "addr:housenumber": "158",
+        "addr:postcode": "68003",
+        "addr:state": "NE",
+        "addr:street": "Highway 6",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "Mo 08:00-20:00; Tu-Su 08:00-21:00",
+        "phone": "+1 402-944-4234",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/ashland/158-hwy-6"
+      },
+      "center": {
+        "lat": 41.042531100000005,
+        "lon": -96.35296590000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1231036307,
+      "tags": {
+        "addr:city": "Wilber",
+        "addr:housenumber": "511",
+        "addr:postcode": "68465",
+        "addr:state": "NE",
+        "addr:street": "South Main Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "10:00-21:00",
+        "phone": "+1 402-821-2002",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/wilber/511-s-main"
+      },
+      "center": {
+        "lat": 40.4791266,
+        "lon": -96.96095405
+      }
+    },
+    {
+      "type": "way",
+      "id": 1231038903,
+      "tags": {
+        "addr:city": "Crete",
+        "addr:housenumber": "925",
+        "addr:postcode": "68333",
+        "addr:state": "NE",
+        "addr:street": "Main Avenue",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "09:00-22:00",
+        "phone": "+1 402-826-5119",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/crete/925-main"
+      },
+      "center": {
+        "lat": 40.62229445,
+        "lon": -96.96245795000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1235847684,
+      "tags": {
+        "addr:city": "Creighton",
+        "addr:housenumber": "1008",
+        "addr:postcode": "68729",
+        "addr:state": "NE",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "08:30-21:30",
+        "phone": "+1 402-358-3281",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/creighton/1008-main-street"
+      },
+      "center": {
+        "lat": 42.4668054,
+        "lon": -97.91018179999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1286656113,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.94265685,
+        "lon": -103.80631649999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1483664836,
+      "tags": {
+        "addr:city": "Pender",
+        "addr:housenumber": "325",
+        "addr:postcode": "68047",
+        "addr:state": "NE",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "retail",
+        "cuisine": "sandwich",
+        "name": "Subway",
+        "opening_hours": "10:00-21:00",
+        "phone": "+1 402-385-0163",
+        "takeaway": "yes",
+        "website": "https://restaurants.subway.com/united-states/ne/pender/325-main-street"
+      },
+      "center": {
+        "lat": 42.11390275,
+        "lon": -96.70693144999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1530243414,
+      "tags": {
+        "addr:city": "Albion",
+        "addr:housenumber": "128",
+        "addr:postcode": "68620",
+        "addr:state": "NE",
+        "addr:street": "West State Street",
+        "amenity": "fast_food",
+        "brand": "Subway",
+        "brand:wikidata": "Q244457",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "drive_through": "no",
+        "name": "Subway",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "phone": "+1-402-395-2915",
+        "takeaway": "yes",
+        "website": "https://www.subway.com"
+      },
+      "center": {
+        "lat": 41.69108595,
+        "lon": -97.99788584999999
+      }
+    }
+  ]
+}

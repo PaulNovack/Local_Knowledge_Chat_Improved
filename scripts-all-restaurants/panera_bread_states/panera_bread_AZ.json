@@ -1,0 +1,962 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "panera_bread",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 408659824,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "845",
+        "addr:postcode": "85719",
+        "addr:state": "AZ",
+        "addr:street": "North Park Avenue",
+        "addr:unit": "125",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "drive_through": "no",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Panera Bread",
+        "opening_hours": "08:00-21:00",
+        "outdoor_seating": "no",
+        "phone": "+1 520-882-5003",
+        "short_name": "Panera",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/tucson/845-north-park-avenue.html"
+      },
+      "lat": 32.2324987,
+      "lon": -110.956933
+    },
+    {
+      "type": "node",
+      "id": 2216786629,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1946",
+        "addr:postcode": "85209",
+        "addr:state": "AZ",
+        "addr:street": "South Signal Butte Road",
+        "addr:unit": "109",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "drive_through": "yes",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Sa 06:00-21:00; Su 07:00-21:00",
+        "phone": "+1 480 751 2387",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/mesa/1946-south-signal-butte-rd.html"
+      },
+      "lat": 33.3800542,
+      "lon": -111.6026067
+    },
+    {
+      "type": "node",
+      "id": 3782832485,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "2845",
+        "addr:postcode": "85012",
+        "addr:state": "AZ",
+        "addr:street": "North Central Avenue",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Fr 06:00-21:00; Sa-Su 07:00-21:00",
+        "phone": "+1 602-274-0290",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/phoenix/2845-n-central-ave.html"
+      },
+      "lat": 33.4799524,
+      "lon": -112.0733852
+    },
+    {
+      "type": "node",
+      "id": 5474783917,
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:housenumber": "1907",
+        "addr:postcode": "85295",
+        "addr:state": "AZ",
+        "addr:street": "East Williams Field Road",
+        "addr:unit": "101",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "drive_through": "yes",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Th 07:00-21:00; Fr-Sa 06:00-21:00; Su 07:00-21:00",
+        "phone": "+1 480-889-7080",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/gilbert/1907-e-williams-field-rd.html",
+        "wikidata": "Q48965480",
+        "wikipedia": "en:Cinnaholic"
+      },
+      "lat": 33.3063578,
+      "lon": -111.7486727
+    },
+    {
+      "type": "node",
+      "id": 6374869772,
+      "tags": {
+        "addr:city": "Prescott",
+        "addr:housenumber": "3065",
+        "addr:postcode": "86303",
+        "addr:state": "AZ",
+        "addr:street": "Gateway Boulevard",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "07:00-21:00",
+        "phone": "+1 928-227-9037",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/prescott/3065-gateway-boulevard.html"
+      },
+      "lat": 34.551329,
+      "lon": -112.4124974
+    },
+    {
+      "type": "node",
+      "id": 6484024033,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "9918",
+        "addr:postcode": "85383",
+        "addr:state": "AZ",
+        "addr:street": "West Happy Valley Road",
+        "addr:unit": "200",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Sa 06:30-21:30; Su 07:00-21:00",
+        "phone": "+1 623-889-3308",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/peoria/9918-w-happy-valley-rd.html"
+      },
+      "lat": 33.7118571,
+      "lon": -112.2728156
+    },
+    {
+      "type": "node",
+      "id": 6543695421,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "3400",
+        "addr:postcode": "85034",
+        "addr:state": "AZ",
+        "addr:street": "East Sky Harbor Boulevard",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "check_date": "2024-09-16",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Sa 06:00-21:00; Su 07:00-21:00",
+        "phone": "+1 623-289-6213",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/phoenix/3400-e-sky-harbor-blvd.html"
+      },
+      "lat": 33.4343895,
+      "lon": -112.0102531
+    },
+    {
+      "type": "node",
+      "id": 6575849485,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "3800",
+        "addr:postcode": "85034",
+        "addr:state": "AZ",
+        "addr:street": "Sky Harbor Boulevard",
+        "addr:unit": "4 Gate C14",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "level": "1",
+        "name": "Panera Bread",
+        "opening_hours": "05:00-19:00",
+        "phone": "+1 602-681-0909",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/phoenix/3800-sky-harbor-boulevard.html"
+      },
+      "lat": 33.4340996,
+      "lon": -111.994401
+    },
+    {
+      "type": "node",
+      "id": 8113265956,
+      "tags": {
+        "addr:city": "Tempe",
+        "addr:housenumber": "2000",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "addr:street": "East Rio Salado Parkway",
+        "addr:unit": "1143",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 08:00-21:00",
+        "phone": "+1 480-889-0683",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/tempe/2000-east-rio-salado-parkway.html"
+      },
+      "lat": 33.433907,
+      "lon": -111.9021304
+    },
+    {
+      "type": "node",
+      "id": 8483374221,
+      "tags": {
+        "addr:city": "Oro Valley",
+        "addr:housenumber": "10604",
+        "addr:postcode": "85737",
+        "addr:state": "AZ",
+        "addr:street": "North Oracle Road",
+        "addr:unit": "100",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "check_date": "2023-06-17",
+        "cuisine": "sandwich;bakery",
+        "drive_through": "yes",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Sa 06:00-21:00; Su 07:00-20:00",
+        "phone": "+1 520-297-1026",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/oro-valley/10604-n-oracle-road.html"
+      },
+      "lat": 32.3988245,
+      "lon": -110.955717
+    },
+    {
+      "type": "node",
+      "id": 8535599726,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "1949",
+        "addr:postcode": "85016",
+        "addr:state": "AZ",
+        "addr:street": "East Camelback Road",
+        "addr:unit": "160",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "07:00-21:00",
+        "phone": "+1 480-707-6090",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/phoenix/1949-e-camelback-rd.html"
+      },
+      "lat": 33.5074954,
+      "lon": -112.0398837
+    },
+    {
+      "type": "node",
+      "id": 8910127049,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "7635",
+        "addr:postcode": "85382",
+        "addr:state": "AZ",
+        "addr:street": "West Bell Road",
+        "addr:unit": "101",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "drive_through": "no",
+        "name": "Panera Bread",
+        "opening_hours": "06:00-22:00",
+        "phone": "+1 623-776-3261",
+        "short_name": "Panera",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/peoria/7635-west-bell-road.html"
+      },
+      "lat": 33.6378722,
+      "lon": -112.2230221
+    },
+    {
+      "type": "node",
+      "id": 9688403726,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "5313",
+        "addr:postcode": "85017",
+        "addr:state": "AZ",
+        "addr:street": "North 29th Avenue",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "07:00-23:00",
+        "phone": "+1 480-689-8757",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/phoenix/5313-north-29th-avenue.html"
+      },
+      "lat": 33.5152231,
+      "lon": -112.118365
+    },
+    {
+      "type": "node",
+      "id": 10112770517,
+      "tags": {
+        "addr:city": "Avondale",
+        "addr:housenumber": "9995",
+        "addr:postcode": "85392",
+        "addr:state": "AZ",
+        "addr:street": "West McDowell Road;West Mcdowell Road",
+        "addr:unit": "101",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "name:en": "Panera Bread",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su 07:00-22:00",
+        "phone": "+1 623-889-6313",
+        "short_name": "Panera",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/avondale/9995-west-mcdowell-road.html"
+      },
+      "lat": 33.4643087,
+      "lon": -112.2742494
+    },
+    {
+      "type": "node",
+      "id": 10566816874,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "3426",
+        "addr:postcode": "85204",
+        "addr:state": "AZ",
+        "addr:street": "East Baseline Road",
+        "addr:unit": "113",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "07:00-21:00",
+        "phone": "+1 480-633-9696",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/mesa/3426-east-baseline-rd.html"
+      },
+      "lat": 33.381079,
+      "lon": -111.7573155
+    },
+    {
+      "type": "node",
+      "id": 11910710956,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "drive_through": "yes",
+        "name": "Panera Bread",
+        "short_name": "Panera",
+        "takeaway": "yes"
+      },
+      "lat": 33.3779316,
+      "lon": -112.1856878
+    },
+    {
+      "type": "node",
+      "id": 12547478880,
+      "tags": {
+        "addr:city": "Queen Creek",
+        "addr:housenumber": "20670",
+        "addr:postcode": "85142",
+        "addr:state": "AZ",
+        "addr:street": "East Victoria Lane",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "short_name": "Panera",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes"
+      },
+      "lat": 33.2520498,
+      "lon": -111.637359
+    },
+    {
+      "type": "node",
+      "id": 13950555170,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "indoor_seating": "yes",
+        "name": "Panera Bread",
+        "outdoor_seating": "no",
+        "short_name": "Panera",
+        "takeaway": "yes"
+      },
+      "lat": 33.3071119,
+      "lon": -111.6688379
+    },
+    {
+      "type": "node",
+      "id": 14016428889,
+      "tags": {
+        "addr:city": "Scottsdale",
+        "addr:housenumber": "19641",
+        "addr:postcode": "85255",
+        "addr:state": "AZ",
+        "addr:street": "North Scottsdale Road",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "drive_through": "yes",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Sa 06:00-21:00; Su 07:00-21:00",
+        "phone": "+1-602-428-1530",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://www.panerabread.com/content/panerabread_com/en-us/cafe/locations/az/scottsdale/19641-n-scottsdale-rd"
+      },
+      "lat": 33.6664556,
+      "lon": -111.9247013
+    },
+    {
+      "type": "node",
+      "id": 14292144478,
+      "tags": {
+        "addr:city": "Goodyear",
+        "addr:housenumber": "15479",
+        "addr:postcode": "85395",
+        "addr:state": "AZ",
+        "addr:street": "West McDowell Road",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "short_name": "Panera",
+        "takeaway": "yes"
+      },
+      "lat": 33.4640472,
+      "lon": -112.392052
+    },
+    {
+      "type": "way",
+      "id": 64888612,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "4512",
+        "addr:postcode": "85032",
+        "addr:state": "AZ",
+        "addr:street": "East Cactus Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "sandwich;bakery",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Th 06:00-21:00; Fr-Su 07:00-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 480-751-5960",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/phoenix/4512-e-cactus-rd.html"
+      },
+      "center": {
+        "lat": 33.600309949999996,
+        "lon": -111.98568069999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 200761701,
+      "tags": {
+        "addr:city": "Chandler",
+        "addr:housenumber": "3141",
+        "addr:postcode": "85226",
+        "addr:state": "AZ",
+        "addr:street": "West Frye Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "yes",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "07:00-21:00",
+        "phone": "+1 480-889-0121",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/chandler/3141-west-frye-rd.html"
+      },
+      "center": {
+        "lat": 33.2974977,
+        "lon": -111.896207
+      }
+    },
+    {
+      "type": "way",
+      "id": 237166553,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "10430",
+        "addr:postcode": "85051",
+        "addr:state": "AZ",
+        "addr:street": "North 28th Drive",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "retail",
+        "check_date": "2026-01-14",
+        "cuisine": "sandwich;bakery",
+        "drive_through": "yes",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su 07:00-22:00",
+        "phone": "+1 602-707-9555",
+        "short_name": "Panera",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/phoenix/10430-n-28th-drive.html"
+      },
+      "center": {
+        "lat": 33.5805185,
+        "lon": -112.12234504999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 262861213,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "509;375",
+        "addr:postcode": "85022",
+        "addr:state": "AZ",
+        "addr:street": "East Bell Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "yes",
+        "cuisine": "sandwich;bakery",
+        "drive_through": "no",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Th 07:00-21:00; Fr-Sa 06:00-21:00; Su 07:00-21:00",
+        "phone": "+1 602-296-5151",
+        "short_name": "Panera",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://www.panerabread.com/en-us/cafe/locations/az/phoenix/375-e-bell-road"
+      },
+      "center": {
+        "lat": 33.63993955,
+        "lon": -112.06817684999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 356143235,
+      "tags": {
+        "addr:city": "Surprise",
+        "addr:housenumber": "13959",
+        "addr:postcode": "85374",
+        "addr:state": "AZ",
+        "addr:street": "West Bell Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "yes",
+        "cuisine": "sandwich;bakery",
+        "drive_through": "yes",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Sa 07:00-21:00; Su 07:00-20:00",
+        "phone": "+1-623-512-4684",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://www.panerabread.com/en-us/home.html"
+      },
+      "center": {
+        "lat": 33.638220849999996,
+        "lon": -112.36106434999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 544050164,
+      "tags": {
+        "addr:city": "Chandler",
+        "addr:housenumber": "3991",
+        "addr:postcode": "85248",
+        "addr:state": "AZ",
+        "addr:street": "South Arizona Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "yes",
+        "cuisine": "sandwich;bakery",
+        "drive_through": "yes",
+        "name": "Panera Bread",
+        "opening_hours": "06:00-21:00",
+        "phone": "+1 480-895-7688",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/chandler/3991-s-arizona-ave.html"
+      },
+      "center": {
+        "lat": 33.24810035,
+        "lon": -111.83967560000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 553399849,
+      "tags": {
+        "addr:city": "Scottsdale",
+        "addr:housenumber": "7145",
+        "addr:postcode": "85251",
+        "addr:state": "AZ",
+        "addr:street": "East Indian School Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "yes",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Sa 06:00-21:00; Su 08:00-20:30",
+        "phone": "+1 480-990-1029",
+        "short_name": "Panera",
+        "source": "esri_USDOT_Arizona",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/scottsdale/7145-e-indian-school-rd.html"
+      },
+      "center": {
+        "lat": 33.494696250000004,
+        "lon": -111.92710469999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 591666862,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1705",
+        "addr:postcode": "85204",
+        "addr:state": "AZ",
+        "addr:street": "South Stapley Drive",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "yes",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Fr 06:00-21:00; Sa-Su 07:00-21:00",
+        "phone": "+1 480-337-7382",
+        "short_name": "Panera",
+        "source": "Bing;esri_USDOT_Arizona;esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/mesa/1705-south-stapley-dr.html"
+      },
+      "center": {
+        "lat": 33.38184345,
+        "lon": -111.80530205000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 664970100,
+      "tags": {
+        "addr:city": "Chandler",
+        "addr:housenumber": "2820",
+        "addr:postcode": "85286",
+        "addr:state": "AZ",
+        "addr:street": "East Germann Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "yes",
+        "cuisine": "sandwich;bakery",
+        "drive_through": "yes",
+        "name": "Panera Bread",
+        "opening_hours": "07:00-21:00",
+        "phone": "+1 480-751-6235",
+        "short_name": "Panera",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/chandler/2820-e-germann-rd.html"
+      },
+      "center": {
+        "lat": 33.27934775,
+        "lon": -111.79233779999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 841979175,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "4821",
+        "addr:postcode": "85712",
+        "addr:state": "AZ",
+        "addr:street": "East Grant Road",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "yes",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "short_name": "Panera",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.25096095,
+        "lon": -110.89018985000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 959018080,
+      "tags": {
+        "addr:city": "Tempe",
+        "addr:housenumber": "1707",
+        "addr:postcode": "85284",
+        "addr:state": "AZ",
+        "addr:street": "West Warner Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "sandwich;bakery",
+        "drive_through": "yes",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Sa 07:00-21:00; Su 08:00-21:00",
+        "phone": "+1 480-305-6994",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/tempe/1707-west-warner-rd.html"
+      },
+      "center": {
+        "lat": 33.33398915,
+        "lon": -111.96718635000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1112423650,
+      "tags": {
+        "addr:city": "Goodyear",
+        "addr:housenumber": "1452",
+        "addr:postcode": "85395",
+        "addr:state": "AZ",
+        "addr:street": "North Pebble Creek Parkway",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "yes",
+        "cuisine": "sandwich;bakery",
+        "drive_through": "yes",
+        "name": "Panera Bread",
+        "opening_hours": "06:00-22:00",
+        "phone": "+1 623-414-4879",
+        "short_name": "Panera",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/goodyear/1452-n-pebble-creek-pkwy.html"
+      },
+      "center": {
+        "lat": 33.46263505,
+        "lon": -112.3931895
+      }
+    },
+    {
+      "type": "way",
+      "id": 1157119063,
+      "tags": {
+        "addr:city": "Surprise",
+        "addr:housenumber": "13536",
+        "addr:postcode": "85388",
+        "addr:state": "AZ",
+        "addr:street": "North Prasada Parkway",
+        "addr:unit": "100",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "short_name": "Panera",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.6073413,
+        "lon": -112.41430130000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1157823906,
+      "tags": {
+        "addr:city": "Scottsdale",
+        "addr:housenumber": "14826",
+        "addr:postcode": "85260",
+        "addr:state": "AZ",
+        "addr:street": "North Pima Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "yes",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Sa 06:00-20:00; Su 07:00-20:00",
+        "phone": "+1 480-290-7770",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/scottsdale/14826-n-pima-road.html"
+      },
+      "center": {
+        "lat": 33.61923075,
+        "lon": -111.89229649999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1177397487,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "4931",
+        "addr:postcode": "85212",
+        "addr:state": "AZ",
+        "addr:street": "South Power Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "yes",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "07:00-21:00",
+        "phone": "+1 480-581-5380",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/az/mesa/4931-south-power-rd.html"
+      },
+      "center": {
+        "lat": 33.32625195,
+        "lon": -111.68641809999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1388142348,
+      "tags": {
+        "addr:city": "Yuma",
+        "addr:housenumber": "1537",
+        "addr:postcode": "85364",
+        "addr:state": "AZ",
+        "addr:street": "South 4th Avenue",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "yes",
+        "cuisine": "sandwich;bakery",
+        "drive_through": "yes",
+        "name": "Panera Bread",
+        "short_name": "Panera",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.699674650000006,
+        "lon": -114.62420595000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1539931524,
+      "tags": {
+        "addr:city": "Buckeye",
+        "addr:housenumber": "20920",
+        "addr:postcode": "85326",
+        "addr:state": "AZ",
+        "addr:street": "West Roosevelt Street",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "yes",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "short_name": "Panera",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.45836665,
+        "lon": -112.50252024999998
+      }
+    }
+  ]
+}

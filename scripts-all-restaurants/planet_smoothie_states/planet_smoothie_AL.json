@@ -1,0 +1,57 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AL",
+    "brand": "planet_smoothie",
+    "source": "https://download.geofabrik.de/north-america/us/alabama-latest.osm.pbf",
+    "source_md5": "3ee9c8ab6ddb6921e2aa2562af6c9bce",
+    "processed_utc": "2026-10-24T06:56:09.586986+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12121527281,
+      "tags": {
+        "addr:city": "Huntsville",
+        "addr:housenumber": "975",
+        "addr:postcode": "35802",
+        "addr:state": "AL",
+        "addr:street": "Airport Road Southwest",
+        "addr:unit": "N",
+        "amenity": "fast_food",
+        "brand": "Planet Smoothie",
+        "brand:wikidata": "Q7201170",
+        "cuisine": "smoothie",
+        "name": "Planet Smoothie",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-18:00; Su 12:00-17:00",
+        "phone": "+1-256-489-5954",
+        "takeaway": "yes",
+        "website": "https://www.planetsmoothie.com/stores/huntsville/19258"
+      },
+      "lat": 34.6900265,
+      "lon": -86.5775649
+    },
+    {
+      "type": "node",
+      "id": 12878161148,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Planet Smoothie",
+        "brand:wikidata": "Q7201170",
+        "cuisine": "smoothie",
+        "drive_through": "no",
+        "name": "Planet Smoothie",
+        "takeaway": "yes"
+      },
+      "lat": 33.6182735,
+      "lon": -86.6085112
+    }
+  ]
+}

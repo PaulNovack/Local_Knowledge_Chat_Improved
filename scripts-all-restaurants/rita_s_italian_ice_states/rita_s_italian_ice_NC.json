@@ -1,0 +1,90 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "rita_s_italian_ice",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2801850526,
+      "tags": {
+        "addr:city": "Cary",
+        "addr:country": "US",
+        "addr:housenumber": "921",
+        "addr:postcode": "27513",
+        "addr:state": "NC",
+        "addr:street": "North Harrison Avenue",
+        "amenity": "ice_cream",
+        "brand": "Rita's Italian Ice",
+        "brand:wikidata": "Q7336456",
+        "check_date": "2026-09-12",
+        "cuisine": "ice_cream",
+        "name": "Rita's Italian Ice",
+        "opening_hours": "Mo-Su 12:00-21:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-919-234-1509",
+        "takeaway": "yes",
+        "website": "https://ritasice.com/location/ritas-of-cary-nc",
+        "wheelchair": "limited"
+      },
+      "lat": 35.8006564,
+      "lon": -78.7834853
+    },
+    {
+      "type": "node",
+      "id": 10136201297,
+      "tags": {
+        "addr:city": "Charlotte",
+        "addr:housenumber": "1806",
+        "addr:postcode": "28208",
+        "addr:state": "NC",
+        "addr:street": "Rozzelles Ferry Road",
+        "amenity": "ice_cream",
+        "brand": "Rita's Italian Ice",
+        "brand:wikidata": "Q7336456",
+        "cuisine": "ice_cream",
+        "name": "Rita's Italian Ice"
+      },
+      "lat": 35.242111,
+      "lon": -80.8592156
+    },
+    {
+      "type": "node",
+      "id": 13087271719,
+      "tags": {
+        "amenity": "ice_cream",
+        "name": "Rita's Italian Ice",
+        "outdoor_seating": "yes"
+      },
+      "lat": 35.0232759,
+      "lon": -80.8486395
+    },
+    {
+      "type": "node",
+      "id": 13688544802,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Rita's Italian Ice",
+        "brand:wikidata": "Q7336456",
+        "check_date": "2026-03-29",
+        "name": "Rita's Italian Ice"
+      },
+      "lat": 35.5821754,
+      "lon": -80.8823353
+    }
+  ]
+}

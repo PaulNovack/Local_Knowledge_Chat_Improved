@@ -1,0 +1,2342 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/3.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "wendys",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T06:25:56.551011+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 561089816,
+      "tags": {
+        "addr:city": "Worcester",
+        "addr:housenumber": "560",
+        "addr:postcode": "01607",
+        "addr:state": "MA",
+        "addr:street": "Southwest Cutoff",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 508-793-1601",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/worcester/560-southwest-cutoff"
+      },
+      "lat": 42.2124085,
+      "lon": -71.7969247
+    },
+    {
+      "type": "node",
+      "id": 957119807,
+      "tags": {
+        "addr:city": "Medford",
+        "addr:housenumber": "330",
+        "addr:postcode": "02155",
+        "addr:state": "MA",
+        "addr:street": "Middlesex Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "Medford, MA",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "check_date": "2025-12-08",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-We 06:30-26:00; Th-Fr 06:30-27:00; Sa 07:00-27:00; Su 07:00-26:00",
+        "phone": "+1-617-203-3014",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/medford/330-middlesex-ave"
+      },
+      "lat": 42.4145545,
+      "lon": -71.0799979
+    },
+    {
+      "type": "node",
+      "id": 3688607791,
+      "tags": {
+        "addr:city": "Burlington",
+        "addr:housenumber": "112",
+        "addr:postcode": "01803",
+        "addr:state": "MA",
+        "addr:street": "Burlington Mall Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-We 06:30-00:00; Th-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 781-272-0866",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/burlington/112-burlington-mall-road"
+      },
+      "lat": 42.485289,
+      "lon": -71.2178459
+    },
+    {
+      "type": "node",
+      "id": 4047472982,
+      "tags": {
+        "addr:city": "Plymouth",
+        "addr:housenumber": "69",
+        "addr:postcode": "02360",
+        "addr:state": "MA",
+        "addr:street": "Long Pond Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 508-927-4073",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/plymouth/69-long-pond-drive"
+      },
+      "lat": 41.9298826,
+      "lon": -70.6590112
+    },
+    {
+      "type": "node",
+      "id": 4074813989,
+      "tags": {
+        "addr:city": "Boston",
+        "addr:housenumber": "71",
+        "addr:postcode": "02110",
+        "addr:state": "MA",
+        "addr:street": "Summer Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa 08:00-22:00; Su 08:00-21:00",
+        "phone": "+1 617-542-5719",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/boston/71-summer-street"
+      },
+      "lat": 42.3542245,
+      "lon": -71.0590064
+    },
+    {
+      "type": "node",
+      "id": 4454436308,
+      "tags": {
+        "addr:city": "Boston",
+        "addr:housenumber": "551",
+        "addr:postcode": "02116",
+        "addr:state": "MA",
+        "addr:street": "Boylston Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "diet:vegetarian": "no",
+        "drive_through": "no",
+        "fixme:atp": "no ATP match, check if still exists",
+        "internet_access": "wlan",
+        "name": "Wendy's",
+        "phone": "+1-617-262-0727",
+        "takeaway": "yes"
+      },
+      "lat": 42.3507027,
+      "lon": -71.0759936
+    },
+    {
+      "type": "node",
+      "id": 4564083912,
+      "tags": {
+        "addr:city": "Quincy",
+        "addr:housenumber": "520",
+        "addr:postcode": "02169",
+        "addr:state": "MA",
+        "addr:street": "Southern Artery",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-00:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-04:00",
+        "phone": "+1 617-472-3981",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/quincy/520-southern-artery"
+      },
+      "lat": 42.2538301,
+      "lon": -70.9941075
+    },
+    {
+      "type": "node",
+      "id": 5197250403,
+      "tags": {
+        "addr:city": "Boston",
+        "addr:housenumber": "157",
+        "addr:postcode": "02115",
+        "addr:state": "MA",
+        "addr:street": "Massachusetts Avenue",
+        "addr:unit": "A",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "check_date": "2023-06-04",
+        "contact:facebook": "https://www.facebook.com/Wendys157aMassachusettsAve/",
+        "contact:instagram": "https://www.instagram.com/wendys/",
+        "contact:twitter": "https://twitter.com/Wendys",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "0",
+        "name": "Wendy's",
+        "opening_hours": "08:00-23:30",
+        "operator": "Quality Is Our Recipe, LLC",
+        "phone": "+1 617-236-1550",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/boston/157-a-massachusetts-avenue"
+      },
+      "lat": 42.3464032,
+      "lon": -71.0875262
+    },
+    {
+      "type": "node",
+      "id": 5586787323,
+      "tags": {
+        "addr:city": "Revere",
+        "addr:housenumber": "42",
+        "addr:postcode": "02151",
+        "addr:state": "MA",
+        "addr:street": "Furlong Drive",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "Furlong Dr., Revere, MA",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "check_date": "2025-12-08",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Su-Th 06:30-26:00; Fr-Sa 06:30-27:00",
+        "phone": "+1-781-289-1676",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/revere/42-furlong-drive"
+      },
+      "lat": 42.3983613,
+      "lon": -70.9998331
+    },
+    {
+      "type": "node",
+      "id": 6900050312,
+      "tags": {
+        "addr:city": "Athol",
+        "addr:housenumber": "56",
+        "addr:postcode": "01331",
+        "addr:state": "MA",
+        "addr:street": "Market Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 978-575-3600",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/athol/56-market-dr"
+      },
+      "lat": 42.5804065,
+      "lon": -72.183189
+    },
+    {
+      "type": "node",
+      "id": 7630776689,
+      "tags": {
+        "addr:city": "Lowell",
+        "addr:housenumber": "1460",
+        "addr:postcode": "01851",
+        "addr:state": "MA",
+        "addr:street": "Middlesex Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 978-458-6320",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/lowell/1460-middlesex-street"
+      },
+      "lat": 42.6375921,
+      "lon": -71.3439319
+    },
+    {
+      "type": "node",
+      "id": 8929655772,
+      "tags": {
+        "addr:city": "Swansea",
+        "addr:housenumber": "632",
+        "addr:postcode": "02777",
+        "addr:state": "MA",
+        "addr:street": "Grand Army Highway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-01:00; Fr-Sa 06:30-02:00; Su 06:30-01:00",
+        "phone": "+1 508-676-3704",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/swansea/632-grand-army-hwy"
+      },
+      "lat": 41.7478348,
+      "lon": -71.209002
+    },
+    {
+      "type": "node",
+      "id": 8933444700,
+      "tags": {
+        "addr:city": "Fall River",
+        "addr:housenumber": "35",
+        "addr:postcode": "02721",
+        "addr:state": "MA",
+        "addr:street": "Mariano Bishop Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 508-674-1740",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/fall-river/35-mariano-bishop-blvd"
+      },
+      "lat": 41.6770879,
+      "lon": -71.1627568
+    },
+    {
+      "type": "node",
+      "id": 8939498662,
+      "tags": {
+        "addr:city": "Fall River",
+        "addr:housenumber": "500",
+        "addr:postcode": "02720",
+        "addr:state": "MA",
+        "addr:street": "Bedford Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-03:00",
+        "phone": "+1 508-675-7369",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/fall-river/500-bedford-street"
+      },
+      "lat": 41.7004283,
+      "lon": -71.1457659
+    },
+    {
+      "type": "node",
+      "id": 11081876564,
+      "tags": {
+        "addr:city": "Maynard",
+        "addr:housenumber": "115",
+        "addr:postcode": "01754",
+        "addr:state": "MA",
+        "addr:street": "Powder Mill Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "fixme": "field check address; lot is 115 powder mill maynard, 7 powder mill acton",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 978-461-0444",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/maynard/115-powder-mill-road"
+      },
+      "lat": 42.4386132,
+      "lon": -71.4348811
+    },
+    {
+      "type": "node",
+      "id": 11864111470,
+      "tags": {
+        "addr:city": "Chicopee",
+        "addr:housenumber": "786",
+        "addr:postcode": "01020",
+        "addr:state": "MA",
+        "addr:street": "Memorial Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-03:00",
+        "phone": "+1 413-612-0247",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/chicopee/786-memorial-dr"
+      },
+      "lat": 42.1792618,
+      "lon": -72.5777384
+    },
+    {
+      "type": "node",
+      "id": 12061185271,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "phone": "+1-508-832-9830",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/auburn/688-south-bridge-street"
+      },
+      "lat": 42.1843155,
+      "lon": -71.8587047
+    },
+    {
+      "type": "node",
+      "id": 12215480493,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Wendy's"
+      },
+      "lat": 42.5519608,
+      "lon": -71.5727512
+    },
+    {
+      "type": "node",
+      "id": 13141652541,
+      "tags": {
+        "access": "university",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "name": "Wendy's",
+        "operator": "University of Massachusetts, Dartmouth",
+        "takeaway": "yes"
+      },
+      "lat": 41.6288341,
+      "lon": -71.004644
+    },
+    {
+      "type": "node",
+      "id": 13148065839,
+      "tags": {
+        "addr:city": "Everett",
+        "addr:housenumber": "1724;1734",
+        "addr:postcode": "02149",
+        "addr:state": "MA",
+        "addr:street": "Revere Beach Parkway",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "check_date": "2025-09-16",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Su 06:00-26:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-617-394-9768",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/everett/1724-revere-beach-parkway"
+      },
+      "lat": 42.401643,
+      "lon": -71.0443066
+    },
+    {
+      "type": "node",
+      "id": 13148140688,
+      "tags": {
+        "addr:city": "Lynn",
+        "addr:housenumber": "377",
+        "addr:postcode": "01901",
+        "addr:state": "MA",
+        "addr:street": "Lynnway",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Su-Mo 06:30-25:00; Tu-Sa 06:30-26:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-781-598-9172",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "https://locations.wendys.com/united-states/ma/lynn/377-lynnway",
+        "wheelchair": "yes"
+      },
+      "lat": 42.45737,
+      "lon": -70.9513273
+    },
+    {
+      "type": "node",
+      "id": 13148149967,
+      "tags": {
+        "addr:city": "Lynn",
+        "addr:housenumber": "116",
+        "addr:postcode": "01904",
+        "addr:state": "MA",
+        "addr:street": "Boston Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Sa 06:30-28:00; Su 06:30-27:00",
+        "phone": "+1-781-596-1030",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/lynn/116-boston-st"
+      },
+      "lat": 42.4747312,
+      "lon": -70.9575646
+    },
+    {
+      "type": "node",
+      "id": 13361840141,
+      "tags": {
+        "addr:city": "Revere",
+        "addr:housenumber": "39",
+        "addr:postcode": "02151",
+        "addr:state": "MA",
+        "addr:street": "Squire Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "Squire Rd., Revere, MA",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "check_date": "2025-12-08",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Su-We 08:00-26:00; Th-Sa 08:00-28:00",
+        "phone": "+1-781-853-6690",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/revere/39-squire-road"
+      },
+      "lat": 42.4222604,
+      "lon": -71.0060357
+    },
+    {
+      "type": "node",
+      "id": 13361856895,
+      "tags": {
+        "addr:city": "Saugus",
+        "addr:housenumber": "777",
+        "addr:postcode": "01906",
+        "addr:state": "MA",
+        "addr:street": "Broadway",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "Saugus, MA",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Fr 06:30-25:00; Sa-Su 07:00-25:00",
+        "phone": "+1-339-330-0001",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/saugus/777-broadway"
+      },
+      "lat": 42.4765212,
+      "lon": -71.0239584
+    },
+    {
+      "type": "node",
+      "id": 13361859389,
+      "tags": {
+        "addr:city": "Salem",
+        "addr:housenumber": "91",
+        "addr:postcode": "01970",
+        "addr:state": "MA",
+        "addr:street": "Lafayette Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "Salem, MA",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "check_date": "2025-12-08",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Su-Th 06:30-26:00; Fr-Sa 06:30-27:00",
+        "phone": "+1-978-745-9545",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/salem/91-lafayette-st"
+      },
+      "lat": 42.5186397,
+      "lon": -70.8929445
+    },
+    {
+      "type": "node",
+      "id": 13361889685,
+      "tags": {
+        "addr:city": "Woburn",
+        "addr:housenumber": "303",
+        "addr:postcode": "01801",
+        "addr:state": "MA",
+        "addr:street": "Montvale Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "Woburn, MA",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "check_date": "2025-12-08",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Fr 06:30-25:00; Sa-Su 07:00-25:00",
+        "phone": "+1-781-937-0821",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/woburn/303-montvale-ave"
+      },
+      "lat": 42.4792501,
+      "lon": -71.1207797
+    },
+    {
+      "type": "node",
+      "id": 13361902673,
+      "tags": {
+        "addr:city": "Danvers",
+        "addr:housenumber": "188",
+        "addr:postcode": "01923",
+        "addr:state": "MA",
+        "addr:street": "Endicott Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "Danvers, MA",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "check_date": "2025-12-08",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-We 08:00-25:00; Th-Su 08:00-26:00",
+        "phone": "+1-978-774-8995",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/danvers/188-endicott-st"
+      },
+      "lat": 42.5479102,
+      "lon": -70.9429213
+    },
+    {
+      "type": "node",
+      "id": 13361906845,
+      "tags": {
+        "addr:city": "North Reading",
+        "addr:housenumber": "52",
+        "addr:postcode": "01864",
+        "addr:state": "MA",
+        "addr:street": "Main Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "North Reading, MA",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "check_date": "2025-12-08",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Su 09:00-23:00",
+        "phone": "+1-978-664-3018",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/north-reading/52-main-street"
+      },
+      "lat": 42.569897,
+      "lon": -71.1097907
+    },
+    {
+      "type": "node",
+      "id": 13969073701,
+      "tags": {
+        "addr:housenumber": "362",
+        "addr:street": "Bedford Street",
+        "amenity": "restaurant",
+        "check_date": "2026-06-26",
+        "name": "Wendy's"
+      },
+      "lat": 42.0705967,
+      "lon": -70.9484466
+    },
+    {
+      "type": "relation",
+      "id": 10316821,
+      "tags": {
+        "addr:city": "Methuen",
+        "addr:postcode": "01844",
+        "addr:state": "MA",
+        "addr:street": "Pleasant Valley Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail;shed",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Su-Th 10:00-01:00, Fr,Sa 10:00-02:00",
+        "roof:levels": "0",
+        "takeaway": "yes",
+        "type": "multipolygon",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 42.74238735,
+        "lon": -71.16105225000001
+      }
+    },
+    {
+      "type": "relation",
+      "id": 11171244,
+      "tags": {
+        "addr:city": "Stoughton",
+        "addr:housenumber": "355",
+        "addr:postcode": "02072",
+        "addr:state": "MA",
+        "addr:street": "Washington Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Su 10:00-02:00",
+        "phone": "+1-781-344-1857",
+        "takeaway": "yes",
+        "type": "multipolygon",
+        "website": "https://locations.wendys.com/united-states/ma/stoughton/355-washington-st"
+      },
+      "center": {
+        "lat": 42.136421299999995,
+        "lon": -71.10246259999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 29677668,
+      "tags": {
+        "addr:city": "Roslindale",
+        "addr:housenumber": "530",
+        "addr:postcode": "02131",
+        "addr:state": "MA",
+        "addr:street": "American Legion Highway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-02:00",
+        "phone": "+1 617-983-2983",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/roslindale/530-american-legion-highway"
+      },
+      "center": {
+        "lat": 42.28720715,
+        "lon": -71.10657965000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 29846993,
+      "tags": {
+        "addr:city": "Quincy",
+        "addr:country": "US",
+        "addr:county": "Norfolk",
+        "addr:housenumber": "191",
+        "addr:postcode": "02170",
+        "addr:state": "MA",
+        "addr:street": "Newport Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-00:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-02:00; Fr-Sa 06:30-03:00; Su 06:30-02:00",
+        "phone": "+1 617-472-2983",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/quincy/191-newport-ave"
+      },
+      "center": {
+        "lat": 42.269093299999994,
+        "lon": -71.02390860000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 42644855,
+      "tags": {
+        "addr:city": "Waltham",
+        "addr:housenumber": "806",
+        "addr:postcode": "02451",
+        "addr:state": "MA",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-02:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 781-899-2795",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/waltham/806-main-street"
+      },
+      "center": {
+        "lat": 42.376073950000006,
+        "lon": -71.24257365
+      }
+    },
+    {
+      "type": "way",
+      "id": 51187085,
+      "tags": {
+        "addr:city": "Greenfield",
+        "addr:housenumber": "138",
+        "addr:postcode": "01301",
+        "addr:state": "MA",
+        "addr:street": "Federal Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "commercial",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Su 10:00-00:30",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 413-475-7142",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/greenfield/138-federal-street"
+      },
+      "center": {
+        "lat": 42.592482000000004,
+        "lon": -72.59857424999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 95305653,
+      "tags": {
+        "addr:city": "Worcester",
+        "addr:housenumber": "492",
+        "addr:postcode": "01605",
+        "addr:state": "MA",
+        "addr:street": "Lincoln Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-23:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 508-852-2120",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/worcester/492-lincoln-street"
+      },
+      "center": {
+        "lat": 42.29444775,
+        "lon": -71.77650004999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 110400203,
+      "tags": {
+        "addr:city": "Tewksbury",
+        "addr:housenumber": "1665",
+        "addr:postcode": "01876",
+        "addr:state": "MA",
+        "addr:street": "Andover Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "check_date": "2025-09-04",
+        "contact:yelp": "https://www.yelp.com/biz/wendys-tewksbury",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Wendy's",
+        "opening_hours": "06:30-01:00",
+        "opening_hours:drive_through": "06:30-01:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 978-858-0400",
+        "roof:shape": "flat",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/tewksbury/1665-andover-street"
+      },
+      "center": {
+        "lat": 42.6422656,
+        "lon": -71.2396167
+      }
+    },
+    {
+      "type": "way",
+      "id": 196038773,
+      "tags": {
+        "addr:city": "Abington",
+        "addr:housenumber": "373",
+        "addr:postcode": "02351",
+        "addr:state": "MA",
+        "addr:street": "Centre Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 781-982-9651",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/abington/373-centre-avenue"
+      },
+      "center": {
+        "lat": 42.1107636,
+        "lon": -70.93021985000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 196724904,
+      "tags": {
+        "addr:city": "Newburyport",
+        "addr:housenumber": "27",
+        "addr:postcode": "01950",
+        "addr:state": "MA",
+        "addr:street": "Storey Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa 07:00-20:00; Su 07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 978-462-1317",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/newburyport/25-storey-avenue"
+      },
+      "center": {
+        "lat": 42.82156775,
+        "lon": -70.90386519999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 199289907,
+      "tags": {
+        "addr:city": "Bradford",
+        "addr:housenumber": "39",
+        "addr:postcode": "01835",
+        "addr:state": "MA",
+        "addr:street": "South Main Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-03:00",
+        "phone": "+1 978-372-6291",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/bradford/39-s-main-st"
+      },
+      "center": {
+        "lat": 42.7719205,
+        "lon": -71.0761549
+      }
+    },
+    {
+      "type": "way",
+      "id": 211847554,
+      "tags": {
+        "addr:city": "Ayer",
+        "addr:housenumber": "2",
+        "addr:postcode": "01432",
+        "addr:state": "MA",
+        "addr:street": "Barnum Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 978-772-5650",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/ayer/2-barnum-rd"
+      },
+      "center": {
+        "lat": 42.55196705,
+        "lon": -71.5727513
+      }
+    },
+    {
+      "type": "way",
+      "id": 211861353,
+      "tags": {
+        "addr:city": "hyannis",
+        "addr:housenumber": "554",
+        "addr:postcode": "02601",
+        "addr:state": "MA",
+        "addr:street": "Iyannough Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-01:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 508-771-1130",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/hyannis/554-route-132"
+      },
+      "center": {
+        "lat": 41.6659636,
+        "lon": -70.28813839999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 212087508,
+      "tags": {
+        "addr:city": "North Billerica",
+        "addr:housenumber": "312",
+        "addr:postcode": "01862",
+        "addr:state": "MA",
+        "addr:street": "Boston Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-00:00; Fr-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 978-663-4550",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/north-billerica/312-boston-rd"
+      },
+      "center": {
+        "lat": 42.571977200000006,
+        "lon": -71.27696424999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 212231781,
+      "tags": {
+        "addr:city": "Brockton",
+        "addr:housenumber": "1900",
+        "addr:postcode": "02301",
+        "addr:state": "MA",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-02:00",
+        "phone": "+1 508-586-2006",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/brockton/1900-main-street"
+      },
+      "center": {
+        "lat": 42.0480903,
+        "lon": -71.01022275000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 212260525,
+      "tags": {
+        "addr:housenumber": "660",
+        "addr:street": "Oak Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.10119785,
+        "lon": -71.05433039999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 212658319,
+      "tags": {
+        "addr:city": "Dracut",
+        "addr:housenumber": "5",
+        "addr:postcode": "01826",
+        "addr:state": "MA",
+        "addr:street": "Arlington Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 978-452-2393",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/dracut/5-arlington-street"
+      },
+      "center": {
+        "lat": 42.66885785,
+        "lon": -71.30281880000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 212895890,
+      "tags": {
+        "addr:city": "North Dartmouth",
+        "addr:housenumber": "449",
+        "addr:postcode": "02747",
+        "addr:state": "MA",
+        "addr:street": "State Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 508-984-5601",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/north-dartmouth/449-state-rd"
+      },
+      "center": {
+        "lat": 41.64014925,
+        "lon": -71.00103630000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 212957977,
+      "tags": {
+        "addr:city": "South Easton",
+        "addr:housenumber": "588",
+        "addr:postcode": "02375",
+        "addr:state": "MA",
+        "addr:street": "Washington Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 508-238-5191",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/south-easton/588-washington-st"
+      },
+      "center": {
+        "lat": 42.04758845,
+        "lon": -71.08105704999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 213003910,
+      "tags": {
+        "addr:city": "Fairhaven",
+        "addr:housenumber": "7",
+        "addr:postcode": "02719",
+        "addr:state": "MA",
+        "addr:street": "Fairhaven Commons Way",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Fr 06:30-22:00; Sa 06:30-01:00; Su 06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 508-999-4407",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/fairhaven/7-fairhaven-commons"
+      },
+      "center": {
+        "lat": 41.64391645,
+        "lon": -70.88559144999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 213273034,
+      "tags": {
+        "addr:city": "Framingham",
+        "addr:housenumber": "1699",
+        "addr:postcode": "01701",
+        "addr:state": "MA",
+        "addr:street": "Worcester Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "check_date": "2026-06-19",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-01:00",
+        "phone": "+1 508-620-7360",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/framingham/1699-worcester-rd"
+      },
+      "center": {
+        "lat": 42.2974516,
+        "lon": -71.48395464999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 213303503,
+      "tags": {
+        "addr:city": "Gardner",
+        "addr:housenumber": "28",
+        "addr:postcode": "01440",
+        "addr:state": "MA",
+        "addr:street": "Pearson Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 978-630-3490",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/gardner/28-pearson-blvd"
+      },
+      "center": {
+        "lat": 42.5661128,
+        "lon": -71.97817284999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 213384624,
+      "tags": {
+        "addr:city": "Hadley",
+        "addr:housenumber": "376",
+        "addr:postcode": "01035",
+        "addr:state": "MA",
+        "addr:street": "Russell Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 413-517-3968",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/hadley/376-russell-street"
+      },
+      "center": {
+        "lat": 42.359291999999996,
+        "lon": -72.54883000000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 213445908,
+      "tags": {
+        "addr:city": "Haverhill",
+        "addr:housenumber": "19",
+        "addr:postcode": "01830",
+        "addr:state": "MA",
+        "addr:street": "Plaistow Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "check_date": "2024-10-01",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Th 07:00-22:00; Fr-Sa 07:00-20:00; Su 07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 978-374-4059",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/haverhill/19-plaistow-rd"
+      },
+      "center": {
+        "lat": 42.811101300000004,
+        "lon": -71.10253110000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 213704236,
+      "tags": {
+        "addr:city": "Lawrence",
+        "addr:housenumber": "55",
+        "addr:postcode": "01840",
+        "addr:state": "MA",
+        "addr:street": "Hampshire Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-We 06:30-01:00; Th-Sa 06:30-02:00; Su 06:30-01:00",
+        "phone": "+1 978-686-3555",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/lawrence/55-hampshire-street"
+      },
+      "center": {
+        "lat": 42.707477749999995,
+        "lon": -71.16514815
+      }
+    },
+    {
+      "type": "way",
+      "id": 213740495,
+      "tags": {
+        "addr:city": "Leominster",
+        "addr:housenumber": "29",
+        "addr:postcode": "01453",
+        "addr:state": "MA",
+        "addr:street": "Commercial Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 978-537-4258",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/leominster/23-commercial-road"
+      },
+      "center": {
+        "lat": 42.53426455,
+        "lon": -71.74272774999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 213984800,
+      "tags": {
+        "addr:city": "Westfield",
+        "addr:housenumber": "6",
+        "addr:postcode": "01085",
+        "addr:state": "MA",
+        "addr:street": "Southampton Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-03:00",
+        "phone": "+1 413-729-4566",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/westfield/2-6-south-hampton-road"
+      },
+      "center": {
+        "lat": 42.141569849999996,
+        "lon": -72.73399444999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 214044037,
+      "tags": {
+        "addr:housenumber": "644",
+        "addr:street": "Riverdale Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.1236648,
+        "lon": -72.62635624999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 214196870,
+      "tags": {
+        "addr:city": "Worcester",
+        "addr:housenumber": "702",
+        "addr:postcode": "01610",
+        "addr:state": "MA",
+        "addr:street": "Southbridge Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Tu 06:30-00:00; We-Th 06:30-02:00; Fr 06:30-01:00; Sa-Su 06:30-02:00",
+        "phone": "+1 508-755-1476",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/worcester/702-southbridge-street"
+      },
+      "center": {
+        "lat": 42.24304345,
+        "lon": -71.81089635000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 214211945,
+      "tags": {
+        "addr:city": "Worcester",
+        "addr:housenumber": "500",
+        "addr:postcode": "01610",
+        "addr:state": "MA",
+        "addr:street": "Park Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-03:00",
+        "phone": "+1 508-796-9045",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/worcester/500-park-avenue"
+      },
+      "center": {
+        "lat": 42.253251250000005,
+        "lon": -71.82798330000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 214255087,
+      "tags": {
+        "addr:city": "South Yarmouth",
+        "addr:housenumber": "32",
+        "addr:postcode": "02664",
+        "addr:state": "MA",
+        "addr:street": "Old Town House Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 07:00-00:00",
+        "phone": "+1 508-394-2985",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/south-yarmouth/32-old-town-house-rd"
+      },
+      "center": {
+        "lat": 41.68448895,
+        "lon": -70.20923010000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 214312808,
+      "tags": {
+        "addr:city": "Lowell",
+        "addr:housenumber": "581",
+        "addr:postcode": "01852",
+        "addr:state": "MA",
+        "addr:street": "Rogers Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 978-459-2994",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/lowell/581-rogers-st"
+      },
+      "center": {
+        "lat": 42.63131575,
+        "lon": -71.28416649999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 214410306,
+      "tags": {
+        "addr:city": "Mansfield",
+        "addr:housenumber": "64",
+        "addr:postcode": "02048",
+        "addr:state": "MA",
+        "addr:street": "Copeland Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-01:00",
+        "phone": "+1 508-339-7284",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/mansfield/64-copeland-drive"
+      },
+      "center": {
+        "lat": 42.027711100000005,
+        "lon": -71.22792475
+      }
+    },
+    {
+      "type": "way",
+      "id": 214499807,
+      "tags": {
+        "addr:city": "West",
+        "addr:housenumber": "176",
+        "addr:postcode": "01752",
+        "addr:state": "MA",
+        "addr:street": "Boston Post Road West",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "check_date": "2024-08-11",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-We 06:30-01:00; Th-Sa 06:30-02:00; Su 06:30-01:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 508-481-5366",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/marlborough/176-boston-post-rd-west",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 42.33868165,
+        "lon": -71.58908055
+      }
+    },
+    {
+      "type": "way",
+      "id": 214546230,
+      "tags": {
+        "addr:city": "Methuen",
+        "addr:housenumber": "486",
+        "addr:postcode": "01844",
+        "addr:state": "MA",
+        "addr:street": "Broadway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 978-682-7827",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/methuen/486-broadway"
+      },
+      "center": {
+        "lat": 42.73952645,
+        "lon": -71.19699285000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 214577587,
+      "tags": {
+        "addr:city": "Milford",
+        "addr:housenumber": "128",
+        "addr:postcode": "01757",
+        "addr:state": "MA",
+        "addr:street": "Cedar Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "commercial",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-02:00",
+        "phone": "+1 508-478-5118",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/milford/128-cedar-street"
+      },
+      "center": {
+        "lat": 42.1621199,
+        "lon": -71.50900605000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 214630854,
+      "tags": {
+        "addr:city": "Natick",
+        "addr:housenumber": "303",
+        "addr:postcode": "01760",
+        "addr:state": "MA",
+        "addr:street": "West Central Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-01:00",
+        "phone": "+1 508-872-0072",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/natick/303-w-central-st"
+      },
+      "center": {
+        "lat": 42.2816224,
+        "lon": -71.39607735000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 214698790,
+      "tags": {
+        "addr:city": "New Bedford",
+        "addr:housenumber": "1095",
+        "addr:postcode": "02745",
+        "addr:state": "MA",
+        "addr:street": "Kings Highway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-02:00; Fr-Sa 06:30-03:00; Su 06:30-02:00",
+        "phone": "+1 508-995-4410",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/new-bedford/1095-kings-highway"
+      },
+      "center": {
+        "lat": 41.67941425,
+        "lon": -70.941464
+      }
+    },
+    {
+      "type": "way",
+      "id": 214849126,
+      "tags": {
+        "addr:city": "Attleboro Falls",
+        "addr:housenumber": "3",
+        "addr:postcode": "02763",
+        "addr:state": "MA",
+        "addr:street": "Robert F. Toner Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 508-643-2573",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/attleboro-falls/3-robert-toner-blvd"
+      },
+      "center": {
+        "lat": 41.96936605,
+        "lon": -71.30114705
+      }
+    },
+    {
+      "type": "way",
+      "id": 214943790,
+      "tags": {
+        "addr:city": "Orleans",
+        "addr:housenumber": "5",
+        "addr:postcode": "02653",
+        "addr:state": "MA",
+        "addr:street": "Canal Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 07:00-00:00",
+        "phone": "+1 508-255-4523",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/orleans/15-canal-road"
+      },
+      "center": {
+        "lat": 41.797157,
+        "lon": -69.98386269999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 214967264,
+      "tags": {
+        "addr:city": "Palmer",
+        "addr:housenumber": "1213",
+        "addr:postcode": "01069",
+        "addr:state": "MA",
+        "addr:street": "Thorndike Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "check_date": "2026-04-12",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 413-284-2809",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/palmer/1213-thorndyke-st"
+      },
+      "center": {
+        "lat": 42.173792,
+        "lon": -72.3224851
+      }
+    },
+    {
+      "type": "way",
+      "id": 215003483,
+      "tags": {
+        "addr:city": "Peabody",
+        "addr:housenumber": "69",
+        "addr:postcode": "01960",
+        "addr:state": "MA",
+        "addr:street": "Newbury Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-00:00",
+        "opening_hours:drive_through": "Mo-We 06:30-02:00; Th 06:30-01:00; Fr-Su 06:30-02:00",
+        "phone": "+1 978-535-7505",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/peabody/69-newbury-street"
+      },
+      "center": {
+        "lat": 42.527205550000005,
+        "lon": -70.99364109999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 215683256,
+      "tags": {
+        "addr:city": "Pittsfield",
+        "addr:housenumber": "556",
+        "addr:postcode": "01201",
+        "addr:state": "MA",
+        "addr:street": "Hubbard Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 413-242-6215",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/pittsfield/556-hubbard-avenue"
+      },
+      "center": {
+        "lat": 42.4686503,
+        "lon": -73.19567645000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 215768897,
+      "tags": {
+        "addr:city": "Randolph",
+        "addr:housenumber": "14",
+        "addr:postcode": "02368",
+        "addr:state": "MA",
+        "addr:street": "Condlin Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 781-961-2838",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/randolph/14-condlin-drive"
+      },
+      "center": {
+        "lat": 42.1670624,
+        "lon": -71.04653804999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 215779053,
+      "tags": {
+        "addr:city": "Raynham",
+        "addr:housenumber": "1028",
+        "addr:postcode": "02767",
+        "addr:state": "MA",
+        "addr:street": "New State Highway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 508-821-2015",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/raynham/1028-rt-44"
+      },
+      "center": {
+        "lat": 41.90562715,
+        "lon": -71.02734325
+      }
+    },
+    {
+      "type": "way",
+      "id": 216279459,
+      "tags": {
+        "addr:city": "Sturbridge",
+        "addr:housenumber": "211",
+        "addr:postcode": "01566",
+        "addr:state": "MA",
+        "addr:street": "Charlton Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 508-347-8702",
+        "roof:levels": "1",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/sturbridge/211-charlton-road"
+      },
+      "center": {
+        "lat": 42.1164582,
+        "lon": -72.0658843
+      }
+    },
+    {
+      "type": "way",
+      "id": 216330899,
+      "tags": {
+        "addr:city": "Taunton",
+        "addr:housenumber": "41",
+        "addr:postcode": "02780",
+        "addr:state": "MA",
+        "addr:street": "Taunton Depot Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Su-Th 06:00-02:00; Fr-Sa 06:00-03:00",
+        "phone": "+1-508-822-3301",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/taunton/41-taunton-depot-drive"
+      },
+      "center": {
+        "lat": 41.8793244,
+        "lon": -71.06574810000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 216347309,
+      "tags": {
+        "addr:housenumber": "2089",
+        "addr:street": "Bay Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.9591757,
+        "lon": -71.11902284999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 217080363,
+      "tags": {
+        "addr:city": "Westborough",
+        "addr:housenumber": "300",
+        "addr:postcode": "01581",
+        "addr:state": "MA",
+        "addr:street": "Turnpike Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-01:00",
+        "phone": "+1 508-366-0081",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/westborough/300-turnpike-rd"
+      },
+      "center": {
+        "lat": 42.28252585,
+        "lon": -71.64725380000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 217088805,
+      "tags": {
+        "addr:city": "West Bridgewater",
+        "addr:housenumber": "597",
+        "addr:postcode": "02379",
+        "addr:state": "MA",
+        "addr:street": "West Center Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 508-583-4357",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/west-bridgewater/707-west-center-street"
+      },
+      "center": {
+        "lat": 42.01244355,
+        "lon": -71.05109485000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 217262744,
+      "tags": {
+        "addr:city": "South Attleboro",
+        "addr:housenumber": "630",
+        "addr:postcode": "02703",
+        "addr:state": "MA",
+        "addr:street": "Washington Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 508-399-6005",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/south-attleboro/630-washington-street"
+      },
+      "center": {
+        "lat": 41.910669150000004,
+        "lon": -71.36245765000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 443686545,
+      "tags": {
+        "addr:city": "Hanover",
+        "addr:housenumber": "1316",
+        "addr:postcode": "02339",
+        "addr:state": "MA",
+        "addr:street": "Washington Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 781-826-6754",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/hanover/1316-washington-st"
+      },
+      "center": {
+        "lat": 42.141301299999995,
+        "lon": -70.8439818
+      }
+    },
+    {
+      "type": "way",
+      "id": 563453898,
+      "tags": {
+        "addr:city": "Lawrence",
+        "addr:housenumber": "85",
+        "addr:postcode": "01843",
+        "addr:state": "MA",
+        "addr:street": "Winthrop Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-03:00",
+        "phone": "+1 978-682-0565",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/lawrence/99-winthrop-ave"
+      },
+      "center": {
+        "lat": 42.6890738,
+        "lon": -71.14872660000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 640564855,
+      "tags": {
+        "addr:housenumber": "1340",
+        "addr:street": "Springfield Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.06746445,
+        "lon": -72.67669015000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 685162342,
+      "tags": {
+        "addr:housenumber": "526",
+        "addr:street": "North Main Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.5497083,
+        "lon": -71.76322219999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 705880253,
+      "tags": {
+        "addr:city": "Franklin",
+        "addr:housenumber": "505",
+        "addr:postcode": "02038",
+        "addr:state": "MA",
+        "addr:street": "West Central Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-01:00",
+        "phone": "+1 508-520-3196",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/franklin/505-west-central-street"
+      },
+      "center": {
+        "lat": 42.08994195,
+        "lon": -71.41833514999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 739616189,
+      "tags": {
+        "addr:city": "Norwood",
+        "addr:housenumber": "1412",
+        "addr:postcode": "02062",
+        "addr:state": "MA",
+        "addr:street": "Boston Providence Highway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 908-557-8412",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/norwood/1412-boston-providence-turnpike"
+      },
+      "center": {
+        "lat": 42.1636568,
+        "lon": -71.19866109999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 885328958,
+      "tags": {
+        "addr:city": "Ludlow",
+        "addr:housenumber": "488",
+        "addr:postcode": "01056",
+        "addr:state": "MA",
+        "addr:street": "Center Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 413-385-9074",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/ludlow/484-center-st"
+      },
+      "center": {
+        "lat": 42.171166299999996,
+        "lon": -72.47831609999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 949172178,
+      "tags": {
+        "addr:city": "Wareham",
+        "addr:housenumber": "2419",
+        "addr:postcode": "02571",
+        "addr:state": "MA",
+        "addr:street": "Cranberry Highway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 508-743-4539",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ma/wareham/2419-cranberry-highway"
+      },
+      "center": {
+        "lat": 41.7804608,
+        "lon": -70.74408034999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1237403943,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.63360175,
+        "lon": -70.45920145000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1463172862,
+      "tags": {
+        "addr:city": "Rockland",
+        "addr:housenumber": "1111",
+        "addr:postcode": "02370",
+        "addr:state": "MA",
+        "addr:street": "Hingham Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "phone": "+17816912152",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.16445055,
+        "lon": -70.89685700000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1546196523,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.2466407,
+        "lon": -71.9373435
+      }
+    }
+  ]
+}

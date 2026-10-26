@@ -1,0 +1,47 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NM",
+    "brand": "waffle_house",
+    "source": "https://download.geofabrik.de/north-america/us/new-mexico-latest.osm.pbf",
+    "source_md5": "5e236c0e9dd59b2df560a9316c86a745",
+    "processed_utc": "2026-10-24T07:10:42.593170+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 259941101,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "2250",
+        "addr:postcode": "87106",
+        "addr:state": "NM",
+        "addr:street": "Yale Boulevard Southeast",
+        "amenity": "restaurant",
+        "brand": "Waffle House",
+        "brand:wikidata": "Q1701206",
+        "building": "restaurant",
+        "check_date": "2025-10-12",
+        "check_date:opening_hours": "2025-10-12",
+        "cuisine": "american",
+        "name": "Waffle House",
+        "opening_hours": "24/7",
+        "phone": "+1-505-843-9194",
+        "ref:store_number": "952",
+        "takeaway": "yes",
+        "website": "https://locations.wafflehouse.com/albuquerque-nm-952/"
+      },
+      "center": {
+        "lat": 35.0559811,
+        "lon": -106.62150450000001
+      }
+    }
+  ]
+}

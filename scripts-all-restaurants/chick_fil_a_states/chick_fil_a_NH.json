@@ -1,0 +1,142 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NH",
+    "brand": "chick_fil_a",
+    "source": "https://download.geofabrik.de/north-america/us/new-hampshire-latest.osm.pbf",
+    "source_md5": "603b90470df09c1b933955cbfe841c6d",
+    "processed_utc": "2026-10-24T07:09:51.168561+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4305086902,
+      "tags": {
+        "addr:city": "Nashua",
+        "addr:housenumber": "310",
+        "addr:postcode": "03060",
+        "addr:state": "NH",
+        "addr:street": "Daniel Webster Highway",
+        "addr:unit": "144",
+        "amenity": "fast_food",
+        "branch": "Pheasant Lane Mall",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "drive_through": "no",
+        "indoor_seating": "no",
+        "level": "0",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Th 11:00-20:00; Fr-Sa 10:00-21:00",
+        "phone": "+1-603-891-1000",
+        "ref": "01075",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/nh/pheasant-lane-mall"
+      },
+      "lat": 42.7009947,
+      "lon": -71.4363374
+    },
+    {
+      "type": "way",
+      "id": 431798747,
+      "tags": {
+        "addr:city": "Nashua",
+        "addr:housenumber": "377",
+        "addr:postcode": "03063",
+        "addr:state": "NH",
+        "addr:street": "Amherst Street",
+        "amenity": "fast_food",
+        "branch": "Somerset Plaza",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00",
+        "phone": "+1 603-595-2202",
+        "ref": "03414",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/nh/somerset-plaza"
+      },
+      "center": {
+        "lat": 42.785010650000004,
+        "lon": -71.50772610000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1158062616,
+      "tags": {
+        "addr:city": "Salem",
+        "addr:housenumber": "14",
+        "addr:postcode": "03079",
+        "addr:state": "NH",
+        "addr:street": "South Village Drive",
+        "amenity": "fast_food",
+        "branch": "Tuscan Village",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2024-12-15",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "no",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00; Su off",
+        "phone": "+1 978-872-1421",
+        "ref": "04705",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/nh/tuscan-village-nh"
+      },
+      "center": {
+        "lat": 42.77060135,
+        "lon": -71.22268474999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1382429770,
+      "tags": {
+        "addr:city": "Newington",
+        "addr:housenumber": "2060",
+        "addr:postcode": "03801",
+        "addr:state": "NH",
+        "addr:street": "Woodbury Avenue",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00",
+        "phone": "+1-603-531-2213",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/nh/newington-nh"
+      },
+      "center": {
+        "lat": 43.0970473,
+        "lon": -70.79934355
+      }
+    }
+  ]
+}

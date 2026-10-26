@@ -1,0 +1,60 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TN",
+    "brand": "twin_peaks",
+    "source": "https://download.geofabrik.de/north-america/us/tennessee-latest.osm.pbf",
+    "source_md5": "a047c5da6c897a8a98b1fc4a282b8d3f",
+    "processed_utc": "2026-10-24T07:16:20.210730+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12645872649,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "check_date": "2025-03-08",
+        "cuisine": "american",
+        "name": "Twin Peaks",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 34.9940336,
+      "lon": -85.2023266
+    },
+    {
+      "type": "way",
+      "id": 664154835,
+      "tags": {
+        "addr:city": "Brentwood",
+        "addr:housenumber": "1634",
+        "addr:postcode": "37027",
+        "addr:state": "TN",
+        "addr:street": "Galleria Boulevard",
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "american",
+        "name": "Twin Peaks",
+        "opening_hours": "Su-Th 11:00-23:00; Fr-Sa 11:00-24:00"
+      },
+      "center": {
+        "lat": 35.967529799999994,
+        "lon": -86.80946915000004
+      }
+    }
+  ]
+}

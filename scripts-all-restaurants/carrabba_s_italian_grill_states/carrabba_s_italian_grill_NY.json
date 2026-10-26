@@ -1,0 +1,120 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "carrabba_s_italian_grill",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8399549919,
+      "tags": {
+        "addr:city": "Latham",
+        "addr:country": "US",
+        "addr:housenumber": "675",
+        "addr:postcode": "12110",
+        "addr:state": "NY",
+        "addr:street": "Troy Schenectady Road",
+        "amenity": "restaurant",
+        "brand": "Carrabba's Italian Grill",
+        "brand:wikidata": "Q5045999",
+        "cuisine": "italian",
+        "name": "Carrabba's Italian Grill",
+        "nysgissam:nysaddresspointid": "ALBA194566",
+        "nysgissam:review": "found > 1 existing matching address"
+      },
+      "lat": 42.7551129,
+      "lon": -73.7721022
+    },
+    {
+      "type": "node",
+      "id": 9060960379,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Carrabba's Italian Grill",
+        "brand:wikidata": "Q5045999",
+        "cuisine": "italian",
+        "name": "Carrabba's Italian Grill"
+      },
+      "lat": 40.7721784,
+      "lon": -73.1997917
+    },
+    {
+      "type": "way",
+      "id": 156822850,
+      "tags": {
+        "addr:city": "Fayetteville",
+        "addr:housenumber": "550",
+        "addr:postcode": "13066",
+        "addr:state": "NY",
+        "addr:street": "Towne Drive",
+        "amenity": "restaurant",
+        "brand": "Carrabba's Italian Grill",
+        "brand:wikidata": "Q5045999",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Carrabba's Italian Grill",
+        "opening_hours": "Mo-Th 16:00-22:00; Fr 16:00-22:30; Sa 15:00-22:30; Su 12:00-21:00",
+        "phone": "+1-315-637-7400",
+        "website": "https://www.carrabbas.com/restaurant/locations/ny/fayetteville/syracuse-fayetteville/index.aspx"
+      },
+      "center": {
+        "lat": 43.034197250000005,
+        "lon": -76.01776280000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 167541800,
+      "tags": {
+        "addr:city": "Amherst",
+        "addr:housenumber": "1645",
+        "addr:postcode": "14228",
+        "addr:state": "NY",
+        "addr:street": "Niagara Falls Boulevard",
+        "amenity": "restaurant",
+        "brand": "Carrabba's Italian Grill",
+        "brand:wikidata": "Q5045999",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Carrabba's Italian Grill"
+      },
+      "center": {
+        "lat": 42.99974225,
+        "lon": -78.81527140000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 464831543,
+      "tags": {
+        "addr:city": "Smithtown",
+        "addr:housenumber": "728",
+        "addr:postcode": "11787",
+        "addr:state": "NY",
+        "addr:street": "Nesconset Highway",
+        "amenity": "restaurant",
+        "brand": "Carrabba's Italian Grill",
+        "brand:wikidata": "Q5045999",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Carrabba's Italian Grill",
+        "nysgissam:nysaddresspointid": "SUFF181831"
+      },
+      "center": {
+        "lat": 40.84982505,
+        "lon": -73.16700215000003
+      }
+    }
+  ]
+}

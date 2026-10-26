@@ -1,0 +1,36 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NM",
+    "brand": "costa_vida",
+    "source": "https://download.geofabrik.de/north-america/us/new-mexico-latest.osm.pbf",
+    "source_md5": "5e236c0e9dd59b2df560a9316c86a745",
+    "processed_utc": "2026-10-24T07:10:42.593170+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13687482805,
+      "tags": {
+        "addr:city": "Farmington",
+        "addr:housenumber": "4005",
+        "addr:postcode": "87402",
+        "addr:state": "NM",
+        "addr:street": "East Main Street",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Costa Vida",
+        "source": "esri_USDOT_UniversityofNewMexico"
+      },
+      "lat": 36.7564442,
+      "lon": -108.1556493
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CA",
+    "brand": "fazoli_s",
+    "source": "https://download.geofabrik.de/north-america/us/california-latest.osm.pbf",
+    "source_md5": "26040c163edb7a5f630164ee55d5afda",
+    "processed_utc": "2026-10-24T06:59:04.829226+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 287006269,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Fazoli's",
+        "source": "bing;local_knowledge;survery",
+        "source_date": "2014-06-08",
+        "source_ref_building": "frankthetankk",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.9001202,
+        "lon": -117.56216315
+      }
+    },
+    {
+      "type": "way",
+      "id": 737473152,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Fazoli's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 34.01568385,
+        "lon": -117.74452350000001
+      }
+    }
+  ]
+}

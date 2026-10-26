@@ -1,0 +1,134 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "california_pizza_kitchen",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3211181303,
+      "tags": {
+        "addr:city": "Glen Allen",
+        "addr:housenumber": "11800",
+        "addr:postcode": "23233",
+        "addr:state": "VA",
+        "addr:street": "West Broad Street",
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "cuisine": "pizza",
+        "level": "0",
+        "name": "California Pizza Kitchen",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-804-364-9047",
+        "short_name": "CPK",
+        "website": "https://order.cpk.com/menu/california-pizza-kitchen-short-pump/"
+      },
+      "lat": 37.656686,
+      "lon": -77.6189228
+    },
+    {
+      "type": "node",
+      "id": 3237953677,
+      "tags": {
+        "addr:city": "Fairfax",
+        "addr:housenumber": "4200",
+        "addr:postcode": "22030",
+        "addr:state": "VA",
+        "addr:street": "Fairfax Corner Avenue West",
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "check_date:opening_hours": "2025-08-08",
+        "cuisine": "pizza",
+        "name": "California Pizza Kitchen",
+        "opening_hours:signed": "no",
+        "short_name": "CPK"
+      },
+      "lat": 38.8584735,
+      "lon": -77.357075
+    },
+    {
+      "type": "node",
+      "id": 7946343456,
+      "tags": {
+        "addr:city": "Virginia Beach",
+        "addr:housenumber": "200",
+        "addr:postcode": "23462",
+        "addr:state": "VA",
+        "addr:street": "Central Park Avenue",
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "cuisine": "pizza",
+        "name": "California Pizza Kitchen",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-757-456-2630",
+        "short_name": "CPK",
+        "website": "https://order.cpk.com/menu/california-pizza-kitchen-virginia-beach/"
+      },
+      "lat": 36.8423541,
+      "lon": -76.1336083
+    },
+    {
+      "type": "node",
+      "id": 8977395582,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "cuisine": "pizza",
+        "level": "1",
+        "name": "California Pizza Kitchen",
+        "short_name": "CPK"
+      },
+      "lat": 38.9173783,
+      "lon": -77.2212242
+    },
+    {
+      "type": "way",
+      "id": 1086281530,
+      "tags": {
+        "addr:city": "Arlington",
+        "addr:housenumber": "1201",
+        "addr:postcode": "22202-2700",
+        "addr:state": "VA",
+        "addr:street": "South Hayes Street",
+        "amenity": "restaurant",
+        "brand": "California Pizza Kitchen",
+        "brand:wikidata": "Q15109854",
+        "building:levels": "1",
+        "building:part": "retail",
+        "check_date": "2024-06-16",
+        "cuisine": "pizza",
+        "height": "6",
+        "indoor": "room",
+        "indoor_seating": "yes",
+        "name": "California Pizza Kitchen",
+        "opening_hours": "Mo-Tu 11:00-22:00; We-Sa 11:00-23:00; Su 11:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 703-412-4900",
+        "short_name": "CPK",
+        "website": "https://order.cpk.com/menu/california-pizza-kitchen-pentagon/"
+      },
+      "center": {
+        "lat": 38.86212085,
+        "lon": -77.05915705000001
+      }
+    }
+  ]
+}

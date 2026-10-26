@@ -1,0 +1,68 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "jack_in_the_box",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 235538519,
+      "tags": {
+        "addr:city": "Cincinnati",
+        "addr:housenumber": "5234",
+        "addr:postcode": "45213",
+        "addr:state": "OH",
+        "addr:street": "Ridge Avenue",
+        "amenity": "fast_food",
+        "brand": "Jack in the Box",
+        "brand:wikidata": "Q1538507",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Jack in the Box",
+        "phone": "+1 513-531-5225",
+        "takeaway": "yes",
+        "website": "https://locations.jackinthebox.com/us/oh/cincinnati/5234-ridge-ave"
+      },
+      "center": {
+        "lat": 39.16834115,
+        "lon": -84.42340060000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 340732270,
+      "tags": {
+        "addr:city": "West Chester",
+        "addr:housenumber": "7425",
+        "addr:postcode": "45069",
+        "addr:state": "OH",
+        "addr:street": "Tylersville Road",
+        "amenity": "fast_food",
+        "brand": "Jack in the Box",
+        "brand:wikidata": "Q1538507",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Jack in the Box",
+        "phone": "+1 513-755-3000",
+        "takeaway": "yes",
+        "website": "https://locations.jackinthebox.com/us/oh/west-chester/7425-tylersville-rd"
+      },
+      "center": {
+        "lat": 39.353681800000004,
+        "lon": -84.37134600000002
+      }
+    }
+  ]
+}

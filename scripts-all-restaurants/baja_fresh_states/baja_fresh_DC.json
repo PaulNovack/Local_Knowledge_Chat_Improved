@@ -1,0 +1,44 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "baja_fresh",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T07:20:37.151586+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 721035640,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "1990",
+        "addr:postcode": "20006",
+        "addr:state": "DC",
+        "addr:street": "K Street Northwest",
+        "addr:unit": "11",
+        "amenity": "fast_food",
+        "brand": "Baja Fresh",
+        "brand:wikidata": "Q2880019",
+        "cuisine": "mexican",
+        "indoor_seating": "yes",
+        "name": "Baja Fresh",
+        "official_name": "Baja Fresh Mexican Grill",
+        "outdoor_seating": "yes",
+        "phone": "+1 202-525-2967",
+        "takeaway": "yes",
+        "website": "https://www.bajafresh.com/stores/mexican-food-washington-dc-i-street/30474"
+      },
+      "lat": 38.9014817,
+      "lon": -77.044723
+    }
+  ]
+}

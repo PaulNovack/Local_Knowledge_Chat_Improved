@@ -1,0 +1,65 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "bojangles",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10872810129,
+      "tags": {
+        "addr:city": "Horn Lake",
+        "addr:housenumber": "965",
+        "addr:postcode": "38637",
+        "addr:state": "MS",
+        "addr:street": "Goodman Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 662-510-8482",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/ms/horn-lake/965-goodman-road.html"
+      },
+      "lat": 34.9623012,
+      "lon": -90.0061403
+    },
+    {
+      "type": "node",
+      "id": 11532513811,
+      "tags": {
+        "addr:city": "Flowood",
+        "addr:housenumber": "405",
+        "addr:postcode": "39232",
+        "addr:state": "MS",
+        "addr:street": "West Pineview Drive",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 601-321-9385",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/ms/flowood/405-w--pineview-dr.html"
+      },
+      "lat": 32.3544152,
+      "lon": -90.0253756
+    }
+  ]
+}

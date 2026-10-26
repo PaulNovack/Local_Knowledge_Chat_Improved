@@ -1,0 +1,54 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WI",
+    "brand": "jason_s_deli",
+    "source": "https://download.geofabrik.de/north-america/us/wisconsin-latest.osm.pbf",
+    "source_md5": "1718ff98080ec3edeb95ab8fb47b0ce7",
+    "processed_utc": "2026-10-24T07:19:59.510074+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7474282063,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli"
+      },
+      "lat": 43.0308844,
+      "lon": -88.1085786
+    },
+    {
+      "type": "way",
+      "id": 396428429,
+      "tags": {
+        "addr:city": "Madison",
+        "addr:housenumber": "7349",
+        "addr:postcode": "53717",
+        "addr:state": "WI",
+        "addr:street": "Mineral Point Road",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli",
+        "source": "survey"
+      },
+      "center": {
+        "lat": 43.0600404,
+        "lon": -89.50898560000002
+      }
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "checkers",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5290513893,
+      "tags": {
+        "addr:city": "Haymarket",
+        "addr:housenumber": "6530",
+        "addr:postcode": "20169",
+        "addr:state": "VA",
+        "addr:street": "Trading Square",
+        "amenity": "fast_food",
+        "brand": "Checkers",
+        "brand:wikidata": "Q63919315",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "no",
+        "level": "0",
+        "name": "Checkers",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "outdoor_seating": "no",
+        "phone": "+1 703-754-6241",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://checkersandrallys.com/location/checkers-3353-trading-square-881312"
+      },
+      "lat": 38.8182477,
+      "lon": -77.6448031
+    },
+    {
+      "type": "node",
+      "id": 11806003526,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Checkers",
+        "brand:wikidata": "Q63919315",
+        "cuisine": "burger",
+        "name": "Checkers",
+        "takeaway": "yes",
+        "website": "https://checkersandrallys.com/location/checkers-3960-market-st-36407473"
+      },
+      "lat": 37.9789627,
+      "lon": -78.2110581
+    },
+    {
+      "type": "way",
+      "id": 93849514,
+      "tags": {
+        "addr:city": "Woodbridge",
+        "addr:country": "US",
+        "addr:housenumber": "1920",
+        "addr:postcode": "22191",
+        "addr:state": "VA",
+        "addr:street": "Daniel Stuart Square",
+        "amenity": "fast_food",
+        "brand": "Checkers",
+        "brand:wikidata": "Q63919315",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Checkers",
+        "source": "survey 1/2017",
+        "takeaway": "yes",
+        "website": "https://checkersandrallys.com/location/checkers-5967-daniel-stuart-square-535010"
+      },
+      "center": {
+        "lat": 38.63143235,
+        "lon": -77.27397544999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 608467091,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Checkers",
+        "brand:wikidata": "Q63919315",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "delivery": "no",
+        "name": "Checkers",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "website": "https://checkersandrallys.com/location/checkers-5900-plank-rd-2817286"
+      },
+      "center": {
+        "lat": 38.29217,
+        "lon": -77.52528589999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1345334663,
+      "tags": {
+        "addr:city": "Manassas",
+        "addr:county": "Prince William County",
+        "addr:housenumber": "7550",
+        "addr:postcode": "20109",
+        "addr:state": "VA",
+        "addr:street": "Broken Branch Lane",
+        "amenity": "fast_food",
+        "brand": "Checkers",
+        "brand:wikidata": "Q63919315",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Checkers",
+        "opening_hours": "Su-Th 08:30-02:00, Fr,Sa 08:30-04:00",
+        "source": "esri/Virginia_building",
+        "takeaway": "yes",
+        "website": "https://checkersandrallys.com/location/checkers-5826-broken-branch-lane-535005"
+      },
+      "center": {
+        "lat": 38.7922901,
+        "lon": -77.51529515000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1360350990,
+      "tags": {
+        "addr:city": "Manassas",
+        "addr:housenumber": "9540",
+        "addr:postcode": "20110",
+        "addr:state": "VA",
+        "addr:street": "Liberia Avenue",
+        "amenity": "fast_food",
+        "brand": "Checkers",
+        "brand:wikidata": "Q63919315",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Checkers",
+        "takeaway": "yes",
+        "website": "https://checkersandrallys.com/location/checkers-3885-liberia-ave-2340217"
+      },
+      "center": {
+        "lat": 38.7509151,
+        "lon": -77.44975090000003
+      }
+    }
+  ]
+}

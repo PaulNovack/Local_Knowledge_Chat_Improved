@@ -1,0 +1,98 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "mellow_mushroom",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12871965747,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "5350",
+        "addr:postcode": "85054-5471",
+        "addr:state": "AZ",
+        "addr:street": "East High Street",
+        "addr:unit": "115",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "branch": "High Street",
+        "brand": "Mellow Mushroom",
+        "brand:wikidata": "Q17021360",
+        "contact:facebook": "seanawhitcomb@gmail.com",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "happy_hours": "Mo-Th 15:00-18:00, 21:00-00:00; Fr 15:00-18:00, 21:00-02:00; Sa-Su 21:00-02:00",
+        "level": "1",
+        "name": "Mellow Mushroom",
+        "opening_hours": "Su-Th 11:00-24:00; Fr-Sa 11:00-02:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-480-889-0999",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.mellowmushroom.com/locations/az/phoenix/5350-e-high-st",
+        "wheelchair": "yes"
+      },
+      "lat": 33.676067,
+      "lon": -111.9652495
+    },
+    {
+      "type": "way",
+      "id": 559790472,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1665",
+        "addr:postcode": "85204",
+        "addr:state": "AZ",
+        "addr:street": "South Stapley Drive",
+        "amenity": "restaurant",
+        "brand": "Mellow Mushroom",
+        "brand:wikidata": "Q17021360",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Mellow Mushroom",
+        "source": "esri_USDOT_Arizona"
+      },
+      "center": {
+        "lat": 33.3825682,
+        "lon": -111.8051848
+      }
+    },
+    {
+      "type": "way",
+      "id": 641734058,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "2490",
+        "addr:postcode": "85085",
+        "addr:state": "AZ",
+        "addr:street": "West Happy Valley Road",
+        "amenity": "restaurant",
+        "brand": "Mellow Mushroom",
+        "brand:wikidata": "Q17021360",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Mellow Mushroom"
+      },
+      "center": {
+        "lat": 33.71346975,
+        "lon": -112.11397655000002
+      }
+    }
+  ]
+}

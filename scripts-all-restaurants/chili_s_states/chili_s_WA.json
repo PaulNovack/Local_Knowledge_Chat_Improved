@@ -1,0 +1,92 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "chili_s",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2322647961,
+      "tags": {
+        "addr:city": "Seattle",
+        "addr:floor": "G",
+        "addr:housenumber": "4220",
+        "addr:postcode": "98105",
+        "addr:street": "University Way Northeast",
+        "amenity": "restaurant",
+        "check_date": "2025-11-21",
+        "cuisine": "indian",
+        "diet:vegetarian": "yes",
+        "level": "0",
+        "name": "Chili's South Indian Cuisine",
+        "not:brand:wikidata": "Q1072948",
+        "opening_hours": "Tu,We 15:00-21:00; Th-Su 11:30-21:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+1-206-633-1458",
+        "takeaway": "yes",
+        "website": "https://chilissouthindianrestaurant.com",
+        "wheelchair": "yes"
+      },
+      "lat": 47.6589834,
+      "lon": -122.313007
+    },
+    {
+      "type": "node",
+      "id": 13953189918,
+      "tags": {
+        "airside": "yes",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "check_date": "2026-08-03",
+        "cuisine": "tex-mex",
+        "level": "2",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar"
+      },
+      "lat": 47.4448384,
+      "lon": -122.3030072
+    },
+    {
+      "type": "way",
+      "id": 116272326,
+      "tags": {
+        "addr:city": "Spokane",
+        "addr:housenumber": "207",
+        "addr:postcode": "99201",
+        "addr:state": "WA",
+        "addr:street": "West Spokane Falls Boulevard",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "tex-mex",
+        "internet_access": "wlan",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "outdoor_seating": "no",
+        "phone": "+1-509-458-2345",
+        "smoking": "no",
+        "source": "Local knowledge, official website",
+        "website": "https://www.chilis.com/"
+      },
+      "center": {
+        "lat": 47.659898049999995,
+        "lon": -117.41370719999998
+      }
+    }
+  ]
+}

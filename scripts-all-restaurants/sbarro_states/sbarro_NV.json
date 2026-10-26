@@ -1,0 +1,130 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "sbarro",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9466822488,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "name": "Sbarro",
+        "takeaway": "yes"
+      },
+      "lat": 39.4744923,
+      "lon": -119.781211
+    },
+    {
+      "type": "node",
+      "id": 11795642950,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "level": "1",
+        "name": "Sbarro",
+        "takeaway": "yes"
+      },
+      "lat": 36.1031678,
+      "lon": -115.1722835
+    },
+    {
+      "type": "node",
+      "id": 12249389425,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "name": "Sbarro",
+        "takeaway": "yes"
+      },
+      "lat": 36.0597352,
+      "lon": -115.2241855
+    },
+    {
+      "type": "node",
+      "id": 13542134633,
+      "tags": {
+        "addr:city": "West Wendover",
+        "addr:housenumber": "800",
+        "addr:postcode": "89883",
+        "addr:state": "NV",
+        "addr:street": "Leppy Hills Boulevard",
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "name": "Sbarro",
+        "takeaway": "yes"
+      },
+      "lat": 40.7419411,
+      "lon": -114.0579804
+    },
+    {
+      "type": "way",
+      "id": 753822345,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "indoor": "room",
+        "level": "1",
+        "name": "Sbarro",
+        "room": "shop",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.06777135,
+        "lon": -115.04097409999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1421449932,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3200",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "amenity": "fast_food",
+        "branch": "Fashion Show",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "check_date": "2025-04-10",
+        "cuisine": "pizza",
+        "indoor": "room",
+        "layer": "3",
+        "level": "2",
+        "name": "Sbarro",
+        "opening_hours": "Su-Th 10:00-20:00; Fr-Sa 10:00-21:00",
+        "phone": "+1-702-904-7040",
+        "room": "shop",
+        "takeaway": "yes",
+        "website": "https://sbarro.com/locations/nv/las-vegas/fashion-show/"
+      },
+      "center": {
+        "lat": 36.1275059,
+        "lon": -115.16929625
+      }
+    }
+  ]
+}

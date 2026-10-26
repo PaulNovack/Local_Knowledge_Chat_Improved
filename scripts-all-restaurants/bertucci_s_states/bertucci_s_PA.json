@@ -1,0 +1,87 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "bertucci_s",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13111193020,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "965",
+        "addr:postcode": "19064",
+        "addr:state": "PA",
+        "addr:street": "Baltimore Pike",
+        "amenity": "restaurant",
+        "branch": "Springfield Square",
+        "brand": "Bertucci's",
+        "brand:wikidata": "Q4895917",
+        "check_date": "2026-01-03",
+        "cuisine": "pizza;italian",
+        "name": "Bertucci's",
+        "opening_hours": "Mo-Th,Su 11:00-21:00; Fr-Sa 11:00-22:00",
+        "phone": "+1 610-543-8079",
+        "website": "https://www.bertuccis.com/locations/springfield-square/"
+      },
+      "lat": 39.9144191,
+      "lon": -75.3398456
+    },
+    {
+      "type": "way",
+      "id": 55132603,
+      "tags": {
+        "addr:city": "Langhorne",
+        "addr:housenumber": "675",
+        "addr:postcode": "19047",
+        "addr:street": "Middletown Boulevard",
+        "amenity": "restaurant",
+        "brand": "Bertucci's",
+        "brand:wikidata": "Q4895917",
+        "building": "yes",
+        "cuisine": "pizza;italian",
+        "name": "Bertucci's",
+        "opening_hours": "Mo-Th 11:30-21:30; Fr-Sa 11:30-22:30; Su 11:30-21:00",
+        "phone": "+1 215 752 9200",
+        "website": "https://bertuccis.com/locations/langhorne"
+      },
+      "center": {
+        "lat": 40.18333385,
+        "lon": -74.87691740000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 519461574,
+      "tags": {
+        "addr:city": "North Wales",
+        "addr:housenumber": "860",
+        "addr:postcode": "19454",
+        "addr:state": "PA",
+        "addr:street": "Bethlehem Pike",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Bertucci's Italian Restaurant",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr,Sa 11:00-23:00; Su 11:00-22:00",
+        "phone": "+1-267-498-5538",
+        "website": "https://www.bertuccis.com/locations/montgomeryville"
+      },
+      "center": {
+        "lat": 40.2370577,
+        "lon": -75.24216845000001
+      }
+    }
+  ]
+}

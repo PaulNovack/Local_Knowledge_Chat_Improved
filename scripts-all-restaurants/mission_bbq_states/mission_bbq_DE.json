@@ -1,0 +1,74 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DE",
+    "brand": "mission_bbq",
+    "source": "https://download.geofabrik.de/north-america/us/delaware-latest.osm.pbf",
+    "source_md5": "5f714be897be010ea09e4134c39a0638",
+    "processed_utc": "2026-10-24T07:00:37.202137+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11749122474,
+      "tags": {
+        "addr:city": "Wilmington",
+        "addr:housenumber": "3662",
+        "addr:postcode": "19803",
+        "addr:state": "DE",
+        "addr:street": "Concord Pike",
+        "amenity": "restaurant",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "check_date": "2024-03-20",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ",
+        "opening_hours": "Mo-Sa 11:00-21:00; Su 11:30-20:00",
+        "phone": "+1 302-565-4307",
+        "website": "https://mission-bbq.com/locations-and-menu/concord-pike/"
+      },
+      "lat": 39.8049433,
+      "lon": -75.5496392
+    },
+    {
+      "type": "node",
+      "id": 11980971835,
+      "tags": {
+        "amenity": "restaurant",
+        "fixme": "add brand data",
+        "name": "Mission BBQ"
+      },
+      "lat": 38.7182007,
+      "lon": -75.1118336
+    },
+    {
+      "type": "way",
+      "id": 693438086,
+      "tags": {
+        "addr:city": "Dover",
+        "addr:housenumber": "365",
+        "addr:postcode": "19901",
+        "addr:state": "DE",
+        "addr:street": "North Dupont Highway",
+        "amenity": "restaurant",
+        "building": "yes",
+        "check_date": "2025-12-07",
+        "name": "Mission BBQ",
+        "opening_hours": "Mo-Sa 11:00-21:00; Su 11:30-20:00",
+        "phone": "+1 302-401-4506",
+        "website": "https://mission-bbq.com/locations-and-menu/dover-de/"
+      },
+      "center": {
+        "lat": 39.17242915,
+        "lon": -75.51980455
+      }
+    }
+  ]
+}

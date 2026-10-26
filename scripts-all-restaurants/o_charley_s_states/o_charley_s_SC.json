@@ -1,0 +1,58 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SC",
+    "brand": "o_charley_s",
+    "source": "https://download.geofabrik.de/north-america/us/south-carolina-latest.osm.pbf",
+    "source_md5": "488018afb1e1040732b7a791d4ebffae",
+    "processed_utc": "2026-10-24T07:15:46.592450+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 541157909,
+      "tags": {
+        "addr:city": "Aiken",
+        "addr:country": "US",
+        "addr:housenumber": "168",
+        "addr:postcode": "29803",
+        "addr:state": "SC",
+        "addr:street": "South Aiken Lane",
+        "amenity": "restaurant",
+        "brand": "O'Charley's",
+        "brand:wikidata": "Q7071703",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "O'Charley's",
+        "website": "https://www.ocharleys.com/locations/sc/aiken/168-south-aiken-lane-300"
+      },
+      "center": {
+        "lat": 33.5189509,
+        "lon": -81.71660715000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1022434524,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "O'Charley's",
+        "brand:wikidata": "Q7071703",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "O'Charley's"
+      },
+      "center": {
+        "lat": 32.8116014,
+        "lon": -80.04435709999996
+      }
+    }
+  ]
+}

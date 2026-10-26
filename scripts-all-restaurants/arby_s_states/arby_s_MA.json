@@ -1,0 +1,64 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "arby_s",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 196403415,
+      "tags": {
+        "addr:housenumber": "406",
+        "addr:street": "Southbridge Street",
+        "amenity": "fast_food",
+        "building": "yes",
+        "check_date": "2024-06-24",
+        "cuisine": "sandwich",
+        "diet:meat": "yes",
+        "drive_through": "yes",
+        "name": "Arby's",
+        "not:brand:wikidata": "Q630866",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+1-508-832-9764",
+        "website": "https://www.arbys.com/locations/us/ma/auburn/406-southbridge-st/store-1612/"
+      },
+      "center": {
+        "lat": 42.20281345,
+        "lon": -71.83851064999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 212532587,
+      "tags": {
+        "addr:housenumber": "1483",
+        "addr:street": "Granby Road",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "diet:meat": "yes",
+        "drive_through": "yes",
+        "name": "Arby's",
+        "not:brand:wikidata": "Q630866",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+1-413-593-1437",
+        "website": "https://www.arbys.com/locations/us/ma/chicopee/1483-granby-rd/store-341/"
+      },
+      "center": {
+        "lat": 42.1798969,
+        "lon": -72.57852735
+      }
+    }
+  ]
+}

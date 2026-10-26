@@ -1,0 +1,99 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "the_human_bean",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10231842320,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "The Human Bean",
+        "brand:wikidata": "Q7740821",
+        "cuisine": "coffee_shop",
+        "name": "The Human Bean",
+        "takeaway": "yes"
+      },
+      "lat": 39.4543149,
+      "lon": -119.7777044
+    },
+    {
+      "type": "node",
+      "id": 11440256096,
+      "tags": {
+        "addr:city": "Reno",
+        "addr:state": "NV",
+        "addr:street": "East Plumb Lane",
+        "amenity": "cafe",
+        "brand": "The Human Bean",
+        "brand:wikidata": "Q7740821",
+        "cuisine": "coffee_shop",
+        "name": "The Human Bean",
+        "takeaway": "yes"
+      },
+      "lat": 39.5054498,
+      "lon": -119.7978175
+    },
+    {
+      "type": "way",
+      "id": 1070026864,
+      "tags": {
+        "addr:city": "Sparks",
+        "addr:county": "Washoe",
+        "addr:housenumber": "800",
+        "addr:postcode": "89431",
+        "addr:state": "NV",
+        "addr:street": "Holman Way",
+        "amenity": "cafe",
+        "brand": "The Human Bean",
+        "brand:wikidata": "Q7740821",
+        "building": "kiosk",
+        "check_date": "2024-06-23",
+        "cuisine": "coffee_shop",
+        "name": "The Human Bean",
+        "source": "WC GIS"
+      },
+      "center": {
+        "lat": 39.5494283,
+        "lon": -119.75316314999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1204536422,
+      "tags": {
+        "addr:city": "Reno",
+        "addr:county": "Washoe",
+        "addr:housenumber": "3915",
+        "addr:postcode": "89502",
+        "addr:state": "NV",
+        "addr:street": "South Mccarran Boulevard",
+        "amenity": "cafe",
+        "brand": "The Human Bean",
+        "brand:wikidata": "Q7740821",
+        "building": "yes",
+        "check_date": "2024-06-09",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "The Human Bean",
+        "takeaway": "only"
+      },
+      "center": {
+        "lat": 39.47723445,
+        "lon": -119.76425265
+      }
+    }
+  ]
+}

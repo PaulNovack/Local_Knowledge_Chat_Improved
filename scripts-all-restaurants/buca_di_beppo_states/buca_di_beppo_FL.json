@@ -1,0 +1,100 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "buca_di_beppo",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1922268203,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Buca di Beppo",
+        "brand:wikidata": "Q4982340",
+        "cuisine": "italian",
+        "name": "Buca di Beppo",
+        "opening_hours": "Mo-Th 11:30-22:00; Fr-Sa 11:30-23:00; Su 11:30-21:00",
+        "website": "https://www.bucadibeppo.com/"
+      },
+      "lat": 28.4444071,
+      "lon": -81.3924373
+    },
+    {
+      "type": "node",
+      "id": 6965320640,
+      "tags": {
+        "addr:city": "Celebration",
+        "addr:housenumber": "6282",
+        "addr:postcode": "34747",
+        "addr:state": "FL",
+        "addr:street": "W Irlo Bronson Memorial Hwy",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brand": "Buca di Beppo",
+        "brand:wikidata": "Q4982340",
+        "catering": "yes",
+        "cuisine": "italian",
+        "internet_access": "no",
+        "name": "Buca di Beppo",
+        "opening_hours": "Mo-Th 11:00-21:30; Fr,Sa 11:00-22:30; Su 11:00-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-321-219-2822",
+        "reservation": "yes",
+        "takeaway": "yes",
+        "website": "https://dineatbuca.com/locations/celebration-kissimmee/",
+        "website:menu": "https://dineatbuca.com/locations/celebration-kissimmee/menu/#menu"
+      },
+      "lat": 28.3304307,
+      "lon": -81.5333326
+    },
+    {
+      "type": "way",
+      "id": 287060511,
+      "tags": {
+        "addr:city": "Davie",
+        "addr:housenumber": "3355",
+        "addr:postcode": "33328",
+        "addr:state": "FL",
+        "addr:street": "South University Drive",
+        "amenity": "restaurant",
+        "brand": "Buca di Beppo",
+        "brand:wikidata": "Q4982340",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Buca di Beppo"
+      },
+      "center": {
+        "lat": 26.07967885,
+        "lon": -80.25222645000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 552712797,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Buca di Beppo",
+        "brand:wikidata": "Q4982340",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Buca di Beppo"
+      },
+      "center": {
+        "lat": 28.6159012,
+        "lon": -81.36590269999999
+      }
+    }
+  ]
+}

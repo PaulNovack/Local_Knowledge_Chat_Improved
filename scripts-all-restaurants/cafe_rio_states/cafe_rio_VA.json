@@ -1,0 +1,121 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VA",
+    "brand": "cafe_rio",
+    "source": "https://download.geofabrik.de/north-america/us/virginia-latest.osm.pbf",
+    "source_md5": "142cb5a2e24d8c8b322058038eb78c69",
+    "processed_utc": "2026-10-24T07:18:37.726513+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 258062907,
+      "tags": {
+        "addr:city": "Burke",
+        "addr:housenumber": "6003",
+        "addr:postcode": "22015",
+        "addr:state": "VA",
+        "addr:street": "Burke Centre Parkway",
+        "addr:suite": "D",
+        "amenity": "restaurant",
+        "brand": "Cafe Rio",
+        "brand:wikidata": "Q5017108",
+        "cuisine": "mexican",
+        "name": "Cafe Rio",
+        "opening_hours": "Mo-Th 10:30-21:00; Fr-Sa 10:30-22:00; Su 11:00-20:00",
+        "phone": "+1-571-522-2200",
+        "website": "https://www.caferio.com/locations/burke"
+      },
+      "lat": 38.7869308,
+      "lon": -77.2967576
+    },
+    {
+      "type": "node",
+      "id": 2303930122,
+      "tags": {
+        "addr:floor": "G",
+        "amenity": "restaurant",
+        "brand": "Cafe Rio",
+        "brand:wikidata": "Q5017108",
+        "check_date": "2026-08-16",
+        "cuisine": "mexican",
+        "level": "0",
+        "name": "Cafe Rio",
+        "opening_hours": "Mo-Sa 10:30-22:00; Su 11:00-22:00"
+      },
+      "lat": 38.7871115,
+      "lon": -77.5131621
+    },
+    {
+      "type": "node",
+      "id": 2575198658,
+      "tags": {
+        "addr:city": "Falls Church",
+        "addr:housenumber": "6108",
+        "addr:postcode": "22044",
+        "addr:state": "VA",
+        "addr:street": "Arlington Boulevard",
+        "addr:unit": "A",
+        "amenity": "restaurant",
+        "branch": "Falls Church",
+        "brand": "Cafe Rio",
+        "brand:wikidata": "Q5017108",
+        "cuisine": "mexican",
+        "drive_through": "no",
+        "name": "Cafe Rio",
+        "opening_hours": "Mo-Sa 10:30-22:00; Su 11:00-22:00",
+        "phone": "+1 703-962-9100",
+        "website": "https://www.caferio.com/locations/falls-church"
+      },
+      "lat": 38.8686027,
+      "lon": -77.1440398
+    },
+    {
+      "type": "node",
+      "id": 7296910516,
+      "tags": {
+        "addr:unit": "100",
+        "amenity": "restaurant",
+        "brand": "Cafe Rio",
+        "brand:wikidata": "Q5017108",
+        "cuisine": "mexican",
+        "name": "Cafe Rio",
+        "website": "https://www.caferio.com/locations/ashburn"
+      },
+      "lat": 39.0617112,
+      "lon": -77.47347
+    },
+    {
+      "type": "way",
+      "id": 115921513,
+      "tags": {
+        "addr:city": "Herndon",
+        "addr:housenumber": "348;454",
+        "addr:postcode": "20170;20170-4513",
+        "addr:state": "VA",
+        "addr:street": "Elden Street",
+        "amenity": "restaurant",
+        "brand": "Cafe Rio",
+        "brand:wikidata": "Q5017108",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Cafe Rio",
+        "opening_hours": "Mo-Th 10:30-21:00; Fr,Sa 10:30-22:00; Su 11:00-21:00",
+        "phone": "+1-703-828-8611",
+        "website": "https://www.caferio.com/locations/herndon"
+      },
+      "center": {
+        "lat": 38.967975749999994,
+        "lon": -77.37411499999996
+      }
+    }
+  ]
+}

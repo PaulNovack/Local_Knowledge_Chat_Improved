@@ -1,0 +1,95 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "longhorn_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13422290108,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "lat": 37.085138,
+      "lon": -113.5847658
+    },
+    {
+      "type": "way",
+      "id": 30928632,
+      "tags": {
+        "addr:city": "Ogden",
+        "addr:housenumber": "3647",
+        "addr:postcode": "84405",
+        "addr:state": "UT",
+        "addr:street": "Wall Avenue",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2025-06-18",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1 801-621-4061",
+        "website": "https://longhornsteakhouse.com/locations/ut/ogden/ogden-newgate-mall/5468"
+      },
+      "center": {
+        "lat": 41.19703305,
+        "lon": -111.98004750000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 671944877,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 40.62291085,
+        "lon": -111.86424269999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 701523528,
+      "tags": {
+        "addr:city": "South Jordan",
+        "addr:country": "US",
+        "addr:housenumber": "11346",
+        "addr:postcode": "84095",
+        "addr:state": "UT",
+        "addr:street": "South River Heights Drive",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "retail",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse"
+      },
+      "center": {
+        "lat": 40.5453044,
+        "lon": -111.98230360000002
+      }
+    }
+  ]
+}

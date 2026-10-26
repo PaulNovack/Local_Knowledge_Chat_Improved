@@ -1,0 +1,137 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "miller_s_ale_house",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5360748013,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Miller's Ale House",
+        "brand:wikidata": "Q6858987",
+        "cuisine": "american",
+        "name": "Miller's Ale House"
+      },
+      "lat": 34.0420341,
+      "lon": -84.3139476
+    },
+    {
+      "type": "node",
+      "id": 12021283392,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Miller's Ale House",
+        "brand:wikidata": "Q6858987",
+        "check_date": "2024-06-29",
+        "cuisine": "american",
+        "name": "Miller's Ale House"
+      },
+      "lat": 34.3519953,
+      "lon": -84.0487388
+    },
+    {
+      "type": "way",
+      "id": 246723747,
+      "tags": {
+        "addr:housenumber": "745",
+        "addr:street": "Chastain Road Northwest",
+        "amenity": "restaurant",
+        "brand": "Miller's Ale House",
+        "brand:wikidata": "Q6858987",
+        "building": "retail",
+        "check_date": "2024-06-04",
+        "cuisine": "american",
+        "name": "Miller's Ale House",
+        "opening_hours": "Mo-Th 11:00-01:00; Fr-Sa 11:00-02:00; Su 11:00-01:00",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 678-203-2003",
+        "source": "local knowledge",
+        "website": "https://millersalehouse.com/locations/kennesaw/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 34.0344552,
+        "lon": -84.57228505
+      }
+    },
+    {
+      "type": "way",
+      "id": 948847619,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Miller's Ale House",
+        "brand:wikidata": "Q6858987",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Miller's Ale House"
+      },
+      "center": {
+        "lat": 33.421576200000004,
+        "lon": -84.18885115
+      }
+    },
+    {
+      "type": "way",
+      "id": 1215634997,
+      "tags": {
+        "addr:city": "Snellville",
+        "addr:housenumber": "1486",
+        "addr:postcode": "30078",
+        "addr:state": "GA",
+        "addr:street": "Scenic Highway",
+        "amenity": "restaurant",
+        "brand": "Miller's Ale House",
+        "brand:wikidata": "Q6858987",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Miller's Ale House",
+        "opening_hours": "Su-Th 11:00-24:00; Fr-Sa 11:00-01:00",
+        "phone": "+1-770-759-1055",
+        "website": "https://millersalehouse.com/locations/snellville/"
+      },
+      "center": {
+        "lat": 33.89115815,
+        "lon": -84.00760909999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1305314761,
+      "tags": {
+        "addr:city": "Sharpsburg",
+        "addr:housenumber": "60",
+        "addr:postcode": "30277",
+        "addr:state": "GA",
+        "addr:street": "Fischer Market Place Lane",
+        "amenity": "restaurant",
+        "brand": "Miller's Ale House",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Miller's Ale House",
+        "not:brand:wikidata": "Q6858987",
+        "opening_hours": "Mo-Th 11:00-24:00; Fr-Sa 11:00-25:00; Su 11:00-24:00",
+        "phone": "+1-229-355-2710",
+        "website": "https://millersalehouse.com/locations/sharpsburg/"
+      },
+      "center": {
+        "lat": 33.39850515,
+        "lon": -84.62571745000002
+      }
+    }
+  ]
+}

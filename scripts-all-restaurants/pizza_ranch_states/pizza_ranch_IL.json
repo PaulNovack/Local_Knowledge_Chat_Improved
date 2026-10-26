@@ -1,0 +1,151 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "pizza_ranch",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6214006915,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "1001",
+        "addr:postcode": "62703",
+        "addr:state": "IL",
+        "addr:street": "Lejune Drive",
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "cuisine": "pizza",
+        "name": "Pizza Ranch",
+        "opening_hours": "Mo-Th 11:00-20:00; Fr 11:00-21:00; Sa 09:00-21:00; Su 09:00-19:00",
+        "phone": "+1-217-679-8844",
+        "website": "https://pizzaranch.com/locations/il/springfield/1001-lejune-dr"
+      },
+      "lat": 39.74604,
+      "lon": -89.6433122
+    },
+    {
+      "type": "node",
+      "id": 12434803037,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "cuisine": "pizza",
+        "name": "Pizza Ranch"
+      },
+      "lat": 40.4892697,
+      "lon": -88.9517697
+    },
+    {
+      "type": "way",
+      "id": 251076048,
+      "tags": {
+        "addr:city": "Roscoe",
+        "addr:country": "US",
+        "addr:housenumber": "4997",
+        "addr:postcode": "61073",
+        "addr:state": "IL",
+        "addr:street": "Bluestem Road",
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "building": "commercial",
+        "building:use": "foodservice",
+        "cuisine": "pizza",
+        "name": "Pizza Ranch",
+        "opening_hours": "Mo-Su 11:00-20:00; PH unknown",
+        "phone": "+1 815-623-3800",
+        "website": "https://pizzaranch.com/locations/il/roscoe/4797-bluestem-road"
+      },
+      "center": {
+        "lat": 42.433364,
+        "lon": -89.0238043
+      }
+    },
+    {
+      "type": "way",
+      "id": 550871473,
+      "tags": {
+        "addr:city": "Sterling",
+        "addr:housenumber": "3900",
+        "addr:postcode": "61081",
+        "addr:state": "IL",
+        "addr:street": "East Lincolnway",
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Ranch"
+      },
+      "center": {
+        "lat": 41.8149123,
+        "lon": -89.65113610000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1103970423,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "building": "retail",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Pizza Ranch",
+        "smoking": "outside",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.61998455,
+        "lon": -89.46524020000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1268051083,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "building": "retail",
+        "cuisine": "pizza",
+        "name": "Pizza Ranch"
+      },
+      "center": {
+        "lat": 41.52415105,
+        "lon": -88.18525835000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1549585207,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Ranch"
+      },
+      "center": {
+        "lat": 40.97892915,
+        "lon": -90.36453775000001
+      }
+    }
+  ]
+}

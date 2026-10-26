@@ -1,0 +1,71 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WV",
+    "brand": "steak_n_shake",
+    "source": "https://download.geofabrik.de/north-america/us/west-virginia-latest.osm.pbf",
+    "source_md5": "4f8c380a535ff9841f95eae4e1a7f84f",
+    "processed_utc": "2026-10-24T07:19:30.158292+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13295875090,
+      "tags": {
+        "addr:city": "Morgantown",
+        "addr:housenumber": "3516",
+        "addr:postcode": "26505",
+        "addr:state": "WV",
+        "addr:street": "Monongahela Boulevard",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "cuisine": "burger",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "takeaway": "yes"
+      },
+      "lat": 39.6565273,
+      "lon": -79.9880115
+    },
+    {
+      "type": "way",
+      "id": 474401510,
+      "tags": {
+        "addr:city": "Barboursville",
+        "addr:country": "US",
+        "addr:housenumber": "3409",
+        "addr:postcode": "25504",
+        "addr:state": "WV",
+        "addr:street": "East Trails End Road",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "building": "yes",
+        "check_date": "2026-06-29",
+        "check_date:currency:XBT": "2026-06-29",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Mo-Th 10:30-22:00; Fr,Sa 10:30-23:00; Su 10:30-22:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1 304 733 2051",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/wv-barboursville-u-s-highway-60-east/"
+      },
+      "center": {
+        "lat": 38.417336399999996,
+        "lon": -82.25456910000003
+      }
+    }
+  ]
+}

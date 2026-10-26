@@ -1,0 +1,57 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "LA",
+    "brand": "dutch_bros_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/louisiana-latest.osm.pbf",
+    "source_md5": "2e108953505ee82f68e2a6e7a3e4f783",
+    "processed_utc": "2026-10-24T07:05:17.318731+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13926485083,
+      "tags": {
+        "addr:city": "Shreveport",
+        "addr:housenumber": "9501",
+        "addr:postcode": "71118",
+        "addr:state": "LA",
+        "addr:street": "Mansfield Road",
+        "amenity": "cafe",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "opening_hours": "Su-Th 05:00-22:00; Fr-Sa 05:00-23:00",
+        "takeaway": "only",
+        "website": "https://www.dutchbros.com/locations/la/shreveport/9501-mansfield-rd"
+      },
+      "lat": 32.390173,
+      "lon": -93.8136844
+    },
+    {
+      "type": "way",
+      "id": 1550657433,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Dutch Bros. Coffee",
+        "brand:wikidata": "Q5317253",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Dutch Bros. Coffee",
+        "takeaway": "only"
+      },
+      "center": {
+        "lat": 30.168308449999998,
+        "lon": -93.24674805000001
+      }
+    }
+  ]
+}

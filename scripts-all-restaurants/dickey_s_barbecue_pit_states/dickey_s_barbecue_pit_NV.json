@@ -1,0 +1,88 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "dickey_s_barbecue_pit",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 455186902,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "cuisine": "barbecue",
+        "name": "Dickey's Barbecue Pit"
+      },
+      "lat": 36.0544257,
+      "lon": -115.1715391
+    },
+    {
+      "type": "node",
+      "id": 7373570925,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "cuisine": "barbecue",
+        "name": "Dickey's Barbecue Pit"
+      },
+      "lat": 39.1881392,
+      "lon": -119.7597296
+    },
+    {
+      "type": "node",
+      "id": 11126312133,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "check_date": "2023-08-17",
+        "cuisine": "barbecue",
+        "delivery": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Dickey's Barbecue Pit",
+        "opening_hours": "11:00-21:00",
+        "toilets": "yes"
+      },
+      "lat": 39.5061333,
+      "lon": -119.7985719
+    },
+    {
+      "type": "way",
+      "id": 518894557,
+      "tags": {
+        "addr:city": "Reno",
+        "addr:county": "Washoe",
+        "addr:housenumber": "290",
+        "addr:postcode": "89506",
+        "addr:state": "NV",
+        "addr:street": "Lemmon Drive",
+        "addr:unit": "101",
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Dickey's Barbecue Pit",
+        "source": "RENO GIS"
+      },
+      "center": {
+        "lat": 39.613614600000005,
+        "lon": -119.8487404
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "a_and_w",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11094941766,
+      "tags": {
+        "addr:city": "Tonopah",
+        "addr:country": "US",
+        "addr:housenumber": "112",
+        "addr:postcode": "89049",
+        "addr:state": "NV",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "cuisine": "burger",
+        "name": "A&W",
+        "takeaway": "yes",
+        "website": "https://awrestaurants.com/locations/nevada/tonopah/112-n-main-street/"
+      },
+      "lat": 38.0687874,
+      "lon": -117.2310214
+    },
+    {
+      "type": "way",
+      "id": 402849252,
+      "tags": {
+        "addr:city": "Sparks",
+        "addr:county": "Washoe",
+        "addr:housenumber": "1311",
+        "addr:postcode": "89434",
+        "addr:state": "NV",
+        "addr:street": "Baring Boulevard",
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "A&W",
+        "source": "WC GIS",
+        "takeaway": "yes",
+        "website": "https://awrestaurants.com/locations/nevada/sparks/1311-baring-boulevard/"
+      },
+      "center": {
+        "lat": 39.55599945,
+        "lon": -119.72310405000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 402850467,
+      "tags": {
+        "addr:city": "Boulder City",
+        "addr:housenumber": "1410",
+        "addr:postcode": "89005",
+        "addr:state": "NV",
+        "addr:street": "Nevada Highway",
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "A&W",
+        "takeaway": "yes",
+        "website": "https://awrestaurants.com/locations/nevada/boulder-city/1410-boulder-city-parkway/"
+      },
+      "center": {
+        "lat": 35.97072555,
+        "lon": -114.85263269999996
+      }
+    }
+  ]
+}

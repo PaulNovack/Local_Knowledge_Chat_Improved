@@ -1,0 +1,78 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "krispy_kreme",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3427369988,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "lat": 38.9396226,
+      "lon": -94.6683552
+    },
+    {
+      "type": "way",
+      "id": 263439543,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "cuisine": "donut",
+        "name": "Krispy Kreme",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 37.6933973,
+        "lon": -97.24597334999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 621258112,
+      "tags": {
+        "addr:city": "Merriam",
+        "addr:housenumber": "8805",
+        "addr:postcode": "66202",
+        "addr:state": "KS",
+        "addr:street": "Shawnee Mission Parkway",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "retail",
+        "cuisine": "donut",
+        "drive_through": "yes",
+        "name": "Krispy Kreme",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-21:45",
+        "outdoor_seating": "no",
+        "phone": "+1-913-432-5944",
+        "takeaway": "yes",
+        "website": "https://site.krispykreme.com/ks/merriam/8805-shawnee-mission-pkwy"
+      },
+      "center": {
+        "lat": 39.014451449999996,
+        "lon": -94.6883555
+      }
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MT",
+    "brand": "chick_fil_a",
+    "source": "https://download.geofabrik.de/north-america/us/montana-latest.osm.pbf",
+    "source_md5": "abfa2e1bfc18f6c00a77776eb9185b11",
+    "processed_utc": "2026-10-24T07:09:10.271084+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10694189914,
+      "tags": {
+        "addr:city": "Missoula",
+        "addr:housenumber": "2880",
+        "addr:postcode": "59808",
+        "addr:state": "MT",
+        "addr:street": "North Reserve Street",
+        "amenity": "fast_food",
+        "branch": "Missoula",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00; Su off",
+        "phone": "+1 406-312-2400",
+        "ref": "04795",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mt/missoula"
+      },
+      "lat": 46.8910476,
+      "lon": -114.0386408
+    },
+    {
+      "type": "node",
+      "id": 11013235493,
+      "tags": {
+        "addr:city": "Kalispell",
+        "addr:housenumber": "35",
+        "addr:postcode": "59901",
+        "addr:state": "MT",
+        "addr:street": "Treeline Road",
+        "amenity": "fast_food",
+        "branch": "Kalispell",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-21:00; Su off",
+        "phone": "+1 406-752-3710",
+        "ref": "03434",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mt/kalispell"
+      },
+      "lat": 48.2380772,
+      "lon": -114.3311937
+    },
+    {
+      "type": "node",
+      "id": 11986519985,
+      "tags": {
+        "addr:city": "Billings",
+        "addr:housenumber": "670",
+        "addr:postcode": "59102",
+        "addr:state": "MT",
+        "addr:street": "South 24th Street West",
+        "amenity": "fast_food",
+        "branch": "Billings",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-21:00; Su off",
+        "phone": "+1 406-970-0018",
+        "ref": "04733",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mt/billings"
+      },
+      "lat": 45.7579066,
+      "lon": -108.5691596
+    },
+    {
+      "type": "way",
+      "id": 1359428482,
+      "tags": {
+        "addr:city": "Billings",
+        "addr:housenumber": "670",
+        "addr:postcode": "59102",
+        "addr:state": "MT",
+        "addr:street": "South 24th Street West",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-21:00",
+        "phone": "+1 406-970-0018",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/mt/billings"
+      },
+      "center": {
+        "lat": 45.7574745,
+        "lon": -108.57675054999999
+      }
+    }
+  ]
+}

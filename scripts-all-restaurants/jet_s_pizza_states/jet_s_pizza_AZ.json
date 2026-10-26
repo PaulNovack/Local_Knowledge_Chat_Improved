@@ -1,0 +1,89 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "jet_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5266163969,
+      "tags": {
+        "addr:city": "Chandler",
+        "addr:housenumber": "4245",
+        "addr:postcode": "85248",
+        "addr:state": "AZ",
+        "addr:street": "South Arizona Avenue",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza"
+      },
+      "lat": 33.2441458,
+      "lon": -111.8406304
+    },
+    {
+      "type": "node",
+      "id": 7257118386,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "10855",
+        "addr:postcode": "85028",
+        "addr:state": "AZ",
+        "addr:street": "North Tatum Boulevard",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza",
+        "phone": "+1-480-998-9889"
+      },
+      "lat": 33.5859852,
+      "lon": -111.9768503
+    },
+    {
+      "type": "node",
+      "id": 11162300031,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza"
+      },
+      "lat": 33.6705568,
+      "lon": -112.201532
+    },
+    {
+      "type": "node",
+      "id": 13676742713,
+      "tags": {
+        "addr:city": "Surprise",
+        "addr:housenumber": "14462",
+        "addr:postcode": "85374",
+        "addr:state": "AZ",
+        "addr:street": "West Elm Street",
+        "addr:unit": "131",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza",
+        "website": "https://www.jetspizza.com/stores/arizona/surprise/14462-w-elm-st-suite-131/"
+      },
+      "lat": 33.6369311,
+      "lon": -112.371527
+    }
+  ]
+}

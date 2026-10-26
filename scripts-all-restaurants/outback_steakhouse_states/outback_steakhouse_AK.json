@@ -1,0 +1,47 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AK",
+    "brand": "outback_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/alaska-latest.osm.pbf",
+    "source_md5": "55281fca0391ab2c26b0d99fd6a6f5f8",
+    "processed_utc": "2026-10-24T06:56:26.590469+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 772505966,
+      "tags": {
+        "addr:housenumber": "101",
+        "addr:postcode": "99503",
+        "addr:street": "West 34th Avenue",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2026-07-06",
+        "check_date:opening_hours": "2026-07-06",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse",
+        "opening_hours": "Su 15:00-21:00; Mo-Th 16:00-18:00; Fr 16:00-22:00; Sa 15:00-22:00",
+        "outdoor_seating": "no",
+        "phone": "+1-907-562-8787",
+        "self_service": "no",
+        "website": "https://locations.outback.com/alaska/anchorage/101-w.-34th-ave",
+        "website:menu": "https://www.outback.com/menu/anchorage/category/0"
+      },
+      "center": {
+        "lat": 61.190117,
+        "lon": -149.8838925
+      }
+    }
+  ]
+}

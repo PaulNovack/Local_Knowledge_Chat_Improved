@@ -1,0 +1,66 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "texas_roadhouse",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 236513355,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:housename": "Texas Roadhouse",
+        "addr:housenumber": "1931",
+        "addr:postcode": "82009",
+        "addr:state": "WY",
+        "addr:street": "Blue Grass Circle",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse",
+        "phone": "+1-307-638-1234",
+        "source": "local visit, company website",
+        "website": "https://www.texasroadhouse.com/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 41.1582747,
+        "lon": -104.79416179999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1075463764,
+      "tags": {
+        "addr:city": "Evansville",
+        "addr:housenumber": "210",
+        "addr:postcode": "82636",
+        "addr:state": "WY",
+        "addr:street": "Miracle Street",
+        "amenity": "restaurant",
+        "brand": "Texas Roadhouse",
+        "brand:wikidata": "Q7707945",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Texas Roadhouse"
+      },
+      "center": {
+        "lat": 42.85344739999999,
+        "lon": -106.26395754999999
+      }
+    }
+  ]
+}

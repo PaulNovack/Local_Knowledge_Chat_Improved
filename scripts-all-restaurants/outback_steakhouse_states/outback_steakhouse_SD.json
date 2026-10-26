@@ -1,0 +1,57 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SD",
+    "brand": "outback_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/south-dakota-latest.osm.pbf",
+    "source_md5": "4d012b130d8682e6f0e1bc093c255981",
+    "processed_utc": "2026-10-24T07:16:00.169778+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2441039950,
+      "tags": {
+        "addr:city": "SIoux Falls",
+        "addr:housenumber": "2411",
+        "addr:postcode": "57106",
+        "addr:street": "South Carolyn Avenue",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse"
+      },
+      "lat": 43.5244878,
+      "lon": -96.7793477
+    },
+    {
+      "type": "way",
+      "id": 304685938,
+      "tags": {
+        "addr:city": "Rapid City",
+        "addr:housenumber": "665",
+        "addr:postcode": "57701",
+        "addr:state": "SD",
+        "addr:street": "East Disk Drive",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse"
+      },
+      "center": {
+        "lat": 44.1051062,
+        "lon": -103.20014494999998
+      }
+    }
+  ]
+}

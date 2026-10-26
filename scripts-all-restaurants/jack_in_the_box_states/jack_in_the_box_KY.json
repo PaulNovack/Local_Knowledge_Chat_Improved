@@ -1,0 +1,79 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KY",
+    "brand": "jack_in_the_box",
+    "source": "https://download.geofabrik.de/north-america/us/kentucky-latest.osm.pbf",
+    "source_md5": "beee275db6b863afe4847059e1397537",
+    "processed_utc": "2026-10-24T07:04:39.223265+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11980061498,
+      "tags": {
+        "addr:city": "Louisville",
+        "addr:housenumber": "10700",
+        "addr:postcode": "40272",
+        "addr:state": "KY",
+        "addr:street": "Dixie Highway",
+        "amenity": "fast_food",
+        "brand": "Jack in the Box",
+        "brand:wikidata": "Q1538507",
+        "cuisine": "burger",
+        "name": "Jack in the Box",
+        "phone": "+1 502-901-2696",
+        "takeaway": "yes",
+        "website": "https://locations.jackinthebox.com/us/ky/louisville/10700-dixie-hwy"
+      },
+      "lat": 38.098937,
+      "lon": -85.87252
+    },
+    {
+      "type": "node",
+      "id": 11980061531,
+      "tags": {
+        "addr:city": "Louisville",
+        "addr:housenumber": "3232",
+        "addr:postcode": "40205",
+        "addr:state": "KY",
+        "addr:street": "Bardstown Road",
+        "amenity": "fast_food",
+        "brand": "Jack in the Box",
+        "brand:wikidata": "Q1538507",
+        "cuisine": "burger",
+        "name": "Jack in the Box",
+        "phone": "+1 502-362-7389",
+        "takeaway": "yes",
+        "website": "https://locations.jackinthebox.com/us/ky/louisville/3232-bardstown-rd"
+      },
+      "lat": 38.208696,
+      "lon": -85.669746
+    },
+    {
+      "type": "way",
+      "id": 1504658651,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Jack in the Box",
+        "brand:wikidata": "Q1538507",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Jack in the Box",
+        "takeaway": "yes",
+        "website": "https://www.jackinthebox.com/"
+      },
+      "center": {
+        "lat": 38.28702665,
+        "lon": -85.57497825000002
+      }
+    }
+  ]
+}

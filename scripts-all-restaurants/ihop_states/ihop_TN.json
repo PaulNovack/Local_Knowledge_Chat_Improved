@@ -1,0 +1,554 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TN",
+    "brand": "ihop",
+    "source": "https://download.geofabrik.de/north-america/us/tennessee-latest.osm.pbf",
+    "source_md5": "a047c5da6c897a8a98b1fc4a282b8d3f",
+    "processed_utc": "2026-10-24T07:16:20.210730+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1863642390,
+      "tags": {
+        "addr:city": "Oak Ridge",
+        "addr:country": "US",
+        "addr:housenumber": "355",
+        "addr:postcode": "37830",
+        "addr:state": "TN",
+        "addr:street": "S Illinois Ave",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "phone": "+1-865-220-5450",
+        "website": "https://www.ihop.com/"
+      },
+      "lat": 36.0071063,
+      "lon": -84.2556748
+    },
+    {
+      "type": "node",
+      "id": 2830126748,
+      "tags": {
+        "addr:city": "Jackson",
+        "addr:housenumber": "9",
+        "addr:postcode": "38305",
+        "addr:state": "TN",
+        "addr:street": "Stonebridge Boulevard",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-08-29",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo,Tu 06:00-25:00, We 06:00-24:00, Th-Su 00:00-24:00",
+        "phone": "+1 866-984-5992",
+        "source": "official website",
+        "website": "https://restaurants.ihop.com/en-us/tn/jackson/breakfast-9-stonebridge-blvd-4441"
+      },
+      "lat": 35.6719688,
+      "lon": -88.8541961
+    },
+    {
+      "type": "node",
+      "id": 2830242278,
+      "tags": {
+        "addr:city": "Maryville",
+        "addr:housenumber": "906",
+        "addr:postcode": "37801",
+        "addr:state": "TN",
+        "addr:street": "Turner Street",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo,Tu 06:00-22:00; We,Th,Su 06:00-24:00; Fr,Sa 00:00-24:00",
+        "phone": "+1 865-981-9677",
+        "website": "https://restaurants.ihop.com/en-us/tn/maryville/breakfast-906-turner-st-4412"
+      },
+      "lat": 35.7529494,
+      "lon": -83.9959276
+    },
+    {
+      "type": "node",
+      "id": 5546547893,
+      "tags": {
+        "addr:city": "Greeneville",
+        "addr:housenumber": "195",
+        "addr:postcode": "37745",
+        "addr:state": "TN",
+        "addr:street": "Van Hill Road",
+        "amenity": "restaurant",
+        "branch": "5633",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "cuisine": "breakfast;pancake",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1 423-234-4467",
+        "website": "https://restaurants.ihop.com/en-us/tn/greeneville/breakfast-195-van-hill-rd-5633"
+      },
+      "lat": 36.3253505,
+      "lon": -82.8351907
+    },
+    {
+      "type": "node",
+      "id": 7604103035,
+      "tags": {
+        "addr:city": "Millington",
+        "addr:housenumber": "8484",
+        "addr:postcode": "38053",
+        "addr:state": "TN",
+        "addr:street": "Wilkinsville Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-09-15",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Th 06:00-22:00; Fr 06:00-24:00; Sa 00:00-24:00; Su 00:00-22:00",
+        "phone": "+1 901-873-4407",
+        "source": "official website",
+        "website": "https://restaurants.ihop.com/en-us/tn/millington/breakfast-8484-wilkinsville-rd-3188"
+      },
+      "lat": 35.3583636,
+      "lon": -89.8950592
+    },
+    {
+      "type": "node",
+      "id": 10536249575,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "phone": "+1-901-296-5340",
+        "website": "https://restaurants.ihop.com/en-us/tn/covington/breakfast-1655-hwy-51-south-3483"
+      },
+      "lat": 35.5432988,
+      "lon": -89.6664314
+    },
+    {
+      "type": "way",
+      "id": 186015231,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 35.20237765,
+        "lon": -89.79389064999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 247382842,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 36.0800335,
+        "lon": -86.72585215000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 280949935,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "source": "Bing",
+        "source:name": "survey"
+      },
+      "center": {
+        "lat": 35.134859750000004,
+        "lon": -89.99286665
+      }
+    },
+    {
+      "type": "way",
+      "id": 293932012,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 35.847368599999996,
+        "lon": -86.42180155
+      }
+    },
+    {
+      "type": "way",
+      "id": 305205872,
+      "tags": {
+        "addr:city": "Oak Ridge",
+        "addr:housenumber": "355",
+        "addr:postcode": "37830",
+        "addr:state": "TN",
+        "addr:street": "South Illinois Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 36.0071456,
+        "lon": -84.2556616
+      }
+    },
+    {
+      "type": "way",
+      "id": 317438951,
+      "tags": {
+        "addr:housenumber": "5113",
+        "addr:postcode": "37343",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "check_date": "2026-07-14",
+        "check_date:opening_hours": "2026-07-14",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-02:00",
+        "phone": "+1-423-877-4732",
+        "website": "https://restaurants.ihop.com/en-us/tn/hixson/breakfast-5113-hwy-153-4486"
+      },
+      "center": {
+        "lat": 35.12199895,
+        "lon": -85.23961210000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 414619603,
+      "tags": {
+        "addr:city": "Pigeon Forge",
+        "addr:housenumber": "3636",
+        "addr:postcode": "37863",
+        "addr:state": "TN",
+        "addr:street": "Parkway",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "phone": "+1-865-429-2335"
+      },
+      "center": {
+        "lat": 35.7829992,
+        "lon": -83.55195779999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 416211253,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "commercial",
+        "check_date": "2025-12-31",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 35.8291682,
+        "lon": -83.57465675000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 451262241,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 36.3496207,
+        "lon": -82.39995680000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 486682723,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 36.01016894999999,
+        "lon": -83.97444389999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 509707767,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 35.01206655,
+        "lon": -85.212673
+      }
+    },
+    {
+      "type": "way",
+      "id": 552473462,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 36.551089649999994,
+        "lon": -82.52923625
+      }
+    },
+    {
+      "type": "way",
+      "id": 569415055,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 35.075312,
+        "lon": -89.90570235000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 588289913,
+      "tags": {
+        "addr:housenumber": "4373",
+        "addr:postcode": "37312",
+        "addr:street": "Freedom Parkway Northwest",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "check_date": "2026-06-29",
+        "check_date:opening_hours": "2026-06-29",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Su-Th 06:00-22:00; Fr-Sa 06:00-00:00",
+        "phone": "+1-423-479-9707",
+        "website": "https://restaurants.ihop.com/en-us/tn/cleveland/breakfast-4323-freedom-pkwy-nw-2007"
+      },
+      "center": {
+        "lat": 35.209808699999996,
+        "lon": -84.8550022
+      }
+    },
+    {
+      "type": "way",
+      "id": 702198230,
+      "tags": {
+        "addr:city": "Clarksville",
+        "addr:country": "US",
+        "addr:housenumber": "2819B",
+        "addr:postcode": "37040",
+        "addr:state": "TN",
+        "addr:street": "Wilma Rudolph Boulevard",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "delivery": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "operator": "International House of Pancakes",
+        "phone": "+1 931-503-0911",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.ihop.com/en/restaurants-clarksville-tn/2819-b-wilma-rudolph-boulevard-4420",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 36.5901506,
+        "lon": -87.29148269999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 832059628,
+      "tags": {
+        "addr:housenumber": "7128",
+        "addr:postcode": "37919",
+        "addr:street": "Kingston Pike",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "check_date": "2026-06-14",
+        "check_date:opening_hours": "2026-06-14",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Th 06:00-22:00; Fr 06:00-00:00; Sa 00:00-24:00; Su 00:00-22:00",
+        "phone": "+1-865-588-8331",
+        "website": "https://restaurants.ihop.com/en-us/tn/knoxville/breakfast-7128-kingston-pike-428"
+      },
+      "center": {
+        "lat": 35.930497599999995,
+        "lon": -84.02655585000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 847604472,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "check_date": "2025-07-18",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 35.155673449999995,
+        "lon": -89.79475400000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 896785484,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 36.2155181,
+        "lon": -83.25696830000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 915308531,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 35.9801626,
+        "lon": -86.56355414999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1133617183,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 36.193423499999994,
+        "lon": -86.61632499999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1221227910,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 36.56867285,
+        "lon": -82.19843994999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1443329525,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 35.047538599999996,
+        "lon": -89.82968985000002
+      }
+    }
+  ]
+}

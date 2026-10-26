@@ -1,0 +1,95 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "jim_n_nick_s",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2614929755,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "barbecue",
+        "name": "Jim n Nick's"
+      },
+      "lat": 35.368391,
+      "lon": -80.7120195
+    },
+    {
+      "type": "node",
+      "id": 12377391306,
+      "tags": {
+        "addr:city": "Hickory",
+        "addr:housenumber": "1687",
+        "addr:postcode": "28602",
+        "addr:state": "NC",
+        "addr:street": "US 70 SE",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brand": "Jim 'N Nick's",
+        "brand:wikidata": "Q122955601",
+        "check_date": "2025-08-03",
+        "cuisine": "barbecue",
+        "delivery": "yes",
+        "diet:vegetarian": "yes",
+        "internet_access": "no",
+        "name": "Jim 'N Nick's",
+        "opening_hours": "Mo-Su 11:00-14:30; Mo-Su 16:30-21:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-828-278-7930",
+        "takeaway": "yes",
+        "website": "https://www.jimnnicks.com",
+        "website:menu": "https://www.jimnnicks.com/menu/",
+        "wheelchair": "yes"
+      },
+      "lat": 35.7089894,
+      "lon": -81.309192
+    },
+    {
+      "type": "node",
+      "id": 14135355304,
+      "tags": {
+        "addr:housenumber": "4012",
+        "addr:street": "Andres Avenue",
+        "amenity": "restaurant",
+        "brand": "Jim 'N Nick's",
+        "brand:wikidata": "Q122955601",
+        "check_date": "2026-10-11",
+        "cuisine": "barbecue",
+        "name": "Jim 'N Nick's",
+        "website": "https://www.jimnnicks.com/locations/nc/high-point/4013-andres-avenue"
+      },
+      "lat": 36.0320466,
+      "lon": -79.9570076
+    },
+    {
+      "type": "way",
+      "id": 256399272,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "regional",
+        "name": "Jim 'N Nick's Bar-B-Q"
+      },
+      "center": {
+        "lat": 35.1050228,
+        "lon": -80.98986954999998
+      }
+    }
+  ]
+}

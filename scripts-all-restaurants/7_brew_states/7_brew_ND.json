@@ -1,0 +1,55 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ND",
+    "brand": "7_brew",
+    "source": "https://download.geofabrik.de/north-america/us/north-dakota-latest.osm.pbf",
+    "source_md5": "9eff3bc6ca09aea0f8e064cee3b44c15",
+    "processed_utc": "2026-10-24T07:12:54.105950+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8440953696,
+      "tags": {
+        "addr:city": "Minot",
+        "addr:housenumber": "1520",
+        "addr:postcode": "58701",
+        "addr:state": "ND",
+        "addr:street": "South Broadway Street",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew",
+        "takeaway": "yes",
+        "website": "https://locations.7brew.com/nd/minot/1520-s-broadway"
+      },
+      "lat": 48.219101,
+      "lon": -101.2965081
+    },
+    {
+      "type": "way",
+      "id": 830082088,
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "7 Brew Coffee"
+      },
+      "center": {
+        "lat": 48.219102449999994,
+        "lon": -101.29650629999998
+      }
+    }
+  ]
+}

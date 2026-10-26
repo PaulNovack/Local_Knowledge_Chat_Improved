@@ -1,0 +1,179 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "kfc",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2425639622,
+      "tags": {
+        "addr:city": "Rawlins",
+        "addr:housenumber": "2421",
+        "addr:postcode": "82301",
+        "addr:state": "WY",
+        "addr:street": "Plaza Street",
+        "amenity": "fast_food",
+        "name": "KFC / Taco Bell",
+        "phone": "+1 307-328-5890",
+        "source": "note",
+        "website": "https://locations.tacobell.com/wy/rawlins/2421-plaza-street.html"
+      },
+      "lat": 41.7930765,
+      "lon": -107.2099949
+    },
+    {
+      "type": "node",
+      "id": 3786956480,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:housenumber": "2414",
+        "addr:postcode": "82001",
+        "addr:state": "WY",
+        "addr:street": "East Lincolnway",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/wy/cheyenne/2414-e-lincolnway"
+      },
+      "lat": 41.1388211,
+      "lon": -104.7879707
+    },
+    {
+      "type": "node",
+      "id": 7300721670,
+      "tags": {
+        "addr:city": "Rock Springs",
+        "addr:housenumber": "2705",
+        "addr:postcode": "82901",
+        "addr:state": "WY",
+        "addr:street": "Dewar Drive",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/wy/rock-springs/2705-dewar-drive"
+      },
+      "lat": 41.579804,
+      "lon": -109.2588121
+    },
+    {
+      "type": "node",
+      "id": 11002568247,
+      "tags": {
+        "addr:city": "Evanston",
+        "addr:housenumber": "737",
+        "addr:postcode": "82930",
+        "addr:state": "WY",
+        "addr:street": "Overthrust",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/wy/evanston/737-overthrust"
+      },
+      "lat": 41.2577067,
+      "lon": -110.9856409
+    },
+    {
+      "type": "node",
+      "id": 11986519971,
+      "tags": {
+        "addr:city": "Riverton",
+        "addr:housenumber": "830",
+        "addr:postcode": "82501",
+        "addr:state": "WY",
+        "addr:street": "North Federal Boulevard",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "opening_hours": "10:30-22:00",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/wy/riverton/830-north-federal-boulevard/"
+      },
+      "lat": 43.033005,
+      "lon": -108.3810499
+    },
+    {
+      "type": "way",
+      "id": 260860554,
+      "tags": {
+        "addr:city": "Gillette",
+        "addr:housenumber": "2250",
+        "addr:postcode": "82716",
+        "addr:state": "WY",
+        "addr:street": "South Douglas Highway",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2026-07-06",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "KFC",
+        "outdoor_seating": "no",
+        "roof:shape": "flat",
+        "source": "survey",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/wy/gillette/2250-south-douglas-highway"
+      },
+      "center": {
+        "lat": 44.2739323,
+        "lon": -105.49504765
+      }
+    },
+    {
+      "type": "way",
+      "id": 1464946971,
+      "tags": {
+        "addr:city": "Casper",
+        "addr:housenumber": "4100",
+        "addr:postcode": "82609",
+        "addr:state": "WY",
+        "addr:street": "East 2nd Street",
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/wy/casper/4100-east-second-street"
+      },
+      "center": {
+        "lat": 42.849192,
+        "lon": -106.27426250000002
+      }
+    }
+  ]
+}

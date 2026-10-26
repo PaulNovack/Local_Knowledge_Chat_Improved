@@ -1,0 +1,63 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "ruby_tuesday",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13653672474,
+      "tags": {
+        "addr:city": "Denver",
+        "addr:housenumber": "6751",
+        "addr:postcode": "80249",
+        "addr:state": "CO",
+        "addr:street": "Tower Road",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "check_date": "2025-08-13",
+        "cuisine": "american",
+        "name": "Ruby Tuesday",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-303-373-5800",
+        "source": "Bing",
+        "website": "https://www.rubytuesday.com/locations/tower-road/"
+      },
+      "lat": 39.8197929,
+      "lon": -104.7724891
+    },
+    {
+      "type": "way",
+      "id": 778387607,
+      "tags": {
+        "addr:city": "Pueblo",
+        "addr:housenumber": "4150",
+        "addr:postcode": "81008",
+        "addr:state": "CO",
+        "addr:street": "North Freeway",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "center": {
+        "lat": 38.31203405,
+        "lon": -104.61386685000002
+      }
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "panda_express",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2108033612,
+      "tags": {
+        "addr:city": "Starkville",
+        "addr:housenumber": "198",
+        "addr:postcode": "39760",
+        "addr:state": "MS",
+        "addr:street": "Lee Boulevard",
+        "amenity": "fast_food",
+        "branch": "Mississippi State University",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "indoor_seating": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:30-21:00; Fr 10:30-20:00; Sa 11:00-20:00; Su 11:00-21:00",
+        "outdoor_seating": "no",
+        "phone": "+1 662-325-6856",
+        "takeaway": "only",
+        "website": "https://www.pandaexpress.com/locations/ms/starkville/2009",
+        "wheelchair": "yes"
+      },
+      "lat": 33.4548731,
+      "lon": -88.7903341
+    },
+    {
+      "type": "node",
+      "id": 5941130247,
+      "tags": {
+        "addr:city": "University",
+        "addr:housenumber": "1",
+        "addr:postcode": "38677",
+        "addr:state": "MS",
+        "addr:street": "Student Union Drive",
+        "amenity": "fast_food",
+        "branch": "University of Mississippi",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "10:00-14:00",
+        "phone": "+1 662-915-1724",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/ms/university/2722"
+      },
+      "lat": 34.3672811,
+      "lon": -89.5347259
+    },
+    {
+      "type": "node",
+      "id": 12264476343,
+      "tags": {
+        "addr:city": "Flowood",
+        "addr:state": "MS",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "check_date": "2024-10-18",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "outdoor_seating": "no",
+        "takeaway": "yes"
+      },
+      "lat": 32.3395556,
+      "lon": -90.0706451
+    },
+    {
+      "type": "way",
+      "id": 193114808,
+      "tags": {
+        "addr:city": "Hattiesburg",
+        "addr:housenumber": "6129",
+        "addr:postcode": "39402",
+        "addr:state": "MS",
+        "addr:street": "US-98",
+        "amenity": "fast_food",
+        "branch": "US 98 & US 59",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:00; Fr-Sa 10:00-21:30; Su 10:00-21:00",
+        "phone": "+1 601-271-7396",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/ms/hattiesburg/2553"
+      },
+      "center": {
+        "lat": 31.3219985,
+        "lon": -89.38409394999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 900015669,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 31.709193550000002,
+        "lon": -89.14915535
+      }
+    },
+    {
+      "type": "way",
+      "id": 1223623601,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.44358805,
+        "lon": -88.84983325000002
+      }
+    }
+  ]
+}

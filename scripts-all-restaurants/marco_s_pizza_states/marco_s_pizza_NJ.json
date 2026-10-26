@@ -1,0 +1,39 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "marco_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 513992109,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "building": "yes",
+        "check_date:opening_hours": "2026-09-18",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "not:brand:wikidata": "Q6757382",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "takeaway": "yes",
+        "website": "https://www.marcos-pizzapennington.com/"
+      },
+      "center": {
+        "lat": 40.3098425,
+        "lon": -74.78661724999995
+      }
+    }
+  ]
+}

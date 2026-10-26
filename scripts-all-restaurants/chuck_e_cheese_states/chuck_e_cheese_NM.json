@@ -1,0 +1,63 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NM",
+    "brand": "chuck_e_cheese",
+    "source": "https://download.geofabrik.de/north-america/us/new-mexico-latest.osm.pbf",
+    "source_md5": "5e236c0e9dd59b2df560a9316c86a745",
+    "processed_utc": "2026-10-24T07:10:42.593170+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5893359933,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "4418",
+        "addr:postcode": "87111",
+        "addr:state": "NM",
+        "addr:street": "Wyoming Boulevard Northeast",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "opening_hours": "Su-Th 11:00-21:00, Fr 11:00-22:00, Sa 10:00-22:00",
+        "outdoor_seating": "no",
+        "phone": "+1-505-296-3110",
+        "website": "https://locations.chuckecheese.com/us/nm/albuquerque/4418-wyoming-blvd.-ne"
+      },
+      "lat": 35.1298951,
+      "lon": -106.549266
+    },
+    {
+      "type": "node",
+      "id": 10270744741,
+      "tags": {
+        "addr:city": "Rio Rancho",
+        "addr:housenumber": "10510",
+        "addr:postcode": "87114",
+        "addr:state": "NM",
+        "addr:street": "Coors Boulevard Bypass Northwest",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/nm/albuquerque/10510-coors-boulevard"
+      },
+      "lat": 35.2082808,
+      "lon": -106.6569666
+    }
+  ]
+}

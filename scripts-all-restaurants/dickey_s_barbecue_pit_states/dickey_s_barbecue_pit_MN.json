@@ -1,0 +1,73 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MN",
+    "brand": "dickey_s_barbecue_pit",
+    "source": "https://download.geofabrik.de/north-america/us/minnesota-latest.osm.pbf",
+    "source_md5": "4cabd6519cf6e8b1f74c96f59629df95",
+    "processed_utc": "2026-10-24T07:08:10.045763+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11155418165,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "cuisine": "barbecue",
+        "name": "Dickey's Barbecue Pit"
+      },
+      "lat": 45.5112754,
+      "lon": -92.9973632
+    },
+    {
+      "type": "node",
+      "id": 11758878069,
+      "tags": {
+        "addr:postcode": "55121",
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "cuisine": "barbecue",
+        "internet_access": "wlan",
+        "name": "Dickey's Barbecue Pit",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "phone": "+1-651-905-7725",
+        "website": "https://www.dickeys.com/"
+      },
+      "lat": 44.8460307,
+      "lon": -93.1213812
+    },
+    {
+      "type": "way",
+      "id": 1117657769,
+      "tags": {
+        "addr:city": "Mankato",
+        "addr:housenumber": "511",
+        "addr:postcode": "56001",
+        "addr:state": "MN",
+        "addr:street": "Holly Lane",
+        "addr:unit": "150",
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Dickey's Barbecue Pit",
+        "opening_hours": "11:00-21:00"
+      },
+      "center": {
+        "lat": 44.165981849999994,
+        "lon": -93.96961465000004
+      }
+    }
+  ]
+}

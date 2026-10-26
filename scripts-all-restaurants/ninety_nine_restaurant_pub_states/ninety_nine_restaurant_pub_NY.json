@@ -1,0 +1,122 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "ninety_nine_restaurant_pub",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1674094952,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ninety Nine Restaurant & Pub",
+        "brand:wikidata": "Q64358371",
+        "cuisine": "american",
+        "name": "Ninety Nine Restaurant & Pub"
+      },
+      "lat": 42.8087204,
+      "lon": -73.9896326
+    },
+    {
+      "type": "node",
+      "id": 8449899488,
+      "tags": {
+        "addr:city": "Queensbury",
+        "addr:housenumber": "578",
+        "addr:postcode": "12804",
+        "addr:state": "NY",
+        "addr:street": "Aviation Road",
+        "addr:unit": "C104",
+        "amenity": "restaurant",
+        "brand": "Ninety Nine Restaurant & Pub",
+        "brand:wikidata": "Q64358371",
+        "cuisine": "american",
+        "name": "Ninety Nine Restaurant & Pub",
+        "nysgissam:nysaddresspointid": "WARR044999",
+        "nysgissam:review": "found > 1 existing matching address"
+      },
+      "lat": 43.3271579,
+      "lon": -73.6792334
+    },
+    {
+      "type": "way",
+      "id": 139588189,
+      "tags": {
+        "addr:city": "Saratoga Springs",
+        "addr:housenumber": "3073",
+        "addr:postcode": "12866",
+        "addr:state": "NY",
+        "addr:street": "Route 50",
+        "amenity": "restaurant",
+        "brand": "Ninety Nine Restaurant & Pub",
+        "brand:wikidata": "Q64358371",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Ninety Nine Restaurant & Pub",
+        "nysgissam:nysaddresspointid": "SARA143533",
+        "nysgissam:review": "no matching street nearby",
+        "source": "NYS Clearinghouse OpenData & ESRI Clarity Sat Imagery"
+      },
+      "center": {
+        "lat": 43.1053649,
+        "lon": -73.73967655000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 264325847,
+      "tags": {
+        "addr:city": "Kingston",
+        "addr:housenumber": "53",
+        "addr:postcode": "12401",
+        "addr:state": "NY",
+        "addr:street": "Massa Drive",
+        "amenity": "restaurant",
+        "brand": "Ninety Nine Restaurant & Pub",
+        "brand:wikidata": "Q64358371",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ninety Nine Restaurant & Pub",
+        "nysgissam:nysaddresspointid": "ULST057864"
+      },
+      "center": {
+        "lat": 41.9624126,
+        "lon": -73.98824124999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 768406548,
+      "tags": {
+        "addr:city": "New Hartford",
+        "addr:housenumber": "8675",
+        "addr:postcode": "13413",
+        "addr:state": "NY",
+        "addr:street": "Clinton Street",
+        "amenity": "restaurant",
+        "brand": "Ninety Nine Restaurant & Pub",
+        "brand:wikidata": "Q64358371",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ninety Nine Restaurant & Pub",
+        "nysgissam:nysaddresspointid": "ONEI145645",
+        "website": "https://www.99restaurants.com/"
+      },
+      "center": {
+        "lat": 43.090479900000005,
+        "lon": -75.31364995000001
+      }
+    }
+  ]
+}

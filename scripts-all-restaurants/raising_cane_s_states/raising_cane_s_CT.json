@@ -1,0 +1,75 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "raising_cane_s",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9389281923,
+      "tags": {
+        "addr:city": "Wethersfield",
+        "addr:housenumber": "1298",
+        "addr:postcode": "06109",
+        "addr:state": "CT",
+        "addr:street": "Silas Deane Highway",
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "opening_hours": "Su-Th 10:00-24:00; Fr-Sa 10:00-01:00",
+        "phone": "+1-860-263-2988",
+        "takeaway": "yes",
+        "website": "https://locations.raisingcanes.com/ct/wethersfield/1298-silas-deane-hwy"
+      },
+      "lat": 41.6856238,
+      "lon": -72.6541734
+    },
+    {
+      "type": "node",
+      "id": 11916238238,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "cuisine": "chicken",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "opening_hours": "Mo-Su 10:00-24:00; PH closed",
+        "takeaway": "yes"
+      },
+      "lat": 41.9976995,
+      "lon": -72.5803335
+    },
+    {
+      "type": "node",
+      "id": 13139727698,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "takeaway": "yes"
+      },
+      "lat": 41.798422,
+      "lon": -72.5503069
+    }
+  ]
+}

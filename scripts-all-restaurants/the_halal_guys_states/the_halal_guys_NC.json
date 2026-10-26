@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "the_halal_guys",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2262185453,
+      "tags": {
+        "addr:country": "US",
+        "addr:housenumber": "2000",
+        "addr:state": "NC",
+        "addr:street": "Boulderstone Way",
+        "amenity": "fast_food",
+        "brand": "The Halal Guys",
+        "brand:wikidata": "Q10846129",
+        "cuisine": "chicken;falafel;gyros",
+        "diet:halal": "yes",
+        "name": "The Halal Guys",
+        "opening_hours": "Mo-Sa 10:00-24:00, Su 10:00-22:00",
+        "takeaway": "yes",
+        "website": "https://thehalalguys.com/"
+      },
+      "lat": 35.7913627,
+      "lon": -78.8486876
+    },
+    {
+      "type": "node",
+      "id": 11810967751,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "The Halal Guys",
+        "brand:wikidata": "Q10846129",
+        "cuisine": "chicken;falafel;gyros",
+        "diet:halal": "yes",
+        "name": "The Halal Guys",
+        "takeaway": "yes",
+        "website": "https://thehalalguys.com"
+      },
+      "lat": 35.1962956,
+      "lon": -80.8711758
+    }
+  ]
+}

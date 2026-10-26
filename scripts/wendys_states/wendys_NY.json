@@ -1,0 +1,5049 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/3.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "wendys",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T06:31:24.489451+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1329146544,
+      "tags": {
+        "addr:city": "Fairport",
+        "addr:housenumber": "557",
+        "addr:postcode": "14450",
+        "addr:state": "NY",
+        "addr:street": "Moseley Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "operator": "Wendy's",
+        "phone": "+1 585-425-7657",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/fairport/557-moseley-road"
+      },
+      "lat": 43.0718628,
+      "lon": -77.4430193
+    },
+    {
+      "type": "node",
+      "id": 1872183601,
+      "tags": {
+        "addr:city": "Orchard Park",
+        "addr:housenumber": "3275",
+        "addr:postcode": "14127",
+        "addr:state": "NY",
+        "addr:street": "Orchard Park Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:30-24:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 716-677-6837",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/orchard-park/3275-orchard-park-rd"
+      },
+      "lat": 42.7957048,
+      "lon": -78.750948
+    },
+    {
+      "type": "node",
+      "id": 2349325465,
+      "tags": {
+        "addr:city": "Corning",
+        "addr:housenumber": "5",
+        "addr:postcode": "14830",
+        "addr:state": "NY",
+        "addr:street": "South Buffalo Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-We 06:30-01:00; Th-Sa 06:30-02:00; Su 06:30-01:00",
+        "phone": "+1 607-936-0106",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/corning/5-s-buffalo-st"
+      },
+      "lat": 42.1534637,
+      "lon": -77.0792734
+    },
+    {
+      "type": "node",
+      "id": 2610762927,
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "85",
+        "addr:postcode": "10038",
+        "addr:state": "NY",
+        "addr:street": "Nassau Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "check_date": "2023-07-26",
+        "cuisine": "burger",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Th 06:30-00:00; Fr 08:30-00:00; Sa-Su 07:30-00:00",
+        "outdoor_seating": "no",
+        "phone": "+1 212-619-3322",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/new-york/85-nassau-street",
+        "wheelchair": "yes"
+      },
+      "lat": 40.710048,
+      "lon": -74.0080338
+    },
+    {
+      "type": "node",
+      "id": 2709430285,
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "462",
+        "addr:postcode": "10018",
+        "addr:state": "NY",
+        "addr:street": "7th Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Fr 06:30-00:00; Sa-Su 07:30-00:00",
+        "phone": "+1 212-389-0080",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/new-york/462-7th-ave"
+      },
+      "lat": 40.7519665,
+      "lon": -73.9901608
+    },
+    {
+      "type": "node",
+      "id": 2714913600,
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "714",
+        "addr:postcode": "10017",
+        "addr:state": "NY",
+        "addr:street": "3rd Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "check_date": "2026-03-11",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "no",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Fr 06:30-00:00; Sa-Su 07:30-00:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 212-682-2568",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/new-york/714-third-avenue",
+        "wheelchair": "yes"
+      },
+      "lat": 40.7526054,
+      "lon": -73.9733371
+    },
+    {
+      "type": "node",
+      "id": 3936314203,
+      "tags": {
+        "addr:city": "West Seneca",
+        "addr:housenumber": "2021",
+        "addr:postcode": "14224",
+        "addr:state": "NY",
+        "addr:street": "Ridge Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "changing_table": "no",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "outdoor_seating": "no",
+        "phone": "+1 716-675-5882",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/west-seneca/2021-ridge-road",
+        "wheelchair": "yes"
+      },
+      "lat": 42.8291973,
+      "lon": -78.7770761
+    },
+    {
+      "type": "node",
+      "id": 3940082166,
+      "tags": {
+        "addr:city": "Holtsville",
+        "addr:housenumber": "175",
+        "addr:postcode": "11742",
+        "addr:state": "NY",
+        "addr:street": "Morris Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 07:00-01:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "phone": "+1 631-207-3725",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/holtsville/175-morris-avenue"
+      },
+      "lat": 40.8185201,
+      "lon": -73.0579977
+    },
+    {
+      "type": "node",
+      "id": 4004611396,
+      "tags": {
+        "addr:city": "Cortland",
+        "addr:housenumber": "157",
+        "addr:postcode": "13045",
+        "addr:state": "NY",
+        "addr:street": "Clinton Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-We 06:30-01:00; Th-Sa 06:30-02:00; Su 06:30-01:00",
+        "phone": "+1 607-753-3710",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/cortland/157-clinton-avenue"
+      },
+      "lat": 42.6081773,
+      "lon": -76.1661805
+    },
+    {
+      "type": "node",
+      "id": 4432547746,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "1251",
+        "addr:postcode": "13905",
+        "addr:state": "NY",
+        "addr:street": "Front Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 607-723-0233",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/binghamton/1251-front-street"
+      },
+      "lat": 42.1573393,
+      "lon": -75.8964058
+    },
+    {
+      "type": "node",
+      "id": 4644382460,
+      "tags": {
+        "addr:city": "Auburn",
+        "addr:housenumber": "212",
+        "addr:postcode": "13021",
+        "addr:state": "NY",
+        "addr:street": "Grant Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-We 06:30-01:00; Th-Sa 06:30-02:00; Su 06:30-01:00",
+        "phone": "+1 315-252-8818",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/auburn/212-grant-ave"
+      },
+      "lat": 42.9492421,
+      "lon": -76.5469823
+    },
+    {
+      "type": "node",
+      "id": 5172775848,
+      "tags": {
+        "addr:city": "Bronx",
+        "addr:housenumber": "4040",
+        "addr:postcode": "10457",
+        "addr:state": "NY",
+        "addr:street": "3rd Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-03:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-03:00",
+        "phone": "+1 718-299-5603",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/bronx/4040-3rd-ave"
+      },
+      "lat": 40.8427536,
+      "lon": -73.8978976
+    },
+    {
+      "type": "node",
+      "id": 5263685960,
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "200",
+        "addr:postcode": "10029",
+        "addr:state": "NY",
+        "addr:street": "East 116th Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Th 06:30-02:00; Fr-Sa 06:30-03:00; Su 06:30-02:00",
+        "phone": "+1 212-996-4020",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/new-york/2121-third-ave"
+      },
+      "lat": 40.797704,
+      "lon": -73.9398548
+    },
+    {
+      "type": "node",
+      "id": 5381044721,
+      "tags": {
+        "addr:city": "Elmsford",
+        "addr:housenumber": "91",
+        "addr:postcode": "10523",
+        "addr:state": "NY",
+        "addr:street": "91 Saw Mill River Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 914-592-9888",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/elmsford/91-saw-mill-road"
+      },
+      "lat": 41.0574562,
+      "lon": -73.8176252
+    },
+    {
+      "type": "node",
+      "id": 5687631818,
+      "tags": {
+        "addr:city": "Flushing",
+        "addr:housenumber": "72-32",
+        "addr:postcode": "11372",
+        "addr:state": "NY",
+        "addr:street": "Broadway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "06:30-01:00",
+        "phone": "+1 718-458-1921",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/flushing/72-32-broadway"
+      },
+      "lat": 40.7469802,
+      "lon": -73.8925555
+    },
+    {
+      "type": "node",
+      "id": 5702212678,
+      "tags": {
+        "addr:city": "Island Park",
+        "addr:housenumber": "4579",
+        "addr:postcode": "11558",
+        "addr:state": "NY",
+        "addr:street": "Austin Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 09:00-22:00",
+        "opening_hours:drive_through": "Mo-Sa 08:00-02:00; Su 09:00-02:00",
+        "phone": "+1 516-889-0560",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/island-park/4579-austin-blvd"
+      },
+      "lat": 40.5979839,
+      "lon": -73.6556532
+    },
+    {
+      "type": "node",
+      "id": 5750222459,
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "3939",
+        "addr:postcode": "10032",
+        "addr:state": "NY",
+        "addr:street": "Broadway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Th 06:30-03:00; Fr-Sa 06:30-04:00; Su 06:30-03:00",
+        "phone": "+1 212-928-0321",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/new-york/3939-broadway"
+      },
+      "lat": 40.8391748,
+      "lon": -73.9415213
+    },
+    {
+      "type": "node",
+      "id": 5782488527,
+      "tags": {
+        "addr:housenumber": "45-06",
+        "addr:street": "30th Avenue",
+        "alt_name": "Sushi Yoshi",
+        "amenity": "fast_food",
+        "branch": "Astoria",
+        "cuisine": "sushi;japanese;bubble_tea",
+        "delivery": "yes",
+        "name": "Wendy Teriyaki",
+        "opening_hours": "Mo-Th 11:00-22:00, Fr-Sa 11:00-22:15, Su 11:00-22:00",
+        "phone": "+1-631-888-3539",
+        "takeaway": "yes",
+        "website": "https://www.wendyteriyaki.com"
+      },
+      "lat": 40.7617883,
+      "lon": -73.9108432
+    },
+    {
+      "type": "node",
+      "id": 6004886791,
+      "tags": {
+        "addr:city": "Jfk Travel Plaza",
+        "addr:housenumber": "125",
+        "addr:postcode": "11430",
+        "addr:state": "NY",
+        "addr:street": "147th Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-20:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-03:00",
+        "phone": "+1 718-553-6037",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/jamaica/125-147th-ave"
+      },
+      "lat": 40.662977,
+      "lon": -73.7927277
+    },
+    {
+      "type": "node",
+      "id": 6440046985,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:housenumber": "683",
+        "addr:postcode": "14613",
+        "addr:state": "NY",
+        "addr:street": "Lake Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Sa 06:30-03:00; Su 08:00-03:00",
+        "phone": "+1 585-254-2860",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/rochester/683-lake-av",
+        "wheelchair": "yes"
+      },
+      "lat": 43.1771288,
+      "lon": -77.6313743
+    },
+    {
+      "type": "node",
+      "id": 6481946698,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:housenumber": "3825",
+        "addr:postcode": "14616",
+        "addr:state": "NY",
+        "addr:street": "Dewey Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 585-621-4394",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/greece/3825-dewey-ave",
+        "wheelchair": "yes"
+      },
+      "lat": 43.2402307,
+      "lon": -77.6474343
+    },
+    {
+      "type": "node",
+      "id": 7004376566,
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "4",
+        "addr:postcode": "10004",
+        "addr:state": "NY",
+        "addr:street": "South Street",
+        "addr:unit": "202",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "check_date": "2026-06-12",
+        "cuisine": "burger",
+        "level": "1",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Fr 06:30-00:00; Sa-Su 07:00-00:00",
+        "phone": "+1 212-220-9989",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/new-york/4-south-st-space-202"
+      },
+      "lat": 40.7012718,
+      "lon": -74.0129447
+    },
+    {
+      "type": "node",
+      "id": 7152740971,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:housenumber": "3190",
+        "addr:postcode": "14612",
+        "addr:state": "NY",
+        "addr:street": "Latta Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 585-773-2413",
+        "source": "survey;local knowledge;aerial imagery;National Agriculture Imagery Program Imagery",
+        "start_date": "02/15/2020",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/rochester/3190-latta-rd"
+      },
+      "lat": 43.253543,
+      "lon": -77.6983314
+    },
+    {
+      "type": "node",
+      "id": 7209268037,
+      "tags": {
+        "addr:city": "Glen Cove",
+        "addr:housenumber": "210",
+        "addr:postcode": "11542",
+        "addr:state": "NY",
+        "addr:street": "Glen Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 07:00-01:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "phone": "+1 516-676-7023",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/glen-cove/210-glen-street"
+      },
+      "lat": 40.8618794,
+      "lon": -73.6234698
+    },
+    {
+      "type": "node",
+      "id": 7320764985,
+      "tags": {
+        "addr:city": "Bronx",
+        "addr:housenumber": "19",
+        "addr:postcode": "10452",
+        "addr:state": "NY",
+        "addr:street": "West 170th Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Th 06:30-02:00; Fr-Sa 06:30-03:00; Su 06:30-02:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 718-681-0483",
+        "takeaway": "yes",
+        "website": "https://www.wendys.com/home",
+        "wheelchair": "yes"
+      },
+      "lat": 40.8404645,
+      "lon": -73.917814
+    },
+    {
+      "type": "node",
+      "id": 7343645076,
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "20",
+        "addr:postcode": "10003",
+        "addr:state": "NY",
+        "addr:street": "East 14th Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "check_date": "2024-06-10",
+        "check_date:opening_hours": "2021-05-07",
+        "cuisine": "burger",
+        "description": "Fast-food burger chain serving sides such as chili & baked potatoes.",
+        "drive_through": "no",
+        "name": "Wendy's",
+        "opening_hours": "Mo-We 06:30-00:00; Th-Fr 06:30-01:00; Sa 07:00-01:00; Su 07:00-00:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 212-243-0438",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/new-york/20-e-14th-street",
+        "wheelchair": "yes"
+      },
+      "lat": 40.7354191,
+      "lon": -73.9926501
+    },
+    {
+      "type": "node",
+      "id": 7613283048,
+      "tags": {
+        "addr:city": "Flushing",
+        "addr:postcode": "11371",
+        "addr:state": "NY",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "check_date": "2024-06-23",
+        "cuisine": "burger",
+        "level": "4",
+        "name": "Wendy's",
+        "opening_hours": "05:00-21:00",
+        "phone": "+1 646-633-4507",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/flushing/laguardia-airport---terminal-b"
+      },
+      "lat": 40.7737361,
+      "lon": -73.872372
+    },
+    {
+      "type": "node",
+      "id": 7799768737,
+      "tags": {
+        "addr:city": "Staten Island",
+        "addr:housenumber": "6420",
+        "addr:postcode": "10309",
+        "addr:state": "NY",
+        "addr:street": "Amboy Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "check_date": "2026-05-26",
+        "cuisine": "burger",
+        "internet_access": "wlan",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-02:00; Fr-Sa 06:30-03:00; Su 06:30-02:00",
+        "phone": "+1 718-967-3911",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/staten-island/6420-amboy-road"
+      },
+      "lat": 40.5211724,
+      "lon": -74.2168715
+    },
+    {
+      "type": "node",
+      "id": 8389190829,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:housenumber": "3362",
+        "addr:postcode": "14214",
+        "addr:state": "NY",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Wendy's Drive-Thru",
+        "opening_hours": "06:30-00:00",
+        "source": "https://locations.wendys.com/united-states/ny/buffalo/3362-main-street;aerial imagery",
+        "takeaway": "yes"
+      },
+      "lat": 42.9550625,
+      "lon": -78.8221841
+    },
+    {
+      "type": "node",
+      "id": 8785886498,
+      "tags": {
+        "addr:city": "Brockport",
+        "addr:housenumber": "4640",
+        "addr:postcode": "14420",
+        "addr:state": "NY",
+        "addr:street": "Lake Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "MONR015832",
+        "takeaway": "yes"
+      },
+      "lat": 43.2028736,
+      "lon": -77.9417058
+    },
+    {
+      "type": "node",
+      "id": 8787541987,
+      "tags": {
+        "addr:city": "Camillus",
+        "addr:housenumber": "5309",
+        "addr:postcode": "13031",
+        "addr:state": "NY",
+        "addr:street": "West Genesee Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "contact:website": "https://www.wendys.com/",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "ONON030733",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 315-295-1962",
+        "source": "survey, bing",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/camillus/5309-w-genesee-street"
+      },
+      "lat": 43.0400376,
+      "lon": -76.271382
+    },
+    {
+      "type": "node",
+      "id": 8788944536,
+      "tags": {
+        "addr:city": "West Nyack",
+        "addr:housenumber": "3624",
+        "addr:postcode": "10994",
+        "addr:state": "NY",
+        "addr:street": "Palisades Center Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "level": "3",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "ROCK026211",
+        "nysgissam:review": "existing element's addr:housenumber has different addr:housenumber",
+        "opening_hours": "Mo-Th 08:00-21:30; Fr-Sa 08:00-23:00; Su 08:00-21:00",
+        "phone": "+1 845-727-1123",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/west-nyack/3624-palisades-center-drive"
+      },
+      "lat": 41.0964733,
+      "lon": -73.9556296
+    },
+    {
+      "type": "node",
+      "id": 8791945383,
+      "tags": {
+        "addr:city": "Islip",
+        "addr:housenumber": "168",
+        "addr:postcode": "11751",
+        "addr:state": "NY",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "SUFF419187",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-We,Su 07:00-25:00, Th-Sa 07:00-26:00",
+        "phone": "+1 631-224-2790",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/islip/168-main-street"
+      },
+      "lat": 40.7275544,
+      "lon": -73.2228319
+    },
+    {
+      "type": "node",
+      "id": 8791967976,
+      "tags": {
+        "addr:city": "Miller Place",
+        "addr:country": "US",
+        "addr:housenumber": "418",
+        "addr:postcode": "11764",
+        "addr:state": "NY",
+        "addr:street": "Route 25A",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "SUFF010626",
+        "opening_hours": "08:00-10:30",
+        "phone": "+1 631-642-0374",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/miller-place/380-route-25a"
+      },
+      "lat": 40.9413754,
+      "lon": -72.9865518
+    },
+    {
+      "type": "node",
+      "id": 8793520854,
+      "tags": {
+        "addr:city": "Binghamton",
+        "addr:housenumber": "172",
+        "addr:postcode": "13905;13904",
+        "addr:state": "NY",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "internet_access": "wlan",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "BROO075399",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-02:00; Fr 06:30-23:00; Sa-Su 06:30-02:00",
+        "phone": "+1 607-723-5711",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/binghamton/170-main-street"
+      },
+      "lat": 42.1037217,
+      "lon": -75.9306982
+    },
+    {
+      "type": "node",
+      "id": 9015071214,
+      "tags": {
+        "addr:city": "Jamaica",
+        "addr:housenumber": "138-42",
+        "addr:postcode": "11435",
+        "addr:state": "NY",
+        "addr:street": "Jamaica Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Th 08:00-03:00; Fr-Sa 08:00-04:00; Su 08:00-03:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-04:00; Fr-Sa 06:30-05:00; Su 06:30-04:00",
+        "phone": "+1 718-526-5944",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/jamaica/138-42-jamaica-avenue"
+      },
+      "lat": 40.7027833,
+      "lon": -73.8140803
+    },
+    {
+      "type": "node",
+      "id": 9159583472,
+      "tags": {
+        "addr:city": "Lakewood",
+        "addr:housenumber": "327",
+        "addr:postcode": "14750",
+        "addr:state": "NY",
+        "addr:street": "East Fairmount Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 716-763-0998",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/lakewood/327-east-fairmount-avenue"
+      },
+      "lat": 42.0995829,
+      "lon": -79.3029467
+    },
+    {
+      "type": "node",
+      "id": 9240344123,
+      "tags": {
+        "addr:city": "Bronx",
+        "addr:housenumber": "4330",
+        "addr:postcode": "10475",
+        "addr:state": "NY",
+        "addr:street": "Boston Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "09:00-02:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-02:00; Fr-Sa 06:30-03:00; Su 06:30-02:00",
+        "phone": "+1 718-325-8750",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/bronx/4330-boston-road"
+      },
+      "lat": 40.8896251,
+      "lon": -73.8199271
+    },
+    {
+      "type": "node",
+      "id": 9525452619,
+      "tags": {
+        "addr:city": "Watertown",
+        "addr:housenumber": "419",
+        "addr:postcode": "13601",
+        "addr:state": "NY",
+        "addr:street": "State Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "Mo-We 07:00-21:00; Th-Sa 07:00-22:00; Su 07:00-21:00",
+        "opening_hours:drive_through": "Mo-We 06:30-00:00; Th-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 315-788-9694",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/watertown/419-state-street"
+      },
+      "lat": 43.9736731,
+      "lon": -75.9043309
+    },
+    {
+      "type": "node",
+      "id": 9709881248,
+      "tags": {
+        "addr:city": "Staten Island",
+        "addr:housenumber": "1661",
+        "addr:postcode": "10305",
+        "addr:state": "NY",
+        "addr:street": "Hylan Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-03:00",
+        "phone": "+1 718-979-8178",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/staten-island/1661-hylan-blvd"
+      },
+      "lat": 40.588217,
+      "lon": -74.090974
+    },
+    {
+      "type": "node",
+      "id": 9741552412,
+      "tags": {
+        "addr:city": "Flushing",
+        "addr:housenumber": "133-50",
+        "addr:postcode": "11354",
+        "addr:state": "NY",
+        "addr:street": "Whitestone Express",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Sa 06:30-02:00; Su 06:30-01:00",
+        "phone": "+1 718-762-4055",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/flushing/133-50-whitestone-express"
+      },
+      "lat": 40.7690027,
+      "lon": -73.8357002
+    },
+    {
+      "type": "node",
+      "id": 9850609383,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:housenumber": "1051",
+        "addr:postcode": "14209",
+        "addr:state": "NY",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-03:00",
+        "phone": "+1 716-883-7242",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/buffalo/1051-main-street"
+      },
+      "lat": 42.9030536,
+      "lon": -78.8683741
+    },
+    {
+      "type": "node",
+      "id": 10140463875,
+      "tags": {
+        "addr:city": "East Northport",
+        "addr:housenumber": "280",
+        "addr:postcode": "11731",
+        "addr:state": "NY",
+        "addr:street": "Larkfield Road",
+        "amenity": "fast_food",
+        "cuisine": "fast_food",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Su-Th 07:00-01:00; Fr-Sa 07:00-02:00",
+        "outdoor_seating": "no",
+        "phone": "+1-631-261-5736"
+      },
+      "lat": 40.874476,
+      "lon": -73.3244542
+    },
+    {
+      "type": "node",
+      "id": 10582750507,
+      "tags": {
+        "addr:city": "Grand Island",
+        "addr:housenumber": "1685",
+        "addr:postcode": "14072",
+        "addr:state": "NY",
+        "addr:street": "Grand Island Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-24:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 716-622-8299",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/grand-island/1685-grand-island-blvd"
+      },
+      "lat": 43.007851,
+      "lon": -78.9488238
+    },
+    {
+      "type": "node",
+      "id": 11258364007,
+      "tags": {
+        "addr:city": "Queens Village",
+        "addr:housenumber": "219-44",
+        "addr:postcode": "11427",
+        "addr:state": "NY",
+        "addr:street": "Hillside Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-23:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-03:00; Fr-Sa 06:30-04:00; Su 06:30-03:00",
+        "phone": "+1 718-479-5151",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/queens-village/219-44-hillside-avenue"
+      },
+      "lat": 40.7299885,
+      "lon": -73.7438773
+    },
+    {
+      "type": "node",
+      "id": 11509599874,
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "2565",
+        "addr:postcode": "10025",
+        "addr:state": "NY",
+        "addr:street": "Broadway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "check_date": "2026-02-07",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Su 08:00-24:00",
+        "phone": "+1-646-405-0048",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/new-york/2565-broadway"
+      },
+      "lat": 40.7950395,
+      "lon": -73.9718672
+    },
+    {
+      "type": "node",
+      "id": 12159804403,
+      "tags": {
+        "addr:city": "West Haverstraw",
+        "addr:housenumber": "125",
+        "addr:postcode": "10993",
+        "addr:state": "NY",
+        "addr:street": "State Route 9w",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 845-786-3209",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/west-haverstraw/125-state-route-9w"
+      },
+      "lat": 41.2008381,
+      "lon": -73.9839059
+    },
+    {
+      "type": "node",
+      "id": 12180689437,
+      "tags": {
+        "addr:housenumber": "315",
+        "addr:street": "Oriskany Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Su 06:30-24:00",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/yorkville/315-oriskany-blvd"
+      },
+      "lat": 43.1136565,
+      "lon": -75.2772756
+    },
+    {
+      "type": "node",
+      "id": 12344516038,
+      "tags": {
+        "addr:city": "Floral Park",
+        "addr:housenumber": "191",
+        "addr:postcode": "11001",
+        "addr:state": "NY",
+        "addr:street": "Jericho Turnpike",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "lat": 40.7289365,
+      "lon": -73.7035255
+    },
+    {
+      "type": "node",
+      "id": 12344628985,
+      "tags": {
+        "addr:city": "Garden City",
+        "addr:housenumber": "630",
+        "addr:postcode": "11530",
+        "addr:state": "NY",
+        "addr:street": "Old Country Road",
+        "addr:unit": "FB09",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "breakfast": "Mo-Su 09:30-11:00",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "level": "1",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Th 09:30-20:00; Fr-Sa 09:30-21:00; Su 09:30-19:00",
+        "phone": "+1 516-613-2479",
+        "start_date": "2015-02-06",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/garden-city/630-old-country-rd"
+      },
+      "lat": 40.7389328,
+      "lon": -73.6125504
+    },
+    {
+      "type": "node",
+      "id": 12423148150,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "lat": 42.7801795,
+      "lon": -74.0283563
+    },
+    {
+      "type": "node",
+      "id": 12688143993,
+      "tags": {
+        "addr:city": "Staten Island",
+        "addr:housenumber": "25",
+        "addr:postcode": "10312",
+        "addr:state": "NY",
+        "addr:street": "Putnam Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "check_date": "2026-05-26",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-02:00; Fr-Sa 06:30-03:00; Su 06:30-02:00",
+        "phone": "+1-718-524-7817",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/staten-island/25-putnam-street"
+      },
+      "lat": 40.5440901,
+      "lon": -74.1633765
+    },
+    {
+      "type": "node",
+      "id": 12705894811,
+      "tags": {
+        "addr:city": "Staten Island",
+        "addr:housenumber": "330",
+        "addr:postcode": "10301",
+        "addr:state": "NY",
+        "addr:street": "Bay Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th,Su 06:30-02:00, Fr-Sa 06:30-03:00",
+        "phone": "+1 347-934-3648",
+        "source": "Graces Ahn M. Bustamante",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/staten-island/330-bay-street"
+      },
+      "lat": 40.6346068,
+      "lon": -74.0757192
+    },
+    {
+      "type": "node",
+      "id": 12917458452,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "check_date": "2025-06-15",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "lat": 40.7555131,
+      "lon": -73.9801041
+    },
+    {
+      "type": "node",
+      "id": 13039628038,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "lat": 40.5653322,
+      "lon": -74.1144264
+    },
+    {
+      "type": "node",
+      "id": 13061004157,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "lat": 42.6892421,
+      "lon": -73.8502396
+    },
+    {
+      "type": "node",
+      "id": 13721790306,
+      "tags": {
+        "addr:housenumber": "2926",
+        "addr:street": "State Route 49",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "check_date": "2026-04-10",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "lat": 43.2856729,
+      "lon": -76.1203769
+    },
+    {
+      "type": "node",
+      "id": 13898909050,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "lat": 43.1477425,
+      "lon": -78.6961488
+    },
+    {
+      "type": "node",
+      "id": 14005612501,
+      "tags": {
+        "addr:housenumber": "99",
+        "addr:postcode": "11003",
+        "addr:street": "Hempstead Turnpike",
+        "amenity": "fast_food",
+        "cuisine": "american",
+        "drive_through": "yes",
+        "name": "Wendy’s",
+        "opening_hours": "Mo-Su 08:00-03:00",
+        "outdoor_seating": "no",
+        "phone": "+1-516-354-6080"
+      },
+      "lat": 40.708487,
+      "lon": -73.7202708
+    },
+    {
+      "type": "node",
+      "id": 14207335501,
+      "tags": {
+        "addr:city": "Batavia",
+        "addr:housenumber": "44",
+        "addr:postcode": "14020",
+        "addr:state": "NY",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "branch": "4269",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Wendy's",
+        "opening_hours": "10:00-22:00",
+        "opening_hours:drive_through": "10:00-02:00",
+        "outdoor_seating": "no",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 585-343-5858",
+        "takeaway": "yes",
+        "toilets": "yes"
+      },
+      "lat": 42.9982225,
+      "lon": -78.185767
+    },
+    {
+      "type": "way",
+      "id": 58019843,
+      "tags": {
+        "addr:city": "Colonie",
+        "addr:housenumber": "1770",
+        "addr:postcode": "12205",
+        "addr:state": "NY",
+        "addr:street": "Central Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "check_date": "2026-10-21",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-We 06:30-00:00; Th-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 518-608-5568",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/colonie/1770-central-avenue"
+      },
+      "center": {
+        "lat": 42.7293913,
+        "lon": -73.84691720000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 60321116,
+      "tags": {
+        "addr:city": "Latham",
+        "addr:country": "US",
+        "addr:housenumber": "1162",
+        "addr:postcode": "12110",
+        "addr:state": "NY",
+        "addr:street": "Troy Schenectady Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 518-782-5488",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/latham/1162-troy-schenectady-road"
+      },
+      "center": {
+        "lat": 42.769288450000005,
+        "lon": -73.82009790000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 61015333,
+      "tags": {
+        "addr:city": "Geneva",
+        "addr:housenumber": "389",
+        "addr:postcode": "14456",
+        "addr:state": "NY",
+        "addr:street": "Hamilton Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-00:00; Fr-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 315-789-2463",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/geneva/481-hamilton-street"
+      },
+      "center": {
+        "lat": 42.85614355,
+        "lon": -77.00525629999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 61233582,
+      "tags": {
+        "addr:city": "Glenmont",
+        "addr:housenumber": "261",
+        "addr:postcode": "12077",
+        "addr:state": "NY",
+        "addr:street": "United States Route 9W",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "ALBA039023",
+        "nysgissam:review": "no matching street nearby",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 518-432-8900",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/glenmont/261-route-9w"
+      },
+      "center": {
+        "lat": 42.6120388,
+        "lon": -73.78846665000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 61350722,
+      "tags": {
+        "addr:city": "Latham",
+        "addr:country": "US",
+        "addr:housenumber": "741",
+        "addr:postcode": "12110",
+        "addr:state": "NY",
+        "addr:street": "New Loudon Road;Loudon Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "ALBA080898",
+        "nysgissam:review": "existing element's addr:street has different addr:street",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Tu 06:30-01:00; We-Sa 06:30-02:00; Su 06:30-01:00",
+        "phone": "+1 518-785-4700",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/latham/741-new-louden-rd"
+      },
+      "center": {
+        "lat": 42.7422041,
+        "lon": -73.761393
+      }
+    },
+    {
+      "type": "way",
+      "id": 61433303,
+      "tags": {
+        "addr:city": "Troy",
+        "addr:country": "US",
+        "addr:housenumber": "77",
+        "addr:postcode": "12180",
+        "addr:state": "NY",
+        "addr:street": "Vandenburgh Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "RENS001523",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 518-266-9822",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/troy/77-vandenburgh-avenue"
+      },
+      "center": {
+        "lat": 42.6967272,
+        "lon": -73.68888045
+      }
+    },
+    {
+      "type": "way",
+      "id": 66024205,
+      "tags": {
+        "addr:city": "Albany",
+        "addr:housenumber": "1329",
+        "addr:postcode": "12205",
+        "addr:state": "NY",
+        "addr:street": "Central Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-03:00",
+        "phone": "+1 518-459-4700",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/albany/1335-central-ave"
+      },
+      "center": {
+        "lat": 42.70246765,
+        "lon": -73.81486229999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 87538229,
+      "tags": {
+        "addr:city": "East Greenbush",
+        "addr:housenumber": "612",
+        "addr:postcode": "12061",
+        "addr:state": "NY",
+        "addr:street": "Columbia Turnpike",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-We 06:30-00:00; Th-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 518-477-7639",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/east-greenbush/612-columbia-turnpike"
+      },
+      "center": {
+        "lat": 42.59732735,
+        "lon": -73.70899615000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 89611740,
+      "tags": {
+        "addr:city": "Canandaigua",
+        "addr:flats": "1-2",
+        "addr:housenumber": "10",
+        "addr:postcode": "14424",
+        "addr:state": "NY",
+        "addr:street": "Booth Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "ONTA046752;ONTA046751;ONTA025837",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 585-394-8660",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/canandaigua/10-ellen-polimeni-blvd"
+      },
+      "center": {
+        "lat": 42.87738365,
+        "lon": -77.26958389999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 95975140,
+      "tags": {
+        "addr:city": "Newburgh",
+        "addr:housenumber": "1417",
+        "addr:postcode": "12550",
+        "addr:state": "NY",
+        "addr:street": "Route 300",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "ORAN091212",
+        "opening_hours": "Mo-Th,Sa-Su 06:30-03:00; Fr 07:00-22:00",
+        "phone": "+1-845-566-0726",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/newburgh/1417-route-300"
+      },
+      "center": {
+        "lat": 41.520943200000005,
+        "lon": -74.07087130000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 107690593,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:housenumber": "1844",
+        "addr:postcode": "14610",
+        "addr:state": "NY",
+        "addr:street": "East Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 585-244-5080",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/rochester/1844-east-avenue"
+      },
+      "center": {
+        "lat": 43.145580800000005,
+        "lon": -77.55461885
+      }
+    },
+    {
+      "type": "way",
+      "id": 109194942,
+      "tags": {
+        "addr:city": "Clifton Park",
+        "addr:housenumber": "1517",
+        "addr:postcode": "12065",
+        "addr:state": "NY",
+        "addr:street": "Route 9",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "SARA030521",
+        "nysgissam:review": "no matching street nearby",
+        "opening_hours": "07:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 518-383-8632",
+        "source": "NYS Clearinghouse OpenData & ESRI Clarity Sat Imagery",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/halfmoon/1517-route-9"
+      },
+      "center": {
+        "lat": 42.84084805,
+        "lon": -73.74421795
+      }
+    },
+    {
+      "type": "way",
+      "id": 118261205,
+      "tags": {
+        "addr:city": "Schenectady",
+        "addr:housenumber": "1590",
+        "addr:postcode": "12303",
+        "addr:state": "NY",
+        "addr:street": "Altamont Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "SCHE012798",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-We 06:30-00:00; Th-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 518-355-2256",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/schenectady/1590-altamont-avenue"
+      },
+      "center": {
+        "lat": 42.78302915,
+        "lon": -73.94835260000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 124813137,
+      "tags": {
+        "addr:city": "Amsterdam",
+        "addr:housenumber": "104",
+        "addr:place": "Towne Square",
+        "addr:postcode": "12010",
+        "addr:state": "NY",
+        "addr:street": "Town Square Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "restaurant",
+        "cuisine": "burger",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "Wendys",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "MONT009562",
+        "nysgissam:review": "no matching street nearby",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 518-843-6981",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/amsterdam/101-towne-square"
+      },
+      "center": {
+        "lat": 42.9614189,
+        "lon": -74.18564379999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 126018988,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:housenumber": "566",
+        "addr:postcode": "14623",
+        "addr:state": "NY",
+        "addr:street": "Jefferson Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "MONR012430",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 585-981-9271",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/rochester/566-jefferson-rd",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 43.08760435,
+        "lon": -77.62908270000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 129384190,
+      "tags": {
+        "addr:city": "Schenectady",
+        "addr:country": "US",
+        "addr:housenumber": "132",
+        "addr:postcode": "12305",
+        "addr:state": "NY",
+        "addr:street": "Erie Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "SCHE002500",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-03:00",
+        "phone": "+1 518-374-3095",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/schenectady/132-erie-blvd"
+      },
+      "center": {
+        "lat": 42.81217305,
+        "lon": -73.94746480000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 138496334,
+      "tags": {
+        "addr:city": "Suffern",
+        "addr:housenumber": "320",
+        "addr:postcode": "10901",
+        "addr:state": "NY",
+        "addr:street": "Route 59",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "ROCK081911",
+        "opening_hours": "09:00-00:00",
+        "opening_hours:drive_through": "Mo-Sa 06:30-00:00; Su 07:30-00:00",
+        "phone": "+1 845-369-8500",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/airmont/320-route-59",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 41.11144955,
+        "lon": -74.09925494999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 147780311,
+      "tags": {
+        "addr:city": "Clifton Park",
+        "addr:housenumber": "3",
+        "addr:postcode": "12065",
+        "addr:state": "NY",
+        "addr:street": "Clifton Country Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "SARA012489",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 518-371-4700",
+        "source": "NYS Clearinghouse OpenData & ESRI Clarity Sat Imagery",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/clifton-park/3-clifton-country-rd"
+      },
+      "center": {
+        "lat": 42.861756549999996,
+        "lon": -73.78149580000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 156652103,
+      "tags": {
+        "addr:city": "DeWitt",
+        "addr:country": "US",
+        "addr:housenumber": "3260",
+        "addr:postcode": "13214",
+        "addr:state": "NY",
+        "addr:street": "Erie Boulevard East",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "10:00-00:00",
+        "phone": "+1 315-446-4279",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/syracuse/3260-erie-blvd-e"
+      },
+      "center": {
+        "lat": 43.049578600000004,
+        "lon": -76.07218039999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 159768127,
+      "tags": {
+        "addr:city": "DeWitt",
+        "addr:country": "US",
+        "addr:housenumber": "3798",
+        "addr:postcode": "13057",
+        "addr:state": "NY",
+        "addr:street": "James Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 315-437-9531",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/syracuse/3798-james-street"
+      },
+      "center": {
+        "lat": 43.069062450000004,
+        "lon": -76.09116719999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 170415504,
+      "tags": {
+        "addr:city": "Wantagh",
+        "addr:housenumber": "1350",
+        "addr:postcode": "11793",
+        "addr:state": "NY",
+        "addr:street": "Wantagh Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "commercial",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "NASS156339",
+        "opening_hours": "Mo-Tu 08:00-22:00; We 08:00-20:00; Th-Su 08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 07:00-00:00; Fr-Sa 07:00-01:00; Su 07:00-00:00",
+        "phone": "+1 516-781-6102",
+        "source": "NYS OpenData and MapBox Satellite",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/wantagh/1350-wantagh-ave"
+      },
+      "center": {
+        "lat": 40.6895009,
+        "lon": -73.50914405000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 178321821,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:country": "US",
+        "addr:housenumber": "3362",
+        "addr:postcode": "14214",
+        "addr:state": "NY",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-03:00",
+        "phone": "+1 716-862-3511",
+        "ref": "00004049",
+        "source": "https://locations.wendys.com/united-states/ny/buffalo/3362-main-street;aerial imagery",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/buffalo/3362-main-street"
+      },
+      "center": {
+        "lat": 42.955043399999994,
+        "lon": -78.82209645
+      }
+    },
+    {
+      "type": "way",
+      "id": 199417589,
+      "tags": {
+        "addr:city": "Poughkeepsie",
+        "addr:housenumber": "2596",
+        "addr:postcode": "12601",
+        "addr:state": "NY",
+        "addr:street": "South Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "DUTC047725",
+        "opening_hours": "06:30-10:30",
+        "phone": "+1 845-454-2906",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/poughkeepsie/2596-south-road"
+      },
+      "center": {
+        "lat": 41.66721965,
+        "lon": -73.92914139999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 203048121,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:housenumber": "1951",
+        "addr:postcode": "14624",
+        "addr:state": "NY",
+        "addr:street": "Buffalo Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "MONR013620",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 585-247-1792",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/rochester/1951-buffalo-rd"
+      },
+      "center": {
+        "lat": 43.1482202,
+        "lon": -77.70548109999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 222816425,
+      "tags": {
+        "addr:city": "Owego",
+        "addr:housenumber": "1055",
+        "addr:postcode": "13827",
+        "addr:state": "NY",
+        "addr:street": "State Route 17C",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "TIOG004950",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 607-687-6785",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/owego/170-5th-ave"
+      },
+      "center": {
+        "lat": 42.09845515,
+        "lon": -76.23400434999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 231913031,
+      "tags": {
+        "addr:city": "Nanuet",
+        "addr:housenumber": "90",
+        "addr:postcode": "10954",
+        "addr:state": "NY",
+        "addr:street": "East Route 59",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "ROCK092066",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 845-627-0264",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/nanuet/90-east-route-59"
+      },
+      "center": {
+        "lat": 41.09618765,
+        "lon": -74.00773709999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 247295291,
+      "tags": {
+        "addr:city": "Staten Island",
+        "addr:housenumber": "1761",
+        "addr:postcode": "10303",
+        "addr:state": "NY",
+        "addr:street": "Forest Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "height": "3.8",
+        "internet_access": "wlan",
+        "name": "Wendy's",
+        "nycdoitt:bin": "5029212",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-03:00",
+        "phone": "+1 718-981-2102",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/staten-island/1761-forest-ave."
+      },
+      "center": {
+        "lat": 40.625305749999995,
+        "lon": -74.14741170000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 247434236,
+      "tags": {
+        "addr:city": "Brooklyn",
+        "addr:housenumber": "1916",
+        "addr:postcode": "11207",
+        "addr:state": "NY",
+        "addr:street": "Linden Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "height": "4.4",
+        "name": "Wendy's",
+        "nycdoitt:bin": "3097662",
+        "opening_hours": "08:00-00:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-03:00; Fr-Sa 06:30-04:00; Su 06:30-03:00",
+        "phone": "+1 718-272-8725",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/brooklyn/1916-linden-blvd"
+      },
+      "center": {
+        "lat": 40.65809885,
+        "lon": -73.89077250000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 247461109,
+      "tags": {
+        "addr:city": "Staten Island",
+        "addr:housenumber": "26",
+        "addr:postcode": "10314",
+        "addr:state": "NY",
+        "addr:street": "Richmond Hill Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "height": "4.3",
+        "name": "Wendy's",
+        "nycdoitt:bin": "5107374",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-02:00; Fr-Sa 06:30-03:00; Su 06:30-02:00",
+        "phone": "+1 718-761-3950",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/staten-island/26-richmond-hill-road"
+      },
+      "center": {
+        "lat": 40.5881917,
+        "lon": -74.16690065
+      }
+    },
+    {
+      "type": "way",
+      "id": 247517435,
+      "tags": {
+        "addr:city": "Brooklyn",
+        "addr:housenumber": "3183",
+        "addr:postcode": "11208",
+        "addr:state": "NY",
+        "addr:street": "Atlantic Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "height": "3.5",
+        "name": "Wendy's",
+        "nycdoitt:bin": "3092607",
+        "opening_hours": "08:00-01:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-03:00; Fr-Sa 06:30-04:00; Su 06:30-03:00",
+        "phone": "+1 718-827-3408",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/brooklyn/3183-atlantic-avenue"
+      },
+      "center": {
+        "lat": 40.680237000000005,
+        "lon": -73.87791405000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 247907622,
+      "tags": {
+        "addr:city": "Rego Park",
+        "addr:housenumber": "90-13",
+        "addr:postcode": "11374",
+        "addr:state": "NY",
+        "addr:street": "Metropolitan Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "height": "4.0",
+        "name": "Wendy's",
+        "nycdoitt:bin": "4075274",
+        "opening_hours": "08:00-23:00",
+        "opening_hours:drive_through": "Mo-Sa 06:30-04:00; Su 06:30-03:00",
+        "phone": "+1 718-275-6221",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/rego-park/90-13-metropolitan"
+      },
+      "center": {
+        "lat": 40.712026800000004,
+        "lon": -73.8591174
+      }
+    },
+    {
+      "type": "way",
+      "id": 248507310,
+      "tags": {
+        "addr:city": "Brooklyn",
+        "addr:housenumber": "420",
+        "addr:postcode": "11209",
+        "addr:state": "NY",
+        "addr:street": "86th Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "height": "7.4",
+        "name": "Wendy's",
+        "nycdoitt:bin": "3153528",
+        "opening_hours": "07:00-02:00",
+        "phone": "+1 718-833-3034",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/brooklyn/420-86th-street"
+      },
+      "center": {
+        "lat": 40.6222497,
+        "lon": -74.02799909999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 248913519,
+      "tags": {
+        "addr:city": "Brooklyn",
+        "addr:housenumber": "1602",
+        "addr:postcode": "11214",
+        "addr:state": "NY",
+        "addr:street": "Shore Parkway",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "Shore Parkway",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "building:levels": "1",
+        "building:use": "foodservice",
+        "check_date": "2026-10-09",
+        "check_date:opening_hours": "2026-10-09",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "no",
+        "height": "3.0",
+        "name": "Wendy's",
+        "nycdoitt:bin": "3170080",
+        "opening_hours": "08:30-00:30",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+1 718-747-9002",
+        "roof:colour": "grey",
+        "roof:shape": "flat",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/brooklyn/1602-shore-parkway/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 40.5954112,
+        "lon": -74.00026344999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 250230605,
+      "tags": {
+        "addr:city": "Brooklyn",
+        "addr:housenumber": "469",
+        "addr:postcode": "11225",
+        "addr:state": "NY",
+        "addr:street": "Flatbush Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "height": "5.2",
+        "name": "Wendy's",
+        "nycdoitt:bin": "3029737",
+        "opening_hours": "08:00-01:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-04:00",
+        "phone": "+1 718-287-5005",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/brooklyn/469-flatbush-ave"
+      },
+      "center": {
+        "lat": 40.662919,
+        "lon": -73.96172580000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 258716748,
+      "tags": {
+        "addr:city": "Saratoga Springs",
+        "addr:housenumber": "3075",
+        "addr:postcode": "12866",
+        "addr:state": "NY",
+        "addr:street": "Route 50",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "disused:amenity": "restaurant",
+        "disused:cuisine": "american",
+        "disused:name": "Friendly's",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "SARA143532",
+        "nysgissam:review": "no matching street nearby",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-We 06:30-00:00; Th-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 518-450-1736",
+        "source": "NYS Clearinghouse OpenData & ESRI Clarity Sat Imagery",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/saratoga-springs/3075-route-50"
+      },
+      "center": {
+        "lat": 43.1058248,
+        "lon": -73.73908604999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 264325787,
+      "tags": {
+        "addr:city": "Kingston",
+        "addr:housenumber": "1322",
+        "addr:postcode": "12401",
+        "addr:state": "NY",
+        "addr:street": "Ulster Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 845-382-2070",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/kingston/1360-ulster-avenue"
+      },
+      "center": {
+        "lat": 41.9708247,
+        "lon": -73.98805585000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 264635662,
+      "tags": {
+        "addr:city": "Henrietta",
+        "addr:housenumber": "4747",
+        "addr:postcode": "14467",
+        "addr:state": "NY",
+        "addr:street": "West Henrietta Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "MONR013252",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 585-334-3450",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/henrietta/4747-west-henrietta-road",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 43.05828885,
+        "lon": -77.65300165000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 265151149,
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "938",
+        "addr:postcode": "10019",
+        "addr:state": "NY",
+        "addr:street": "8th Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "building:colour": "#C4928E",
+        "building:levels": "2",
+        "cuisine": "burger",
+        "height": "8",
+        "name": "Wendy's",
+        "nycdoitt:bin": "1024870",
+        "opening_hours": "Mo-Th 06:30-10:30; Fr 06:30-01:00; Sa 07:30-01:00; Su 07:30-10:30",
+        "phone": "+1 212-977-4785",
+        "roof:material": "concrete",
+        "roof:shape": "flat",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/new-york/938-eighth-avenue",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 40.7655716,
+        "lon": -73.98330805
+      }
+    },
+    {
+      "type": "way",
+      "id": 276414634,
+      "tags": {
+        "addr:city": "Bronx",
+        "addr:housenumber": "5805",
+        "addr:postcode": "10463",
+        "addr:state": "NY",
+        "addr:street": "Broadway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "height": "3.8",
+        "name": "Wendy's",
+        "nycdoitt:bin": "2083831",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-02:00; Fr-Sa 06:30-03:00; Su 06:30-02:00",
+        "phone": "+1 718-450-8809",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/bronx/5805-broadway"
+      },
+      "center": {
+        "lat": 40.8846722,
+        "lon": -73.90122819999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 280160267,
+      "tags": {
+        "addr:city": "Middle Village",
+        "addr:housenumber": "61-11",
+        "addr:postcode": "11379",
+        "addr:state": "NY",
+        "addr:street": "Fresh Pond Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "height": "4.1",
+        "name": "Wendy's",
+        "nycdoitt:bin": "4577128",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo 06:30-03:00; Tu-Su 06:30-03:30",
+        "phone": "+1 718-821-0225",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/middle-village/61-11-fresh-pond-rd"
+      },
+      "center": {
+        "lat": 40.71432865,
+        "lon": -73.90056534999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 280354482,
+      "tags": {
+        "addr:city": "Sunnyside",
+        "addr:housenumber": "44-16",
+        "addr:postcode": "11104",
+        "addr:state": "NY",
+        "addr:street": "Queens Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "height": "5.6",
+        "indoor_seating": "yes",
+        "name": "Wendy's",
+        "nycdoitt:bin": "4436668",
+        "opening_hours": "08:00-01:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-03:00; Fr-Sa 06:30-04:00; Su 06:30-03:00",
+        "outdoor_seating": "no",
+        "phone": "+1 718-361-1418",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/long-island-city/4416-queens-blvd"
+      },
+      "center": {
+        "lat": 40.7428404,
+        "lon": -73.92003790000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 280535523,
+      "tags": {
+        "addr:city": "Flushing",
+        "addr:housenumber": "69-02",
+        "addr:postcode": "11377",
+        "addr:state": "NY",
+        "addr:street": "Northern Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "height": "3.5",
+        "name": "Wendy's",
+        "nycdoitt:bin": "4028472",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-02:00; Fr-Sa 06:30-03:00; Su 06:30-02:00",
+        "phone": "+1 718-899-5300",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/flushing/69-02-northern-blvd"
+      },
+      "center": {
+        "lat": 40.75410825,
+        "lon": -73.89686230000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 281573819,
+      "tags": {
+        "addr:city": "Bronx",
+        "addr:housenumber": "3636",
+        "addr:postcode": "10469",
+        "addr:state": "NY",
+        "addr:street": "Boston Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "height": "3.8",
+        "name": "Wendy's",
+        "nycdoitt:bin": "2087708",
+        "opening_hours": "08:00-03:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-03:00",
+        "phone": "+1 718-798-4133",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/bronx/3636-boston-road"
+      },
+      "center": {
+        "lat": 40.87942495,
+        "lon": -73.84217875000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 281835257,
+      "tags": {
+        "addr:city": "Bronx",
+        "addr:housenumber": "2703",
+        "addr:postcode": "10461",
+        "addr:state": "NY",
+        "addr:street": "East Tremont Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "height": "3.6",
+        "name": "Wendy's",
+        "nycdoitt:bin": "2044120",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-02:00; Fr-Sa 06:30-03:00; Su 06:30-02:00",
+        "phone": "+1 718-824-2211",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/bronx/2703-e-tremont-ave"
+      },
+      "center": {
+        "lat": 40.842877,
+        "lon": -73.84536294999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 281844630,
+      "tags": {
+        "addr:city": "Bronx",
+        "addr:housenumber": "2140",
+        "addr:postcode": "10462",
+        "addr:state": "NY",
+        "addr:street": "Westchester Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "height": "4.1",
+        "name": "Wendy's",
+        "nycdoitt:bin": "2088065",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-02:00; Fr-Sa 06:30-03:00; Su 06:30-02:00",
+        "phone": "+1 718-409-6174",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/bronx/2140-westchester-avenue"
+      },
+      "center": {
+        "lat": 40.83380045,
+        "lon": -73.85297130000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 288234352,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:housenumber": "3200",
+        "addr:postcode": "14624",
+        "addr:state": "NY",
+        "addr:street": "Chili Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "MONR015314",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 585-606-3928",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/rochester/3200-chili-ave"
+      },
+      "center": {
+        "lat": 43.10646920000001,
+        "lon": -77.74850279999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 300642762,
+      "tags": {
+        "addr:city": "Syracuse",
+        "addr:housenumber": "2028",
+        "addr:postcode": "13208",
+        "addr:state": "NY",
+        "addr:street": "Park Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "ONON037496",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo 06:30-00:00; Tu 08:30-00:00; We-Su 06:30-00:00",
+        "phone": "+1 315-472-8727",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/syracuse/2100-park-street"
+      },
+      "center": {
+        "lat": 43.0727305,
+        "lon": -76.1674218
+      }
+    },
+    {
+      "type": "way",
+      "id": 302897058,
+      "tags": {
+        "addr:city": "Johnstown",
+        "addr:housenumber": "140",
+        "addr:postcode": "12095",
+        "addr:state": "NY",
+        "addr:street": "North Comrie Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "0",
+        "name": "Wendy's",
+        "opening_hours": "07:30-22:00",
+        "opening_hours:drive_through": "Mo-We 06:30-00:00; Th-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 518-762-2245",
+        "source": "NYS GIS Clearinghouse, MS Footprints (both OpenData), ESRI Sat Imagery",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/johnstown/140-north-comrie-avenue",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 43.0118041,
+        "lon": -74.35998715
+      }
+    },
+    {
+      "type": "way",
+      "id": 306050537,
+      "tags": {
+        "addr:city": "Middletown",
+        "addr:housenumber": "441",
+        "addr:postcode": "10941",
+        "addr:state": "NY",
+        "addr:street": "Route 211 East",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-02:00",
+        "opening_hours:drive_through": "Mo-We 06:30-02:00; Th-Sa 06:30-03:00; Su 06:30-02:00",
+        "phone": "+1 845-342-4141",
+        "shop": "car_repair",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/middletown/441-route-211-e"
+      },
+      "center": {
+        "lat": 41.456065699999996,
+        "lon": -74.38415184999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 307126563,
+      "tags": {
+        "addr:city": "Seaford",
+        "addr:housenumber": "3882",
+        "addr:postcode": "11783",
+        "addr:state": "NY",
+        "addr:street": "Sunrise Highway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "NASS285027",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 07:00-02:00",
+        "phone": "+1 516-409-4870",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/seaford/3882-sunrise-hwy"
+      },
+      "center": {
+        "lat": 40.67431225,
+        "lon": -73.48887430000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 320571465,
+      "tags": {
+        "addr:city": "Cicero",
+        "addr:housenumber": "5701",
+        "addr:postcode": "13039",
+        "addr:state": "NY",
+        "addr:street": "East Circle Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "indoor_seating": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 315-458-1722",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/cicero/5701-e-circle-drive"
+      },
+      "center": {
+        "lat": 43.1477867,
+        "lon": -76.11997365000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 322170483,
+      "tags": {
+        "addr:city": "Hawthorne",
+        "addr:housenumber": "33",
+        "addr:postcode": "10532",
+        "addr:state": "NY",
+        "addr:street": "Saw Mill River Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "height": "17'",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "WEST046508",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 914-347-7619",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/hawthorne/33-sawmill-river-road"
+      },
+      "center": {
+        "lat": 41.09449695,
+        "lon": -73.81494325
+      }
+    },
+    {
+      "type": "way",
+      "id": 323173117,
+      "tags": {
+        "addr:street": "Fairview Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.2715034,
+        "lon": -73.76002885000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 325906060,
+      "tags": {
+        "addr:city": "Monticello",
+        "addr:housenumber": "1725",
+        "addr:postcode": "12701",
+        "addr:state": "NY",
+        "addr:street": "Pleasant Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "SULL047310",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 845-791-9373",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/monticello/17-25-pleasant-st"
+      },
+      "center": {
+        "lat": 41.6553095,
+        "lon": -74.68200860000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 326603771,
+      "tags": {
+        "addr:city": "Chester",
+        "addr:housenumber": "78",
+        "addr:postcode": "10918",
+        "addr:state": "NY",
+        "addr:street": "Brookside Avenue",
+        "addr:unit": "102",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 845-469-2182",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/chester/78-brookside-ave"
+      },
+      "center": {
+        "lat": 41.3578272,
+        "lon": -74.28401315000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 330742699,
+      "tags": {
+        "addr:city": "Glenville",
+        "addr:housenumber": "13",
+        "addr:postcode": "12302",
+        "addr:state": "NY",
+        "addr:street": "Saratoga Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "commercial",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-We 06:30-00:00; Th-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 518-393-5442",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/glenville/13-saratoga-road"
+      },
+      "center": {
+        "lat": 42.849946149999994,
+        "lon": -73.94351129999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 339977405,
+      "tags": {
+        "addr:city": "Lake Ronkonkoma",
+        "addr:housenumber": "106",
+        "addr:postcode": "11779",
+        "addr:state": "NY",
+        "addr:street": "Portion Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "commercial",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "SUFF530965",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.826366199999995,
+        "lon": -73.11010590000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 346317675,
+      "tags": {
+        "addr:city": "Oakdale",
+        "addr:housenumber": "885",
+        "addr:postcode": "11769",
+        "addr:state": "NY",
+        "addr:street": "Montauk Highway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 07:00-00:00; Fr-Sa 07:00-02:00; Su 07:00-00:00",
+        "phone": "+1 631-472-1368",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/oakdale/885-montauk-highway"
+      },
+      "center": {
+        "lat": 40.73756075,
+        "lon": -73.11958805
+      }
+    },
+    {
+      "type": "way",
+      "id": 346898757,
+      "tags": {
+        "addr:city": "Syracuse",
+        "addr:country": "US",
+        "addr:housenumber": "3508",
+        "addr:postcode": "13212",
+        "addr:state": "NY",
+        "addr:street": "Brewerton Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Wendy's",
+        "opening_hours": "Mo-We 10:00-01:00, Th-Sa 10:00-02:00, Su 10:00-01:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-315-454-4702",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/syracuse/3508-brewerton-rd",
+        "website:menu": "https://order.wendys.com/categories?site=menu&lang=en_US"
+      },
+      "center": {
+        "lat": 43.113579400000006,
+        "lon": -76.14569140000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 348807243,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:housenumber": "1550",
+        "addr:postcode": "14620",
+        "addr:state": "NY",
+        "addr:street": "Mount Hope Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "MONR012817",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 585-271-3030",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/rochester/1550-mt-hope-ave"
+      },
+      "center": {
+        "lat": 43.1199542,
+        "lon": -77.61940334999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 359836146,
+      "tags": {
+        "addr:city": "East Rochester",
+        "addr:housenumber": "305",
+        "addr:postcode": "14445",
+        "addr:state": "NY",
+        "addr:street": "West Commercial Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 585-385-4890",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/east-rochester/305-west-commercial"
+      },
+      "center": {
+        "lat": 43.11482525,
+        "lon": -77.49067459999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 363809325,
+      "tags": {
+        "addr:city": "New Hartford",
+        "addr:housenumber": "8505",
+        "addr:postcode": "13413",
+        "addr:state": "NY",
+        "addr:street": "Seneca Turnpike",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "ONEI043151",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 315-732-4265",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/new-hartford/8505-seneca-tpke"
+      },
+      "center": {
+        "lat": 43.0809175,
+        "lon": -75.31957490000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 363946675,
+      "tags": {
+        "addr:city": "Utica",
+        "addr:housenumber": "185",
+        "addr:postcode": "13502",
+        "addr:state": "NY",
+        "addr:street": "North Genesee Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "ONEI039216",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 315-724-8355",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/utica/175-n-genessee-street"
+      },
+      "center": {
+        "lat": 43.1105853,
+        "lon": -75.21839365
+      }
+    },
+    {
+      "type": "way",
+      "id": 377472493,
+      "tags": {
+        "addr:city": "Geneseo",
+        "addr:housenumber": "4158",
+        "addr:postcode": "14454",
+        "addr:state": "NY",
+        "addr:street": "Lakeville Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "LIVI021156",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 585-243-2210",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/geneseo/4158-lakeville-road"
+      },
+      "center": {
+        "lat": 42.79495445,
+        "lon": -77.79541415
+      }
+    },
+    {
+      "type": "way",
+      "id": 379621778,
+      "tags": {
+        "addr:city": "Schenectady",
+        "addr:housenumber": "3421",
+        "addr:postcode": "12304",
+        "addr:state": "NY",
+        "addr:street": "State Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "check_date": "2026-10-21",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "outdoor_seating": "no",
+        "phone": "+1 518-346-0252",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:disposal": "flush",
+        "toilets:position": "seated;urinal",
+        "website": "https://locations.wendys.com/united-states/ny/schenectady/3421-state-street",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 42.773898200000005,
+        "lon": -73.89579950000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 393907175,
+      "tags": {
+        "addr:city": "Levittown",
+        "addr:housenumber": "3595",
+        "addr:postcode": "11756",
+        "addr:state": "NY",
+        "addr:street": "Hempstead Turnpike",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 07:00-02:00; Fr-Sa 07:00-03:00; Su 07:00-02:00",
+        "phone": "+1 516-731-0049",
+        "source": "NYS OpenData and MapBox Satellite",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/levittown/3595-hempstead-turnpike"
+      },
+      "center": {
+        "lat": 40.72588245,
+        "lon": -73.50206924999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 394384304,
+      "tags": {
+        "addr:city": "Farmingdale",
+        "addr:housenumber": "5001",
+        "addr:postcode": "11735",
+        "addr:state": "NY",
+        "addr:street": "Hempstead Turnpike",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "NASS221453",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 07:00-01:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "phone": "+1 516-845-7129",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/farmingdale/5001-hempstead-turnpike"
+      },
+      "center": {
+        "lat": 40.7295547,
+        "lon": -73.46412850000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 396697138,
+      "tags": {
+        "addr:city": "Niagara Falls",
+        "addr:housenumber": "7515",
+        "addr:postcode": "14304",
+        "addr:state": "NY",
+        "addr:street": "Niagara Falls Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "NIAG073052",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 716-236-0300",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/niagara-falls/7515-niagara-falls-boulevard"
+      },
+      "center": {
+        "lat": 43.087616,
+        "lon": -78.97809969999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 396852041,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:housenumber": "3180",
+        "addr:postcode": "14228",
+        "addr:state": "NY",
+        "addr:street": "Niagara Falls Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "ERIE192701",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 716-220-9562",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/amherst/3180-niagara-falls-blvd",
+        "wheelchair": "designated"
+      },
+      "center": {
+        "lat": 43.04085235,
+        "lon": -78.82491919999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 396886941,
+      "tags": {
+        "addr:city": "Amherst",
+        "addr:housenumber": "4050",
+        "addr:postcode": "14226",
+        "addr:state": "NY",
+        "addr:street": "Maple Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-01:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 716-832-0855",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/amherst/4050-maple-rd"
+      },
+      "center": {
+        "lat": 42.991268500000004,
+        "lon": -78.81304714999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 396899173,
+      "tags": {
+        "addr:city": "Victor",
+        "addr:housenumber": "7473",
+        "addr:postcode": "14564",
+        "addr:state": "NY",
+        "addr:street": "Victor-Pittsford Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "ONTA034053",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 585-924-8430",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/victor/7473-victor-pittsford-road"
+      },
+      "center": {
+        "lat": 43.0078058,
+        "lon": -77.44475635000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 417744014,
+      "tags": {
+        "addr:city": "Poughkeepsie",
+        "addr:housenumber": "753",
+        "addr:postcode": "12603",
+        "addr:state": "NY",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "DUTC081255",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "24/7",
+        "phone": "+1 845-452-8124",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/poughkeepsie/753-main-street"
+      },
+      "center": {
+        "lat": 41.697008,
+        "lon": -73.90429234999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 422867960,
+      "tags": {
+        "addr:city": "Ithaca",
+        "addr:housenumber": "326",
+        "addr:postcode": "14850",
+        "addr:state": "NY",
+        "addr:street": "Elmira Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "TOMP014969",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-00:00; Fr-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 607-272-3526",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/ithaca/326-elmira-rd"
+      },
+      "center": {
+        "lat": 42.42617635,
+        "lon": -76.51243599999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 441697662,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:housenumber": "3050",
+        "addr:postcode": "14623",
+        "addr:state": "NY",
+        "addr:street": "South Winton Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "MONR280376",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 585-292-0690",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/rochester/3050-winton-road"
+      },
+      "center": {
+        "lat": 43.0941185,
+        "lon": -77.5811483
+      }
+    },
+    {
+      "type": "way",
+      "id": 452794674,
+      "tags": {
+        "addr:city": "Wappingers Falls",
+        "addr:housenumber": "1601",
+        "addr:postcode": "12590",
+        "addr:state": "NY",
+        "addr:street": "Route 9",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "DUTC005849",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 845-298-0167",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/wappingers-falls/1601-route-9"
+      },
+      "center": {
+        "lat": 41.598063249999996,
+        "lon": -73.91173225
+      }
+    },
+    {
+      "type": "way",
+      "id": 463000644,
+      "tags": {
+        "addr:city": "Riverhead",
+        "addr:housenumber": "1165",
+        "addr:postcode": "11901",
+        "addr:state": "NY",
+        "addr:street": "Old Country Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "SUFF033371",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 08:00-02:00",
+        "phone": "+1 631-369-3232",
+        "source": "Bing (USGS Earthstar)",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/riverhead/1165-rt-58"
+      },
+      "center": {
+        "lat": 40.930326300000004,
+        "lon": -72.67945559999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 464469821,
+      "tags": {
+        "addr:city": "Port Jefferson Station",
+        "addr:housenumber": "4955",
+        "addr:postcode": "11776",
+        "addr:state": "NY",
+        "addr:street": "Nesconset Highway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "SUFF007988",
+        "nysgissam:review": "no matching street nearby",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 07:00-02:00; Fr-Sa 07:00-03:00; Su 07:00-02:00",
+        "phone": "+1 631-331-3770",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/port-jefferson-station/4955-nesconset-hwy"
+      },
+      "center": {
+        "lat": 40.922068499999995,
+        "lon": -73.04972929999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 466100603,
+      "tags": {
+        "addr:city": "Commack",
+        "addr:housenumber": "2180",
+        "addr:postcode": "11725",
+        "addr:state": "NY",
+        "addr:street": "Jericho Turnpike",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "SUFF429090",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 07:00-02:00",
+        "phone": "+1 631-499-9887",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/commack/2180-jericho-turnpike"
+      },
+      "center": {
+        "lat": 40.8424438,
+        "lon": -73.28624175000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 467363525,
+      "tags": {
+        "addr:city": "Shirley",
+        "addr:housenumber": "555",
+        "addr:postcode": "11967",
+        "addr:state": "NY",
+        "addr:street": "William Floyd Parkway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "SUFF330876",
+        "nysgissam:review": "no matching street nearby",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 08:00-02:00; Fr-Sa 08:00-03:00; Su 08:00-02:00",
+        "phone": "+1 631-399-1136",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/shirley/555-william-floyd-pkwy"
+      },
+      "center": {
+        "lat": 40.8005287,
+        "lon": -72.86617524999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 469500788,
+      "tags": {
+        "addr:city": "East Farmingdale",
+        "addr:housenumber": "2125",
+        "addr:postcode": "11735",
+        "addr:state": "NY",
+        "addr:street": "Broadhollow Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "SUFF486322",
+        "nysgissam:review": "no matching street nearby",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 07:00-00:00; Fr-Sa 07:00-01:00; Su 07:00-00:00",
+        "phone": "+1 631-752-0337",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/farmingdale/2123-broadhollow-rd"
+      },
+      "center": {
+        "lat": 40.7513977,
+        "lon": -73.42160185
+      }
+    },
+    {
+      "type": "way",
+      "id": 470075633,
+      "tags": {
+        "addr:city": "Dix Hills",
+        "addr:housenumber": "1210",
+        "addr:postcode": "11740",
+        "addr:state": "NY",
+        "addr:street": "East Jericho Turnpike",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 07:00-02:00; Fr-Sa 07:00-03:00; Su 07:00-02:00",
+        "phone": "+1 631-683-4041",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/huntington/1210-e-jericho-tpke"
+      },
+      "center": {
+        "lat": 40.83285095,
+        "lon": -73.36296634999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 471325167,
+      "tags": {
+        "addr:city": "Bohemia",
+        "addr:housenumber": "3450",
+        "addr:postcode": "11716",
+        "addr:state": "NY",
+        "addr:street": "Veterans Memorial Highway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "commercial",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "SUFF191914",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 07:00-01:00",
+        "phone": "+1 631-980-4445",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/bohemia/3450-veterans-memorial-hwy"
+      },
+      "center": {
+        "lat": 40.786429150000004,
+        "lon": -73.12482060000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 493540904,
+      "tags": {
+        "addr:city": "Tappan",
+        "addr:housenumber": "3",
+        "addr:postcode": "10983",
+        "addr:state": "NY",
+        "addr:street": "Route 303",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "ROCK088786",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Sa 06:30-00:30; Su 07:00-00:30",
+        "phone": "+1 845-359-5633",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/tappan/3-route-303"
+      },
+      "center": {
+        "lat": 41.016492150000005,
+        "lon": -73.94433214999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 541787111,
+      "tags": {
+        "addr:city": "East Rockaway",
+        "addr:housenumber": "80",
+        "addr:postcode": "11518",
+        "addr:state": "NY",
+        "addr:street": "Ocean Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "NASS159947",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 07:00-02:00",
+        "phone": "+1 516-887-2317",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/east-rockaway/80-ocean-ave"
+      },
+      "center": {
+        "lat": 40.6405458,
+        "lon": -73.66006305000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 545129767,
+      "tags": {
+        "addr:city": "Middletown",
+        "addr:housenumber": "172-176",
+        "addr:postcode": "10940",
+        "addr:state": "NY",
+        "addr:street": "Dolson Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 845-342-6688",
+        "start_date": "1985",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/middletown/172-176-dolson-avenue"
+      },
+      "center": {
+        "lat": 41.427881549999995,
+        "lon": -74.42702935
+      }
+    },
+    {
+      "type": "way",
+      "id": 547174512,
+      "tags": {
+        "addr:city": "Hamburg",
+        "addr:housenumber": "5121",
+        "addr:postcode": "14075",
+        "addr:state": "NY",
+        "addr:street": "Camp Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "ERIE032746",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 716-649-5754",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/hamburg/5121-camp-road"
+      },
+      "center": {
+        "lat": 42.7483465,
+        "lon": -78.85282889999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 548175064,
+      "tags": {
+        "addr:city": "Elmira",
+        "addr:housenumber": "830",
+        "addr:postcode": "14903",
+        "addr:state": "NY",
+        "addr:street": "County Road 64",
+        "addr:unit": "20A",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "check_date": "2026-09-01",
+        "check_date:opening_hours": "2026-04-20",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "Su-We 07:00-01:00; Th-Sa 07:00-02:00",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "phone": "+1-607-796-0183",
+        "source": "NYS GIS Clearinghouse OpenData & ESRI sat imagery",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/elmira/830-county-road-64"
+      },
+      "center": {
+        "lat": 42.154130949999995,
+        "lon": -76.87987555000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 551735590,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:housenumber": "1175",
+        "addr:postcode": "14621",
+        "addr:state": "NY",
+        "addr:street": "East Ridge Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "MONR015015",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "24/7",
+        "phone": "+1 585-266-7523",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/irondequoit/1175-e-ridge-rd"
+      },
+      "center": {
+        "lat": 43.1970971,
+        "lon": -77.58557305
+      }
+    },
+    {
+      "type": "way",
+      "id": 556547786,
+      "tags": {
+        "addr:city": "Syosset",
+        "addr:housenumber": "250",
+        "addr:postcode": "11791",
+        "addr:state": "NY",
+        "addr:street": "West Jericho Turnpike",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Sa 08:00-22:00; Su 09:00-22:00",
+        "opening_hours:drive_through": "Mo-Sa 08:00-02:00; Su 09:00-02:00",
+        "phone": "+1 516-677-0891",
+        "smoking": "no",
+        "source": "Mapbox Satellite and NY State OpenData",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/syosset/250-jericho-turnpike"
+      },
+      "center": {
+        "lat": 40.804769199999996,
+        "lon": -73.5227107
+      }
+    },
+    {
+      "type": "way",
+      "id": 558371076,
+      "tags": {
+        "addr:city": "Hicksville",
+        "addr:housenumber": "60",
+        "addr:postcode": "11801",
+        "addr:state": "NY",
+        "addr:street": "North Broadway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "NASS334348",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 07:00-01:00; Fr-Sa 07:00-02:00; Su 07:00-01:00",
+        "phone": "+1 516-433-0255",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/hicksville/60-north-broadway"
+      },
+      "center": {
+        "lat": 40.7697333,
+        "lon": -73.52651730000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 560257696,
+      "tags": {
+        "addr:city": "Garden City",
+        "addr:housenumber": "820",
+        "addr:postcode": "11530",
+        "addr:state": "NY",
+        "addr:street": "Old Country Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "check_date": "2024-04-29",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "NASS373473",
+        "opening_hours": "Mo 07:00-10:30; Tu-Th 07:00-10:30; Fr-Su 07:00-10:30",
+        "phone": "+1 516-228-9040",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/garden-city/820-old-country-road"
+      },
+      "center": {
+        "lat": 40.7440842,
+        "lon": -73.60772450000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 562679117,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:housenumber": "2988",
+        "addr:postcode": "14626",
+        "addr:state": "NY",
+        "addr:street": "Ridge Road West",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "MONR016859",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "outdoor_seating": "no",
+        "phone": "+1 585-225-6010",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/greece/2988-w-ridge"
+      },
+      "center": {
+        "lat": 43.21113465,
+        "lon": -77.70803620000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 569169988,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:housenumber": "3513",
+        "addr:postcode": "14219",
+        "addr:state": "NY",
+        "addr:street": "McKinley Parkway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-24:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 716-235-4049",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/buffalo/3513-mckinley-pkwy"
+      },
+      "center": {
+        "lat": 42.78908705,
+        "lon": -78.8104477
+      }
+    },
+    {
+      "type": "way",
+      "id": 583600296,
+      "tags": {
+        "addr:city": "Baldwin",
+        "addr:housenumber": "690",
+        "addr:postcode": "11510",
+        "addr:state": "NY",
+        "addr:street": "Sunrise Highway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "NASS180726",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 07:00-02:00; Fr-Sa 07:00-03:00; Su 07:00-02:00",
+        "phone": "+1 516-377-8396",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/baldwin/690-sunrise-hwy"
+      },
+      "center": {
+        "lat": 40.655968099999996,
+        "lon": -73.61099230000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 586432765,
+      "tags": {
+        "addr:city": "Liverpool",
+        "addr:housenumber": "7925",
+        "addr:postcode": "13090",
+        "addr:state": "NY",
+        "addr:street": "Oswego Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 315-622-2231",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/liverpool-ny-1687"
+      },
+      "center": {
+        "lat": 43.15471925,
+        "lon": -76.22814514999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 589090004,
+      "tags": {
+        "addr:city": "Williston Park",
+        "addr:housenumber": "259",
+        "addr:postcode": "11596",
+        "addr:state": "NY",
+        "addr:street": "Hillside Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "check_date:opening_hours": "2025-05-25",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 07:00-00:00",
+        "phone": "+1 516-294-4888",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/williston-park/259-hillside-ave"
+      },
+      "center": {
+        "lat": 40.75459755,
+        "lon": -73.64952829999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 604778972,
+      "tags": {
+        "addr:city": "Lynbrook",
+        "addr:housenumber": "580",
+        "addr:postcode": "11563",
+        "addr:state": "NY",
+        "addr:street": "Merrick Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "NASS295297",
+        "opening_hours": "08:00-00:00",
+        "opening_hours:drive_through": "Mo-Su 07:00-23:00",
+        "phone": "+1 516-593-3211",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/lynbrook/580-merrick-rd"
+      },
+      "center": {
+        "lat": 40.66003284999999,
+        "lon": -73.68300250000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 605368070,
+      "tags": {
+        "addr:city": "Plattsburgh",
+        "addr:housenumber": "397",
+        "addr:postcode": "12901",
+        "addr:state": "NY",
+        "addr:street": "State Route 3",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 518-561-1912",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/plattsburgh/397-state-route-3"
+      },
+      "center": {
+        "lat": 44.69653685,
+        "lon": -73.4871415
+      }
+    },
+    {
+      "type": "way",
+      "id": 607472265,
+      "tags": {
+        "addr:city": "New Windsor",
+        "addr:housenumber": "408",
+        "addr:postcode": "12553",
+        "addr:state": "NY",
+        "addr:street": "Windsor Highway",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "ORAN092092",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 845-562-7474",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/vails-gate/408-windsor-hwy"
+      },
+      "center": {
+        "lat": 41.4559803,
+        "lon": -74.05696290000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 609095223,
+      "tags": {
+        "addr:city": "Franklin Square",
+        "addr:housenumber": "1034",
+        "addr:postcode": "11010",
+        "addr:state": "NY",
+        "addr:street": "Hempstead Turnpike",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "NASS347424",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 07:00-02:00",
+        "phone": "+1 516-488-6423",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/franklin-square/1034-hempstead-turnpike"
+      },
+      "center": {
+        "lat": 40.70792015,
+        "lon": -73.67829585000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 613254600,
+      "tags": {
+        "addr:city": "Greenvale",
+        "addr:housenumber": "18",
+        "addr:postcode": "11548",
+        "addr:state": "NY",
+        "addr:street": "Glen Cove Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "NASS395739",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 07:00-02:00",
+        "phone": "+1 516-621-8636",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/greenvale/18-glen-cove-road"
+      },
+      "center": {
+        "lat": 40.8088617,
+        "lon": -73.62801215000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 618395438,
+      "tags": {
+        "addr:city": "Vestal",
+        "addr:housenumber": "3737",
+        "addr:postcode": "13850",
+        "addr:state": "NY",
+        "addr:street": "Vestal Parkway East",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-We 06:30-01:00; Th-Sa 06:30-02:00; Su 06:30-01:00",
+        "phone": "+1 607-798-7474",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/vestal/3737-vestal-pkwy"
+      },
+      "center": {
+        "lat": 42.096508650000004,
+        "lon": -75.98093815000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 634433428,
+      "tags": {
+        "addr:city": "Depew",
+        "addr:housenumber": "4961",
+        "addr:postcode": "14043",
+        "addr:state": "NY",
+        "addr:street": "Transit Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "ERIE061362",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 716-206-0003",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/depew/4961-transit-road"
+      },
+      "center": {
+        "lat": 42.88143745,
+        "lon": -78.69622190000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 692278223,
+      "tags": {
+        "addr:city": "Oswego",
+        "addr:housenumber": "177",
+        "addr:postcode": "13126",
+        "addr:state": "NY",
+        "addr:street": "State Route 104",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "commercial",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "OSWE005048",
+        "opening_hours": "Su-We 10:00-01:00; Th-Sa 10:00-02:00",
+        "phone": "+1 315-326-4313",
+        "source:data": "https://gis.ny.gov/gisdata",
+        "source:imagery": "ESRI Sat & NYS Sat Imagery",
+        "source:shape": "Modified MS Footprints https://cugir.library.cornell.edu",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/oswego/177-state-route-104"
+      },
+      "center": {
+        "lat": 43.46154325,
+        "lon": -76.48314325000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 728823438,
+      "tags": {
+        "addr:city": "Fishkill",
+        "addr:housenumber": "25",
+        "addr:postcode": "12524",
+        "addr:state": "NY",
+        "addr:street": "Elm Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "DUTC049791",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 845-896-8683",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/fishkill/25-elm-street"
+      },
+      "center": {
+        "lat": 41.5343162,
+        "lon": -73.89864605000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 732786188,
+      "tags": {
+        "addr:city": "Queensbury",
+        "addr:housenumber": "714",
+        "addr:postcode": "12804",
+        "addr:state": "NY",
+        "addr:street": "Upper Glen Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "WARR026519",
+        "opening_hours": "Mo-We 08:00-02:00; Th-Sa 08:00-03:00; Su 08:00-02:00",
+        "opening_hours:drive_through": "Mo-We 06:30-02:00; Th-Sa 06:30-03:00; Su 06:30-02:00",
+        "outdoor_seating": "no",
+        "phone": "+1 518-792-3939",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/queensbury/714-upper-glen-street"
+      },
+      "center": {
+        "lat": 43.327825149999995,
+        "lon": -73.66746639999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 796386701,
+      "tags": {
+        "addr:city": "Rensselaer",
+        "addr:housenumber": "103",
+        "addr:postcode": "12144",
+        "addr:state": "NY",
+        "addr:street": "Van Rensselaer Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 518-977-3691",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/rensselaer/103-van-rensselaer-avenue"
+      },
+      "center": {
+        "lat": 42.655370500000004,
+        "lon": -73.69268435000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 805351991,
+      "tags": {
+        "addr:city": "Saratoga Springs",
+        "addr:housenumber": "24",
+        "addr:postcode": "12866",
+        "addr:state": "NY",
+        "addr:street": "Congress Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "SARA052555",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 518-583-0210",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/saratoga-springs/24-congress-st"
+      },
+      "center": {
+        "lat": 43.07823215,
+        "lon": -73.78795009999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 816233601,
+      "tags": {
+        "addr:city": "Fulton",
+        "addr:housenumber": "310",
+        "addr:postcode": "13069",
+        "addr:state": "NY",
+        "addr:street": "South 2nd Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "OSWE038115",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 315-598-2991",
+        "source:data": "https://gis.ny.gov/gisdata",
+        "source:imagery": "ESRI Sat & NYS Sat Imagery",
+        "source:shape": "Modified MS Footprints https://cugir.library.cornell.edu",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/fulton/310-s-2nd-st"
+      },
+      "center": {
+        "lat": 43.3178721,
+        "lon": -76.41253970000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 820087915,
+      "tags": {
+        "addr:city": "Fredonia",
+        "addr:housenumber": "10350",
+        "addr:postcode": "14063",
+        "addr:state": "NY",
+        "addr:street": "Route 60",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "restaurant",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "CHAU060478",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/fredonia/10350-route-60"
+      },
+      "center": {
+        "lat": 42.4503995,
+        "lon": -79.30726949999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 820279436,
+      "tags": {
+        "addr:city": "Jamestown",
+        "addr:housenumber": "1355",
+        "addr:postcode": "14701",
+        "addr:state": "NY",
+        "addr:street": "East 2nd Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "CHAU036696",
+        "source": "NYS GIS Clearinghouse OpenData & MS Footprints (OpenData)",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.113588899999996,
+        "lon": -79.21165059999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 820498258,
+      "tags": {
+        "addr:city": "Olean",
+        "addr:housenumber": "447",
+        "addr:postcode": "14760",
+        "addr:state": "NY",
+        "addr:street": "North Union Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 716-372-5400",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/olean/447-n-union-st"
+      },
+      "center": {
+        "lat": 42.083957,
+        "lon": -78.43035299999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 823034639,
+      "tags": {
+        "addr:city": "Horseheads",
+        "addr:housenumber": "2123",
+        "addr:postcode": "14845",
+        "addr:state": "NY",
+        "addr:street": "Grand Central Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "check_date": "2026-04-20",
+        "check_date:opening_hours": "2026-04-20",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "CHEM003934",
+        "opening_hours": "Su-We 07:00-01:00; Th-Sa 07:00-02:00",
+        "opening_hours:drive_through": "Mo-Sa 06:30-02:00; Su 06:30-01:00",
+        "phone": "+1 607-796-9352",
+        "source": "NYS GIS Clearinghouse OpenData & ESRI sat imagery",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/horseheads/2123-grand-central-ave"
+      },
+      "center": {
+        "lat": 42.154654,
+        "lon": -76.82184000000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 854227383,
+      "tags": {
+        "addr:city": "Monroe",
+        "addr:housenumber": "310",
+        "addr:postcode": "10950",
+        "addr:state": "NY",
+        "addr:street": "Larkin Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "ORAN112572",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-00:00; Fr-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 845-774-2747",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/monroe/330-larkin-dr"
+      },
+      "center": {
+        "lat": 41.31870245,
+        "lon": -74.14642219999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 892507012,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:housenumber": "3180",
+        "addr:postcode": "14618",
+        "addr:state": "NY",
+        "addr:street": "Monroe Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "MONR015856",
+        "roof:shape": "many",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 43.1061538,
+        "lon": -77.54121710000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 899643560,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:housenumber": "5244",
+        "addr:postcode": "14221",
+        "addr:state": "NY",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 716-626-3397",
+        "source": "https://locations.wendys.com/united-states/ny/williamsville/5244-main-st.",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/williamsville/5244-main-st"
+      },
+      "center": {
+        "lat": 42.96115185,
+        "lon": -78.75773375
+      }
+    },
+    {
+      "type": "way",
+      "id": 934457071,
+      "tags": {
+        "addr:city": "Tonawanda",
+        "addr:housenumber": "811",
+        "addr:postcode": "14150",
+        "addr:state": "NY",
+        "addr:street": "Young Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 716-693-2578",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/tonawanda/811-young-st"
+      },
+      "center": {
+        "lat": 43.00271355,
+        "lon": -78.8559591
+      }
+    },
+    {
+      "type": "way",
+      "id": 960890951,
+      "tags": {
+        "addr:city": "Endicott",
+        "addr:housenumber": "217",
+        "addr:postcode": "13760",
+        "addr:state": "NY",
+        "addr:street": "Washington Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 607-754-6124",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/endicott/217-washington-ave"
+      },
+      "center": {
+        "lat": 42.0992519,
+        "lon": -76.04755339999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 978845677,
+      "tags": {
+        "addr:city": "Deposit",
+        "addr:housenumber": "390",
+        "addr:postcode": "13754",
+        "addr:state": "NY",
+        "addr:street": "State Highway 10",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "DELA001773",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 07:00-22:00",
+        "phone": "+1 607-467-4299",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/deposit/390-state-hwy-10"
+      },
+      "center": {
+        "lat": 42.055675199999996,
+        "lon": -75.41377004999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 982908781,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:housenumber": "2230",
+        "addr:postcode": "14216",
+        "addr:state": "NY",
+        "addr:street": "Elmwood Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-03:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-03:00",
+        "phone": "+1 716-875-4166",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/buffalo/2230-elmwood-avenue"
+      },
+      "center": {
+        "lat": 42.95777675,
+        "lon": -78.87889660000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1010710964,
+      "tags": {
+        "addr:city": "Islip",
+        "addr:housenumber": "168",
+        "addr:postcode": "11751",
+        "addr:state": "NY",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-We 07:00-01:00; Th-Sa 07:00-02:00; Su 07:00-01:00",
+        "phone": "+1 631-224-2790",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/islip/168-main-street"
+      },
+      "center": {
+        "lat": 40.727552200000005,
+        "lon": -73.22283295
+      }
+    },
+    {
+      "type": "way",
+      "id": 1024108509,
+      "tags": {
+        "addr:city": "Manorville",
+        "addr:housenumber": "496",
+        "addr:postcode": "11949",
+        "addr:state": "NY",
+        "addr:street": "County Road 111",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-21:00",
+        "opening_hours:drive_through": "Mo-Su 08:00-01:00",
+        "phone": "+1 631-909-4902",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/manorville/496-cr-111"
+      },
+      "center": {
+        "lat": 40.870315149999996,
+        "lon": -72.79929014999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1094379819,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:housenumber": "360",
+        "addr:postcode": "14206",
+        "addr:state": "NY",
+        "addr:street": "Dingens Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Sa 06:30-01:00; Su 07:00-01:00",
+        "phone": "+1 716-824-3011",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/buffalo/360-dingens"
+      },
+      "center": {
+        "lat": 42.87837115,
+        "lon": -78.80175029999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1103883187,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:housenumber": "2520",
+        "addr:postcode": "14225",
+        "addr:state": "NY",
+        "addr:street": "Walden Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 716-936-4611",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/cheektowaga/2520-walden-avenue"
+      },
+      "center": {
+        "lat": 42.90893715,
+        "lon": -78.74275824999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 1126135723,
+      "tags": {
+        "addr:city": "Catskill",
+        "addr:housenumber": "75",
+        "addr:postcode": "12414",
+        "addr:state": "NY",
+        "addr:street": "Maple Avenue",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "GREE006035",
+        "phone": "+1-518-943-0313",
+        "website": "https://locations.wendys.com/united-states/ny/catskill/75-maple-ave"
+      },
+      "center": {
+        "lat": 42.2181128,
+        "lon": -73.87504624999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1187932244,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:housenumber": "6940",
+        "addr:postcode": "14221",
+        "addr:state": "NY",
+        "addr:street": "Transit Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Th 07:00-22:00; Fr 07:00-20:30; Sa-Su 07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 716-630-5982",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/williamsville/6940-transit-rd"
+      },
+      "center": {
+        "lat": 42.956928000000005,
+        "lon": -78.69757105000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1267183361,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:housenumber": "744",
+        "addr:postcode": "14605",
+        "addr:state": "NY",
+        "addr:street": "East Main Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/rochester/744-east-main-st"
+      },
+      "center": {
+        "lat": 43.16055245,
+        "lon": -77.59248819999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1301398196,
+      "tags": {
+        "addr:city": "Yonkers",
+        "addr:housenumber": "1751",
+        "addr:postcode": "10710",
+        "addr:state": "NY",
+        "addr:street": "Central Park Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:website": "https://www.wendys.com/",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "contact:phone": "+1-914-337-9524",
+        "contact:website": "https://locations.wendys.com/united-states/ny/yonkers/1751-central-park-avenue",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "WEST005888",
+        "nysgissam:review": "no matching street nearby",
+        "opening_hours": "06:30-24:00",
+        "opening_hours:drive_through": "06:30-24:00",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.95895470000001,
+        "lon": -73.84223210000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 1338143258,
+      "tags": {
+        "addr:city": "Oneonta",
+        "addr:housenumber": "774;6281",
+        "addr:postcode": "13820",
+        "addr:state": "NY",
+        "addr:street": "State Highway 28;State Highway 23",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "OTSE023283",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 607-441-5006",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/oneonta/6281-state-highway-23"
+      },
+      "center": {
+        "lat": 42.447099949999995,
+        "lon": -75.05076185000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1372584460,
+      "tags": {
+        "addr:city": "Troy",
+        "addr:housenumber": "670",
+        "addr:postcode": "12180",
+        "addr:state": "NY",
+        "addr:street": "Hoosick Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "description": "Fast Food Burger Chain",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "nysgissam:nysaddresspointid": "RENS002780",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 518-244-3599",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/ny/troy/670-hoosick-st"
+      },
+      "center": {
+        "lat": 42.74217135,
+        "lon": -73.64961440000002
+      }
+    }
+  ]
+}

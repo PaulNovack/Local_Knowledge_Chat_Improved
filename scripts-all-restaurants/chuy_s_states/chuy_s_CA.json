@@ -1,0 +1,130 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CA",
+    "brand": "chuy_s",
+    "source": "https://download.geofabrik.de/north-america/us/california-latest.osm.pbf",
+    "source_md5": "26040c163edb7a5f630164ee55d5afda",
+    "processed_utc": "2026-10-24T06:59:04.829226+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1919078196,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "ice_cream",
+        "name": "Chuy's Panaderia"
+      },
+      "lat": 38.5211897,
+      "lon": -121.968644
+    },
+    {
+      "type": "node",
+      "id": 1919078200,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Chuy's Taqueria"
+      },
+      "lat": 38.521303,
+      "lon": -121.9687137
+    },
+    {
+      "type": "node",
+      "id": 5686605778,
+      "tags": {
+        "addr:city": "San Francisco",
+        "addr:housenumber": "710",
+        "addr:postcode": "94109",
+        "addr:state": "CA",
+        "addr:street": "Post Street",
+        "amenity": "fast_food",
+        "check_date": "2026-02-17",
+        "contact:facebook": "Chuys-Fiestas-Taqueria-II-107184495299430",
+        "cuisine": "mexican;burrito;tacos",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "name": "Chuy's Fiestas Taqueria II",
+        "not:brand:wikidata": "Q5118415",
+        "note": "Phone numbers on their brochure, receipt, and website conflict. This phone number is from their brochure.",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su off",
+        "outdoor_seating": "no",
+        "phone": "+1 415 529 1323",
+        "wheelchair": "yes"
+      },
+      "lat": 37.7877429,
+      "lon": -122.4136773
+    },
+    {
+      "type": "node",
+      "id": 11794902348,
+      "tags": {
+        "addr:city": "Simi Valley",
+        "addr:housenumber": "1397",
+        "addr:postcode": "93065",
+        "addr:state": "CA",
+        "addr:street": "East Los Angeles Avenue",
+        "addr:unit": "Suite A",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "branch": "Mesquite Broiler",
+        "brand": "Chuy's",
+        "brand:wikidata": "Q5118415",
+        "cuisine": "tex-mex",
+        "delivery": "yes",
+        "internet_access": "wlan",
+        "name": "Chuy's",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr,Sa 10:00-23:00; Su 09:00-21:00",
+        "outdoor_seating": "yes",
+        "payment:apple_pay": "yes",
+        "payment:credit_cards": "yes",
+        "payment:cryptocurrencies": "yes",
+        "phone": "+1 805-582-4897",
+        "reservation": "no",
+        "takeaway": "yes"
+      },
+      "lat": 34.2723826,
+      "lon": -118.7723203
+    },
+    {
+      "type": "node",
+      "id": 12586977501,
+      "tags": {
+        "addr:housenumber": "6663 G",
+        "addr:postcode": "92115",
+        "addr:street": "El Cajon Boulevard",
+        "amenity": "fast_food",
+        "cuisine": "mexican",
+        "name": "Chuy's Taco Shop",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "phone": "+1-619-469-7777"
+      },
+      "lat": 32.7675912,
+      "lon": -117.0550398
+    },
+    {
+      "type": "way",
+      "id": 59591956,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuy's",
+        "brand:wikidata": "Q5118415",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Chuy's"
+      },
+      "center": {
+        "lat": 35.383964399999996,
+        "lon": -119.09842235000002
+      }
+    }
+  ]
+}

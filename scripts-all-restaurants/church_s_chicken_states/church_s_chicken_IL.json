@@ -1,0 +1,506 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "church_s_chicken",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5287917868,
+      "tags": {
+        "addr:city": "Belleville",
+        "addr:housenumber": "4525",
+        "addr:postcode": "62223",
+        "addr:state": "IL",
+        "addr:street": "North Belt West",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "cuisine": "chicken",
+        "name": "Church's Chicken",
+        "phone": "+1 618-234-1382",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/il/belleville/4525-n-belt-west"
+      },
+      "lat": 38.5418964,
+      "lon": -90.0222647
+    },
+    {
+      "type": "node",
+      "id": 9834589744,
+      "tags": {
+        "addr:city": "Washington Park",
+        "addr:housenumber": "5520",
+        "addr:postcode": "62204",
+        "addr:state": "IL",
+        "addr:street": "Caseyville Avenue",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "cuisine": "chicken",
+        "name": "Church's Chicken",
+        "phone": "+1 618-271-8237",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/il/washington-park/5520-caseyville-avenue"
+      },
+      "lat": 38.6300354,
+      "lon": -90.0933539
+    },
+    {
+      "type": "node",
+      "id": 14084103799,
+      "tags": {
+        "addr:city": "Marshall",
+        "addr:housenumber": "2003",
+        "addr:postcode": "62441",
+        "addr:state": "IL",
+        "addr:street": "Illinois Highway 1",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Church's Chicken",
+        "opening_hours": "10:00-21:00",
+        "phone": "+1-217-340-0199",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/il/marshall/2003-illinois-highway-1"
+      },
+      "lat": 39.4247972,
+      "lon": -87.691639
+    },
+    {
+      "type": "way",
+      "id": 64505663,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "500",
+        "addr:postcode": "61605",
+        "addr:state": "IL",
+        "addr:street": "South Western Avenue",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "commercial",
+        "cuisine": "chicken",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Church's Chicken",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.6828529,
+        "lon": -89.62263730000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 162391888,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "4812",
+        "addr:postcode": "60639",
+        "addr:state": "IL",
+        "addr:street": "West North Avenue",
+        "addr:street:name": "North",
+        "addr:street:prefix": "West",
+        "addr:street:type": "Avenue",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "retail",
+        "building:levels": "1",
+        "chicago:building_id": "308280",
+        "cuisine": "chicken",
+        "drive_through": "no",
+        "name": "Church's Chicken",
+        "phone": "+1 773-622-6281",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/il/chicago/4812-w-north-avenue"
+      },
+      "center": {
+        "lat": 41.90995575,
+        "lon": -87.74657574999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 162952703,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "431",
+        "addr:postcode": "60644",
+        "addr:state": "IL",
+        "addr:street": "North Austin Boulevard",
+        "addr:street:name": "Austin",
+        "addr:street:prefix": "North",
+        "addr:street:type": "Boulevard",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "retail",
+        "building:levels": "1",
+        "chicago:building_id": "352103",
+        "cuisine": "chicken",
+        "drive_through": "no",
+        "name": "Church's Chicken",
+        "phone": "+1 773-261-0419",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/il/chicago/431-n-austin"
+      },
+      "center": {
+        "lat": 41.88819255,
+        "lon": -87.77470340000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 165245136,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "2806",
+        "addr:postcode": "60623",
+        "addr:state": "IL",
+        "addr:street": "West Cermak Road",
+        "addr:street:name": "Cermak",
+        "addr:street:prefix": "West",
+        "addr:street:type": "Road",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "retail",
+        "building:levels": "1",
+        "chicago:building_id": "386963",
+        "cuisine": "chicken",
+        "drive_through": "no",
+        "name": "Church's Chicken",
+        "phone": "+1 773-523-0494",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/il/chicago/2806-w-cermak-road"
+      },
+      "center": {
+        "lat": 41.852129149999996,
+        "lon": -87.6956525
+      }
+    },
+    {
+      "type": "way",
+      "id": 206224188,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "1755",
+        "addr:postcode": "60612",
+        "addr:state": "IL",
+        "addr:street": "West Jackson Boulevard",
+        "addr:street:name": "Jackson",
+        "addr:street:prefix": "West",
+        "addr:street:type": "Boulevard",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "retail",
+        "building:levels": "1",
+        "chicago:building_id": "361614",
+        "cuisine": "chicken",
+        "drive_through": "no",
+        "name": "Church's Chicken",
+        "phone": "+1 312-243-3822",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/il/chicago/1755-w-jackson-boulevard"
+      },
+      "center": {
+        "lat": 41.87739565,
+        "lon": -87.67123004999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 209655788,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "6849",
+        "addr:postcode": "60636",
+        "addr:state": "IL",
+        "addr:street": "South Western Avenue",
+        "addr:street:name": "Western",
+        "addr:street:prefix": "South",
+        "addr:street:type": "Avenue",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "retail",
+        "building:levels": "1",
+        "chicago:building_id": "567700",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Church's Chicken",
+        "phone": "+1 773-776-2823",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/il/chicago/6849-s-western-avenue"
+      },
+      "center": {
+        "lat": 41.768645,
+        "lon": -87.68296350000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 209708486,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "1808",
+        "addr:postcode": "60609",
+        "addr:state": "IL",
+        "addr:street": "West 47th Street",
+        "addr:street:name": "47th",
+        "addr:street:prefix": "West",
+        "addr:street:type": "Street",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "retail",
+        "building:levels": "1",
+        "chicago:building_id": "445461",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Church's Chicken",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.8088414,
+        "lon": -87.67026369999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 210501088,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "58",
+        "addr:postcode": "60620",
+        "addr:state": "IL",
+        "addr:street": "West 79th Street",
+        "addr:street:name": "79th",
+        "addr:street:prefix": "West",
+        "addr:street:type": "Street",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "retail",
+        "building:levels": "1",
+        "chicago:building_id": "613250",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Church's Chicken",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/il/chicago/58-w.-79th-street"
+      },
+      "center": {
+        "lat": 41.751217600000004,
+        "lon": -87.62678495
+      }
+    },
+    {
+      "type": "way",
+      "id": 210521443,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "6",
+        "addr:postcode": "60621",
+        "addr:state": "IL",
+        "addr:street": "West 59th Street",
+        "addr:street:name": "59th",
+        "addr:street:prefix": "West",
+        "addr:street:type": "Street",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "retail",
+        "chicago:building_id": "504829",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Church's Chicken",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.7876581,
+        "lon": -87.62594860000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 210700902,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "200",
+        "addr:postcode": "60628",
+        "addr:state": "IL",
+        "addr:street": "East 103rd Street",
+        "addr:street:name": "103rd",
+        "addr:street:prefix": "East",
+        "addr:street:type": "Street",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "retail",
+        "building:levels": "1",
+        "chicago:building_id": "730046",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Church's Chicken",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/il/chicago/200-e.-103rd-street"
+      },
+      "center": {
+        "lat": 41.7075787,
+        "lon": -87.61828135000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 210842125,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "400",
+        "addr:postcode": "60619",
+        "addr:state": "IL",
+        "addr:street": "East 87th Street",
+        "addr:street:name": "87th",
+        "addr:street:prefix": "East",
+        "addr:street:type": "Street",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "retail",
+        "building:levels": "1",
+        "chicago:building_id": "665399",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Church's Chicken",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.736779,
+        "lon": -87.61411369999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 211175575,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "7110",
+        "addr:postcode": "60649",
+        "addr:state": "IL",
+        "addr:street": "South Stony Island Avenue",
+        "addr:street:name": "Stony Island",
+        "addr:street:prefix": "South",
+        "addr:street:type": "Avenue",
+        "amenity": "fast_food",
+        "branch": "Stony Island",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Church's Chicken",
+        "phone": "+1 773-684-0993",
+        "takeaway": "yes",
+        "website": "https://locations.churchs.com/il/chicago/7102-s-stoney-island"
+      },
+      "center": {
+        "lat": 41.7657286,
+        "lon": -87.58672715
+      }
+    },
+    {
+      "type": "way",
+      "id": 257817089,
+      "tags": {
+        "addr:city": "Machesney Park",
+        "addr:housenumber": "1586",
+        "addr:postcode": "61115",
+        "addr:state": "IL",
+        "addr:street": "West Lane Road",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "retail",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Church's Chicken",
+        "opening_hours": "10:30-23:00",
+        "takeaway": "yes",
+        "website": "https://locations.kfc.com/il/machesney-park/1586-w-lane-road/"
+      },
+      "center": {
+        "lat": 42.36601829999999,
+        "lon": -89.02244810000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1334329317,
+      "tags": {
+        "addr:city": "Harvey",
+        "addr:housenumber": "333",
+        "addr:postcode": "60426",
+        "addr:state": "IL",
+        "addr:street": "East 159th Street",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "retail",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Church's Chicken",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.6011537,
+        "lon": -87.63688224999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1353232591,
+      "tags": {
+        "addr:city": "Maywood",
+        "addr:housenumber": "600",
+        "addr:postcode": "60153",
+        "addr:state": "IL",
+        "addr:street": "South 5th Avenue",
+        "amenity": "fast_food",
+        "brand": "Church's Chicken",
+        "brand:wikidata": "Q1089932",
+        "building": "retail",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Church's Chicken",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.88226555,
+        "lon": -87.83930450000003
+      }
+    }
+  ]
+}

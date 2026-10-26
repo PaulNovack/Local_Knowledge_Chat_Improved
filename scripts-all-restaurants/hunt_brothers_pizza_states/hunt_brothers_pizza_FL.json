@@ -1,0 +1,94 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "hunt_brothers_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11282383940,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Hunt Brothers Pizza",
+        "brand:wikidata": "Q5943909",
+        "cuisine": "pizza",
+        "name": "Hunt Brothers Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 30.8125984,
+      "lon": -85.2099689
+    },
+    {
+      "type": "node",
+      "id": 13344178638,
+      "tags": {
+        "addr:city": "Perry",
+        "addr:housenumber": "15729",
+        "addr:postcode": "32348",
+        "addr:state": "FL",
+        "addr:street": "Beach Road",
+        "amenity": "fast_food",
+        "brand": "Hunt Brothers Pizza",
+        "brand:wikidata": "Q5943909",
+        "cuisine": "pizza",
+        "name": "Hunt Brothers Pizza",
+        "takeaway": "only",
+        "website": "https://www.huntbrotherspizza.com/location-details/91874/"
+      },
+      "lat": 29.8968413,
+      "lon": -83.6175463
+    },
+    {
+      "type": "node",
+      "id": 14017665447,
+      "tags": {
+        "addr:city": "Ocala",
+        "addr:housenumber": "3130",
+        "addr:postcode": "34480",
+        "addr:state": "FL",
+        "addr:street": "Southeast Maricamp Road",
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "name": "Hunt Brothers Pizza",
+        "not:brand:wikidata": "Q5943909",
+        "phone": "+13523613893",
+        "website": "https://www.huntbrotherspizza.com/locations/"
+      },
+      "lat": 29.1572838,
+      "lon": -82.0874303
+    },
+    {
+      "type": "node",
+      "id": 14096619726,
+      "tags": {
+        "addr:city": "Panama City",
+        "addr:housenumber": "5500",
+        "addr:postcode": "32404",
+        "addr:state": "FL",
+        "addr:street": "North Star Avenue",
+        "amenity": "fast_food",
+        "brand": "Hunt Brothers Pizza",
+        "brand:wikidata": "Q5943909",
+        "check_date": "2026-10-13",
+        "cuisine": "pizza",
+        "name": "Hunt Brothers Pizza",
+        "phone": "+1-850-747-1250",
+        "takeaway": "only",
+        "website": "https://www.huntbrotherspizza.com/locations/"
+      },
+      "lat": 30.2474328,
+      "lon": -85.5560252
+    }
+  ]
+}

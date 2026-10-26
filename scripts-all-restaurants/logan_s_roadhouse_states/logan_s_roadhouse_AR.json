@@ -1,0 +1,125 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "logan_s_roadhouse",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1127452430,
+      "tags": {
+        "addr:city": "Rogers",
+        "addr:country": "US",
+        "addr:full": "530 North 47th Street",
+        "addr:housenumber": "530",
+        "addr:postcode": "72756",
+        "addr:state": "AR",
+        "addr:street": "North 47th Street",
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse",
+        "phone": "+1-479-986-9100",
+        "source": "http://www.logansroadhouse.com/locations"
+      },
+      "lat": 36.340299,
+      "lon": -94.181191
+    },
+    {
+      "type": "node",
+      "id": 1358380104,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse"
+      },
+      "lat": 34.6185448,
+      "lon": -92.4970724
+    },
+    {
+      "type": "way",
+      "id": 486889950,
+      "tags": {
+        "addr:city": "Fayetteville",
+        "addr:country": "US",
+        "addr:full": "3611 North Shiloh Drive",
+        "addr:housenumber": "3611",
+        "addr:postcode": "72703",
+        "addr:state": "AR",
+        "addr:street": "North Shiloh Drive",
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "building": "commercial",
+        "building:levels": "1",
+        "check_date": "2026-02-13",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse",
+        "opening_hours": "11:00-22:00; Fr,Sa 11:00-23:00",
+        "phone": "+1 479 251 7775",
+        "roof:levels": "0",
+        "website": "https://logansroadhouse.com/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 36.11653475,
+        "lon": -94.15090584999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 808245963,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse"
+      },
+      "center": {
+        "lat": 34.61850145,
+        "lon": -92.49707480000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1335028193,
+      "tags": {
+        "addr:city": "Conway",
+        "addr:housenumber": "410",
+        "addr:postcode": "72032",
+        "addr:state": "AR",
+        "addr:street": "Elsinger Boulevard",
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "building": "retail",
+        "check_date": "2026-05-08",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-22:00",
+        "phone": "+1-501-327-8670",
+        "website": "https://logansroadhouse.com/locations/us/ar/conway/410-elsinger-boulevard/"
+      },
+      "center": {
+        "lat": 35.0845413,
+        "lon": -92.41309209999997
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "cinnabon",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7805624200,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cinnabon",
+        "brand:wikidata": "Q1092539",
+        "cuisine": "dessert",
+        "name": "Cinnabon",
+        "operator:website": "https://www.worldsoffun.com/play/drinks-dining/cinnabon",
+        "takeaway": "yes",
+        "website": "https://locations.cinnabon.com/mo/kansas-city/4545-ne-worlds-of-fun-dr"
+      },
+      "lat": 39.1741665,
+      "lon": -94.4882665
+    },
+    {
+      "type": "node",
+      "id": 8086291113,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cinnabon",
+        "brand:wikidata": "Q1092539",
+        "cuisine": "dessert",
+        "name": "Cinnabon",
+        "takeaway": "yes",
+        "website": "https://locations.cinnabon.com/mo/st.-louis/1155-saint-louis-galleria"
+      },
+      "lat": 38.6349562,
+      "lon": -90.34788
+    },
+    {
+      "type": "node",
+      "id": 10686624200,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cinnabon",
+        "brand:wikidata": "Q1092539",
+        "cuisine": "dessert",
+        "level": "1",
+        "level:ref": "2",
+        "name": "Cinnabon",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "takeaway": "only",
+        "website": "https://locations.cinnabon.com/mo/kansas-city/1-international-square"
+      },
+      "lat": 39.2997265,
+      "lon": -94.7222647
+    }
+  ]
+}

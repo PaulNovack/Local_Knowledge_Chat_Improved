@@ -1,0 +1,45 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DE",
+    "brand": "perkins",
+    "source": "https://download.geofabrik.de/north-america/us/delaware-latest.osm.pbf",
+    "source_md5": "5f714be897be010ea09e4134c39a0638",
+    "processed_utc": "2026-10-24T07:00:37.202137+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 559739268,
+      "tags": {
+        "addr:city": "Newark",
+        "addr:housenumber": "700",
+        "addr:postcode": "19711",
+        "addr:state": "DE",
+        "addr:street": "Capitol Trail",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "check_date": "2025-07-12",
+        "contact:phone": "+1 302-737-3500",
+        "contact:website": "https://www.perkinsrestaurants.com/locations/us/de/newark/700-capital-trail/",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "07:00-20:00"
+      },
+      "center": {
+        "lat": 39.69407485,
+        "lon": -75.72008315
+      }
+    }
+  ]
+}

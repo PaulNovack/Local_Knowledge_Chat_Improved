@@ -1,0 +1,88 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AL",
+    "brand": "carrabba_s_italian_grill",
+    "source": "https://download.geofabrik.de/north-america/us/alabama-latest.osm.pbf",
+    "source_md5": "3ee9c8ab6ddb6921e2aa2562af6c9bce",
+    "processed_utc": "2026-10-24T06:56:09.586986+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 846984471,
+      "tags": {
+        "addr:city": "Huntsville",
+        "addr:housenumber": "2801",
+        "addr:postcode": "35801",
+        "addr:state": "AL",
+        "addr:street": "Memorial Parkway Southwest",
+        "amenity": "restaurant",
+        "brand": "Carrabba's Italian Grill",
+        "brand:wikidata": "Q5045999",
+        "contact:facebook": "https://www.facebook.com/Carrabbas/",
+        "cuisine": "italian",
+        "name": "Carrabba's Italian Grill",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-21:00",
+        "phone": "+1-256-288-1333",
+        "website": "https://locations.carrabbas.com/alabama/huntsville/2801-s-memorial-pkwy"
+      },
+      "lat": 34.7066882,
+      "lon": -86.5873659
+    },
+    {
+      "type": "node",
+      "id": 5556867830,
+      "tags": {
+        "addr:city": "Mobile",
+        "addr:housenumber": "3917",
+        "addr:postcode": "36608",
+        "addr:state": "AL",
+        "addr:street": "Airport Boulevard",
+        "amenity": "restaurant",
+        "brand": "Carrabba's Italian Grill",
+        "brand:wikidata": "Q5045999",
+        "contact:facebook": "https://www.facebook.com/Carrabbas/",
+        "cuisine": "italian",
+        "name": "Carrabba's Italian Grill",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-21:00",
+        "phone": "+1 251-342-3662",
+        "website": "https://locations.carrabbas.com/alabama/mobile/3917-airport-blvd"
+      },
+      "lat": 30.675453,
+      "lon": -88.1453527
+    },
+    {
+      "type": "way",
+      "id": 819609576,
+      "tags": {
+        "addr:city": "Birmingham",
+        "addr:housenumber": "4503",
+        "addr:postcode": "35242",
+        "addr:state": "AL",
+        "addr:street": "Riverview Parkway",
+        "amenity": "restaurant",
+        "brand": "Carrabba's Italian Grill",
+        "brand:wikidata": "Q5045999",
+        "building": "yes",
+        "contact:facebook": "https://www.facebook.com/Carrabbas/",
+        "cuisine": "italian",
+        "name": "Carrabba's Italian Grill",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-21:00",
+        "phone": "+1 205-980-1016",
+        "website": "https://locations.carrabbas.com/alabama/birmingham/4503-riverview-pkwy"
+      },
+      "center": {
+        "lat": 33.4285005,
+        "lon": -86.71095234999996
+      }
+    }
+  ]
+}

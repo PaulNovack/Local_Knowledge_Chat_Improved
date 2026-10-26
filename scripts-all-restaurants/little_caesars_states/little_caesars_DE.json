@@ -1,0 +1,102 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DE",
+    "brand": "little_caesars",
+    "source": "https://download.geofabrik.de/north-america/us/delaware-latest.osm.pbf",
+    "source_md5": "5f714be897be010ea09e4134c39a0638",
+    "processed_utc": "2026-10-24T07:00:37.202137+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1568649711,
+      "tags": {
+        "addr:city": "Bear",
+        "addr:housenumber": "1013",
+        "addr:postcode": "19701",
+        "addr:state": "DE",
+        "addr:street": "Governor's Place",
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "check_date": "2026-04-06",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "opening_hours": "11:00-22:00",
+        "phone": "+1 302-832-1414",
+        "source:name": "photograph",
+        "source_ref:name": "https://plus.google.com/u/0/photos/110367274939610085157/albums/5679854806243823633/5691726426989280274",
+        "takeaway": "yes",
+        "website": "https://littlecaesars.com/en-us/store/3685/"
+      },
+      "lat": 39.6326358,
+      "lon": -75.6652476
+    },
+    {
+      "type": "node",
+      "id": 5059325995,
+      "tags": {
+        "addr:city": "Seaford",
+        "addr:housenumber": "22802",
+        "addr:postcode": "19973",
+        "addr:state": "DE",
+        "addr:street": "Sussex Highway",
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "cuisine": "pizza",
+        "drive_through": "yes",
+        "name": "Little Caesars",
+        "takeaway": "yes"
+      },
+      "lat": 38.6651729,
+      "lon": -75.5941589
+    },
+    {
+      "type": "node",
+      "id": 6476881954,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "takeaway": "yes",
+        "website": "https://littlecaesars.com/en-us/store/10052/"
+      },
+      "lat": 39.1590308,
+      "lon": -75.5132887
+    },
+    {
+      "type": "way",
+      "id": 729189332,
+      "tags": {
+        "addr:housenumber": "1401",
+        "addr:street": "Latimer Circle",
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "building": "yes",
+        "check_date": "2023-03-31",
+        "contact:phone": "+1 302-353-1200",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "opening_hours": "Mo-Fr,Su 11:00-21:00; Sa 11:00-19:00",
+        "takeaway": "yes",
+        "website": "https://littlecaesars.com/en-us/store/10833/"
+      },
+      "center": {
+        "lat": 39.7352828,
+        "lon": -75.57357895000001
+      }
+    }
+  ]
+}

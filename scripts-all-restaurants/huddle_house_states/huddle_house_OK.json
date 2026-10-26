@@ -1,0 +1,44 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "huddle_house",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 657607868,
+      "tags": {
+        "addr:city": "Elk City",
+        "addr:housenumber": "103",
+        "addr:postcode": "73644",
+        "addr:state": "OK",
+        "addr:street": "Regional Drive",
+        "amenity": "restaurant",
+        "brand": "Huddle House",
+        "brand:wikidata": "Q5928324",
+        "building": "retail",
+        "check_date": "2026-07-13",
+        "cuisine": "american",
+        "name": "Huddle House",
+        "opening_hours": "Mo-Th,Su 06:00-24:00; Fr-Sa 06:00-23:00",
+        "phone": "+1-580-303-4505",
+        "website": "https://www.huddlehouse.com/locations/ok/elk-city/103-regional-dr/"
+      },
+      "center": {
+        "lat": 35.40842375,
+        "lon": -99.37963345000003
+      }
+    }
+  ]
+}

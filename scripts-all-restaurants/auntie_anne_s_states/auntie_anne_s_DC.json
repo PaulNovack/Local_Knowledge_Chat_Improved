@@ -1,0 +1,76 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "auntie_anne_s",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T07:20:37.151586+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 687314815,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "name": "Auntie Anne's",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 38.8987179,
+      "lon": -77.0214781
+    },
+    {
+      "type": "node",
+      "id": 11333718732,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "429",
+        "addr:postcode": "20024",
+        "addr:state": "PA",
+        "addr:street": "L'Enfant Plaza Southwest",
+        "addr:unit": "460",
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "check_date": "2024-08-20",
+        "cuisine": "pretzel",
+        "indoor_seating": "yes",
+        "level": "-1",
+        "name": "Auntie Anne's",
+        "opening_hours": "Mo-Fr 11:00-18:00; Sa-Su off",
+        "outdoor_seating": "no",
+        "phone": "+1 202-450-2025",
+        "takeaway": "yes",
+        "website": "https://locations.auntieannes.com/dc/washington/429-lenfant-plaza-sw"
+      },
+      "lat": 38.8838269,
+      "lon": -77.0247168
+    },
+    {
+      "type": "node",
+      "id": 11466122570,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "check_date": "2024-11-08",
+        "cuisine": "pretzel",
+        "name": "Auntie Anne's",
+        "takeaway": "yes"
+      },
+      "lat": 38.8980836,
+      "lon": -77.0066571
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/3.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AK",
+    "brand": "pizza_hut",
+    "source": "https://download.geofabrik.de/north-america/us/alaska-latest.osm.pbf",
+    "source_md5": "55281fca0391ab2c26b0d99fd6a6f5f8",
+    "processed_utc": "2026-10-24T06:12:19.265814+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5577258798,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      },
+      "lat": 61.1036318,
+      "lon": -149.8586927
+    },
+    {
+      "type": "node",
+      "id": 13164987469,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      },
+      "lat": 61.1747291,
+      "lon": -149.983389
+    },
+    {
+      "type": "node",
+      "id": 14050310635,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      },
+      "lat": 64.7578796,
+      "lon": -147.3568738
+    },
+    {
+      "type": "way",
+      "id": 211044287,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      },
+      "center": {
+        "lat": 64.83734235,
+        "lon": -147.7605631
+      }
+    },
+    {
+      "type": "way",
+      "id": 694141041,
+      "tags": {
+        "addr:city": "Wasilla",
+        "addr:housenumber": "851",
+        "addr:state": "AK",
+        "addr:street": "East Parks Highway",
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "building": "yes",
+        "contact:website": "https://locations.pizzahut.com/ak/wasilla/851-e-parks-hwy",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "source": "esri_USDOT_MatanuskaSusitnaAK"
+      },
+      "center": {
+        "lat": 61.5814055,
+        "lon": -149.42907835
+      }
+    },
+    {
+      "type": "way",
+      "id": 943303613,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "building": "retail",
+        "contact:website": "https://locations.pizzahut.com/ak/fairbanks/89-college-rd",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      },
+      "center": {
+        "lat": 64.85330305,
+        "lon": -147.71418575
+      }
+    }
+  ]
+}

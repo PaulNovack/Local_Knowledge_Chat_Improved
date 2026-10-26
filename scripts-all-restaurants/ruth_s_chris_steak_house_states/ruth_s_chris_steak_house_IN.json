@@ -1,0 +1,64 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "ruth_s_chris_steak_house",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5033002357,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "2727",
+        "addr:postcode": "46240",
+        "addr:state": "IN",
+        "addr:street": "East 86th Street",
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "cuisine": "american;steak_house",
+        "delivery": "no",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "name": "Ruth's Chris Steak House",
+        "opening_hours": "Su 16:00-21:00; Mo,Tu,We,Th 17:00-22:00; Fr,Sa 17:00-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-317-844-1155",
+        "wheelchair": "yes"
+      },
+      "lat": 39.911915,
+      "lon": -86.1162907
+    },
+    {
+      "type": "node",
+      "id": 11619291375,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "45",
+        "addr:postcode": "46204",
+        "addr:state": "IN",
+        "addr:street": "South Illinois Street",
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "cuisine": "american;steak_house",
+        "indoor_seating": "yes",
+        "name": "Ruth's Chris Steak House",
+        "outdoor_seating": "no"
+      },
+      "lat": 39.7662843,
+      "lon": -86.1596987
+    }
+  ]
+}

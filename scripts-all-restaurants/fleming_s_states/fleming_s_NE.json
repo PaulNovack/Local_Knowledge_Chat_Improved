@@ -1,0 +1,45 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "fleming_s",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 168817234,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "140",
+        "addr:postcode": "68114",
+        "addr:street": "Regency Parkway",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brand": "Fleming's",
+        "brand:wikidata": "Q5458552",
+        "building": "retail",
+        "cuisine": "steak_house",
+        "name": "Fleming's",
+        "official_name": "Fleming's Prime Steakhouse & Wine Bar",
+        "opening_hours": "Mo-Th 17:00-22:00; Fr,Sa 17:00-23:00; Su 17:00-21:00",
+        "phone": "+1 402 393 0811",
+        "source": "bing",
+        "website": "https://www.flemingssteakhouse.com/locations/ne/omaha/"
+      },
+      "center": {
+        "lat": 41.25825845,
+        "lon": -96.07250365000004
+      }
+    }
+  ]
+}

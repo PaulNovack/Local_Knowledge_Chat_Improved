@@ -1,0 +1,68 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KY",
+    "brand": "scooter_s_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/kentucky-latest.osm.pbf",
+    "source_md5": "beee275db6b863afe4847059e1397537",
+    "processed_utc": "2026-10-24T07:04:39.223265+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1244698862,
+      "tags": {
+        "addr:city": "Owensboro",
+        "addr:housenumber": "3415",
+        "addr:postcode": "42301",
+        "addr:state": "KY",
+        "addr:street": "Frederica Street",
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Scooter's Coffee",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 37.739836,
+        "lon": -87.11763350000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1524296070,
+      "tags": {
+        "addr:city": "Elizabethtown",
+        "addr:housenumber": "901",
+        "addr:postcode": "42701",
+        "addr:state": "KY",
+        "addr:street": "North Mulberry Street",
+        "amenity": "cafe",
+        "brand": "Scooter's Coffee",
+        "brand:wikidata": "Q117280308",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "Scooter's Coffee",
+        "opening_hours": "Mo-Su 06:00-20:00",
+        "phone": "+1-270-982-1413",
+        "takeaway": "yes",
+        "website": "https://www.scooterscoffee.com/"
+      },
+      "center": {
+        "lat": 37.70449805,
+        "lon": -85.84594419999996
+      }
+    }
+  ]
+}

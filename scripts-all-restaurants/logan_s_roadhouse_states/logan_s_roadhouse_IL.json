@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "logan_s_roadhouse",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 547357108,
+      "tags": {
+        "addr:city": "East Peoria",
+        "addr:housenumber": "240",
+        "addr:postcode": "61611",
+        "addr:state": "IL",
+        "addr:street": "Conference Center Drive",
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse"
+      },
+      "center": {
+        "lat": 40.68118015,
+        "lon": -89.59222750000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 628066404,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse"
+      },
+      "center": {
+        "lat": 37.743052000000006,
+        "lon": -88.96459019999998
+      }
+    }
+  ]
+}

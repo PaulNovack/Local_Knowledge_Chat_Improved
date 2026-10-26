@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "7_brew",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13348993357,
+      "tags": {
+        "addr:city": "State College",
+        "addr:housenumber": "1923",
+        "addr:postcode": "16801",
+        "addr:state": "PA",
+        "addr:street": "South Atherton Street",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "7 Brew",
+        "opening_hours": "Su-Th 05:30-22:00; Fr,Sa 05:30-23:00",
+        "outdoor_seating": "no",
+        "phone": "+1 479-358-9274",
+        "start_date": "2025-12-08",
+        "website": "https://locations.7brew.com/pa/state-college"
+      },
+      "lat": 40.7855951,
+      "lon": -77.8330715
+    },
+    {
+      "type": "node",
+      "id": 14073831329,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "takeaway": "yes"
+      },
+      "lat": 40.619269,
+      "lon": -79.7314635
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "fleming_s",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1107918614,
+      "tags": {
+        "addr:city": "Miramar Beach",
+        "addr:housenumber": "600",
+        "addr:postcode": "32550",
+        "addr:state": "FL",
+        "addr:street": "Grand Boulevard",
+        "amenity": "restaurant",
+        "name": "Fleming's Steakhouse",
+        "phone": "+1 850 269 0830",
+        "website": "https://www.flemingssteakhouse.com/Locations/FL/Sandestin"
+      },
+      "lat": 30.3785437,
+      "lon": -86.3128048
+    },
+    {
+      "type": "node",
+      "id": 4362935496,
+      "tags": {
+        "addr:city": "Winter Park",
+        "addr:housenumber": "933",
+        "addr:postcode": "32789",
+        "addr:state": "FL",
+        "addr:street": "Orlando Avenue",
+        "amenity": "restaurant",
+        "brand": "Fleming's",
+        "brand:wikidata": "Q5458552",
+        "cuisine": "steak_house",
+        "name": "Fleming's",
+        "official_name": "Fleming's Prime Steakhouse & Wine Bar",
+        "phone": "+1-407-699-9463",
+        "website": "https://www.flemingssteakhouse.com/"
+      },
+      "lat": 28.6056378,
+      "lon": -81.3655725
+    },
+    {
+      "type": "node",
+      "id": 13305072037,
+      "tags": {
+        "amenity": "restaurant",
+        "branch": "Steakhouse & Wine Bar",
+        "brand": "Fleming's",
+        "brand:wikidata": "Q5458552",
+        "cuisine": "steak_house",
+        "name": "Fleming's",
+        "official_name": "Fleming's Prime Steakhouse & Wine Bar"
+      },
+      "lat": 26.2523571,
+      "lon": -81.8016859
+    },
+    {
+      "type": "way",
+      "id": 524321829,
+      "tags": {
+        "addr:city": "Tampa",
+        "addr:country": "US",
+        "addr:housenumber": "4322",
+        "addr:postcode": "33607",
+        "addr:state": "FL",
+        "addr:street": "Boy Scout Road",
+        "amenity": "restaurant",
+        "branch": "Steakhouse",
+        "brand": "Fleming's",
+        "brand:wikidata": "Q5458552",
+        "building": "commercial",
+        "cuisine": "steak_house",
+        "height": "15.67",
+        "name": "Fleming's",
+        "official_name": "Fleming's Prime Steakhouse & Wine Bar",
+        "opening_hours": "Su 04:00-21:00; Mo-Sa 04:00-22:00",
+        "phone": "+1-813-874-9463",
+        "website": "https://www.flemingssteakhouse.com/Locations/FL/Tampa"
+      },
+      "center": {
+        "lat": 27.962206600000002,
+        "lon": -82.51588700000002
+      }
+    }
+  ]
+}

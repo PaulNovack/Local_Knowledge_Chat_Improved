@@ -1,0 +1,52 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "playa_bowls",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10731419812,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Playa Bowls",
+        "brand:wikidata": "Q114618507",
+        "cuisine": "açaí",
+        "name": "Playa Bowls",
+        "takeaway": "yes"
+      },
+      "lat": 33.567547,
+      "lon": -111.8875358
+    },
+    {
+      "type": "node",
+      "id": 14023565402,
+      "tags": {
+        "addr:city": "Buckeye",
+        "addr:housenumber": "1045",
+        "addr:postcode": "85326",
+        "addr:state": "AZ",
+        "addr:street": "North Verrado Way",
+        "amenity": "fast_food",
+        "brand": "Playa Bowls",
+        "brand:wikidata": "Q114618507",
+        "cuisine": "açaí",
+        "name": "Playa Bowls",
+        "takeaway": "yes"
+      },
+      "lat": 33.4578933,
+      "lon": -112.5032582
+    }
+  ]
+}

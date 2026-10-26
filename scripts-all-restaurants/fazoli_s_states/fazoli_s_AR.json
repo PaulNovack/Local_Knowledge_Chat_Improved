@@ -1,0 +1,102 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "fazoli_s",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13377146701,
+      "tags": {
+        "addr:housenumber": "3701",
+        "addr:street": "Warden Road",
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "cuisine": "italian",
+        "name": "Fazoli's",
+        "takeaway": "yes",
+        "website": "https://fazolis.com/stores/ar-north-little-rock-3701-warden-rd-72116/"
+      },
+      "lat": 34.7872007,
+      "lon": -92.2289266
+    },
+    {
+      "type": "node",
+      "id": 13675123167,
+      "tags": {
+        "addr:city": "Paragould",
+        "addr:housenumber": "1515",
+        "addr:postcode": "72450",
+        "addr:state": "AR",
+        "addr:street": "West Kings Highway",
+        "addr:unit": "A",
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "cuisine": "italian",
+        "drive_through": "yes",
+        "name": "Fazoli's",
+        "opening_hours": "Mo-Su 10:30-21:00",
+        "phone": "+18702362668",
+        "takeaway": "yes",
+        "website": "https://fazolis.com/stores/ar-paragould-1515-w-kingshighway-72450/"
+      },
+      "lat": 36.0533642,
+      "lon": -90.5067778
+    },
+    {
+      "type": "way",
+      "id": 952405393,
+      "tags": {
+        "addr:city": "Little Rock",
+        "addr:housenumber": "11410",
+        "addr:postcode": "72211",
+        "addr:state": "AR",
+        "addr:street": "West Markham Street",
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "building": "yes",
+        "cuisine": "italian",
+        "drive_through": "yes",
+        "name": "Fazoli's",
+        "phone": "+1-501-353-1446",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 34.7543094,
+        "lon": -92.40104755000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1300739888,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "Fazoli's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.8216313,
+        "lon": -90.68706605
+      }
+    }
+  ]
+}

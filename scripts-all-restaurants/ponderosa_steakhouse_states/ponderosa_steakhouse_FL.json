@@ -1,0 +1,90 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "ponderosa_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1701521774,
+      "tags": {
+        "addr:city": "Kissimmee",
+        "addr:housenumber": "7598",
+        "addr:postcode": "34747",
+        "addr:state": "FL",
+        "addr:street": "West Irlo Bronson Memorial Highway",
+        "amenity": "restaurant",
+        "brand": "Ponderosa Steakhouse",
+        "brand:en": "Ponderosa Steakhouse",
+        "brand:wikidata": "Q64038204",
+        "brand:zh": "龐德羅莎",
+        "cuisine": "american;steak;buffet",
+        "name": "Ponderosa Steakhouse",
+        "name:en": "Ponderosa Steakhouse",
+        "name:zh": "龐德羅莎",
+        "wheelchair": "yes"
+      },
+      "lat": 28.3333816,
+      "lon": -81.5900509
+    },
+    {
+      "type": "node",
+      "id": 3268335816,
+      "tags": {
+        "addr:city": "Kissimmee",
+        "addr:housenumber": "5771",
+        "addr:postcode": "34746",
+        "addr:state": "FL",
+        "addr:street": "West Irlo Bronson Memorial Highway",
+        "amenity": "restaurant",
+        "brand": "Ponderosa Steakhouse",
+        "brand:en": "Ponderosa Steakhouse",
+        "brand:wikidata": "Q64038204",
+        "brand:zh": "龐德羅莎",
+        "cuisine": "american;steak;buffet",
+        "name": "Ponderosa Steakhouse",
+        "name:en": "Ponderosa Steakhouse",
+        "name:zh": "龐德羅莎"
+      },
+      "lat": 28.3335344,
+      "lon": -81.5150431
+    },
+    {
+      "type": "way",
+      "id": 140619635,
+      "tags": {
+        "addr:city": "Orlando",
+        "addr:housenumber": "8510",
+        "addr:state": "FL",
+        "addr:street": "International Drive",
+        "amenity": "restaurant",
+        "brand": "Ponderosa Steakhouse",
+        "brand:en": "Ponderosa Steakhouse",
+        "brand:wikidata": "Q64038204",
+        "brand:zh": "龐德羅莎",
+        "building": "yes",
+        "cuisine": "american;steak;buffet",
+        "name": "Ponderosa Steakhouse",
+        "name:en": "Ponderosa Steakhouse",
+        "name:zh": "龐德羅莎",
+        "source:addr:housenumber": "Orange County GIS data",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 28.44147705,
+        "lon": -81.47121475
+      }
+    }
+  ]
+}

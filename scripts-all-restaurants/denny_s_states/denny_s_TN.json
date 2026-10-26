@@ -1,0 +1,100 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TN",
+    "brand": "denny_s",
+    "source": "https://download.geofabrik.de/north-america/us/tennessee-latest.osm.pbf",
+    "source_md5": "a047c5da6c897a8a98b1fc4a282b8d3f",
+    "processed_utc": "2026-10-24T07:16:20.210730+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9701972385,
+      "tags": {
+        "addr:city": "Fairview",
+        "addr:housenumber": "1420",
+        "addr:postcode": "37062",
+        "addr:state": "TN",
+        "addr:street": "Highway 96",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "check_date": "2024-08-20",
+        "check_date:diet:gluten_free": "2025-12-25",
+        "check_date:diet:halal": "2025-12-25",
+        "check_date:diet:kosher": "2025-12-25",
+        "cuisine": "american",
+        "diet:gluten_free": "yes",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "phone": "+1 615-799-8155",
+        "source": "official website",
+        "takeaway": "yes",
+        "website": "https://locations.dennys.com/TN/FAIRVIEW/249304"
+      },
+      "lat": 36.0268287,
+      "lon": -87.1721279
+    },
+    {
+      "type": "way",
+      "id": 414621509,
+      "tags": {
+        "addr:city": "Pigeon Forge",
+        "addr:housenumber": "3716",
+        "addr:postcode": "37863",
+        "addr:state": "TN",
+        "addr:street": "Parkway",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no",
+        "phone": "+18654286767",
+        "smoking": "no"
+      },
+      "center": {
+        "lat": 35.78087805,
+        "lon": -83.54994490000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 812985789,
+      "tags": {
+        "addr:city": "Cleveland",
+        "addr:housenumber": "1011",
+        "addr:postcode": "37312",
+        "addr:state": "TN",
+        "addr:street": "Paul Huff Pkwy NW",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "building": "restaurant",
+        "cuisine": "mexican",
+        "name": "El Jinete Cleveland",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-22:30",
+        "phone": "+1-423-790-1195",
+        "website": "https://cleveland.eljinetemexicanrestaurants.com/"
+      },
+      "center": {
+        "lat": 35.21295095,
+        "lon": -84.87076795000002
+      }
+    }
+  ]
+}

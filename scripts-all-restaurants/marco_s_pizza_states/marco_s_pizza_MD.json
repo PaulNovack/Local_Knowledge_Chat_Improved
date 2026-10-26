@@ -1,0 +1,75 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "marco_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3026452963,
+      "tags": {
+        "addr:city": "Essex",
+        "addr:housenumber": "149",
+        "addr:postcode": "21221",
+        "addr:state": "MD",
+        "addr:street": "Orville Road",
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 39.3255236,
+      "lon": -76.4488323
+    },
+    {
+      "type": "node",
+      "id": 12656928286,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 39.4318146,
+      "lon": -77.417837
+    },
+    {
+      "type": "node",
+      "id": 14051920486,
+      "tags": {
+        "addr:city": "Elkridge",
+        "addr:housenumber": "7561",
+        "addr:postcode": "21075",
+        "addr:state": "MD",
+        "addr:street": "Washington Boulevard",
+        "addr:unit": "E",
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Marco's Pizza",
+        "phone": "+1-443-936-0777",
+        "takeaway": "only",
+        "website": "https://www.marcos.com/"
+      },
+      "lat": 39.1777352,
+      "lon": -76.7722977
+    }
+  ]
+}

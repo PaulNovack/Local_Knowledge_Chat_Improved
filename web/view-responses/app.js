@@ -1,4 +1,5 @@
 const $ = id => document.getElementById(id);
+const canDeleteResponses = ['localhost', '127.0.0.1'].includes(location.hostname.toLowerCase());
 const initialParams = new URLSearchParams(location.search);
 const initialPageSize = Number(initialParams.get('page_size') || $('page-size').value);
 const initialPage = Number(initialParams.get('page') || '1');
@@ -94,13 +95,16 @@ function renderItem(item) {
   id.textContent = `Response #${item.ID}`;
   const timestamp = document.createElement('span');
   timestamp.textContent = `Saved ${item.created_at}`;
-  const remove = document.createElement('button');
-  remove.className = 'response-delete secondary';
-  remove.type = 'button';
-  remove.textContent = 'Delete';
-  remove.setAttribute('aria-label', `Delete response ${item.ID}`);
-  remove.onclick = () => deleteResponse(item.ID);
-  footer.append(id, timestamp, remove);
+  footer.append(id, timestamp);
+  if (canDeleteResponses) {
+    const remove = document.createElement('button');
+    remove.className = 'response-delete secondary';
+    remove.type = 'button';
+    remove.textContent = 'Delete';
+    remove.setAttribute('aria-label', `Delete response ${item.ID}`);
+    remove.onclick = () => deleteResponse(item.ID);
+    footer.append(remove);
+  }
 
   card.append(meta, question, answer, footer);
   return card;

@@ -1,0 +1,52 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TX",
+    "brand": "round_table_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/texas-latest.osm.pbf",
+    "source_md5": "eb8f4603e9b48bd481c192fe621ae18b",
+    "processed_utc": "2026-10-24T07:17:23.814833+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13162720881,
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "8323",
+        "addr:postcode": "77406",
+        "addr:state": "TX",
+        "addr:street": "FM 723",
+        "addr:unit": "112",
+        "amenity": "restaurant",
+        "brand": "Round Table Pizza",
+        "brand:wikidata": "Q7371139",
+        "cuisine": "pizza",
+        "name": "Round Table Pizza"
+      },
+      "lat": 29.684406,
+      "lon": -95.8135845
+    },
+    {
+      "type": "way",
+      "id": 1505363848,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Round Table"
+      },
+      "center": {
+        "lat": 29.6535164,
+        "lon": -98.45015579999995
+      }
+    }
+  ]
+}

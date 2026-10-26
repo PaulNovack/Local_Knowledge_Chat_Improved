@@ -1,0 +1,54 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "ruth_s_chris_steak_house",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2328438449,
+      "tags": {
+        "addr:housenumber": "275",
+        "addr:street": "South West Temple",
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "cuisine": "american;steak_house",
+        "name": "Ruth's Chris Steak House",
+        "opening_hours": "Mo-Th 17:00-22:00; Fr-Sa 17:00-23:00; Su 17:00-21:00",
+        "wheelchair": "yes"
+      },
+      "lat": 40.7631002,
+      "lon": -111.893617
+    },
+    {
+      "type": "node",
+      "id": 4468626616,
+      "tags": {
+        "addr:city": "Park City",
+        "addr:housenumber": "2001",
+        "addr:postcode": "84060",
+        "addr:state": "UT",
+        "addr:street": "Park Avenue",
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "cuisine": "american;steak_house",
+        "name": "Ruth's Chris Steak House"
+      },
+      "lat": 40.6621709,
+      "lon": -111.513637
+    }
+  ]
+}

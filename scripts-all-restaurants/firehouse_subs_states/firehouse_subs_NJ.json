@@ -1,0 +1,98 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "firehouse_subs",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5613325687,
+      "tags": {
+        "addr:city": "Wayne",
+        "addr:housenumber": "1050",
+        "addr:postcode": "07470",
+        "addr:state": "NJ",
+        "addr:street": "Paterson-Hamburg Turnpike",
+        "amenity": "fast_food",
+        "brand": "Firehouse Subs",
+        "brand:wikidata": "Q5451873",
+        "cuisine": "sandwich",
+        "name": "Firehouse Subs",
+        "takeaway": "yes"
+      },
+      "lat": 40.9606184,
+      "lon": -74.2378903
+    },
+    {
+      "type": "node",
+      "id": 5697442438,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Firehouse Subs",
+        "brand:wikidata": "Q5451873",
+        "cuisine": "sandwich",
+        "name": "Firehouse Subs",
+        "takeaway": "yes"
+      },
+      "lat": 40.8944748,
+      "lon": -74.226755
+    },
+    {
+      "type": "node",
+      "id": 5894609761,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Firehouse Subs",
+        "brand:wikidata": "Q5451873",
+        "cuisine": "sandwich",
+        "name": "Firehouse Subs",
+        "takeaway": "yes"
+      },
+      "lat": 40.7888866,
+      "lon": -74.3906434
+    },
+    {
+      "type": "node",
+      "id": 10695388987,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Firehouse Subs",
+        "brand:wikidata": "Q5451873",
+        "check_date": "2023-02-26",
+        "cuisine": "sandwich",
+        "name": "Firehouse Subs",
+        "takeaway": "yes"
+      },
+      "lat": 40.6883159,
+      "lon": -74.1770356
+    },
+    {
+      "type": "way",
+      "id": 869648851,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Firehouse Subs",
+        "brand:wikidata": "Q5451873",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Firehouse Subs",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.94073285,
+        "lon": -74.96213765000005
+      }
+    }
+  ]
+}

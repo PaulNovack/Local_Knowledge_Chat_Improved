@@ -1,0 +1,48 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OR",
+    "brand": "sarku_japan",
+    "source": "https://download.geofabrik.de/north-america/us/oregon-latest.osm.pbf",
+    "source_md5": "bc93fd72fe4589fdc6c9b2b497cb7ef1",
+    "processed_utc": "2026-10-24T07:14:41.004303+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8978868261,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sarku Japan",
+        "brand:wikidata": "Q7424243",
+        "cuisine": "japanese",
+        "level": "1",
+        "name": "Sarku Japan",
+        "takeaway": "yes"
+      },
+      "lat": 45.450397,
+      "lon": -122.780632
+    },
+    {
+      "type": "node",
+      "id": 11378658613,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sarku Japan",
+        "check_date": "2024-07-09",
+        "cuisine": "japanese",
+        "name": "Sarku Japan",
+        "takeaway": "yes"
+      },
+      "lat": 44.0685911,
+      "lon": -123.106238
+    }
+  ]
+}

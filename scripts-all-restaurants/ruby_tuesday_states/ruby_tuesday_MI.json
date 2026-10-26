@@ -1,0 +1,120 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MI",
+    "brand": "ruby_tuesday",
+    "source": "https://download.geofabrik.de/north-america/us/michigan-latest.osm.pbf",
+    "source_md5": "1c9e00f502a3ea973e97c7d6f989094d",
+    "processed_utc": "2026-10-24T07:07:39.587953+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2689802498,
+      "tags": {
+        "addr:city": "Cadillac",
+        "addr:housenumber": "8711",
+        "addr:postcode": "49601",
+        "addr:street": "East Boon Road",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "lat": 44.2819459,
+      "lon": -85.4021442
+    },
+    {
+      "type": "node",
+      "id": 4299208873,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "lat": 43.6881934,
+      "lon": -85.5169789
+    },
+    {
+      "type": "node",
+      "id": 5952846065,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "lat": 42.2278897,
+      "lon": -83.3470783
+    },
+    {
+      "type": "way",
+      "id": 242296948,
+      "tags": {
+        "addr:housenumber": "39581",
+        "addr:street": "West 12 Mile Road",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "commercial",
+        "cuisine": "american",
+        "name": "Ruby Tuesday",
+        "ref": "7632",
+        "website": "https://www.rubytuesday.com"
+      },
+      "center": {
+        "lat": 42.4963664,
+        "lon": -83.43863759999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 372929842,
+      "tags": {
+        "addr:city": "Clarkston",
+        "addr:country": "US",
+        "addr:housenumber": "6898",
+        "addr:postcode": "48348",
+        "addr:state": "MI",
+        "addr:street": "Sashabaw Road",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "center": {
+        "lat": 42.7389101,
+        "lon": -83.37897375
+      }
+    },
+    {
+      "type": "way",
+      "id": 930638539,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "center": {
+        "lat": 42.272198450000005,
+        "lon": -83.48863845
+      }
+    }
+  ]
+}

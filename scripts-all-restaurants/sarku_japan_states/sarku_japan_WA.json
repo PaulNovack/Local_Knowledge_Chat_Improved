@@ -1,0 +1,83 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "sarku_japan",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5745965513,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sarku Japan",
+        "brand:wikidata": "Q7424243",
+        "cuisine": "japanese",
+        "name": "Sarku Japan",
+        "opening_hours": "Mo-Sa 10:00-21:00; Su 10:00-19:00",
+        "takeaway": "yes"
+      },
+      "lat": 47.2156549,
+      "lon": -122.467548
+    },
+    {
+      "type": "node",
+      "id": 8840901025,
+      "tags": {
+        "addr:unit": "854",
+        "amenity": "fast_food",
+        "brand": "Sarku Japan",
+        "brand:wikidata": "Q7424243",
+        "cuisine": "japanese",
+        "name": "Sarku Japan",
+        "takeaway": "yes"
+      },
+      "lat": 47.8288483,
+      "lon": -122.2745591
+    },
+    {
+      "type": "node",
+      "id": 12362608042,
+      "tags": {
+        "addr:housenumber": "5280",
+        "amenity": "fast_food",
+        "brand": "Sarku Japan",
+        "brand:wikidata": "Q7424243",
+        "cuisine": "japanese",
+        "name": "Sarku Japan",
+        "takeaway": "yes"
+      },
+      "lat": 47.0921378,
+      "lon": -122.5884991
+    },
+    {
+      "type": "way",
+      "id": 502537446,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sarku Japan",
+        "brand:wikidata": "Q7424243",
+        "cuisine": "japanese",
+        "indoor": "room",
+        "indoor:level": "1",
+        "level": "1",
+        "name": "Sarku Japan",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 47.4580318,
+        "lon": -122.25767965
+      }
+    }
+  ]
+}

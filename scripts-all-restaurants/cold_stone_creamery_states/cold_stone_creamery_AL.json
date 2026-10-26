@@ -1,0 +1,93 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AL",
+    "brand": "cold_stone_creamery",
+    "source": "https://download.geofabrik.de/north-america/us/alabama-latest.osm.pbf",
+    "source_md5": "3ee9c8ab6ddb6921e2aa2562af6c9bce",
+    "processed_utc": "2026-10-24T06:56:09.586986+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 459390706,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery"
+      },
+      "lat": 33.2373695,
+      "lon": -86.8000858
+    },
+    {
+      "type": "node",
+      "id": 11370375471,
+      "tags": {
+        "addr:city": "Huntsville",
+        "addr:housenumber": "2750",
+        "addr:postcode": "35802",
+        "addr:state": "AL",
+        "addr:street": "Carl T Jones Drive Southeast",
+        "addr:unit": "1200-S",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery",
+        "website": "https://www.coldstonecreamery.com/stores/21218",
+        "website:menu": "https://orders.ordercoldstone.com/menu/jones-valley/"
+      },
+      "lat": 34.6749673,
+      "lon": -86.5452391
+    },
+    {
+      "type": "node",
+      "id": 12065116754,
+      "tags": {
+        "addr:unit": "108",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "check_date": "2025-07-28",
+        "cuisine": "ice_cream",
+        "delivery": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Cold Stone Creamery",
+        "outdoor_seating": "yes",
+        "payment:american_express": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "no",
+        "payment:diners_club": "yes",
+        "payment:jcb": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 33.5973485,
+      "lon": -86.64526
+    },
+    {
+      "type": "node",
+      "id": 13648207157,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "name": "Cold Stone Creamery"
+      },
+      "lat": 31.2684363,
+      "lon": -85.4497645
+    }
+  ]
+}

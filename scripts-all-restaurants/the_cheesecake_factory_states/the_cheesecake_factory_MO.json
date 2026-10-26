@@ -1,0 +1,63 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "the_cheesecake_factory",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1492128734,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "4701",
+        "addr:postcode": "64112",
+        "addr:state": "MO",
+        "addr:street": "Wyandotte Street",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory",
+        "phone": "+1-816-960-1919",
+        "website": "https://locations.thecheesecakefactory.com/mo/kansas-city-17.html"
+      },
+      "lat": 39.0420309,
+      "lon": -94.5886581
+    },
+    {
+      "type": "node",
+      "id": 11057476735,
+      "tags": {
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "1062",
+        "addr:postcode": "63117",
+        "addr:state": "MO",
+        "addr:street": "Galleria Parkway",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory",
+        "phone": "+1-314-721-0505",
+        "toilets:wheelchair": "yes",
+        "website": "https://locations.thecheesecakefactory.com/mo/st.-louis-57.html",
+        "wheelchair": "yes"
+      },
+      "lat": 38.6361917,
+      "lon": -90.3476927
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "joe_s_crab_shack",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2679720211,
+      "tags": {
+        "addr:housenumber": "717",
+        "addr:postcode": "65616",
+        "addr:street": "Branson Landing",
+        "amenity": "restaurant",
+        "brand": "Joe's Crab Shack",
+        "brand:wikidata": "Q6208210",
+        "cuisine": "seafood",
+        "name": "Joe's Crab Shack",
+        "phone": "+1 417-337-7373"
+      },
+      "lat": 36.6459851,
+      "lon": -93.2136099
+    },
+    {
+      "type": "node",
+      "id": 7554020434,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Joe's Crab Shack",
+        "brand:wikidata": "Q6208210",
+        "cuisine": "seafood",
+        "name": "Big Al's Crab Shack"
+      },
+      "lat": 37.0238013,
+      "lon": -93.2060599
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NH",
+    "brand": "playa_bowls",
+    "source": "https://download.geofabrik.de/north-america/us/new-hampshire-latest.osm.pbf",
+    "source_md5": "603b90470df09c1b933955cbfe841c6d",
+    "processed_utc": "2026-10-24T07:09:51.168561+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11235901882,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Playa Bowls",
+        "brand:wikidata": "Q114618507",
+        "check_date": "2023-10-02",
+        "cuisine": "smoothie",
+        "name": "Playa Bowls",
+        "takeaway": "yes"
+      },
+      "lat": 42.9116127,
+      "lon": -70.8103106
+    },
+    {
+      "type": "node",
+      "id": 12084013217,
+      "tags": {
+        "addr:city": "Salem",
+        "addr:housenumber": "200",
+        "addr:postcode": "03079",
+        "addr:state": "NH",
+        "addr:street": "Via Toscana",
+        "addr:unit": "1000",
+        "amenity": "fast_food",
+        "brand": "Playa Bowls",
+        "brand:wikidata": "Q114618507",
+        "check_date": "2024-08-18",
+        "cuisine": "açaí",
+        "drive_through": "no",
+        "name": "Playa Bowls",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "phone": "+1 603 458 3202",
+        "takeaway": "yes",
+        "website": "https://www.playabowls.com/location/salem"
+      },
+      "lat": 42.7712312,
+      "lon": -71.2248966
+    },
+    {
+      "type": "node",
+      "id": 14229222310,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Playa Bowls",
+        "brand:wikidata": "Q114618507",
+        "cuisine": "açaí",
+        "name": "Playa Bowls",
+        "takeaway": "yes"
+      },
+      "lat": 43.7006448,
+      "lon": -72.2898158
+    },
+    {
+      "type": "way",
+      "id": 978821921,
+      "tags": {
+        "addr:city": "Nashua",
+        "addr:housenumber": "262",
+        "addr:postcode": "03063",
+        "addr:state": "NH",
+        "addr:street": "Amherst Street",
+        "addr:unit": "B",
+        "amenity": "fast_food",
+        "brand": "Playa Bowls",
+        "brand:wikidata": "Q114618507",
+        "building": "yes",
+        "check_date:opening_hours": "2026-06-09",
+        "cuisine": "açaí",
+        "drive_through": "no",
+        "name": "Playa Bowls",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "phone": "+1 603-459-8194",
+        "takeaway": "yes",
+        "website": "https://www.playabowls.com/location/nashua"
+      },
+      "center": {
+        "lat": 42.777826250000004,
+        "lon": -71.49766850000003
+      }
+    }
+  ]
+}

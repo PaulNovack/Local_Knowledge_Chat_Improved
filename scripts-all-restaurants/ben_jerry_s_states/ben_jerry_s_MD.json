@@ -1,0 +1,82 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "ben_jerry_s",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1076971239,
+      "tags": {
+        "addr:city": "Silver Spring",
+        "addr:housenumber": "903",
+        "addr:postcode": "20910",
+        "addr:street": "Ellsworth Drive",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "check_date": "2023-08-09",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's",
+        "opening_hours": "Mo-Th 12:00-22:00; Fr-Sa 12:00-23:00; Su 12:00-21:00",
+        "phone": "+1 301-589-8224",
+        "website": "https://www.benjerry.com/cityplace",
+        "wheelchair": "limited",
+        "wheelchair:description": "The entrance directly from outside isn't accessible, but the entrance through the mall is accessible."
+      },
+      "lat": 38.9967955,
+      "lon": -77.0256799
+    },
+    {
+      "type": "node",
+      "id": 1998131552,
+      "tags": {
+        "addr:city": "Oxon Hill",
+        "addr:country": "US",
+        "addr:housenumber": "138",
+        "addr:postcode": "20745",
+        "addr:state": "MD",
+        "addr:street": "National Plaza",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "building": "yes",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's"
+      },
+      "lat": 38.7852518,
+      "lon": -77.0163507
+    },
+    {
+      "type": "node",
+      "id": 13588198405,
+      "tags": {
+        "addr:city": "Baltimore",
+        "addr:housenumber": "2450",
+        "addr:postcode": "21230",
+        "addr:state": "MD",
+        "addr:street": "Rye Street",
+        "addr:unit": "105",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "name": "Ben & Jerry's",
+        "outdoor_seating": "yes",
+        "website": "https://www.benjerry.com/baltimore-peninsula"
+      },
+      "lat": 39.2636706,
+      "lon": -76.607676
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ID",
+    "brand": "sizzler",
+    "source": "https://download.geofabrik.de/north-america/us/idaho-latest.osm.pbf",
+    "source_md5": "1a1a06364d5343af00d67fef4750905f",
+    "processed_utc": "2026-10-24T07:02:45.671077+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 32334014,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Sizzler",
+        "brand:wikidata": "Q1848822",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Sizzler",
+        "website": "https://sizzler.com/locations/sizzler-idaho-falls/"
+      },
+      "center": {
+        "lat": 43.4817963,
+        "lon": -111.98645015
+      }
+    },
+    {
+      "type": "way",
+      "id": 422446494,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Sizzler",
+        "brand:wikidata": "Q1848822",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Sizzler",
+        "website": "https://sizzler.com/locations/sizzler-twin-falls/"
+      },
+      "center": {
+        "lat": 42.57440095,
+        "lon": -114.46078254999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 579316611,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Sizzler",
+        "brand:wikidata": "Q1848822",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Sizzler",
+        "website": "https://sizzler.com/locations/sizzler-pocatello/"
+      },
+      "center": {
+        "lat": 42.89424045,
+        "lon": -112.43988554999999
+      }
+    }
+  ]
+}

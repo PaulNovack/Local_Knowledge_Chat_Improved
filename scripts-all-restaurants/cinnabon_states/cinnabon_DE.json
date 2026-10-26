@@ -1,0 +1,74 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DE",
+    "brand": "cinnabon",
+    "source": "https://download.geofabrik.de/north-america/us/delaware-latest.osm.pbf",
+    "source_md5": "5f714be897be010ea09e4134c39a0638",
+    "processed_utc": "2026-10-24T07:00:37.202137+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8272661791,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cinnabon",
+        "brand:wikidata": "Q1092539",
+        "check_date": "2024-07-15",
+        "cuisine": "dessert",
+        "drive_through": "no",
+        "indoor_seating": "yes",
+        "name": "Cinnabon",
+        "outdoor_seating": "no",
+        "takeaway": "yes",
+        "website": "https://locations.cinnabon.com/de/newark/530-jfk-memorial-hwy"
+      },
+      "lat": 39.6617054,
+      "lon": -75.6914697
+    },
+    {
+      "type": "node",
+      "id": 13025739322,
+      "tags": {
+        "addr:housenumber": "715",
+        "addr:postcode": "19702",
+        "addr:street": "Christiana Mall",
+        "addr:unit": "5712",
+        "amenity": "fast_food",
+        "brand": "Cinnabon",
+        "brand:wikidata": "Q1092539",
+        "check_date": "2025-09-15",
+        "cuisine": "dessert",
+        "name": "Cinnabon",
+        "opening_hours": "Mo-Th 10:00-20:00; Fr-Sa 10:00-21:00; Su 12:00-18:00",
+        "phone": "+1 302-731-5565",
+        "takeaway": "yes",
+        "website": "https://locations.cinnabon.com/de/newark/715-christiana-mall-8997253679053175702"
+      },
+      "lat": 39.6786687,
+      "lon": -75.6520501
+    },
+    {
+      "type": "node",
+      "id": 13025739359,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cinnabon",
+        "brand:wikidata": "Q1092539",
+        "cuisine": "dessert",
+        "name": "Cinnabon",
+        "takeaway": "yes"
+      },
+      "lat": 39.6778344,
+      "lon": -75.6523636
+    }
+  ]
+}

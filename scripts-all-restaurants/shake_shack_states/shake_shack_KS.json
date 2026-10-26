@@ -1,0 +1,65 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "shake_shack",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 904923908,
+      "tags": {
+        "addr:city": "Overland Park",
+        "addr:housenumber": "5200",
+        "addr:postcode": "66209",
+        "addr:state": "KS",
+        "addr:street": "West 119th Street",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Shake Shack",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.91336115,
+        "lon": -94.64593880000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1564859414,
+      "tags": {
+        "addr:city": "Merriam",
+        "addr:housenumber": "8811",
+        "addr:postcode": "66202",
+        "addr:state": "KS",
+        "addr:street": "Shawnee Mission Parkway",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Shake Shack",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+1-913-427-5974",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.013560850000005,
+        "lon": -94.68839194999998
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NH",
+    "brand": "taco_time",
+    "source": "https://download.geofabrik.de/north-america/us/new-hampshire-latest.osm.pbf",
+    "source_md5": "603b90470df09c1b933955cbfe841c6d",
+    "processed_utc": "2026-10-24T07:09:51.168561+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 71356588,
+      "tags": {
+        "addr:city": "Milford",
+        "addr:housenumber": "11",
+        "addr:postcode": "03055",
+        "addr:street": "Wilton Rd",
+        "amenity": "restaurant",
+        "amenity_1": "restaurant",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Taco Time Cocina & Cantina Mexicana",
+        "not:brand:wikidata": "Q7673969"
+      },
+      "center": {
+        "lat": 42.841805,
+        "lon": -71.71939375
+      }
+    }
+  ]
+}

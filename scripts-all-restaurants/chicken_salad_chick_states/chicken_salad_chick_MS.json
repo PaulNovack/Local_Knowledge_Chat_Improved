@@ -1,0 +1,93 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "chicken_salad_chick",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5683092795,
+      "tags": {
+        "addr:city": "Oxford",
+        "addr:housenumber": "1305",
+        "addr:postcode": "38655",
+        "addr:state": "MS",
+        "addr:street": "Merchants Drive",
+        "amenity": "restaurant",
+        "name": "Chicken Salad Chick",
+        "phone": "+1-662-380-5582",
+        "website": "https://www.chickensaladchick.com/"
+      },
+      "lat": 34.363602,
+      "lon": -89.5664831
+    },
+    {
+      "type": "node",
+      "id": 6192838289,
+      "tags": {
+        "addr:city": "Hattiesburg",
+        "addr:housenumber": "3002",
+        "addr:postcode": "39402",
+        "addr:state": "MS",
+        "addr:street": "Hardy Street",
+        "addr:suite": "160",
+        "amenity": "fast_food",
+        "brand": "Chicken Salad Chick",
+        "brand:wikidata": "Q19720749",
+        "contact:website": "https://www.chickensaladchick.com/",
+        "cuisine": "chicken",
+        "name": "Chicken Salad Chick",
+        "opening_hours": "Mo-Fr 10:30-20:00; Sa 10:30-20:00",
+        "outdoor_seating": "no",
+        "phone": "+1-769-207-8377",
+        "takeaway": "yes",
+        "website": "https://www.chickensaladchick.com/"
+      },
+      "lat": 31.3245149,
+      "lon": -89.3354988
+    },
+    {
+      "type": "node",
+      "id": 8564158445,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Chicken Salad Chick",
+        "brand:wikidata": "Q19720749",
+        "cuisine": "chicken",
+        "name": "Chicken Salad Chick",
+        "takeaway": "yes"
+      },
+      "lat": 32.3425158,
+      "lon": -90.0653198
+    },
+    {
+      "type": "node",
+      "id": 8972337156,
+      "tags": {
+        "addr:housenumber": "3821",
+        "addr:street": "Promenade Parkway",
+        "addr:unit": "G",
+        "amenity": "fast_food",
+        "brand": "Chicken Salad Chick",
+        "brand:wikidata": "Q19720749",
+        "cuisine": "chicken",
+        "name": "Chicken Salad Chick",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "takeaway": "yes"
+      },
+      "lat": 30.4560799,
+      "lon": -88.9003573
+    }
+  ]
+}

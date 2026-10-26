@@ -1,0 +1,157 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TN",
+    "brand": "jack_in_the_box",
+    "source": "https://download.geofabrik.de/north-america/us/tennessee-latest.osm.pbf",
+    "source_md5": "a047c5da6c897a8a98b1fc4a282b8d3f",
+    "processed_utc": "2026-10-24T07:16:20.210730+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2348715034,
+      "tags": {
+        "addr:city": "Nashville",
+        "addr:housenumber": "5615",
+        "addr:postcode": "37209",
+        "addr:state": "TN",
+        "addr:street": "Charlotte Pike",
+        "amenity": "fast_food",
+        "brand": "Jack in the Box",
+        "brand:wikidata": "Q1538507",
+        "cuisine": "burger",
+        "name": "Jack in the Box",
+        "phone": "+1 615-258-9890",
+        "takeaway": "yes",
+        "website": "https://locations.jackinthebox.com/us/tn/nashville/5615-charlotte-pike"
+      },
+      "lat": 36.1496,
+      "lon": -86.8584112
+    },
+    {
+      "type": "node",
+      "id": 5047062293,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Jack in the Box",
+        "brand:wikidata": "Q1538507",
+        "cuisine": "burger",
+        "name": "Jack in the Box",
+        "takeaway": "yes"
+      },
+      "lat": 35.8465322,
+      "lon": -86.4303205
+    },
+    {
+      "type": "node",
+      "id": 8994409263,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Jack in the Box",
+        "brand:wikidata": "Q1538507",
+        "cuisine": "burger",
+        "name": "Jack in the Box",
+        "takeaway": "yes"
+      },
+      "lat": 35.8868918,
+      "lon": -86.3830211
+    },
+    {
+      "type": "node",
+      "id": 9550196100,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Jack In The Box"
+      },
+      "lat": 36.2070407,
+      "lon": -86.7789063
+    },
+    {
+      "type": "way",
+      "id": 373849876,
+      "tags": {
+        "addr:city": "Clarksville",
+        "addr:country": "US",
+        "addr:housenumber": "40",
+        "addr:postcode": "37042",
+        "addr:state": "TN",
+        "addr:street": "Dover Crossing Road",
+        "amenity": "fast_food",
+        "brand": "Jack in the Box",
+        "brand:wikidata": "Q1538507",
+        "building": "yes",
+        "cuisine": "burger",
+        "internet_access": "no",
+        "internet_access:fee": "no",
+        "name": "Jack in the Box",
+        "opening_hours": "24/7",
+        "operator": "Jack in the Box",
+        "phone": "+1 931-648-4401",
+        "ref": "6923",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.jackinthebox.com/us/tn/clarksville/40-dover-crossing-rd",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 36.5537847,
+        "lon": -87.39659160000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 676446775,
+      "tags": {
+        "addr:city": "Nashville",
+        "addr:housenumber": "204",
+        "addr:postcode": "37211",
+        "addr:state": "TN",
+        "addr:street": "Largo Drive",
+        "amenity": "fast_food",
+        "brand": "Jack in the Box",
+        "brand:wikidata": "Q1538507",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Jack in the Box",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.08481465,
+        "lon": -86.7028057
+      }
+    },
+    {
+      "type": "way",
+      "id": 1133620533,
+      "tags": {
+        "addr:city": "Hermitage",
+        "addr:housenumber": "5656",
+        "addr:postcode": "37076",
+        "addr:state": "TN",
+        "addr:street": "Old Hickory Boulevard",
+        "amenity": "fast_food",
+        "brand": "Jack in the Box",
+        "brand:wikidata": "Q1538507",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Jack in the Box",
+        "phone": "+1 615-252-5771",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.jackinthebox.com/us/tn/hermitage/5656-old-hickory-blvd"
+      },
+      "center": {
+        "lat": 36.1744088,
+        "lon": -86.6018032
+      }
+    }
+  ]
+}

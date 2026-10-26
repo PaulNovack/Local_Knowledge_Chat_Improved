@@ -1,0 +1,92 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NH",
+    "brand": "tropical_smoothie_cafe",
+    "source": "https://download.geofabrik.de/north-america/us/new-hampshire-latest.osm.pbf",
+    "source_md5": "603b90470df09c1b933955cbfe841c6d",
+    "processed_utc": "2026-10-24T07:09:51.168561+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12105211280,
+      "tags": {
+        "addr:city": "Manchester",
+        "addr:housenumber": "655",
+        "addr:postcode": "03103",
+        "addr:state": "NH",
+        "addr:street": "South Willow Street",
+        "amenity": "fast_food",
+        "brand": "Tropical Smoothie Cafe",
+        "cuisine": "juice",
+        "indoor_seating": "yes",
+        "name": "Tropical Smoothie Cafe",
+        "opening_hours": "Mo-Sa 07:00-21:00; Su 09:00-21:00",
+        "takeaway": "yes",
+        "website": "https://www.tropicalsmoothiecafe.com/"
+      },
+      "lat": 42.9652246,
+      "lon": -71.4485322
+    },
+    {
+      "type": "node",
+      "id": 12105211281,
+      "tags": {
+        "addr:city": "Nashua",
+        "addr:housenumber": "375",
+        "addr:postcode": "03063",
+        "addr:state": "NH",
+        "addr:street": "Amherst Street",
+        "amenity": "fast_food",
+        "brand": "Tropical Smoothie Cafe",
+        "cuisine": "juice",
+        "name": "Tropical Smoothie Cafe",
+        "opening_hours": "Mo-Sa 07:00-21:00; Su 09:00-21:00",
+        "phone": "+16037136855",
+        "takeaway": "yes",
+        "website": "https://www.tropicalsmoothiecafe.com/"
+      },
+      "lat": 42.7853122,
+      "lon": -71.506282
+    },
+    {
+      "type": "node",
+      "id": 13790816279,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Tropical Smoothie Cafe",
+        "brand:wikidata": "Q7845817",
+        "cuisine": "juice",
+        "name": "Tropical Smoothie Cafe",
+        "takeaway": "yes"
+      },
+      "lat": 43.6283111,
+      "lon": -72.3233232
+    },
+    {
+      "type": "way",
+      "id": 443684619,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Tropical Smoothie Cafe",
+        "brand:wikidata": "Q7845817",
+        "building": "yes",
+        "cuisine": "juice",
+        "name": "Tropical Smoothie Cafe",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.9354389,
+        "lon": -72.29468495000003
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "jason_s_deli",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2300441476,
+      "tags": {
+        "addr:city": "Oak Lawn",
+        "addr:postcode": "60453",
+        "addr:state": "IL",
+        "addr:street": "West 95th Street",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "drive_through": "no",
+        "name": "Jason's Deli",
+        "takeaway": "yes"
+      },
+      "lat": 41.7207813,
+      "lon": -87.77708
+    },
+    {
+      "type": "node",
+      "id": 4441456490,
+      "tags": {
+        "addr:city": "Rockford",
+        "addr:country": "US",
+        "addr:full": "575 South Perryville Rd #127, Rockford, IL 61108",
+        "addr:housenumber": "575",
+        "addr:postcode": "61108",
+        "addr:state": "IL",
+        "addr:street": "South Perryville Road",
+        "addr:unit": "127",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "no",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "delivery": "yes",
+        "kids_area": "no",
+        "level": "1",
+        "name": "Jason's Deli",
+        "name:en": "Jason's Deli",
+        "opening_hours": "Mo-Su 08:00-22:00; PH closed",
+        "operator": "Jason's Deli",
+        "outdoor_seating": "yes",
+        "phone": "+1 815-397-8606",
+        "reservation": "no",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.jasonsdeli.com/locations/il/rockford/575-s-perryville-rd",
+        "wheelchair": "yes"
+      },
+      "lat": 42.2661202,
+      "lon": -88.9810021
+    },
+    {
+      "type": "node",
+      "id": 8117903918,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "1258",
+        "addr:postcode": "60607",
+        "addr:state": "IL",
+        "addr:street": "South Canal Street",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli"
+      },
+      "lat": 41.8656121,
+      "lon": -87.6401915
+    },
+    {
+      "type": "way",
+      "id": 480077689,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli"
+      },
+      "center": {
+        "lat": 40.50356775,
+        "lon": -88.95396060000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1229586156,
+      "tags": {
+        "addr:city": "Naperville",
+        "addr:housenumber": "1739",
+        "addr:postcode": "60563",
+        "addr:state": "IL",
+        "addr:street": "Freedom Drive",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "check_date": "2024-10-09",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli",
+        "website": "https://www.jasonsdeli.com/restaurants/naperville-deli"
+      },
+      "center": {
+        "lat": 41.80248165,
+        "lon": -88.12757685000003
+      }
+    }
+  ]
+}

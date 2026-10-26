@@ -1,0 +1,131 @@
+{
+  "version": 0.6,
+  "generator": "TruckStopExtractDownloader/1.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AK",
+    "source": "https://download.geofabrik.de/north-america/us/alaska-latest.osm.pbf",
+    "source_md5": "e65be57afe55186fe46f12aa2de86f0f",
+    "processed_utc": "2026-10-24T16:53:43.210753+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3562711593,
+      "tags": {
+        "amenity": "fuel",
+        "automated": "yes",
+        "brand": "Tesoro",
+        "fuel:diesel": "yes",
+        "fuel:gasoline_87": "yes",
+        "name": "Petro Express",
+        "operator": "Tesoro",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes"
+      },
+      "lat": 59.7836814,
+      "lon": -151.8332761
+    },
+    {
+      "type": "node",
+      "id": 9943572504,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Petro One"
+      },
+      "lat": 58.3575277,
+      "lon": -134.5595809
+    },
+    {
+      "type": "node",
+      "id": 12713927267,
+      "tags": {
+        "highway": "services",
+        "name": "The \"Y\""
+      },
+      "lat": 53.9162866,
+      "lon": -166.515231
+    },
+    {
+      "type": "node",
+      "id": 12713945631,
+      "tags": {
+        "highway": "services",
+        "name": "Switch Back 1"
+      },
+      "lat": 53.9136874,
+      "lon": -166.512721
+    },
+    {
+      "type": "node",
+      "id": 12713945632,
+      "tags": {
+        "highway": "services",
+        "name": "Switch Back 2"
+      },
+      "lat": 53.9116715,
+      "lon": -166.5182352
+    },
+    {
+      "type": "node",
+      "id": 12713945633,
+      "tags": {
+        "highway": "services",
+        "name": "Switch Back 3"
+      },
+      "lat": 53.9161754,
+      "lon": -166.513965
+    },
+    {
+      "type": "node",
+      "id": 12713945634,
+      "tags": {
+        "highway": "services",
+        "name": "Switch Back 4"
+      },
+      "lat": 53.9163228,
+      "lon": -166.5150333
+    },
+    {
+      "type": "way",
+      "id": 532960898,
+      "tags": {
+        "addr:city": "Stewart",
+        "addr:housenumber": "606",
+        "addr:postcode": "V0T 1W0",
+        "addr:province": "BC",
+        "addr:street": "5th Avenue",
+        "amenity": "fuel",
+        "brand": "Petro-Canada",
+        "brand:wikidata": "Q1208279",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "fuel:gasoline": "yes",
+        "fuel:octane_85": "no",
+        "fuel:octane_86": "no",
+        "fuel:octane_87": "yes",
+        "fuel:octane_88": "no",
+        "fuel:octane_89": "yes",
+        "fuel:octane_90": "no",
+        "fuel:octane_91": "yes",
+        "fuel:octane_92": "no",
+        "fuel:octane_93": "no",
+        "large_vehicles": "yes",
+        "mobile_reception": "yes",
+        "name": "Petro-Canada",
+        "phone": "+1-250-636-2402",
+        "self_service": "yes",
+        "website": "https://www.petro-canada.ca/en/personal/gas-station-locations/606--5-ave-stewart"
+      },
+      "center": {
+        "lat": 55.9357574,
+        "lon": -129.9879019
+      }
+    }
+  ]
+}

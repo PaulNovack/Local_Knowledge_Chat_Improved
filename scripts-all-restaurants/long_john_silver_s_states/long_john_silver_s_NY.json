@@ -1,0 +1,62 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "long_john_silver_s",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11516920076,
+      "tags": {
+        "addr:city": "Batavia",
+        "addr:housenumber": "4126",
+        "addr:postcode": "14020",
+        "addr:state": "NY",
+        "addr:street": "West Main Street Road",
+        "amenity": "fast_food",
+        "brand": "Long John Silver's",
+        "brand:wikidata": "Q1535221",
+        "cuisine": "seafood",
+        "drive_through": "yes",
+        "name": "Long John Silver's",
+        "takeaway": "yes"
+      },
+      "lat": 43.0056836,
+      "lon": -78.2086262
+    },
+    {
+      "type": "way",
+      "id": 557517061,
+      "tags": {
+        "addr:city": "Hicksville",
+        "addr:housenumber": "272",
+        "addr:postcode": "11801",
+        "addr:state": "NY",
+        "addr:street": "North Broadway",
+        "amenity": "fast_food",
+        "brand": "Long John Silver's",
+        "brand:wikidata": "Q1535221",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Long John Silver's",
+        "nysgissam:nysaddresspointid": "NASS411187",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.777319500000004,
+        "lon": -73.53029774999999
+      }
+    }
+  ]
+}

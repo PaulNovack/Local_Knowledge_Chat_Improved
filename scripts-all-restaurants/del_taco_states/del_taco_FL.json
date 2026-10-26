@@ -1,0 +1,65 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "del_taco",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8619236987,
+      "tags": {
+        "addr:city": "Melbourne",
+        "addr:housenumber": "2936",
+        "addr:postcode": "32935",
+        "addr:state": "FL",
+        "addr:street": "Sarno Road",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "phone": "+1 321-610-4768",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/fl/melbourne/2936-sarno-rd"
+      },
+      "lat": 28.1219822,
+      "lon": -80.671142
+    },
+    {
+      "type": "way",
+      "id": 141005306,
+      "tags": {
+        "addr:city": "Orlando",
+        "addr:housenumber": "6855",
+        "addr:postcode": "32819",
+        "addr:state": "FL",
+        "addr:street": "Grandnational Drive",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "source:addr:housenumber": "Orange County GIS data",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/fl/orlando/6855-grand-national-drive",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 28.46272185,
+        "lon": -81.45595764999996
+      }
+    }
+  ]
+}

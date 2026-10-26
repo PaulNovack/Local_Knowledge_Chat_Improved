@@ -1,0 +1,87 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "dunkin",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13006702347,
+      "tags": {
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "name": "Dunkin'",
+        "start_date": "2025-07-16",
+        "takeaway": "yes"
+      },
+      "lat": 40.5436294,
+      "lon": -111.9811474
+    },
+    {
+      "type": "way",
+      "id": 1006894800,
+      "tags": {
+        "addr:city": "Lehi",
+        "addr:housenumber": "3650",
+        "addr:postcode": "84043",
+        "addr:state": "UT",
+        "addr:street": "North Thanksgiving Way",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "yes",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "05:00-18:30",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.4332249,
+        "lon": -111.89360575
+      }
+    },
+    {
+      "type": "way",
+      "id": 1026199848,
+      "tags": {
+        "addr:city": "West Jordan",
+        "addr:housenumber": "1410",
+        "addr:postcode": "84088",
+        "addr:state": "UT",
+        "addr:street": "West 9000 South",
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "building": "restaurant",
+        "check_date": "2024-05-18",
+        "cuisine": "donut;coffee_shop",
+        "drive_through": "yes",
+        "name": "Dunkin'",
+        "opening_hours": "05:00-19:00",
+        "phone": "+1 801-569-3500",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.58825365,
+        "lon": -111.93195494999998
+      }
+    }
+  ]
+}

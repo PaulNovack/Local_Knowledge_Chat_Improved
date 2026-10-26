@@ -1,0 +1,43 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "a_and_w",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1254837891,
+      "tags": {
+        "addr:city": "Hot Springs National Park",
+        "addr:housenumber": "3801",
+        "addr:postcode": "71913",
+        "addr:state": "AR",
+        "addr:street": "Central Avenue",
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "A&W",
+        "opening_hours": "10:30-21:00",
+        "phone": "+1-501-463-6861",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 34.46334745,
+        "lon": -93.06011509999996
+      }
+    }
+  ]
+}

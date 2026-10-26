@@ -1,0 +1,82 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "LA",
+    "brand": "bj_s",
+    "source": "https://download.geofabrik.de/north-america/us/louisiana-latest.osm.pbf",
+    "source_md5": "2e108953505ee82f68e2a6e7a3e4f783",
+    "processed_utc": "2026-10-24T07:05:17.318731+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 599075924,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "yes",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 337-761-6300",
+        "website": "https://www.bjsrestaurants.com/locations/la/lafayette"
+      },
+      "center": {
+        "lat": 30.15528645,
+        "lon": -92.04626725000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 704074347,
+      "tags": {
+        "addr:city": "Slidell",
+        "addr:state": "LA",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "yes",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 985-605-0120",
+        "website": "https://www.bjsrestaurants.com/locations/la/slidell"
+      },
+      "center": {
+        "lat": 30.2703069,
+        "lon": -89.75863959999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1473519895,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 225-766-4300",
+        "website": "https://www.bjsrestaurants.com/locations/la/baton-rouge"
+      },
+      "center": {
+        "lat": 30.38695525,
+        "lon": -91.08604265000002
+      }
+    }
+  ]
+}

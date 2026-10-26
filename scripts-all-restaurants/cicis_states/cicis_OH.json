@@ -1,0 +1,71 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "cicis",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 429587566,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cici’s Pizza",
+        "brand:wikidata": "Q2972189",
+        "cuisine": "pizza;buffet",
+        "level": "0",
+        "name": "Cici’s Pizza"
+      },
+      "lat": 39.3349102,
+      "lon": -84.5233932
+    },
+    {
+      "type": "node",
+      "id": 9276242390,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cicis",
+        "brand:wikidata": "Q2972189",
+        "cuisine": "pizza;buffet",
+        "name": "Cicis"
+      },
+      "lat": 39.0954661,
+      "lon": -84.2681021
+    },
+    {
+      "type": "way",
+      "id": 548694695,
+      "tags": {
+        "addr:city": "Ontario",
+        "addr:housenumber": "2156",
+        "addr:postcode": "44903",
+        "addr:state": "OH",
+        "addr:street": "Walker Lake Road",
+        "amenity": "restaurant",
+        "brand": "Cicis",
+        "brand:wikidata": "Q2972189",
+        "cuisine": "pizza;buffet",
+        "internet_access": "wlan",
+        "name": "Cicis",
+        "opening_hours": "Tu-Th 11:00-21:00; Fr,Sa 11:00-22:00; Su 11:00-17:00",
+        "phone": "+1-419-747-2424",
+        "source": "mapillary",
+        "website": "https://www.cicis.com/locations/oh-mansfield-2156-walker-lake-rd"
+      },
+      "center": {
+        "lat": 40.787913,
+        "lon": -82.59193694999999
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AL",
+    "brand": "chuy_s",
+    "source": "https://download.geofabrik.de/north-america/us/alabama-latest.osm.pbf",
+    "source_md5": "3ee9c8ab6ddb6921e2aa2562af6c9bce",
+    "processed_utc": "2026-10-24T06:56:09.586986+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5857345548,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuy's",
+        "brand:wikidata": "Q5118415",
+        "cuisine": "tex-mex",
+        "name": "Chuy's",
+        "website": "https://www.chuys.com/locations/alabama/birmingham"
+      },
+      "lat": 33.4467321,
+      "lon": -86.732545
+    },
+    {
+      "type": "node",
+      "id": 13927672201,
+      "tags": {
+        "addr:housenumber": "935",
+        "addr:postcode": "35801",
+        "addr:street": "Bob Wallace Avenue Southwest",
+        "amenity": "restaurant",
+        "check_date": "2026-06-10",
+        "check_date:opening_hours": "2026-06-10",
+        "cuisine": "mexican",
+        "internet_access": "wlan",
+        "name": "Chuy's",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+1-256-485-4747",
+        "website": "https://chuys.com/"
+      },
+      "lat": 34.7102209,
+      "lon": -86.589495
+    }
+  ]
+}

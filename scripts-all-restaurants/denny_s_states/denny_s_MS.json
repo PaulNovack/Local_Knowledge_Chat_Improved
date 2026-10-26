@@ -1,0 +1,77 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "denny_s",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9694279336,
+      "tags": {
+        "addr:city": "Gulfport",
+        "addr:housenumber": "9351",
+        "addr:postcode": "39503",
+        "addr:state": "MS",
+        "addr:street": "Canal Road",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "check_date": "2024-09-24",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "phone": "+1 228-214-2376",
+        "source": "official website",
+        "website": "https://locations.dennys.com/MS/GULFPORT/248586"
+      },
+      "lat": 30.4214817,
+      "lon": -89.1378856
+    },
+    {
+      "type": "way",
+      "id": 139462650,
+      "tags": {
+        "addr:housenumber": "7541",
+        "addr:street": "Washington Avenue",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Denny's",
+        "source": "MGC"
+      },
+      "center": {
+        "lat": 30.45127385,
+        "lon": -88.84278689999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1409802152,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "center": {
+        "lat": 32.399915699999994,
+        "lon": -90.14022705000002
+      }
+    }
+  ]
+}

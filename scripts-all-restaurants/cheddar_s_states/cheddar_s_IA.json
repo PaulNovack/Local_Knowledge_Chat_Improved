@@ -1,0 +1,55 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IA",
+    "brand": "cheddar_s",
+    "source": "https://download.geofabrik.de/north-america/us/iowa-latest.osm.pbf",
+    "source_md5": "67edcd557c575ead09c9f80bc8694526",
+    "processed_utc": "2026-10-24T07:04:05.270534+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9368748679,
+      "tags": {
+        "addr:housenumber": "161",
+        "addr:street": "Collins Road Northeast",
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr,Sa 11:00-23:00",
+        "phone": "+1-319-393-4557",
+        "website": "https://www.cheddars.com/locations/ia/cedar-rapids/cedar-rapids/2091"
+      },
+      "lat": 42.0267438,
+      "lon": -91.6259258
+    },
+    {
+      "type": "way",
+      "id": 836959127,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen"
+      },
+      "center": {
+        "lat": 41.69497795,
+        "lon": -91.61619065000002
+      }
+    }
+  ]
+}

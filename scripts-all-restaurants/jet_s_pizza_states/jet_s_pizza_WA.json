@@ -1,0 +1,85 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "jet_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13485183047,
+      "tags": {
+        "addr:housenumber": "12918",
+        "addr:street": "Mukilteo Speedway",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "check_date": "2026-01-25",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr-Sa 10:00-23:00; Su 11:00-22:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 425-552-5387",
+        "pizza:style": "detroit",
+        "website": "https://jetspizza.com/stores/washington/lynnwood/12918-mukilteo-speedway-suite-c22",
+        "wheelchair": "yes"
+      },
+      "lat": 47.8805879,
+      "lon": -122.2804137
+    },
+    {
+      "type": "node",
+      "id": 14001881402,
+      "tags": {
+        "addr:city": "Bothell",
+        "addr:housenumber": "18001",
+        "addr:postcode": "98012",
+        "addr:state": "WA",
+        "addr:street": "Bothell-Everett Highway",
+        "addr:unit": "Suite A104",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza",
+        "pizza:style": "detroit",
+        "website": "https://jetspizza.com/stores/washington/bothel/18001-bothell-everett-hwy-suite-a104"
+      },
+      "lat": 47.8344013,
+      "lon": -122.2091908
+    },
+    {
+      "type": "node",
+      "id": 14001881403,
+      "tags": {
+        "addr:city": "Tacoma",
+        "addr:housenumber": "4125 B",
+        "addr:postcode": "98422",
+        "addr:state": "WA",
+        "addr:street": "49th Avenue Northeast",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza",
+        "phone": "+1-253-660-5387",
+        "pizza:style": "detroit",
+        "website": "https://jetspizza.com/stores/washington/tacoma/4125-b-49th-ave-ne"
+      },
+      "lat": 47.2941893,
+      "lon": -122.3807609
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CA",
+    "brand": "famous_dave_s",
+    "source": "https://download.geofabrik.de/north-america/us/california-latest.osm.pbf",
+    "source_md5": "26040c163edb7a5f630164ee55d5afda",
+    "processed_utc": "2026-10-24T06:59:04.829226+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3490060467,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's",
+        "website": "https://www.famousdaves.com/"
+      },
+      "lat": 34.0705762,
+      "lon": -117.204491
+    },
+    {
+      "type": "node",
+      "id": 4308051309,
+      "tags": {
+        "addr:city": "Hayward",
+        "addr:housenumber": "790",
+        "addr:postcode": "94595",
+        "addr:state": "CA",
+        "addr:street": "West Winton Avenue",
+        "amenity": "restaurant",
+        "branch": "Southland Mall",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's",
+        "opening_hours": "Mo-We 11:00-20:00; Th-Su 11:00-21:00",
+        "operator": "FDOpCo",
+        "phone": "+1 510-782-2030",
+        "ref": "3205",
+        "website": "https://www.famousdaves.com/Locations/Hayward-CA"
+      },
+      "lat": 37.653908,
+      "lon": -122.1066274
+    },
+    {
+      "type": "node",
+      "id": 10278997487,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Famous Dave’s"
+      },
+      "lat": 33.7623453,
+      "lon": -118.1926639
+    },
+    {
+      "type": "way",
+      "id": 28206298,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's"
+      },
+      "center": {
+        "lat": 37.0030441,
+        "lon": -121.55381879999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 46141620,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's",
+        "source": "survey;image;usgs_imagery",
+        "source_ref": "AM909_DSCQ4357"
+      },
+      "center": {
+        "lat": 34.0776587,
+        "lon": -117.55456705
+      }
+    },
+    {
+      "type": "way",
+      "id": 195432233,
+      "tags": {
+        "addr:city": "San Jose",
+        "addr:housenumber": "61",
+        "addr:postcode": "95125",
+        "addr:state": "CA",
+        "addr:street": "Curtner Avenue",
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's",
+        "official_name": "Famous Dave's Bar-B-Que"
+      },
+      "center": {
+        "lat": 37.30228940000001,
+        "lon": -121.86382979999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 428427969,
+      "tags": {
+        "addr:city": "Fresno",
+        "addr:housenumber": "7603",
+        "addr:postcode": "93720",
+        "addr:state": "CA",
+        "addr:street": "North Blackstone Avenue",
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's",
+        "opening_hours": "Su-We 11:00-21:00; Th-Sa 11:00-22:00",
+        "phone": "+1-559-261-4227",
+        "website": "https://www.famousdaves.com/Fresno",
+        "website:menu": "https://www.famousdaves.com/Menu"
+      },
+      "center": {
+        "lat": 36.8465114,
+        "lon": -119.7911532
+      }
+    },
+    {
+      "type": "way",
+      "id": 537559120,
+      "tags": {
+        "addr:city": "Irvine",
+        "addr:housenumber": "13122",
+        "addr:postcode": "92602",
+        "addr:state": "CA",
+        "addr:street": "Jamboree Road",
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's"
+      },
+      "center": {
+        "lat": 33.72965015,
+        "lon": -117.78664855
+      }
+    },
+    {
+      "type": "way",
+      "id": 601785068,
+      "tags": {
+        "addr:city": "El Centro",
+        "addr:postcode": "92243",
+        "addr:state": "CA",
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's"
+      },
+      "center": {
+        "lat": 32.7654381,
+        "lon": -115.53443905
+      }
+    }
+  ]
+}

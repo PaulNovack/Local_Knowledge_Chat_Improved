@@ -1,0 +1,80 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NM",
+    "brand": "bj_s",
+    "source": "https://download.geofabrik.de/north-america/us/new-mexico-latest.osm.pbf",
+    "source_md5": "5e236c0e9dd59b2df560a9316c86a745",
+    "processed_utc": "2026-10-24T07:10:42.593170+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 515976566,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "2100",
+        "addr:postcode": "87110",
+        "addr:state": "NM",
+        "addr:street": "Louisiana Boulevard Northeast",
+        "addr:unit": "213",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "yes",
+        "check_date": "2024-12-11",
+        "check_date:diet:vegetarian": "2024-12-11",
+        "check_date:opening_hours": "2024-09-22",
+        "cuisine": "american",
+        "diet:vegetarian": "yes",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "opening_hours": "Mo-Su 11:00-23:30",
+        "outdoor_seating": "yes",
+        "phone": "+1-505-872-8600",
+        "takeaway": "yes",
+        "website": "https://www.bjsrestaurants.com/locations/nm/albuquerque"
+      },
+      "center": {
+        "lat": 35.099486299999995,
+        "lon": -106.56737120000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 520158989,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "10000",
+        "addr:postcode": "87114",
+        "addr:state": "NM",
+        "addr:street": "Coors Boulevard Northwest",
+        "addr:unit": "Ll10",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "yes",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "delivery": "yes",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "opening_hours": "Su-Th 11:00-24:00, Fr-Sa 11:00-01:00",
+        "phone": "+1-505-545-6040",
+        "takeaway": "yes",
+        "website": "https://www.bjsrestaurants.com/locations/nm/cottonwood-mall"
+      },
+      "center": {
+        "lat": 35.19466525,
+        "lon": -106.65572050000003
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ME",
+    "brand": "buffalo_wild_wings",
+    "source": "https://download.geofabrik.de/north-america/us/maine-latest.osm.pbf",
+    "source_md5": "561ab4eba7b10f360a72f8484b6f08c3",
+    "processed_utc": "2026-10-24T07:05:33.375896+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6193966614,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "outdoor_seating": "no",
+        "short_name": "BW3"
+      },
+      "lat": 43.6350859,
+      "lon": -70.3179197
+    },
+    {
+      "type": "way",
+      "id": 375848858,
+      "tags": {
+        "addr:city": "Bangor",
+        "addr:housenumber": "461",
+        "addr:postcode": "04401",
+        "addr:state": "ME",
+        "addr:street": "Stillwater Avenue",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building": "commercial",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3"
+      },
+      "center": {
+        "lat": 44.825702899999996,
+        "lon": -68.75637174999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 376914952,
+      "tags": {
+        "addr:city": "Augusta",
+        "addr:housenumber": "34",
+        "addr:postcode": "04330",
+        "addr:state": "ME",
+        "addr:street": "Western Avenue",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building": "yes",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 44.3108028,
+        "lon": -69.78280955000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 695717251,
+      "tags": {
+        "addr:city": "Auburn",
+        "addr:housenumber": "648",
+        "addr:postcode": "04210",
+        "addr:state": "ME",
+        "addr:street": "Turner Street",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building": "commercial",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3"
+      },
+      "center": {
+        "lat": 44.11855305,
+        "lon": -70.23290995000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1333774714,
+      "tags": {
+        "addr:city": "Topsham",
+        "addr:housenumber": "105",
+        "addr:postcode": "04086",
+        "addr:state": "ME",
+        "addr:street": "Topsham Fair Mall Road",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3"
+      },
+      "center": {
+        "lat": 43.9355379,
+        "lon": -69.9849241
+      }
+    }
+  ]
+}

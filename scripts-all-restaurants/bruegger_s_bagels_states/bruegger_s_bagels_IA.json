@@ -1,0 +1,181 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IA",
+    "brand": "bruegger_s_bagels",
+    "source": "https://download.geofabrik.de/north-america/us/iowa-latest.osm.pbf",
+    "source_md5": "67edcd557c575ead09c9f80bc8694526",
+    "processed_utc": "2026-10-24T07:04:05.270534+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 878258075,
+      "tags": {
+        "addr:city": "Cedar Rapids",
+        "addr:housenumber": "4870",
+        "addr:postcode": "52402",
+        "addr:state": "IA",
+        "addr:street": "1st Avenue East",
+        "amenity": "fast_food",
+        "brand": "Bruegger's Bagels",
+        "brand:wikidata": "Q4978656",
+        "cuisine": "bagel",
+        "drive_through": "no",
+        "linncounty:objectid": "6772",
+        "name": "Bruegger's Bagels",
+        "opening_hours": "Mo-Su 06:00-14:00",
+        "phone": "+1-319-447-1029",
+        "short_name": "Bruegger's",
+        "takeaway": "yes",
+        "website": "https://locations.brueggers.com/us/ia/cedar-rapids/4870-1st-avenue-ne"
+      },
+      "lat": 42.027291,
+      "lon": -91.619611
+    },
+    {
+      "type": "node",
+      "id": 11736212555,
+      "tags": {
+        "addr:city": "Coralville",
+        "addr:housenumber": "404",
+        "addr:postcode": "52241",
+        "addr:state": "IA",
+        "addr:street": "1st Avenue",
+        "amenity": "fast_food",
+        "brand": "Bruegger's Bagels",
+        "brand:wikidata": "Q4978656",
+        "cuisine": "bagel",
+        "name": "Bruegger's Bagels",
+        "short_name": "Bruegger's",
+        "takeaway": "yes"
+      },
+      "lat": 41.6727215,
+      "lon": -91.5658172
+    },
+    {
+      "type": "relation",
+      "id": 19669596,
+      "tags": {
+        "addr:city": "Iowa City",
+        "addr:housenumber": "708",
+        "addr:postcode": "52246",
+        "addr:state": "IA",
+        "addr:street": "South Riverside Drive",
+        "amenity": "fast_food",
+        "brand": "Bruegger's Bagels; Jamba Juice",
+        "brand:wikidata": "Q4978656",
+        "building": "yes",
+        "cuisine": "bagel;juice",
+        "name": "Bruegger's Bagels and Jamba Juice",
+        "opening_hours": "06:00-19:00",
+        "phone": "+1 319-333-0019",
+        "short_name": "Bruegger's and Jamba",
+        "takeaway": "yes",
+        "type": "multipolygon",
+        "website": "https://locations.jamba.com/ia/iowa-city/708-s-riverside-dr",
+        "website_2": "https://locations.brueggers.com/us/ia/iowa-city/708-s-riverside-drive"
+      },
+      "center": {
+        "lat": 41.65078065,
+        "lon": -91.53990944999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 105563660,
+      "tags": {
+        "addr:housenumber": "1650",
+        "addr:postcode": "50325",
+        "addr:street": "Northwest 86th Street",
+        "amenity": "fast_food",
+        "branch": "Bagel Bakery",
+        "brand": "Bruegger's Bagels",
+        "brand:wikidata": "Q4978656",
+        "building": "yes",
+        "cuisine": "bagel",
+        "name": "Bruegger's Bagels",
+        "short_name": "Bruegger's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.606302549999995,
+        "lon": -93.73672629999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 298243473,
+      "tags": {
+        "addr:city": "Des Moines",
+        "addr:housenumber": "3730",
+        "addr:postcode": "50312",
+        "addr:street": "Ingersoll Avenue",
+        "amenity": "fast_food",
+        "brand": "Bruegger's Bagels",
+        "brand:wikidata": "Q4978656",
+        "building": "yes",
+        "cuisine": "bagel",
+        "name": "Bruegger's Bagels",
+        "opening_hours": "Mo-Fr 05:30-19:00; Sa-Su 06:00-18:00",
+        "phone": "+1 515 277 4030",
+        "short_name": "Bruegger's",
+        "takeaway": "yes",
+        "website": "https://www.brueggers.com/locations/ia/des-moines/ingersoll-ave/"
+      },
+      "center": {
+        "lat": 41.5861091,
+        "lon": -93.66806969999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 342662116,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Bruegger's Bagels",
+        "brand:wikidata": "Q4978656",
+        "building": "yes",
+        "cuisine": "bagel",
+        "name": "Bruegger's Bagels",
+        "short_name": "Bruegger's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.53817905,
+        "lon": -90.52184639999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 704058444,
+      "tags": {
+        "addr:city": "Cedar Rapids",
+        "addr:housenumber": "3310",
+        "addr:postcode": "52403",
+        "addr:state": "IA",
+        "addr:street": "Mount Vernon Road Southeast",
+        "amenity": "fast_food",
+        "brand": "Bruegger's Bagels",
+        "brand:wikidata": "Q4978656",
+        "building": "yes",
+        "cuisine": "bagel",
+        "linncounty:objectid": "6527",
+        "name": "Bruegger's Bagels",
+        "short_name": "Bruegger's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.9770946,
+        "lon": -91.62022999999999
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "dave_buster_s",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9173650235,
+      "tags": {
+        "addr:postcode": "28027",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "check_date": "2026-04-25",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "opening_hours": "Su-Th 11:00-24:00, Fr,Sa 11:00-01:00"
+      },
+      "lat": 35.370951,
+      "lon": -80.7244232
+    },
+    {
+      "type": "way",
+      "id": 32066715,
+      "tags": {
+        "addr:city": "Cary",
+        "addr:housenumber": "1111",
+        "addr:postcode": "27511-4734",
+        "addr:state": "NC",
+        "addr:street": "Walnut Street",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's",
+        "opening_hours": "Su-Th 10:00-21:00, Fr-Sa 10:00-22:00",
+        "roof:levels": "0"
+      },
+      "center": {
+        "lat": 35.771445650000004,
+        "lon": -78.76162995000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 537758566,
+      "tags": {
+        "addr:city": "Pineville",
+        "addr:housenumber": "11049",
+        "addr:postcode": "28134",
+        "addr:state": "NC",
+        "addr:street": "Carolina Place Parkway",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "yes",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's"
+      },
+      "center": {
+        "lat": 35.08061415,
+        "lon": -80.87758480000002
+      }
+    }
+  ]
+}

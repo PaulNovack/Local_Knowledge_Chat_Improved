@@ -1,0 +1,72 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VT",
+    "brand": "little_caesars",
+    "source": "https://download.geofabrik.de/north-america/us/vermont-latest.osm.pbf",
+    "source_md5": "20a19d56b1e59d82493b3194b9e30440",
+    "processed_utc": "2026-10-24T07:18:02.754583+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2202917426,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "takeaway": "yes",
+        "website": "https://littlecaesars.com/en-us/store/5156/"
+      },
+      "lat": 44.5118907,
+      "lon": -73.0648903
+    },
+    {
+      "type": "node",
+      "id": 11229888367,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "takeaway": "yes",
+        "website": "https://littlecaesars.com/en-us/store/2684/"
+      },
+      "lat": 43.6218061,
+      "lon": -72.9539713
+    },
+    {
+      "type": "way",
+      "id": 338068095,
+      "tags": {
+        "addr:city": "South Burlington",
+        "addr:housenumber": "1241",
+        "addr:postcode": "05403",
+        "addr:state": "VT",
+        "addr:street": "Williston Road",
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "building": "yes;commercial",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "ref:vcgi:esiteid": "227839",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 44.46734855,
+        "lon": -73.17490225
+      }
+    }
+  ]
+}

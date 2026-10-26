@@ -1,0 +1,135 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "the_cheesecake_factory",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1880197295,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "875",
+        "addr:postcode": "60611",
+        "addr:state": "IL",
+        "addr:street": "North Michigan Avenue",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "cuisine": "american",
+        "diet:vegetarian": "yes",
+        "level": "-1",
+        "name": "The Cheesecake Factory"
+      },
+      "lat": 41.8986955,
+      "lon": -87.6236895
+    },
+    {
+      "type": "node",
+      "id": 5816081704,
+      "tags": {
+        "addr:city": "Schaumburg",
+        "addr:housenumber": "53",
+        "addr:postcode": "60173",
+        "addr:state": "IL",
+        "addr:street": "Woodfield Mall",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory",
+        "phone": "+1-847-619-1090",
+        "smoking": "no",
+        "wheelchair": "yes"
+      },
+      "lat": 42.0478134,
+      "lon": -88.0377634
+    },
+    {
+      "type": "node",
+      "id": 7133853709,
+      "tags": {
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory"
+      },
+      "lat": 42.0616016,
+      "lon": -87.7493176
+    },
+    {
+      "type": "way",
+      "id": 60007769,
+      "tags": {
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory"
+      },
+      "center": {
+        "lat": 41.84981645,
+        "lon": -87.94949785
+      }
+    },
+    {
+      "type": "way",
+      "id": 211548352,
+      "tags": {
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "building": "yes",
+        "building:levels": "3",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory"
+      },
+      "center": {
+        "lat": 42.18272685,
+        "lon": -87.9286343
+      }
+    },
+    {
+      "type": "way",
+      "id": 1382904629,
+      "tags": {
+        "addr:city": "Naperville",
+        "addr:country": "US",
+        "addr:county": "DuPage, IL",
+        "addr:housenumber": "428",
+        "addr:state": "IL",
+        "addr:street": "South Illinois Route 59",
+        "alt_name": "Cheesecake Factory",
+        "amenity": "restaurant",
+        "brand": "The Cheesecake Factory",
+        "brand:wikidata": "Q1045842",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "The Cheesecake Factory",
+        "website": "https://www.thecheesecakefactory.com/locations/naperville-il/menu"
+      },
+      "center": {
+        "lat": 41.76443935,
+        "lon": -88.20358575
+      }
+    }
+  ]
+}

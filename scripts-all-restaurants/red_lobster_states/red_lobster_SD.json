@@ -1,0 +1,54 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SD",
+    "brand": "red_lobster",
+    "source": "https://download.geofabrik.de/north-america/us/south-dakota-latest.osm.pbf",
+    "source_md5": "4d012b130d8682e6f0e1bc093c255981",
+    "processed_utc": "2026-10-24T07:16:00.169778+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2441039958,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "cuisine": "seafood",
+        "name": "Red Lobster"
+      },
+      "lat": 43.5138954,
+      "lon": -96.773774
+    },
+    {
+      "type": "way",
+      "id": 254754619,
+      "tags": {
+        "addr:city": "Rapid City",
+        "addr:housenumber": "120",
+        "addr:postcode": "57701",
+        "addr:state": "SD",
+        "addr:street": "Disk Drive",
+        "amenity": "restaurant",
+        "brand": "Red Lobster",
+        "brand:wikidata": "Q846301",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Red Lobster",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 44.1052776,
+        "lon": -103.21287265000001
+      }
+    }
+  ]
+}

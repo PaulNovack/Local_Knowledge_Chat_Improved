@@ -1,0 +1,80 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "baskin_robbins",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3987328335,
+      "tags": {
+        "addr:city": "Southport",
+        "addr:housenumber": "3355",
+        "addr:postcode": "06890",
+        "addr:state": "CT",
+        "addr:street": "Post Road",
+        "amenity": "ice_cream",
+        "brand": "Baskin-Robbins",
+        "brand:wikidata": "Q584601",
+        "cuisine": "ice_cream",
+        "name": "Baskin-Robbins",
+        "opening_hours": "05:00-22:00",
+        "phone": "+1 203-319-0736",
+        "website": "https://locations.baskinrobbins.com/ct/southport/3355-post-rd-341698-br"
+      },
+      "lat": 41.1381321,
+      "lon": -73.2909213
+    },
+    {
+      "type": "node",
+      "id": 4281070402,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Baskin-Robbins",
+        "brand:wikidata": "Q584601",
+        "cuisine": "ice_cream",
+        "name": "Baskin-Robbins"
+      },
+      "lat": 41.350001,
+      "lon": -72.5605282
+    },
+    {
+      "type": "node",
+      "id": 7805030321,
+      "tags": {
+        "addr:city": "Glastonbury",
+        "addr:housenumber": "141",
+        "addr:postcode": "06033",
+        "addr:state": "CT",
+        "addr:street": "Hebron Avenue",
+        "amenity": "ice_cream",
+        "brand": "Baskin-Robbins",
+        "brand:wikidata": "Q584601",
+        "contact:facebook": "https://www.facebook.com/BaskinRobbinsGlastonburyCT310353",
+        "cuisine": "ice_cream",
+        "drive_through": "no",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Baskin-Robbins",
+        "opening_hours": "Mo-Fr 05:00-21:00; Sa-Su 06:00-21:00",
+        "outdoor_seating": "no",
+        "phone": "+1 860-659-1324",
+        "takeaway": "yes",
+        "website": "https://locations.baskinrobbins.com/ct/glastonbury/141-hebron-ave"
+      },
+      "lat": 41.7133103,
+      "lon": -72.6056792
+    }
+  ]
+}

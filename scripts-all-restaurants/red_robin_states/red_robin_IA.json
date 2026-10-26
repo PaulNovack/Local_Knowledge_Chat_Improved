@@ -1,0 +1,119 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IA",
+    "brand": "red_robin",
+    "source": "https://download.geofabrik.de/north-america/us/iowa-latest.osm.pbf",
+    "source_md5": "67edcd557c575ead09c9f80bc8694526",
+    "processed_utc": "2026-10-24T07:04:05.270534+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2347569384,
+      "tags": {
+        "addr:city": "Sioux City",
+        "addr:housenumber": "4900",
+        "addr:postcode": "51106",
+        "addr:street": "Sergeant Road",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews",
+        "phone": "+1-712-266-8505"
+      },
+      "lat": 42.4449316,
+      "lon": -96.3435215
+    },
+    {
+      "type": "way",
+      "id": 109042589,
+      "tags": {
+        "addr:city": "West Des Moines",
+        "addr:housenumber": "6255",
+        "addr:postcode": "50266",
+        "addr:street": "Mills Civic Parkway",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews"
+      },
+      "center": {
+        "lat": 41.5605634,
+        "lon": -93.79402789999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 342670849,
+      "tags": {
+        "addr:city": "Davenport",
+        "addr:housenumber": "3903",
+        "addr:postcode": "52807",
+        "addr:state": "IA",
+        "addr:street": "East 53rd Street",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "delivery": "no",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews",
+        "smoking": "outside",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.574476950000005,
+        "lon": -90.51771974999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 434269581,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews"
+      },
+      "center": {
+        "lat": 42.52171765,
+        "lon": -90.73830989999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 579661487,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "linncounty:objectid": "6776",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews"
+      },
+      "center": {
+        "lat": 42.023734149999996,
+        "lon": -91.62354495
+      }
+    }
+  ]
+}

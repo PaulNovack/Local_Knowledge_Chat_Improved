@@ -1,0 +1,79 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "chopt",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2240666909,
+      "tags": {
+        "addr:floor": "G;1",
+        "addr:housenumber": "4250",
+        "addr:postcode": "30062",
+        "addr:state": "GA",
+        "addr:street": "Roswell Road",
+        "addr:unit": "630",
+        "amenity": "restaurant",
+        "brand": "Chopt",
+        "check_date": "2025-01-07",
+        "cuisine": "salad",
+        "level": "0;1",
+        "name": "Chopt Creative Salad Co.",
+        "opening_hours": "Mo-Sa 10:30-20:00; Su 11:00-20:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 678-813-1281",
+        "website": "https://www.choptsalad.com/location/east-cobb",
+        "wheelchair": "yes"
+      },
+      "lat": 33.9825868,
+      "lon": -84.4261616
+    },
+    {
+      "type": "node",
+      "id": 7993586925,
+      "tags": {
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1544",
+        "addr:postcode": "30324",
+        "addr:state": "GA",
+        "addr:street": "Piedmont Avenue Northeast",
+        "amenity": "fast_food",
+        "brand": "Chopt",
+        "brand:wikidata": "Q17509305",
+        "cuisine": "salad",
+        "name": "Chopt",
+        "takeaway": "yes"
+      },
+      "lat": 33.7983919,
+      "lon": -84.3710148
+    },
+    {
+      "type": "node",
+      "id": 10961921260,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Chopt",
+        "brand:wikidata": "Q17509305",
+        "cuisine": "salad",
+        "name": "Chopt",
+        "takeaway": "yes"
+      },
+      "lat": 33.932548,
+      "lon": -84.3379161
+    }
+  ]
+}

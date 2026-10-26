@@ -1,0 +1,98 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "blaze_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1033057312,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "check_date": "2022-08-22",
+        "cuisine": "pizza",
+        "delivery": "no",
+        "name": "Blaze Pizza",
+        "outdoor_seating": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-678-882-7610",
+        "takeaway": "yes"
+      },
+      "lat": 33.7899549,
+      "lon": -84.3058637
+    },
+    {
+      "type": "node",
+      "id": 3289281720,
+      "tags": {
+        "addr:floor": "G;1",
+        "addr:housenumber": "2955",
+        "addr:street": "Cobb Parkway South",
+        "addr:suite": "290",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "check_date": "2026-01-18",
+        "cuisine": "pizza",
+        "level": "0;1",
+        "name": "Blaze Pizza",
+        "opening_hours": "Mo-We,Su 11:00-22:00; Th-Sa 11:00-23:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-770-288-5580",
+        "website": "https://www.blazepizza.com/locations",
+        "wheelchair": "yes"
+      },
+      "lat": 33.8827972,
+      "lon": -84.461966
+    },
+    {
+      "type": "node",
+      "id": 11863246617,
+      "tags": {
+        "addr:housenumber": "905",
+        "addr:street": "Golden Isles Parkway",
+        "amenity": "restaurant",
+        "name": "Blaze Pizza"
+      },
+      "lat": 31.2018766,
+      "lon": -81.4821702
+    },
+    {
+      "type": "way",
+      "id": 1342056878,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "building": "retail",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "delivery:partner": "Uber Eats",
+        "delivery:partner:wikidata": "Q21462723",
+        "name": "Blaze Pizza",
+        "opening_hours": "closed",
+        "wikimedia_commons": "https://commons.wikimedia.org/wiki/File:Blaze_Pizza,_Valdosta.jpg"
+      },
+      "center": {
+        "lat": 30.8838822,
+        "lon": -83.29103950000001
+      }
+    }
+  ]
+}

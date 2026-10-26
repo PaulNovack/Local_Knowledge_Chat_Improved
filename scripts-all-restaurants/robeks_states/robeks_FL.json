@@ -1,0 +1,52 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "robeks",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3200031762,
+      "tags": {
+        "alt_name": "Robeks Juice",
+        "amenity": "fast_food",
+        "branch": "Fresh Juices and Smoothies",
+        "brand": "Robeks",
+        "brand:wikidata": "Q17029777",
+        "cuisine": "juice",
+        "name": "Robeks",
+        "source": "survey",
+        "takeaway": "yes"
+      },
+      "lat": 30.4615814,
+      "lon": -84.2265084
+    },
+    {
+      "type": "node",
+      "id": 13123571049,
+      "tags": {
+        "alt_name": "Robeks Juice",
+        "amenity": "fast_food",
+        "brand": "Robeks",
+        "brand:wikidata": "Q17029777",
+        "check_date": "2025-09-06",
+        "cuisine": "juice",
+        "name": "Robeks",
+        "takeaway": "yes"
+      },
+      "lat": 25.6560611,
+      "lon": -80.3962814
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NM",
+    "brand": "ruby_tuesday",
+    "source": "https://download.geofabrik.de/north-america/us/new-mexico-latest.osm.pbf",
+    "source_md5": "5e236c0e9dd59b2df560a9316c86a745",
+    "processed_utc": "2026-10-24T07:10:42.593170+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 51327753,
+      "tags": {
+        "addr:housenumber": "2611",
+        "addr:postcode": "88011",
+        "addr:state": "NM",
+        "addr:street": "North Telshor Boulevard",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday",
+        "phone": "+1-575-521-4100",
+        "website": "https://www.rubytuesday.com/"
+      },
+      "center": {
+        "lat": 32.3453162,
+        "lon": -106.76708259999998
+      }
+    }
+  ]
+}

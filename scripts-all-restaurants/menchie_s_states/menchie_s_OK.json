@@ -1,0 +1,53 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "menchie_s",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5627814254,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Menchie's",
+        "brand:wikidata": "Q6816528",
+        "cuisine": "frozen_yogurt",
+        "delivery": "no",
+        "drive_through": "no",
+        "name": "Menchie's",
+        "outdoor_seating": "yes"
+      },
+      "lat": 35.6543529,
+      "lon": -97.5143769
+    },
+    {
+      "type": "node",
+      "id": 13151251101,
+      "tags": {
+        "addr:housenumber": "1432",
+        "addr:postcode": "73069",
+        "addr:street": "24th Avenue Northwest",
+        "amenity": "ice_cream",
+        "brand": "Menchie's",
+        "brand:wikidata": "Q6816528",
+        "cuisine": "frozen_yogurt",
+        "name": "Menchie's",
+        "opening_hours": "Mo-Su 12:00-23:00",
+        "website": "https://menchies.com/"
+      },
+      "lat": 35.2364775,
+      "lon": -97.4831201
+    }
+  ]
+}

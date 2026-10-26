@@ -1,0 +1,144 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "twin_peaks",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5317241004,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "7575",
+        "addr:postcode": "85743",
+        "addr:state": "AZ",
+        "addr:street": "West Twin Peaks Road",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Twin Peaks Pizzeria",
+        "opening_hours": "Su-Th 11:00-21:00, Fr-Sa 11:00-22:00",
+        "takeaway": "yes"
+      },
+      "lat": 32.3743626,
+      "lon": -111.12631
+    },
+    {
+      "type": "node",
+      "id": 10299246365,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "2135",
+        "addr:postcode": "85016",
+        "addr:state": "AZ",
+        "addr:street": "East Camelback Road",
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "cuisine": "american",
+        "delivery": "yes",
+        "name": "Twin Peaks",
+        "opening_hours": "Mo-Th 11:00-24:00,Fr 11:00-01:00,Sa 11:00-01:00,Su 11:00-24:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-602-954-8946",
+        "takeaway": "yes",
+        "website": "https://twinpeaksrestaurant.com/locations/camelback-az"
+      },
+      "lat": 33.5081055,
+      "lon": -112.0357924
+    },
+    {
+      "type": "way",
+      "id": 231265187,
+      "tags": {
+        "addr:city": "Scottsdale",
+        "addr:country": "US",
+        "addr:housenumber": "8787",
+        "addr:postcode": "85260",
+        "addr:state": "AZ",
+        "addr:street": "East Frank Lloyd Wright Boulevard",
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "building": "yes",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "name": "Twin Peaks",
+        "phone": "+1-480-483-0921",
+        "source": "esri/USA_NAD_Addresses",
+        "website": "www.twinpeaksrestaurant.com"
+      },
+      "center": {
+        "lat": 33.629377399999996,
+        "lon": -111.89146265
+      }
+    },
+    {
+      "type": "way",
+      "id": 558668813,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:country": "US",
+        "addr:housenumber": "3063",
+        "addr:postcode": "85027",
+        "addr:state": "AZ",
+        "addr:street": "West Agua Fria Freeway",
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "building": "retail",
+        "cuisine": "american",
+        "happy_hours": "Mo-Th 15:00-18:00,22:00-24:00; Fr 15:00-18:00,22:00-01:00",
+        "name": "Twin Peaks",
+        "opening_hours": "Mo-Th 11:00-24:00, Fr 11:00-01:00, Sa 10:00-01:00, Su 10:30-24:00",
+        "opening_hours:url": "https://twinpeaksrestaurant.com/locations/deer-valley",
+        "operator": "Landry's",
+        "operator:wikidata": "Q3217105",
+        "operator:wikipedia": "en:Landry's, Inc.",
+        "phone": "+1-623-248-7771",
+        "website": "https://twinpeaksrestaurant.com/locations/deer-valley"
+      },
+      "center": {
+        "lat": 33.667833900000005,
+        "lon": -112.12550095
+      }
+    },
+    {
+      "type": "way",
+      "id": 558700905,
+      "tags": {
+        "addr:city": "Glendale",
+        "addr:housenumber": "6922",
+        "addr:postcode": "85305",
+        "addr:state": "AZ",
+        "addr:street": "North 95th Avenue",
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "american",
+        "name": "Twin Peaks",
+        "opening_hours": "Su-Th 11:00-24:00; Fr-Sa 11:00-01:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-623-233-5700",
+        "source": "esri_USDOT_Arizona"
+      },
+      "center": {
+        "lat": 33.53595145,
+        "lon": -112.26487144999999
+      }
+    }
+  ]
+}

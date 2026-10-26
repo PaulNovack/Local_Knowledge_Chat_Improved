@@ -1,0 +1,66 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AK",
+    "brand": "raising_cane_s",
+    "source": "https://download.geofabrik.de/north-america/us/alaska-latest.osm.pbf",
+    "source_md5": "55281fca0391ab2c26b0d99fd6a6f5f8",
+    "processed_utc": "2026-10-24T06:56:26.590469+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 14277692202,
+      "tags": {
+        "amenity": "fast_food",
+        "check_date": "2026-10-12",
+        "name": "Raising Cane’s"
+      },
+      "lat": 61.1450134,
+      "lon": -149.8663231
+    },
+    {
+      "type": "way",
+      "id": 933043576,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 61.5787663,
+        "lon": -149.41458914999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 961719420,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 61.2299699,
+        "lon": -149.74101970000004
+      }
+    }
+  ]
+}

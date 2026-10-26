@@ -1,0 +1,84 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "the_old_spaghetti_factory",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5653310683,
+      "tags": {
+        "addr:city": "Tacoma",
+        "addr:housenumber": "1250",
+        "addr:postcode": "98402",
+        "addr:state": "WA",
+        "addr:street": "Pacific Avenue",
+        "amenity": "restaurant",
+        "branch": "Bar & Lounge",
+        "brand": "The Old Spaghetti Factory",
+        "brand:wikidata": "Q7754912",
+        "cuisine": "italian",
+        "name": "The Old Spaghetti Factory",
+        "phone": "+1-253-383-2214",
+        "website": "https://www.osf.com/location/tacoma-wa/"
+      },
+      "lat": 47.2517738,
+      "lon": -122.438469
+    },
+    {
+      "type": "way",
+      "id": 414058483,
+      "tags": {
+        "addr:city": "Spokane",
+        "addr:housenumber": "152",
+        "addr:state": "WA",
+        "addr:street": "South Monroe Street",
+        "amenity": "restaurant",
+        "brand": "The Old Spaghetti Factory",
+        "brand:wikidata": "Q7754912",
+        "building": "commercial",
+        "cuisine": "italian",
+        "name": "The Old Spaghetti Factory",
+        "phone": "+1-509-222-5375",
+        "takeaway:covid19": "yes"
+      },
+      "center": {
+        "lat": 47.655236599999995,
+        "lon": -117.42679170000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 425815930,
+      "tags": {
+        "addr:city": "Lynnwood",
+        "addr:housenumber": "2509",
+        "addr:postcode": "98036",
+        "addr:state": "WA",
+        "addr:street": "196th Street Southwest",
+        "amenity": "restaurant",
+        "brand": "The Old Spaghetti Factory",
+        "brand:wikidata": "Q7754912",
+        "building": "yes",
+        "check_date": "2026-03-13",
+        "cuisine": "italian",
+        "name": "The Old Spaghetti Factory"
+      },
+      "center": {
+        "lat": 47.82119075,
+        "lon": -122.26737209999999
+      }
+    }
+  ]
+}

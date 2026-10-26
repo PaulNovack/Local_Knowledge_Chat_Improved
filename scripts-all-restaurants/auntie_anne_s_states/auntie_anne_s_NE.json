@@ -1,0 +1,72 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "auntie_anne_s",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1801184536,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "name": "Auntie Anne's",
+        "source": "Westroads",
+        "takeaway": "yes"
+      },
+      "lat": 41.2667918,
+      "lon": -96.0681582
+    },
+    {
+      "type": "node",
+      "id": 2536058096,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "cuisine": "pretzel",
+        "name": "Auntie Anne's",
+        "takeaway": "yes"
+      },
+      "lat": 41.0988465,
+      "lon": -96.2503655
+    },
+    {
+      "type": "node",
+      "id": 6879947146,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "6100",
+        "addr:postcode": "68505",
+        "addr:state": "NE",
+        "addr:street": "O Street",
+        "amenity": "fast_food",
+        "brand": "Auntie Anne's",
+        "brand:wikidata": "Q4822010",
+        "check_date": "2025-11-08",
+        "cuisine": "pretzel",
+        "drive_through": "no",
+        "name": "Auntie Anne's",
+        "opening_hours": "Mo-Sa 11:00-20:00; Su 12:00-18:00",
+        "phone": "+1-402-261-6611",
+        "takeaway": "yes",
+        "website": "https://locations.auntieannes.com/ne/lincoln/6100-o-str"
+      },
+      "lat": 40.8152391,
+      "lon": -96.6367216
+    }
+  ]
+}

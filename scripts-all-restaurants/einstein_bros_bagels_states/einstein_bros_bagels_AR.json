@@ -1,0 +1,105 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "einstein_bros_bagels",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4544027685,
+      "tags": {
+        "addr:city": "Rogers",
+        "addr:housenumber": "1728",
+        "addr:postcode": "72758",
+        "addr:state": "AR",
+        "addr:street": "South 46th Street",
+        "addr:unit": "102",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "New Hope 4th",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "cuisine": "bagel",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "Mo-Fr 05:30-17:00; Sa-Su 06:00-17:00",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/ar/rogers/1728-s-46th-st"
+      },
+      "lat": 36.3151554,
+      "lon": -94.1820981
+    },
+    {
+      "type": "node",
+      "id": 4633923524,
+      "tags": {
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "takeaway": "yes"
+      },
+      "lat": 36.0671813,
+      "lon": -94.1717589
+    },
+    {
+      "type": "node",
+      "id": 13354198805,
+      "tags": {
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "cuisine": "bagel",
+        "name": "Einstein Bros. Bagels",
+        "takeaway": "yes"
+      },
+      "lat": 36.2538259,
+      "lon": -94.1527231
+    },
+    {
+      "type": "way",
+      "id": 466549749,
+      "tags": {
+        "addr:city": "Fayetteville",
+        "addr:housenumber": "1500",
+        "addr:postcode": "72703",
+        "addr:state": "AR",
+        "addr:street": "North College Avenue",
+        "addr:unit": "A",
+        "alt_name": "Einstein Brothers Bagels",
+        "amenity": "fast_food",
+        "branch": "Fayetteville AR",
+        "brand": "Einstein Bros. Bagels",
+        "brand:wikidata": "Q5349788",
+        "building": "commercial",
+        "cuisine": "bagel",
+        "drive_through": "yes",
+        "name": "Einstein Bros. Bagels",
+        "opening_hours": "06:00-15:00",
+        "phone": "+1 479-587-8950",
+        "takeaway": "yes",
+        "website": "https://locations.einsteinbros.com/us/ar/fayetteville/1500-n-college-ave"
+      },
+      "center": {
+        "lat": 36.081566949999996,
+        "lon": -94.15609165000001
+      }
+    }
+  ]
+}

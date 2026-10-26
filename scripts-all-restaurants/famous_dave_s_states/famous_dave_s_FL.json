@@ -1,0 +1,62 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "famous_dave_s",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 435390167,
+      "tags": {
+        "addr:city": "Doral",
+        "addr:housenumber": "8210",
+        "addr:postcode": "33166",
+        "addr:state": "FL",
+        "addr:street": "Northwest 36th Street",
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "height": "10.1",
+        "name": "Famous Dave's",
+        "phone": "+1-305-403-7919",
+        "ref:miabldg": "13667",
+        "website": "https://www.famousdaves.com/doral"
+      },
+      "center": {
+        "lat": 25.809241200000002,
+        "lon": -80.33018090000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 905206200,
+      "tags": {
+        "amenity": "restaurant",
+        "branch": "Bar B Que",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 26.5648555,
+        "lon": -81.87258550000001
+      }
+    }
+  ]
+}

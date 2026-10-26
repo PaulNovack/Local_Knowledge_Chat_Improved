@@ -1,0 +1,122 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "sarku_japan",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2543421546,
+      "tags": {
+        "addr:housenumber": "11114A",
+        "addr:postcode": "11239",
+        "addr:street": "Flatlands Avenue",
+        "amenity": "fast_food",
+        "cuisine": "japanese",
+        "name": "Sarku Japan"
+      },
+      "lat": 40.6507639,
+      "lon": -73.8900086
+    },
+    {
+      "type": "node",
+      "id": 9741552411,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sarku Japan",
+        "brand:wikidata": "Q7424243",
+        "cuisine": "japanese",
+        "name": "Sarku Japan",
+        "takeaway": "yes"
+      },
+      "lat": 40.7688395,
+      "lon": -73.8359179
+    },
+    {
+      "type": "node",
+      "id": 11241893998,
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "77",
+        "addr:postcode": "10007",
+        "addr:state": "NY",
+        "addr:street": "Chambers Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "77 Chambers St",
+        "brand": "Sarku Japan",
+        "brand:wikidata": "Q7424243",
+        "cuisine": "japanese",
+        "drive_through": "no",
+        "name": "Sarku Japan",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "takeaway": "yes",
+        "website": "https://www.sarkujapan.com/"
+      },
+      "lat": 40.7145185,
+      "lon": -74.00676
+    },
+    {
+      "type": "node",
+      "id": 11547267407,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "Sarku Japan"
+      },
+      "lat": 40.7034351,
+      "lon": -73.8004594
+    },
+    {
+      "type": "node",
+      "id": 12344628992,
+      "tags": {
+        "addr:unit": "FB12",
+        "amenity": "fast_food",
+        "brand": "Sarku Japan",
+        "brand:wikidata": "Q7424243",
+        "cuisine": "japanese",
+        "drive_through": "no",
+        "level": "1",
+        "name": "Sarku Japan",
+        "opening_hours": "Mo-Th 10:00-20:00; Fr-Sa 10:00-21:00; Su 11:00-19:00",
+        "phone": "+1 516-357-5654",
+        "start_date": "2015-02-02",
+        "takeaway": "yes"
+      },
+      "lat": 40.738917,
+      "lon": -73.6128776
+    },
+    {
+      "type": "way",
+      "id": 904169961,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sarku Japan",
+        "brand:wikidata": "Q7424243",
+        "cuisine": "japanese",
+        "drive_through": "no",
+        "indoor": "room",
+        "level": "1",
+        "level:ref": "2F",
+        "name": "Sarku Japan",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.581630149999995,
+        "lon": -74.16659264999998
+      }
+    }
+  ]
+}

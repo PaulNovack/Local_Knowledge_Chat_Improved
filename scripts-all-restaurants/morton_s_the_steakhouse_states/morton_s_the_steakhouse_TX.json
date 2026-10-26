@@ -1,0 +1,47 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TX",
+    "brand": "morton_s_the_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/texas-latest.osm.pbf",
+    "source_md5": "eb8f4603e9b48bd481c192fe621ae18b",
+    "processed_utc": "2026-10-24T07:17:23.814833+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5235821793,
+      "tags": {
+        "amenity": "restaurant",
+        "branch": "Grill",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "cuisine": "steak_house",
+        "name": "Morton's The Steakhouse"
+      },
+      "lat": 30.1613,
+      "lon": -95.4591965
+    },
+    {
+      "type": "node",
+      "id": 9852209074,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "check_date": "2022-06-27",
+        "cuisine": "steak_house",
+        "name": "Morton's The Steakhouse"
+      },
+      "lat": 29.7418547,
+      "lon": -95.4617408
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OR",
+    "brand": "teriyaki_madness",
+    "source": "https://download.geofabrik.de/north-america/us/oregon-latest.osm.pbf",
+    "source_md5": "bc93fd72fe4589fdc6c9b2b497cb7ef1",
+    "processed_utc": "2026-10-24T07:14:41.004303+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7865927411,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "takeaway": "yes"
+      },
+      "lat": 44.1008434,
+      "lon": -123.129169
+    },
+    {
+      "type": "way",
+      "id": 504318359,
+      "tags": {
+        "addr:city": "Bend",
+        "addr:postcode": "97701",
+        "addr:state": "OR",
+        "addr:street": "Northeast Highway 20",
+        "addr:unit": "340",
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "building": "yes",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "opening_hours": "11:00-21:00",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 44.05601905,
+        "lon": -121.26511170000003
+      }
+    }
+  ]
+}

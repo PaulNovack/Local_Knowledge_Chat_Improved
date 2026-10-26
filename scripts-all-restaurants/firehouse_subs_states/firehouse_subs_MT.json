@@ -1,0 +1,68 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MT",
+    "brand": "firehouse_subs",
+    "source": "https://download.geofabrik.de/north-america/us/montana-latest.osm.pbf",
+    "source_md5": "abfa2e1bfc18f6c00a77776eb9185b11",
+    "processed_utc": "2026-10-24T07:09:10.271084+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4032036140,
+      "tags": {
+        "addr:city": "Bozeman",
+        "addr:housenumber": "867",
+        "addr:postcode": "59718",
+        "addr:state": "MT",
+        "addr:street": "South 29th Avenue",
+        "addr:unit": "104",
+        "amenity": "fast_food",
+        "brand": "Firehouse Subs",
+        "brand:wikidata": "Q5451873",
+        "cuisine": "sandwich",
+        "name": "Firehouse Subs",
+        "phone": "+1-406-551-1144",
+        "takeaway": "yes"
+      },
+      "lat": 45.670918,
+      "lon": -111.077254
+    },
+    {
+      "type": "node",
+      "id": 9184205208,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Firehouse Subs",
+        "brand:wikidata": "Q5451873",
+        "cuisine": "sandwich",
+        "name": "Firehouse Subs",
+        "takeaway": "yes"
+      },
+      "lat": 45.7543558,
+      "lon": -108.5887443
+    },
+    {
+      "type": "node",
+      "id": 14025061934,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Firehouse Subs",
+        "brand:wikidata": "Q5451873",
+        "cuisine": "sandwich",
+        "name": "Firehouse Subs",
+        "takeaway": "yes"
+      },
+      "lat": 45.8087097,
+      "lon": -108.4724381
+    }
+  ]
+}

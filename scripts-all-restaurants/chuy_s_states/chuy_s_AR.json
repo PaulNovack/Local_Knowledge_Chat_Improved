@@ -1,0 +1,113 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "chuy_s",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5284317555,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuy's",
+        "brand:wikidata": "Q5118415",
+        "cuisine": "tex-mex",
+        "name": "Chuy's"
+      },
+      "lat": 36.2983245,
+      "lon": -94.1825849
+    },
+    {
+      "type": "node",
+      "id": 9768618598,
+      "tags": {
+        "addr:city": "Fayetteville",
+        "addr:housenumber": "642",
+        "addr:postcode": "72703",
+        "addr:street": "East Millsap Road",
+        "amenity": "restaurant",
+        "brand": "Chuy's",
+        "brand:wikidata": "Q5118415",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "Chuy's",
+        "opening_hours": "11:00-21:00; Fr,Sa 11:00-22:00",
+        "phone": "+1 479 339 2069",
+        "website": "https://www.chuys.com/locations/fayetteville"
+      },
+      "lat": 36.1153933,
+      "lon": -94.1488315
+    },
+    {
+      "type": "node",
+      "id": 12331661510,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuy's",
+        "brand:wikidata": "Q5118415",
+        "cuisine": "tex-mex",
+        "name": "Chuy's"
+      },
+      "lat": 35.3544103,
+      "lon": -94.3560317
+    },
+    {
+      "type": "way",
+      "id": 918528800,
+      "tags": {
+        "addr:city": "North Little Rock",
+        "addr:state": "AR",
+        "addr:street": "Warden Road",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Chuy's",
+        "brand:wikidata": "Q5118415",
+        "building": "yes",
+        "check_date": "2025-11-29",
+        "cuisine": "tex-mex",
+        "name": "Chuy's",
+        "opening_hours": "Su-Th 11:00-22:00; Fr,Sa 11:00-23:00",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 34.80116445,
+        "lon": -92.2159555
+      }
+    },
+    {
+      "type": "way",
+      "id": 1511018456,
+      "tags": {
+        "addr:city": "Conway",
+        "addr:housenumber": "600",
+        "addr:postcode": "72032",
+        "addr:state": "AR",
+        "addr:street": "South Amity Road",
+        "amenity": "restaurant",
+        "brand": "Chuy's",
+        "brand:wikidata": "Q5118415",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "Chuy's",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1-501-460-2489",
+        "website": "https://www.chuys.com/locations/ar/conway/conway-ar/6108"
+      },
+      "center": {
+        "lat": 35.07265085,
+        "lon": -92.41510115
+      }
+    }
+  ]
+}

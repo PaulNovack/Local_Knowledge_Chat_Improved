@@ -1,0 +1,75 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "famous_dave_s",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 32811259,
+      "tags": {
+        "amenity": "restaurant",
+        "branch": "Bar B Que",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's"
+      },
+      "center": {
+        "lat": 39.47847435,
+        "lon": -119.79509744999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1197492208,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's"
+      },
+      "center": {
+        "lat": 36.24066075,
+        "lon": -115.11388009999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1247385200,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "1951",
+        "addr:postcode": "89108",
+        "addr:state": "NV",
+        "addr:street": "North Rainbow Boulevard",
+        "amenity": "restaurant",
+        "branch": "Bar B Que",
+        "brand": "Famous Dave's",
+        "brand:wikidata": "Q5433448",
+        "building": "retail",
+        "cuisine": "barbecue",
+        "name": "Famous Dave's",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 36.19446515,
+        "lon": -115.24308224999999
+      }
+    }
+  ]
+}

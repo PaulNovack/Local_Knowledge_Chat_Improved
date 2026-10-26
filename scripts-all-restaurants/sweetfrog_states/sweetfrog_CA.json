@@ -1,0 +1,62 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CA",
+    "brand": "sweetfrog",
+    "source": "https://download.geofabrik.de/north-america/us/california-latest.osm.pbf",
+    "source_md5": "26040c163edb7a5f630164ee55d5afda",
+    "processed_utc": "2026-10-24T06:59:04.829226+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3512967131,
+      "tags": {
+        "addr:city": "Lancaster",
+        "addr:postcode": "93534",
+        "addr:street": "Valley Central Way",
+        "amenity": "ice_cream",
+        "brand": "sweetFrog",
+        "brand:wikidata": "Q16952110",
+        "cuisine": "frozen_yogurt",
+        "name": "sweetFrog",
+        "wheelchair": "yes"
+      },
+      "lat": 34.6959187,
+      "lon": -118.1707059
+    },
+    {
+      "type": "node",
+      "id": 9288402055,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "sweetFrog",
+        "brand:wikidata": "Q16952110",
+        "cuisine": "frozen_yogurt",
+        "name": "sweetFrog"
+      },
+      "lat": 34.5739109,
+      "lon": -118.0455113
+    },
+    {
+      "type": "node",
+      "id": 12093882583,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "sweetFrog",
+        "brand:wikidata": "Q16952110",
+        "cuisine": "frozen_yogurt",
+        "name": "sweetFrog"
+      },
+      "lat": 34.5070579,
+      "lon": -117.3973527
+    }
+  ]
+}

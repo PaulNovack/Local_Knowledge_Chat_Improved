@@ -1,0 +1,152 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "black_bear_diner",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7745738485,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "cuisine": "american",
+        "name": "Black Bear Diner"
+      },
+      "lat": 47.164828,
+      "lon": -122.482317
+    },
+    {
+      "type": "node",
+      "id": 14068133483,
+      "tags": {
+        "addr:city": "Olympia",
+        "addr:housenumber": "3425",
+        "addr:postcode": "98501",
+        "addr:state": "WA",
+        "addr:street": "Pacific Avenue Southeast",
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "cuisine": "american",
+        "name": "Black Bear Diner",
+        "opening_hours": "Su-Th 06:00-21:00, Fr-Sa 06:00-22:00",
+        "website": "https://blackbeardiner.com/location/olympia/"
+      },
+      "lat": 47.0414096,
+      "lon": -122.8473355
+    },
+    {
+      "type": "way",
+      "id": 67489344,
+      "tags": {
+        "addr:city": "Federal Way",
+        "addr:housenumber": "32065",
+        "addr:postcode": "98003",
+        "addr:state": "WA",
+        "addr:street": "Pacific Highway South",
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Black Bear Diner"
+      },
+      "center": {
+        "lat": 47.31328685,
+        "lon": -122.31401190000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 569141135,
+      "tags": {
+        "addr:city": "Vancouver",
+        "addr:housenumber": "1505",
+        "addr:postcode": "98683",
+        "addr:state": "WA",
+        "addr:street": "Southeast 164th Avenue",
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Black Bear Diner",
+        "source": "esri/Clark_County_Address_Points_"
+      },
+      "center": {
+        "lat": 45.609776350000004,
+        "lon": -122.50358555000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 570706714,
+      "tags": {
+        "addr:city": "Sequim",
+        "addr:housenumber": "1471",
+        "addr:postcode": "98382",
+        "addr:street": "East Washington Street",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "building": "retail",
+        "changing_table": "yes",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "name": "Black Bear Diner",
+        "opening_hours": "Mo-Su 07:30-20:00",
+        "outdoor_seating": "terrace",
+        "website": "https://blackbeardiner.com/location/sequim/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 48.070546050000004,
+        "lon": -123.07291950000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1193874426,
+      "tags": {
+        "addr:city": "South Hill",
+        "addr:country": "US",
+        "addr:housenumber": "10404",
+        "addr:postcode": "98374",
+        "addr:state": "WA",
+        "addr:street": "156th Street East",
+        "addr:unit": "101",
+        "amenity": "restaurant",
+        "brand": "Black Bear Diner",
+        "brand:wikidata": "Q4920343",
+        "building": "retail",
+        "building:colour": "tan",
+        "building:levels": "1",
+        "building:material": "cement_block",
+        "check_date": "2024-05-05",
+        "cuisine": "american",
+        "name": "Black Bear Diner",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "website": "https://blackbeardiner.com/"
+      },
+      "center": {
+        "lat": 47.11468975,
+        "lon": -122.29053820000001
+      }
+    }
+  ]
+}

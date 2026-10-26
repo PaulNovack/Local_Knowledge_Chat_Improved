@@ -1,0 +1,166 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "golden_corral",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2061779063,
+      "tags": {
+        "addr:city": "Erie",
+        "addr:housename": "Golden Corral",
+        "addr:housenumber": "7500",
+        "addr:postcode": "16509",
+        "addr:state": "PA",
+        "addr:street": "Peach Street",
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral",
+        "website": "https://www.goldencorral.com/"
+      },
+      "lat": 42.0518452,
+      "lon": -80.0861873
+    },
+    {
+      "type": "node",
+      "id": 2509635249,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral"
+      },
+      "lat": 39.908782,
+      "lon": -79.7550421
+    },
+    {
+      "type": "way",
+      "id": 163563266,
+      "tags": {
+        "addr:city": "Pittsburgh",
+        "addr:housenumber": "900",
+        "addr:postcode": "15205",
+        "addr:state": "PA",
+        "addr:street": "Park Manor Boulevard",
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "yes",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral",
+        "source": "bing"
+      },
+      "center": {
+        "lat": 40.45156825,
+        "lon": -80.15600229999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 558386493,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "yes",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral"
+      },
+      "center": {
+        "lat": 41.247586850000005,
+        "lon": -80.45052314999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1066588543,
+      "tags": {
+        "addr:city": "Lancaster",
+        "addr:housenumber": "2291",
+        "addr:postcode": "17602",
+        "addr:state": "PA",
+        "addr:street": "Lincoln Highway East",
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "yes",
+        "check_date": "2025-09-05",
+        "contact:phone": "+1 717-208-3984",
+        "cuisine": "american;buffet",
+        "delivery": "yes",
+        "name": "Golden Corral",
+        "opening_hours": "Mo-Fr 11:00-21:00; Sa-Su 08:00-21:00",
+        "ref": "2654",
+        "takeaway": "yes",
+        "website": "https://www.goldencorral.com/locations/location-detail/2654/golden-corral-lincoln-hwy-e"
+      },
+      "center": {
+        "lat": 40.02674795,
+        "lon": -76.21270615000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1247953828,
+      "tags": {
+        "addr:city": "Bensalem",
+        "addr:housenumber": "1465",
+        "addr:postcode": "19020",
+        "addr:state": "PA",
+        "addr:street": "Street Road",
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "yes",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral"
+      },
+      "center": {
+        "lat": 40.0909491,
+        "lon": -74.93930555000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1281275477,
+      "tags": {
+        "addr:city": "Whitehall",
+        "addr:housenumber": "900",
+        "addr:postcode": "18052",
+        "addr:state": "PA",
+        "addr:street": "Lehigh Valley Mall",
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "retail",
+        "check_date": "2026-06-03",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr 11:00-22:00; Sa 09:00-22:00; Su 09:00-21:00",
+        "phone": "+1 610-443-0866",
+        "ref": "2627",
+        "source": "esri/Lehigh_County_PA_Buildings",
+        "website": "https://www.goldencorral.com/locations/location-detail/2627/golden-corral-lehigh-valley-mall/"
+      },
+      "center": {
+        "lat": 40.6292299,
+        "lon": -75.47670304999997
+      }
+    }
+  ]
+}

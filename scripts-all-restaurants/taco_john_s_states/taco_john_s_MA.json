@@ -1,0 +1,38 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "taco_john_s",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 213748746,
+      "tags": {
+        "addr:housenumber": "536",
+        "addr:street": "North Main Street",
+        "amenity": "fast_food",
+        "brand": "Taco John's",
+        "brand:wikidata": "Q7673962",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Taco John's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.5501046,
+        "lon": -71.76344895
+      }
+    }
+  ]
+}

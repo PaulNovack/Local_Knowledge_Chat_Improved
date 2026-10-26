@@ -1,0 +1,101 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "cheddar_s",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9170724812,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen"
+      },
+      "lat": 32.222051,
+      "lon": -110.9178332
+    },
+    {
+      "type": "way",
+      "id": 980239218,
+      "tags": {
+        "addr:city": "Chandler",
+        "addr:housenumber": "2530",
+        "addr:postcode": "85224",
+        "addr:state": "AZ",
+        "addr:street": "West Chandler Boulevard",
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen"
+      },
+      "center": {
+        "lat": 33.30640745,
+        "lon": -111.88674980000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1009803444,
+      "tags": {
+        "addr:city": "Goodyear",
+        "addr:housenumber": "15030",
+        "addr:postcode": "85395",
+        "addr:state": "AZ",
+        "addr:street": "West McDowell Road",
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen",
+        "phone": "+1-623-535-3827",
+        "website": "https://www.cheddars.com/"
+      },
+      "center": {
+        "lat": 33.46499775,
+        "lon": -112.38223555000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1206764998,
+      "tags": {
+        "addr:city": "Glendale",
+        "addr:housenumber": "8172",
+        "addr:postcode": "85308",
+        "addr:state": "AZ",
+        "addr:street": "West Bell Road",
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen"
+      },
+      "center": {
+        "lat": 33.63867345,
+        "lon": -112.23180635
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NH",
+    "brand": "red_robin",
+    "source": "https://download.geofabrik.de/north-america/us/new-hampshire-latest.osm.pbf",
+    "source_md5": "603b90470df09c1b933955cbfe841c6d",
+    "processed_utc": "2026-10-24T07:09:51.168561+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 41098251,
+      "tags": {
+        "addr:city": "Manchester",
+        "addr:housenumber": "1500",
+        "addr:postcode": "03103",
+        "addr:state": "NH",
+        "addr:street": "South Willow Street",
+        "addr:unit": "W157",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "delivery": "no",
+        "indoor": "room",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews",
+        "phone": "+1 603 413 0522",
+        "takeaway": "yes",
+        "website": "https://www.redrobin.com/"
+      },
+      "center": {
+        "lat": 42.954881900000004,
+        "lon": -71.43297554999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 193819046,
+      "tags": {
+        "addr:city": "Nashua",
+        "addr:housenumber": "310",
+        "addr:postcode": "03060",
+        "addr:state": "NH",
+        "addr:street": "Daniel Webster Highway",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "level": "1",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr,Sa 11:00-23:00; Su 11:00-21:00",
+        "phone": "+1-603-888-4691",
+        "website": "https://www.redrobin.com/"
+      },
+      "center": {
+        "lat": 42.702244050000004,
+        "lon": -71.43837965
+      }
+    }
+  ]
+}

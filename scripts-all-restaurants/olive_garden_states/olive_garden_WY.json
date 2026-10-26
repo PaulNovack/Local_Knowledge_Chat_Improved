@@ -1,0 +1,63 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "olive_garden",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2707715627,
+      "tags": {
+        "addr:city": "Casper",
+        "addr:housenumber": "5070",
+        "addr:postcode": "82609",
+        "addr:state": "WY",
+        "addr:street": "East 2nd Street",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "cuisine": "italian",
+        "name": "Olive Garden"
+      },
+      "lat": 42.8480519,
+      "lon": -106.2546672
+    },
+    {
+      "type": "way",
+      "id": 86296759,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:housenumber": "1536",
+        "addr:postcode": "82009",
+        "addr:state": "WY",
+        "addr:street": "Dell Range Boulevard",
+        "amenity": "restaurant",
+        "brand": "Olive Garden",
+        "brand:wikidata": "Q3045312",
+        "building": "retail",
+        "cuisine": "italian",
+        "name": "Olive Garden",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+1 307-632-2411",
+        "source": "local visit, city website",
+        "website": "https://www.olivegarden.com/locations/wy/cheyenne/cheyenne-frontier-mall/1716",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 41.16065555,
+        "lon": -104.80514814999998
+      }
+    }
+  ]
+}

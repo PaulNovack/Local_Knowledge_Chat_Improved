@@ -9,7 +9,7 @@
   };
 
   function parseStep(question) {
-    const match = String(question).trim().match(/^(?:show(?:\s+me)?|what(?:\s+is|'s)|tell(?:\s+me)?(?:\s+what(?:\s+is|'s)?)?|play(?:\s+the)?(?:\s+video\s+for)?)\s+(?:this\s+)?step\s+(\d+|[a-z]+(?:[ -]+[a-z]+)*?)\s*(?:(?:of|for)\s+(?:the\s+)?pre[ -]?trip(?:ping)?\s+inspection)?[.!?]*$/i);
+    const match = String(question).trim().match(/^show\s+me\s+(?:this\s+)?step\s+(\d+|[a-z]+(?:[ -]+[a-z]+)*?)\s*(?:(?:of|for)\s+(?:the\s+)?pre[ -]?trip(?:ping)?\s+inspection)?[.!?]*$/i);
     if (!match) return null;
     const phrase = match[1].toLowerCase().replace(/-/g, ' ').trim();
     let step = /^\d+$/.test(phrase) ? Number(phrase) : numberWords[phrase];

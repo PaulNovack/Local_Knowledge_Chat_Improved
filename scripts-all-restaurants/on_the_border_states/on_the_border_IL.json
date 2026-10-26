@@ -1,0 +1,82 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "on_the_border",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2581587834,
+      "tags": {
+        "addr:city": "Schaumburg",
+        "addr:country": "US",
+        "addr:housenumber": "870",
+        "addr:postcode": "60173",
+        "addr:state": "IL",
+        "addr:street": "North Meacham Road",
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina"
+      },
+      "lat": 42.0453276,
+      "lon": -88.0462609
+    },
+    {
+      "type": "way",
+      "id": 116670524,
+      "tags": {
+        "addr:city": "Algonquin",
+        "addr:housenumber": "1512",
+        "addr:postcode": "60102",
+        "addr:state": "IL",
+        "addr:street": "South Randall Road",
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina"
+      },
+      "center": {
+        "lat": 42.15012325,
+        "lon": -88.33656365000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 175517747,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "On The Border",
+        "brand:wikidata": "Q7091305",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "On The Border",
+        "official_name": "On The Border Mexican Grill & Cantina",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+        "outdoor_seating": "yes"
+      },
+      "center": {
+        "lat": 41.9218336,
+        "lon": -88.27383049999997
+      }
+    }
+  ]
+}

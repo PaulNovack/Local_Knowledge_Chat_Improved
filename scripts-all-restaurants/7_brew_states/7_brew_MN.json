@@ -1,0 +1,96 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MN",
+    "brand": "7_brew",
+    "source": "https://download.geofabrik.de/north-america/us/minnesota-latest.osm.pbf",
+    "source_md5": "4cabd6519cf6e8b1f74c96f59629df95",
+    "processed_utc": "2026-10-24T07:08:10.045763+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13523310469,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Seven Brew Coffee"
+      },
+      "lat": 45.553731,
+      "lon": -94.2107123
+    },
+    {
+      "type": "node",
+      "id": 13574929516,
+      "tags": {
+        "addr:housenumber": "2401",
+        "addr:street": "8th Street South",
+        "amenity": "cafe",
+        "description": "Drive thru coffee shop",
+        "name": "7 Brew",
+        "opening_hours": "Mo-Su 05:30-22:00",
+        "phone": "+1-479-358-9274",
+        "website": "https://locations.7brew.com/mn/moorhead/2401-8th-street-south"
+      },
+      "lat": 46.8510577,
+      "lon": -96.7688337
+    },
+    {
+      "type": "node",
+      "id": 14135096266,
+      "tags": {
+        "addr:city": "Duluth",
+        "addr:housenumber": "421",
+        "addr:postcode": "55811",
+        "addr:state": "MN",
+        "addr:street": "Anderson Road",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew",
+        "opening_hours": "Mo-Fr 06:00-22:00; Sa-Su 07:00-22:00",
+        "outdoor_seating": "no",
+        "takeaway": "yes",
+        "website": "https://locations.7brew.com/mn/duluth/421-anderson-road"
+      },
+      "lat": 46.8006786,
+      "lon": -92.1449977
+    },
+    {
+      "type": "way",
+      "id": 713150122,
+      "tags": {
+        "addr:city": "Bemidji",
+        "addr:housenumber": "1709",
+        "addr:postcode": "56601",
+        "addr:state": "MN",
+        "addr:street": "Paul Bunyan Drive Northwest",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew",
+        "outdoor_seating": "no",
+        "takeaway": "yes",
+        "website": "https://7brew.com/location/minnesota-bemidji-000489"
+      },
+      "center": {
+        "lat": 47.49428775,
+        "lon": -94.90479085000004
+      }
+    }
+  ]
+}

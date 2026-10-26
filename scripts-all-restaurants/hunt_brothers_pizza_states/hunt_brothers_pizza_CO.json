@@ -1,0 +1,84 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "hunt_brothers_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3782927031,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Hunt Brothers Pizza"
+      },
+      "lat": 40.2554705,
+      "lon": -103.6328028
+    },
+    {
+      "type": "node",
+      "id": 5714055644,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "name": "Hunt Brothers PizzA"
+      },
+      "lat": 39.2252859,
+      "lon": -105.9918513
+    },
+    {
+      "type": "node",
+      "id": 11382931570,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Hunt Brothers Pizza",
+        "brand:wikidata": "Q5943909",
+        "cuisine": "pizza",
+        "name": "Hunt Brothers Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 40.0341744,
+      "lon": -105.0549696
+    },
+    {
+      "type": "node",
+      "id": 11896509636,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Hunt Brothers Pizza",
+        "brand:wikidata": "Q5943909",
+        "check_date": "2026-05-30",
+        "cuisine": "pizza",
+        "name": "Hunt Brothers Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 39.1428774,
+      "lon": -104.0842392
+    },
+    {
+      "type": "node",
+      "id": 13828810059,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Hunt Brothers Pizza",
+        "brand:wikidata": "Q5943909",
+        "cuisine": "pizza",
+        "name": "Hunt Brothers Pizza",
+        "takeaway": "only"
+      },
+      "lat": 37.2016545,
+      "lon": -108.6870849
+    }
+  ]
+}

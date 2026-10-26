@@ -1,0 +1,120 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ND",
+    "brand": "perkins",
+    "source": "https://download.geofabrik.de/north-america/us/north-dakota-latest.osm.pbf",
+    "source_md5": "9eff3bc6ca09aea0f8e064cee3b44c15",
+    "processed_utc": "2026-10-24T07:12:54.105950+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1829326866,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "lat": 47.9089162,
+      "lon": -97.0659392
+    },
+    {
+      "type": "way",
+      "id": 133113051,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 46.862265050000005,
+        "lon": -96.83860609999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 631749800,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "24/7",
+        "phone": "+1 701-221-3112",
+        "website": "https://stores.perkinsrestaurants.com/us/nd/bismarck/100-e-bismarck-expressway.html"
+      },
+      "center": {
+        "lat": 46.7954792,
+        "lon": -100.79124065000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 695837892,
+      "tags": {
+        "addr:city": "Minot",
+        "addr:housenumber": "405",
+        "addr:postcode": "58701",
+        "addr:state": "ND",
+        "addr:street": "20th Avenue Southwest",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "center": {
+        "lat": 48.210292100000004,
+        "lon": -101.29930709999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 883801664,
+      "tags": {
+        "addr:housenumber": "1100",
+        "addr:street": "East Interstate Avenue",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:website": "https://perkinsrestaurants.com/",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "cuisine": "american",
+        "delivery": "yes",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "24/7",
+        "phone": "+1 701 222 0625",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://perkinsrestaurants.com/locations/us/nd/bismarck/1100-interstate-avenue/"
+      },
+      "center": {
+        "lat": 46.835005699999996,
+        "lon": -100.77397725000003
+      }
+    }
+  ]
+}

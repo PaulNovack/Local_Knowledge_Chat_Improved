@@ -1,0 +1,75 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "mountain_mike_s",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12247063315,
+      "tags": {
+        "alt_name": "Mountain Mike's Pizza",
+        "amenity": "restaurant",
+        "brand": "Mountain Mike's",
+        "brand:wikidata": "Q6925120",
+        "cuisine": "pizza",
+        "name": "Mountain Mike's",
+        "takeaway": "yes"
+      },
+      "lat": 40.483461,
+      "lon": -111.9867299
+    },
+    {
+      "type": "node",
+      "id": 13602887423,
+      "tags": {
+        "alt_name": "Mountain Mike's Pizza",
+        "amenity": "restaurant",
+        "brand": "Mountain Mike's",
+        "brand:wikidata": "Q6925120",
+        "cuisine": "pizza",
+        "name": "Mountain Mike's",
+        "takeaway": "yes"
+      },
+      "lat": 40.5608764,
+      "lon": -111.9813339
+    },
+    {
+      "type": "way",
+      "id": 1530913232,
+      "tags": {
+        "addr:city": "Saratoga Springs",
+        "addr:housenumber": "1271",
+        "addr:postcode": "84045",
+        "addr:state": "UT",
+        "addr:street": "North Lake Drive",
+        "addr:unit": "C",
+        "alt_name": "Mountain Mike's Pizza",
+        "amenity": "restaurant",
+        "brand": "Mountain Mike's",
+        "brand:wikidata": "Q6925120",
+        "cuisine": "pizza",
+        "name": "Mountain Mike's",
+        "opening_hours": "Mo-Th,Su 10:00-21:00; Fr-Sa 10:00-22:00",
+        "phone": "+1 385-449-9161",
+        "takeaway": "yes",
+        "website": "https://www.mountainmikespizza.com/locations/saratoga-springs-n-lake-dr/"
+      },
+      "center": {
+        "lat": 40.3853627,
+        "lon": -111.91789675000001
+      }
+    }
+  ]
+}

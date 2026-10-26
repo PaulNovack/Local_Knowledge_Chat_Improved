@@ -1,0 +1,77 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "chuck_e_cheese",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3427409003,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese's",
+        "brand:wikidata": "Q2438391",
+        "check_date": "2015-03-30",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese's"
+      },
+      "lat": 38.9376436,
+      "lon": -94.6691229
+    },
+    {
+      "type": "way",
+      "id": 319481876,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "yes",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/ks/olathe/15225-w.-134th-st."
+      },
+      "center": {
+        "lat": 38.88432485,
+        "lon": -94.76235195000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 640413798,
+      "tags": {
+        "addr:city": "Topeka",
+        "addr:housenumber": "2215",
+        "addr:postcode": "66614",
+        "addr:state": "KS",
+        "addr:street": "Southwest Wanamaker Road",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "yes",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "opening_hours": "Su-Th 11:00-21:00; Fr-Sa 11:00-22:00",
+        "source": "esri_USDOT_Kansas",
+        "website": "https://locations.chuckecheese.com/us/ks/topeka/2215-sw-wanamaker-rd."
+      },
+      "center": {
+        "lat": 39.026802149999995,
+        "lon": -95.76288455000002
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "sizzler",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 35568640,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Sizzler",
+        "brand:wikidata": "Q1848822",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Sizzler"
+      },
+      "center": {
+        "lat": 40.88378765,
+        "lon": -111.89549469999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 347407667,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Sizzler",
+        "brand:wikidata": "Q1848822",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Sizzler",
+        "source": "Bing",
+        "website": "https://sizzler.com/locations/sizzler-provo/"
+      },
+      "center": {
+        "lat": 40.21517245,
+        "lon": -111.65829455
+      }
+    },
+    {
+      "type": "way",
+      "id": 364942942,
+      "tags": {
+        "addr:city": "West Valley City",
+        "addr:housenumber": "3429",
+        "addr:postcode": "84119",
+        "addr:state": "UT",
+        "addr:street": "South Redwood Road",
+        "amenity": "restaurant",
+        "brand": "Sizzler",
+        "brand:wikidata": "Q1848822",
+        "building": "retail",
+        "cuisine": "steak_house",
+        "name": "Sizzler",
+        "website": "https://sizzler.com/locations/sizzler-west-valley-city/"
+      },
+      "center": {
+        "lat": 40.6980901,
+        "lon": -111.9384872
+      }
+    },
+    {
+      "type": "way",
+      "id": 471891909,
+      "tags": {
+        "addr:city": "Sandy",
+        "addr:housenumber": "20",
+        "addr:postcode": "84070",
+        "addr:state": "UT",
+        "addr:street": "West 9000 South",
+        "amenity": "restaurant",
+        "brand": "Sizzler",
+        "brand:wikidata": "Q1848822",
+        "building": "retail",
+        "cuisine": "steak_house",
+        "name": "Sizzler",
+        "website": "https://sizzler.com/locations/sizzler-sandy/"
+      },
+      "center": {
+        "lat": 40.58850595,
+        "lon": -111.89155414999999
+      }
+    }
+  ]
+}

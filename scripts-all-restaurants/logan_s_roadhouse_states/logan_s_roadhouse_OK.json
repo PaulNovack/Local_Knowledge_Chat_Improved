@@ -1,0 +1,98 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "logan_s_roadhouse",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1923720379,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "check_date": "2026-05-12",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse"
+      },
+      "lat": 35.4827288,
+      "lon": -97.7552022
+    },
+    {
+      "type": "way",
+      "id": 249994706,
+      "tags": {
+        "addr:city": "Midwest City",
+        "addr:housenumber": "7221",
+        "addr:postcode": "73110",
+        "addr:state": "OK",
+        "addr:street": "Southeast 29th Street",
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 35.435800349999994,
+        "lon": -97.39784635000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 323737251,
+      "tags": {
+        "addr:city": "Norman",
+        "addr:housenumber": "1250",
+        "addr:postcode": "73069",
+        "addr:state": "OK",
+        "addr:street": "24th Avenue Northwest",
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse"
+      },
+      "center": {
+        "lat": 35.2338814,
+        "lon": -97.48155995000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 485899733,
+      "tags": {
+        "addr:city": "Tulsa",
+        "addr:country": "US",
+        "addr:housenumber": "7588",
+        "addr:postcode": "74132",
+        "addr:state": "OK",
+        "addr:street": "South Olympia Avenue West",
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse"
+      },
+      "center": {
+        "lat": 36.0528638,
+        "lon": -96.00556615000005
+      }
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "cook_out",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4336412125,
+      "tags": {
+        "addr:city": "Oxford",
+        "addr:housenumber": "2195",
+        "addr:postcode": "38655",
+        "addr:state": "MS",
+        "addr:street": "Jackson Avenue West",
+        "amenity": "fast_food",
+        "brand": "Cook Out",
+        "brand:wikidata": "Q5166992",
+        "cuisine": "american",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Cook Out",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://cookout.com/"
+      },
+      "lat": 34.3633158,
+      "lon": -89.5601734
+    },
+    {
+      "type": "node",
+      "id": 10881697259,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cook Out",
+        "brand:wikidata": "Q5166992",
+        "cuisine": "american",
+        "name": "Cook Out",
+        "takeaway": "yes"
+      },
+      "lat": 33.5160333,
+      "lon": -88.4324053
+    },
+    {
+      "type": "node",
+      "id": 10996318749,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cook Out",
+        "brand:wikidata": "Q5166992",
+        "cuisine": "american",
+        "name": "Cook Out",
+        "takeaway": "yes"
+      },
+      "lat": 32.2931351,
+      "lon": -90.2325098
+    },
+    {
+      "type": "way",
+      "id": 266910838,
+      "tags": {
+        "addr:city": "Hattiesburg",
+        "addr:housenumber": "3601",
+        "addr:postcode": "39402",
+        "addr:street": "Hardy Street",
+        "amenity": "fast_food",
+        "brand": "Cook Out",
+        "brand:wikidata": "Q5166992",
+        "building": "retail",
+        "building:levels": "1",
+        "contact:website": "https://cookout.com/location/mississippi-hattiesburg-3601-hardy-st/",
+        "cuisine": "american",
+        "drive_through": "yes",
+        "name": "Cook Out",
+        "old_name": "KFC",
+        "opening_hours": "Su,Mo-Th 10:00-22:00; Fr-Sa 10:00-23:00",
+        "phone": "+1-601-402-7995",
+        "takeaway": "yes",
+        "website": "https://cookout.com/location/mississippi-hattiesburg-3601-hardy-st/"
+      },
+      "center": {
+        "lat": 31.32527275,
+        "lon": -89.34356539999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 640487200,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cook Out",
+        "brand:wikidata": "Q5166992",
+        "building": "yes",
+        "check_date": "2023-07-17",
+        "cuisine": "american",
+        "name": "Cook Out",
+        "opening_hours": "Mo-Su 10:30-02:00",
+        "source": "bing",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 34.96839755,
+        "lon": -89.79460600000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 785920520,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cook Out",
+        "brand:wikidata": "Q5166992",
+        "building": "yes",
+        "cuisine": "american",
+        "drive_through": "yes",
+        "name": "Cook Out",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.30414905,
+        "lon": -90.17402145
+      }
+    },
+    {
+      "type": "way",
+      "id": 923554729,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cook Out",
+        "brand:wikidata": "Q5166992",
+        "building": "yes",
+        "check_date": "2024-06-08",
+        "cuisine": "american",
+        "name": "Cook Out",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.4547395,
+        "lon": -88.81567849999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 934181614,
+      "tags": {
+        "addr:city": "Meridian",
+        "addr:housenumber": "1601",
+        "addr:postcode": "39301",
+        "addr:state": "MS",
+        "addr:street": "South Frontage Road",
+        "amenity": "fast_food",
+        "brand": "Cook Out",
+        "brand:wikidata": "Q5166992",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cook Out",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.35717820000001,
+        "lon": -88.68407330000002
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MN",
+    "brand": "krispy_kreme",
+    "source": "https://download.geofabrik.de/north-america/us/minnesota-latest.osm.pbf",
+    "source_md5": "4cabd6519cf6e8b1f74c96f59629df95",
+    "processed_utc": "2026-10-24T07:08:10.045763+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 219848969,
+      "tags": {
+        "addr:housenumber": "5696",
+        "addr:street": "University Ave",
+        "amenity": "fast_food",
+        "brand": "Krispy Kreme",
+        "brand:wikidata": "Q1192805",
+        "building": "yes",
+        "cuisine": "donut",
+        "drive_through": "yes",
+        "name": "Krispy Kreme",
+        "opening_hours": "Mo-Th, Su 06:00-22:00; Fr, Sa 06:00-23:00",
+        "phone": "+1-612-464-4669",
+        "takeaway": "yes",
+        "website": "https://site.krispykreme.com/mn/fridley/5696-university-ave"
+      },
+      "center": {
+        "lat": 45.070883800000004,
+        "lon": -93.26449294999998
+      }
+    }
+  ]
+}

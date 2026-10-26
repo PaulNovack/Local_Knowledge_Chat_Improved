@@ -1,0 +1,86 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MI",
+    "brand": "mission_bbq",
+    "source": "https://download.geofabrik.de/north-america/us/michigan-latest.osm.pbf",
+    "source_md5": "1c9e00f502a3ea973e97c7d6f989094d",
+    "processed_utc": "2026-10-24T07:07:39.587953+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 241960878,
+      "tags": {
+        "addr:city": "Northville",
+        "addr:housenumber": "20420",
+        "addr:postcode": "48167",
+        "addr:state": "MI",
+        "addr:street": "Haggerty Road",
+        "amenity": "restaurant",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "building": "yes",
+        "check_date": "2026-02-13",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ"
+      },
+      "center": {
+        "lat": 42.43674715,
+        "lon": -83.4344453
+      }
+    },
+    {
+      "type": "way",
+      "id": 588232401,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 43.002612400000004,
+        "lon": -85.589272
+      }
+    },
+    {
+      "type": "way",
+      "id": 1494668555,
+      "tags": {
+        "addr:city": "Sterling Heights",
+        "addr:housenumber": "13905",
+        "addr:postcode": "48313",
+        "addr:state": "MI",
+        "addr:street": "Lakeside Circle",
+        "amenity": "restaurant",
+        "branch": "Sterling Heights, MI",
+        "brand": "Mission BBQ",
+        "brand:wikidata": "Q85785905",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2026-03-31",
+        "cuisine": "barbecue",
+        "name": "Mission BBQ",
+        "opening_hours": "Mo-Sa 11:00-21:00; Su 11:30-20:00",
+        "phone": "+1-586-290-2781",
+        "website": "https://mission-bbq.com/locations-and-menu/sterling-heights-mi/",
+        "website:menu": "https://mission-bbq.com/menu-b/"
+      },
+      "center": {
+        "lat": 42.62635755,
+        "lon": -82.98846430000003
+      }
+    }
+  ]
+}

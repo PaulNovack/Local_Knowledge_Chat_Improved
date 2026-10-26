@@ -1,0 +1,99 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CA",
+    "brand": "pei_wei",
+    "source": "https://download.geofabrik.de/north-america/us/california-latest.osm.pbf",
+    "source_md5": "26040c163edb7a5f630164ee55d5afda",
+    "processed_utc": "2026-10-24T06:59:04.829226+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 451964775,
+      "tags": {
+        "amenity": "restaurant",
+        "branch": "Diner",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "cuisine": "asian",
+        "name": "Pei Wei"
+      },
+      "lat": 33.0684372,
+      "lon": -117.265051
+    },
+    {
+      "type": "node",
+      "id": 1557770398,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "cuisine": "asian",
+        "name": "Pei Wei",
+        "source": "Bing"
+      },
+      "lat": 32.7680715,
+      "lon": -117.1527322
+    },
+    {
+      "type": "node",
+      "id": 1566545265,
+      "tags": {
+        "addr:city": "Tustin",
+        "addr:housenumber": "2695",
+        "addr:postcode": "92782",
+        "addr:street": "Barranca Parkway",
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "cuisine": "asian",
+        "name": "Pei Wei"
+      },
+      "lat": 33.6955378,
+      "lon": -117.8278073
+    },
+    {
+      "type": "node",
+      "id": 5040135121,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "cuisine": "asian",
+        "name": "Pei Wei",
+        "name:en": "Pei Wei",
+        "opening_hours": "Mo-Su 10:00-19:00"
+      },
+      "lat": 33.6779799,
+      "lon": -117.8624217
+    },
+    {
+      "type": "way",
+      "id": 361355874,
+      "tags": {
+        "addr:city": "Newport Beach",
+        "addr:housenumber": "1302",
+        "addr:postcode": "92660",
+        "addr:street": "Bison Avenue",
+        "amenity": "restaurant",
+        "brand": "Pei Wei",
+        "brand:wikidata": "Q7160898",
+        "building": "retail",
+        "cuisine": "asian",
+        "name": "Pei Wei"
+      },
+      "center": {
+        "lat": 33.638987799999995,
+        "lon": -117.86068175000003
+      }
+    }
+  ]
+}

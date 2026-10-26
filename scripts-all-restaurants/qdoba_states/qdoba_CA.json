@@ -1,0 +1,131 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CA",
+    "brand": "qdoba",
+    "source": "https://download.geofabrik.de/north-america/us/california-latest.osm.pbf",
+    "source_md5": "26040c163edb7a5f630164ee55d5afda",
+    "processed_utc": "2026-10-24T06:59:04.829226+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10067929082,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "cuisine": "mexican",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Grill",
+        "takeaway": "yes",
+        "website": "https://locations.qdoba.com/us/ca/valley-center/31267-valley-center-rd.html"
+      },
+      "lat": 33.2277663,
+      "lon": -116.9767285
+    },
+    {
+      "type": "node",
+      "id": 10844545835,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "cuisine": "mexican",
+        "drive_through": "no",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Grill",
+        "takeaway": "yes",
+        "website": "https://locations.qdoba.com/us/nv/primm/100-w-primm-blvd.html"
+      },
+      "lat": 35.6101679,
+      "lon": -115.39201
+    },
+    {
+      "type": "node",
+      "id": 11980259972,
+      "tags": {
+        "addr:city": "Los Angeles",
+        "addr:housenumber": "1",
+        "addr:postcode": "90045",
+        "addr:state": "CA",
+        "addr:street": "Loyola Marymount University",
+        "amenity": "fast_food",
+        "branch": "Loyola Marymount",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "cuisine": "mexican",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Grill",
+        "opening_hours": "12:00-20:00",
+        "phone": "+1 310-338-1815",
+        "takeaway": "yes",
+        "website": "https://locations.qdoba.com/us/ca/los-angeles/1-loyola-marymount-university.html"
+      },
+      "lat": 33.9709375,
+      "lon": -118.4157635
+    },
+    {
+      "type": "node",
+      "id": 12375149344,
+      "tags": {
+        "addr:city": "Pomona",
+        "addr:housenumber": "3801",
+        "addr:postcode": "91768",
+        "addr:state": "CA",
+        "addr:street": "West Temple Avenue",
+        "addr:unit": "Building 35",
+        "amenity": "fast_food",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "cuisine": "mexican",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Grill",
+        "takeaway": "yes",
+        "website": "https://foundation.cpp.edu/dining/restaurants-qdoba.aspx"
+      },
+      "lat": 34.0560874,
+      "lon": -117.8212134
+    },
+    {
+      "type": "node",
+      "id": 14195705302,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Qdoba Mexican Eats"
+      },
+      "lat": 33.2263671,
+      "lon": -117.393396
+    },
+    {
+      "type": "way",
+      "id": 1501598757,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "cuisine": "mexican",
+        "indoor": "room",
+        "name": "Qdoba",
+        "not:building": "retail",
+        "official_name": "Qdoba Mexican Eats",
+        "room": "restaurant",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.7321422,
+        "lon": -117.20475785000002
+      }
+    }
+  ]
+}

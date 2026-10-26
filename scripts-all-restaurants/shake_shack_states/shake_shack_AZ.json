@@ -1,0 +1,184 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "shake_shack",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4586164294,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "cuisine": "burger",
+        "level": "0",
+        "name": "Shake Shack",
+        "takeaway": "yes",
+        "website": "https://shakeshack.com/home#/store/660"
+      },
+      "lat": 33.5033915,
+      "lon": -111.9272558
+    },
+    {
+      "type": "node",
+      "id": 5326272421,
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "15030",
+        "addr:postcode": "85254",
+        "addr:state": "AZ",
+        "addr:street": "North Scottsdale Road",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "cuisine": "burger",
+        "name": "Shake Shack",
+        "takeaway": "yes"
+      },
+      "lat": 33.6239548,
+      "lon": -111.9285671
+    },
+    {
+      "type": "node",
+      "id": 6543695419,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "check_date": "2024-09-16",
+        "cuisine": "burger",
+        "name": "Shake Shack",
+        "takeaway": "yes"
+      },
+      "lat": 33.4343798,
+      "lon": -112.0105406
+    },
+    {
+      "type": "node",
+      "id": 14062117642,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "cuisine": "burger",
+        "name": "Shake Shack",
+        "takeaway": "yes"
+      },
+      "lat": 33.4648817,
+      "lon": -112.5013381
+    },
+    {
+      "type": "way",
+      "id": 834511531,
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:housenumber": "2024",
+        "addr:postcode": "85295",
+        "addr:state": "AZ",
+        "addr:street": "East Williams Field Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "building": "retail",
+        "capacity": "131",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "name": "Shake Shack",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:visa": "yes",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.307246250000006,
+        "lon": -111.746441
+      }
+    },
+    {
+      "type": "way",
+      "id": 1364126154,
+      "tags": {
+        "addr:city": "Surprise",
+        "addr:housenumber": "16740",
+        "addr:postcode": "85388",
+        "addr:state": "AZ",
+        "addr:street": "West Waddell Road",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "fixme": "Realign footprint when imagery is updated",
+        "name": "Shake Shack",
+        "phone": "+16233077579",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.6102265,
+        "lon": -112.41333524999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1558224805,
+      "tags": {
+        "addr:city": "Goodyear",
+        "addr:housenumber": "1675",
+        "addr:postcode": "85395",
+        "addr:state": "AZ",
+        "addr:street": "North Globe Drive",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Shake Shack",
+        "takeaway": "yes",
+        "website": "https://shakeshack.com/location/goodyear-az#/"
+      },
+      "center": {
+        "lat": 33.46514415,
+        "lon": -112.38306994999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1562633835,
+      "tags": {
+        "addr:city": "Avondale",
+        "addr:housenumber": "9778",
+        "addr:postcode": "85353",
+        "addr:state": "AZ",
+        "addr:street": "West McDowell Road",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Shake Shack",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.46548425,
+        "lon": -112.26981565
+      }
+    }
+  ]
+}

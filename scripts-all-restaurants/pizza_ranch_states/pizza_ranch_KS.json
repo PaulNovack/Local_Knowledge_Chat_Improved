@@ -1,0 +1,122 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "pizza_ranch",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11252020070,
+      "tags": {
+        "addr:housenumber": "2121",
+        "addr:street": "North Tyler Road",
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "cuisine": "pizza",
+        "name": "Pizza Ranch",
+        "phone": "+1-316-867-2007",
+        "website": "https://pizzaranch.com/locations/ks/wichita/2121-n--tyler-rd"
+      },
+      "lat": 37.7225046,
+      "lon": -97.4465787
+    },
+    {
+      "type": "way",
+      "id": 203542556,
+      "tags": {
+        "addr:city": "Arkansas City",
+        "addr:housenumber": "2825",
+        "addr:postcode": "67005",
+        "addr:street": "North Summit Street",
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "building": "yes",
+        "check_date": "2024-12-16",
+        "cuisine": "pizza",
+        "name": "Pizza Ranch",
+        "phone": "+1 620 741 5063",
+        "source": "bing",
+        "website": "https://pizzaranch.com/"
+      },
+      "center": {
+        "lat": 37.09209335,
+        "lon": -97.04118485000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 561131056,
+      "tags": {
+        "addr:city": "Manhattan",
+        "addr:housenumber": "511",
+        "addr:postcode": "66502",
+        "addr:street": "McCall Road",
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "building": "yes",
+        "cuisine": "pizza",
+        "drive_through": "yes",
+        "name": "Pizza Ranch",
+        "phone": "+1 785-537-2200",
+        "ref": "4340"
+      },
+      "center": {
+        "lat": 39.1901239,
+        "lon": -96.55097354999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1063043458,
+      "tags": {
+        "addr:city": "Hutchinson",
+        "addr:housenumber": "1805",
+        "addr:postcode": "67501",
+        "addr:state": "KS",
+        "addr:street": "East 17th Avenue",
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Ranch",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 38.07121925,
+        "lon": -97.89570279999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1331509951,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Ranch",
+        "brand:wikidata": "Q7199978",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Ranch",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 38.42223595,
+        "lon": -96.22108020000002
+      }
+    }
+  ]
+}

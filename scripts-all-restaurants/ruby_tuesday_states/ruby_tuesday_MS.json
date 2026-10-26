@@ -1,0 +1,79 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "ruby_tuesday",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 139201287,
+      "tags": {
+        "addr:city": "Moss Point",
+        "addr:housenumber": "6736",
+        "addr:postcode": "39563",
+        "addr:state": "MS",
+        "addr:street": "MS 63",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday",
+        "outdoor_seating": "no",
+        "source": "MGC"
+      },
+      "center": {
+        "lat": 30.4402027,
+        "lon": -88.5268479
+      }
+    },
+    {
+      "type": "way",
+      "id": 165890338,
+      "tags": {
+        "addr:city": "D'Iberville",
+        "addr:housenumber": "12037",
+        "addr:postcode": "39532",
+        "addr:street": "Indian River Road",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday",
+        "source": "MGC"
+      },
+      "center": {
+        "lat": 30.4580062,
+        "lon": -88.89777034999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1394392228,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "center": {
+        "lat": 32.26835265,
+        "lon": -90.13404685
+      }
+    }
+  ]
+}

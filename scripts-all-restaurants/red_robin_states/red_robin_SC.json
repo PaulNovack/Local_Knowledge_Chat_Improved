@@ -1,0 +1,98 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SC",
+    "brand": "red_robin",
+    "source": "https://download.geofabrik.de/north-america/us/south-carolina-latest.osm.pbf",
+    "source_md5": "488018afb1e1040732b7a791d4ebffae",
+    "processed_utc": "2026-10-24T07:15:46.592450+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5368489754,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews"
+      },
+      "lat": 34.0776673,
+      "lon": -81.1567391
+    },
+    {
+      "type": "way",
+      "id": 39640276,
+      "tags": {
+        "addr:city": "Greenville",
+        "addr:housenumber": "1125",
+        "addr:postcode": "29607",
+        "addr:street": "Woodruff Road",
+        "addr:unit": "1400",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "height": "18.9",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews",
+        "phone": "+1-864-286-1077",
+        "website": "https://www.redrobin.com/"
+      },
+      "center": {
+        "lat": 34.82875665,
+        "lon": -82.30077864999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 43793367,
+      "tags": {
+        "addr:city": "Myrtle Beach",
+        "addr:country": "US",
+        "addr:housenumber": "1218",
+        "addr:postcode": "29577",
+        "addr:state": "SC",
+        "addr:street": "North Retail Court",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews"
+      },
+      "center": {
+        "lat": 33.70574715,
+        "lon": -78.92111239999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 150905163,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews"
+      },
+      "center": {
+        "lat": 34.1291373,
+        "lon": -80.87320134999999
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "blaze_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4810181888,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 39.9795306,
+      "lon": -75.1533925
+    },
+    {
+      "type": "node",
+      "id": 5408555697,
+      "tags": {
+        "addr:city": "Pittsburgh",
+        "addr:housenumber": "290",
+        "addr:postcode": "15205",
+        "addr:state": "PA",
+        "addr:street": "Settlers Ridge Center Drive",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr,Sa 11:00-22:00; Su 11:00-21:00",
+        "phone": "+1 412-397-7957",
+        "website": "https://locations.blazepizza.com/pa/robinson-township/290-settlers-ridge-center-drive"
+      },
+      "lat": 40.4405059,
+      "lon": -80.1491994
+    },
+    {
+      "type": "node",
+      "id": 7571354272,
+      "tags": {
+        "addr:city": "Erie",
+        "addr:housenumber": "1930",
+        "addr:postcode": "16509",
+        "addr:state": "PA",
+        "addr:street": "Douglas Parkway",
+        "addr:unit": "400",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza"
+      },
+      "lat": 42.0554396,
+      "lon": -80.084746
+    },
+    {
+      "type": "way",
+      "id": 369441887,
+      "tags": {
+        "addr:city": "Cranberry Township",
+        "addr:housenumber": "20111",
+        "addr:postcode": "16066",
+        "addr:state": "PA",
+        "addr:street": "Route 19",
+        "addr:unit": "Suite 103",
+        "amenity": "restaurant",
+        "brand": "Blaze Pizza",
+        "brand:wikidata": "Q23016666",
+        "building": "retail",
+        "cuisine": "pizza",
+        "name": "Blaze Pizza"
+      },
+      "center": {
+        "lat": 40.683014549999996,
+        "lon": -80.10365230000002
+      }
+    }
+  ]
+}

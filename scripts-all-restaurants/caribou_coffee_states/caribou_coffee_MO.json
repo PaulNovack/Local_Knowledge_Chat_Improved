@@ -1,0 +1,108 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "caribou_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7805624208,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "cuisine": "coffee_shop",
+        "name": "Caribou Coffee",
+        "takeaway": "yes",
+        "website": "https://www.worldsoffun.com/play/drinks-dining/caribou-coffee"
+      },
+      "lat": 39.1739841,
+      "lon": -94.4882885
+    },
+    {
+      "type": "way",
+      "id": 195487072,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "6370",
+        "addr:postcode": "64151",
+        "addr:state": "MO",
+        "addr:street": "North Lucerne Avenue",
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Caribou Coffee",
+        "opening_hours": "Mo-Th 05:30-21:00; Fr 05:30-22:00; Sa 06:00-22:00; Su 06:30-21:00",
+        "takeaway": "yes",
+        "website": "https://locations.cariboucoffee.com/ll/US/MO/Kansas-City/6370-North-Lucerne"
+      },
+      "center": {
+        "lat": 39.21005975,
+        "lon": -94.65320359999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 512741312,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:housenumber": "8371",
+        "addr:postcode": "64151",
+        "addr:state": "MO",
+        "addr:street": "North Saint Clair Avenue",
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Caribou Coffee",
+        "opening_hours": "08:00-20:00",
+        "takeaway": "yes",
+        "website": "https://locations.cariboucoffee.com/ll/US/MO/Kansas-City/8371-N-St-Clair-Ave"
+      },
+      "center": {
+        "lat": 39.24613385,
+        "lon": -94.64639395
+      }
+    },
+    {
+      "type": "way",
+      "id": 512742923,
+      "tags": {
+        "addr:city": "Liberty",
+        "addr:housenumber": "300",
+        "addr:postcode": "64068",
+        "addr:state": "MO",
+        "addr:street": "MO 291",
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Caribou Coffee",
+        "takeaway": "yes",
+        "website": "https://locations.cariboucoffee.com/ll/US/MO/Liberty/200-N-Hwy-291"
+      },
+      "center": {
+        "lat": 39.24771245,
+        "lon": -94.44715020000001
+      }
+    }
+  ]
+}

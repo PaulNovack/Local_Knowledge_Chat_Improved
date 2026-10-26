@@ -1,0 +1,88 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "chevys",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3900590961,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chevys Fresh Mex",
+        "brand:wikidata": "Q5094466",
+        "cuisine": "mexican",
+        "name": "Chevys",
+        "official_name": "Chevys Fresh Mex",
+        "wheelchair": "yes"
+      },
+      "lat": 39.159909,
+      "lon": -76.723791
+    },
+    {
+      "type": "way",
+      "id": 240742482,
+      "tags": {
+        "addr:city": "Brandywine",
+        "addr:housenumber": "15914",
+        "addr:postcode": "20613",
+        "addr:state": "MD",
+        "addr:street": "Robert Crain Highway Southeast",
+        "amenity": "restaurant",
+        "brand": "Chevys Fresh Mex",
+        "brand:wikidata": "Q5094466",
+        "building": "yes",
+        "cuisine": "mexican",
+        "height": "8.07",
+        "name": "Chevys",
+        "official_name": "Chevys Fresh Mex",
+        "roof:shape": "flat",
+        "source": "M-NCPPC"
+      },
+      "center": {
+        "lat": 38.673068650000005,
+        "lon": -76.87477390000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 367133837,
+      "tags": {
+        "addr:city": "Annapolis",
+        "addr:housenumber": "2436",
+        "addr:postcode": "21401",
+        "addr:state": "MD",
+        "addr:street": "Solomons Island Road",
+        "amenity": "restaurant",
+        "brand": "Chevys Fresh Mex",
+        "brand:wikidata": "Q5094466",
+        "building": "commercial",
+        "building:levels": "1",
+        "check_date": "2024-12-08",
+        "cuisine": "mexican",
+        "name": "Chevys",
+        "official_name": "Chevys Fresh Mex",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 10:00-22:00",
+        "phone": "+1 410 573 4932",
+        "roof:levels": "1",
+        "roof:shape": "flat",
+        "website": "https://locations.chevys.com/store/annapolis"
+      },
+      "center": {
+        "lat": 38.97689835,
+        "lon": -76.54074465000002
+      }
+    }
+  ]
+}

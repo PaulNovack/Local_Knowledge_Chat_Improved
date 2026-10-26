@@ -1,0 +1,60 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ME",
+    "brand": "sweetfrog",
+    "source": "https://download.geofabrik.de/north-america/us/maine-latest.osm.pbf",
+    "source_md5": "561ab4eba7b10f360a72f8484b6f08c3",
+    "processed_utc": "2026-10-24T07:05:33.375896+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5669618004,
+      "tags": {
+        "addr:city": "Belfast",
+        "addr:housenumber": "1",
+        "addr:postcode": "04915",
+        "addr:state": "ME",
+        "addr:street": "Belmont Avenue",
+        "amenity": "ice_cream",
+        "brand": "sweetFrog",
+        "brand:wikidata": "Q16952110",
+        "cuisine": "frozen_yogurt",
+        "name": "sweetFrog",
+        "opening_hours": "Mo-Su 11:30-22:00",
+        "phone": "+1-207-338-1000",
+        "website": "https://sweetfrog.com/locations/store/belfast-me",
+        "wheelchair": "yes"
+      },
+      "lat": 44.4248257,
+      "lon": -69.0236295
+    },
+    {
+      "type": "node",
+      "id": 7201671782,
+      "tags": {
+        "addr:city": "Waterville",
+        "addr:housenumber": "14",
+        "addr:postcode": "04901",
+        "addr:state": "ME",
+        "addr:street": "Waterville Commons Drive",
+        "amenity": "ice_cream",
+        "brand": "sweetFrog",
+        "brand:wikidata": "Q16952110",
+        "building": "retail",
+        "cuisine": "frozen_yogurt",
+        "name": "sweetFrog"
+      },
+      "lat": 44.5706698,
+      "lon": -69.6428391
+    }
+  ]
+}

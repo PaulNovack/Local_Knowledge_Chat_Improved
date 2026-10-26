@@ -1,0 +1,100 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "first_watch",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9174473604,
+      "tags": {
+        "addr:housenumber": "415",
+        "addr:street": "Egg Harbor Road",
+        "amenity": "restaurant",
+        "brand": "First Watch",
+        "brand:wikidata": "Q5454064",
+        "cuisine": "american;breakfast",
+        "name": "First Watch",
+        "opening_hours": "07:00-14:30",
+        "phone": "+1-856-956-4812",
+        "website": "https://www.firstwatch.com/locations/sewell"
+      },
+      "lat": 39.7489178,
+      "lon": -75.0752585
+    },
+    {
+      "type": "way",
+      "id": 800748969,
+      "tags": {
+        "addr:city": "Cherry Hill",
+        "addr:housenumber": "801",
+        "addr:postcode": "08002",
+        "addr:state": "NJ",
+        "addr:street": "Haddonfield Road",
+        "amenity": "restaurant",
+        "brand": "First Watch",
+        "brand:wikidata": "Q5454064",
+        "building": "yes",
+        "cuisine": "american;breakfast",
+        "name": "First Watch",
+        "official_name": "First Watch The Daytime Cafe",
+        "website": "https://www.firstwatch.com/"
+      },
+      "center": {
+        "lat": 39.922721800000005,
+        "lon": -75.03303004999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1424924453,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "First Watch",
+        "brand:wikidata": "Q5454064",
+        "building": "yes",
+        "cuisine": "american;breakfast",
+        "name": "First Watch",
+        "official_name": "First Watch The Daytime Cafe"
+      },
+      "center": {
+        "lat": 40.29585285,
+        "lon": -74.0534106
+      }
+    },
+    {
+      "type": "way",
+      "id": 1496211400,
+      "tags": {
+        "addr:city": "Marlton",
+        "addr:housenumber": "341",
+        "addr:postcode": "08053",
+        "addr:state": "NJ",
+        "addr:street": "Route 70 West",
+        "amenity": "restaurant",
+        "brand": "First Watch",
+        "brand:wikidata": "Q5454064",
+        "building": "yes",
+        "cuisine": "american;breakfast",
+        "name": "First Watch",
+        "official_name": "First Watch The Daytime Cafe",
+        "website": "https://firstwatch.com/locations/marlton"
+      },
+      "center": {
+        "lat": 39.89460855,
+        "lon": -74.93007939999995
+      }
+    }
+  ]
+}

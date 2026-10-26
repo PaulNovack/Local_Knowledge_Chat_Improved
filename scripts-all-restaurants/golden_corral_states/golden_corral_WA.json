@@ -1,0 +1,100 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "golden_corral",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4941712336,
+      "tags": {
+        "addr:city": "Puyallup",
+        "addr:country": "US",
+        "addr:housenumber": "3500",
+        "addr:postcode": "98373",
+        "addr:state": "WA",
+        "addr:street": "South Meridian",
+        "addr:unit": "700",
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "check_date:opening_hours": "2026-04-27",
+        "cuisine": "american;buffet",
+        "delivery": "no",
+        "name": "Golden Corral",
+        "opening_hours": "Mo-Th 10:30-20:30; Fr 10:30-21:00; Sa 08:00-21:00; Su 08:00-20:00",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "no"
+      },
+      "lat": 47.1574872,
+      "lon": -122.2960859
+    },
+    {
+      "type": "way",
+      "id": 120106756,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral",
+        "source:name": "local_knowledge"
+      },
+      "center": {
+        "lat": 47.7237739,
+        "lon": -117.41204670000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 220424071,
+      "tags": {
+        "addr:city": "Marysville",
+        "addr:housenumber": "1065",
+        "addr:postcode": "98270",
+        "addr:street": "State Avenue",
+        "amenity": "restaurant",
+        "brand": "Buzz Inn Steak House",
+        "brand:wikidata": "Q4039560",
+        "building": "yes",
+        "cuisine": "steak_house: american",
+        "height": "7.3",
+        "name": "Buzz Inn Steakhouse"
+      },
+      "center": {
+        "lat": 48.0594911,
+        "lon": -122.17742329999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 771092811,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "yes",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral"
+      },
+      "center": {
+        "lat": 45.66669985,
+        "lon": -122.55165654999996
+      }
+    }
+  ]
+}

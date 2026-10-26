@@ -1,0 +1,448 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/3.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ME",
+    "brand": "wendys",
+    "source": "https://download.geofabrik.de/north-america/us/maine-latest.osm.pbf",
+    "source_md5": "561ab4eba7b10f360a72f8484b6f08c3",
+    "processed_utc": "2026-10-24T06:24:27.198153+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11248400143,
+      "tags": {
+        "addr:city": "Ellsworth",
+        "addr:housenumber": "187",
+        "addr:postcode": "04605",
+        "addr:state": "ME",
+        "addr:street": "High Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-23:00",
+        "phone": "+1 207-667-0928",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/me/ellsworth/187-high-street"
+      },
+      "lat": 44.5349449,
+      "lon": -68.411649
+    },
+    {
+      "type": "way",
+      "id": 39775386,
+      "tags": {
+        "addr:city": "Waterville",
+        "addr:housenumber": "329",
+        "addr:postcode": "04901",
+        "addr:state": "ME",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 207-872-5021",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/me/waterville/329-main-street"
+      },
+      "center": {
+        "lat": 44.5652055,
+        "lon": -69.63668059999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 103610179,
+      "tags": {
+        "addr:city": "Bangor",
+        "addr:housenumber": "56",
+        "addr:postcode": "04401",
+        "addr:state": "ME",
+        "addr:street": "Bangor Mall Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-22:00",
+        "phone": "+1 207-942-1340",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/me/bangor/56-mall-blvd"
+      },
+      "center": {
+        "lat": 44.83460675,
+        "lon": -68.7451562
+      }
+    },
+    {
+      "type": "way",
+      "id": 284258970,
+      "tags": {
+        "addr:city": "Augusta",
+        "addr:housenumber": "52",
+        "addr:postcode": "04330",
+        "addr:state": "ME",
+        "addr:street": "Western Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "commercial",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-We 06:30-22:00; Th-Fr 06:30-23:00; Sa-Su 06:30-22:00",
+        "phone": "+1 207-622-5328",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/me/augusta/51-western-ave"
+      },
+      "center": {
+        "lat": 44.311263800000006,
+        "lon": -69.78573764999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 338722427,
+      "tags": {
+        "addr:city": "Orono",
+        "addr:housenumber": "4",
+        "addr:postcode": "04473",
+        "addr:state": "ME",
+        "addr:street": "Stillwater Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-22:00; Fr-Sa 06:30-23:00; Su 06:30-22:00",
+        "phone": "+1 207-827-1637",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/me/orono/4-stillwater-ave"
+      },
+      "center": {
+        "lat": 44.9058009,
+        "lon": -68.689527
+      }
+    },
+    {
+      "type": "way",
+      "id": 377082149,
+      "tags": {
+        "addr:city": "South Portland",
+        "addr:housenumber": "240",
+        "addr:postcode": "04106",
+        "addr:state": "ME",
+        "addr:street": "Maine Mall Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-We 06:30-23:00; Th-Su 06:30-00:00",
+        "phone": "+1 207-772-7656",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/me/south-portland/240-main-mall-road"
+      },
+      "center": {
+        "lat": 43.637797899999995,
+        "lon": -70.3341241
+      }
+    },
+    {
+      "type": "way",
+      "id": 386874947,
+      "tags": {
+        "addr:city": "Auburn",
+        "addr:housenumber": "133",
+        "addr:postcode": "04210",
+        "addr:state": "ME",
+        "addr:street": "Center Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 207-782-4572",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/me/auburn/133-center-st"
+      },
+      "center": {
+        "lat": 44.1074085,
+        "lon": -70.22536530000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 466017146,
+      "tags": {
+        "addr:city": "Portland",
+        "addr:housenumber": "617",
+        "addr:postcode": "04103",
+        "addr:state": "ME",
+        "addr:street": "Warren Avenue",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-We 10:30-22:00; Th-Su 06:30-10:30",
+        "phone": "+1 207-253-5015",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/me/portland/617-warren-ave"
+      },
+      "center": {
+        "lat": 43.68676225,
+        "lon": -70.32466369999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 587596475,
+      "tags": {
+        "addr:city": "Saco",
+        "addr:housenumber": "528",
+        "addr:postcode": "04072",
+        "addr:state": "ME",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-23:00; Fr-Sa 06:30-00:00; Su 06:30-23:00",
+        "phone": "+1 207-282-9921",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/me/saco/528-main-street"
+      },
+      "center": {
+        "lat": 43.5104443,
+        "lon": -70.43419210000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 591073953,
+      "tags": {
+        "addr:city": "Topsham",
+        "addr:housenumber": "15",
+        "addr:postcode": "04086",
+        "addr:state": "ME",
+        "addr:street": "Topsham Fair Mall Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-We 06:30-22:00; Th-Sa 06:30-23:00; Su 06:30-22:00",
+        "phone": "+1 207-725-0974",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/me/topsham/15-topsham-fair-mall-road"
+      },
+      "center": {
+        "lat": 43.93914625,
+        "lon": -69.97691280000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 620736293,
+      "tags": {
+        "addr:city": "Biddeford",
+        "addr:housenumber": "25",
+        "addr:postcode": "04005",
+        "addr:state": "ME",
+        "addr:street": "Boulder Way",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-23:00; Fr-Sa 06:30-00:00; Su 06:30-23:00",
+        "phone": "+1 207-283-3426",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/me/biddeford/515-alfred-road"
+      },
+      "center": {
+        "lat": 43.476192850000004,
+        "lon": -70.49799150000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 641192111,
+      "tags": {
+        "addr:city": "Bangor",
+        "addr:housenumber": "1049",
+        "addr:postcode": "04401",
+        "addr:state": "ME",
+        "addr:street": "Union Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "06:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 207-947-7101",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/me/bangor/1049-union-st"
+      },
+      "center": {
+        "lat": 44.8170218,
+        "lon": -68.80920370000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 681140787,
+      "tags": {
+        "addr:city": "Scarborough",
+        "addr:housenumber": "203;205",
+        "addr:postcode": "04074",
+        "addr:state": "ME",
+        "addr:street": "Route 1",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "phone": "+1 207-883-2915",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/me/scarborough/205-us-route-1"
+      },
+      "center": {
+        "lat": 43.5929085,
+        "lon": -70.33040400000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 696717426,
+      "tags": {
+        "addr:city": "Augusta",
+        "addr:housenumber": "260",
+        "addr:postcode": "04330",
+        "addr:state": "ME",
+        "addr:street": "Civic Center Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 207-623-9129",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/me/augusta/264-civic-center-dr"
+      },
+      "center": {
+        "lat": 44.34820755,
+        "lon": -69.79624739999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 724852786,
+      "tags": {
+        "addr:city": "Sanford",
+        "addr:housenumber": "1340",
+        "addr:postcode": "04073",
+        "addr:state": "ME",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-23:00; Fr-Sa 06:30-00:00; Su 06:30-23:00",
+        "phone": "+1 207-490-5975",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/me/sanford/1340-main-st"
+      },
+      "center": {
+        "lat": 43.41575,
+        "lon": -70.74881110000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 974161782,
+      "tags": {
+        "addr:city": "Windham",
+        "addr:housenumber": "831",
+        "addr:postcode": "04062",
+        "addr:state": "ME",
+        "addr:street": "Roosevelt Trail",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Tu 06:30-10:30; We-Th 06:30-10:30; Fr-Su 06:30-10:30",
+        "phone": "+1 207-892-0270",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/me/windham/831-roosevelt-trail"
+      },
+      "center": {
+        "lat": 43.842143750000005,
+        "lon": -70.44443480000001
+      }
+    }
+  ]
+}

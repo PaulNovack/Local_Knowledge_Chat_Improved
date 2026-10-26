@@ -1,0 +1,71 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ND",
+    "brand": "ihop",
+    "source": "https://download.geofabrik.de/north-america/us/north-dakota-latest.osm.pbf",
+    "source_md5": "9eff3bc6ca09aea0f8e064cee3b44c15",
+    "processed_utc": "2026-10-24T07:12:54.105950+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13807298150,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "lat": 46.8633242,
+      "lon": -100.7713869
+    },
+    {
+      "type": "way",
+      "id": 244344592,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 46.853800750000005,
+        "lon": -96.86245009999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 569357489,
+      "tags": {
+        "addr:city": "Grand Forks",
+        "addr:housenumber": "3951",
+        "addr:state": "ND",
+        "addr:street": "32nd Avenue South",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "phone": "+1-701-775-7001",
+        "website": "https://restaurants.ihop.com/en-us/nd/grand-forks/breakfast-3951-32nd-ave-south-3322"
+      },
+      "center": {
+        "lat": 47.888751799999994,
+        "lon": -97.08547245
+      }
+    }
+  ]
+}

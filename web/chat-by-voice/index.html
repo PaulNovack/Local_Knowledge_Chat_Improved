@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ChatByVoice</title>
   <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/location-override.css">
   <style>
     .shell { grid-template-columns: 320px 1fr; }
     .voice-stage {
@@ -233,6 +234,7 @@
         <select id="topic"><option>Loading…</option></select>
         <button id="refresh" title="Refresh topics" aria-label="Refresh topics">↻</button>
       </div>
+      <label style="display:flex;align-items:center;gap:8px;margin:8px 0 16px;font-size:14px;letter-spacing:0;text-transform:none;font-weight:500"><input id="show-map" type="checkbox" checked> Show Map</label>
       <button id="start" class="secondary" type="button">Start listening</button>
       <button id="stop" class="secondary" type="button" disabled>Stop listening</button>
       <button id="clear" class="secondary" type="button">New conversation</button>
@@ -241,9 +243,17 @@
       <div class="aside-bottom">Powered by the local ASR service<br><span>Questions are transcribed before chat.</span></div>
     </aside>
     <main>
-      <header>
+      <header class="session-header">
         <div><span class="dot"></span> CHAT BY VOICE</div>
-        <button id="download" class="secondary">Export session</button>
+        <div class="session-header-actions">
+          <div id="location-override" class="location-override" hidden>
+            <label class="override-toggle"><input id="override-location-enabled" type="checkbox"><span>Override Location</span></label>
+            <label class="override-coordinate">Latitude<input id="override-latitude" type="number" min="-90" max="90" step="any" inputmode="decimal" autocomplete="off"></label>
+            <label class="override-coordinate">Longitude<input id="override-longitude" type="number" min="-180" max="180" step="any" inputmode="decimal" autocomplete="off"></label>
+            <span id="override-location-status" class="override-location-status" role="status" aria-live="polite"></span>
+          </div>
+          <button id="download" class="secondary">Export session</button>
+        </div>
       </header>
       <section class="voice-stage">
         <div class="voice-orb">
@@ -276,7 +286,9 @@
       </section>
     </main>
   </div>
-  <script src="/video.js?v=20261022-lane-voice-alias" defer></script>
+  <script src="/video.js?v=20261024-pretrip-text-video-intent" defer></script>
+  <script src="/geolocation.js" defer></script>
+  <script src="/locator-directions.js" defer></script>
   <script src="/chat-by-voice/app.js?v=20261022-video-mic-release" defer></script>
 </body>
 </html>

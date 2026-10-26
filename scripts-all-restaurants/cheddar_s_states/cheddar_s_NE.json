@@ -1,0 +1,70 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "cheddar_s",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 608402346,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "12152",
+        "addr:postcode": "68137",
+        "addr:state": "NE",
+        "addr:street": "L Street",
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen",
+        "phone": "+14023304140",
+        "website": "https://cheddars.com/"
+      },
+      "center": {
+        "lat": 41.21311625,
+        "lon": -96.10358980000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 696752888,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:country": "US",
+        "addr:housenumber": "5424",
+        "addr:postcode": "68510",
+        "addr:state": "NE",
+        "addr:street": "O Street",
+        "amenity": "restaurant",
+        "brand": "Cheddar's",
+        "brand:wikidata": "Q5089187",
+        "building": "yes",
+        "check_date": "2025-10-19",
+        "cuisine": "american",
+        "name": "Cheddar's",
+        "official_name": "Cheddar's Scratch Kitchen",
+        "opening_hours": "Mo-Th, Su 11:00-22:00; Fr,Sa 11:00-23:00",
+        "phone": "+1-402-488-0357",
+        "website": "https://www.cheddars.com/locations/ne/lincoln/lincoln/2065"
+      },
+      "center": {
+        "lat": 40.8139512,
+        "lon": -96.64590354999996
+      }
+    }
+  ]
+}

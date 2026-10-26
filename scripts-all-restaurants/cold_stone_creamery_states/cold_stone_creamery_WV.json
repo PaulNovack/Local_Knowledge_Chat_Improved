@@ -1,0 +1,69 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WV",
+    "brand": "cold_stone_creamery",
+    "source": "https://download.geofabrik.de/north-america/us/west-virginia-latest.osm.pbf",
+    "source_md5": "4f8c380a535ff9841f95eae4e1a7f84f",
+    "processed_utc": "2026-10-24T07:19:30.158292+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4324655764,
+      "tags": {
+        "addr:city": "Morgantown",
+        "addr:housenumber": "356",
+        "addr:postcode": "26505",
+        "addr:state": "WV",
+        "addr:street": "High Street",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "mapillary": "1290992835091343",
+        "name": "Cold Stone Creamery"
+      },
+      "lat": 39.6304334,
+      "lon": -79.9552277
+    },
+    {
+      "type": "node",
+      "id": 6186670738,
+      "tags": {
+        "addr:city": "Huntington",
+        "addr:postcode": "25701",
+        "addr:state": "WV",
+        "addr:street": "Pullman Square",
+        "addr:unit": "10",
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery"
+      },
+      "lat": 38.4226387,
+      "lon": -82.4439702
+    },
+    {
+      "type": "node",
+      "id": 11338260771,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Cold Stone Creamery",
+        "brand:wikidata": "Q1094923",
+        "cuisine": "ice_cream",
+        "name": "Cold Stone Creamery"
+      },
+      "lat": 40.0626218,
+      "lon": -80.5950165
+    }
+  ]
+}

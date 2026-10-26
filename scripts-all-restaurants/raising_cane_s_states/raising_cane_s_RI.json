@@ -1,0 +1,62 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "RI",
+    "brand": "raising_cane_s",
+    "source": "https://download.geofabrik.de/north-america/us/rhode-island-latest.osm.pbf",
+    "source_md5": "089bd14c5348318ad280c1c9ab732067",
+    "processed_utc": "2026-10-24T07:15:29.409283+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 185995880,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.72797265,
+        "lon": -71.47973045000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 671941517,
+      "tags": {
+        "addr:city": "Johnston",
+        "addr:housenumber": "1386",
+        "addr:postcode": "02919",
+        "addr:state": "RI",
+        "addr:street": "Atwood Avenue",
+        "amenity": "fast_food",
+        "brand": "Raising Cane's",
+        "brand:wikidata": "Q7285144",
+        "building": "retail",
+        "cuisine": "chicken",
+        "name": "Raising Cane's",
+        "official_name": "Raising Cane's Chicken Fingers",
+        "phone": "+14012289484",
+        "takeaway": "yes",
+        "website": "https://locations.raisingcanes.com/ri/johnston/1386-atwood-ave"
+      },
+      "center": {
+        "lat": 41.8153771,
+        "lon": -71.4966776
+      }
+    }
+  ]
+}

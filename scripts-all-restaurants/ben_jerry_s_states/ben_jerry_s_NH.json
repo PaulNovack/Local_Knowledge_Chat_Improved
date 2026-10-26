@@ -1,0 +1,80 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NH",
+    "brand": "ben_jerry_s",
+    "source": "https://download.geofabrik.de/north-america/us/new-hampshire-latest.osm.pbf",
+    "source_md5": "603b90470df09c1b933955cbfe841c6d",
+    "processed_utc": "2026-10-24T07:09:51.168561+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9382026298,
+      "tags": {
+        "addr:city": "Manchester",
+        "addr:housenumber": "940",
+        "addr:postcode": "03101",
+        "addr:state": "NH",
+        "addr:street": "Elm Street",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "check_date": "2026-06-06",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's",
+        "opening_hours": "Mo-Su 11:00-22:30",
+        "website": "https://www.benjerry.com/elmstreet"
+      },
+      "lat": 42.9915783,
+      "lon": -71.4632835
+    },
+    {
+      "type": "node",
+      "id": 12833919538,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's"
+      },
+      "lat": 44.0527337,
+      "lon": -71.1292419
+    },
+    {
+      "type": "node",
+      "id": 12967094990,
+      "tags": {
+        "addr:city": "Meredith",
+        "addr:country": "US",
+        "addr:housenumber": "312",
+        "addr:postcode": "03253",
+        "addr:state": "NH",
+        "addr:street": "Daniel Webster Highway",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "check_date": "2025-06-30",
+        "contact:facebook": "https://facebook.com/benandjerrysmeredithnh",
+        "contact:instagram": "http://instagram.com/benandjerrysmeredithnh",
+        "contact:twitter": "http://twitter.com/bjmeredithnh",
+        "contact:yelp": "http://www.yelp.com/biz/ben-and-jerrys-ice-cream-meredith",
+        "level": "0",
+        "name": "Ben & Jerry's",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+1-603-279-2200",
+        "website": "https://www.benjerry.com/meredith",
+        "website:menu": "https://www.benjerry.com/meredith/menu"
+      },
+      "lat": 43.6573897,
+      "lon": -71.5000329
+    }
+  ]
+}

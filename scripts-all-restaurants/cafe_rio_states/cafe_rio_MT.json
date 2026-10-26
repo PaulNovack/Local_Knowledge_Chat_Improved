@@ -1,0 +1,67 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MT",
+    "brand": "cafe_rio",
+    "source": "https://download.geofabrik.de/north-america/us/montana-latest.osm.pbf",
+    "source_md5": "abfa2e1bfc18f6c00a77776eb9185b11",
+    "processed_utc": "2026-10-24T07:09:10.271084+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5275838452,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cafe Rio",
+        "brand:wikidata": "Q5017108",
+        "cuisine": "mexican",
+        "name": "Cafe Rio"
+      },
+      "lat": 47.4938927,
+      "lon": -111.2916715
+    },
+    {
+      "type": "node",
+      "id": 9488020834,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Cafe Rio",
+        "brand:wikidata": "Q5017108",
+        "cuisine": "mexican",
+        "name": "Cafe Rio"
+      },
+      "lat": 46.8867248,
+      "lon": -114.0363181
+    },
+    {
+      "type": "way",
+      "id": 844093744,
+      "tags": {
+        "addr:city": "Billings",
+        "addr:housenumber": "2816",
+        "addr:postcode": "59102",
+        "addr:state": "MT",
+        "addr:street": "King Avenue West",
+        "amenity": "restaurant",
+        "brand": "Cafe Rio",
+        "brand:wikidata": "Q5017108",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Cafe Rio",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 45.75470745,
+        "lon": -108.58420565
+      }
+    }
+  ]
+}

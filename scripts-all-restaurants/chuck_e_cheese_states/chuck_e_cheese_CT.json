@@ -1,0 +1,98 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "chuck_e_cheese",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6028680835,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "check_date": "2018-11-01",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese"
+      },
+      "lat": 41.5582229,
+      "lon": -73.0103627
+    },
+    {
+      "type": "node",
+      "id": 9389106677,
+      "tags": {
+        "addr:city": "Newington",
+        "addr:housenumber": "3075",
+        "addr:postcode": "06111",
+        "addr:state": "CT",
+        "addr:street": "Berlin Turnpike",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/ct/newington/3075-berlin-turnpike"
+      },
+      "lat": 41.6663455,
+      "lon": -72.7221975
+    },
+    {
+      "type": "way",
+      "id": 208127237,
+      "tags": {
+        "addr:city": "Orange",
+        "addr:housenumber": "82",
+        "addr:postcode": "06477",
+        "addr:state": "CT",
+        "addr:street": "Boston Post Road",
+        "alcohol": "beer;wine",
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "brewery": "Budwiser;Bud Light",
+        "building": "yes",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "phone": "+1-203-799-3202",
+        "website": "https://locations.chuckecheese.com/us/ct/orange/82-boston-post-rd."
+      },
+      "center": {
+        "lat": 41.2777955,
+        "lon": -72.98705130000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 291987077,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chuck E. Cheese",
+        "brand:wikidata": "Q2438391",
+        "building": "yes",
+        "cuisine": "pizza",
+        "leisure": "amusement_arcade",
+        "name": "Chuck E. Cheese",
+        "website": "https://locations.chuckecheese.com/us/ct/manchester/82-buckland-st."
+      },
+      "center": {
+        "lat": 41.7990157,
+        "lon": -72.55354409999995
+      }
+    }
+  ]
+}

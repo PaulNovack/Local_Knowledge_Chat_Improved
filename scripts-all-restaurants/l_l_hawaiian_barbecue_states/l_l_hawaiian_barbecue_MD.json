@@ -1,0 +1,61 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "l_l_hawaiian_barbecue",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12363567955,
+      "tags": {
+        "addr:city": "Rockville",
+        "addr:housenumber": "785",
+        "addr:postcode": "20852",
+        "addr:street": "Rockville Pike",
+        "addr:unit": "G",
+        "amenity": "fast_food",
+        "brand": "L&L Hawaiian Barbecue",
+        "brand:wikidata": "Q6455441",
+        "cuisine": "hawaiian",
+        "name": "L&L Hawaiian Barbecue",
+        "opening_hours": "off",
+        "takeaway": "yes",
+        "website": "https://www.hawaiianbarbecue.com/locations/rockville/"
+      },
+      "lat": 39.0770114,
+      "lon": -77.1414548
+    },
+    {
+      "type": "node",
+      "id": 13624196567,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:housenumber": "8765",
+        "addr:postcode": "21045",
+        "addr:state": "MD",
+        "addr:street": "Centre Park Drive",
+        "amenity": "fast_food",
+        "brand": "L&L Hawaiian Barbecue",
+        "brand:wikidata": "Q6455441",
+        "cuisine": "hawaiian",
+        "name": "L&L Hawaiian Barbecue",
+        "opening_hours": "Mo-Su 11:00-20:30",
+        "takeaway": "yes",
+        "website": "https://www.hawaiianbarbecue.com/locations/columbia"
+      },
+      "lat": 39.226807,
+      "lon": -76.8175105
+    }
+  ]
+}

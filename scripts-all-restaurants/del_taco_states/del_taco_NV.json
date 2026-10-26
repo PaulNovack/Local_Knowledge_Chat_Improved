@@ -1,0 +1,967 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "del_taco",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4416233907,
+      "tags": {
+        "addr:city": "Reno",
+        "addr:county": "Washoe",
+        "addr:housenumber": "10140",
+        "addr:postcode": "89503",
+        "addr:state": "NV",
+        "addr:street": "North Mccarran Boulevard",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "check_date": "2023-07-29",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Del Taco",
+        "opening_hours": "06:00-24:00",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://locations.deltaco.com/us/nv/reno/10140-mccarran-rd",
+        "wheelchair": "yes"
+      },
+      "lat": 39.526243,
+      "lon": -119.8621286
+    },
+    {
+      "type": "node",
+      "id": 6505374755,
+      "tags": {
+        "addr:housenumber": "882",
+        "addr:postcode": "89706",
+        "addr:street": "East College Parkway",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "cuisine": "mexican",
+        "internet_access": "wlan",
+        "name": "Del Taco",
+        "opening_hours": "Mo-Su 06:00-00:00",
+        "phone": "+1-775-882-3134",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/carson-city/822-e-college-pkwy"
+      },
+      "lat": 39.1906997,
+      "lon": -119.7580095
+    },
+    {
+      "type": "node",
+      "id": 11421785246,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "cuisine": "mexican",
+        "level": "2",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/las-vegas/3850-s-las-vegas-blvd"
+      },
+      "lat": 36.0989245,
+      "lon": -115.175183
+    },
+    {
+      "type": "node",
+      "id": 11795642953,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "cuisine": "mexican",
+        "level": "1",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/las-vegas/3785-las-vegas-blvd"
+      },
+      "lat": 36.1030259,
+      "lon": -115.1722658
+    },
+    {
+      "type": "node",
+      "id": 12677312218,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "cuisine": "mexican",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "opening_hours": "07:00-24:00",
+        "phone": "+1 702-642-2881",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/north-las-vegas/1811-w-craig-rd"
+      },
+      "lat": 36.2390547,
+      "lon": -115.1678274
+    },
+    {
+      "type": "node",
+      "id": 13542134632,
+      "tags": {
+        "addr:city": "West Wendover",
+        "addr:housenumber": "800",
+        "addr:postcode": "89883",
+        "addr:state": "NV",
+        "addr:street": "Leppy Hills Boulevard",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "takeaway": "yes"
+      },
+      "lat": 40.7419841,
+      "lon": -114.0580885
+    },
+    {
+      "type": "way",
+      "id": 194118139,
+      "tags": {
+        "addr:city": "Mesquite",
+        "addr:housenumber": "20",
+        "addr:postcode": "89027",
+        "addr:state": "NV",
+        "addr:street": "Falcon Ridge Parkway",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Del Taco",
+        "opening_hours": "Mo-Su 06:00-01:00",
+        "phone": "+1 702-346-1719",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/mesquite/20-falcon-ridge-parkway"
+      },
+      "center": {
+        "lat": 36.804434650000005,
+        "lon": -114.1084816
+      }
+    },
+    {
+      "type": "way",
+      "id": 242317249,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/carson-city/3780-hwy-395"
+      },
+      "center": {
+        "lat": 39.11098025,
+        "lon": -119.77453739999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 273166534,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "1197",
+        "addr:postcode": "89119",
+        "addr:state": "NV",
+        "addr:street": "East Tropicana Avenue",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "retail",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Del Taco",
+        "phone": "+1-702-597-1175",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/las-vegas/1197-e-tropicana"
+      },
+      "center": {
+        "lat": 36.1006475,
+        "lon": -115.13725525000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 340238378,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "5526",
+        "addr:postcode": "89122",
+        "addr:state": "NV",
+        "addr:street": "Boulder Highway",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "retail",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "opening_hours": "24/7",
+        "phone": "+1-702-435-8151",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/las-vegas/5526-boulder-hwy"
+      },
+      "center": {
+        "lat": 36.102079700000004,
+        "lon": -115.05314245
+      }
+    },
+    {
+      "type": "way",
+      "id": 370282944,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.13003185,
+        "lon": -115.10336884999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 372000687,
+      "tags": {
+        "addr:city": "Reno",
+        "addr:county": "Washoe",
+        "addr:housenumber": "12490",
+        "addr:postcode": "89521",
+        "addr:state": "NV",
+        "addr:street": "Old Virginia Road",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "source": "WC GIS",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/reno/12490-old-virginia-rd"
+      },
+      "center": {
+        "lat": 39.420878,
+        "lon": -119.75367534999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 385795195,
+      "tags": {
+        "addr:city": "Reno",
+        "addr:county": "Washoe",
+        "addr:housenumber": "5890",
+        "addr:postcode": "89502",
+        "addr:state": "NV",
+        "addr:street": "South Virginia Street",
+        "addr:unit": "6",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "check_date": "2023-07-31",
+        "cuisine": "mexican",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Del Taco",
+        "source": "WC GIS",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://locations.deltaco.com/us/nv/reno/5890-s-virginia-st"
+      },
+      "center": {
+        "lat": 39.47196355,
+        "lon": -119.78638504999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 462999011,
+      "tags": {
+        "addr:housenumber": "8471",
+        "addr:postcode": "89117",
+        "addr:state": "NV",
+        "addr:street": "West Sahara Avenue",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "opening_hours": "24/7",
+        "phone": "+1 702-240-8450",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/las-vegas/8471-west-sahara-ave"
+      },
+      "center": {
+        "lat": 36.1436284,
+        "lon": -115.27647089999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 553812538,
+      "tags": {
+        "addr:housenumber": "1801",
+        "addr:postcode": "89102",
+        "addr:state": "NV",
+        "addr:street": "West Charleston Boulevard",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "opening_hours": "24/7",
+        "phone": "+1-702-384-0264",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/las-vegas/1801-w-charleston-blvd"
+      },
+      "center": {
+        "lat": 36.158562399999994,
+        "lon": -115.16580680000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 616347928,
+      "tags": {
+        "addr:city": "Sparks",
+        "addr:county": "Washoe",
+        "addr:housenumber": "252",
+        "addr:postcode": "89436",
+        "addr:state": "NV",
+        "addr:street": "Los Altos Parkway",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "commercial",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "source": "WC GIS",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/sparks/252-los-altos-pkwy"
+      },
+      "center": {
+        "lat": 39.583678899999995,
+        "lon": -119.74097455000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 668810377,
+      "tags": {
+        "addr:city": "Reno",
+        "addr:county": "Washoe",
+        "addr:housenumber": "2920",
+        "addr:postcode": "89512",
+        "addr:state": "NV",
+        "addr:street": "Northtowne Lane",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "source": "WC GIS",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/reno/2920-northtowne-ln"
+      },
+      "center": {
+        "lat": 39.55719105,
+        "lon": -119.7815478
+      }
+    },
+    {
+      "type": "way",
+      "id": 789362043,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "6740",
+        "addr:postcode": "89149-1358",
+        "addr:state": "NV",
+        "addr:street": "North Hualapai Way",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "phone": "+1-702-645-1255",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/las-vegas/6740-north-hualapai-way"
+      },
+      "center": {
+        "lat": 36.28356655,
+        "lon": -115.31453445
+      }
+    },
+    {
+      "type": "way",
+      "id": 819991700,
+      "tags": {
+        "addr:housenumber": "3922",
+        "addr:postcode": "89139",
+        "addr:state": "NV",
+        "addr:street": "Blue Diamond Road",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/las-vegas/3922-blue-diamond-road"
+      },
+      "center": {
+        "lat": 36.04017985,
+        "lon": -115.19191914999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 942766896,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "10320",
+        "addr:postcode": "89135",
+        "addr:state": "NV",
+        "addr:street": "West Charleston Boulevard",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "commercial",
+        "contact:phone": "+1 702-240-0049",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Del Taco",
+        "opening_hours": "24/7",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/las-vegas/10320-w-charleston-blvd"
+      },
+      "center": {
+        "lat": 36.15944775,
+        "lon": -115.32096385
+      }
+    },
+    {
+      "type": "way",
+      "id": 959657045,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "7165",
+        "addr:postcode": "89118",
+        "addr:state": "NV",
+        "addr:street": "South Rainbow Boulevard",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "check_date": "2022-06-22",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/las-vegas/7165-s-rainbow-blvd"
+      },
+      "center": {
+        "lat": 36.057777349999995,
+        "lon": -115.24376335
+      }
+    },
+    {
+      "type": "way",
+      "id": 973292449,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://locations.deltaco.com/us/nv/las-vegas/6311-centennial-center-blvd",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 36.273847,
+        "lon": -115.26817949999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 978651492,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "9680",
+        "addr:postcode": "89123",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "opening_hours": "24/7",
+        "opening_hours:drive_through": "24/7",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:google_pay": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "phone": "+1 702-260-6931",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/las-vegas/9680-las-vegas-blvd-south",
+        "website:menu": "https://deltaco.com/menu"
+      },
+      "center": {
+        "lat": 36.014607049999995,
+        "lon": -115.17179914999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 984216873,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "8125",
+        "addr:postcode": "89178",
+        "addr:state": "NV",
+        "addr:street": "Blue Diamond Road",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "commercial",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "opening_hours": "Su-Th 07:00-12:00, Fr,Sa 07:00-02:00",
+        "phone": "+1-702-293-3540",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/las-vegas/8125-blue-diamond-rd"
+      },
+      "center": {
+        "lat": 36.019598450000004,
+        "lon": -115.26810864999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1001217306,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "5975",
+        "addr:postcode": "89119",
+        "addr:state": "NV",
+        "addr:street": "South Eastern Avenue",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "retail",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/las-vegas/5975-south-eastern-ave"
+      },
+      "center": {
+        "lat": 36.080888,
+        "lon": -115.11937799999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1017443582,
+      "tags": {
+        "addr:housenumber": "348",
+        "addr:postcode": "89110",
+        "addr:street": "North Nellis Boulevard",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Del Taco",
+        "opening_hours": "24/7",
+        "phone": "+17024525741",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/las-vegas/348-n-nellis-blvd"
+      },
+      "center": {
+        "lat": 36.1662585,
+        "lon": -115.06174450000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1019621335,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "150",
+        "addr:postcode": "89015",
+        "addr:state": "NV",
+        "addr:street": "N Boulder Highway",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/henderson/150-north-boulder-highway"
+      },
+      "center": {
+        "lat": 36.04108,
+        "lon": -114.98273749999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1117022444,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "5955",
+        "addr:postcode": "89103",
+        "addr:state": "NV",
+        "addr:street": "West Tropicana Avenue",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "phone": "+1-702-220-9402",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.0996896,
+        "lon": -115.22322344999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1117031381,
+      "tags": {
+        "addr:city": "North Las Vegas",
+        "addr:housenumber": "2531",
+        "addr:postcode": "89030",
+        "addr:state": "NV",
+        "addr:street": "East Craig Road",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "restaurant",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "opening_hours": "Mo-Th 06:00-24:00; Fr 06:00-04:00; Sa 04:00-04:00; Su 04:00-24:00",
+        "phone": "+1-702-240-8452",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/north-las-vegas/2531-east-craig-road"
+      },
+      "center": {
+        "lat": 36.23937465,
+        "lon": -115.11609245
+      }
+    },
+    {
+      "type": "way",
+      "id": 1139057063,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/las-vegas/6160-n-decatur-blvd"
+      },
+      "center": {
+        "lat": 36.27194655,
+        "lon": -115.20626300000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1154869043,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "550",
+        "addr:postcode": "89014",
+        "addr:state": "NV",
+        "addr:street": "Marks Street",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "phone": "+1 702-435-0130",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/henderson/550-marks-st"
+      },
+      "center": {
+        "lat": 36.06093775,
+        "lon": -115.03609044999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1158581598,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "7757",
+        "addr:postcode": "89143-1102",
+        "addr:state": "NV",
+        "addr:street": "North El Capitan Way",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "retail",
+        "contact:facebook": "https://www.facebook.com/419516351421357",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "phone": "+1-702-396-0381",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/las-vegas/7757-n-el-capitan-way"
+      },
+      "center": {
+        "lat": 36.30259755,
+        "lon": -115.28476425000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1163528305,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "135",
+        "addr:postcode": "89074",
+        "addr:state": "NV",
+        "addr:street": "North Stephanie Street",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "commercial",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "opening_hours": "Mo-Su 07:00-24:00",
+        "phone": "+1-702-856-1886",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/henderson/135-n-stephanie-st"
+      },
+      "center": {
+        "lat": 36.0355463,
+        "lon": -115.04750884999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1235647420,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:country": "US",
+        "addr:housenumber": "280",
+        "addr:postcode": "89107",
+        "addr:state": "NV",
+        "addr:street": "North Jones Boulevard",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "commercial",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.175741599999995,
+        "lon": -115.22373445
+      }
+    },
+    {
+      "type": "way",
+      "id": 1236491433,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "commercial",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/las-vegas/5180-s-fort-apache-road",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 36.09454275,
+        "lon": -115.29671789999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1243927709,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "511",
+        "addr:postcode": "89145",
+        "addr:state": "NV",
+        "addr:street": "South Rainbow Boulevard",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "retail",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.16619865,
+        "lon": -115.24480060000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1244100537,
+      "tags": {
+        "addr:city": "North Las Vegas",
+        "addr:housenumber": "2420",
+        "addr:postcode": "89130",
+        "addr:state": "NV",
+        "addr:street": "North Rancho Drive",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Del Taco",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.20368685,
+        "lon": -115.19930614999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1266699912,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "4800",
+        "addr:postcode": "89141",
+        "addr:state": "NV",
+        "addr:street": "West Cactus Avenue",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "opening_hours": "Mo-Su 07:00-24:00",
+        "phone": "+1-702-269-0799",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/las-vegas/4800-w-cactus-avenue?",
+        "website:menu": "https://order.deltaco.com/menu/del-taco-1175"
+      },
+      "center": {
+        "lat": 35.9990648,
+        "lon": -115.20560569999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1363005787,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "898",
+        "addr:postcode": "89015",
+        "addr:state": "NV",
+        "addr:street": "South Boulder Highway",
+        "amenity": "fast_food",
+        "brand": "Del Taco",
+        "brand:wikidata": "Q1183818",
+        "building": "retail",
+        "contact:phone": "+1 702-565-9990",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Del Taco",
+        "takeaway": "yes",
+        "website": "https://locations.deltaco.com/us/nv/henderson/898-s-boulder-hwy"
+      },
+      "center": {
+        "lat": 36.025023399999995,
+        "lon": -114.96426135000002
+      }
+    }
+  ]
+}

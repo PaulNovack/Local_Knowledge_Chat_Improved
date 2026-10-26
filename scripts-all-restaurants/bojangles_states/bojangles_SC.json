@@ -1,0 +1,3380 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SC",
+    "brand": "bojangles",
+    "source": "https://download.geofabrik.de/north-america/us/south-carolina-latest.osm.pbf",
+    "source_md5": "488018afb1e1040732b7a791d4ebffae",
+    "processed_utc": "2026-10-24T07:15:46.592450+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1143856514,
+      "tags": {
+        "addr:city": "Darlington",
+        "addr:housenumber": "1524",
+        "addr:postcode": "29532",
+        "addr:state": "SC",
+        "addr:street": "South Main Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "takeaway": "yes"
+      },
+      "lat": 34.2781194,
+      "lon": -79.8548847
+    },
+    {
+      "type": "node",
+      "id": 1243723719,
+      "tags": {
+        "addr:city": "Charleston",
+        "addr:housenumber": "2941",
+        "addr:postcode": "29418",
+        "addr:state": "SC",
+        "addr:street": "West Montague Avenue",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 843-554-7422",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/charleston/2941-w--montague-avenue.html"
+      },
+      "lat": 32.868952,
+      "lon": -80.0119245
+    },
+    {
+      "type": "node",
+      "id": 1244573192,
+      "tags": {
+        "addr:city": "Wando",
+        "addr:housenumber": "2514",
+        "addr:postcode": "29492",
+        "addr:state": "SC",
+        "addr:street": "Clements Ferry Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 843-849-7857",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/wando/2514-clements-ferry-road.html"
+      },
+      "lat": 32.8947388,
+      "lon": -79.9237567
+    },
+    {
+      "type": "node",
+      "id": 1289511888,
+      "tags": {
+        "addr:city": "Santee",
+        "addr:housenumber": "9044",
+        "addr:postcode": "29142",
+        "addr:state": "SC",
+        "addr:street": "Old Number Six Highway",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-854-0285",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/santee/9044-old-st--matthews-rd.html"
+      },
+      "lat": 33.4838683,
+      "lon": -80.4691749
+    },
+    {
+      "type": "node",
+      "id": 1757984889,
+      "tags": {
+        "addr:city": "Florence",
+        "addr:housename": "Bojangles",
+        "addr:housenumber": "1224",
+        "addr:postcode": "29501",
+        "addr:state": "SC",
+        "addr:street": "Celebration Boulevard",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 843-676-1091",
+        "source": "Bing, personal knowledge",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/florence/1224-celebration-blvd.html"
+      },
+      "lat": 34.1740491,
+      "lon": -79.8336461
+    },
+    {
+      "type": "node",
+      "id": 2503331101,
+      "tags": {
+        "addr:city": "Anderson",
+        "addr:housenumber": "2041",
+        "addr:postcode": "29621",
+        "addr:state": "SC",
+        "addr:street": "East Greenville Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-226-3899",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/anderson/2041-e-greenville-street.html"
+      },
+      "lat": 34.5484084,
+      "lon": -82.6315319
+    },
+    {
+      "type": "node",
+      "id": 2694672157,
+      "tags": {
+        "addr:city": "West Columbia",
+        "addr:housenumber": "1200",
+        "addr:postcode": "29169",
+        "addr:state": "SC",
+        "addr:street": "Augusta Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-791-3767",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/w--columbia/1200-augusta-road.html"
+      },
+      "lat": 33.9879001,
+      "lon": -81.0735244
+    },
+    {
+      "type": "node",
+      "id": 2709626922,
+      "tags": {
+        "addr:city": "Conway",
+        "addr:housenumber": "1766",
+        "addr:postcode": "29526",
+        "addr:state": "SC",
+        "addr:street": "SC 544",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 843-349-7000",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/conway/1766-hwy--544.html"
+      },
+      "lat": 33.7693029,
+      "lon": -79.0211431
+    },
+    {
+      "type": "node",
+      "id": 2942760474,
+      "tags": {
+        "addr:city": "Manning",
+        "addr:floor": "G",
+        "addr:housenumber": "2004",
+        "addr:postcode": "29102",
+        "addr:state": "SC",
+        "addr:street": "Paxville Highway",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "check_date": "2025-11-30",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "level": "0",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Mo-Sa 05:00-22:00; Su 06:00-22:00",
+        "phone": "+1 803-433-0014",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/manning/2004-paxville-hwy.html",
+        "wheelchair": "yes"
+      },
+      "lat": 33.6980854,
+      "lon": -80.2269555
+    },
+    {
+      "type": "node",
+      "id": 3020042197,
+      "tags": {
+        "addr:city": "Greer",
+        "addr:housenumber": "900",
+        "addr:postcode": "29650",
+        "addr:state": "SC",
+        "addr:street": "South Buncombe Road",
+        "alt_name": "Bojangles",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-968-8108",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/greer/900-s-buncombe-road.html"
+      },
+      "lat": 34.9137692,
+      "lon": -82.2386629
+    },
+    {
+      "type": "node",
+      "id": 3137599738,
+      "tags": {
+        "addr:city": "Myrtle Beach",
+        "addr:housenumber": "10594",
+        "addr:postcode": "29572",
+        "addr:state": "SC",
+        "addr:street": "Kings Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "contact:facebook": "Bojangles",
+        "contact:instagram": "bojangles",
+        "contact:twitter": "Bojangles",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "level": "0",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Mo-Su 00:00-00:00",
+        "phone": "+1 843-449-9493",
+        "self_service": "partially",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/myrtle-beach/10594-kings-road.html"
+      },
+      "lat": 33.7836801,
+      "lon": -78.7697543
+    },
+    {
+      "type": "node",
+      "id": 4987083325,
+      "tags": {
+        "addr:city": "Chapin",
+        "addr:housenumber": "566",
+        "addr:postcode": "29036",
+        "addr:state": "SC",
+        "addr:street": "Columbia Avenue",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Su 06:00-22:00, Mo-Sa 05:30-22:00",
+        "outdoor_seating": "no",
+        "phone": "+1 803-932-2502",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/chapin/566-columbia-ave.html"
+      },
+      "lat": 34.1752959,
+      "lon": -81.3271002
+    },
+    {
+      "type": "node",
+      "id": 5268645070,
+      "tags": {
+        "addr:city": "Lexington",
+        "addr:housenumber": "4863",
+        "addr:postcode": "20973",
+        "addr:state": "SC",
+        "addr:street": "Augusta Highway",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-808-9314",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/lexington/4863-augusta-highway.html"
+      },
+      "lat": 33.9772469,
+      "lon": -81.1902316
+    },
+    {
+      "type": "node",
+      "id": 5275018081,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:housenumber": "2423",
+        "addr:postcode": "29210",
+        "addr:state": "SC",
+        "addr:street": "Broad River Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-731-4977",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/columbia/2423-broad-river-road.html"
+      },
+      "lat": 34.0422577,
+      "lon": -81.0979557
+    },
+    {
+      "type": "node",
+      "id": 5335486215,
+      "tags": {
+        "addr:city": "Cayce",
+        "addr:housenumber": "3021",
+        "addr:postcode": "29172",
+        "addr:state": "SC",
+        "addr:street": "Charleston Highway",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-926-5535",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/cayce/3021-charleston-hwy.html"
+      },
+      "lat": 33.9286348,
+      "lon": -81.0762594
+    },
+    {
+      "type": "node",
+      "id": 5502688475,
+      "tags": {
+        "addr:city": "Seneca",
+        "addr:housenumber": "1011",
+        "addr:postcode": "29678",
+        "addr:state": "SC",
+        "addr:street": "Highway 123 By-Pass",
+        "amenity": "fast_food",
+        "branch": "of Seneca",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "outdoor_seating": "yes",
+        "phone": "+1 864-888-4032",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/seneca/1011-hwy-123-by-pass.html"
+      },
+      "lat": 34.6927271,
+      "lon": -82.9756656
+    },
+    {
+      "type": "node",
+      "id": 6169236799,
+      "tags": {
+        "addr:city": "Blythewood",
+        "addr:housenumber": "230",
+        "addr:postcode": "29016",
+        "addr:state": "SC",
+        "addr:street": "Blythewood Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-691-0305",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/blythewood/230-blythewood-rd.html"
+      },
+      "lat": 34.214854,
+      "lon": -80.9800107
+    },
+    {
+      "type": "node",
+      "id": 8251897611,
+      "tags": {
+        "addr:city": "Kershaw",
+        "addr:housenumber": "516",
+        "addr:postcode": "29067",
+        "addr:state": "SC",
+        "addr:street": "Hampton Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-475-7000",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/kershaw/516-hampton-street.html"
+      },
+      "lat": 34.5402793,
+      "lon": -80.5829333
+    },
+    {
+      "type": "node",
+      "id": 8410411042,
+      "tags": {
+        "addr:city": "Liberty",
+        "addr:housenumber": "7239",
+        "addr:postcode": "29657",
+        "addr:state": "SC",
+        "addr:street": "Moorefield Memorial Highway",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-372-6669",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/liberty/7239-moorefield-memorial-highway.html"
+      },
+      "lat": 34.7768825,
+      "lon": -82.6726463
+    },
+    {
+      "type": "node",
+      "id": 8988156302,
+      "tags": {
+        "addr:city": "West Columbia",
+        "addr:housenumber": "2865",
+        "addr:postcode": "29169",
+        "addr:state": "SC",
+        "addr:street": "Sunset Boulevard",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-794-1417",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/west-columbia/2865-sunset-blvd.html"
+      },
+      "lat": 34.0047597,
+      "lon": -81.1179181
+    },
+    {
+      "type": "node",
+      "id": 9385811998,
+      "tags": {
+        "addr:city": "Lugoff",
+        "addr:housenumber": "497",
+        "addr:postcode": "29078",
+        "addr:state": "SC",
+        "addr:street": "Highway 601 South",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Mo-Sa 05:30-22:00; Su 06:00-22:00",
+        "phone": "+1 803 408 6718",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/lugoff/497-highway-601-south.html"
+      },
+      "lat": 34.1944367,
+      "lon": -80.6882673
+    },
+    {
+      "type": "node",
+      "id": 9672215084,
+      "tags": {
+        "addr:city": "Georgetown",
+        "addr:housenumber": "1305",
+        "addr:postcode": "29440",
+        "addr:state": "SC",
+        "addr:street": "North Frazier Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Mo-Su 06:00-21:00",
+        "phone": "+1 843-436-4646",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/georgetown/1305-n--frazier-st.html"
+      },
+      "lat": 33.3925716,
+      "lon": -79.2895688
+    },
+    {
+      "type": "node",
+      "id": 9674420668,
+      "tags": {
+        "addr:city": "Aiken",
+        "addr:housenumber": "2644",
+        "addr:postcode": "29805",
+        "addr:state": "SC",
+        "addr:street": "Columbia Highway",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-594-3900",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/aiken/2644-columbia-highway.html"
+      },
+      "lat": 33.6625433,
+      "lon": -81.6736992
+    },
+    {
+      "type": "node",
+      "id": 9965892817,
+      "tags": {
+        "addr:city": "Seneca",
+        "addr:housenumber": "10906",
+        "addr:postcode": "29678",
+        "addr:state": "SC",
+        "addr:street": "Clemson Boulevard",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-973-7398",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/seneca/10906-clemson-blvd.html"
+      },
+      "lat": 34.6947142,
+      "lon": -82.8781852
+    },
+    {
+      "type": "node",
+      "id": 10109748234,
+      "tags": {
+        "addr:city": "North Augusta",
+        "addr:housenumber": "1010",
+        "addr:postcode": "29860",
+        "addr:state": "SC",
+        "addr:street": "Edgefield Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-441-3957",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/north-augusta/1010-edgefield-road.html"
+      },
+      "lat": 33.5687209,
+      "lon": -81.9385581
+    },
+    {
+      "type": "node",
+      "id": 11270634896,
+      "tags": {
+        "addr:city": "Summerville",
+        "addr:housenumber": "1221",
+        "addr:postcode": "29483",
+        "addr:state": "SC",
+        "addr:street": "North Main Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 843-695-8474",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/summerville/1221-n--main-street.html"
+      },
+      "lat": 33.0354799,
+      "lon": -80.157356
+    },
+    {
+      "type": "node",
+      "id": 11364643236,
+      "tags": {
+        "addr:city": "Cheraw",
+        "addr:housenumber": "881",
+        "addr:postcode": "29520",
+        "addr:state": "SC",
+        "addr:street": "Chesterfield Highway",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 843-690-4000",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/cheraw/881-chesterfield-hwy.html"
+      },
+      "lat": 34.696604,
+      "lon": -79.9239188
+    },
+    {
+      "type": "node",
+      "id": 11658306625,
+      "tags": {
+        "addr:city": "North Myrtle Beach",
+        "addr:housenumber": "1594",
+        "addr:postcode": "29582",
+        "addr:state": "SC",
+        "addr:street": "US Highway 17 North",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Mo-Fr 05:30-22:00",
+        "phone": "+1-843-663-1658",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/north-myrtle-beach/1594-hwy-17-north.html"
+      },
+      "lat": 33.8431984,
+      "lon": -78.6587196
+    },
+    {
+      "type": "node",
+      "id": 11753140174,
+      "tags": {
+        "addr:city": "Ravenel",
+        "addr:housenumber": "6270",
+        "addr:postcode": "29470",
+        "addr:state": "SC",
+        "addr:street": "Savannah Highway",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "check_date": "2024-03-22",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 843-564-2212",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/ravenel/6270-savannah-highway.html"
+      },
+      "lat": 32.7770981,
+      "lon": -80.247689
+    },
+    {
+      "type": "node",
+      "id": 11888287115,
+      "tags": {
+        "addr:city": "Rock Hill",
+        "addr:housenumber": "4940",
+        "addr:postcode": "29732",
+        "addr:state": "SC",
+        "addr:street": "Old York Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-328-2026",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/rock-hill/4940-old-york-road.html"
+      },
+      "lat": 34.9828561,
+      "lon": -81.0911632
+    },
+    {
+      "type": "node",
+      "id": 11904744436,
+      "tags": {
+        "addr:city": "Taylors",
+        "addr:housenumber": "2617",
+        "addr:postcode": "29687",
+        "addr:state": "SC",
+        "addr:street": "Locust Hill Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "takeaway": "yes"
+      },
+      "lat": 34.9606494,
+      "lon": -82.3087825
+    },
+    {
+      "type": "node",
+      "id": 11980140901,
+      "tags": {
+        "addr:city": "Charleston",
+        "addr:housenumber": "740",
+        "addr:postcode": "29412",
+        "addr:state": "SC",
+        "addr:street": "Folly Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 843-795-8323",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/charleston/740-folly-road.html"
+      },
+      "lat": 32.7431025,
+      "lon": -79.9681789
+    },
+    {
+      "type": "node",
+      "id": 12179643530,
+      "tags": {
+        "addr:city": "North Augusta",
+        "addr:housenumber": "100",
+        "addr:postcode": "29841",
+        "addr:state": "SC",
+        "addr:street": "East Hugh Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1-803-594-3701",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/north-augusta/100-hugh-street.html"
+      },
+      "lat": 33.5169225,
+      "lon": -81.9566531
+    },
+    {
+      "type": "node",
+      "id": 12422129503,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "takeaway": "yes"
+      },
+      "lat": 33.9933979,
+      "lon": -81.3087509
+    },
+    {
+      "type": "node",
+      "id": 12477005752,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:housenumber": "930",
+        "addr:postcode": "29201",
+        "addr:state": "SC",
+        "addr:street": "Elmwood Avenue",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-779-5082",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/columbia/930-elmwood-ave.html"
+      },
+      "lat": 34.0118294,
+      "lon": -81.042311
+    },
+    {
+      "type": "node",
+      "id": 13043311749,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "takeaway": "yes"
+      },
+      "lat": 33.5226435,
+      "lon": -80.8854347
+    },
+    {
+      "type": "node",
+      "id": 13353738645,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "cuisine": "chicken",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "takeaway": "yes"
+      },
+      "lat": 34.1679811,
+      "lon": -79.776996
+    },
+    {
+      "type": "node",
+      "id": 14047789501,
+      "tags": {
+        "addr:housenumber": "1617",
+        "addr:postcode": "29526",
+        "addr:street": "Church Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "check_date": "2026-07-24",
+        "check_date:opening_hours": "2026-07-24",
+        "cuisine": "chicken",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Mo-Su 05:30-22:00",
+        "takeaway": "yes"
+      },
+      "lat": 33.8464178,
+      "lon": -79.0654437
+    },
+    {
+      "type": "way",
+      "id": 43793522,
+      "tags": {
+        "addr:city": "Myrtle Beach",
+        "addr:country": "US",
+        "addr:housenumber": "937",
+        "addr:postcode": "29577",
+        "addr:state": "SC",
+        "addr:street": "Frontage Road East",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 843-839-8880",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/myrtle-beach/1957-10th-ave.html"
+      },
+      "center": {
+        "lat": 33.7132058,
+        "lon": -78.90007320000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 185026854,
+      "tags": {
+        "addr:city": "Rock Hill",
+        "addr:housenumber": "2382",
+        "addr:postcode": "29732",
+        "addr:state": "SC",
+        "addr:street": "Cherry Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-327-6573",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/rock-hill/2382-cherry-road.html"
+      },
+      "center": {
+        "lat": 34.9688383,
+        "lon": -80.99427655
+      }
+    },
+    {
+      "type": "way",
+      "id": 288666198,
+      "tags": {
+        "addr:city": "Charleston",
+        "addr:housenumber": "2508",
+        "addr:postcode": "29418",
+        "addr:state": "SC",
+        "addr:street": "Ashley Phosphate",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 843-797-1081",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/charleston/2508-ashley-phosphate.html"
+      },
+      "center": {
+        "lat": 32.9345098,
+        "lon": -80.05097035
+      }
+    },
+    {
+      "type": "way",
+      "id": 319341596,
+      "tags": {
+        "addr:city": "Richburg",
+        "addr:housenumber": "3229",
+        "addr:postcode": "29729",
+        "addr:state": "SC",
+        "addr:street": "Lancaster Highway",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-789-5573",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/richburg/3229-lancaster-hwy.html"
+      },
+      "center": {
+        "lat": 34.744432149999994,
+        "lon": -81.02976045000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 360764405,
+      "tags": {
+        "addr:city": "Travelers Rest",
+        "addr:housenumber": "135",
+        "addr:postcode": "29690",
+        "addr:state": "SC",
+        "addr:street": "South End Circle",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "restaurant",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-834-1830",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/travelers-rest/135-s-end-circle.html"
+      },
+      "center": {
+        "lat": 34.96125335,
+        "lon": -82.43511269999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 366318223,
+      "tags": {
+        "addr:city": "Fountain Inn",
+        "addr:housenumber": "200",
+        "addr:postcode": "29644",
+        "addr:state": "SC",
+        "addr:street": "McCarter Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "restaurant",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-862-8788",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/fountain-inn/200-mccarter-road.html"
+      },
+      "center": {
+        "lat": 34.687881250000004,
+        "lon": -82.19655925
+      }
+    },
+    {
+      "type": "way",
+      "id": 366324625,
+      "tags": {
+        "addr:city": "Mauldin",
+        "addr:housenumber": "801",
+        "addr:postcode": "29662",
+        "addr:state": "SC",
+        "addr:street": "East Butler Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "restaurant",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-288-0839",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/mauldin/801-east-butler-road.html"
+      },
+      "center": {
+        "lat": 34.80175505,
+        "lon": -82.28613105
+      }
+    },
+    {
+      "type": "way",
+      "id": 375232171,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:housenumber": "7385",
+        "addr:postcode": "29223",
+        "addr:state": "SC",
+        "addr:street": "Two Notch Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-788-9682",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/columbia/7385-two-notch-road.html"
+      },
+      "center": {
+        "lat": 34.0702194,
+        "lon": -80.95195760000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 376922668,
+      "tags": {
+        "addr:city": "Lyman",
+        "addr:housenumber": "12225",
+        "addr:postcode": "29365",
+        "addr:state": "SC",
+        "addr:street": "Greenville Highway",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-439-1364",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/lyman/12227-greenville-hwy.html"
+      },
+      "center": {
+        "lat": 34.955195,
+        "lon": -82.13078674999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 391916831,
+      "tags": {
+        "addr:city": "Laurens",
+        "addr:housenumber": "302",
+        "addr:postcode": "29360",
+        "addr:state": "SC",
+        "addr:street": "Hillcrest Drive",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "restaurant",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-983-1096",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/laurens/304-hillcrest-drive.html"
+      },
+      "center": {
+        "lat": 34.50567085,
+        "lon": -82.01681385
+      }
+    },
+    {
+      "type": "way",
+      "id": 459858549,
+      "tags": {
+        "addr:city": "Moncks Corner",
+        "addr:housenumber": "444",
+        "addr:postcode": "29461",
+        "addr:state": "SC",
+        "addr:street": "North Highway 52",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 843-899-1176",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/moncks-corner/444-n-highway-52.html"
+      },
+      "center": {
+        "lat": 33.205459399999995,
+        "lon": -79.98568650000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 463282009,
+      "tags": {
+        "addr:city": "Greenville",
+        "addr:housenumber": "2419",
+        "addr:postcode": "29607",
+        "addr:state": "SC",
+        "addr:street": "Laurens Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-234-1067",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/greenville/2419-laurens-road.html"
+      },
+      "center": {
+        "lat": 34.83026015,
+        "lon": -82.34734605
+      }
+    },
+    {
+      "type": "way",
+      "id": 494441305,
+      "tags": {
+        "addr:city": "Piedmont",
+        "addr:housenumber": "7475",
+        "addr:postcode": "29673",
+        "addr:state": "SC",
+        "addr:street": "Augusta Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "height": "12.6",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-299-8656",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/piedmont/7475-augusta-road.html"
+      },
+      "center": {
+        "lat": 34.72874095,
+        "lon": -82.38860095000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 497234370,
+      "tags": {
+        "addr:city": "Fort Mill",
+        "addr:housenumber": "9785",
+        "addr:postcode": "29707",
+        "addr:state": "SC",
+        "addr:street": "Charlotte Highway",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-547-5201",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/fort-mill/9785-charlotte-hwy.html"
+      },
+      "center": {
+        "lat": 35.0041436,
+        "lon": -80.85576694999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 501426509,
+      "tags": {
+        "addr:city": "Greenville",
+        "addr:housenumber": "2545",
+        "addr:postcode": "29609",
+        "addr:state": "SC",
+        "addr:street": "North Pleasantburg Drive",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "height": "13.6",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-558-0839",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/greenville/2545-n-pleasantburg-drive.html"
+      },
+      "center": {
+        "lat": 34.88797405,
+        "lon": -82.38620275000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 507681636,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:housenumber": "2800",
+        "addr:postcode": "29229",
+        "addr:state": "SC",
+        "addr:street": "Clemson Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-865-3076",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/columbia/2800-clemson-road.html"
+      },
+      "center": {
+        "lat": 34.142507699999996,
+        "lon": -80.9402609
+      }
+    },
+    {
+      "type": "way",
+      "id": 508450745,
+      "tags": {
+        "addr:city": "Lexington",
+        "addr:housenumber": "1045",
+        "addr:postcode": "29073",
+        "addr:state": "SC",
+        "addr:street": "South Lake Drive",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-356-8699",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/lexington/1045-south-lake-blvd.html"
+      },
+      "center": {
+        "lat": 33.955150950000004,
+        "lon": -81.2322226
+      }
+    },
+    {
+      "type": "way",
+      "id": 512989238,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:housenumber": "151",
+        "addr:postcode": "29212",
+        "addr:state": "SC",
+        "addr:street": "Harbison Boulevard",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-732-7883",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/columbia/151-harbison-blvd.html"
+      },
+      "center": {
+        "lat": 34.068929600000004,
+        "lon": -81.1650262
+      }
+    },
+    {
+      "type": "way",
+      "id": 517039391,
+      "tags": {
+        "addr:city": "Duncan",
+        "addr:country": "US",
+        "addr:housenumber": "1605",
+        "addr:postcode": "29334",
+        "addr:state": "SC",
+        "addr:street": "East Main Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "chicken",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "outdoor_seating": "no",
+        "phone": "+1 864-249-3878",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/duncan/1605-e--main-street.html",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 34.906393449999996,
+        "lon": -82.09899504999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 518617878,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:housenumber": "8710",
+        "addr:postcode": "29203",
+        "addr:state": "SC",
+        "addr:street": "Legrand road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-419-6994",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "website": "https://locations.bojangles.com/sc/columbia/8710-farrow-road.html"
+      },
+      "center": {
+        "lat": 34.10326435,
+        "lon": -80.95502490000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 529473311,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:country": "US",
+        "addr:housenumber": "4301",
+        "addr:postcode": "29205",
+        "addr:state": "SC",
+        "addr:street": "Fort Jackson Boulevard",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-787-9843",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/columbia/4301-ft--jackson-blvd.html"
+      },
+      "center": {
+        "lat": 33.9918473,
+        "lon": -80.97596605000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 540474398,
+      "tags": {
+        "addr:city": "Greer",
+        "addr:housenumber": "1487",
+        "addr:postcode": "29651",
+        "addr:state": "SC",
+        "addr:street": "Highway 101",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-877-1172",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/greer/1487-hwy-101-s.html"
+      },
+      "center": {
+        "lat": 34.8968886,
+        "lon": -82.16372345000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 543832925,
+      "tags": {
+        "addr:city": "Fort Mill",
+        "addr:housenumber": "3302",
+        "addr:postcode": "29715",
+        "addr:state": "SC",
+        "addr:street": "Highway 21",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-548-8008",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/fort-mill/3302-highway-21.html"
+      },
+      "center": {
+        "lat": 35.08320795,
+        "lon": -80.93282405000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 544204455,
+      "tags": {
+        "addr:city": "Fort Mill",
+        "addr:housenumber": "2886",
+        "addr:postcode": "29708",
+        "addr:state": "SC",
+        "addr:street": "Highway 160",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-547-9843",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/fort-mill/2886-hwy-160.html"
+      },
+      "center": {
+        "lat": 35.060497600000005,
+        "lon": -80.99114255
+      }
+    },
+    {
+      "type": "way",
+      "id": 545101383,
+      "tags": {
+        "addr:city": "West Columbia",
+        "addr:housenumber": "3301",
+        "addr:postcode": "29170",
+        "addr:state": "SC",
+        "addr:street": "Platt Springs Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "retail",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-794-8987",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/west-columbia/3301-platt-springs-road.html"
+      },
+      "center": {
+        "lat": 33.955338499999996,
+        "lon": -81.11854104999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 545363402,
+      "tags": {
+        "addr:city": "Clemson",
+        "addr:housenumber": "102",
+        "addr:postcode": "29631",
+        "addr:state": "SC",
+        "addr:street": "Canoy Lane",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "outdoor_seating": "no",
+        "phone": "+1 864-654-8135",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/clemson/102-canoy-lane.html"
+      },
+      "center": {
+        "lat": 34.688913549999995,
+        "lon": -82.81219245
+      }
+    },
+    {
+      "type": "way",
+      "id": 546867190,
+      "tags": {
+        "addr:city": "Indian Land",
+        "addr:housenumber": "8327",
+        "addr:postcode": "29707",
+        "addr:state": "SC",
+        "addr:street": "Collins Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-802-5002",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/indian-land/8327-collins-road.html"
+      },
+      "center": {
+        "lat": 34.95416655,
+        "lon": -80.85045735
+      }
+    },
+    {
+      "type": "way",
+      "id": 547149649,
+      "tags": {
+        "addr:city": "Irmo",
+        "addr:housenumber": "7339",
+        "addr:postcode": "29063",
+        "addr:state": "SC",
+        "addr:street": "Broad River Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-407-4116",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/columbia/7339-broad-river-road.html"
+      },
+      "center": {
+        "lat": 34.09555065,
+        "lon": -81.15968150000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 550529043,
+      "tags": {
+        "addr:city": "Clover",
+        "addr:housenumber": "959",
+        "addr:postcode": "29710",
+        "addr:state": "SC",
+        "addr:street": "Bethel Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-222-6282",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/clover/959-bethel-street.html"
+      },
+      "center": {
+        "lat": 35.10692095,
+        "lon": -81.20896500000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 550991305,
+      "tags": {
+        "addr:city": "York",
+        "addr:housenumber": "946",
+        "addr:postcode": "29745",
+        "addr:state": "SC",
+        "addr:street": "East Liberty Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-684-0074",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/york/946-east-liberty-street.html"
+      },
+      "center": {
+        "lat": 34.98533784999999,
+        "lon": -81.21563079999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 551654925,
+      "tags": {
+        "addr:city": "Batesburg-Leesville",
+        "addr:housenumber": "145",
+        "addr:postcode": "29070",
+        "addr:state": "SC",
+        "addr:street": "East Columbia Avenue",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-532-6781",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/batesburg/145-e--columbia-ave.html"
+      },
+      "center": {
+        "lat": 33.91229415,
+        "lon": -81.5244725
+      }
+    },
+    {
+      "type": "way",
+      "id": 553382099,
+      "tags": {
+        "addr:city": "Pendleton",
+        "addr:housenumber": "7610",
+        "addr:postcode": "29670",
+        "addr:state": "SC",
+        "addr:street": "Highway 76",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-646-4680",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/pendleton/7610-highway-76.html"
+      },
+      "center": {
+        "lat": 34.6313928,
+        "lon": -82.78179545
+      }
+    },
+    {
+      "type": "way",
+      "id": 554648635,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:housenumber": "7756",
+        "addr:postcode": "29209",
+        "addr:state": "SC",
+        "addr:street": "Garners Ferry Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-776-7994",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/columbia/7756-garners-ferry-road.html"
+      },
+      "center": {
+        "lat": 33.9569767,
+        "lon": -80.93060079999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 558566371,
+      "tags": {
+        "addr:city": "Clinton",
+        "addr:housenumber": "310",
+        "addr:postcode": "29325",
+        "addr:state": "SC",
+        "addr:street": "Springdale Drive",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "phone": "+1 864-938-1082",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/clinton/310-springdale-rd.html"
+      },
+      "center": {
+        "lat": 34.4533524,
+        "lon": -81.87647759999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 560785456,
+      "tags": {
+        "addr:city": "Spartanburg",
+        "addr:housenumber": "102",
+        "addr:postcode": "29301",
+        "addr:state": "SC",
+        "addr:street": "Dorman Centre Drive",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-595-8392",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/spartanburg/102-dorman-center-dr.html"
+      },
+      "center": {
+        "lat": 34.9362104,
+        "lon": -81.98750254999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 569087538,
+      "tags": {
+        "addr:city": "Spartanburg",
+        "addr:housenumber": "1800",
+        "addr:postcode": "29303",
+        "addr:state": "SC",
+        "addr:street": "Asheville Highway",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-582-3915",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/spartanburg/1800-asheville-hwy.html"
+      },
+      "center": {
+        "lat": 34.9823038,
+        "lon": -81.97064845
+      }
+    },
+    {
+      "type": "way",
+      "id": 571762820,
+      "tags": {
+        "addr:city": "Greenville",
+        "addr:housenumber": "1107",
+        "addr:postcode": "29605",
+        "addr:state": "SC",
+        "addr:street": "West Faris Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "height": "13.0",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-220-0560",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/greenville/1107-west-faris-rd.html"
+      },
+      "center": {
+        "lat": 34.81766255,
+        "lon": -82.41971294999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 573279913,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:housenumber": "1130",
+        "addr:postcode": "29201",
+        "addr:state": "SC",
+        "addr:street": "Bluff Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-256-6002",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/columbia/1130-bluff-road.html"
+      },
+      "center": {
+        "lat": 33.97080484999999,
+        "lon": -81.01735910000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 582903576,
+      "tags": {
+        "addr:city": "Taylors",
+        "addr:housenumber": "3031",
+        "addr:postcode": "29687",
+        "addr:state": "SC",
+        "addr:street": "Wade Hampton Boulevard",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-603-3645",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/taylors/3031-wade-hampton-blvd.html"
+      },
+      "center": {
+        "lat": 34.907923350000004,
+        "lon": -82.32935454999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 598220559,
+      "tags": {
+        "addr:city": "Aiken",
+        "addr:housenumber": "123",
+        "addr:postcode": "29801",
+        "addr:state": "SC",
+        "addr:street": "Simple Savings Drive",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.5614233,
+        "lon": -81.78297169999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 601384433,
+      "tags": {
+        "addr:city": "Woodruff",
+        "addr:housenumber": "710",
+        "addr:postcode": "29388",
+        "addr:state": "SC",
+        "addr:street": "North Main Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-670-2149",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/woodruff/710-n-main-st.html"
+      },
+      "center": {
+        "lat": 34.74803425,
+        "lon": -82.04594495000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 601771130,
+      "tags": {
+        "addr:city": "John's Island",
+        "addr:housenumber": "121",
+        "addr:postcode": "29455",
+        "addr:state": "SC",
+        "addr:street": "Main Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 843-766-3033",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/john-s-island/121-main-road.html"
+      },
+      "center": {
+        "lat": 32.8016358,
+        "lon": -80.10851924999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 608457876,
+      "tags": {
+        "addr:city": "Myrtle Beach",
+        "addr:housenumber": "589",
+        "addr:postcode": "29579",
+        "addr:state": "SC",
+        "addr:street": "International Drive",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 843-903-2896",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/myrtle-beach/589-international-drive.html"
+      },
+      "center": {
+        "lat": 33.75899195,
+        "lon": -78.85857550000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 609765446,
+      "tags": {
+        "addr:city": "Aynor",
+        "addr:housenumber": "2780",
+        "addr:postcode": "29511",
+        "addr:state": "SC",
+        "addr:street": "Highway 501",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 843-358-3060",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/aynor/2780-hwy-501.html"
+      },
+      "center": {
+        "lat": 33.9950334,
+        "lon": -79.20381680000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 641072770,
+      "tags": {
+        "addr:city": "Lake Wylie",
+        "addr:housenumber": "4927",
+        "addr:postcode": "29710",
+        "addr:state": "SC",
+        "addr:street": "Charlotte Highway",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Mo-Su 05:00-22:00",
+        "phone": "+1 803-831-9346",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/lake-wylie/4927-charlotte-hwy.html"
+      },
+      "center": {
+        "lat": 35.1154701,
+        "lon": -81.07153344999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 673609688,
+      "tags": {
+        "addr:city": "Spartanburg",
+        "addr:housenumber": "1793",
+        "addr:postcode": "29307",
+        "addr:state": "SC",
+        "addr:street": "East Main Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-582-3178",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/spartanburg/1793-east-main-street.html"
+      },
+      "center": {
+        "lat": 34.965590500000005,
+        "lon": -81.89570600000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 674757242,
+      "tags": {
+        "addr:city": "Spartanburg",
+        "addr:housenumber": "1485",
+        "addr:postcode": "29303",
+        "addr:state": "SC",
+        "addr:street": "Boiling Springs Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-342-7980",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/spartanburg/1485-boiling-springs-road.html"
+      },
+      "center": {
+        "lat": 35.00725845,
+        "lon": -81.95235324999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 677508813,
+      "tags": {
+        "addr:city": "Walterboro",
+        "addr:country": "US",
+        "addr:housenumber": "976",
+        "addr:postcode": "29488",
+        "addr:state": "SC",
+        "addr:street": "Bells Highway",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 843-782-3660",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/walterboro/976-bells-highway.html"
+      },
+      "center": {
+        "lat": 32.9222553,
+        "lon": -80.67945125
+      }
+    },
+    {
+      "type": "way",
+      "id": 679130279,
+      "tags": {
+        "addr:city": "Landrum",
+        "addr:housenumber": "1792",
+        "addr:postcode": "29356",
+        "addr:state": "SC",
+        "addr:street": "Highway 14 East",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-457-2207",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/landrum/1792-hwy-14-east.html"
+      },
+      "center": {
+        "lat": 35.180486,
+        "lon": -82.16137649999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 680117521,
+      "tags": {
+        "addr:city": "Inman",
+        "addr:housenumber": "11304",
+        "addr:postcode": "29349",
+        "addr:state": "SC",
+        "addr:street": "Asheville Highway",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-473-1130",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/inman/11304-asheville-highway.html"
+      },
+      "center": {
+        "lat": 35.039624,
+        "lon": -82.08079450000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 684634570,
+      "tags": {
+        "addr:city": "Roebuck",
+        "addr:housenumber": "6163",
+        "addr:postcode": "29376",
+        "addr:state": "SC",
+        "addr:street": "Highway 221",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-574-9563",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/roebuck/6163-hwy-221.html"
+      },
+      "center": {
+        "lat": 34.84238,
+        "lon": -81.96806175
+      }
+    },
+    {
+      "type": "way",
+      "id": 685072651,
+      "tags": {
+        "addr:city": "Myrtle Beach",
+        "addr:housenumber": "104",
+        "addr:postcode": "29588",
+        "addr:state": "SC",
+        "addr:street": "Loyola Drive",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Mo-Su 06:00-21:00",
+        "phone": "+1 843-650-8880",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/myrtle-beach/104-loyola-drive.html"
+      },
+      "center": {
+        "lat": 33.64081455,
+        "lon": -78.98958399999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 700202414,
+      "tags": {
+        "addr:city": "Lexington",
+        "addr:housenumber": "5165",
+        "addr:postcode": "29072",
+        "addr:state": "SC",
+        "addr:street": "Sunset Boulevard",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-957-2466",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/lexington/5165-sunset-blvd.html"
+      },
+      "center": {
+        "lat": 34.00563515,
+        "lon": -81.19945669999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 704376618,
+      "tags": {
+        "addr:city": "Piedmont",
+        "addr:housenumber": "2095",
+        "addr:postcode": "29673",
+        "addr:state": "SC",
+        "addr:street": "Highway 86",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-845-7494",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/piedmont/2095-south-carolina-hwy-86.html"
+      },
+      "center": {
+        "lat": 34.7094954,
+        "lon": -82.50262829999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 723898343,
+      "tags": {
+        "addr:city": "Gaffney",
+        "addr:housenumber": "940",
+        "addr:postcode": "29341",
+        "addr:state": "SC",
+        "addr:street": "Hyatt Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-488-4337",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/gaffney/940-hyatt-street.html"
+      },
+      "center": {
+        "lat": 35.080625049999995,
+        "lon": -81.70360919999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 749818858,
+      "tags": {
+        "addr:city": "Pickens",
+        "addr:housenumber": "605",
+        "addr:postcode": "29671",
+        "addr:state": "SC",
+        "addr:street": "Ann Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-878-4311",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/pickens/605-ann-street.html"
+      },
+      "center": {
+        "lat": 34.89522505,
+        "lon": -82.71070824999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 754475217,
+      "tags": {
+        "addr:city": "Newberry",
+        "addr:housenumber": "2980",
+        "addr:postcode": "29108",
+        "addr:state": "SC",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-321-0110",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/newberry/2980-main-street.html"
+      },
+      "center": {
+        "lat": 34.282149000000004,
+        "lon": -81.59157849999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 765701313,
+      "tags": {
+        "addr:city": "Greenville",
+        "addr:housenumber": "7830",
+        "addr:postcode": "29611",
+        "addr:state": "SC",
+        "addr:street": "White Horse Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-246-5757",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/greenville/7830-white-horse-road.html"
+      },
+      "center": {
+        "lat": 34.88790525,
+        "lon": -82.46850855000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 779939274,
+      "tags": {
+        "addr:city": "Sumter",
+        "addr:housenumber": "1020",
+        "addr:postcode": "29150",
+        "addr:state": "SC",
+        "addr:street": "Broad Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-775-0963",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/sumter/1020-broad-street.html"
+      },
+      "center": {
+        "lat": 33.94664725,
+        "lon": -80.37409075
+      }
+    },
+    {
+      "type": "way",
+      "id": 791948825,
+      "tags": {
+        "addr:city": "Easley",
+        "addr:housenumber": "6505",
+        "addr:postcode": "29640",
+        "addr:state": "SC",
+        "addr:street": "Calhoun Memorial Highway",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-859-7545",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/easley/6505-calhoun-memorial-hwy.html"
+      },
+      "center": {
+        "lat": 34.82138689999999,
+        "lon": -82.58566635
+      }
+    },
+    {
+      "type": "way",
+      "id": 792409495,
+      "tags": {
+        "addr:city": "Orangeburg",
+        "addr:housenumber": "3624",
+        "addr:postcode": "29118",
+        "addr:state": "SC",
+        "addr:street": "Saint Matthews Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-535-8301",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/orangeburg/3624-st--matthews-road.html"
+      },
+      "center": {
+        "lat": 33.553566599999996,
+        "lon": -80.82615275
+      }
+    },
+    {
+      "type": "way",
+      "id": 819839199,
+      "tags": {
+        "addr:city": "Simpsonville",
+        "addr:housenumber": "208",
+        "addr:postcode": "29680",
+        "addr:state": "SC",
+        "addr:street": "Harrison Bridge Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-962-0414",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/simpsonville/208-harrison-bridge-road.html"
+      },
+      "center": {
+        "lat": 34.70487575,
+        "lon": -82.24291270000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 886579620,
+      "tags": {
+        "addr:city": "Loris",
+        "addr:housenumber": "4207",
+        "addr:postcode": "29569",
+        "addr:state": "SC",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 843-716-2700",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/loris/4207-main-street.html"
+      },
+      "center": {
+        "lat": 34.05574345,
+        "lon": -78.88807929999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 886820927,
+      "tags": {
+        "addr:city": "Greenwood",
+        "addr:housenumber": "573",
+        "addr:postcode": "29649",
+        "addr:state": "SC",
+        "addr:street": "Bypass 72 North West",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-943-4388",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/greenwood/573-bypass-72-n-west.html"
+      },
+      "center": {
+        "lat": 34.2030183,
+        "lon": -82.19716629999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 903603103,
+      "tags": {
+        "addr:city": "Myrtle Beach",
+        "addr:country": "US",
+        "addr:housenumber": "3710",
+        "addr:postcode": "29579",
+        "addr:state": "SC",
+        "addr:street": "Renee Drive",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 843-903-7000",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/myrtle-beach/3710-renee-drive.html"
+      },
+      "center": {
+        "lat": 33.75979965,
+        "lon": -78.96805384999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 915684202,
+      "tags": {
+        "addr:city": "Greenwood",
+        "addr:housenumber": "1127",
+        "addr:postcode": "29649",
+        "addr:state": "SC",
+        "addr:street": "Bypass 72 Northeast",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-227-1941",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/greenwood/1127-bypass-72-n-e.html"
+      },
+      "center": {
+        "lat": 34.20882145,
+        "lon": -82.14703765000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 933079327,
+      "tags": {
+        "addr:city": "Simpsonville",
+        "addr:housenumber": "2527",
+        "addr:postcode": "29681",
+        "addr:state": "SC",
+        "addr:street": "Woodruff Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-627-7725",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/simpsonville/2527-woodruff-road.html"
+      },
+      "center": {
+        "lat": 34.808485149999996,
+        "lon": -82.23457844999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 979565384,
+      "tags": {
+        "addr:city": "Pageland",
+        "addr:housenumber": "535",
+        "addr:postcode": "29728",
+        "addr:state": "SC",
+        "addr:street": "East McGregor Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Mo-Sa 05:30-22:00; Su 06:00-22:00",
+        "operator": "Camp-Bo",
+        "phone": "+1-843-672-7500",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/pageland/608-east-mcgregor.html"
+      },
+      "center": {
+        "lat": 34.773457300000004,
+        "lon": -80.38327879999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 992481867,
+      "tags": {
+        "addr:city": "Elgin",
+        "addr:housenumber": "2513",
+        "addr:postcode": "29045",
+        "addr:state": "SC",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-438-2296",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/elgin/2513-main-street.html"
+      },
+      "center": {
+        "lat": 34.16858155,
+        "lon": -80.79535555000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021248560,
+      "tags": {
+        "addr:city": "Lake City",
+        "addr:housenumber": "700",
+        "addr:postcode": "29560",
+        "addr:state": "SC",
+        "addr:street": "Highway 52",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 843-374-1089",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/lake-city/700-us-hwy-52.html"
+      },
+      "center": {
+        "lat": 33.8905096,
+        "lon": -79.75511619999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1026729872,
+      "tags": {
+        "addr:city": "Hartsville",
+        "addr:housenumber": "1125",
+        "addr:postcode": "29550",
+        "addr:state": "SC",
+        "addr:street": "South 4th Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 843-309-9144",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/hartsville/1125-south-4th-street.html"
+      },
+      "center": {
+        "lat": 34.36030665,
+        "lon": -80.06100860000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1030514427,
+      "tags": {
+        "addr:city": "Boiling Springs",
+        "addr:housenumber": "4011",
+        "addr:postcode": "29316",
+        "addr:state": "SC",
+        "addr:street": "Highway 9",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-814-2280",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/boiling-springs/4011-hwy-9.html"
+      },
+      "center": {
+        "lat": 35.050262849999996,
+        "lon": -81.98800080000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1068059648,
+      "tags": {
+        "addr:city": "Clintion",
+        "addr:housenumber": "19005",
+        "addr:postcode": "29325",
+        "addr:state": "SC",
+        "addr:street": "Highway 72 East",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-808-1377",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/clinton/19005-hwy-72-e.html"
+      },
+      "center": {
+        "lat": 34.49607125,
+        "lon": -81.84604274999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1077082602,
+      "tags": {
+        "addr:city": "Sumter",
+        "addr:housenumber": "1701",
+        "addr:postcode": "29150",
+        "addr:state": "SC",
+        "addr:street": "Summerton Highway",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Su 06:00-22:00; Mo-Sa 05:00-22:00",
+        "operator": "Bojangles Restaurants, LLC.",
+        "phone": "+1-803-481-0157",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/sumter/1701-hwy-15-south.html"
+      },
+      "center": {
+        "lat": 33.8713382,
+        "lon": -80.35372734999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1079893619,
+      "tags": {
+        "addr:city": "Murrell's Inlet",
+        "addr:housenumber": "12005",
+        "addr:postcode": "29576",
+        "addr:state": "SC",
+        "addr:street": "Highway 707",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "check_date": "2025-12-20",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Mo-Tu,Fr-Su 06:00-21:00; We 06:00-14:00; Th off",
+        "phone": "+1 843-357-0707",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/murrell-s-inlet/12005-hwy-707.html"
+      },
+      "center": {
+        "lat": 33.5855144,
+        "lon": -79.05178000000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1085119019,
+      "tags": {
+        "addr:city": "Elgin",
+        "addr:housenumber": "903",
+        "addr:postcode": "29045",
+        "addr:state": "SC",
+        "addr:street": "Spears Creek Court",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-667-9802",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/elgin/903-spears-creek-ct.html"
+      },
+      "center": {
+        "lat": 34.10624115,
+        "lon": -80.83141835000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1087718195,
+      "tags": {
+        "addr:city": "Aiken",
+        "addr:country": "US",
+        "addr:housenumber": "1362",
+        "addr:postcode": "29803",
+        "addr:state": "SC",
+        "addr:street": "Whiskey Road",
+        "amenity": "restaurant",
+        "brand": "Bojangles",
+        "brand:wikidata": "Q891163",
+        "building": "retail",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles",
+        "website": "https://locations.bojangles.com/sc/aiken/1362-whiskey-road-s.e..html"
+      },
+      "center": {
+        "lat": 33.53470245,
+        "lon": -81.72396550000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1091402960,
+      "tags": {
+        "addr:city": "Spartanburg",
+        "addr:housenumber": "2290",
+        "addr:postcode": "29303",
+        "addr:state": "SC",
+        "addr:street": "Chesnee Highway",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+18645970196",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/spartanburg/2290-chesnee-highway.html"
+      },
+      "center": {
+        "lat": 35.02360615,
+        "lon": -81.89488070000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1108038648,
+      "tags": {
+        "addr:city": "Camden",
+        "addr:housenumber": "60",
+        "addr:postcode": "29020",
+        "addr:state": "SC",
+        "addr:street": "East Dekalb Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-713-9130",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/camden/60-east-dekalb-st.html"
+      },
+      "center": {
+        "lat": 34.2477147,
+        "lon": -80.59317565000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1116128378,
+      "tags": {
+        "addr:city": "Spartanburg",
+        "addr:housenumber": "2097",
+        "addr:postcode": "29306",
+        "addr:state": "SC",
+        "addr:street": "Southport Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 704-527-2675",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/spartanburg/2095-southport-road.html"
+      },
+      "center": {
+        "lat": 34.920488500000005,
+        "lon": -81.8909243
+      }
+    },
+    {
+      "type": "way",
+      "id": 1135576564,
+      "tags": {
+        "addr:city": "Walhalla",
+        "addr:housenumber": "3701",
+        "addr:postcode": "29691",
+        "addr:state": "SC",
+        "addr:street": "Blue Ridge Boulevard",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "capacity": "100",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-916-4371",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/walhalla/3701-blue-ridge-blvd.html"
+      },
+      "center": {
+        "lat": 34.76005555,
+        "lon": -83.05391889999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1172877896,
+      "tags": {
+        "addr:city": "Greer",
+        "addr:housenumber": "112",
+        "addr:postcode": "29650",
+        "addr:state": "SC",
+        "addr:street": "West Wade Hampton Boulevard",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "commercial",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-877-4677",
+        "ref": "594",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/greer/112-west-wade-hampton-blvd.html"
+      },
+      "center": {
+        "lat": 34.9489028,
+        "lon": -82.22698255
+      }
+    },
+    {
+      "type": "way",
+      "id": 1182060612,
+      "tags": {
+        "addr:city": "Florence",
+        "addr:country": "US",
+        "addr:housenumber": "4025",
+        "addr:postcode": "29506",
+        "addr:state": "SC",
+        "addr:street": "East Palmetto Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "commercial",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Mo-Sa 05:30-22:00; Su 06:00-22:00",
+        "operator": "MELANBO OPCO LLC",
+        "phone": "+1 843-667-9996",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/florence/4025-e--palmetto-street.html"
+      },
+      "center": {
+        "lat": 34.197385600000004,
+        "lon": -79.68209489999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1183471264,
+      "tags": {
+        "addr:city": "Columbia",
+        "addr:housenumber": "91",
+        "addr:postcode": "29229",
+        "addr:state": "SC",
+        "addr:street": "Clemson Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-699-8761",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/columbia/91-clemson-road.html"
+      },
+      "center": {
+        "lat": 34.097777300000004,
+        "lon": -80.85691899999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 1192691042,
+      "tags": {
+        "addr:city": "Lancaster",
+        "addr:housenumber": "1209",
+        "addr:postcode": "29720",
+        "addr:state": "SC",
+        "addr:street": "North Main Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Su 06:00-22:00; Mo-Sa 05:00-22:00",
+        "operator": "Bojangles Restaurants, LLC.",
+        "phone": "+1 803-286-1365",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/lancaster/1209-n--main-street.html"
+      },
+      "center": {
+        "lat": 34.73706355,
+        "lon": -80.77764275000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1200024344,
+      "tags": {
+        "addr:city": "Anderson",
+        "addr:housenumber": "4397",
+        "addr:postcode": "29626",
+        "addr:state": "SC",
+        "addr:street": "Highway 24",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "height": "12.6",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 864-642-0600",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/anderson/4397-highway-24.html"
+      },
+      "center": {
+        "lat": 34.5105375,
+        "lon": -82.76035675000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1208843719,
+      "tags": {
+        "addr:city": "Myrtle Beach",
+        "addr:housenumber": "8209",
+        "addr:postcode": "29572",
+        "addr:state": "SC",
+        "addr:street": "North Kings Highway",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "retail",
+        "cuisine": "chicken",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 843-839-0693",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/myrtle-beach/8209-n-kings-hwy.html"
+      },
+      "center": {
+        "lat": 33.75233725,
+        "lon": -78.81317634999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1215630248,
+      "tags": {
+        "addr:city": "North Charleston",
+        "addr:housenumber": "5490",
+        "addr:postcode": "29406",
+        "addr:state": "SC",
+        "addr:street": "North Rhett Avenue",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 843-554-9475",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/north-charleston/5490-north-rhett-avenue.html"
+      },
+      "center": {
+        "lat": 32.8983774,
+        "lon": -79.9850237
+      }
+    },
+    {
+      "type": "way",
+      "id": 1232059403,
+      "tags": {
+        "addr:city": "Darlington",
+        "addr:housenumber": "1524",
+        "addr:postcode": "29532",
+        "addr:state": "SC",
+        "addr:street": "South Main Street",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 843-393-3500",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/darlington/1524-s--main-street.html"
+      },
+      "center": {
+        "lat": 34.279738300000005,
+        "lon": -79.8562359
+      }
+    },
+    {
+      "type": "way",
+      "id": 1232303092,
+      "tags": {
+        "addr:city": "Chester",
+        "addr:housenumber": "1759",
+        "addr:postcode": "29706",
+        "addr:state": "SC",
+        "addr:street": "J.A. Cochran Bypass",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 803-581-8120",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/chester/1759-j-a--cochran-bypass.html"
+      },
+      "center": {
+        "lat": 34.7035319,
+        "lon": -81.19143624999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1284547426,
+      "tags": {
+        "addr:city": "Moncks Corner",
+        "addr:housenumber": "2711",
+        "addr:postcode": "29461",
+        "addr:state": "SC",
+        "addr:street": "Highway 52",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "phone": "+1 704-527-2675",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/moncks-corner/2711-us-highway-52.html"
+      },
+      "center": {
+        "lat": 33.09484635,
+        "lon": -80.03165454999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1419752489,
+      "tags": {
+        "addr:city": "Mount Pleasant",
+        "addr:housenumber": "1644",
+        "addr:postcode": "29464",
+        "addr:state": "SC",
+        "addr:street": "North Highway 17",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Su 06:00-22:00; Mo-Sa 05:00-22:00",
+        "operator": "Bojangles Restaurants, LLC.",
+        "phone": "+1-843-216-1398",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/mt--pleasant/1644-hwy-17-north.html"
+      },
+      "center": {
+        "lat": 32.823346599999994,
+        "lon": -79.84064484999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1443724066,
+      "tags": {
+        "addr:city": "Graniteville",
+        "addr:housenumber": "546",
+        "addr:postcode": "29829",
+        "addr:state": "SC",
+        "addr:street": "Bettis Academy Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Mo-Su 05:00-22:00",
+        "phone": "+1 803-845-2020",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/graniteville/546-bettis-academy-road.html"
+      },
+      "center": {
+        "lat": 33.603037549999996,
+        "lon": -81.84159349999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1494565755,
+      "tags": {
+        "addr:city": "Fort Mill",
+        "addr:country": "US",
+        "addr:housenumber": "314",
+        "addr:postcode": "29708",
+        "addr:state": "SC",
+        "addr:street": "South Sutton Road",
+        "amenity": "fast_food",
+        "brand": "Bojangles'",
+        "brand:wikidata": "Q891163",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Bojangles'",
+        "official_name": "Bojangles' Famous Chicken 'n Biscuits",
+        "opening_hours": "Mo-Sa 05:00-22:00; Su 06:00-22:00",
+        "operator": "Bo-Ventures LLC",
+        "phone": "+1 704-527-2675",
+        "takeaway": "yes",
+        "website": "https://locations.bojangles.com/sc/fort-mill/314-s-sutton-rd.html"
+      },
+      "center": {
+        "lat": 35.00101775,
+        "lon": -80.97869094999999
+      }
+    }
+  ]
+}

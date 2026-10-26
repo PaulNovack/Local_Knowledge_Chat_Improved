@@ -1,0 +1,65 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "schlotzsky_s",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1461319271,
+      "tags": {
+        "addr:city": "Madison",
+        "addr:housenumber": "205",
+        "addr:postcode": "39110",
+        "addr:state": "MS",
+        "addr:street": "Colony Crossing Way",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's",
+        "phone": "+1-601-707-5169",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.47394075,
+        "lon": -90.1440642
+      }
+    },
+    {
+      "type": "way",
+      "id": 1551339047,
+      "tags": {
+        "addr:city": "Jackson",
+        "addr:housenumber": "2451",
+        "addr:postcode": "39232",
+        "addr:state": "MS",
+        "addr:street": "Lakeland Drive",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "building": "retail",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's",
+        "phone": "+1-601-939-1449",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.328225149999994,
+        "lon": -90.11812265000003
+      }
+    }
+  ]
+}

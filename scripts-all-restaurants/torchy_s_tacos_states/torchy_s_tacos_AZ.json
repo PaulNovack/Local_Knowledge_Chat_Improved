@@ -1,0 +1,73 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "torchy_s_tacos",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11041558094,
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:housenumber": "2298",
+        "addr:postcode": "85295",
+        "addr:state": "AZ",
+        "addr:street": "South Santan Village Parkway",
+        "amenity": "fast_food",
+        "brand": "Torchy's Tacos",
+        "brand:wikidata": "Q106769573",
+        "cuisine": "tex-mex",
+        "drive_through": "no",
+        "name": "Torchy's Tacos",
+        "takeaway": "yes"
+      },
+      "lat": 33.3083654,
+      "lon": -111.7474817
+    },
+    {
+      "type": "node",
+      "id": 11899028524,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2024-05-12",
+        "cuisine": "mexican",
+        "name": "Torchy’s Tacos"
+      },
+      "lat": 33.5089573,
+      "lon": -112.0415662
+    },
+    {
+      "type": "node",
+      "id": 13989699057,
+      "tags": {
+        "addr:city": "Surprise",
+        "addr:housenumber": "16430",
+        "addr:postcode": "85388",
+        "addr:state": "AZ",
+        "addr:street": "West Waddell Road",
+        "addr:unit": "120",
+        "amenity": "fast_food",
+        "brand": "Torchy's Tacos",
+        "brand:wikidata": "Q106769573",
+        "cuisine": "tex-mex",
+        "drive_through": "no",
+        "name": "Torchy's Tacos",
+        "phone": "+14804931235",
+        "takeaway": "yes"
+      },
+      "lat": 33.6102807,
+      "lon": -112.4125826
+    }
+  ]
+}

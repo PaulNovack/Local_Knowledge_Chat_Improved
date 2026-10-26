@@ -1,0 +1,44 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NH",
+    "brand": "shake_shack",
+    "source": "https://download.geofabrik.de/north-america/us/new-hampshire-latest.osm.pbf",
+    "source_md5": "603b90470df09c1b933955cbfe841c6d",
+    "processed_utc": "2026-10-24T07:09:51.168561+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11781910010,
+      "tags": {
+        "addr:city": "Salem",
+        "addr:housenumber": "100",
+        "addr:postcode": "03079",
+        "addr:state": "NH",
+        "addr:street": "Via Toscana",
+        "addr:unit": "1000",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "check_date": "2024-11-06",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "name": "Shake Shack",
+        "opening_hours": "Mo-Sa 11:00-22:00; Su 11:00-21:00",
+        "phone": "+1 603 896 9134",
+        "takeaway": "yes",
+        "website": "https://shakeshack.com/location/tuscan-village-nh"
+      },
+      "lat": 42.7707706,
+      "lon": -71.2245661
+    }
+  ]
+}

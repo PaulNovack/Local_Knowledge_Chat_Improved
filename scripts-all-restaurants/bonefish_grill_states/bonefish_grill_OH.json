@@ -1,0 +1,122 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "bonefish_grill",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5292459364,
+      "tags": {
+        "addr:city": "Cincinnati",
+        "addr:country": "US",
+        "addr:housenumber": "2737",
+        "addr:postcode": "45209",
+        "addr:state": "OH",
+        "addr:street": "Madison Road",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr-Sa 11:00-23:00; Su 11:00-21:00",
+        "phone": "+1-513-321-5222",
+        "website": "https://www.bonefishgrill.com/locations/oh/cincinnati-hyde-park"
+      },
+      "lat": 39.145459,
+      "lon": -84.4413099
+    },
+    {
+      "type": "node",
+      "id": 6516918951,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "lat": 39.354116,
+      "lon": -84.3612216
+    },
+    {
+      "type": "node",
+      "id": 6943353166,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill",
+        "opening_hours": "Mo-Sa 11:00-22:00; Su 11:00-21:00"
+      },
+      "lat": 39.6364178,
+      "lon": -84.22239
+    },
+    {
+      "type": "way",
+      "id": 373440384,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "building": "commercial",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "center": {
+        "lat": 40.07032915,
+        "lon": -83.11840900000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 636148228,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "center": {
+        "lat": 41.3972864,
+        "lon": -81.6506276
+      }
+    },
+    {
+      "type": "way",
+      "id": 1036522938,
+      "tags": {
+        "addr:city": "North Canton",
+        "addr:housenumber": "6341",
+        "addr:postcode": "44720",
+        "addr:state": "OH",
+        "addr:street": "Strip Avenue Northwest",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill",
+        "website": "https://locations.bonefishgrill.com/ohio/north-canton/6341-strip-ave.-nw"
+      },
+      "center": {
+        "lat": 40.872429600000004,
+        "lon": -81.43145685000002
+      }
+    }
+  ]
+}

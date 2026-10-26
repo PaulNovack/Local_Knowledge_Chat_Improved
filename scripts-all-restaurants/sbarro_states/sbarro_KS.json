@@ -1,0 +1,55 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "sbarro",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10069350602,
+      "tags": {
+        "addr:city": "Lawrence",
+        "addr:housenumber": "2100",
+        "addr:postcode": "66047",
+        "addr:state": "KS",
+        "addr:street": "West 25th Street",
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Sbarro",
+        "opening_hours": "07:00-21:00",
+        "takeaway": "yes",
+        "website": "https://sbarro.com/locations/kansas/lawrence/kwikshop-lawrence-798/"
+      },
+      "lat": 38.9389616,
+      "lon": -95.2612398
+    },
+    {
+      "type": "node",
+      "id": 10574765222,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "name": "Sbarro",
+        "takeaway": "yes"
+      },
+      "lat": 39.0001875,
+      "lon": -95.7050354
+    }
+  ]
+}

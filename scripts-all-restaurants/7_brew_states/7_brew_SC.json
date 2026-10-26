@@ -1,0 +1,132 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SC",
+    "brand": "7_brew",
+    "source": "https://download.geofabrik.de/north-america/us/south-carolina-latest.osm.pbf",
+    "source_md5": "488018afb1e1040732b7a791d4ebffae",
+    "processed_utc": "2026-10-24T07:15:46.592450+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11682777728,
+      "tags": {
+        "addr:city": "North Myrtle Beach",
+        "addr:housenumber": "961",
+        "addr:postcode": "29582",
+        "addr:state": "SC",
+        "addr:street": "US Highway 17 North",
+        "amenity": "cafe",
+        "check_date:opening_hours": "2025-05-05",
+        "cuisine": "coffee_shop",
+        "name": "7 Brew Coffee",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00",
+        "phone": "+1-854-504-4982",
+        "website": "https://7brew.com/location/north-myrtle-beach-sc/"
+      },
+      "lat": 33.8374891,
+      "lon": -78.6695975
+    },
+    {
+      "type": "node",
+      "id": 13614555741,
+      "tags": {
+        "addr:city": "Aiken",
+        "addr:country": "US",
+        "addr:housenumber": "2235",
+        "addr:postcode": "29803",
+        "addr:state": "SC",
+        "addr:street": "Whiskey Road",
+        "amenity": "cafe",
+        "disused:amenity": "fast_food",
+        "disused:name": "Checkers",
+        "name": "7 Brew Coffee",
+        "takeaway": "only",
+        "website": "https://locations.7brew.com/sc/aiken/2235-whiskey-road"
+      },
+      "lat": 33.5139321,
+      "lon": -81.7149154
+    },
+    {
+      "type": "node",
+      "id": 14144751121,
+      "tags": {
+        "addr:city": "Myrtle Beach",
+        "addr:housenumber": "4631",
+        "addr:postcode": "29579",
+        "addr:state": "SC",
+        "addr:street": "Factory Stores Boulevard",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew",
+        "opening_hours": "Mo-Su 05:30-22:00",
+        "phone": "+1-479-358-9274",
+        "takeaway": "yes",
+        "website": "https://locations.7brew.com/sc/myrtle-beach/4631-factory-stores-boulevard"
+      },
+      "lat": 33.7505138,
+      "lon": -78.9595728
+    },
+    {
+      "type": "way",
+      "id": 582066409,
+      "tags": {
+        "addr:city": "Greer",
+        "addr:housenumber": "1409",
+        "addr:postcode": "29650",
+        "addr:state": "SC",
+        "addr:street": "West Wade Hampton Boulevard",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "building": "commercial",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew Coffee",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 34.9379147,
+        "lon": -82.26925285000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1102742677,
+      "tags": {
+        "addr:city": "Greenville",
+        "addr:housenumber": "1457",
+        "addr:postcode": "29607",
+        "addr:state": "SC",
+        "addr:street": "Woodruff Road",
+        "amenity": "cafe",
+        "brand": "7 Brew",
+        "brand:wikidata": "Q131838275",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "name": "7 Brew",
+        "takeaway": "yes",
+        "website": "https://7brew.com/"
+      },
+      "center": {
+        "lat": 34.821216,
+        "lon": -82.28149339999999
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "mod_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 460133620,
+      "tags": {
+        "addr:city": "Marlton",
+        "addr:country": "US",
+        "addr:housenumber": "300",
+        "addr:postcode": "08053",
+        "addr:state": "NJ",
+        "addr:street": "State Route 73",
+        "amenity": "fast_food",
+        "brand": "MOD Pizza",
+        "brand:wikidata": "Q19903469",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "pizza",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "MOD Pizza",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.89072665,
+        "lon": -74.92361804999996
+      }
+    }
+  ]
+}

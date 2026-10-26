@@ -1,0 +1,74 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "white_castle",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4950064024,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "cuisine": "burger",
+        "name": "White Castle",
+        "name:en": "White Castle",
+        "opening_hours": "24/7",
+        "takeaway": "yes"
+      },
+      "lat": 36.1076595,
+      "lon": -115.152399
+    },
+    {
+      "type": "node",
+      "id": 13265676916,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:country": "US",
+        "addr:housenumber": "328",
+        "addr:postcode": "89101",
+        "addr:state": "NV",
+        "addr:street": "Fremont Street Experience",
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "cuisine": "burger",
+        "name": "White Castle",
+        "source": "Bing",
+        "takeaway": "yes"
+      },
+      "lat": 36.169901,
+      "lon": -115.1419337
+    },
+    {
+      "type": "way",
+      "id": 1380483071,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "White Castle",
+        "brand:wikidata": "Q1244034",
+        "cuisine": "burger",
+        "indoor": "room",
+        "name": "White Castle",
+        "room": "restaurant",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.16980065,
+        "lon": -115.14290670000003
+      }
+    }
+  ]
+}

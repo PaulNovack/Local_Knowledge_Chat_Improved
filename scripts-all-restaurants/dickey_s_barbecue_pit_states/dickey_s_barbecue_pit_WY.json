@@ -1,0 +1,84 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "dickey_s_barbecue_pit",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 261042095,
+      "tags": {
+        "addr:city": "Gillette",
+        "addr:housenumber": "804",
+        "addr:postcode": "82716",
+        "addr:state": "WY",
+        "addr:street": "East 3rd Street",
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Dickey's Barbecue Pit",
+        "roof:shape": "gabled",
+        "source": "survey;esri/USA_NAD_Addresses"
+      },
+      "center": {
+        "lat": 44.292547549999995,
+        "lon": -105.49304310000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 526615862,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "building": "yes",
+        "cuisine": "barbecue",
+        "name": "Dickey's Barbecue Pit"
+      },
+      "center": {
+        "lat": 41.5773587,
+        "lon": -109.24842815
+      }
+    },
+    {
+      "type": "way",
+      "id": 1085921055,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:housenumber": "1400",
+        "addr:postcode": "82009",
+        "addr:state": "WY",
+        "addr:street": "Dell Range Boulevard",
+        "addr:unit": "Space 85A",
+        "amenity": "restaurant",
+        "branch": "Frontier Mall",
+        "brand": "Dickey's Barbecue Pit",
+        "brand:wikidata": "Q19880747",
+        "cuisine": "barbecue",
+        "indoor": "room",
+        "name": "Dickey's Barbecue Pit",
+        "opening_hours": "11:00-21:00",
+        "phone": "+1 307-635-2939",
+        "website": "https://www.dickeys.com/locations/wyoming/cheyenne/cheyenne"
+      },
+      "center": {
+        "lat": 41.1617627,
+        "lon": -104.80607055000002
+      }
+    }
+  ]
+}

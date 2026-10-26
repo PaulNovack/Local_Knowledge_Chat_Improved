@@ -1,0 +1,150 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "wingstop",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5869172616,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Wingstop"
+      },
+      "lat": 41.2772876,
+      "lon": -96.0999877
+    },
+    {
+      "type": "node",
+      "id": 6558928695,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "4909",
+        "addr:postcode": "68137",
+        "addr:state": "NE",
+        "addr:street": "South 135th",
+        "amenity": "fast_food",
+        "branch": "Omaha South 135th St",
+        "brand": "Wingstop",
+        "brand:wikidata": "Q8025339",
+        "cuisine": "wings",
+        "name": "Wingstop",
+        "phone": "+1 402-810-9462",
+        "takeaway": "yes"
+      },
+      "lat": 41.2095956,
+      "lon": -96.1239163
+    },
+    {
+      "type": "node",
+      "id": 8149824100,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "1110",
+        "addr:postcode": "68106",
+        "addr:state": "NE",
+        "addr:street": "South 71st Street",
+        "addr:unit": "A",
+        "amenity": "fast_food",
+        "branch": "Omaha 71st Street",
+        "brand": "Wingstop",
+        "brand:wikidata": "Q8025339",
+        "cuisine": "wings",
+        "name": "Wingstop",
+        "phone": "+1 402-502-7999",
+        "takeaway": "yes"
+      },
+      "lat": 41.2482989,
+      "lon": -96.0226342
+    },
+    {
+      "type": "node",
+      "id": 10704767715,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "5001",
+        "addr:postcode": "68510",
+        "addr:state": "NE",
+        "addr:street": "O Street",
+        "amenity": "fast_food",
+        "branch": "Lincoln O Street",
+        "brand": "Wingstop",
+        "brand:wikidata": "Q8025339",
+        "cuisine": "wings",
+        "name": "Wingstop",
+        "opening_hours": "Mo-Su 10:30-24:00",
+        "phone": "+1-531-333-4800",
+        "takeaway": "yes",
+        "website": "https://www.wingstop.com/"
+      },
+      "lat": 40.8131268,
+      "lon": -96.6508295
+    },
+    {
+      "type": "node",
+      "id": 12147122765,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wingstop",
+        "brand:wikidata": "Q8025339",
+        "cuisine": "wings",
+        "name": "Wingstop",
+        "opening_hours": "11:00-24:00",
+        "takeaway": "yes"
+      },
+      "lat": 40.7392164,
+      "lon": -96.6796123
+    },
+    {
+      "type": "node",
+      "id": 13571683301,
+      "tags": {
+        "addr:housenumber": "2012",
+        "addr:postcode": "68123",
+        "addr:street": "Cornhusker Road",
+        "amenity": "fast_food",
+        "cuisine": "chicken",
+        "name": "Wing Stop"
+      },
+      "lat": 41.1595444,
+      "lon": -95.9411992
+    },
+    {
+      "type": "way",
+      "id": 672404175,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "2740",
+        "addr:postcode": "68504",
+        "addr:state": "NE",
+        "addr:street": "Superior Street",
+        "amenity": "fast_food",
+        "branch": "Lincoln Superior Street",
+        "brand": "Wingstop",
+        "brand:wikidata": "Q8025339",
+        "building": "yes",
+        "cuisine": "wings",
+        "name": "Wingstop",
+        "opening_hours": "Mo-Su 11:00-24:00",
+        "phone": "+1-531-248-5800",
+        "takeaway": "yes",
+        "website": "https://www.wingstop.com/"
+      },
+      "center": {
+        "lat": 40.85759725,
+        "lon": -96.68014525000001
+      }
+    }
+  ]
+}

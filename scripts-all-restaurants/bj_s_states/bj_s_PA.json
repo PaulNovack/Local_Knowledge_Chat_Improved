@@ -1,0 +1,136 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "bj_s",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12564263338,
+      "tags": {
+        "addr:city": "Danville",
+        "addr:housenumber": "494",
+        "addr:postcode": "17821",
+        "addr:state": "PA",
+        "addr:street": "Mill Street",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "contact:facebook": "https://www.facebook.com/BJsSteakhouseDanville",
+        "cuisine": "steak_house;seafood;american;grill;sandwich;salad",
+        "email": "bjsmillstreet@gmail.com",
+        "loc_name": "BJ's",
+        "name": "BJ's M Street Tavern & Oyster Bar",
+        "not:brand:wikidata": "Q4835755",
+        "opening_hours": "Mo-Th 16:00-22:00; Fr 16:00-23:00; Sa 11:30-23:00",
+        "phone": "+1 570-275-5110",
+        "reservation": "recommended",
+        "website": "https://bjsmstreet.com/",
+        "website:menu": "https://bjsmstreet.com/danville/#menu"
+      },
+      "lat": 40.9624029,
+      "lon": -76.617299
+    },
+    {
+      "type": "way",
+      "id": 160775895,
+      "tags": {
+        "addr:city": "Lancaster",
+        "addr:housenumber": "925",
+        "addr:postcode": "17601",
+        "addr:state": "PA",
+        "addr:street": "Plaza Boulevard",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "yes",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 717-320-8840",
+        "website": "https://www.bjsrestaurants.com/locations/pa/lancaster"
+      },
+      "center": {
+        "lat": 40.06646055,
+        "lon": -76.34313895000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 390249423,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "retail",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 412-748-1470",
+        "website": "https://www.bjsrestaurants.com/locations/pa/mccandless"
+      },
+      "center": {
+        "lat": 40.570126450000004,
+        "lon": -80.02306844999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 547340654,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "yes",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 412-347-4790",
+        "toilets": "yes",
+        "website": "https://www.bjsrestaurants.com/locations/pa/south-hills"
+      },
+      "center": {
+        "lat": 40.3450012,
+        "lon": -80.05547639999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 576112470,
+      "tags": {
+        "addr:city": "Allentown",
+        "addr:housenumber": "665",
+        "addr:postcode": "18106",
+        "addr:state": "PA",
+        "addr:street": "North Krocks Road",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "commercial",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 484-268-2340",
+        "website": "https://www.bjsrestaurants.com/locations/pa/allentown"
+      },
+      "center": {
+        "lat": 40.56548335,
+        "lon": -75.56375605
+      }
+    }
+  ]
+}

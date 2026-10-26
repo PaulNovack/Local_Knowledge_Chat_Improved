@@ -1,0 +1,46 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "ruby_tuesday",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 529742094,
+      "tags": {
+        "addr:city": "Gillette",
+        "addr:housenumber": "420",
+        "addr:postcode": "82718",
+        "addr:state": "WY",
+        "addr:street": "East Boxelder Road",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2026-07-06",
+        "cuisine": "american",
+        "name": "Ruby Tuesday",
+        "phone": "+1 307 682 0707",
+        "roof:shape": "flat",
+        "source": "survey",
+        "website": "https://www.rubytuesday.com/locations/gillette/"
+      },
+      "center": {
+        "lat": 44.27680725,
+        "lon": -105.4988381
+      }
+    }
+  ]
+}

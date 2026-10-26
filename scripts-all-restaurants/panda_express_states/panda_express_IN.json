@@ -1,0 +1,901 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "panda_express",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3145975529,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "645",
+        "addr:postcode": "46202",
+        "addr:state": "IN",
+        "addr:street": "Oscar Robertson Boulevard",
+        "amenity": "fast_food",
+        "branch": "11th & Indiana",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "check_date": "2025-12-27",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr-Sa 10:00-22:30; Su 10:00-21:30",
+        "phone": "+1 317-635-9726",
+        "source": "esri_USDOT_Indiana",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/indianapolis/1897"
+      },
+      "lat": 39.78129,
+      "lon": -86.170481
+    },
+    {
+      "type": "node",
+      "id": 4940829209,
+      "tags": {
+        "addr:city": "Carmel",
+        "addr:housenumber": "1430",
+        "addr:postcode": "46032",
+        "addr:state": "IN",
+        "addr:street": "West Carmel Drive",
+        "amenity": "fast_food",
+        "branch": "West Carmel & Pennsylvania",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "10:00-22:00",
+        "phone": "+1 317-569-9321",
+        "takeaway": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/carmel/1775",
+        "wheelchair": "limited"
+      },
+      "lat": 39.9718311,
+      "lon": -86.1544328
+    },
+    {
+      "type": "node",
+      "id": 5002279034,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "8760",
+        "addr:postcode": "46268",
+        "addr:state": "IN",
+        "addr:street": "Michigan Road",
+        "amenity": "fast_food",
+        "branch": "Michigan & Vincinnes",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr-Sa 10:00-22:30; Su 10:00-21:30",
+        "phone": "+1 317-870-7256",
+        "takeaway": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/indianapolis/1367",
+        "wheelchair": "yes"
+      },
+      "lat": 39.914347,
+      "lon": -86.2245058
+    },
+    {
+      "type": "node",
+      "id": 6399845049,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "1300",
+        "addr:postcode": "46240",
+        "addr:state": "IN",
+        "addr:street": "East 86th Street",
+        "amenity": "fast_food",
+        "branch": "86th & Nora",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "check_date": "2026-09-14",
+        "cuisine": "chinese",
+        "drive_through": "no",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:30-21:30; Fr 10:30-22:00; Sa 10:30-21:30; Su 11:00-21:00",
+        "phone": "+1 317-581-0998",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/indianapolis/2428"
+      },
+      "lat": 39.9136223,
+      "lon": -86.1372227
+    },
+    {
+      "type": "node",
+      "id": 11963843785,
+      "tags": {
+        "addr:city": "Noblesville",
+        "addr:housenumber": "17055",
+        "addr:postcode": "46060",
+        "addr:state": "IN",
+        "addr:street": "Mercantile Boulevard",
+        "addr:unit": "14",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/noblesville/1850"
+      },
+      "lat": 40.0361495,
+      "lon": -85.9944159
+    },
+    {
+      "type": "node",
+      "id": 11975073658,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "420",
+        "addr:postcode": "46202",
+        "addr:state": "IN",
+        "addr:street": "University Boulevard",
+        "amenity": "fast_food",
+        "branch": "Purdue University Indianapolis",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/indianapolis/2566"
+      },
+      "lat": 39.7739985,
+      "lon": -86.1760547
+    },
+    {
+      "type": "node",
+      "id": 14022748778,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "check_date": "2026-07-17",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 41.7056311,
+      "lon": -86.6210754
+    },
+    {
+      "type": "way",
+      "id": 71497488,
+      "tags": {
+        "addr:city": "West Lafayette",
+        "addr:housenumber": "138",
+        "addr:postcode": "47906",
+        "addr:state": "IN",
+        "addr:street": "Northwestern Avenue",
+        "amenity": "fast_food",
+        "branch": "Purdue University",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:00-22:30; Su 10:00-21:30",
+        "phone": "+1 765-743-0105",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/west-lafayette/1695"
+      },
+      "center": {
+        "lat": 40.424696600000004,
+        "lon": -86.90777134999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 183762726,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "6010",
+        "addr:postcode": "46250",
+        "addr:state": "IN",
+        "addr:street": "East 82nd Street",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "outdoor_seating": "yes",
+        "phone": "+1-317-913-0601",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/indianapolis/2857"
+      },
+      "center": {
+        "lat": 39.905798250000004,
+        "lon": -86.06462984999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 189184467,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "8255",
+        "addr:postcode": "46256",
+        "addr:state": "IN",
+        "addr:street": "East 96th Street",
+        "amenity": "fast_food",
+        "branch": "96th & Village",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:00-21:30; Su 10:30-21:00",
+        "phone": "+1 317-845-9209",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/indianapolis/1888"
+      },
+      "center": {
+        "lat": 39.926777799999996,
+        "lon": -86.0217156
+      }
+    },
+    {
+      "type": "way",
+      "id": 199924341,
+      "tags": {
+        "addr:city": "South Bend",
+        "addr:housenumber": "209",
+        "addr:postcode": "46614",
+        "addr:state": "IN",
+        "addr:street": "East Ireland Road",
+        "amenity": "fast_food",
+        "branch": "Michigan & Ireland",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:30; Fr-Sa 10:00-22:00; Su 10:00-21:30",
+        "phone": "+1 574-231-9980",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/south-bend/2886"
+      },
+      "center": {
+        "lat": 41.629383149999995,
+        "lon": -86.24874475000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 314635506,
+      "tags": {
+        "addr:city": "Fort Wayne",
+        "addr:housenumber": "6205",
+        "addr:postcode": "46818",
+        "addr:state": "IN",
+        "addr:street": "Lima Road",
+        "amenity": "fast_food",
+        "branch": "Lima & Ludwig",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 09:30-22:30; Fr-Sa 09:30-23:00; Su 10:00-22:30",
+        "outdoor_seating": "yes",
+        "phone": "+1 260-416-0002",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/fort-wayne/1869"
+      },
+      "center": {
+        "lat": 41.135681649999995,
+        "lon": -85.16199789999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 439444251,
+      "tags": {
+        "addr:city": "Highland",
+        "addr:housenumber": "10329",
+        "addr:postcode": "46322",
+        "addr:state": "IN",
+        "addr:street": "Indianapolis Boulevard",
+        "amenity": "fast_food",
+        "branch": "Indianapolis & Main",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:30; Fr-Sa 10:00-22:00; Su 10:30-21:30",
+        "phone": "+1 219-924-8928",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/highland/986"
+      },
+      "center": {
+        "lat": 41.52602745,
+        "lon": -87.47057625000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 458145216,
+      "tags": {
+        "addr:city": "Valparaiso",
+        "addr:housenumber": "2904",
+        "addr:postcode": "46383",
+        "addr:state": "IN",
+        "addr:street": "John Howell Drive",
+        "amenity": "fast_food",
+        "branch": "John Howell & Silhavy",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "check_date": "2022-12-27",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th, Su 10:30-21:30; Fr, Sa 10:30-22:00",
+        "phone": "+1 219-476-7773",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/userlocation/2816/in/valparaiso/2904-john-howell-drive"
+      },
+      "center": {
+        "lat": 41.47001435,
+        "lon": -87.02572320000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 473176242,
+      "tags": {
+        "addr:city": "Fort Wayne",
+        "addr:housenumber": "1414",
+        "addr:postcode": "46804",
+        "addr:state": "IN",
+        "addr:street": "Apple Glen Boulevard",
+        "amenity": "fast_food",
+        "branch": "Apple Glen & Jefferson",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "diet:vegetarian": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-We 09:30-22:00; Th 09:30-21:30; Fr 09:30-22:30; Sa-Su 09:30-22:00",
+        "phone": "+1 260-436-6246",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/fort-wayne/1918"
+      },
+      "center": {
+        "lat": 41.07195715,
+        "lon": -85.20170889999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 494079395,
+      "tags": {
+        "addr:city": "Michigan City",
+        "addr:housenumber": "5246",
+        "addr:postcode": "46360",
+        "addr:state": "IN",
+        "addr:street": "Franklin Street",
+        "amenity": "fast_food",
+        "branch": "Franklin & Larkspur",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "check_date": "2026-10-15",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:00-22:00; Su 10:00-21:30",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 219-879-1079",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/michigan-city/2201"
+      },
+      "center": {
+        "lat": 41.67202985,
+        "lon": -86.89310979999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 608755580,
+      "tags": {
+        "addr:city": "Mishawaka",
+        "addr:housenumber": "4906",
+        "addr:postcode": "46544",
+        "addr:state": "IN",
+        "addr:street": "Grape Road",
+        "amenity": "fast_food",
+        "branch": "Grape & Edison Lakes",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "10:00-21:30",
+        "phone": "+1 574-271-3897",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/mishawaka/2134"
+      },
+      "center": {
+        "lat": 41.705096,
+        "lon": -86.18699805
+      }
+    },
+    {
+      "type": "way",
+      "id": 610270220,
+      "tags": {
+        "addr:city": "Elkhart",
+        "addr:housenumber": "2719",
+        "addr:postcode": "46514",
+        "addr:state": "IN",
+        "addr:street": "Cassopolis Street",
+        "amenity": "fast_food",
+        "branch": "Cassopolis & Route 6",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "10:00-22:00",
+        "phone": "+1 574-264-9998",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/elkhart/2278"
+      },
+      "center": {
+        "lat": 41.72337135,
+        "lon": -85.97353020000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 731983918,
+      "tags": {
+        "addr:city": "Terre Haute",
+        "addr:housenumber": "3340",
+        "addr:postcode": "47802",
+        "addr:state": "IN",
+        "addr:street": "US Highway 41 South",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "opening_hours": "Su 10:30-20:30; Mo-Th 10:30-21:00; Fr-Sa 10:30-21:30",
+        "phone": "+1-812-231-8626",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/userlocation/2214/in/terre-haute/3340-south-hwy-41"
+      },
+      "center": {
+        "lat": 39.428279849999996,
+        "lon": -87.41455665000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 766083123,
+      "tags": {
+        "addr:city": "Zionsville",
+        "addr:housenumber": "6745",
+        "addr:postcode": "46077",
+        "addr:state": "IN",
+        "addr:street": "Whitestown Parkway",
+        "amenity": "fast_food",
+        "branch": "Whitestown Parkway and Heartland Drive",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:30; Fr-Sa 10:00-22:00; Su 10:00-21:30",
+        "phone": "+1 317-769-2166",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/zionsville/2978"
+      },
+      "center": {
+        "lat": 39.9489031,
+        "lon": -86.34086315000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 802538568,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "5020",
+        "addr:postcode": "46237",
+        "addr:state": "IN",
+        "addr:street": "Southport Crossing Place",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "source": "esri/Indianapolis_IN_Buildings",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.66533245,
+        "lon": -86.08366454999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 821983707,
+      "tags": {
+        "addr:city": "Clarksville",
+        "addr:housenumber": "1075",
+        "addr:postcode": "47129",
+        "addr:state": "IN",
+        "addr:street": "Veterans Parkway",
+        "amenity": "fast_food",
+        "branch": "Veterans & Bass",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:30; Fr-Sa 10:00-22:00; Su 10:00-21:30",
+        "phone": "+1 812-288-0774",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/clarksville/2123"
+      },
+      "center": {
+        "lat": 38.326283149999995,
+        "lon": -85.76504315
+      }
+    },
+    {
+      "type": "way",
+      "id": 832606296,
+      "tags": {
+        "addr:city": "Kokomo",
+        "addr:housenumber": "1227",
+        "addr:postcode": "46902",
+        "addr:state": "IN",
+        "addr:street": "South Reed Road",
+        "amenity": "fast_food",
+        "branch": "East Markland Avenue & Reed Road (Markland Mall)",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:30; Fr-Sa 10:00-22:00; Su 10:00-21:30",
+        "phone": "+1 765-878-6291",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/kokomo/3115"
+      },
+      "center": {
+        "lat": 40.472169050000005,
+        "lon": -86.10844474999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 864366537,
+      "tags": {
+        "addr:city": "Muncie",
+        "addr:housenumber": "4605",
+        "addr:postcode": "47304",
+        "addr:state": "IN",
+        "addr:street": "West Clara Lane",
+        "amenity": "fast_food",
+        "branch": "McGalliard & Morrison",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "check_date": "2024-06-05",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:30; Fr-Sa 10:00-22:00; Su 10:00-21:30",
+        "phone": "+1 765-288-6123",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/muncie/2215"
+      },
+      "center": {
+        "lat": 40.2183615,
+        "lon": -85.43942155000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1020423906,
+      "tags": {
+        "addr:city": "Noblesville",
+        "addr:housenumber": "13305",
+        "addr:postcode": "46060",
+        "addr:state": "IN",
+        "addr:street": "Tegler Drive",
+        "amenity": "fast_food",
+        "branch": "Tegler & Bergen",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:00-21:30; Su 10:30-21:00",
+        "phone": "+1 317-770-6992",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/noblesville/2116"
+      },
+      "center": {
+        "lat": 39.994849599999995,
+        "lon": -85.92823199999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1071719749,
+      "tags": {
+        "addr:street": "Rockville Road",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "drive_in": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Panda Express",
+        "smoking": "no",
+        "source": "Field survey",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 39.764033749999996,
+        "lon": -86.3516917
+      }
+    },
+    {
+      "type": "way",
+      "id": 1093511245,
+      "tags": {
+        "addr:city": "Evansville",
+        "addr:housenumber": "2445",
+        "addr:postcode": "47715",
+        "addr:state": "IN",
+        "addr:street": "Menards Drive",
+        "amenity": "fast_food",
+        "branch": "North Green River Road & Menards Drive",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:30; Fr-Sa 10:00-22:00; Su 10:00-21:30",
+        "phone": "+1 812-479-8889",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/evansville/2906"
+      },
+      "center": {
+        "lat": 37.99963525,
+        "lon": -87.49288090000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 1167614324,
+      "tags": {
+        "addr:city": "Warsaw",
+        "addr:housenumber": "1170",
+        "addr:postcode": "46582",
+        "addr:state": "IN",
+        "addr:street": "Lake City Highway",
+        "amenity": "fast_food",
+        "branch": "US-30 & Anchorage",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "check_date": "2025-05-27",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 09:30-21:00; Fr 09:30-22:00; Sa 10:00-21:30; Su 09:30-21:00",
+        "phone": "+1 574-267-6567",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/warsaw/2289"
+      },
+      "center": {
+        "lat": 41.26184765,
+        "lon": -85.8399341
+      }
+    },
+    {
+      "type": "way",
+      "id": 1203313803,
+      "tags": {
+        "addr:city": "La Fayette",
+        "addr:housenumber": "3800",
+        "addr:postcode": "47905",
+        "addr:state": "IN",
+        "addr:street": "South Street",
+        "amenity": "fast_food",
+        "branch": "South St & Rohrman Drive",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:30-21:30; Su 10:30-20:30",
+        "phone": "+1 765-688-1170",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/la-fayette/3685"
+      },
+      "center": {
+        "lat": 40.418334650000006,
+        "lon": -86.83669739999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1212877452,
+      "tags": {
+        "addr:housenumber": "390",
+        "addr:street": "West Spring Mill Pointe Drive",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.0420401,
+        "lon": -86.16435245000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1248697333,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.19957075,
+        "lon": -85.94558259999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1333871008,
+      "tags": {
+        "addr:city": "Merrillville",
+        "addr:housenumber": "31",
+        "addr:postcode": "46410",
+        "addr:state": "IN",
+        "addr:street": "West 81st Street",
+        "amenity": "fast_food",
+        "branch": "81st & Broadway",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:30; Fr-Sa 10:00-22:00; Su 10:30-21:00",
+        "phone": "+1 219-791-9210",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/in/merrillville/1472"
+      },
+      "center": {
+        "lat": 41.47043375,
+        "lon": -87.33708385
+      }
+    },
+    {
+      "type": "way",
+      "id": 1339619935,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.33699795,
+        "lon": -85.70683474999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1349835036,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.55106775,
+        "lon": -87.1763671
+      }
+    },
+    {
+      "type": "way",
+      "id": 1363345953,
+      "tags": {
+        "addr:city": "Greenfield",
+        "addr:housenumber": "1973",
+        "addr:postcode": "46140",
+        "addr:state": "IN",
+        "addr:street": "North State Street",
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "drive_through": "yes",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Sa 10:30-21:30; Su 10:00-21:00",
+        "phone": "+1-317-537-9660",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.81250725,
+        "lon": -85.76903734999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1552417790,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.3671695,
+        "lon": -85.07918215000001
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WI",
+    "brand": "jet_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/wisconsin-latest.osm.pbf",
+    "source_md5": "1718ff98080ec3edeb95ab8fb47b0ce7",
+    "processed_utc": "2026-10-24T07:19:59.510074+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6859197372,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza",
+        "pizza:style": "detroit"
+      },
+      "lat": 43.1052331,
+      "lon": -89.5100342
+    },
+    {
+      "type": "node",
+      "id": 12607210291,
+      "tags": {
+        "addr:city": "Milwaukee",
+        "addr:housenumber": "1857",
+        "addr:postcode": "53202",
+        "addr:state": "WI",
+        "addr:street": "East Kenilworth Place",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza",
+        "opening_hours": "Su-Th 10:00-24:00; Fr-Sa 10:00-03:00",
+        "phone": "+1-414-276-3000",
+        "website": "https://www.jetspizza.com/stores/wisconsin/milwaukee/1857-e-kenilworth-pl/"
+      },
+      "lat": 43.0594236,
+      "lon": -87.8867732
+    },
+    {
+      "type": "way",
+      "id": 568809445,
+      "tags": {
+        "addr:city": "Little Chute",
+        "addr:housenumber": "202",
+        "addr:postcode": "54140",
+        "addr:state": "WI",
+        "addr:street": "West Main Street",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza",
+        "opening_hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-24:00",
+        "phone": "+1-920-687-8510",
+        "website": "https://jetspizza.com/"
+      },
+      "center": {
+        "lat": 44.28013015,
+        "lon": -88.31737974999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1165488751,
+      "tags": {
+        "addr:city": "Brookfield",
+        "addr:housenumber": "2491",
+        "addr:postcode": "53005",
+        "addr:state": "WI",
+        "addr:street": "North 124th Street",
+        "amenity": "restaurant",
+        "brand": "Jet's Pizza",
+        "brand:wikidata": "Q16997713",
+        "building:part": "retail",
+        "cuisine": "pizza",
+        "name": "Jet's Pizza",
+        "ref": "O"
+      },
+      "center": {
+        "lat": 43.06293065,
+        "lon": -88.06798615000002
+      }
+    }
+  ]
+}

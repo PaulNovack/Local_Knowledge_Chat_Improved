@@ -1,0 +1,62 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MN",
+    "brand": "hunt_brothers_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/minnesota-latest.osm.pbf",
+    "source_md5": "4cabd6519cf6e8b1f74c96f59629df95",
+    "processed_utc": "2026-10-24T07:08:10.045763+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 8017430134,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Hunt Brothers Pizza"
+      },
+      "lat": 44.1497109,
+      "lon": -92.5280494
+    },
+    {
+      "type": "node",
+      "id": 8017483718,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Hunt Brothers Pizza",
+        "brand:wikidata": "Q5943909",
+        "cuisine": "pizza",
+        "name": "Hunt Brothers Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 44.0596363,
+      "lon": -92.4581276
+    },
+    {
+      "type": "node",
+      "id": 11737420459,
+      "tags": {
+        "addr:city": "Ely",
+        "addr:housenumber": "46",
+        "addr:postcode": "55731",
+        "addr:state": "MN",
+        "addr:street": "West Sheridan Street",
+        "amenity": "fast_food",
+        "brand": "Hunt Brothers Pizza",
+        "brand:wikidata": "Q5943909",
+        "cuisine": "pizza",
+        "name": "Hunt Brothers Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 47.9029502,
+      "lon": -91.8682183
+    }
+  ]
+}

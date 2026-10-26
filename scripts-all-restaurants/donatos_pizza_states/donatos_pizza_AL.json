@@ -1,0 +1,50 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AL",
+    "brand": "donatos_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/alabama-latest.osm.pbf",
+    "source_md5": "3ee9c8ab6ddb6921e2aa2562af6c9bce",
+    "processed_utc": "2026-10-24T06:56:09.586986+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3074143943,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Donatos Pizza",
+        "brand:wikidata": "Q1240741",
+        "cuisine": "pizza",
+        "name": "Donatos Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 34.6913218,
+      "lon": -86.7189119
+    },
+    {
+      "type": "way",
+      "id": 1114699494,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Donatos Pizza",
+        "brand:wikidata": "Q1240741",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Donatos Pizza",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 34.6674879,
+        "lon": -86.57333240000003
+      }
+    }
+  ]
+}

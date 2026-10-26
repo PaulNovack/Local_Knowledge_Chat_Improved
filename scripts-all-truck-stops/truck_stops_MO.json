@@ -1,0 +1,3722 @@
+{
+  "version": 0.6,
+  "generator": "TruckStopExtractDownloader/1.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "0bb539eedc483c6256cc54fb5636f735",
+    "processed_utc": "2026-10-24T20:22:25.657949+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 794711505,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "name": "TA"
+      },
+      "lat": 37.0947795,
+      "lon": -93.8073055
+    },
+    {
+      "type": "node",
+      "id": 2678431909,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 37.8352306,
+      "lon": -94.3247633
+    },
+    {
+      "type": "node",
+      "id": 2707974363,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "ONE9",
+        "check_date": "2024-08-02",
+        "fuel:diesel": "yes",
+        "hgv": "designated",
+        "name": "ONE9"
+      },
+      "lat": 36.5183784,
+      "lon": -89.5975274
+    },
+    {
+      "type": "node",
+      "id": 2780808575,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.8572731,
+      "lon": -94.5256588
+    },
+    {
+      "type": "node",
+      "id": 4445871090,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "hgv": "no",
+        "name": "Pilot Truck stop",
+        "name:en": "Pilot Truck stop"
+      },
+      "lat": 36.7599909,
+      "lon": -89.5407924
+    },
+    {
+      "type": "node",
+      "id": 4445873489,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "fuel:diesel": "yes",
+        "hgv": "designated",
+        "name": "TA Truck stop",
+        "name:en": "TA Truck stop",
+        "official_name": "TravelCenters of America"
+      },
+      "lat": 36.7585869,
+      "lon": -89.5347005
+    },
+    {
+      "type": "node",
+      "id": 4445874189,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "fuel:diesel": "yes",
+        "hgv": "designated",
+        "name": "Loves Truck stop",
+        "name:en": "Loves Truck stop"
+      },
+      "lat": 36.7583127,
+      "lon": -89.5406953
+    },
+    {
+      "type": "node",
+      "id": 4913626236,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes",
+        "name": "Flying J's"
+      },
+      "lat": 37.2145091,
+      "lon": -93.3813106
+    },
+    {
+      "type": "node",
+      "id": 7089742583,
+      "tags": {
+        "highway": "services"
+      },
+      "lat": 38.4243023,
+      "lon": -92.8416655
+    },
+    {
+      "type": "node",
+      "id": 7089743187,
+      "tags": {
+        "highway": "services"
+      },
+      "lat": 38.631893,
+      "lon": -93.0038966
+    },
+    {
+      "type": "node",
+      "id": 7229651037,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "4139",
+        "addr:postcode": "65807",
+        "addr:state": "MO",
+        "addr:street": "S National Ave",
+        "email": "support@elevate-holistics.com",
+        "highway": "services",
+        "name": "Elevate Holistics | Medical Marijuana Doctors",
+        "opening_hours": "24/7",
+        "operator": "Cannabis Store",
+        "phone": "+1-660-205-2215",
+        "website": "https://elevate-holistics.com"
+      },
+      "lat": 37.1446341,
+      "lon": -93.2787675
+    },
+    {
+      "type": "node",
+      "id": 9951343710,
+      "tags": {
+        "amenity": "fuel",
+        "fuel:diesel": "yes",
+        "hgv": "yes"
+      },
+      "lat": 38.9405329,
+      "lon": -91.9431152
+    },
+    {
+      "type": "node",
+      "id": 9951343713,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.9405241,
+      "lon": -91.9384432
+    },
+    {
+      "type": "node",
+      "id": 9951354518,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.9417215,
+      "lon": -91.9389195
+    },
+    {
+      "type": "node",
+      "id": 9951429320,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "no",
+        "name": "Love's"
+      },
+      "lat": 38.8975632,
+      "lon": -91.4548505
+    },
+    {
+      "type": "node",
+      "id": 9951429321,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "name": "Love's"
+      },
+      "lat": 38.8969555,
+      "lon": -91.4541371
+    },
+    {
+      "type": "node",
+      "id": 9958285183,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Phillips 66",
+        "brand:wikidata": "Q1656230",
+        "hgv": "yes",
+        "name": "Phillips 66"
+      },
+      "lat": 40.0772035,
+      "lon": -95.1963419
+    },
+    {
+      "type": "node",
+      "id": 10677217228,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "TA",
+        "fuel:diesel": "yes",
+        "fuel:octane_87": "yes",
+        "fuel:octane_89": "yes",
+        "fuel:octane_91": "yes",
+        "hgv": "yes"
+      },
+      "lat": 37.1167711,
+      "lon": -92.4203423
+    },
+    {
+      "type": "node",
+      "id": 11418273084,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "fuel:diesel": "yes",
+        "hgv": "designated",
+        "name": "Pilot"
+      },
+      "lat": 36.7602057,
+      "lon": -89.5416358
+    },
+    {
+      "type": "node",
+      "id": 12098445940,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.2859755,
+      "lon": -90.405086
+    },
+    {
+      "type": "node",
+      "id": 12098467220,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.8182234,
+      "lon": -90.9529915
+    },
+    {
+      "type": "node",
+      "id": 12108528178,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.4878854,
+      "lon": -90.7582015
+    },
+    {
+      "type": "node",
+      "id": 12109842721,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 36.227751,
+      "lon": -89.7259989
+    },
+    {
+      "type": "node",
+      "id": 12126043893,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 40.3958112,
+      "lon": -91.5700075
+    },
+    {
+      "type": "node",
+      "id": 12163315456,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 39.1564286,
+      "lon": -94.4759995
+    },
+    {
+      "type": "node",
+      "id": 12201884207,
+      "tags": {
+        "amenity": "fuel",
+        "fuel:diesel": "yes",
+        "hgv": "designated"
+      },
+      "lat": 36.9220767,
+      "lon": -89.3144032
+    },
+    {
+      "type": "node",
+      "id": 12233625789,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "compressed_air": "yes",
+        "hgv": "no",
+        "name": "Love's",
+        "opening_hours": "24/7",
+        "wheelchair": "yes"
+      },
+      "lat": 39.7224418,
+      "lon": -94.7873903
+    },
+    {
+      "type": "node",
+      "id": 12234419191,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 37.004594,
+      "lon": -94.5529345
+    },
+    {
+      "type": "node",
+      "id": 12234434561,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.7233057,
+      "lon": -94.4515631
+    },
+    {
+      "type": "node",
+      "id": 12234444043,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 37.0554126,
+      "lon": -94.4298881
+    },
+    {
+      "type": "node",
+      "id": 12244378973,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.2259011,
+      "lon": -91.1586097
+    },
+    {
+      "type": "node",
+      "id": 12249853975,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.6367906,
+      "lon": -94.3561864
+    },
+    {
+      "type": "node",
+      "id": 12249854436,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 37.0131925,
+      "lon": -94.5437278
+    },
+    {
+      "type": "node",
+      "id": 12249854472,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 39.7624017,
+      "lon": -92.5623733
+    },
+    {
+      "type": "node",
+      "id": 12249875116,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 36.8790478,
+      "lon": -94.4291478
+    },
+    {
+      "type": "node",
+      "id": 12249895588,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 39.1533179,
+      "lon": -94.4760168
+    },
+    {
+      "type": "node",
+      "id": 12250917685,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 39.7225032,
+      "lon": -94.7864556
+    },
+    {
+      "type": "node",
+      "id": 12259400018,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.6852815,
+      "lon": -90.2166876
+    },
+    {
+      "type": "node",
+      "id": 12259416827,
+      "tags": {
+        "amenity": "fuel",
+        "check_date:opening_hours": "2025-12-20",
+        "compressed_air": "yes",
+        "hgv": "no",
+        "name": "Love's",
+        "opening_hours:signed": "no"
+      },
+      "lat": 36.7585554,
+      "lon": -89.5413369
+    },
+    {
+      "type": "node",
+      "id": 12260518427,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 40.4655233,
+      "lon": -93.9790463
+    },
+    {
+      "type": "node",
+      "id": 12260528166,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "no",
+        "name": "Love's"
+      },
+      "lat": 37.2762875,
+      "lon": -93.112776
+    },
+    {
+      "type": "node",
+      "id": 12260528167,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "name": "Love's"
+      },
+      "lat": 37.276106,
+      "lon": -93.1118211
+    },
+    {
+      "type": "node",
+      "id": 12271248205,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 39.725343,
+      "lon": -94.7909847
+    },
+    {
+      "type": "node",
+      "id": 12287616727,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 37.8361237,
+      "lon": -92.1001455
+    },
+    {
+      "type": "node",
+      "id": 12287648799,
+      "tags": {
+        "amenity": "fuel",
+        "compressed_air": "yes",
+        "hgv": "no",
+        "name": "Road Ranger"
+      },
+      "lat": 38.5433174,
+      "lon": -90.4405904
+    },
+    {
+      "type": "node",
+      "id": 12287648800,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.5436069,
+      "lon": -90.4397696
+    },
+    {
+      "type": "node",
+      "id": 12287682976,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 37.0669128,
+      "lon": -94.4067112
+    },
+    {
+      "type": "node",
+      "id": 12287821996,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "name": "TA",
+        "official_name": "TravelCenters of America"
+      },
+      "lat": 37.2750517,
+      "lon": -93.1150934
+    },
+    {
+      "type": "node",
+      "id": 12287874902,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes",
+        "name": "ONE9"
+      },
+      "lat": 37.2735064,
+      "lon": -93.1110755
+    },
+    {
+      "type": "node",
+      "id": 12300336835,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 39.7874432,
+      "lon": -91.515833
+    },
+    {
+      "type": "node",
+      "id": 12300339876,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.8172025,
+      "lon": -90.9505159
+    },
+    {
+      "type": "node",
+      "id": 12300363606,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.7174776,
+      "lon": -90.226294
+    },
+    {
+      "type": "node",
+      "id": 12303053901,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.99564,
+      "lon": -93.5667332
+    },
+    {
+      "type": "node",
+      "id": 12305500365,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.0756465,
+      "lon": -91.4093132
+    },
+    {
+      "type": "node",
+      "id": 12305894065,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 37.0894301,
+      "lon": -93.8004445
+    },
+    {
+      "type": "node",
+      "id": 12307383198,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 39.0181692,
+      "lon": -94.129922
+    },
+    {
+      "type": "node",
+      "id": 12323140235,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 37.006978,
+      "lon": -94.5545974
+    },
+    {
+      "type": "node",
+      "id": 12360628897,
+      "tags": {
+        "amenity": "fuel",
+        "fuel:diesel": "yes",
+        "hgv": "yes"
+      },
+      "lat": 37.0556283,
+      "lon": -94.4238605
+    },
+    {
+      "type": "node",
+      "id": 12480268105,
+      "tags": {
+        "amenity": "fuel",
+        "fuel:diesel": "yes",
+        "hgv": "designated"
+      },
+      "lat": 36.7602047,
+      "lon": -89.5351249
+    },
+    {
+      "type": "node",
+      "id": 12635846601,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "QuikTrip",
+        "brand:short": "QT",
+        "brand:wikidata": "Q7271953",
+        "fuel:DEF": "yes",
+        "fuel:HGV_diesel": "yes",
+        "hgv": "yes",
+        "name": "QuikTrip",
+        "operator": "Quiktrip"
+      },
+      "lat": 39.216952,
+      "lon": -94.4778621
+    },
+    {
+      "type": "node",
+      "id": 12636011410,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 39.7277771,
+      "lon": -94.8674972
+    },
+    {
+      "type": "node",
+      "id": 12679735529,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.7791813,
+      "lon": -93.6838825
+    },
+    {
+      "type": "node",
+      "id": 12679745240,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.2875366,
+      "lon": -90.4056224
+    },
+    {
+      "type": "node",
+      "id": 12679776030,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.7373248,
+      "lon": -93.224836
+    },
+    {
+      "type": "node",
+      "id": 12679782184,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 36.72908,
+      "lon": -90.4597534
+    },
+    {
+      "type": "node",
+      "id": 12679791540,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.4755059,
+      "lon": -90.8510515
+    },
+    {
+      "type": "node",
+      "id": 12679807442,
+      "tags": {
+        "amenity": "fuel",
+        "fuel:diesel": "yes",
+        "hgv": "designated"
+      },
+      "lat": 36.0917665,
+      "lon": -89.8015246
+    },
+    {
+      "type": "node",
+      "id": 12679809363,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 37.0999507,
+      "lon": -92.065132
+    },
+    {
+      "type": "node",
+      "id": 12846696918,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 37.6501702,
+      "lon": -92.6709464
+    },
+    {
+      "type": "node",
+      "id": 12846828495,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 37.0667061,
+      "lon": -94.402892
+    },
+    {
+      "type": "node",
+      "id": 12889446185,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.7937381,
+      "lon": -90.4481381
+    },
+    {
+      "type": "node",
+      "id": 13006536961,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.2541958,
+      "lon": -90.4012249
+    },
+    {
+      "type": "node",
+      "id": 13006668627,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.7655208,
+      "lon": -90.2050267
+    },
+    {
+      "type": "node",
+      "id": 13273784145,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2026-05-31",
+        "name": "Flying J"
+      },
+      "lat": 38.840065,
+      "lon": -91.2276729
+    },
+    {
+      "type": "node",
+      "id": 13388030458,
+      "tags": {
+        "amenity": "fuel",
+        "fuel:diesel": "yes",
+        "hgv": "designated"
+      },
+      "lat": 36.919804,
+      "lon": -89.324865
+    },
+    {
+      "type": "node",
+      "id": 14017504463,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "designated"
+      },
+      "lat": 37.0769434,
+      "lon": -94.1041338
+    },
+    {
+      "type": "node",
+      "id": 14017617208,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "designated"
+      },
+      "lat": 38.2568349,
+      "lon": -90.4040936
+    },
+    {
+      "type": "relation",
+      "id": 21193073,
+      "tags": {
+        "highway": "services",
+        "type": "multipolygon"
+      },
+      "center": {
+        "lat": 36.197839200000004,
+        "lon": -89.66475594999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 220037109,
+      "tags": {
+        "brand": "Petro",
+        "brand:wikidata": "Q64051305",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Petro Stopping Centers",
+        "phone": "+1 417-624-3400",
+        "ref": "0354",
+        "website": "https://www.ta-petro.com/location/mo/petro-joplin/"
+      },
+      "center": {
+        "lat": 37.0067844,
+        "lon": -94.55448645000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 220037943,
+      "tags": {
+        "branch": "Joplin",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.317@pilottravelcenters.com",
+        "fax": "+1 417-781-0179",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 417-781-0255",
+        "ref": "317",
+        "website": "https://locations.pilotflyingj.com/us/mo/joplin/4500-hwy-43"
+      },
+      "center": {
+        "lat": 37.00440775,
+        "lon": -94.55319465000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 220039244,
+      "tags": {
+        "branch": "Kingdom City",
+        "brand": "Petro",
+        "brand:wikidata": "Q64051305",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Petro Stopping Centers",
+        "official_name": "Petro Truck Stops - Kingdom City",
+        "phone": "+1 573-642-0676",
+        "ref": "0318",
+        "website": "https://www.ta-petro.com/location/mo/petro-kingdom-city/"
+      },
+      "center": {
+        "lat": 38.93980295,
+        "lon": -91.9386955
+      }
+    },
+    {
+      "type": "way",
+      "id": 220040773,
+      "tags": {
+        "branch": "Oak Grove",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 816-690-4115",
+        "ref": "0052",
+        "website": "https://www.ta-petro.com/location/mo/ta-oak-grove/"
+      },
+      "center": {
+        "lat": 39.01783225,
+        "lon": -94.13021300000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 220041471,
+      "tags": {
+        "branch": "Oak Grove",
+        "brand": "Petro",
+        "brand:wikidata": "Q64051305",
+        "highway": "services",
+        "name": "Petro Stopping Centers",
+        "phone": "+1 816-690-4455",
+        "ref": "0460",
+        "website": "https://www.ta-petro.com/location/mo/petro-oak-grove/"
+      },
+      "center": {
+        "lat": 39.014681350000004,
+        "lon": -94.13262695000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 226177920,
+      "tags": {
+        "branch": "Boonville",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 660-882-7770",
+        "ref": "347",
+        "website": "https://www.loves.com/locations/mo/boonville/loves-travel-stop-boonville-347"
+      },
+      "center": {
+        "lat": 38.933794500000005,
+        "lon": -92.77992460000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 226180830,
+      "tags": {
+        "branch": "Boonville",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.044@pilottravelcenters.com",
+        "fax": "+1 660-882-9710",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 660-882-9120",
+        "ref": "44",
+        "website": "https://locations.pilotflyingj.com/us/mo/boonville/1701-w-ashley-rd"
+      },
+      "center": {
+        "lat": 38.93960975,
+        "lon": -92.77445539999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 226181120,
+      "tags": {
+        "branch": "Joplin",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 417-206-0684",
+        "ref": "282",
+        "website": "https://www.loves.com/locations/mo/joplin/loves-travel-stop-joplin-282"
+      },
+      "center": {
+        "lat": 37.01323855,
+        "lon": -94.54424010000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 226181174,
+      "tags": {
+        "branch": "Matthews",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 573-471-4944",
+        "ref": "313",
+        "toilets": "yes",
+        "website": "https://www.loves.com/locations/mo/matthews/loves-travel-stop-matthews-313"
+      },
+      "center": {
+        "lat": 36.75818165,
+        "lon": -89.54098284999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 226181187,
+      "tags": {
+        "alt_name": "Travel Centers of America - Matthews",
+        "branch": "Matthews",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 573-471-8644",
+        "ref": "0051",
+        "website": "https://www.ta-petro.com/location/mo/ta-matthews/"
+      },
+      "center": {
+        "lat": 36.75829665,
+        "lon": -89.53432565000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 226181189,
+      "tags": {
+        "addr:city": "Matthews",
+        "addr:housenumber": "854",
+        "addr:postcode": "63867",
+        "addr:state": "MO",
+        "addr:street": "State Highway 80",
+        "amenity": "fuel",
+        "fuel:octane_87": "yes",
+        "hgv": "no",
+        "name": "Travel Centers of America"
+      },
+      "center": {
+        "lat": 36.75823,
+        "lon": -89.53503085
+      }
+    },
+    {
+      "type": "way",
+      "id": 226181250,
+      "tags": {
+        "branch": "Matthews",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.671@pilottravelcenters.com",
+        "fax": "+1 573-472-3641",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 573-472-3336",
+        "ref": "671",
+        "website": "https://locations.pilotflyingj.com/us/mo/matthews/703-mo-80"
+      },
+      "center": {
+        "lat": 36.76079195,
+        "lon": -89.54049725000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 226183137,
+      "tags": {
+        "branch": "Strafford",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 417-736-9043",
+        "ref": "458",
+        "website": "https://www.loves.com/locations/mo/strafford/loves-travel-stop-strafford-458"
+      },
+      "center": {
+        "lat": 37.27578365,
+        "lon": -93.11146180000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 226183261,
+      "tags": {
+        "branch": "Strafford",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 417-736-2161",
+        "ref": "0137",
+        "website": "https://www.ta-petro.com/location/mo/ta-strafford/"
+      },
+      "center": {
+        "lat": 37.27452245,
+        "lon": -93.11533880000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 226183424,
+      "tags": {
+        "branch": "St. Joseph",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "drinking_water": "yes",
+        "fee": "no",
+        "hgv": "yes",
+        "highway": "services",
+        "internet_access": "wlan",
+        "name": "Love's Travel Stop",
+        "phone": "+1 816-279-8870",
+        "power_supply": "yes",
+        "ref": "235",
+        "sanitary_dump_station": "yes",
+        "toilets": "yes",
+        "website": "https://www.loves.com/locations/mo/saint-joseph/loves-travel-stop-saint-joseph-235",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 39.72221775,
+        "lon": -94.78613844999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 229563117,
+      "tags": {
+        "branch": "Mt. Vernon",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 417-316-6002",
+        "ref": "0072",
+        "website": "https://www.ta-petro.com/location/mo/ta-express-mt-vernon/"
+      },
+      "center": {
+        "lat": 37.095102,
+        "lon": -93.8061176
+      }
+    },
+    {
+      "type": "way",
+      "id": 229563560,
+      "tags": {
+        "branch": "Foristell",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 636-673-2295",
+        "ref": "0175",
+        "website": "https://www.ta-petro.com/location/mo/ta-foristell/"
+      },
+      "center": {
+        "lat": 38.8171399,
+        "lon": -90.94978270000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 229564062,
+      "tags": {
+        "branch": "Concordia",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 660-463-2001",
+        "ref": "0524",
+        "website": "https://www.ta-petro.com/location/mo/ta-concordia/"
+      },
+      "center": {
+        "lat": 38.994803149999996,
+        "lon": -93.56745469999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 229624737,
+      "tags": {
+        "branch": "Kansas City",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.768@pilottravelcenters.com",
+        "fax": "+1 816-483-1492",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 816-483-7600",
+        "ref": "768",
+        "website": "https://locations.pilotflyingj.com/us/mo/kansas-city/1300-n-corrington-ave"
+      },
+      "center": {
+        "lat": 39.131133750000004,
+        "lon": -94.49723719999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 229624739,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "name": "Flying J"
+      },
+      "center": {
+        "lat": 39.1304076,
+        "lon": -94.4968596
+      }
+    },
+    {
+      "type": "way",
+      "id": 231117194,
+      "tags": {
+        "branch": "Charleston",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.571@pilottravelcenters.com",
+        "fax": "+1 573-683-4196",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 573-683-4153",
+        "ref": "571",
+        "website": "https://locations.pilotflyingj.com/us/mo/charleston/2460-us-60"
+      },
+      "center": {
+        "lat": 36.922433850000004,
+        "lon": -89.31373010000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 231120261,
+      "tags": {
+        "branch": "Joplin",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.669@pilottravelcenters.com",
+        "fax": "+1 417-626-8802",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 417-626-7600",
+        "ref": "669",
+        "website": "https://locations.pilotflyingj.com/us/mo/joplin/11570-hwy-ff"
+      },
+      "center": {
+        "lat": 37.05591135,
+        "lon": -94.42944035
+      }
+    },
+    {
+      "type": "way",
+      "id": 231121233,
+      "tags": {
+        "branch": "Peculiar",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.672@pilottravelcenters.com",
+        "fax": "+1 816-779-4441",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 816-779-8000",
+        "ref": "672",
+        "website": "https://locations.pilotflyingj.com/us/mo/peculiar/700-state-hwy-j"
+      },
+      "center": {
+        "lat": 38.7227774,
+        "lon": -94.45167705
+      }
+    },
+    {
+      "type": "way",
+      "id": 231121590,
+      "tags": {
+        "addr:city": "Sullivan",
+        "addr:housenumber": "1500",
+        "addr:postcode": "63080",
+        "addr:state": "MO",
+        "addr:street": "Highway AF",
+        "branch": "Sullivan",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.673@pilottravelcenters.com",
+        "fax": "+1 573-860-8892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 573-415-0945",
+        "ref": "673",
+        "website": "https://locations.pilotflyingj.com/us/mo/sullivan/825-n-loop-dr"
+      },
+      "center": {
+        "lat": 38.2251222,
+        "lon": -91.1586724
+      }
+    },
+    {
+      "type": "way",
+      "id": 231121862,
+      "tags": {
+        "branch": "Warrenton",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.674@pilottravelcenters.com",
+        "fax": "+1 636-456-2016",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "official_name": "Flying J - Warrenton",
+        "phone": "+1 636-456-2001",
+        "ref": "674",
+        "website": "https://locations.pilotflyingj.com/us/mo/warrenton/1-campbranch-rd"
+      },
+      "center": {
+        "lat": 38.8398256,
+        "lon": -91.22917865
+      }
+    },
+    {
+      "type": "way",
+      "id": 231122015,
+      "tags": {
+        "branch": "Wayland",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.675@pilottravelcenters.com",
+        "fax": "+1 660-754-1556",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 660-754-1550",
+        "ref": "675",
+        "website": "https://locations.pilotflyingj.com/us/mo/wayland/102-fore-dr"
+      },
+      "center": {
+        "lat": 40.396162700000005,
+        "lon": -91.56976959999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 265138991,
+      "tags": {
+        "brand": "Road Ranger",
+        "brand:wikidata": "Q7339377",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Road Ranger"
+      },
+      "center": {
+        "lat": 38.5436518,
+        "lon": -90.44021565000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 265139080,
+      "tags": {
+        "branch": "Hayti",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.442@pilottravelcenters.com",
+        "fax": "+1 573-359-2031",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 573-359-2007",
+        "ref": "442",
+        "website": "https://locations.pilotflyingj.com/us/mo/hayti/1701-mo-84"
+      },
+      "center": {
+        "lat": 36.22725885,
+        "lon": -89.72578744999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 265139315,
+      "tags": {
+        "branch": "Higginsville",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.443@pilottravelcenters.com",
+        "fax": "+1 660-207-1450",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 660-207-1324",
+        "ref": "443",
+        "website": "https://locations.pilotflyingj.com/us/mo/higginsville/6676-mo-13"
+      },
+      "center": {
+        "lat": 39.00267595,
+        "lon": -93.7338413
+      }
+    },
+    {
+      "type": "way",
+      "id": 265139316,
+      "tags": {
+        "amenity": "fuel",
+        "building": "yes",
+        "hgv": "yes"
+      },
+      "center": {
+        "lat": 39.00310845,
+        "lon": -93.73354619999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 265139484,
+      "tags": {
+        "branch": "Kearney",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.252@pilottravelcenters.com",
+        "fax": "+1 816-635-4116",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 816-635-4015",
+        "ref": "252",
+        "toilets": "yes",
+        "website": "https://locations.pilotflyingj.com/us/mo/kearney/600-w-mo-92"
+      },
+      "center": {
+        "lat": 39.36935115,
+        "lon": -94.37322675000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 265139487,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "hgv": "no",
+        "name": "Pilot Gas"
+      },
+      "center": {
+        "lat": 39.36840775,
+        "lon": -94.37419875
+      }
+    },
+    {
+      "type": "way",
+      "id": 265139488,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "hgv": "yes",
+        "name": "Pilot Truck Stop"
+      },
+      "center": {
+        "lat": 39.369353849999996,
+        "lon": -94.37409624999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 265139870,
+      "tags": {
+        "brand": "ONE9",
+        "check_date": "2024-08-02",
+        "fax": "+1 573-643-2252",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "ONE9 Travel Center",
+        "phone": "+1 573-643-2320",
+        "website": "https://locations.pilotflyingj.com/us/mo/marston/917-east-elm-street"
+      },
+      "center": {
+        "lat": 36.5180295,
+        "lon": -89.59802754999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 265142312,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "branch": "Nevada",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.167@pilottravelcenters.com",
+        "fax": "+1 417-667-4843",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 417-667-3271",
+        "ref": "167",
+        "website": "https://locations.pilotflyingj.com/us/mo/nevada/2424-e-austin-blvd"
+      },
+      "center": {
+        "lat": 37.835376,
+        "lon": -94.32531445000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 265142466,
+      "tags": {
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.208@pilottravelcenters.com",
+        "fax": "+1 636-257-4107",
+        "fuel:diesel": "yes",
+        "fuel:regular": "yes",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 636-257-4100",
+        "ref": "208",
+        "website": "https://locations.pilotflyingj.com/us/mo/pacific/1475-thornton-st"
+      },
+      "center": {
+        "lat": 38.4880262,
+        "lon": -90.75838875
+      }
+    },
+    {
+      "type": "way",
+      "id": 265142709,
+      "tags": {
+        "brand": "Road Ranger",
+        "brand:wikidata": "Q7339377",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Road Ranger"
+      },
+      "center": {
+        "lat": 37.8361472,
+        "lon": -92.10075695
+      }
+    },
+    {
+      "type": "way",
+      "id": 290395936,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "hgv": "yes",
+        "name": "Love's"
+      },
+      "center": {
+        "lat": 38.0060864,
+        "lon": -90.22579135000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 291658244,
+      "tags": {
+        "branch": "St. Louis",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 314-383-0506",
+        "ref": "461",
+        "website": "https://www.loves.com/locations/mo/saint-louis/loves-travel-stop-saint-louis-461"
+      },
+      "center": {
+        "lat": 38.685471250000006,
+        "lon": -90.21676360000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 410034821,
+      "tags": {
+        "branch": "Bevier",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 660-773-5500",
+        "ref": "621",
+        "website": "https://www.loves.com/locations/mo/bevier/loves-travel-stop-bevier-621"
+      },
+      "center": {
+        "lat": 39.762628899999996,
+        "lon": -92.56245374999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 410044540,
+      "tags": {
+        "branch": "Bloomsdale",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 573-483-9235",
+        "ref": "488",
+        "shower": "yes",
+        "toilets": "yes",
+        "website": "https://www.loves.com/locations/mo/bloomsdale/loves-travel-stop-bloomsdale-488"
+      },
+      "center": {
+        "lat": 38.00607755,
+        "lon": -90.22627654999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 410045514,
+      "tags": {
+        "addr:city": "Eagleville",
+        "addr:housenumber": "21022",
+        "addr:postcode": "64442",
+        "addr:state": "MO",
+        "addr:street": "MO N",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 660-867-5300",
+        "ref": "500",
+        "website": "https://www.loves.com/locations/mo/eagleville/loves-travel-stop-eagleville-500"
+      },
+      "center": {
+        "lat": 40.46546635,
+        "lon": -93.97920420000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 479425818,
+      "tags": {
+        "addr:city": "Villa Ridge",
+        "addr:housenumber": "3324",
+        "addr:postcode": "63089",
+        "addr:state": "MO",
+        "addr:street": "Highway 100",
+        "fuel:diesel": "yes",
+        "fuel:premium": "yes",
+        "fuel:regular": "yes",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Mr. Fuel",
+        "opening_hours": "24/7"
+      },
+      "center": {
+        "lat": 38.47571415,
+        "lon": -90.85141249999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 492885960,
+      "tags": {
+        "amenity": "fuel",
+        "building": "yes",
+        "fuel:HGV_diesel": "yes",
+        "fuel:diesel": "yes",
+        "name": "Grey's Truck Stop"
+      },
+      "center": {
+        "lat": 40.389161,
+        "lon": -94.8776249
+      }
+    },
+    {
+      "type": "way",
+      "id": 543018783,
+      "tags": {
+        "addr:city": "St Peters",
+        "addr:country": "US",
+        "addr:housenumber": "391",
+        "addr:postcode": "63376",
+        "addr:state": "MO",
+        "addr:street": "North Main Street",
+        "atm": "yes",
+        "brand": "QuikTrip",
+        "brand:wikidata": "Q7271953",
+        "compressed_air": "yes",
+        "contact:facebook": "https://www.facebook.com/QuikTrip608",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "QuikTrip",
+        "phone": "+1 636-970-3029",
+        "ref": "608",
+        "website": "https://locations.quiktrip.com/mo/st-peters/391-n-main-st"
+      },
+      "center": {
+        "lat": 38.80171825,
+        "lon": -90.62221010000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 554597211,
+      "tags": {
+        "addr:city": "Boonville",
+        "addr:housenumber": "2501",
+        "addr:postcode": "65233",
+        "addr:state": "MO",
+        "addr:street": "West Ashley Road",
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "fuel",
+        "hgv": "no",
+        "name": "Love's"
+      },
+      "center": {
+        "lat": 38.93391805,
+        "lon": -92.77917289999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 554597214,
+      "tags": {
+        "addr:city": "Boonville",
+        "addr:housenumber": "2501",
+        "addr:postcode": "65233",
+        "addr:state": "MO",
+        "addr:street": "West Ashley Road",
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "hgv": "yes",
+        "name": "Love's"
+      },
+      "center": {
+        "lat": 38.933965900000004,
+        "lon": -92.78012804999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 554602289,
+      "tags": {
+        "addr:city": "Boonville",
+        "addr:housenumber": "1701",
+        "addr:postcode": "65233",
+        "addr:state": "MO",
+        "addr:street": "West Ashley Road",
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "check_date": "2026-05-21",
+        "hgv": "no",
+        "name": "Pilot",
+        "opening_hours": "24/7",
+        "website": "https://pilotflyingj.com/stores/44"
+      },
+      "center": {
+        "lat": 38.9391976,
+        "lon": -92.77363650000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 554602290,
+      "tags": {
+        "addr:city": "Boonville",
+        "addr:housenumber": "1701",
+        "addr:postcode": "65233",
+        "addr:state": "MO",
+        "addr:street": "West Ashley Road",
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "check_date": "2026-05-21",
+        "fuel:HGV_diesel": "yes",
+        "hgv": "yes",
+        "name": "Pilot",
+        "opening_hours": "24/7",
+        "website": "https://pilotflyingj.com/stores/44"
+      },
+      "center": {
+        "lat": 38.939657100000005,
+        "lon": -92.77434504999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 555000321,
+      "tags": {
+        "addr:city": "Higginsville",
+        "addr:housenumber": "6676",
+        "addr:postcode": "64037",
+        "addr:state": "MO",
+        "addr:street": "Missouri Route 13",
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "check_date": "2026-05-31",
+        "hgv": "no",
+        "name": "Pilot",
+        "website": "https://locations.pilotflyingj.com/us/mo/higginsville/6676-highway-13"
+      },
+      "center": {
+        "lat": 39.00320725,
+        "lon": -93.73471665
+      }
+    },
+    {
+      "type": "way",
+      "id": 556398568,
+      "tags": {
+        "addr:city": "Marshall",
+        "addr:postcode": "65340",
+        "addr:state": "MO",
+        "amenity": "fuel",
+        "building": "roof",
+        "name": "Petro-Card 24",
+        "opening_hours": "24/7",
+        "operator": "MFA Oil"
+      },
+      "center": {
+        "lat": 39.07146705,
+        "lon": -93.19702260000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 568530035,
+      "tags": {
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 573-885-3992",
+        "ref": "0461",
+        "website": "https://www.ta-petro.com/location/mo/ta-cuba/"
+      },
+      "center": {
+        "lat": 38.07499235,
+        "lon": -91.40955384999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 578817357,
+      "tags": {
+        "addr:city": "Saint Louis",
+        "addr:housenumber": "4317",
+        "addr:postcode": "63128",
+        "addr:state": "MO",
+        "addr:street": "Butler Hill Road",
+        "alt_name": "Petro Stopping Centers",
+        "amenity": "fuel",
+        "brand": "Petro",
+        "brand:wikidata": "Q64051305",
+        "building": "roof",
+        "landuse": "commercial",
+        "name": "Petro Mart",
+        "note:post_town": "Saint Louis",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 38.48598015,
+        "lon": -90.35737065000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 598192767,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "layer": "1",
+        "name": "Love's",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 38.7941322,
+        "lon": -90.44916565
+      }
+    },
+    {
+      "type": "way",
+      "id": 598192769,
+      "tags": {
+        "addr:city": "Bridgeton",
+        "addr:housenumber": "13945",
+        "addr:postcode": "63044",
+        "addr:state": "MO",
+        "addr:street": "Missouri Bottom Road",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "fax": "+1 314-298-2678",
+        "fuel:adblue": "yes",
+        "fuel:diesel": "yes",
+        "fuel:lpg": "yes",
+        "fuel:octane_87": "yes",
+        "fuel:octane_89": "yes",
+        "fuel:octane_91": "yes",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "opening_hours": "24/7",
+        "phone": "+1 314-291-9416",
+        "ref": "612",
+        "website": "https://www.loves.com/locations/mo/bridgeton/loves-travel-stop-bridgeton-612"
+      },
+      "center": {
+        "lat": 38.7936529,
+        "lon": -90.44784240000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 603203991,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services",
+        "name": "B&D Auto/Truck Plaza"
+      },
+      "center": {
+        "lat": 37.649596900000006,
+        "lon": -92.67072385
+      }
+    },
+    {
+      "type": "way",
+      "id": 605758497,
+      "tags": {
+        "addr:city": "Saint Peters",
+        "addr:country": "US",
+        "addr:housenumber": "6095",
+        "addr:postcode": "63376",
+        "addr:state": "MO",
+        "addr:street": "Mexico Road",
+        "amenity": "fuel",
+        "brand": "Phillips 66",
+        "building": "roof",
+        "fuel:octane_87": "yes",
+        "fuel:octane_89": "yes",
+        "fuel:octane_91": "yes",
+        "layer": "1",
+        "name": "Petro-Mart",
+        "opening_hours": "24/7",
+        "phone": "+1 636-928-8363",
+        "website": "https://www.phillips66gas.com/"
+      },
+      "center": {
+        "lat": 38.79010845,
+        "lon": -90.60556035000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 652550647,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "hgv": "yes",
+        "name": "Casey's"
+      },
+      "center": {
+        "lat": 37.491692549999996,
+        "lon": -94.29763854999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 677336596,
+      "tags": {
+        "addr:city": "Rolla",
+        "addr:housenumber": "3500",
+        "addr:postcode": "65401",
+        "addr:state": "MO",
+        "addr:street": "Hy Point Industrial Park Drive",
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "hgv": "no",
+        "name": "Love's",
+        "opening_hours": "24/7",
+        "website": "https://www.loves.com/locations/341"
+      },
+      "center": {
+        "lat": 37.9814564,
+        "lon": -91.71978005
+      }
+    },
+    {
+      "type": "way",
+      "id": 677336597,
+      "tags": {
+        "addr:city": "Rolla",
+        "addr:housenumber": "3500",
+        "addr:postcode": "65401",
+        "addr:state": "MO",
+        "addr:street": "Hy Point Industrial Park Drive",
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "hgv": "yes",
+        "name": "Love's",
+        "opening_hours": "24/7",
+        "website": "https://www.loves.com/locations/341"
+      },
+      "center": {
+        "lat": 37.98186105,
+        "lon": -91.71895819999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 718229229,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 38.77912685,
+        "lon": -93.6836702
+      }
+    },
+    {
+      "type": "way",
+      "id": 915903246,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 816-887-2050",
+        "ref": "616",
+        "website": "https://www.loves.com/locations/mo/harrisonville/loves-travel-stop-harrisonville-616"
+      },
+      "center": {
+        "lat": 38.63663205,
+        "lon": -94.35711455
+      }
+    },
+    {
+      "type": "way",
+      "id": 959688144,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "hgv": "no",
+        "name": "Love's",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 40.466313549999995,
+        "lon": -93.97928439999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1075931705,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "compressed_air": "yes",
+        "fuel:HGV_diesel": "yes",
+        "fuel:diesel": "yes",
+        "name": "Signal",
+        "opening_hours": "24/7"
+      },
+      "center": {
+        "lat": 37.1144285,
+        "lon": -92.57742250000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1085730206,
+      "tags": {
+        "highway": "services",
+        "name": "Betty's Truck Stop",
+        "toilets": "yes"
+      },
+      "center": {
+        "lat": 38.97292255,
+        "lon": -93.2704043
+      }
+    },
+    {
+      "type": "way",
+      "id": 1085733185,
+      "tags": {
+        "highway": "services",
+        "name": "Midway Auto Truck Plaza"
+      },
+      "center": {
+        "lat": 38.97312245,
+        "lon": -92.43414225000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1085736556,
+      "tags": {
+        "addr:city": "Oak Grove",
+        "addr:housenumber": "301",
+        "addr:postcode": "64075",
+        "addr:state": "MO",
+        "addr:street": "Southwest 1st Street",
+        "amenity": "fuel",
+        "brand": "BP",
+        "brand:wikidata": "Q152057",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "layer": "1",
+        "name": "BP",
+        "opening_hours": "24/7",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 39.01448145,
+        "lon": -94.13158125000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1085736557,
+      "tags": {
+        "addr:city": "Oak Grove",
+        "addr:country": "US",
+        "addr:housenumber": "309",
+        "addr:postcode": "64075",
+        "addr:state": "MO",
+        "atm": "yes",
+        "brand": "QuikTrip",
+        "brand:wikidata": "Q7271953",
+        "compressed_air": "yes",
+        "contact:facebook": "https://www.facebook.com/QuikTrip150",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "QuikTrip",
+        "phone": "+1 816-690-8569",
+        "ref": "150",
+        "website": "https://locations.quiktrip.com/mo/oak-grove/309-s-broadway"
+      },
+      "center": {
+        "lat": 39.0133236,
+        "lon": -94.1274492
+      }
+    },
+    {
+      "type": "way",
+      "id": 1085736559,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "QuikTrip",
+        "brand:short": "QT",
+        "brand:wikidata": "Q7271953",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "layer": "1",
+        "name": "QuikTrip",
+        "self_service": "yes",
+        "short_name": "QT"
+      },
+      "center": {
+        "lat": 39.013215599999995,
+        "lon": -94.12723390000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1086050953,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 38.94218055,
+        "lon": -91.94436474999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1086050954,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Gasper's"
+      },
+      "center": {
+        "lat": 38.939457,
+        "lon": -91.94375730000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1086050955,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services",
+        "name": "West Land Travel Center"
+      },
+      "center": {
+        "lat": 38.942122850000004,
+        "lon": -91.93908995000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1086051819,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 38.9464841,
+        "lon": -91.94003514999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1086059807,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 573-835-3100",
+        "ref": "788",
+        "website": "https://www.loves.com/locations/mo/new-florence/loves-travel-stop-new-florence-788"
+      },
+      "center": {
+        "lat": 38.8969642,
+        "lon": -91.45380564999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1086839011,
+      "tags": {
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.1323@pilottravelcenters.com",
+        "fax": "+1 816-710-2022",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 816-558-5011",
+        "ref": "1323",
+        "website": "https://locations.pilotflyingj.com/us/mo/faucett/1307-se-grand-dd-hwy"
+      },
+      "center": {
+        "lat": 39.60110495,
+        "lon": -94.79073445
+      }
+    },
+    {
+      "type": "way",
+      "id": 1086839013,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "hgv": "no",
+        "name": "Pilot"
+      },
+      "center": {
+        "lat": 39.6004929,
+        "lon": -94.7910842
+      }
+    },
+    {
+      "type": "way",
+      "id": 1086839014,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "hgv": "yes",
+        "name": "Pilot"
+      },
+      "center": {
+        "lat": 39.60122355,
+        "lon": -94.79087149999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1086840298,
+      "tags": {
+        "highway": "services",
+        "name": "Garden Inn Truck Plaza"
+      },
+      "center": {
+        "lat": 40.077355499999996,
+        "lon": -95.19670930000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1092225242,
+      "tags": {
+        "highway": "services",
+        "name": "Dominator Fuel & Truck Plaza"
+      },
+      "center": {
+        "lat": 40.404663150000005,
+        "lon": -95.55610899999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1092225243,
+      "tags": {
+        "highway": "services",
+        "name": "Trails End Truck Stop"
+      },
+      "center": {
+        "lat": 40.40628805,
+        "lon": -95.55760625000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 1105000668,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "hgv": "yes"
+      },
+      "center": {
+        "lat": 39.754277599999995,
+        "lon": -94.21409470000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1136346009,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "fuel:octane_85": "no",
+        "fuel:octane_87": "yes",
+        "fuel:octane_88": "no",
+        "fuel:octane_89": "yes",
+        "fuel:octane_90": "no",
+        "fuel:octane_91": "yes",
+        "hgv": "no",
+        "name": "Love's",
+        "opening_hours": "24/7",
+        "payment:contactless": "yes",
+        "self_service": "yes",
+        "website": "https://www.loves.com/locations/837"
+      },
+      "center": {
+        "lat": 39.73220115,
+        "lon": -94.21845074999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1136346039,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "fuel:HGV_diesel": "yes",
+        "fuel:diesel": "yes",
+        "fuel:diesel_G2": "yes",
+        "hgv": "only",
+        "name": "Love's",
+        "website": "https://www.loves.com/locations/837"
+      },
+      "center": {
+        "lat": 39.7330993,
+        "lon": -94.21866310000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1137651161,
+      "tags": {
+        "addr:city": "Bates City",
+        "addr:housenumber": "500",
+        "addr:postcode": "64011",
+        "addr:state": "MO",
+        "addr:street": "North D Highway",
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "fuel:gasoline": "yes",
+        "hgv": "no",
+        "name": "Love's",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 39.0126494,
+        "lon": -94.06796210000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 1150876040,
+      "tags": {
+        "addr:city": "Bellefontaine",
+        "addr:country": "US",
+        "addr:housenumber": "10845",
+        "addr:postcode": "63137",
+        "addr:state": "MO",
+        "addr:street": "Lilac Avenue",
+        "atm": "yes",
+        "brand": "QuikTrip",
+        "brand:wikidata": "Q7271953",
+        "compressed_air": "yes",
+        "contact:facebook": "https://www.facebook.com/QuikTrip605",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "QuikTrip",
+        "phone": "+1 314-867-2777",
+        "ref": "605",
+        "website": "https://locations.quiktrip.com/mo/bellefontaine/10845-lilac-ave"
+      },
+      "center": {
+        "lat": 38.76514615,
+        "lon": -90.20481810000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1159199521,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 816-625-0801",
+        "ref": "809",
+        "website": "https://www.loves.com/locations/mo/bates-city/loves-travel-stop-bates-city-809"
+      },
+      "center": {
+        "lat": 39.012970100000004,
+        "lon": -94.06610850000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1198939741,
+      "tags": {
+        "highway": "services",
+        "name": "Liters Travel Center"
+      },
+      "center": {
+        "lat": 39.504921249999995,
+        "lon": -91.53642869999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1204263035,
+      "tags": {
+        "brand": "Buc-ee's",
+        "brand:wikidata": "Q4982335",
+        "hgv": "no",
+        "highway": "services",
+        "name": "Buc-ee's"
+      },
+      "center": {
+        "lat": 37.2526643,
+        "lon": -93.18089229999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1225525458,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Garden Inn Truck Plaza"
+      },
+      "center": {
+        "lat": 37.0999207,
+        "lon": -92.06475955000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1225655106,
+      "tags": {
+        "highway": "services",
+        "name": "Diamond Travel Plaza"
+      },
+      "center": {
+        "lat": 37.460489800000005,
+        "lon": -93.14156270000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1239258662,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "compressed_air": "yes",
+        "hgv": "no",
+        "name": "Love's"
+      },
+      "center": {
+        "lat": 38.00568375,
+        "lon": -90.22528725000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1241766880,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "center": {
+        "lat": 36.89959895,
+        "lon": -93.92621754999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1241768488,
+      "tags": {
+        "brand": "ONE9",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "ONE9 Travel Center",
+        "website": "https://locations.pilotflyingj.com/us/mo/strafford/325-e-evergreen-street"
+      },
+      "center": {
+        "lat": 37.27337655,
+        "lon": -93.11098979999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1257599261,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "hgv": "only",
+        "name": "Love's",
+        "website": "https://www.loves.com/locations/669"
+      },
+      "center": {
+        "lat": 39.574228250000004,
+        "lon": -91.4044174
+      }
+    },
+    {
+      "type": "way",
+      "id": 1257599262,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "hgv": "no",
+        "name": "Love's",
+        "website": "https://www.loves.com/locations/669"
+      },
+      "center": {
+        "lat": 39.57388325,
+        "lon": -91.40334859999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1257599263,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 573-985-5683",
+        "ref": "669",
+        "website": "https://www.loves.com/locations/mo/new-london/loves-travel-stop-new-london-669"
+      },
+      "center": {
+        "lat": 39.574474800000004,
+        "lon": -91.40413910000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1257604860,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 816-312-6061",
+        "ref": "837",
+        "website": "https://www.loves.com/locations/mo/cameron/loves-travel-stop-cameron-837"
+      },
+      "center": {
+        "lat": 39.73356105,
+        "lon": -94.2186226
+      }
+    },
+    {
+      "type": "way",
+      "id": 1257614603,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "hgv": "only",
+        "name": "Love's",
+        "website": "https://www.loves.com/locations/783"
+      },
+      "center": {
+        "lat": 36.97467015,
+        "lon": -91.94017150000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1257614605,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "hgv": "no",
+        "name": "Love's",
+        "website": "https://www.loves.com/locations/783"
+      },
+      "center": {
+        "lat": 36.975193250000004,
+        "lon": -91.94089220000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1257614606,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 417-469-1170",
+        "ref": "783",
+        "website": "https://www.loves.com/locations/mo/willow-springs/loves-travel-stop-willow-springs-783"
+      },
+      "center": {
+        "lat": 36.974587549999995,
+        "lon": -91.94004444999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1259731683,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "hgv": "no",
+        "name": "Love's",
+        "website": "https://www.loves.com/locations/643"
+      },
+      "center": {
+        "lat": 36.8538881,
+        "lon": -89.58336870000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 1259731684,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "hgv": "yes",
+        "name": "Love's",
+        "website": "https://www.loves.com/locations/643"
+      },
+      "center": {
+        "lat": 36.85368495,
+        "lon": -89.58436555000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1259731696,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 573-472-6428",
+        "ref": "643",
+        "website": "https://www.loves.com/locations/mo/sikeston/loves-travel-stop-sikeston-643"
+      },
+      "center": {
+        "lat": 36.853656799999996,
+        "lon": -89.58415969999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1289060794,
+      "tags": {
+        "brand": "Roady's",
+        "brand:wikidata": "Q7339701",
+        "highway": "services",
+        "name": "Roady's Truck Stops"
+      },
+      "center": {
+        "lat": 39.5046903,
+        "lon": -91.53681399999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1300384676,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "QuikTrip",
+        "compressed_air": "no",
+        "hgv": "yes",
+        "name": "QuikTrip",
+        "opening_hours": "24/7",
+        "short_name": "QT",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 39.129359050000005,
+        "lon": -94.50476220000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1300631016,
+      "tags": {
+        "addr:city": "Pleasant Valley",
+        "addr:country": "US",
+        "addr:housenumber": "8600",
+        "addr:postcode": "64068",
+        "addr:state": "MO",
+        "addr:street": "Pleasant Valley Road",
+        "atm": "yes",
+        "brand": "QuikTrip",
+        "brand:wikidata": "Q7271953",
+        "compressed_air": "yes",
+        "contact:facebook": "https://www.facebook.com/QuikTrip179",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "QuikTrip",
+        "phone": "+1 816-415-2279",
+        "ref": "179",
+        "website": "https://locations.quiktrip.com/mo/pleasant-valley/8600-pleasant-valley-rd"
+      },
+      "center": {
+        "lat": 39.2171637,
+        "lon": -94.47714754999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1306319856,
+      "tags": {
+        "brand": "Mr. Fuel",
+        "check_date": "2024-08-02",
+        "fax": "+1 636-673-9292",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Mr. Fuel Travel Center",
+        "phone": "+1 636-673-1011",
+        "website": "https://locations.pilotflyingj.com/us/mo/foristell/11-highway-w"
+      },
+      "center": {
+        "lat": 38.818408500000004,
+        "lon": -90.95342755000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1306320593,
+      "tags": {
+        "brand": "Mr. Fuel",
+        "check_date": "2024-08-02",
+        "fax": "+1 636-479-4734",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Mr. Fuel Travel Center",
+        "phone": "+1 636-475-7403",
+        "website": "https://locations.pilotflyingj.com/us/mo/pevely/8915-weier-road"
+      },
+      "center": {
+        "lat": 38.285818649999996,
+        "lon": -90.40519195000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1307669842,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "hgv": "yes",
+        "layer": "1"
+      },
+      "center": {
+        "lat": 37.874733750000004,
+        "lon": -93.62150324999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1307669844,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "compressed_air": "yes",
+        "hgv": "no",
+        "layer": "1",
+        "name": "Pilot"
+      },
+      "center": {
+        "lat": 37.87390175,
+        "lon": -93.62121824999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1307669845,
+      "tags": {
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.385@pilottravelcenters.com",
+        "fax": "+1-417-275-4726",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 417-275-4796",
+        "ref": "385",
+        "toilets": "yes",
+        "website": "https://locations.pilotflyingj.com/us/mo/collins/9890-mo-13"
+      },
+      "center": {
+        "lat": 37.87452765,
+        "lon": -93.62122039999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1314143115,
+      "tags": {
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.1126@pilottravelcenters.com",
+        "fax": "+1 816-453-4068",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 816-453-0076",
+        "ref": "1126",
+        "website": "https://locations.pilotflyingj.com/us/mo/kansas-city/8801-ne-birmingham-rd"
+      },
+      "center": {
+        "lat": 39.156307049999995,
+        "lon": -94.47631375000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1322076060,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "name": "Flying J"
+      },
+      "center": {
+        "lat": 39.1306376,
+        "lon": -94.4972955
+      }
+    },
+    {
+      "type": "way",
+      "id": 1323207860,
+      "tags": {
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.1061@pilottravelcenters.com",
+        "fax": "+1 417-864-4156",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 417-864-4175",
+        "ref": "1061",
+        "website": "https://locations.pilotflyingj.com/us/mo/springfield/4939-w-chestnut-expy"
+      },
+      "center": {
+        "lat": 37.2141757,
+        "lon": -93.3821074
+      }
+    },
+    {
+      "type": "way",
+      "id": 1323783780,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 417-451-2669",
+        "ref": "585",
+        "website": "https://www.loves.com/locations/mo/neosho/loves-travel-stop-neosho-585"
+      },
+      "center": {
+        "lat": 36.879317650000004,
+        "lon": -94.42860704999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1323785574,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "name": "Love's",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 39.0127858,
+        "lon": -94.06616315000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1323785949,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 816-381-8288",
+        "ref": "786",
+        "website": "https://www.loves.com/locations/mo/kansas-city/loves-travel-stop-kansas-city-786"
+      },
+      "center": {
+        "lat": 39.152968200000004,
+        "lon": -94.47497290000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1324937001,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 573-426-5683",
+        "ref": "341",
+        "website": "https://www.loves.com/locations/mo/rolla/loves-travel-stop-rolla-341"
+      },
+      "center": {
+        "lat": 37.9820029,
+        "lon": -91.71929770000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1326277766,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 39.72544145,
+        "lon": -94.79080805000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1328096106,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 37.06692645,
+        "lon": -94.40702614999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1329492361,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 39.7875197,
+        "lon": -91.51619069999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1330049885,
+      "tags": {
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 417-466-9230",
+        "ref": "0924",
+        "website": "https://www.ta-petro.com/location/mo/ta-mt-vernon/"
+      },
+      "center": {
+        "lat": 37.0895761,
+        "lon": -93.80134514999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1331890411,
+      "tags": {
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA Express",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 417-746-4777",
+        "ref": "0450",
+        "website": "https://www.ta-petro.com/location/mo/ta-express-norwood/"
+      },
+      "center": {
+        "lat": 37.11732395,
+        "lon": -92.42019474999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 1332660358,
+      "tags": {
+        "addr:city": "Platte City",
+        "addr:country": "US",
+        "addr:housenumber": "1850",
+        "addr:postcode": "64079",
+        "addr:state": "MO",
+        "addr:street": "Branch Street",
+        "atm": "yes",
+        "brand": "QuikTrip",
+        "brand:wikidata": "Q7271953",
+        "compressed_air": "yes",
+        "contact:facebook": "https://www.facebook.com/QuikTrip236",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "QuikTrip",
+        "phone": "+1 816-858-2503",
+        "ref": "236",
+        "website": "https://locations.quiktrip.com/mo/platte-city/1850-branch-st"
+      },
+      "center": {
+        "lat": 39.355034,
+        "lon": -94.76666230000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1336363914,
+      "tags": {
+        "addr:city": "Joplin",
+        "addr:country": "US",
+        "addr:housenumber": "6601",
+        "addr:postcode": "64804",
+        "addr:state": "MO",
+        "addr:street": "East 32nd Street",
+        "atm": "yes",
+        "brand": "QuikTrip",
+        "brand:wikidata": "Q7271953",
+        "compressed_air": "yes",
+        "contact:facebook": "https://www.facebook.com/QuikTrip7061",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "QuikTrip",
+        "phone": "+1 417-626-8690",
+        "ref": "7061",
+        "website": "https://locations.quiktrip.com/mo/joplin/6601-e-32nd-st"
+      },
+      "center": {
+        "lat": 37.05534175,
+        "lon": -94.4233276
+      }
+    },
+    {
+      "type": "way",
+      "id": 1347882963,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "QuikTrip",
+        "brand:wikidata": "Q7271953",
+        "building": "roof",
+        "hgv": "yes",
+        "name": "QuikTrip",
+        "short_name": "QT"
+      },
+      "center": {
+        "lat": 37.980794149999994,
+        "lon": -91.72154194999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1349192307,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 36.7600244,
+        "lon": -89.53527359999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1364489849,
+      "tags": {
+        "brand": "Casey's General Store",
+        "brand:wikidata": "Q2940968",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Casey's General Store"
+      },
+      "center": {
+        "lat": 40.26603145,
+        "lon": -94.0099176
+      }
+    },
+    {
+      "type": "way",
+      "id": 1367283605,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "fuel:octane_87": "yes",
+        "hgv": "no",
+        "name": "Sapp Bros.",
+        "operator": "Sapp Bros.",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 38.61711255,
+        "lon": -94.35140939999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1367283607,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "name": "Sapp Bros.",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 38.61629015,
+        "lon": -94.35168795000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1367283608,
+      "tags": {
+        "addr:housenumber": "27603",
+        "addr:postcode": "64701",
+        "addr:street": "Southwest Outer Road",
+        "atm": "yes",
+        "brand": "Sapp Bros.",
+        "brand:wikidata": "Q137965281",
+        "fax": "+1 816-793-7101",
+        "hgv": "yes",
+        "highway": "services",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Sapp Brothers Travel Center",
+        "operator": "Sapp Bros.",
+        "operator:wikidata": "Q137965281",
+        "phone": "+1 816-884-3306",
+        "shower": "yes",
+        "toilets": "yes",
+        "website": "https://www.sappbros.net/location/sapp-bros-harrisonville/"
+      },
+      "center": {
+        "lat": 38.61612435,
+        "lon": -94.35179830000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1369020973,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 38.7372738,
+        "lon": -93.22478914999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1369022079,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 36.092242299999995,
+        "lon": -89.80151115000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1369023598,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 36.72918305,
+        "lon": -90.45957369999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1387779903,
+      "tags": {
+        "brand": "Road Ranger",
+        "brand:wikidata": "Q7339377",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Road Ranger"
+      },
+      "center": {
+        "lat": 37.06698135,
+        "lon": -94.40281125000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1415326039,
+      "tags": {
+        "addr:city": "Rolla",
+        "addr:country": "US",
+        "addr:housenumber": "3551",
+        "addr:postcode": "65401",
+        "addr:state": "MO",
+        "addr:street": "Hy Point Industrial Park Drive",
+        "atm": "yes",
+        "brand": "QuikTrip",
+        "brand:wikidata": "Q7271953",
+        "compressed_air": "yes",
+        "contact:facebook": "https://www.facebook.com/QuikTrip667",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "QuikTrip",
+        "phone": "+1 573-612-6270",
+        "ref": "667",
+        "website": "https://locations.quiktrip.com/mo/rolla/3551-hy-point-industrial-park-dr"
+      },
+      "center": {
+        "lat": 37.9807795,
+        "lon": -91.72111185
+      }
+    },
+    {
+      "type": "way",
+      "id": 1415388182,
+      "tags": {
+        "addr:city": "Grandview",
+        "addr:country": "US",
+        "addr:housenumber": "6015",
+        "addr:postcode": "64030",
+        "addr:state": "MO",
+        "addr:street": "East 147th Street",
+        "atm": "yes",
+        "brand": "QuikTrip",
+        "brand:wikidata": "Q7271953",
+        "compressed_air": "yes",
+        "contact:facebook": "https://www.facebook.com/QuikTrip186",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "QuikTrip",
+        "phone": "+1 816-322-3933",
+        "ref": "186",
+        "website": "https://locations.quiktrip.com/mo/grandview/6015-e-147th-st"
+      },
+      "center": {
+        "lat": 38.85718565,
+        "lon": -94.52524870000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1415398459,
+      "tags": {
+        "addr:city": "Herculaneum",
+        "addr:country": "US",
+        "addr:housenumber": "850",
+        "addr:postcode": "63048",
+        "addr:state": "MO",
+        "addr:street": "McNutt Street",
+        "atm": "yes",
+        "brand": "QuikTrip",
+        "brand:wikidata": "Q7271953",
+        "compressed_air": "yes",
+        "contact:facebook": "https://www.facebook.com/QuikTrip611",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "QuikTrip",
+        "phone": "+1 636-931-7569",
+        "ref": "611",
+        "website": "https://locations.quiktrip.com/mo/herculaneum/850-mcnutt-st"
+      },
+      "center": {
+        "lat": 38.25399995,
+        "lon": -90.40064964999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1415419737,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:country": "US",
+        "addr:housenumber": "6551",
+        "addr:postcode": "64120",
+        "addr:state": "MO",
+        "addr:street": "East Front Street",
+        "atm": "yes",
+        "brand": "QuikTrip",
+        "brand:wikidata": "Q7271953",
+        "compressed_air": "yes",
+        "contact:facebook": "https://www.facebook.com/QuikTrip224",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "QuikTrip",
+        "phone": "+1 816-231-3740",
+        "ref": "224",
+        "website": "https://locations.quiktrip.com/mo/kansas-city/6551-e-front-st"
+      },
+      "center": {
+        "lat": 39.12951045,
+        "lon": -94.50509054999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1447235649,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Exxon",
+        "brand:wikidata": "Q109675651",
+        "fuel:diesel": "yes",
+        "hgv": "designated",
+        "name": "Exxon"
+      },
+      "center": {
+        "lat": 36.234366949999995,
+        "lon": -89.73602695
+      }
+    },
+    {
+      "type": "way",
+      "id": 1474555557,
+      "tags": {
+        "highway": "services",
+        "name": "Break Time"
+      },
+      "center": {
+        "lat": 39.3944344,
+        "lon": -92.41055999999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1504216471,
+      "tags": {
+        "addr:city": "Charleston",
+        "addr:housenumber": "2461",
+        "addr:postcode": "63834",
+        "addr:state": "MO",
+        "addr:street": "E Marshall Street",
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "hgv": "no",
+        "name": "Love's",
+        "opening_hours": "24/7",
+        "payment:contactless": "yes",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 36.9201297,
+        "lon": -89.31384660000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1504216472,
+      "tags": {
+        "addr:city": "Charleston",
+        "addr:housenumber": "2461",
+        "addr:postcode": "63834",
+        "addr:state": "MO",
+        "addr:street": "E Marshall Street",
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "hgv": "only",
+        "name": "Love's",
+        "opening_hours": "24/7",
+        "payment:contactless": "yes",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 36.919724349999996,
+        "lon": -89.31445435
+      }
+    },
+    {
+      "type": "way",
+      "id": 1504216473,
+      "tags": {
+        "bin": "yes",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "caravans": "yes",
+        "drinking_water": "yes",
+        "fixme": "Add detail from new imagery",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "opening_hours": "24/7",
+        "phone": "+1 573-233-7038",
+        "ref": "981",
+        "toilets": "yes",
+        "website": "https://www.loves.com/locations/mo/charleston/loves-travel-stop-charleston-981",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 36.91952805,
+        "lon": -89.3146423
+      }
+    },
+    {
+      "type": "way",
+      "id": 1539443396,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 417-680-3036",
+        "ref": "886",
+        "website": "https://www.loves.com/locations/mo/sarcoxie/loves-travel-stop-sarcoxie-886"
+      },
+      "center": {
+        "lat": 37.076637399999996,
+        "lon": -94.10320044999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1539448686,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 636-543-7202",
+        "ref": "887",
+        "website": "https://www.loves.com/locations/mo/herculaneum/loves-travel-stop-herculaneum-887"
+      },
+      "center": {
+        "lat": 38.25709605,
+        "lon": -90.40410965000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1550359368,
+      "tags": {
+        "addr:city": "Saint Robert",
+        "addr:housenumber": "122",
+        "addr:postcode": "65584",
+        "addr:state": "MO",
+        "addr:street": "Saint Robert Boulevard",
+        "amenity": "fuel",
+        "brand": "Mobil",
+        "brand:wikidata": "Q109676002",
+        "building": "roof",
+        "fuel:HGV_diesel": "yes",
+        "fuel:diesel": "yes",
+        "fuel:octane_87": "yes",
+        "fuel:octane_89": "yes",
+        "fuel:octane_93": "yes",
+        "name": "Mobil",
+        "self_service": "yes",
+        "website": "https://www.exxonmobilfuels.com/en/find-gas-station/saintrobert-mo-saintrobertmobil-200308858"
+      },
+      "center": {
+        "lat": 37.82676085,
+        "lon": -92.14500750000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1552957942,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 38.5428978,
+        "lon": -92.07319915
+      }
+    },
+    {
+      "type": "way",
+      "id": 1558883842,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 40.5745242,
+        "lon": -93.94264965000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1558974974,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "name": "Love's",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 37.340668,
+        "lon": -94.29440554999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1568406043,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "fuel:HGV_diesel": "yes",
+        "layer": "1",
+        "name": "BreakTime",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 38.873345549999996,
+        "lon": -91.96283260000001
+      }
+    }
+  ]
+}

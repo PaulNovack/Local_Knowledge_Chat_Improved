@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MD",
+    "brand": "moe_s_southwest_grill",
+    "source": "https://download.geofabrik.de/north-america/us/maryland-latest.osm.pbf",
+    "source_md5": "513eac138cee155cc2483b64fe8a1204",
+    "processed_utc": "2026-10-24T07:05:54.385927+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13018030601,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Moe's Southwest Grill"
+      },
+      "lat": 39.1576296,
+      "lon": -76.725695
+    },
+    {
+      "type": "way",
+      "id": 356333342,
+      "tags": {
+        "addr:city": "Annapolis",
+        "addr:housenumber": "122",
+        "addr:postcode": "21401",
+        "addr:state": "MD",
+        "addr:street": "Dock Street",
+        "amenity": "fast_food",
+        "branch": "Annapolis",
+        "brand": "Moe's Southwest Grill",
+        "brand:wikidata": "Q6889938",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Moe's Southwest Grill",
+        "opening_hours": "10:30-22:00",
+        "phone": "+1 410-990-9292",
+        "short_name": "Moe's",
+        "takeaway": "yes",
+        "website": "https://locations.moes.com/md/annapolis/122-dock-street"
+      },
+      "center": {
+        "lat": 38.9778663,
+        "lon": -76.48627765000003
+      }
+    }
+  ]
+}

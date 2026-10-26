@@ -1,0 +1,89 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CA",
+    "brand": "longhorn_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/california-latest.osm.pbf",
+    "source_md5": "26040c163edb7a5f630164ee55d5afda",
+    "processed_utc": "2026-10-24T06:59:04.829226+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 238038782,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "commercial",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 34.1058532,
+        "lon": -117.53661550000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 431116061,
+      "tags": {
+        "addr:city": "Northridge",
+        "addr:housenumber": "19400",
+        "addr:postcode": "91324",
+        "addr:state": "CA",
+        "addr:street": "Plummer Street",
+        "amenity": "restaurant",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "steak_house",
+        "ele": "270.2",
+        "height": "5.0",
+        "lacounty:ain": "2761037002",
+        "lacounty:bld_id": "393569911002",
+        "name": "LongHorn Steakhouse",
+        "start_date": "1971"
+      },
+      "center": {
+        "lat": 34.24215075,
+        "lon": -118.5561113
+      }
+    },
+    {
+      "type": "way",
+      "id": 829004742,
+      "tags": {
+        "addr:city": "La Quinta",
+        "addr:housenumber": "79705",
+        "addr:postcode": "92253",
+        "addr:state": "CA",
+        "addr:street": "Highway 111",
+        "amenity": "restaurant",
+        "branch": "La Quinta",
+        "brand": "LongHorn Steakhouse",
+        "brand:wikidata": "Q3259007",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "LongHorn Steakhouse",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:00-23:00",
+        "phone": "+1 760-702-3178",
+        "ref": "PSPRQ",
+        "website": "https://www.longhornsteakhouse.com/locations/ca/la-quinta/la-quinta/5663"
+      },
+      "center": {
+        "lat": 33.70688955,
+        "lon": -116.27390685
+      }
+    }
+  ]
+}

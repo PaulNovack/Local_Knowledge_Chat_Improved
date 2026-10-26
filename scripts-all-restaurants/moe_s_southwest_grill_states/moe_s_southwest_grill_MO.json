@@ -1,0 +1,73 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MO",
+    "brand": "moe_s_southwest_grill",
+    "source": "https://download.geofabrik.de/north-america/us/missouri-latest.osm.pbf",
+    "source_md5": "b1ff49569324a8bcf395096f44a7e325",
+    "processed_utc": "2026-10-24T07:08:54.650108+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 477205767,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "499",
+        "addr:postcode": "63090",
+        "addr:state": "MO",
+        "addr:street": "Grand Avenue",
+        "amenity": "fast_food",
+        "brand": "Moe's Southwest Grill",
+        "brand:wikidata": "Q6889938",
+        "building": "yes",
+        "cuisine": "mexican",
+        "delivery": "no",
+        "name": "Moe's Southwest Grill",
+        "outdoor_seating": "yes",
+        "phone": "+1 636-432-5400",
+        "short_name": "Moe's",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.5558453,
+        "lon": -91.03429434999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 523737188,
+      "tags": {
+        "addr:city": "Branson",
+        "addr:housenumber": "2212",
+        "addr:postcode": "65616",
+        "addr:state": "MO",
+        "addr:street": "West 76 Country Boulevard",
+        "amenity": "fast_food",
+        "branch": "Branson",
+        "brand": "Moe's Southwest Grill",
+        "brand:wikidata": "Q6889938",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Moe's Southwest Grill",
+        "opening_hours": "10:30-21:00",
+        "phone": "+1 417-334-3880",
+        "short_name": "Moe's",
+        "takeaway": "yes",
+        "website": "https://locations.moes.com/mo/branson/2212-w-hwy-76"
+      },
+      "center": {
+        "lat": 36.64079495,
+        "lon": -93.26123949999999
+      }
+    }
+  ]
+}

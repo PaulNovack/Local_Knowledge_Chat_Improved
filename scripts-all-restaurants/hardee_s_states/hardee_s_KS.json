@@ -1,0 +1,261 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "hardee_s",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1707557262,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Hardee's",
+        "brand:wikidata": "Q1585088",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Hardee's",
+        "takeaway": "yes"
+      },
+      "lat": 38.8550861,
+      "lon": -94.6757658
+    },
+    {
+      "type": "node",
+      "id": 4497332428,
+      "tags": {
+        "addr:city": "McPherson",
+        "addr:housenumber": "2400",
+        "addr:postcode": "67460-4004",
+        "addr:state": "KS",
+        "addr:street": "East Kansas Avenue",
+        "amenity": "fast_food",
+        "brand": "Hardee's",
+        "brand:wikidata": "Q1585088",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Hardee's",
+        "phone": "+1 620-241-4099",
+        "ref": "1505985",
+        "takeaway": "yes",
+        "website": "https://locations.hardees.com/ks/mcpherson/2400-e-kansas-ave"
+      },
+      "lat": 38.3701463,
+      "lon": -97.6148574
+    },
+    {
+      "type": "node",
+      "id": 13334712736,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Hardee's",
+        "brand:wikidata": "Q1585088",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Hardee's",
+        "takeaway": "yes"
+      },
+      "lat": 38.5729077,
+      "lon": -95.2654871
+    },
+    {
+      "type": "way",
+      "id": 120680265,
+      "tags": {
+        "addr:city": "Topeka",
+        "addr:housenumber": "2100",
+        "addr:postcode": "66614",
+        "addr:state": "KS",
+        "addr:street": "Southwest Wanamaker Road",
+        "amenity": "fast_food",
+        "brand": "Hardee's",
+        "brand:wikidata": "Q1585088",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Hardee's",
+        "opening_hours": "Mo, Fr-Sa 05:00-23:00; Tu-Th 05:00-22:00; Su 06:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 785-273-7062",
+        "ref": "1500896",
+        "source": "esri_USDOT_Kansas",
+        "takeaway": "yes",
+        "website": "https://locations.hardees.com/ks/topeka/2100-sw-wanamaker-rd"
+      },
+      "center": {
+        "lat": 39.0286931,
+        "lon": -95.76172150000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 171689842,
+      "tags": {
+        "addr:city": "Kansas City",
+        "addr:country": "US",
+        "addr:housenumber": "8021",
+        "addr:postcode": "66112",
+        "addr:state": "KS",
+        "addr:street": "State Avenue",
+        "amenity": "fast_food",
+        "brand": "Hardee's",
+        "brand:wikidata": "Q1585088",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Hardee's",
+        "opening_hours": "Mo-Th 05:00-22:00; Fr,Sa 05:00-23:00; Su 06:00-22:00",
+        "phone": "+1 913-299-8523",
+        "ref": "1500544",
+        "source": "esri_USDOT_Kansas",
+        "takeaway": "yes",
+        "website": "https://locations.hardees.com/ks/kansas-city/8021-state-ave/"
+      },
+      "center": {
+        "lat": 39.11594565,
+        "lon": -94.766438
+      }
+    },
+    {
+      "type": "way",
+      "id": 195368168,
+      "tags": {
+        "addr:city": "Topeka",
+        "addr:housenumber": "2424",
+        "addr:postcode": "66606",
+        "addr:state": "KS",
+        "addr:street": "Southwest 6th Avenue",
+        "amenity": "fast_food",
+        "brand": "Hardee's",
+        "brand:wikidata": "Q1585088",
+        "building": "commercial",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Hardee's",
+        "phone": "+1 785-235-5772",
+        "ref": "1500074",
+        "source": "esri_USDOT_Kansas",
+        "takeaway": "yes",
+        "website": "https://locations.hardees.com/ks/topeka/2424-sw-6th-ave",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 39.05907585,
+        "lon": -95.70563295
+      }
+    },
+    {
+      "type": "way",
+      "id": 197151131,
+      "tags": {
+        "addr:city": "Topeka",
+        "addr:housenumber": "2300",
+        "addr:postcode": "66608",
+        "addr:state": "KS",
+        "addr:street": "Northwest Topeka Boulevard",
+        "amenity": "fast_food",
+        "brand": "Hardee's",
+        "brand:wikidata": "Q1585088",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Hardee's",
+        "source": "bing;esri_USDOT_Kansas;http://gis.snco.us",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.0889758,
+        "lon": -95.66413670000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 230522913,
+      "tags": {
+        "addr:city": "Olathe",
+        "addr:housenumber": "815",
+        "addr:postcode": "66061",
+        "addr:state": "KS",
+        "addr:street": "South Parker Street",
+        "amenity": "fast_food",
+        "brand": "Hardee's",
+        "brand:wikidata": "Q1585088",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2023-11-27",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "height": "4.05384",
+        "name": "Hardee's",
+        "opening_hours": "24/7",
+        "operator": "Hardee's",
+        "phone": "+1 913-764-7266",
+        "ref": "1500699",
+        "takeaway": "yes",
+        "website": "https://locations.hardees.com/ks/olathe/815-s-parker-st"
+      },
+      "center": {
+        "lat": 38.8715061,
+        "lon": -94.83495655000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 335620899,
+      "tags": {
+        "addr:city": "Overland Park",
+        "addr:housenumber": "10500",
+        "addr:postcode": "66212",
+        "addr:state": "KS",
+        "addr:street": "Metcalf Avenue",
+        "amenity": "fast_food",
+        "brand": "Hardee's",
+        "brand:wikidata": "Q1585088",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Hardee's",
+        "phone": "+1 913-649-8066",
+        "ref": "1500486",
+        "takeaway": "yes",
+        "website": "https://locations.hardees.com/ks/overland-park/10500-metcalf-ave"
+      },
+      "center": {
+        "lat": 38.9380066,
+        "lon": -94.66822249999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 380533592,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Hardee's",
+        "brand:wikidata": "Q1585088",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Hardee's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.84245335,
+        "lon": -96.63319724999997
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "chicken_salad_chick",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3146788829,
+      "tags": {
+        "addr:city": "Indianapolis",
+        "addr:housenumber": "6159",
+        "addr:street": "North Keystone Avenue",
+        "amenity": "fast_food",
+        "brand": "Chicken Salad Chick",
+        "brand:wikidata": "Q19720749",
+        "cuisine": "chicken",
+        "name": "Chicken Salad Chick",
+        "takeaway": "yes"
+      },
+      "lat": 39.867692,
+      "lon": -86.121031
+    },
+    {
+      "type": "node",
+      "id": 11219249092,
+      "tags": {
+        "addr:city": "Fishers",
+        "addr:housenumber": "11545",
+        "addr:postcode": "46037",
+        "addr:state": "IN",
+        "addr:street": "IKEA Way",
+        "addr:unit": "Ste 600",
+        "amenity": "fast_food",
+        "brand": "Chicken Salad Chick",
+        "brand:wikidata": "Q19720749",
+        "cuisine": "chicken",
+        "drive_through": "no",
+        "name": "Chicken Salad Chick",
+        "phone": "+1-463-217-0891",
+        "takeaway": "yes",
+        "website": "https://chickensaladchick.com"
+      },
+      "lat": 39.9558462,
+      "lon": -86.0019018
+    },
+    {
+      "type": "node",
+      "id": 11957248671,
+      "tags": {
+        "addr:city": "Jeffersonville",
+        "addr:housenumber": "1520",
+        "addr:postcode": "47130",
+        "addr:state": "IN",
+        "addr:street": "Veterans Parkway",
+        "amenity": "fast_food",
+        "brand": "Chicken Salad Chick",
+        "brand:wikidata": "Q19720749",
+        "check_date": "2026-05-14",
+        "cuisine": "chicken",
+        "name": "Chicken Salad Chick",
+        "opening_hours": "Mo-Sa 10:00-20:00; Su off",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "website": "https://www.chickensaladchick.com/jeffersonville/"
+      },
+      "lat": 38.3286175,
+      "lon": -85.7456166
+    },
+    {
+      "type": "way",
+      "id": 1228855565,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Chicken Salad Chick",
+        "brand:wikidata": "Q19720749",
+        "building": "retail",
+        "cuisine": "chicken",
+        "name": "Chicken Salad Chick",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 39.9505184,
+        "lon": -86.3510832
+      }
+    }
+  ]
+}

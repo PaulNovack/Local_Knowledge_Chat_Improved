@@ -1,0 +1,137 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MN",
+    "brand": "shake_shack",
+    "source": "https://download.geofabrik.de/north-america/us/minnesota-latest.osm.pbf",
+    "source_md5": "4cabd6519cf6e8b1f74c96f59629df95",
+    "processed_utc": "2026-10-24T07:08:10.045763+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4407652244,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "check_date": "2024-06-02",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "name": "Shake Shack",
+        "opening_hours:covid19": "closed",
+        "takeaway": "yes"
+      },
+      "lat": 44.8837295,
+      "lon": -93.2117762
+    },
+    {
+      "type": "node",
+      "id": 5739829668,
+      "tags": {
+        "addr:housenumber": "332",
+        "addr:street": "North Garden",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "cuisine": "burger",
+        "level": "2",
+        "name": "Shake Shack",
+        "opening_hours": "Mo-Sa 11:00-21:30; Su 11:00-20:00",
+        "phone": "+1-952-466-6056",
+        "takeaway": "yes"
+      },
+      "lat": 44.855769,
+      "lon": -93.2416375
+    },
+    {
+      "type": "node",
+      "id": 11990796361,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "cuisine": "burger",
+        "name": "Shake Shack",
+        "takeaway": "yes"
+      },
+      "lat": 44.9465449,
+      "lon": -92.9240765
+    },
+    {
+      "type": "way",
+      "id": 1113175547,
+      "tags": {
+        "addr:housenumber": "551",
+        "addr:street": "West 66th Street",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "building": "yes",
+        "cuisine": "burger",
+        "indoor_seating": "yes",
+        "name": "Shake Shack",
+        "outdoor_seating": "yes",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 44.8831895,
+        "lon": -93.32836359999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1217913229,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Shake Shack",
+        "outdoor_seating": "yes",
+        "self_service": "yes",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers"
+      },
+      "center": {
+        "lat": 45.013746749999996,
+        "lon": -93.16853579999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1365590864,
+      "tags": {
+        "addr:city": "Maple Grove",
+        "addr:housenumber": "12351",
+        "addr:postcode": "55369",
+        "addr:state": "MN",
+        "addr:street": "Elm Creek Blvd N",
+        "amenity": "fast_food",
+        "brand": "Shake Shack",
+        "brand:wikidata": "Q1058722",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Shake Shack",
+        "takeaway": "yes",
+        "website": "https://shakeshack.com/location/maple-grove-mn"
+      },
+      "center": {
+        "lat": 45.0936116,
+        "lon": -93.43768120000004
+      }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "marco_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5757753719,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza"
+      },
+      "lat": 40.3180388,
+      "lon": -79.3843955
+    },
+    {
+      "type": "node",
+      "id": 5869744696,
+      "tags": {
+        "addr:city": "Lansford",
+        "addr:housenumber": "10",
+        "addr:postcode": "18232",
+        "addr:state": "PA",
+        "addr:street": "West Ridge Street",
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "not:brand:wikidata": "Q6757382",
+        "takeaway": "yes"
+      },
+      "lat": 40.8318187,
+      "lon": -75.8849886
+    },
+    {
+      "type": "node",
+      "id": 6275755332,
+      "tags": {
+        "addr:city": "Gilbertsville",
+        "addr:housenumber": "1050",
+        "addr:postcode": "19525",
+        "addr:state": "PA",
+        "addr:street": "East Philadelphia Avenue",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza & Family Restaurant",
+        "not:brand:wikidata": "Q6757382",
+        "opening_hours": "Mo-Th 10:00-20:45; Fr,Sa 10:00-21:45; Su 11:00-20:45",
+        "outdoor_seating": "no",
+        "phone": "+1 610-367-9197",
+        "website": "https://www.marcospizzafamilyrestaurant.com/"
+      },
+      "lat": 40.3249356,
+      "lon": -75.6201871
+    },
+    {
+      "type": "node",
+      "id": 7590359977,
+      "tags": {
+        "addr:city": "Erie",
+        "addr:housenumber": "1509",
+        "addr:postcode": "16504",
+        "addr:state": "PA",
+        "addr:street": "East 38th Street",
+        "addr:unit": "2",
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "phone": "+18148244445",
+        "takeaway": "yes",
+        "website": "https://www.marcos.com/"
+      },
+      "lat": 42.1140996,
+      "lon": -80.0332757
+    },
+    {
+      "type": "node",
+      "id": 7890516736,
+      "tags": {
+        "addr:city": "Erie",
+        "addr:housenumber": "2421",
+        "addr:postcode": "16506",
+        "addr:state": "PA",
+        "addr:street": "Asbury Road",
+        "addr:unit": "3",
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 42.073556,
+      "lon": -80.1814639
+    },
+    {
+      "type": "node",
+      "id": 12290499025,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Marco's Pizza",
+        "brand:wikidata": "Q6757382",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "takeaway": "yes"
+      },
+      "lat": 41.2327294,
+      "lon": -80.4881917
+    },
+    {
+      "type": "way",
+      "id": 1308297092,
+      "tags": {
+        "addr:city": "York",
+        "addr:postcode": "17404",
+        "amenity": "restaurant",
+        "brand": "Marco's Pizza",
+        "building": "commercial",
+        "cuisine": "pizza",
+        "name": "Marco's Pizza",
+        "not:brand:wikidata": "Q6757382"
+      },
+      "center": {
+        "lat": 39.9613212,
+        "lon": -76.76089260000003
+      }
+    }
+  ]
+}

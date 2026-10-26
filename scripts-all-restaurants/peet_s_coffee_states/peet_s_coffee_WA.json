@@ -1,0 +1,131 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "peet_s_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1241180008,
+      "tags": {
+        "addr:city": "Redmond",
+        "addr:housenumber": "17887",
+        "addr:postcode": "98052",
+        "addr:state": "WA",
+        "addr:street": "Redmond Way",
+        "addr:unit": "130",
+        "amenity": "cafe",
+        "brand": "Peet's Coffee",
+        "brand:wikidata": "Q1094101",
+        "check_date": "2026-05-08",
+        "cuisine": "coffee_shop",
+        "name": "Peet's Coffee",
+        "opening_hours": "Mo-Fr 05:30-17:30; Sa-Su 06:00-17:30",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      },
+      "lat": 47.6669937,
+      "lon": -122.102626
+    },
+    {
+      "type": "node",
+      "id": 2459689358,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Peet's Coffee",
+        "brand:wikidata": "Q1094101",
+        "cuisine": "coffee_shop",
+        "name": "Peet's Coffee",
+        "takeaway": "yes"
+      },
+      "lat": 45.6200483,
+      "lon": -122.5562721
+    },
+    {
+      "type": "node",
+      "id": 3655990727,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Peet's Coffee",
+        "brand:wikidata": "Q1094101",
+        "cuisine": "coffee_shop",
+        "name": "Peet's Coffee",
+        "note": "Shares space with Specialty's",
+        "takeaway": "yes"
+      },
+      "lat": 47.60607,
+      "lon": -122.3347082
+    },
+    {
+      "type": "node",
+      "id": 4184268427,
+      "tags": {
+        "addr:city": "Vancouver",
+        "addr:housenumber": "16501",
+        "addr:postcode": "98684",
+        "addr:state": "WA",
+        "addr:street": "Southeast Mill Plain Boulevard",
+        "addr:unit": "100",
+        "amenity": "cafe",
+        "brand": "Peet's Coffee",
+        "brand:wikidata": "Q1094101",
+        "cuisine": "coffee_shop",
+        "name": "Peet's Coffee",
+        "phone": "+1-360-944-6585",
+        "takeaway": "yes",
+        "website": "https://www.peets.com/"
+      },
+      "lat": 45.6147327,
+      "lon": -122.5022802
+    },
+    {
+      "type": "node",
+      "id": 6129190144,
+      "tags": {
+        "addr:city": "Spokane",
+        "addr:housenumber": "9000",
+        "addr:postcode": "99224",
+        "addr:state": "WA",
+        "addr:street": "West Airport Drive",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Peet's Coffee"
+      },
+      "lat": 47.6255373,
+      "lon": -117.536063
+    },
+    {
+      "type": "way",
+      "id": 688101307,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Peet's Coffee",
+        "brand:wikidata": "Q1094101",
+        "check_date": "2023-04-21",
+        "cuisine": "coffee_shop",
+        "indoor": "room",
+        "level": "1",
+        "name": "Peet's Coffee",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 47.43892555,
+        "lon": -122.3018596
+      }
+    }
+  ]
+}

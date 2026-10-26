@@ -1,0 +1,57 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OR",
+    "brand": "sbarro",
+    "source": "https://download.geofabrik.de/north-america/us/oregon-latest.osm.pbf",
+    "source_md5": "bc93fd72fe4589fdc6c9b2b497cb7ef1",
+    "processed_utc": "2026-10-24T07:14:41.004303+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5330111697,
+      "tags": {
+        "addr:city": "Clackamas",
+        "addr:housenumber": "12000",
+        "addr:postcode": "97086",
+        "addr:state": "OR",
+        "addr:street": "Southeast 82nd Avenue",
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "contact:phone": "+1-503-786-6218",
+        "contact:website": "https://sbarro.com/locations/or/happy-valley/clackamas-town-center/",
+        "cuisine": "pizza",
+        "level": "1",
+        "name": "Sbarro",
+        "opening_hours": "10:00-21:00",
+        "takeaway": "yes"
+      },
+      "lat": 45.4362459,
+      "lon": -122.5736638
+    },
+    {
+      "type": "node",
+      "id": 8978868259,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "level": "1",
+        "name": "Sbarro",
+        "takeaway": "yes"
+      },
+      "lat": 45.4501363,
+      "lon": -122.7801888
+    }
+  ]
+}

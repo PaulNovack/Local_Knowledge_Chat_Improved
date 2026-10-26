@@ -1,0 +1,75 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "LA",
+    "brand": "carl_s_jr",
+    "source": "https://download.geofabrik.de/north-america/us/louisiana-latest.osm.pbf",
+    "source_md5": "2e108953505ee82f68e2a6e7a3e4f783",
+    "processed_utc": "2026-10-24T07:05:17.318731+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1226251151,
+      "tags": {
+        "addr:city": "Shreveport",
+        "addr:housenumber": "161",
+        "addr:postcode": "71107",
+        "addr:state": "LA",
+        "addr:street": "Freestate Boulevard",
+        "amenity": "fast_food",
+        "brand": "Carl's Jr.",
+        "brand:wikidata": "Q1043486",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "height": "5",
+        "name": "Carl's Jr.",
+        "opening_hours": "Mo-Su 06:00-23:00",
+        "phone": "+1-318-459-3753",
+        "takeaway": "yes",
+        "website": "https://www.carlsjr.com"
+      },
+      "center": {
+        "lat": 32.53444545,
+        "lon": -93.76750785000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1319713332,
+      "tags": {
+        "addr:city": "Shreveport",
+        "addr:housenumber": "9352",
+        "addr:postcode": "71118-3127",
+        "addr:state": "LA",
+        "addr:street": "Mansfield Road",
+        "amenity": "fast_food",
+        "brand": "Carl's Jr.",
+        "brand:wikidata": "Q1043486",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "height": "5",
+        "name": "Carl's Jr.",
+        "opening_hours": "Mo-Su 06:00-23:00",
+        "phone": "+1-318-686-4600",
+        "takeaway": "yes",
+        "website": "https://www.carlsjr.com/"
+      },
+      "center": {
+        "lat": 32.3991185,
+        "lon": -93.80811060000002
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "biggby_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13513095112,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Biggby Coffee",
+        "brand:wikidata": "Q4906876",
+        "cuisine": "coffee_shop",
+        "name": "Biggby Coffee",
+        "takeaway": "yes"
+      },
+      "lat": 35.9935073,
+      "lon": -80.2700337
+    },
+    {
+      "type": "way",
+      "id": 47700021,
+      "tags": {
+        "addr:city": "Raleigh",
+        "addr:country": "US",
+        "addr:housenumber": "5424",
+        "addr:state": "NC",
+        "addr:street": "Six Forks Road",
+        "amenity": "cafe",
+        "brand": "Biggby Coffee",
+        "brand:wikidata": "Q4906876",
+        "building": "yes",
+        "building:use": "commercial",
+        "cuisine": "coffee_shop",
+        "name": "Biggby Coffee",
+        "source": "WakeGIS",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.854932950000006,
+        "lon": -78.64137955000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1469643920,
+      "tags": {
+        "addr:city": "Fayetteville",
+        "addr:housenumber": "180",
+        "addr:postcode": "28311",
+        "addr:state": "NC",
+        "addr:street": "Andrews Road",
+        "amenity": "cafe",
+        "brand": "Biggby Coffee",
+        "brand:wikidata": "Q4906876",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Biggby Coffee",
+        "opening_hours": "Mo-Sa 06:00-20:00; Su 07:00-20:00",
+        "phone": "+19198103771",
+        "takeaway": "yes",
+        "website": "https://biggby.com/"
+      },
+      "center": {
+        "lat": 35.158451150000005,
+        "lon": -78.8726628
+      }
+    }
+  ]
+}

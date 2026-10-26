@@ -1,0 +1,85 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "qdoba",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2724050948,
+      "tags": {
+        "addr:city": "Hattiesburg",
+        "addr:housenumber": "3705",
+        "addr:postcode": "39402",
+        "addr:state": "MS",
+        "addr:street": "Hardy Street",
+        "addr:unit": "10",
+        "amenity": "fast_food",
+        "branch": "Hardy",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "cuisine": "mexican",
+        "indoor_seating": "yes",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Eats",
+        "opening_hours": "Mo-Sa 10:30-22:00; Su 10:30-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 601-450-4822",
+        "takeaway": "yes",
+        "website": "https://locations.qdoba.com/us/ms/hattiesburg/3705-hardy-st.html"
+      },
+      "lat": 31.3252473,
+      "lon": -89.3446004
+    },
+    {
+      "type": "node",
+      "id": 5941130248,
+      "tags": {
+        "addr:city": "Oxford",
+        "addr:housenumber": "218",
+        "addr:postcode": "38677",
+        "addr:state": "MS",
+        "addr:street": "Student Union Drive",
+        "amenity": "fast_food",
+        "branch": "Ole Miss Student Union",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "cuisine": "mexican",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Grill",
+        "opening_hours": "Mo-Fr 10:00-20:00; Sa-Su 11:00-20:00",
+        "phone": "+1 662-915-1470",
+        "takeaway": "yes",
+        "website": "https://locations.qdoba.com/us/ms/oxford/218-student-union-dr.html"
+      },
+      "lat": 34.3674602,
+      "lon": -89.5345852
+    },
+    {
+      "type": "node",
+      "id": 13897776656,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Qdoba",
+        "brand:wikidata": "Q1363885",
+        "cuisine": "mexican",
+        "name": "Qdoba",
+        "official_name": "Qdoba Mexican Eats",
+        "takeaway": "yes"
+      },
+      "lat": 31.315073,
+      "lon": -89.4112203
+    }
+  ]
+}

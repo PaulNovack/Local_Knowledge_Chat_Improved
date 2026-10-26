@@ -1,0 +1,137 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AK",
+    "brand": "burger_king",
+    "source": "https://download.geofabrik.de/north-america/us/alaska-latest.osm.pbf",
+    "source_md5": "55281fca0391ab2c26b0d99fd6a6f5f8",
+    "processed_utc": "2026-10-24T06:56:26.590469+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4518519389,
+      "tags": {
+        "addr:city": "Anchorage",
+        "addr:housenumber": "1341",
+        "addr:postcode": "99503",
+        "addr:state": "AK",
+        "addr:street": "West Northern Lights Boulevard",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "cuisine": "burger",
+        "diet:meat": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "yes",
+        "name": "Burger King",
+        "name:en": "Burger King",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "opening_hours:covid19": "restricted",
+        "phone": "+1-907-277-0915",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_1724"
+      },
+      "lat": 61.1955252,
+      "lon": -149.909964
+    },
+    {
+      "type": "way",
+      "id": 607995237,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "yes",
+        "cuisine": "burger",
+        "delivery": "no",
+        "drive_through": "yes",
+        "name": "Burger King",
+        "opening_hours": "Mo-Fr 06:00-19:00; Sa-Su 11:00-17:00",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 61.23983174999999,
+        "lon": -149.8059526
+      }
+    },
+    {
+      "type": "way",
+      "id": 758013150,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "commercial",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Burger King",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 61.577073049999996,
+        "lon": -149.4118285
+      }
+    },
+    {
+      "type": "way",
+      "id": 778717450,
+      "tags": {
+        "addr:city": "Anchorage",
+        "addr:housenumber": "900",
+        "addr:postcode": "99515",
+        "addr:state": "AK",
+        "addr:street": "East Dimond Boulevard",
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Burger King",
+        "note": "Drive Thru Hours: Monday to Sunday 07:00 a.m. - 12:00 a.m.",
+        "opening_hours": "Mo-Sa 06:00-20:00; Su 07:00-20:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-907-344-7323",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://www.bk.com/store-locator/store/restaurant_1931"
+      },
+      "center": {
+        "lat": 61.144296,
+        "lon": -149.8651365
+      }
+    },
+    {
+      "type": "way",
+      "id": 819539787,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Burger King",
+        "brand:wikidata": "Q177054",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Burger King",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 61.21535315,
+        "lon": -149.81323580000003
+      }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "sonic",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3755164381,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "1057",
+        "addr:postcode": "01119",
+        "addr:state": "MA",
+        "addr:street": "Boston Road",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "Su-Th 09:00-23:00; Fr,Sa 09:00-24:00",
+        "phone": "+1 413-304-2061",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/ma/springfield/1057-boston-road.html"
+      },
+      "lat": 42.1384728,
+      "lon": -72.5085441
+    },
+    {
+      "type": "node",
+      "id": 5306786135,
+      "tags": {
+        "addr:city": "Peabody",
+        "addr:housenumber": "55",
+        "addr:postcode": "01960",
+        "addr:state": "MA",
+        "addr:street": "Newbury Street",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "opening_hours": "09:00-02:00",
+        "phone": "+1 978-535-9100",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/ma/peabody/55-newbury-street.html"
+      },
+      "lat": 42.5253745,
+      "lon": -70.9945249
+    },
+    {
+      "type": "node",
+      "id": 8929665617,
+      "tags": {
+        "addr:city": "Somerset",
+        "addr:housenumber": "707",
+        "addr:postcode": "02726",
+        "addr:state": "MA",
+        "addr:street": "Grand Army Highway",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "drive_through": "yes",
+        "name": "Sonic",
+        "opening_hours": "Mo-Th 09:00-24:00; Fr-Sa 09:00-01:00; Su 09:00-24:00",
+        "phone": "+1 774-365-6941",
+        "takeaway": "yes",
+        "website": "https://locations.sonicdrivein.com/ma/somerset/707-grand-army-highway.html"
+      },
+      "lat": 41.7295983,
+      "lon": -71.1677154
+    },
+    {
+      "type": "way",
+      "id": 150417030,
+      "tags": {
+        "addr:city": "Wilmington",
+        "addr:housenumber": "220",
+        "addr:postcode": "01887",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Sonic",
+        "brand:wikidata": "Q7561808",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_in": "yes",
+        "name": "Sonic",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 42.55722205,
+        "lon": -71.18088690000002
+      }
+    }
+  ]
+}

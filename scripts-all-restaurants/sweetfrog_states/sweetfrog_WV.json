@@ -1,0 +1,80 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WV",
+    "brand": "sweetfrog",
+    "source": "https://download.geofabrik.de/north-america/us/west-virginia-latest.osm.pbf",
+    "source_md5": "4f8c380a535ff9841f95eae4e1a7f84f",
+    "processed_utc": "2026-10-24T07:19:30.158292+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5284311450,
+      "tags": {
+        "addr:city": "Martinsburg",
+        "addr:housenumber": "245",
+        "addr:postcode": "25403",
+        "addr:state": "WV",
+        "addr:street": "Retail Commons Parkway",
+        "addr:unit": "8",
+        "amenity": "ice_cream",
+        "brand": "sweetFrog",
+        "brand:wikidata": "Q16952110",
+        "cuisine": "frozen_yogurt;sorbet",
+        "name": "sweetFrog"
+      },
+      "lat": 39.4396655,
+      "lon": -77.9905633
+    },
+    {
+      "type": "node",
+      "id": 6378498079,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "sweetFrog",
+        "brand:wikidata": "Q16952110",
+        "cuisine": "frozen_yogurt",
+        "name": "sweetFrog"
+      },
+      "lat": 39.3235192,
+      "lon": -80.2314885
+    },
+    {
+      "type": "node",
+      "id": 6499090443,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "sweetFrog",
+        "brand:wikidata": "Q16952110",
+        "cuisine": "frozen_yogurt",
+        "name": "sweetFrog"
+      },
+      "lat": 37.8031128,
+      "lon": -81.1792148
+    },
+    {
+      "type": "way",
+      "id": 829823747,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "sweetFrog",
+        "brand:wikidata": "Q16952110",
+        "building": "yes",
+        "cuisine": "frozen_yogurt",
+        "name": "sweetFrog"
+      },
+      "center": {
+        "lat": 39.2985767,
+        "lon": -77.84265214999999
+      }
+    }
+  ]
+}

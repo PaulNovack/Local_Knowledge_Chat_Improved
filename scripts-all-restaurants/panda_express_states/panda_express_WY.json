@@ -1,0 +1,59 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "panda_express",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 14255717892,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 41.3125182,
+      "lon": -105.5792279
+    },
+    {
+      "type": "way",
+      "id": 349365386,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:housenumber": "2044",
+        "addr:postcode": "82009",
+        "addr:state": "WY",
+        "addr:street": "Dell Range Boulevard",
+        "amenity": "fast_food",
+        "branch": "Dell Range & Grandview",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "retail",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "09:30-21:30",
+        "phone": "+1 307-635-1998",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/wy/cheyenne/2019"
+      },
+      "center": {
+        "lat": 41.1611321,
+        "lon": -104.7903579
+      }
+    }
+  ]
+}

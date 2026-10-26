@@ -1,0 +1,63 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "nekter_juice_bar",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7573217555,
+      "tags": {
+        "addr:city": "Tallahassee",
+        "addr:country": "US",
+        "addr:housenumber": "1801",
+        "addr:postcode": "32304",
+        "addr:state": "FL",
+        "addr:street": "West Tennessee Street",
+        "addr:unit": "3",
+        "amenity": "fast_food",
+        "brand": "Nékter Juice Bar",
+        "brand:wikidata": "Q112826281",
+        "cuisine": "juice",
+        "name": "Nékter Juice Bar",
+        "takeaway": "yes",
+        "website": "https://www.nekterjuicebar.com/"
+      },
+      "lat": 30.4486693,
+      "lon": -84.311182
+    },
+    {
+      "type": "node",
+      "id": 9836959908,
+      "tags": {
+        "addr:city": "Valrico",
+        "addr:housenumber": "3482",
+        "addr:postcode": "33596",
+        "addr:state": "FL",
+        "addr:street": "Lithia Pinecrest Road",
+        "amenity": "fast_food",
+        "brand": "Nékter Juice Bar",
+        "brand:wikidata": "Q112826281",
+        "cuisine": "juice",
+        "drive_through": "no",
+        "name": "Nékter Juice Bar",
+        "phone": "+1-813-409-2679",
+        "takeaway": "yes",
+        "website": "https://locations.nekterjuicebar.com/ll/us/fl/valrico/3482-lithia-pinecrest-road/"
+      },
+      "lat": 27.8905914,
+      "lon": -82.2413922
+    }
+  ]
+}

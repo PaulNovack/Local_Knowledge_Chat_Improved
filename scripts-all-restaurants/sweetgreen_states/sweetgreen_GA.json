@@ -1,0 +1,72 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "sweetgreen",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2390850324,
+      "tags": {
+        "addr:floor": "G;1",
+        "addr:housenumber": "1201",
+        "addr:postcode": "30361",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Street Northeast",
+        "addr:unit": "150",
+        "amenity": "fast_food",
+        "branch": "Colony Square",
+        "brand": "Sweetgreen",
+        "brand:wikidata": "Q18636413",
+        "check_date": "2026-06-10",
+        "cuisine": "salad",
+        "delivery": "yes",
+        "diet:dairy_free": "yes",
+        "diet:gluten_free": "yes",
+        "diet:soy_free": "yes",
+        "drive_through": "no",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "level": "0;1",
+        "name": "Sweetgreen",
+        "opening_hours": "Mo-Fr 10:30-20:00; Sa-Su 10:30-16:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 770-766-1600",
+        "source": "local_knowledge;survey",
+        "takeaway": "yes",
+        "website": "https://order.sweetgreen.com/14th-peachtree/menu",
+        "wheelchair": "yes"
+      },
+      "lat": 33.7877111,
+      "lon": -84.3833018
+    },
+    {
+      "type": "node",
+      "id": 12177511392,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sweetgreen",
+        "brand:wikidata": "Q18636413",
+        "check_date": "2024-09-14",
+        "cuisine": "salad",
+        "name": "Sweetgreen",
+        "takeaway": "yes"
+      },
+      "lat": 33.7715346,
+      "lon": -84.3668407
+    }
+  ]
+}

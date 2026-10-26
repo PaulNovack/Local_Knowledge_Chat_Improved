@@ -1,0 +1,42 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "papa_murphy_s",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 449396825,
+      "tags": {
+        "addr:city": "Savannah",
+        "addr:housenumber": "201",
+        "addr:postcode": "31410",
+        "addr:state": "GA",
+        "addr:street": "Johnny Mercer Boulevard",
+        "amenity": "fast_food",
+        "brand": "Papa Murphy's",
+        "brand:wikidata": "Q7132349",
+        "building": "commercial",
+        "cuisine": "pizza",
+        "name": "Papa Murphy's",
+        "official_name": "Papa Murphy's Take 'N' Bake Pizza",
+        "takeaway": "only"
+      },
+      "center": {
+        "lat": 32.01409565,
+        "lon": -80.98525215000001
+      }
+    }
+  ]
+}

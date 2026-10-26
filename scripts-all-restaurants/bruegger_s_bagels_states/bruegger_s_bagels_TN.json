@@ -1,0 +1,69 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TN",
+    "brand": "bruegger_s_bagels",
+    "source": "https://download.geofabrik.de/north-america/us/tennessee-latest.osm.pbf",
+    "source_md5": "a047c5da6c897a8a98b1fc4a282b8d3f",
+    "processed_utc": "2026-10-24T07:16:20.210730+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7373909456,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Bruegger's Bagels",
+        "brand:wikidata": "Q4978656",
+        "cuisine": "bagel",
+        "name": "Bruegger's Bagels",
+        "short_name": "Bruegger's",
+        "takeaway": "yes"
+      },
+      "lat": 36.1459058,
+      "lon": -86.79933
+    },
+    {
+      "type": "node",
+      "id": 13950370814,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Bruegger's Bagels",
+        "brand:wikidata": "Q4978656",
+        "cuisine": "bagel",
+        "name": "Bruegger's Bagels",
+        "opening_hours": "Mo-Su 06:00-14:00",
+        "short_name": "Bruegger's",
+        "takeaway": "yes"
+      },
+      "lat": 36.0256014,
+      "lon": -86.7920427
+    },
+    {
+      "type": "way",
+      "id": 544429165,
+      "tags": {
+        "amenity": "fast_food",
+        "branch": "Bagels",
+        "brand": "Bruegger's Bagels",
+        "brand:wikidata": "Q4978656",
+        "building": "yes",
+        "cuisine": "bagel",
+        "name": "Bruegger's Bagels",
+        "short_name": "Bruegger's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.10089755,
+        "lon": -86.87036945
+      }
+    }
+  ]
+}

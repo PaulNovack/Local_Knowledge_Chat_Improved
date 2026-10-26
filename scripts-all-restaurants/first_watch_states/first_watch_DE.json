@@ -1,0 +1,80 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DE",
+    "brand": "first_watch",
+    "source": "https://download.geofabrik.de/north-america/us/delaware-latest.osm.pbf",
+    "source_md5": "5f714be897be010ea09e4134c39a0638",
+    "processed_utc": "2026-10-24T07:00:37.202137+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6440386683,
+      "tags": {
+        "addr:city": "Wilmington",
+        "addr:housenumber": "3660",
+        "addr:postcode": "19803",
+        "addr:state": "DE",
+        "addr:street": "Concord Pike",
+        "amenity": "restaurant",
+        "branch": "Concord Pike",
+        "brand": "First Watch",
+        "brand:wikidata": "Q5454064",
+        "check_date": "2024-03-20",
+        "cuisine": "american;breakfast",
+        "name": "First Watch",
+        "official_name": "First Watch The Daytime Cafe",
+        "opening_hours": "07:00-14:30",
+        "phone": "+1 302-551-4863",
+        "website": "https://www.firstwatch.com/locations/concord-pike/"
+      },
+      "lat": 39.8048794,
+      "lon": -75.5498013
+    },
+    {
+      "type": "node",
+      "id": 9251425266,
+      "tags": {
+        "addr:city": "Newark",
+        "addr:housenumber": "74",
+        "addr:postcode": "19713",
+        "addr:state": "DE",
+        "addr:street": "Geoffrey Drive",
+        "amenity": "restaurant",
+        "brand": "First Watch",
+        "brand:wikidata": "Q5454064",
+        "check_date": "2023-12-27",
+        "cuisine": "american;breakfast",
+        "name": "First Watch",
+        "official_name": "First Watch The Daytime Cafe",
+        "opening_hours": "07:00-14:30",
+        "phone": "+1 302-894-4030",
+        "website": "https://www.firstwatch.com/locations/christiana"
+      },
+      "lat": 39.6876926,
+      "lon": -75.6521763
+    },
+    {
+      "type": "node",
+      "id": 12035001232,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "First Watch",
+        "brand:wikidata": "Q5454064",
+        "cuisine": "american;breakfast",
+        "name": "First Watch",
+        "official_name": "First Watch The Daytime Cafe"
+      },
+      "lat": 39.679112,
+      "lon": -75.7352919
+    }
+  ]
+}

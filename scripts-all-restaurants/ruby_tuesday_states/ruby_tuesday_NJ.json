@@ -1,0 +1,120 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NJ",
+    "brand": "ruby_tuesday",
+    "source": "https://download.geofabrik.de/north-america/us/new-jersey-latest.osm.pbf",
+    "source_md5": "a434f64070ea837636f0c8286da0a8fb",
+    "processed_utc": "2026-10-24T07:10:25.467713+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 701676909,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "lat": 39.358219,
+      "lon": -74.4369141
+    },
+    {
+      "type": "node",
+      "id": 7110777408,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "lat": 40.2534382,
+      "lon": -74.3008896
+    },
+    {
+      "type": "way",
+      "id": 204282547,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "center": {
+        "lat": 40.4368437,
+        "lon": -74.30171680000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 344398168,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "check_date": "2025-08-08",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "center": {
+        "lat": 39.96920015,
+        "lon": -74.90087389999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 821269316,
+      "tags": {
+        "addr:city": "Elizabeth",
+        "addr:housenumber": "120",
+        "addr:postcode": "07201",
+        "addr:state": "NJ",
+        "addr:street": "International Boulevard",
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "internet_access": "wlan",
+        "name": "Ruby Tuesday",
+        "opening_hours": "11:00-23:00",
+        "phone": "+1 908-289-8307",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://www.rubytuesday.com"
+      },
+      "center": {
+        "lat": 40.6623904,
+        "lon": -74.17560615000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 971834436,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Ruby Tuesday",
+        "brand:wikidata": "Q7376400",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Ruby Tuesday"
+      },
+      "center": {
+        "lat": 40.53447905,
+        "lon": -74.52497395
+      }
+    }
+  ]
+}

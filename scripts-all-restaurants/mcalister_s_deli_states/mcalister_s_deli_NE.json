@@ -1,0 +1,57 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "mcalister_s_deli",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12075873845,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli"
+      },
+      "lat": 41.2556417,
+      "lon": -96.0234261
+    },
+    {
+      "type": "way",
+      "id": 601441546,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "500",
+        "addr:postcode": "68504",
+        "addr:state": "NE",
+        "addr:street": "North 48th Street",
+        "amenity": "restaurant",
+        "brand": "McAlister's Deli",
+        "brand:wikidata": "Q17020829",
+        "building": "yes",
+        "check_date": "2025-10-13",
+        "cuisine": "sandwich",
+        "name": "McAlister's Deli",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "phone": "+1-402-465-4575",
+        "website": "https://locations.mcalistersdeli.com/ne/lincoln/500-n.-48th-street"
+      },
+      "center": {
+        "lat": 40.81856525,
+        "lon": -96.65293435000001
+      }
+    }
+  ]
+}

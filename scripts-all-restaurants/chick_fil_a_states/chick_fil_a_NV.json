@@ -1,0 +1,468 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "chick_fil_a",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11666646045,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3667",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "addr:street": "Las Vegas Boulevard South",
+        "amenity": "fast_food",
+        "branch": "Strip at Harmon In-Line",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "drive_through": "no",
+        "indoor_seating": "no",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Fr 10:00-23:45; Sa 10:00-23:15; Su off",
+        "phone": "+1 702-331-3038",
+        "ref": "04232",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/nv/strip-at-harmon-in-line"
+      },
+      "lat": 36.1094345,
+      "lon": -115.1723929
+    },
+    {
+      "type": "node",
+      "id": 13290208245,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "branch": "Golden Nugget Las Vegas Hotel",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "drive_through": "no",
+        "fixme": "Verify location",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:00-23:45",
+        "outdoor_seating": "yes",
+        "phone": "+1 702-252-4232",
+        "ref": "80719",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/nv/sahara-at-i-15"
+      },
+      "lat": 36.170592,
+      "lon": -115.1453823
+    },
+    {
+      "type": "way",
+      "id": 381396713,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:country": "US",
+        "addr:housenumber": "4165",
+        "addr:postcode": "89169-6512",
+        "addr:state": "NV",
+        "addr:street": "Paradise Road",
+        "amenity": "fast_food",
+        "branch": "Flamingo & Paradise",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "commercial",
+        "check_date": "2025-08-21",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00; Su off",
+        "phone": "+1 725-204-9116",
+        "ref": "4666",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/nv/flamingo-paradise"
+      },
+      "center": {
+        "lat": 36.113449700000004,
+        "lon": -115.15408305
+      }
+    },
+    {
+      "type": "way",
+      "id": 447892359,
+      "tags": {
+        "addr:city": "Reno",
+        "addr:housenumber": "6365",
+        "addr:postcode": "89509",
+        "addr:state": "NV",
+        "addr:street": "South McCarran Boulevard",
+        "amenity": "fast_food",
+        "branch": "South McCarran and 580",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "construction": "building",
+        "cuisine": "chicken",
+        "delivery": "no",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00; Su off",
+        "phone": "+1 775-470-8333",
+        "ref": "03703",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/nv/south-mccarran-and-580"
+      },
+      "center": {
+        "lat": 39.4773503,
+        "lon": -119.79211750000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 575783635,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "460",
+        "addr:postcode": "89014",
+        "addr:state": "NV",
+        "addr:street": "North Stephanie Street",
+        "amenity": "fast_food",
+        "branch": "Stephanie at Warm Springs",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "retail",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su off",
+        "phone": "+1 702-463-4004",
+        "ref": "03711",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/nv/stephanie-at-warm-springs"
+      },
+      "center": {
+        "lat": 36.057421700000006,
+        "lon": -115.04573184999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 587100024,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "2480",
+        "addr:postcode": "89102",
+        "addr:state": "NV",
+        "addr:street": "South Rancho Drive",
+        "amenity": "fast_food",
+        "branch": "Sahara at I-15",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "no",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-23:00; Su off",
+        "phone": "+1 702-252-4232",
+        "ref": "03729",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/nv/sahara-at-i-15"
+      },
+      "center": {
+        "lat": 36.14471605,
+        "lon": -115.17262405000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 955060694,
+      "tags": {
+        "addr:city": "Carson City",
+        "addr:housenumber": "4751",
+        "addr:postcode": "89703",
+        "addr:state": "NV",
+        "addr:street": "Cochise Street",
+        "amenity": "fast_food",
+        "branch": "Carson Valley",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "commercial",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 08:00-22:00",
+        "phone": "+1 775-600-1027",
+        "ref": "04132",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/nv/carson-valley"
+      },
+      "center": {
+        "lat": 39.1241921,
+        "lon": -119.77251030000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1063081629,
+      "tags": {
+        "addr:city": "Sparks",
+        "addr:county": "Washoe",
+        "addr:housenumber": "1390",
+        "addr:postcode": "89434",
+        "addr:state": "NV",
+        "addr:street": "Big Fish Drive",
+        "amenity": "fast_food",
+        "branch": "Sparks Boulevard & I-80",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Th 06:30-21:00; Fr-Sa 06:30-22:00; Su off",
+        "phone": "+1 775-440-1828",
+        "ref": "03810",
+        "source": "WC GIS",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/nv/sparks-blvd-i-80"
+      },
+      "center": {
+        "lat": 39.53169545,
+        "lon": -119.71596505000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1072472614,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "1991",
+        "addr:postcode": "89108",
+        "addr:state": "NV",
+        "addr:street": "North Rainbow Boulevard",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "commercial",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Chick-fil-A",
+        "phone": "+1-702-648-6486",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/nv/rainbow-lake-mead"
+      },
+      "center": {
+        "lat": 36.195552,
+        "lon": -115.242613
+      }
+    },
+    {
+      "type": "way",
+      "id": 1220083360,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "1100",
+        "addr:postcode": "89117",
+        "addr:state": "NV",
+        "addr:street": "West Charleston Boulevard",
+        "amenity": "fast_food",
+        "branch": "Charleston & Fort Apache In-Line DT",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00; Su off",
+        "phone": "+1 702-703-1053",
+        "ref": "04293",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/nv/charleston-fort-apache-in-line-dt"
+      },
+      "center": {
+        "lat": 36.1586558,
+        "lon": -115.29077365
+      }
+    },
+    {
+      "type": "way",
+      "id": 1264703200,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3841",
+        "addr:postcode": "89103-4009",
+        "addr:state": "NV",
+        "addr:street": "West Flamingo Road",
+        "amenity": "fast_food",
+        "branch": "Flamingo & Valley View",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "retail",
+        "contact:phone": "+1 702-357-3003",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00; Su off",
+        "ref": "04266",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/nv/flamingo-valley-view"
+      },
+      "center": {
+        "lat": 36.1150904,
+        "lon": -115.19117545
+      }
+    },
+    {
+      "type": "way",
+      "id": 1266398883,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "9830",
+        "addr:postcode": "89147",
+        "addr:state": "NV",
+        "addr:street": "West Flamingo Road",
+        "amenity": "fast_food",
+        "branch": "Highway 215 & Flamingo",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su off",
+        "phone": "+1 702-433-4381",
+        "ref": "04356",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/nv/hwy-215-flamingo"
+      },
+      "center": {
+        "lat": 36.115737949999996,
+        "lon": -115.30699040000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1395074257,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "7010",
+        "addr:postcode": "89119",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "amenity": "fast_food",
+        "branch": "Las Vegas Boulevard & I-215",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "retail",
+        "cuisine": "chicken",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00",
+        "opening_hours:drive_through": "Mo-Sa 06:30-23:00",
+        "phone": "+1 702-384-0080",
+        "ref": "03930",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/nv/las-vegas-blvd-i-215"
+      },
+      "center": {
+        "lat": 36.06229535,
+        "lon": -115.1717812
+      }
+    },
+    {
+      "type": "way",
+      "id": 1414475837,
+      "tags": {
+        "addr:city": "North Las Vegas",
+        "addr:housenumber": "1720",
+        "addr:postcode": "89032",
+        "addr:state": "NV",
+        "addr:street": "West Craig Road",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "commercial",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "Chick-fil-A",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.2399342,
+        "lon": -115.16504850000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1417463381,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "366",
+        "addr:postcode": "89015",
+        "addr:state": "NV",
+        "addr:street": "West Lake Mead Parkway",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:00-22:00",
+        "phone": "+1-725-249-8778",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/nv/lake-mead-water"
+      },
+      "center": {
+        "lat": 36.037355149999996,
+        "lon": -114.99027269999999
+      }
+    }
+  ]
+}

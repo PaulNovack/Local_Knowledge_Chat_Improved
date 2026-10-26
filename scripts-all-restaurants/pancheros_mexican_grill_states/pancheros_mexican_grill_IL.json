@@ -1,0 +1,94 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "pancheros_mexican_grill",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4315168591,
+      "tags": {
+        "addr:city": "Rockford",
+        "addr:housenumber": "3015",
+        "addr:postcode": "61114",
+        "addr:state": "IL",
+        "addr:street": "North Perryville Road",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "brand": "Pancheros",
+        "brand:wikidata": "Q7130313",
+        "cuisine": "mexican",
+        "name": "Pancheros Mexican Grill",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "phone": "+1 815-708-8570",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets:wheelchair": "yes"
+      },
+      "lat": 42.3049019,
+      "lon": -88.9785157
+    },
+    {
+      "type": "node",
+      "id": 13294951966,
+      "tags": {
+        "addr:city": "Quincy",
+        "addr:housenumber": "3015",
+        "addr:postcode": "62301",
+        "addr:state": "IL",
+        "addr:street": "Broadway Street",
+        "amenity": "restaurant",
+        "branch": "Quincy",
+        "brand": "Pancheros",
+        "brand:wikidata": "Q7130313",
+        "contact:facebook": "https://www.facebook.com/pancherosquincy",
+        "cuisine": "mexican",
+        "email": "jmorris@apexsdi.com",
+        "name": "Pancheros Mexican Grill",
+        "opening_hours": "Mo-We 10:30-24:00, Th-Fr 10:30-00:00, Sa 10:00-00:00",
+        "payment:american_express": "yes",
+        "payment:apple_pay": "yes",
+        "payment:cheque": "yes",
+        "payment:debit_cards": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:paypal": "yes",
+        "payment:venmo": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 217-919-6527",
+        "website": "https://pancheros.com/location/quincy-il/"
+      },
+      "lat": 39.9356154,
+      "lon": -91.3655678
+    },
+    {
+      "type": "node",
+      "id": 13880034412,
+      "tags": {
+        "addr:city": "Moline",
+        "addr:housenumber": "4140",
+        "addr:postcode": "61265",
+        "addr:state": "IL",
+        "addr:street": "38th Avenue",
+        "amenity": "restaurant",
+        "brand": "Pancheros",
+        "brand:wikidata": "Q7130313",
+        "cuisine": "mexican",
+        "name": "Pancheros Mexican Grill"
+      },
+      "lat": 41.4713414,
+      "lon": -90.4751681
+    }
+  ]
+}

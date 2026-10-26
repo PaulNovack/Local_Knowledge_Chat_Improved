@@ -1,0 +1,110 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "LA",
+    "brand": "huddle_house",
+    "source": "https://download.geofabrik.de/north-america/us/louisiana-latest.osm.pbf",
+    "source_md5": "2e108953505ee82f68e2a6e7a3e4f783",
+    "processed_utc": "2026-10-24T07:05:17.318731+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5332260067,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Huddle House",
+        "brand:wikidata": "Q5928324",
+        "cuisine": "american",
+        "name": "Huddle House",
+        "opening_hours": "24/7"
+      },
+      "lat": 32.5935463,
+      "lon": -93.3385508
+    },
+    {
+      "type": "node",
+      "id": 12175698386,
+      "tags": {
+        "addr:floor": "1",
+        "amenity": "restaurant",
+        "brand": "Huddle House",
+        "brand:wikidata": "Q5928324",
+        "check_date": "2024-09-13",
+        "cuisine": "american",
+        "level": "0",
+        "name": "Huddle House"
+      },
+      "lat": 32.520543,
+      "lon": -92.3644537
+    },
+    {
+      "type": "way",
+      "id": 478661753,
+      "tags": {
+        "addr:city": "Natchitoches",
+        "addr:housenumber": "5306",
+        "addr:state": "LA",
+        "addr:street": "University Parkway",
+        "amenity": "restaurant",
+        "brand": "Huddle House",
+        "brand:wikidata": "Q5928324",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Huddle House"
+      },
+      "center": {
+        "lat": 31.7287732,
+        "lon": -93.15854015000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 901294437,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Huddle House",
+        "brand:wikidata": "Q5928324",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Huddle House"
+      },
+      "center": {
+        "lat": 31.3650392,
+        "lon": -92.41255294999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1077150595,
+      "tags": {
+        "addr:housenumber": "501",
+        "addr:postcode": "71270",
+        "addr:street": "North Service Road East",
+        "amenity": "restaurant",
+        "brand": "Huddle House",
+        "brand:wikidata": "Q5928324",
+        "building": "yes",
+        "building:levels": "1",
+        "check_date": "2026-05-03",
+        "check_date:opening_hours": "2026-05-03",
+        "cuisine": "american",
+        "name": "Huddle House",
+        "opening_hours": "24/7",
+        "phone": "+1-318-255-1449",
+        "website": "https://www.huddlehouse.com/locations/la/ruston/501-n-service-rd-e"
+      },
+      "center": {
+        "lat": 32.540925400000006,
+        "lon": -92.6319426
+      }
+    }
+  ]
+}

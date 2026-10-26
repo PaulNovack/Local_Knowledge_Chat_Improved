@@ -1,0 +1,89 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TN",
+    "brand": "bonefish_grill",
+    "source": "https://download.geofabrik.de/north-america/us/tennessee-latest.osm.pbf",
+    "source_md5": "a047c5da6c897a8a98b1fc4a282b8d3f",
+    "processed_utc": "2026-10-24T07:16:20.210730+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 502864814,
+      "tags": {
+        "addr:city": "Franklin",
+        "addr:housenumber": "3010",
+        "addr:postcode": "37067",
+        "addr:street": "Mallory Lane",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill",
+        "opening_hours": "Mo-Th 11:00-22:00; Fr,Sa 11:00-23:00; Su 11:00-21:00"
+      },
+      "lat": 35.9469159,
+      "lon": -86.8180847
+    },
+    {
+      "type": "node",
+      "id": 656843198,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "lat": 35.8561423,
+      "lon": -86.4308915
+    },
+    {
+      "type": "node",
+      "id": 3759715717,
+      "tags": {
+        "addr:city": "Knoxville",
+        "addr:housenumber": "11395",
+        "addr:postcode": "37934",
+        "addr:state": "TN",
+        "addr:street": "Parkside Drive",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "lat": 35.9008056,
+      "lon": -84.1590962
+    },
+    {
+      "type": "way",
+      "id": 444923141,
+      "tags": {
+        "addr:city": "Johnson City",
+        "addr:housenumber": "1902",
+        "addr:postcode": "37601",
+        "addr:state": "TN",
+        "addr:street": "North Roan Street",
+        "amenity": "restaurant",
+        "brand": "Bonefish Grill",
+        "brand:wikidata": "Q4941599",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Bonefish Grill"
+      },
+      "center": {
+        "lat": 36.336084150000005,
+        "lon": -82.37218150000001
+      }
+    }
+  ]
+}

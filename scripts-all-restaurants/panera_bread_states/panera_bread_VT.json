@@ -1,0 +1,99 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "VT",
+    "brand": "panera_bread",
+    "source": "https://download.geofabrik.de/north-america/us/vermont-latest.osm.pbf",
+    "source_md5": "20a19d56b1e59d82493b3194b9e30440",
+    "processed_utc": "2026-10-24T07:18:02.754583+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5269919046,
+      "tags": {
+        "addr:city": "Williston",
+        "addr:housenumber": "62",
+        "addr:postcode": "05495",
+        "addr:state": "VT",
+        "addr:street": "Merchants Row",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "07:00-21:00",
+        "phone": "+1 802-288-9633",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/vt/williston/62-merchants-row.html"
+      },
+      "lat": 44.4453088,
+      "lon": -73.1123989
+    },
+    {
+      "type": "way",
+      "id": 165664342,
+      "tags": {
+        "addr:city": "Rutland",
+        "addr:housenumber": "241",
+        "addr:postcode": "05701",
+        "addr:state": "VT",
+        "addr:street": "South Main Street",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "yes",
+        "cuisine": "sandwich;bakery",
+        "name": "Panera Bread",
+        "opening_hours": "Mo-Fr 07:00-19:00; Sa-Su 09:00-15:00",
+        "phone": "+1 802-773-2933",
+        "ref:vcgi:esiteid": "213702",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/vt/rutland/241-south-main-st.html"
+      },
+      "center": {
+        "lat": 43.5913914,
+        "lon": -72.96949899999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 666799069,
+      "tags": {
+        "addr:city": "South Burlington",
+        "addr:housenumber": "1184",
+        "addr:postcode": "05403",
+        "addr:state": "VT",
+        "addr:street": "Shelburne Road",
+        "amenity": "fast_food",
+        "brand": "Panera Bread",
+        "brand:wikidata": "Q7130852",
+        "building": "yes",
+        "cuisine": "sandwich;bakery",
+        "drive_through": "no",
+        "indoor_seating": "yes",
+        "name": "Panera Bread",
+        "opening_hours": "07:00-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 802-860-1130",
+        "ref:vcgi:esiteid": "230502",
+        "short_name": "Panera",
+        "takeaway": "yes",
+        "website": "https://locations.panerabread.com/vt/south-burlington/1184-shelburne-road.html"
+      },
+      "center": {
+        "lat": 44.4369814,
+        "lon": -73.20977944999998
+      }
+    }
+  ]
+}

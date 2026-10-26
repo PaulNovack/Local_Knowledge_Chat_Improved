@@ -1,0 +1,112 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "costa_vida",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4434823439,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "Costa Vida"
+      },
+      "lat": 32.2835866,
+      "lon": -110.9444161
+    },
+    {
+      "type": "node",
+      "id": 6049289206,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Costa Vida",
+        "brand:wikidata": "Q108403192",
+        "cuisine": "mexican",
+        "drive_through": "no",
+        "name": "Costa Vida",
+        "official_name": "Costa Vida Fresh Mexican Grill",
+        "takeaway": "yes"
+      },
+      "lat": 33.2470793,
+      "lon": -111.841754
+    },
+    {
+      "type": "node",
+      "id": 7557942117,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1744",
+        "addr:postcode": "85204",
+        "addr:state": "AZ",
+        "addr:street": "South Val Vista Drive",
+        "amenity": "fast_food",
+        "brand": "Costa Vida",
+        "brand:wikidata": "Q108403192",
+        "cuisine": "mexican",
+        "name": "Costa Vida",
+        "official_name": "Costa Vida Fresh Mexican Grill",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes"
+      },
+      "lat": 33.3836401,
+      "lon": -111.7568051
+    },
+    {
+      "type": "way",
+      "id": 543900475,
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:housenumber": "3175",
+        "addr:postcode": "85295",
+        "addr:state": "AZ",
+        "addr:street": "South Market Street",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Costa Vida",
+        "brand:wikidata": "Q108403192",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Costa Vida",
+        "official_name": "Costa Vida Fresh Mexican Grill",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.296000500000005,
+        "lon": -111.74774070000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 839203451,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "6307",
+        "addr:postcode": "85710",
+        "addr:state": "AZ",
+        "addr:street": "East Broadway Boulevard",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Costa Vida"
+      },
+      "center": {
+        "lat": 32.222881900000004,
+        "lon": -110.85757999999998
+      }
+    }
+  ]
+}

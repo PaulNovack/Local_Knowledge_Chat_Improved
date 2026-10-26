@@ -1,0 +1,82 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ND",
+    "brand": "panda_express",
+    "source": "https://download.geofabrik.de/north-america/us/north-dakota-latest.osm.pbf",
+    "source_md5": "9eff3bc6ca09aea0f8e064cee3b44c15",
+    "processed_utc": "2026-10-24T07:12:54.105950+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5706017080,
+      "tags": {
+        "addr:city": "Fargo",
+        "addr:housenumber": "1690",
+        "addr:postcode": "58103",
+        "addr:state": "ND",
+        "addr:street": "45th Street South",
+        "amenity": "fast_food",
+        "branch": "45th South & 17th South",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr-Sa 10:00-22:30; Su 10:00-22:00",
+        "phone": "+1-701-277-7110",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/nd/fargo/2372"
+      },
+      "lat": 46.8550691,
+      "lon": -96.8612898
+    },
+    {
+      "type": "node",
+      "id": 12461653999,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "takeaway": "yes"
+      },
+      "lat": 46.8637403,
+      "lon": -100.7713984
+    },
+    {
+      "type": "way",
+      "id": 742253490,
+      "tags": {
+        "addr:city": "Fargo",
+        "addr:housenumber": "3751",
+        "addr:postcode": "58104",
+        "addr:state": "ND",
+        "addr:street": "53rd Avenue South",
+        "amenity": "fast_food",
+        "branch": "I-29 & 52nd Avenue South",
+        "brand": "Panda Express",
+        "brand:wikidata": "Q1358690",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Panda Express",
+        "opening_hours": "Mo-Th 10:00-21:30; Fr-Sa 10:00-22:00; Su 10:00-21:30",
+        "phone": "+1 701-639-0877",
+        "takeaway": "yes",
+        "website": "https://www.pandaexpress.com/locations/nd/fargo/3016"
+      },
+      "center": {
+        "lat": 46.80330795,
+        "lon": -96.84511835
+      }
+    }
+  ]
+}

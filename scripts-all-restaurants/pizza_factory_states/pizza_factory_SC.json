@@ -1,0 +1,39 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SC",
+    "brand": "pizza_factory",
+    "source": "https://download.geofabrik.de/north-america/us/south-carolina-latest.osm.pbf",
+    "source_md5": "488018afb1e1040732b7a791d4ebffae",
+    "processed_utc": "2026-10-24T07:15:46.592450+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 587752506,
+      "tags": {
+        "addr:city": "Mauldin",
+        "addr:housenumber": "412",
+        "addr:postcode": "29662",
+        "addr:state": "SC",
+        "addr:street": "North Main Street",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Factory",
+        "not:brand:wikidata": "Q39054369"
+      },
+      "center": {
+        "lat": 34.78485335,
+        "lon": -82.31229174999999
+      }
+    }
+  ]
+}

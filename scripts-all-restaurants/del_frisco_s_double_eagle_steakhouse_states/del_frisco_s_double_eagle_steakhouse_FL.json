@@ -1,0 +1,64 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "del_frisco_s_double_eagle_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5128820648,
+      "tags": {
+        "addr:city": "Fort Lauderdale",
+        "addr:housenumber": "501",
+        "addr:postcode": "33301",
+        "addr:state": "FL",
+        "addr:street": "East Las Olas Boulevard",
+        "addr:unit": "150",
+        "amenity": "restaurant",
+        "brand": "Del Frisco's Double Eagle Steakhouse",
+        "brand:wikidata": "Q23461481",
+        "cuisine": "steak_house",
+        "delivery": "no",
+        "name": "Del Frisco's Double Eagle Steakhouse",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "takeaway": "yes"
+      },
+      "lat": 26.1194138,
+      "lon": -80.1389275
+    },
+    {
+      "type": "way",
+      "id": 140619617,
+      "tags": {
+        "addr:city": "Orlando",
+        "addr:housenumber": "9150",
+        "addr:state": "FL",
+        "addr:street": "International Drive",
+        "amenity": "restaurant",
+        "branch": "Steakhouse",
+        "brand": "Del Frisco's Double Eagle Steakhouse",
+        "brand:wikidata": "Q23461481",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Del Frisco's Double Eagle Steakhouse",
+        "source:addr:housenumber": "Orange County GIS data"
+      },
+      "center": {
+        "lat": 28.4321701,
+        "lon": -81.47190319999999
+      }
+    }
+  ]
+}

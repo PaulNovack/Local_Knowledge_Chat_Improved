@@ -1,0 +1,69 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OK",
+    "brand": "rudy_s_country_store_and_bar_b_q",
+    "source": "https://download.geofabrik.de/north-america/us/oklahoma-latest.osm.pbf",
+    "source_md5": "4a88df3b6fa86fc703f4d75a4e9995bd",
+    "processed_utc": "2026-10-24T07:13:51.420524+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 324365475,
+      "tags": {
+        "addr:city": "Norman",
+        "addr:housenumber": "3450",
+        "addr:postcode": "73072",
+        "addr:state": "OK",
+        "addr:street": "Chautauqua Avenue",
+        "amenity": "restaurant",
+        "brand": "Rudy's Country Store and Bar-B-Q",
+        "brand:wikidata": "Q7377556",
+        "building": "restaurant",
+        "cuisine": "barbecue",
+        "name": "Rudy's Country Store and Bar-B-Q",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "phone": "+1-405-307-0552",
+        "shop": "convenience",
+        "website": "https://rudysbbq.com/location/detail/norman-ok",
+        "website:menu": "https://rudysbbq.com/location/menu/norman-ok"
+      },
+      "center": {
+        "lat": 35.1811029,
+        "lon": -97.45099145
+      }
+    },
+    {
+      "type": "way",
+      "id": 334911002,
+      "tags": {
+        "addr:city": "Oklahoma City",
+        "addr:housenumber": "3437",
+        "addr:postcode": "73134",
+        "addr:state": "OK",
+        "addr:street": "West Memorial Road",
+        "amenity": "restaurant",
+        "brand": "Rudy's Country Store and Bar-B-Q",
+        "brand:wikidata": "Q7377556",
+        "building": "retail",
+        "cuisine": "barbecue",
+        "name": "Rudy's Country Store and Bar-B-Q",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "phone": "+1-405-254-4712",
+        "website": "https://rudysbbq.com/location/detail/oklahoma-city-ok"
+      },
+      "center": {
+        "lat": 35.610531550000005,
+        "lon": -97.5786875
+      }
+    }
+  ]
+}

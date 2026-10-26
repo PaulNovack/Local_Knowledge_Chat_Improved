@@ -1,0 +1,62 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "chili_s",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1436027657,
+      "tags": {
+        "addr:housenumber": "2523",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "check_date": "2023-11-08",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar"
+      },
+      "lat": 41.309432,
+      "lon": -105.5600039
+    },
+    {
+      "type": "way",
+      "id": 236932047,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:housenumber": "1320",
+        "addr:postcode": "82009",
+        "addr:state": "WY",
+        "addr:street": "Dell Range Boulevard",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+1-307-635-1224",
+        "source": "local visit, city website",
+        "website": "https://www.chilis.com/locations/us/wyoming/cheyenne",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 41.160838350000006,
+        "lon": -104.80830094999999
+      }
+    }
+  ]
+}

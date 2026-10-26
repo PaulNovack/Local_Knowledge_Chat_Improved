@@ -1,0 +1,46 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "whataburger",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4020584236,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "3752",
+        "addr:postcode": "89158",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "amenity": "fast_food",
+        "branch": "The Strip",
+        "brand": "Whataburger",
+        "brand:wikidata": "Q376627",
+        "check_date": "2025-03-11",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "level": "1",
+        "name": "Whataburger",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no",
+        "source": "survey",
+        "takeaway": "yes",
+        "website": "https://locations.whataburger.com/nv/las-vegas/3752-south-las-vegas-blvd.html"
+      },
+      "lat": 36.1061825,
+      "lon": -115.1735339
+    }
+  ]
+}

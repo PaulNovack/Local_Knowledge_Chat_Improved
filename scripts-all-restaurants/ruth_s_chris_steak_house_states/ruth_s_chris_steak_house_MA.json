@@ -1,0 +1,85 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "ruth_s_chris_steak_house",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5324267538,
+      "tags": {
+        "addr:city": "Waltham",
+        "addr:housenumber": "500",
+        "addr:postcode": "02451",
+        "addr:state": "MA",
+        "addr:street": "Totten Pond Road",
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "check_date": "2024-12-11",
+        "cuisine": "american;steak_house",
+        "name": "Ruth's Chris Steak House",
+        "opening_hours": "Mo-Th 16:00-22:00; Fr-Sa 16:00-22:30; Su 16:00-21:00",
+        "phone": "+1 781-622-9775",
+        "website": "https://ruthschris.com/locations/ma/waltham/waltham/7358"
+      },
+      "lat": 42.3965363,
+      "lon": -71.2592317
+    },
+    {
+      "type": "node",
+      "id": 7623094006,
+      "tags": {
+        "addr:city": "Boston",
+        "addr:housenumber": "45",
+        "addr:postcode": "02108",
+        "addr:state": "MA",
+        "addr:street": "School Street",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "cuisine": "american;steak_house",
+        "name": "Ruth's Chris Steak House",
+        "outdoor_seating": "yes",
+        "phone": "+1-617-742-8401",
+        "reservation": "yes",
+        "website": "https://www.ruthschris.com/restaurant-locations/boston/"
+      },
+      "lat": 42.3580909,
+      "lon": -71.0595739
+    },
+    {
+      "type": "node",
+      "id": 11875198705,
+      "tags": {
+        "addr:city": "Somerville",
+        "addr:housenumber": "375",
+        "addr:postcode": "02145",
+        "addr:state": "MA",
+        "addr:street": "Revolution Drive",
+        "amenity": "restaurant",
+        "brand": "Ruth's Chris Steak House",
+        "brand:wikidata": "Q7382829",
+        "cuisine": "american;steak_house",
+        "name": "Ruth's Chris Steak House",
+        "phone": "+1 857 995 6122",
+        "website": "https://www.ruthschris.com/locations/ma/somerville/somerville/7368"
+      },
+      "lat": 42.3917851,
+      "lon": -71.078842
+    }
+  ]
+}

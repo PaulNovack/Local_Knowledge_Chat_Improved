@@ -1,0 +1,77 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "yogurtland",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7557927551,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "3440",
+        "addr:postcode": "85204",
+        "addr:state": "AZ",
+        "addr:street": "East Baseline Road",
+        "amenity": "ice_cream",
+        "brand": "Yogurtland",
+        "brand:wikidata": "Q8054428",
+        "cuisine": "frozen_yogurt",
+        "name": "Yogurtland",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes"
+      },
+      "lat": 33.379719,
+      "lon": -111.7560575
+    },
+    {
+      "type": "node",
+      "id": 8976808534,
+      "tags": {
+        "addr:city": "Chandler",
+        "addr:housenumber": "3355",
+        "addr:postcode": "85226",
+        "addr:state": "AZ",
+        "addr:street": "West Chandler Boulevard",
+        "amenity": "ice_cream",
+        "brand": "Yogurtland",
+        "brand:wikidata": "Q8054428",
+        "cuisine": "frozen_yogurt",
+        "name": "Yogurtland",
+        "outdoor_seating": "no",
+        "source": "esri/USA_NAD_Addresses",
+        "takeaway": "yes"
+      },
+      "lat": 33.3044756,
+      "lon": -111.899942
+    },
+    {
+      "type": "node",
+      "id": 11372117164,
+      "tags": {
+        "addr:city": "Avondale",
+        "addr:postcode": "85392",
+        "addr:state": "AZ",
+        "amenity": "ice_cream",
+        "brand": "Yogurtland",
+        "brand:wikidata": "Q8054428",
+        "cuisine": "frozen_yogurt",
+        "name": "Yogurtland",
+        "takeaway": "yes"
+      },
+      "lat": 33.4660913,
+      "lon": -112.280105
+    }
+  ]
+}

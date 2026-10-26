@@ -1,0 +1,68 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "jack_in_the_box",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 903439159,
+      "tags": {
+        "addr:city": "Jonesboro",
+        "addr:housenumber": "1207",
+        "addr:postcode": "72404",
+        "addr:state": "AR",
+        "addr:street": "West Parker Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Jack in the Box",
+        "brand:wikidata": "Q1538507",
+        "building": "yes",
+        "check_date": "2026-06-20",
+        "cuisine": "burger",
+        "name": "Jack in the Box",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.8075356,
+        "lon": -90.72293109999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1489917085,
+      "tags": {
+        "addr:city": "Texarkana",
+        "addr:housenumber": "4407",
+        "addr:postcode": "75503",
+        "addr:state": "TX",
+        "addr:street": "North State Line Avenue",
+        "amenity": "fast_food",
+        "brand": "Jack in the Box",
+        "brand:wikidata": "Q1538507",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Jack in the Box",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.4593325,
+        "lon": -94.04345309999997
+      }
+    }
+  ]
+}

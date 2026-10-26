@@ -1,0 +1,144 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "taco_bueno",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1435060360,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Taco Bueno",
+        "brand:wikidata": "Q7673958",
+        "cuisine": "mexican",
+        "name": "Taco Bueno",
+        "takeaway": "yes"
+      },
+      "lat": 34.6697695,
+      "lon": -92.3791909
+    },
+    {
+      "type": "way",
+      "id": 592771332,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Taco Bueno",
+        "brand:wikidata": "Q7673958",
+        "building": "retail",
+        "check_date": "2023-11-21",
+        "cuisine": "mexican",
+        "name": "Taco Bueno",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.361940849999996,
+        "lon": -94.36952640000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 809206950,
+      "tags": {
+        "addr:city": "North Little Rock",
+        "addr:housenumber": "111",
+        "addr:postcode": "72114",
+        "addr:state": "AR",
+        "addr:street": "West Pershing Boulevard",
+        "amenity": "fast_food",
+        "brand": "Taco Bueno",
+        "brand:wikidata": "Q7673958",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Taco Bueno",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 34.78011205,
+        "lon": -92.26809400000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 973873475,
+      "tags": {
+        "addr:city": "Conway",
+        "addr:housenumber": "1101",
+        "addr:postcode": "72034",
+        "addr:state": "AR",
+        "addr:street": "Dave Ward Drive",
+        "amenity": "fast_food",
+        "brand": "Taco Bueno",
+        "brand:wikidata": "Q7673958",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Taco Bueno",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 35.066991200000004,
+        "lon": -92.44144599999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1038041084,
+      "tags": {
+        "addr:city": "Little Rock",
+        "addr:housenumber": "9001",
+        "addr:postcode": "72205",
+        "addr:state": "AR",
+        "addr:street": "West Markham Street",
+        "amenity": "fast_food",
+        "brand": "Taco Bueno",
+        "brand:wikidata": "Q7673958",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Taco Bueno",
+        "opening_hours": "10:00-21:00",
+        "phone": "+15018123907",
+        "takeaway": "yes",
+        "website": "https://www.tacobueno.com/"
+      },
+      "center": {
+        "lat": 34.752998700000006,
+        "lon": -92.37640835000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1094100572,
+      "tags": {
+        "addr:city": "Maumelle",
+        "addr:postcode": "72113",
+        "addr:state": "AR",
+        "amenity": "fast_food",
+        "brand": "Taco Bueno",
+        "brand:wikidata": "Q7673958",
+        "building": "yes",
+        "cuisine": "mexican",
+        "drive_through": "yes",
+        "name": "Taco Bueno",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 34.853877,
+        "lon": -92.403839
+      }
+    }
+  ]
+}

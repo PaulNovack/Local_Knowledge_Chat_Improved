@@ -1,0 +1,48 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WI",
+    "brand": "smoothie_king",
+    "source": "https://download.geofabrik.de/north-america/us/wisconsin-latest.osm.pbf",
+    "source_md5": "1718ff98080ec3edeb95ab8fb47b0ce7",
+    "processed_utc": "2026-10-24T07:19:59.510074+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6860214950,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Smoothie King",
+        "brand:wikidata": "Q5491421",
+        "cuisine": "juice",
+        "name": "Smoothie King",
+        "takeaway": "yes"
+      },
+      "lat": 43.0964755,
+      "lon": -89.5231988
+    },
+    {
+      "type": "node",
+      "id": 13959226189,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Smoothie King",
+        "brand:wikidata": "Q5491421",
+        "cuisine": "juice",
+        "name": "Smoothie King",
+        "opening_hours": "Mo-Fr 07:00-21:00; Sa 08:00-21:00; Su 10:00-20:00",
+        "takeaway": "yes"
+      },
+      "lat": 43.1308736,
+      "lon": -89.3054972
+    }
+  ]
+}

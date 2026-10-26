@@ -1,0 +1,67 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "UT",
+    "brand": "7_brew",
+    "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+    "source_md5": "dde732fa38dc6513ea35a0a69df9cb47",
+    "processed_utc": "2026-10-24T07:17:51.737130+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1493241931,
+      "tags": {
+        "addr:city": "Millcreek",
+        "addr:housenumber": "877",
+        "addr:postcode": "84107",
+        "addr:state": "UT",
+        "addr:street": "East 4500 South",
+        "amenity": "cafe",
+        "branch": "Millcreek",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drive_through": "only",
+        "indoor_seating": "no",
+        "name": "7 Brew Coffee",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00",
+        "outdoor_seating": "no",
+        "phone": "+1 479-358-9274",
+        "website": "https://locations.7brew.com/ut/millcreek/877-e-4500-s"
+      },
+      "center": {
+        "lat": 40.67458175,
+        "lon": -111.86626895
+      }
+    },
+    {
+      "type": "way",
+      "id": 1531249387,
+      "tags": {
+        "addr:city": "Riverton",
+        "addr:housenumber": "4004",
+        "addr:postcode": "84096",
+        "addr:state": "UT",
+        "addr:street": "West 13400 South",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "7 Brew Drive-Thru Coffee",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00",
+        "website": "https://7brew.com/location/utah-riverton-000199"
+      },
+      "center": {
+        "lat": 40.5082593,
+        "lon": -111.98623624999999
+      }
+    }
+  ]
+}

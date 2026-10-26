@@ -1,0 +1,73 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ID",
+    "brand": "perkins",
+    "source": "https://download.geofabrik.de/north-america/us/idaho-latest.osm.pbf",
+    "source_md5": "1a1a06364d5343af00d67fef4750905f",
+    "processed_utc": "2026-10-24T07:02:45.671077+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2566981867,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "phone": "+1-208-736-8417"
+      },
+      "lat": 42.5893668,
+      "lon": -114.4595796
+    },
+    {
+      "type": "way",
+      "id": 375328381,
+      "tags": {
+        "addr:city": "Idaho Falls",
+        "addr:housenumber": "2000",
+        "addr:postcode": "83404",
+        "addr:state": "ID",
+        "addr:street": "Channing Way",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "delivery": "no",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "smoking": "no"
+      },
+      "center": {
+        "lat": 43.4795181,
+        "lon": -111.9915795
+      }
+    },
+    {
+      "type": "way",
+      "id": 579342551,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "building": "yes",
+        "cuisine": "mexican",
+        "name": "Senor Garcia's Puerto Vallarta"
+      },
+      "center": {
+        "lat": 42.898999450000005,
+        "lon": -112.43156399999998
+      }
+    }
+  ]
+}

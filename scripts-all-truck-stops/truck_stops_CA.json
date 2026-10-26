@@ -1,0 +1,4480 @@
+{
+  "version": 0.6,
+  "generator": "TruckStopExtractDownloader/1.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CA",
+    "source": "https://download.geofabrik.de/north-america/us/california-latest.osm.pbf",
+    "source_md5": "a350f9c6deac8ca64621205cfc3fb009",
+    "processed_utc": "2026-10-24T17:16:21.520730+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 314532190,
+      "tags": {
+        "addr:city": "Gilroy",
+        "addr:county": "Santa Clara",
+        "addr:housenumber": "390",
+        "addr:postcode": "95020-3607",
+        "addr:street": "Leavesley Road",
+        "amenity": "fuel",
+        "brand": "Rotten Robbie",
+        "brand:wikidata": "Q87378070",
+        "check_date": "2023-08-13",
+        "fuel:HGV_diesel": "yes",
+        "fuel:diesel": "yes",
+        "fuel:kerosene_K-1": "yes",
+        "fuel:octane_87": "yes",
+        "fuel:octane_89": "yes",
+        "fuel:octane_91": "yes",
+        "name": "Rotten Robbie #31",
+        "opening_hours": "24/7",
+        "phone": "+1 408-842-3630",
+        "self_service": "yes",
+        "source": "Yahoo",
+        "url": "http://rottenrobbie.com/"
+      },
+      "lat": 37.0210099,
+      "lon": -121.569417
+    },
+    {
+      "type": "node",
+      "id": 401976140,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "compressed_air": "yes",
+        "hgv": "no",
+        "name": "Pilot",
+        "opening_hours": "24/7"
+      },
+      "lat": 37.0187478,
+      "lon": -120.132625
+    },
+    {
+      "type": "node",
+      "id": 628896044,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Petro Bras",
+        "fuel:diesel": "yes",
+        "source": "survey;image;usgs_imagery",
+        "source_ref": "AM909_DSCS2835"
+      },
+      "lat": 33.8894853,
+      "lon": -118.1682938
+    },
+    {
+      "type": "node",
+      "id": 957482066,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "name": "Love's",
+        "self_service": "yes",
+        "source": "usgs_imagery_2008;survey;image",
+        "source_ref": "AM909_DSCW0894",
+        "website": "https://www.loves.com/locations/392"
+      },
+      "lat": 35.1255468,
+      "lon": -118.408203
+    },
+    {
+      "type": "node",
+      "id": 1151869485,
+      "tags": {
+        "addr:city": "Gustine",
+        "addr:county": "Merced",
+        "addr:housenumber": "29025",
+        "addr:postcode": "95322",
+        "addr:street": "West Plaza Drive",
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "no",
+        "name": "Love's",
+        "phone": "+1 209 827 1399",
+        "ref": "441"
+      },
+      "lat": 37.1114316,
+      "lon": -121.016127
+    },
+    {
+      "type": "node",
+      "id": 1151993288,
+      "tags": {
+        "addr:city": "Chowchilla",
+        "addr:county": "Madera",
+        "addr:postcode": "93610",
+        "addr:street": "18208 Avenue 24",
+        "attribution": "Caltrans",
+        "description": "Hwy 99 at Ave 24",
+        "highway": "services",
+        "landuse": "commercial",
+        "name": "Ahmed's Exxon",
+        "phone": "+1 559-665-4146",
+        "route": "99",
+        "source": "http://www.dot.ca.gov/hq/tsip/gis/datalibrary/gisdatalibrary.html"
+      },
+      "lat": 37.1164696,
+      "lon": -120.2626747
+    },
+    {
+      "type": "node",
+      "id": 1230095129,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "fuel:biodiesel": "yes",
+        "fuel:octane_87": "yes",
+        "fuel:octane_89": "yes",
+        "fuel:octane_91": "yes",
+        "hgv": "no",
+        "name": "Flying J",
+        "opening_hours": "24/7",
+        "self_service": "yes",
+        "website": "https://locations.pilotflyingj.com/us/ca/bakersfield/17047-zachary-ave"
+      },
+      "lat": 35.5311601,
+      "lon": -119.1874575
+    },
+    {
+      "type": "node",
+      "id": 1577570957,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "hgv": "no",
+        "name": "Pilot"
+      },
+      "lat": 33.9030407,
+      "lon": -116.5458417
+    },
+    {
+      "type": "node",
+      "id": 1834487562,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "hgv": "no",
+        "name": "Pilot",
+        "self_service": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 35.615811,
+      "lon": -119.658836
+    },
+    {
+      "type": "node",
+      "id": 2356168378,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "no",
+        "name": "TA"
+      },
+      "lat": 40.5050244,
+      "lon": -122.3349031
+    },
+    {
+      "type": "node",
+      "id": 2604505366,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "name": "TA",
+        "official_name": "TravelCenters of America"
+      },
+      "lat": 35.4012127,
+      "lon": -119.3967128
+    },
+    {
+      "type": "node",
+      "id": 2665225341,
+      "tags": {
+        "amenity": "fuel",
+        "fuel:HGV_diesel": "yes",
+        "hgv": "yes"
+      },
+      "lat": 37.0194773,
+      "lon": -120.1331678
+    },
+    {
+      "type": "node",
+      "id": 2679753643,
+      "tags": {
+        "addr:city": "Dunnigan",
+        "addr:housenumber": "30035",
+        "addr:street": "County Road 8",
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2026-03-29",
+        "hgv": "yes",
+        "name": "Pilot",
+        "name:en": "Pilot"
+      },
+      "lat": 38.8620004,
+      "lon": -121.950268
+    },
+    {
+      "type": "node",
+      "id": 2679753644,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "hgv": "no",
+        "name": "Pilot (Truck Stop)",
+        "name:en": "Pilot (Truck Stop)"
+      },
+      "lat": 38.8625246,
+      "lon": -121.951003
+    },
+    {
+      "type": "node",
+      "id": 2689211989,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 33.9030186,
+      "lon": -116.5464995
+    },
+    {
+      "type": "node",
+      "id": 4017234896,
+      "tags": {
+        "addr:city": "San Francisco",
+        "addr:housenumber": "1944",
+        "addr:postcode": "94122",
+        "addr:state": "CA",
+        "addr:street": "Irving Street",
+        "highway": "services",
+        "name": "Lucky Spot",
+        "opening_hours": "Mo-Fr 09:00-17:00; Sa 12:00-16:00",
+        "phone": "+1-415-759-8951",
+        "website": "https://www.luckyspotsf.com/"
+      },
+      "lat": 37.7636427,
+      "lon": -122.4789406
+    },
+    {
+      "type": "node",
+      "id": 4787182022,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "compressed_air": "yes",
+        "hgv": "no",
+        "name": "Pilot",
+        "name:en": "Pilot",
+        "opening_hours": "24/7"
+      },
+      "lat": 39.751213,
+      "lon": -122.2084737
+    },
+    {
+      "type": "node",
+      "id": 5659924691,
+      "tags": {
+        "addr:city": "Ripon",
+        "addr:county": "San Joaquin",
+        "addr:housenumber": "1553",
+        "addr:postcode": "95366",
+        "addr:street": "Colony Road",
+        "amenity": "fuel",
+        "attribution": "Caltrans",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "only",
+        "name": "Love's",
+        "phone": "+1-209-599-0740",
+        "ref": "223",
+        "website": "https://www.loves.com/locations/223"
+      },
+      "lat": 37.7555177,
+      "lon": -121.1415383
+    },
+    {
+      "type": "node",
+      "id": 5707195059,
+      "tags": {
+        "highway": "services",
+        "toilets": "no"
+      },
+      "lat": 37.5493884,
+      "lon": -122.0508311
+    },
+    {
+      "type": "node",
+      "id": 5724874196,
+      "tags": {
+        "highway": "services"
+      },
+      "lat": 32.7859869,
+      "lon": -117.1125038
+    },
+    {
+      "type": "node",
+      "id": 5741848956,
+      "tags": {
+        "highway": "services"
+      },
+      "lat": 32.6702645,
+      "lon": -115.498274
+    },
+    {
+      "type": "node",
+      "id": 5769733387,
+      "tags": {
+        "highway": "services"
+      },
+      "lat": 33.0775627,
+      "lon": -116.8704816
+    },
+    {
+      "type": "node",
+      "id": 5997574085,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "hgv": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "yes",
+        "name": "Love's"
+      },
+      "lat": 33.7174028,
+      "lon": -116.1718376
+    },
+    {
+      "type": "node",
+      "id": 6205477535,
+      "tags": {
+        "highway": "services"
+      },
+      "lat": 32.596702,
+      "lon": -117.076646
+    },
+    {
+      "type": "node",
+      "id": 6487259069,
+      "tags": {
+        "highway": "services"
+      },
+      "lat": 33.7806812,
+      "lon": -118.0070099
+    },
+    {
+      "type": "node",
+      "id": 6515610985,
+      "tags": {
+        "addr:city": "San Jose",
+        "addr:housenumber": "1002",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "North 1st Street",
+        "amenity": "fuel",
+        "brand": "Propel",
+        "fuel:HGV_diesel": "yes",
+        "fuel:diesel": "yes",
+        "fuel:e85": "yes",
+        "name": "Propel",
+        "official_name": "Civic Plaza Station",
+        "operator": "Civic Plaza Station, Incorporated"
+      },
+      "lat": 37.3555532,
+      "lon": -121.904639
+    },
+    {
+      "type": "node",
+      "id": 6630689260,
+      "tags": {
+        "highway": "services"
+      },
+      "lat": 37.8001061,
+      "lon": -120.7929076
+    },
+    {
+      "type": "node",
+      "id": 7021122818,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "compressed_air": "yes",
+        "hgv": "no",
+        "name": "Love's"
+      },
+      "lat": 39.9071875,
+      "lon": -122.1963848
+    },
+    {
+      "type": "node",
+      "id": 7325403680,
+      "tags": {
+        "highway": "services"
+      },
+      "lat": 37.9717438,
+      "lon": -121.6943055
+    },
+    {
+      "type": "node",
+      "id": 7650919360,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "name": "Love's"
+      },
+      "lat": 39.1674863,
+      "lon": -122.1443806
+    },
+    {
+      "type": "node",
+      "id": 8200271288,
+      "tags": {
+        "highway": "services"
+      },
+      "lat": 38.1880686,
+      "lon": -120.0044756
+    },
+    {
+      "type": "node",
+      "id": 8313978436,
+      "tags": {
+        "highway": "services"
+      },
+      "lat": 37.3381584,
+      "lon": -120.6003736
+    },
+    {
+      "type": "node",
+      "id": 9826816446,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "no",
+        "name": "Love's"
+      },
+      "lat": 38.1176792,
+      "lon": -121.3924474
+    },
+    {
+      "type": "node",
+      "id": 9826816447,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "hgv": "no",
+        "name": "Flying J"
+      },
+      "lat": 38.1171563,
+      "lon": -121.393842
+    },
+    {
+      "type": "node",
+      "id": 9968752417,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "name": "Loves",
+        "self_service": "yes"
+      },
+      "lat": 36.9960201,
+      "lon": -120.09683
+    },
+    {
+      "type": "node",
+      "id": 10050175976,
+      "tags": {
+        "addr:city": "San Jose",
+        "addr:housenumber": "1790",
+        "addr:postcode": "95112",
+        "addr:state": "CA",
+        "addr:street": "South 10th Street",
+        "amenity": "fuel",
+        "brand": "Pacific Pride",
+        "brand:wikidata": "Q7122637",
+        "hgv": "designated",
+        "name": "Pacific Pride",
+        "operator": "Western States Oil",
+        "owner": "Tom Lopes"
+      },
+      "lat": 37.3143762,
+      "lon": -121.8604026
+    },
+    {
+      "type": "node",
+      "id": 10088156758,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "name": "TA",
+        "official_name": "TravelCenters of America"
+      },
+      "lat": 34.853501,
+      "lon": -117.0897511
+    },
+    {
+      "type": "node",
+      "id": 10088156760,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "hgv": "yes",
+        "name": "Flying J"
+      },
+      "lat": 34.8541178,
+      "lon": -117.0806988
+    },
+    {
+      "type": "node",
+      "id": 10266317591,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "fuel:HGV_diesel": "yes",
+        "hgv": "yes",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "operator": "Travel Centers of America"
+      },
+      "lat": 33.713313,
+      "lon": -116.1758494
+    },
+    {
+      "type": "node",
+      "id": 11291592068,
+      "tags": {
+        "addr:housenumber": "10951",
+        "addr:street": "Cedar Avenue",
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "compressed_air": "yes",
+        "name": "Pilot",
+        "opening_hours": "Mo-Su 00:00-24:00",
+        "ref": "1385",
+        "website": "https://locations.pilotflyingj.com/us/ca/bloomington/10951-cedar-ave"
+      },
+      "lat": 34.055426,
+      "lon": -117.3959318
+    },
+    {
+      "type": "node",
+      "id": 11340881971,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Petro Star"
+      },
+      "lat": 38.496,
+      "lon": -121.4831992
+    },
+    {
+      "type": "node",
+      "id": 11464495305,
+      "tags": {
+        "addr:city": "Salinas",
+        "addr:country": "US",
+        "addr:state": "CA",
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "no",
+        "lit": "yes",
+        "name": "Love's",
+        "self_service": "yes"
+      },
+      "lat": 36.6594836,
+      "lon": -121.6190252
+    },
+    {
+      "type": "node",
+      "id": 11687497157,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "no",
+        "name": "Love's",
+        "website": "https://www.loves.com/locations/223"
+      },
+      "lat": 37.7548921,
+      "lon": -121.1414337
+    },
+    {
+      "type": "node",
+      "id": 11711792211,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "no",
+        "name": "Love's",
+        "website": "https://www.loves.com/locations/392"
+      },
+      "lat": 35.1264429,
+      "lon": -118.4080207
+    },
+    {
+      "type": "node",
+      "id": 11820049974,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes",
+        "self_service": "yes"
+      },
+      "lat": 36.0218387,
+      "lon": -119.0386738
+    },
+    {
+      "type": "node",
+      "id": 11992654129,
+      "tags": {
+        "amenity": "fuel",
+        "fuel:HGV_diesel": "yes",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "operator": "Valley Fuel Travel Plaza",
+        "self_service": "yes"
+      },
+      "lat": 36.3502118,
+      "lon": -119.425342
+    },
+    {
+      "type": "node",
+      "id": 12098381796,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 35.3538855,
+      "lon": -119.3310151
+    },
+    {
+      "type": "node",
+      "id": 12098407819,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 36.925321,
+      "lon": -120.0257447
+    },
+    {
+      "type": "node",
+      "id": 12098421559,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 36.0746453,
+      "lon": -120.103156
+    },
+    {
+      "type": "node",
+      "id": 12100180759,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 37.4660598,
+      "lon": -121.1645597
+    },
+    {
+      "type": "node",
+      "id": 12100184995,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 36.1812594,
+      "lon": -119.3328631
+    },
+    {
+      "type": "node",
+      "id": 12100186371,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 37.756139,
+      "lon": -121.1442339
+    },
+    {
+      "type": "node",
+      "id": 12100196805,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 33.8181956,
+      "lon": -116.403577
+    },
+    {
+      "type": "node",
+      "id": 12100208432,
+      "tags": {
+        "addr:city": "Tehachapi",
+        "addr:housenumber": "1668",
+        "addr:postcode": "93561",
+        "addr:state": "CA",
+        "addr:street": "East Tehachapi Boulevard",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "hgv": "yes",
+        "name": "Pilot Travel Center"
+      },
+      "lat": 35.1267555,
+      "lon": -118.4153572
+    },
+    {
+      "type": "node",
+      "id": 12100208433,
+      "tags": {
+        "addr:city": "Tehachapi",
+        "addr:housenumber": "1668",
+        "addr:postcode": "93561",
+        "addr:state": "CA",
+        "addr:street": "East Tehachapi Boulevard",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "hgv": "no",
+        "name": "Pilot Travel Center",
+        "self_service": "yes"
+      },
+      "lat": 35.127475,
+      "lon": -118.4154189
+    },
+    {
+      "type": "node",
+      "id": 12100211477,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 34.1377741,
+      "lon": -117.4213359
+    },
+    {
+      "type": "node",
+      "id": 12100285725,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "hgv": "no",
+        "name": "Pilot"
+      },
+      "lat": 34.5431877,
+      "lon": -118.0359815
+    },
+    {
+      "type": "node",
+      "id": 12100285731,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 34.5441454,
+      "lon": -118.0359077
+    },
+    {
+      "type": "node",
+      "id": 12100300417,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 39.7504705,
+      "lon": -122.2080752
+    },
+    {
+      "type": "node",
+      "id": 12101432337,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "hgv": "no",
+        "name": "Flying J"
+      },
+      "lat": 34.8540813,
+      "lon": -117.0815885
+    },
+    {
+      "type": "node",
+      "id": 12101445819,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 34.409127,
+      "lon": -117.3985049
+    },
+    {
+      "type": "node",
+      "id": 12101453134,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 35.5318464,
+      "lon": -119.1876885
+    },
+    {
+      "type": "node",
+      "id": 12101453184,
+      "tags": {
+        "amenity": "fuel",
+        "compressed_air": "yes",
+        "hgv": "yes",
+        "name": "Flying J",
+        "opening_hours": "Mo-Su,PH 00:00-00:00"
+      },
+      "lat": 34.8167541,
+      "lon": -118.887426
+    },
+    {
+      "type": "node",
+      "id": 12101462234,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 34.8547251,
+      "lon": -117.0871635
+    },
+    {
+      "type": "node",
+      "id": 12101463257,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 35.6151192,
+      "lon": -119.6587139
+    },
+    {
+      "type": "node",
+      "id": 12101468445,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "hgv": "no",
+        "name": "flying J"
+      },
+      "lat": 34.0632623,
+      "lon": -117.493781
+    },
+    {
+      "type": "node",
+      "id": 12101468454,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 34.06398,
+      "lon": -117.4934712
+    },
+    {
+      "type": "node",
+      "id": 12101505073,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 37.8565817,
+      "lon": -121.2760484
+    },
+    {
+      "type": "node",
+      "id": 12101718059,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 34.0623524,
+      "lon": -117.2887744
+    },
+    {
+      "type": "node",
+      "id": 12101745410,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 34.4945096,
+      "lon": -118.6193553
+    },
+    {
+      "type": "node",
+      "id": 12101772807,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.1178689,
+      "lon": -121.3941917
+    },
+    {
+      "type": "node",
+      "id": 12141610522,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 37.0541732,
+      "lon": -121.0158581
+    },
+    {
+      "type": "node",
+      "id": 12263050980,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "no",
+        "name": "Love's"
+      },
+      "lat": 39.1680797,
+      "lon": -122.14403
+    },
+    {
+      "type": "node",
+      "id": 12263051098,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "no",
+        "name": "Love's"
+      },
+      "lat": 33.0377687,
+      "lon": -115.6292072
+    },
+    {
+      "type": "node",
+      "id": 12263051099,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "name": "Love's"
+      },
+      "lat": 33.0386301,
+      "lon": -115.6290619
+    },
+    {
+      "type": "node",
+      "id": 12263057780,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 35.6173672,
+      "lon": -119.6587059
+    },
+    {
+      "type": "node",
+      "id": 12263068790,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 38.118274,
+      "lon": -121.3922954
+    },
+    {
+      "type": "node",
+      "id": 12263094909,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 34.8571451,
+      "lon": -117.0925185
+    },
+    {
+      "type": "node",
+      "id": 12263099821,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 39.9074298,
+      "lon": -122.195515
+    },
+    {
+      "type": "node",
+      "id": 12263122796,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 37.1113736,
+      "lon": -121.0170355
+    },
+    {
+      "type": "node",
+      "id": 12288536210,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 39.9037983,
+      "lon": -122.1983367
+    },
+    {
+      "type": "node",
+      "id": 12297507073,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 34.0552828,
+      "lon": -117.3950529
+    },
+    {
+      "type": "node",
+      "id": 12297531104,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 34.9852646,
+      "lon": -118.9499295
+    },
+    {
+      "type": "node",
+      "id": 12297556401,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 34.994084,
+      "lon": -118.940704
+    },
+    {
+      "type": "node",
+      "id": 12297560796,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 33.8396903,
+      "lon": -117.2556062
+    },
+    {
+      "type": "node",
+      "id": 12302323630,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 37.1026001,
+      "lon": -121.0150105
+    },
+    {
+      "type": "node",
+      "id": 12302328778,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 36.6803056,
+      "lon": -119.7377908
+    },
+    {
+      "type": "node",
+      "id": 12302379307,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 37.1105116,
+      "lon": -121.0146752
+    },
+    {
+      "type": "node",
+      "id": 12302382027,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 37.3869664,
+      "lon": -120.7387349
+    },
+    {
+      "type": "node",
+      "id": 12302389665,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 35.9901766,
+      "lon": -119.9606127
+    },
+    {
+      "type": "node",
+      "id": 12302410317,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 39.4987114,
+      "lon": -121.5731473
+    },
+    {
+      "type": "node",
+      "id": 12302410318,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 39.4984869,
+      "lon": -121.5726377
+    },
+    {
+      "type": "node",
+      "id": 12302412780,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 39.9057962,
+      "lon": -122.194764
+    },
+    {
+      "type": "node",
+      "id": 12302816649,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 34.0652965,
+      "lon": -117.5541522
+    },
+    {
+      "type": "node",
+      "id": 12303050433,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 36.8527457,
+      "lon": -119.9519813
+    },
+    {
+      "type": "node",
+      "id": 12305184794,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 34.0648663,
+      "lon": -117.5593172
+    },
+    {
+      "type": "node",
+      "id": 12346746464,
+      "tags": {
+        "highway": "services",
+        "name": "Alameda County Industries"
+      },
+      "lat": 37.7715833,
+      "lon": -122.2390122
+    },
+    {
+      "type": "node",
+      "id": 12393058169,
+      "tags": {
+        "barrier": "gate",
+        "highway": "services"
+      },
+      "lat": 33.815806,
+      "lon": -117.1943828
+    },
+    {
+      "type": "node",
+      "id": 12480103201,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 32.6852048,
+      "lon": -115.3796376
+    },
+    {
+      "type": "node",
+      "id": 12480103273,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 36.7064779,
+      "lon": -119.7751061
+    },
+    {
+      "type": "node",
+      "id": 12480346852,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 35.0603594,
+      "lon": -118.9693775
+    },
+    {
+      "type": "node",
+      "id": 12687144935,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 33.2786562,
+      "lon": -115.9661786
+    },
+    {
+      "type": "node",
+      "id": 12687148059,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 35.2683776,
+      "lon": -119.2293727
+    },
+    {
+      "type": "node",
+      "id": 12687161319,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 34.5353144,
+      "lon": -117.3981321
+    },
+    {
+      "type": "node",
+      "id": 12687164617,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 35.3891292,
+      "lon": -119.0439127
+    },
+    {
+      "type": "node",
+      "id": 12687169114,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 37.612691,
+      "lon": -120.9826684
+    },
+    {
+      "type": "node",
+      "id": 12687182395,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 37.0978285,
+      "lon": -120.2173027
+    },
+    {
+      "type": "node",
+      "id": 12687197709,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 35.3511827,
+      "lon": -118.9126964
+    },
+    {
+      "type": "node",
+      "id": 12696303914,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "hgv": "yes",
+        "name": "Pilot"
+      },
+      "lat": 32.9775776,
+      "lon": -115.5037576
+    },
+    {
+      "type": "node",
+      "id": 12861916051,
+      "tags": {
+        "highway": "services",
+        "name": "Capital Tires 99 Truckstop"
+      },
+      "lat": 39.0561171,
+      "lon": -121.6330842
+    },
+    {
+      "type": "node",
+      "id": 12865790175,
+      "tags": {
+        "addr:city": "Orland",
+        "addr:housenumber": "4473",
+        "addr:postcode": "95963",
+        "addr:state": "CA",
+        "addr:street": "Commerce Lane",
+        "amenity": "fuel",
+        "brand": "Maverik",
+        "brand:wikidata": "Q64149010",
+        "fuel:HGV_diesel": "yes",
+        "fuel:diesel": "yes",
+        "name": "Maverik",
+        "self_service": "yes"
+      },
+      "lat": 39.7510442,
+      "lon": -122.2103921
+    },
+    {
+      "type": "node",
+      "id": 12889685380,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 36.605768,
+      "lon": -119.657523
+    },
+    {
+      "type": "node",
+      "id": 13327447248,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "compressed_air": "yes",
+        "hgv": "no",
+        "name": "Love's",
+        "self_service": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 35.616655,
+      "lon": -119.6589132
+    },
+    {
+      "type": "node",
+      "id": 13864491611,
+      "tags": {
+        "addr:city": "Anaheim",
+        "addr:housenumber": "1919",
+        "addr:postcode": "92806",
+        "addr:state": "CA",
+        "addr:street": "South State College Boulevard",
+        "amenity": "fuel",
+        "brand": "Love's Alternative Energy",
+        "brand:wikidata": "Q139895750",
+        "capacity": "2",
+        "covered": "no",
+        "description": "Fast Fill CNG (Auto). Limited space for large truck access.",
+        "fuel:cng": "yes",
+        "hgv": "no",
+        "motor_vehicle": "yes",
+        "name": "Love's Alternative Energy - CNG",
+        "not:brand:wikidata": "Q1872496",
+        "opening_hours": "24/7",
+        "ref": "1332",
+        "ref:afdc": "1354",
+        "self_service": "yes",
+        "website": "https://www.lovesalternativeenergy.com/locations/ca/anaheim/loves-alternative-energy-public-cng-anaheim-1332"
+      },
+      "lat": 33.8000697,
+      "lon": -117.8912823
+    },
+    {
+      "type": "node",
+      "id": 13887589383,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "lat": 36.1833367,
+      "lon": -119.3305872
+    },
+    {
+      "type": "node",
+      "id": 14017614808,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "designated"
+      },
+      "lat": 36.659064,
+      "lon": -121.618073
+    },
+    {
+      "type": "node",
+      "id": 14017627202,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "designated"
+      },
+      "lat": 35.2681805,
+      "lon": -119.0199673
+    },
+    {
+      "type": "node",
+      "id": 14076004033,
+      "tags": {
+        "addr:city": "San Diego",
+        "addr:housenumber": "16769",
+        "addr:postcode": "92128",
+        "addr:state": "CA",
+        "addr:street": "Bernardo Center Drive",
+        "addr:unit": "K14",
+        "amenity": "social_facility",
+        "check_date": "2026-10-17",
+        "highway": "services",
+        "level": "1",
+        "name": "Rancho Bernardo Senior Services",
+        "note": "There is probably a better type for this; please change it as you see fit.",
+        "social_facility": "outreach",
+        "social_facility:for": "senior"
+      },
+      "lat": 33.0176645,
+      "lon": -117.0736723
+    },
+    {
+      "type": "relation",
+      "id": 2610030,
+      "tags": {
+        "branch": "Coachella",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 760-342-6200",
+        "ref": "0041",
+        "type": "multipolygon",
+        "website": "https://www.ta-petro.com/location/ca/ta-coachella/"
+      },
+      "center": {
+        "lat": 33.71323405,
+        "lon": -116.1758901
+      }
+    },
+    {
+      "type": "relation",
+      "id": 11356524,
+      "tags": {
+        "branch": "Frazier Park",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "fax": "+1 661-248-2628",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 661-248-6519",
+        "type": "multipolygon",
+        "website": "https://locations.pilotflyingj.com/us/ca/lebec/42810-frazier-mountain-park-rd"
+      },
+      "center": {
+        "lat": 34.8165247,
+        "lon": -118.88740014999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 31810541,
+      "tags": {
+        "addr:city": "San Diego",
+        "addr:housenumber": "1548",
+        "addr:postcode": "92101",
+        "addr:state": "CA",
+        "addr:street": "F Street",
+        "amenity": "fuel",
+        "building": "commercial",
+        "name": "Petromerica",
+        "opening_hours": "24/7",
+        "sangis:OBJECTID": "5215",
+        "sangis:TYPE": "Commercial",
+        "self_service": "yes",
+        "source": "SanGIS Footprints_Nonresidential_SD public domain (http://www.sangis.org/)"
+      },
+      "center": {
+        "lat": 32.713870299999996,
+        "lon": -117.1498403
+      }
+    },
+    {
+      "type": "way",
+      "id": 53052282,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 35.06030265,
+        "lon": -118.96958265
+      }
+    },
+    {
+      "type": "way",
+      "id": 53052666,
+      "tags": {
+        "addr:city": "Lost Hills",
+        "addr:country": "US",
+        "addr:county": "Kern",
+        "addr:housenumber": "21948",
+        "addr:postcode": "93249",
+        "addr:state": "CA",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "description": "I-5 and Hwy46 West",
+        "fax": "+1 661-797-1220",
+        "hgv": "yes",
+        "highway": "services",
+        "internet_access": "wlan",
+        "kern:Comb_Zn": "C-2 PD",
+        "kern:Zn_Cd1": "C-2",
+        "name": "Love's Travel Stop",
+        "phone": "+1 661-797-1800",
+        "ref": "230",
+        "route": "46",
+        "shower": "yes",
+        "website": "https://www.loves.com/locations/ca/lost-hills/loves-travel-stop-lost-hills-230"
+      },
+      "center": {
+        "lat": 35.617470499999996,
+        "lon": -119.65850999999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 53052783,
+      "tags": {
+        "brand": "EZ Trip",
+        "check_date": "2024-08-02",
+        "fax": "+1 661-627-0002",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "EZ Trip Travel Center",
+        "phone": "+1 661-477-1713",
+        "website": "https://locations.pilotflyingj.com/us/ca/bakersfield/29541-stockdale-hwy"
+      },
+      "center": {
+        "lat": 35.35393265,
+        "lon": -119.33127820000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 53053648,
+      "tags": {
+        "branch": "Bakersfield",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.613@pilottravelcenters.com",
+        "fax": "+1 661-392-5307",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 661-392-5300",
+        "ref": "613",
+        "website": "https://locations.pilotflyingj.com/us/ca/bakersfield/17047-zachary-ave"
+      },
+      "center": {
+        "lat": 35.532022999999995,
+        "lon": -119.18905230000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 55877526,
+      "tags": {
+        "addr:city": "Bakersfield",
+        "addr:country": "US",
+        "addr:county": "Kern",
+        "addr:housenumber": "15840",
+        "addr:postcode": "93313",
+        "addr:state": "CA",
+        "addr:street": "Costajo Road",
+        "hgv": "yes",
+        "highway": "services",
+        "kern:Comb_Zn": "C-2 PD;M-1 PD",
+        "kern:Zn_Cd1": "M-1;C-2",
+        "name": "Bear Mountain Truck Stop",
+        "phone": "+1 661-834-5733",
+        "route": "99"
+      },
+      "center": {
+        "lat": 35.2118731,
+        "lon": -119.01148119999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 59252105,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 35.3512549,
+        "lon": -118.9124104
+      }
+    },
+    {
+      "type": "way",
+      "id": 60065329,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "hgv": "yes",
+        "motorcar": "no",
+        "name": "Pilot"
+      },
+      "center": {
+        "lat": 38.61703465,
+        "lon": -121.53835679999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 61177724,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 36.6070527,
+        "lon": -119.65833344999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 61244537,
+      "tags": {
+        "brand": "EZ Trip",
+        "check_date": "2024-08-02",
+        "fax": "+1 559-386-9837",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "EZ Trip Travel Center",
+        "phone": "+1 559-386-9859",
+        "website": "https://locations.pilotflyingj.com/us/ca/avenal/44779-s.-lassen-avenue"
+      },
+      "center": {
+        "lat": 36.075570150000004,
+        "lon": -120.10395645
+      }
+    },
+    {
+      "type": "way",
+      "id": 61405255,
+      "tags": {
+        "attribution": "Fresno_County_GIS",
+        "highway": "services",
+        "landuse": "commercial",
+        "source": "http://www.co.fresno.ca.us/%5Cdepartmentpage.aspx?id=16313"
+      },
+      "center": {
+        "lat": 36.82258885,
+        "lon": -119.80798034999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 61820604,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 36.7064594,
+        "lon": -119.77508339999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 78283660,
+      "tags": {
+        "addr:city": "Hollister",
+        "addr:housenumber": "10011",
+        "addr:postcode": "95023",
+        "addr:state": "CA",
+        "addr:street": "Pacheco Pass Highway",
+        "amenity": "fuel",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "hgv": "designated",
+        "name": "Casa de Diesel",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 36.99029765,
+        "lon": -121.38049065000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 80799385,
+      "tags": {
+        "addr:city": "Boron",
+        "addr:housenumber": "5725",
+        "addr:postcode": "93516",
+        "addr:state": "CA",
+        "addr:street": "CA-58",
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "fuel:octane_87": "yes",
+        "fuel:octane_89": "yes",
+        "fuel:octane_91": "yes",
+        "hgv": "no",
+        "name": "Pilot",
+        "opening_hours": "24/7",
+        "operator": "Pilot Flying J"
+      },
+      "center": {
+        "lat": 34.991888200000005,
+        "lon": -117.54187984999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 82237472,
+      "tags": {
+        "addr:city": "Tehachapi",
+        "addr:country": "US",
+        "addr:housenumber": "2000",
+        "addr:postcode": "93561",
+        "addr:state": "CA",
+        "addr:street": "East Tehachapi Boulevard",
+        "branch": "Tehachapi",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "drinking_water": "yes",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 661-823-1484",
+        "ref": "392",
+        "toilets": "yes",
+        "website": "https://www.loves.com/locations/ca/tehachapi/loves-travel-stop-tehachapi-392",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 35.12553835,
+        "lon": -118.40818064999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 84736441,
+      "tags": {
+        "addr:city": "Castaic",
+        "addr:housenumber": "31611",
+        "addr:postcode": "91384",
+        "addr:street": "Castaic Road",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Castaic Truck Stop",
+        "phone": "+1-805-295-1374",
+        "source": "usgs_imagery_2006;survey;image",
+        "source_ref": "AM909_DSCV9694"
+      },
+      "center": {
+        "lat": 34.493172200000004,
+        "lon": -118.62045090000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 84736443,
+      "tags": {
+        "addr:city": "Castaic",
+        "addr:county": "Los Angeles",
+        "addr:housenumber": "31642",
+        "addr:postcode": "91384",
+        "addr:street": "Castaic Road",
+        "atm": "yes",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "description": "I-5 at Lake Hughes Rd",
+        "email": "TravelCenter.372@pilottravelcenters.com",
+        "fax": "+1 661-257-2109",
+        "fuel:diesel": "yes",
+        "fuel:propane": "yes",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "payment:credit_cards": "surcharge",
+        "phone": "+1 661-243-0487",
+        "ref": "372",
+        "website": "https://locations.pilotflyingj.com/us/ca/castaic/31642-castiac-rd"
+      },
+      "center": {
+        "lat": 34.49430365,
+        "lon": -118.61944614999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 98569442,
+      "tags": {
+        "addr:city": "Redding",
+        "addr:county": "Shasta",
+        "addr:housenumber": "19483",
+        "addr:postcode": "96002",
+        "addr:street": "Knighton Road",
+        "attribution": "Caltrans",
+        "branch": "Redding",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "description": "I-5 at Knighton Rd",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 530-221-4760",
+        "ref": "0057",
+        "route": "5",
+        "website": "https://www.ta-petro.com/location/ca/ta-redding/"
+      },
+      "center": {
+        "lat": 40.5042433,
+        "lon": -122.33488740000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 98570525,
+      "tags": {
+        "addr:city": "Paso Robles",
+        "addr:county": "San Luis Obispo",
+        "addr:housenumber": "81",
+        "addr:postcode": "93446",
+        "addr:street": "Wellsona Road",
+        "attribution": "Caltrans",
+        "description": "US 101 at Wellsona",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Eagle Energy Inc",
+        "phone": "+1-805-238-7042",
+        "route": "101",
+        "source": "http://www.dot.ca.gov/hq/tsip/gis/datalibrary/gisdatalibrary.html"
+      },
+      "center": {
+        "lat": 35.69471125,
+        "lon": -120.69811859999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 98572507,
+      "tags": {
+        "addr:city": "Lost Hills",
+        "addr:county": "Kern",
+        "addr:postcode": "93249",
+        "addr:street": "14808 E Warren St",
+        "attribution": "Caltrans",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "description": "I -5 & CA 46",
+        "email": "TravelCenter.154@pilottravelcenters.com",
+        "fax": "+1 661-797-9772",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 661-797-2122",
+        "ref": "154",
+        "route": "46",
+        "website": "https://locations.pilotflyingj.com/us/ca/lost-hills/14808-warren-st"
+      },
+      "center": {
+        "lat": 35.615114399999996,
+        "lon": -119.65846454999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 99596771,
+      "tags": {
+        "alt_name": "Petro Stopping Centers",
+        "amenity": "fuel",
+        "brand": "Petro",
+        "brand:wikidata": "Q64051305",
+        "building": "roof",
+        "compressed_air": "yes",
+        "hgv": "no",
+        "layer": "1",
+        "name": "Petro",
+        "self_service": "yes",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 34.9850077,
+        "lon": -118.94843794999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 99612412,
+      "tags": {
+        "addr:city": "Boron",
+        "addr:county": "San Bernardino",
+        "addr:housenumber": "5725",
+        "addr:postcode": "93516",
+        "addr:state": "CA",
+        "addr:street": "Highway 58",
+        "branch": "Kramer Junction",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "description": "US 395 and CA 58 Business",
+        "email": "TravelCenter.200@pilottravelcenters.com",
+        "fax": "+1 760-762-5231",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "opening_hours": "24/7",
+        "phone": "+1 760-762-0041",
+        "ref": "200",
+        "route": "58",
+        "website": "https://locations.pilotflyingj.com/us/ca/boron/5725-ca-58"
+      },
+      "center": {
+        "lat": 34.9917985,
+        "lon": -117.54274550000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 99616256,
+      "tags": {
+        "addr:city": "Barstow",
+        "addr:county": "San Bernardino",
+        "addr:postcode": "92311",
+        "addr:street": "2591 Commerce Pkwy",
+        "attribution": "Caltrans",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "description": "I-15 at Lenwood Rd",
+        "email": "TravelCenter.282@pilottravelcenters.com",
+        "fax": "+1 760-253-2863",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 760-253-2861",
+        "ref": "282",
+        "route": "15",
+        "website": "https://locations.pilotflyingj.com/us/ca/barstow/2591-commerce-pkwy"
+      },
+      "center": {
+        "lat": 34.8548404,
+        "lon": -117.08698770000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 99616293,
+      "tags": {
+        "addr:city": "Barstow",
+        "addr:county": "San Bernardino",
+        "addr:housenumber": "2930",
+        "addr:postcode": "92311",
+        "addr:street": "Lenwood Road",
+        "branch": "Barstow",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "description": "I-15 at Exit 69",
+        "email": "TravelCenter.614@pilottravelcenters.com",
+        "fax": "+1 760-441-7073",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 760-441-7068",
+        "ref": "614",
+        "route": "15",
+        "toilets": "yes",
+        "website": "https://locations.pilotflyingj.com/us/ca/barstow/2611-fisher-blvd"
+      },
+      "center": {
+        "lat": 34.85455,
+        "lon": -117.08087605000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 99616308,
+      "tags": {
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 760-253-2922",
+        "ref": "0227",
+        "website": "https://www.ta-petro.com/location/ca/ta-barstow/"
+      },
+      "center": {
+        "lat": 34.8534224,
+        "lon": -117.0890493
+      }
+    },
+    {
+      "type": "way",
+      "id": 99619665,
+      "tags": {
+        "addr:city": "Hesperia",
+        "addr:country": "US",
+        "addr:county": "San Bernardino",
+        "addr:housenumber": "8701",
+        "addr:postcode": "92345",
+        "addr:state": "CA",
+        "addr:street": "Highway 395",
+        "attribution": "Caltrans",
+        "branch": "Hesperia",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "description": "I-15 at US Hwy 395 Exit US 395",
+        "email": "TravelCenter.381@pilottravelcenters.com",
+        "fax": "+1 760-956-1198",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 760-956-2844",
+        "ref": "381",
+        "route": "395",
+        "website": "https://locations.pilotflyingj.com/us/ca/hesperia/8701-us-395"
+      },
+      "center": {
+        "lat": 34.408725950000004,
+        "lon": -117.39703844999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 99624692,
+      "tags": {
+        "addr:city": "Ontario",
+        "addr:county": "San Bernardino",
+        "addr:housenumber": "4325",
+        "addr:postcode": "91761",
+        "addr:street": "East Guasti Road",
+        "attribution": "Caltrans",
+        "brand": "Petro",
+        "brand:wikidata": "Q64051305",
+        "description": "I-10 at Milliken Ave Exit",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Petro Stopping Centers",
+        "opening_hours": "24/7",
+        "operator": "TA",
+        "phone": "+1 909-390-7800",
+        "ref": "0026",
+        "route": "10",
+        "website": "https://www.ta-petro.com/location/ca/petro-ontario/"
+      },
+      "center": {
+        "lat": 34.0656009,
+        "lon": -117.55501749999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 99624697,
+      "tags": {
+        "addr:city": "Ontario",
+        "addr:county": "San Bernardino",
+        "addr:housenumber": "4265",
+        "addr:postcode": "91761",
+        "addr:street": "East Guasti Road",
+        "attribution": "Caltrans",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "description": "I-10 at Milliken Ave",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "opening_hours": "24/7",
+        "phone": "+1 909-390-2525",
+        "ref": "0162",
+        "route": "10",
+        "website": "https://www.ta-petro.com/location/ca/ta-ontario/"
+      },
+      "center": {
+        "lat": 34.06562285,
+        "lon": -117.56128920000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 99625430,
+      "tags": {
+        "addr:city": "North Palm Springs",
+        "addr:county": "Riverside",
+        "addr:postcode": "92258",
+        "addr:street": "6605 N Indian Canyon Dr",
+        "attribution": "Caltrans",
+        "branch": "North Palm Springs",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "description": "I-10 at Indian Ave exit",
+        "email": "TravelCenter.307@pilottravelcenters.com",
+        "fax": "+1 760-329-0083",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 760-329-5562",
+        "ref": "307",
+        "route": "10",
+        "website": "https://locations.pilotflyingj.com/us/ca/north-palm-springs/6605-n-indian-canyon-dr"
+      },
+      "center": {
+        "lat": 33.90328825,
+        "lon": -116.54656080000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 99626498,
+      "tags": {
+        "addr:city": "Coachella",
+        "addr:country": "US",
+        "addr:county": "Riverside",
+        "addr:housenumber": "45761",
+        "addr:postcode": "92236",
+        "addr:state": "CA",
+        "addr:street": "Dillon Road",
+        "branch": "Coachella",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "description": "I-10 at Dillon Rd",
+        "fax": "+1 760-775-3409",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 760-775-3401",
+        "ref": "207",
+        "route": "10",
+        "shower": "yes",
+        "website": "https://www.loves.com/locations/ca/coachella/loves-travel-stop-coachella-207"
+      },
+      "center": {
+        "lat": 33.71735185,
+        "lon": -116.17152784999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 99627758,
+      "tags": {
+        "addr:city": "Madera",
+        "addr:county": "Madera",
+        "addr:postcode": "93637",
+        "addr:street": "22717 Avenue 18 1/2",
+        "branch": "Madera",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "description": "US Hwy 99 at Ave 18 1/2",
+        "email": "TravelCenter.365@pilottravelcenters.com",
+        "fax": "+1 559-673-7679",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 559-673-3878",
+        "ref": "365",
+        "route": "99",
+        "website": "https://locations.pilotflyingj.com/us/ca/madera/22717-ave-18-1/2"
+      },
+      "center": {
+        "lat": 37.019769049999994,
+        "lon": -120.13334665000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 99631215,
+      "tags": {
+        "addr:city": "Chowchilla",
+        "addr:country": "US",
+        "addr:county": "Madera",
+        "addr:housenumber": "18208",
+        "addr:postcode": "93610",
+        "addr:state": "CA",
+        "addr:street": "Avenue 24",
+        "fax": "+1 559-665-4156",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "United Park",
+        "phone": "+1 559-665-4146",
+        "route": "99"
+      },
+      "center": {
+        "lat": 37.09772984999999,
+        "lon": -120.21733085
+      }
+    },
+    {
+      "type": "way",
+      "id": 99633226,
+      "tags": {
+        "addr:city": "Los Banos",
+        "addr:county": "Merced",
+        "addr:housenumber": "28991",
+        "addr:postcode": "93635",
+        "addr:state": "CA",
+        "addr:street": "Gonzaga Road",
+        "attribution": "Caltrans",
+        "branch": "Santa Nella",
+        "brand": "Petro",
+        "brand:wikidata": "Q64051305",
+        "description": "Hwy 152 at Gonzaga Rd",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Petro Stopping Centers",
+        "phone": "+1 209-827-8025",
+        "ref": "0346",
+        "route": "152",
+        "source": "http://www.dot.ca.gov/hq/tsip/gis/datalibrary/gisdatalibrary.html",
+        "website": "https://www.ta-petro.com/location/ca/petro-santa-nella/"
+      },
+      "center": {
+        "lat": 37.054443199999994,
+        "lon": -121.01420165000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 99634310,
+      "tags": {
+        "attribution": "Caltrans",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "description": "Colony Rd",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 209-599-0740",
+        "ref": "223",
+        "route": "99",
+        "website": "https://www.loves.com/locations/ca/ripon/loves-travel-stop-ripon-223"
+      },
+      "center": {
+        "lat": 37.7556276,
+        "lon": -121.14137529999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 99634844,
+      "tags": {
+        "addr:city": "Dunnigan",
+        "addr:county": "Yolo",
+        "addr:postcode": "95937",
+        "addr:street": "30035 County Road 8",
+        "branch": "Dunnigan",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "description": "I-5 at Road 8 Exit",
+        "email": "TravelCenter.168@pilottravelcenters.com",
+        "fax": "+1 530-724-3029",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 530-724-3060",
+        "ref": "168",
+        "route": "5",
+        "website": "https://locations.pilotflyingj.com/us/ca/dunnigan/30035-county-road-8"
+      },
+      "center": {
+        "lat": 38.8618915,
+        "lon": -121.95035474999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 99637612,
+      "tags": {
+        "addr:city": "Corning",
+        "addr:county": "Tehema",
+        "addr:housenumber": "3524",
+        "addr:postcode": "96021",
+        "attribution": "Caltrans",
+        "branch": "Corning",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "description": "I-5 South Ave at Exit 15",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 530-824-4646",
+        "ref": "0040",
+        "route": "5",
+        "website": "https://www.ta-petro.com/location/ca/ta-corning/"
+      },
+      "center": {
+        "lat": 39.9029076,
+        "lon": -122.19872175
+      }
+    },
+    {
+      "type": "way",
+      "id": 99637614,
+      "tags": {
+        "addr:city": "Corning",
+        "addr:county": "Tehema",
+        "addr:housenumber": "2151",
+        "addr:postcode": "96021",
+        "addr:street": "South Avenue",
+        "attribution": "Caltrans",
+        "branch": "Corning",
+        "brand": "Petro",
+        "brand:wikidata": "Q64051305",
+        "description": "I-5 at South Ave",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Petro Stopping Centers",
+        "phone": "+1 530-824-4685",
+        "ref": "0309",
+        "route": "5",
+        "website": "https://www.ta-petro.com/location/ca/petro-corning/"
+      },
+      "center": {
+        "lat": 39.90556145,
+        "lon": -122.19546274999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 113918786,
+      "tags": {
+        "highway": "services",
+        "landuse": "retail",
+        "source": "bing_imagery"
+      },
+      "center": {
+        "lat": 33.5973508,
+        "lon": -117.24347895
+      }
+    },
+    {
+      "type": "way",
+      "id": 125111198,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "building": "roof",
+        "hgv": "no",
+        "name": "Flying J",
+        "name:en": "Flying J"
+      },
+      "center": {
+        "lat": 34.408097,
+        "lon": -117.39863724999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 133764980,
+      "tags": {
+        "branch": "Thousand Palms",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.765@pilottravelcenters.com",
+        "fax": "+1 760-343-1330",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 760-343-1500",
+        "ref": "765",
+        "website": "https://locations.pilotflyingj.com/us/ca/thousand-palms/72235-varner-rd"
+      },
+      "center": {
+        "lat": 33.817958700000005,
+        "lon": -116.40376755
+      }
+    },
+    {
+      "type": "way",
+      "id": 166075568,
+      "tags": {
+        "highway": "services",
+        "landuse": "retail",
+        "source": "bing_imagery"
+      },
+      "center": {
+        "lat": 33.6059032,
+        "lon": -114.60603155000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 166075569,
+      "tags": {
+        "highway": "services",
+        "landuse": "retail",
+        "source": "bing_imagery"
+      },
+      "center": {
+        "lat": 33.60632225,
+        "lon": -114.60581365000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 166075570,
+      "tags": {
+        "highway": "services",
+        "landuse": "retail",
+        "source": "bing_imagery"
+      },
+      "center": {
+        "lat": 33.60629444999999,
+        "lon": -114.60503504999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 217560288,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 530-824-8767",
+        "ref": "410",
+        "website": "https://www.loves.com/locations/ca/corning/loves-travel-stop-corning-410"
+      },
+      "center": {
+        "lat": 39.90836485,
+        "lon": -122.19604815000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 219297836,
+      "tags": {
+        "bin": "yes",
+        "branch": "Wheeler Ridge",
+        "brand": "Petro",
+        "brand:wikidata": "Q64051305",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Petro Stopping Centers",
+        "picnic_table": "yes",
+        "ref": "327",
+        "toilets": "yes",
+        "website": "https://www.ta-petro.com/location/ca/petro-wheeler-ridge/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 34.986405500000004,
+        "lon": -118.94911704999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 219298424,
+      "tags": {
+        "bin": "yes",
+        "branch": "Wheeler Ridge East",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "drinking_water": "yes",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 661-858-2804",
+        "picnic_table": "yes",
+        "ref": "0239",
+        "toilets": "yes",
+        "website": "https://www.ta-petro.com/location/ca/ta-wheeler-ridge/",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 34.99291935,
+        "lon": -118.94031640000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 223416539,
+      "tags": {
+        "addr:city": "Barstow",
+        "addr:housenumber": "2591",
+        "addr:postcode": "92311",
+        "addr:state": "CA",
+        "addr:street": "Commerce Parkway",
+        "alt_name": "Pilot Travel Centers",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "retail",
+        "contact:website": "https://locations.pilotflyingj.com/us/ca/barstow/2591-commerce-pkwy",
+        "highway": "services",
+        "name": "Pilot",
+        "opening_hours": "24/7",
+        "ref": "282",
+        "shop": "convenience"
+      },
+      "center": {
+        "lat": 34.8549122,
+        "lon": -117.08752700000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 223416541,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "hgv": "no",
+        "layer": "1",
+        "name": "Pilot",
+        "opening_hours": "24/7"
+      },
+      "center": {
+        "lat": 34.854653150000004,
+        "lon": -117.08772980000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 223417194,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 760-253-4080",
+        "ref": "374",
+        "website": "https://www.loves.com/locations/ca/barstow/loves-travel-stop-barstow-374"
+      },
+      "center": {
+        "lat": 34.8569934,
+        "lon": -117.09224745
+      }
+    },
+    {
+      "type": "way",
+      "id": 223421230,
+      "tags": {
+        "branch": "Lodi",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.617@pilottravelcenters.com",
+        "fax": "+1 209-339-4287",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 209-339-4066",
+        "ref": "617",
+        "website": "https://locations.pilotflyingj.com/us/ca/lodi/15100-thorton-rd"
+      },
+      "center": {
+        "lat": 38.117916449999996,
+        "lon": -121.39489464999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 224316548,
+      "tags": {
+        "branch": "Ripon",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.618@pilottravelcenters.com",
+        "fax": "+1 209-599-4265",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 209-599-4141",
+        "ref": "618",
+        "website": "https://locations.pilotflyingj.com/us/ca/ripon/1501-n-jack-tone-rd"
+      },
+      "center": {
+        "lat": 37.755592,
+        "lon": -121.14427180000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 224317917,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "hgv": "yes",
+        "name": "Love's"
+      },
+      "center": {
+        "lat": 36.18037665,
+        "lon": -119.33015169999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 224317918,
+      "tags": {
+        "branch": "Tulare",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 559-686-1400",
+        "ref": "382",
+        "website": "https://www.loves.com/locations/ca/tulare/loves-travel-stop-tulare-382"
+      },
+      "center": {
+        "lat": 36.1799321,
+        "lon": -119.33012144999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 224317919,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "hgv": "no",
+        "name": "Love's"
+      },
+      "center": {
+        "lat": 36.18128635,
+        "lon": -119.33017259999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 226879591,
+      "tags": {
+        "branch": "Buttonwillow",
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 661-764-5266",
+        "ref": "0160",
+        "website": "https://www.ta-petro.com/location/ca/ta-buttonwillow/"
+      },
+      "center": {
+        "lat": 35.40122735,
+        "lon": -119.39612590000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 226879876,
+      "tags": {
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 209-799-3500",
+        "ref": "0170",
+        "website": "https://www.ta-petro.com/location/ca/ta-livingston/"
+      },
+      "center": {
+        "lat": 37.38709355,
+        "lon": -120.7384462
+      }
+    },
+    {
+      "type": "way",
+      "id": 226882286,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "hgv": "yes"
+      },
+      "center": {
+        "lat": 40.504811149999995,
+        "lon": -122.33544240000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 261985268,
+      "tags": {
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.137@pilottravelcenters.com",
+        "fax": "+1 530-938-9700",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 530-938-9600",
+        "ref": "137",
+        "website": "https://locations.pilotflyingj.com/us/ca/weed/395-e-vista-dr"
+      },
+      "center": {
+        "lat": 41.3993451,
+        "lon": -122.37646235
+      }
+    },
+    {
+      "type": "way",
+      "id": 261985269,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "building:levels": "1",
+        "fuel:diesel": "yes",
+        "fuel:octane_91": "yes",
+        "name": "Pilot",
+        "operator": "Pilot Travel Centers LLC"
+      },
+      "center": {
+        "lat": 41.39876195,
+        "lon": -122.37713935
+      }
+    },
+    {
+      "type": "way",
+      "id": 261985270,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "building:levels": "1",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "name": "Pilot",
+        "operator": "Pilot Travel Centers LLC"
+      },
+      "center": {
+        "lat": 41.39914985,
+        "lon": -122.376169
+      }
+    },
+    {
+      "type": "way",
+      "id": 262310086,
+      "tags": {
+        "addr:city": "Dunnigan",
+        "addr:housenumber": "30035",
+        "addr:postcode": "95937",
+        "addr:state": "CA",
+        "addr:street": "County Road 8",
+        "amenity": "fuel",
+        "brand": "Pilot Travel Center",
+        "brand:website": "https://www.pilotflyingj.com",
+        "brand:wikidata": "Q64128179",
+        "capacity": "9",
+        "fax": "+1-530-724-3029",
+        "fuel:HGV_diesel": "yes",
+        "fuel:adblue": "yes",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "name": "Pilot",
+        "opening_hours": "24/7",
+        "operator": "Pilot Travel Centers LLC",
+        "payment:amex": "yes",
+        "payment:apple_pay": "yes",
+        "payment:discover_card": "yes",
+        "payment:ebt": "yes",
+        "payment:google_pay": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-530-724-3060",
+        "self_service": "yes",
+        "shop": "convenience",
+        "toilets": "yes",
+        "website": "https://locations.pilotflyingj.com/us/ca/dunnigan/30035-county-road-8"
+      },
+      "center": {
+        "lat": 38.862280999999996,
+        "lon": -121.95067175000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 262315409,
+      "tags": {
+        "addr:housenumber": "951",
+        "addr:postcode": "93901",
+        "addr:street": "Work Street",
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "hgv": "no",
+        "name": "Pilot Travel Center",
+        "opening_hours": "24/7",
+        "phone": "+1 831 775 0380",
+        "website": "https://locations.pilotflyingj.com/us/ca/salinas/951-work-street"
+      },
+      "center": {
+        "lat": 36.66494165,
+        "lon": -121.62985355
+      }
+    },
+    {
+      "type": "way",
+      "id": 262315410,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "hgv": "yes",
+        "name": "Pilot",
+        "website": "https://locations.pilotflyingj.com/us/ca/salinas/951-work-street"
+      },
+      "center": {
+        "lat": 36.6656023,
+        "lon": -121.62987494999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 262315411,
+      "tags": {
+        "addr:city": "Salinas",
+        "addr:county": "Monterey",
+        "addr:postcode": "93901",
+        "addr:street": "951 Work Street",
+        "branch": "Salinas",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "description": "US 101 & Sandborn",
+        "email": "TravelCenter.237@pilottravelcenters.com",
+        "fax": "+1 831-775-0360",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "opening_hours": "24/7",
+        "phone": "+1 831 775 0380",
+        "ref": "237",
+        "route": "101",
+        "website": "https://locations.pilotflyingj.com/us/ca/salinas/951-work-st"
+      },
+      "center": {
+        "lat": 36.6655123,
+        "lon": -121.63015874999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 262315571,
+      "tags": {
+        "addr:city": "San Diego",
+        "addr:housenumber": "1497",
+        "addr:postcode": "92154",
+        "addr:state": "CA",
+        "addr:street": "Piper Ranch Road",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "hgv": "no",
+        "name": "Pilot",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 32.56836625,
+        "lon": -116.95320864999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 262315572,
+      "tags": {
+        "branch": "Otay Mesa",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.343@pilottravelcenters.com",
+        "fax": "+1 619-661-9814",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 619-661-9558",
+        "ref": "343",
+        "website": "https://locations.pilotflyingj.com/us/ca/san-diego/1497-piper-ranch-rd"
+      },
+      "center": {
+        "lat": 32.569109749999996,
+        "lon": -116.95247425000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 262315574,
+      "tags": {
+        "addr:city": "San Diego",
+        "addr:country": "US",
+        "addr:housenumber": "1497",
+        "addr:postcode": "92154",
+        "addr:state": "CA",
+        "addr:street": "Piper Ranch Road",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "hgv": "yes",
+        "name": "Pilot",
+        "source": "SanGIS Addresses Public Domain (http://www.sangis.org/)"
+      },
+      "center": {
+        "lat": 32.569206050000005,
+        "lon": -116.95255220000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 262315782,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "ele": "362.2",
+        "height": "6.0",
+        "hgv": "no",
+        "lacounty:ain": "2865009020",
+        "lacounty:bld_id": "374777002875",
+        "name": "Pilot",
+        "start_date": "2000"
+      },
+      "center": {
+        "lat": 34.49438515,
+        "lon": -118.62026700000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 263298253,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "name": "Pilot"
+      },
+      "center": {
+        "lat": 34.9916192,
+        "lon": -117.54309745
+      }
+    },
+    {
+      "type": "way",
+      "id": 264215609,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "building": "yes",
+        "hgv": "yes",
+        "name": "Flying J",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 35.60971705,
+        "lon": -115.3917088
+      }
+    },
+    {
+      "type": "way",
+      "id": 373181558,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 32.68530835,
+        "lon": -115.38041379999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 373619442,
+      "tags": {
+        "highway": "services",
+        "landuse": "retail",
+        "source": "bing_imagery"
+      },
+      "center": {
+        "lat": 33.8742058,
+        "lon": -117.55852010000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 403341060,
+      "tags": {
+        "highway": "services",
+        "landuse": "retail",
+        "source": "bing_imagery"
+      },
+      "center": {
+        "lat": 33.851022799999996,
+        "lon": -117.9413126
+      }
+    },
+    {
+      "type": "way",
+      "id": 408906285,
+      "tags": {
+        "branch": "Lodi",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 209-333-9392",
+        "ref": "538",
+        "website": "https://www.loves.com/locations/ca/lodi/loves-travel-stop-lodi-538"
+      },
+      "center": {
+        "lat": 38.1185355,
+        "lon": -121.39238460000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 414036183,
+      "tags": {
+        "area": "yes",
+        "ele": "10.3",
+        "height": "3.4",
+        "highway": "services",
+        "lacounty:ain": "4212004003",
+        "lacounty:bld_id": "428955817380",
+        "start_date": "1973"
+      },
+      "center": {
+        "lat": 33.9854715,
+        "lon": -118.43778989999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 429153131,
+      "tags": {
+        "amenity": "fuel",
+        "automated": "no",
+        "car_wash": "yes",
+        "ele": "130.6",
+        "fuel:diesel": "yes",
+        "height": "5.3",
+        "lacounty:ain": "5467005027",
+        "lacounty:bld_id": "498742857304",
+        "landuse": "retail",
+        "name": "PetrolX",
+        "self_service": "no",
+        "start_date": "1971"
+      },
+      "center": {
+        "lat": 34.09581575,
+        "lon": -118.20796010000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 452914059,
+      "tags": {
+        "highway": "services",
+        "landuse": "retail",
+        "source": "bing_imagery"
+      },
+      "center": {
+        "lat": 33.86508685,
+        "lon": -117.54466130000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 458028476,
+      "tags": {
+        "area": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 34.0180347,
+        "lon": -118.28057669999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 470552218,
+      "tags": {
+        "building": "yes",
+        "building:use": "car_repair",
+        "highway": "services",
+        "lacounty:ain": "8535002010",
+        "lacounty:bld_id": "570586860956",
+        "operator": "Waste Management",
+        "start_date": "1973"
+      },
+      "center": {
+        "lat": 34.10585295,
+        "lon": -117.97064735000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 473000129,
+      "tags": {
+        "amenity": "fuel",
+        "atm": "yes",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "building": "roof",
+        "compressed_air": "yes",
+        "ele": "1177.0",
+        "fuel:diesel": "yes",
+        "fuel:propane": "yes",
+        "height": "5.5",
+        "hgv": "no",
+        "lacounty:ain": "3251005044",
+        "lacounty:bld_id": "295530120961",
+        "layer": "1",
+        "name": "Flying J",
+        "opening_hours": "Mo-Su,PH 00:00-00:00",
+        "payment:credit_cards": "surcharge",
+        "self_service": "yes",
+        "shop": "convenience;car_repair",
+        "source": "usgs_imagery_2008;survey;image",
+        "source_ref": "AM909_DSCV9778",
+        "start_date": "1986",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 34.8172201,
+        "lon": -118.88673225000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 495052164,
+      "tags": {
+        "access": "customers",
+        "covered": "no",
+        "highway": "services",
+        "name": "Auto Repair",
+        "operator": "Business Parking",
+        "operator:type": "public",
+        "parking": "surface",
+        "surface": "asphalt"
+      },
+      "center": {
+        "lat": 40.803521450000005,
+        "lon": -124.16262775000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 546998196,
+      "tags": {
+        "access": "customers",
+        "addr:city": "Weed",
+        "addr:housenumber": "395",
+        "addr:postcode": "96094",
+        "addr:state": "CA",
+        "addr:street": "E Vista Drive",
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "fee": "yes",
+        "fuel:diesel": "yes",
+        "fuel:octane_87": "yes",
+        "fuel:octane_89": "yes",
+        "fuel:octane_91": "yes",
+        "name": "Pilot",
+        "operator": "Pilot Travel Centers LLC",
+        "sanitary_dump_station:round_drain": "yes",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 41.398538200000004,
+        "lon": -122.37759029999995
+      }
+    },
+    {
+      "type": "way",
+      "id": 547104655,
+      "tags": {
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.1080@pilottravelcenters.com",
+        "fax": "+1 209-892-2739",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 209-892-9225",
+        "ref": "1080",
+        "website": "https://locations.pilotflyingj.com/us/ca/patterson/2275-sperry-ave"
+      },
+      "center": {
+        "lat": 37.4663779,
+        "lon": -121.1643444
+      }
+    },
+    {
+      "type": "way",
+      "id": 547534746,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "hgv": "yes"
+      },
+      "center": {
+        "lat": 37.543351799999996,
+        "lon": -121.26952110000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 581208106,
+      "tags": {
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.1019@pilottravelcenters.com",
+        "fax": "+1 530-865-0114",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 530-865-0108",
+        "ref": "1019",
+        "website": "https://locations.pilotflyingj.com/us/ca/orland/4444-commerce-ln"
+      },
+      "center": {
+        "lat": 39.75073875,
+        "lon": -122.20741625
+      }
+    },
+    {
+      "type": "way",
+      "id": 596620304,
+      "tags": {
+        "area": "yes",
+        "highway": "services",
+        "name": "Quick Lane"
+      },
+      "center": {
+        "lat": 32.81703865,
+        "lon": -115.57132509999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 621272911,
+      "tags": {
+        "addr:city": "Tehachapi",
+        "addr:housenumber": "1668",
+        "addr:postcode": "93561",
+        "addr:state": "CA",
+        "addr:street": "East Tehachapi Boulevard",
+        "bin": "yes",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2026-01-04",
+        "disused:brand": "Flying J",
+        "disused:brand:wikidata": "Q64130592",
+        "drinking_water": "yes",
+        "email": "TravelCenter.1094@pilottravelcenters.com",
+        "fax": "+1-661-823-1123",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "official_name": "Pilot Travel Center #1094",
+        "old_name": "Flying J Travel Center",
+        "phone": "+1-661-823-1049",
+        "ref": "1094",
+        "toilets": "yes",
+        "website": "https://locations.pilotflyingj.com/us/ca/tehachapi/1668-e-tehachapi-blvd",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 35.12661775,
+        "lon": -118.41547804999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 666401439,
+      "tags": {
+        "access": "private",
+        "highway": "services",
+        "operator": "Vehicle Impound Yard",
+        "operator:type": "business",
+        "parking": "surface",
+        "surface": "asphalt"
+      },
+      "center": {
+        "lat": 40.8049807,
+        "lon": -124.16424534999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 680120278,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Mobil",
+        "brand:wikidata": "Q109676002",
+        "building": "roof",
+        "layer": "1",
+        "name": "Petro Merica"
+      },
+      "center": {
+        "lat": 33.0433151,
+        "lon": -116.86552585000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 820125114,
+      "tags": {
+        "contact:facebook": "https://www.facebook.com/sacramento49ertravelplaza",
+        "hgv": "yes",
+        "highway": "services",
+        "internet_access": "wlan",
+        "name": "Sacramento 49er Travel Plaza",
+        "phone": "+1 916-927-4774",
+        "sanitary_dump_station": "yes",
+        "website": "https://sacramento49er.com/"
+      },
+      "center": {
+        "lat": 38.61751635,
+        "lon": -121.53671750000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 827132372,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "InterState Oil",
+        "building": "roof",
+        "fuel:HGV_diesel": "yes",
+        "name": "InterState truck diesel",
+        "phone": "+1 888 968 3835"
+      },
+      "center": {
+        "lat": 38.38150255,
+        "lon": -121.36427470000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 978157522,
+      "tags": {
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.1009@pilottravelcenters.com",
+        "fax": "+1 951-681-1050",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 951-681-1032",
+        "ref": "1009",
+        "website": "https://locations.pilotflyingj.com/us/ca/mira-loma/11053-riverside-dr"
+      },
+      "center": {
+        "lat": 34.0157924,
+        "lon": -117.52620389999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 978157523,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "building": "yes",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "layer": "1",
+        "name": "Flying J"
+      },
+      "center": {
+        "lat": 34.01573904999999,
+        "lon": -117.52564130000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 978157524,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "building": "roof",
+        "hgv": "no",
+        "layer": "1",
+        "name": "Flying J"
+      },
+      "center": {
+        "lat": 34.0150766,
+        "lon": -117.52503590000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 996019338,
+      "tags": {
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 559-214-2444",
+        "ref": "0919",
+        "website": "https://www.ta-petro.com/location/ca/ta-madera/"
+      },
+      "center": {
+        "lat": 36.85314565,
+        "lon": -119.95248924999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1007487129,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 661-385-6020",
+        "ref": "755",
+        "website": "https://www.loves.com/locations/ca/boron/loves-travel-stop-boron-755"
+      },
+      "center": {
+        "lat": 35.0117219,
+        "lon": -117.64382939999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1007487135,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "building": "roof",
+        "hgv": "no",
+        "name": "Love's"
+      },
+      "center": {
+        "lat": 35.011614800000004,
+        "lon": -117.64454334999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1007487164,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Love's",
+        "building": "roof",
+        "hgv": "yes",
+        "name": "Love's"
+      },
+      "center": {
+        "lat": 35.01187815,
+        "lon": -117.64366235
+      }
+    },
+    {
+      "type": "way",
+      "id": 1013164617,
+      "tags": {
+        "addr:city": "Blythe",
+        "addr:housenumber": "505",
+        "addr:postcode": "92225",
+        "addr:state": "CA",
+        "addr:street": "West 14th Avenue",
+        "highway": "services",
+        "name": "Blythe District Office",
+        "operator": "Southern California Edison"
+      },
+      "center": {
+        "lat": 33.6048294,
+        "lon": -114.60260110000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1019563341,
+      "tags": {
+        "area": "yes",
+        "highway": "services",
+        "name": "Boyd Service Center",
+        "operator": "City Of Tracy",
+        "operator:type": "public",
+        "operator:wikidata": "Q953409"
+      },
+      "center": {
+        "lat": 37.73542215,
+        "lon": -121.4340373
+      }
+    },
+    {
+      "type": "way",
+      "id": 1062485172,
+      "tags": {
+        "area": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 32.83647885,
+        "lon": -117.26826449999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080419279,
+      "tags": {
+        "addr:city": "Placentia",
+        "addr:housenumber": "2999",
+        "addr:postcode": "92806",
+        "addr:state": "CA",
+        "addr:street": "East La Jolla Street",
+        "amenity": "fuel",
+        "brand": "Love's Alternative Energy",
+        "brand:wikidata": "Q139895750",
+        "building": "roof",
+        "fuel:cng": "yes",
+        "hgv": "yes",
+        "motor_vehicle": "yes",
+        "name": "Love's Alternative Energy - CNG",
+        "not:brand:wikidata": "Q1872496",
+        "opening_hours": "24/7",
+        "ref": "1344",
+        "ref:afdc": "25601",
+        "self_service": "yes",
+        "source": "https://placentia.org/257/CNG-Fuel-Station",
+        "website": "https://www.lovesalternativeenergy.com/locations/ca/placentia/loves-alternative-energy-public-cng-placentia-1344"
+      },
+      "center": {
+        "lat": 33.8628055,
+        "lon": -117.86525095000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080972243,
+      "tags": {
+        "alt_name": "Pilot Travel Centers",
+        "amenity": "fuel",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "building": "roof",
+        "hgv": "no",
+        "name": "Pilot"
+      },
+      "center": {
+        "lat": 32.97821835,
+        "lon": -115.50389369999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080972244,
+      "tags": {
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.1132@pilottravelcenters.com",
+        "fax": "+1 760-351-8643",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 760-344-3695",
+        "ref": "1132",
+        "website": "https://locations.pilotflyingj.com/us/ca/brawley/234-ben-hulse-hwy"
+      },
+      "center": {
+        "lat": 32.977828450000004,
+        "lon": -115.50346409999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1086106404,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 41.73712595,
+        "lon": -122.62390604999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1102478977,
+      "tags": {
+        "addr:housenumber": "2325",
+        "addr:street": "Sierra Lakes Parkway",
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.1328@pilottravelcenters.com",
+        "fax": "+1 909-903-3644",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 909-903-3641",
+        "ref": "1328",
+        "website": "https://locations.pilotflyingj.com/us/ca/rialto/2325-sierra-lakes-pkwy"
+      },
+      "center": {
+        "lat": 34.13771175,
+        "lon": -117.4231021
+      }
+    },
+    {
+      "type": "way",
+      "id": 1108380318,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 559-661-1012",
+        "ref": "736",
+        "website": "https://www.loves.com/locations/ca/madera/loves-travel-stop-madera-736"
+      },
+      "center": {
+        "lat": 36.9953898,
+        "lon": -120.09730330000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1126224696,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "hgv": "designated",
+        "layer": "1",
+        "name": "Golden Acorn Travel Center",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 32.701277399999995,
+        "lon": -116.35421100000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1147334098,
+      "tags": {
+        "addr:city": "San Diego",
+        "addr:housenumber": "4252",
+        "addr:postcode": "92108",
+        "addr:state": "CA",
+        "addr:street": "Camino del Rio North",
+        "amenity": "fuel",
+        "brand": "Mobil",
+        "brand:wikidata": "Q109676002",
+        "fuel:HGV_diesel": "yes",
+        "fuel:diesel": "yes",
+        "fuel:octane_89": "yes",
+        "fuel:octane_92": "yes",
+        "landuse": "retail",
+        "layer": "1",
+        "name": "Mobil Travel Center",
+        "operator": "Soapy Joes Car wash",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 32.780115800000004,
+        "lon": -117.10256905
+      }
+    },
+    {
+      "type": "way",
+      "id": 1150859807,
+      "tags": {
+        "amenity": "fuel",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "operator": "Rj's Travel Center"
+      },
+      "center": {
+        "lat": 36.4481428,
+        "lon": -119.48532890000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1190060832,
+      "tags": {
+        "amenity": "fuel",
+        "building": "yes",
+        "hgv": "yes",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 35.61498,
+        "lon": -119.6561835
+      }
+    },
+    {
+      "type": "way",
+      "id": 1190702629,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 36.91110855,
+        "lon": -119.79434624999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1190702630,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 36.9061059,
+        "lon": -119.79417884999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1190702631,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 36.899686,
+        "lon": -119.79392330000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1190702632,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 36.896055700000005,
+        "lon": -119.79424704999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1206376353,
+      "tags": {
+        "addr:city": "Orland",
+        "addr:housenumber": "4473",
+        "addr:postcode": "95963",
+        "addr:state": "CA",
+        "addr:street": "Commerce Lane",
+        "brand": "Maverik",
+        "brand:wikidata": "Q64149010",
+        "check_date": "2023-09-01",
+        "fuel:diesel": "yes",
+        "fuel:gasoline": "yes",
+        "highway": "services",
+        "name": "Maverik",
+        "self_service": "yes",
+        "website": "https://locations.maverik.com/ca/orland/4473-commerce-lane"
+      },
+      "center": {
+        "lat": 39.7510998,
+        "lon": -122.20986264999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1206809914,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 37.8110315,
+        "lon": -121.99468820000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1207904618,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 831-500-6979",
+        "ref": "898",
+        "website": "https://www.loves.com/locations/ca/salinas/loves-travel-stop-salinas-898"
+      },
+      "center": {
+        "lat": 36.658776,
+        "lon": -121.61923385
+      }
+    },
+    {
+      "type": "way",
+      "id": 1214436330,
+      "tags": {
+        "addr:city": "Patterson",
+        "addr:housenumber": "55",
+        "addr:postcode": "95363",
+        "addr:state": "CA",
+        "addr:street": "South Rogers Road",
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "fuel:gasoline": "yes",
+        "layer": "1",
+        "name": "Love's Gas",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 37.463195150000004,
+        "lon": -121.1756201
+      }
+    },
+    {
+      "type": "way",
+      "id": 1214436331,
+      "tags": {
+        "addr:city": "Patterson",
+        "addr:housenumber": "93",
+        "addr:postcode": "95363",
+        "addr:state": "CA",
+        "addr:street": "South Rogers Road",
+        "amenity": "fuel",
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "hgv": "yes",
+        "layer": "1",
+        "name": "Love's",
+        "self_service": "yes"
+      },
+      "center": {
+        "lat": 37.46242065,
+        "lon": -121.174847
+      }
+    },
+    {
+      "type": "way",
+      "id": 1221636495,
+      "tags": {
+        "brand": "EZ Trip",
+        "check_date": "2024-08-02",
+        "fax": "+1 559-975-9029",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "EZ Trip Travel Center",
+        "phone": "+1 559-975-9001",
+        "website": "https://locations.pilotflyingj.com/us/ca/madera/28577-avenue-12"
+      },
+      "center": {
+        "lat": 36.92602065,
+        "lon": -120.02608114999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1222647484,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 35.5417934,
+        "lon": -115.41682804999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1293726643,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Valley Fuel Travel Plaza"
+      },
+      "center": {
+        "lat": 36.3502532,
+        "lon": -119.42491825000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1306511405,
+      "tags": {
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.1071@pilottravelcenters.com",
+        "fax": "+1 559-358-4195",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 559-686-0206",
+        "ref": "1071",
+        "website": "https://locations.pilotflyingj.com/us/ca/tulare/979-e-paige-ave"
+      },
+      "center": {
+        "lat": 36.1811149,
+        "lon": -119.33270570000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1306526819,
+      "tags": {
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "travelcenter.1267@pilottravelcenters.com",
+        "fax": "+1 661-554-0350",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 661-569-1720",
+        "ref": "1267",
+        "website": "https://locations.pilotflyingj.com/us/ca/palmdale/5231-pearblossom-hwy"
+      },
+      "center": {
+        "lat": 34.5441819,
+        "lon": -118.03596675
+      }
+    },
+    {
+      "type": "way",
+      "id": 1306638803,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 530-473-3030",
+        "ref": "652",
+        "website": "https://www.loves.com/locations/ca/williams/loves-travel-stop-williams-652"
+      },
+      "center": {
+        "lat": 39.167374949999996,
+        "lon": -122.14437379999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1306692719,
+      "tags": {
+        "amenity": "fuel",
+        "hgv": "yes"
+      },
+      "center": {
+        "lat": 37.85694385,
+        "lon": -121.27608075
+      }
+    },
+    {
+      "type": "way",
+      "id": 1306692726,
+      "tags": {
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "TravelCenter.1017@pilottravelcenters.com",
+        "fax": "+1 209-982-1477",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 209-982-1460",
+        "ref": "1017",
+        "website": "https://locations.pilotflyingj.com/us/ca/lathrop/345-roth-rd"
+      },
+      "center": {
+        "lat": 37.856656349999994,
+        "lon": -121.27609934999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1306693187,
+      "tags": {
+        "brand": "Flying J",
+        "brand:wikidata": "Q64130592",
+        "check_date": "2024-08-02",
+        "email": "travelcenter.1177@pilottravelcenters.com",
+        "fax": "+1 909-822-8398",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Flying J Travel Center",
+        "phone": "+1 909-574-4866",
+        "ref": "1177",
+        "website": "https://locations.pilotflyingj.com/us/ca/fontana/14320-slover-ave"
+      },
+      "center": {
+        "lat": 34.064096649999996,
+        "lon": -117.49344974999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1306723831,
+      "tags": {
+        "brand": "Pilot",
+        "brand:wikidata": "Q64128179",
+        "check_date": "2024-08-02",
+        "email": "travelcenter.1326@pilottravelcenters.com",
+        "fax": "+1 909-780-1021",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Pilot Travel Center",
+        "phone": "+1 909-780-1019",
+        "ref": "1326",
+        "website": "https://locations.pilotflyingj.com/us/ca/colton/2300-e-steel-rd"
+      },
+      "center": {
+        "lat": 34.0623091,
+        "lon": -117.28831709999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1325287988,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1-760-351-8725",
+        "ref": "749",
+        "website": "https://www.loves.com/locations/ca/westmorland/loves-travel-stop-westmorland-749"
+      },
+      "center": {
+        "lat": 33.038785950000005,
+        "lon": -115.6290305
+      }
+    },
+    {
+      "type": "way",
+      "id": 1325289576,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 209-827-1399",
+        "ref": "441",
+        "website": "https://www.loves.com/locations/ca/santa-nella/loves-travel-stop-santa-nella-441"
+      },
+      "center": {
+        "lat": 37.1113125,
+        "lon": -121.01744860000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1329713323,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 209-895-5021",
+        "ref": "807",
+        "website": "https://www.loves.com/locations/ca/patterson/loves-travel-stop-patterson-807"
+      },
+      "center": {
+        "lat": 37.46201055,
+        "lon": -121.17461800000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1329713726,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 37.102467000000004,
+        "lon": -121.01467694999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1329717221,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 39.49870935,
+        "lon": -121.57272790000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1330050072,
+      "tags": {
+        "brand": "TA",
+        "brand:wikidata": "Q7835892",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "TA",
+        "official_name": "TravelCenters of America",
+        "phone": "+1 209-826-0741",
+        "ref": "0163",
+        "website": "https://www.ta-petro.com/location/ca/ta-santa-nella/"
+      },
+      "center": {
+        "lat": 37.11009425,
+        "lon": -121.01412214999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1337941196,
+      "tags": {
+        "access": "private",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 33.6491155,
+        "lon": -117.84193340000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1340060946,
+      "tags": {
+        "access": "private",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 33.6441661,
+        "lon": -117.84308665000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1350952872,
+      "tags": {
+        "brand": "Love's",
+        "brand:wikidata": "Q1872496",
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Love's Travel Stop",
+        "phone": "+1 661-617-5324",
+        "ref": "830",
+        "website": "https://www.loves.com/locations/ca/bakersfield/loves-travel-stop-bakersfield-830"
+      },
+      "center": {
+        "lat": 35.26776965,
+        "lon": -119.01873499999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1374545034,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 32.6712414,
+        "lon": -115.49831745
+      }
+    },
+    {
+      "type": "way",
+      "id": 1392456674,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services",
+        "name": "Lost Hills Travel Center"
+      },
+      "center": {
+        "lat": 35.61509045,
+        "lon": -119.65589754999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1392457196,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 33.27893525,
+        "lon": -115.9660556
+      }
+    },
+    {
+      "type": "way",
+      "id": 1441819175,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 33.64519415,
+        "lon": -117.83698645000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1444820782,
+      "tags": {
+        "amenity": "fuel",
+        "building": "roof",
+        "compressed_air": "no",
+        "fuel:HGV_diesel": "yes",
+        "fuel:biodiesel": "yes",
+        "fuel:diesel": "yes",
+        "height": "7",
+        "name": "Roadside Oasis",
+        "opening_hours": "24/7",
+        "self_service": "yes",
+        "website": "https://www.roadsideoasis.com/"
+      },
+      "center": {
+        "lat": 33.78793115,
+        "lon": -117.00802885000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1449671862,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 39.20581515,
+        "lon": -121.04287020000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 1449671863,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 39.2039057,
+        "lon": -121.04575375000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1454989658,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 40.195441,
+        "lon": -122.24028535000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1488639480,
+      "tags": {
+        "hgv": "yes",
+        "highway": "services",
+        "toilets": "yes"
+      },
+      "center": {
+        "lat": 35.06355345,
+        "lon": -118.17623429999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1540207645,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 33.64624605,
+        "lon": -117.84915825000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1540888870,
+      "tags": {
+        "access": "delivery",
+        "highway": "services"
+      },
+      "center": {
+        "lat": 33.64501425,
+        "lon": -117.8407267
+      }
+    },
+    {
+      "type": "way",
+      "id": 1548240696,
+      "tags": {
+        "highway": "services",
+        "toilets": "no"
+      },
+      "center": {
+        "lat": 37.373315500000004,
+        "lon": -122.030439
+      }
+    },
+    {
+      "type": "way",
+      "id": 1549803589,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 33.643456099999995,
+        "lon": -117.83947760000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1567440161,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 34.81595035,
+        "lon": -115.18270385
+      }
+    },
+    {
+      "type": "way",
+      "id": 1567687251,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 34.72331795,
+        "lon": -116.16189524999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1567687253,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 34.727088699999996,
+        "lon": -116.16396325
+      }
+    },
+    {
+      "type": "way",
+      "id": 1568019668,
+      "tags": {
+        "highway": "services"
+      },
+      "center": {
+        "lat": 34.819899649999996,
+        "lon": -116.60985364999999
+      }
+    }
+  ]
+}

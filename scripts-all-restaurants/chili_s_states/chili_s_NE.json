@@ -1,0 +1,97 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "chili_s",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11465318047,
+      "tags": {
+        "addr:city": "La Vista",
+        "addr:housenumber": "8373",
+        "addr:postcode": "68128",
+        "addr:state": "NE",
+        "addr:street": "Barmettler Dr",
+        "addr:unit": "A",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "phone": "+1-402-592-4900",
+        "website": "https://chilis.com"
+      },
+      "lat": 41.1809413,
+      "lon": -96.0426842
+    },
+    {
+      "type": "way",
+      "id": 170818990,
+      "tags": {
+        "addr:housenumber": "3202",
+        "addr:postcode": "68144",
+        "addr:street": "South 143rd Plaza",
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "source": "bing"
+      },
+      "center": {
+        "lat": 41.229538899999994,
+        "lon": -96.13791985
+      }
+    },
+    {
+      "type": "way",
+      "id": 425164445,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "internet_access": "no",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar"
+      },
+      "center": {
+        "lat": 40.742126999999996,
+        "lon": -96.68178065000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 463881831,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar"
+      },
+      "center": {
+        "lat": 41.881785550000004,
+        "lon": -103.67496395
+      }
+    }
+  ]
+}

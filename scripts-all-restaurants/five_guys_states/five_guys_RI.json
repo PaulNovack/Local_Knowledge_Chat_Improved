@@ -1,0 +1,86 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "RI",
+    "brand": "five_guys",
+    "source": "https://download.geofabrik.de/north-america/us/rhode-island-latest.osm.pbf",
+    "source_md5": "089bd14c5348318ad280c1c9ab732067",
+    "processed_utc": "2026-10-24T07:15:29.409283+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1602366504,
+      "tags": {
+        "addr:city": "Warwick",
+        "addr:housenumber": "300",
+        "addr:postcode": "02886",
+        "addr:state": "RI",
+        "addr:street": "Quaker Lane",
+        "amenity": "fast_food",
+        "branch": "Cowesett Corners",
+        "brand": "Five Guys",
+        "brand:wikidata": "Q1131810",
+        "cuisine": "burger",
+        "name": "Five Guys",
+        "official_name": "Five Guys Burgers and Fries",
+        "opening_hours": "11:00-21:30",
+        "phone": "+1 401-320-8493",
+        "takeaway": "yes",
+        "website": "https://restaurants.fiveguys.com/300-quaker-lane"
+      },
+      "lat": 41.6884743,
+      "lon": -71.4981285
+    },
+    {
+      "type": "node",
+      "id": 7087191998,
+      "tags": {
+        "addr:city": "Lincoln",
+        "addr:housenumber": "622",
+        "addr:postcode": "02865",
+        "addr:state": "RI",
+        "addr:street": "George Washington Highway",
+        "amenity": "fast_food",
+        "branch": "Lincoln Mall",
+        "brand": "Five Guys",
+        "brand:wikidata": "Q1131810",
+        "cuisine": "burger",
+        "name": "Five Guys",
+        "official_name": "Five Guys Burgers and Fries",
+        "opening_hours": "11:00-21:30",
+        "phone": "+1 401-335-3883",
+        "takeaway": "yes",
+        "website": "https://restaurants.fiveguys.com/622-george-washington-highway"
+      },
+      "lat": 41.9358254,
+      "lon": -71.4774985
+    },
+    {
+      "type": "way",
+      "id": 140440043,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Five Guys",
+        "brand:wikidata": "Q1131810",
+        "building": "retail",
+        "cuisine": "burger",
+        "name": "Five Guys",
+        "official_name": "Five Guys Burgers and Fries",
+        "takeaway": "yes",
+        "url": "https://restaurants.fiveguys.com/63-airport-rd"
+      },
+      "center": {
+        "lat": 41.733615900000004,
+        "lon": -71.4095259
+      }
+    }
+  ]
+}

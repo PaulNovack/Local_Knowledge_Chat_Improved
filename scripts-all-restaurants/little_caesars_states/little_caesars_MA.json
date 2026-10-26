@@ -1,0 +1,108 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MA",
+    "brand": "little_caesars",
+    "source": "https://download.geofabrik.de/north-america/us/massachusetts-latest.osm.pbf",
+    "source_md5": "64e7718d0e61ad4600c26bce80bdc95d",
+    "processed_utc": "2026-10-24T07:07:03.817295+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1993210385,
+      "tags": {
+        "addr:city": "Worcester",
+        "addr:housenumber": "386",
+        "addr:postcode": "01604",
+        "addr:state": "MA",
+        "addr:street": "Shrewsbury Street",
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "name": "Little Caesars",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr-Sa 11:00-22:00; Su 12:00-21:00",
+        "takeaway": "yes",
+        "website": "https://littlecaesars.com/en-us/store/9198/"
+      },
+      "lat": 42.2716322,
+      "lon": -71.7755453
+    },
+    {
+      "type": "node",
+      "id": 4763030373,
+      "tags": {
+        "addr:city": "Brockton",
+        "addr:housenumber": "747",
+        "addr:postcode": "02301",
+        "addr:street": "Belmont Street",
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "takeaway": "yes"
+      },
+      "lat": 42.0695243,
+      "lon": -71.0486801
+    },
+    {
+      "type": "node",
+      "id": 5411150119,
+      "tags": {
+        "addr:housenumber": "160",
+        "addr:street": "Winthrop Avenue",
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "phone": "+1 978-681-7652",
+        "takeaway": "yes",
+        "website": "https://littlecaesars.com/en-us/store/10449/"
+      },
+      "lat": 42.6886082,
+      "lon": -71.1456988
+    },
+    {
+      "type": "node",
+      "id": 8933444702,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "takeaway": "yes",
+        "website": "https://littlecaesars.com/en-us/store/9248/"
+      },
+      "lat": 41.6775774,
+      "lon": -71.1629069
+    },
+    {
+      "type": "node",
+      "id": 13115003117,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "operator": "Little Caesars",
+        "takeaway": "yes"
+      },
+      "lat": 42.2454603,
+      "lon": -71.8305712
+    }
+  ]
+}

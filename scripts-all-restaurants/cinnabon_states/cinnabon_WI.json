@@ -1,0 +1,104 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WI",
+    "brand": "cinnabon",
+    "source": "https://download.geofabrik.de/north-america/us/wisconsin-latest.osm.pbf",
+    "source_md5": "1718ff98080ec3edeb95ab8fb47b0ce7",
+    "processed_utc": "2026-10-24T07:19:59.510074+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6668916020,
+      "tags": {
+        "addr:city": "Cottage Grove",
+        "addr:country": "US",
+        "addr:housenumber": "2763",
+        "addr:postcode": "53527",
+        "addr:state": "WI",
+        "addr:street": "County Hwy N",
+        "amenity": "fast_food",
+        "brand": "Cinnabon",
+        "brand:website": "https://www.cinnabon.com/",
+        "brand:wikidata": "Q1092539",
+        "cuisine": "dessert",
+        "name": "Cinnabon",
+        "takeaway": "yes",
+        "website": "https://locations.cinnabon.com/wi/cottage-grove/2763-county-road-n"
+      },
+      "lat": 42.997548,
+      "lon": -89.2011886
+    },
+    {
+      "type": "node",
+      "id": 11154460716,
+      "tags": {
+        "addr:floor": "2",
+        "amenity": "fast_food",
+        "branch": "Mayfair Mall",
+        "brand": "Cinnabon",
+        "brand:wikidata": "Q1092539",
+        "check_date": "2025-12-22",
+        "cuisine": "dessert",
+        "drive_through": "no",
+        "level": "1",
+        "name": "Cinnabon",
+        "opening_hours": "Mo-Sa 10:00-20:00, Su 11:00-18:00",
+        "phone": "+1-224-285-4722",
+        "takeaway": "yes",
+        "website": "https://locations.cinnabon.com/wi/wauwatosa/2500-n-mayfair-road",
+        "website:menu": "https://www.cinnabon.com/menu",
+        "wheelchair": "yes"
+      },
+      "lat": 43.0637151,
+      "lon": -88.0451102
+    },
+    {
+      "type": "node",
+      "id": 11535635058,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Cinnabon",
+        "brand:wikidata": "Q1092539",
+        "cuisine": "dessert",
+        "name": "Cinnabon",
+        "takeaway": "yes"
+      },
+      "lat": 42.7143048,
+      "lon": -88.9794278
+    },
+    {
+      "type": "way",
+      "id": 435465699,
+      "tags": {
+        "addr:city": "Green Bay",
+        "addr:housenumber": "2420",
+        "addr:postcode": "54303",
+        "addr:state": "WI",
+        "addr:street": "West Mason Street",
+        "amenity": "fast_food",
+        "brand": "Cinnabon",
+        "brand:website": "https://www.cinnabon.com/",
+        "brand:wikidata": "Q1092539",
+        "building": "yes",
+        "cuisine": "dessert",
+        "name": "Cinnabon",
+        "name:en": "Cinnabon",
+        "phone": "+1-920-497-1313",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 44.52437215,
+        "lon": -88.08992864999999
+      }
+    }
+  ]
+}

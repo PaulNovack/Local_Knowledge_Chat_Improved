@@ -1,0 +1,89 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "sbarro",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10203163309,
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "4500",
+        "addr:postcode": "85705",
+        "addr:state": "AZ",
+        "addr:street": "North Oracle Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "drive_through": "no",
+        "level": "0",
+        "name": "Sbarro",
+        "phone": "+1-951-317-0929",
+        "takeaway": "yes",
+        "website": "https://sbarro.com/locations/arizona/tucson/tucson-mall"
+      },
+      "lat": 32.2893219,
+      "lon": -110.9741858
+    },
+    {
+      "type": "node",
+      "id": 11444827407,
+      "tags": {
+        "addr:city": "Glendale",
+        "addr:postcode": "85308",
+        "addr:state": "AZ",
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "level": "1",
+        "name": "Sbarro",
+        "takeaway": "yes"
+      },
+      "lat": 33.6423685,
+      "lon": -112.2251363
+    },
+    {
+      "type": "node",
+      "id": 13702646300,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "name": "Sbarro",
+        "takeaway": "yes"
+      },
+      "lat": 33.385017,
+      "lon": -111.965423
+    },
+    {
+      "type": "node",
+      "id": 14298721865,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Sbarro",
+        "brand:wikidata": "Q2589409",
+        "cuisine": "pizza",
+        "name": "Sbarro",
+        "takeaway": "yes"
+      },
+      "lat": 35.1967854,
+      "lon": -113.9034615
+    }
+  ]
+}

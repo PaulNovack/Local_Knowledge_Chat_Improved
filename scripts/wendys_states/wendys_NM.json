@@ -1,0 +1,985 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/3.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NM",
+    "brand": "wendys",
+    "source": "https://download.geofabrik.de/north-america/us/new-mexico-latest.osm.pbf",
+    "source_md5": "5e236c0e9dd59b2df560a9316c86a745",
+    "processed_utc": "2026-10-24T06:30:43.993162+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 211408471,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "1012",
+        "addr:postcode": "87112",
+        "addr:state": "NM",
+        "addr:street": "Juan Tabo Northeast",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 505-294-6143",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/albuquerque/1012-juan-tabo-ne"
+      },
+      "lat": 35.089148,
+      "lon": -106.514662
+    },
+    {
+      "type": "node",
+      "id": 1310525893,
+      "tags": {
+        "addr:city": "Los Lunas",
+        "addr:housenumber": "1860",
+        "addr:postcode": "87031",
+        "addr:state": "NM",
+        "addr:street": "Main Northwest",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 505-565-8850",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/los-lunas/1860-main-nw"
+      },
+      "lat": 34.8139478,
+      "lon": -106.7572166
+    },
+    {
+      "type": "node",
+      "id": 1903218506,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "4800",
+        "addr:postcode": "87107",
+        "addr:state": "NM",
+        "addr:street": "Culture Drive Northeast",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 505-341-2611",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/albuquerque/4800-culture-dr-ne"
+      },
+      "lat": 35.1350206,
+      "lon": -106.612295
+    },
+    {
+      "type": "node",
+      "id": 2371371530,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "3340",
+        "addr:postcode": "87120",
+        "addr:state": "NM",
+        "addr:street": "Coors Northwest",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 505-836-1357",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/albuquerque/3340-coors-nw"
+      },
+      "lat": 35.121025,
+      "lon": -106.70113
+    },
+    {
+      "type": "node",
+      "id": 3696233057,
+      "tags": {
+        "addr:housenumber": "2833",
+        "addr:street": "North Prince Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "delivery": "yes",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "source": "Bing",
+        "takeaway": "yes"
+      },
+      "lat": 34.4263571,
+      "lon": -103.1959375
+    },
+    {
+      "type": "node",
+      "id": 4884587822,
+      "tags": {
+        "addr:city": "Espanola",
+        "addr:housenumber": "1610",
+        "addr:postcode": "87532",
+        "addr:state": "NM",
+        "addr:street": "North Riverside Drive",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-10:30",
+        "phone": "+1 505-747-2677",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/espanola/1610-n-riverside-dr"
+      },
+      "lat": 36.0161754,
+      "lon": -106.0651472
+    },
+    {
+      "type": "node",
+      "id": 5634001232,
+      "tags": {
+        "addr:city": "Santa Fe",
+        "addr:housenumber": "2774",
+        "addr:postcode": "87505",
+        "addr:state": "NM",
+        "addr:street": "Sawmill Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "payment:cards": "yes",
+        "payment:credit_cards": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 505-471-7490",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/santa-fe/2774-sawmill-road"
+      },
+      "lat": 35.640236,
+      "lon": -105.9595361
+    },
+    {
+      "type": "node",
+      "id": 6718761362,
+      "tags": {
+        "addr:city": "Taos",
+        "addr:housenumber": "420",
+        "addr:postcode": "87571",
+        "addr:state": "NM",
+        "addr:street": "Paseo Del Pueblo Sur",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-23:00",
+        "phone": "+1 575-751-3000",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/taos/420-paseo-del-pueblo-sur"
+      },
+      "lat": 36.3985298,
+      "lon": -105.5780149
+    },
+    {
+      "type": "node",
+      "id": 7321190006,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "3801",
+        "addr:postcode": "87121",
+        "addr:state": "NM",
+        "addr:street": "Blake Road Southwest",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:30-22:00",
+        "opening_hours:drive_through": "Mo-Fr 06:30-01:00; Sa 06:30-00:00; Su 06:30-01:00",
+        "phone": "+1 505-873-2233",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/albuquerque/3801-blake-road-sw"
+      },
+      "lat": 35.0369191,
+      "lon": -106.7127392
+    },
+    {
+      "type": "node",
+      "id": 8348365195,
+      "tags": {
+        "addr:city": "Gallup",
+        "addr:housenumber": "2410",
+        "addr:postcode": "87301",
+        "addr:state": "NM",
+        "addr:street": "East 66th",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 505-863-3496",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/gallup/2410-e-66th"
+      },
+      "lat": 35.5289581,
+      "lon": -108.70545
+    },
+    {
+      "type": "node",
+      "id": 9810064717,
+      "tags": {
+        "addr:city": "Farmington",
+        "addr:housenumber": "2610",
+        "addr:postcode": "87401",
+        "addr:state": "NM",
+        "addr:street": "West Main Street",
+        "amenity": "fast_food",
+        "name": "Wendy's",
+        "opening_hours": "06:30-10:30",
+        "phone": "+1 505-564-4434",
+        "website": "https://locations.wendys.com/united-states/nm/farmington/2610-west-main-street"
+      },
+      "lat": 36.7330418,
+      "lon": -108.2430487
+    },
+    {
+      "type": "node",
+      "id": 10689889836,
+      "tags": {
+        "addr:city": "Silver City",
+        "addr:housenumber": "2289",
+        "addr:state": "NM",
+        "addr:street": "Superior",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "lat": 32.7859938,
+      "lon": -108.2406394
+    },
+    {
+      "type": "node",
+      "id": 12038573470,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "3601",
+        "addr:postcode": "87107",
+        "addr:state": "NM",
+        "addr:street": "4th Street Northwest",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:30-19:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 505-345-5746",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/albuquerque/3601-4th-street-nw"
+      },
+      "lat": 35.1194416,
+      "lon": -106.6453596
+    },
+    {
+      "type": "node",
+      "id": 12038573472,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "4800",
+        "addr:postcode": "87110",
+        "addr:state": "NM",
+        "addr:street": "Menaul Northeast",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1-505-884-4850",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/albuquerque/4800-menaul-ne"
+      },
+      "lat": 35.1088652,
+      "lon": -106.5904628
+    },
+    {
+      "type": "node",
+      "id": 13954893979,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "lat": 32.8418955,
+      "lon": -104.4094999
+    },
+    {
+      "type": "way",
+      "id": 51460244,
+      "tags": {
+        "addr:city": "Las Cruces",
+        "addr:housenumber": "565",
+        "addr:postcode": "88001",
+        "addr:state": "NM",
+        "addr:street": "Walton Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Th 09:00-22:00; Fr-Sa 09:00-23:00; Su 09:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-02:00",
+        "phone": "+1 575-541-0664",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/las-cruces/565-walton-boulevard"
+      },
+      "center": {
+        "lat": 32.31424965,
+        "lon": -106.75204165000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 58945737,
+      "tags": {
+        "addr:street": "El Paseo Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.296778399999994,
+        "lon": -106.77023510000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 178311944,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "4900",
+        "addr:postcode": "87109",
+        "addr:state": "NM",
+        "addr:street": "Central Avenue Southeast",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "09:00-20:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 505-268-8017",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/albuquerque/4900-central-se"
+      },
+      "center": {
+        "lat": 35.0778794,
+        "lon": -106.59004190000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 188836271,
+      "tags": {
+        "addr:city": "Deming",
+        "addr:housenumber": "821",
+        "addr:postcode": "88030",
+        "addr:state": "NM",
+        "addr:street": "East Pine Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "09:00-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-23:00; Fr-Sa 06:30-00:00; Su 06:30-23:00",
+        "phone": "+1 575-544-3028",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/deming/821-e-pine-st"
+      },
+      "center": {
+        "lat": 32.26953015,
+        "lon": -107.74882109999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 208613339,
+      "tags": {
+        "addr:city": "Gallup",
+        "addr:housenumber": "985",
+        "addr:postcode": "87301",
+        "addr:state": "NM",
+        "addr:street": "North Highway 491",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 505-726-1071",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/gallup/985-north-highway-491"
+      },
+      "center": {
+        "lat": 35.535933799999995,
+        "lon": -108.75943180000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 219989497,
+      "tags": {
+        "addr:city": "Alamogordo",
+        "addr:housenumber": "301",
+        "addr:postcode": "88310",
+        "addr:state": "NM",
+        "addr:street": "South While Sands Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "commercial",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1-575-437-0865",
+        "source": "https://locations.wendys.com/alamogordo-nm-4059",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/alamogordo/301-s-white-sands-blvd"
+      },
+      "center": {
+        "lat": 32.88683245,
+        "lon": -105.95985144999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 222581430,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "6204",
+        "addr:postcode": "87109",
+        "addr:state": "NM",
+        "addr:street": "San Mateo Boulevard Northeast",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 505-884-9495",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/albuquerque/6204-san-mateo-ne"
+      },
+      "center": {
+        "lat": 35.14641075,
+        "lon": -106.58598389999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 250901519,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "410",
+        "addr:postcode": "87123",
+        "addr:state": "NM",
+        "addr:street": "Eubank Boulevard Northeast",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 505-275-6670",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/albuquerque/410-eubank-ne"
+      },
+      "center": {
+        "lat": 35.07962315,
+        "lon": -106.53179979999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 318619011,
+      "tags": {
+        "addr:city": "Carlsbad",
+        "addr:country": "US",
+        "addr:housenumber": "324",
+        "addr:postcode": "88220",
+        "addr:state": "NM",
+        "addr:street": "South Canal Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "commercial",
+        "cuisine": "burger",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-01:00",
+        "phone": "+1 575-887-8051",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/carlsbad/324-s-canal"
+      },
+      "center": {
+        "lat": 32.41713085,
+        "lon": -104.22872455000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 369791882,
+      "tags": {
+        "addr:city": "Roswell",
+        "addr:housenumber": "1101",
+        "addr:postcode": "88201",
+        "addr:state": "NM",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "retail",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 575-623-7950",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/roswell/1101-main-street"
+      },
+      "center": {
+        "lat": 33.40490815,
+        "lon": -104.52245959999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 436880019,
+      "tags": {
+        "addr:city": "Rio Rancho",
+        "addr:housenumber": "4200",
+        "addr:postcode": "87144",
+        "addr:state": "NM",
+        "addr:street": "Highway 528",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 505-771-0805",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/rio-rancho/4200-hwy-528"
+      },
+      "center": {
+        "lat": 35.32921785,
+        "lon": -106.5711015
+      }
+    },
+    {
+      "type": "way",
+      "id": 461979881,
+      "tags": {
+        "addr:city": "Hobbs",
+        "addr:housenumber": "1101",
+        "addr:postcode": "88240",
+        "addr:state": "NM",
+        "addr:street": "North Turner",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "08:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:00-01:00",
+        "phone": "+1 575-397-3031",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/hobbs/1101-north-turner"
+      },
+      "center": {
+        "lat": 32.7114539,
+        "lon": -103.13667744999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 556584018,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "2203",
+        "addr:postcode": "87112",
+        "addr:state": "NM",
+        "addr:street": "Wyoming Boulevard Northeast",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 505-292-1481",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/albuquerque/2203-wyoming-ne"
+      },
+      "center": {
+        "lat": 35.10711605,
+        "lon": -106.5512999
+      }
+    },
+    {
+      "type": "way",
+      "id": 598692183,
+      "tags": {
+        "addr:city": "Farmington",
+        "addr:housenumber": "4903",
+        "addr:postcode": "87402",
+        "addr:state": "NM",
+        "addr:street": "East Main Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "commercial",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:30-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-23:00; Fr-Sa 06:30-00:00; Su 06:30-23:00",
+        "phone": "+1 505-564-9563",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/farmington/4903-east-main-street"
+      },
+      "center": {
+        "lat": 36.76655365,
+        "lon": -108.14797879999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 612724526,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "8100",
+        "addr:postcode": "87113",
+        "addr:state": "NM",
+        "addr:street": "Louisiana Boulevard Northeast",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:30-22:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-00:00; Fr-Sa 06:30-01:00; Su 06:30-00:00",
+        "phone": "+1 505-796-0335",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/albuquerque/8100-louisiana-blvd-ne"
+      },
+      "center": {
+        "lat": 35.175060849999994,
+        "lon": -106.56832185000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 678717409,
+      "tags": {
+        "addr:city": "Aztec",
+        "addr:housenumber": "1305",
+        "addr:postcode": "87410",
+        "addr:state": "NM",
+        "addr:street": "Aztec Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "check_date": "2025-05-26",
+        "cuisine": "burger",
+        "name": "Wendy's",
+        "opening_hours": "07:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 505-334-9778",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/aztec/1305-aztec-boulevard"
+      },
+      "center": {
+        "lat": 36.8272013,
+        "lon": -108.00843314999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 694185266,
+      "tags": {
+        "addr:city": "Rio Rancho",
+        "addr:housenumber": "827",
+        "addr:postcode": "87124",
+        "addr:state": "NM",
+        "addr:street": "Unser Boulevard",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 505-896-2206",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/rio-rancho/827-unser-blvd.-se"
+      },
+      "center": {
+        "lat": 35.2439622,
+        "lon": -106.6974621
+      }
+    },
+    {
+      "type": "way",
+      "id": 705359549,
+      "tags": {
+        "addr:city": "Santa Fe",
+        "addr:housenumber": "3151",
+        "addr:postcode": "87507",
+        "addr:state": "NM",
+        "addr:street": "Cerrillos Road",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 505-557-4106",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/santa-fe/3151-cerrillos-road"
+      },
+      "center": {
+        "lat": 35.653001700000004,
+        "lon": -105.99651125000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 903439667,
+      "tags": {
+        "addr:city": "Rio Rancho",
+        "addr:housenumber": "233",
+        "addr:postcode": "87124",
+        "addr:state": "NM",
+        "addr:street": "Highway 528",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:30",
+        "phone": "+1 505-892-1438",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/rio-rancho/233-highway-528"
+      },
+      "center": {
+        "lat": 35.2542178,
+        "lon": -106.64738884999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1115402634,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "6600",
+        "addr:postcode": "87121",
+        "addr:state": "NM",
+        "addr:street": "Central Avenue Southwest",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:30-21:00",
+        "opening_hours:drive_through": "Mo-Th 06:30-00:00; Fr-Sa 06:30-00:30; Su 06:30-00:00",
+        "phone": "+1 505-352-0909",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/albuquerque/6600-central-ave-sw"
+      },
+      "center": {
+        "lat": 35.07929645,
+        "lon": -106.71164034999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1117169208,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "1567",
+        "addr:postcode": "87701",
+        "addr:state": "NM",
+        "addr:street": "7th Street",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 505-426-8180",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/las-vegas/1567-7th-street"
+      },
+      "center": {
+        "lat": 35.606906550000005,
+        "lon": -105.22359184999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1123051870,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "10169",
+        "addr:postcode": "87114",
+        "addr:state": "NM",
+        "addr:street": "Coors Northwest",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:00-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-00:00",
+        "phone": "+1 505-898-4240",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/albuquerque/10169-coors-nw"
+      },
+      "center": {
+        "lat": 35.2029292,
+        "lon": -106.64802409999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1219602012,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "building": "yes",
+        "cuisine": "burger",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Wendy's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 32.7859749,
+        "lon": -108.24063145000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1375463628,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "9601",
+        "addr:postcode": "87111",
+        "addr:state": "NM",
+        "addr:street": "Montgomery Northeast",
+        "amenity": "fast_food",
+        "brand": "Wendy's",
+        "brand:wikidata": "Q550258",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "Wendy's",
+        "opening_hours": "07:30-22:00",
+        "opening_hours:drive_through": "Mo-Su 06:30-01:00",
+        "phone": "+1 505-293-1704",
+        "takeaway": "yes",
+        "website": "https://locations.wendys.com/united-states/nm/albuquerque/9601-montgomery-ne"
+      },
+      "center": {
+        "lat": 35.13101075,
+        "lon": -106.53496445000002
+      }
+    }
+  ]
+}

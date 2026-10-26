@@ -1,0 +1,175 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NY",
+    "brand": "ben_jerry_s",
+    "source": "https://download.geofabrik.de/north-america/us/new-york-latest.osm.pbf",
+    "source_md5": "2025ee06195c47adda4eaac907e85992",
+    "processed_utc": "2026-10-24T07:11:36.285910+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2696986515,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "check_date": "2026-09-19",
+        "check_date:opening_hours": "2026-09-19",
+        "cuisine": "ice_cream",
+        "delivery": "no",
+        "diet:vegan": "yes",
+        "level": "1",
+        "name": "Ben & Jerry's",
+        "opening_hours": "Mo-Fr 12:00-19:00",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.rit.edu/fa/diningservices/ben-jerrys"
+      },
+      "lat": 43.0839105,
+      "lon": -77.67451
+    },
+    {
+      "type": "node",
+      "id": 2782000317,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "contact:facebook": "https://www.facebook.com/BenJerryTimesSquare/",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's"
+      },
+      "lat": 40.7574361,
+      "lon": -73.9865499
+    },
+    {
+      "type": "node",
+      "id": 5541411645,
+      "tags": {
+        "addr:city": "Albany",
+        "addr:housenumber": "467",
+        "addr:postcode": "12210",
+        "addr:state": "NY",
+        "addr:street": "Madison Avenue",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "comment": "moved here from Lark St location",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's",
+        "old_name": "Little Moon Tibetan Gift Shop",
+        "opening_hours": "PH off",
+        "outdoor_seating": "yes",
+        "phone": "+1-518-599-5508",
+        "website": "https://www.benjerry.com/madisonave",
+        "website:menu": "https://www.benjerry.com/madisonave/menu"
+      },
+      "lat": 42.6531196,
+      "lon": -73.7685665
+    },
+    {
+      "type": "node",
+      "id": 9641923314,
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "2722",
+        "addr:postcode": "10025",
+        "addr:state": "NY",
+        "addr:street": "Broadway",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "check_date:opening_hours": "2026-05-12",
+        "cuisine": "ice_cream",
+        "diet:dairy_free": "yes",
+        "diet:lactose_free": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "drive_through": "no",
+        "name": "Ben & Jerry's",
+        "opening_hours": "Mo-Su 11:00-23:20",
+        "outdoor_seating": "no",
+        "phone": "+1-212-866-6237",
+        "website": "https://www.benjerry.com/104th-broadway"
+      },
+      "lat": 40.799771,
+      "lon": -73.9678778
+    },
+    {
+      "type": "way",
+      "id": 337702039,
+      "tags": {
+        "addr:city": "Saratoga Springs",
+        "addr:housenumber": "34",
+        "addr:postcode": "12866",
+        "addr:street": "Phila Street",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2026-04-04",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's",
+        "opening_hours": "Mo-Th 12:00-22:00; Fr-Su 12:00-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 518 584 3740",
+        "takeaway": "yes",
+        "website": "https://www.benjerry.com/saratoga"
+      },
+      "center": {
+        "lat": 43.08020175,
+        "lon": -73.78397885000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 358698254,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "building": "yes",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's"
+      },
+      "center": {
+        "lat": 41.69795265,
+        "lon": -74.87866250000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 471653940,
+      "tags": {
+        "addr:city": "Montauk",
+        "addr:housename": "Ben & Jerry's Ice Cream",
+        "addr:housenumber": "478",
+        "addr:postcode": "11954",
+        "addr:state": "NY",
+        "addr:street": "West Lake Drive",
+        "amenity": "cafe",
+        "building": "commercial",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's Ice Cream",
+        "nysgissam:nysaddresspointid": "SUFF536514",
+        "source": "local_knowledge",
+        "website": "https://www.benjerry.com/"
+      },
+      "center": {
+        "lat": 41.07431495,
+        "lon": -71.93872364999999
+      }
+    }
+  ]
+}

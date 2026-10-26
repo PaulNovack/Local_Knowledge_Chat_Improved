@@ -1,0 +1,83 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "caribou_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 823834243,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q5039494",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "takeaway": "yes"
+      },
+      "lat": 39.2717018,
+      "lon": -84.3762744
+    },
+    {
+      "type": "node",
+      "id": 10969581003,
+      "tags": {
+        "addr:city": "Wooster",
+        "addr:housenumber": "1840",
+        "addr:postcode": "44691",
+        "addr:state": "OH",
+        "addr:street": "Cleveland Road",
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "internet_access": "wlan",
+        "name": "Caribou Coffee",
+        "opening_hours": "Mo-Sa 05:30-21:00; Su 06:00-20:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-330-222-3102",
+        "takeaway": "yes",
+        "website": "https://locations.cariboucoffee.com/us/oh/wooster/1840-cleveland-rd"
+      },
+      "lat": 40.8220306,
+      "lon": -81.934973
+    },
+    {
+      "type": "node",
+      "id": 11537935868,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "check_date": "2026-07-18",
+        "cuisine": "coffee_shop",
+        "name": "Caribou Coffee",
+        "takeaway": "yes"
+      },
+      "lat": 40.9385666,
+      "lon": -80.5870631
+    },
+    {
+      "type": "node",
+      "id": 14159978053,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Caribou Coffee",
+        "opening_hours": "Mo-Su 05:30-18:00"
+      },
+      "lat": 39.9554795,
+      "lon": -82.8104008
+    }
+  ]
+}

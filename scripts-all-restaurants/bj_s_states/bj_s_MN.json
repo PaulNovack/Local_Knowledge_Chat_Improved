@@ -1,0 +1,73 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MN",
+    "brand": "bj_s",
+    "source": "https://download.geofabrik.de/north-america/us/minnesota-latest.osm.pbf",
+    "source_md5": "4cabd6519cf6e8b1f74c96f59629df95",
+    "processed_utc": "2026-10-24T07:08:10.045763+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 12588785339,
+      "tags": {
+        "addr:city": "Thielman",
+        "addr:housenumber": "61486",
+        "addr:postcode": "55945",
+        "addr:state": "MN",
+        "addr:street": "County Road 86",
+        "amenity": "restaurant",
+        "branch": "Bar  Grill and Kampground",
+        "name": "BJ's Bar, Grill and Kampground"
+      },
+      "lat": 44.2717033,
+      "lon": -92.1686763
+    },
+    {
+      "type": "way",
+      "id": 1180354420,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:housenumber": "2",
+        "addr:postcode": "55313",
+        "addr:state": "MN",
+        "addr:street": "1st Avenue South",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "BJ's Deli",
+        "not:brand:wikidata": "Q4835755"
+      },
+      "center": {
+        "lat": 45.17187775,
+        "lon": -93.87449494999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 1359961468,
+      "tags": {
+        "addr:city": "Thielman",
+        "addr:housenumber": "61486",
+        "addr:postcode": "55945",
+        "addr:state": "MN",
+        "addr:street": "County Road 86",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "BJ's Bar, Grill and Kampground"
+      },
+      "center": {
+        "lat": 44.2717905,
+        "lon": -92.16879670000003
+      }
+    }
+  ]
+}

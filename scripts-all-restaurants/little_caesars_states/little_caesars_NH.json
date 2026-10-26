@@ -1,0 +1,52 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NH",
+    "brand": "little_caesars",
+    "source": "https://download.geofabrik.de/north-america/us/new-hampshire-latest.osm.pbf",
+    "source_md5": "603b90470df09c1b933955cbfe841c6d",
+    "processed_utc": "2026-10-24T07:09:51.168561+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7992111179,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "phone": "+1-603-641-4040",
+        "takeaway": "yes",
+        "website": "https://littlecaesars.com/en-us/store/3733"
+      },
+      "lat": 42.9746278,
+      "lon": -71.4764002
+    },
+    {
+      "type": "way",
+      "id": 1038838953,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Little Caesars",
+        "brand:wikidata": "Q1393809",
+        "building:part": "yes",
+        "cuisine": "pizza",
+        "name": "Little Caesars",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 43.31299595,
+        "lon": -70.99552425000002
+      }
+    }
+  ]
+}

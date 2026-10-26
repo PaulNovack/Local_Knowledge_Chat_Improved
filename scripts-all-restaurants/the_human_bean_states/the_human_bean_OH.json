@@ -1,0 +1,88 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "the_human_bean",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9548462128,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "The Human Bean Drive-Thru"
+      },
+      "lat": 40.8479982,
+      "lon": -81.4240126
+    },
+    {
+      "type": "node",
+      "id": 10186045453,
+      "tags": {
+        "addr:city": "Uniontown",
+        "addr:housenumber": "3532",
+        "addr:postcode": "44685",
+        "addr:state": "OH",
+        "addr:street": "Massillon Road",
+        "amenity": "cafe",
+        "brand": "The Human Bean",
+        "brand:wikidata": "Q7740821",
+        "cuisine": "coffee_shop",
+        "name": "The Human Bean",
+        "phone": "+1-888-262-2215",
+        "takeaway": "yes",
+        "website": "https://thehumanbean.com/location/the-human-bean-3532-massillon-road-uniontown-oh/"
+      },
+      "lat": 40.9659594,
+      "lon": -81.465721
+    },
+    {
+      "type": "node",
+      "id": 11463272928,
+      "tags": {
+        "amenity": "cafe",
+        "check_date": "2023-12-28",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "The Human Bean"
+      },
+      "lat": 40.0032422,
+      "lon": -81.5755221
+    },
+    {
+      "type": "way",
+      "id": 1538935619,
+      "tags": {
+        "addr:city": "Kent",
+        "addr:housenumber": "1713",
+        "addr:postcode": "44240",
+        "addr:state": "OH",
+        "addr:street": "East Main Street",
+        "amenity": "cafe",
+        "brand": "The Human Bean",
+        "brand:wikidata": "Q7740821",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "The Human Bean",
+        "outdoor_seating": "no",
+        "takeaway": "yes",
+        "website": "https://thehumanbean.com/blogs/stores/oh-kent-e-main-st"
+      },
+      "center": {
+        "lat": 41.1548293,
+        "lon": -81.33263039999997
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "mountain_mike_s",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11090569528,
+      "tags": {
+        "alt_name": "Mountain Mike's Pizza",
+        "amenity": "restaurant",
+        "brand": "Mountain Mike's",
+        "brand:wikidata": "Q6925120",
+        "check_date": "2023-08-02",
+        "cuisine": "pizza",
+        "name": "Mountain Mike's",
+        "takeaway": "yes",
+        "toilets": "yes"
+      },
+      "lat": 39.5296028,
+      "lon": -119.8287417
+    },
+    {
+      "type": "node",
+      "id": 13855193911,
+      "tags": {
+        "addr:city": "Carson City",
+        "addr:housenumber": "3817",
+        "addr:postcode": "89701",
+        "addr:state": "NV",
+        "addr:street": "South Carson Street",
+        "alt_name": "Mountain Mike's Pizza",
+        "amenity": "restaurant",
+        "brand": "Mountain Mike's",
+        "brand:wikidata": "Q6925120",
+        "cuisine": "pizza",
+        "name": "Mountain Mike's",
+        "opening_hours": "Mo-Su 09:00-23:00",
+        "phone": "+1 775 515 0066",
+        "takeaway": "yes"
+      },
+      "lat": 39.1326968,
+      "lon": -119.7692971
+    }
+  ]
+}

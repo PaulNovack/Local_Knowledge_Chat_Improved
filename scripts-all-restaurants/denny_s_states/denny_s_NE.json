@@ -1,0 +1,73 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "denny_s",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2535915661,
+      "tags": {
+        "addr:city": "Gretna",
+        "addr:housenumber": "15010",
+        "addr:postcode": "68028",
+        "addr:state": "NE",
+        "addr:street": "State Highway 31",
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "check_date": "2024-10-09",
+        "cuisine": "american",
+        "name": "Denny's",
+        "opening_hours": "24/7",
+        "phone": "+1 402-332-0400",
+        "source": "official website",
+        "takeaway": "yes",
+        "website": "https://locations.dennys.com/NE/GRETNA/248595"
+      },
+      "lat": 41.0918655,
+      "lon": -96.2546087
+    },
+    {
+      "type": "node",
+      "id": 4668357801,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "cuisine": "american",
+        "name": "Denny's"
+      },
+      "lat": 40.8884281,
+      "lon": -98.3407213
+    },
+    {
+      "type": "node",
+      "id": 5613685104,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Denny's",
+        "brand:wikidata": "Q1189695",
+        "cuisine": "american",
+        "ele": "261.9",
+        "ele:msl": "261.9",
+        "ele:source": "GPS",
+        "name": "Denny's",
+        "source": "GPS"
+      },
+      "lat": 41.225548,
+      "lon": -96.0421838
+    }
+  ]
+}

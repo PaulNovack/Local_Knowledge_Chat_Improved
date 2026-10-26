@@ -1,0 +1,103 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IA",
+    "brand": "7_brew",
+    "source": "https://download.geofabrik.de/north-america/us/iowa-latest.osm.pbf",
+    "source_md5": "67edcd557c575ead09c9f80bc8694526",
+    "processed_utc": "2026-10-24T07:04:05.270534+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13184398425,
+      "tags": {
+        "addr:city": "Ames",
+        "addr:country": "US",
+        "addr:housenumber": "3615",
+        "addr:postcode": "50014",
+        "addr:state": "IA",
+        "addr:street": "Lincoln Way",
+        "amenity": "cafe",
+        "branch": "Ames",
+        "brand": "7 Brew",
+        "brand:website": "https://7brew.com",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "email": "info@7brew.com",
+        "name": "7 Brew",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:gift_card": "yes",
+        "phone": "+1 515-304-5920",
+        "website": "https://7brew.com/location/iowa-ames-000773",
+        "website:menu": "https://7brew.com/menu"
+      },
+      "lat": 42.02328,
+      "lon": -93.6679075
+    },
+    {
+      "type": "node",
+      "id": 13184400187,
+      "tags": {
+        "addr:city": "Ankeny",
+        "addr:country": "US",
+        "addr:housenumber": "1020",
+        "addr:postcode": "50021",
+        "addr:state": "IA",
+        "addr:street": "East 1st Street",
+        "amenity": "cafe",
+        "branch": "Ankey",
+        "brand": "7 Brew",
+        "brand:website": "https://7brew.com",
+        "brand:wikidata": "Q131838275",
+        "cuisine": "coffee_shop",
+        "drink:coffee": "yes",
+        "drive_through": "only",
+        "email": "info@7brew.com",
+        "opening_hours": "Su-Th 05:30-22:00; Fr-Sa 05:30-23:00",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:gift_card": "yes",
+        "phone": "+1 515-304-5920",
+        "website": "https://7brew.com/location/iowa-ankeny-000050",
+        "website:menu": "https://7brew.com/menu"
+      },
+      "lat": 41.7323013,
+      "lon": -93.5823069
+    },
+    {
+      "type": "way",
+      "id": 1514091192,
+      "tags": {
+        "addr:housenumber": "2350",
+        "addr:street": "Edgewood Road Southwest",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "7 Brew Coffee",
+        "outdoor_seating": "no",
+        "takeaway": "only"
+      },
+      "center": {
+        "lat": 41.9546989,
+        "lon": -91.71640705000004
+      }
+    }
+  ]
+}

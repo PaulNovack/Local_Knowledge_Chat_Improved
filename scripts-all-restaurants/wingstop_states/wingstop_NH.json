@@ -1,0 +1,68 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NH",
+    "brand": "wingstop",
+    "source": "https://download.geofabrik.de/north-america/us/new-hampshire-latest.osm.pbf",
+    "source_md5": "603b90470df09c1b933955cbfe841c6d",
+    "processed_utc": "2026-10-24T07:09:51.168561+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7992111177,
+      "tags": {
+        "addr:city": "Manchester",
+        "addr:housenumber": "581",
+        "addr:postcode": "03102",
+        "addr:state": "NH",
+        "addr:street": "2nd Street",
+        "amenity": "fast_food",
+        "branch": "Manchester 2nd St",
+        "brand": "Wingstop",
+        "brand:wikidata": "Q8025339",
+        "cuisine": "wings",
+        "name": "Wingstop",
+        "phone": "+1 603-945-3173",
+        "takeaway": "yes",
+        "website": "https://www.wingstop.com/location/wingstop-1513-manchester-nh-03102/menu"
+      },
+      "lat": 42.9745208,
+      "lon": -71.4764673
+    },
+    {
+      "type": "way",
+      "id": 157474291,
+      "tags": {
+        "addr:city": "Nashua",
+        "addr:housenumber": "290",
+        "addr:postcode": "03060",
+        "addr:state": "NH",
+        "addr:street": "Main Street",
+        "amenity": "fast_food",
+        "branch": "Nashua Main St",
+        "brand": "Wingstop",
+        "brand:wikidata": "Q8025339",
+        "building": "yes",
+        "cuisine": "wings",
+        "name": "Wingstop",
+        "opening_hours": "11:00-23:00",
+        "phone": "+1 603-417-3850",
+        "ref": "12041",
+        "takeaway": "yes",
+        "website": "https://order.wingstop.com/"
+      },
+      "center": {
+        "lat": 42.754072300000004,
+        "lon": -71.46185215000003
+      }
+    }
+  ]
+}

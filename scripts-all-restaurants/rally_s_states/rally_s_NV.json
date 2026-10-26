@@ -1,0 +1,66 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "rally_s",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 269439789,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "4175",
+        "addr:postcode": "89121",
+        "addr:street": "East Desert Inn Road",
+        "amenity": "fast_food",
+        "brand": "Rally's",
+        "brand:wikidata": "Q63919323",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Rally's",
+        "opening_hours": "24/7",
+        "phone": "+1-702-435-6758",
+        "takeaway": "yes",
+        "website": "https://checkersandrallys.com/location/rally-s-3241-e-desert-inn-rd-871859"
+      },
+      "center": {
+        "lat": 36.12964815,
+        "lon": -115.08406904999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 745375108,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "1900",
+        "addr:postcode": "89104",
+        "addr:state": "NV",
+        "addr:street": "East Charleston Boulevard",
+        "amenity": "fast_food",
+        "brand": "Rally's",
+        "brand:wikidata": "Q63919323",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Rally's",
+        "takeaway": "yes",
+        "website": "https://checkersandrallys.com/location/rally-s-3468-e-charleston-blvd-883642"
+      },
+      "center": {
+        "lat": 36.1585392,
+        "lon": -115.12300475
+      }
+    }
+  ]
+}

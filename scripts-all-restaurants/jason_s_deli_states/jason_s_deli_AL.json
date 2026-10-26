@@ -1,0 +1,99 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AL",
+    "brand": "jason_s_deli",
+    "source": "https://download.geofabrik.de/north-america/us/alabama-latest.osm.pbf",
+    "source_md5": "3ee9c8ab6ddb6921e2aa2562af6c9bce",
+    "processed_utc": "2026-10-24T06:56:09.586986+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4255417597,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli"
+      },
+      "lat": 33.3722466,
+      "lon": -86.8119424
+    },
+    {
+      "type": "node",
+      "id": 5239970247,
+      "tags": {
+        "addr:city": "Huntsville",
+        "addr:housenumber": "1395",
+        "addr:postcode": "35806",
+        "addr:state": "AL",
+        "addr:street": "Enterprise Way Northwest",
+        "addr:unit": "E",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "delivery": "yes",
+        "name": "Jason's Deli",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-256-971-5325",
+        "takeaway": "yes",
+        "website": "https://www.jasonsdeli.com/locations/al/huntsville/1395-enterprise-way"
+      },
+      "lat": 34.7432746,
+      "lon": -86.6788261
+    },
+    {
+      "type": "node",
+      "id": 5925078514,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli"
+      },
+      "lat": 33.4211979,
+      "lon": -86.6993828
+    },
+    {
+      "type": "node",
+      "id": 12566152564,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli"
+      },
+      "lat": 33.1889518,
+      "lon": -87.5269023
+    },
+    {
+      "type": "way",
+      "id": 346050040,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "building": "yes",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli"
+      },
+      "center": {
+        "lat": 30.676842049999998,
+        "lon": -88.1390553
+      }
+    }
+  ]
+}

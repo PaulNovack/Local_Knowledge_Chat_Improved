@@ -1,0 +1,93 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "jimmy_john_s",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T07:20:37.151586+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2419110680,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "1101",
+        "addr:postcode": "20005",
+        "addr:state": "DC",
+        "addr:street": "14th Street Northwest",
+        "addr:unit": "103",
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "check_date": "2025-03-17",
+        "cuisine": "sandwich",
+        "indoor_seating": "yes",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "opening_hours": "Mo-Fr 10:30-21:00; Sa-Su 11:00-21:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 202-842-0490",
+        "ref": "1350",
+        "takeaway": "yes",
+        "website": "https://locations.jimmyjohns.com/dc/washington/sandwiches-1350.html"
+      },
+      "lat": 38.903898,
+      "lon": -77.0316888
+    },
+    {
+      "type": "node",
+      "id": 6381044724,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "1717",
+        "addr:postcode": "20006",
+        "addr:state": "DC",
+        "addr:street": "Pennsylvania Avenue Northwest",
+        "addr:unit": "150",
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "cuisine": "sandwich",
+        "fixme:atp": "no ATP match, check if still exists",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "phone": "+1 202-223-3353",
+        "takeaway": "yes"
+      },
+      "lat": 38.8993455,
+      "lon": -77.0402768
+    },
+    {
+      "type": "node",
+      "id": 11216187332,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "1208",
+        "addr:postcode": "20005",
+        "addr:state": "DC",
+        "addr:street": "G Street Northwest",
+        "amenity": "fast_food",
+        "brand": "Jimmy John's",
+        "brand:wikidata": "Q1689380",
+        "check_date": "2023-09-24",
+        "cuisine": "sandwich",
+        "name": "Jimmy John's",
+        "official_name": "Jimmy John's Gourmet Sandwiches",
+        "phone": "+1 202-737-2400",
+        "takeaway": "yes",
+        "website": "https://locations.jimmyjohns.com/dc/washington/sandwiches-2071.html"
+      },
+      "lat": 38.8981428,
+      "lon": -77.0285632
+    }
+  ]
+}

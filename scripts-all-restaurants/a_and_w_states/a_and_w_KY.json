@@ -1,0 +1,136 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KY",
+    "brand": "a_and_w",
+    "source": "https://download.geofabrik.de/north-america/us/kentucky-latest.osm.pbf",
+    "source_md5": "beee275db6b863afe4847059e1397537",
+    "processed_utc": "2026-10-24T07:04:39.223265+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 2677416318,
+      "tags": {
+        "addr:city": "Berea",
+        "addr:housenumber": "200",
+        "addr:postcode": "40403",
+        "addr:state": "KY",
+        "addr:street": "Brenwood Street",
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "A&W",
+        "phone": "+1 859 986 3996",
+        "takeaway": "yes",
+        "website": "https://awrestaurants.com/locations/kentucky/berea/200-brenwood-street/"
+      },
+      "lat": 37.5679975,
+      "lon": -84.3120536
+    },
+    {
+      "type": "node",
+      "id": 4087547066,
+      "tags": {
+        "addr:city": "Lexington",
+        "addr:housenumber": "2251",
+        "addr:state": "KY",
+        "addr:street": "War Admiral Way",
+        "addr:unit": "110",
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "A&W",
+        "opening_hours:drive_through": "Mo-Su 11:00-21:00; Fr,Sa 11:00-22:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-859-543-1625",
+        "takeaway": "yes",
+        "website": "https://awrestaurants.com/locations/kentucky/lexington/2251-war-admiral-way-suite-110"
+      },
+      "lat": 38.0409211,
+      "lon": -84.4261354
+    },
+    {
+      "type": "node",
+      "id": 6401798958,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "A&W",
+        "takeaway": "yes",
+        "website": "https://awrestaurants.com/locations/kentucky/bardstown/3840-e-john-rowan-blvd/"
+      },
+      "lat": 37.7987936,
+      "lon": -85.4333588
+    },
+    {
+      "type": "node",
+      "id": 7866511845,
+      "tags": {
+        "addr:city": "Cave City",
+        "addr:housenumber": "816",
+        "addr:postcode": "42127",
+        "addr:state": "KY",
+        "addr:street": "Mammoth Cave Street",
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "A&W",
+        "outdoor_seating": "yes",
+        "phone": "+1-270-773-3883",
+        "takeaway": "yes",
+        "website": "https://awrestaurants.com/locations/kentucky/cave-city/816-mammoth-cave-street/"
+      },
+      "lat": 37.1362634,
+      "lon": -85.9746796
+    },
+    {
+      "type": "node",
+      "id": 11384466441,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "cuisine": "burger",
+        "name": "A&W",
+        "takeaway": "yes",
+        "website": "https://awrestaurants.com/locations/kentucky/grayson/175-state-hwy-1947/"
+      },
+      "lat": 38.3465819,
+      "lon": -82.9423369
+    },
+    {
+      "type": "way",
+      "id": 674165280,
+      "tags": {
+        "addr:street": "Happy Valley Road",
+        "amenity": "fast_food",
+        "brand": "A&W",
+        "brand:wikidata": "Q277641",
+        "building": "yes",
+        "cuisine": "burger;american",
+        "name": "A&W"
+      },
+      "center": {
+        "lat": 37.00897665,
+        "lon": -85.92101809999997
+      }
+    }
+  ]
+}

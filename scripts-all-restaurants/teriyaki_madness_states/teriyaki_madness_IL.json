@@ -1,0 +1,126 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "teriyaki_madness",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9934672843,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "takeaway": "yes"
+      },
+      "lat": 42.2420625,
+      "lon": -87.9442109
+    },
+    {
+      "type": "node",
+      "id": 11508769659,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "2321",
+        "addr:postcode": "62702",
+        "addr:state": "IL",
+        "addr:street": "North Dirksen Parkway",
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "phone": "+1-217-970-5038",
+        "start_date": "2023-12-15",
+        "takeaway": "yes",
+        "website": "https://teriyakimadness.com/locations/il-springfield-north/"
+      },
+      "lat": 39.8339407,
+      "lon": -89.6054862
+    },
+    {
+      "type": "node",
+      "id": 11806981221,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "4707",
+        "addr:postcode": "60630",
+        "addr:state": "IL",
+        "addr:street": "West Foster Avenue",
+        "addr:unit": "B3",
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "cuisine": "japanese",
+        "drive_through": "no",
+        "name": "Teriyaki Madness",
+        "takeaway": "yes",
+        "website": "https://teriyakimadness.com/locations/il-chicago/"
+      },
+      "lat": 41.9743106,
+      "lon": -87.7459013
+    },
+    {
+      "type": "node",
+      "id": 13948074613,
+      "tags": {
+        "addr:city": "Champaign",
+        "addr:housenumber": "916",
+        "addr:postcode": "61822",
+        "addr:state": "IL",
+        "addr:street": "West Town Center Boulevard",
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "check_date": "2026-08-06",
+        "cuisine": "japanese",
+        "delivery": "yes",
+        "diet:gluten_free": "yes",
+        "diet:pescetarian": "yes",
+        "diet:vegan": "on_request",
+        "diet:vegetarian": "yes",
+        "drive_through": "no",
+        "name": "Teriyaki Madness",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "phone": "+1-217-530-4928",
+        "start_date": "2026-08-07",
+        "takeaway": "yes",
+        "website": "https://teriyakimadness.com/locations/il-champaign/",
+        "website:menu": "https://teriyakimadness.com/menu/"
+      },
+      "lat": 40.1432527,
+      "lon": -88.259539
+    },
+    {
+      "type": "way",
+      "id": 775741991,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Teriyaki Madness",
+        "brand:wikidata": "Q107692862",
+        "building": "retail",
+        "cuisine": "japanese",
+        "name": "Teriyaki Madness",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 41.8396907,
+        "lon": -87.99723995
+      }
+    }
+  ]
+}

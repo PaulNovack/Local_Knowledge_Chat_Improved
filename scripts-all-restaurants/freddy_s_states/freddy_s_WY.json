@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "freddy_s",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13318674427,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:housenumber": "1616",
+        "addr:postcode": "82009",
+        "addr:state": "WY",
+        "addr:street": "Prairie Avenue",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "cuisine": "ice_cream;burger",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "opening_hours": "Su-Th 10:30-22:00; Fr-Sa 10:30-23:00",
+        "takeaway": "yes",
+        "website": "https://www.freddys.com/location/ncc-cheyenne"
+      },
+      "lat": 41.1648384,
+      "lon": -104.8030815
+    },
+    {
+      "type": "node",
+      "id": 13477502086,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "cuisine": "ice_cream;burger",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "takeaway": "yes"
+      },
+      "lat": 41.3090247,
+      "lon": -105.5539044
+    }
+  ]
+}

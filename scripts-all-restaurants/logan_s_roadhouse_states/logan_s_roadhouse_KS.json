@@ -1,0 +1,60 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "KS",
+    "brand": "logan_s_roadhouse",
+    "source": "https://download.geofabrik.de/north-america/us/kansas-latest.osm.pbf",
+    "source_md5": "66a68ee406131d85eebaaacace3bf7c9",
+    "processed_utc": "2026-10-24T07:04:20.951538+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 138385536,
+      "tags": {
+        "addr:housenumber": "2424",
+        "addr:postcode": "67205",
+        "addr:street": "North Maize Road",
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse",
+        "website": "https://logansroadhouse.com/"
+      },
+      "center": {
+        "lat": 37.72701015,
+        "lon": -97.4620395
+      }
+    },
+    {
+      "type": "way",
+      "id": 318888929,
+      "tags": {
+        "addr:city": "Overland Park",
+        "addr:housenumber": "7940",
+        "addr:postcode": "66223",
+        "addr:state": "KS",
+        "addr:street": "West 135th Street",
+        "amenity": "restaurant",
+        "brand": "Logan's Roadhouse",
+        "brand:wikidata": "Q6666872",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Logan's Roadhouse"
+      },
+      "center": {
+        "lat": 38.88429605,
+        "lon": -94.6791963
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "LA",
+    "brand": "red_robin",
+    "source": "https://download.geofabrik.de/north-america/us/louisiana-latest.osm.pbf",
+    "source_md5": "2e108953505ee82f68e2a6e7a3e4f783",
+    "processed_utc": "2026-10-24T07:05:17.318731+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9435489419,
+      "tags": {
+        "addr:city": "Slidell",
+        "addr:housenumber": "700",
+        "addr:postcode": "70458",
+        "addr:state": "LA",
+        "addr:street": "Town Center Parkway",
+        "amenity": "restaurant",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews",
+        "phone": "+1-985-605-7953",
+        "website": "https://www.redrobin.com/locations/la/slidell/slidell-722"
+      },
+      "lat": 30.2687913,
+      "lon": -89.7603952
+    },
+    {
+      "type": "way",
+      "id": 1473519896,
+      "tags": {
+        "amenity": "restaurant",
+        "branch": "Gourmet Burgers",
+        "brand": "Red Robin",
+        "brand:wikidata": "Q7304886",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Red Robin",
+        "official_name": "Red Robin Gourmet Burgers and Brews"
+      },
+      "center": {
+        "lat": 30.38720215,
+        "lon": -91.08623684999998
+      }
+    }
+  ]
+}

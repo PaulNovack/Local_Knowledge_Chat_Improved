@@ -1,0 +1,62 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "the_old_spaghetti_factory",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 204503046,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "3105",
+        "addr:postcode": "80922",
+        "addr:street": "New Center Point",
+        "amenity": "restaurant",
+        "brand": "The Old Spaghetti Factory",
+        "brand:wikidata": "Q7754912",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "The Old Spaghetti Factory",
+        "restaurant": "vacant"
+      },
+      "center": {
+        "lat": 38.8778827,
+        "lon": -104.71669650000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 338669232,
+      "tags": {
+        "addr:city": "Westminster",
+        "addr:housenumber": "5280",
+        "addr:postcode": "80031",
+        "addr:state": "CO",
+        "addr:street": "West 92nd Avenue",
+        "amenity": "restaurant",
+        "brand": "The Old Spaghetti Factory",
+        "brand:wikidata": "Q7754912",
+        "building": "yes",
+        "cuisine": "italian",
+        "name": "The Old Spaghetti Factory",
+        "source": "esri_USDOT_ColoradoOITGIS"
+      },
+      "center": {
+        "lat": 39.86157275,
+        "lon": -105.05413214999999
+      }
+    }
+  ]
+}

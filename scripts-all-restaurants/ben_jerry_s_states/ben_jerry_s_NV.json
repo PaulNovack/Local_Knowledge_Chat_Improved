@@ -1,0 +1,84 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "ben_jerry_s",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4742179557,
+      "tags": {
+        "addr:city": "Henderson",
+        "addr:housenumber": "2225",
+        "addr:postcode": "89052",
+        "addr:state": "NV",
+        "addr:street": "Village Walk Drive",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's",
+        "opening_hours": "Su-Th 11:00-21:00; Fr-Sa 11:00-22:00",
+        "website": "https://www.benjerry.com/greenvalley"
+      },
+      "lat": 36.0212548,
+      "lon": -115.085855
+    },
+    {
+      "type": "node",
+      "id": 5344233021,
+      "tags": {
+        "addr:street": "South Las Vegas Boulevard",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's"
+      },
+      "lat": 36.113775,
+      "lon": -115.1721787
+    },
+    {
+      "type": "node",
+      "id": 5421566475,
+      "tags": {
+        "addr:street": "Red Rock Resort",
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "cuisine": "ice_cream",
+        "name": "Ben & Jerry's"
+      },
+      "lat": 36.1558677,
+      "lon": -115.3341067
+    },
+    {
+      "type": "way",
+      "id": 180771068,
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "cuisine": "ice_cream",
+        "indoor": "yes",
+        "name": "Ben & Jerry's",
+        "website": "https://www.benjerry.com/"
+      },
+      "center": {
+        "lat": 36.1248775,
+        "lon": -115.17251205000002
+      }
+    }
+  ]
+}

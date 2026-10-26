@@ -1,0 +1,60 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CT",
+    "brand": "cracker_barrel",
+    "source": "https://download.geofabrik.de/north-america/us/connecticut-latest.osm.pbf",
+    "source_md5": "beadcc5f781dafd38da87f4315eae131",
+    "processed_utc": "2026-10-24T07:00:28.623355+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1647114423,
+      "tags": {
+        "addr:city": "East Windsor",
+        "addr:housenumber": "145",
+        "addr:postcode": "06088",
+        "addr:state": "CT",
+        "addr:street": "Prospect Hill Road",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "lat": 41.9321601,
+      "lon": -72.6062832
+    },
+    {
+      "type": "way",
+      "id": 209686676,
+      "tags": {
+        "addr:city": "Milford",
+        "addr:housenumber": "30",
+        "addr:postcode": "06460",
+        "addr:state": "CT",
+        "addr:street": "Research Drive",
+        "amenity": "restaurant",
+        "brand": "Cracker Barrel",
+        "brand:wikidata": "Q4492609",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Cracker Barrel",
+        "official_name": "Cracker Barrel Old Country Store"
+      },
+      "center": {
+        "lat": 41.2386224,
+        "lon": -73.0198739
+      }
+    }
+  ]
+}

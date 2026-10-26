@@ -1,0 +1,139 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "ND",
+    "brand": "buffalo_wild_wings",
+    "source": "https://download.geofabrik.de/north-america/us/north-dakota-latest.osm.pbf",
+    "source_md5": "9eff3bc6ca09aea0f8e064cee3b44c15",
+    "processed_utc": "2026-10-24T07:12:54.105950+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1797811403,
+      "tags": {
+        "addr:state": "ND",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings"
+      },
+      "lat": 48.194651,
+      "lon": -101.297054
+    },
+    {
+      "type": "node",
+      "id": 12666189865,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3",
+        "website": "https://www.buffalowildwings.com/locations/us/nd/dickinson/3545-west-ridge-drive/sports-bar-1141/"
+      },
+      "lat": 46.8934456,
+      "lon": -102.8370053
+    },
+    {
+      "type": "way",
+      "id": 84963409,
+      "tags": {
+        "addr:housenumber": "1515",
+        "addr:state": "ND",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building": "commercial",
+        "building:levels": "1",
+        "cuisine": "wings",
+        "fixme": "needs proper opening hours with an actual closing time",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3"
+      },
+      "center": {
+        "lat": 46.90531115,
+        "lon": -96.80187169999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 244156993,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building": "yes",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3",
+        "source": "Bing"
+      },
+      "center": {
+        "lat": 46.85773450000001,
+        "lon": -96.85177325000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 473570504,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building": "yes",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3"
+      },
+      "center": {
+        "lat": 46.803348549999995,
+        "lon": -100.7881137
+      }
+    },
+    {
+      "type": "way",
+      "id": 556890498,
+      "tags": {
+        "addr:state": "ND",
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building": "commercial",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3"
+      },
+      "center": {
+        "lat": 47.89248345,
+        "lon": -97.06627434999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 1201611199,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Buffalo Wild Wings",
+        "brand:wikidata": "Q509255",
+        "building": "yes",
+        "cuisine": "wings",
+        "name": "Buffalo Wild Wings",
+        "short_name": "BW3"
+      },
+      "center": {
+        "lat": 48.14808435,
+        "lon": -103.65396005000002
+      }
+    }
+  ]
+}

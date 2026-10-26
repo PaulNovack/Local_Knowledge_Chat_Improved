@@ -1,0 +1,136 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "steak_n_shake",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4670165939,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "9777",
+        "addr:postcode": "89183",
+        "addr:state": "NV",
+        "addr:street": "South Las Vegas Boulevard",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "check_date": "2025-12-07",
+        "check_date:currency:XBT": "2025-12-07",
+        "cuisine": "burger",
+        "currency:XBT": "no",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Mo-Su 10:00-01:00",
+        "payment:lightning": "no",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1 702 796 7111",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/nv-las-vegas-south-point-casino-amp-hotel/"
+      },
+      "lat": 36.0118598,
+      "lon": -115.1749086
+    },
+    {
+      "type": "node",
+      "id": 11944226458,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:country": "US",
+        "addr:housenumber": "200",
+        "addr:postcode": "89101",
+        "addr:state": "NV",
+        "addr:street": "Fremont Street Experience",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "check_date": "2025-11-06",
+        "check_date:currency:XBT": "2025-11-06",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "opening_hours": "Mo-Su 12:00-00:00",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "survey:date": "2025-05-25",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/nv-las-vegas-fremont-hotel/"
+      },
+      "lat": 36.1712696,
+      "lon": -115.1426013
+    },
+    {
+      "type": "node",
+      "id": 12869264942,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "check_date:currency:XBT": "2025-05-27",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "payment:lightning": "yes",
+        "payment:onchain": "yno",
+        "takeaway": "yes"
+      },
+      "lat": 36.100539,
+      "lon": -115.1676928
+    },
+    {
+      "type": "node",
+      "id": 12869264943,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "check_date:currency:XBT": "2025-05-28",
+        "cuisine": "burger",
+        "currency:XBT": "yes",
+        "name": "Steak 'n Shake",
+        "payment:lightning": "yes",
+        "payment:onchain": "yno",
+        "takeaway": "yes"
+      },
+      "lat": 36.2383411,
+      "lon": -115.1190081
+    },
+    {
+      "type": "way",
+      "id": 1383835336,
+      "tags": {
+        "addr:country": "US",
+        "addr:postcode": "89109",
+        "addr:state": "NV",
+        "amenity": "fast_food",
+        "brand": "Steak 'n Shake",
+        "brand:wikidata": "Q7605233",
+        "cuisine": "burger",
+        "currency:XBT": "no",
+        "indoor": "room",
+        "name": "Steak 'n Shake",
+        "payment:lightning": "no",
+        "phone": "+1 702-739-9000",
+        "takeaway": "yes",
+        "website": "https://www.steaknshake.com/locations/nv-las-vegas-oyo-hotel-amp-casino/"
+      },
+      "center": {
+        "lat": 36.1000483,
+        "lon": -115.16706199999999
+      }
+    }
+  ]
+}

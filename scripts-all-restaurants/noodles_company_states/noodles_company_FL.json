@@ -1,0 +1,78 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "FL",
+    "brand": "noodles_company",
+    "source": "https://download.geofabrik.de/north-america/us/florida-latest.osm.pbf",
+    "source_md5": "4600bc2d8ca86c8eefde87d9d293b369",
+    "processed_utc": "2026-10-24T07:01:33.907579+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7415825785,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company",
+        "opening_hours": "Mo-Su 11:00-21:00"
+      },
+      "lat": 28.4494093,
+      "lon": -81.4897507
+    },
+    {
+      "type": "node",
+      "id": 11301264118,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "lat": 28.5982339,
+      "lon": -81.2091551
+    },
+    {
+      "type": "way",
+      "id": 557414761,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "building": "yes",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "center": {
+        "lat": 28.5537426,
+        "lon": -81.33874685
+      }
+    },
+    {
+      "type": "way",
+      "id": 921530541,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Noodles & Company",
+        "brand:wikidata": "Q7049673",
+        "building": "yes",
+        "cuisine": "pasta",
+        "name": "Noodles & Company"
+      },
+      "center": {
+        "lat": 28.553742149999998,
+        "lon": -81.33846870000002
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "MS",
+    "brand": "freddy_s",
+    "source": "https://download.geofabrik.de/north-america/us/mississippi-latest.osm.pbf",
+    "source_md5": "07cb21d962ccb61126954162e9eea2f3",
+    "processed_utc": "2026-10-24T07:08:34.382001+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1184567980,
+      "tags": {
+        "addr:city": "Olive Branch",
+        "addr:housenumber": "8115",
+        "addr:postcode": "38654",
+        "addr:state": "MS",
+        "addr:street": "Camp Creek Boulevard",
+        "amenity": "fast_food",
+        "brand": "Freddy's",
+        "brand:wikidata": "Q5496837",
+        "building": "yes",
+        "cuisine": "ice_cream;burger",
+        "drive_through": "yes",
+        "name": "Freddy's",
+        "official_name": "Freddy's Frozen Custard & Steakburgers",
+        "phone": "+1-662-892-8483",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 34.96509795,
+        "lon": -89.84599555
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "jason_s_deli",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6558785226,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "12320",
+        "addr:postcode": "68137",
+        "addr:state": "NE",
+        "addr:street": "L Street",
+        "amenity": "restaurant",
+        "brand": "Jason's Deli",
+        "brand:wikidata": "Q16997641",
+        "cuisine": "sandwich",
+        "name": "Jason's Deli",
+        "phone": "+14029325544",
+        "website": "https://www.jasonsdeli.com/restaurants/l-street-deli"
+      },
+      "lat": 41.2132424,
+      "lon": -96.1058778
+    },
+    {
+      "type": "node",
+      "id": 14171035107,
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "7010",
+        "addr:postcode": "68132",
+        "addr:state": "NE",
+        "addr:street": "Dodge Street",
+        "amenity": "restaurant",
+        "name": "Jason's Deli",
+        "website": "https://www.jasonsdeli.com/locations/ne/omaha/7010-dodge-st/"
+      },
+      "lat": 41.2600726,
+      "lon": -96.0210912
+    }
+  ]
+}

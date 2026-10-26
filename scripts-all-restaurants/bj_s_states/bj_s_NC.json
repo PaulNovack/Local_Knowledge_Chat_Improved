@@ -1,0 +1,145 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NC",
+    "brand": "bj_s",
+    "source": "https://download.geofabrik.de/north-america/us/north-carolina-latest.osm.pbf",
+    "source_md5": "cf88c1c49d4c44f64206f8b4b33394ec",
+    "processed_utc": "2026-10-24T07:12:22.295364+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11380461122,
+      "tags": {
+        "addr:city": "Concord",
+        "addr:housenumber": "8435",
+        "addr:postcode": "28027",
+        "addr:state": "NC",
+        "addr:street": "Concord Mills Boulevard",
+        "amenity": "restaurant",
+        "name": "BJ's Restaurant & Brewhouse",
+        "opening_hours": "Mo-Sa 11:00-00:00; Su 11:00-23:00",
+        "phone": "+1-980-777-7030",
+        "website": "https://bjsrestaurants.com/"
+      },
+      "lat": 35.3702002,
+      "lon": -80.7210639
+    },
+    {
+      "type": "way",
+      "id": 32073822,
+      "tags": {
+        "addr:city": "Cary",
+        "addr:housenumber": "5707",
+        "addr:postcode": "27518",
+        "addr:state": "NC",
+        "addr:street": "Dillard Drive",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "yes",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 919-710-8170",
+        "website": "https://www.bjsrestaurants.com/locations/nc/cary"
+      },
+      "center": {
+        "lat": 35.7557163,
+        "lon": -78.74373969999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 599955180,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "retail",
+        "check_date": "2024-09-22",
+        "cuisine": "american",
+        "name": "BJ's",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+1 336-793-2230",
+        "website": "https://www.bjsrestaurants.com/locations/nc/winston-salem"
+      },
+      "center": {
+        "lat": 36.07171675,
+        "lon": -80.30284370000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 721050865,
+      "tags": {
+        "addr:city": "Cherokee",
+        "addr:housenumber": "840",
+        "addr:postcode": "28719",
+        "addr:state": "NC",
+        "addr:street": "Tsali Boulevard",
+        "amenity": "restaurant",
+        "brand": "BJ's",
+        "brand:wikidata": "Q4835755",
+        "building": "yes",
+        "check_date": "2025-10-10",
+        "cuisine": "american",
+        "name": "BJ's Diner",
+        "official_name": "BJ's Restaurant & Brewhouse",
+        "phone": "+18284974303"
+      },
+      "center": {
+        "lat": 35.488313149999996,
+        "lon": -83.31497940000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 935808494,
+      "tags": {
+        "addr:city": "Eureka",
+        "addr:housenumber": "102",
+        "addr:postcode": "27830",
+        "addr:state": "NC",
+        "addr:street": "West Main Street",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "BJ's Cafe",
+        "opening_hours": "Mo 06:00-14:00; Tu-Fr 06:00-20:00; Sa 06:00-14:00",
+        "phone": "+1-919-242-2120"
+      },
+      "center": {
+        "lat": 35.5420035,
+        "lon": -77.87675789999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1262014495,
+      "tags": {
+        "addr:city": "Jarvisburg",
+        "addr:housenumber": "7069",
+        "addr:postcode": "27947",
+        "addr:state": "NC",
+        "addr:street": "Caratoke Highway",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "BJ's Carolina Cafe",
+        "phone": "+1 252 491-5222"
+      },
+      "center": {
+        "lat": 36.20253405,
+        "lon": -75.86477479999996
+      }
+    }
+  ]
+}

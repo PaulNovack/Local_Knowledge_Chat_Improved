@@ -1,0 +1,888 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "ihop",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1272106907,
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "5012",
+        "addr:postcode": "61615",
+        "addr:state": "IL",
+        "addr:street": "North Big Hollow Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-09-15",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-We 07:00-22:00; Th 07:00-24:00; Fr,Sa 00:00-24:00; Su 00:00-22:00",
+        "phone": "+1 309-689-8890",
+        "source": "official website",
+        "website": "https://restaurants.ihop.com/en-us/il/peoria/breakfast-5012-n-big-hollow-rd-5412"
+      },
+      "lat": 40.749176,
+      "lon": -89.6333786
+    },
+    {
+      "type": "node",
+      "id": 1456333285,
+      "tags": {
+        "addr:city": "Rockford",
+        "addr:housenumber": "6960",
+        "addr:postcode": "61107",
+        "addr:state": "IL",
+        "addr:street": "Argus Drive",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "cuisine": "breakfast;pancake",
+        "delivery": "no",
+        "drive_through": "no",
+        "name": "IHOP",
+        "phone": "+1-815-394-5315",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "website": "https://www.ihop.com/"
+      },
+      "lat": 42.2720614,
+      "lon": -88.9812005
+    },
+    {
+      "type": "node",
+      "id": 1751499335,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "4001",
+        "addr:postcode": "62711",
+        "addr:state": "IL",
+        "addr:street": "Wabash Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1-217-698-4467",
+        "source": "local_knowledge",
+        "website": "https://restaurants.ihop.com/en-us/il/springfield/breakfast-4001-wabash-ave-3275"
+      },
+      "lat": 39.7567737,
+      "lon": -89.7304693
+    },
+    {
+      "type": "node",
+      "id": 7021245988,
+      "tags": {
+        "addr:city": "Springfield",
+        "addr:housenumber": "2600",
+        "addr:postcode": "62703",
+        "addr:state": "IL",
+        "addr:street": "Sunrise Drive",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "cuisine": "breakfast;pancake",
+        "delivery": "yes",
+        "delivery:partner": "DoorDash",
+        "delivery:partner:wikidata": "Q20714323",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1-217-789-4467",
+        "source:name": "local_knowledge",
+        "website": "https://restaurants.ihop.com/en-us/il/springfield/breakfast-2600-sunrise-drive-3123"
+      },
+      "lat": 39.7680166,
+      "lon": -89.6082927
+    },
+    {
+      "type": "node",
+      "id": 7456841267,
+      "tags": {
+        "addr:city": "Norridge",
+        "addr:housenumber": "7056",
+        "addr:postcode": "60706",
+        "addr:state": "IL",
+        "addr:street": "West Forest Preserve Drive",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-09-22",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Th,Su 06:00-23:00; Fr,Sa 06:00-24:00",
+        "phone": "+1 708-779-5110",
+        "source": "official website",
+        "website": "https://restaurants.ihop.com/en-us/il/norridge/breakfast-7056-west-forest-preserve-dr-3225"
+      },
+      "lat": 41.9566975,
+      "lon": -87.8049224
+    },
+    {
+      "type": "node",
+      "id": 7786449741,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "7601",
+        "addr:postcode": "60652",
+        "addr:state": "IL",
+        "addr:street": "South Cicero Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-09-01",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Th,Su 07:00-18:00; Fr,Sa 07:00-19:00",
+        "phone": "+1 773-767-4340",
+        "source": "official website",
+        "website": "https://restaurants.ihop.com/en-us/il/chicago/breakfast-7601-s.-cicero-ave-3132"
+      },
+      "lat": 41.7552364,
+      "lon": -87.7405504
+    },
+    {
+      "type": "node",
+      "id": 11335054105,
+      "tags": {
+        "addr:city": "Hillside",
+        "addr:housenumber": "100",
+        "addr:postcode": "60162",
+        "addr:state": "IL",
+        "addr:street": "Mannheim Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "check_date": "2024-09-15",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1 708-401-5675",
+        "source": "official website",
+        "website": "https://restaurants.ihop.com/en-us/il/hillside/breakfast-100-south-mannheim-rd-3588"
+      },
+      "lat": 41.866852,
+      "lon": -87.8831767
+    },
+    {
+      "type": "way",
+      "id": 39672464,
+      "tags": {
+        "addr:city": "Rosemont",
+        "addr:housenumber": "7120",
+        "addr:postcode": "60018",
+        "addr:state": "IL",
+        "addr:street": "Mannheim Road",
+        "alt_name": "IHOP",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Su 06:00-24:00"
+      },
+      "center": {
+        "lat": 42.00869539999999,
+        "lon": -87.88709834999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 93597649,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 41.1635427,
+        "lon": -87.84739960000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 164021817,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "5929",
+        "addr:postcode": "60659",
+        "addr:state": "IL",
+        "addr:street": "North Lincoln Avenue",
+        "addr:street:name": "Lincoln",
+        "addr:street:prefix": "North",
+        "addr:street:type": "Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 41.98917365,
+        "lon": -87.70471299999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 175517760,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 41.922351649999996,
+        "lon": -88.26314479999996
+      }
+    },
+    {
+      "type": "way",
+      "id": 182753442,
+      "tags": {
+        "addr:city": "Evanston",
+        "addr:housenumber": "100",
+        "addr:postcode": "60202",
+        "addr:state": "IL",
+        "addr:street": "Asbury Avenue",
+        "addr:street:name": "Asbury",
+        "addr:street:type": "Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "website": "https://restaurants.ihop.com/en-us/il/evanston/breakfast-100-asbury-ave-1203"
+      },
+      "center": {
+        "lat": 42.0198424,
+        "lon": -87.69052575
+      }
+    },
+    {
+      "type": "way",
+      "id": 203872265,
+      "tags": {
+        "addr:city": "Oswego",
+        "addr:housenumber": "2850",
+        "addr:postcode": "60543",
+        "addr:state": "IL",
+        "addr:street": "Route 34",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "check_date": "2024-09-01",
+        "cuisine": "breakfast;pancake",
+        "email": "3285IHOP@GMAIL.COM",
+        "name": "IHOP",
+        "opening_hours": "Su-Th 07:00-22:00; Fr-Sa 07:00-24:00",
+        "phone": "+1 630-554-9065",
+        "source": "official website",
+        "source:addr": "Kendall County",
+        "website": "https://restaurants.ihop.com/en-us/il/oswego/breakfast-2850-us-highway-34-3285"
+      },
+      "center": {
+        "lat": 41.697103999999996,
+        "lon": -88.31931514999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 209455931,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "2818",
+        "addr:postcode": "60618",
+        "addr:state": "IL",
+        "addr:street": "West Diversey Avenue",
+        "addr:street:name": "Diversey",
+        "addr:street:prefix": "West",
+        "addr:street:type": "Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "building:levels": "1",
+        "chicago:building_id": "240772",
+        "cuisine": "breakfast;pancake",
+        "delivery": "no",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 41.932336199999995,
+        "lon": -87.69820544999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 210330261,
+      "tags": {
+        "addr:city": "Chicago",
+        "addr:housenumber": "3760",
+        "addr:postcode": "60613",
+        "addr:state": "IL",
+        "addr:street": "North Broadway",
+        "addr:street:name": "Broadway",
+        "addr:street:prefix": "North",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "building:facade:colour": "brown",
+        "building:facade:material": "wood",
+        "building:levels": "1",
+        "check_date": "2023-09-29",
+        "chicago:building_id": "161117",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1 773 296 0048",
+        "roof:colour": "blue",
+        "roof:shape": "hipped",
+        "website": "https://restaurants.ihop.com/en-us/il/chicago/breakfast-3760-n-halsted-st-1229"
+      },
+      "center": {
+        "lat": 41.951045300000004,
+        "lon": -87.64994315000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 231392639,
+      "tags": {
+        "addr:city": "Hoffman Estates",
+        "addr:country": "US",
+        "addr:housenumber": "2250",
+        "addr:postcode": "60195",
+        "addr:state": "IL",
+        "addr:street": "South Barrington Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "source": "Bing 2012"
+      },
+      "center": {
+        "lat": 42.062432349999995,
+        "lon": -88.1452074
+      }
+    },
+    {
+      "type": "way",
+      "id": 234847800,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "indoor_seating": "yes",
+        "name": "IHOP",
+        "outdoor_seating": "no"
+      },
+      "center": {
+        "lat": 41.3930472,
+        "lon": -88.42390469999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 245920569,
+      "tags": {
+        "addr:city": "Matteson",
+        "addr:housenumber": "20900",
+        "addr:postcode": "60443",
+        "addr:state": "IL",
+        "addr:street": "Cicero Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 41.509197,
+        "lon": -87.73292409999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 288337992,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 38.592931300000004,
+        "lon": -89.93779990000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 317625814,
+      "tags": {
+        "addr:city": "Cicero",
+        "addr:housenumber": "3003",
+        "addr:postcode": "60804",
+        "addr:state": "IL",
+        "addr:street": "South Cicero Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 41.83820945,
+        "lon": -87.74318549999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 318031323,
+      "tags": {
+        "addr:housenumber": "1671",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Fr 07:00-24:00, Sa,Su 00:00-00:00"
+      },
+      "center": {
+        "lat": 41.94845495,
+        "lon": -88.0280917
+      }
+    },
+    {
+      "type": "way",
+      "id": 318474728,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "building:levels": "1",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 42.2398772,
+        "lon": -87.94699125
+      }
+    },
+    {
+      "type": "way",
+      "id": 338913882,
+      "tags": {
+        "addr:city": "Skokie",
+        "addr:housenumber": "9500",
+        "addr:postcode": "60077",
+        "addr:state": "IL",
+        "addr:street": "Skokie Boulevard",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "website": "http://restaurants.ihop.com/il/skokie/1274/"
+      },
+      "center": {
+        "lat": 42.053936199999995,
+        "lon": -87.74722695000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 348400054,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 42.22659695,
+        "lon": -88.32613930000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 407787263,
+      "tags": {
+        "addr:city": "McHenry",
+        "addr:housenumber": "4228",
+        "addr:postcode": "60050",
+        "addr:state": "IL",
+        "addr:street": "West Elm Street",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "delivery": "no",
+        "name": "IHOP",
+        "website": "https://www.ihop.com/"
+      },
+      "center": {
+        "lat": 42.346666150000004,
+        "lon": -88.28054724999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 421752110,
+      "tags": {
+        "addr:city": "Melrose Park",
+        "addr:housenumber": "1040",
+        "addr:postcode": "60160",
+        "addr:state": "IL",
+        "addr:street": "North Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 41.90764945,
+        "lon": -87.84683235
+      }
+    },
+    {
+      "type": "way",
+      "id": 430608026,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 37.7332442,
+        "lon": -89.18777979999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 440052538,
+      "tags": {
+        "addr:city": "Aurora",
+        "addr:country": "US",
+        "addr:county": "DuPage, IL",
+        "addr:housenumber": "583",
+        "addr:postcode": "60504",
+        "addr:state": "IL",
+        "addr:street": "South Illinois Route 59",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "check_date": "2023-06-04",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "napervillegis:objectid": "254414",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "phone": "+1 630 375 0890",
+        "website": "https://restaurants.ihop.com/en-us/il/aurora/breakfast-583-s-route-59-1300"
+      },
+      "center": {
+        "lat": 41.74794955,
+        "lon": -88.20667555
+      }
+    },
+    {
+      "type": "way",
+      "id": 481433904,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 42.02965895,
+        "lon": -88.337445
+      }
+    },
+    {
+      "type": "way",
+      "id": 548974839,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 41.363308700000005,
+        "lon": -89.1271036
+      }
+    },
+    {
+      "type": "way",
+      "id": 570540156,
+      "tags": {
+        "addr:city": "Bloomington",
+        "addr:housenumber": "2109",
+        "addr:postcode": "61704",
+        "addr:state": "IL",
+        "addr:street": "East Empire Street",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "delivery": "no",
+        "name": "IHOP",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.487733750000004,
+        "lon": -88.94593205000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 629130456,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 37.7450484,
+        "lon": -88.96210995000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 770782351,
+      "tags": {
+        "addr:city": "Bolingbrook",
+        "addr:country": "US",
+        "addr:housenumber": "730",
+        "addr:postcode": "60440",
+        "addr:state": "IL",
+        "addr:street": "Janes Avenue",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "indoor_seating": "yes",
+        "name": "IHOP",
+        "outdoor_seating": "no",
+        "phone": "+1 630 9729682",
+        "website": "https://www.ihop.com/"
+      },
+      "center": {
+        "lat": 41.720451100000005,
+        "lon": -88.03792080000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 852221184,
+      "tags": {
+        "addr:city": "Aurora",
+        "addr:housenumber": "2455",
+        "addr:postcode": "60506",
+        "addr:state": "IL",
+        "addr:street": "Augusta Way",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "check_date": "2024-09-15",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Th,Su 07:00-22:00; Fr,Sa 07:00-24:00",
+        "phone": "+1 630-340-5747",
+        "source": "official website",
+        "website": "https://restaurants.ihop.com/en-us/il/aurora/breakfast-2455-augusta-way-5415"
+      },
+      "center": {
+        "lat": 41.789391550000005,
+        "lon": -88.37624364999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 914557424,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 42.35016645,
+        "lon": -87.86818349999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1006557710,
+      "tags": {
+        "addr:city": "Glen Carbon",
+        "addr:housenumber": "4233",
+        "addr:postcode": "62034",
+        "addr:state": "IL",
+        "addr:street": "South State Route 159",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "phone": "+1-618-288-4443",
+        "website": "https://www.facebook.com/IHOP-647464768680516/"
+      },
+      "center": {
+        "lat": 38.77111725,
+        "lon": -89.95727950000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 1015155221,
+      "tags": {
+        "addr:city": "Alton",
+        "addr:housenumber": "181",
+        "addr:postcode": "62002",
+        "addr:state": "IL",
+        "addr:street": "Homer M Adams Parkway",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 38.920118,
+        "lon": -90.17380969999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1244801208,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "yes",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP"
+      },
+      "center": {
+        "lat": 41.748489,
+        "lon": -87.80187285
+      }
+    },
+    {
+      "type": "way",
+      "id": 1329496130,
+      "tags": {
+        "addr:city": "Lansing",
+        "addr:housenumber": "2430",
+        "addr:postcode": "60438",
+        "addr:state": "IL",
+        "addr:street": "173rd Street",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "check_date": "2024-09-15",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "24/7",
+        "phone": "+1 708-474-2240",
+        "source": "official website",
+        "website": "https://restaurants.ihop.com/en-us/il/lansing/breakfast-2430-173rd-st-2120"
+      },
+      "center": {
+        "lat": 41.5814358,
+        "lon": -87.55715485000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1339650499,
+      "tags": {
+        "addr:city": "Crestwood",
+        "addr:housenumber": "4821",
+        "addr:postcode": "60418",
+        "addr:state": "IL",
+        "addr:street": "Cal Sag Road",
+        "amenity": "restaurant",
+        "brand": "IHOP",
+        "brand:wikidata": "Q1185675",
+        "building": "retail",
+        "check_date": "2024-09-22",
+        "cuisine": "breakfast;pancake",
+        "name": "IHOP",
+        "opening_hours": "Mo-Th,Su 07:00-22:00; Fr,Sa 06:00-24:00",
+        "phone": "+1 708-824-1886",
+        "source": "official website",
+        "website": "https://restaurants.ihop.com/en-us/il/crestwood/breakfast-4821-cal-sag-rd-5309"
+      },
+      "center": {
+        "lat": 41.65351135,
+        "lon": -87.7399211
+      }
+    }
+  ]
+}

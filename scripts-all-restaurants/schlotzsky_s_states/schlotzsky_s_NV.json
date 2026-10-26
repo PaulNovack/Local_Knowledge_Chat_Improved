@@ -1,0 +1,45 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "schlotzsky_s",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1236679953,
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:housenumber": "5119",
+        "addr:postcode": "89146-1434",
+        "addr:state": "NV",
+        "addr:street": "West Charleston Boulevard",
+        "amenity": "fast_food",
+        "brand": "Schlotzsky's",
+        "brand:wikidata": "Q2244796",
+        "building": "retail",
+        "cuisine": "sandwich",
+        "name": "Schlotzsky's",
+        "opening_hours": "Mo-Sa 09:30-21:00; Su 10:00-18:00",
+        "phone": "+1-702-877-8768",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes",
+        "website": "http://www.schlotzsky.com"
+      },
+      "center": {
+        "lat": 36.15871705,
+        "lon": -115.20923345
+      }
+    }
+  ]
+}

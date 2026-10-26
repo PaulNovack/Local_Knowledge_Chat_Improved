@@ -1,0 +1,106 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NM",
+    "brand": "outback_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/new-mexico-latest.osm.pbf",
+    "source_md5": "5e236c0e9dd59b2df560a9316c86a745",
+    "processed_utc": "2026-10-24T07:10:42.593170+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 6626953347,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse"
+      },
+      "lat": 35.6371761,
+      "lon": -106.0168168
+    },
+    {
+      "type": "node",
+      "id": 10277071270,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse"
+      },
+      "lat": 35.1939956,
+      "lon": -106.65387
+    },
+    {
+      "type": "way",
+      "id": 51475267,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse"
+      },
+      "center": {
+        "lat": 32.33219455,
+        "lon": -106.75719335000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 454398130,
+      "tags": {
+        "addr:housenumber": "4921",
+        "addr:street": "Jefferson Street Northeast",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "yes",
+        "cuisine": "american;steak",
+        "name": "Outback Steakhouse"
+      },
+      "center": {
+        "lat": 35.13986115,
+        "lon": -106.59593834999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 563141880,
+      "tags": {
+        "addr:city": "Farmington",
+        "addr:housenumber": "4921",
+        "addr:postcode": "87402",
+        "addr:state": "NM",
+        "addr:street": "East Main Street",
+        "amenity": "restaurant",
+        "brand": "Outback Steakhouse",
+        "brand:wikidata": "Q1064893",
+        "building": "commercial",
+        "cuisine": "american;steak",
+        "delivery": "no",
+        "name": "Outback Steakhouse",
+        "outdoor_seating": "no",
+        "phone": "+1 505-324-2122",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://locations.outback.com/new-mexico/farmington/4921-east-main-street"
+      },
+      "center": {
+        "lat": 36.7675438,
+        "lon": -108.14600344999997
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "hungry_howie_s",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5941220674,
+      "tags": {
+        "addr:city": "Aurora",
+        "addr:housenumber": "6040",
+        "addr:postcode": "80016",
+        "addr:state": "CO",
+        "addr:street": "South Gun Club Road",
+        "addr:unit": "F4",
+        "amenity": "fast_food",
+        "brand": "Hungry Howie's",
+        "brand:wikidata": "Q16985303",
+        "cuisine": "pizza",
+        "name": "Hungry Howie's",
+        "takeaway": "yes"
+      },
+      "lat": 39.6053536,
+      "lon": -104.715088
+    },
+    {
+      "type": "node",
+      "id": 9864981610,
+      "tags": {
+        "addr:city": "Aurora",
+        "addr:housenumber": "15084",
+        "addr:postcode": "80012",
+        "addr:street": "East Mississippi Avenue",
+        "amenity": "fast_food",
+        "brand": "Hungry Howie's",
+        "brand:wikidata": "Q16985303",
+        "cuisine": "pizza",
+        "name": "Hungry Howie's",
+        "takeaway": "yes",
+        "website": "https://www.hungryhowies.com/store/hungry-howies-04004"
+      },
+      "lat": 39.6954965,
+      "lon": -104.8121986
+    }
+  ]
+}

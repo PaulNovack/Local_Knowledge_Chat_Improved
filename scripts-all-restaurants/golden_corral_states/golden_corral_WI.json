@@ -1,0 +1,133 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WI",
+    "brand": "golden_corral",
+    "source": "https://download.geofabrik.de/north-america/us/wisconsin-latest.osm.pbf",
+    "source_md5": "1718ff98080ec3edeb95ab8fb47b0ce7",
+    "processed_utc": "2026-10-24T07:19:59.510074+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4755700382,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral",
+        "name:en": "Golden Corral"
+      },
+      "lat": 44.4788688,
+      "lon": -88.0678579
+    },
+    {
+      "type": "way",
+      "id": 105343000,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "yes",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral"
+      },
+      "center": {
+        "lat": 42.71555025,
+        "lon": -88.98240729999998
+      }
+    },
+    {
+      "type": "way",
+      "id": 223608191,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral",
+        "ref": "863",
+        "website": "https://www.goldencorral.com/locations/location-detail/863/golden-corral-75th-street/"
+      },
+      "center": {
+        "lat": 42.56745,
+        "lon": -87.88326325000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 324404567,
+      "tags": {
+        "addr:city": "Appleton",
+        "addr:housenumber": "1169",
+        "addr:postcode": "54914",
+        "addr:state": "WI",
+        "addr:street": "North Westhill Boulevard",
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "yes",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral",
+        "opening_hours:covid19": "closed"
+      },
+      "center": {
+        "lat": 44.2712096,
+        "lon": -88.46187615000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 608452504,
+      "tags": {
+        "addr:city": "Milwaukee",
+        "addr:housenumber": "300",
+        "addr:postcode": "53207",
+        "addr:state": "WI",
+        "addr:street": "West Layton Avenue",
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "yes",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral"
+      },
+      "center": {
+        "lat": 42.95972615,
+        "lon": -87.91480304999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1010088140,
+      "tags": {
+        "addr:city": "Waukesha",
+        "addr:housenumber": "1673",
+        "addr:postcode": "53186",
+        "addr:state": "WI",
+        "addr:street": "Arcadian Avenue",
+        "amenity": "restaurant",
+        "brand": "Golden Corral",
+        "brand:wikidata": "Q4039560",
+        "building": "yes",
+        "cuisine": "american;buffet",
+        "name": "Golden Corral",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 43.0127325,
+        "lon": -88.201684
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NM",
+    "brand": "the_human_bean",
+    "source": "https://download.geofabrik.de/north-america/us/new-mexico-latest.osm.pbf",
+    "source_md5": "5e236c0e9dd59b2df560a9316c86a745",
+    "processed_utc": "2026-10-24T07:10:42.593170+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13805021745,
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "7341",
+        "addr:postcode": "87109",
+        "addr:state": "NM",
+        "addr:street": "San Antonio Drive Northeast",
+        "amenity": "cafe",
+        "brand": "The Human Bean",
+        "brand:wikidata": "Q7740821",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "The Human Bean",
+        "takeaway": "yes"
+      },
+      "lat": 35.1592077,
+      "lon": -106.5613182
+    },
+    {
+      "type": "node",
+      "id": 13807712898,
+      "tags": {
+        "addr:housenumber": "1300",
+        "addr:street": "Unser Boulevard Southwest",
+        "amenity": "cafe",
+        "brand": "The Human Bean",
+        "brand:wikidata": "Q7740821",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "The Human Bean",
+        "takeaway": "yes"
+      },
+      "lat": 35.0576774,
+      "lon": -106.7219287
+    },
+    {
+      "type": "way",
+      "id": 1340748987,
+      "tags": {
+        "addr:city": "Los Lunas",
+        "addr:housenumber": "2680",
+        "addr:postcode": "87031",
+        "addr:state": "NM",
+        "addr:street": "Main Street Southwest",
+        "amenity": "cafe",
+        "brand": "The Human Bean",
+        "brand:wikidata": "Q7740821",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "The Human Bean",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 34.81687235,
+        "lon": -106.76784435000002
+      }
+    }
+  ]
+}

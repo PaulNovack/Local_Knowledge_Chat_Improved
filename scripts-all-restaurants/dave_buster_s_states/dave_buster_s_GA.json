@@ -1,0 +1,139 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "GA",
+    "brand": "dave_buster_s",
+    "source": "https://download.geofabrik.de/north-america/us/georgia-latest.osm.pbf",
+    "source_md5": "5f873b90ba1b1d1318fdca51efcbc510",
+    "processed_utc": "2026-10-24T07:02:18.046438+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9345490349,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's"
+      },
+      "lat": 33.7257548,
+      "lon": -84.7567681
+    },
+    {
+      "type": "node",
+      "id": 10251512144,
+      "tags": {
+        "addr:floor": "G",
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "check_date": "2026-01-21",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "level": "0",
+        "name": "Dave & Buster's"
+      },
+      "lat": 33.9804079,
+      "lon": -84.0787612
+    },
+    {
+      "type": "node",
+      "id": 11753773861,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "check_date": "2024-03-22",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's"
+      },
+      "lat": 34.0438719,
+      "lon": -84.2933827
+    },
+    {
+      "type": "way",
+      "id": 263921219,
+      "tags": {
+        "addr:city": "Marietta",
+        "addr:floor": "G;1",
+        "addr:housenumber": "2215",
+        "addr:postcode": "30067",
+        "addr:state": "GA",
+        "addr:street": "D & B Drive Southeast",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "branch": "Marietta",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "retail",
+        "building:levels": "2",
+        "check_date": "2026-05-14",
+        "cuisine": "american",
+        "height": "6",
+        "leisure": "amusement_arcade",
+        "level": "0;1",
+        "name": "Dave & Buster's",
+        "opening_hours": "Mo-Th 11:00-24:00; Fr 11:00-02:00; Sa 10:00-02:00; Su 10:00-24:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-770-951-5554",
+        "roof:colour": "white",
+        "roof:shape": "flat",
+        "website": "https://www.daveandbusters.com/us/en/about/locations/marietta",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 33.9196841,
+        "lon": -84.48525280000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 948846152,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "yes",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's"
+      },
+      "center": {
+        "lat": 33.42697695,
+        "lon": -84.189346
+      }
+    },
+    {
+      "type": "way",
+      "id": 1241238138,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Dave & Buster's",
+        "brand:wikidata": "Q5228205",
+        "building": "yes",
+        "cuisine": "american",
+        "leisure": "amusement_arcade",
+        "name": "Dave & Buster's"
+      },
+      "center": {
+        "lat": 33.5240117,
+        "lon": -82.02295379999998
+      }
+    }
+  ]
+}

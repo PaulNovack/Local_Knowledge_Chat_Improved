@@ -1,0 +1,150 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "HI",
+    "brand": "chick_fil_a",
+    "source": "https://download.geofabrik.de/north-america/us/hawaii-latest.osm.pbf",
+    "source_md5": "72d4122e050f63452c0aa341f9272254",
+    "processed_utc": "2026-10-24T07:02:30.197996+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11060928280,
+      "tags": {
+        "addr:city": "Honolulu",
+        "addr:floor": "1",
+        "addr:housenumber": "1450",
+        "addr:postcode": "96814",
+        "addr:state": "HI",
+        "addr:street": "Ala Moana Boulevard",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "cuisine": "chicken",
+        "level": "0",
+        "name": "Chick-fil-A",
+        "takeaway": "yes",
+        "website": "https://www.chick-fil-a.com/locations/hi/ala-moana-mall"
+      },
+      "lat": 21.2906794,
+      "lon": -157.8439934
+    },
+    {
+      "type": "node",
+      "id": 13648684102,
+      "tags": {
+        "addr:city": "Kapolei",
+        "addr:housenumber": "91-5480 Bldg. 3",
+        "addr:postcode": "96707",
+        "addr:state": "HI",
+        "addr:street": "Kapolei Parkway",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "check_date": "2026-03-14",
+        "check_date:opening_hours": "2026-03-14",
+        "cuisine": "chicken",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00",
+        "takeaway": "yes",
+        "website": "http://chick-fil-a.com"
+      },
+      "lat": 21.3362162,
+      "lon": -158.0525087
+    },
+    {
+      "type": "node",
+      "id": 14168100502,
+      "tags": {
+        "addr:housenumber": "890",
+        "addr:postcode": "96707",
+        "addr:street": "Kamokila Boulevard",
+        "amenity": "fast_food",
+        "check_date": "2026-09-09",
+        "check_date:opening_hours": "2026-09-09",
+        "cuisine": "chicken",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00",
+        "phone": "+1-808-470-9022",
+        "website": "http://chick-fil-a.com"
+      },
+      "lat": 21.3326719,
+      "lon": -158.0837519
+    },
+    {
+      "type": "way",
+      "id": 305801131,
+      "tags": {
+        "addr:city": "Honolulu",
+        "addr:state": "HI",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "changing_table": "yes",
+        "cuisine": "chicken",
+        "diet:gluten_free": "no",
+        "diet:halal": "no",
+        "diet:vegetarian": "no",
+        "drive_through": "no",
+        "indoor_seating": "yes",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:30-22:00",
+        "outdoor_seating": "yes",
+        "safety:hand_sanitizer:covid19": "yes",
+        "safety:mask:covid19": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "center": {
+        "lat": 21.290096050000002,
+        "lon": -157.8351278
+      }
+    },
+    {
+      "type": "way",
+      "id": 487541402,
+      "tags": {
+        "addr:housenumber": "1056",
+        "addr:street": "S Beretania St",
+        "amenity": "fast_food",
+        "brand": "Chick-fil-A",
+        "brand:wikidata": "Q491516",
+        "building": "yes",
+        "cuisine": "chicken",
+        "drive_through": "yes",
+        "name": "Chick-fil-A",
+        "opening_hours": "Mo-Sa 06:00-21:00",
+        "phone": "+1 808-460-7660",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 21.3030423,
+        "lon": -157.84639785000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1105858817,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Chick Fil A"
+      },
+      "center": {
+        "lat": 20.873437449999997,
+        "lon": -156.45827944999996
+      }
+    }
+  ]
+}

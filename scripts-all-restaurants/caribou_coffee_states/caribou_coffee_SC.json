@@ -1,0 +1,56 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "SC",
+    "brand": "caribou_coffee",
+    "source": "https://download.geofabrik.de/north-america/us/south-carolina-latest.osm.pbf",
+    "source_md5": "488018afb1e1040732b7a791d4ebffae",
+    "processed_utc": "2026-10-24T07:15:46.592450+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13531876036,
+      "tags": {
+        "addr:city": "Travelers Rest",
+        "addr:housenumber": "569",
+        "addr:postcode": "29690",
+        "addr:state": "SC",
+        "addr:street": "Roe Center Court",
+        "addr:unit": "500",
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "cuisine": "coffee_shop",
+        "name": "Caribou Coffee",
+        "takeaway": "yes"
+      },
+      "lat": 34.9587003,
+      "lon": -82.4375486
+    },
+    {
+      "type": "way",
+      "id": 1315840468,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "layer": "1",
+        "name": "Caribou Coffee",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 33.569750049999996,
+        "lon": -81.93785790000004
+      }
+    }
+  ]
+}

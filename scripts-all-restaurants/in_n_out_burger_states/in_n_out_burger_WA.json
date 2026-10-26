@@ -1,0 +1,74 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WA",
+    "brand": "in_n_out_burger",
+    "source": "https://download.geofabrik.de/north-america/us/washington-latest.osm.pbf",
+    "source_md5": "ad39841c1aae2c902ea6cc08b04352b1",
+    "processed_utc": "2026-10-24T07:19:12.488623+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1454793829,
+      "tags": {
+        "addr:city": "Ridgefield",
+        "addr:housenumber": "5801",
+        "addr:postcode": "98642",
+        "addr:state": "WA",
+        "addr:street": "North Pioneer Canyon Drive",
+        "amenity": "fast_food",
+        "branch": "Ridgefield",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "check_date": "2025-11-15",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "10:30-01:00",
+        "phone": "+1-800-786-1000",
+        "start_date": "2025-08-20",
+        "takeaway": "yes",
+        "website": "https://www.in-n-out.com"
+      },
+      "center": {
+        "lat": 45.818341399999994,
+        "lon": -122.68849714999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1568553076,
+      "tags": {
+        "addr:city": "Vancouver",
+        "addr:housenumber": "13511",
+        "addr:postcode": "98684",
+        "addr:state": "WA",
+        "addr:street": "Southeast 3rd Way",
+        "amenity": "fast_food",
+        "brand": "In-N-Out Burger",
+        "brand:wikidata": "Q1205312",
+        "building": "yes",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "name": "In-N-Out Burger",
+        "opening_hours": "Su-Th 10:30-1:00, Fr-Sa 10:30-1:30",
+        "start_date": "2026-04-23",
+        "takeaway": "yes",
+        "website": "https://locations.in-n-out.com/436"
+      },
+      "center": {
+        "lat": 45.61903565,
+        "lon": -122.53333090000001
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NE",
+    "brand": "ponderosa_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+    "source_md5": "51d56661bf3c9a6eddbdc5393497d959",
+    "processed_utc": "2026-10-24T07:09:24.825554+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1353065236,
+      "tags": {
+        "addr:city": "Weston",
+        "addr:housenumber": "305",
+        "addr:postcode": "68070",
+        "addr:street": "Elm Street",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "delivery": "no",
+        "name": "Ponderosa Saloon and Opera House",
+        "opening_hours": "Th, Fr 11:00-24:00; Sa 11:00-01:00; Su 09:00-01:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-402-642-5555",
+        "stars": "4.6",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "lat": 41.1919615,
+      "lon": -96.7438637
+    },
+    {
+      "type": "way",
+      "id": 1458106339,
+      "tags": {
+        "addr:city": "Valley",
+        "addr:housenumber": "12203",
+        "addr:postcode": "68064",
+        "addr:state": "NE",
+        "addr:street": "N 225th St",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Ponderosa Bar & Grill"
+      },
+      "center": {
+        "lat": 41.3702873,
+        "lon": -96.26761420000003
+      }
+    }
+  ]
+}

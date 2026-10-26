@@ -1,0 +1,52 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "DC",
+    "brand": "morton_s_the_steakhouse",
+    "source": "https://download.geofabrik.de/north-america/us/district-of-columbia-latest.osm.pbf",
+    "source_md5": "bdc22a616512841e0b09117f5a3d75f1",
+    "processed_utc": "2026-10-24T07:20:37.151586+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 739528184,
+      "tags": {
+        "addr:city": "Washington",
+        "addr:housenumber": "1050",
+        "addr:postcode": "20036",
+        "addr:state": "DC",
+        "addr:street": "Connecticut Avenue Northwest",
+        "amenity": "restaurant",
+        "branch": "Washington D.C. (Downtown)",
+        "brand": "Morton's The Steakhouse",
+        "brand:wikidata": "Q17022759",
+        "check_date": "2025-03-16",
+        "cuisine": "steak_house",
+        "dataset": "ABRA locations",
+        "description": "Steak House",
+        "indoor_seating": "yes",
+        "level": "1",
+        "name": "Morton's The Steakhouse",
+        "opening_hours": "Mo-Th 11:30-21:00; Fr 11:30-22:00; Sa 16:00-22:00; Su 16:00-21:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 202-955-5997",
+        "source": "dcgis",
+        "website": "https://www.mortons.com/location/mortons-the-steakhouse-washington-dc-downtown/",
+        "website:menu": "https://www.mortons.com/location/mortons-the-steakhouse-washington-dc-downtown/#menus"
+      },
+      "lat": 38.9034565,
+      "lon": -77.0401538
+    }
+  ]
+}

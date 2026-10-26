@@ -1,0 +1,105 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "godfather_s_pizza",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 11621598950,
+      "tags": {
+        "addr:city": "Lamar",
+        "addr:housenumber": "605",
+        "addr:postcode": "81052",
+        "addr:state": "CO",
+        "addr:street": "North Main Street",
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza"
+      },
+      "lat": 38.0959759,
+      "lon": -102.6202918
+    },
+    {
+      "type": "node",
+      "id": 12807892933,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza"
+      },
+      "lat": 38.4886457,
+      "lon": -102.7846531
+    },
+    {
+      "type": "node",
+      "id": 14071175534,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "cuisine": "pizza",
+        "indoor_seating": "yes",
+        "name": "Godfather's Pizza",
+        "outdoor_seating": "no"
+      },
+      "lat": 37.6166889,
+      "lon": -104.7568103
+    },
+    {
+      "type": "way",
+      "id": 449009881,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza",
+        "website": "https://godfathers.com/"
+      },
+      "center": {
+        "lat": 39.91328265,
+        "lon": -104.95630730000005
+      }
+    },
+    {
+      "type": "way",
+      "id": 818496164,
+      "tags": {
+        "addr:city": "Brighton",
+        "addr:housenumber": "227",
+        "addr:postcode": "80601",
+        "addr:state": "CO",
+        "addr:street": "North Main Street",
+        "amenity": "restaurant",
+        "brand": "Godfather's Pizza",
+        "brand:wikidata": "Q5576353",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Godfather's Pizza",
+        "phone": "+1-720-826-1181",
+        "website": "https://godfathers.com/"
+      },
+      "center": {
+        "lat": 39.9901218,
+        "lon": -104.8207888
+      }
+    }
+  ]
+}

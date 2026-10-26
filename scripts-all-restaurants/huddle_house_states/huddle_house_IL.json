@@ -1,0 +1,51 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IL",
+    "brand": "huddle_house",
+    "source": "https://download.geofabrik.de/north-america/us/illinois-latest.osm.pbf",
+    "source_md5": "f6b2a278ef6cf1719773ab6e74220af4",
+    "processed_utc": "2026-10-24T07:03:16.161207+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1229264981,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Huddle House",
+        "brand:wikidata": "Q5928324",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Huddle House"
+      },
+      "center": {
+        "lat": 37.73257325,
+        "lon": -88.96258449999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 1229499649,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Huddle House",
+        "brand:wikidata": "Q5928324",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Huddle House"
+      },
+      "center": {
+        "lat": 39.1785833,
+        "lon": -89.67569325
+      }
+    }
+  ]
+}

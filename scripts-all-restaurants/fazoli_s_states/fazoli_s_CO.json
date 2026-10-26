@@ -1,0 +1,132 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CO",
+    "brand": "fazoli_s",
+    "source": "https://download.geofabrik.de/north-america/us/colorado-latest.osm.pbf",
+    "source_md5": "9b380cb876fb78cc6dba2e1177e13c19",
+    "processed_utc": "2026-10-24T06:59:55.922097+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 423744752,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "3607",
+        "addr:postcode": "80918-6630",
+        "addr:state": "CO",
+        "addr:street": "Austin Bluffs Parkway",
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "cuisine": "italian",
+        "name": "Fazoli's",
+        "phone": "+1-719-535-0369",
+        "takeaway": "yes"
+      },
+      "lat": 38.890452,
+      "lon": -104.760617
+    },
+    {
+      "type": "node",
+      "id": 2526028075,
+      "tags": {
+        "addr:city": "Aurora",
+        "addr:housenumber": "1012",
+        "addr:postcode": "80012",
+        "addr:street": "South Abilene Street",
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "cuisine": "italian",
+        "name": "Fazoli's",
+        "phone": "+1-303-745-6336",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://www.fazolis.com/"
+      },
+      "lat": 39.6991706,
+      "lon": -104.8267744
+    },
+    {
+      "type": "way",
+      "id": 47109031,
+      "tags": {
+        "addr:city": "Northglenn",
+        "addr:housenumber": "460",
+        "addr:postcode": "80233",
+        "addr:state": "CO",
+        "addr:street": "East 120th Avenue",
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "building": "yes",
+        "cuisine": "italian",
+        "delivery": "yes",
+        "name": "Fazoli's",
+        "outdoor_seating": "no",
+        "takeaway": "yes",
+        "website": "https://www.fazolis.com/"
+      },
+      "center": {
+        "lat": 39.9136867,
+        "lon": -104.98170200000004
+      }
+    },
+    {
+      "type": "way",
+      "id": 235257759,
+      "tags": {
+        "addr:city": "Colorado Springs",
+        "addr:housenumber": "1790",
+        "addr:postcode": "80906",
+        "addr:state": "CO",
+        "addr:street": "East Cheyenne Mountain Boulevard",
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "building": "yes",
+        "check_date": "2026-05-25",
+        "cuisine": "italian",
+        "drive_through": "yes",
+        "name": "Fazoli's",
+        "opening_hours": "Mo-Su 10:30-23:00",
+        "phone": "+1-719-579-7522",
+        "source": "Bing",
+        "takeaway": "yes",
+        "website": "https://locations.fazolis.com/co/colorado-springs/1790-e--cheynne-mt--blvd.html"
+      },
+      "center": {
+        "lat": 38.79506495,
+        "lon": -104.80280160000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 545751577,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "italian",
+        "drive_through": "yes",
+        "name": "Fazoli's",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 38.30997705,
+        "lon": -104.62911680000002
+      }
+    }
+  ]
+}

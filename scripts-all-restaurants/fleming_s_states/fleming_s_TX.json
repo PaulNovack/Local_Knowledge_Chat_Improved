@@ -1,0 +1,107 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "TX",
+    "brand": "fleming_s",
+    "source": "https://download.geofabrik.de/north-america/us/texas-latest.osm.pbf",
+    "source_md5": "eb8f4603e9b48bd481c192fe621ae18b",
+    "processed_utc": "2026-10-24T07:17:23.814833+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1233167077,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "cuisine": "steak_house",
+        "name": "Fleming's Prime Steakhouse and Wine Bar",
+        "opening_hours": "Mo-Th 17:00-22:00; Fr-Sa 17:00-22:00; Su 11:00-21:00",
+        "website": "www.FlemingsSteakhouse.com",
+        "wheelchair": "yes"
+      },
+      "lat": 30.4031449,
+      "lon": -97.7256032
+    },
+    {
+      "type": "node",
+      "id": 3226042261,
+      "tags": {
+        "addr:city": "The Woodlands",
+        "addr:housenumber": "1201",
+        "addr:state": "TX",
+        "addr:street": "Lake Woodlands Drive",
+        "amenity": "restaurant",
+        "branch": "Steakhouse",
+        "brand": "Fleming's",
+        "brand:wikidata": "Q5458552",
+        "check_date": "2024-07-04",
+        "cuisine": "steak_house",
+        "name": "Fleming's",
+        "official_name": "Fleming's Prime Steakhouse & Wine Bar"
+      },
+      "lat": 30.1627068,
+      "lon": -95.4545126
+    },
+    {
+      "type": "node",
+      "id": 6573567095,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "steak_house",
+        "name": "Flemings"
+      },
+      "lat": 29.7381291,
+      "lon": -95.4166203
+    },
+    {
+      "type": "node",
+      "id": 12404228525,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Fleming's",
+        "brand:wikidata": "Q5458552",
+        "check_date:opening_hours": "2026-06-09",
+        "cuisine": "steak_house",
+        "indoor_seating": "yes",
+        "name": "Fleming's",
+        "official_name": "Fleming's Prime Steakhouse & Wine Bar",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "no",
+        "website:menu": "https://www.flemingssteakhouse.com/menus"
+      },
+      "lat": 33.0775643,
+      "lon": -96.8230904
+    },
+    {
+      "type": "way",
+      "id": 62138480,
+      "tags": {
+        "addr:housenumber": "255",
+        "addr:postcode": "78209",
+        "addr:street": "East Basse Road",
+        "amenity": "restaurant",
+        "branch": "Prime Steak House",
+        "brand": "Fleming's",
+        "brand:wikidata": "Q5458552",
+        "building": "yes",
+        "cuisine": "steak_house",
+        "name": "Fleming's",
+        "official_name": "Fleming's Prime Steakhouse & Wine Bar",
+        "opening_hours": "Mo-Th 17:00-22:00; Fr-Sa 17:00-23:00; Su 17:00-21:00",
+        "phone": "+1-210-824-9463"
+      },
+      "center": {
+        "lat": 29.4952844,
+        "lon": -98.47976365
+      }
+    }
+  ]
+}

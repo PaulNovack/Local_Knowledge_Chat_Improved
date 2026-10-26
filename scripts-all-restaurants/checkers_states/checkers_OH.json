@@ -1,0 +1,60 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "OH",
+    "brand": "checkers",
+    "source": "https://download.geofabrik.de/north-america/us/ohio-latest.osm.pbf",
+    "source_md5": "d9765be131702c1653f8fea03c112564",
+    "processed_utc": "2026-10-24T07:13:26.563739+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4444983150,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Checkers"
+      },
+      "lat": 40.7863714,
+      "lon": -82.7372367
+    },
+    {
+      "type": "way",
+      "id": 1421455018,
+      "tags": {
+        "addr:city": "Perry",
+        "addr:housenumber": "3858",
+        "addr:postcode": "44081",
+        "addr:state": "OH",
+        "addr:street": "North Ridge Road;N Ridge Rd",
+        "air_conditioning": "no",
+        "amenity": "fast_food",
+        "building": "yes",
+        "cuisine": "burger;fries",
+        "description": "Local eatery (not part of a chain) serving fast-food classics like burgers, hot dogs, french fries & shakes. Cash only.",
+        "diet:meat": "yes",
+        "drive_through": "no",
+        "name": "Checkers Drive-In",
+        "not:brand:wikidata": "Q63919315",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "phone": "+14402595144",
+        "toilets": "no"
+      },
+      "center": {
+        "lat": 41.7794093,
+        "lon": -81.14813594999998
+      }
+    }
+  ]
+}

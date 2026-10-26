@@ -1,0 +1,84 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "WY",
+    "brand": "jersey_mike_s_subs",
+    "source": "https://download.geofabrik.de/north-america/us/wyoming-latest.osm.pbf",
+    "source_md5": "159031842d9cc6e0f98469afd47f587c",
+    "processed_utc": "2026-10-24T07:20:29.370257+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 4876840228,
+      "tags": {
+        "addr:city": "Gillette",
+        "addr:housenumber": "1215",
+        "addr:postcode": "82716",
+        "addr:state": "WY",
+        "addr:street": "South Douglas Highway",
+        "addr:unit": "A",
+        "amenity": "fast_food",
+        "brand": "Jersey Mike's Subs",
+        "brand:wikidata": "Q6184897",
+        "check_date": "2026-07-15",
+        "cuisine": "sandwich",
+        "drive_through": "yes",
+        "name": "Jersey Mike's Subs",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "outdoor_seating": "no",
+        "short_name": "Jersey Mike's",
+        "source": "survey",
+        "takeaway": "yes",
+        "website": "https://www.jerseymikes.com/40005/gillette-wy"
+      },
+      "lat": 44.2821033,
+      "lon": -105.4935788
+    },
+    {
+      "type": "node",
+      "id": 13318674428,
+      "tags": {
+        "addr:city": "Cheyenne",
+        "addr:housenumber": "1616",
+        "addr:postcode": "82009",
+        "addr:state": "WY",
+        "addr:street": "Prairie Avenue",
+        "addr:unit": "Unit 3",
+        "amenity": "fast_food",
+        "brand": "Jersey Mike's Subs",
+        "brand:wikidata": "Q6184897",
+        "cuisine": "sandwich",
+        "name": "Jersey Mike's Subs",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "short_name": "Jersey Mike's",
+        "takeaway": "yes",
+        "website": "https://www.jerseymikes.com/40004/cheyenne-wy"
+      },
+      "lat": 41.164799,
+      "lon": -104.8029258
+    },
+    {
+      "type": "node",
+      "id": 13477502087,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Jersey Mike's Subs",
+        "brand:wikidata": "Q6184897",
+        "cuisine": "sandwich",
+        "name": "Jersey Mike's Subs",
+        "short_name": "Jersey Mike's",
+        "takeaway": "yes"
+      },
+      "lat": 41.3090293,
+      "lon": -105.5537403
+    }
+  ]
+}

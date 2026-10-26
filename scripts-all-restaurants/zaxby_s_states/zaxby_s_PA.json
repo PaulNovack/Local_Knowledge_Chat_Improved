@@ -1,0 +1,38 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "PA",
+    "brand": "zaxby_s",
+    "source": "https://download.geofabrik.de/north-america/us/pennsylvania-latest.osm.pbf",
+    "source_md5": "d9a96c17f29fdb4cc5e81430863c4eea",
+    "processed_utc": "2026-10-24T07:15:14.479033+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 1414287273,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Zaxby's",
+        "brand:wikidata": "Q8067525",
+        "building": "yes",
+        "cuisine": "chicken",
+        "name": "Zaxby's",
+        "official_name": "Zaxby's Chicken Fingers & Buffalo Wings",
+        "source": "microsoft/BuildingFootprints",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 40.14189925,
+        "lon": -74.81723875
+      }
+    }
+  ]
+}

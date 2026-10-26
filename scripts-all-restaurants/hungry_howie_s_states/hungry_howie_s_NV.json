@@ -1,0 +1,50 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "NV",
+    "brand": "hungry_howie_s",
+    "source": "https://download.geofabrik.de/north-america/us/nevada-latest.osm.pbf",
+    "source_md5": "c5724ffba6195249f9efbd2956fbd424",
+    "processed_utc": "2026-10-24T07:09:39.541559+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10853560423,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Hungry Howie's",
+        "brand:wikidata": "Q16985303",
+        "cuisine": "pizza",
+        "name": "Hungry Howie's",
+        "takeaway": "yes"
+      },
+      "lat": 36.3005711,
+      "lon": -115.2843093
+    },
+    {
+      "type": "node",
+      "id": 12582709501,
+      "tags": {
+        "addr:housenumber": "6385 Ste 135",
+        "addr:street": "Simmons Street",
+        "amenity": "fast_food",
+        "brand": "Hungry Howie's",
+        "brand:wikidata": "Q16985303",
+        "cuisine": "pizza",
+        "name": "Hungry Howie's",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "takeaway": "yes"
+      },
+      "lat": 36.2757252,
+      "lon": -115.1804477
+    }
+  ]
+}

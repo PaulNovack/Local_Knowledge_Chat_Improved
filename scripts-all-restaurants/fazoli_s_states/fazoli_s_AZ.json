@@ -1,0 +1,70 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AZ",
+    "brand": "fazoli_s",
+    "source": "https://download.geofabrik.de/north-america/us/arizona-latest.osm.pbf",
+    "source_md5": "9c08a0d0e9b80a920e012f996bd36952",
+    "processed_utc": "2026-10-24T06:56:58.973958+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13387987024,
+      "tags": {
+        "addr:city": "Surprise",
+        "addr:housenumber": "13510",
+        "addr:postcode": "85379",
+        "addr:state": "AZ",
+        "addr:street": "North Litchfield Road",
+        "addr:unit": "116",
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "cuisine": "italian",
+        "drive_through": "yes",
+        "name": "Fazoli's",
+        "opening_hours": "Mo-Th 10:30-21:30; Fr-Sa 10:30-22:30; Su 10:30-21:30",
+        "phone": "+1-623-321-7500",
+        "takeaway": "yes",
+        "website": "https://fazolis.com/stores/az-surprise-13510-n-litchfield-dr-suite-116-85379/"
+      },
+      "lat": 33.606681,
+      "lon": -112.3597002
+    },
+    {
+      "type": "way",
+      "id": 44660026,
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "953",
+        "addr:postcode": "85201",
+        "addr:state": "AZ",
+        "addr:street": "North Dobson Road",
+        "air_conditioning": "yes",
+        "amenity": "fast_food",
+        "brand": "Fazoli's",
+        "brand:wikidata": "Q1399195",
+        "building": "commercial",
+        "cuisine": "italian",
+        "drive_through": "yes",
+        "name": "Fazoli's",
+        "opening_hours": "Mo-Su 10:30-22:00",
+        "phone": "+1-480-906-2001",
+        "takeaway": "yes",
+        "website": "https://locations.fazolis.com/az/mesa/953-n--dobson-road.html"
+      },
+      "center": {
+        "lat": 33.4339866,
+        "lon": -111.86491375000003
+      }
+    }
+  ]
+}

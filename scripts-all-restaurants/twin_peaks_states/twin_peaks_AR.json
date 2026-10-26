@@ -1,0 +1,65 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "twin_peaks",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 952408340,
+      "tags": {
+        "addr:city": "Lttle Rock",
+        "addr:housenumber": "10",
+        "addr:postcode": "72211",
+        "addr:state": "AR",
+        "addr:street": "Shackleford Drive",
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Twin Peaks",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 34.754612449999996,
+        "lon": -92.39631629999997
+      }
+    },
+    {
+      "type": "way",
+      "id": 1282551016,
+      "tags": {
+        "addr:city": "Rogers",
+        "addr:country": "US",
+        "addr:full": "2400 Promenade Boulevard",
+        "addr:housenumber": "2400",
+        "addr:postcode": "72758",
+        "addr:state": "AR",
+        "addr:street": "Promenade Boulevard",
+        "amenity": "restaurant",
+        "brand": "Twin Peaks",
+        "brand:wikidata": "Q7858255",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Twin Peaks",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "center": {
+        "lat": 36.30121715,
+        "lon": -94.17386665000004
+      }
+    }
+  ]
+}

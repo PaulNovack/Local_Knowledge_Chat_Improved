@@ -1,0 +1,118 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "CA",
+    "brand": "joe_s_crab_shack",
+    "source": "https://download.geofabrik.de/north-america/us/california-latest.osm.pbf",
+    "source_md5": "26040c163edb7a5f630164ee55d5afda",
+    "processed_utc": "2026-10-24T06:59:04.829226+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10297470669,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Joe's Crab Shack"
+      },
+      "lat": 33.205818,
+      "lon": -117.3892934
+    },
+    {
+      "type": "way",
+      "id": 31816398,
+      "tags": {
+        "addr:city": "San Diego",
+        "addr:postcode": "92101",
+        "addr:state": "CA",
+        "addr:street": "South Embarcadero Parkway",
+        "amenity": "restaurant",
+        "brand": "Joe's Crab Shack",
+        "brand:wikidata": "Q6208210",
+        "building": "commercial",
+        "cuisine": "seafood",
+        "name": "Joe's Crab Shack",
+        "sangis:OBJECTID": "7942",
+        "sangis:TYPE": "Commercial",
+        "smoking": "no",
+        "source": "SanGIS Footprints_Nonresidential_SD public domain (http://www.sangis.org/)"
+      },
+      "center": {
+        "lat": 32.7046171,
+        "lon": -117.16331875000003
+      }
+    },
+    {
+      "type": "way",
+      "id": 32541089,
+      "tags": {
+        "addr:city": "Sacramento",
+        "addr:housenumber": "1210",
+        "addr:postcode": "95814",
+        "addr:state": "CA",
+        "addr:street": "Front Street",
+        "amenity": "restaurant",
+        "brand": "Joe's Crab Shack",
+        "brand:wikidata": "Q6208210",
+        "building": "yes",
+        "cuisine": "seafood",
+        "layer": "1",
+        "name": "Joe's Crab Shack",
+        "opening_hours": "Sa-Su 11:00-23:00; Mo-Fr 11:00-22:00",
+        "phone": "+1-916-553-4249",
+        "website": "https://www.joescrabshack.com/locations/10731/"
+      },
+      "center": {
+        "lat": 38.5810991,
+        "lon": -121.50712970000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 158075821,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Joe's Crab Shack",
+        "brand:wikidata": "Q6208210",
+        "building": "yes",
+        "cuisine": "seafood",
+        "name": "Joe's Crab Shack"
+      },
+      "center": {
+        "lat": 33.78788415,
+        "lon": -117.91530260000002
+      }
+    },
+    {
+      "type": "way",
+      "id": 1082181714,
+      "tags": {
+        "addr:city": "Newport Beach",
+        "addr:housenumber": "2607",
+        "addr:postcode": "92663",
+        "addr:state": "CA",
+        "addr:street": "Pacific Coast Highway",
+        "amenity": "restaurant",
+        "brand": "Joe's Crab Shack",
+        "brand:wikidata": "Q6208210",
+        "building": "yes",
+        "cuisine": "seafood",
+        "height": "6.11",
+        "name": "Joe's Crab Shack",
+        "source": "esri/Newport_Beach_CA_Buildings",
+        "source_ref": "AM909_DSCU2090"
+      },
+      "center": {
+        "lat": 33.6192494,
+        "lon": -117.92359684999997
+      }
+    }
+  ]
+}

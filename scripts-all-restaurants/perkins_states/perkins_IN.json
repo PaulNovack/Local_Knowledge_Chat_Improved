@@ -1,0 +1,94 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "IN",
+    "brand": "perkins",
+    "source": "https://download.geofabrik.de/north-america/us/indiana-latest.osm.pbf",
+    "source_md5": "c259a5b6a3002951bea8c4d6fc6ba185",
+    "processed_utc": "2026-10-24T07:03:41.769968+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 13019727455,
+      "tags": {
+        "addr:housenumber": "250",
+        "addr:street": "Noble Creek Drive",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "cuisine": "american",
+        "delivery": "yes",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "lat": 40.0428494,
+      "lon": -85.995903
+    },
+    {
+      "type": "way",
+      "id": 610106673,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "retail",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "center": {
+        "lat": 41.7342713,
+        "lon": -85.97470609999999
+      }
+    },
+    {
+      "type": "way",
+      "id": 682338638,
+      "tags": {
+        "addr:city": "Roseland",
+        "addr:housenumber": "423",
+        "addr:postcode": "46637",
+        "addr:state": "IN",
+        "addr:street": "Dixie Way",
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "outdoor_seating": "no"
+      },
+      "center": {
+        "lat": 41.7111843,
+        "lon": -86.25081245000001
+      }
+    },
+    {
+      "type": "way",
+      "id": 1020423905,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Perkins",
+        "brand:wikidata": "Q7169056",
+        "building": "yes",
+        "cuisine": "american",
+        "name": "Perkins",
+        "official_name": "Perkins Restaurant and Bakery"
+      },
+      "center": {
+        "lat": 39.99602915,
+        "lon": -85.92768354999998
+      }
+    }
+  ]
+}

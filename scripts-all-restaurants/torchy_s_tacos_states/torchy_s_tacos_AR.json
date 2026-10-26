@@ -1,0 +1,81 @@
+{
+  "version": 0.6,
+  "generator": "RestaurantExtractDownloader/4.0",
+  "osm3s": {
+    "copyright": "© OpenStreetMap contributors, ODbL"
+  },
+  "_download": {
+    "complete": true,
+    "state": "AR",
+    "brand": "torchy_s_tacos",
+    "source": "https://download.geofabrik.de/north-america/us/arkansas-latest.osm.pbf",
+    "source_md5": "d908a814bd75bb7e156bc76effa5806e",
+    "processed_utc": "2026-10-24T06:57:15.934252+00:00",
+    "geometry_warnings": 0,
+    "state_assignment": "Geofabrik regional extract membership; border overlap possible"
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7115482241,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Torchy's Tacos",
+        "brand:wikidata": "Q106769573",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "no",
+        "name": "Torchy's Tacos",
+        "takeaway": "yes"
+      },
+      "lat": 36.2969355,
+      "lon": -94.1861823
+    },
+    {
+      "type": "way",
+      "id": 710589453,
+      "tags": {
+        "addr:city": "Fayetteville",
+        "addr:housenumber": "1541",
+        "addr:postcode": "72701",
+        "addr:street": "West Martin Luther King Junior Boulevard",
+        "amenity": "fast_food",
+        "brand": "Torchy's Tacos",
+        "brand:wikidata": "Q106769573",
+        "building": "retail",
+        "cuisine": "tex-mex",
+        "name": "Torchy's Tacos",
+        "opening_hours": "Mo-Th 10:00-22:00; Fr-Su 10:00-23:00",
+        "takeaway": "yes",
+        "website": "https://torchystacos.com/location/fayetteville/"
+      },
+      "center": {
+        "lat": 36.0563296,
+        "lon": -94.1831836
+      }
+    },
+    {
+      "type": "way",
+      "id": 1471756144,
+      "tags": {
+        "addr:city": "Rogers",
+        "addr:housenumber": "4950",
+        "addr:postcode": "72758",
+        "addr:state": "AR",
+        "addr:street": "West Pauline Whitaker Parkway",
+        "amenity": "fast_food",
+        "brand": "Torchy's Tacos",
+        "brand:wikidata": "Q106769573",
+        "building": "yes",
+        "cuisine": "tex-mex",
+        "drive_through": "no",
+        "name": "Torchy's Tacos",
+        "takeaway": "yes"
+      },
+      "center": {
+        "lat": 36.29694405,
+        "lon": -94.18623905000004
+      }
+    }
+  ]
+}
