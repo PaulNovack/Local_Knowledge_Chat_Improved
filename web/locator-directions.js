@@ -24,7 +24,7 @@
   }
 
   window.prepareLocatorDirections = (question, enabled) => {
-    if (!/\b(?:closest|nearest|near me|nearby)\b/i.test(question)) return null;
+    if (!/\b(?:closest|nearest|newest|near me|nearby)\b/i.test(question)) return null;
     const popup = enabled ? window.open('about:blank', '_blank') : null;
     if (popup) {
       popup.document.title = 'Finding directions';

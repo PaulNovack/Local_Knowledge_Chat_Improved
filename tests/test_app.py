@@ -93,7 +93,7 @@ def test_fresh_sqlite_database_seeds_router_functions(tmp_path):
     assert rows == [
         (1, ''), (2, 'Pre-trip Text'), (3, 'Pre-trip Video'), (4, 'Closest Loves'),
         (5, 'Closest Roadys'), (6, 'Closest McDonalds'), (7, 'Closest Restaurant'),
-        (8, 'Supported Restaurants'), (9, 'Open Directions'),
+        (8, 'Supported Restaurants'), (9, 'Open Directions'), (10, 'Close Directions'),
     ]
     assert {'topic', 'id', 'routerFunction', 'key'} <= topic_columns
     assert {'routerFunction', 'key'} <= history_columns
@@ -1315,13 +1315,14 @@ def test_train_endpoint_persists_and_upserts(tmp_path, monkeypatch, settings, st
         options = client.get('/api/router-functions')
         assert options.json()['routerFunctions'] == [
             '', 'Pre-trip Text', 'Pre-trip Video', 'Closest Loves', 'Closest Roadys',
-            'Closest McDonalds', 'Closest Restaurant', 'Supported Restaurants', 'Open Directions',
+            'Closest McDonalds', 'Closest Restaurant', 'Supported Restaurants',
+            'Open Directions', 'Close Directions',
         ]
         response = client.post('/api/train', headers={'origin': 'http://127.0.0.1:8000'}, json={
             'topic': 'PHP',
-            'question': 'What is PHP?',
-            'answer': 'PHP is a general-purpose scripting language for web development.',
-            'routerFunction': 'Supported Restaurants',
+            'question': 'Close Directions',
+            'answer': 'Close Directions',
+            'routerFunction': 'Close Directions',
             'key': '',
         })
         assert response.status_code == 200
@@ -1330,21 +1331,21 @@ def test_train_endpoint_persists_and_upserts(tmp_path, monkeypatch, settings, st
 
     saved = tmp_path / 'topic_data' / 'user_additions' / 'PHP.jsonl'
     assert saved.exists()
-    assert 'PHP is a general-purpose scripting language for web development.' in saved.read_text(encoding='utf-8')
+    assert 'Close Directions' in saved.read_text(encoding='utf-8')
     saved_record = json.loads(saved.read_text(encoding='utf-8').splitlines()[0])
-    assert (saved_record['routerFunction'], saved_record['key']) == ('Supported Restaurants', '')
+    assert (saved_record['routerFunction'], saved_record['key']) == ('Close Directions', '')
     doc = list(documents(saved_record))[0]
     point = store.client.retrieve(store.name('PHP'), [doc['id']], with_payload=True)[0]
-    assert (point.payload['routerFunction'], point.payload['key']) == ('Supported Restaurants', '')
+    assert (point.payload['routerFunction'], point.payload['key']) == ('Close Directions', '')
     sync_qdrant_topic_to_sqlite(store, 'PHP', tmp_path / 'database' / 'chat_history.sqlite3')
     with sqlite3.connect(tmp_path / 'database' / 'chat_history.sqlite3') as db:
         route, key = db.execute(
             'SELECT routerFunction, "key" FROM topic_data WHERE topic = ? AND id = ?',
             ('PHP', doc['id']),
         ).fetchone()
-    assert (route, key) == ('Supported Restaurants', '')
+    assert (route, key) == ('Close Directions', '')
     results = store.search('PHP', [1.0, 0.0, 0.0])
-    assert any(item['text'] == 'PHP is a general-purpose scripting language for web development.' for item in results)
+    assert any(item['text'] == 'Close Directions' for item in results)
 
 
 def test_train_endpoint_skips_duplicate_corrections(tmp_path, monkeypatch, settings, store):

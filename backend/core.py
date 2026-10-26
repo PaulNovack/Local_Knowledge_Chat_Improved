@@ -290,7 +290,8 @@ def ensure_chat_history_db(path=None):
         db.executemany(
             'INSERT OR IGNORE INTO routerFunctions(name) VALUES (?)',
                 [('',), ('Pre-trip Text',), ('Pre-trip Video',), ('Closest Loves',), ('Closest Roadys',), ('Closest McDonalds',),
-               ('Closest Restaurant',), ('Supported Restaurants',), ('Open Directions',)],
+               ('Closest Restaurant',), ('Supported Restaurants',), ('Open Directions',),
+               ('Close Directions',)],
         )
     ensure_topic_data_table(path)
     with sqlite3.connect(path) as db:

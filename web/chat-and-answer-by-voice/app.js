@@ -472,9 +472,9 @@ async function handleCapturedAudio(blob) {
       return;
     }
     if (window.isLocatorDirectionsRequest?.(text)) {
-      const lastDirections = [...transcript].reverse()
-        .find(record => record.directionsWindow?.url)?.directionsWindow;
-      if (lastDirections && window.openLocatorDirections?.(lastDirections)) {
+      const lastLocation = [...transcript].reverse()
+        .find(record => record.directionsWindow)?.directionsWindow;
+      if (lastLocation?.url && window.openLocatorDirections?.(lastLocation)) {
         setStatus('Opening directions for the displayed location.');
       } else {
         setStatus('There is no displayed location with directions to open.');
