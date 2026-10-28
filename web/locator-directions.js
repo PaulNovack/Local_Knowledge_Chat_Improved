@@ -6,6 +6,8 @@
   let previousFocus = null;
   let previousBodyOverflow = '';
   let latestController = null;
+  let latestLocation = null;
+  let latestHeadingLocation = null;
 
   const showMapToggle = document.getElementById('show-map');
   if (showMapToggle) {
@@ -185,6 +187,13 @@
       directionsFrame.style.cssText = 'width:100%;height:calc(100% - 48px);flex:1;border:0';
       directionsFrame.addEventListener('load', () => {
         directionsFrameLoaded = true;
+        const location = latestHeadingLocation || latestLocation || window.locatorCurrentLocation;
+        if (location && directionsFrame.contentWindow) {
+          directionsFrame.contentWindow.postMessage(
+            {type: 'mapquest:heading-updated', location},
+            window.location.origin,
+          );
+        }
         notifyInitialPlaybackFinished();
       });
       directionsOverlay.append(toolbar, directionsFrame);
@@ -231,7 +240,9 @@
   };
 
   window.addEventListener('locator-location-updated', event => {
-    if (!event.detail || !latestController?.destination || !directionsFrame) return;
+    if (!event.detail) return;
+    latestLocation = event.detail;
+    if (!latestController?.destination || !directionsFrame) return;
     if (!directionsFrameLoaded || !directionsFrame.contentWindow) return;
     directionsFrame.contentWindow.postMessage(
       {type: 'mapquest:location-updated', location: event.detail},
@@ -240,7 +251,9 @@
   });
 
   window.addEventListener('locator-heading-updated', event => {
-    if (!event.detail || !directionsFrameLoaded || !directionsFrame?.contentWindow) return;
+    if (!event.detail) return;
+    latestHeadingLocation = event.detail;
+    if (!directionsFrameLoaded || !directionsFrame?.contentWindow) return;
     directionsFrame.contentWindow.postMessage(
       {type: 'mapquest:heading-updated', location: event.detail},
       window.location.origin,

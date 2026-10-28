@@ -114,7 +114,7 @@
         const difference = (heading - smoothedBearing + 540) % 360 - 180;
         smoothedBearing = normalizeBearing(smoothedBearing + difference * 0.25);
       }
-      if (typeof map.setBearing === 'function') map.setBearing(smoothedBearing);
+      if (typeof map.setBearing === 'function') map.setBearing(normalizeBearing(-smoothedBearing));
     }
     map.panTo(position, {animate: false});
   }
@@ -225,7 +225,10 @@
       || event.data?.type !== 'mapquest:location-updated') return;
     const location = event.data.location;
     const origin = coordinates(`${location?.latitude},${location?.longitude}`);
-    if (origin) void showRoute(origin);
+    if (origin) {
+      updateTravelOrientation(location);
+      void showRoute(origin);
+    }
   });
 
   window.addEventListener('message', event => {
