@@ -23,6 +23,11 @@ _CLOSEST_ROADYS = re.compile(
 )
 _CLOSEST_RESTAURANT = re.compile(r'\b(?:closest|nearest|newest)\b', re.I)
 _CLOSEST_DEPARTMENT_STORE = re.compile(r'\b(?:closest|nearest)\b', re.I)
+_CLOSEST_GROCERY_STORE = re.compile(r'\b(?:closest|nearest)\b', re.I)
+_GROCERY_CONTEXT = re.compile(r'\b(?:grocer(?:y|ies)|supermarkets?)\b', re.I)
+_LIST_GROCERY_STORES = re.compile(
+    r'\b(?:show|give|display|list)\b.*\b(?:list|grocer(?:y|ies)|supermarkets?)\b', re.I,
+)
 _RESTAURANT_CHAIN_ALIASES = {
     'bubba gump': 'bubba_gump_shrimp_company',
     'bubblegum shrimp': 'bubba_gump_shrimp_company',
@@ -37,6 +42,15 @@ _DEPARTMENT_STORE_CATALOG = json.loads(
 _DEPARTMENT_STORE_SLUGS = {brand['slug'] for brand in _DEPARTMENT_STORE_CATALOG}
 _DEPARTMENT_STORE_NAMES = sorted(
     ((brand['slug'], name) for brand in _DEPARTMENT_STORE_CATALOG for name in brand['names']),
+    key=lambda item: (-len(item[1]), item[1].casefold()),
+)
+_GROCERY_STORE_CATALOG = json.loads(
+    (Path(__file__).resolve().parents[1] / 'scripts-all-grocery' / 'grocery_brands.json')
+    .read_text(encoding='utf-8')
+)
+_GROCERY_STORE_SLUGS = {brand['slug'] for brand in _GROCERY_STORE_CATALOG}
+_GROCERY_STORE_NAMES = sorted(
+    ((brand['slug'], name) for brand in _GROCERY_STORE_CATALOG for name in brand['names']),
     key=lambda item: (-len(item[1]), item[1].casefold()),
 )
 _SUPPORTED_RESTAURANTS = re.compile(r'\b(?:support(?:ed|s)?|available|offer(?:ed|s)?|carry)\b', re.I)
@@ -62,6 +76,11 @@ for _tens_word in _TENS:
         _NUMBER_WORDS.add(f'{_tens_word}-{_ones_word}')
 _NUMBER_WORD_PATTERN = '|'.join(re.escape(word) for word in sorted(_NUMBER_WORDS, key=len, reverse=True))
 _STEP_NUMBER = re.compile(rf'\bstep\s+(\d+|{_NUMBER_WORD_PATTERN})(?![a-z0-9-])', re.I)
+_NUMBER_DIRECTION_QUERY = re.compile(
+    rf'\b(?:show|open|give)\b.*?\bdirections?\b.*?\b(?:for|to)\s+'
+    rf'(?:number\s+|#\s*)?(?P<number>\d+|{_NUMBER_WORD_PATTERN})(?![a-z0-9-])',
+    re.I,
+)
 _ROUTE_HANDLERS = {}
 _WEEKDAYS = ('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday')
 _WEEKDAY_INDEX = {day[:2].casefold(): index for index, day in enumerate(_WEEKDAYS)}
@@ -259,6 +278,23 @@ def _pre_trip_step(question):
     return step
 
 
+def _number_from_token(value):
+    normalized = value.casefold().replace('-', ' ').strip()
+    if normalized.isdecimal():
+        return int(normalized)
+    if normalized in _SMALL_NUMBERS:
+        return _SMALL_NUMBERS[normalized]
+    parts = normalized.split()
+    if len(parts) == 2 and parts[0] in _TENS and parts[1] in _ONES:
+        return _TENS[parts[0]] + _ONES[parts[1]]
+    return None
+
+
+def _show_number_direction_number(question):
+    match = _NUMBER_DIRECTION_QUERY.search(question)
+    return _number_from_token(match.group('number')) if match else None
+
+
 register_router_function('Pre-trip Text', _pre_trip_step, minimum_key=1, maximum_key=39)
 register_router_function('Closest Loves', lambda question: True if _CLOSEST_LOVES.search(question) else None)
 register_router_function('Closest Roadys', lambda question: True if _CLOSEST_ROADYS.search(question) else None)
@@ -267,6 +303,16 @@ register_router_function(
     'Closest Department Store',
     lambda question: True if _CLOSEST_DEPARTMENT_STORE.search(question) else None,
 )
+register_router_function(
+    'Closest Grocery Store',
+    lambda question: True if _CLOSEST_GROCERY_STORE.search(question) else None,
+)
+register_router_function(
+    'List Grocer Stores',
+    lambda question: _grocery_store_from_question(question)
+    if _LIST_GROCERY_STORES.search(question) else None,
+)
+register_router_function('Show Number Direction', _show_number_direction_number)
 register_router_function(
     'Supported Restaurants',
     lambda question: True if re.search(r'\brestaurants?\b', question, re.I)
@@ -768,6 +814,310 @@ def _closest_department_store_answer(db, question, brand, session_id):
     }
 
 
+def _grocery_store_from_question(question):
+    normalized_question = re.sub(r'[^a-z0-9]+', ' ', question.casefold()).strip()
+    for brand, name in _GROCERY_STORE_NAMES:
+        normalized_name = re.sub(r'[^a-z0-9]+', ' ', name.casefold()).strip()
+        if re.search(
+                r'(?<![a-z0-9])' + re.escape(normalized_name) + r'(?![a-z0-9])',
+                normalized_question):
+            return brand
+    return None
+
+
+def _grocery_locations_from_db(db, brand):
+    brands = [brand] if brand else sorted(_GROCERY_STORE_SLUGS)
+    locations = []
+    columns = (
+        'name', 'latitude', 'longitude', 'address', 'city', 'state', 'postal_code',
+        'phone', 'website', 'opening_hours',
+    )
+    for candidate_brand in brands:
+        if candidate_brand not in _GROCERY_STORE_SLUGS:
+            continue
+        try:
+            rows = db.execute(f'''
+                SELECT name, latitude, longitude, address, city, state, postal_code,
+                       phone, website, opening_hours
+                FROM "grocery_{candidate_brand}"
+                WHERE latitude IS NOT NULL AND longitude IS NOT NULL
+            ''').fetchall()
+        except sqlite3.OperationalError:
+            continue
+        locations.extend(
+            (candidate_brand, dict(zip(columns, row))) for row in rows
+        )
+    return locations
+
+
+def _closest_grocery_store_from_db(db, brand, session_id):
+    if not session_id:
+        return None
+    try:
+        events = db.execute('''
+            SELECT latitude, longitude
+            FROM user_location_events
+            WHERE session_id=? AND latitude IS NOT NULL AND longitude IS NOT NULL
+              AND recorded_at >= datetime('now', '-10 minutes')
+            ORDER BY id DESC
+            LIMIT 100
+        ''', (session_id,)).fetchall()
+    except sqlite3.OperationalError:
+        return None
+    if not events:
+        return None
+
+    locations = _grocery_locations_from_db(db, brand)
+    if not locations:
+        return None
+
+    current = (events[0][0], events[0][1])
+    previous = next(((row[0], row[1]) for row in events
+                     if _distance_miles(current, (row[0], row[1])) >= 0.05), None)
+    heading = _bearing_degrees(previous, current) if previous else None
+    candidates = []
+    for candidate_brand, location in locations:
+        coordinates = (location['latitude'], location['longitude'])
+        distance = _distance_miles(current, coordinates)
+        if heading is not None:
+            bearing = _bearing_degrees(current, coordinates)
+            angle_delta = abs((bearing - heading + 180) % 360 - 180)
+            if angle_delta > 75:
+                continue
+        candidates.append((distance, candidate_brand, location))
+
+    found_ahead = bool(candidates)
+    if not candidates:
+        candidates = [
+            (_distance_miles(current, (location['latitude'], location['longitude'])),
+             candidate_brand, location)
+            for candidate_brand, location in locations
+        ]
+    distance, candidate_brand, location = min(candidates, key=lambda item: item[0])
+    return {
+        'brand': candidate_brand,
+        'location': location,
+        'distance_miles': distance,
+        'heading_known': heading is not None,
+        'found_ahead': found_ahead if heading is not None else False,
+    }
+
+
+def _closest_grocery_store_answer(db, question, brand, session_id):
+    match = _closest_grocery_store_from_db(db, brand, session_id)
+    selected_brand = match['brand'] if match else brand
+    brand_names = next(
+        (item['names'] for item in _GROCERY_STORE_CATALOG if item['slug'] == selected_brand),
+        ['grocery store'],
+    )
+    brand_name = brand_names[0]
+    directions = None
+    if match is None:
+        if not session_id:
+            answer = 'I need a recent location to find the closest grocery store.'
+        else:
+            answer = f'I do not have imported {brand_name} locations available to search yet.'
+    else:
+        location = match['location']
+        name = str(location.get('name') or brand_name)
+        distance = match['distance_miles']
+        if match['heading_known'] and match['found_ahead']:
+            answer = f'The closest {name} in the direction you are heading is about {distance:.1f} miles away.'
+        elif match['heading_known']:
+            answer = f'I could not find a {name} ahead in your direction of travel. The closest one overall is about {distance:.1f} miles away.'
+        else:
+            answer = f'The closest {name} is about {distance:.1f} miles away. I do not have enough recent movement to determine your direction.'
+        address = str(location.get('address') or '').strip()
+        state = str(location.get('state') or '').strip()
+        state_names = {state.casefold()}
+        if state.upper() in _US_STATE_NAMES:
+            state_names.add(_US_STATE_NAMES[state.upper()].casefold())
+        if address.casefold() in state_names:
+            address = ''
+        if not address:
+            address = ', '.join(
+                str(location[field]) for field in ('city', 'state', 'postal_code') if location.get(field)
+            )
+        if address.casefold() in state_names:
+            address = ''
+        address = _format_restaurant_address(address)
+        directions = {
+            'address': address,
+            'latitude': location.get('latitude'),
+            'longitude': location.get('longitude'),
+        }
+        details = []
+        for field, label in (
+            ('address', 'Address'), ('opening_hours', 'Hours'), ('phone', 'Phone'),
+            ('website', 'Website'),
+        ):
+            value = address if field == 'address' else location.get(field)
+            if field == 'opening_hours' and value:
+                value = _format_opening_hours(value)
+            if field == 'phone' and value:
+                value = _format_phone_for_speech(value)
+            if value:
+                details.append(f'{label}: {value}')
+        if not address:
+            details.append('Address: not available in the imported data.')
+        answer += '\n\n' + '\n'.join(details)
+    return {
+        'id': f'closest-grocery-store-{selected_brand or "any"}',
+        'point_id': f'closest-grocery-store-{selected_brand or "any"}',
+        'question': question,
+        'text': answer,
+        'url': '',
+        'source': 'router',
+        'score': 1.0,
+        'routerFunction': 'Closest Grocery Store',
+        'key': selected_brand or '',
+        'directions': directions,
+    }
+
+
+def _grocery_store_address(location):
+    address = str(location.get('address') or '').strip()
+    state = str(location.get('state') or '').strip()
+    state_names = {state.casefold()}
+    if state.upper() in _US_STATE_NAMES:
+        state_names.add(_US_STATE_NAMES[state.upper()].casefold())
+    if address.casefold() in state_names:
+        address = ''
+    if not address:
+        address = ', '.join(
+            str(location[field]) for field in ('city', 'state', 'postal_code') if location.get(field)
+        )
+    if address.casefold() in state_names:
+        address = ''
+    return _format_restaurant_address(address)
+
+
+def _list_grocery_stores_answer(db, question, brand, session_id):
+    def routed(text, stores=None, key=''):
+        return {
+            'id': f'grocery-store-list-{key or "unknown"}',
+            'point_id': f'grocery-store-list-{key or "unknown"}',
+            'question': question,
+            'text': text,
+            'url': '',
+            'source': 'router',
+            'score': 1.0,
+            'routerFunction': 'List Grocer Stores',
+            'key': key,
+            'directionsList': stores or [],
+        }
+
+    if brand is None:
+        return routed('Please name a grocery brand so I can list its nearest stores.')
+    if not session_id:
+        return routed('I need a recent location to list nearby grocery stores.', key=brand)
+
+    try:
+        current_row = db.execute('''
+            SELECT latitude, longitude
+            FROM user_location_events
+            WHERE session_id=? AND latitude IS NOT NULL AND longitude IS NOT NULL
+              AND recorded_at >= datetime('now', '-10 minutes')
+            ORDER BY id DESC
+            LIMIT 1
+        ''', (session_id,)).fetchone()
+    except sqlite3.OperationalError:
+        current_row = None
+    if not current_row:
+        return routed('I need a recent location to list nearby grocery stores.', key=brand)
+
+    locations = _grocery_locations_from_db(db, brand)
+    if not locations:
+        brand_name = next(
+            (item['names'][0] for item in _GROCERY_STORE_CATALOG if item['slug'] == brand),
+            'grocery store',
+        )
+        return routed(f'I do not have imported {brand_name} locations available to list yet.', key=brand)
+
+    current = (current_row[0], current_row[1])
+    ranked = sorted(
+        (
+            (_distance_miles(current, (location['latitude'], location['longitude'])), location)
+            for candidate_brand, location in locations if candidate_brand == brand
+        ),
+        key=lambda item: item[0],
+    )[:5]
+    brand_name = next(
+        (item['names'][0] for item in _GROCERY_STORE_CATALOG if item['slug'] == brand),
+        'grocery store',
+    )
+    stores = []
+    for number, (distance, location) in enumerate(ranked, 1):
+        name = str(location.get('name') or brand_name)
+        address = _grocery_store_address(location)
+        stores.append({
+            'number': number,
+            'name': name,
+            'address': address,
+            'latitude': location['latitude'],
+            'longitude': location['longitude'],
+            'distance_miles': round(distance, 1),
+        })
+
+    db.execute('DELETE FROM grocery_store_lists WHERE session_id = ?', (session_id,))
+    db.executemany(
+        '''
+        INSERT INTO grocery_store_lists(session_id, position, brand, location_json)
+        VALUES (?, ?, ?, ?)
+        ''',
+        [
+            (session_id, store['number'], brand, json.dumps(store, ensure_ascii=False))
+            for store in stores
+        ],
+    )
+    text = f'Here are the {len(stores)} nearest {brand_name} grocery stores:'
+    for store in stores:
+        address = store['address'] or 'Address not available'
+        text += (
+            f"\n{store['number']}. {store['name']} — "
+            f"{store['distance_miles']:.1f} miles away — {address}"
+        )
+    text += '\nChoose a store below or ask, “Show me directions for 1.”'
+    return routed(text, stores, brand)
+
+
+def _show_number_direction_answer(db, question, number, session_id):
+    def routed(text, direction=None):
+        return {
+            'id': f'show-number-direction-{number}',
+            'point_id': f'show-number-direction-{number}',
+            'question': question,
+            'text': text,
+            'url': '',
+            'source': 'router',
+            'score': 1.0,
+            'routerFunction': 'Show Number Direction',
+            'key': number,
+            'directions': direction,
+        }
+
+    if not session_id:
+        return routed('I cannot find a numbered grocery list for this chat. Ask for a grocery-store list first.')
+    rows = db.execute('''
+        SELECT position, location_json
+        FROM grocery_store_lists
+        WHERE session_id = ?
+        ORDER BY position
+    ''', (session_id,)).fetchall()
+    if not rows:
+        return routed('I do not have a numbered grocery-store list for this chat. Ask for a grocery-store list first.')
+    if number < 1 or number > len(rows):
+        return routed(f'Choose a store number from 1 through {len(rows)} in your latest grocery-store list.')
+
+    position, location_json = next(row for row in rows if row[0] == number)
+    direction = json.loads(location_json)
+    address = direction.get('address') or 'address unavailable'
+    return routed(
+        f"Opening directions for number {position}: {direction['name']}, {address}.",
+        direction,
+    )
+
+
 def _decode_json(value, fallback):
     try:
         return json.loads(value) if value else fallback
@@ -1163,9 +1513,28 @@ def resolve_routed_answer(topic, question, path=None, session_id=None, sources=N
         with sqlite3.connect(path) as db:
             route_names = [row[0] for row in db.execute('SELECT name FROM routerFunctions ORDER BY id')]
             registered_routes = {str(name).strip().casefold() for name in route_names}
+            if ('list grocer stores' in registered_routes
+                    and _LIST_GROCERY_STORES.search(question)):
+                return _list_grocery_stores_answer(
+                    db, question, _grocery_store_from_question(question), session_id,
+                )
+            direction_number = _show_number_direction_number(question)
+            if 'show number direction' in registered_routes and direction_number is not None:
+                return _show_number_direction_answer(
+                    db, question, direction_number, session_id,
+                )
             for source in sources or ():
                 source_route = str(source.get('routerFunction', '')).strip().casefold()
+                if source_route == 'closest grocery store' and _CLOSEST_GROCERY_STORE.search(question):
+                    brand = _grocery_store_from_question(question)
+                    source_key = str(source.get('key') or '').strip()
+                    if brand is None and source_key in _GROCERY_STORE_SLUGS:
+                        brand = source_key
+                    if brand is not None or _GROCERY_CONTEXT.search(question) or source_key in _GROCERY_STORE_SLUGS:
+                        return _closest_grocery_store_answer(db, question, brand, session_id)
                 if source_route == 'closest department store' and _CLOSEST_DEPARTMENT_STORE.search(question):
+                    if _GROCERY_CONTEXT.search(question):
+                        continue
                     brand = _department_store_from_question(question)
                     source_key = str(source.get('key') or '').strip()
                     if brand is None and source_key in _DEPARTMENT_STORE_SLUGS:
@@ -1210,6 +1579,11 @@ def resolve_routed_answer(topic, question, path=None, session_id=None, sources=N
                         'routerFunction': 'Closest Restaurant',
                         'key': '',
                     }
+            if ('closest grocery store' in registered_routes
+                    and _CLOSEST_GROCERY_STORE.search(question)
+                    and _GROCERY_CONTEXT.search(question)):
+                brand = _grocery_store_from_question(question)
+                return _closest_grocery_store_answer(db, question, brand, session_id)
             if ('closest department store' in registered_routes
                     and _CLOSEST_DEPARTMENT_STORE.search(question)):
                 brand = _department_store_from_question(question)
@@ -1219,7 +1593,7 @@ def resolve_routed_answer(topic, question, path=None, session_id=None, sources=N
                     and re.search(r'\bdepartment\s+stores?\b', str(source.get('question', '')), re.I)
                     for source in sources or ()
                 )
-                if brand or department_context or source_context:
+                if (brand or department_context or source_context) and not _GROCERY_CONTEXT.search(question):
                     return _closest_department_store_answer(db, question, brand, session_id)
             for route_name in route_names:
                 handler = _ROUTE_HANDLERS.get(str(route_name).strip().casefold())

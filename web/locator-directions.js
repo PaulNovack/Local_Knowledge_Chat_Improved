@@ -86,10 +86,14 @@
   }
 
   window.prepareLocatorDirections = (question, enabled, waitForInitialPlayback = false) => {
-    if (!/\b(?:closest|nearest|newest|near me|nearby)\b/i.test(question)) return null;
+    const listRequest = /\b(?:show|give|display|list)\b.*\b(?:list|grocery|groceries|supermarket)\b/i.test(question);
+    const numberRequest = /\b(?:show|open|give)\b.*?\bdirections?\b.*?\b(?:for|to)\s+(?:number\s+|#\s*)?(?:\d+|one|two|three|four|five|six|seven|eight|nine|ten)\b/i.test(question);
+    if (!listRequest && !numberRequest
+      && !/\b(?:closest|nearest|newest|near me|nearby)\b/i.test(question)) return null;
     if (latestController && latestController.timer !== null) window.clearTimeout(latestController.timer);
     latestController = {
-      autoOpen: Boolean(enabled), matched: false, finished: false,
+      autoOpen: numberRequest || (!listRequest && Boolean(enabled)),
+      immediateOpen: numberRequest, matched: false, finished: false,
       audioStartedAt: null, url: null, timer: null,
       waitForInitialPlayback: Boolean(waitForInitialPlayback),
       initialPlaybackFinished: false, playbackSignalSent: false,
@@ -268,6 +272,42 @@
 
   window.resolveLocatorDirections = (controller, sources, card) => {
     if (!controller || controller.matched) return;
+    const listedDestinations = (Array.isArray(sources) ? sources : [])
+      .flatMap(source => Array.isArray(source?.directionsList) ? source.directionsList : []);
+    if (listedDestinations.length) {
+      controller.matched = true;
+      const list = document.createElement('ol');
+      list.className = 'locator-directions-list';
+      for (const destination of listedDestinations) {
+        const url = mapQuestUrl(destination);
+        const item = document.createElement('li');
+        const name = document.createElement('span');
+        const storeName = String(destination.name || '');
+        const duplicateNumber = storeName.match(/^\s*(\d+)[.)]\s*/);
+        const displayName = duplicateNumber?.[1] === String(destination.number)
+          ? storeName.slice(duplicateNumber[0].length)
+          : storeName;
+        name.textContent = displayName;
+        item.append(name);
+        if (url) {
+          const link = document.createElement('a');
+          link.href = url;
+          link.className = 'locator-directions-link';
+          link.textContent = 'Open directions';
+          link.addEventListener('click', event => {
+            event.preventDefault();
+            controller.destination = destination;
+            window.openLocatorDirections(controller);
+          });
+          item.append(' · ', link);
+        }
+        list.append(item);
+      }
+      const answerBody = card?.querySelector('.body');
+      if (answerBody) answerBody.after(list);
+      else card?.append(list);
+      return;
+    }
     const destination = (Array.isArray(sources) ? sources : [])
       .map(source => source?.directions || source?.location || source)
       .find(candidate => candidate && directionsUrl(candidate));
@@ -290,7 +330,8 @@
       else card.prepend(link);
     }
 
-    scheduleMapOpen(controller);
+    if (controller.immediateOpen) window.openLocatorDirections(controller);
+    else scheduleMapOpen(controller);
   };
 
   window.finishLocatorDirections = (controller, responseId) => {

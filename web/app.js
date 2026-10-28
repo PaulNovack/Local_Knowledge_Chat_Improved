@@ -11,7 +11,7 @@ const introStylesheet = document.createElement('link');
 introStylesheet.rel = 'stylesheet';
 introStylesheet.href = '/cdla-intro.css';
 document.head.append(introStylesheet);
-const showAskAndTrain = location.origin === 'http://127.0.0.1:8000';
+const showAskAndTrain = ['localhost', '127.0.0.1'].includes(location.hostname.toLowerCase());
 const training = {
   form: $('train-form'),
   question: $('train-question'),

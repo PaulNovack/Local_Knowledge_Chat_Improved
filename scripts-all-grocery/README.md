@@ -39,5 +39,17 @@ The default source cache and `grocery_extract_report.json` are under `scripts-al
 
 Only OSM objects tagged with a supported `shop` value and a configured grocery brand are included. OSM coverage and current store details are not guaranteed. Data is from OpenStreetMap contributors under the ODbL; Geofabrik state extracts are used, not Overpass.
 
+## Ask and Train routing
+
+`grocery_questions.jsonl` contains one `Closest Grocery Store` training question for each configured brand. Import it into the CDLA collection with:
+
+```sh
+python -m backend.add_records scripts-all-grocery/grocery_questions.jsonl --topic CDLA
+```
+
+This adds the records to `topic_data/user_additions/CDLA.jsonl` and indexes them in the CDLA Qdrant collection. Ask and Train exposes `Closest Grocery Store` as a router function; the key selects the matching `grocery_<slug>` table and uses recent location history to choose a store in the direction of travel when possible.
+
+The `List Grocer Stores` router returns up to five nearby locations for a named brand, with a directions link for each. The `Show Number Direction` router opens the numbered location from the latest list in the same chat session; it accepts numeric digits and spoken number words.
+
 - OpenStreetMap: https://www.openstreetmap.org/copyright
 - Geofabrik extracts: https://download.geofabrik.de/north-america/us.html

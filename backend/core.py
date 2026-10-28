@@ -296,10 +296,22 @@ def ensure_chat_history_db(path=None):
             CREATE INDEX IF NOT EXISTS idx_user_location_events_session_time
             ON user_location_events(session_id, recorded_at)
         ''')
+        db.execute('''
+            CREATE TABLE IF NOT EXISTS grocery_store_lists (
+                session_id TEXT NOT NULL,
+                position INTEGER NOT NULL CHECK (position BETWEEN 1 AND 5),
+                brand TEXT NOT NULL,
+                location_json TEXT NOT NULL,
+                created_at TEXT NOT NULL DEFAULT (CURRENT_TIMESTAMP),
+                PRIMARY KEY (session_id, position)
+            )
+        ''')
         db.executemany(
             'INSERT OR IGNORE INTO routerFunctions(name) VALUES (?)',
                 [('',), ('Pre-trip Text',), ('Pre-trip Video',), ('Closest Loves',), ('Closest Roadys',), ('Closest McDonalds',),
-               ('Closest Restaurant',), ('Closest Department Store',), ('Supported Restaurants',), ('Open Directions',),
+               ('Closest Restaurant',), ('Closest Department Store',), ('Closest Grocery Store',),
+               ('List Grocer Stores',), ('Show Number Direction',),
+               ('Supported Restaurants',), ('Open Directions',),
                ('Close Directions',)],
         )
     ensure_topic_data_table(path)
