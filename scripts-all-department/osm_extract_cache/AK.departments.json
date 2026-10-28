@@ -1,0 +1,483 @@
+{
+  "schema": "geofabrik-departments-v1-3efb8cbbd450c05f",
+  "source": "https://download.geofabrik.de/north-america/us/alaska-latest.osm.pbf",
+  "source_md5": "debc24d3ab56b7e388839c82f32be9e8",
+  "processed_utc": "2026-10-27T17:24:58.318274+00:00",
+  "brands": {
+    "macys": [],
+    "bloomingdales": [],
+    "kohls": [
+      {
+        "type": "way",
+        "id": 182788248,
+        "tags": {
+          "brand": "Kohl's",
+          "brand:wikidata": "Q967265",
+          "building": "retail",
+          "name": "Kohl's",
+          "shop": "department_store",
+          "website": "https://www.kohls.com/stores/ak/anchorage-1325.shtml"
+        },
+        "center": {
+          "lat": 61.227928399999996,
+          "lon": -149.74674655
+        }
+      }
+    ],
+    "jcpenney": [
+      {
+        "type": "node",
+        "id": 2889296148,
+        "tags": {
+          "brand": "JCPenney",
+          "brand:wikidata": "Q920037",
+          "name": "JCPenney",
+          "official_name": "J.C. Penney Company",
+          "shop": "department_store"
+        },
+        "lat": 61.2171939,
+        "lon": -149.890353
+      }
+    ],
+    "nordstrom": [],
+    "nordstrom_rack": [
+      {
+        "type": "node",
+        "id": 7603230058,
+        "tags": {
+          "brand": "Nordstrom Rack",
+          "brand:wikidata": "Q21463374",
+          "name": "Nordstrom Rack",
+          "shop": "clothes",
+          "website": "https://stores.nordstromrack.com/us/ak/anchorage/680-e-northern-lights-blvd"
+        },
+        "lat": 61.1947971,
+        "lon": -149.8705812
+      }
+    ],
+    "dillards": [],
+    "belk": [],
+    "boscovs": [],
+    "von_maur": [],
+    "neiman_marcus": [],
+    "bergdorf_goodman": [],
+    "saks_fifth_avenue": [],
+    "saks_off_5th": [],
+    "tj_maxx": [],
+    "marshalls": [],
+    "ross": [],
+    "burlington": [
+      {
+        "type": "node",
+        "id": 11509563367,
+        "tags": {
+          "alt_name": "Burlington Coat Factory",
+          "brand": "Burlington",
+          "brand:wikidata": "Q4999220",
+          "name": "Burlington",
+          "shop": "department_store"
+        },
+        "lat": 61.2274219,
+        "lon": -149.7460013
+      },
+      {
+        "type": "way",
+        "id": 465318139,
+        "tags": {
+          "alt_name": "Burlington Coat Factory",
+          "brand": "Burlington",
+          "brand:wikidata": "Q4999220",
+          "building": "yes",
+          "name": "Burlington",
+          "shop": "department_store",
+          "source": "Bing"
+        },
+        "center": {
+          "lat": 61.142863250000005,
+          "lon": -149.86320754999997
+        }
+      }
+    ],
+    "bealls": [],
+    "bealls_outlets": [],
+    "gabes": [],
+    "sierra": [],
+    "ollies": [],
+    "big_lots": [],
+    "target": [
+      {
+        "type": "node",
+        "id": 8663800149,
+        "tags": {
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "check_date": "2024-07-05",
+          "check_date:opening_hours": "2024-07-05",
+          "name": "Target",
+          "opening_hours": "Mo-Su 08:00-22:00",
+          "phone": "+1 907-631-7200",
+          "shop": "department_store",
+          "website": "https://www.target.com/sl/wasilla/2339"
+        },
+        "lat": 61.5779934,
+        "lon": -149.4026825
+      },
+      {
+        "type": "way",
+        "id": 182788279,
+        "tags": {
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "yes",
+          "name": "Target",
+          "shop": "department_store"
+        },
+        "center": {
+          "lat": 61.226363750000004,
+          "lon": -149.7469433
+        }
+      },
+      {
+        "type": "way",
+        "id": 183107542,
+        "tags": {
+          "addr:city": "Anchorage",
+          "addr:country": "US",
+          "addr:housenumber": "150",
+          "addr:postcode": "99515-2673",
+          "addr:state": "AK",
+          "addr:street": "West 100th Avenue",
+          "branch": "Anchorage South",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "retail",
+          "check_date": "2024-07-05",
+          "check_date:opening_hours": "2024-07-05",
+          "description": "sells Alaska grown potatos",
+          "name": "Target",
+          "opening_hours": "Mo-Su 08:00-22:00",
+          "phone": "+1-907-267-7500",
+          "shop": "supermarket",
+          "website": "https://www.target.com/sl/anchorage-south/2372",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 61.12950385,
+          "lon": -149.88045469999997
+        }
+      }
+    ],
+    "walmart": [
+      {
+        "type": "way",
+        "id": 28615011,
+        "tags": {
+          "addr:city": "Anchorage",
+          "addr:country": "US",
+          "addr:housenumber": "3101",
+          "addr:postcode": "99503",
+          "addr:state": "AK",
+          "addr:street": "A Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "operator:wikipedia": "en:Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1-907-563-5900",
+          "ref:walmart": "2070",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/2070-anchorage-ak",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 61.192314100000004,
+          "lon": -149.87964920000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 170069699,
+        "tags": {
+          "addr:city": "Ketchikan",
+          "addr:country": "US",
+          "addr:housenumber": "4230",
+          "addr:postcode": "99901",
+          "addr:state": "AK",
+          "addr:street": "Don King Road",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart",
+          "opening_hours": "Mo-Su 07:00-22:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1-907-247-2156",
+          "ref:walmart": "2710",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "department_store",
+          "website": "https://www.walmart.com/store/2710-ketchikan-ak"
+        },
+        "center": {
+          "lat": 55.3754402,
+          "lon": -131.72054709999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 209450680,
+        "tags": {
+          "addr:city": "Kodiak",
+          "addr:country": "US",
+          "addr:housenumber": "2911",
+          "addr:postcode": "99615",
+          "addr:state": "AK",
+          "addr:street": "Mill Bay Road",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart",
+          "opening_hours": "Mo-Su 07:00-22:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1-907-481-1670",
+          "ref:walmart": "2711",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "department_store",
+          "website": "https://www.walmart.com/store/2711-kodiak-ak"
+        },
+        "center": {
+          "lat": 57.8119554,
+          "lon": -152.36530700000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 230793937,
+        "tags": {
+          "addr:city": "Fairbanks",
+          "addr:country": "US",
+          "addr:housenumber": "537",
+          "addr:postcode": "99701",
+          "addr:state": "AK",
+          "addr:street": "Johansen Expressway",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 07:00-23:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "operator:wikipedia": "en:Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1-907-451-9900",
+          "ref:walmart": "2722",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/2722-fairbanks-ak"
+        },
+        "center": {
+          "lat": 64.85639415,
+          "lon": -147.68944855
+        }
+      },
+      {
+        "type": "way",
+        "id": 243119579,
+        "tags": {
+          "addr:city": "Eagle River",
+          "addr:country": "US",
+          "addr:housenumber": "18600",
+          "addr:postcode": "99577",
+          "addr:state": "AK",
+          "addr:street": "Eagle River Road",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "description": "sells Alaska grown potatoes, lettuce, herbs",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 05:00-01:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1-907-694-9780",
+          "ref:walmart": "2188",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/2188-eagle-river-ak"
+        },
+        "center": {
+          "lat": 61.3091077,
+          "lon": -149.5355856
+        }
+      },
+      {
+        "type": "way",
+        "id": 264694678,
+        "tags": {
+          "addr:city": "Kenai",
+          "addr:country": "US",
+          "addr:housenumber": "10096",
+          "addr:postcode": "99611",
+          "addr:state": "AK",
+          "addr:street": "Kenai Spur Highway",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "building:levels": "1",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 05:00-24:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1-907-395-0971",
+          "ref:walmart": "4474",
+          "roof:levels": "0",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "Bing",
+          "website": "https://www.walmart.com/store/4474-kenai-ak"
+        },
+        "center": {
+          "lat": 60.564178600000005,
+          "lon": -151.22500250000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 298000790,
+        "tags": {
+          "addr:city": "Wasilla",
+          "addr:country": "US",
+          "addr:housenumber": "1350",
+          "addr:postcode": "99654",
+          "addr:state": "AK",
+          "addr:street": "South Seward Meridian Parkway",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 05:00-02:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "operator:wikipedia": "en:Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1-907-376-9780",
+          "ref:walmart": "2074",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/2074-wasilla-ak"
+        },
+        "center": {
+          "lat": 61.56878335,
+          "lon": -149.36502595000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 303613027,
+        "tags": {
+          "addr:city": "Anchorage",
+          "addr:country": "US",
+          "addr:housenumber": "8900",
+          "addr:postcode": "99515",
+          "addr:state": "AK",
+          "addr:street": "Old Seward Highway",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "commercial",
+          "description": "sells Alaska grown potatoes, lettuce, herbs",
+          "diet:kosher": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "operator:wikipedia": "en:Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1-907-344-5300",
+          "ref:walmart": "2071",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "Bing",
+          "website": "https://www.walmart.com/store/2071-anchorage-ak",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 61.14022215,
+          "lon": -149.8700326
+        }
+      },
+      {
+        "type": "way",
+        "id": 567610066,
+        "tags": {
+          "addr:city": "Anchorage",
+          "addr:country": "US",
+          "addr:housenumber": "7405",
+          "addr:postcode": "99504",
+          "addr:state": "AK",
+          "addr:street": "Debarr Road",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "description": "sells Alaska grown potatoes, lettuce, herbs",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1-907-339-9039",
+          "ref:walmart": "4359",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/4359-anchorage-ak"
+        },
+        "center": {
+          "lat": 61.211962549999996,
+          "lon": -149.74322044999997
+        }
+      }
+    ],
+    "sears": [],
+    "century_21": [],
+    "army_air_force_exchange": [],
+    "navy_exchange": []
+  }
+}

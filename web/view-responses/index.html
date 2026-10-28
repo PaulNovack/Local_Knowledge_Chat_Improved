@@ -80,6 +80,37 @@
       white-space: pre-wrap;
       font-size: 15px;
     }
+    .navigation-debug {
+      margin-top: 14px;
+      border-top: 1px solid #e2e0da;
+      color: #435044;
+      font-size: 13px;
+    }
+    .navigation-debug > summary,
+    .navigation-debug-content details > summary {
+      padding: 10px 0;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .navigation-debug-content {
+      overflow-wrap: anywhere;
+      line-height: 1.5;
+    }
+    .navigation-debug-content p { margin: 4px 0 10px; }
+    .navigation-debug-content h3 { margin: 12px 0 6px; font-size: 13px; }
+    .navigation-debug-content ol { padding-left: 22px; }
+    .navigation-debug-content li { margin: 5px 0; }
+    .navigation-debug-content pre {
+      max-height: 320px;
+      overflow: auto;
+      margin: 0 0 10px;
+      padding: 10px;
+      border: 1px solid #ddd8cc;
+      background: #f7f6f2;
+      font: 11px/1.45 ui-monospace, monospace;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+    }
     .response-footer {
       display: flex;
       justify-content: space-between;
@@ -223,6 +254,6 @@
     </main>
   </div>
   <script src="/geolocation.js" defer></script>
-  <script src="/view-responses/app.js?v=20261023-route-metadata" defer></script>
+  <script src="/view-responses/app.js?v=20261026-navigation-debug" defer></script>
 </body>
 </html>

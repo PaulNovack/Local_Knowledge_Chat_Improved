@@ -176,6 +176,19 @@ function chatWsUrl() {
 $('form').addEventListener('submit', event => {
   event.preventDefault(); const question = $('question').value.trim();
   if (!question || busy) return;
+  const directionsCommand = window.handleLocatorDirectionsCommand?.(question);
+  if (directionsCommand) {
+    const messages = {
+      opened: 'Opening directions for the displayed location. Close the map to return to voice chat.',
+      'no-location': 'There is no displayed location with directions to open.',
+      closed: 'Directions closed.',
+      'not-open': 'Directions are not open.',
+      ignored: '',
+    };
+    status(messages[directionsCommand]);
+    $('question').value = '';
+    return;
+  }
   if (window.handleStepVideoRequest?.(question)) {
     $('question').value = '';
     return;
@@ -210,7 +223,7 @@ $('form').addEventListener('submit', event => {
       if (data.type === 'done') {
         answer.body.classList.remove('thinking');
         record.complete = true;
-        window.finishLocatorDirections?.(record.directionsWindow);
+        window.finishLocatorDirections?.(record.directionsWindow, data.response_id);
         status('Ready for your next question.');
         if (training.form && training.question && training.answer) {
           training.question.value = question;

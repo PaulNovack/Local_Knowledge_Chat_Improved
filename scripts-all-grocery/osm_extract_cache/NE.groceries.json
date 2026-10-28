@@ -1,0 +1,3734 @@
+{
+  "schema": "geofabrik-groceries-v1-dad3fe72508f573f",
+  "source": "https://download.geofabrik.de/north-america/us/nebraska-latest.osm.pbf",
+  "source_md5": "ea62ef16172d9a50d1c86ce19105b504",
+  "processed_utc": "2026-10-27T16:47:42.637376+00:00",
+  "brands": {
+    "walmart": [
+      {
+        "type": "node",
+        "id": 2179474470,
+        "tags": {
+          "addr:housenumber": "2101",
+          "addr:postcode": "68401",
+          "addr:street": "South 11th Street",
+          "name": "Walmart Grocery",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket"
+        },
+        "lat": 40.6584025,
+        "lon": -95.8559782
+      },
+      {
+        "type": "relation",
+        "id": 9704909,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:country": "US",
+          "addr:housenumber": "6304",
+          "addr:postcode": "68134",
+          "addr:state": "NE",
+          "addr:street": "North 99th Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail;yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "operator:wikipedia": "en:Walmart",
+          "phone": "+1-402-492-9344",
+          "ref:walmart": "1637",
+          "shop": "supermarket",
+          "type": "multipolygon",
+          "website": "https://www.walmart.com/store/1637-omaha-ne"
+        },
+        "center": {
+          "lat": 41.315121250000004,
+          "lon": -96.0683889
+        }
+      },
+      {
+        "type": "relation",
+        "id": 13690888,
+        "tags": {
+          "addr:city": "Lincoln",
+          "addr:country": "US",
+          "addr:housenumber": "8700",
+          "addr:postcode": "68526",
+          "addr:state": "NE",
+          "addr:street": "Andermatt Drive",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "phone": "+1-402-484-6166",
+          "ref:walmart": "3278",
+          "shop": "supermarket",
+          "source": "bing",
+          "type": "multipolygon",
+          "website": "https://www.walmart.com/store/3278-lincoln-ne"
+        },
+        "center": {
+          "lat": 40.7364178,
+          "lon": -96.59882714999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 77722209,
+        "tags": {
+          "addr:city": "Kearney",
+          "addr:country": "US",
+          "addr:housenumber": "5411",
+          "addr:postcode": "68847",
+          "addr:state": "NE",
+          "addr:street": "North 2nd Avenue",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "operator:wikipedia": "en:Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1-308-234-8448",
+          "ref": "598",
+          "ref:walmart": "598",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/598-kearney-ne"
+        },
+        "center": {
+          "lat": 40.7264963,
+          "lon": -99.08090345
+        }
+      },
+      {
+        "type": "way",
+        "id": 117162734,
+        "tags": {
+          "addr:city": "Scottsbluff",
+          "addr:country": "US",
+          "addr:housenumber": "3322",
+          "addr:postcode": "69361",
+          "addr:state": "NE",
+          "addr:street": "Avenue I",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 308-632-2666",
+          "ref": "867",
+          "ref:walmart": "867",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/867-scottsbluff-ne"
+        },
+        "center": {
+          "lat": 41.8797228,
+          "lon": -103.67888270000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 140486224,
+        "tags": {
+          "addr:city": "Hastings",
+          "addr:country": "US",
+          "addr:housenumber": "3803",
+          "addr:postcode": "68901",
+          "addr:state": "NE",
+          "addr:street": "Osborne Drive West",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-462-6000",
+          "ref": "1460",
+          "ref:walmart": "1460",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source:outline": "bing",
+          "website": "https://www.walmart.com/store/1460-hastings-ne"
+        },
+        "center": {
+          "lat": 40.62427505,
+          "lon": -98.3858467
+        }
+      },
+      {
+        "type": "way",
+        "id": 142453306,
+        "tags": {
+          "addr:city": "York",
+          "addr:country": "US",
+          "addr:housenumber": "101",
+          "addr:postcode": "68467",
+          "addr:state": "NE",
+          "addr:street": "East David Drive",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "shop",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-362-3366",
+          "ref": "350",
+          "ref:walmart": "350",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/350-york-ne"
+        },
+        "center": {
+          "lat": 40.827763149999996,
+          "lon": -97.59328740000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 170765505,
+        "tags": {
+          "addr:city": "Papillion",
+          "addr:country": "US",
+          "addr:housenumber": "8525",
+          "addr:postcode": "68133",
+          "addr:state": "NE",
+          "addr:street": "South 71st Plaza",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-597-8977",
+          "ref": "1671",
+          "ref:walmart": "1671",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/1671-papillion-ne"
+        },
+        "center": {
+          "lat": 41.1743963,
+          "lon": -96.02011085000004
+        }
+      },
+      {
+        "type": "way",
+        "id": 180669039,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:country": "US",
+          "addr:housenumber": "18201",
+          "addr:postcode": "68130",
+          "addr:state": "NE",
+          "addr:street": "Wright Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-330-4400",
+          "ref": "3267",
+          "ref:walmart": "3267",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "bing",
+          "website": "https://www.walmart.com/store/3267-omaha-ne"
+        },
+        "center": {
+          "lat": 41.2314236,
+          "lon": -96.19882819999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 183939862,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:country": "US",
+          "addr:housenumber": "12850",
+          "addr:postcode": "68137",
+          "addr:state": "NE",
+          "addr:street": "L Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "layer": "2",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-697-1054",
+          "ref": "5361",
+          "ref:walmart": "5361",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "bing",
+          "website": "https://www.walmart.com/store/5361-omaha-ne"
+        },
+        "center": {
+          "lat": 41.21479095,
+          "lon": -96.11442884999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 191659435,
+        "tags": {
+          "addr:city": "Sidney",
+          "addr:country": "US",
+          "addr:housenumber": "3001",
+          "addr:postcode": "69162",
+          "addr:state": "NE",
+          "addr:street": "Silverberg Drive",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 308-254-9138",
+          "ref": "5170",
+          "ref:walmart": "5170",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/5170-sidney-ne"
+        },
+        "center": {
+          "lat": 41.1167218,
+          "lon": -102.94470990000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 195040388,
+        "tags": {
+          "addr:city": "Lincoln",
+          "addr:country": "US",
+          "addr:housenumber": "3400",
+          "addr:postcode": "68507",
+          "addr:state": "NE",
+          "addr:street": "North 85th Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-22:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1-402-466-0447",
+          "ref": "3823",
+          "ref:walmart": "3823",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "bing",
+          "website": "https://www.walmart.com/store/3823-lincoln-ne"
+        },
+        "center": {
+          "lat": 40.848838799999996,
+          "lon": -96.60173375
+        }
+      },
+      {
+        "type": "way",
+        "id": 197626744,
+        "tags": {
+          "addr:city": "Lincoln",
+          "addr:country": "US",
+          "addr:housenumber": "4700",
+          "addr:postcode": "68521",
+          "addr:state": "NE",
+          "addr:street": "North 27th Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "operator:wikipedia": "en:Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402 438 4377",
+          "ref": "1943",
+          "ref:walmart": "1943",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "Bing",
+          "website": "https://www.walmart.com/store/1943-lincoln-ne"
+        },
+        "center": {
+          "lat": 40.858235449999995,
+          "lon": -96.67760535000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 207693808,
+        "tags": {
+          "addr:city": "Nebraska City",
+          "addr:country": "US",
+          "addr:housenumber": "2101",
+          "addr:postcode": "68410",
+          "addr:state": "NE",
+          "addr:street": "South 11th Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-874-9080",
+          "ref": "4209",
+          "ref:walmart": "4209",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "bing",
+          "website": "https://www.walmart.com/store/4209-nebraska-city-ne"
+        },
+        "center": {
+          "lat": 40.6581413,
+          "lon": -95.85600765000004
+        }
+      },
+      {
+        "type": "way",
+        "id": 213025577,
+        "tags": {
+          "addr:city": "Seward",
+          "addr:country": "US",
+          "addr:housenumber": "1326",
+          "addr:postcode": "68434",
+          "addr:state": "NE",
+          "addr:street": "280th",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "building:levels": "1",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-643-6631",
+          "ref": "885",
+          "ref:walmart": "885",
+          "roof:levels": "0",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "bing",
+          "website": "https://www.walmart.com/store/885-seward-ne"
+        },
+        "center": {
+          "lat": 40.876593299999996,
+          "lon": -97.09874735000005
+        }
+      },
+      {
+        "type": "way",
+        "id": 246562374,
+        "tags": {
+          "addr:city": "Gretna",
+          "addr:country": "US",
+          "addr:housenumber": "11350",
+          "addr:postcode": "68028",
+          "addr:state": "NE",
+          "addr:street": "Wickersham Boulevard",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-881-3530",
+          "ref": "4600",
+          "ref:walmart": "4600",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "Bing",
+          "website": "https://www.walmart.com/store/4600-gretna-ne"
+        },
+        "center": {
+          "lat": 41.1433716,
+          "lon": -96.16573675000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 310716015,
+        "tags": {
+          "addr:city": "South Sioux City",
+          "addr:country": "US",
+          "addr:housenumber": "1601",
+          "addr:postcode": "68776",
+          "addr:state": "NE",
+          "addr:street": "Cornhusker Drive",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "fixme:atp": "check if location still exists; no corresponding ATP location found",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-494-8858",
+          "ref:walmart": "1332",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/1332/south-sioux%20city-ne/whats-new"
+        },
+        "center": {
+          "lat": 42.4734782,
+          "lon": -96.43013989999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 311471340,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:country": "US",
+          "addr:housenumber": "5018",
+          "addr:postcode": "68104",
+          "addr:state": "NE",
+          "addr:street": "Ames Avenue",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 05:00-23:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-970-9301",
+          "ref:walmart": "3151",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/3151-omaha-ne"
+        },
+        "center": {
+          "lat": 41.302132650000004,
+          "lon": -95.99147664999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 322583867,
+        "tags": {
+          "addr:city": "Bellevue",
+          "addr:country": "US",
+          "addr:housenumber": "10504",
+          "addr:postcode": "68123",
+          "addr:state": "NE",
+          "addr:street": "South 15th Street",
+          "alt_name": "Wal-Mart",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo, We-Su 06:00-23:00; Tu 07:00-23:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-292-0156",
+          "ref": "2847",
+          "ref:walmart": "2847",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/2847-bellevue-ne",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 41.15574,
+          "lon": -95.93668350000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 324617624,
+        "tags": {
+          "addr:city": "Bellevue",
+          "addr:country": "US",
+          "addr:housenumber": "2109",
+          "addr:postcode": "68123",
+          "addr:state": "NE",
+          "addr:street": "Towne Center Drive",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-686-2040",
+          "ref": "3154",
+          "ref:walmart": "3154",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "short_name": "Walmart",
+          "website": "https://www.walmart.com/store/3154-bellevue-ne"
+        },
+        "center": {
+          "lat": 41.11623205,
+          "lon": -95.94280950000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 343553998,
+        "tags": {
+          "addr:city": "Lincoln",
+          "addr:country": "US",
+          "addr:housenumber": "2500",
+          "addr:postcode": "68512",
+          "addr:state": "NE",
+          "addr:street": "Jamie Lane",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-975-6171",
+          "ref": "2432",
+          "ref:walmart": "2432",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/2432-lincoln-ne"
+        },
+        "center": {
+          "lat": 40.72946425000001,
+          "lon": -96.68509704999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 402853689,
+        "tags": {
+          "addr:city": "La Vista",
+          "addr:country": "US",
+          "addr:housenumber": "9460",
+          "addr:postcode": "68128",
+          "addr:state": "NE",
+          "addr:street": "Giles Road",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "building:levels": "1",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-513-4207",
+          "ref": "3173",
+          "ref:walmart": "3173",
+          "roof:levels": "0",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/3173-la-vista-ne"
+        },
+        "center": {
+          "lat": 41.17767095,
+          "lon": -96.05992230000004
+        }
+      },
+      {
+        "type": "way",
+        "id": 403406067,
+        "tags": {
+          "addr:city": "McCook",
+          "addr:country": "US",
+          "addr:housenumber": "1902",
+          "addr:postcode": "69001",
+          "addr:state": "NE",
+          "addr:street": "West B Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 308-345-1800",
+          "ref": "790",
+          "ref:walmart": "790",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "Mapbox",
+          "website": "https://www.walmart.com/store/790-mccook-ne"
+        },
+        "center": {
+          "lat": 40.1987293,
+          "lon": -100.65227170000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 406363139,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:country": "US",
+          "addr:housenumber": "1606",
+          "addr:postcode": "68124",
+          "addr:state": "NE",
+          "addr:street": "South 72nd Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "sunrise-sunset",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-393-9560",
+          "ref": "4358",
+          "ref:walmart": "4358",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "Bing",
+          "website": "https://www.walmart.com/store/4358-omaha-ne"
+        },
+        "center": {
+          "lat": 41.244084650000005,
+          "lon": -96.02550295000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 413250461,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:country": "US",
+          "addr:housenumber": "2451",
+          "addr:postcode": "68134",
+          "addr:state": "NE",
+          "addr:street": "North 90th Street",
+          "brand": "Walmart Neighborhood Market",
+          "brand:wikidata": "Q7963529",
+          "building": "retail",
+          "name": "Walmart Neighborhood Market",
+          "old_name": "Food City",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-513-4030",
+          "ref": "3152",
+          "ref:walmart": "3152",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "Bing",
+          "website": "https://www.walmart.com/store/3152-omaha-ne"
+        },
+        "center": {
+          "lat": 41.280947999999995,
+          "lon": -96.05130165000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 440807036,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:country": "US",
+          "addr:housenumber": "6710",
+          "addr:postcode": "68135",
+          "addr:state": "NE",
+          "addr:street": "South 167th Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-609-5703",
+          "ref": "3153",
+          "ref:walmart": "3153",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/3153-omaha-ne"
+        },
+        "center": {
+          "lat": 41.1918876,
+          "lon": -96.17657155
+        }
+      },
+      {
+        "type": "way",
+        "id": 463923384,
+        "tags": {
+          "addr:city": "Chadron",
+          "addr:country": "US",
+          "addr:housenumber": "510",
+          "addr:postcode": "69337",
+          "addr:state": "NE",
+          "addr:street": "Linden Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 308-432-6999",
+          "ref": "2579",
+          "ref:walmart": "2579",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/2579-chadron-ne",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 42.8270962,
+          "lon": -103.02213949999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 468933798,
+        "tags": {
+          "addr:city": "Fairbury",
+          "addr:country": "US",
+          "addr:housenumber": "2831",
+          "addr:postcode": "68352",
+          "addr:state": "NE",
+          "addr:street": "Highway 15",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-729-3394",
+          "ref": "418",
+          "ref:walmart": "418",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/418-fairbury-ne"
+        },
+        "center": {
+          "lat": 40.1627263,
+          "lon": -97.1753635
+        }
+      },
+      {
+        "type": "way",
+        "id": 477069920,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:country": "US",
+          "addr:housenumber": "360",
+          "addr:postcode": "68131",
+          "addr:state": "NE",
+          "addr:street": "North Saddle Creek Road",
+          "brand": "Walmart Neighborhood Market",
+          "brand:wikidata": "Q7963529",
+          "building": "supermarket",
+          "building:levels": "2",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-970-6491",
+          "ref": "4139",
+          "ref:walmart": "4139",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/4139-omaha-ne"
+        },
+        "center": {
+          "lat": 41.26256155,
+          "lon": -95.98123810000004
+        }
+      },
+      {
+        "type": "way",
+        "id": 489024856,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:country": "US",
+          "addr:housenumber": "13105",
+          "addr:postcode": "68164",
+          "addr:state": "NE",
+          "addr:street": "Birch Drive",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-686-2055",
+          "ref": "4138",
+          "ref:walmart": "4138",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/4138-omaha-ne"
+        },
+        "center": {
+          "lat": 41.290905,
+          "lon": -96.11761445000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 505169769,
+        "tags": {
+          "addr:city": "Fremont",
+          "addr:country": "US",
+          "addr:housenumber": "3010",
+          "addr:postcode": "68025",
+          "addr:state": "NE",
+          "addr:street": "East 23rd Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-727-0414",
+          "ref": "776",
+          "ref:walmart": "776",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "Bing",
+          "website": "https://www.walmart.com/store/776-fremont-ne"
+        },
+        "center": {
+          "lat": 41.45331005,
+          "lon": -96.45765725000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 520445994,
+        "tags": {
+          "addr:city": "Columbus",
+          "addr:country": "US",
+          "addr:housenumber": "818",
+          "addr:postcode": "68601",
+          "addr:state": "NE",
+          "addr:street": "East 23rd Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-564-1668",
+          "ref": "774",
+          "ref:walmart": "774",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/774-columbus-ne"
+        },
+        "center": {
+          "lat": 41.4412556,
+          "lon": -97.31704739999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 536210459,
+        "tags": {
+          "addr:city": "Ogallala",
+          "addr:country": "US",
+          "addr:housenumber": "201",
+          "addr:postcode": "69153",
+          "addr:state": "NE",
+          "addr:street": "Pony Express Lane",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 308-284-0143",
+          "ref": "7129",
+          "ref:walmart": "7129",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/7129/ogallala-ne"
+        },
+        "center": {
+          "lat": 41.1136124,
+          "lon": -101.71900685000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 549332908,
+        "tags": {
+          "addr:city": "Grand Island",
+          "addr:country": "US",
+          "addr:housenumber": "3501",
+          "addr:postcode": "68803",
+          "addr:state": "NE",
+          "addr:street": "South Locust Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 308-381-4970",
+          "ref": "3395",
+          "ref:walmart": "3395",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/3395-grand-island-ne"
+        },
+        "center": {
+          "lat": 40.8855617,
+          "lon": -98.33615194999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 593154777,
+        "tags": {
+          "addr:city": "Beatrice",
+          "addr:country": "US",
+          "addr:housenumber": "3620",
+          "addr:postcode": "68310",
+          "addr:state": "NE",
+          "addr:street": "North 6th Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "check_date": "2025-09-15",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-01:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-228-1244",
+          "ref": "2784",
+          "ref:walmart": "2784",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "toilets": "yes",
+          "website": "https://www.walmart.com/store/2784-beatrice-ne"
+        },
+        "center": {
+          "lat": 40.303581199999996,
+          "lon": -96.74412660000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 630945657,
+        "tags": {
+          "addr:city": "Norfolk",
+          "addr:country": "US",
+          "addr:housenumber": "2400",
+          "addr:postcode": "68701",
+          "addr:state": "NE",
+          "addr:street": "West Pasewalk Avenue",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-371-5452",
+          "ref": "645",
+          "ref:walmart": "645",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/645-norfolk-ne",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 42.0241186,
+          "lon": -97.44538184999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 632056736,
+        "tags": {
+          "addr:city": "Lexington",
+          "addr:country": "US",
+          "addr:housenumber": "200",
+          "addr:postcode": "68850",
+          "addr:state": "NE",
+          "addr:street": "Frontier Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "building:levels": "2",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 308-324-7427",
+          "ref": "637",
+          "ref:walmart": "637",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/637-lexington-ne"
+        },
+        "center": {
+          "lat": 40.7447553,
+          "lon": -99.74245244999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 632330523,
+        "tags": {
+          "addr:city": "Grand Island",
+          "addr:country": "US",
+          "addr:housenumber": "2250",
+          "addr:postcode": "68803",
+          "addr:state": "NE",
+          "addr:street": "North Diers Avenue",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 308-381-0333",
+          "ref": "1326",
+          "ref:walmart": "1326",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/1326-grand-island-ne"
+        },
+        "center": {
+          "lat": 40.94278275,
+          "lon": -98.387113
+        }
+      },
+      {
+        "type": "way",
+        "id": 632337648,
+        "tags": {
+          "addr:city": "Crete",
+          "addr:country": "US",
+          "addr:housenumber": "1800",
+          "addr:postcode": "68333",
+          "addr:state": "NE",
+          "addr:street": "East 29th Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Sa 07:00-20:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:cash": "yes",
+          "payment:coins": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:google_pay": "no",
+          "payment:mastercard": "yes",
+          "payment:samsung_pay": "no",
+          "payment:visa": "yes",
+          "phone": "+1 402-826-1002",
+          "ref": "4322",
+          "ref:walmart": "4322",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/4322-crete-ne"
+        },
+        "center": {
+          "lat": 40.64046225,
+          "lon": -96.93948354999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 632498206,
+        "tags": {
+          "addr:city": "Blair",
+          "addr:country": "US",
+          "addr:housenumber": "1882",
+          "addr:postcode": "68008",
+          "addr:state": "NE",
+          "addr:street": "Holly Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-533-8222",
+          "ref": "4568",
+          "ref:walmart": "4568",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "Bing",
+          "website": "https://www.walmart.com/store/4568-blair-ne"
+        },
+        "center": {
+          "lat": 41.52601695,
+          "lon": -96.14083364999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 632521505,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:country": "US",
+          "addr:housenumber": "16960",
+          "addr:postcode": "68116",
+          "addr:state": "NE",
+          "addr:street": "West Maple Road",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-289-9238",
+          "ref": "5141",
+          "ref:walmart": "5141",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/5141-omaha-ne"
+        },
+        "center": {
+          "lat": 41.2947676,
+          "lon": -96.18015615000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 632577334,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:country": "US",
+          "addr:housenumber": "5051",
+          "addr:postcode": "68117",
+          "addr:state": "NE",
+          "addr:street": "L Street",
+          "brand": "Walmart Neighborhood Market",
+          "brand:wikidata": "Q7963529",
+          "building": "retail",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 402-541-0820",
+          "ref": "3172",
+          "ref:walmart": "3172",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/3172-omaha-ne"
+        },
+        "center": {
+          "lat": 41.211832,
+          "lon": -95.99325720000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 1291554643,
+        "tags": {
+          "addr:city": "North Platte",
+          "addr:housenumber": "1401",
+          "addr:postcode": "69101",
+          "addr:state": "NE",
+          "addr:street": "South Dewey Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "06:00-23:00",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 308-532-5529",
+          "ref": "1585",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/1585-north-platte-ne"
+        },
+        "center": {
+          "lat": 41.1207792,
+          "lon": -100.75764515000003
+        }
+      }
+    ],
+    "target": [
+      {
+        "type": "node",
+        "id": 3877513036,
+        "tags": {
+          "addr:city": "Papillion",
+          "addr:housenumber": "718",
+          "addr:postcode": "68046-3910",
+          "addr:state": "NE",
+          "addr:street": "North Washington Street",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "name": "Target",
+          "opening_hours": "07:00-22:00",
+          "phone": "+1 402-597-9900",
+          "shop": "department_store",
+          "toilets": "yes",
+          "website": "https://www.target.com/sl/papillion/532"
+        },
+        "lat": 41.1652726,
+        "lon": -96.0449134
+      },
+      {
+        "type": "node",
+        "id": 8372279090,
+        "tags": {
+          "addr:city": "Norfolk",
+          "addr:housenumber": "1510",
+          "addr:postcode": "68701-7328",
+          "addr:state": "NE",
+          "addr:street": "Market Lane",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "name": "Target",
+          "opening_hours": "07:00-22:00",
+          "phone": "+1 402-379-9933",
+          "shop": "department_store",
+          "website": "https://www.target.com/sl/norfolk/856",
+          "wheelchair": "yes"
+        },
+        "lat": 42.0198597,
+        "lon": -97.4294456
+      },
+      {
+        "type": "way",
+        "id": 90780503,
+        "tags": {
+          "addr:city": "Kearney",
+          "addr:housenumber": "4800",
+          "addr:postcode": "68845-2892",
+          "addr:state": "NE",
+          "addr:street": "3rd Avenue",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "yes",
+          "name": "Target",
+          "opening_hours": "08:00-22:00",
+          "phone": "+1 308-237-0644",
+          "shop": "department_store",
+          "website": "https://www.target.com/sl/kearney/857"
+        },
+        "center": {
+          "lat": 40.7220652,
+          "lon": -99.08623349999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 117819845,
+        "tags": {
+          "addr:city": "Scottsbluff",
+          "addr:housenumber": "1401",
+          "addr:postcode": "69361-2773",
+          "addr:state": "NE",
+          "addr:street": "Frontage Road",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "yes",
+          "name": "Target",
+          "opening_hours": "08:00-22:00",
+          "phone": "+1 308-632-6223",
+          "shop": "supermarket",
+          "source": "Bing",
+          "website": "https://www.target.com/sl/scottsbluff/831"
+        },
+        "center": {
+          "lat": 41.870223949999996,
+          "lon": -103.64254819999996
+        }
+      },
+      {
+        "type": "way",
+        "id": 166181222,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "6636",
+          "addr:postcode": "68122",
+          "addr:state": "NE",
+          "addr:street": "North 73rd Plaza",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "retail",
+          "building:levels": "2",
+          "name": "Target",
+          "opening_hours": "08:00-22:00",
+          "phone": "+1 402-573-2220",
+          "shop": "department_store",
+          "source": "Bing",
+          "website": "https://www.target.com/sl/omaha-north/2010"
+        },
+        "center": {
+          "lat": 41.319091150000006,
+          "lon": -96.02757374999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 179934610,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "16959",
+          "addr:postcode": "68116",
+          "addr:state": "NE",
+          "addr:street": "Evans Plaza",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "retail",
+          "name": "SuperTarget",
+          "opening_hours": "07:00-22:00",
+          "phone": "+1 402-970-1000",
+          "shop": "supermarket",
+          "source": "bing",
+          "website": "https://www.target.com/sl/omaha-far-nw/2326"
+        },
+        "center": {
+          "lat": 41.289098249999995,
+          "lon": -96.17977965
+        }
+      },
+      {
+        "type": "way",
+        "id": 180645023,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "17810",
+          "addr:postcode": "68130",
+          "addr:state": "NE",
+          "addr:street": "West Center Road",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "yes",
+          "name": "Target",
+          "opening_hours": "07:00-22:00",
+          "phone": "+1 402-697-4930",
+          "shop": "department_store",
+          "source": "bing",
+          "website": "https://www.target.com/sl/omaha-west/1777"
+        },
+        "center": {
+          "lat": 41.23640695,
+          "lon": -96.19338649999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 183255534,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "4001",
+          "addr:postcode": "68164-1839",
+          "addr:state": "NE",
+          "addr:street": "North 132nd Street",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "retail",
+          "name": "Target",
+          "opening_hours": "07:00-22:00",
+          "phone": "+1 402-431-0060",
+          "shop": "department_store",
+          "source": "bing",
+          "website": "https://www.target.com/sl/omaha-nw/530"
+        },
+        "center": {
+          "lat": 41.2948933,
+          "lon": -96.11641184999996
+        }
+      },
+      {
+        "type": "way",
+        "id": 183940079,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "12500",
+          "addr:postcode": "68138",
+          "addr:state": "NE",
+          "addr:street": "K Plaza",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "retail",
+          "name": "Target",
+          "opening_hours": "07:00-22:00",
+          "phone": "+1 402-201-2658",
+          "shop": "department_store",
+          "source": "bing",
+          "website": "https://www.target.com/sl/omaha-far-sw/2383"
+        },
+        "center": {
+          "lat": 41.214755600000004,
+          "lon": -96.10833875000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 185738008,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "7200",
+          "addr:postcode": "68114",
+          "addr:state": "NE",
+          "addr:street": "Dodge Street",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "retail",
+          "name": "Target",
+          "opening_hours": "07:00-22:00",
+          "phone": "+1 402-390-8880",
+          "shop": "department_store",
+          "source": "bing",
+          "website": "https://www.target.com/sl/omaha/2125"
+        },
+        "center": {
+          "lat": 41.2613505,
+          "lon": -96.02489345000004
+        }
+      },
+      {
+        "type": "way",
+        "id": 197341437,
+        "tags": {
+          "addr:city": "Lincoln",
+          "addr:housenumber": "8201",
+          "addr:postcode": "68516",
+          "addr:state": "NE",
+          "addr:street": "South 40th Street",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "retail",
+          "contact:facebook": "target",
+          "contact:instagram": "target",
+          "contact:twitter": "Target",
+          "name": "Target",
+          "opening_hours": "Mo-Su 07:00-22:00",
+          "phone": "+14024203540",
+          "shop": "supermarket",
+          "source": "Bing",
+          "website": "https://www.target.com/sl/lincoln-sw/2303"
+        },
+        "center": {
+          "lat": 40.7280791,
+          "lon": -96.6659985
+        }
+      },
+      {
+        "type": "way",
+        "id": 204202408,
+        "tags": {
+          "addr:city": "Lincoln",
+          "addr:housenumber": "5330",
+          "addr:postcode": "68516",
+          "addr:state": "NE",
+          "addr:street": "South 56th Street",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "retail",
+          "check_date": "2023-06-30",
+          "name": "Target",
+          "opening_hours": "08:00-22:00",
+          "phone": "+1 402-423-0300",
+          "shop": "department_store",
+          "source": "bing",
+          "website": "http://www.target.com/sl/lincoln-south--target-store/879#?afid=storeloc&cpng=NE&Inm=lincoln-south_879"
+        },
+        "center": {
+          "lat": 40.7599245,
+          "lon": -96.64089315000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 310100276,
+        "tags": {
+          "addr:city": "Bellevue",
+          "addr:housenumber": "3808",
+          "addr:postcode": "68123",
+          "addr:state": "NE",
+          "addr:street": "Twin Creek Drive",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "retail",
+          "building:levels": "1",
+          "changing_table": "yes",
+          "name": "Target",
+          "opening_hours": "Mo-Sa 08:00-22:00; Su 08:00-21:00; PH off",
+          "payment:coins": "yes",
+          "payment:mastercard": "yes",
+          "payment:notes": "yes",
+          "payment:visa": "yes",
+          "phone": "+1 402-291-6747",
+          "roof:levels": "0",
+          "shop": "department_store",
+          "toilets": "yes",
+          "toilets:wheelchair": "yes",
+          "website": "https://www.target.com/sl/bellevue/1537",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 41.142591100000004,
+          "lon": -95.96986859999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 790429116,
+        "tags": {
+          "addr:city": "Lincoln",
+          "addr:housenumber": "333",
+          "addr:postcode": "68504",
+          "addr:state": "NE",
+          "addr:street": "North 48th Street",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "yes",
+          "check_date": "2025-10-15",
+          "name": "Target",
+          "opening_hours": "Mo-Su 07:00-23:00",
+          "phone": "+1-402-464-8292",
+          "shop": "department_store",
+          "website": "https://www.target.com/sl/lincoln/217"
+        },
+        "center": {
+          "lat": 40.8163913,
+          "lon": -96.6554208
+        }
+      }
+    ],
+    "costco": [
+      {
+        "type": "way",
+        "id": 408078316,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "12300",
+          "addr:postcode": "68154",
+          "addr:state": "NE",
+          "addr:street": "West Dodge Road",
+          "alt_name": "Costco Wholesale",
+          "branch": "Omaha",
+          "brand": "Costco",
+          "brand:wikidata": "Q715583",
+          "building": "retail",
+          "name": "Costco",
+          "opening_hours": "Mo-Fr 10:00-20:30; Sa 09:30-18:00; Su 10:00-18:00",
+          "operator": "Costco",
+          "phone": "+1 402-952-3240",
+          "ref": "1012",
+          "shop": "wholesale",
+          "source": "Bing",
+          "website": "https://www.costco.com/warehouse-locations/omaha-ne-1012.html"
+        },
+        "center": {
+          "lat": 41.2656612,
+          "lon": -96.10507904999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 632034218,
+        "tags": {
+          "addr:city": "La Vista",
+          "addr:housename": "Costco",
+          "addr:housenumber": "8250",
+          "addr:postcode": "68128",
+          "addr:state": "NE",
+          "addr:street": "South 125th Street",
+          "branch": "La Vista",
+          "brand": "Costco",
+          "brand:wikidata": "Q715583",
+          "building": "yes",
+          "membership": "required",
+          "name": "Costco",
+          "opening_hours": "Mo-Fr 10:00-20:30; Sa 09:30-18:00; Su 10:00-18:00",
+          "operator": "Costco",
+          "payment:cash": "yes",
+          "payment:visa": "yes",
+          "payment:visa_debit": "yes",
+          "phone": "+1 402-378-7398",
+          "ref": "1237",
+          "shop": "wholesale",
+          "website": "https://www.costco.com/warehouse-locations/la-vista-ne-1237.html"
+        },
+        "center": {
+          "lat": 41.17719325,
+          "lon": -96.10841270000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 1013986969,
+        "tags": {
+          "addr:city": "Lincoln",
+          "addr:housenumber": "1620",
+          "addr:postcode": "68512",
+          "addr:state": "NE",
+          "addr:street": "Pine Lake Road",
+          "branch": "Lincoln",
+          "brand": "Costco",
+          "brand:wikidata": "Q715583",
+          "building": "yes",
+          "membership": "required",
+          "name": "Costco",
+          "opening_hours": "Mo-Fr 10:00-20:30,Sa 09:30-18:00, Su 10:00-18:00",
+          "operator": "Costco",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+1 531-333-7559",
+          "ref": "1285",
+          "shop": "wholesale",
+          "website": "https://www.costco.com/warehouse-locations/lincoln-ne-1285.html"
+        },
+        "center": {
+          "lat": 40.73973015,
+          "lon": -96.6976123
+        }
+      },
+      {
+        "type": "way",
+        "id": 1351602643,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "17701",
+          "addr:postcode": "68116",
+          "addr:state": "NE",
+          "addr:street": "Evans Street",
+          "brand": "Costco",
+          "brand:wikidata": "Q715583",
+          "building": "retail",
+          "name": "Costco",
+          "opening_date": "07/12/2024",
+          "opening_hours": "Mo-Fr 10:00-20:30; Sa 09:30-18:00; Su 10:00-18:00",
+          "operator": "Costco",
+          "phone": "+1-531-484-4259",
+          "shop": "wholesale",
+          "website": "https://www.costco.com/warehouse-locations/omaha-NE-1690.html",
+          "wholesale": "general"
+        },
+        "center": {
+          "lat": 41.2892508,
+          "lon": -96.19219999999996
+        }
+      }
+    ],
+    "sams_club": [
+      {
+        "type": "node",
+        "id": 4229662806,
+        "tags": {
+          "fixme:atp": "check if location still exists; no corresponding ATP location found",
+          "name": "Sam's Club",
+          "shop": "convenience",
+          "source": "Mapbox"
+        },
+        "lat": 40.7377756,
+        "lon": -96.6034967
+      },
+      {
+        "type": "node",
+        "id": 10872526852,
+        "tags": {
+          "addr:city": "Grand Island",
+          "addr:housenumber": "1510",
+          "addr:postcode": "68803",
+          "addr:state": "NE",
+          "addr:street": "North Diers Avenue",
+          "brand": "Sam's Club",
+          "brand:wikidata": "Q1972120",
+          "name": "Sam's Club",
+          "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:00-20:00; Su 10:00-18:00",
+          "phone": "+1 308-384-0622",
+          "ref": "6461",
+          "shop": "wholesale",
+          "website": "https://www.samsclub.com/club/grand-island-ne-sams-club/6461"
+        },
+        "lat": 40.934597,
+        "lon": -98.3870886
+      },
+      {
+        "type": "way",
+        "id": 183939864,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "13130",
+          "addr:postcode": "68137",
+          "addr:state": "NE",
+          "addr:street": "L Street",
+          "brand": "Sam's Club",
+          "brand:wikidata": "Q1972120",
+          "building": "retail",
+          "name": "Sam's Club",
+          "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:00-20:00; Su 10:00-18:00",
+          "phone": "+1 402-334-1526",
+          "ref": "8146",
+          "shop": "wholesale",
+          "website": "https://www.samsclub.com/club/omaha-ne-sams-club/8146"
+        },
+        "center": {
+          "lat": 41.214854599999995,
+          "lon": -96.11784645
+        }
+      },
+      {
+        "type": "way",
+        "id": 197626702,
+        "tags": {
+          "addr:city": "Lincoln",
+          "addr:housenumber": "4900",
+          "addr:postcode": "68504",
+          "addr:state": "NE",
+          "addr:street": "North 27th Street",
+          "brand": "Sam's Club",
+          "brand:wikidata": "Q1972120",
+          "building": "retail",
+          "name": "Sam's Club",
+          "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:00-20:00; Su 10:00-18:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "phone": "+1 402-438-3540",
+          "ref": "6413",
+          "shop": "wholesale",
+          "source": "Bing",
+          "website": "https://www.samsclub.com",
+          "wholesale": "yes"
+        },
+        "center": {
+          "lat": 40.8597835,
+          "lon": -96.67744149999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 338221873,
+        "tags": {
+          "addr:city": "Lincoln",
+          "addr:housenumber": "8480",
+          "addr:postcode": "68526",
+          "addr:state": "NE",
+          "addr:street": "Andermatt Drive",
+          "brand": "Sam's Club",
+          "brand:wikidata": "Q1972120",
+          "building": "retail",
+          "name": "Sam's Club",
+          "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:00-20:00; Su 10:00-18:00",
+          "phone": "+1 402-975-6902",
+          "ref": "4873",
+          "shop": "wholesale",
+          "website": "https://www.samsclub.com"
+        },
+        "center": {
+          "lat": 40.7374748,
+          "lon": -96.60088059999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 376771304,
+        "tags": {
+          "addr:city": "Papillion",
+          "addr:housenumber": "9851",
+          "addr:postcode": "68133",
+          "addr:state": "NE",
+          "addr:street": "South 71st Plaza",
+          "brand": "Sam's Club",
+          "brand:wikidata": "Q1972120",
+          "building": "retail",
+          "name": "Sam's Club",
+          "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-20:00; Su 09:00-20:00",
+          "operator": "Wal-Mart",
+          "phone": "+1 402-686-2379",
+          "ref": "6181",
+          "shop": "wholesale",
+          "toilets": "yes",
+          "website": "https://www.samsclub.com/club/papillion-ne-sams-club/6181"
+        },
+        "center": {
+          "lat": 41.163142,
+          "lon": -96.02053045000002
+        }
+      }
+    ],
+    "bjs_wholesale": [],
+    "kroger": [],
+    "ralphs": [],
+    "frys": [],
+    "king_soopers": [],
+    "fred_meyer": [],
+    "smiths": [],
+    "dillons": [],
+    "qfc": [],
+    "harris_teeter": [],
+    "food_4_less": [],
+    "marianos": [],
+    "pick_n_save": [],
+    "metro_market": [],
+    "city_market": [],
+    "bakers": [
+      {
+        "type": "node",
+        "id": 3507844769,
+        "tags": {
+          "addr:city": "Bellevue",
+          "addr:housenumber": "3614",
+          "addr:street": "Twin Creek Drive",
+          "name": "Baker's",
+          "not:brand:wikidata": "Q153417",
+          "opening_hours": "Mo-Su 06:00-01:00",
+          "operator": "Kroger",
+          "payment:coins": "yes",
+          "payment:mastercard": "yes",
+          "payment:notes": "yes",
+          "payment:visa": "yes",
+          "payment:visa_debit": "yes",
+          "shop": "supermarket",
+          "toilets:wheelchair": "yes",
+          "wheelchair": "yes"
+        },
+        "lat": 41.1423462,
+        "lon": -95.9690185
+      },
+      {
+        "type": "node",
+        "id": 3706297276,
+        "tags": {
+          "amenity": "fuel",
+          "fuel:octane_80": "yes",
+          "fuel:octane_95": "yes",
+          "name": "Baker's",
+          "opening_hours": "24/7",
+          "shop": "convenience",
+          "wheelchair": "yes"
+        },
+        "lat": 41.1411861,
+        "lon": -95.9690165
+      },
+      {
+        "type": "node",
+        "id": 4072770812,
+        "tags": {
+          "name": "Baker's",
+          "shop": "supermarket",
+          "source": "Bing"
+        },
+        "lat": 41.2983481,
+        "lon": -96.0221864
+      },
+      {
+        "type": "node",
+        "id": 4704787377,
+        "tags": {
+          "name": "Baker's",
+          "shop": "supermarket"
+        },
+        "lat": 41.2509094,
+        "lon": -95.9870199
+      },
+      {
+        "type": "node",
+        "id": 5560694712,
+        "tags": {
+          "name": "Baker's",
+          "shop": "supermarket"
+        },
+        "lat": 41.2943325,
+        "lon": -96.1214289
+      },
+      {
+        "type": "node",
+        "id": 7650449166,
+        "tags": {
+          "name": "Bakers",
+          "shop": "supermarket"
+        },
+        "lat": 41.3085358,
+        "lon": -96.0508434
+      },
+      {
+        "type": "way",
+        "id": 178086893,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housename": "Pepperwood Village I",
+          "addr:housenumber": "505",
+          "addr:postcode": "68154",
+          "addr:state": "NE",
+          "addr:street": "North 155th Plaza",
+          "building": "retail",
+          "name": "Baker's",
+          "opening_hours": "24/7",
+          "operator": "Kroger, Inc.",
+          "shop": "supermarket",
+          "source": "bing"
+        },
+        "center": {
+          "lat": 41.26392355,
+          "lon": -96.15492180000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 180645988,
+        "tags": {
+          "addr:housenumber": "17370",
+          "addr:postcode": "68130",
+          "addr:street": "Lakeside Hills Plaza",
+          "building": "retail",
+          "contact:website": "https://www.bakersplus.com/stores/grocery/ne/omaha/lakeside/615/00320",
+          "name": "Baker's",
+          "shop": "supermarket",
+          "source": "bing"
+        },
+        "center": {
+          "lat": 41.236077550000005,
+          "lon": -96.18626900000004
+        }
+      },
+      {
+        "type": "way",
+        "id": 189988372,
+        "tags": {
+          "addr:city": "Bellevue",
+          "addr:postcode": "68005",
+          "addr:state": "NE",
+          "building": "retail",
+          "floral": "yes",
+          "name": "Bakers",
+          "not:brand:wikidata": "Q153417",
+          "opening_hours": "Mo-Su 07:00-23:00",
+          "operator": "Kroger",
+          "pharmacy": "yes",
+          "shop": "supermarket",
+          "smoking": "isolated",
+          "source": "bing"
+        },
+        "center": {
+          "lat": 41.15325115,
+          "lon": -95.91576205000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 552883291,
+        "tags": {
+          "building": "yes",
+          "name": "Baker's",
+          "shop": "supermarket"
+        },
+        "center": {
+          "lat": 41.32617225,
+          "lon": -95.95887199999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 695760262,
+        "tags": {
+          "building": "retail",
+          "building:levels": "1",
+          "name": "Baker's",
+          "shop": "convenience",
+          "source": "Bing"
+        },
+        "center": {
+          "lat": 41.25208485,
+          "lon": -95.98600134999998
+        }
+      }
+    ],
+    "gerbes": [],
+    "pay_less": [],
+    "albertsons": [],
+    "safeway": [
+      {
+        "type": "way",
+        "id": 131636915,
+        "tags": {
+          "addr:city": "Scottsbluff",
+          "addr:housenumber": "601",
+          "addr:postcode": "69361",
+          "addr:state": "NE",
+          "addr:street": "Broadway Boulevard",
+          "branch": "0556",
+          "brand": "Safeway",
+          "brand:wikidata": "Q1508234",
+          "building": "yes",
+          "designation": "Safeway 0556",
+          "name": "Safeway",
+          "phone": "+1 308-635-1232",
+          "shop": "supermarket",
+          "website": "https://local.safeway.com/safeway/ne/scottsbluff/601-broadway.html"
+        },
+        "center": {
+          "lat": 41.8542623,
+          "lon": -103.66122574999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 131636926,
+        "tags": {
+          "addr:city": "Ogallala",
+          "addr:housenumber": "611",
+          "addr:postcode": "69153",
+          "addr:state": "NE",
+          "addr:street": "North Spruce Street",
+          "branch": "0557",
+          "brand": "Safeway",
+          "brand:wikidata": "Q1508234",
+          "building": "yes",
+          "designation": "Safeway 0557",
+          "name": "Safeway",
+          "phone": "+1 308-284-4044",
+          "shop": "supermarket",
+          "website": "https://local.safeway.com/safeway/ne/ogallala/611-n-spruce-st.html"
+        },
+        "center": {
+          "lat": 41.129929849999996,
+          "lon": -101.71967519999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 131636949,
+        "tags": {
+          "addr:city": "Chadron",
+          "addr:housenumber": "230",
+          "addr:postcode": "69337",
+          "addr:state": "NE",
+          "addr:street": "Morehead Street",
+          "branch": "2563",
+          "brand": "Safeway",
+          "brand:wikidata": "Q1508234",
+          "building": "yes",
+          "designation": "Safeway 2563",
+          "name": "Safeway",
+          "phone": "+1 308-432-4428",
+          "shop": "supermarket",
+          "website": "https://local.safeway.com/safeway/ne/chadron/230-morehead-st.html"
+        },
+        "center": {
+          "lat": 42.8304732,
+          "lon": -103.00272310000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 131636967,
+        "tags": {
+          "addr:city": "Sidney",
+          "addr:housenumber": "1944",
+          "addr:postcode": "69162",
+          "addr:state": "NE",
+          "addr:street": "Illinois Street",
+          "branch": "2555",
+          "brand": "Safeway",
+          "brand:wikidata": "Q1508234",
+          "building": "yes",
+          "designation": "Safeway 2555",
+          "name": "Safeway",
+          "phone": "+1 308-254-4767",
+          "shop": "supermarket",
+          "website": "https://local.safeway.com/safeway/ne/sidney/1944-illinois-st.html"
+        },
+        "center": {
+          "lat": 41.14495245,
+          "lon": -102.98931564999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 131637001,
+        "tags": {
+          "addr:city": "Alliance",
+          "addr:housenumber": "500",
+          "addr:postcode": "69301",
+          "addr:state": "NE",
+          "addr:street": "East 3rd Street",
+          "branch": "0549",
+          "brand": "Safeway",
+          "brand:wikidata": "Q1508234",
+          "building": "yes",
+          "designation": "Safeway 0549",
+          "name": "Safeway",
+          "phone": "+1 308-762-4661",
+          "shop": "supermarket",
+          "website": "https://local.safeway.com/safeway/ne/alliance/500-e-3rd-st.html"
+        },
+        "center": {
+          "lat": 42.097852,
+          "lon": -102.86467715000003
+        }
+      }
+    ],
+    "vons": [],
+    "pavilions": [],
+    "jewel_osco": [],
+    "acme_markets": [],
+    "shaws": [],
+    "star_market": [],
+    "tom_thumb": [],
+    "randalls": [],
+    "carrs": [],
+    "haggen": [],
+    "united_supermarkets": [],
+    "stop_and_shop": [
+      {
+        "type": "way",
+        "id": 209110597,
+        "tags": {
+          "addr:city": "Lincoln",
+          "addr:housenumber": "5640",
+          "addr:postcode": "68512",
+          "addr:state": "NE",
+          "addr:street": "South 16th Street",
+          "brand": "Stop & Shop",
+          "building": "retail",
+          "name": "Stop 'N Shop",
+          "opening_hours": "Mo-Fr 05:30-23:00; Sa-Su 06:00-23:00",
+          "phone": "+1-402-420-2252",
+          "shop": "convenience",
+          "source": "bing",
+          "website": "https://www.phillips66gas.com/station/66-STOP-N-SHOP-7-0000861357/"
+        },
+        "center": {
+          "lat": 40.75612185,
+          "lon": -96.69871699999999
+        }
+      }
+    ],
+    "giant_food": [],
+    "giant_food_stores": [],
+    "food_lion": [],
+    "hannaford": [],
+    "publix": [],
+    "heb": [],
+    "central_market": [],
+    "meijer": [],
+    "wegmans": [],
+    "hy_vee": [
+      {
+        "type": "node",
+        "id": 694529733,
+        "tags": {
+          "addr:city": "South Sioux City",
+          "addr:housenumber": "2501",
+          "addr:postcode": "68776",
+          "addr:state": "NE",
+          "addr:street": "Cornhusker Drive",
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "name": "Hy-Vee",
+          "ref": "1620",
+          "shop": "supermarket"
+        },
+        "lat": 42.4658934,
+        "lon": -96.4292326
+      },
+      {
+        "type": "node",
+        "id": 3806093183,
+        "tags": {
+          "addr:city": "Columbus",
+          "addr:housenumber": "3010",
+          "addr:postcode": "68601",
+          "addr:state": "NE",
+          "addr:street": "23rd Street",
+          "name": "Hy-Vee Fast & Fresh",
+          "shop": "convenience",
+          "source": "Bing"
+        },
+        "lat": 41.4392457,
+        "lon": -97.3643124
+      },
+      {
+        "type": "node",
+        "id": 3814845652,
+        "tags": {
+          "addr:city": "Fremont",
+          "addr:postcode": "68025",
+          "addr:state": "NE",
+          "addr:street": "East 23rd Street",
+          "name": "Hy-Vee Gas",
+          "shop": "convenience"
+        },
+        "lat": 41.4521012,
+        "lon": -96.4857344
+      },
+      {
+        "type": "node",
+        "id": 4066355328,
+        "tags": {
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "name": "Hy-Vee",
+          "shop": "supermarket",
+          "source": "Bing"
+        },
+        "lat": 41.3082151,
+        "lon": -96.0825326
+      },
+      {
+        "type": "node",
+        "id": 4894235533,
+        "tags": {
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "name": "Hy-Vee",
+          "shop": "supermarket",
+          "wheelchair": "yes"
+        },
+        "lat": 41.0118099,
+        "lon": -95.9104429
+      },
+      {
+        "type": "node",
+        "id": 4934870361,
+        "tags": {
+          "name": "Hy-Vee Gas",
+          "shop": "convenience",
+          "source": "DigitalGlobe-Premium"
+        },
+        "lat": 41.0127167,
+        "lon": -95.9094961
+      },
+      {
+        "type": "node",
+        "id": 5279120126,
+        "tags": {
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "name": "Hy-Vee",
+          "shop": "supermarket"
+        },
+        "lat": 41.2036896,
+        "lon": -96.0632784
+      },
+      {
+        "type": "node",
+        "id": 5521262960,
+        "tags": {
+          "addr:city": "Grand Island",
+          "addr:housenumber": "115",
+          "addr:postcode": "68803",
+          "addr:state": "NE",
+          "addr:street": "Wilmar Avenue",
+          "air_conditioning": "yes",
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "name": "Hy-Vee",
+          "opening_hours": "Mo-Su 05:00-23:00",
+          "phone": "+1-308-381-3678",
+          "shop": "supermarket"
+        },
+        "lat": 40.9178072,
+        "lon": -98.3795268
+      },
+      {
+        "type": "node",
+        "id": 7321677262,
+        "tags": {
+          "addr:city": "Fremont",
+          "addr:housenumber": "840",
+          "addr:postcode": "68025",
+          "addr:state": "NE",
+          "addr:street": "East 23rd Street",
+          "air_conditioning": "yes",
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "name": "Hy-Vee",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "phone": "+1-402-727-6717",
+          "shop": "supermarket",
+          "website": "https://www.hy-vee.com/"
+        },
+        "lat": 41.4529428,
+        "lon": -96.4870587
+      },
+      {
+        "type": "node",
+        "id": 7539421879,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "5150",
+          "addr:postcode": "68106",
+          "addr:state": "NE",
+          "addr:street": "Center Street",
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "name": "Hy-Vee",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "phone": "+1-402-553-2664",
+          "shop": "supermarket",
+          "website": "https://hy-vee.com/"
+        },
+        "lat": 41.2422243,
+        "lon": -95.9944679
+      },
+      {
+        "type": "node",
+        "id": 8819005912,
+        "tags": {
+          "name": "Hyvee Convenience Store",
+          "shop": "convenience"
+        },
+        "lat": 41.2047222,
+        "lon": -96.0627483
+      },
+      {
+        "type": "node",
+        "id": 10996320567,
+        "tags": {
+          "name": "Hy-Vee Fast & Fresh",
+          "shop": "convenience"
+        },
+        "lat": 40.7690061,
+        "lon": -96.6234928
+      },
+      {
+        "type": "node",
+        "id": 11034976332,
+        "tags": {
+          "addr:city": "Falls City",
+          "addr:housenumber": "1301",
+          "addr:postcode": "68355",
+          "addr:state": "NE",
+          "addr:street": "Stone Street",
+          "air_conditioning": "yes",
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "name": "Hy-Vee",
+          "opening_hours": "Mo-Su 07:00-21:00",
+          "operator": "Dollar Fresh Market",
+          "phone": "+1-402-245-3774",
+          "shop": "supermarket",
+          "website": "https://www.hy-vee.com/"
+        },
+        "lat": 40.0580732,
+        "lon": -95.6036771
+      },
+      {
+        "type": "node",
+        "id": 11221654285,
+        "tags": {
+          "addr:city": "South Sioux City",
+          "addr:housenumber": "1030",
+          "addr:postcode": "68776",
+          "addr:state": "NE",
+          "addr:street": "West 25th Street",
+          "brand": "Hy-Vee Gas",
+          "brand:wikidata": "Q1639719",
+          "name": "Hy-Vee Gas",
+          "ref": "5620",
+          "shop": "convenience"
+        },
+        "lat": 42.4658428,
+        "lon": -96.4259036
+      },
+      {
+        "type": "way",
+        "id": 170680054,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "747",
+          "addr:postcode": "68154",
+          "addr:state": "NE",
+          "addr:street": "North 132nd Street",
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "building": "retail",
+          "name": "Hy-Vee",
+          "shop": "supermarket",
+          "website": "https://www.hy-vee.com/"
+        },
+        "center": {
+          "lat": 41.2662776,
+          "lon": -96.11816395
+        }
+      },
+      {
+        "type": "way",
+        "id": 178430443,
+        "tags": {
+          "addr:housenumber": "749",
+          "addr:postcode": "68154",
+          "addr:street": "North 132nd Street",
+          "building": "retail",
+          "name": "HyVee Gas & Convenience",
+          "shop": "convenience",
+          "source": "bing"
+        },
+        "center": {
+          "lat": 41.266511949999995,
+          "lon": -96.11908104999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 180522449,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "1000",
+          "addr:postcode": "68118",
+          "addr:state": "NE",
+          "addr:street": "South 178th Street",
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "building": "retail",
+          "name": "Hy-Vee",
+          "shop": "supermarket",
+          "source": "bing",
+          "website": "https://www.hy-vee.com/stores/detail.aspx?s=1003"
+        },
+        "center": {
+          "lat": 41.250477200000006,
+          "lon": -96.19414174999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 180528095,
+        "tags": {
+          "addr:housenumber": "909",
+          "addr:postcode": "68118",
+          "addr:street": "South 180th Street",
+          "building": "retail",
+          "name": "Hy-Vee Convenience",
+          "shop": "convenience",
+          "source": "aerial_photo"
+        },
+        "center": {
+          "lat": 41.2504517,
+          "lon": -96.19544615000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 181714251,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "17901",
+          "addr:postcode": "68135",
+          "addr:state": "NE",
+          "addr:street": "Welch Plaza",
+          "building": "yes",
+          "name": "Hy-Vee Gas Convenience Store",
+          "shop": "convenience",
+          "source": "bing"
+        },
+        "center": {
+          "lat": 41.20581975,
+          "lon": -96.19462950000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 181714259,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "17810",
+          "addr:postcode": "68135",
+          "addr:state": "NE",
+          "addr:street": "Welch Plaza",
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "building": "retail",
+          "name": "Hy-Vee",
+          "shop": "supermarket"
+        },
+        "center": {
+          "lat": 41.2072056,
+          "lon": -96.1938558
+        }
+      },
+      {
+        "type": "way",
+        "id": 184723363,
+        "tags": {
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "building": "retail",
+          "name": "Hy-Vee",
+          "shop": "supermarket",
+          "source": "bing",
+          "toilets:wheelchair": "yes",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 41.1351909,
+          "lon": -96.02678564999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 184723368,
+        "tags": {
+          "addr:city": "Papillon",
+          "addr:housenumber": "7608",
+          "addr:postcode": "68046",
+          "addr:state": "NE",
+          "addr:street": "Olson Drive",
+          "building": "retail",
+          "name": "Hy-Vee Fast & Fresh",
+          "shop": "convenience",
+          "source": "bing"
+        },
+        "center": {
+          "lat": 41.1374731,
+          "lon": -96.02777130000004
+        }
+      },
+      {
+        "type": "way",
+        "id": 197626727,
+        "tags": {
+          "addr:city": "Lincoln",
+          "addr:housenumber": "5020",
+          "addr:postcode": "68521",
+          "addr:state": "NE",
+          "addr:street": "North 27th Street",
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "building": "retail",
+          "name": "Hy-Vee",
+          "opening_hours": "Mo-Su 06:00-22:00",
+          "operator": "Hy-Vee",
+          "phone": "+1-402-477-4764",
+          "shop": "supermarket",
+          "source": "Bing",
+          "website": "https://www.hy-vee.com/stores/detail.aspx?s=92"
+        },
+        "center": {
+          "lat": 40.8612776,
+          "lon": -96.67783815000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 204346532,
+        "tags": {
+          "addr:city": "Lincoln",
+          "addr:housenumber": "1601",
+          "addr:postcode": "68505",
+          "addr:state": "NE",
+          "addr:street": "North 84th Street",
+          "branch": "Northern Lights",
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "building": "retail",
+          "name": "Hy-Vee",
+          "operator": "Hy-Vee",
+          "phone": "+1-402-467-5505",
+          "shop": "supermarket",
+          "source": "bing",
+          "website": "https://www.hy-vee.com/stores/detail.aspx?s=91"
+        },
+        "center": {
+          "lat": 40.8294406,
+          "lon": -96.60832385000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 259006571,
+        "tags": {
+          "addr:city": "Lincoln",
+          "addr:country": "US",
+          "addr:housenumber": "5010",
+          "addr:postcode": "68510",
+          "addr:state": "NE",
+          "addr:street": "O Street",
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "building": "retail",
+          "check_date": "2025-10-17",
+          "internet_access": "wlan",
+          "internet_access:fee": "no",
+          "name": "Hy-Vee",
+          "opening_hours": "Mo-Su 05:00-23:00",
+          "operator": "Hy-Vee",
+          "phone": "+1-402-483-7707",
+          "shop": "supermarket",
+          "website": "https://www.hy-vee.com/stores/detail.aspx?s=90"
+        },
+        "center": {
+          "lat": 40.814804499999994,
+          "lon": -96.65050230000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 265058816,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "14591",
+          "addr:postcode": "68137",
+          "addr:street": "Stony Brook Boulevard",
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "building": "yes",
+          "name": "Hy-Vee",
+          "shop": "supermarket"
+        },
+        "center": {
+          "lat": 41.19729825,
+          "lon": -96.14217279999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 267233287,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "8809",
+          "addr:postcode": "68124",
+          "addr:state": "NE",
+          "addr:street": "West Center Road",
+          "building": "yes",
+          "name": "Hy-Vee",
+          "operator": "Hy-Vee",
+          "phone": "+1-402-384-9072",
+          "shop": "supermarket",
+          "website": "https://www.hy-vee.com/",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 41.23276935,
+          "lon": -96.05149804999996
+        }
+      },
+      {
+        "type": "way",
+        "id": 267233288,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "8809",
+          "addr:postcode": "68124",
+          "addr:street": "West Center Road",
+          "building": "yes",
+          "name": "Hy-Vee Gas",
+          "operator": "Hy-Vee",
+          "phone": "+1-402-391-4141",
+          "shop": "convenience",
+          "website": "https://www.hy-vee.com/",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 41.2339256,
+          "lon": -96.05230655000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 321204562,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "3410",
+          "addr:postcode": "68116",
+          "addr:state": "NE",
+          "addr:street": "North 156th Street",
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "building": "retail",
+          "name": "Hy-Vee",
+          "phone": "+1-402-493-0390",
+          "shop": "supermarket",
+          "source": "bing",
+          "website": "https://www.hy-vee.com/"
+        },
+        "center": {
+          "lat": 41.2894781,
+          "lon": -96.16037655000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 387789252,
+        "tags": {
+          "building": "retail",
+          "name": "Hy-Vee",
+          "shop": "convenience"
+        },
+        "center": {
+          "lat": 41.2894795,
+          "lon": -96.15900914999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 567400727,
+        "tags": {
+          "addr:city": "Lincoln",
+          "addr:housenumber": "1515",
+          "addr:postcode": "68505",
+          "addr:state": "NE",
+          "addr:street": "North 84th Street",
+          "building": "yes",
+          "name": "Hy-Vee Fast & Fresh",
+          "opening_hours": "Mo-Su 05:00-22:00",
+          "phone": "+1-402-488-1112",
+          "shop": "convenience",
+          "website": "https://www.hy-veefastandfresh.com/stores/1515-north-84th-street-lincoln-ne/"
+        },
+        "center": {
+          "lat": 40.828530349999994,
+          "lon": -96.60754814999996
+        }
+      },
+      {
+        "type": "way",
+        "id": 592924451,
+        "tags": {
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "building": "yes",
+          "name": "Hy-Vee",
+          "opening_hours": "24/7",
+          "shop": "supermarket"
+        },
+        "center": {
+          "lat": 40.7523563,
+          "lon": -96.66677325
+        }
+      },
+      {
+        "type": "way",
+        "id": 656838688,
+        "tags": {
+          "addr:city": "Norfolk",
+          "addr:housenumber": "2107",
+          "addr:postcode": "68701",
+          "addr:state": "NE",
+          "addr:street": "Taylor Avenue",
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "building": "yes",
+          "name": "Hy-Vee",
+          "shop": "supermarket",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 42.026615449999994,
+          "lon": -97.44080144999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 696752900,
+        "tags": {
+          "addr:city": "Lincoln",
+          "addr:housenumber": "250",
+          "addr:postcode": "68504",
+          "addr:state": "NE",
+          "addr:street": "North 52nd Street",
+          "building": "yes",
+          "name": "HyVee Fast & Fresh",
+          "opening_hours": "Mo-Su 05:00-22:00",
+          "phone": "+1-402-465-0244",
+          "shop": "convenience",
+          "website": "https://www.hy-veefastandfresh.com/stores/250-north-52nd-lincoln-ne/"
+        },
+        "center": {
+          "lat": 40.815185,
+          "lon": -96.64826899999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 783864783,
+        "tags": {
+          "addr:city": "Fremont",
+          "addr:housenumber": "840",
+          "addr:postcode": "68025",
+          "addr:state": "NE",
+          "addr:street": "East 23rd Street",
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "building": "yes",
+          "name": "Hy-Vee",
+          "shop": "supermarket"
+        },
+        "center": {
+          "lat": 41.45298,
+          "lon": -96.48710034999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 828303716,
+        "tags": {
+          "addr:city": "Kearney",
+          "addr:housenumber": "5212",
+          "addr:postcode": "68845",
+          "addr:state": "NE",
+          "addr:street": "3rd Avenue",
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "building": "yes",
+          "building:levels": "1",
+          "name": "Hy-Vee",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "phone": "+1-308-236-0020",
+          "shop": "supermarket"
+        },
+        "center": {
+          "lat": 40.725865150000004,
+          "lon": -99.08729730000005
+        }
+      },
+      {
+        "type": "way",
+        "id": 953052974,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "10808",
+          "addr:postcode": "68164",
+          "addr:state": "NE",
+          "addr:street": "Fort Street",
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "building": "yes",
+          "name": "Hy-Vee",
+          "shop": "supermarket"
+        },
+        "center": {
+          "lat": 41.3082553,
+          "lon": -96.08254649999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 1024367865,
+        "tags": {
+          "addr:city": "Lincoln",
+          "addr:housenumber": "7151",
+          "addr:postcode": "68516",
+          "addr:state": "NE",
+          "addr:street": "Stacy Lane",
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "building": "commercial",
+          "name": "Hy-Vee",
+          "phone": "+1-402-489-4244",
+          "shop": "supermarket",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.76763665,
+          "lon": -96.6225298
+        }
+      },
+      {
+        "type": "way",
+        "id": 1042410901,
+        "tags": {
+          "addr:city": "Columbus",
+          "addr:housenumber": "3010",
+          "addr:postcode": "68601",
+          "addr:state": "NE",
+          "addr:street": "23rd Street",
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "building": "yes",
+          "name": "Hy-Vee",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "phone": "+1-402-563-4524",
+          "shop": "supermarket"
+        },
+        "center": {
+          "lat": 41.4404988,
+          "lon": -97.36411269999996
+        }
+      },
+      {
+        "type": "way",
+        "id": 1091771096,
+        "tags": {
+          "building": "commercial",
+          "name": "Hy-Vee Fast & Fresh",
+          "shop": "convenience",
+          "source": "Bing"
+        },
+        "center": {
+          "lat": 41.26477295,
+          "lon": -96.03987595000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 1091771097,
+        "tags": {
+          "addr:housenumber": "7910",
+          "addr:postcode": "68114",
+          "addr:street": "Cass Street",
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "building": "commercial",
+          "name": "Hy-Vee",
+          "shop": "supermarket",
+          "website": "https://www.hy-vee.com/stores/detail.aspx?s=122"
+        },
+        "center": {
+          "lat": 41.2657984,
+          "lon": -96.03931639999996
+        }
+      },
+      {
+        "type": "way",
+        "id": 1177637029,
+        "tags": {
+          "addr:city": "Elkhorn",
+          "addr:housenumber": "20410",
+          "addr:state": "NE",
+          "addr:street": "George B Lake Parkway",
+          "building": "yes",
+          "name": "HyVee Fast & Fresh",
+          "payment:apple_pay": "yes",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "shop": "convenience"
+        },
+        "center": {
+          "lat": 41.1984365,
+          "lon": -96.235141
+        }
+      },
+      {
+        "type": "way",
+        "id": 1184236505,
+        "tags": {
+          "addr:city": "Gretna",
+          "addr:housenumber": "10855",
+          "addr:postcode": "68136",
+          "addr:state": "NE",
+          "addr:street": "South 191st Street",
+          "air_conditioning": "yes",
+          "brand": "Hy-Vee",
+          "brand:wikidata": "Q1639719",
+          "building": "yes",
+          "name": "Hy-Vee",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "phone": "+1-531-239-3850",
+          "shop": "supermarket"
+        },
+        "center": {
+          "lat": 41.15026245,
+          "lon": -96.21328804999996
+        }
+      },
+      {
+        "type": "way",
+        "id": 1184236506,
+        "tags": {
+          "brand": "Hy-Vee Gas",
+          "building": "yes",
+          "name": "Hy-Vee Gas",
+          "shop": "convenience"
+        },
+        "center": {
+          "lat": 41.1485275,
+          "lon": -96.21475705
+        }
+      },
+      {
+        "type": "way",
+        "id": 1426507189,
+        "tags": {
+          "addr:city": "Elkhorn",
+          "addr:housenumber": "20310",
+          "addr:postcode": "68022",
+          "addr:state": "NE",
+          "addr:street": "Vinton Street",
+          "building": "yes",
+          "name": "Hy-Vee Fast & Fresh",
+          "shop": "convenience"
+        },
+        "center": {
+          "lat": 41.2293613,
+          "lon": -96.2334606
+        }
+      }
+    ],
+    "winco_foods": [],
+    "giant_eagle": [],
+    "market_district": [],
+    "shoprite": [],
+    "price_chopper": [],
+    "market_32": [],
+    "tops_friendly_markets": [],
+    "weis_markets": [],
+    "save_mart": [],
+    "raleys": [],
+    "bel_air": [],
+    "nob_hill_foods": [],
+    "foodmaxx": [],
+    "stater_bros": [],
+    "winn_dixie": [],
+    "harveys_supermarket": [],
+    "aldi": [
+      {
+        "type": "node",
+        "id": 4599202878,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:county": "Douglas, NE",
+          "addr:housenumber": "4525",
+          "addr:postcode": "68107",
+          "addr:state": "NE",
+          "addr:street": "Dahlman Avenue",
+          "brand": "ALDI",
+          "brand:wikidata": "Q41171672",
+          "name": "ALDI",
+          "opening_hours": "Mo-Su 09:00-20:00",
+          "payment:american_express": "yes",
+          "payment:coins": "yes",
+          "payment:discover_card": "yes",
+          "payment:mastercard": "yes",
+          "payment:notes": "yes",
+          "payment:visa": "yes",
+          "phone": "+1 855-955-2534",
+          "shop": "supermarket",
+          "website": "https://stores.aldi.us/ne/omaha/4525-dahlman-ave"
+        },
+        "lat": 41.2143426,
+        "lon": -95.9581066
+      },
+      {
+        "type": "node",
+        "id": 6215195609,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:county": "Douglas, NE",
+          "addr:housenumber": "17240",
+          "addr:postcode": "68116",
+          "addr:state": "NE",
+          "addr:street": "Evans Street",
+          "brand": "ALDI",
+          "brand:wikidata": "Q41171672",
+          "check_date:opening_hours": "2025-07-28",
+          "name": "ALDI",
+          "opening_hours": "Mo-Su 09:00-20:00",
+          "phone": "+1 855-955-2534",
+          "shop": "supermarket",
+          "website": "https://stores.aldi.us/ne/omaha/17240-evans-street"
+        },
+        "lat": 41.2914734,
+        "lon": -96.1852941
+      },
+      {
+        "type": "node",
+        "id": 6329691220,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:county": "Douglas, NE",
+          "addr:housenumber": "885",
+          "addr:postcode": "68114",
+          "addr:state": "NE",
+          "addr:street": "South 72nd Street",
+          "brand": "Aldi",
+          "brand:wikidata": "Q41171672",
+          "name": "Aldi",
+          "opening_hours": "Mo-Su 09:00-20:00",
+          "phone": "+1 855-955-2534",
+          "shop": "supermarket",
+          "website": "https://stores.aldi.us/ne/omaha/885-south-72nd-street"
+        },
+        "lat": 41.2519691,
+        "lon": -96.0225157
+      },
+      {
+        "type": "node",
+        "id": 8689098049,
+        "tags": {
+          "addr:city": "Fremont",
+          "addr:county": "Dodge, NE",
+          "addr:housenumber": "3650",
+          "addr:postcode": "68025",
+          "addr:state": "NE",
+          "addr:street": "Elk Lane",
+          "brand": "ALDI",
+          "brand:wikidata": "Q41171672",
+          "name": "ALDI",
+          "opening_hours": "Mo-Su 09:00-20:00",
+          "phone": "+1 855-955-2534",
+          "shop": "supermarket",
+          "website": "https://stores.aldi.us/ne/fremont/3650-elk-lane"
+        },
+        "lat": 41.4506478,
+        "lon": -96.4506912
+      },
+      {
+        "type": "node",
+        "id": 9322613111,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "13215",
+          "addr:postcode": "68144",
+          "addr:state": "NE",
+          "addr:street": "West Center Road",
+          "brand": "ALDI",
+          "brand:wikidata": "Q41171672",
+          "name": "ALDI",
+          "opening_hours": "Mo-Su 09:00-20:00",
+          "phone": "+1 855-955-2534",
+          "shop": "supermarket",
+          "website": "https://stores.aldi.us/ne/omaha/13215-west-center-road"
+        },
+        "lat": 41.2329431,
+        "lon": -96.1204711
+      },
+      {
+        "type": "node",
+        "id": 11890618527,
+        "tags": {
+          "brand": "ALDI",
+          "brand:wikidata": "Q41171672",
+          "name": "ALDI",
+          "shop": "supermarket"
+        },
+        "lat": 41.1638822,
+        "lon": -96.0210575
+      },
+      {
+        "type": "way",
+        "id": 230165666,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:county": "Douglas, NE",
+          "addr:housenumber": "4801",
+          "addr:postcode": "68111",
+          "addr:state": "NE",
+          "addr:street": "North 30th Street",
+          "brand": "Aldi",
+          "brand:wikidata": "Q41171672",
+          "building": "retail",
+          "name": "Aldi",
+          "opening_hours": "Mo-Su 09:00-20:00",
+          "phone": "+1 855-955-2534",
+          "shop": "supermarket",
+          "website": "https://stores.aldi.us/ne/omaha/4801-n-30th-st"
+        },
+        "center": {
+          "lat": 41.30244055,
+          "lon": -95.95596039999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 315991659,
+        "tags": {
+          "addr:city": "Bellevue",
+          "addr:housenumber": "2112",
+          "addr:postcode": "68123",
+          "addr:state": "NE",
+          "addr:street": "Cornhusker",
+          "brand": "ALDI",
+          "brand:wikidata": "Q41171672",
+          "building": "retail",
+          "building:levels": "1",
+          "fixme:atp": "check if POI still exists, no ATP match",
+          "name": "ALDI",
+          "opening_hours": "Mo-Su 09:00-20:00",
+          "phone": "+1 855-955-2534",
+          "roof:levels": "0",
+          "shop": "supermarket",
+          "website": "https://stores.aldi.us/ne/bellevue/2112-cornhusker"
+        },
+        "center": {
+          "lat": 41.159974649999995,
+          "lon": -95.94361859999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 422899206,
+        "tags": {
+          "addr:city": "Lincoln",
+          "addr:housenumber": "8350",
+          "addr:postcode": "68510",
+          "addr:state": "NE",
+          "addr:street": "O Street",
+          "brand": "Aldi",
+          "brand:wikidata": "Q41171672",
+          "building": "retail",
+          "building:levels": "1",
+          "name": "Aldi",
+          "opening_hours": "Mo-Su 08:30-20:30",
+          "shop": "supermarket",
+          "source": "Mapbox",
+          "website": "https://stores.aldi.us/ne/lincoln/8350-o-street"
+        },
+        "center": {
+          "lat": 40.814215450000006,
+          "lon": -96.60653365000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 474949968,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:county": "Douglas, NE",
+          "addr:housenumber": "3433",
+          "addr:postcode": "68134",
+          "addr:state": "NE",
+          "addr:street": "North 90th Street",
+          "brand": "Aldi",
+          "brand:wikidata": "Q41171672",
+          "building": "retail",
+          "name": "Aldi",
+          "opening_hours": "Mo-Su 09:00-20:00",
+          "payment:american_express": "yes",
+          "payment:coins": "yes",
+          "payment:discover_card": "yes",
+          "payment:mastercard": "yes",
+          "payment:notes": "yes",
+          "payment:visa": "yes",
+          "phone": "+1 855-955-2534",
+          "shop": "supermarket",
+          "website": "https://stores.aldi.us/ne/omaha/3433-n-90th-street"
+        },
+        "center": {
+          "lat": 41.2909121,
+          "lon": -96.05192849999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 736675917,
+        "tags": {
+          "addr:city": "Lincoln",
+          "addr:county": "Lancaster, NE",
+          "addr:housenumber": "8701",
+          "addr:postcode": "68516",
+          "addr:state": "NE",
+          "addr:street": "South 28th Street",
+          "brand": "Aldi",
+          "brand:wikidata": "Q41171672",
+          "building": "retail",
+          "name": "Aldi",
+          "opening_hours": "Mo-Su 09:00-20:00",
+          "phone": "+1 855-955-2534",
+          "shop": "supermarket",
+          "website": "https://stores.aldi.us/ne/lincoln/8701-s-28th-street"
+        },
+        "center": {
+          "lat": 40.72399135,
+          "lon": -96.6817117
+        }
+      },
+      {
+        "type": "way",
+        "id": 1177924732,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "19261",
+          "addr:postcode": "68130",
+          "addr:state": "NE",
+          "addr:street": "Gold Street",
+          "brand": "Aldi",
+          "brand:wikidata": "Q41171672",
+          "building": "retail",
+          "name": "Aldi",
+          "opening_hours": "Mo-Su 09:00-20:00",
+          "phone": "+1 855-955-2534",
+          "shop": "supermarket",
+          "website": "https://stores.aldi.us/ne/omaha/19261-gold-street"
+        },
+        "center": {
+          "lat": 41.2350596,
+          "lon": -96.21614899999997
+        }
+      }
+    ],
+    "lidl": [],
+    "trader_joes": [
+      {
+        "type": "node",
+        "id": 2643086367,
+        "tags": {
+          "addr:city": "Lincoln",
+          "addr:housenumber": "3120",
+          "addr:postcode": "68516",
+          "addr:state": "NE",
+          "addr:street": "Pine Lake Road",
+          "branch": "Lincoln",
+          "brand": "Trader Joe's",
+          "brand:wikidata": "Q688825",
+          "name": "Trader Joe's",
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "phone": "+1 402-328-0120",
+          "ref": "722",
+          "shop": "supermarket",
+          "website": "https://www.traderjoes.com/"
+        },
+        "lat": 40.7423995,
+        "lon": -96.6747957
+      },
+      {
+        "type": "way",
+        "id": 175680738,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "10317",
+          "addr:postcode": "68124",
+          "addr:state": "NE",
+          "addr:street": "Pacific Street",
+          "branch": "Omaha",
+          "brand": "Trader Joe's",
+          "brand:wikidata": "Q688825",
+          "building": "retail",
+          "name": "Trader Joe's",
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "phone": "+1 402-391-3698",
+          "ref": "719",
+          "shop": "supermarket",
+          "source": "bing",
+          "website": "https://locations.traderjoes.com/ne/omaha/719/"
+        },
+        "center": {
+          "lat": 41.2482041,
+          "lon": -96.07393315000002
+        }
+      }
+    ],
+    "whole_foods": [
+      {
+        "type": "way",
+        "id": 168955179,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "10020",
+          "addr:postcode": "68114",
+          "addr:state": "NE",
+          "addr:street": "Regency Circle",
+          "branch": "Omaha",
+          "brand": "Whole Foods Market",
+          "brand:wikidata": "Q1809448",
+          "building": "retail",
+          "check_date": "2024-10-03",
+          "check_date:opening_hours": "2024-10-03",
+          "firearms": "no",
+          "internet_access": "wlan",
+          "internet_access:fee": "no",
+          "name": "Whole Foods Market",
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "phone": "+1 402-393-1200",
+          "ref": "omaha",
+          "shop": "supermarket",
+          "source": "bing",
+          "website": "https://www.wholefoodsmarket.com/stores/omaha"
+        },
+        "center": {
+          "lat": 41.26202895,
+          "lon": -96.06855189999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 259001358,
+        "tags": {
+          "addr:city": "Lincoln",
+          "addr:housenumber": "6055",
+          "addr:postcode": "68510",
+          "addr:state": "NE",
+          "addr:street": "O Street",
+          "branch": "Lincoln",
+          "brand": "Whole Foods Market",
+          "brand:wikidata": "Q1809448",
+          "building": "retail",
+          "check_date": "2026-02-20",
+          "check_date:opening_hours": "2024-10-03",
+          "name": "Whole Foods Market",
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "organic": "yes",
+          "phone": "+1-402-486-6000",
+          "ref": "lincoln",
+          "shop": "supermarket",
+          "website": "https://www.wholefoodsmarket.com/stores/lincoln"
+        },
+        "center": {
+          "lat": 40.81297285,
+          "lon": -96.63908909999998
+        }
+      }
+    ],
+    "sprouts": [],
+    "the_fresh_market": [],
+    "fresh_thyme": [],
+    "natural_grocers": [
+      {
+        "type": "way",
+        "id": 186078920,
+        "tags": {
+          "addr:city": "Omaha",
+          "addr:housenumber": "7831",
+          "addr:postcode": "68114",
+          "addr:state": "NE",
+          "addr:street": "Dodge Street",
+          "brand": "Natural Grocers",
+          "brand:wikidata": "Q17146520",
+          "building": "retail",
+          "name": "Natural Grocers",
+          "shop": "supermarket",
+          "source": "bing",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 41.2584183,
+          "lon": -96.03655019999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 734537237,
+        "tags": {
+          "addr:city": "Lincoln",
+          "addr:housenumber": "212",
+          "addr:postcode": "68504",
+          "addr:state": "NE",
+          "addr:street": "North 48th Street",
+          "brand": "Natural Grocers",
+          "brand:wikidata": "Q17146520",
+          "building": "yes",
+          "check_date": "2025-10-16",
+          "layer": "1",
+          "name": "Natural Grocers",
+          "opening_hours": "Mo-Sa 08:27-20:36; Su 08:57-19:36",
+          "phone": "+1-402-489-0400",
+          "shop": "supermarket",
+          "website": "https://www.naturalgrocers.com/store/lincoln"
+        },
+        "center": {
+          "lat": 40.8146533,
+          "lon": -96.65315214999998
+        }
+      }
+    ],
+    "grocery_outlet": [],
+    "amazon_fresh": [],
+    "earth_fare": [],
+    "moms_organic_market": [],
+    "new_seasons_market": [],
+    "market_of_choice": [],
+    "ingles": [],
+    "food_city": [],
+    "lowes_foods": [],
+    "piggly_wiggly": [],
+    "schnucks": [],
+    "dierbergs": [],
+    "lund_and_byerlys": [],
+    "kowalskis_markets": [],
+    "festival_foods": [],
+    "woodmans": [],
+    "market_basket": [],
+    "big_y": [],
+    "roche_bros": [],
+    "save_a_lot": [],
+    "brookshires": [],
+    "cardenas_markets": [],
+    "el_super": [],
+    "northgate_market": [],
+    "superior_grocers": [],
+    "vallarta_supermarkets": [],
+    "h_mart": [],
+    "99_ranch_market": [],
+    "patel_brothers": [],
+    "seafood_city": [],
+    "mitsuwa_marketplace": [],
+    "lotte_plaza_market": [],
+    "super_king_markets": [],
+    "fiesta_mart": []
+  }
+}

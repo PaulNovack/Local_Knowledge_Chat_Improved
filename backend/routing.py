@@ -22,6 +22,7 @@ _CLOSEST_ROADYS = re.compile(
     r"\b(?:closest|nearest|newest)\b.*\b(?:roady(?:'s|s)?|roadies?|road\s+he['’]?s)\b", re.I
 )
 _CLOSEST_RESTAURANT = re.compile(r'\b(?:closest|nearest|newest)\b', re.I)
+_CLOSEST_DEPARTMENT_STORE = re.compile(r'\b(?:closest|nearest)\b', re.I)
 _RESTAURANT_CHAIN_ALIASES = {
     'bubba gump': 'bubba_gump_shrimp_company',
     'bubblegum shrimp': 'bubba_gump_shrimp_company',
@@ -29,6 +30,15 @@ _RESTAURANT_CHAIN_ALIASES = {
     'potbellies': 'potbelly',
     'torches taco': 'torchy_s_tacos',
 }
+_DEPARTMENT_STORE_CATALOG = json.loads(
+    (Path(__file__).resolve().parents[1] / 'scripts-all-department' / 'department_brands.json')
+    .read_text(encoding='utf-8')
+)
+_DEPARTMENT_STORE_SLUGS = {brand['slug'] for brand in _DEPARTMENT_STORE_CATALOG}
+_DEPARTMENT_STORE_NAMES = sorted(
+    ((brand['slug'], name) for brand in _DEPARTMENT_STORE_CATALOG for name in brand['names']),
+    key=lambda item: (-len(item[1]), item[1].casefold()),
+)
 _SUPPORTED_RESTAURANTS = re.compile(r'\b(?:support(?:ed|s)?|available|offer(?:ed|s)?|carry)\b', re.I)
 _NUMBER_WORDS = set(_SMALL_NUMBERS) | set(_TENS)
 _US_STATE_NAMES = {
@@ -253,6 +263,10 @@ register_router_function('Pre-trip Text', _pre_trip_step, minimum_key=1, maximum
 register_router_function('Closest Loves', lambda question: True if _CLOSEST_LOVES.search(question) else None)
 register_router_function('Closest Roadys', lambda question: True if _CLOSEST_ROADYS.search(question) else None)
 register_router_function('Closest Restaurant', lambda question: True if _CLOSEST_RESTAURANT.search(question) else None)
+register_router_function(
+    'Closest Department Store',
+    lambda question: True if _CLOSEST_DEPARTMENT_STORE.search(question) else None,
+)
 register_router_function(
     'Supported Restaurants',
     lambda question: True if re.search(r'\brestaurants?\b', question, re.I)
@@ -594,6 +608,162 @@ def _closest_restaurant_answer(db, question, chain, session_id):
         'score': 1.0,
         'routerFunction': 'Closest Restaurant',
         'key': chain,
+        'directions': directions,
+    }
+
+
+def _department_store_from_question(question):
+    normalized_question = re.sub(r'[^a-z0-9]+', ' ', question.casefold()).strip()
+    for brand, name in _DEPARTMENT_STORE_NAMES:
+        normalized_name = re.sub(r'[^a-z0-9]+', ' ', name.casefold()).strip()
+        if re.search(
+                r'(?<![a-z0-9])' + re.escape(normalized_name) + r'(?![a-z0-9])',
+                normalized_question):
+            return brand
+    return None
+
+
+def _closest_department_store_from_db(db, brand, session_id):
+    if not session_id:
+        return None
+    try:
+        events = db.execute('''
+            SELECT latitude, longitude
+            FROM user_location_events
+            WHERE session_id=? AND latitude IS NOT NULL AND longitude IS NOT NULL
+              AND recorded_at >= datetime('now', '-10 minutes')
+            ORDER BY id DESC
+            LIMIT 100
+        ''', (session_id,)).fetchall()
+    except sqlite3.OperationalError:
+        return None
+    if not events:
+        return None
+
+    brands = [brand] if brand else sorted(_DEPARTMENT_STORE_SLUGS)
+    locations = []
+    columns = (
+        'name', 'latitude', 'longitude', 'address', 'city', 'state', 'postal_code',
+        'phone', 'website', 'opening_hours',
+    )
+    for candidate_brand in brands:
+        if candidate_brand not in _DEPARTMENT_STORE_SLUGS:
+            continue
+        try:
+            rows = db.execute(f'''
+                SELECT name, latitude, longitude, address, city, state, postal_code,
+                       phone, website, opening_hours
+                FROM "department_{candidate_brand}"
+                WHERE latitude IS NOT NULL AND longitude IS NOT NULL
+            ''').fetchall()
+        except sqlite3.OperationalError:
+            continue
+        locations.extend(
+            (candidate_brand, dict(zip(columns, row))) for row in rows
+        )
+    if not locations:
+        return None
+
+    current = (events[0][0], events[0][1])
+    previous = next(((row[0], row[1]) for row in events
+                     if _distance_miles(current, (row[0], row[1])) >= 0.05), None)
+    heading = _bearing_degrees(previous, current) if previous else None
+    candidates = []
+    for candidate_brand, location in locations:
+        coordinates = (location['latitude'], location['longitude'])
+        distance = _distance_miles(current, coordinates)
+        if heading is not None:
+            bearing = _bearing_degrees(current, coordinates)
+            angle_delta = abs((bearing - heading + 180) % 360 - 180)
+            if angle_delta > 75:
+                continue
+        candidates.append((distance, candidate_brand, location))
+
+    found_ahead = bool(candidates)
+    if not candidates:
+        candidates = [
+            (_distance_miles(current, (location['latitude'], location['longitude'])),
+             candidate_brand, location)
+            for candidate_brand, location in locations
+        ]
+    distance, candidate_brand, location = min(candidates, key=lambda item: item[0])
+    return {
+        'brand': candidate_brand,
+        'location': location,
+        'distance_miles': distance,
+        'heading_known': heading is not None,
+        'found_ahead': found_ahead if heading is not None else False,
+    }
+
+
+def _closest_department_store_answer(db, question, brand, session_id):
+    match = _closest_department_store_from_db(db, brand, session_id)
+    selected_brand = match['brand'] if match else brand
+    brand_names = next(
+        (item['names'] for item in _DEPARTMENT_STORE_CATALOG if item['slug'] == selected_brand),
+        ['department store'],
+    )
+    brand_name = brand_names[0]
+    directions = None
+    if match is None:
+        if not session_id:
+            answer = 'I need a recent location to find the closest department store.'
+        else:
+            answer = f'I do not have imported {brand_name} locations available to search yet.'
+    else:
+        location = match['location']
+        name = str(location.get('name') or brand_name)
+        distance = match['distance_miles']
+        if match['heading_known'] and match['found_ahead']:
+            answer = f'The closest {name} in the direction you are heading is about {distance:.1f} miles away.'
+        elif match['heading_known']:
+            answer = f'I could not find a {name} ahead in your direction of travel. The closest one overall is about {distance:.1f} miles away.'
+        else:
+            answer = f'The closest {name} is about {distance:.1f} miles away. I do not have enough recent movement to determine your direction.'
+        address = str(location.get('address') or '').strip()
+        state = str(location.get('state') or '').strip()
+        state_names = {state.casefold()}
+        if state.upper() in _US_STATE_NAMES:
+            state_names.add(_US_STATE_NAMES[state.upper()].casefold())
+        if address.casefold() in state_names:
+            address = ''
+        if not address:
+            address = ', '.join(
+            str(location[field]) for field in ('city', 'state', 'postal_code') if location.get(field)
+            )
+        if address.casefold() in state_names:
+            address = ''
+        address = _format_restaurant_address(address)
+        directions = {
+            'address': address,
+            'latitude': location.get('latitude'),
+            'longitude': location.get('longitude'),
+        }
+        details = []
+        for field, label in (
+            ('address', 'Address'), ('opening_hours', 'Hours'), ('phone', 'Phone'),
+            ('website', 'Website'),
+        ):
+            value = address if field == 'address' else location.get(field)
+            if field == 'opening_hours' and value:
+                value = _format_opening_hours(value)
+            if field == 'phone' and value:
+                value = _format_phone_for_speech(value)
+            if value:
+                details.append(f'{label}: {value}')
+        if not address:
+            details.append('Address: not available in the imported data.')
+        answer += '\n\n' + '\n'.join(details)
+    return {
+        'id': f'closest-department-store-{selected_brand or "any"}',
+        'point_id': f'closest-department-store-{selected_brand or "any"}',
+        'question': question,
+        'text': answer,
+        'url': '',
+        'source': 'router',
+        'score': 1.0,
+        'routerFunction': 'Closest Department Store',
+        'key': selected_brand or '',
         'directions': directions,
     }
 
@@ -995,6 +1165,12 @@ def resolve_routed_answer(topic, question, path=None, session_id=None, sources=N
             registered_routes = {str(name).strip().casefold() for name in route_names}
             for source in sources or ():
                 source_route = str(source.get('routerFunction', '')).strip().casefold()
+                if source_route == 'closest department store' and _CLOSEST_DEPARTMENT_STORE.search(question):
+                    brand = _department_store_from_question(question)
+                    source_key = str(source.get('key') or '').strip()
+                    if brand is None and source_key in _DEPARTMENT_STORE_SLUGS:
+                        brand = source_key
+                    return _closest_department_store_answer(db, question, brand, session_id)
                 if source_route == 'closest restaurant':
                     chain = _restaurant_chain_from_question(db, question)
                     if chain:
@@ -1034,6 +1210,17 @@ def resolve_routed_answer(topic, question, path=None, session_id=None, sources=N
                         'routerFunction': 'Closest Restaurant',
                         'key': '',
                     }
+            if ('closest department store' in registered_routes
+                    and _CLOSEST_DEPARTMENT_STORE.search(question)):
+                brand = _department_store_from_question(question)
+                department_context = re.search(r'\bdepartment\s+stores?\b', question, re.I)
+                source_context = any(
+                    str(source.get('routerFunction', '')).strip().casefold() == 'closest department store'
+                    and re.search(r'\bdepartment\s+stores?\b', str(source.get('question', '')), re.I)
+                    for source in sources or ()
+                )
+                if brand or department_context or source_context:
+                    return _closest_department_store_answer(db, question, brand, session_id)
             for route_name in route_names:
                 handler = _ROUTE_HANDLERS.get(str(route_name).strip().casefold())
                 if handler is None:

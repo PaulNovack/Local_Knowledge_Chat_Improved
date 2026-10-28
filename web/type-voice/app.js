@@ -135,6 +135,18 @@ function getWsUrl() {
   return url;
 }
 async function askQuestion(question) {
+  const directionsCommand = window.handleLocatorDirectionsCommand?.(question);
+  if (directionsCommand) {
+    const messages = {
+      opened: 'Opening directions for the displayed location.',
+      'no-location': 'There is no displayed location with directions to open.',
+      closed: 'Directions closed.',
+      'not-open': 'Directions are not open.',
+      ignored: '',
+    };
+    status(messages[directionsCommand]);
+    return null;
+  }
   if (window.handleStepVideoRequest?.(question)) return null;
   if (!ensureSelectedTopic()) {
     throw new Error('Select a knowledge collection first, then ask again.');
@@ -193,7 +205,7 @@ async function askQuestion(question) {
         if (data.type === 'done') {
           answer.body.classList.remove('thinking');
           record.complete = true;
-          window.finishLocatorDirections?.(record.directionsWindow);
+          window.finishLocatorDirections?.(record.directionsWindow, data.response_id);
           setStatus('Ready for the next prompt.');
           setBusy(false);
           done();

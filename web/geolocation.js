@@ -68,6 +68,10 @@
       return;
     }
     const location = locationToSend();
+    window.locatorCurrentLocation = location;
+    if (location) {
+      window.dispatchEvent(new CustomEvent('locator-location-updated', {detail: location}));
+    }
     const clearLocation = isLoopbackHost && overrideEnabled && !overrideEnabled.checked && !browserLocation;
     if (!location && !clearLocation) return;
     sending = true;
@@ -115,6 +119,15 @@
         latitude: position.coords.latitude,
         longitude: position.coords.longitude,
       };
+      if (!(isLoopbackHost && overrideEnabled?.checked)) {
+        window.dispatchEvent(new CustomEvent('locator-heading-updated', {
+          detail: {
+            ...browserLocation,
+            heading: position.coords.heading,
+            speed: position.coords.speed,
+          },
+        }));
+      }
       if (!sentInitialLocation && !(isLoopbackHost && overrideEnabled?.checked)) {
         sentInitialLocation = true;
         void sendLocation();

@@ -35,6 +35,7 @@ class Settings:
     asr_timeout: float = float(os.getenv('ASR_TIMEOUT', '60'))
     piper_timeout: float = float(os.getenv('PIPER_TIMEOUT', '60'))
     origins: str = os.getenv('ALLOWED_ORIGINS', 'http://127.0.0.1:8000,http://localhost:8000')
+    mapquest_api_key: str = os.getenv('MAPQUEST_API_KEY', '')
 
     def __post_init__(self):
         if not 1 <= self.top_k <= 30 or not -1 <= self.min_score <= 1:
@@ -230,6 +231,8 @@ def ensure_chat_history_db(path=None):
                     answer TEXT NOT NULL,
                     routerFunction TEXT,
                     "key" INTEGER,
+                    session_id TEXT,
+                    navigation_data TEXT NOT NULL DEFAULT '{}',
                     accepted INTEGER NOT NULL DEFAULT 1 CHECK (accepted IN (0, 1)),
                     created_date TEXT NOT NULL DEFAULT (CURRENT_DATE),
                     created_at TEXT NOT NULL DEFAULT (CURRENT_TIMESTAMP)
@@ -254,6 +257,8 @@ def ensure_chat_history_db(path=None):
                 answer TEXT NOT NULL,
                 routerFunction TEXT,
                 "key" INTEGER,
+                session_id TEXT,
+                navigation_data TEXT NOT NULL DEFAULT '{}',
                 accepted INTEGER NOT NULL DEFAULT 1 CHECK (accepted IN (0, 1)),
                 created_date TEXT NOT NULL DEFAULT (CURRENT_DATE),
                 created_at TEXT NOT NULL DEFAULT (CURRENT_TIMESTAMP)
@@ -264,6 +269,10 @@ def ensure_chat_history_db(path=None):
             db.execute('ALTER TABLE chat_history ADD COLUMN routerFunction TEXT')
         if 'key' not in chat_history_columns:
             db.execute('ALTER TABLE chat_history ADD COLUMN "key" INTEGER')
+        if 'session_id' not in chat_history_columns:
+            db.execute('ALTER TABLE chat_history ADD COLUMN session_id TEXT')
+        if 'navigation_data' not in chat_history_columns:
+            db.execute("ALTER TABLE chat_history ADD COLUMN navigation_data TEXT NOT NULL DEFAULT '{}'")
         db.execute('''
             CREATE INDEX IF NOT EXISTS idx_chat_history_topic_created_at
             ON chat_history(topic, created_at DESC)
@@ -290,7 +299,7 @@ def ensure_chat_history_db(path=None):
         db.executemany(
             'INSERT OR IGNORE INTO routerFunctions(name) VALUES (?)',
                 [('',), ('Pre-trip Text',), ('Pre-trip Video',), ('Closest Loves',), ('Closest Roadys',), ('Closest McDonalds',),
-               ('Closest Restaurant',), ('Supported Restaurants',), ('Open Directions',),
+               ('Closest Restaurant',), ('Closest Department Store',), ('Supported Restaurants',), ('Open Directions',),
                ('Close Directions',)],
         )
     ensure_topic_data_table(path)
@@ -403,14 +412,66 @@ def save_tts_cache_entry(text_hash, text, path=None):
         )
 
 
-def save_chat_history(topic, question, answer, accepted=True, path=None, router_function=None, key=None):
+def save_chat_history(topic, question, answer, accepted=True, path=None, router_function=None, key=None, session_id=None):
     path = ensure_chat_history_db(path)
     with sqlite3.connect(path) as db:
-        db.execute(
-            'INSERT INTO chat_history(topic, question, answer, accepted, routerFunction, "key") VALUES (?, ?, ?, ?, ?, ?)',
+        cursor = db.execute(
+            'INSERT INTO chat_history(topic, question, answer, accepted, routerFunction, "key", session_id) VALUES (?, ?, ?, ?, ?, ?, ?)',
             (topic_name(topic), str(question).strip(), str(answer).strip(), 1 if accepted else 0,
-             router_function, key),
+             router_function, key, session_id),
         )
+        return cursor.lastrowid
+
+
+def save_chat_navigation_data(response_id, session_id, navigation_data, path=None):
+    path = ensure_chat_history_db(path)
+    serialized = json.dumps(navigation_data, ensure_ascii=False, separators=(',', ':'))
+    with sqlite3.connect(path) as db:
+        row = db.execute(
+            'SELECT session_id FROM chat_history WHERE ID = ?', (int(response_id),),
+        ).fetchone()
+        if row is None or not session_id or row[0] != session_id:
+            return False
+        db.execute(
+            'UPDATE chat_history SET navigation_data = ? WHERE ID = ?',
+            (serialized, int(response_id)),
+        )
+    return True
+
+
+def read_chat_navigation_data(response_id, path=None):
+    path = ensure_chat_history_db(path)
+    with sqlite3.connect(path) as db:
+        row = db.execute(
+            'SELECT session_id, navigation_data FROM chat_history WHERE ID = ?',
+            (int(response_id),),
+        ).fetchone()
+        if row is None:
+            return None
+        session_id, serialized = row
+        events = []
+        if session_id:
+            events = db.execute(
+                '''
+                SELECT recorded_at, latitude, longitude
+                FROM user_location_events
+                WHERE session_id = ? AND latitude IS NOT NULL AND longitude IS NOT NULL
+                ORDER BY id
+                ''',
+                (session_id,),
+            ).fetchall()
+    try:
+        navigation = json.loads(serialized or '{}')
+    except (TypeError, json.JSONDecodeError):
+        navigation = {}
+    return {
+        'session_id': session_id,
+        'navigation': navigation,
+        'gps_trail': [
+            {'recorded_at': recorded_at, 'latitude': latitude, 'longitude': longitude}
+            for recorded_at, latitude, longitude in events
+        ],
+    }
 
 
 def delete_chat_history(response_id, path=None):
@@ -458,7 +519,7 @@ def read_chat_history(page=1, page_size=20, keyword='', path=None):
         total = db.execute(f'SELECT COUNT(*) FROM chat_history {clause}', params).fetchone()[0]
         rows = db.execute(
             '''
-            SELECT ID, topic, question, answer, accepted, created_date, created_at, routerFunction, "key"
+            SELECT ID, topic, question, answer, accepted, created_date, created_at, routerFunction, "key", session_id, navigation_data
             FROM chat_history
             '''
             + clause + '''
@@ -467,7 +528,17 @@ def read_chat_history(page=1, page_size=20, keyword='', path=None):
             ''',
             [*params, page_size, offset],
         ).fetchall()
-    items = [dict(zip(('ID', 'topic', 'question', 'answer', 'accepted', 'created_date', 'created_at', 'routerFunction', 'key'), row)) for row in rows]
+    items = []
+    for row in rows:
+        item = dict(zip(('ID', 'topic', 'question', 'answer', 'accepted', 'created_date', 'created_at', 'routerFunction', 'key', 'session_id', 'navigation_data'), row))
+        try:
+            navigation = json.loads(item['navigation_data'] or '{}')
+        except (TypeError, json.JSONDecodeError):
+            navigation = {}
+        item['navigation_data'] = {
+            key: value for key, value in navigation.items() if key != 'points'
+        }
+        items.append(item)
     total_pages = math.ceil(total / page_size) if total else 0
     return {
         'items': items,

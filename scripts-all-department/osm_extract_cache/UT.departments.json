@@ -1,0 +1,4348 @@
+{
+  "schema": "geofabrik-departments-v1-3efb8cbbd450c05f",
+  "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+  "source_md5": "ae06c28b2d5fe0d209d18f65b5c0a5e5",
+  "processed_utc": "2026-10-27T17:52:53.274352+00:00",
+  "brands": {
+    "macys": [
+      {
+        "type": "node",
+        "id": 1692131934,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "21",
+          "addr:postcode": "84101",
+          "addr:state": "UT",
+          "addr:street": "South Main Street",
+          "air_conditioning": "yes",
+          "brand": "Macy's",
+          "brand:wikidata": "Q629269",
+          "currency:USD": "yes",
+          "level": "1;2",
+          "name": "Macy's",
+          "opening_hours": "Mo-Sa 10:00-21:00; Su off",
+          "payment:cash": "yes",
+          "payment:cheque": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+1-801-736-8950",
+          "shop": "department_store",
+          "source": "website",
+          "stroller": "yes",
+          "website": "https://www.macys.com/stores/ut/saltlakecity/city-creek-center_449.html",
+          "wheelchair": "limited"
+        },
+        "lat": 40.7686899,
+        "lon": -111.8903169
+      },
+      {
+        "type": "node",
+        "id": 5860242685,
+        "tags": {
+          "brand": "Macy's",
+          "brand:wikidata": "Q629269",
+          "check_date": "2022-10-05",
+          "name": "Macy's",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "shop": "department_store",
+          "website": "https://www.macys.com/stores/ut/murray/fashion-place_427.html",
+          "wheelchair": "yes"
+        },
+        "lat": 40.6376205,
+        "lon": -111.8850554
+      },
+      {
+        "type": "node",
+        "id": 13923105674,
+        "tags": {
+          "brand": "Macy's Backstage",
+          "brand:wikidata": "Q122914589",
+          "level": "1",
+          "name": "Macy's Backstage",
+          "shop": "department_store"
+        },
+        "lat": 40.6377849,
+        "lon": -111.8850432
+      }
+    ],
+    "bloomingdales": [],
+    "kohls": [
+      {
+        "type": "node",
+        "id": 672567925,
+        "tags": {
+          "addr:city": "Washington",
+          "addr:housenumber": "650",
+          "addr:postcode": "84780",
+          "addr:state": "UT",
+          "addr:street": "West Telegraph Street",
+          "brand": "Kohl's",
+          "brand:wikidata": "Q967265",
+          "name": "Kohl's",
+          "opening_hours": "Mo-Sa 10:00-21:00; Su 10:00-20:00",
+          "phone": "+1 435-251-8631",
+          "ref": "1007",
+          "shop": "department_store",
+          "toilets": "yes",
+          "website": "https://www.kohls.com/stores/ut/washington-1007.shtml",
+          "wheelchair": "yes"
+        },
+        "lat": 37.1298987,
+        "lon": -113.5212663
+      },
+      {
+        "type": "node",
+        "id": 1103682599,
+        "tags": {
+          "addr:city": "Orem",
+          "addr:housenumber": "1281",
+          "addr:postcode": "84097",
+          "addr:state": "UT",
+          "addr:street": "South 800 East",
+          "branch": "Orem",
+          "brand": "Kohl's",
+          "brand:wikidata": "Q967265",
+          "name": "Kohl's",
+          "opening_hours": "Mo-Sa 09:00-21:00; Su 09:00-20:00",
+          "phone": "+1 801-221-9535",
+          "ref": "1285",
+          "shop": "department_store",
+          "source": "survey",
+          "website": "https://www.kohls.com/stores/ut/orem-1285.shtml"
+        },
+        "lat": 40.2739187,
+        "lon": -111.6738242
+      },
+      {
+        "type": "node",
+        "id": 2336725524,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "1154",
+          "addr:postcode": "84106",
+          "addr:state": "UT",
+          "addr:street": "East Brickyard Road",
+          "brand": "Kohl's",
+          "brand:wikidata": "Q967265",
+          "name": "Kohl's",
+          "opening_hours": "Mo-Sa 09:00-21:00; Su 09:00-20:00",
+          "phone": "+1 801-486-6162",
+          "ref": "1357",
+          "shop": "department_store",
+          "website": "https://www.kohls.com/stores/ut/saltlakecity-1357.shtml"
+        },
+        "lat": 40.7018411,
+        "lon": -111.85835
+      },
+      {
+        "type": "node",
+        "id": 3011413237,
+        "tags": {
+          "addr:city": "West Valley City",
+          "addr:country": "US",
+          "addr:housenumber": "3031",
+          "addr:postcode": "84120",
+          "addr:state": "UT",
+          "addr:street": "South 5600 West",
+          "brand": "Kohl's",
+          "brand:wikidata": "Q967265",
+          "name": "Kohl's",
+          "opening_hours": "Mo-Sa 10:00-21:00; Su 10:00-20:00",
+          "phone": "+1 801-955-9174",
+          "ref": "774",
+          "shop": "department_store",
+          "source": "website",
+          "website": "https://www.kohls.com/stores/ut/westvalleycity-774.shtml"
+        },
+        "lat": 40.7052156,
+        "lon": -112.022306
+      },
+      {
+        "type": "way",
+        "id": 30795300,
+        "tags": {
+          "addr:city": "Clinton",
+          "addr:housenumber": "1814",
+          "addr:postcode": "84015",
+          "addr:state": "UT",
+          "addr:street": "North 2000 West",
+          "brand": "Kohl's",
+          "brand:wikidata": "Q967265",
+          "building": "yes",
+          "building:levels": "1",
+          "name": "Kohl's",
+          "opening_hours": "Mo-Sa 09:00-21:00; Su 09:00-20:00",
+          "phone": "+1 801-525-1777",
+          "ref": "1320",
+          "shop": "department_store",
+          "website": "https://www.kohls.com/stores/ut/clinton-1320.shtml"
+        },
+        "center": {
+          "lat": 41.1411602,
+          "lon": -112.06043284999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 38576130,
+        "tags": {
+          "addr:city": "West Jordan",
+          "addr:housenumber": "7292",
+          "addr:postcode": "84084",
+          "addr:state": "UT",
+          "addr:street": "South Plaza Center Drive",
+          "branch": "West Jordan",
+          "brand": "Kohl's",
+          "brand:wikidata": "Q967265",
+          "building": "yes",
+          "building:levels": "2",
+          "name": "Kohl's",
+          "opening_hours": "Mo-Sa 09:00-21:00; Su 09:00-20:00",
+          "phone": "+1 801-282-0935",
+          "ref": "775",
+          "shop": "department_store",
+          "website": "https://www.kohls.com/stores/ut/westjordan-775.shtml"
+        },
+        "center": {
+          "lat": 40.61780785,
+          "lon": -111.97776799999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 39997913,
+        "tags": {
+          "addr:city": "Centerville",
+          "addr:country": "US",
+          "addr:housenumber": "26 S",
+          "addr:postcode": "84014",
+          "addr:state": "UT",
+          "addr:street": "Frontage Road",
+          "air_conditioning": "yes",
+          "brand": "Kohl's",
+          "brand:wikidata": "Q967265",
+          "building": "retail",
+          "building:levels": "1",
+          "currency:USD": "yes",
+          "name": "Kohl's",
+          "opening_hours": "Mo-Su 10:00-20:00",
+          "payment:cash": "yes",
+          "payment:cheque": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+1 801-292-9827",
+          "ref": "1227",
+          "shop": "department_store",
+          "source": "website",
+          "stroller": "yes",
+          "website": "https://www.kohls.com/stores/ut/centerville-1227.shtml",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.9168716,
+          "lon": -111.88984199999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 81567429,
+        "tags": {
+          "addr:city": "American Fork",
+          "addr:housenumber": "634",
+          "addr:postcode": "84003",
+          "addr:state": "UT",
+          "addr:street": "West Pacific Drive",
+          "branch": "American Fork",
+          "brand": "Kohl's",
+          "brand:wikidata": "Q967265",
+          "building": "commercial",
+          "name": "Kohl's",
+          "opening_hours": "Mo-Sa 09:00-21:00; Su 09:00-20:00",
+          "phone": "+1 801-492-4113",
+          "ref": "777",
+          "shop": "department_store",
+          "website": "https://www.kohls.com/stores/ut/americanfork-777.shtml"
+        },
+        "center": {
+          "lat": 40.382734,
+          "lon": -111.81761289999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 157651913,
+        "tags": {
+          "addr:city": "Riverton",
+          "addr:housenumber": "13319",
+          "addr:postcode": "84065",
+          "addr:state": "UT",
+          "addr:street": "South 3600 West",
+          "addr:unit": "13LOT",
+          "brand": "Kohl's",
+          "brand:wikidata": "Q967265",
+          "building": "retail",
+          "internet_access": "wlan",
+          "name": "Kohl's",
+          "opening_hours": "Mo-Sa 09:00-21:00; Su 09:00-20:00",
+          "phone": "+1 801-253-0806",
+          "ref": "1318",
+          "shop": "department_store",
+          "website": "https://www.kohls.com/stores/ut/riverton-1318.shtml"
+        },
+        "center": {
+          "lat": 40.51061785,
+          "lon": -111.97768435
+        }
+      },
+      {
+        "type": "way",
+        "id": 224698903,
+        "tags": {
+          "addr:city": "Draper",
+          "addr:housenumber": "147",
+          "addr:postcode": "84020",
+          "addr:state": "UT",
+          "addr:street": "East 12300 South",
+          "brand": "Kohl's",
+          "brand:wikidata": "Q967265",
+          "building": "retail",
+          "name": "Kohl's",
+          "opening_hours": "Mo-Sa 10:00-21:00; Su 10:00-20:00",
+          "phone": "+1 801-495-4680",
+          "ref": "776",
+          "shop": "department_store",
+          "source": "https://www.kohls.com/stores/ut/draper-776.shtml",
+          "website": "https://www.kohls.com/stores/ut/draper-776.shtml"
+        },
+        "center": {
+          "lat": 40.528983249999996,
+          "lon": -111.88671965000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 483090253,
+        "tags": {
+          "addr:city": "Layton",
+          "addr:housenumber": "1298",
+          "addr:postcode": "84041",
+          "addr:state": "UT",
+          "addr:street": "North Main Street",
+          "brand": "Kohl's",
+          "brand:wikidata": "Q967265",
+          "building": "retail",
+          "check_date": "2025-06-01",
+          "height": "7",
+          "name": "Kohl's",
+          "opening_hours": "Mo-Sa 09:00-21:00; Su 09:00-20:00",
+          "phone": "+1 801-497-0698",
+          "ref": "778",
+          "shop": "department_store",
+          "website": "https://www.kohls.com/stores/ut/layton-778.shtml"
+        },
+        "center": {
+          "lat": 41.080293299999994,
+          "lon": -111.98422385000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 994113065,
+        "tags": {
+          "addr:city": "North Logan",
+          "addr:country": "US",
+          "addr:housenumber": "1660",
+          "addr:postcode": "84341",
+          "addr:state": "UT",
+          "addr:street": "North Main Street",
+          "branch": "North Logan",
+          "brand": "Kohl's",
+          "brand:wikidata": "Q967265",
+          "building": "commercial",
+          "name": "Kohl's",
+          "opening_hours": "Mo-Sa 09:00-21:00; Su 09:00-20:00",
+          "phone": "+1 435-752-4195",
+          "ref": "195",
+          "shop": "department_store",
+          "website": "https://www.kohls.com/stores/ut/northlogan-195.shtml"
+        },
+        "center": {
+          "lat": 41.76271165,
+          "lon": -111.83208775000003
+        }
+      }
+    ],
+    "jcpenney": [
+      {
+        "type": "node",
+        "id": 307526415,
+        "tags": {
+          "addr:housenumber": "4215",
+          "addr:street": "Riverdale Road",
+          "brand": "JCPenney",
+          "brand:wikidata": "Q920037",
+          "name": "JCPenney",
+          "official_name": "J.C. Penney Company",
+          "shop": "department_store"
+        },
+        "lat": 41.1872195,
+        "lon": -111.987524
+      },
+      {
+        "type": "node",
+        "id": 671110848,
+        "tags": {
+          "brand": "JCPenney",
+          "brand:wikidata": "Q920037",
+          "name": "JCPenney",
+          "official_name": "J.C. Penney Company",
+          "shop": "department_store"
+        },
+        "lat": 37.1166355,
+        "lon": -113.545628
+      },
+      {
+        "type": "node",
+        "id": 3999553903,
+        "tags": {
+          "brand": "JCPenney",
+          "brand:wikidata": "Q920037",
+          "level": "0;1",
+          "name": "JCPenney",
+          "official_name": "J.C. Penney Company",
+          "shop": "department_store"
+        },
+        "lat": 40.5626041,
+        "lon": -111.893498
+      },
+      {
+        "type": "node",
+        "id": 4315690666,
+        "tags": {
+          "addr:city": "Layton",
+          "addr:housenumber": "1201",
+          "addr:postcode": "84041",
+          "addr:state": "UT",
+          "addr:street": "North Hill Field Road",
+          "addr:unit": "1050",
+          "brand": "JCPenney",
+          "brand:wikidata": "Q920037",
+          "check_date": "2025-04-17",
+          "name": "JCPenney",
+          "official_name": "J.C. Penney Company",
+          "opening_hours": "Mo-Th 11:00-20:00; Fr,Sa 10:00-20:00; Su off",
+          "phone": "+1 801-543-2225",
+          "shop": "department_store",
+          "website": "https://www.jcpenney.com/locations/ut/layton/clothing-stores-layton-ut-2650.html"
+        },
+        "lat": 41.0786308,
+        "lon": -111.978813
+      },
+      {
+        "type": "way",
+        "id": 107778483,
+        "tags": {
+          "addr:city": "South Jordan",
+          "addr:country": "US",
+          "addr:housenumber": "11552",
+          "addr:postcode": "84095",
+          "addr:state": "UT",
+          "addr:street": "South District Drive",
+          "brand": "JCPenney",
+          "brand:wikidata": "Q920037",
+          "building": "retail",
+          "name": "JCPenney",
+          "official_name": "J.C. Penney Company",
+          "shop": "department_store"
+        },
+        "center": {
+          "lat": 40.54151485,
+          "lon": -111.983315
+        }
+      },
+      {
+        "type": "way",
+        "id": 347678216,
+        "tags": {
+          "brand": "JCPenney",
+          "brand:wikidata": "Q920037",
+          "building": "retail",
+          "name": "JCPenney",
+          "official_name": "J.C. Penney Company",
+          "shop": "department_store",
+          "source": "bing"
+        },
+        "center": {
+          "lat": 40.21717030000001,
+          "lon": -111.66197475000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 1053820284,
+        "tags": {
+          "addr:city": "West Valley City",
+          "addr:country": "US",
+          "addr:housenumber": "3601",
+          "addr:postcode": "84119",
+          "addr:state": "UT",
+          "addr:street": "South Constitution Boulevard",
+          "air_conditioning": "yes",
+          "brand": "JCPenney",
+          "brand:wikidata": "Q920037",
+          "name": "JCPenney",
+          "official_name": "J.C. Penney Company",
+          "opening_hours": "Mo-Sa 11:00-20:00; Su 12:00-19:00",
+          "operator": "jcpenny",
+          "phone": "+1-801-967-6003",
+          "shop": "department_store",
+          "stroller": "yes",
+          "website": "https://www.jcpenney.com/locations/ut/westvalleycity/clothing-stores-westvalleycity-ut-1413.html",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.69546295,
+          "lon": -111.95509105000002
+        }
+      }
+    ],
+    "nordstrom": [
+      {
+        "type": "node",
+        "id": 1692131944,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "55",
+          "addr:postcode": "84101",
+          "addr:state": "UT",
+          "addr:street": "South West Temple",
+          "air_conditioning": "yes",
+          "brand": "Nordstrom",
+          "brand:wikidata": "Q174310",
+          "check_date": "2025-06-02",
+          "currency:USD": "yes",
+          "level": "1;2",
+          "name": "Nordstrom",
+          "opening_hours": "Mo-Th 10:00-20:00; Fr-Sa 10:00-21:00; Su off",
+          "operator": "Nordstrom",
+          "payment:cash": "yes",
+          "payment:cheque": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+1-801-322-4200",
+          "ref": "73",
+          "shop": "department_store",
+          "source": "website",
+          "stroller": "yes",
+          "website": "https://www.nordstrom.com/store-details/united-states/ut/salt-lake-city/nordstrom-city-creek-center",
+          "wheelchair": "yes"
+        },
+        "lat": 40.7683619,
+        "lon": -111.8933268
+      },
+      {
+        "type": "node",
+        "id": 2332260267,
+        "tags": {
+          "brand": "Nordstrom",
+          "brand:wikidata": "Q174310",
+          "check_date": "2022-10-05",
+          "name": "Nordstrom",
+          "opening_hours": "Mo-Sa 10:00-21:00; Su 12:00-18:00",
+          "shop": "department_store",
+          "website": "https://www.nordstrom.com/store-details/nordstrom-fashion-place"
+        },
+        "lat": 40.6371228,
+        "lon": -111.8871383
+      }
+    ],
+    "nordstrom_rack": [
+      {
+        "type": "way",
+        "id": 360365011,
+        "tags": {
+          "addr:city": "Sandy",
+          "addr:housenumber": "10379",
+          "addr:postcode": "84070",
+          "addr:state": "UT",
+          "addr:street": "South State Street",
+          "brand": "Nordstrom Rack",
+          "brand:wikidata": "Q21463374",
+          "building": "yes",
+          "name": "Nordstrom Rack",
+          "shop": "clothes",
+          "website": "https://stores.nordstromrack.com/us/ut/sandy/10379-s-state-st"
+        },
+        "center": {
+          "lat": 40.56268085,
+          "lon": -111.88851725
+        }
+      },
+      {
+        "type": "way",
+        "id": 510892038,
+        "tags": {
+          "brand": "Nordstrom Rack",
+          "brand:wikidata": "Q21463374",
+          "building": "yes",
+          "name": "Nordstrom Rack",
+          "shop": "clothes",
+          "website": "https://stores.nordstromrack.com/us/ut/orem/360-east-university-parkway"
+        },
+        "center": {
+          "lat": 40.2722134,
+          "lon": -111.68623769999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 1251352934,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "2210",
+          "addr:postcode": "84106",
+          "addr:state": "UT",
+          "addr:street": "South 1300 East",
+          "brand": "Nordstrom Rack",
+          "brand:wikidata": "Q21463374",
+          "building": "retail",
+          "name": "Nordstrom Rack",
+          "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-19:00",
+          "phone": "+1-801-484-8880",
+          "shop": "clothes",
+          "website": "https://stores.nordstromrack.com/us/ut/salt-lake-city/2210-s-1300-e"
+        },
+        "center": {
+          "lat": 40.72286845,
+          "lon": -111.85544600000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 1308315943,
+        "tags": {
+          "addr:city": "Farmington",
+          "addr:country": "US",
+          "addr:housenumber": "380",
+          "addr:postcode": "84025",
+          "addr:state": "UT",
+          "addr:street": "Station Parkway",
+          "brand": "Nordstrom Rack",
+          "brand:wikidata": "Q21463374",
+          "building": "yes",
+          "check_date": "2026-04-05",
+          "level": "0",
+          "name": "Nordstrom Rack",
+          "opening_hours": "Mo-Sa 10:00-20:00; Su 12:00-18:00",
+          "shop": "clothes",
+          "website": "https://stores.nordstromrack.com/us/ut/farmington/380-n-station-pkwy",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.9868698,
+          "lon": -111.90473814999996
+        }
+      }
+    ],
+    "dillards": [
+      {
+        "type": "node",
+        "id": 343847798,
+        "tags": {
+          "addr:city": "Ogden",
+          "addr:housenumber": "4000",
+          "addr:postcode": "84405",
+          "addr:state": "UT",
+          "addr:street": "Newgate Mall",
+          "brand": "Dillard's",
+          "brand:wikidata": "Q844805",
+          "check_date": "2025-06-18",
+          "check_date:opening_hours": "2025-06-16",
+          "contact:facebook": "https://www.facebook.com/people/Dillards/100089606966228/",
+          "contact:instagram": "https://www.instagram.com/dillardsnewgatemall/",
+          "name": "Dillard's",
+          "opening_hours": "Mo-Sa 11:00-20:00; Su 12:00-18:00",
+          "phone": "+1 801-392-0689",
+          "shop": "department_store",
+          "website": "https://www.dillards.com/stores/utah/newgate-mall-ogden/0931"
+        },
+        "lat": 41.1962245,
+        "lon": -111.9811468
+      },
+      {
+        "type": "node",
+        "id": 671109309,
+        "tags": {
+          "brand": "Dillard's",
+          "brand:wikidata": "Q844805",
+          "name": "Dillard's",
+          "shop": "department_store"
+        },
+        "lat": 37.1164045,
+        "lon": -113.5437187
+      },
+      {
+        "type": "node",
+        "id": 2332260213,
+        "tags": {
+          "brand": "Dillard's",
+          "brand:wikidata": "Q844805",
+          "check_date": "2024-10-07",
+          "check_date:opening_hours": "2024-10-07",
+          "contact:facebook": "https://www.facebook.com/profile.php?id=100090264360698",
+          "contact:instagram": "https://www.instagram.com/dillardsfashionplace/",
+          "name": "Dillard's",
+          "opening_hours": "Mo-Sa 11:00-20:00; Su 12:00-18:00",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "phone": "+1 801-266-2006",
+          "shop": "department_store",
+          "website": "https://www.dillards.com/stores/utah/fashion-place-murray/0930",
+          "wheelchair": "yes"
+        },
+        "lat": 40.6343422,
+        "lon": -111.8850803
+      },
+      {
+        "type": "node",
+        "id": 5991673202,
+        "tags": {
+          "addr:city": "Layton",
+          "addr:housenumber": "1201",
+          "addr:postcode": "84041",
+          "addr:state": "UT",
+          "addr:street": "North Hill Field Road",
+          "addr:unit": "1000",
+          "brand": "Dillard's",
+          "brand:wikidata": "Q844805",
+          "check_date": "2025-04-14",
+          "check_date:opening_hours": "2024-10-07",
+          "contact:facebook": "https://www.facebook.com/people/Dillards/100089812963936/",
+          "contact:instagram": "https://www.instagram.com/dillardslaytonhillsmall/",
+          "name": "Dillard's",
+          "opening_hours": "Mo-Sa 11:00-20:00; Su off",
+          "phone": "+1 801-315-2138",
+          "shop": "department_store",
+          "website": "https://www.dillards.com/stores/utah/layton-hills-mall-layton/0932"
+        },
+        "lat": 41.0778624,
+        "lon": -111.975682
+      },
+      {
+        "type": "way",
+        "id": 1094913443,
+        "tags": {
+          "brand": "Dillard's",
+          "brand:wikidata": "Q844805",
+          "building": "yes",
+          "name": "Dillard's",
+          "shop": "department_store"
+        },
+        "center": {
+          "lat": 40.275281199999995,
+          "lon": -111.68334404999996
+        }
+      }
+    ],
+    "belk": [],
+    "boscovs": [],
+    "von_maur": [],
+    "neiman_marcus": [],
+    "bergdorf_goodman": [],
+    "saks_fifth_avenue": [],
+    "saks_off_5th": [],
+    "tj_maxx": [
+      {
+        "type": "node",
+        "id": 880067829,
+        "tags": {
+          "brand": "TJ Maxx",
+          "brand:wikidata": "Q10860683",
+          "name": "TJ Maxx",
+          "shop": "department_store"
+        },
+        "lat": 37.1072228,
+        "lon": -113.5571812
+      },
+      {
+        "type": "node",
+        "id": 1103682481,
+        "tags": {
+          "brand": "TJ Maxx",
+          "brand:wikidata": "Q10860683",
+          "name": "TJ Maxx",
+          "shop": "department_store",
+          "source": "survey"
+        },
+        "lat": 40.2746544,
+        "lon": -111.70133
+      },
+      {
+        "type": "node",
+        "id": 2316404923,
+        "tags": {
+          "addr:housenumber": "4261",
+          "addr:street": "Riverdale Road",
+          "alt_name": "Tjmaxx",
+          "brand": "TJ Maxx",
+          "brand:wikidata": "Q10860683",
+          "description": "Discount retail chain featuring apparel, shoes and accessories, and housewares",
+          "name": "TJ Maxx",
+          "opening_hours": "Mo-Sa 09:30-21:30; Su 11:00-20:00",
+          "phone": "+1 801-334-5103",
+          "shop": "department_store",
+          "website": "http://www.tjmaxx.com/"
+        },
+        "lat": 41.185429,
+        "lon": -111.988369
+      },
+      {
+        "type": "node",
+        "id": 2326348556,
+        "tags": {
+          "addr:city": "Midvale",
+          "addr:housenumber": "6995",
+          "addr:postcode": "84047",
+          "addr:state": "UT",
+          "addr:street": "South 1300 East",
+          "brand": "TJ Maxx",
+          "brand:wikidata": "Q10860683",
+          "name": "TJ Maxx",
+          "opening_hours": "Mo-Sa 09:30-21:30; Su 08:00-20:00",
+          "phone": "+1 801-562-8981",
+          "shop": "department_store",
+          "website": "https://tjmaxx.tjx.com/store/stores/Midvale-UT-84047/728/aboutstore"
+        },
+        "lat": 40.6236086,
+        "lon": -111.8541302
+      },
+      {
+        "type": "node",
+        "id": 2341218723,
+        "tags": {
+          "brand": "TJ Maxx",
+          "brand:wikidata": "Q10860683",
+          "name": "TJ Maxx",
+          "shop": "department_store"
+        },
+        "lat": 40.525551,
+        "lon": -111.886267
+      },
+      {
+        "type": "node",
+        "id": 3311687678,
+        "tags": {
+          "addr:city": "Cedar City",
+          "addr:housenumber": "901 S",
+          "addr:postcode": "84720",
+          "addr:state": "UT",
+          "addr:street": "Main Street",
+          "brand": "TJ Maxx",
+          "brand:wikidata": "Q10860683",
+          "check_date": "2026-03-22",
+          "name": "TJ Maxx",
+          "payment:cash": "yes",
+          "payment:cash:USD": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:electronic_purses": "yes",
+          "shop": "department_store",
+          "wheelchair": "yes"
+        },
+        "lat": 37.6612014,
+        "lon": -113.0682241
+      },
+      {
+        "type": "node",
+        "id": 4289583590,
+        "tags": {
+          "addr:city": "Bountiful",
+          "addr:housenumber": "200",
+          "addr:postcode": "84010",
+          "addr:state": "UT",
+          "addr:street": "South 500 West",
+          "brand": "TJ Maxx",
+          "brand:wikidata": "Q10860683",
+          "check_date": "2025-06-03",
+          "name": "TJ Maxx",
+          "opening_hours": "09:30-21:30",
+          "phone": "+1 801-295-4416",
+          "shop": "department_store",
+          "website": "https://tjmaxx.tjx.com/m/stores/Bountiful-UT-84010/787/aboutstore"
+        },
+        "lat": 40.8872865,
+        "lon": -111.8945722
+      },
+      {
+        "type": "node",
+        "id": 4296767304,
+        "tags": {
+          "brand": "TJ Maxx",
+          "brand:wikidata": "Q10860683",
+          "name": "TJ Maxx",
+          "shop": "department_store"
+        },
+        "lat": 40.7230335,
+        "lon": -111.5407205
+      },
+      {
+        "type": "node",
+        "id": 5808168131,
+        "tags": {
+          "brand": "TJ Maxx",
+          "brand:wikidata": "Q10860683",
+          "name": "TJ Maxx",
+          "shop": "department_store"
+        },
+        "lat": 40.4362463,
+        "lon": -109.565314
+      },
+      {
+        "type": "node",
+        "id": 7630524031,
+        "tags": {
+          "addr:city": "Spanish Fork",
+          "addr:housenumber": "1261",
+          "addr:postcode": "84660",
+          "addr:state": "UT",
+          "addr:street": "North Canyon Creek Parkway",
+          "brand": "TJ Maxx",
+          "brand:wikidata": "Q10860683",
+          "name": "TJ Maxx",
+          "shop": "department_store"
+        },
+        "lat": 40.1264917,
+        "lon": -111.642409
+      },
+      {
+        "type": "node",
+        "id": 9633827426,
+        "tags": {
+          "addr:city": "Taylorsville",
+          "addr:housenumber": "5670",
+          "addr:postcode": "84123",
+          "addr:state": "UT",
+          "addr:street": "South Redwood Road",
+          "brand": "TJ Maxx",
+          "brand:wikidata": "Q10860683",
+          "check_date": "2026-08-13",
+          "name": "TJ Maxx",
+          "opening_hours": "Mo-Sa 09:30-21:30; Su 10:00-20:00",
+          "payment:cash": "yes",
+          "payment:cheque": "yes",
+          "payment:coins": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+1-801-840-9307",
+          "shop": "department_store",
+          "website": "https://m.tjmaxx.tjx.com/m/index.jsp"
+        },
+        "lat": 40.6480291,
+        "lon": -111.9422513
+      },
+      {
+        "type": "node",
+        "id": 10011351941,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "1122",
+          "addr:postcode": "84106",
+          "addr:state": "UT",
+          "addr:street": "East Brickyard Road",
+          "brand": "TJ Maxx",
+          "brand:wikidata": "Q10860683",
+          "name": "TJ Maxx",
+          "shop": "department_store"
+        },
+        "lat": 40.7031539,
+        "lon": -111.8588708
+      },
+      {
+        "type": "node",
+        "id": 11493770390,
+        "tags": {
+          "brand": "TJ Maxx",
+          "brand:wikidata": "Q10860683",
+          "name": "TJ Maxx",
+          "shop": "department_store"
+        },
+        "lat": 40.3815882,
+        "lon": -111.8212424
+      },
+      {
+        "type": "node",
+        "id": 13165969749,
+        "tags": {
+          "addr:city": "Riverton",
+          "addr:housenumber": "4582",
+          "addr:postcode": "84096",
+          "addr:state": "UT",
+          "addr:street": "West Kestrel Range Road",
+          "brand": "TJ Maxx",
+          "brand:wikidata": "Q10860683",
+          "name": "TJ Maxx",
+          "opening_hours": "Mo-Sa 09:30-21:30; Su 10:00-20:00",
+          "phone": "+1-801-253-0170",
+          "shop": "department_store",
+          "website": "https://tjmaxx.tjx.com/store/stores/Riverton-UT-84065/1516/aboutstore"
+        },
+        "lat": 40.5107901,
+        "lon": -111.9998164
+      },
+      {
+        "type": "way",
+        "id": 994498447,
+        "tags": {
+          "addr:city": "Logan",
+          "addr:country": "US",
+          "addr:housenumber": "1136",
+          "addr:postcode": "84341",
+          "addr:state": "UT",
+          "addr:street": "North Main Street",
+          "brand": "TJ Maxx",
+          "brand:wikidata": "Q10860683",
+          "building": "commercial",
+          "name": "TJ Maxx",
+          "opening_hours": "Mo-Sa 09:30-21:30; Su 08:00-20:00",
+          "shop": "department_store",
+          "toilets": "yes"
+        },
+        "center": {
+          "lat": 41.752233000000004,
+          "lon": -111.83234679999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 1459170218,
+        "tags": {
+          "addr:city": "Tooele",
+          "addr:housenumber": "945",
+          "addr:postcode": "84074",
+          "addr:state": "UT",
+          "addr:street": "North Main Street",
+          "addr:unit": "F",
+          "brand": "TJ Maxx",
+          "brand:wikidata": "Q10860683",
+          "building": "retail",
+          "name": "TJ Maxx",
+          "phone": "+14352413264",
+          "shop": "department_store"
+        },
+        "center": {
+          "lat": 40.54779845,
+          "lon": -112.30121439999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 1530913227,
+        "tags": {
+          "addr:city": "Saratoga Springs",
+          "addr:housenumber": "1233",
+          "addr:postcode": "84045",
+          "addr:state": "UT",
+          "addr:street": "North Lake Drive",
+          "addr:unit": "E",
+          "brand": "TJ Maxx",
+          "brand:wikidata": "Q10860683",
+          "name": "TJ Maxx",
+          "shop": "department_store"
+        },
+        "center": {
+          "lat": 40.3847708,
+          "lon": -111.91914495000003
+        }
+      }
+    ],
+    "marshalls": [
+      {
+        "type": "node",
+        "id": 2332676890,
+        "tags": {
+          "addr:city": "Sandy",
+          "addr:housenumber": "10180",
+          "addr:postcode": "84070",
+          "addr:state": "UT",
+          "addr:street": "South State Street",
+          "brand": "Marshalls",
+          "brand:wikidata": "Q15903261",
+          "name": "Marshalls",
+          "shop": "department_store",
+          "source": "esri/USA_NAD_Addresses"
+        },
+        "lat": 40.5662064,
+        "lon": -111.8933038
+      },
+      {
+        "type": "node",
+        "id": 4124486392,
+        "tags": {
+          "addr:city": "West Valley City",
+          "addr:country": "US",
+          "addr:housenumber": "5432",
+          "addr:postcode": "84120",
+          "addr:state": "UT",
+          "addr:street": "West High Market Drive",
+          "addr:unit": "B-D",
+          "brand": "Marshalls",
+          "brand:wikidata": "Q15903261",
+          "name": "Marshalls",
+          "opening_hours": "Mo-Su 09:30-21:30",
+          "phone": "+1-801-456-4762",
+          "shop": "department_store",
+          "source": "website",
+          "toilets": "yes",
+          "website": "https://www.marshalls.com/us/store/stores/West+Valley+City-UT-84120/1245/aboutstore"
+        },
+        "lat": 40.7139318,
+        "lon": -112.0218781
+      },
+      {
+        "type": "way",
+        "id": 1308315944,
+        "tags": {
+          "addr:city": "Farmington",
+          "addr:country": "US",
+          "addr:housenumber": "340",
+          "addr:postcode": "84025",
+          "addr:state": "UT",
+          "addr:street": "Station Parkway",
+          "brand": "Marshalls",
+          "brand:wikidata": "Q15903261",
+          "building": "yes",
+          "check_date": "2026-04-05",
+          "level": "0",
+          "name": "Marshalls",
+          "opening_hours": "Mo-Sa 09:00-21:30; Su 10:00-20:00",
+          "shop": "department_store",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.98628205,
+          "lon": -111.90374655
+        }
+      }
+    ],
+    "ross": [
+      {
+        "type": "node",
+        "id": 513080209,
+        "tags": {
+          "addr:city": "Bountiful",
+          "addr:housenumber": "420",
+          "addr:postcode": "84010",
+          "addr:state": "UT",
+          "addr:street": "South 500 West",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Mo-Th 09:30-22:00; Fr-Sa 09:00-22:00; Su 10:00-21:30",
+          "phone": "+1 801-294-3144",
+          "ref": "501",
+          "shop": "department_store"
+        },
+        "lat": 40.8854171,
+        "lon": -111.893502
+      },
+      {
+        "type": "node",
+        "id": 950743491,
+        "tags": {
+          "addr:city": "american Fork",
+          "addr:housenumber": "767",
+          "addr:postcode": "84003",
+          "addr:state": "UT",
+          "addr:street": "West Grassland Drive",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "check_date:opening_hours": "2025-07-23",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Mo-Th 10:00-22:30; Fr-Sa 09:00-23:00; Su 10:00-22:00",
+          "phone": "+1 801-756-6342",
+          "ref": "980",
+          "shop": "department_store"
+        },
+        "lat": 40.3844561,
+        "lon": -111.820018
+      },
+      {
+        "type": "node",
+        "id": 1103682659,
+        "tags": {
+          "addr:city": "Orem",
+          "addr:housenumber": "222",
+          "addr:postcode": "84058",
+          "addr:state": "UT",
+          "addr:street": "West University Parkway",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Mo-Th 09:30-23:00; Fr-Sa 09:00-24:00; Su 10:00-22:00",
+          "phone": "+1 801-434-4111",
+          "ref": "751",
+          "shop": "department_store",
+          "source": "survey"
+        },
+        "lat": 40.2746242,
+        "lon": -111.7004581
+      },
+      {
+        "type": "node",
+        "id": 2281645721,
+        "tags": {
+          "addr:city": "Farmington",
+          "addr:country": "US",
+          "addr:housenumber": "240",
+          "addr:postcode": "84025",
+          "addr:state": "UT",
+          "addr:street": "Station Parkway",
+          "brand": "Ross",
+          "brand:website": "https://www.rossstores.com/",
+          "brand:wikidata": "Q3442791",
+          "check_date": "2026-04-05",
+          "level": "0",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "08:00-23:00",
+          "phone": "+1 801-451-0906",
+          "ref": "1444",
+          "shop": "department_store",
+          "website": "http://rosstores.com",
+          "wheelchair": "yes"
+        },
+        "lat": 40.98523,
+        "lon": -111.90327
+      },
+      {
+        "type": "node",
+        "id": 2330759119,
+        "tags": {
+          "addr:city": "Midvale",
+          "addr:housenumber": "1136",
+          "addr:postcode": "84047",
+          "addr:state": "UT",
+          "addr:street": "East Fort Union Boulevard",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "check_date": "2025-03-11",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Mo-Th 10:00-22:00; Fr-Sa 09:30-22:00; Su 10:00-22:00",
+          "phone": "+1 801-255-9096",
+          "ref": "1149",
+          "shop": "department_store"
+        },
+        "lat": 40.6233074,
+        "lon": -111.8604405
+      },
+      {
+        "type": "node",
+        "id": 2330937758,
+        "tags": {
+          "addr:city": "West Jordan",
+          "addr:housenumber": "7156",
+          "addr:postcode": "84084",
+          "addr:state": "UT",
+          "addr:street": "South Plaza Center Drive",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Mo-Th 10:00-23:00; Fr-Sa 09:00-23:30; Su 10:00-22:00",
+          "phone": "+1 801-280-8972",
+          "ref": "1381",
+          "shop": "department_store"
+        },
+        "lat": 40.6210515,
+        "lon": -111.9810985
+      },
+      {
+        "type": "node",
+        "id": 2333199051,
+        "tags": {
+          "addr:city": "West Valley City",
+          "addr:housenumber": "3645",
+          "addr:postcode": "84119",
+          "addr:state": "UT",
+          "addr:street": "South Constitution Boulevard",
+          "air_conditioning": "yes",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "check_date": "2026-08-19",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Mo-Su 09:00-23:00",
+          "phone": "+1 801-966-4283",
+          "ref": "1286",
+          "shop": "department_store",
+          "stroller": "yes",
+          "website": "https://www.rossstores.com/",
+          "wheelchair": "yes"
+        },
+        "lat": 40.6931477,
+        "lon": -111.956041
+      },
+      {
+        "type": "node",
+        "id": 2335874840,
+        "tags": {
+          "addr:city": "Taylorsville",
+          "addr:housenumber": "5666",
+          "addr:postcode": "84123",
+          "addr:state": "UT",
+          "addr:street": "South Redwood Road",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Su-Th 09:45-22:00; Fr-Sa 09:00-22:00",
+          "payment:cash": "yes",
+          "payment:cheque": "yes",
+          "payment:coins": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+1 801-966-6614",
+          "ref": "658",
+          "shop": "department_store",
+          "website": "https://www.rossstores.com/"
+        },
+        "lat": 40.6486595,
+        "lon": -111.942284
+      },
+      {
+        "type": "node",
+        "id": 2908442677,
+        "tags": {
+          "addr:city": "Saint George",
+          "addr:housenumber": "367",
+          "addr:postcode": "84790",
+          "addr:state": "UT",
+          "addr:street": "South River Road",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Mo-Th 09:00-22:30; Fr-Sa 09:00-23:00; Su 10:00-21:30",
+          "phone": "+1 435-986-8113",
+          "ref": "616",
+          "shop": "department_store"
+        },
+        "lat": 37.1019632,
+        "lon": -113.553995
+      },
+      {
+        "type": "node",
+        "id": 4124486474,
+        "tags": {
+          "addr:city": "West Valley City",
+          "addr:country": "US",
+          "addr:housenumber": "2959",
+          "addr:postcode": "84120",
+          "addr:state": "UT",
+          "addr:street": "South 5600 West",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Mo-Su 09:00-22:00",
+          "phone": "+1 801-964-4019",
+          "ref": "1646",
+          "shop": "department_store",
+          "source": "website",
+          "website": "https://www.rossstores.com/"
+        },
+        "lat": 40.7062581,
+        "lon": -112.0224154
+      },
+      {
+        "type": "node",
+        "id": 4345903628,
+        "tags": {
+          "addr:city": "Riverdale",
+          "addr:housenumber": "4043",
+          "addr:postcode": "84405",
+          "addr:state": "UT",
+          "addr:street": "Riverdale Road",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Mo-Th 09:00-22:00; Fr-Sa 09:00-23:00; Su 10:00-22:00",
+          "phone": "+1 801-622-1187",
+          "ref": "504",
+          "shop": "department_store"
+        },
+        "lat": 41.1924358,
+        "lon": -111.9826686
+      },
+      {
+        "type": "node",
+        "id": 4610781521,
+        "tags": {
+          "addr:city": "Washington",
+          "addr:housenumber": "620",
+          "addr:postcode": "84780",
+          "addr:state": "UT",
+          "addr:street": "West Telegraph Street",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Mo-Th 09:00-22:00; Fr-Sa 09:00-22:30; Su 09:00-21:00",
+          "phone": "+1 747-227-8017",
+          "ref": "2350",
+          "shop": "department_store",
+          "shop_1": "clothes"
+        },
+        "lat": 37.1305321,
+        "lon": -113.5205581
+      },
+      {
+        "type": "node",
+        "id": 7435630290,
+        "tags": {
+          "addr:city": "Cedar City",
+          "addr:housenumber": "990 S",
+          "addr:postcode": "84720-3757",
+          "addr:state": "UT",
+          "addr:street": "Main Street",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "check_date": "2026-05-14",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Mo-Th 09:30-21:00; Fr-Sa 09:00-22:00; Su 10:00-21:00",
+          "phone": "+1 435-867-6035",
+          "ref": "1928",
+          "shop": "department_store"
+        },
+        "lat": 37.6602996,
+        "lon": -113.0733004
+      },
+      {
+        "type": "node",
+        "id": 7630524007,
+        "tags": {
+          "addr:city": "Spanish Fork",
+          "addr:housenumber": "1112",
+          "addr:postcode": "84660",
+          "addr:state": "UT",
+          "addr:street": "North Canyon Creek Parkway",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Mo-Th 09:00-22:30; Fr-Sa 09:00-23:00; Su 10:00-21:00",
+          "phone": "+1 801-798-0280",
+          "ref": "1983",
+          "shop": "department_store"
+        },
+        "lat": 40.1233972,
+        "lon": -111.640861
+      },
+      {
+        "type": "node",
+        "id": 9239160354,
+        "tags": {
+          "addr:city": "Murray",
+          "addr:housenumber": "174",
+          "addr:postcode": "84107",
+          "addr:state": "UT",
+          "addr:street": "East Winchester Street",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "check_date": "2024-07-16",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Mo-Th 09:30-21:30; Fr-Sa 09:30-22:00; Su 10:00-21:30",
+          "phone": "+1 801-281-1822",
+          "ref": "2207",
+          "shop": "department_store"
+        },
+        "lat": 40.6325284,
+        "lon": -111.8868122
+      },
+      {
+        "type": "node",
+        "id": 9667859684,
+        "tags": {
+          "addr:city": "Logan",
+          "addr:country": "US",
+          "addr:housenumber": "1475",
+          "addr:postcode": "84341",
+          "addr:state": "UT",
+          "addr:street": "North Main Street",
+          "addr:unit": "110",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Mo-Th 09:30-22:00; Fr-Sa 09:00-23:00; Su 10:00-22:00",
+          "phone": "+1 435-753-5757",
+          "ref": "701",
+          "shop": "department_store",
+          "toilets": "yes"
+        },
+        "lat": 41.7589935,
+        "lon": -111.8365206
+      },
+      {
+        "type": "node",
+        "id": 9715734085,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "220",
+          "addr:postcode": "84102",
+          "addr:state": "UT",
+          "addr:street": "South 700 East",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "fixme:atp": "check if location still exists; no corresponding ATP location found",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Mo-Th 10:30-21:30; Fr-Sa 10:00-22:00; Su 10:30-21:00",
+          "phone": "+1 801-359-4062",
+          "ref": "2278",
+          "shop": "department_store"
+        },
+        "lat": 40.7640994,
+        "lon": -111.8727144
+      },
+      {
+        "type": "node",
+        "id": 10011351954,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "1198",
+          "addr:postcode": "84106",
+          "addr:state": "UT",
+          "addr:street": "East Brickyard Road",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Mo-Th 09:30-22:00; Fr-Sa 09:00-22:00; Su 10:00-22:00",
+          "phone": "+1 801-485-1175",
+          "ref": "1151",
+          "shop": "department_store"
+        },
+        "lat": 40.7015522,
+        "lon": -111.8568511
+      },
+      {
+        "type": "node",
+        "id": 13165969750,
+        "tags": {
+          "addr:city": "Riverton",
+          "addr:housenumber": "4554",
+          "addr:postcode": "84096",
+          "addr:state": "UT",
+          "addr:street": "West Kestrel Range Road",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Mo-Th 10:30-22:00; Fr-Sa 10:00-22:00; Su 10:30-21:00",
+          "phone": "+1 801-446-1602",
+          "ref": "2279",
+          "shop": "department_store",
+          "website": "https://www.rossstores.com/",
+          "wheelchair": "yes"
+        },
+        "lat": 40.5107897,
+        "lon": -111.9994086
+      },
+      {
+        "type": "node",
+        "id": 13464716246,
+        "tags": {
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "shop": "department_store"
+        },
+        "lat": 41.1427626,
+        "lon": -112.0637853
+      },
+      {
+        "type": "way",
+        "id": 129943089,
+        "tags": {
+          "addr:city": "Layton",
+          "addr:housenumber": "2151",
+          "addr:postcode": "84041",
+          "addr:state": "UT",
+          "addr:street": "North Harris Boulevard",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "building": "commercial",
+          "check_date": "2025-06-10",
+          "ele": "4600 ft",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Mo-Sa 09:00-22:00; Su 10:00-21:30",
+          "operator": "Ross",
+          "phone": "+1 801-773-5815",
+          "ref": "1015",
+          "shop": "department_store",
+          "website": "https://www.rossstores.com/",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 41.0912433,
+          "lon": -111.98130895000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 241408573,
+        "tags": {
+          "addr:city": "South Jordan",
+          "addr:country": "US",
+          "addr:housenumber": "11593",
+          "addr:postcode": "84095",
+          "addr:state": "UT",
+          "addr:street": "South Parkway Plaza Drive",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "building": "retail",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Mo-Th 09:00-22:00; Fr-Sa 10:00-23:00; Su 10:00-21:00",
+          "phone": "+1 801-352-4230",
+          "ref": "1085",
+          "shop": "department_store",
+          "source": "https://www.rossstores.com/store-locator/",
+          "website": "https://www.rossstores.com/"
+        },
+        "center": {
+          "lat": 40.540744450000005,
+          "lon": -111.97768289999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 347680565,
+        "tags": {
+          "addr:city": "Provo",
+          "addr:housenumber": "1235",
+          "addr:postcode": "84601",
+          "addr:state": "UT",
+          "addr:street": "South University Avenue",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "building": "yes",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Mo-Th 09:30-22:30; Fr,Sa 09:00-23:30; Su 10:00-21:30",
+          "phone": "+1-801-373-9537",
+          "shop": "department_store",
+          "source": "Bing"
+        },
+        "center": {
+          "lat": 40.2174112,
+          "lon": -111.65684429999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 465041327,
+        "tags": {
+          "addr:city": "Draper",
+          "addr:housenumber": "227",
+          "addr:postcode": "84020",
+          "addr:state": "UT",
+          "addr:street": "East 12300 South",
+          "addr:unit": "E",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "building": "retail",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Mo-Th 10:00-22:00; Fr-Sa 09:00-23:00; Su 10:00-21:00",
+          "phone": "+1 801-495-4820",
+          "ref": "1063",
+          "shop": "department_store",
+          "website": "https://www.rossstores.com/"
+        },
+        "center": {
+          "lat": 40.5288276,
+          "lon": -111.88399744999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 608405695,
+        "tags": {
+          "addr:city": "Ogden",
+          "addr:housenumber": "163",
+          "addr:postcode": "84404-5519",
+          "addr:state": "UT",
+          "addr:street": "West 12th Street",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "building": "yes",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "09:00-22:00",
+          "phone": "+1 801-392-1395",
+          "ref": "2001",
+          "shop": "department_store"
+        },
+        "center": {
+          "lat": 41.2422816,
+          "lon": -111.97996964999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 1459170219,
+        "tags": {
+          "addr:city": "Tooele",
+          "addr:housenumber": "945",
+          "addr:postcode": "84074",
+          "addr:state": "UT",
+          "addr:street": "North Main Street",
+          "addr:unit": "E",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "building": "commercial",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "phone": "+14352557031",
+          "shop": "department_store",
+          "website": "https://www.rossstores.com/"
+        },
+        "center": {
+          "lat": 40.54781705,
+          "lon": -112.30080544999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 1530495608,
+        "tags": {
+          "addr:city": "Saratoga Spring",
+          "addr:housenumber": "811",
+          "addr:postcode": "84045",
+          "addr:state": "UT",
+          "addr:street": "North Redwood Road",
+          "brand": "Ross",
+          "brand:wikidata": "Q3442791",
+          "building": "yes",
+          "check_date": "2026-06-18",
+          "name": "Ross",
+          "official_name": "Ross Dress for Less",
+          "opening_hours": "Mo-Th 09:00-22:30; Fr-Sa 08:30-22:30; Su 09:00-20:30",
+          "phone": "+1 801-766-1258",
+          "shop": "department_store",
+          "website": "https://www.rossstores.com/"
+        },
+        "center": {
+          "lat": 40.376686899999996,
+          "lon": -111.91929694999999
+        }
+      }
+    ],
+    "burlington": [
+      {
+        "type": "node",
+        "id": 2332260276,
+        "tags": {
+          "addr:city": "Murray",
+          "addr:housenumber": "5976",
+          "addr:postcode": "84107",
+          "addr:state": "UT",
+          "addr:street": "South State Street",
+          "alt_name": "Burlington Coat Factory",
+          "brand": "Burlington",
+          "brand:wikidata": "Q4999220",
+          "check_date": "2024-06-18",
+          "name": "Burlington",
+          "opening_hours": "Mo-Th 09:00-22:00; Fr-Sa 09:00-21:00; Su 09:00-22:00",
+          "phone": "+1 801-261-5995",
+          "ref": "79",
+          "shop": "department_store",
+          "website": "https://stores.burlington.com/ut/murray/79"
+        },
+        "lat": 40.6405092,
+        "lon": -111.8904945
+      },
+      {
+        "type": "node",
+        "id": 4345276355,
+        "tags": {
+          "alt_name": "Burlington Coat Factory",
+          "brand": "Burlington",
+          "brand:wikidata": "Q4999220",
+          "name": "Burlington",
+          "shop": "department_store"
+        },
+        "lat": 41.1975288,
+        "lon": -111.981519
+      },
+      {
+        "type": "node",
+        "id": 12398405974,
+        "tags": {
+          "addr:city": "Taylorsville",
+          "addr:housenumber": "1837",
+          "addr:postcode": "84129",
+          "addr:state": "UT",
+          "addr:street": "West 4700 South",
+          "alt_name": "Burlington Coat Factory",
+          "brand": "Burlington",
+          "brand:wikidata": "Q4999220",
+          "check_date": "2026-08-18",
+          "name": "Burlington",
+          "opening_hours": "Mo-Su 09:00-20:00",
+          "shop": "department_store"
+        },
+        "lat": 40.6662877,
+        "lon": -111.942095
+      },
+      {
+        "type": "way",
+        "id": 38576114,
+        "tags": {
+          "addr:city": "West Jordan",
+          "addr:housenumber": "7459",
+          "addr:postcode": "84088",
+          "addr:state": "UT",
+          "addr:street": "South Plaza Center Drive",
+          "alt_name": "Burlington Coat Factory",
+          "brand": "Burlington",
+          "brand:wikidata": "Q4999220",
+          "building": "retail",
+          "building:levels": "2",
+          "name": "Burlington",
+          "opening_hours": "09:00-23:00",
+          "phone": "+1 801-280-8726",
+          "ref": "1032",
+          "shop": "department_store",
+          "website": "https://stores.burlington.com/ut/west-jordan/1032"
+        },
+        "center": {
+          "lat": 40.6152254,
+          "lon": -111.97770860000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 360365014,
+        "tags": {
+          "addr:city": "Sandy",
+          "addr:housenumber": "10453",
+          "addr:postcode": "84070",
+          "addr:state": "UT",
+          "addr:street": "South State Street",
+          "alt_name": "Burlington Coat Factory",
+          "brand": "Burlington",
+          "brand:wikidata": "Q4999220",
+          "building": "retail",
+          "name": "Burlington",
+          "opening_hours": "Mo-Th 09:00-22:30; Fr-Sa 09:00-23:30; Su 09:00-22:00",
+          "phone": "+1 801-571-4264",
+          "ref": "1090",
+          "shop": "department_store",
+          "website": "https://stores.burlington.com/ut/sandy/1090"
+        },
+        "center": {
+          "lat": 40.5613331,
+          "lon": -111.88846269999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 510891948,
+        "tags": {
+          "addr:city": "Orem",
+          "addr:housenumber": "340",
+          "addr:postcode": "84058",
+          "addr:state": "UT",
+          "addr:street": "East University Parkway",
+          "alt_name": "Burlington Coat Factory",
+          "brand": "Burlington",
+          "brand:wikidata": "Q4999220",
+          "building": "yes",
+          "clothes": "women;men;children;discount",
+          "name": "Burlington",
+          "opening_hours": "Mo-Th 09:00-22:30; Fr-Sa 09:00-23:00; Su 09:00-22:00",
+          "phone": "+1 801-224-1700",
+          "ref": "186",
+          "shop": "department_store",
+          "website": "https://stores.burlington.com/ut/orem/186"
+        },
+        "center": {
+          "lat": 40.27207395,
+          "lon": -111.68684745000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 712413693,
+        "tags": {
+          "addr:city": "Riverton",
+          "addr:housenumber": "4662",
+          "addr:postcode": "84096",
+          "addr:state": "UT",
+          "addr:street": "West Kestrel Range Road",
+          "alt_name": "Burlington Coat Factory",
+          "brand": "Burlington",
+          "brand:wikidata": "Q4999220",
+          "building": "retail",
+          "name": "Burlington",
+          "opening_hours": "Mo-Su 09:00-23:00",
+          "phone": "+1 385-557-0227",
+          "ref": "1133",
+          "shop": "department_store",
+          "website": "https://stores.burlington.com/ut/riverton/1133"
+        },
+        "center": {
+          "lat": 40.51068115,
+          "lon": -112.00231305
+        }
+      },
+      {
+        "type": "way",
+        "id": 1095180809,
+        "tags": {
+          "addr:city": "West Valley City",
+          "addr:country": "US",
+          "addr:housenumber": "2933",
+          "addr:postcode": "84120",
+          "addr:state": "UT",
+          "addr:street": "South 5600 West",
+          "alt_name": "Burlington Coat Factory",
+          "brand": "Burlington",
+          "brand:wikidata": "Q4999220",
+          "building": "retail",
+          "name": "Burlington",
+          "opening_hours": "Mo-Th 09:30-22:30; Fr-Sa 09:30-24:00; Su 09:30-23:00",
+          "phone": "+1 801-963-8021",
+          "ref": "1002",
+          "shop": "department_store",
+          "source": "website",
+          "website": "https://www.burlington.com/store-details/west-valley-city-ut-1002"
+        },
+        "center": {
+          "lat": 40.7068156,
+          "lon": -112.02208115000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 1491998631,
+        "tags": {
+          "addr:city": "American Fork",
+          "addr:housenumber": "268",
+          "addr:postcode": "84003",
+          "addr:state": "UT",
+          "addr:street": "North 750 West",
+          "alt_name": "Burlington Coat Factory",
+          "brand": "Burlington",
+          "brand:wikidata": "Q4999220",
+          "building": "commercial",
+          "name": "Burlington",
+          "opening_hours": "Mo-Th 09:00-22:30; Fr-Sa 09:00-23:30; Su 09:00-22:00",
+          "phone": "+1 385-293-1015",
+          "ref": "1118",
+          "shop": "department_store",
+          "website": "https://stores.burlington.com/ut/american-fork/1118"
+        },
+        "center": {
+          "lat": 40.382763600000004,
+          "lon": -111.8189238
+        }
+      }
+    ],
+    "bealls": [],
+    "bealls_outlets": [],
+    "gabes": [],
+    "sierra": [],
+    "ollies": [],
+    "big_lots": [
+      {
+        "type": "node",
+        "id": 3636049418,
+        "tags": {
+          "addr:city": "Murray",
+          "addr:housenumber": "5516",
+          "addr:postcode": "84117",
+          "addr:state": "UT",
+          "addr:street": "South 900 East",
+          "brand": "Big Lots",
+          "brand:wikidata": "Q4905973",
+          "name": "Big Lots",
+          "opening_hours": "Mo-Sa 09:00-21:00; Su 10:00-21:00",
+          "phone": "+1 801-261-4906",
+          "shop": "department_store",
+          "website": "https://local.biglots.com/ut/murray/5516-south-900-east"
+        },
+        "lat": 40.6514069,
+        "lon": -111.8675221
+      },
+      {
+        "type": "node",
+        "id": 4711929422,
+        "tags": {
+          "addr:city": "West Jordan",
+          "addr:housenumber": "3931",
+          "addr:postcode": "84088",
+          "addr:state": "UT",
+          "addr:street": "West 9000 South",
+          "brand": "Big Lots",
+          "brand:wikidata": "Q4905973",
+          "name": "Big Lots",
+          "opening_hours": "Mo-Sa 09:00-21:00; Su 10:00-21:00",
+          "phone": "+1 801-280-6975",
+          "shop": "department_store",
+          "website": "https://local.biglots.com/ut/west-jordan/3931-w-9000-s"
+        },
+        "lat": 40.5864475,
+        "lon": -111.9848141
+      },
+      {
+        "type": "node",
+        "id": 5118742893,
+        "tags": {
+          "addr:city": "South Ogden",
+          "addr:housenumber": "3801",
+          "addr:postcode": "84403",
+          "addr:state": "UT",
+          "addr:street": "Washington Boulevard",
+          "brand": "Big Lots",
+          "brand:wikidata": "Q4905973",
+          "name": "Big Lots",
+          "opening_hours": "Mo-Sa 09:00-21:00; Su 10:00-21:00",
+          "phone": "+1 801-621-1878",
+          "shop": "department_store",
+          "source": "survey",
+          "website": "https://local.biglots.com/ut/south-ogden/3801-washington-blvd"
+        },
+        "lat": 41.1936832,
+        "lon": -111.9727511
+      }
+    ],
+    "target": [
+      {
+        "type": "node",
+        "id": 665715620,
+        "tags": {
+          "addr:city": "Saint George",
+          "addr:housenumber": "275",
+          "addr:postcode": "84790-2116",
+          "addr:state": "UT",
+          "addr:street": "South River Road",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "check_date": "2025-11-28",
+          "name": "Target",
+          "opening_hours": "Mo-Sa 08:00-23:00, Su 08:00-22:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+1 435-627-2030",
+          "shop": "department_store",
+          "toilets": "yes",
+          "website": "https://www.target.com/sl/st-george/1357",
+          "wheelchair": "yes"
+        },
+        "lat": 37.1030673,
+        "lon": -113.5543351
+      },
+      {
+        "type": "node",
+        "id": 2332670439,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "2236",
+          "addr:postcode": "84106-2898",
+          "addr:state": "UT",
+          "addr:street": "South 1300 East",
+          "addr:unit": "Suite D-1",
+          "branch": "Salt Lake City Sugar House",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "name": "Target",
+          "opening_hours": "Mo-Su 08:00-23:00",
+          "phone": "+1 385-419-3352",
+          "shop": "supermarket",
+          "website": "https://www.target.com/sl/salt-lake-city-sugar-house/3365",
+          "wheelchair": "yes"
+        },
+        "lat": 40.7222719,
+        "lon": -111.856127
+      },
+      {
+        "type": "node",
+        "id": 2335837467,
+        "tags": {
+          "addr:city": "Taylorsville",
+          "addr:housenumber": "5800",
+          "addr:postcode": "84123",
+          "addr:state": "UT",
+          "addr:street": "South Redwood Road",
+          "air_conditioning": "yes",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "check_date": "2026-08-13",
+          "name": "Target",
+          "opening_hours": "Mo-Fr 07:00-22:00; Sa-Su 08:00-22:00",
+          "phone": "+1 385-645-2478",
+          "shop": "department_store",
+          "stroller": "yes",
+          "website": "https://www.target.com/sl/taylorsville/3376",
+          "wheelchair": "yes"
+        },
+        "lat": 40.6462907,
+        "lon": -111.940106
+      },
+      {
+        "type": "node",
+        "id": 12035679428,
+        "tags": {
+          "addr:city": "Provo",
+          "addr:housenumber": "1290",
+          "addr:postcode": "84604-6432",
+          "addr:state": "UT",
+          "addr:street": "North State Street",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "name": "Target",
+          "opening_hours": "Mo-Sa 08:00-22:00; Su 10:00-22:00",
+          "phone": "+1 385-447-5020",
+          "shop": "department_store",
+          "website": "https://www.target.com/sl/provo-state-st-and-bulldog-blvd-ut/3316"
+        },
+        "lat": 40.2516488,
+        "lon": -111.6663329
+      },
+      {
+        "type": "way",
+        "id": 28767761,
+        "tags": {
+          "addr:city": "Orem",
+          "addr:housenumber": "175",
+          "addr:postcode": "84057-4607",
+          "addr:state": "UT",
+          "addr:street": "West Center Street",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "yes",
+          "name": "Target",
+          "opening_hours": "07:00-23:00",
+          "opening_hours:covid19": "Mo-Su 7:00-22:00",
+          "phone": "+1 801-224-6007",
+          "shop": "supermarket",
+          "source": "bing, knowledge",
+          "website": "https://www.target.com/sl/orem-state-street/1754"
+        },
+        "center": {
+          "lat": 40.295245949999995,
+          "lon": -111.6991013
+        }
+      },
+      {
+        "type": "way",
+        "id": 34686275,
+        "tags": {
+          "addr:city": "Centerville",
+          "addr:country": "US",
+          "addr:housenumber": "200",
+          "addr:postcode": "84014-1752",
+          "addr:state": "UT",
+          "addr:street": "Marketplace Drive",
+          "air_conditioning": "yes",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "retail",
+          "building:levels": "1",
+          "currency:USD": "yes",
+          "name": "Target",
+          "opening_hours": "07:00-22:00",
+          "payment:cash": "yes",
+          "payment:cheque": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+1 801-292-0071",
+          "shop": "department_store",
+          "source": "website",
+          "stroller": "yes",
+          "website": "https://www.target.com/sl/centerville/1750",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.918199900000005,
+          "lon": -111.8865525
+        }
+      },
+      {
+        "type": "way",
+        "id": 40048940,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "7025",
+          "addr:postcode": "84121-6619",
+          "addr:state": "UT",
+          "addr:street": "South Park Centre Drive",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "yes",
+          "name": "Target",
+          "opening_hours": "07:00-22:00",
+          "phone": "+1 801-255-2292",
+          "shop": "supermarket",
+          "website": "https://www.target.com/sl/fort-union/1751"
+        },
+        "center": {
+          "lat": 40.622966000000005,
+          "lon": -111.8495011
+        }
+      },
+      {
+        "type": "way",
+        "id": 81590843,
+        "tags": {
+          "addr:city": "American Fork",
+          "addr:housenumber": "608",
+          "addr:postcode": "84003",
+          "addr:state": "UT",
+          "addr:street": "West Main Street",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "retail",
+          "name": "Target",
+          "opening_hours": "08:00-23:00",
+          "phone": "+1 801-756-5449",
+          "shop": "department_store",
+          "website": "https://www.target.com/sl/american-fork/1814"
+        },
+        "center": {
+          "lat": 40.37888485,
+          "lon": -111.81589565000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 93627313,
+        "tags": {
+          "addr:city": "Provo",
+          "addr:housenumber": "1200",
+          "addr:postcode": "84601-5947",
+          "addr:state": "UT",
+          "addr:street": "Towne Centre Boulevard",
+          "addr:unit": "SPC A",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "retail",
+          "name": "Target",
+          "opening_hours": "Mo-Fr 08:00-22:00; Sa-Su 08:00-21:00",
+          "phone": "+1 385-447-5902",
+          "shop": "department_store",
+          "toilets": "yes",
+          "website": "https://www.target.com/sl/provo-towne-centre/2904"
+        },
+        "center": {
+          "lat": 40.21556355,
+          "lon": -111.66285054999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 108060182,
+        "tags": {
+          "addr:city": "South Jordan",
+          "addr:country": "US",
+          "addr:housenumber": "11525",
+          "addr:postcode": "84095",
+          "addr:state": "UT",
+          "addr:street": "South Parkway Plaza Drive",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "retail",
+          "name": "Target",
+          "opening_hours": "Mo-Su 08:00-22:00",
+          "phone": "+1-801-316-2511",
+          "shop": "department_store",
+          "source": "website",
+          "website": "https://www.target.com/sl/south-jordan/2123",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.5419797,
+          "lon": -111.97753245000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 117998076,
+        "tags": {
+          "addr:city": "Riverdale",
+          "addr:housenumber": "1135",
+          "addr:postcode": "84405-3722",
+          "addr:state": "UT",
+          "addr:street": "West Riverdale Road",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "yes",
+          "building:levels": "1",
+          "name": "Target",
+          "opening_hours": "08:00-22:00",
+          "phone": "+1 801-392-1990",
+          "shop": "department_store",
+          "website": "https://www.target.com/sl/riverdale/1753"
+        },
+        "center": {
+          "lat": 41.1732396,
+          "lon": -112.00682185
+        }
+      },
+      {
+        "type": "way",
+        "id": 227891753,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "1110",
+          "addr:postcode": "84101-3053",
+          "addr:state": "UT",
+          "addr:street": "South 300 West",
+          "branch": "Salt Lake City",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "commercial",
+          "name": "Target",
+          "opening_hours": "Mo-Su 07:00-23:00",
+          "operator": "Target",
+          "phone": "+1-801-401-9562",
+          "shop": "supermarket",
+          "website": "https://www.target.com/sl/salt-lake-city/2641"
+        },
+        "center": {
+          "lat": 40.7445516,
+          "lon": -111.9022789
+        }
+      },
+      {
+        "type": "way",
+        "id": 315395615,
+        "tags": {
+          "addr:city": "West Jordan",
+          "addr:housenumber": "7779",
+          "addr:postcode": "84084-1975",
+          "addr:state": "UT",
+          "addr:street": "South Jordan Landing Boulevard",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "yes",
+          "name": "Target",
+          "opening_hours": "08:00-23:00",
+          "phone": "+1 801-316-0049",
+          "shop": "department_store",
+          "toilets": "yes",
+          "website": "https://www.target.com/sl/west-jordan-sw/2150"
+        },
+        "center": {
+          "lat": 40.610273,
+          "lon": -111.98355145
+        }
+      },
+      {
+        "type": "way",
+        "id": 465430354,
+        "tags": {
+          "addr:city": "Sandy",
+          "addr:housenumber": "10130",
+          "addr:postcode": "84070-4118",
+          "addr:state": "UT",
+          "addr:street": "South State Street",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "yes",
+          "name": "Target",
+          "opening_hours": "07:00-22:00",
+          "phone": "+1 801-255-3301",
+          "shop": "department_store",
+          "website": "https://www.target.com/sl/sandy-south-towne/1752"
+        },
+        "center": {
+          "lat": 40.56721265,
+          "lon": -111.89364520000004
+        }
+      },
+      {
+        "type": "way",
+        "id": 483508751,
+        "tags": {
+          "addr:city": "Layton",
+          "addr:housenumber": "815",
+          "addr:postcode": "84041",
+          "addr:state": "UT",
+          "addr:street": "West Antelope Drive",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "commercial",
+          "check_date": "2025-05-31",
+          "description": "Retail chain offering home goods, clothing, electronics & more, plus exclusive designer collections.",
+          "height": "9",
+          "name": "Target",
+          "opening_hours": "07:00-23:00",
+          "operator": "Target Corporation",
+          "phone": "+1-801-773-0287",
+          "shop": "department_store",
+          "website": "https://www.target.com/sl/layton-supertarget-store/1755",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 41.0876526,
+          "lon": -111.98045360000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 1094505841,
+        "tags": {
+          "addr:city": "West Valley City",
+          "addr:country": "US",
+          "addr:housenumber": "5518",
+          "addr:postcode": "84120",
+          "addr:state": "UT",
+          "addr:street": "West High Market Drive",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "retail",
+          "check_date:opening_hours": "2025-07-30",
+          "name": "Target",
+          "opening_hours": "Mo-Su 08:00-23:00",
+          "phone": "+1-801-449-8022",
+          "shop": "department_store",
+          "source": "website",
+          "website": "https://www.target.com/sl/west-valley-city/2609"
+        },
+        "center": {
+          "lat": 40.71432085,
+          "lon": -112.02295915000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 1203818603,
+        "tags": {
+          "addr:city": "Spanish Fork",
+          "addr:housenumber": "900",
+          "addr:postcode": "84660-1300",
+          "addr:state": "UT",
+          "addr:street": "Expressway Lane",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "commercial",
+          "construction": "commercial",
+          "name": "Target",
+          "opening_hours": "08:00-22:00",
+          "phone": "+1 385-448-3384",
+          "shop": "department_store",
+          "toilets": "yes",
+          "website": "https://www.target.com/sl/spanish-fork/2898"
+        },
+        "center": {
+          "lat": 40.12209625,
+          "lon": -111.6392563
+        }
+      },
+      {
+        "type": "way",
+        "id": 1311289445,
+        "tags": {
+          "addr:city": "Logan",
+          "addr:housenumber": "1350",
+          "addr:postcode": "84341",
+          "addr:state": "UT",
+          "addr:street": "North Main Street",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "commercial",
+          "name": "Target",
+          "opening_date": "2026-07-26",
+          "opening_hours": "Mo-Su 07:00-22:00",
+          "phone": "+1 435 754 3622",
+          "shop": "department_store"
+        },
+        "center": {
+          "lat": 41.7563319,
+          "lon": -111.83153600000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 1493198240,
+        "tags": {
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "construction",
+          "name": "Target",
+          "shop": "supermarket"
+        },
+        "center": {
+          "lat": 41.308839,
+          "lon": -112.02237130000003
+        }
+      }
+    ],
+    "walmart": [
+      {
+        "type": "relation",
+        "id": 6432854,
+        "tags": {
+          "addr:city": "Layton",
+          "addr:country": "US",
+          "addr:housenumber": "1356",
+          "addr:postcode": "84040",
+          "addr:state": "UT",
+          "addr:street": "East Highway 193",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "operator:wikipedia": "en:Walmart",
+          "phone": "+1-801-771-2987",
+          "ref:walmart": "5205",
+          "shop": "supermarket",
+          "type": "multipolygon",
+          "website": "https://www.walmart.com/store/5205-layton-ut"
+        },
+        "center": {
+          "lat": 41.09991755,
+          "lon": -111.94043110000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 27878199,
+        "tags": {
+          "addr:city": "Clinton",
+          "addr:country": "US",
+          "addr:housenumber": "1632",
+          "addr:postcode": "84015",
+          "addr:state": "UT",
+          "addr:street": "North 2000 West",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "building:levels": "1",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-779-3165",
+          "ref": "5234",
+          "ref:walmart": "5234",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/5234-clinton-ut"
+        },
+        "center": {
+          "lat": 41.13742345,
+          "lon": -112.06074765
+        }
+      },
+      {
+        "type": "way",
+        "id": 28337370,
+        "tags": {
+          "addr:city": "Orem",
+          "addr:country": "US",
+          "addr:housenumber": "1355",
+          "addr:postcode": "84058",
+          "addr:state": "UT",
+          "addr:street": "Sandhill Road",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:google_pay": "no",
+          "payment:mastercard": "yes",
+          "payment:samsung_pay": "no",
+          "payment:visa": "yes",
+          "phone": "+1 801-221-0600",
+          "ref": "1768",
+          "ref:walmart": "1768",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/1768-orem-ut"
+        },
+        "center": {
+          "lat": 40.272658899999996,
+          "lon": -111.71012774999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 32817094,
+        "tags": {
+          "addr:city": "Syracuse",
+          "addr:country": "US",
+          "addr:housenumber": "2228",
+          "addr:postcode": "84075",
+          "addr:state": "UT",
+          "addr:street": "West 1700 South",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "check_date": "2025-06-03",
+          "name": "Walmart Supercenter",
+          "opening_hours": "06:00-23:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-775-9688",
+          "ref": "3848",
+          "ref:walmart": "3848",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/3848-syracuse-ut"
+        },
+        "center": {
+          "lat": 41.090386699999996,
+          "lon": -112.06983735
+        }
+      },
+      {
+        "type": "way",
+        "id": 33407400,
+        "tags": {
+          "addr:city": "West Valley City",
+          "addr:country": "US",
+          "addr:housename": "Walmart",
+          "addr:housenumber": "3180",
+          "addr:postcode": "84120",
+          "addr:state": "UT",
+          "addr:street": "South 5600 West",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "supermarket",
+          "contact:facebook": "https://www.facebook.com/Walmart3568/",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-23:30",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-966-2986",
+          "ref:walmart": "3568",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/3568-west-valley%20city-ut"
+        },
+        "center": {
+          "lat": 40.702293999999995,
+          "lon": -112.0272248
+        }
+      },
+      {
+        "type": "way",
+        "id": 35569661,
+        "tags": {
+          "addr:city": "Centerville",
+          "addr:country": "US",
+          "addr:housenumber": "221",
+          "addr:postcode": "84014",
+          "addr:state": "UT",
+          "addr:street": "Parrish Lane",
+          "addr:unit": "W",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "building:levels": "1",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-294-0587",
+          "ref": "3366",
+          "ref:walmart": "3366",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/3366-centerville-ut",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.918982400000004,
+          "lon": -111.88390179999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 36025823,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:country": "US",
+          "addr:housenumber": "2705",
+          "addr:postcode": "84109",
+          "addr:state": "UT",
+          "addr:street": "East Parleys Way",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "commercial",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 385-313-3942",
+          "ref:walmart": "4208",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "utahagrc:parcelid": "16231520040000",
+          "website": "https://www.walmart.com/store/4208-salt-lake%20city-ut"
+        },
+        "center": {
+          "lat": 40.7199403,
+          "lon": -111.81318139999996
+        }
+      },
+      {
+        "type": "way",
+        "id": 38093981,
+        "tags": {
+          "addr:city": "Riverdale",
+          "addr:country": "US",
+          "addr:housenumber": "4848",
+          "addr:postcode": "84405",
+          "addr:state": "UT",
+          "addr:street": "South 900 West",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "building:levels": "1",
+          "check_date": "2026-09-20",
+          "check_date:opening_hours": "2026-09-20",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-627-0066",
+          "ref": "1708",
+          "ref:walmart": "1708",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/1708-riverdale-ut",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 41.175906049999995,
+          "lon": -111.99870494999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 38452034,
+        "tags": {
+          "addr:city": "West Valley City",
+          "addr:country": "US",
+          "addr:housenumber": "5675",
+          "addr:postcode": "84118",
+          "addr:state": "UT",
+          "addr:street": "West 6200 South",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "fixme:atp": "check if location still exists; no corresponding ATP location found",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-23:30",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-965-0125",
+          "ref:walmart": "5233",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/5233/west-valley%20city-ut/whats-new"
+        },
+        "center": {
+          "lat": 40.6356555,
+          "lon": -112.02643239999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 38576088,
+        "tags": {
+          "addr:city": "West Jordan",
+          "addr:country": "US",
+          "addr:housenumber": "7671",
+          "addr:postcode": "84084",
+          "addr:state": "UT",
+          "addr:street": "South 3800 West",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 05:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-282-4066",
+          "ref": "3232",
+          "ref:walmart": "3232",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source:name": "local_knowledge",
+          "website": "https://www.walmart.com/store/3232-west-jordan-ut"
+        },
+        "center": {
+          "lat": 40.61131935,
+          "lon": -111.97794720000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 38620962,
+        "tags": {
+          "addr:city": "Springville",
+          "addr:country": "US",
+          "addr:housenumber": "660",
+          "addr:postcode": "84663",
+          "addr:state": "UT",
+          "addr:street": "South 1750 West",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-489-6293",
+          "ref:walmart": "3208",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/3208-springville-ut"
+        },
+        "center": {
+          "lat": 40.1573139,
+          "lon": -111.64443740000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 38624366,
+        "tags": {
+          "addr:city": "West Valley City",
+          "addr:country": "US",
+          "addr:full": "4570 S 4000 W",
+          "addr:housenumber": "4570",
+          "addr:postcode": "84120",
+          "addr:state": "UT",
+          "addr:street": "South 4000 West",
+          "brand": "Walmart",
+          "brand:wikidata": "Q7963529",
+          "building": "retail",
+          "check_date": "2026-08-13",
+          "check_date:opening_hours": "2026-08-13",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "operator:wikipedia": "en:Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1-801-969-1105",
+          "ref:walmart": "5109",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/5109-west-valley%20city-ut"
+        },
+        "center": {
+          "lat": 40.670609400000004,
+          "lon": -111.98904525
+        }
+      },
+      {
+        "type": "way",
+        "id": 39180917,
+        "tags": {
+          "addr:city": "Taylorsville",
+          "addr:country": "US",
+          "addr:housenumber": "5469",
+          "addr:postcode": "84123",
+          "addr:state": "UT",
+          "addr:street": "South Redwood Road",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 05:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-264-9666",
+          "ref": "1686",
+          "ref:walmart": "1686",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/1686-taylorsville-ut"
+        },
+        "center": {
+          "lat": 40.650396799999996,
+          "lon": -111.9368791
+        }
+      },
+      {
+        "type": "way",
+        "id": 39947471,
+        "tags": {
+          "addr:city": "Sandy",
+          "addr:country": "US",
+          "addr:housenumber": "9151",
+          "addr:postcode": "84094",
+          "addr:state": "UT",
+          "addr:street": "Quarry Stone Way",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Sa 06:00-23:30;Su 06:00-23:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-352-4200",
+          "ref": "5235",
+          "ref:walmart": "5235",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/5235-sandy-ut"
+        },
+        "center": {
+          "lat": 40.58535165000001,
+          "lon": -111.85954175
+        }
+      },
+      {
+        "type": "way",
+        "id": 40047894,
+        "tags": {
+          "addr:city": "Midvale",
+          "addr:country": "US",
+          "addr:housenumber": "7250",
+          "addr:postcode": "84047",
+          "addr:state": "UT",
+          "addr:street": "Union Park Avenue",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "check_date:opening_hours": "2023-12-02",
+          "internet_access": "wlan",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-255-0224",
+          "ref": "2207",
+          "ref:walmart": "2207",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/2207-midvale-ut"
+        },
+        "center": {
+          "lat": 40.61945815,
+          "lon": -111.85839550000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 40606844,
+        "tags": {
+          "addr:city": "Harrisville",
+          "addr:country": "US",
+          "addr:housenumber": "534",
+          "addr:postcode": "84404",
+          "addr:state": "UT",
+          "addr:street": "North Harrisville Road",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-737-0092",
+          "ref": "2921",
+          "ref:walmart": "2921",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "Yahoo",
+          "website": "https://www.walmart.com/store/2921/harrisville-ut"
+        },
+        "center": {
+          "lat": 41.269524450000006,
+          "lon": -111.97290674999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 41452284,
+        "tags": {
+          "addr:city": "South Jordan",
+          "addr:country": "US",
+          "addr:housenumber": "11328",
+          "addr:postcode": "84095",
+          "addr:state": "UT",
+          "addr:street": "South Jordan Gateway",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "internet_access": "wlan",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 05:00-24:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-553-2266",
+          "ref": "2307",
+          "ref:walmart": "2307",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/2307-south-jordan-ut"
+        },
+        "center": {
+          "lat": 40.5456781,
+          "lon": -111.90145749999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 51359639,
+        "tags": {
+          "addr:city": "South Ogden",
+          "addr:country": "US",
+          "addr:housenumber": "1710",
+          "addr:postcode": "84405",
+          "addr:state": "UT",
+          "addr:street": "East Skyline Drive",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-479-0366",
+          "ref": "5206",
+          "ref:walmart": "5206",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/5206-south-ogden-ut",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 41.15220085,
+          "lon": -111.9385054
+        }
+      },
+      {
+        "type": "way",
+        "id": 53143204,
+        "tags": {
+          "addr:city": "Washington",
+          "addr:country": "US",
+          "addr:housenumber": "625",
+          "addr:postcode": "84780",
+          "addr:state": "UT",
+          "addr:street": "West Telegraph Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "building:levels": "1",
+          "internet_access": "wlan",
+          "internet_access:fee": "no",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-628-2802",
+          "ref": "1439",
+          "ref:walmart": "1439",
+          "roof:levels": "0",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/1439-washington-ut"
+        },
+        "center": {
+          "lat": 37.1262681,
+          "lon": -113.51797755000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 78803079,
+        "tags": {
+          "addr:city": "Lindon",
+          "addr:country": "US",
+          "addr:housenumber": "585",
+          "addr:postcode": "84042",
+          "addr:state": "UT",
+          "addr:street": "North State Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-785-7683",
+          "ref": "5270",
+          "ref:walmart": "5270",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/5270-lindon-ut"
+        },
+        "center": {
+          "lat": 40.348458550000004,
+          "lon": -111.73170214999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 79583251,
+        "tags": {
+          "addr:city": "Perry",
+          "addr:housenumber": "1200",
+          "addr:postcode": "84302",
+          "addr:state": "UT",
+          "addr:street": "South Commerce Way",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "building:levels": "1",
+          "name": "Walmart Supercenter",
+          "opening_hours": "06:00-23:00",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-734-9660",
+          "ref": "3454",
+          "roof:levels": "0",
+          "roof:shape": "flat",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "Yahoo",
+          "website": "https://www.walmart.com/store/3454-perry-ut"
+        },
+        "center": {
+          "lat": 41.48401045,
+          "lon": -112.03017985000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 81024470,
+        "tags": {
+          "addr:city": "Saint George",
+          "addr:housenumber": "2610",
+          "addr:postcode": "84790",
+          "addr:state": "UT",
+          "addr:street": "Pioneer Road",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "building:levels": "1",
+          "name": "Walmart Supercenter",
+          "opening_hours": "06:00-23:00",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-674-0459",
+          "ref": "3220",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/3220-st-george-ut"
+        },
+        "center": {
+          "lat": 37.063608599999995,
+          "lon": -113.58740584999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 81549188,
+        "tags": {
+          "addr:city": "American Fork",
+          "addr:country": "US",
+          "addr:housenumber": "949",
+          "addr:postcode": "84003",
+          "addr:state": "UT",
+          "addr:street": "West Grassland Drive",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "internet_access": "wlan",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-492-1102",
+          "ref": "2511",
+          "ref:walmart": "2511",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "Yahoo, survey",
+          "website": "https://www.walmart.com/store/2511-american-fork-ut"
+        },
+        "center": {
+          "lat": 40.3847451,
+          "lon": -111.82511435000004
+        }
+      },
+      {
+        "type": "way",
+        "id": 88606917,
+        "tags": {
+          "addr:city": "Provo",
+          "addr:country": "US",
+          "addr:housenumber": "2255",
+          "addr:postcode": "84604",
+          "addr:state": "UT",
+          "addr:street": "North University Parkway",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 385-219-3070",
+          "ref": "4100",
+          "ref:walmart": "4100",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "bing, survey",
+          "website": "https://www.walmart.com/store/4100-provo-ut"
+        },
+        "center": {
+          "lat": 40.262878549999996,
+          "lon": -111.67005210000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 95124884,
+        "tags": {
+          "addr:city": "Saratoga Springs",
+          "addr:country": "US",
+          "addr:housenumber": "136",
+          "addr:postcode": "84045",
+          "addr:state": "UT",
+          "addr:street": "West Crossroads Boulevard",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-766-4272",
+          "ref": "4438",
+          "ref:walmart": "4438",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "survey",
+          "website": "https://www.walmart.com/store/4438-saratoga-springs-ut"
+        },
+        "center": {
+          "lat": 40.3895349,
+          "lon": -111.91972444999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 100075606,
+        "tags": {
+          "addr:city": "Cedar Hills",
+          "addr:country": "US",
+          "addr:housenumber": "4689",
+          "addr:postcode": "84062",
+          "addr:state": "UT",
+          "addr:street": "West Cedar Hills Drive",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-756-2372",
+          "ref": "4689",
+          "ref:walmart": "4689",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/4689-cedar-hills-ut"
+        },
+        "center": {
+          "lat": 40.41654705,
+          "lon": -111.77031145000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 123168326,
+        "tags": {
+          "addr:city": "Ogden",
+          "addr:country": "US",
+          "addr:housenumber": "1959",
+          "addr:postcode": "84401",
+          "addr:state": "UT",
+          "addr:street": "Wall Avenue",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-917-1026",
+          "ref": "3789",
+          "ref:walmart": "3789",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "survey",
+          "website": "https://www.walmart.com/store/3789-ogden-ut"
+        },
+        "center": {
+          "lat": 41.232157799999996,
+          "lon": -111.98120779999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 148059466,
+        "tags": {
+          "addr:city": "Murray",
+          "addr:country": "US",
+          "addr:housenumber": "4627",
+          "addr:postcode": "84117",
+          "addr:state": "UT",
+          "addr:street": "South 900 East",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "fixme:atp": "check if location still exists; no corresponding ATP location found",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 05:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-261-3695",
+          "ref:walmart": "5350",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/5350/salt-lake%20city-ut/whats-new"
+        },
+        "center": {
+          "lat": 40.6697706,
+          "lon": -111.86349380000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 157338869,
+        "tags": {
+          "addr:city": "Riverton",
+          "addr:country": "US",
+          "addr:housenumber": "13502",
+          "addr:postcode": "84065",
+          "addr:state": "UT",
+          "addr:street": "South Hamilton View Road",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "commercial",
+          "building:levels": "1",
+          "name": "Walmart Supercenter",
+          "name:en": "Walmart Supercenter",
+          "name:zh": "沃尔玛 停车场",
+          "opening_hours": "Mo-Su 07:00-23:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-446-2981",
+          "ref": "3620",
+          "ref:walmart": "3620",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/3620/riverton-ut"
+        },
+        "center": {
+          "lat": 40.5051321,
+          "lon": -111.97763880000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 167034272,
+        "tags": {
+          "addr:city": "Cedar City",
+          "addr:country": "US",
+          "addr:housenumber": "1330",
+          "addr:postcode": "84720",
+          "addr:state": "UT",
+          "addr:street": "South Providence Center Drive",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "internet_access": "no",
+          "name": "Walmart Supercenter",
+          "opening_hours": "06:00-23:00",
+          "operator": "Walmart",
+          "organic": "yes",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:cards": "yes",
+          "payment:cash": "yes",
+          "payment:google_pay": "no",
+          "payment:qr_code": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-586-0172",
+          "ref": "1438",
+          "ref:walmart": "1438",
+          "self_checkout": "yes",
+          "self_checkout:handheld": "yes",
+          "self_checkout:self_scan": "no",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "Bing",
+          "website": "https://www.walmart.com/store/1438-cedar-city-ut"
+        },
+        "center": {
+          "lat": 37.65455925,
+          "lon": -113.08829000000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 169247508,
+        "tags": {
+          "addr:city": "Hurricane",
+          "addr:country": "US",
+          "addr:housenumber": "180",
+          "addr:postcode": "84737",
+          "addr:state": "UT",
+          "addr:street": "North 3400 West",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "building:levels": "1",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-635-6945",
+          "ref:walmart": "4678",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "Bing",
+          "website": "https://www.walmart.com/store/4678-hurricane-ut",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 37.1726698,
+          "lon": -113.36461739999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 224422910,
+        "tags": {
+          "addr:city": "Ephraim",
+          "addr:country": "US",
+          "addr:housenumber": "777",
+          "addr:postcode": "84627",
+          "addr:state": "UT",
+          "addr:street": "North Main Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Sa 06:00-24:00;Su 08:00-22:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-283-8189",
+          "ref": "2794",
+          "ref:walmart": "2794",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/2794-ephraim-ut"
+        },
+        "center": {
+          "lat": 39.37377325,
+          "lon": -111.58984090000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 226185027,
+        "tags": {
+          "addr:city": "North Logan",
+          "addr:country": "US",
+          "addr:housenumber": "1550",
+          "addr:postcode": "84341",
+          "addr:state": "UT",
+          "addr:street": "North Main Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "building:levels": "1",
+          "internet_access": "wlan",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-753-0880",
+          "ref": "1888",
+          "ref:walmart": "1888",
+          "roof:levels": "0",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "toilets": "yes",
+          "website": "https://www.walmart.com/store/1888-north-logan-ut",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 41.760314949999994,
+          "lon": -111.83035015000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 226670199,
+        "tags": {
+          "addr:city": "Park City",
+          "addr:country": "US",
+          "addr:housenumber": "6545",
+          "addr:postcode": "84098",
+          "addr:state": "UT",
+          "addr:street": "Landmark Drive",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-647-9909",
+          "ref": "1827",
+          "ref:walmart": "1827",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/1827-park-city-ut"
+        },
+        "center": {
+          "lat": 40.72602725,
+          "lon": -111.54930274999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 230766870,
+        "tags": {
+          "addr:city": "Draper",
+          "addr:country": "US",
+          "addr:housenumber": "1360",
+          "addr:postcode": "84020",
+          "addr:state": "UT",
+          "addr:street": "East Draper Parkway",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-816-0838",
+          "ref": "5110",
+          "ref:walmart": "5110",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/5110-draper-ut"
+        },
+        "center": {
+          "lat": 40.5266985,
+          "lon": -111.85247579999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 358562895,
+        "tags": {
+          "addr:city": "Logan",
+          "addr:country": "US",
+          "addr:housenumber": "1150",
+          "addr:postcode": "84321",
+          "addr:state": "UT",
+          "addr:street": "South 100 West",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-753-2111",
+          "ref": "4272",
+          "ref:walmart": "4272",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "toilets": "yes",
+          "website": "https://www.walmart.com/store/4272-logan-ut"
+        },
+        "center": {
+          "lat": 41.712052,
+          "lon": -111.83597070000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 397372031,
+        "tags": {
+          "addr:city": "Vernal",
+          "addr:country": "US",
+          "addr:housenumber": "1851",
+          "addr:postcode": "84078",
+          "addr:state": "UT",
+          "addr:street": "West Highway 40",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-789-9784",
+          "ref": "1572",
+          "ref:walmart": "1572",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/1572/vernal-ut"
+        },
+        "center": {
+          "lat": 40.43817765,
+          "lon": -109.56311985000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 442136541,
+        "tags": {
+          "addr:city": "South Jordan",
+          "addr:country": "US",
+          "addr:housenumber": "3590",
+          "addr:postcode": "84095",
+          "addr:state": "UT",
+          "addr:street": "South Jordan Parkway",
+          "addr:unit": "W",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-601-3098",
+          "ref": "5763",
+          "ref:walmart": "5763",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/5763/south-jordan-ut"
+        },
+        "center": {
+          "lat": 40.563096,
+          "lon": -111.97531755
+        }
+      },
+      {
+        "type": "way",
+        "id": 466226495,
+        "tags": {
+          "addr:city": "Payson",
+          "addr:country": "US",
+          "addr:housenumber": "1052",
+          "addr:postcode": "84651",
+          "addr:state": "UT",
+          "addr:street": "Turf Farm Road",
+          "air_conditioning": "yes",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "building:levels": "1",
+          "changing_table": "yes",
+          "check_date": "2026-09-25",
+          "currency:USD": "yes",
+          "internet_access": "wlan",
+          "internet_access:fee": "no",
+          "internet_access:ssid": "Walmartwifi",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "operator": "Walmart",
+          "organic": "yes",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:cash": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-465-8246",
+          "ref": "5167",
+          "ref:walmart": "5167",
+          "self_checkout": "yes",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "stroller": "yes",
+          "toilets": "yes",
+          "toilets:wheelchair": "yes",
+          "website": "https://www.walmart.com/store/5167-payson-ut",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.02773035,
+          "lon": -111.75663279999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 471922771,
+        "tags": {
+          "addr:city": "Tooele",
+          "addr:country": "US",
+          "addr:housenumber": "99",
+          "addr:postcode": "84074",
+          "addr:state": "UT",
+          "addr:street": "West 1280 North",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-882-0180",
+          "ref": "1440",
+          "ref:walmart": "1440",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/1440-tooele-ut"
+        },
+        "center": {
+          "lat": 40.5558836,
+          "lon": -112.30071199999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 483082461,
+        "tags": {
+          "addr:city": "Layton",
+          "addr:housenumber": "745",
+          "addr:postcode": "84041",
+          "addr:state": "UT",
+          "addr:street": "West Hill Field Road",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "check_date": "2025-04-16",
+          "height": "8",
+          "name": "Walmart Supercenter",
+          "opening_hours": "06:00-23:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-546-1992",
+          "ref": "1699",
+          "ref:walmart": "1699",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/1699-layton-ut"
+        },
+        "center": {
+          "lat": 41.0682989,
+          "lon": -111.97971704999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 547632074,
+        "tags": {
+          "addr:city": "Pleasant Grove",
+          "addr:country": "US",
+          "addr:housenumber": "1707",
+          "addr:postcode": "84062",
+          "addr:state": "UT",
+          "addr:street": "West State Street",
+          "brand": "Walmart Neighborhood Market",
+          "brand:wikidata": "Q7963529",
+          "building": "yes",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-216-0001",
+          "ref": "4700",
+          "ref:walmart": "4700",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/4700-pleasant-grove-ut"
+        },
+        "center": {
+          "lat": 40.36743365,
+          "lon": -111.7651755
+        }
+      },
+      {
+        "type": "way",
+        "id": 553852026,
+        "tags": {
+          "addr:city": "Richfield",
+          "addr:housenumber": "10",
+          "addr:postcode": "84701",
+          "addr:state": "UT",
+          "addr:street": "East 1300 South",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "check_date": "2026-08-06",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 07:00-23:00; Tu 06:00-23:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:cash": "yes",
+          "payment:cash:USD": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:electronic_purses": "yes",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-893-8164",
+          "ref": "5168",
+          "ref:walmart": "5168",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/5168-richfield-ut",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 38.748395099999996,
+          "lon": -112.08471329999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 595641789,
+        "tags": {
+          "addr:city": "Spanish Fork",
+          "addr:country": "US",
+          "addr:housenumber": "898",
+          "addr:postcode": "84660",
+          "addr:state": "UT",
+          "addr:street": "South 2550 East",
+          "brand": "Walmart Neighborhood Market",
+          "brand:wikidata": "Q7963529",
+          "building": "yes",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-504-9612",
+          "ref": "3988",
+          "ref:walmart": "3988",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/3988/spanish-fork-ut"
+        },
+        "center": {
+          "lat": 40.09800875,
+          "lon": -111.61410964999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 616844550,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:country": "US",
+          "addr:housenumber": "350",
+          "addr:postcode": "84115",
+          "addr:state": "UT",
+          "addr:street": "West Hope Avenue",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "check_date:opening_hours": "2023-06-15",
+          "contact:facebook": "https://www.facebook.com/Walmart3589/",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-484-7311",
+          "ref:walmart": "3589",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "utahagrc:parcelid": "15132010040000",
+          "website": "https://www.walmart.com/store/3589-salt-lake%20city-ut"
+        },
+        "center": {
+          "lat": 40.740823,
+          "lon": -111.90118354999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 677703925,
+        "tags": {
+          "addr:city": "Price",
+          "addr:country": "US",
+          "addr:housenumber": "255",
+          "addr:postcode": "84501",
+          "addr:state": "UT",
+          "addr:street": "South Highway 55",
+          "air_conditioning": "yes",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "building:levels": "1",
+          "changing_table": "yes",
+          "check_date": "2026-07-09",
+          "currency:USD": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "06:00-23:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:cash": "yes",
+          "payment:cash:USD": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:electronic_purses": "yes",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-637-6712",
+          "ref": "1573",
+          "ref:walmart": "1573",
+          "self_checkout": "yes",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "stroller": "yes",
+          "toilets": "yes",
+          "toilets:wheelchair": "yes",
+          "website": "https://www.walmart.com/store/1573-price-ut",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 39.5961863,
+          "lon": -110.78853564999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 724163158,
+        "tags": {
+          "addr:city": "Spanish Fork",
+          "addr:country": "US",
+          "addr:housenumber": "1206",
+          "addr:postcode": "84660",
+          "addr:state": "UT",
+          "addr:street": "North Canyon Creek Parkway",
+          "air_conditioning": "yes",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "building:levels": "1",
+          "check_date": "2026-09-24",
+          "currency:USD": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:cash": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-804-3505",
+          "ref": "4068",
+          "ref:walmart": "4068",
+          "roof:shape": "flat",
+          "self_checkout": "yes",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "stroller": "yes",
+          "toilets": "yes",
+          "toilets:wheelchair": "yes",
+          "website": "https://www.walmart.com/store/4068-spanish-fork-ut",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.1238313,
+          "lon": -111.63880145000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 776328678,
+        "tags": {
+          "addr:city": "Herriman",
+          "addr:country": "US",
+          "addr:housenumber": "5056",
+          "addr:postcode": "84096",
+          "addr:state": "UT",
+          "addr:street": "West 13400 South",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-981-1675",
+          "ref": "7168",
+          "ref:walmart": "7168",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/7168-herriman-ut"
+        },
+        "center": {
+          "lat": 40.50917645,
+          "lon": -112.01149650000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 1014522460,
+        "tags": {
+          "addr:city": "Heber City",
+          "addr:country": "US",
+          "addr:housenumber": "1274",
+          "addr:postcode": "84032",
+          "addr:state": "UT",
+          "addr:street": "US Hwy 189",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-709-3015",
+          "ref": "4696",
+          "ref:walmart": "4696",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/4696-heber-city-ut"
+        },
+        "center": {
+          "lat": 40.4937624,
+          "lon": -111.41748480000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 1068072714,
+        "tags": {
+          "addr:city": "Magna",
+          "addr:country": "US",
+          "addr:housenumber": "3555",
+          "addr:postcode": "84044",
+          "addr:state": "UT",
+          "addr:street": "South 8400 West",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "commercial",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su,PH 06:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-601-2833",
+          "ref": "4706",
+          "ref:walmart": "4706",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/4706-magna-ut"
+        },
+        "center": {
+          "lat": 40.6949028,
+          "lon": -112.09001190000004
+        }
+      },
+      {
+        "type": "way",
+        "id": 1097113783,
+        "tags": {
+          "addr:city": "Riverton",
+          "addr:country": "US",
+          "addr:housenumber": "1202",
+          "addr:postcode": "84065",
+          "addr:state": "UT",
+          "addr:street": "West 12600 South",
+          "brand": "Walmart Neighborhood Market",
+          "brand:wikidata": "Q7963529",
+          "building": "yes",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-999-2794",
+          "ref": "7043",
+          "ref:walmart": "7043",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/7043-riverton-ut"
+        },
+        "center": {
+          "lat": 40.523418899999996,
+          "lon": -111.92599695000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 1448484683,
+        "tags": {
+          "addr:city": "Eagle Mountain",
+          "addr:housenumber": "9399",
+          "addr:postcode": "84005",
+          "addr:state": "UT",
+          "addr:street": "North Spring Run Parkway",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "commercial",
+          "contact:facebook": "https://www.facebook.com/walmart1725",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "phone": "+1 385-993-6007",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/1725-eagle-mountain-ut"
+        },
+        "center": {
+          "lat": 40.3827043,
+          "lon": -111.97761774999998
+        }
+      }
+    ],
+    "sears": [],
+    "century_21": [],
+    "army_air_force_exchange": [
+      {
+        "type": "node",
+        "id": 12030042978,
+        "tags": {
+          "description": "Sells clothes on consignment.",
+          "name": "The Exchange on Main",
+          "second_hand": "only",
+          "shop": "clothes"
+        },
+        "lat": 40.6458055,
+        "lon": -111.4972308
+      }
+    ],
+    "navy_exchange": []
+  }
+}

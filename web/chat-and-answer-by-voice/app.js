@@ -33,6 +33,7 @@ let keepListening = false;
 let stopping = false;
 let microphoneAcquirePromise = null;
 let resumeListeningAfterVideo = false;
+let resumeListeningAfterDirections = false;
 let lastReplyAudioUrls = [];
 
 function setStatus(text) { $('voice-status').textContent = text; }
@@ -242,14 +243,46 @@ async function resumeMicrophoneAfterVideo() {
   resumeListeningAfterVideo = false;
   if (!busy) await startListening(false);
 }
+async function pauseMicrophoneForDirections() {
+  resumeListeningAfterDirections = keepListening || Boolean(stream || recorder);
+  keepListening = false;
+  if (microphoneAcquirePromise) {
+    try { await microphoneAcquirePromise; } catch (_) {}
+  }
+  if (stopping && (stream || recorder)) {
+    await new Promise(resolve => window.addEventListener('microphone-capture-stopped', resolve, {once: true}));
+  }
+  await pauseCaptureForPlayback();
+  if (resumeListeningAfterDirections) $('stop').disabled = false;
+}
+async function resumeMicrophoneAfterDirections() {
+  if (!resumeListeningAfterDirections) return;
+  resumeListeningAfterDirections = false;
+  keepListening = true;
+  if (!stopping && !busy) await startListening(false);
+}
 window.pauseMicrophoneForVideo = pauseMicrophoneForVideo;
 window.resumeMicrophoneAfterVideo = resumeMicrophoneAfterVideo;
+window.pauseMicrophoneForDirections = pauseMicrophoneForDirections;
+window.resumeMicrophoneAfterDirections = resumeMicrophoneAfterDirections;
 async function askQuestion(question) {
+  const directionsCommand = window.handleLocatorDirectionsCommand?.(question);
+  if (directionsCommand) {
+    const messages = {
+      opened: 'Opening directions for the displayed location.',
+      'no-location': 'There is no displayed location with directions to open.',
+      closed: 'Directions closed.',
+      'not-open': 'Directions are not open.',
+      ignored: '',
+    };
+    setStatus(messages[directionsCommand]);
+    return null;
+  }
   if (window.handleStepVideoRequest?.(question)) return null;
   if (!ensureSelectedTopic()) {
     throw new Error('Select a knowledge collection first, then ask again.');
   }
-  const directionsWindow = window.prepareLocatorDirections?.(question, $('show-map')?.checked);
+  const directionsWindow = window.prepareLocatorDirections?.(question, $('show-map')?.checked, true);
   bubble('user', question);
   const answer = bubble('assistant', '');
   answer.body.classList.add('thinking');
@@ -304,7 +337,7 @@ async function askQuestion(question) {
         if (data.type === 'done') {
           answer.body.classList.remove('thinking');
           record.complete = true;
-          window.finishLocatorDirections?.(record.directionsWindow);
+          window.finishLocatorDirections?.(record.directionsWindow, data.response_id);
           setStatus('Ready for the next question.');
           busy = false;
           done();
@@ -471,22 +504,18 @@ async function handleCapturedAudio(blob) {
       await playReplyAudio();
       return;
     }
-    if (window.isLocatorDirectionsRequest?.(text)) {
-      const lastLocation = [...transcript].reverse()
-        .find(record => record.directionsWindow)?.directionsWindow;
-      if (lastLocation?.url && window.openLocatorDirections?.(lastLocation)) {
-        setStatus('Opening directions for the displayed location.');
-      } else {
-        setStatus('There is no displayed location with directions to open.');
-      }
-      return;
-    }
     const record = await askQuestion(text);
     if (record?.answer) {
+      let initialPlaybackCompleted = false;
       try {
         await speakAnswer(record.answer, record.directionsWindow);
+        initialPlaybackCompleted = true;
       } catch (error) {
         setSpeakStatus(error.message);
+      } finally {
+        if (initialPlaybackCompleted) {
+          window.locatorDirectionsInitialPlaybackFinished?.(record.directionsWindow);
+        }
       }
     }
   } catch (error) {
@@ -607,6 +636,7 @@ $('start').onclick = () => startListening(true);
 $('start-hero').onclick = () => startListening(true);
 $('stop').onclick = () => {
   resumeListeningAfterVideo = false;
+  resumeListeningAfterDirections = false;
   void stopListening(true);
 };
 $('clear').onclick = clearConversation;
