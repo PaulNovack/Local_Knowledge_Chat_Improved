@@ -5,6 +5,7 @@ import hashlib
 import ipaddress
 import json
 import logging
+import math
 import re
 import secrets
 import sqlite3
@@ -18,7 +19,7 @@ from fastapi.responses import FileResponse, JSONResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, ValidationError, field_validator, model_validator
 
-from .core import ROOT, Settings, Store, chunk_size_for_topic, delete_chat_history, documents, embedding_input, ensure_chat_history_db, ensure_tts_cache_db, get_chat_history_entry, read_chat_history, read_records, read_router_function_names, save_chat_history, save_tts_cache_entry, sync_qdrant_topic_to_sqlite, sync_qdrant_topics_to_sqlite, training_records_path, validate_vectors, topic_name
+from .core import ROOT, Settings, Store, chunk_size_for_topic, delete_chat_history, documents, embedding_input, ensure_chat_history_db, ensure_tts_cache_db, get_chat_history_entry, read_chat_history, read_chat_navigation_data, read_records, read_router_function_names, save_chat_history, save_chat_navigation_data, save_tts_cache_entry, sync_qdrant_topic_to_sqlite, sync_qdrant_topics_to_sqlite, training_records_path, validate_vectors, topic_name
 from .following_distance import answer_following_distance
 from .routing import find_closest_loves, resolve_routed_answer
 
@@ -321,6 +322,42 @@ class GeolocationUpdate(BaseModel):
         return self
 
 
+class MapQuestRouteRequest(BaseModel):
+    origin: str = Field(min_length=3, max_length=200)
+    destination: str = Field(min_length=3, max_length=200)
+
+    @field_validator('origin', 'destination')
+    @classmethod
+    def nonempty_location(cls, value):
+        if not value.strip():
+            raise ValueError('Location is empty')
+        return value.strip()
+
+
+class NavigationManeuver(BaseModel):
+    narrative: str = Field(min_length=1, max_length=1000)
+    distance: float | None = None
+    formattedTime: str = Field(default='', max_length=100)
+    point: tuple[float, float] | None = None
+
+
+class NavigationSnapshot(BaseModel):
+    origin: str = Field(min_length=3, max_length=200)
+    destination: str = Field(min_length=3, max_length=200)
+    points: list[tuple[float, float]] = Field(min_length=2, max_length=20000)
+    distance: float | None = None
+    formattedTime: str = Field(default='', max_length=100)
+    maneuvers: list[NavigationManeuver] = Field(max_length=1000)
+
+    @field_validator('points')
+    @classmethod
+    def valid_route_points(cls, points):
+        if any(not -90 <= latitude <= 90 or not -180 <= longitude <= 180
+               for latitude, longitude in points):
+            raise ValueError('Route geometry contains invalid coordinates')
+        return points
+
+
 def _location_from_cookie(value):
     if not value:
         return None
@@ -342,7 +379,7 @@ def _record_location_event(path, session_id, location):
         )
 
 
-def create_app(settings=None, store=None, ollama=None):
+def create_app(settings=None, store=None, ollama=None, mapquest_client=None):
     settings = settings or Settings()
     _configure_file_logging()
 
@@ -353,6 +390,7 @@ def create_app(settings=None, store=None, ollama=None):
                                                      timeout=settings.timeout, trust_env=False)
         app.state.asr = httpx.AsyncClient(timeout=settings.asr_timeout, trust_env=False)
         app.state.piper = httpx.AsyncClient(timeout=settings.piper_timeout, trust_env=False)
+        app.state.mapquest = mapquest_client or httpx.AsyncClient(timeout=20, trust_env=False)
         app.state.slots = asyncio.Semaphore(2)
         app.state.chat_history_db = ensure_chat_history_db()
         ensure_tts_cache_db(app.state.chat_history_db)
@@ -372,6 +410,8 @@ def create_app(settings=None, store=None, ollama=None):
         yield
         if ollama is None:
             await app.state.ollama.aclose()
+        if mapquest_client is None:
+            await app.state.mapquest.aclose()
         await app.state.asr.aclose()
         await app.state.piper.aclose()
         if store is None:
@@ -387,7 +427,8 @@ def create_app(settings=None, store=None, ollama=None):
         request.state.session_id = session_id
         request.state.location_update = None
         response = await call_next(request)
-        if request.url.path == '/' or Path(request.url.path).suffix.lower() in {'.html', '.js', '.css'}:
+        if (request.url.path == '/' or request.url.path.rstrip('/') == '/mapquest-directions'
+            or Path(request.url.path).suffix.lower() in {'.html', '.js', '.css'}):
             response.headers['Cache-Control'] = 'no-cache, max-age=0, must-revalidate'
         if request.method in {'GET', 'POST'}:
             location = request.state.location_update or _location_from_cookie(
@@ -450,6 +491,73 @@ def create_app(settings=None, store=None, ollama=None):
             response.delete_cookie('LocationType', path='/')
             response.delete_cookie('StoreNUmber', path='/')
         return response
+
+    @app.post('/api/mapquest/route')
+    async def mapquest_route(payload: MapQuestRouteRequest, request: Request):
+        _require_same_origin_or_configured(request, settings)
+        if not settings.mapquest_api_key:
+            raise HTTPException(status_code=503, detail='MapQuest is not configured.')
+        try:
+            response = await request.app.state.mapquest.get(
+                'https://www.mapquestapi.com/directions/v2/route',
+                params={
+                    'key': settings.mapquest_api_key,
+                    'from': payload.origin,
+                    'to': payload.destination,
+                    'routeType': 'fastest',
+                    'fullShape': 'true',
+                    'shapeFormat': 'raw',
+                    'generalize': '0',
+                    'narrativeType': 'text',
+                    'outFormat': 'json',
+                },
+            )
+            response.raise_for_status()
+            result = response.json()
+        except (httpx.HTTPError, ValueError) as error:
+            log.warning('MapQuest route request failed: %s', type(error).__name__)
+            raise HTTPException(status_code=502, detail='MapQuest route request failed.') from error
+
+        route = result.get('route', {}) if isinstance(result, dict) else {}
+        info = result.get('info', {}) if isinstance(result, dict) else {}
+        shape_points = route.get('shape', {}).get('shapePoints', [])
+        if info.get('statuscode') != 0 or not isinstance(shape_points, list) or len(shape_points) < 4 or len(shape_points) % 2:
+            raise HTTPException(status_code=502, detail='MapQuest could not calculate this route.')
+        points = []
+        for index in range(0, len(shape_points), 2):
+            latitude, longitude = shape_points[index:index + 2]
+            if (not isinstance(latitude, (int, float)) or not isinstance(longitude, (int, float))
+                or not math.isfinite(latitude) or not math.isfinite(longitude)
+                or not -90 <= latitude <= 90 or not -180 <= longitude <= 180):
+                raise HTTPException(status_code=502, detail='MapQuest returned invalid route geometry.')
+            points.append([latitude, longitude])
+        maneuvers = []
+        for leg in route.get('legs', []):
+            for maneuver in leg.get('maneuvers', []):
+                narrative = maneuver.get('narrative')
+                if not isinstance(narrative, str) or not narrative.strip():
+                    continue
+                distance = maneuver.get('distance')
+                start_point = maneuver.get('startPoint', {})
+                latitude = start_point.get('lat') if isinstance(start_point, dict) else None
+                longitude = start_point.get('lng') if isinstance(start_point, dict) else None
+                point = None
+                if (isinstance(latitude, (int, float)) and isinstance(longitude, (int, float))
+                    and math.isfinite(latitude) and math.isfinite(longitude)
+                    and -90 <= latitude <= 90 and -180 <= longitude <= 180):
+                    point = [latitude, longitude]
+                maneuvers.append({
+                    'narrative': narrative.strip(),
+                    'distance': distance if isinstance(distance, (int, float)) and math.isfinite(distance) else None,
+                    'formattedTime': maneuver.get('formattedTime', ''),
+                    'point': point,
+                })
+        return {
+            'points': points,
+            'distance': route.get('distance'),
+            'formattedTime': route.get('formattedTime', ''),
+            'maneuvers': maneuvers,
+        }
 
     @app.get('/api/health')
     async def health():
@@ -675,6 +783,29 @@ def create_app(settings=None, store=None, ollama=None):
     async def responses(page: int = Query(1, ge=1), page_size: int = Query(10, ge=1, le=50), q: str = Query('', max_length=120)):
         return read_chat_history(page=page, page_size=page_size, keyword=q, path=app.state.chat_history_db)
 
+    @app.post('/api/responses/{response_id}/navigation')
+    async def save_response_navigation(response_id: int, payload: NavigationSnapshot, request: Request):
+        _require_same_origin_or_configured(request, settings)
+        session_id = request.cookies.get('session_id', '')
+        if not re.fullmatch(r'[0-9a-f]{32}', session_id):
+            raise HTTPException(status_code=401, detail='A valid session is required.')
+        saved = await asyncio.to_thread(
+            save_chat_navigation_data, response_id, session_id, payload.model_dump(mode='json'),
+            path=app.state.chat_history_db,
+        )
+        if not saved:
+            raise HTTPException(status_code=404, detail='Response not found for this session.')
+        return {'ok': True, 'response_id': response_id}
+
+    @app.get('/api/responses/{response_id}/navigation')
+    async def response_navigation(response_id: int, request: Request):
+        navigation = await asyncio.to_thread(
+            read_chat_navigation_data, response_id, path=app.state.chat_history_db,
+        )
+        if navigation is None:
+            raise HTTPException(status_code=404, detail='Response not found.')
+        return navigation
+
     @app.delete('/api/responses/{response_id}')
     async def delete_response(request: Request, response_id: int):
         _require_local_origin(request)
@@ -703,14 +834,21 @@ def create_app(settings=None, store=None, ollama=None):
 
     async def answer(ws, request):
         async with app.state.slots:
+            saved_response_id = None
+
             async def record_answer(answer_text, router_function=None, key=None):
+                nonlocal saved_response_id
                 try:
-                    await asyncio.to_thread(
+                    saved_response_id = await asyncio.to_thread(
                         save_chat_history, request.topic, request.question, answer_text,
                         path=app.state.chat_history_db, router_function=router_function, key=key,
+                        session_id=ws.cookies.get('session_id'),
                     )
                 except Exception:
                     log.exception('Failed to save chat history topic=%s question=%r', request.topic, request.question)
+
+            async def send_done():
+                await ws.send_json({'type': 'done', 'response_id': saved_response_id})
 
             topics = await asyncio.to_thread(app.state.store.topics)
             if request.topic not in topics:
@@ -721,7 +859,7 @@ def create_app(settings=None, store=None, ollama=None):
                 await ws.send_json({'type': 'status', 'message': 'Calculating CDL following distance…'})
                 await ws.send_json({'type': 'token', 'text': calculation.answer})
                 await record_answer(calculation.answer)
-                await ws.send_json({'type': 'done'})
+                await send_done()
                 return
             routed_source = await asyncio.to_thread(
                 resolve_routed_answer,
@@ -737,7 +875,7 @@ def create_app(settings=None, store=None, ollama=None):
                 final_answer = routed_source['text']
                 await ws.send_json({'type': 'token', 'text': final_answer})
                 await record_answer(final_answer, routed_source['routerFunction'], routed_source['key'])
-                await ws.send_json({'type': 'done'})
+                await send_done()
                 return
             await ws.send_json({'type': 'status', 'message': 'Searching imported data…'})
             r = await app.state.ollama.post('/api/embed', json={'model': settings.embed_model,
@@ -760,7 +898,7 @@ def create_app(settings=None, store=None, ollama=None):
                 final_answer = routed_source['text']
                 await ws.send_json({'type': 'token', 'text': final_answer})
                 await record_answer(final_answer, routed_source['routerFunction'], routed_source['key'])
-                await ws.send_json({'type': 'done'})
+                await send_done()
                 return
             if _is_date_question(request.question):
                 candidate_terms = []
@@ -783,7 +921,7 @@ def create_app(settings=None, store=None, ollama=None):
                 final_answer = 'I do not have enough information in the imported data to answer that question.'
                 await ws.send_json({'type': 'token', 'text': final_answer})
                 await record_answer(final_answer)
-                await ws.send_json({'type': 'done'})
+                await send_done()
                 return
             exact_source = _exact_match_source(request.question, sources)
             if exact_source:
@@ -793,7 +931,7 @@ def create_app(settings=None, store=None, ollama=None):
                 final_answer = exact_source['text']
                 await ws.send_json({'type': 'token', 'text': final_answer})
                 await record_answer(final_answer)
-                await ws.send_json({'type': 'done'})
+                await send_done()
                 return
             preferred_source = _preferred_saved_source(sources)
             if preferred_source:
@@ -803,7 +941,7 @@ def create_app(settings=None, store=None, ollama=None):
                 final_answer = preferred_source['text']
                 await ws.send_json({'type': 'token', 'text': final_answer})
                 await record_answer(final_answer)
-                await ws.send_json({'type': 'done'})
+                await send_done()
                 return
             prompt_sources = sources[:5]
             excerpts = '\n\n'.join(
@@ -856,7 +994,7 @@ def create_app(settings=None, store=None, ollama=None):
                     log.warning('chat produced no answer topic=%s completed=%s produced=%s', request.topic, completed, produced)
                     raise ValueError('Ollama returned an incomplete or empty answer. Check the selected model and server logs.')
             await record_answer(''.join(response_text))
-            await ws.send_json({'type': 'done'})
+            await send_done()
 
     @app.websocket('/ws/chat')
     async def chat(ws: WebSocket):

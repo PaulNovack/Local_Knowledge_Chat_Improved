@@ -1,0 +1,5683 @@
+{
+  "schema": "geofabrik-groceries-v1-dad3fe72508f573f",
+  "source": "https://download.geofabrik.de/north-america/us/utah-latest.osm.pbf",
+  "source_md5": "ae06c28b2d5fe0d209d18f65b5c0a5e5",
+  "processed_utc": "2026-10-27T16:57:35.283756+00:00",
+  "brands": {
+    "walmart": [
+      {
+        "type": "relation",
+        "id": 6432854,
+        "tags": {
+          "addr:city": "Layton",
+          "addr:country": "US",
+          "addr:housenumber": "1356",
+          "addr:postcode": "84040",
+          "addr:state": "UT",
+          "addr:street": "East Highway 193",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "operator:wikipedia": "en:Walmart",
+          "phone": "+1-801-771-2987",
+          "ref:walmart": "5205",
+          "shop": "supermarket",
+          "type": "multipolygon",
+          "website": "https://www.walmart.com/store/5205-layton-ut"
+        },
+        "center": {
+          "lat": 41.09991755,
+          "lon": -111.94043110000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 27878199,
+        "tags": {
+          "addr:city": "Clinton",
+          "addr:country": "US",
+          "addr:housenumber": "1632",
+          "addr:postcode": "84015",
+          "addr:state": "UT",
+          "addr:street": "North 2000 West",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "building:levels": "1",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-779-3165",
+          "ref": "5234",
+          "ref:walmart": "5234",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/5234-clinton-ut"
+        },
+        "center": {
+          "lat": 41.13742345,
+          "lon": -112.06074765
+        }
+      },
+      {
+        "type": "way",
+        "id": 28337370,
+        "tags": {
+          "addr:city": "Orem",
+          "addr:country": "US",
+          "addr:housenumber": "1355",
+          "addr:postcode": "84058",
+          "addr:state": "UT",
+          "addr:street": "Sandhill Road",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:google_pay": "no",
+          "payment:mastercard": "yes",
+          "payment:samsung_pay": "no",
+          "payment:visa": "yes",
+          "phone": "+1 801-221-0600",
+          "ref": "1768",
+          "ref:walmart": "1768",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/1768-orem-ut"
+        },
+        "center": {
+          "lat": 40.272658899999996,
+          "lon": -111.71012774999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 32817094,
+        "tags": {
+          "addr:city": "Syracuse",
+          "addr:country": "US",
+          "addr:housenumber": "2228",
+          "addr:postcode": "84075",
+          "addr:state": "UT",
+          "addr:street": "West 1700 South",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "check_date": "2025-06-03",
+          "name": "Walmart Supercenter",
+          "opening_hours": "06:00-23:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-775-9688",
+          "ref": "3848",
+          "ref:walmart": "3848",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/3848-syracuse-ut"
+        },
+        "center": {
+          "lat": 41.090386699999996,
+          "lon": -112.06983735
+        }
+      },
+      {
+        "type": "way",
+        "id": 33407400,
+        "tags": {
+          "addr:city": "West Valley City",
+          "addr:country": "US",
+          "addr:housename": "Walmart",
+          "addr:housenumber": "3180",
+          "addr:postcode": "84120",
+          "addr:state": "UT",
+          "addr:street": "South 5600 West",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "supermarket",
+          "contact:facebook": "https://www.facebook.com/Walmart3568/",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-23:30",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-966-2986",
+          "ref:walmart": "3568",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/3568-west-valley%20city-ut"
+        },
+        "center": {
+          "lat": 40.702293999999995,
+          "lon": -112.0272248
+        }
+      },
+      {
+        "type": "way",
+        "id": 35569661,
+        "tags": {
+          "addr:city": "Centerville",
+          "addr:country": "US",
+          "addr:housenumber": "221",
+          "addr:postcode": "84014",
+          "addr:state": "UT",
+          "addr:street": "Parrish Lane",
+          "addr:unit": "W",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "building:levels": "1",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-294-0587",
+          "ref": "3366",
+          "ref:walmart": "3366",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/3366-centerville-ut",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.918982400000004,
+          "lon": -111.88390179999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 36025823,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:country": "US",
+          "addr:housenumber": "2705",
+          "addr:postcode": "84109",
+          "addr:state": "UT",
+          "addr:street": "East Parleys Way",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "commercial",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 385-313-3942",
+          "ref:walmart": "4208",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "utahagrc:parcelid": "16231520040000",
+          "website": "https://www.walmart.com/store/4208-salt-lake%20city-ut"
+        },
+        "center": {
+          "lat": 40.7199403,
+          "lon": -111.81318139999996
+        }
+      },
+      {
+        "type": "way",
+        "id": 38093981,
+        "tags": {
+          "addr:city": "Riverdale",
+          "addr:country": "US",
+          "addr:housenumber": "4848",
+          "addr:postcode": "84405",
+          "addr:state": "UT",
+          "addr:street": "South 900 West",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "building:levels": "1",
+          "check_date": "2026-09-20",
+          "check_date:opening_hours": "2026-09-20",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-627-0066",
+          "ref": "1708",
+          "ref:walmart": "1708",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/1708-riverdale-ut",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 41.175906049999995,
+          "lon": -111.99870494999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 38452034,
+        "tags": {
+          "addr:city": "West Valley City",
+          "addr:country": "US",
+          "addr:housenumber": "5675",
+          "addr:postcode": "84118",
+          "addr:state": "UT",
+          "addr:street": "West 6200 South",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "fixme:atp": "check if location still exists; no corresponding ATP location found",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-23:30",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-965-0125",
+          "ref:walmart": "5233",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/5233/west-valley%20city-ut/whats-new"
+        },
+        "center": {
+          "lat": 40.6356555,
+          "lon": -112.02643239999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 38576088,
+        "tags": {
+          "addr:city": "West Jordan",
+          "addr:country": "US",
+          "addr:housenumber": "7671",
+          "addr:postcode": "84084",
+          "addr:state": "UT",
+          "addr:street": "South 3800 West",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 05:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-282-4066",
+          "ref": "3232",
+          "ref:walmart": "3232",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source:name": "local_knowledge",
+          "website": "https://www.walmart.com/store/3232-west-jordan-ut"
+        },
+        "center": {
+          "lat": 40.61131935,
+          "lon": -111.97794720000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 38620962,
+        "tags": {
+          "addr:city": "Springville",
+          "addr:country": "US",
+          "addr:housenumber": "660",
+          "addr:postcode": "84663",
+          "addr:state": "UT",
+          "addr:street": "South 1750 West",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-489-6293",
+          "ref:walmart": "3208",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/3208-springville-ut"
+        },
+        "center": {
+          "lat": 40.1573139,
+          "lon": -111.64443740000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 38624366,
+        "tags": {
+          "addr:city": "West Valley City",
+          "addr:country": "US",
+          "addr:full": "4570 S 4000 W",
+          "addr:housenumber": "4570",
+          "addr:postcode": "84120",
+          "addr:state": "UT",
+          "addr:street": "South 4000 West",
+          "brand": "Walmart",
+          "brand:wikidata": "Q7963529",
+          "building": "retail",
+          "check_date": "2026-08-13",
+          "check_date:opening_hours": "2026-08-13",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "operator:wikipedia": "en:Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1-801-969-1105",
+          "ref:walmart": "5109",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/5109-west-valley%20city-ut"
+        },
+        "center": {
+          "lat": 40.670609400000004,
+          "lon": -111.98904525
+        }
+      },
+      {
+        "type": "way",
+        "id": 39180917,
+        "tags": {
+          "addr:city": "Taylorsville",
+          "addr:country": "US",
+          "addr:housenumber": "5469",
+          "addr:postcode": "84123",
+          "addr:state": "UT",
+          "addr:street": "South Redwood Road",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 05:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-264-9666",
+          "ref": "1686",
+          "ref:walmart": "1686",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/1686-taylorsville-ut"
+        },
+        "center": {
+          "lat": 40.650396799999996,
+          "lon": -111.9368791
+        }
+      },
+      {
+        "type": "way",
+        "id": 39947471,
+        "tags": {
+          "addr:city": "Sandy",
+          "addr:country": "US",
+          "addr:housenumber": "9151",
+          "addr:postcode": "84094",
+          "addr:state": "UT",
+          "addr:street": "Quarry Stone Way",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Sa 06:00-23:30;Su 06:00-23:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-352-4200",
+          "ref": "5235",
+          "ref:walmart": "5235",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/5235-sandy-ut"
+        },
+        "center": {
+          "lat": 40.58535165000001,
+          "lon": -111.85954175
+        }
+      },
+      {
+        "type": "way",
+        "id": 40047894,
+        "tags": {
+          "addr:city": "Midvale",
+          "addr:country": "US",
+          "addr:housenumber": "7250",
+          "addr:postcode": "84047",
+          "addr:state": "UT",
+          "addr:street": "Union Park Avenue",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "check_date:opening_hours": "2023-12-02",
+          "internet_access": "wlan",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-255-0224",
+          "ref": "2207",
+          "ref:walmart": "2207",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/2207-midvale-ut"
+        },
+        "center": {
+          "lat": 40.61945815,
+          "lon": -111.85839550000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 40606844,
+        "tags": {
+          "addr:city": "Harrisville",
+          "addr:country": "US",
+          "addr:housenumber": "534",
+          "addr:postcode": "84404",
+          "addr:state": "UT",
+          "addr:street": "North Harrisville Road",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-737-0092",
+          "ref": "2921",
+          "ref:walmart": "2921",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "Yahoo",
+          "website": "https://www.walmart.com/store/2921/harrisville-ut"
+        },
+        "center": {
+          "lat": 41.269524450000006,
+          "lon": -111.97290674999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 41452284,
+        "tags": {
+          "addr:city": "South Jordan",
+          "addr:country": "US",
+          "addr:housenumber": "11328",
+          "addr:postcode": "84095",
+          "addr:state": "UT",
+          "addr:street": "South Jordan Gateway",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "internet_access": "wlan",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 05:00-24:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-553-2266",
+          "ref": "2307",
+          "ref:walmart": "2307",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/2307-south-jordan-ut"
+        },
+        "center": {
+          "lat": 40.5456781,
+          "lon": -111.90145749999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 51359639,
+        "tags": {
+          "addr:city": "South Ogden",
+          "addr:country": "US",
+          "addr:housenumber": "1710",
+          "addr:postcode": "84405",
+          "addr:state": "UT",
+          "addr:street": "East Skyline Drive",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-479-0366",
+          "ref": "5206",
+          "ref:walmart": "5206",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/5206-south-ogden-ut",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 41.15220085,
+          "lon": -111.9385054
+        }
+      },
+      {
+        "type": "way",
+        "id": 53143204,
+        "tags": {
+          "addr:city": "Washington",
+          "addr:country": "US",
+          "addr:housenumber": "625",
+          "addr:postcode": "84780",
+          "addr:state": "UT",
+          "addr:street": "West Telegraph Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "building:levels": "1",
+          "internet_access": "wlan",
+          "internet_access:fee": "no",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-628-2802",
+          "ref": "1439",
+          "ref:walmart": "1439",
+          "roof:levels": "0",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/1439-washington-ut"
+        },
+        "center": {
+          "lat": 37.1262681,
+          "lon": -113.51797755000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 78803079,
+        "tags": {
+          "addr:city": "Lindon",
+          "addr:country": "US",
+          "addr:housenumber": "585",
+          "addr:postcode": "84042",
+          "addr:state": "UT",
+          "addr:street": "North State Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-785-7683",
+          "ref": "5270",
+          "ref:walmart": "5270",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/5270-lindon-ut"
+        },
+        "center": {
+          "lat": 40.348458550000004,
+          "lon": -111.73170214999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 79583251,
+        "tags": {
+          "addr:city": "Perry",
+          "addr:housenumber": "1200",
+          "addr:postcode": "84302",
+          "addr:state": "UT",
+          "addr:street": "South Commerce Way",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "building:levels": "1",
+          "name": "Walmart Supercenter",
+          "opening_hours": "06:00-23:00",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-734-9660",
+          "ref": "3454",
+          "roof:levels": "0",
+          "roof:shape": "flat",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "Yahoo",
+          "website": "https://www.walmart.com/store/3454-perry-ut"
+        },
+        "center": {
+          "lat": 41.48401045,
+          "lon": -112.03017985000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 81024470,
+        "tags": {
+          "addr:city": "Saint George",
+          "addr:housenumber": "2610",
+          "addr:postcode": "84790",
+          "addr:state": "UT",
+          "addr:street": "Pioneer Road",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "building:levels": "1",
+          "name": "Walmart Supercenter",
+          "opening_hours": "06:00-23:00",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-674-0459",
+          "ref": "3220",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/3220-st-george-ut"
+        },
+        "center": {
+          "lat": 37.063608599999995,
+          "lon": -113.58740584999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 81549188,
+        "tags": {
+          "addr:city": "American Fork",
+          "addr:country": "US",
+          "addr:housenumber": "949",
+          "addr:postcode": "84003",
+          "addr:state": "UT",
+          "addr:street": "West Grassland Drive",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "internet_access": "wlan",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-492-1102",
+          "ref": "2511",
+          "ref:walmart": "2511",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "Yahoo, survey",
+          "website": "https://www.walmart.com/store/2511-american-fork-ut"
+        },
+        "center": {
+          "lat": 40.3847451,
+          "lon": -111.82511435000004
+        }
+      },
+      {
+        "type": "way",
+        "id": 88606917,
+        "tags": {
+          "addr:city": "Provo",
+          "addr:country": "US",
+          "addr:housenumber": "2255",
+          "addr:postcode": "84604",
+          "addr:state": "UT",
+          "addr:street": "North University Parkway",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 385-219-3070",
+          "ref": "4100",
+          "ref:walmart": "4100",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "bing, survey",
+          "website": "https://www.walmart.com/store/4100-provo-ut"
+        },
+        "center": {
+          "lat": 40.262878549999996,
+          "lon": -111.67005210000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 95124884,
+        "tags": {
+          "addr:city": "Saratoga Springs",
+          "addr:country": "US",
+          "addr:housenumber": "136",
+          "addr:postcode": "84045",
+          "addr:state": "UT",
+          "addr:street": "West Crossroads Boulevard",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-766-4272",
+          "ref": "4438",
+          "ref:walmart": "4438",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "survey",
+          "website": "https://www.walmart.com/store/4438-saratoga-springs-ut"
+        },
+        "center": {
+          "lat": 40.3895349,
+          "lon": -111.91972444999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 100075606,
+        "tags": {
+          "addr:city": "Cedar Hills",
+          "addr:country": "US",
+          "addr:housenumber": "4689",
+          "addr:postcode": "84062",
+          "addr:state": "UT",
+          "addr:street": "West Cedar Hills Drive",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-756-2372",
+          "ref": "4689",
+          "ref:walmart": "4689",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/4689-cedar-hills-ut"
+        },
+        "center": {
+          "lat": 40.41654705,
+          "lon": -111.77031145000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 123168326,
+        "tags": {
+          "addr:city": "Ogden",
+          "addr:country": "US",
+          "addr:housenumber": "1959",
+          "addr:postcode": "84401",
+          "addr:state": "UT",
+          "addr:street": "Wall Avenue",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-917-1026",
+          "ref": "3789",
+          "ref:walmart": "3789",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "survey",
+          "website": "https://www.walmart.com/store/3789-ogden-ut"
+        },
+        "center": {
+          "lat": 41.232157799999996,
+          "lon": -111.98120779999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 148059466,
+        "tags": {
+          "addr:city": "Murray",
+          "addr:country": "US",
+          "addr:housenumber": "4627",
+          "addr:postcode": "84117",
+          "addr:state": "UT",
+          "addr:street": "South 900 East",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "fixme:atp": "check if location still exists; no corresponding ATP location found",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 05:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-261-3695",
+          "ref:walmart": "5350",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/5350/salt-lake%20city-ut/whats-new"
+        },
+        "center": {
+          "lat": 40.6697706,
+          "lon": -111.86349380000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 157338869,
+        "tags": {
+          "addr:city": "Riverton",
+          "addr:country": "US",
+          "addr:housenumber": "13502",
+          "addr:postcode": "84065",
+          "addr:state": "UT",
+          "addr:street": "South Hamilton View Road",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "commercial",
+          "building:levels": "1",
+          "name": "Walmart Supercenter",
+          "name:en": "Walmart Supercenter",
+          "name:zh": "沃尔玛 停车场",
+          "opening_hours": "Mo-Su 07:00-23:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-446-2981",
+          "ref": "3620",
+          "ref:walmart": "3620",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/3620/riverton-ut"
+        },
+        "center": {
+          "lat": 40.5051321,
+          "lon": -111.97763880000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 167034272,
+        "tags": {
+          "addr:city": "Cedar City",
+          "addr:country": "US",
+          "addr:housenumber": "1330",
+          "addr:postcode": "84720",
+          "addr:state": "UT",
+          "addr:street": "South Providence Center Drive",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "internet_access": "no",
+          "name": "Walmart Supercenter",
+          "opening_hours": "06:00-23:00",
+          "operator": "Walmart",
+          "organic": "yes",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:cards": "yes",
+          "payment:cash": "yes",
+          "payment:google_pay": "no",
+          "payment:qr_code": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-586-0172",
+          "ref": "1438",
+          "ref:walmart": "1438",
+          "self_checkout": "yes",
+          "self_checkout:handheld": "yes",
+          "self_checkout:self_scan": "no",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "Bing",
+          "website": "https://www.walmart.com/store/1438-cedar-city-ut"
+        },
+        "center": {
+          "lat": 37.65455925,
+          "lon": -113.08829000000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 169247508,
+        "tags": {
+          "addr:city": "Hurricane",
+          "addr:country": "US",
+          "addr:housenumber": "180",
+          "addr:postcode": "84737",
+          "addr:state": "UT",
+          "addr:street": "North 3400 West",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "building:levels": "1",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-635-6945",
+          "ref:walmart": "4678",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "source": "Bing",
+          "website": "https://www.walmart.com/store/4678-hurricane-ut",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 37.1726698,
+          "lon": -113.36461739999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 224422910,
+        "tags": {
+          "addr:city": "Ephraim",
+          "addr:country": "US",
+          "addr:housenumber": "777",
+          "addr:postcode": "84627",
+          "addr:state": "UT",
+          "addr:street": "North Main Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Sa 06:00-24:00;Su 08:00-22:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-283-8189",
+          "ref": "2794",
+          "ref:walmart": "2794",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/2794-ephraim-ut"
+        },
+        "center": {
+          "lat": 39.37377325,
+          "lon": -111.58984090000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 226185027,
+        "tags": {
+          "addr:city": "North Logan",
+          "addr:country": "US",
+          "addr:housenumber": "1550",
+          "addr:postcode": "84341",
+          "addr:state": "UT",
+          "addr:street": "North Main Street",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "building:levels": "1",
+          "internet_access": "wlan",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-753-0880",
+          "ref": "1888",
+          "ref:walmart": "1888",
+          "roof:levels": "0",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "toilets": "yes",
+          "website": "https://www.walmart.com/store/1888-north-logan-ut",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 41.760314949999994,
+          "lon": -111.83035015000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 226670199,
+        "tags": {
+          "addr:city": "Park City",
+          "addr:country": "US",
+          "addr:housenumber": "6545",
+          "addr:postcode": "84098",
+          "addr:state": "UT",
+          "addr:street": "Landmark Drive",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-647-9909",
+          "ref": "1827",
+          "ref:walmart": "1827",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/1827-park-city-ut"
+        },
+        "center": {
+          "lat": 40.72602725,
+          "lon": -111.54930274999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 230766870,
+        "tags": {
+          "addr:city": "Draper",
+          "addr:country": "US",
+          "addr:housenumber": "1360",
+          "addr:postcode": "84020",
+          "addr:state": "UT",
+          "addr:street": "East Draper Parkway",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-816-0838",
+          "ref": "5110",
+          "ref:walmart": "5110",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/5110-draper-ut"
+        },
+        "center": {
+          "lat": 40.5266985,
+          "lon": -111.85247579999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 358562895,
+        "tags": {
+          "addr:city": "Logan",
+          "addr:country": "US",
+          "addr:housenumber": "1150",
+          "addr:postcode": "84321",
+          "addr:state": "UT",
+          "addr:street": "South 100 West",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-753-2111",
+          "ref": "4272",
+          "ref:walmart": "4272",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "toilets": "yes",
+          "website": "https://www.walmart.com/store/4272-logan-ut"
+        },
+        "center": {
+          "lat": 41.712052,
+          "lon": -111.83597070000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 397372031,
+        "tags": {
+          "addr:city": "Vernal",
+          "addr:country": "US",
+          "addr:housenumber": "1851",
+          "addr:postcode": "84078",
+          "addr:state": "UT",
+          "addr:street": "West Highway 40",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-789-9784",
+          "ref": "1572",
+          "ref:walmart": "1572",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/1572/vernal-ut"
+        },
+        "center": {
+          "lat": 40.43817765,
+          "lon": -109.56311985000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 442136541,
+        "tags": {
+          "addr:city": "South Jordan",
+          "addr:country": "US",
+          "addr:housenumber": "3590",
+          "addr:postcode": "84095",
+          "addr:state": "UT",
+          "addr:street": "South Jordan Parkway",
+          "addr:unit": "W",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-601-3098",
+          "ref": "5763",
+          "ref:walmart": "5763",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/5763/south-jordan-ut"
+        },
+        "center": {
+          "lat": 40.563096,
+          "lon": -111.97531755
+        }
+      },
+      {
+        "type": "way",
+        "id": 466226495,
+        "tags": {
+          "addr:city": "Payson",
+          "addr:country": "US",
+          "addr:housenumber": "1052",
+          "addr:postcode": "84651",
+          "addr:state": "UT",
+          "addr:street": "Turf Farm Road",
+          "air_conditioning": "yes",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "building:levels": "1",
+          "changing_table": "yes",
+          "check_date": "2026-09-25",
+          "currency:USD": "yes",
+          "internet_access": "wlan",
+          "internet_access:fee": "no",
+          "internet_access:ssid": "Walmartwifi",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "operator": "Walmart",
+          "organic": "yes",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:cash": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-465-8246",
+          "ref": "5167",
+          "ref:walmart": "5167",
+          "self_checkout": "yes",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "stroller": "yes",
+          "toilets": "yes",
+          "toilets:wheelchair": "yes",
+          "website": "https://www.walmart.com/store/5167-payson-ut",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.02773035,
+          "lon": -111.75663279999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 471922771,
+        "tags": {
+          "addr:city": "Tooele",
+          "addr:country": "US",
+          "addr:housenumber": "99",
+          "addr:postcode": "84074",
+          "addr:state": "UT",
+          "addr:street": "West 1280 North",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-882-0180",
+          "ref": "1440",
+          "ref:walmart": "1440",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/1440-tooele-ut"
+        },
+        "center": {
+          "lat": 40.5558836,
+          "lon": -112.30071199999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 483082461,
+        "tags": {
+          "addr:city": "Layton",
+          "addr:housenumber": "745",
+          "addr:postcode": "84041",
+          "addr:state": "UT",
+          "addr:street": "West Hill Field Road",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "check_date": "2025-04-16",
+          "height": "8",
+          "name": "Walmart Supercenter",
+          "opening_hours": "06:00-23:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-546-1992",
+          "ref": "1699",
+          "ref:walmart": "1699",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/1699-layton-ut"
+        },
+        "center": {
+          "lat": 41.0682989,
+          "lon": -111.97971704999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 547632074,
+        "tags": {
+          "addr:city": "Pleasant Grove",
+          "addr:country": "US",
+          "addr:housenumber": "1707",
+          "addr:postcode": "84062",
+          "addr:state": "UT",
+          "addr:street": "West State Street",
+          "brand": "Walmart Neighborhood Market",
+          "brand:wikidata": "Q7963529",
+          "building": "yes",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-216-0001",
+          "ref": "4700",
+          "ref:walmart": "4700",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/4700-pleasant-grove-ut"
+        },
+        "center": {
+          "lat": 40.36743365,
+          "lon": -111.7651755
+        }
+      },
+      {
+        "type": "way",
+        "id": 553852026,
+        "tags": {
+          "addr:city": "Richfield",
+          "addr:housenumber": "10",
+          "addr:postcode": "84701",
+          "addr:state": "UT",
+          "addr:street": "East 1300 South",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "check_date": "2026-08-06",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 07:00-23:00; Tu 06:00-23:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:cash": "yes",
+          "payment:cash:USD": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:electronic_purses": "yes",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-893-8164",
+          "ref": "5168",
+          "ref:walmart": "5168",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/5168-richfield-ut",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 38.748395099999996,
+          "lon": -112.08471329999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 595641789,
+        "tags": {
+          "addr:city": "Spanish Fork",
+          "addr:country": "US",
+          "addr:housenumber": "898",
+          "addr:postcode": "84660",
+          "addr:state": "UT",
+          "addr:street": "South 2550 East",
+          "brand": "Walmart Neighborhood Market",
+          "brand:wikidata": "Q7963529",
+          "building": "yes",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-504-9612",
+          "ref": "3988",
+          "ref:walmart": "3988",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/3988/spanish-fork-ut"
+        },
+        "center": {
+          "lat": 40.09800875,
+          "lon": -111.61410964999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 595641791,
+        "tags": {
+          "addr:city": "Spanish Fork",
+          "addr:postcode": "84660",
+          "addr:state": "UT",
+          "building": "yes",
+          "dog": "no",
+          "name": "Walmart Grab & Go",
+          "opening_hours": "05:00-22:00",
+          "shop": "convenience",
+          "smoking": "no",
+          "toilets": "yes",
+          "toilets:access": "yes",
+          "toilets:changing_table": "yes",
+          "toilets:unisex": "yes"
+        },
+        "center": {
+          "lat": 40.098979299999996,
+          "lon": -111.61339459999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 616844550,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:country": "US",
+          "addr:housenumber": "350",
+          "addr:postcode": "84115",
+          "addr:state": "UT",
+          "addr:street": "West Hope Avenue",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "check_date:opening_hours": "2023-06-15",
+          "contact:facebook": "https://www.facebook.com/Walmart3589/",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-484-7311",
+          "ref:walmart": "3589",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "utahagrc:parcelid": "15132010040000",
+          "website": "https://www.walmart.com/store/3589-salt-lake%20city-ut"
+        },
+        "center": {
+          "lat": 40.740823,
+          "lon": -111.90118354999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 677703925,
+        "tags": {
+          "addr:city": "Price",
+          "addr:country": "US",
+          "addr:housenumber": "255",
+          "addr:postcode": "84501",
+          "addr:state": "UT",
+          "addr:street": "South Highway 55",
+          "air_conditioning": "yes",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "building:levels": "1",
+          "changing_table": "yes",
+          "check_date": "2026-07-09",
+          "currency:USD": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "06:00-23:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:cash": "yes",
+          "payment:cash:USD": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:electronic_purses": "yes",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-637-6712",
+          "ref": "1573",
+          "ref:walmart": "1573",
+          "self_checkout": "yes",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "stroller": "yes",
+          "toilets": "yes",
+          "toilets:wheelchair": "yes",
+          "website": "https://www.walmart.com/store/1573-price-ut",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 39.5961863,
+          "lon": -110.78853564999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 724163158,
+        "tags": {
+          "addr:city": "Spanish Fork",
+          "addr:country": "US",
+          "addr:housenumber": "1206",
+          "addr:postcode": "84660",
+          "addr:state": "UT",
+          "addr:street": "North Canyon Creek Parkway",
+          "air_conditioning": "yes",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "retail",
+          "building:levels": "1",
+          "check_date": "2026-09-24",
+          "currency:USD": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:cash": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-804-3505",
+          "ref": "4068",
+          "ref:walmart": "4068",
+          "roof:shape": "flat",
+          "self_checkout": "yes",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "stroller": "yes",
+          "toilets": "yes",
+          "toilets:wheelchair": "yes",
+          "website": "https://www.walmart.com/store/4068-spanish-fork-ut",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.1238313,
+          "lon": -111.63880145000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 776328678,
+        "tags": {
+          "addr:city": "Herriman",
+          "addr:country": "US",
+          "addr:housenumber": "5056",
+          "addr:postcode": "84096",
+          "addr:state": "UT",
+          "addr:street": "West 13400 South",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-981-1675",
+          "ref": "7168",
+          "ref:walmart": "7168",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/7168-herriman-ut"
+        },
+        "center": {
+          "lat": 40.50917645,
+          "lon": -112.01149650000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 850658005,
+        "tags": {
+          "addr:city": "West Valley City",
+          "addr:housenumber": "3180",
+          "addr:postcode": "84120",
+          "addr:state": "UT",
+          "addr:street": "South 5600 West",
+          "building": "retail",
+          "building:levels": "1",
+          "name": "Walmart Convenience Store",
+          "operator": "Walmart",
+          "roof:shape": "flat",
+          "shop": "convenience"
+        },
+        "center": {
+          "lat": 40.7017436,
+          "lon": -112.0256149
+        }
+      },
+      {
+        "type": "way",
+        "id": 1014522460,
+        "tags": {
+          "addr:city": "Heber City",
+          "addr:country": "US",
+          "addr:housenumber": "1274",
+          "addr:postcode": "84032",
+          "addr:state": "UT",
+          "addr:street": "US Hwy 189",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "yes",
+          "name": "Walmart Supercenter",
+          "opening_hours": "24/7",
+          "operator": "Walmart",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 435-709-3015",
+          "ref": "4696",
+          "ref:walmart": "4696",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/4696-heber-city-ut"
+        },
+        "center": {
+          "lat": 40.4937624,
+          "lon": -111.41748480000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 1068072714,
+        "tags": {
+          "addr:city": "Magna",
+          "addr:country": "US",
+          "addr:housenumber": "3555",
+          "addr:postcode": "84044",
+          "addr:state": "UT",
+          "addr:street": "South 8400 West",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "commercial",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su,PH 06:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-601-2833",
+          "ref": "4706",
+          "ref:walmart": "4706",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/4706-magna-ut"
+        },
+        "center": {
+          "lat": 40.6949028,
+          "lon": -112.09001190000004
+        }
+      },
+      {
+        "type": "way",
+        "id": 1097113783,
+        "tags": {
+          "addr:city": "Riverton",
+          "addr:country": "US",
+          "addr:housenumber": "1202",
+          "addr:postcode": "84065",
+          "addr:state": "UT",
+          "addr:street": "West 12600 South",
+          "brand": "Walmart Neighborhood Market",
+          "brand:wikidata": "Q7963529",
+          "building": "yes",
+          "name": "Walmart Neighborhood Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "payment:app:walmart": "yes",
+          "payment:apple_pay": "no",
+          "payment:google_pay": "no",
+          "payment:samsung_pay": "no",
+          "phone": "+1 801-999-2794",
+          "ref": "7043",
+          "ref:walmart": "7043",
+          "sensory_friendly:accommodation": "dimmed_light;static_screens;no_pa",
+          "sensory_friendly:conditional": "yes @ 08:00-10:00",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/7043-riverton-ut"
+        },
+        "center": {
+          "lat": 40.523418899999996,
+          "lon": -111.92599695000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 1448484683,
+        "tags": {
+          "addr:city": "Eagle Mountain",
+          "addr:housenumber": "9399",
+          "addr:postcode": "84005",
+          "addr:state": "UT",
+          "addr:street": "North Spring Run Parkway",
+          "brand": "Walmart",
+          "brand:wikidata": "Q483551",
+          "building": "commercial",
+          "contact:facebook": "https://www.facebook.com/walmart1725",
+          "name": "Walmart Supercenter",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "phone": "+1 385-993-6007",
+          "shop": "supermarket",
+          "website": "https://www.walmart.com/store/1725-eagle-mountain-ut"
+        },
+        "center": {
+          "lat": 40.3827043,
+          "lon": -111.97761774999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 1458611642,
+        "tags": {
+          "building": "yes",
+          "name": "Walmart Grab & Go",
+          "operator": "Walmart",
+          "shop": "convenience"
+        },
+        "center": {
+          "lat": 41.7606465,
+          "lon": -111.8335103
+        }
+      }
+    ],
+    "target": [
+      {
+        "type": "node",
+        "id": 665715620,
+        "tags": {
+          "addr:city": "Saint George",
+          "addr:housenumber": "275",
+          "addr:postcode": "84790-2116",
+          "addr:state": "UT",
+          "addr:street": "South River Road",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "check_date": "2025-11-28",
+          "name": "Target",
+          "opening_hours": "Mo-Sa 08:00-23:00, Su 08:00-22:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+1 435-627-2030",
+          "shop": "department_store",
+          "toilets": "yes",
+          "website": "https://www.target.com/sl/st-george/1357",
+          "wheelchair": "yes"
+        },
+        "lat": 37.1030673,
+        "lon": -113.5543351
+      },
+      {
+        "type": "node",
+        "id": 2332670439,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "2236",
+          "addr:postcode": "84106-2898",
+          "addr:state": "UT",
+          "addr:street": "South 1300 East",
+          "addr:unit": "Suite D-1",
+          "branch": "Salt Lake City Sugar House",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "name": "Target",
+          "opening_hours": "Mo-Su 08:00-23:00",
+          "phone": "+1 385-419-3352",
+          "shop": "supermarket",
+          "website": "https://www.target.com/sl/salt-lake-city-sugar-house/3365",
+          "wheelchair": "yes"
+        },
+        "lat": 40.7222719,
+        "lon": -111.856127
+      },
+      {
+        "type": "node",
+        "id": 2335837467,
+        "tags": {
+          "addr:city": "Taylorsville",
+          "addr:housenumber": "5800",
+          "addr:postcode": "84123",
+          "addr:state": "UT",
+          "addr:street": "South Redwood Road",
+          "air_conditioning": "yes",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "check_date": "2026-08-13",
+          "name": "Target",
+          "opening_hours": "Mo-Fr 07:00-22:00; Sa-Su 08:00-22:00",
+          "phone": "+1 385-645-2478",
+          "shop": "department_store",
+          "stroller": "yes",
+          "website": "https://www.target.com/sl/taylorsville/3376",
+          "wheelchair": "yes"
+        },
+        "lat": 40.6462907,
+        "lon": -111.940106
+      },
+      {
+        "type": "node",
+        "id": 12035679428,
+        "tags": {
+          "addr:city": "Provo",
+          "addr:housenumber": "1290",
+          "addr:postcode": "84604-6432",
+          "addr:state": "UT",
+          "addr:street": "North State Street",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "name": "Target",
+          "opening_hours": "Mo-Sa 08:00-22:00; Su 10:00-22:00",
+          "phone": "+1 385-447-5020",
+          "shop": "department_store",
+          "website": "https://www.target.com/sl/provo-state-st-and-bulldog-blvd-ut/3316"
+        },
+        "lat": 40.2516488,
+        "lon": -111.6663329
+      },
+      {
+        "type": "way",
+        "id": 28767761,
+        "tags": {
+          "addr:city": "Orem",
+          "addr:housenumber": "175",
+          "addr:postcode": "84057-4607",
+          "addr:state": "UT",
+          "addr:street": "West Center Street",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "yes",
+          "name": "Target",
+          "opening_hours": "07:00-23:00",
+          "opening_hours:covid19": "Mo-Su 7:00-22:00",
+          "phone": "+1 801-224-6007",
+          "shop": "supermarket",
+          "source": "bing, knowledge",
+          "website": "https://www.target.com/sl/orem-state-street/1754"
+        },
+        "center": {
+          "lat": 40.295245949999995,
+          "lon": -111.6991013
+        }
+      },
+      {
+        "type": "way",
+        "id": 34686275,
+        "tags": {
+          "addr:city": "Centerville",
+          "addr:country": "US",
+          "addr:housenumber": "200",
+          "addr:postcode": "84014-1752",
+          "addr:state": "UT",
+          "addr:street": "Marketplace Drive",
+          "air_conditioning": "yes",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "retail",
+          "building:levels": "1",
+          "currency:USD": "yes",
+          "name": "Target",
+          "opening_hours": "07:00-22:00",
+          "payment:cash": "yes",
+          "payment:cheque": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+1 801-292-0071",
+          "shop": "department_store",
+          "source": "website",
+          "stroller": "yes",
+          "website": "https://www.target.com/sl/centerville/1750",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.918199900000005,
+          "lon": -111.8865525
+        }
+      },
+      {
+        "type": "way",
+        "id": 40048940,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "7025",
+          "addr:postcode": "84121-6619",
+          "addr:state": "UT",
+          "addr:street": "South Park Centre Drive",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "yes",
+          "name": "Target",
+          "opening_hours": "07:00-22:00",
+          "phone": "+1 801-255-2292",
+          "shop": "supermarket",
+          "website": "https://www.target.com/sl/fort-union/1751"
+        },
+        "center": {
+          "lat": 40.622966000000005,
+          "lon": -111.8495011
+        }
+      },
+      {
+        "type": "way",
+        "id": 81590843,
+        "tags": {
+          "addr:city": "American Fork",
+          "addr:housenumber": "608",
+          "addr:postcode": "84003",
+          "addr:state": "UT",
+          "addr:street": "West Main Street",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "retail",
+          "name": "Target",
+          "opening_hours": "08:00-23:00",
+          "phone": "+1 801-756-5449",
+          "shop": "department_store",
+          "website": "https://www.target.com/sl/american-fork/1814"
+        },
+        "center": {
+          "lat": 40.37888485,
+          "lon": -111.81589565000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 93627313,
+        "tags": {
+          "addr:city": "Provo",
+          "addr:housenumber": "1200",
+          "addr:postcode": "84601-5947",
+          "addr:state": "UT",
+          "addr:street": "Towne Centre Boulevard",
+          "addr:unit": "SPC A",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "retail",
+          "name": "Target",
+          "opening_hours": "Mo-Fr 08:00-22:00; Sa-Su 08:00-21:00",
+          "phone": "+1 385-447-5902",
+          "shop": "department_store",
+          "toilets": "yes",
+          "website": "https://www.target.com/sl/provo-towne-centre/2904"
+        },
+        "center": {
+          "lat": 40.21556355,
+          "lon": -111.66285054999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 108060182,
+        "tags": {
+          "addr:city": "South Jordan",
+          "addr:country": "US",
+          "addr:housenumber": "11525",
+          "addr:postcode": "84095",
+          "addr:state": "UT",
+          "addr:street": "South Parkway Plaza Drive",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "retail",
+          "name": "Target",
+          "opening_hours": "Mo-Su 08:00-22:00",
+          "phone": "+1-801-316-2511",
+          "shop": "department_store",
+          "source": "website",
+          "website": "https://www.target.com/sl/south-jordan/2123",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.5419797,
+          "lon": -111.97753245000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 117998076,
+        "tags": {
+          "addr:city": "Riverdale",
+          "addr:housenumber": "1135",
+          "addr:postcode": "84405-3722",
+          "addr:state": "UT",
+          "addr:street": "West Riverdale Road",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "yes",
+          "building:levels": "1",
+          "name": "Target",
+          "opening_hours": "08:00-22:00",
+          "phone": "+1 801-392-1990",
+          "shop": "department_store",
+          "website": "https://www.target.com/sl/riverdale/1753"
+        },
+        "center": {
+          "lat": 41.1732396,
+          "lon": -112.00682185
+        }
+      },
+      {
+        "type": "way",
+        "id": 227891753,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "1110",
+          "addr:postcode": "84101-3053",
+          "addr:state": "UT",
+          "addr:street": "South 300 West",
+          "branch": "Salt Lake City",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "commercial",
+          "name": "Target",
+          "opening_hours": "Mo-Su 07:00-23:00",
+          "operator": "Target",
+          "phone": "+1-801-401-9562",
+          "shop": "supermarket",
+          "website": "https://www.target.com/sl/salt-lake-city/2641"
+        },
+        "center": {
+          "lat": 40.7445516,
+          "lon": -111.9022789
+        }
+      },
+      {
+        "type": "way",
+        "id": 315395615,
+        "tags": {
+          "addr:city": "West Jordan",
+          "addr:housenumber": "7779",
+          "addr:postcode": "84084-1975",
+          "addr:state": "UT",
+          "addr:street": "South Jordan Landing Boulevard",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "yes",
+          "name": "Target",
+          "opening_hours": "08:00-23:00",
+          "phone": "+1 801-316-0049",
+          "shop": "department_store",
+          "toilets": "yes",
+          "website": "https://www.target.com/sl/west-jordan-sw/2150"
+        },
+        "center": {
+          "lat": 40.610273,
+          "lon": -111.98355145
+        }
+      },
+      {
+        "type": "way",
+        "id": 465430354,
+        "tags": {
+          "addr:city": "Sandy",
+          "addr:housenumber": "10130",
+          "addr:postcode": "84070-4118",
+          "addr:state": "UT",
+          "addr:street": "South State Street",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "yes",
+          "name": "Target",
+          "opening_hours": "07:00-22:00",
+          "phone": "+1 801-255-3301",
+          "shop": "department_store",
+          "website": "https://www.target.com/sl/sandy-south-towne/1752"
+        },
+        "center": {
+          "lat": 40.56721265,
+          "lon": -111.89364520000004
+        }
+      },
+      {
+        "type": "way",
+        "id": 483508751,
+        "tags": {
+          "addr:city": "Layton",
+          "addr:housenumber": "815",
+          "addr:postcode": "84041",
+          "addr:state": "UT",
+          "addr:street": "West Antelope Drive",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "commercial",
+          "check_date": "2025-05-31",
+          "description": "Retail chain offering home goods, clothing, electronics & more, plus exclusive designer collections.",
+          "height": "9",
+          "name": "Target",
+          "opening_hours": "07:00-23:00",
+          "operator": "Target Corporation",
+          "phone": "+1-801-773-0287",
+          "shop": "department_store",
+          "website": "https://www.target.com/sl/layton-supertarget-store/1755",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 41.0876526,
+          "lon": -111.98045360000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 1094505841,
+        "tags": {
+          "addr:city": "West Valley City",
+          "addr:country": "US",
+          "addr:housenumber": "5518",
+          "addr:postcode": "84120",
+          "addr:state": "UT",
+          "addr:street": "West High Market Drive",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "retail",
+          "check_date:opening_hours": "2025-07-30",
+          "name": "Target",
+          "opening_hours": "Mo-Su 08:00-23:00",
+          "phone": "+1-801-449-8022",
+          "shop": "department_store",
+          "source": "website",
+          "website": "https://www.target.com/sl/west-valley-city/2609"
+        },
+        "center": {
+          "lat": 40.71432085,
+          "lon": -112.02295915000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 1203818603,
+        "tags": {
+          "addr:city": "Spanish Fork",
+          "addr:housenumber": "900",
+          "addr:postcode": "84660-1300",
+          "addr:state": "UT",
+          "addr:street": "Expressway Lane",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "commercial",
+          "construction": "commercial",
+          "name": "Target",
+          "opening_hours": "08:00-22:00",
+          "phone": "+1 385-448-3384",
+          "shop": "department_store",
+          "toilets": "yes",
+          "website": "https://www.target.com/sl/spanish-fork/2898"
+        },
+        "center": {
+          "lat": 40.12209625,
+          "lon": -111.6392563
+        }
+      },
+      {
+        "type": "way",
+        "id": 1311289445,
+        "tags": {
+          "addr:city": "Logan",
+          "addr:housenumber": "1350",
+          "addr:postcode": "84341",
+          "addr:state": "UT",
+          "addr:street": "North Main Street",
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "commercial",
+          "name": "Target",
+          "opening_date": "2026-07-26",
+          "opening_hours": "Mo-Su 07:00-22:00",
+          "phone": "+1 435 754 3622",
+          "shop": "department_store"
+        },
+        "center": {
+          "lat": 41.7563319,
+          "lon": -111.83153600000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 1493198240,
+        "tags": {
+          "brand": "Target",
+          "brand:wikidata": "Q1046951",
+          "building": "construction",
+          "name": "Target",
+          "shop": "supermarket"
+        },
+        "center": {
+          "lat": 41.308839,
+          "lon": -112.02237130000003
+        }
+      }
+    ],
+    "costco": [
+      {
+        "type": "way",
+        "id": 27824243,
+        "tags": {
+          "addr:city": "Ogden",
+          "addr:housenumber": "3656",
+          "addr:postcode": "84405",
+          "addr:state": "UT",
+          "addr:street": "Wall Avenue",
+          "branch": "South Ogden",
+          "brand": "Costco",
+          "brand:wikidata": "Q715583",
+          "building": "yes",
+          "level": "1",
+          "membership": "required",
+          "name": "Costco",
+          "opening_hours": "Mo-Fr 10:00-20:30; Sa 09:30-18:00; Su 10:00-18:00",
+          "phone": "+1 801-317-3953",
+          "ref": "770",
+          "shop": "wholesale",
+          "website": "https://www.costco.com/warehouse-locations/ogden-UT-770.html",
+          "wholesale": "yes"
+        },
+        "center": {
+          "lat": 41.196929749999995,
+          "lon": -111.97754914999996
+        }
+      },
+      {
+        "type": "way",
+        "id": 34687093,
+        "tags": {
+          "addr:city": "Bountiful",
+          "addr:housenumber": "573",
+          "addr:postcode": "84010",
+          "addr:state": "UT",
+          "addr:street": "West 100 North",
+          "branch": "Bountiful",
+          "brand": "Costco",
+          "brand:wikidata": "Q715583",
+          "building": "retail",
+          "name": "Costco",
+          "opening_hours": "Mo-Fr 10:00-20:30; Sa 09:30-18:00; Su 10:00-18:00",
+          "operator": "Costco",
+          "phone": "+1 801-299-3940",
+          "ref": "735",
+          "shop": "wholesale",
+          "website": "https://www.costco.com/warehouse-locations/bountiful-west-bountiful-ut-735.html",
+          "wholesale": "supermarket"
+        },
+        "center": {
+          "lat": 40.889373649999996,
+          "lon": -111.89520534999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 35927137,
+        "tags": {
+          "addr:city": "Murray",
+          "addr:housenumber": "5201",
+          "addr:postcode": "84107",
+          "addr:state": "UT",
+          "addr:street": "South Intermountain Drive",
+          "branch": "Murray",
+          "brand": "Costco",
+          "brand:wikidata": "Q715583",
+          "building": "retail",
+          "name": "Costco",
+          "opening_hours": "Mo-Fr 10:00-20:30; Sa 09:30-18:00; Su 10:00-18:00",
+          "operator": "Costco",
+          "phone": "+1 801-290-4200",
+          "ref": "764",
+          "shop": "wholesale",
+          "website": "https://www.costco.com/warehouse-locations/murray-ut-764.html"
+        },
+        "center": {
+          "lat": 40.6571362,
+          "lon": -111.88938810000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 36381155,
+        "tags": {
+          "addr:city": "Orem",
+          "addr:housenumber": "648",
+          "addr:postcode": "84097",
+          "addr:state": "UT",
+          "addr:street": "East 800 South",
+          "branch": "Orem",
+          "brand": "Costco",
+          "brand:wikidata": "Q715583",
+          "building": "yes",
+          "name": "Costco",
+          "opening_hours": "Mo-Fr 10:00-20:30; Sa 09:30-18:00; Su 10:00-18:00",
+          "operator": "Costco",
+          "phone": "+1 801-851-5003",
+          "ref": "484",
+          "shop": "wholesale",
+          "website": "https://www.costco.com/warehouse-locations/orem-ut-484.html"
+        },
+        "center": {
+          "lat": 40.279960700000004,
+          "lon": -111.680455
+        }
+      },
+      {
+        "type": "way",
+        "id": 36958177,
+        "tags": {
+          "addr:city": "Sandy",
+          "addr:housenumber": "11100",
+          "addr:postcode": "84070",
+          "addr:state": "UT",
+          "addr:street": "Auto Mall Drive",
+          "branch": "Sandy",
+          "brand": "Costco",
+          "brand:wikidata": "Q715583",
+          "building": "yes",
+          "name": "Costco",
+          "opening_hours": "Mo-Fr 10:00-20:30; Sa 09:30-18:00; Su 10:00-18:00",
+          "operator": "Costco",
+          "phone": "+1 801-790-0003",
+          "ref": "487",
+          "shop": "wholesale",
+          "website": "https://www.costco.com/warehouse-locations/sandy-ut-487.html"
+        },
+        "center": {
+          "lat": 40.55047585,
+          "lon": -111.89474109999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 40789328,
+        "tags": {
+          "addr:city": "Saint George",
+          "addr:housenumber": "835",
+          "addr:postcode": "84790",
+          "addr:state": "UT",
+          "addr:street": "North 3050 East",
+          "branch": "Saint George",
+          "brand": "Costco",
+          "brand:wikidata": "Q715583",
+          "building": "yes",
+          "name": "Costco",
+          "opening_hours": "Mo-Fr 10:00-20:30; Sa 09:30-19:00; Su 10:00-18:00",
+          "operator": "Costco",
+          "phone": "+1 435-256-0003",
+          "ref": "672",
+          "shop": "wholesale",
+          "website": "https://www.costco.com/warehouse-locations/st-george-saint-george-ut-672.html"
+        },
+        "center": {
+          "lat": 37.12271535,
+          "lon": -113.52342095
+        }
+      },
+      {
+        "type": "way",
+        "id": 81551110,
+        "tags": {
+          "addr:city": "Lehi",
+          "addr:housenumber": "198",
+          "addr:postcode": "84043",
+          "addr:state": "UT",
+          "addr:street": "North 1200 East",
+          "branch": "Lehi",
+          "brand": "Costco",
+          "brand:wikidata": "Q715583",
+          "building": "yes",
+          "name": "Costco",
+          "opening_hours": "Mo-Fr 10:00-20:30; Sa 09:30-18:00; Su 10:00-18:00",
+          "operator": "Costco",
+          "phone": "+1 801-653-2700",
+          "ref": "733",
+          "shop": "wholesale",
+          "website": "https://www.costco.com/warehouse-locations/lehi-ut-733.html"
+        },
+        "center": {
+          "lat": 40.38994085,
+          "lon": -111.8232643
+        }
+      },
+      {
+        "type": "way",
+        "id": 197472411,
+        "tags": {
+          "addr:city": "West Valley City",
+          "addr:housenumber": "3747",
+          "addr:postcode": "84119",
+          "addr:state": "UT",
+          "addr:street": "South Constitution Boulevard",
+          "air_conditioning": "yes",
+          "branch": "West Valley",
+          "brand": "Costco",
+          "brand:wikidata": "Q715583",
+          "building": "retail",
+          "building:levels": "1",
+          "membership": "required",
+          "name": "Costco",
+          "opening_hours": "Mo-Fr 10:00-20:30; Sa 09:30-19:00; Su 10:00-18:00",
+          "operator": "Costco",
+          "phone": "+1 801-996-9008",
+          "ref": "622",
+          "shop": "wholesale",
+          "stroller": "yes",
+          "website": "https://www.costco.com/warehouse-locations/west-valley-salt-lake-city-ut-622.html",
+          "wheelchair": "yes",
+          "wholesale": "general"
+        },
+        "center": {
+          "lat": 40.690108949999996,
+          "lon": -111.95353955000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 613170434,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "1818",
+          "addr:postcode": "84115",
+          "addr:state": "UT",
+          "addr:street": "South 300 West",
+          "branch": "Salt Lake City",
+          "brand": "Costco",
+          "brand:wikidata": "Q715583",
+          "building": "retail",
+          "internet_access": "wlan",
+          "name": "Costco",
+          "opening_hours": "Mo-Fr 08:00-20:30; Sa 08:00-18:00; Su 10:00-18:00",
+          "operator": "Costco",
+          "payment:credit_cards": "yes",
+          "phone": "+1 801-485-9715",
+          "ref": "113",
+          "shop": "wholesale",
+          "utahagrc:parcelid": "15133260640000",
+          "website": "https://www.costco.com/warehouse-locations/salt-lake-city-ut-113.html",
+          "wheelchair": "yes",
+          "wholesale": "general"
+        },
+        "center": {
+          "lat": 40.7314921,
+          "lon": -111.90092675
+        }
+      },
+      {
+        "type": "way",
+        "id": 633787035,
+        "tags": {
+          "addr:city": "South Jordan",
+          "addr:housenumber": "3571",
+          "addr:postcode": "84009",
+          "addr:state": "UT",
+          "addr:street": "West South Jordan Parkway",
+          "branch": "South Jordan",
+          "brand": "Costco",
+          "brand:wikidata": "Q715583",
+          "building": "retail",
+          "name": "Costco",
+          "opening_hours": "Mo-Fr 10:00-20:30; Sa 09:30-18:00; Su 10:00-18:00",
+          "operator": "Costco",
+          "phone": "+1 801-523-5287",
+          "ref": "1019",
+          "shop": "wholesale",
+          "website": "https://www.costco.com/warehouse-locations/south-jordan-ut-1019.html"
+        },
+        "center": {
+          "lat": 40.559455299999996,
+          "lon": -111.97595905000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 724163159,
+        "tags": {
+          "addr:city": "Spanish Fork",
+          "addr:housenumber": "273",
+          "addr:postcode": "84660",
+          "addr:state": "UT",
+          "addr:street": "East 1000 North",
+          "branch": "Spanish Fork",
+          "brand": "Costco",
+          "brand:wikidata": "Q715583",
+          "building": "yes",
+          "name": "Costco",
+          "opening_hours": "Mo-Fr 10:00-20:30; Sa 09:30-18:00; Su 10:00-18:00",
+          "operator": "Costco",
+          "phone": "+1 801-504-9530",
+          "ref": "1118",
+          "roof:shape": "flat",
+          "shop": "wholesale",
+          "website": "https://www.costco.com/warehouse-locations/spanish-fork-ut-1118.html"
+        },
+        "center": {
+          "lat": 40.124517850000004,
+          "lon": -111.64972245000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 891717132,
+        "tags": {
+          "addr:city": "Saratoga Springs",
+          "addr:housenumber": "1083",
+          "addr:postcode": "84045",
+          "addr:state": "UT",
+          "addr:street": "North Redwood Road",
+          "branch": "Saratoga Springs",
+          "brand": "Costco",
+          "brand:wikidata": "Q715583",
+          "building": "warehouse",
+          "name": "Costco",
+          "opening_hours": "Mo-Fr 10:00-20:30; Sa 09:30-19:00; Su 10:00-18:00",
+          "operator": "Costco",
+          "phone": "+1 801-407-4194",
+          "ref": "1383",
+          "shop": "wholesale",
+          "website": "https://www.costco.com/warehouse-locations/saratoga-springs-ut-1383.html",
+          "wholesale": "yes"
+        },
+        "center": {
+          "lat": 40.381806600000004,
+          "lon": -111.91936555000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 1079901959,
+        "tags": {
+          "addr:city": "Riverton",
+          "addr:housenumber": "13126",
+          "addr:postcode": "84096",
+          "addr:state": "UT",
+          "addr:street": "South Eagles Flight Road",
+          "branch": "Riverton",
+          "brand": "Costco",
+          "brand:wikidata": "Q715583",
+          "building": "retail",
+          "name": "Costco",
+          "opening_hours": "Mo-Fr 10:00-20:30; Sa 09:30-18:00; Su 10:00-18:00",
+          "phone": "+1 385-855-7196",
+          "ref": "1441",
+          "shop": "wholesale",
+          "website": "https://www.costco.com/warehouse-locations/riverton-ut-1441.html"
+        },
+        "center": {
+          "lat": 40.5128191,
+          "lon": -112.0025981
+        }
+      },
+      {
+        "type": "way",
+        "id": 1119061475,
+        "tags": {
+          "addr:city": "Logan",
+          "addr:country": "US",
+          "addr:housenumber": "1160",
+          "addr:postcode": "84321",
+          "addr:state": "UT",
+          "addr:street": "North 1000 West",
+          "branch": "Logan",
+          "brand": "Costco",
+          "brand:wikidata": "Q715583",
+          "building": "yes",
+          "name": "Costco",
+          "opening_hours": "Mo-Fr 10:00-20:30; Sa 09:30-19:00; Su 10:00-18:00",
+          "phone": "+1 435-915-4214",
+          "ref": "1633",
+          "shop": "wholesale",
+          "website": "https://www.costco.com/warehouse-locations/logan-ut-1633.html",
+          "wholesale": "yes"
+        },
+        "center": {
+          "lat": 41.75315755,
+          "lon": -111.85686929999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 1508429914,
+        "tags": {
+          "addr:city": "Syracuse",
+          "addr:housenumber": "3151",
+          "addr:postcode": "84075",
+          "addr:state": "UT",
+          "addr:street": "West 1700 SOUTH",
+          "brand": "Costco",
+          "brand:wikidata": "Q715583",
+          "building": "yes",
+          "membership": "required",
+          "name": "Costco",
+          "opening_hours": "Mo-Fr 09:00-20:30; Sa 09:00-19:00; Su 09:00-18:00",
+          "phone": "+1-801-416-2072",
+          "shop": "wholesale",
+          "website": "https://www.costco.com/w/-/ut/syracuse/1796"
+        },
+        "center": {
+          "lat": 41.086844049999996,
+          "lon": -112.08717509999997
+        }
+      }
+    ],
+    "sams_club": [
+      {
+        "type": "way",
+        "id": 28240425,
+        "tags": {
+          "addr:city": "Riverdale",
+          "addr:housenumber": "4949",
+          "addr:postcode": "84405",
+          "addr:state": "UT",
+          "addr:street": "South 900 West",
+          "brand": "Sam's Club",
+          "brand:wikidata": "Q1972120",
+          "building": "yes",
+          "building:levels": "1",
+          "name": "Sam's Club",
+          "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:00-20:00; Su 10:00-18:00",
+          "phone": "+1 801-612-3465",
+          "ref": "6684",
+          "shop": "wholesale",
+          "website": "https://www.samsclub.com/club/riverdale-ut-sams-club/6684"
+        },
+        "center": {
+          "lat": 41.17321405,
+          "lon": -112.00102559999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 32829701,
+        "tags": {
+          "addr:city": "Layton",
+          "addr:housenumber": "1055",
+          "addr:postcode": "84041",
+          "addr:state": "UT",
+          "addr:street": "West Hill Field Road",
+          "brand": "Sam's Club",
+          "brand:wikidata": "Q1972120",
+          "building": "yes",
+          "check_date": "2025-06-01",
+          "height": "10",
+          "name": "Sam's Club",
+          "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:00-20:00; Su 10:00-18:00",
+          "phone": "+1 801-546-5206",
+          "ref": "6682",
+          "shop": "wholesale",
+          "source": "survey",
+          "website": "https://www.samsclub.com/club/layton-ut-sams-club/6682"
+        },
+        "center": {
+          "lat": 41.0710967,
+          "lon": -111.98457589999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 37863098,
+        "tags": {
+          "addr:city": "Murray",
+          "addr:housenumber": "6525",
+          "addr:postcode": "84107",
+          "addr:state": "UT",
+          "addr:street": "South State Street",
+          "brand": "Sam's Club",
+          "brand:wikidata": "Q1972120",
+          "building": "retail",
+          "name": "Sam's Club",
+          "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:00-20:00; Su 10:00-18:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "phone": "+1 801-262-6444",
+          "ref": "6683",
+          "shop": "wholesale",
+          "website": "https://www.samsclub.com/club/6683-murray-ut",
+          "wholesale": "general"
+        },
+        "center": {
+          "lat": 40.630355949999995,
+          "lon": -111.88647950000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 39251322,
+        "tags": {
+          "addr:city": "Provo",
+          "addr:housenumber": "1313",
+          "addr:postcode": "84601",
+          "addr:state": "UT",
+          "addr:street": "South University Avenue",
+          "brand": "Sam's Club",
+          "brand:wikidata": "Q1972120",
+          "building": "yes",
+          "membership": "required",
+          "name": "Sam's Club",
+          "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:00-20:00; Su 10:00-18:00",
+          "phone": "+1 801-374-9700",
+          "ref": "6685",
+          "shop": "wholesale",
+          "website": "https://www.samsclub.com/club/provo-ut-sams-club/6685"
+        },
+        "center": {
+          "lat": 40.21614425,
+          "lon": -111.65699425000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 226185024,
+        "tags": {
+          "addr:city": "Logan",
+          "addr:country": "US",
+          "addr:housenumber": "145",
+          "addr:postcode": "84341",
+          "addr:state": "UT",
+          "addr:street": "West Cache Valley Boulevard",
+          "brand": "Sam's Club",
+          "brand:wikidata": "Q1972120",
+          "building": "yes",
+          "name": "Sam's Club",
+          "opening_hours": "Mo-Fr 10:00-20:00; Sa 10:00-20:00; Su 10:00-18:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "phone": "+1 435-787-0063",
+          "ref": "4786",
+          "shop": "wholesale",
+          "website": "https://www.samsclub.com/club/logan-ut-sams-club/4786"
+        },
+        "center": {
+          "lat": 41.75489745,
+          "lon": -111.83831399999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 315395624,
+        "tags": {
+          "addr:city": "West Jordan",
+          "addr:housenumber": "7571",
+          "addr:postcode": "84084",
+          "addr:state": "UT",
+          "addr:street": "South Campus View Drive",
+          "brand": "Sam's Club",
+          "brand:wikidata": "Q1972120",
+          "building": "retail",
+          "name": "Sam's Club",
+          "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:00-20:00; Su 10:00-18:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "phone": "+1 801-282-5600",
+          "ref": "4730",
+          "shop": "wholesale",
+          "website": "https://www.samsclub.com/club/west-jordan-ut-sams-club/4730"
+        },
+        "center": {
+          "lat": 40.61340575,
+          "lon": -111.97796449999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 465517049,
+        "tags": {
+          "addr:city": "South Jordan",
+          "addr:housenumber": "11278 S",
+          "addr:postcode": "84095",
+          "addr:state": "UT",
+          "addr:street": "South Jordan Gateway",
+          "brand": "Sam's Club",
+          "brand:wikidata": "Q1972120",
+          "building": "yes",
+          "name": "Sam's Club",
+          "opening_hours": "Mo-Fr 10:00-20:30; Sa 09:00-20:30; Su 10:00-18:00",
+          "phone": "+1 801-545-9801",
+          "ref": "4718",
+          "shop": "wholesale",
+          "website": "https://www.samsclub.com/club/south-jordan-ut-sams-club/4718"
+        },
+        "center": {
+          "lat": 40.5473169,
+          "lon": -111.90142980000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 613170178,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "1905",
+          "addr:postcode": "84115",
+          "addr:state": "UT",
+          "addr:street": "South 300 West",
+          "branch": "Salt Lake City",
+          "brand": "Sam's Club",
+          "brand:wikidata": "Q1972120",
+          "building": "commercial",
+          "check_date": "2025-10-12",
+          "name": "Sam's Club",
+          "opening_hours": "Mo-Su 09:00-20:00",
+          "operator": "Walmart",
+          "operator:wikidata": "Q483551",
+          "phone": "+1 801-478-2400",
+          "ref": "6686",
+          "shop": "wholesale",
+          "utahagrc:parcelid": "15134530170000",
+          "website": "https://www.samsclub.com/club/salt-lakhttps://www.samsclub.com/club/6686-salt-lake-city-ut",
+          "wholesale": "general"
+        },
+        "center": {
+          "lat": 40.729162450000004,
+          "lon": -111.89781004999998
+        }
+      }
+    ],
+    "bjs_wholesale": [],
+    "kroger": [],
+    "ralphs": [],
+    "frys": [],
+    "king_soopers": [],
+    "fred_meyer": [],
+    "smiths": [
+      {
+        "type": "node",
+        "id": 424578121,
+        "tags": {
+          "addr:city": "Logan",
+          "addr:housenumber": "442",
+          "addr:postcode": "84321",
+          "addr:state": "UT",
+          "addr:street": "North 175 East",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "check_date": "2026-10-04",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-00:00",
+          "operator": "Smith's",
+          "phone": "+1 435-753-6840",
+          "ref": "7060008709",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/logan/442-no-175-e-logan-ut/706/00087",
+          "wheelchair": "yes"
+        },
+        "lat": 41.7397145,
+        "lon": -111.8302279
+      },
+      {
+        "type": "node",
+        "id": 509040436,
+        "tags": {
+          "addr:city": "North Ogden",
+          "addr:housenumber": "2434",
+          "addr:postcode": "84414",
+          "addr:state": "UT",
+          "addr:street": "North 400 East",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "name": "Smith's Marketplace",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-917-1492",
+          "ref": "70600279",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/north-ogden/smiths-marketplace/706/00279",
+          "wheelchair": "yes"
+        },
+        "lat": 41.3029473,
+        "lon": -111.9663712
+      },
+      {
+        "type": "node",
+        "id": 687891915,
+        "tags": {
+          "addr:city": "Magna",
+          "addr:housenumber": "8055",
+          "addr:postcode": "84044",
+          "addr:state": "UT",
+          "addr:street": "West 3500 South",
+          "branch": "West Bench Plaza",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-250-6400",
+          "ref": "7060006509",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/magna/west-bench-plaza/706/00065"
+        },
+        "lat": 40.6953616,
+        "lon": -112.083719
+      },
+      {
+        "type": "node",
+        "id": 1676243818,
+        "tags": {
+          "addr:city": "Sandy",
+          "addr:housenumber": "2039",
+          "addr:postcode": "84093",
+          "addr:state": "UT",
+          "addr:street": "East 9400 South",
+          "branch": "Grocery Store",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-942-2332",
+          "ref": "70600047",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/sandy/2039-e-9400-so-sandy-ut/706/00047"
+        },
+        "lat": 40.581957,
+        "lon": -111.832761
+      },
+      {
+        "type": "node",
+        "id": 2326325760,
+        "tags": {
+          "addr:city": "Midvale",
+          "addr:housenumber": "980",
+          "addr:postcode": "84047",
+          "addr:state": "UT",
+          "addr:street": "East Fort Union Boulevard",
+          "branch": "Family Center At Fort Union",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "check_date": "2025-03-11",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "06:00-24:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+1 801-256-0532",
+          "ref": "7060008509",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/midvale/family-center-at-fort-union/706/00085",
+          "wheelchair": "yes"
+        },
+        "lat": 40.6215687,
+        "lon": -111.8637466
+      },
+      {
+        "type": "node",
+        "id": 2765913482,
+        "tags": {
+          "addr:city": "Murray",
+          "addr:housenumber": "665",
+          "addr:postcode": "84123",
+          "addr:state": "UT",
+          "addr:street": "West 5300 South",
+          "branch": "Riverview Properties",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-269-0056",
+          "ref": "70600083",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/murray/riverview-properties/706/00083",
+          "wheelchair": "yes"
+        },
+        "lat": 40.6526305,
+        "lon": -111.909154
+      },
+      {
+        "type": "node",
+        "id": 4003002263,
+        "tags": {
+          "addr:city": "Vernal",
+          "addr:housenumber": "1080",
+          "addr:postcode": "84078",
+          "addr:state": "UT",
+          "addr:street": "West Highway 40",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 435-781-0672",
+          "ref": "70600082",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/vernal/1080-w-hwy-40-vernal-ut/706/00082"
+        },
+        "lat": 40.4536414,
+        "lon": -109.5481145
+      },
+      {
+        "type": "node",
+        "id": 4209190477,
+        "tags": {
+          "addr:city": "Taylorsville",
+          "addr:housenumber": "4065",
+          "addr:postcode": "84123",
+          "addr:state": "UT",
+          "addr:street": "South Redwood Road",
+          "branch": "Smiths 4065 South Redwood Rdl Slc Ut",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "phone": "+1 801-972-2294",
+          "ref": "7060006609",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/salt-lake-city/smiths-4065-s-redwood-rdl-slc-ut/706/00066",
+          "wheelchair": "yes"
+        },
+        "lat": 40.6833089,
+        "lon": -111.937686
+      },
+      {
+        "type": "node",
+        "id": 4312100840,
+        "tags": {
+          "addr:city": "Ogden",
+          "addr:housenumber": "4275",
+          "addr:postcode": "84403",
+          "addr:state": "UT",
+          "addr:street": "Harrison Boulevard",
+          "branch": "Country Hills Plaza",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "check_date": "2023-03-11",
+          "ele": "4600 ft",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "06:00-23:00",
+          "operator": "Kroger",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "phone": "+1 801-479-0703",
+          "ref": "70600030",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/ogden/country-hills-plaza/706/00030",
+          "wheelchair": "yes"
+        },
+        "lat": 41.1853791,
+        "lon": -111.9506287
+      },
+      {
+        "type": "node",
+        "id": 5018786939,
+        "tags": {
+          "addr:city": "Saint George",
+          "addr:housenumber": "565",
+          "addr:postcode": "84790",
+          "addr:state": "UT",
+          "addr:street": "South Mall Drive",
+          "branch": "Dinosaur Crossing",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "name": "Smith's Marketplace",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 435-705-7420",
+          "ref": "70600278",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/saint-george/dinosaur-crossing/706/00278",
+          "wheelchair": "yes"
+        },
+        "lat": 37.0998338,
+        "lon": -113.5341371
+      },
+      {
+        "type": "node",
+        "id": 10895345640,
+        "tags": {
+          "addr:city": "Price",
+          "addr:housenumber": "1075",
+          "addr:postcode": "84501",
+          "addr:state": "UT",
+          "addr:street": "East Main Street",
+          "air_conditioning": "yes",
+          "branch": "Castle Rock Square",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building:levels": "1",
+          "check_date": "2026-07-10",
+          "currency:USD": "yes",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "payment:cash": "yes",
+          "payment:cash:USD": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:electronic_purses": "yes",
+          "phone": "+1 435-637-0840",
+          "ref": "7060004810",
+          "shop": "supermarket",
+          "stroller": "yes",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/price/castle-rock-square/706/00048",
+          "wheelchair": "yes"
+        },
+        "lat": 39.600277,
+        "lon": -110.7937227
+      },
+      {
+        "type": "node",
+        "id": 12230597801,
+        "tags": {
+          "addr:housenumber": "744",
+          "addr:postcode": "84032",
+          "addr:street": "North Main Street",
+          "contact:twitter": "MySmithsGrocery",
+          "internet_access": "wlan",
+          "name": "Smith's",
+          "opening_hours": "Mo-Su 06:00-00:00",
+          "phone": "+1 435-654-1250",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/heber-city/smiths/706/00214"
+        },
+        "lat": 40.5174507,
+        "lon": -111.4090363
+      },
+      {
+        "type": "node",
+        "id": 12821127128,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "402",
+          "addr:postcode": "84103",
+          "addr:state": "UT",
+          "addr:street": "East 6th Avenue",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "level": "0",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-328-1683",
+          "ref": "7060007709",
+          "shop": "supermarket",
+          "utahagrc:parcelid": "09314300150000",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/salt-lake-city/402-6th-ave-slc-ut/706/00077"
+        },
+        "lat": 40.775589,
+        "lon": -111.8768122
+      },
+      {
+        "type": "node",
+        "id": 12850049456,
+        "tags": {
+          "addr:city": "Bountiful",
+          "addr:housenumber": "555",
+          "addr:postcode": "84010",
+          "addr:state": "UT",
+          "addr:street": "South 200 West",
+          "branch": "Marketplace",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "check_date": "2026-10-17",
+          "contact:website": "https://www.smithsfoodanddrug.com/stores/details/706/00444",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "phone": "+1 801-397-7800",
+          "ref": "7060044410",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/bountiful/555-s-200-w-bountiful-ut/706/00444"
+        },
+        "lat": 40.8820054,
+        "lon": -111.8837316
+      },
+      {
+        "type": "node",
+        "id": 13132050688,
+        "tags": {
+          "addr:city": "Sandy",
+          "addr:housenumber": "10305",
+          "addr:postcode": "84094",
+          "addr:state": "UT",
+          "addr:street": "South 1300 East",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-572-1396",
+          "ref": "7060015309",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/sandy/10305-s-1300-esandy/706/00153"
+        },
+        "lat": 40.5638293,
+        "lon": -111.8515607
+      },
+      {
+        "type": "way",
+        "id": 27990199,
+        "tags": {
+          "addr:city": "Sunset",
+          "addr:housenumber": "2353",
+          "addr:postcode": "84015",
+          "addr:state": "UT",
+          "addr:street": "North Main Street",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "retail",
+          "building:levels": "1",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-825-2262",
+          "ref": "7060014009",
+          "shop": "supermarket",
+          "stroller": "yes",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/sunset/2353-n-main-st-sunset-ut/706/00140",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 41.14794245,
+          "lon": -112.0285912
+        }
+      },
+      {
+        "type": "way",
+        "id": 34070824,
+        "tags": {
+          "addr:city": "Syracuse",
+          "addr:housenumber": "951",
+          "addr:postcode": "84075",
+          "addr:state": "UT",
+          "addr:street": "West 1700 South",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-773-5133",
+          "ref": "7060014209",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/syracuse/951-w-1700-s-syracuse-ut/706/00142"
+        },
+        "center": {
+          "lat": 41.08778255,
+          "lon": -112.04411160000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 36409933,
+        "tags": {
+          "addr:city": "Logan",
+          "addr:housenumber": "750",
+          "addr:postcode": "84321",
+          "addr:state": "UT",
+          "addr:street": "North Main Street",
+          "brand": "Smith's",
+          "building": "yes",
+          "landuse": "commercial",
+          "name": "Smith's Marketplace",
+          "not:brand:wikidata": "Q7544856",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "phone": "+1 435-753-1643",
+          "ref": "7060047710",
+          "shop": "supermarket",
+          "toilets": "yes",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/logan/smiths-marketplace/706/00477"
+        },
+        "center": {
+          "lat": 41.745635199999995,
+          "lon": -111.83278544999996
+        }
+      },
+      {
+        "type": "way",
+        "id": 37889248,
+        "tags": {
+          "addr:city": "West Valley City",
+          "addr:housenumber": "4643",
+          "addr:postcode": "84120",
+          "addr:state": "UT",
+          "addr:street": "South 4000 West",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "check_date": "2026-08-13",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-968-1962",
+          "ref": "70600137",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/west-valley-city/4643-so-4000-w-west-valley-city-ut/706/00137"
+        },
+        "center": {
+          "lat": 40.66875125,
+          "lon": -111.9848614
+        }
+      },
+      {
+        "type": "way",
+        "id": 39284226,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "828",
+          "addr:postcode": "84104",
+          "addr:state": "UT",
+          "addr:street": "South 900 West",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "retail",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "operator": "Kroger",
+          "payment:cash": "yes",
+          "payment:cheque": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+1 801-364-2548",
+          "ref": "70600080",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/salt-lake-city/828-s-900-w-slc-ut/706/00080"
+        },
+        "center": {
+          "lat": 40.7513436,
+          "lon": -111.91828905
+        }
+      },
+      {
+        "type": "way",
+        "id": 41975783,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "3215",
+          "addr:postcode": "84109",
+          "addr:state": "UT",
+          "addr:street": "South Valley Street",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "check_date": "2023-08-10",
+          "internet_access": "wlan",
+          "name": "Smith's Marketplace",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "phone": "+1 801-486-8477",
+          "ref": "7060047510",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/salt-lake-city/smiths-marketplace/706/00475"
+        },
+        "center": {
+          "lat": 40.70103215,
+          "lon": -111.79899669999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 42455568,
+        "tags": {
+          "addr:city": "Farmington",
+          "addr:housenumber": "1316",
+          "addr:postcode": "84025",
+          "addr:state": "UT",
+          "addr:street": "North Highway 89",
+          "branch": "Foxglove",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-451-0581",
+          "ref": "7060013509",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/farmington/foxglove/706/00135"
+        },
+        "center": {
+          "lat": 41.0023888,
+          "lon": -111.90668225000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 54144857,
+        "tags": {
+          "addr:city": "Saint George",
+          "addr:housenumber": "20",
+          "addr:postcode": "84770",
+          "addr:state": "UT",
+          "addr:street": "North Bluff Street",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-11:00",
+          "phone": "+1 435-673-8898",
+          "ref": "7060018909",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/saint-george/20-n-bluff-st-st-george-ut/706/00189"
+        },
+        "center": {
+          "lat": 37.1088297,
+          "lon": -113.59139170000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 63514089,
+        "tags": {
+          "addr:city": "Layton",
+          "addr:housenumber": "1170",
+          "addr:postcode": "84040",
+          "addr:state": "UT",
+          "addr:street": "East Gentile Street",
+          "branch": "LaytonUt",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-546-3429",
+          "ref": "70600149",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/layton/laytonut/706/00149"
+        },
+        "center": {
+          "lat": 41.060379499999996,
+          "lon": -111.94351345000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 66178640,
+        "tags": {
+          "addr:city": "Ogden",
+          "addr:housenumber": "1485",
+          "addr:postcode": "84404",
+          "addr:state": "UT",
+          "addr:street": "Harrison Boulevard",
+          "air_conditioning": "yes",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Su-Sa 06:00-24:00",
+          "phone": "+1 801-621-0234",
+          "ref": "7060013109",
+          "shop": "supermarket",
+          "source": "Yahoo",
+          "stroller": "yes",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/ogden/1485-harrison-blvd-ogden-ut/706/00131",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 41.240855499999995,
+          "lon": -111.94671549999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 78883068,
+        "tags": {
+          "addr:city": "Pleasant Grove",
+          "addr:housenumber": "210",
+          "addr:postcode": "84062",
+          "addr:state": "UT",
+          "addr:street": "East 700 South",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-785-9466",
+          "ref": "70600073",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/pleasant-grove/210-e-700-s-pleasant-grove-ut/706/00073"
+        },
+        "center": {
+          "lat": 40.35370005,
+          "lon": -111.73720175
+        }
+      },
+      {
+        "type": "way",
+        "id": 100025391,
+        "tags": {
+          "addr:city": "Lehi",
+          "addr:housenumber": "1550",
+          "addr:postcode": "84043",
+          "addr:state": "UT",
+          "addr:street": "East 3500 N",
+          "branch": "Center Pointe At Lehi",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "phone": "+1 801-341-6500",
+          "ref": "70600119",
+          "shop": "supermarket",
+          "source": "NAIP",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/lehi/center-pointe-at-lehi/706/00119"
+        },
+        "center": {
+          "lat": 40.42963775,
+          "lon": -111.82474789999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 100184097,
+        "tags": {
+          "addr:city": "Orem",
+          "addr:housenumber": "45",
+          "addr:postcode": "84058",
+          "addr:state": "UT",
+          "addr:street": "South State Street",
+          "branch": "Park Place",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "retail",
+          "building:levels": "1",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-224-6111",
+          "ref": "7060014409",
+          "shop": "supermarket",
+          "source": "bing;local_knowledge",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/orem/park-place/706/00144"
+        },
+        "center": {
+          "lat": 40.2964445,
+          "lon": -111.69147244999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 107999249,
+        "tags": {
+          "addr:city": "Herriman",
+          "addr:housenumber": "5560",
+          "addr:postcode": "84096",
+          "addr:state": "UT",
+          "addr:street": "West 13400 South",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-254-8208",
+          "ref": "70600108",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/herriman/5560-w-13400-so-herriman-ut/706/00108"
+        },
+        "center": {
+          "lat": 40.5093096,
+          "lon": -112.02361020000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 154377478,
+        "tags": {
+          "addr:city": "Murray",
+          "addr:housenumber": "845",
+          "addr:postcode": "84107",
+          "addr:state": "UT",
+          "addr:street": "East 4500 South",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "retail",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-261-3399",
+          "ref": "70600133",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/salt-lake-city/845-e-4500-so-slc-ut/706/00133"
+        },
+        "center": {
+          "lat": 40.675544450000004,
+          "lon": -111.86728069999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 155928403,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "1174",
+          "addr:postcode": "84116",
+          "addr:state": "UT",
+          "addr:street": "West 600 North",
+          "air_conditioning": "yes",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "retail",
+          "building:levels": "1",
+          "check_date": "2022-10-24",
+          "contact:phone": "+1 801-363-1037",
+          "contact:website": "https://www.smithsfoodanddrug.com",
+          "currency:USD": "yes",
+          "delivery": "no",
+          "height": "5",
+          "internet_access": "no",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo,We,Fr 07:00-08:00 \"Seniors only\"; Mo-Su 08:00-20:00; PH 08:00-20:00",
+          "operator": "Kroger",
+          "organic": "yes",
+          "payment:american_express": "yes",
+          "payment:cards": "yes",
+          "payment:cash": "yes",
+          "payment:cheque": "yes",
+          "payment:coins": "yes",
+          "payment:contactless": "no",
+          "payment:debit_cards": "yes",
+          "payment:discover_card": "yes",
+          "payment:electronic_purses": "no",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "payment:visa_debit": "yes",
+          "phone": "+1 801-322-5491",
+          "ref": "70600069",
+          "roof:shape": "flat",
+          "second_hand": "no",
+          "shop": "supermarket",
+          "stroller": "yes",
+          "toilets": "yes",
+          "toilets:access": "public",
+          "toilets:wheelchair": "yes",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/salt-lake-city/1174-w-600-n-slc-ut/706/00069",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.7835463,
+          "lon": -111.92479885
+        }
+      },
+      {
+        "type": "way",
+        "id": 224261301,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "3470",
+          "addr:postcode": "84121",
+          "addr:state": "UT",
+          "addr:street": "East Bengal Boulevard",
+          "branch": "Brighton Point",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "retail",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-943-0177",
+          "ref": "70600081",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/salt-lake-city/brighton-point/706/00081"
+        },
+        "center": {
+          "lat": 40.608090450000006,
+          "lon": -111.79690725
+        }
+      },
+      {
+        "type": "way",
+        "id": 225425207,
+        "tags": {
+          "addr:city": "Draper",
+          "addr:housenumber": "212",
+          "addr:postcode": "84020",
+          "addr:state": "UT",
+          "addr:street": "East 12300 South",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-571-2052",
+          "ref": "7060013209",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/draper/212-e-12300-s-draper-ut/706/00132"
+        },
+        "center": {
+          "lat": 40.52534035,
+          "lon": -111.88489879999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 229574022,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "922",
+          "addr:postcode": "84106",
+          "addr:state": "UT",
+          "addr:street": "South 2100 South",
+          "air_conditioning": "yes",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "retail",
+          "building:levels": "1",
+          "delivery": "no",
+          "layer": "1",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Smith's",
+          "phone": "+1 801-486-4333",
+          "ref": "70600028",
+          "shop": "supermarket",
+          "stroller": "yes",
+          "utahagrc:parcelid": "16201340030000",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/salt-lake-city/922-e-2100-so-slc-ut-84106/706/00028",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.72426135,
+          "lon": -111.86469579999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 247649576,
+        "tags": {
+          "addr:city": "Brigham City",
+          "addr:housenumber": "156",
+          "addr:postcode": "84302",
+          "addr:state": "UT",
+          "addr:street": "South Main Street",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "designation": "Smiths",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 435-734-2500",
+          "ref": "70600178",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/brigham-city/156-s-main-st-brigham-city-ut/706/00178"
+        },
+        "center": {
+          "lat": 41.50661624999999,
+          "lon": -112.0166044
+        }
+      },
+      {
+        "type": "way",
+        "id": 299132663,
+        "tags": {
+          "addr:city": "Park City",
+          "addr:housenumber": "1725",
+          "addr:postcode": "84098",
+          "addr:state": "UT",
+          "addr:street": "Uinta Way",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 435-649-7278",
+          "ref": "70600072",
+          "shop": "supermarket",
+          "source": "Bing",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/park-city/1725-unita-way-park-city-ut/706/00072"
+        },
+        "center": {
+          "lat": 40.7237696,
+          "lon": -111.54293080000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 306461524,
+        "tags": {
+          "addr:city": "South Jordan",
+          "addr:housenumber": "1634 W",
+          "addr:postcode": "84095",
+          "addr:state": "UT",
+          "addr:street": "South Jordan Parkway",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "retail",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "operator": "Kroger",
+          "phone": "+1 801-254-4560",
+          "ref": "7060013810",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/south-jordan/1634-w-so-jordan-pkwy-so-jordan-ut/706/00138"
+        },
+        "center": {
+          "lat": 40.564223,
+          "lon": -111.93733559999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 310894254,
+        "tags": {
+          "addr:city": "Provo",
+          "addr:housenumber": "350",
+          "addr:postcode": "84601",
+          "addr:state": "UT",
+          "addr:street": "North Freedom Boulevard",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-377-9250",
+          "ref": "7060013609",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/provo/350-no-freedom-blvd-provo-ut/706/00136"
+        },
+        "center": {
+          "lat": 40.23869885,
+          "lon": -111.66134520000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 324443716,
+        "tags": {
+          "addr:city": "Cedar City",
+          "addr:housenumber": "633 S",
+          "addr:postcode": "84720",
+          "addr:state": "UT",
+          "addr:street": "Main Street",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "check_date": "2026-03-22",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "payment:cash": "yes",
+          "payment:cash:USD": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:electronic_purses": "yes",
+          "phone": "+1 435-586-1203",
+          "ref": "7060004209",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/cedar-city/633-main-street-cedar-city-ut/706/00042",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 37.66622905,
+          "lon": -113.0620429
+        }
+      },
+      {
+        "type": "way",
+        "id": 341940762,
+        "tags": {
+          "addr:city": "West Jordan",
+          "addr:housenumber": "5710",
+          "addr:postcode": "84081",
+          "addr:state": "UT",
+          "addr:street": "West 7800 South",
+          "branch": "Marketplace",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "name": "Smith's Marketplace",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-545-3480",
+          "ref": "7060027409",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/west-jordan/smiths-marketplace/706/00274"
+        },
+        "center": {
+          "lat": 40.61157995,
+          "lon": -112.02720575000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 466219502,
+        "tags": {
+          "addr:city": "Payson",
+          "addr:housenumber": "632",
+          "addr:postcode": "84651",
+          "addr:state": "UT",
+          "addr:street": "South 100 West",
+          "air_conditioning": "yes",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "retail",
+          "building:levels": "1",
+          "check_date": "2026-09-23",
+          "currency:USD": "yes",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+1 801-465-9213",
+          "ref": "7060007509",
+          "self_checkout": "no",
+          "shop": "supermarket",
+          "stroller": "yes",
+          "toilets": "yes",
+          "toilets:wheelchair": "yes",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/payson/632-s-100-w-payson-ut/706/00075",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.0343091,
+          "lon": -111.7350346
+        }
+      },
+      {
+        "type": "way",
+        "id": 476955866,
+        "tags": {
+          "addr:city": "West Valley City",
+          "addr:housenumber": "5620",
+          "addr:postcode": "84128",
+          "addr:state": "UT",
+          "addr:street": "West 4100 South",
+          "branch": "Legacy Shopping Center",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-964-0165",
+          "ref": "7060014709",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/west-valley-city/legacy-shopping-center/706/00147"
+        },
+        "center": {
+          "lat": 40.6839894,
+          "lon": -112.02574205000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 477899906,
+        "tags": {
+          "addr:city": "West Jordan",
+          "addr:housenumber": "1820",
+          "addr:postcode": "84088",
+          "addr:state": "UT",
+          "addr:street": "West 9000 South",
+          "branch": "Center",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "retail",
+          "building:levels": "1",
+          "name": "Smith's Marketplace",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "phone": "+1 801-562-4977",
+          "ref": "7060049510",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/west-jordan/smiths-marketplace/706/00495",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.58955865,
+          "lon": -111.94095944999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 477902077,
+        "tags": {
+          "addr:city": "West Jordan",
+          "addr:housenumber": "4080",
+          "addr:postcode": "84088",
+          "addr:state": "UT",
+          "addr:street": "West 9000 South",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-280-3844",
+          "ref": "7060015809",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/west-jordan/4080-w-9000-s-west-jordan-ut/706/00158"
+        },
+        "center": {
+          "lat": 40.588942700000004,
+          "lon": -111.98779200000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 506771353,
+        "tags": {
+          "addr:city": "Kaysville",
+          "addr:housenumber": "1370",
+          "addr:postcode": "84037",
+          "addr:state": "UT",
+          "addr:street": "West 200 North",
+          "branch": "Marketplace",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 385-888-5323",
+          "ref": "70600277",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/details/706/00277"
+        },
+        "center": {
+          "lat": 41.04033205,
+          "lon": -111.96665274999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 523183148,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "1974",
+          "addr:postcode": "84106",
+          "addr:state": "UT",
+          "addr:street": "South 1100 East",
+          "branch": "Sugarhouse Fuel",
+          "brand": "Smith's Food and Drug",
+          "brand:short": "Smith's",
+          "brand:website": "https://www.smithsfoodanddrug.com/",
+          "brand:wikidata": "Q7544856",
+          "brand:wikipedia": "en:Smith's Food and Drug",
+          "building": "retail",
+          "internet_access": "no",
+          "name": "Smith's Express",
+          "opening_hours": "Su-Sa 06:00-23:00",
+          "phone": "+1 801-466-3325",
+          "shop": "convenience",
+          "website": "https://www.smithsfoodanddrug.com/stores/fuel/ut/salt-lake-city/sugarhouse-fuel/706/00002"
+        },
+        "center": {
+          "lat": 40.7271739,
+          "lon": -111.86015370000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 531836922,
+        "tags": {
+          "addr:city": "West Point",
+          "addr:housenumber": "217",
+          "addr:postcode": "84015",
+          "addr:state": "UT",
+          "addr:street": "West 300 North",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "building:levels": "2",
+          "name": "Smith's Marketplace",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 385-383-3040",
+          "ref": "7060027209",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/west-point/smiths-marketplace/706/00272"
+        },
+        "center": {
+          "lat": 41.1168284,
+          "lon": -112.06743714999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 537785811,
+        "tags": {
+          "addr:city": "South Jordan",
+          "addr:housenumber": "5448",
+          "addr:postcode": "84009",
+          "addr:state": "UT",
+          "addr:street": "West Daybreak Parkway",
+          "branch": "Marketplace",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "retail",
+          "building:levels": "1",
+          "name": "Smith's Marketplace",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-501-7170",
+          "ref": "7060027609",
+          "roof:levels": "0",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/south-jordan/smiths-marketplace/706/00276"
+        },
+        "center": {
+          "lat": 40.53956625,
+          "lon": -112.02122399999996
+        }
+      },
+      {
+        "type": "way",
+        "id": 587795432,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "876",
+          "addr:postcode": "84102",
+          "addr:state": "UT",
+          "addr:street": "East 800 South",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "supermarket",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 801-355-2801",
+          "ref": "7060004409",
+          "shop": "supermarket",
+          "utahagrc:parcelid": "16081780110000",
+          "website": "https://www.smithsfoodanddrug.com/stores/details/706/00044",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.7505802,
+          "lon": -111.86629084999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 595951295,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "455",
+          "addr:postcode": "84102",
+          "addr:state": "UT",
+          "addr:street": "South 500 East",
+          "branch": "Marketplace",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "retail",
+          "building:levels": "2",
+          "delivery": "no",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "operator": "Smith's",
+          "phone": "+1 801-328-6033",
+          "ref": "70600094",
+          "shop": "supermarket",
+          "utahagrc:parcelid": "16064320290000",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/salt-lake-city/455-s-500-e-slc-ut/706/00094",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.759348,
+          "lon": -111.8752639
+        }
+      },
+      {
+        "type": "way",
+        "id": 682582564,
+        "tags": {
+          "addr:city": "Springville",
+          "addr:housenumber": "1117",
+          "addr:postcode": "84663",
+          "addr:state": "UT",
+          "addr:street": "West 400 South",
+          "branch": "Marketplace",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "phone": "+1 385-685-7005",
+          "ref": "70600271",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/springville/smiths-marketplace/706/00271"
+        },
+        "center": {
+          "lat": 40.15897875,
+          "lon": -111.63018964999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 879968469,
+        "tags": {
+          "addr:city": "Woods Cross",
+          "addr:housenumber": "614",
+          "addr:postcode": "84010",
+          "addr:state": "UT",
+          "addr:street": "West 2600 South",
+          "branch": "Smiths",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "check_date": "2026-07-13",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 385-489-3024",
+          "ref": "70600093",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/woods-cross/smiths/706/00093"
+        },
+        "center": {
+          "lat": 40.86354555,
+          "lon": -111.89799215
+        }
+      },
+      {
+        "type": "way",
+        "id": 1051863988,
+        "tags": {
+          "addr:city": "West Jordan",
+          "addr:housenumber": "7061",
+          "addr:postcode": "84084",
+          "addr:state": "UT",
+          "addr:street": "South Redwood Road",
+          "branch": "Park Village Plaza",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "retail",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Fr 09:00-21:00; Sa 09:00-19:00; Su 10:00-16:00",
+          "phone": "+1 801-566-6641",
+          "ref": "70600139",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/west-jordan/park-village-plaza/706/00139"
+        },
+        "center": {
+          "lat": 40.62296395,
+          "lon": -111.93681525
+        }
+      },
+      {
+        "type": "way",
+        "id": 1077538977,
+        "tags": {
+          "addr:city": "Saratoga Springs",
+          "addr:housenumber": "689",
+          "addr:postcode": "84045",
+          "addr:state": "UT",
+          "addr:street": "North Redwood Road",
+          "branch": "Marketplace",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "check_date": "2026-06-18",
+          "name": "Smith's Marketplace",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+1 385-374-5470",
+          "ref": "70600207",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/saratoga-springs/smiths-marketplace/706/00207"
+        },
+        "center": {
+          "lat": 40.374651,
+          "lon": -111.91943700000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 1177984382,
+        "tags": {
+          "building": "yes",
+          "name": "Smith's Fuel Center",
+          "opening_hours": "Mo-Su 06:00-23:00",
+          "shop": "convenience"
+        },
+        "center": {
+          "lat": 40.2375016,
+          "lon": -111.66273534999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 1316837469,
+        "tags": {
+          "addr:city": "Heber City",
+          "addr:housenumber": "744",
+          "addr:postcode": "84032",
+          "addr:state": "UT",
+          "addr:street": "North Main Street",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 435-654-1250",
+          "ref": "7060006310",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/heber-city/550-north-main-st-heber-city-ut/706/00063"
+        },
+        "center": {
+          "lat": 40.51734565,
+          "lon": -111.40876909999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 1444771170,
+        "tags": {
+          "addr:city": "Bluffdale",
+          "addr:housenumber": "13893",
+          "addr:postcode": "84065",
+          "addr:state": "UT",
+          "addr:street": "South Redwood Road",
+          "branch": "Bluffdale",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1 385-342-9818",
+          "shop": "supermarket",
+          "website": "https://www.smithsfoodanddrug.com/stores/grocery/ut/bluffdale/smiths-bluffdale/706/00212"
+        },
+        "center": {
+          "lat": 40.49948865,
+          "lon": -111.93619109999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 1470360127,
+        "tags": {
+          "addr:city": "Tooele",
+          "addr:housenumber": "2483",
+          "addr:postcode": "84074",
+          "addr:state": "UT",
+          "addr:street": "North Main Street",
+          "brand": "Smith's",
+          "brand:wikidata": "Q7544856",
+          "building": "yes",
+          "name": "Smith's",
+          "official_name": "Smith's Food and Drug",
+          "shop": "supermarket"
+        },
+        "center": {
+          "lat": 40.5744149,
+          "lon": -112.29827365
+        }
+      }
+    ],
+    "dillons": [],
+    "qfc": [],
+    "harris_teeter": [],
+    "food_4_less": [],
+    "marianos": [],
+    "pick_n_save": [],
+    "metro_market": [],
+    "city_market": [
+      {
+        "type": "way",
+        "id": 130513620,
+        "tags": {
+          "addr:city": "Moab",
+          "addr:housenumber": "425",
+          "addr:postcode": "84532",
+          "addr:state": "UT",
+          "addr:street": "South Main Street",
+          "brand": "City Market",
+          "brand:wikidata": "Q5123299",
+          "building": "retail",
+          "check_date": "2026-05-16",
+          "name": "City Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1-435-259-5181",
+          "shop": "supermarket",
+          "website": "https://www.citymarket.com/stores/details/620/00410",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 38.566947049999996,
+          "lon": -109.54923329999997
+        }
+      }
+    ],
+    "bakers": [],
+    "gerbes": [],
+    "pay_less": [],
+    "albertsons": [
+      {
+        "type": "node",
+        "id": 741743662,
+        "tags": {
+          "addr:city": "Washington",
+          "addr:housenumber": "915",
+          "addr:postcode": "84780",
+          "addr:state": "UT",
+          "addr:street": "Redcliffs Drive",
+          "brand": "Albertsons",
+          "brand:wikidata": "Q2831861",
+          "dispensing": "yes",
+          "healthcare": "pharmacy",
+          "name": "Albertsons",
+          "phone": "+1 435-628-0424",
+          "shop": "supermarket",
+          "website": "https://local.albertsons.com/ut/washington/915-redcliffs-dr.html"
+        },
+        "lat": 37.1256151,
+        "lon": -113.5246919
+      },
+      {
+        "type": "way",
+        "id": 217708096,
+        "tags": {
+          "addr:city": "Saint George",
+          "addr:housenumber": "745",
+          "addr:postcode": "84770",
+          "addr:state": "UT",
+          "addr:street": "North Dixie Drive",
+          "brand": "Albertsons",
+          "brand:wikidata": "Q2831861",
+          "building": "retail",
+          "name": "Albertsons",
+          "name:fa": "آلبرتسونز",
+          "phone": "+1 435-688-7156",
+          "ref": "1329",
+          "shop": "supermarket",
+          "source": "Bing",
+          "website": "https://local.albertsons.com/ut/saint-george/745-n-dixie-dr.html"
+        },
+        "center": {
+          "lat": 37.120857,
+          "lon": -113.62457254999998
+        }
+      }
+    ],
+    "safeway": [],
+    "vons": [],
+    "pavilions": [],
+    "jewel_osco": [],
+    "acme_markets": [],
+    "shaws": [],
+    "star_market": [],
+    "tom_thumb": [],
+    "randalls": [],
+    "carrs": [],
+    "haggen": [],
+    "united_supermarkets": [],
+    "stop_and_shop": [],
+    "giant_food": [],
+    "giant_food_stores": [],
+    "food_lion": [],
+    "hannaford": [],
+    "publix": [],
+    "heb": [],
+    "central_market": [],
+    "meijer": [],
+    "wegmans": [],
+    "hy_vee": [],
+    "winco_foods": [
+      {
+        "type": "node",
+        "id": 673035892,
+        "tags": {
+          "addr:housenumber": "6060",
+          "addr:street": "South 3500 West",
+          "brand": "WinCo Foods",
+          "brand:wikidata": "Q8023592",
+          "name": "WinCo Foods",
+          "shop": "supermarket"
+        },
+        "lat": 41.1532172,
+        "lon": -112.0617408
+      },
+      {
+        "type": "node",
+        "id": 9184296871,
+        "tags": {
+          "addr:city": "Logan",
+          "addr:country": "US",
+          "addr:housenumber": "1341",
+          "addr:postcode": "84341",
+          "addr:state": "UT",
+          "addr:street": "North Main Street",
+          "brand": "WinCo Foods",
+          "brand:wikidata": "Q8023592",
+          "check_date": "2024-03-01",
+          "name": "WinCo Foods",
+          "opening_hours": "24/7",
+          "payment:debit_cards": "yes",
+          "phone": "+1 435-557-7563",
+          "shop": "supermarket",
+          "start_date": "2021-11-15",
+          "wheelchair": "yes"
+        },
+        "lat": 41.7568984,
+        "lon": -111.8370525
+      },
+      {
+        "type": "way",
+        "id": 51852582,
+        "tags": {
+          "addr:city": "Ogden",
+          "addr:housenumber": "205",
+          "addr:postcode": "84404",
+          "addr:state": "UT",
+          "addr:street": "West 12th Street",
+          "air_conditioning": "yes",
+          "brand": "WinCo Foods",
+          "brand:wikidata": "Q8023592",
+          "building": "yes",
+          "check_date": "2026-09-17",
+          "name": "WinCo Foods",
+          "opening_hours": "24/7",
+          "phone": "+1-801-781-2501",
+          "shop": "supermarket",
+          "source": "Mapbox;survey",
+          "website": "https://www.wincofoods.com/stores/win-co-foods-ogden-79/4770"
+        },
+        "center": {
+          "lat": 41.242133300000006,
+          "lon": -111.98123720000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 82249848,
+        "tags": {
+          "brand": "WinCo Foods",
+          "brand:wikidata": "Q8023592",
+          "building": "yes",
+          "name": "WinCo Foods",
+          "shop": "supermarket"
+        },
+        "center": {
+          "lat": 40.31422985,
+          "lon": -111.72061704999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 195066061,
+        "tags": {
+          "addr:city": "West Valley City",
+          "addr:country": "US",
+          "addr:housenumber": "2572",
+          "addr:postcode": "84120",
+          "addr:state": "UT",
+          "addr:street": "South 5600 West",
+          "brand": "WinCo Foods",
+          "brand:wikidata": "Q8023592",
+          "building": "retail",
+          "name": "WinCo Foods",
+          "opening_hours": "24/7",
+          "phone": "+1-801-417-5570",
+          "shop": "supermarket",
+          "source": "website",
+          "website": "https://www.wincofoods.com/stores/win-co-foods-west-valley-75/4767"
+        },
+        "center": {
+          "lat": 40.7140542,
+          "lon": -112.02637214999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 230042477,
+        "tags": {
+          "brand": "WinCo Foods",
+          "brand:wikidata": "Q8023592",
+          "building": "yes",
+          "name": "WinCo Foods",
+          "shop": "supermarket"
+        },
+        "center": {
+          "lat": 40.6242454,
+          "lon": -111.91128244999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 473615900,
+        "tags": {
+          "addr:city": "Layton",
+          "addr:housenumber": "200",
+          "addr:postcode": "84041",
+          "addr:state": "UT",
+          "addr:street": "Fort Lane",
+          "air_conditioning": "yes",
+          "brand": "WinCo Foods",
+          "brand:wikidata": "Q8023592",
+          "building": "supermarket",
+          "check_date": "2026-05-28",
+          "internet_access": "no",
+          "name": "WinCo Foods",
+          "opening_hours": "24/7",
+          "organic": "limited",
+          "payment:cash": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+1-801-853-8063",
+          "shop": "supermarket",
+          "stroller": "yes",
+          "website": "https://www.wincofoods.com/stores/win-co-foods-layton-139/4699",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 41.0576262,
+          "lon": -111.95954919999997
+        }
+      },
+      {
+        "type": "way",
+        "id": 678556835,
+        "tags": {
+          "addr:city": "Herriman",
+          "addr:country": "US",
+          "addr:housenumber": "11969",
+          "addr:postcode": "84096",
+          "addr:state": "UT",
+          "addr:street": "South Carlsbad Way",
+          "brand": "WinCo Foods",
+          "brand:wikidata": "Q8023592",
+          "building": "retail",
+          "name": "WinCo Foods",
+          "opening_hours": "24/7",
+          "shop": "supermarket"
+        },
+        "center": {
+          "lat": 40.5335305,
+          "lon": -112.0141898
+        }
+      },
+      {
+        "type": "way",
+        "id": 693748157,
+        "tags": {
+          "addr:city": "South Salt Lake",
+          "addr:country": "US",
+          "addr:housenumber": "2193",
+          "addr:postcode": "84115",
+          "addr:state": "UT",
+          "addr:street": "South Main Street",
+          "brand": "WinCo Foods",
+          "brand:wikidata": "Q8023592",
+          "building": "retail",
+          "building:levels": "1",
+          "name": "WinCo Foods",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "phone": "+1-385-489-6060",
+          "ref": "142",
+          "shop": "supermarket",
+          "website": "https://www.wincofoods.com/stores/win-co-foods-south-salt-lake-142/5512"
+        },
+        "center": {
+          "lat": 40.72427505,
+          "lon": -111.89014809999998
+        }
+      }
+    ],
+    "giant_eagle": [],
+    "market_district": [],
+    "shoprite": [],
+    "price_chopper": [],
+    "market_32": [],
+    "tops_friendly_markets": [],
+    "weis_markets": [],
+    "save_mart": [],
+    "raleys": [],
+    "bel_air": [],
+    "nob_hill_foods": [],
+    "foodmaxx": [],
+    "stater_bros": [],
+    "winn_dixie": [],
+    "harveys_supermarket": [],
+    "aldi": [],
+    "lidl": [],
+    "trader_joes": [
+      {
+        "type": "node",
+        "id": 2140773396,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "634",
+          "addr:postcode": "84102",
+          "addr:state": "UT",
+          "addr:street": "East 400 South",
+          "branch": "Salt Lake City",
+          "brand": "Trader Joe's",
+          "brand:wikidata": "Q688825",
+          "contact:instagram": "traderjoes",
+          "name": "Trader Joe's",
+          "opening_hours": "Mo-Su 09:00-21:00",
+          "phone": "+1 801-359-2462",
+          "ref": "350",
+          "shop": "supermarket",
+          "website": "https://locations.traderjoes.com/ut/salt-lake-city/350/",
+          "wheelchair": "yes"
+        },
+        "lat": 40.7598448,
+        "lon": -111.8726304
+      },
+      {
+        "type": "node",
+        "id": 3358046340,
+        "tags": {
+          "addr:city": "Cottonwood Heights",
+          "addr:housenumber": "6989",
+          "addr:postcode": "84047",
+          "addr:state": "UT",
+          "addr:street": "South 1300 East",
+          "branch": "Cottonwood Heights",
+          "brand": "Trader Joe's",
+          "brand:wikidata": "Q688825",
+          "name": "Trader Joe's",
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "phone": "+1 801-562-3024",
+          "ref": "351",
+          "shop": "supermarket",
+          "website": "https://locations.traderjoes.com/ut/cottonwood-heights/351/"
+        },
+        "lat": 40.6240113,
+        "lon": -111.8540437
+      },
+      {
+        "type": "node",
+        "id": 6861438996,
+        "tags": {
+          "addr:city": "Orem",
+          "addr:housenumber": "440",
+          "addr:postcode": "84097",
+          "addr:state": "UT",
+          "addr:street": "East Park Avenue",
+          "branch": "Orem",
+          "brand": "Trader Joe's",
+          "brand:wikidata": "Q688825",
+          "name": "Trader Joe's",
+          "opening_hours": "Mo-Su 09:00-21:00",
+          "phone": "+1 801-224-1453",
+          "ref": "352",
+          "shop": "supermarket",
+          "website": "https://locations.traderjoes.com/ut/orem/352/"
+        },
+        "lat": 40.2761171,
+        "lon": -111.6848362
+      },
+      {
+        "type": "node",
+        "id": 11278083599,
+        "tags": {
+          "addr:city": "Draper",
+          "addr:housenumber": "11477",
+          "addr:postcode": "84020",
+          "addr:state": "UT",
+          "addr:street": "South State Street",
+          "branch": "Draper",
+          "brand": "Trader Joe's",
+          "brand:wikidata": "Q688825",
+          "name": "Trader Joe's",
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "phone": "+1 801-571-0987",
+          "ref": "353",
+          "shop": "supermarket",
+          "website": "https://locations.traderjoes.com/ut/draper/353/"
+        },
+        "lat": 40.5430851,
+        "lon": -111.890063
+      },
+      {
+        "type": "node",
+        "id": 13266062201,
+        "tags": {
+          "addr:city": "Riverdale",
+          "addr:housenumber": "4060",
+          "addr:postcode": "84401",
+          "addr:state": "UT",
+          "addr:street": "South Riverdale Road",
+          "addr:unit": "B",
+          "air_conditioning": "yes",
+          "brand": "Trader Joe's",
+          "brand:wikidata": "Q688825",
+          "check_date": "2025-11-06",
+          "diet:pescetarian": "yes",
+          "diet:vegan": "yes",
+          "diet:vegetarian": "yes",
+          "large_vehicles": "yes",
+          "mobile_reception": "yes",
+          "name": "Trader Joe's",
+          "opening_hours": "Mo-Su 09:00-21:00",
+          "payment:cards": "yes",
+          "payment:contactless": "yes",
+          "phone": "+1 385-298-4276",
+          "shop": "supermarket",
+          "start_date": "2025-11-01",
+          "stroller": "yes",
+          "toilets": "yes",
+          "toilets:wheelchair": "yes",
+          "website": "https://locations.traderjoes.com/ut/riverdale/355/",
+          "wheelchair": "yes"
+        },
+        "lat": 41.1892616,
+        "lon": -111.9800135
+      },
+      {
+        "type": "node",
+        "id": 13297251392,
+        "tags": {
+          "brand": "Trader Joe's",
+          "brand:wikidata": "Q688825",
+          "name": "Trader Joe's",
+          "opening_hours": "Mo-Su 09:00-21:00",
+          "organic": "yes",
+          "shop": "supermarket"
+        },
+        "lat": 40.6649189,
+        "lon": -111.8377773
+      },
+      {
+        "type": "way",
+        "id": 580736696,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:country": "US",
+          "addr:housenumber": "2160",
+          "addr:postcode": "84106",
+          "addr:state": "UT",
+          "addr:street": "South 700 East",
+          "brand": "Trader Joe's",
+          "brand:wikidata": "Q688825",
+          "building": "retail",
+          "image": "https://p1.socds.net/account/5313/9TG8w-3AopC.jpg",
+          "name": "Trader Joe's",
+          "opening_hours": "Mo-Su 09:00-21:00",
+          "phone": "+1 801-720-8834",
+          "shop": "supermarket",
+          "start_date": "2024-10-11",
+          "website": "https://locations.traderjoes.com/ut/salt-lake-city/354/"
+        },
+        "center": {
+          "lat": 40.72399505,
+          "lon": -111.87227150000001
+        }
+      }
+    ],
+    "whole_foods": [
+      {
+        "type": "node",
+        "id": 2326348544,
+        "tags": {
+          "addr:city": "Cottonwood Heights",
+          "addr:housenumber": "6930",
+          "addr:postcode": "84121",
+          "addr:state": "UT",
+          "addr:street": "South Highland Drive",
+          "branch": "Cottonwood Heights",
+          "brand": "Whole Foods Market",
+          "brand:wikidata": "Q1809448",
+          "check_date": "2024-10-03",
+          "check_date:opening_hours": "2024-10-03",
+          "name": "Whole Foods Market",
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "phone": "+1 801-733-9455",
+          "ref": "highlanddrive",
+          "shop": "supermarket",
+          "website": "https://www.wholefoodsmarket.com/stores/highlanddrive"
+        },
+        "lat": 40.6250174,
+        "lon": -111.8357114
+      },
+      {
+        "type": "way",
+        "id": 139054377,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "1131",
+          "addr:postcode": "84106",
+          "addr:state": "UT",
+          "addr:street": "East Wilmington Avenue",
+          "branch": "Sugar House",
+          "brand": "Whole Foods Market",
+          "brand:wikidata": "Q1809448",
+          "building": "retail",
+          "check_date": "2024-10-03",
+          "check_date:opening_hours": "2024-10-03",
+          "delivery": "no",
+          "name": "Whole Foods Market",
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "operator": "Whole Foods",
+          "phone": "+1 801-359-7913",
+          "ref": "sugarhouse",
+          "shop": "supermarket",
+          "website": "https://www.wholefoodsmarket.com/stores/sugarhouse",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.72368375,
+          "lon": -111.85895605000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 143647428,
+        "tags": {
+          "access": "customers",
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "544",
+          "addr:postcode": "84102",
+          "addr:state": "UT",
+          "addr:street": "South 700 East",
+          "addr:unit": "C101",
+          "amenity": "parking",
+          "branch": "Trolley Square",
+          "brand": "Whole Foods Market",
+          "brand:wikidata": "Q1809448",
+          "building": "retail",
+          "capacity:disabled": "yes",
+          "check_date": "2024-10-03",
+          "check_date:opening_hours": "2024-10-03",
+          "covered": "yes",
+          "delivery": "no",
+          "fee": "no",
+          "internet_access": "wlan",
+          "internet_access:fee": "no",
+          "name": "Whole Foods Market",
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "operator": "Whole Foods",
+          "park_ride": "no",
+          "parking": "multi-storey",
+          "phone": "+1 801-924-9060",
+          "ref": "trolleysquare",
+          "shop": "supermarket",
+          "supervised": "no",
+          "surface": "concrete",
+          "website": "https://www.wholefoodsmarket.com/stores/trolleysquare",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.75786085,
+          "lon": -111.87199435000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 553841488,
+        "tags": {
+          "addr:city": "Park City",
+          "addr:housenumber": "6598",
+          "addr:postcode": "84098",
+          "addr:state": "UT",
+          "addr:street": "North Landmark Drive",
+          "branch": "Canyon Corners",
+          "brand": "Whole Foods Market",
+          "brand:wikidata": "Q1809448",
+          "building": "yes",
+          "check_date": "2024-10-03",
+          "check_date:opening_hours": "2024-10-03",
+          "name": "Whole Foods Market",
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "phone": "+1 435-575-0200",
+          "ref": "canyoncorners",
+          "shop": "supermarket",
+          "website": "https://www.wholefoodsmarket.com/stores/canyoncorners"
+        },
+        "center": {
+          "lat": 40.72729725000001,
+          "lon": -111.54696430000001
+        }
+      }
+    ],
+    "sprouts": [
+      {
+        "type": "node",
+        "id": 9776995101,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "216",
+          "addr:postcode": "84102",
+          "addr:state": "UT",
+          "addr:street": "South 700 East",
+          "branch": "Salt Lake City",
+          "brand": "Sprouts Farmers Market",
+          "brand:wikidata": "Q7581369",
+          "check_date": "2023-09-06",
+          "internet_access": "wlan",
+          "internet_access:fee": "no",
+          "name": "Sprouts Farmers Market",
+          "opening_hours": "Mo-Su 07:00-22:00",
+          "phone": "+1 801-364-1602",
+          "shop": "supermarket",
+          "short_name": "Sprouts",
+          "website": "https://www.sprouts.com/store/ut/salt-lake-city/salt-lake-city/"
+        },
+        "lat": 40.7645674,
+        "lon": -111.8727082
+      },
+      {
+        "type": "node",
+        "id": 12847921403,
+        "tags": {
+          "addr:city": "Bountiful",
+          "addr:country": "US",
+          "addr:housenumber": "155",
+          "addr:state": "UT",
+          "addr:street": "West 500 South",
+          "addr:unit": "2",
+          "brand": "Sprouts Farmers Market",
+          "brand:wikidata": "Q7581369",
+          "check_date": "2026-05-22",
+          "name": "Sprouts Farmers Market",
+          "opening_hours": "Mo-Su 07:00-22:00",
+          "phone": "+1 385-243-3247",
+          "shop": "supermarket",
+          "short_name": "Sprouts",
+          "website": "https://www.sprouts.com/store/ut/bountiful/w-500-s/"
+        },
+        "lat": 40.8835913,
+        "lon": -111.8839125
+      },
+      {
+        "type": "node",
+        "id": 13327176474,
+        "tags": {
+          "brand": "Sprouts Farmers Market",
+          "brand:wikidata": "Q7581369",
+          "name": "Sprouts Farmers Market",
+          "shop": "supermarket",
+          "short_name": "Sprouts"
+        },
+        "lat": 37.0835726,
+        "lon": -113.553159
+      },
+      {
+        "type": "way",
+        "id": 28800309,
+        "tags": {
+          "addr:city": "Orem",
+          "addr:housenumber": "1375",
+          "addr:postcode": "84097",
+          "addr:state": "UT",
+          "addr:street": "State Street",
+          "branch": "Orem",
+          "brand": "Sprouts Farmers Market",
+          "brand:wikidata": "Q7581369",
+          "building": "yes",
+          "building:levels": "1",
+          "contact:facebook": "SproutsFarmersMarket",
+          "contact:instagram": "sprouts",
+          "name": "Sprouts Farmers Market",
+          "opening_hours": "Mo-Su 07:00-22:00",
+          "phone": "+1 801-434-1501",
+          "shop": "supermarket",
+          "short_name": "Sprouts",
+          "website": "https://www.sprouts.com/store/ut/orem/orem/"
+        },
+        "center": {
+          "lat": 40.271816099999995,
+          "lon": -111.68257525000001
+        }
+      },
+      {
+        "type": "way",
+        "id": 397167926,
+        "tags": {
+          "addr:city": "Holladay",
+          "addr:housenumber": "1785",
+          "addr:postcode": "84117",
+          "addr:state": "UT",
+          "addr:street": "East Murray Holladay Road",
+          "branch": "Holladay",
+          "brand": "Sprouts Farmers Market",
+          "brand:wikidata": "Q7581369",
+          "building": "commercial",
+          "name": "Sprouts Farmers Market",
+          "opening_hours": "Mo-Su 07:00-22:00",
+          "phone": "+1 385-695-6817",
+          "shop": "supermarket",
+          "short_name": "Sprouts",
+          "website": "https://www.sprouts.com/store/ut/holladay/holladay/"
+        },
+        "center": {
+          "lat": 40.6672712,
+          "lon": -111.84078735000003
+        }
+      },
+      {
+        "type": "way",
+        "id": 440143282,
+        "tags": {
+          "addr:city": "South Jordan",
+          "addr:housenumber": "11519",
+          "addr:postcode": "84009",
+          "addr:state": "UT",
+          "addr:street": "South 4000 West",
+          "branch": "South Jordan",
+          "brand": "Sprouts Farmers Market",
+          "brand:wikidata": "Q7581369",
+          "building": "retail",
+          "check_date": "2022-11-22",
+          "name": "Sprouts Farmers Market",
+          "opening_hours": "Mo-Su 07:00-22:00",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "phone": "+1 385-695-6809",
+          "shop": "supermarket",
+          "short_name": "Sprouts",
+          "website": "https://www.sprouts.com/store/ut/south-jordan/south-jordan/",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 40.54091135,
+          "lon": -111.98521599999998
+        }
+      },
+      {
+        "type": "way",
+        "id": 721040615,
+        "tags": {
+          "addr:city": "Murray",
+          "addr:housenumber": "6284",
+          "addr:postcode": "84107",
+          "addr:state": "UT",
+          "addr:street": "South State Street",
+          "addr:unit": "S",
+          "branch": "Murray",
+          "brand": "Sprouts Farmers Market",
+          "brand:wikidata": "Q7581369",
+          "building": "retail",
+          "check_date": "2024-07-16",
+          "name": "Sprouts Farmers Market",
+          "opening_hours": "Mo-Su 07:00-22:00",
+          "phone": "+1 801-266-3566",
+          "shop": "supermarket",
+          "short_name": "Sprouts",
+          "website": "https://www.sprouts.com/store/ut/murray/murray/"
+        },
+        "center": {
+          "lat": 40.634426500000004,
+          "lon": -111.89054920000001
+        }
+      }
+    ],
+    "the_fresh_market": [
+      {
+        "type": "node",
+        "id": 1512366585,
+        "tags": {
+          "addr:housenumber": "5691",
+          "addr:postcode": "84403",
+          "addr:street": "South Harrison Boulevard",
+          "brand": "The Fresh Market",
+          "brand:wikidata": "Q7735265",
+          "check_date": "2023-03-04",
+          "name": "The Fresh Market",
+          "opening_hours": "Mo-Sa 06:00-23:00; Su 07:00-22:00",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "phone": "+1 801-479-0501",
+          "shop": "supermarket",
+          "website": "https://freshmarketstores.com/",
+          "wheelchair": "yes"
+        },
+        "lat": 41.1597179,
+        "lon": -111.941761
+      },
+      {
+        "type": "node",
+        "id": 5062833208,
+        "tags": {
+          "addr:city": "East Millcreek",
+          "addr:housenumber": "3865",
+          "addr:postcode": "84109",
+          "addr:state": "UT",
+          "addr:street": "East 3900 South",
+          "brand": "The Fresh Market",
+          "brand:wikidata": "Q7735265",
+          "name": "Fresh Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "shop": "supermarket",
+          "website": "https://freshmarketstores.com/39th_south"
+        },
+        "lat": 40.6876118,
+        "lon": -111.8231287
+      },
+      {
+        "type": "node",
+        "id": 9934680085,
+        "tags": {
+          "addr:city": "Ogden",
+          "addr:housenumber": "2044",
+          "addr:state": "UT",
+          "addr:street": "Harrison Boulevard",
+          "name": "Fresh Market",
+          "not:brand:wikidata": "Q7735265",
+          "shop": "supermarket"
+        },
+        "lat": 41.2297687,
+        "lon": -111.946677
+      },
+      {
+        "type": "way",
+        "id": 38060128,
+        "tags": {
+          "addr:city": "Layton",
+          "addr:housenumber": "910",
+          "addr:postcode": "84040",
+          "addr:state": "UT",
+          "addr:street": "North Fairfield Road",
+          "brand": "The Fresh Market",
+          "brand:wikidata": "Q7735265",
+          "building": "yes",
+          "check_date": "2025-05-27",
+          "name": "The Fresh Market",
+          "opening_hours": "Mo-Fr 06:00-22:00; Sa 06:00-23:00; Su 07:00-22:00",
+          "phone": "+1 801-544-1445",
+          "shop": "supermarket",
+          "website": "https://www.freshmarketstores.com/locations/east-layton"
+        },
+        "center": {
+          "lat": 41.073159950000004,
+          "lon": -111.94876885000002
+        }
+      },
+      {
+        "type": "way",
+        "id": 40263884,
+        "tags": {
+          "brand": "The Fresh Market",
+          "brand:wikidata": "Q7735265",
+          "building": "supermarket",
+          "name": "The Fresh Market",
+          "opening_hours": "Mo-Su 06:00-24:00",
+          "shop": "supermarket"
+        },
+        "center": {
+          "lat": 40.65948575,
+          "lon": -111.5066458
+        }
+      },
+      {
+        "type": "way",
+        "id": 431242749,
+        "tags": {
+          "building": "yes",
+          "name": "Fresh Market",
+          "not:brand:wikidata": "Q7735265",
+          "shop": "supermarket"
+        },
+        "center": {
+          "lat": 40.23432995,
+          "lon": -111.66882014999999
+        }
+      }
+    ],
+    "fresh_thyme": [],
+    "natural_grocers": [
+      {
+        "type": "node",
+        "id": 4610781520,
+        "tags": {
+          "addr:city": "Washington",
+          "addr:housenumber": "712",
+          "addr:postcode": "84780",
+          "addr:state": "UT",
+          "addr:street": "West Telegraph Street",
+          "brand": "Natural Grocers",
+          "brand:wikidata": "Q17146520",
+          "name": "Natural Grocers",
+          "phone": "+1 435-986-1100",
+          "shop": "supermarket",
+          "website": "https://www.naturalgrocers.com/store/saint-george"
+        },
+        "lat": 37.1295227,
+        "lon": -113.521842
+      },
+      {
+        "type": "node",
+        "id": 5271094906,
+        "tags": {
+          "addr:city": "Salt Lake City",
+          "addr:housenumber": "1033",
+          "addr:postcode": "84106",
+          "addr:state": "UT",
+          "addr:street": "East 2100 South",
+          "brand": "Natural Grocers",
+          "brand:wikidata": "Q17146520",
+          "contact:facebook": "NaturalGrocers",
+          "contact:instagram": "naturalgrocers",
+          "name": "Natural Grocers",
+          "opening_hours": "Mo-Sa 08:57-20:36; Su 08:57-19:36",
+          "phone": "+1-801-467-2920",
+          "shop": "supermarket",
+          "website": "https://www.naturalgrocers.com/store/salt-lake-city-sugar-house"
+        },
+        "lat": 40.7258995,
+        "lon": -111.86141
+      },
+      {
+        "type": "node",
+        "id": 9231616941,
+        "tags": {
+          "addr:city": "Logan",
+          "addr:country": "US",
+          "addr:housenumber": "1075",
+          "addr:postcode": "84341",
+          "addr:state": "UT",
+          "addr:street": "North Main Street",
+          "addr:unit": "Suite 120",
+          "brand": "Natural Grocers",
+          "brand:wikidata": "Q17146520",
+          "name": "Natural Grocers",
+          "opening_hours": "Mo-Sa 08:57-20:36; Su 08:57-19:36",
+          "phone": "+1-435-245-1294",
+          "shop": "supermarket",
+          "website": "https://www.naturalgrocers.com/store/logan"
+        },
+        "lat": 41.7511572,
+        "lon": -111.8360081
+      },
+      {
+        "type": "node",
+        "id": 13360540481,
+        "tags": {
+          "addr:city": "South Jordan",
+          "addr:housenumber": "10622",
+          "addr:postcode": "84095",
+          "addr:state": "UT",
+          "addr:street": "South Redwood Road",
+          "brand": "Natural Grocers",
+          "brand:wikidata": "Q17146520",
+          "name": "Natural Grocers",
+          "shop": "supermarket"
+        },
+        "lat": 40.5580017,
+        "lon": -111.9391421
+      },
+      {
+        "type": "node",
+        "id": 13669924186,
+        "tags": {
+          "addr:city": "Cedar City",
+          "addr:housenumber": "893",
+          "addr:postcode": "84720",
+          "addr:state": "UT",
+          "addr:street": "S Main Street",
+          "air_conditioning": "yes",
+          "brand": "Natural Grocers",
+          "brand:wikidata": "Q17146520",
+          "check_date": "2026-03-22",
+          "name": "Natural Grocers",
+          "opening_hours": "Mo-Sa 08:27-20:36; Su 08:57-19:36",
+          "organic": "only",
+          "phone": "+1 435 572 2226",
+          "shop": "supermarket",
+          "stroller": "yes",
+          "website": "https://www.naturalgrocers.com/store/cedar-city-ut",
+          "wheelchair": "yes"
+        },
+        "lat": 37.6614945,
+        "lon": -113.0682987
+      },
+      {
+        "type": "way",
+        "id": 51807950,
+        "tags": {
+          "addr:city": "Ogden",
+          "addr:housenumber": "270",
+          "addr:postcode": "84404",
+          "addr:state": "UT",
+          "addr:street": "12th Street",
+          "air_conditioning": "yes",
+          "brand": "Natural Grocers",
+          "brand:wikidata": "Q17146520",
+          "building": "yes",
+          "building:levels": "1",
+          "diet:gluten_free": "yes",
+          "diet:vegan": "yes",
+          "diet:vegetarian": "yes",
+          "name": "Natural Grocers",
+          "opening_hours": "Mo-Sa 09:00-20:30; Su 09:00-19:35",
+          "organic": "yes",
+          "phone": "+1 385-333-7768",
+          "shop": "supermarket",
+          "source": "Yahoo",
+          "stroller": "yes",
+          "website": "https://www.naturalgrocers.com/store/ogden",
+          "wheelchair": "yes"
+        },
+        "center": {
+          "lat": 41.2450042,
+          "lon": -111.97333144999999
+        }
+      },
+      {
+        "type": "way",
+        "id": 993450851,
+        "tags": {
+          "addr:city": "Bountiful",
+          "addr:housenumber": "55",
+          "addr:postcode": "84010",
+          "addr:state": "UT",
+          "addr:street": "West 500 South",
+          "brand": "Natural Grocers",
+          "brand:wikidata": "Q17146520",
+          "building": "retail",
+          "check_date": "2026-10-17",
+          "name": "Natural Grocers",
+          "opening_hours": "Mo-Sa 08:57-20:36; Su 08:57-19:36",
+          "phone": "+1-385-489-7013",
+          "shop": "supermarket",
+          "website": "https://www.naturalgrocers.com/store/bountiful"
+        },
+        "center": {
+          "lat": 40.8839314,
+          "lon": -111.88211739999997
+        }
+      }
+    ],
+    "grocery_outlet": [
+      {
+        "type": "way",
+        "id": 347682601,
+        "tags": {
+          "addr:city": "Provo",
+          "addr:housenumber": "1045",
+          "addr:postcode": "84601",
+          "addr:state": "UT",
+          "addr:street": "South University Avenue",
+          "brand": "Grocery Outlet",
+          "brand:wikidata": "Q5609934",
+          "building": "yes",
+          "name": "Grocery Outlet",
+          "official_name": "Grocery Outlet Bargain Market",
+          "shop": "supermarket"
+        },
+        "center": {
+          "lat": 40.2196316,
+          "lon": -111.65680635000001
+        }
+      }
+    ],
+    "amazon_fresh": [],
+    "earth_fare": [],
+    "moms_organic_market": [],
+    "new_seasons_market": [],
+    "market_of_choice": [],
+    "ingles": [],
+    "food_city": [],
+    "lowes_foods": [],
+    "piggly_wiggly": [],
+    "schnucks": [],
+    "dierbergs": [],
+    "lund_and_byerlys": [],
+    "kowalskis_markets": [],
+    "festival_foods": [],
+    "woodmans": [],
+    "market_basket": [],
+    "big_y": [],
+    "roche_bros": [],
+    "save_a_lot": [],
+    "brookshires": [],
+    "cardenas_markets": [],
+    "el_super": [],
+    "northgate_market": [],
+    "superior_grocers": [],
+    "vallarta_supermarkets": [],
+    "h_mart": [
+      {
+        "type": "way",
+        "id": 477899909,
+        "tags": {
+          "addr:city": "West Jordan",
+          "addr:housenumber": "1442",
+          "addr:postcode": "84088",
+          "addr:state": "UT",
+          "addr:street": "West 9000 South",
+          "alt_name:ko": "H 마트",
+          "brand": "H Mart",
+          "brand:wikidata": "Q5636306",
+          "building": "business",
+          "cuisine": "asian",
+          "name": "H Mart",
+          "name:en": "H Mart",
+          "name:ko": "한아름",
+          "name:zh-Hans": "韩亚龙",
+          "name:zh-Hant": "韓亞龍",
+          "opening_hours": "Mo-Su 08:00-21:30",
+          "shop": "supermarket"
+        },
+        "center": {
+          "lat": 40.589193699999996,
+          "lon": -111.93266745
+        }
+      }
+    ],
+    "99_ranch_market": [],
+    "patel_brothers": [],
+    "seafood_city": [],
+    "mitsuwa_marketplace": [],
+    "lotte_plaza_market": [],
+    "super_king_markets": [],
+    "fiesta_mart": []
+  }
+}

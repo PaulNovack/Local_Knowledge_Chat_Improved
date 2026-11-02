@@ -219,6 +219,61 @@ set +a` sequence above. Quote values containing spaces.
 | `ASR_TIMEOUT` | `60` | HTTP timeout in seconds for the ASR service |
 | `ALLOWED_ORIGINS` | localhost/127.0.0.1 port 8000 | Comma-separated allowed browser origins |
 
+## Driving directions and routing
+
+The locator can use your browser's current location to find nearby businesses.
+Allow location access when prompted. For Love's and Roady's, the app compares
+your location with saved store coordinates and, when recent movement is
+available, prefers a store roughly ahead of your direction of travel. If it
+cannot determine a heading or find a store ahead, it reports the nearest
+overall. Location and movement data are scoped to your chat session.
+
+When a result includes a destination, the built-in directions view can show a
+driving route and turn-by-turn instructions. Configure a MapQuest API key in
+the environment before starting the app:
+
+```bash
+MAPQUEST_API_KEY=your_mapquest_api_key
+```
+
+The app requests a fastest route from MapQuest; without a key, the built-in
+route service is unavailable. The map uses OpenStreetMap tiles. Routes and
+instructions come from the routing provider, not from the chat model, and may
+change as provider data or route calculations change. Use normal driving
+judgment and follow posted signs; the app is not a substitute for safe
+navigation.
+
+### Deterministic handlers versus model answers
+
+Some questions have a code-driven, deterministic handler. Examples include
+numbered inspection steps, supported restaurant lookups, and nearest-store
+queries. These handlers match a question to structured local data and return a
+fixed-format result; nearest-store selection uses the current session location
+and store coordinates. The result can still change when the location, stored
+data, or direction of travel changes.
+
+Other questions use the regular retrieval-augmented generation (RAG) path: the
+app searches the selected topic's vector collection, then asks Ollama to write
+an answer from the retrieved excerpts. Retrieval and model-generated wording
+are not guaranteed to be identical across runs. For answers that must follow a
+specific lookup or calculation, use a supported deterministic handler rather
+than relying on the model to infer it from prose.
+
+### How `routerFunctions` is used
+
+`routerFunctions` is a table in the local chat-history SQLite database. It
+contains the names of the available routing handlers and supplies the choices
+shown when training an answer with a route name. Training data may also include
+a `routerFunction` name and a `key` (for example, an inspection step number).
+Those fields are stored with the data so a question can be directed to its
+matching lookup instead of answered as ordinary generated prose.
+
+At runtime, the backend checks registered handlers against the question and,
+when relevant, retrieved records. A match can return a router-generated source
+and answer directly; otherwise, the request continues through vector search
+and the chat model. The table is a registry of names, not executable code:
+adding a name to `routerFunctions` alone does not create a handler. The
+corresponding matcher and answer logic must also be implemented in the backend.
 
 The app intentionally defaults to localhost. It has no user authentication or
 rate limits beyond the generation semaphore; use a proper authenticated reverse

@@ -68,6 +68,12 @@
       return;
     }
     const location = locationToSend();
+    window.locatorCurrentLocation = location
+      ? {latitude: location.latitude, longitude: location.longitude}
+      : null;
+    if (location) {
+      window.dispatchEvent(new CustomEvent('locator-location-updated', {detail: location}));
+    }
     const clearLocation = isLoopbackHost && overrideEnabled && !overrideEnabled.checked && !browserLocation;
     if (!location && !clearLocation) return;
     sending = true;
@@ -75,7 +81,9 @@
       const response = await fetch('/api/geolocation', {
         method: 'POST',
         headers: {'content-type': 'application/json'},
-        body: JSON.stringify(location || {latitude: null, longitude: null}),
+        body: JSON.stringify(location
+          ? {latitude: location.latitude, longitude: location.longitude}
+          : {latitude: null, longitude: null}),
       });
       if (!response.ok) {
         console.warn(`Location update rejected by the server (${response.status}).`);
@@ -114,7 +122,18 @@
       browserLocation = {
         latitude: position.coords.latitude,
         longitude: position.coords.longitude,
+        heading: position.coords.heading,
+        speed: position.coords.speed,
       };
+      if (!(isLoopbackHost && overrideEnabled?.checked)) {
+        window.dispatchEvent(new CustomEvent('locator-heading-updated', {
+          detail: {
+            ...browserLocation,
+            heading: position.coords.heading,
+            speed: position.coords.speed,
+          },
+        }));
+      }
       if (!sentInitialLocation && !(isLoopbackHost && overrideEnabled?.checked)) {
         sentInitialLocation = true;
         void sendLocation();

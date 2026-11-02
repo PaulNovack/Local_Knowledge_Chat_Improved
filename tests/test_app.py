@@ -8,7 +8,7 @@ import pytest
 from fastapi.testclient import TestClient
 from qdrant_client import QdrantClient
 
-from backend.core import Settings, Store, ensure_chat_history_db, read_records, documents, sync_qdrant_topic_to_sqlite, sync_qdrant_topics_to_sqlite, topic_name
+from backend.core import Settings, Store, ensure_chat_history_db, read_chat_history, read_chat_navigation_data, read_records, documents, save_chat_history, save_chat_navigation_data, sync_qdrant_topic_to_sqlite, sync_qdrant_topics_to_sqlite, topic_name
 from backend.ingest import import_file
 from backend.app import create_app, _is_date_question, _reload_saved_corrections
 from backend.following_distance import answer_following_distance, _parse
@@ -93,7 +93,9 @@ def test_fresh_sqlite_database_seeds_router_functions(tmp_path):
     assert rows == [
         (1, ''), (2, 'Pre-trip Text'), (3, 'Pre-trip Video'), (4, 'Closest Loves'),
         (5, 'Closest Roadys'), (6, 'Closest McDonalds'), (7, 'Closest Restaurant'),
-        (8, 'Supported Restaurants'), (9, 'Open Directions'),
+        (8, 'Closest Department Store'), (9, 'Closest Grocery Store'),
+        (10, 'List Grocer Stores'), (11, 'Show Number Direction'),
+        (12, 'Supported Restaurants'), (13, 'Open Directions'), (14, 'Close Directions'),
     ]
     assert {'topic', 'id', 'routerFunction', 'key'} <= topic_columns
     assert {'routerFunction', 'key'} <= history_columns
@@ -105,10 +107,64 @@ def test_web_code_assets_are_revalidated(settings, store, tmp_path, monkeypatch)
     monkeypatch.setattr('backend.app.ensure_chat_history_db', lambda: ensure_chat_history_db(database))
     ollama = httpx.AsyncClient(base_url='http://ollama')
     with TestClient(create_app(settings, store, ollama)) as client:
-        for asset in ('/app.js', '/'):
+        for asset in ('/app.js', '/', '/mapquest-directions/', '/mapquest-directions.js'):
             response = client.get(asset)
             assert response.status_code == 200
             assert response.headers['cache-control'] == 'no-cache, max-age=0, must-revalidate'
+
+
+def test_mapquest_route_proxy_keeps_api_key_server_side(settings, store, tmp_path, monkeypatch):
+    database = tmp_path / 'chat_history.sqlite3'
+    monkeypatch.setattr('backend.app.ensure_chat_history_db', lambda: ensure_chat_history_db(database))
+    settings.mapquest_api_key = 'test-mapquest-key'
+    seen = {}
+
+    def handle_mapquest(request):
+        seen['url'] = request.url
+        return httpx.Response(200, json={
+            'route': {
+                'shape': {'shapePoints': [30.1, -97.2, 30.2, -97.3]},
+                'distance': 8.5,
+                'formattedTime': '00:14:00',
+                'legs': [{'maneuvers': [
+                    {'narrative': 'Turn right onto Main St.', 'distance': 0.4, 'formattedTime': '00:01:00',
+                     'startPoint': {'lat': 30.15, 'lng': -97.25}},
+                    {'narrative': 'Arrive at destination.', 'distance': 0, 'formattedTime': '00:00:00',
+                     'startPoint': {'lat': 30.2, 'lng': -97.3}},
+                ]}],
+            },
+            'info': {'statuscode': 0},
+        })
+
+    mapquest = httpx.AsyncClient(transport=httpx.MockTransport(handle_mapquest))
+    app = create_app(
+        settings,
+        store,
+        httpx.AsyncClient(base_url='http://ollama'),
+        mapquest_client=mapquest,
+    )
+    with TestClient(app) as client:
+        response = client.post(
+            '/api/mapquest/route',
+            json={'origin': '30.1,-97.2', 'destination': '30.2,-97.3'},
+            headers={'origin': 'http://127.0.0.1:8000'},
+        )
+
+    assert response.status_code == 200
+    assert response.json() == {
+        'points': [[30.1, -97.2], [30.2, -97.3]],
+        'distance': 8.5,
+        'formattedTime': '00:14:00',
+        'maneuvers': [
+            {'narrative': 'Turn right onto Main St.', 'distance': 0.4, 'formattedTime': '00:01:00',
+             'point': [30.15, -97.25]},
+            {'narrative': 'Arrive at destination.', 'distance': 0, 'formattedTime': '00:00:00',
+             'point': [30.2, -97.3]},
+        ],
+    }
+    assert seen['url'].params['key'] == 'test-mapquest-key'
+    assert 'test-mapquest-key' not in response.text
+    asyncio.run(mapquest.aclose())
 
 
 def test_geolocation_endpoint_sets_session_and_records_requests(settings, store, tmp_path, monkeypatch):
@@ -399,6 +455,7 @@ def test_closest_restaurant_route_uses_shared_chain_and_recent_heading(tmp_path)
     assert bubblegum_shrimp_result['key'] == 'bubba_gump_shrimp_company'
     assert 'The closest Bubba Gump Shrimp Company' in bubblegum_shrimp_result['text']
 
+
     torchys_result = resolve_routed_answer(
         'CDLA', "What is the nearest torches taco restaurant in the direction I'm going?",
         database, 'moving-session',
@@ -443,6 +500,208 @@ def test_closest_restaurant_route_uses_shared_chain_and_recent_heading(tmp_path)
         'CDLA', 'What is the nearest pharmacy?', database, 'moving-session',
         [{'routerFunction': 'Closest Restaurant', 'key': 'bubba_gump_shrimp_company'}],
     ) is None
+
+
+def test_closest_department_store_route_uses_recent_heading_and_store_details(tmp_path):
+    database = ensure_chat_history_db(tmp_path / 'chat_history.sqlite3')
+    with sqlite3.connect(database) as db:
+        db.execute('''CREATE TABLE department_macys (
+            osm_type TEXT NOT NULL, osm_id INTEGER NOT NULL, source_state TEXT NOT NULL,
+            state TEXT, name TEXT, latitude REAL, longitude REAL, address TEXT, city TEXT,
+            postal_code TEXT, phone TEXT, website TEXT, shop TEXT, opening_hours TEXT,
+            brand TEXT, brand_wikidata TEXT, tags_json TEXT NOT NULL, geometry_warning TEXT,
+            source_url TEXT NOT NULL, source_md5 TEXT NOT NULL, processed_utc TEXT NOT NULL,
+            PRIMARY KEY (osm_type, osm_id, source_state)
+        )''')
+        db.executemany('''
+            INSERT INTO department_macys (
+                osm_type, osm_id, source_state, name, latitude, longitude, address, city,
+                state, postal_code, phone, website, opening_hours, tags_json, source_url,
+                source_md5, processed_utc
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ''', [
+            ('node', 1, 'TX', "Macy's", 30.2, -97.0, '100 Main St, Austin, TX 78701',
+             'Austin', 'TX', '78701', '+1-512-555-0100', 'https://example.com',
+             'Mo-Su 09:00-21:00', '{}', 'test', 'test', 'test'),
+            ('node', 2, 'TX', "Macy's", 29.99, -97.0, '200 Nearby Rd, Austin, TX 78702',
+             'Austin', 'TX', '78702', None, None, None, '{}', 'test', 'test', 'test'),
+            ('node', 3, 'TX', "Macy's", 30.001, -96.96, 'TX', None, 'TX', None,
+             None, None, None, '{}', 'test', 'test', 'test'),
+        ])
+        db.executemany(
+            'INSERT INTO user_location_events(session_id, latitude, longitude) VALUES (?, ?, ?)',
+            [('moving-session', 29.95, -97.0), ('moving-session', 30.0, -97.0),
+             ('stationary-session', 30.001, -96.96)],
+        )
+
+    result = resolve_routed_answer(
+        'CDLA', "What is the nearest Macy's department store in my direction of travel?",
+        database, 'moving-session',
+    )
+
+    assert result['routerFunction'] == 'Closest Department Store'
+    assert result['key'] == 'macys'
+    assert result['directions'] == {
+        'address': '100 Main St, Austin, Texas', 'latitude': 30.2, 'longitude': -97.0,
+    }
+    assert 'in the direction you are heading' in result['text']
+    assert 'Address: 100 Main St, Austin, Texas' in result['text']
+    assert 'Hours:' in result['text']
+    assert 'Phone: 512 555 0100' in result['text']
+    assert 'Website: https://example.com' in result['text']
+
+    keyed_result = resolve_routed_answer(
+        'CDLA', 'Where is the nearest store?', database, 'moving-session', [{
+            'question': 'What is the nearest Macy\'s department store in my direction of travel?',
+            'routerFunction': 'Closest Department Store', 'key': 'macys',
+        }],
+    )
+    assert keyed_result['routerFunction'] == 'Closest Department Store'
+    assert keyed_result['key'] == 'macys'
+    assert 'The closest Macy\'s' in keyed_result['text']
+
+    no_address_result = resolve_routed_answer(
+        'CDLA', "What is the nearest Macy's department store?",
+        database, 'stationary-session',
+    )
+    assert no_address_result['directions']['address'] == ''
+    assert 'Address: not available in the imported data.' in no_address_result['text']
+    assert 'Address: Texas' not in no_address_result['text']
+
+
+def test_closest_grocery_store_route_uses_recent_heading_and_store_details(tmp_path):
+    database = ensure_chat_history_db(tmp_path / 'chat_history.sqlite3')
+    with sqlite3.connect(database) as db:
+        db.execute('''CREATE TABLE grocery_kroger (
+            osm_type TEXT NOT NULL, osm_id INTEGER NOT NULL, source_state TEXT NOT NULL,
+            state TEXT, name TEXT, latitude REAL, longitude REAL, address TEXT, city TEXT,
+            postal_code TEXT, phone TEXT, website TEXT, shop TEXT, opening_hours TEXT,
+            brand TEXT, brand_wikidata TEXT, tags_json TEXT NOT NULL, geometry_warning TEXT,
+            source_url TEXT NOT NULL, source_md5 TEXT NOT NULL, processed_utc TEXT NOT NULL,
+            PRIMARY KEY (osm_type, osm_id, source_state)
+        )''')
+        db.executemany('''
+            INSERT INTO grocery_kroger (
+                osm_type, osm_id, source_state, name, latitude, longitude, address, city,
+                state, postal_code, phone, website, opening_hours, tags_json, source_url,
+                source_md5, processed_utc
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ''', [
+            ('node', 1, 'TX', 'Kroger', 30.2, -97.0, '100 Main St, Austin, TX 78701',
+             'Austin', 'TX', '78701', '+1-512-555-0100', 'https://example.com',
+             'Mo-Su 09:00-21:00', '{}', 'test', 'test', 'test'),
+            ('node', 2, 'TX', 'Kroger', 29.99, -97.0, '200 Nearby Rd, Austin, TX 78702',
+             'Austin', 'TX', '78702', None, None, None, '{}', 'test', 'test', 'test'),
+            ('node', 3, 'TX', 'Kroger', 30.001, -96.96, 'TX', None, 'TX', None,
+             None, None, None, '{}', 'test', 'test', 'test'),
+        ])
+        db.executemany(
+            'INSERT INTO user_location_events(session_id, latitude, longitude) VALUES (?, ?, ?)',
+            [('moving-session', 29.95, -97.0), ('moving-session', 30.0, -97.0),
+             ('stationary-session', 30.001, -96.96)],
+        )
+
+    result = resolve_routed_answer(
+        'CDLA', 'What is the nearest Kroger grocery store in the direction of travel?',
+        database, 'moving-session',
+    )
+
+    assert result['routerFunction'] == 'Closest Grocery Store'
+    assert result['key'] == 'kroger'
+    assert result['directions'] == {
+        'address': '100 Main St, Austin, Texas', 'latitude': 30.2, 'longitude': -97.0,
+    }
+    assert 'in the direction you are heading' in result['text']
+    assert 'Address: 100 Main St, Austin, Texas' in result['text']
+    assert 'Hours:' in result['text']
+    assert 'Phone: 512 555 0100' in result['text']
+    assert 'Website: https://example.com' in result['text']
+
+    keyed_result = resolve_routed_answer(
+        'CDLA', 'Where is the nearest store?', database, 'moving-session', [{
+            'question': 'What is the nearest Kroger grocery store in the direction of travel?',
+            'routerFunction': 'Closest Grocery Store', 'key': 'kroger',
+        }],
+    )
+    assert keyed_result['routerFunction'] == 'Closest Grocery Store'
+    assert keyed_result['key'] == 'kroger'
+
+    overlapping_brand_result = resolve_routed_answer(
+        'CDLA', 'What is the nearest Walmart grocery store in the direction of travel?',
+        database, 'moving-session', [{
+            'routerFunction': 'Closest Department Store', 'key': 'walmart',
+        }],
+    )
+    assert overlapping_brand_result['routerFunction'] == 'Closest Grocery Store'
+    assert overlapping_brand_result['key'] == 'walmart'
+
+    no_address_result = resolve_routed_answer(
+        'CDLA', 'What is the nearest Kroger grocery store?', database, 'stationary-session',
+    )
+    assert no_address_result['directions']['address'] == ''
+    assert 'Address: not available in the imported data.' in no_address_result['text']
+
+
+def test_grocery_list_and_numbered_directions_are_session_scoped(tmp_path):
+    database = ensure_chat_history_db(tmp_path / 'chat_history.sqlite3')
+    with sqlite3.connect(database) as db:
+        db.execute('''CREATE TABLE grocery_kroger (
+            name TEXT, latitude REAL, longitude REAL, address TEXT, city TEXT,
+            state TEXT, postal_code TEXT, phone TEXT, website TEXT, opening_hours TEXT
+        )''')
+        db.executemany('''
+            INSERT INTO grocery_kroger (
+                name, latitude, longitude, address, city, state, postal_code,
+                phone, website, opening_hours
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ''', [
+            (f'Kroger {number}', 30.0 + number * 0.01, -97.0,
+             f'{number} Main St, Austin, TX', 'Austin', 'TX', '',
+             None, None, None)
+            for number in range(1, 7)
+        ])
+        db.execute(
+            'INSERT INTO user_location_events(session_id, latitude, longitude) VALUES (?, ?, ?)',
+            ('list-session', 30.0, -97.0),
+        )
+
+    listed = resolve_routed_answer(
+        'CDLA', 'Show me list of Kroger grocery stores?',
+        database, 'list-session',
+    )
+
+    assert listed['routerFunction'] == 'List Grocer Stores'
+    assert listed['key'] == 'kroger'
+    assert [store['number'] for store in listed['directionsList']] == [1, 2, 3, 4, 5]
+    assert [store['name'] for store in listed['directionsList']] == [
+        'Kroger 1', 'Kroger 2', 'Kroger 3', 'Kroger 4', 'Kroger 5',
+    ]
+
+    selected = resolve_routed_answer(
+        'CDLA', 'Show me directions for 3', database, 'list-session',
+    )
+    assert selected['routerFunction'] == 'Show Number Direction'
+    assert selected['key'] == 3
+    assert selected['directions']['name'] == 'Kroger 3'
+    assert selected['directions']['latitude'] == pytest.approx(30.03)
+
+    selected_word = resolve_routed_answer(
+        'CDLA', 'Show me directions for three.', database, 'list-session',
+    )
+    assert selected_word['key'] == 3
+    assert selected_word['directions']['name'] == 'Kroger 3'
+
+    invalid_number = resolve_routed_answer(
+        'CDLA', 'Show me directions for 6', database, 'list-session',
+    )
+    assert invalid_number['directions'] is None
+    assert 'from 1 through 5' in invalid_number['text']
+
+    other_session = resolve_routed_answer(
+        'CDLA', 'Show me directions for 3', database, 'other-session',
+    )
+    assert other_session['directions'] is None
+    assert 'do not have a numbered' in other_session['text']
 
 
 def test_closest_restaurant_unknown_chain_returns_data_apology(tmp_path):
@@ -1122,6 +1381,82 @@ def test_view_responses_api_paginates_newest_first(tmp_path, monkeypatch, settin
     assert [item['ID'] for item in second_data['items']] == [2]
 
 
+def test_chat_navigation_data_is_session_scoped_and_includes_gps_trail(tmp_path):
+    db_path = tmp_path / 'database' / 'chat_history.sqlite3'
+    ensure_chat_history_db(db_path)
+    session_id = 'a' * 32
+    response_id = save_chat_history(
+        'CDLA', 'Find the closest location', 'Route ready.', path=db_path, session_id=session_id,
+    )
+    navigation = {
+        'origin': '35.1,-90.2',
+        'destination': '35.2,-90.3',
+        'distance': 12.5,
+        'formattedTime': '00:20:00',
+        'points': [[35.1, -90.2], [35.2, -90.3]],
+        'maneuvers': [{'narrative': 'Continue on Main Rd.', 'distance': 1.2, 'formattedTime': '00:02:00', 'point': [35.1, -90.2]}],
+    }
+    assert save_chat_navigation_data(response_id, session_id, navigation, path=db_path)
+    assert not save_chat_navigation_data(response_id, 'b' * 32, navigation, path=db_path)
+    with sqlite3.connect(db_path) as db:
+        db.executemany(
+            'INSERT INTO user_location_events(session_id, latitude, longitude) VALUES (?, ?, ?)',
+            [(session_id, 35.1, -90.2), ('b' * 32, 40.0, -75.0)],
+        )
+
+    saved = read_chat_navigation_data(response_id, path=db_path)
+    history = read_chat_history(page=1, page_size=10, path=db_path)
+    assert saved['session_id'] == session_id
+    assert saved['navigation'] == navigation
+    assert [(point['latitude'], point['longitude']) for point in saved['gps_trail']] == [(35.1, -90.2)]
+    assert history['items'][0]['session_id'] == session_id
+    assert history['items'][0]['navigation_data'] == navigation
+
+
+def test_response_navigation_api_saves_and_reads_for_session(tmp_path, monkeypatch, settings, store):
+    monkeypatch.setattr('backend.core.ROOT', tmp_path)
+    monkeypatch.setattr('backend.app.ROOT', tmp_path)
+    (tmp_path / 'web').mkdir()
+
+    def handle(request):
+        if request.url.path == '/api/tags':
+            return httpx.Response(200, json={'models': [{'name': 'test'}, {'name': 'test-embed:latest'}]})
+        return httpx.Response(200, json={'embeddings': [[1.0, 0.0, 0.0]]})
+
+    ollama = httpx.AsyncClient(base_url='http://ollama', transport=httpx.MockTransport(handle))
+    app = create_app(settings, store, ollama)
+    db_path = tmp_path / 'database' / 'chat_history.sqlite3'
+    session_id = 'c' * 32
+    response_id = save_chat_history(
+        'CDLA', 'Find a route', 'Route found.', path=db_path, session_id=session_id,
+    )
+    navigation = {
+        'origin': '35.1,-90.2',
+        'destination': '35.2,-90.3',
+        'distance': 12.5,
+        'formattedTime': '00:20:00',
+        'points': [[35.1, -90.2], [35.2, -90.3]],
+        'maneuvers': [{'narrative': 'Continue on Main Road.', 'distance': 1.2, 'formattedTime': '00:02:00', 'point': [35.1, -90.2]}],
+    }
+    with TestClient(app) as client:
+        client.cookies.set('session_id', session_id)
+        saved = client.post(
+            f'/api/responses/{response_id}/navigation', json=navigation,
+            headers={'origin': 'http://testserver'},
+        )
+        loaded = client.get(f'/api/responses/{response_id}/navigation')
+        client.cookies.set('session_id', 'd' * 32)
+        wrong_session = client.post(
+            f'/api/responses/{response_id}/navigation', json=navigation,
+            headers={'origin': 'http://testserver'},
+        )
+
+    assert saved.status_code == 200
+    assert loaded.status_code == 200
+    assert loaded.json()['navigation'] == navigation
+    assert wrong_session.status_code == 404
+
+
 def test_view_responses_api_filters_by_keyword(tmp_path, monkeypatch, settings, store):
     monkeypatch.setattr('backend.core.ROOT', tmp_path)
     monkeypatch.setattr('backend.app.ROOT', tmp_path)
@@ -1315,36 +1650,53 @@ def test_train_endpoint_persists_and_upserts(tmp_path, monkeypatch, settings, st
         options = client.get('/api/router-functions')
         assert options.json()['routerFunctions'] == [
             '', 'Pre-trip Text', 'Pre-trip Video', 'Closest Loves', 'Closest Roadys',
-            'Closest McDonalds', 'Closest Restaurant', 'Supported Restaurants', 'Open Directions',
+            'Closest McDonalds', 'Closest Restaurant', 'Closest Department Store',
+            'Closest Grocery Store', 'List Grocer Stores', 'Show Number Direction',
+            'Supported Restaurants',
+            'Open Directions', 'Close Directions',
         ]
         response = client.post('/api/train', headers={'origin': 'http://127.0.0.1:8000'}, json={
             'topic': 'PHP',
-            'question': 'What is PHP?',
-            'answer': 'PHP is a general-purpose scripting language for web development.',
-            'routerFunction': 'Supported Restaurants',
+            'question': 'Close Directions',
+            'answer': 'Close Directions',
+            'routerFunction': 'Close Directions',
             'key': '',
         })
         assert response.status_code == 200
         payload = response.json()
         assert payload['ok'] is True
+        grocery_response = client.post('/api/train', headers={'origin': 'http://127.0.0.1:8000'}, json={
+            'topic': 'PHP',
+            'question': 'What is the nearest Kroger grocery store in the direction I am traveling?',
+            'answer': 'Find the nearest Kroger grocery store using the current location and direction of travel.',
+            'routerFunction': 'Closest Grocery Store',
+            'key': 'kroger',
+        })
+        assert grocery_response.status_code == 200
 
     saved = tmp_path / 'topic_data' / 'user_additions' / 'PHP.jsonl'
     assert saved.exists()
-    assert 'PHP is a general-purpose scripting language for web development.' in saved.read_text(encoding='utf-8')
-    saved_record = json.loads(saved.read_text(encoding='utf-8').splitlines()[0])
-    assert (saved_record['routerFunction'], saved_record['key']) == ('Supported Restaurants', '')
+    saved_records = [json.loads(line) for line in saved.read_text(encoding='utf-8').splitlines()]
+    saved_record = next(record for record in saved_records if record['question'] == 'Close Directions')
+    assert (saved_record['routerFunction'], saved_record['key']) == ('Close Directions', '')
     doc = list(documents(saved_record))[0]
     point = store.client.retrieve(store.name('PHP'), [doc['id']], with_payload=True)[0]
-    assert (point.payload['routerFunction'], point.payload['key']) == ('Supported Restaurants', '')
+    assert (point.payload['routerFunction'], point.payload['key']) == ('Close Directions', '')
     sync_qdrant_topic_to_sqlite(store, 'PHP', tmp_path / 'database' / 'chat_history.sqlite3')
     with sqlite3.connect(tmp_path / 'database' / 'chat_history.sqlite3') as db:
         route, key = db.execute(
             'SELECT routerFunction, "key" FROM topic_data WHERE topic = ? AND id = ?',
             ('PHP', doc['id']),
         ).fetchone()
-    assert (route, key) == ('Supported Restaurants', '')
+    assert (route, key) == ('Close Directions', '')
     results = store.search('PHP', [1.0, 0.0, 0.0])
-    assert any(item['text'] == 'PHP is a general-purpose scripting language for web development.' for item in results)
+    assert any(item['text'] == 'Close Directions' for item in results)
+    grocery_record = next(record for record in saved_records if record['routerFunction'] == 'Closest Grocery Store')
+    grocery_doc = list(documents(grocery_record))[0]
+    grocery_point = store.client.retrieve(store.name('PHP'), [grocery_doc['id']], with_payload=True)[0]
+    assert (grocery_point.payload['routerFunction'], grocery_point.payload['key']) == (
+        'Closest Grocery Store', 'kroger',
+    )
 
 
 def test_train_endpoint_skips_duplicate_corrections(tmp_path, monkeypatch, settings, store):

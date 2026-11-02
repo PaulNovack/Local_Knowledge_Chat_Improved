@@ -57,6 +57,93 @@ function renderEmpty(message) {
   $('responses').replaceChildren(empty);
 }
 
+function renderNavigationDebug(data) {
+  const content = document.createElement('div');
+  content.className = 'navigation-debug-content';
+  const session = document.createElement('p');
+  session.textContent = `Session ID: ${data.session_id || 'Unavailable'}`;
+  content.append(session);
+
+  const navigation = data.navigation || {};
+  if (navigation.origin || navigation.destination) {
+    const summary = document.createElement('p');
+    const distance = Number(navigation.distance);
+    const routeSummary = [
+      `Route: ${navigation.origin || 'Unknown origin'} to ${navigation.destination || 'Unknown destination'}`,
+      Number.isFinite(distance) ? `${distance.toFixed(1)} miles` : '',
+      navigation.formattedTime || '',
+    ].filter(Boolean).join(' · ');
+    summary.textContent = routeSummary;
+    content.append(summary);
+  }
+
+  const maneuvers = Array.isArray(navigation.maneuvers) ? navigation.maneuvers : [];
+  if (maneuvers.length) {
+    const heading = document.createElement('h3');
+    heading.textContent = `Turn instructions (${maneuvers.length})`;
+    const list = document.createElement('ol');
+    for (const maneuver of maneuvers) {
+      const item = document.createElement('li');
+      const detail = [
+        typeof maneuver.distance === 'number' ? `${maneuver.distance.toFixed(2)} mi` : '',
+        maneuver.formattedTime || '',
+        Array.isArray(maneuver.point) ? `at ${maneuver.point.join(', ')}` : '',
+      ].filter(Boolean).join(' · ');
+      item.textContent = `${maneuver.narrative || 'Instruction unavailable'}${detail ? ` (${detail})` : ''}`;
+      list.append(item);
+    }
+    content.append(heading, list);
+  }
+
+  const geometry = document.createElement('details');
+  const geometrySummary = document.createElement('summary');
+  const points = Array.isArray(navigation.points) ? navigation.points : [];
+  geometrySummary.textContent = `Route geometry (${points.length} points)`;
+  const geometryData = document.createElement('pre');
+  geometryData.textContent = JSON.stringify(points, null, 2);
+  geometry.append(geometrySummary, geometryData);
+  content.append(geometry);
+
+  const trail = Array.isArray(data.gps_trail) ? data.gps_trail : [];
+  const trailDetails = document.createElement('details');
+  const trailSummary = document.createElement('summary');
+  trailSummary.textContent = `Session GPS trail (${trail.length} points)`;
+  const trailData = document.createElement('pre');
+  trailData.textContent = JSON.stringify(trail, null, 2);
+  trailDetails.append(trailSummary, trailData);
+  content.append(trailDetails);
+  return content;
+}
+
+function createNavigationDetails(item) {
+  const details = document.createElement('details');
+  details.className = 'navigation-debug';
+  const summary = document.createElement('summary');
+  const maneuverCount = Array.isArray(item.navigation_data?.maneuvers)
+    ? item.navigation_data.maneuvers.length
+    : 0;
+  summary.textContent = `Navigation data${maneuverCount ? ` · ${maneuverCount} turns` : ''}`;
+  const content = document.createElement('div');
+  content.className = 'navigation-debug-content';
+  content.textContent = 'Open to load route and session GPS data.';
+  details.append(summary, content);
+  let loaded = false;
+  details.addEventListener('toggle', async () => {
+    if (!details.open || loaded) return;
+    content.textContent = 'Loading navigation data…';
+    try {
+      const response = await fetch(`/api/responses/${item.ID}/navigation`, {cache: 'no-store'});
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.detail || 'Unable to load navigation data.');
+      content.replaceWith(renderNavigationDebug(data));
+      loaded = true;
+    } catch (error) {
+      content.textContent = error.message || 'Unable to load navigation data.';
+    }
+  });
+  return details;
+}
+
 function renderItem(item) {
   const card = document.createElement('article');
   card.className = 'response-card';
@@ -106,7 +193,7 @@ function renderItem(item) {
     footer.append(remove);
   }
 
-  card.append(meta, question, answer, footer);
+  card.append(meta, question, answer, createNavigationDetails(item), footer);
   return card;
 }
 

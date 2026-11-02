@@ -1,0 +1,4 @@
+[   60070ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8000/api/geolocation:0
+[   60070ms] [WARNING] Could not send the location update; it will retry. TypeError: Failed to fetch
+    at sendLocation (http://localhost:8000/geolocation.js:79:30)
+    at http://localhost:8000/geolocation.js:145:33 @ http://localhost:8000/geolocation.js:87
